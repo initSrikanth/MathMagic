@@ -1,0 +1,356 @@
+:root {
+  --light-blue: #D9F0FF;
+  --blue: #1976D2;
+  --dark-blue: #0D47A1;
+  --white: #FFFFFF;
+  --green: #2E7D32;
+  --red: #C62828;
+  --orange: #EF6C00;
+  --grey: #607D8B;
+  --border: #0D47A1;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; min-height: 100%; }
+
+body {
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+button, input { font: inherit; }
+
+.app-shell {
+  width: min(1024px, 100%);
+  min-height: 768px;
+  margin: 0 auto;
+  background: var(--light-blue);
+}
+
+.app-header {
+  min-height: 80px;
+  background: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: clamp(1.65rem, 4vw, 2.15rem);
+  line-height: 1.15;
+}
+
+.info-bar {
+  min-height: 58px;
+  background: var(--blue);
+  color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 35px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.info-bar > :nth-child(2) { text-align: center; }
+.info-bar > :nth-child(3) { text-align: right; }
+
+.progress-track {
+  height: 12px;
+  width: 100%;
+  background: var(--white);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 4%;
+  background: var(--green);
+  transition: width 180ms ease;
+}
+
+.quiz-area {
+  text-align: center;
+  padding: 10px 28px 22px;
+}
+
+.topic {
+  min-height: 26px;
+  margin-top: 2px;
+  color: var(--blue);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.instruction {
+  min-height: 31px;
+  margin-top: 3px;
+  font-size: 1.28rem;
+  font-weight: 700;
+}
+
+.question-display {
+  min-height: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px;
+}
+
+.answer-title {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 2px;
+}
+
+.answer-area {
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+}
+
+.feedback {
+  min-height: 31px;
+  padding: 4px 12px;
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.feedback.correct { color: var(--green); }
+.feedback.incorrect { color: var(--red); }
+.feedback.info { color: var(--dark-blue); }
+
+/* Fraction layout */
+.fraction {
+  display: inline-grid;
+  grid-template-rows: auto 3px auto;
+  min-width: 70px;
+  align-items: center;
+  justify-items: center;
+  vertical-align: middle;
+  color: var(--dark-blue);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.fraction .bar {
+  width: 100%;
+  min-width: 64px;
+  height: 3px;
+  background: var(--dark-blue);
+  margin: 5px 0;
+}
+
+.expression {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.operator, .equals {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.mixed-number {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whole-display {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.missing { color: var(--red); }
+
+/* Answer controls */
+.number-input {
+  width: 82px;
+  height: 48px;
+  border: 3px solid var(--dark-blue);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--dark-blue);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 5px 8px;
+}
+
+.number-input:focus {
+  outline: 3px solid rgba(25, 118, 210, 0.25);
+  outline-offset: 2px;
+}
+
+.fraction-entry {
+  display: grid;
+  grid-template-rows: auto 3px auto;
+  gap: 6px;
+  justify-items: center;
+  align-items: center;
+}
+
+.fraction-entry .entry-bar {
+  width: 88px;
+  height: 3px;
+  background: var(--dark-blue);
+}
+
+.mixed-entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.answer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.entry-label {
+  color: var(--blue);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.choice-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 20px;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 7px 12px 0;
+}
+
+.game-buttons button,
+.choice-buttons button {
+  min-width: 135px;
+  min-height: 54px;
+  border: 3px solid #B8C8D8;
+  border-radius: 5px;
+  background: var(--white);
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.choice-buttons button {
+  min-width: 180px;
+  min-height: 68px;
+  font-size: 1.25rem;
+}
+
+.game-buttons button:hover:not(:disabled),
+.choice-buttons button:hover:not(:disabled) {
+  background: #EFF8FF;
+  border-color: var(--blue);
+}
+
+.game-buttons button:focus-visible,
+.choice-buttons button:focus-visible {
+  outline: 3px solid rgba(25, 118, 210, 0.3);
+  outline-offset: 3px;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.final-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.final-score .score-big {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.final-score .percent-big {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+@media (max-width: 700px) {
+  .app-shell { min-height: 100vh; }
+  .info-bar {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 10px 16px;
+  }
+  .info-bar > :nth-child(2),
+  .info-bar > :nth-child(3) { text-align: center; }
+  .quiz-area { padding-inline: 12px; }
+  .expression { gap: 12px; }
+  .fraction { min-width: 58px; font-size: 1.55rem; }
+  .operator, .equals { font-size: 2rem; }
+  .game-buttons button { flex: 1 1 130px; }
+}
+
+/* MathMagic navigation added for the authenticated website version */
+.mathmagic-nav {
+  width: min(1385px, calc(100% - 32px));
+  margin: 18px auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.mathmagic-brand {
+  font-weight: 800;
+  font-size: 1.35rem;
+  color: #06445a;
+  text-decoration: none;
+}
+.mathmagic-nav-actions { display: flex; gap: 10px; align-items: center; }
+.mathmagic-nav button, .mathmagic-nav .dashboard-link {
+  border: 2px solid #16a6bd;
+  border-radius: 12px;
+  padding: 9px 14px;
+  background: #fff;
+  color: #087f96;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mathmagic-nav button:hover, .mathmagic-nav .dashboard-link:hover { background: #eaf9fc; }
+.auth-loading { visibility: hidden; }
+
+/* Decimals & Percentages additions */
+.question-text{font-size:clamp(1.65rem,4vw,2.35rem);font-weight:800;color:var(--dark-blue);line-height:1.35}.money{font-variant-numeric:tabular-nums}.answer-row{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}.answer-suffix,.answer-prefix{font-size:1.55rem;font-weight:800;color:var(--dark-blue)}.choice-buttons.compact{gap:12px}.choice-buttons.compact button{min-width:120px}.word-problem{max-width:760px;font-size:clamp(1.25rem,3vw,1.7rem);line-height:1.45;font-weight:700;color:var(--dark-blue)}
