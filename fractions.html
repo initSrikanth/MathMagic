@@ -1,476 +1,55 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MathMagic | Fraction Challenge</title><link rel="stylesheet" href="css/style.css"></head>
-<body class="protected-page"><header class="topbar"><a class="logo" href="dashboard.html">Math<span>Magic</span></a><div class="user-area"><a class="outline-button" href="dashboard.html">Dashboard</a><button class="outline-button" data-logout>Log out</button></div></header><main class="quiz-wrap"><section class="app-shell" aria-labelledby="app-title"><header class="app-header"><h1 id="app-title">GRADE 5–6 FRACTION CHALLENGE</h1></header><section class="info-bar"><div id="questionNumber">Question: 1 / 25</div><div id="level">EASY</div><div id="score">Score: 0</div></section><div class="progress-track"><div id="progressBar" class="progress-bar"></div></div><section class="quiz-area"><div id="topic" class="topic"></div><div id="instruction" class="instruction"></div><div id="questionDisplay" class="question-display"></div><div id="answerTitle" class="answer-title">YOUR ANSWER</div><div id="answerArea" class="answer-area"></div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="game-buttons"><button id="checkBtn">CHECK</button><button id="nextBtn">NEXT</button><button id="resetBtn">RESET</button><button id="newQuizBtn">NEW QUIZ</button></div></section></section></main><script type="module" src="js/auth-guard.js"></script><script>
-'use strict';
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MathMagic Grade 5–6 Fraction Challenge — a 25-question interactive fraction quiz.">
+  <title>Fraction Challenge | MathMagic</title>
+  <link rel="stylesheet" href="css/fractions.css">
+</head>
+<body class="auth-loading">
+  <nav class="mathmagic-nav" aria-label="MathMagic navigation">
+    <a class="mathmagic-brand" href="dashboard.html">MathMagic</a>
+    <div class="mathmagic-nav-actions">
+      <a class="dashboard-link" href="dashboard.html">Dashboard</a>
+      <button id="logoutBtn" type="button">Log out</button>
+    </div>
+  </nav>
 
-class FractionQuiz {
-  constructor() {
-    this.totalQuestions = 25;
-    this.questions = this.generateQuiz();
-    this.currentQuestion = 0;
-    this.score = 0;
-    this.answered = false;
+  <main class="app-shell" aria-labelledby="app-title">
+    <header class="app-header">
+      <h1 id="app-title">GRADE 5–6 FRACTION CHALLENGE</h1>
+    </header>
 
-    this.el = {
-      questionNumber: document.getElementById('questionNumber'),
-      level: document.getElementById('level'),
-      score: document.getElementById('score'),
-      progressBar: document.getElementById('progressBar'),
-      topic: document.getElementById('topic'),
-      instruction: document.getElementById('instruction'),
-      questionDisplay: document.getElementById('questionDisplay'),
-      answerTitle: document.getElementById('answerTitle'),
-      answerArea: document.getElementById('answerArea'),
-      feedback: document.getElementById('feedback'),
-      checkBtn: document.getElementById('checkBtn'),
-      nextBtn: document.getElementById('nextBtn'),
-      resetBtn: document.getElementById('resetBtn'),
-      newQuizBtn: document.getElementById('newQuizBtn')
-    };
+    <section class="info-bar" aria-label="Quiz status">
+      <div id="questionNumber">Question: 1 / 25</div>
+      <div id="level">EASY</div>
+      <div id="score">Score: 0</div>
+    </section>
 
-    this.el.checkBtn.addEventListener('click', () => this.checkAnswer());
-    this.el.nextBtn.addEventListener('click', () => this.nextQuestion());
-    this.el.resetBtn.addEventListener('click', () => this.resetQuiz());
-    this.el.newQuizBtn.addEventListener('click', () => this.newQuiz());
+    <div class="progress-track" aria-label="Quiz progress">
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
 
-    this.displayQuestion();
-  }
+    <section class="quiz-area">
+      <div id="topic" class="topic"></div>
+      <div id="instruction" class="instruction"></div>
+      <div id="questionDisplay" class="question-display"></div>
 
-  // ---------- Maths helpers ----------
-  gcd(a, b) {
-    a = Math.abs(a); b = Math.abs(b);
-    while (b !== 0) [a, b] = [b, a % b];
-    return a || 1;
-  }
+      <div id="answerTitle" class="answer-title">YOUR ANSWER</div>
+      <div id="answerArea" class="answer-area"></div>
+      <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
 
-  simplify(n, d) {
-    if (d === 0) return null;
-    const g = this.gcd(n, d);
-    const sign = d < 0 ? -1 : 1;
-    return [sign * n / g, sign * d / g];
-  }
+      <div class="game-buttons">
+        <button id="checkBtn" type="button">CHECK</button>
+        <button id="nextBtn" type="button">NEXT</button>
+        <button id="resetBtn" type="button">RESET</button>
+        <button id="newQuizBtn" type="button">NEW QUIZ</button>
+      </div>
+    </section>
+  </main>
 
-  equalFractions(n1, d1, n2, d2) {
-    return d1 !== 0 && d2 !== 0 && n1 * d2 === n2 * d1;
-  }
-
-  rand(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-
-  choice(arr) {
-    return arr[this.rand(0, arr.length - 1)];
-  }
-
-  shuffle(arr) {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = this.rand(0, i);
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
-  // ---------- Quiz generation ----------
-  generateQuiz() {
-    const easy = [];
-    const developing = [];
-    const challenge = [];
-
-    let d = this.rand(3, 10);
-    easy.push({
-      type: 'identify', level: 'EASY', topic: 'Proper and Improper Fractions',
-      instruction: 'Is this a PROPER or IMPROPER fraction?',
-      fraction: [this.rand(1, d - 1), d], answer: 'proper'
-    });
-
-    d = this.rand(2, 8);
-    easy.push({
-      type: 'identify', level: 'EASY', topic: 'Proper and Improper Fractions',
-      instruction: 'Is this a PROPER or IMPROPER fraction?',
-      fraction: [this.rand(d + 1, d * 2), d], answer: 'improper'
-    });
-
-    easy.push(this.makeEquivalent('EASY'));
-    easy.push(this.makeSimplify('EASY'));
-    easy.push(this.makeLikeAddition('EASY'));
-    easy.push(this.makeLikeAddition('EASY'));
-    easy.push(this.makeLikeSubtraction('EASY'));
-    easy.push(this.makeLikeSubtraction('EASY'));
-
-    developing.push(this.makeImproperToMixed('DEVELOPING'));
-    developing.push(this.makeMixedToImproper('DEVELOPING'));
-    developing.push(this.makeEquivalent('DEVELOPING'));
-    developing.push(this.makeMissingNumerator());
-    developing.push(this.makeMissingDenominator());
-    developing.push(this.makeUnlikeAddition('DEVELOPING', false));
-    developing.push(this.makeUnlikeAddition('DEVELOPING', false));
-    developing.push(this.makeUnlikeSubtraction('DEVELOPING'));
-    developing.push(this.makeSimplify('DEVELOPING'));
-
-    challenge.push(this.makeImproperToMixed('CHALLENGE'));
-    challenge.push(this.makeMixedToImproper('CHALLENGE'));
-    challenge.push(this.makeUnlikeAddition('CHALLENGE', true));
-    challenge.push(this.makeUnlikeAddition('CHALLENGE', true));
-    challenge.push(this.makeUnlikeSubtraction('CHALLENGE'));
-    challenge.push(this.makeUnlikeSubtraction('CHALLENGE'));
-    challenge.push(this.makeSimplify('CHALLENGE'));
-    challenge.push(this.makeEquivalent('CHALLENGE'));
-
-    return [...this.shuffle(easy), ...this.shuffle(developing), ...this.shuffle(challenge)];
-  }
-
-  makeEquivalent(level) {
-    const d = this.rand(3, 8);
-    const n = this.rand(1, d - 1);
-    const m = this.rand(2, 4);
-    const ans = this.simplify(n * m, d * m);
-    return {
-      type: 'calculation', level, topic: 'Equivalent Fractions',
-      instruction: 'Write this fraction in simplest form.',
-      fraction1: [n * m, d * m], singleFraction: true, answer: ans
-    };
-  }
-
-  makeSimplify(level) {
-    const d = this.rand(3, level === 'CHALLENGE' ? 12 : 9);
-    const n = this.rand(1, d - 1);
-    const m = this.rand(2, level === 'CHALLENGE' ? 6 : 5);
-    const bigN = n * m, bigD = d * m;
-    return {
-      type: 'calculation', level, topic: 'Simplifying Fractions',
-      instruction: 'Simplify this fraction.',
-      fraction1: [bigN, bigD], singleFraction: true,
-      answer: this.simplify(bigN, bigD)
-    };
-  }
-
-  makeImproperToMixed(level) {
-    let d = level === 'CHALLENGE' ? this.rand(3, 9) : this.rand(2, 6);
-    const whole = level === 'CHALLENGE' ? this.rand(2, 5) : this.rand(1, 3);
-    let remainder = this.rand(1, d - 1);
-    [remainder, d] = this.simplify(remainder, d);
-    const n = whole * d + remainder;
-    return {
-      type: 'improper_to_mixed', level, topic: 'Mixed Numbers',
-      instruction: 'Change this improper fraction to a mixed number.',
-      fraction: [n, d], answer: [whole, remainder, d]
-    };
-  }
-
-  makeMixedToImproper(level) {
-    let d = level === 'CHALLENGE' ? this.rand(3, 9) : this.rand(2, 6);
-    const whole = level === 'CHALLENGE' ? this.rand(2, 5) : this.rand(1, 3);
-    let n = this.rand(1, d - 1);
-    [n, d] = this.simplify(n, d);
-    return {
-      type: 'mixed_to_improper', level, topic: 'Mixed Numbers',
-      instruction: 'Change this mixed number to an improper fraction.',
-      whole, fraction: [n, d], answer: [whole * d + n, d]
-    };
-  }
-
-  makeLikeAddition(level) {
-    const d = this.rand(4, 12);
-    const n1 = this.rand(1, d - 2);
-    const n2 = this.rand(1, d - n1 - 1);
-    return {
-      type: 'calculation', level, topic: 'Adding Like Fractions',
-      instruction: 'Add these fractions.',
-      fraction1: [n1, d], operator: '+', fraction2: [n2, d],
-      answer: this.simplify(n1 + n2, d)
-    };
-  }
-
-  makeLikeSubtraction(level) {
-    const d = this.rand(4, 12);
-    const n1 = this.rand(2, d - 1);
-    const n2 = this.rand(1, n1 - 1);
-    return {
-      type: 'calculation', level, topic: 'Subtracting Like Fractions',
-      instruction: 'Subtract these fractions.',
-      fraction1: [n1, d], operator: '-', fraction2: [n2, d],
-      answer: this.simplify(n1 - n2, d)
-    };
-  }
-
-  makeUnlikeAddition(level, allowOverOne) {
-    const pairs = level === 'CHALLENGE'
-      ? [[3,4],[3,6],[4,6],[4,8],[5,10],[6,8],[6,9],[8,12]]
-      : [[2,4],[2,6],[3,6],[4,8],[5,10]];
-
-    while (true) {
-      const [d1, d2] = this.choice(pairs);
-      const n1 = this.rand(1, d1 - 1), n2 = this.rand(1, d2 - 1);
-      const valueN = n1 * d2 + n2 * d1;
-      const valueD = d1 * d2;
-      const value = valueN / valueD;
-      if ((allowOverOne && value < 2) || (!allowOverOne && value < 1)) {
-        return {
-          type: 'calculation', level, topic: 'Adding Unlike Fractions',
-          instruction: 'Add these fractions. Simplify your answer.',
-          fraction1: [n1,d1], operator: '+', fraction2: [n2,d2],
-          answer: this.simplify(valueN, valueD)
-        };
-      }
-    }
-  }
-
-  makeUnlikeSubtraction(level) {
-    const pairs = level === 'CHALLENGE'
-      ? [[3,4],[3,6],[4,6],[4,8],[5,10],[6,8],[6,9],[8,12]]
-      : [[2,4],[2,6],[3,6],[4,8],[5,10]];
-
-    while (true) {
-      const [d1, d2] = this.choice(pairs);
-      const n1 = this.rand(1, d1 - 1), n2 = this.rand(1, d2 - 1);
-      const left = n1 / d1, right = n2 / d2;
-      if (left > right) {
-        return {
-          type: 'calculation', level, topic: 'Subtracting Unlike Fractions',
-          instruction: 'Subtract these fractions. Simplify your answer.',
-          fraction1: [n1,d1], operator: '-', fraction2: [n2,d2],
-          answer: this.simplify(n1 * d2 - n2 * d1, d1 * d2)
-        };
-      }
-    }
-  }
-
-  makeMissingNumerator() {
-    const d = this.rand(2, 7), n = this.rand(1, d - 1), m = this.rand(2, 4);
-    return {
-      type: 'missing_numerator', level: 'DEVELOPING', topic: 'Equivalent Fractions',
-      instruction: 'Find the missing numerator.', fraction1: [n,d],
-      fraction2Denominator: d * m, answer: n * m
-    };
-  }
-
-  makeMissingDenominator() {
-    const d = this.rand(2, 7), n = this.rand(1, d - 1), m = this.rand(2, 4);
-    return {
-      type: 'missing_denominator', level: 'DEVELOPING', topic: 'Equivalent Fractions',
-      instruction: 'Find the missing denominator.', fraction1: [n,d],
-      fraction2Numerator: n * m, answer: d * m
-    };
-  }
-
-  // ---------- Rendering ----------
-  fractionHTML(n, d, missingTop = false, missingBottom = false) {
-    return `<span class="fraction">
-      <span class="${missingTop ? 'missing' : ''}">${missingTop ? '?' : n}</span>
-      <span class="bar"></span>
-      <span class="${missingBottom ? 'missing' : ''}">${missingBottom ? '?' : d}</span>
-    </span>`;
-  }
-
-  mixedHTML(whole, n, d) {
-    return `<span class="mixed-number"><span class="whole-display">${whole}</span>${this.fractionHTML(n,d)}</span>`;
-  }
-
-  displayQuestion() {
-    const q = this.questions[this.currentQuestion];
-    this.answered = false;
-    this.el.feedback.textContent = '';
-    this.el.feedback.className = 'feedback';
-    this.el.answerTitle.textContent = 'YOUR ANSWER';
-    this.el.checkBtn.disabled = false;
-    this.el.nextBtn.disabled = false;
-
-    this.el.questionNumber.textContent = `Question: ${this.currentQuestion + 1} / ${this.totalQuestions}`;
-    this.el.level.textContent = q.level;
-    this.el.score.textContent = `Score: ${this.score}`;
-    this.el.topic.textContent = q.topic;
-    this.el.instruction.textContent = q.instruction;
-    this.el.progressBar.style.width = `${((this.currentQuestion + 1) / this.totalQuestions) * 100}%`;
-
-    this.el.questionDisplay.innerHTML = '';
-    this.el.answerArea.innerHTML = '';
-
-    if (q.type === 'identify') {
-      this.el.questionDisplay.innerHTML = this.fractionHTML(...q.fraction);
-      this.el.answerArea.innerHTML = `<div class="choice-buttons">
-        <button type="button" data-choice="proper">PROPER</button>
-        <button type="button" data-choice="improper">IMPROPER</button>
-      </div>`;
-      this.el.answerArea.querySelectorAll('[data-choice]').forEach(btn => {
-        btn.addEventListener('click', () => this.checkIdentify(btn.dataset.choice));
-      });
-      this.el.checkBtn.disabled = true;
-    } else if (q.type === 'improper_to_mixed') {
-      this.el.questionDisplay.innerHTML = this.fractionHTML(...q.fraction);
-      this.renderMixedEntry();
-    } else if (q.type === 'mixed_to_improper') {
-      this.el.questionDisplay.innerHTML = this.mixedHTML(q.whole, ...q.fraction);
-      this.renderFractionEntry();
-    } else if (q.type === 'missing_numerator') {
-      this.el.questionDisplay.innerHTML = `<div class="expression">${this.fractionHTML(...q.fraction1)}<span class="equals">=</span>${this.fractionHTML('', q.fraction2Denominator, true, false)}</div>`;
-      this.renderSingleEntry();
-    } else if (q.type === 'missing_denominator') {
-      this.el.questionDisplay.innerHTML = `<div class="expression">${this.fractionHTML(...q.fraction1)}<span class="equals">=</span>${this.fractionHTML(q.fraction2Numerator, '', false, true)}</div>`;
-      this.renderSingleEntry();
-    } else if (q.type === 'calculation') {
-      if (q.singleFraction) {
-        this.el.questionDisplay.innerHTML = this.fractionHTML(...q.fraction1);
-      } else {
-        this.el.questionDisplay.innerHTML = `<div class="expression">${this.fractionHTML(...q.fraction1)}<span class="operator">${q.operator}</span>${this.fractionHTML(...q.fraction2)}<span class="equals">= ?</span></div>`;
-      }
-      this.renderFractionEntry();
-    }
-  }
-
-  renderFractionEntry() {
-    this.el.answerArea.innerHTML = `<div class="fraction-entry">
-      <input id="numeratorInput" class="number-input" inputmode="numeric" aria-label="Numerator">
-      <span class="entry-bar"></span>
-      <input id="denominatorInput" class="number-input" inputmode="numeric" aria-label="Denominator">
-    </div>`;
-    const n = document.getElementById('numeratorInput');
-    const d = document.getElementById('denominatorInput');
-    n.addEventListener('keydown', e => { if (e.key === 'Enter') d.focus(); });
-    d.addEventListener('keydown', e => { if (e.key === 'Enter') this.checkAnswer(); });
-    n.focus();
-  }
-
-  renderMixedEntry() {
-    this.el.answerArea.innerHTML = `<div class="mixed-entry">
-      <div class="answer-column"><span class="entry-label">Whole</span><input id="wholeInput" class="number-input" inputmode="numeric" aria-label="Whole number"></div>
-      <div class="answer-column"><span class="entry-label">Numerator</span><div class="fraction-entry"><input id="numeratorInput" class="number-input" inputmode="numeric" aria-label="Numerator"><span class="entry-bar"></span><input id="denominatorInput" class="number-input" inputmode="numeric" aria-label="Denominator"></div><span class="entry-label">Denominator</span></div>
-    </div>`;
-    const w = document.getElementById('wholeInput');
-    const n = document.getElementById('numeratorInput');
-    const d = document.getElementById('denominatorInput');
-    w.addEventListener('keydown', e => { if (e.key === 'Enter') n.focus(); });
-    n.addEventListener('keydown', e => { if (e.key === 'Enter') d.focus(); });
-    d.addEventListener('keydown', e => { if (e.key === 'Enter') this.checkAnswer(); });
-    w.focus();
-  }
-
-  renderSingleEntry() {
-    this.el.answerArea.innerHTML = `<input id="singleInput" class="number-input" inputmode="numeric" aria-label="Answer">`;
-    const input = document.getElementById('singleInput');
-    input.addEventListener('keydown', e => { if (e.key === 'Enter') this.checkAnswer(); });
-    input.focus();
-  }
-
-  // ---------- Checking ----------
-  setFeedback(text, type) {
-    this.el.feedback.textContent = text;
-    this.el.feedback.className = `feedback ${type}`;
-  }
-
-  checkIdentify(answer) {
-    if (this.answered) return;
-    const q = this.questions[this.currentQuestion];
-    if (answer === q.answer) {
-      this.score++;
-      this.setFeedback('Correct! Well done!', 'correct');
-    } else {
-      this.setFeedback(`Not quite. This is a ${q.answer.toUpperCase()} fraction.`, 'incorrect');
-    }
-    this.el.score.textContent = `Score: ${this.score}`;
-    this.answered = true;
-    this.el.answerArea.querySelectorAll('button').forEach(b => b.disabled = true);
-  }
-
-  readInteger(id) {
-    const el = document.getElementById(id);
-    if (!el || el.value.trim() === '') return null;
-    if (!/^-?\d+$/.test(el.value.trim())) return NaN;
-    return Number(el.value.trim());
-  }
-
-  checkAnswer() {
-    if (this.answered) return;
-    const q = this.questions[this.currentQuestion];
-    let correct = false;
-    let answerText = '';
-
-    if (q.type === 'missing_numerator' || q.type === 'missing_denominator') {
-      const value = this.readInteger('singleInput');
-      if (value === null) return this.setFeedback('Please enter your answer.', 'incorrect');
-      if (Number.isNaN(value)) return this.setFeedback('Please enter a whole number.', 'incorrect');
-      correct = value === q.answer;
-      answerText = String(q.answer);
-    } else if (q.type === 'improper_to_mixed') {
-      const whole = this.readInteger('wholeInput');
-      const n = this.readInteger('numeratorInput');
-      const d = this.readInteger('denominatorInput');
-      if ([whole,n,d].some(v => v === null)) return this.setFeedback('Please complete all three boxes.', 'incorrect');
-      if ([whole,n,d].some(Number.isNaN)) return this.setFeedback('Please enter numbers only.', 'incorrect');
-      if (d === 0) return this.setFeedback('The denominator cannot be zero.', 'incorrect');
-      const [cw, cn, cd] = q.answer;
-      correct = whole === cw && this.equalFractions(n,d,cn,cd);
-      answerText = `${cw} ${cn}/${cd}`;
-    } else {
-      const n = this.readInteger('numeratorInput');
-      const d = this.readInteger('denominatorInput');
-      if (n === null || d === null) return this.setFeedback('Please complete both boxes.', 'incorrect');
-      if (Number.isNaN(n) || Number.isNaN(d)) return this.setFeedback('Please enter numbers only.', 'incorrect');
-      if (d === 0) return this.setFeedback('The denominator cannot be zero.', 'incorrect');
-      const [cn, cd] = q.answer;
-      correct = this.equalFractions(n,d,cn,cd);
-      answerText = `${cn}/${cd}`;
-    }
-
-    if (correct) {
-      this.score++;
-      this.setFeedback('Correct! Well done!', 'correct');
-    } else {
-      this.setFeedback(`Not quite. The correct answer is ${answerText}`, 'incorrect');
-    }
-
-    this.el.score.textContent = `Score: ${this.score}`;
-    this.answered = true;
-    this.el.checkBtn.disabled = true;
-    this.el.answerArea.querySelectorAll('input,button').forEach(el => el.disabled = true);
-  }
-
-  nextQuestion() {
-    if (!this.answered) {
-      this.setFeedback('Please answer the question first.', 'incorrect');
-      return;
-    }
-    this.currentQuestion++;
-    if (this.currentQuestion < this.totalQuestions) this.displayQuestion();
-    else this.showFinalScore();
-  }
-
-  showFinalScore() {
-    const percentage = Math.round((this.score / this.totalQuestions) * 100);
-    this.el.topic.textContent = 'CHALLENGE COMPLETE!';
-    this.el.instruction.textContent = 'Your Final Score';
-    this.el.level.textContent = 'FINISHED';
-    this.el.answerTitle.textContent = '';
-    this.el.progressBar.style.width = '100%';
-    this.el.questionDisplay.innerHTML = `<div class="final-score"><div class="score-big">${this.score} / ${this.totalQuestions}</div><div class="percent-big">${percentage}%</div></div>`;
-    this.el.answerArea.innerHTML = '';
-
-    let message;
-    if (percentage >= 90) message = 'Excellent fraction work!';
-    else if (percentage >= 75) message = 'Very good work!';
-    else if (percentage >= 60) message = 'Good progress. Keep practising!';
-    else message = 'Keep practising — you are building your fraction skills!';
-
-    this.setFeedback(message, 'info');
-    this.el.checkBtn.disabled = true;
-    this.el.nextBtn.disabled = true;
-  }
-
-  resetQuiz() {
-    if (!window.confirm('Restart the same 25 questions?')) return;
-    this.currentQuestion = 0;
-    this.score = 0;
-    this.answered = false;
-    this.displayQuestion();
-  }
-
-  newQuiz() {
-    if (!window.confirm('Generate 25 new fraction questions?')) return;
-    this.questions = this.generateQuiz();
-    this.currentQuestion = 0;
-    this.score = 0;
-    this.answered = false;
-    this.displayQuestion();
-  }
-}
-
-new FractionQuiz();
-</script></body></html>
+  <script type="module" src="js/fractions-auth.js"></script>
+  <script src="js/fractions.js"></script>
+</body>
+</html>
