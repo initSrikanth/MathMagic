@@ -1,7 +1,7 @@
 // MathMagic Firebase configuration
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCyKR142HXqpJm-DAYGpoIrfi_aHP-mtxTY",
+  apiKey: "AIzaSyCykRI42HXqpJm-DAYGpoTrf_aHP-mtxTY",
   authDomain: "mathmagic-1fffd.firebaseapp.com",
   projectId: "mathmagic-1fffd",
   storageBucket: "mathmagic-1fffd.firebasestorage.app",
