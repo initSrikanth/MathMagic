@@ -1,26 +1,46 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js";
 
 const configured = !firebaseConfig.apiKey.includes("PASTE_");
+
 if (!configured) {
   alert("Firebase is not configured. Add your Firebase web configuration first.");
   window.location.replace("index.html");
 } else {
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
+  const db = getFirestore(app);
 
-  onAuthStateChanged(auth, (user) => {
+  onAuthStateChanged(auth, async (user) => {
     if (!user) {
       window.location.replace("index.html");
       return;
     }
-    document.body.classList.add("authenticated");
-    document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
-    document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
-    document.querySelectorAll("[data-user-photo]").forEach(el => {
-      if (user.photoURL) { el.src = user.photoURL; el.hidden = false; }
-    });
+
+    try {
+      const accessSnap = await getDoc(doc(db, "access", user.uid));
+      const approved = accessSnap.exists() && accessSnap.data().approved === true;
+
+      if (!approved) {
+        window.location.replace("access-required.html");
+        return;
+      }
+
+      document.body.classList.add("authenticated");
+      document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
+      document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
+      document.querySelectorAll("[data-user-photo]").forEach(el => {
+        if (user.photoURL) {
+          el.src = user.photoURL;
+          el.hidden = false;
+        }
+      });
+    } catch (error) {
+      console.error("MathMagic access check failed:", error);
+      window.location.replace("access-required.html?error=1");
+    }
   });
 
   document.addEventListener("click", async (event) => {
