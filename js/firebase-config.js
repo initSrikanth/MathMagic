@@ -1,11 +1,10 @@
 // MathMagic Firebase configuration
-// Replace the placeholder values below with the config from:
-// Firebase Console > Project settings > Your apps > Web app > SDK setup and configuration
+
 export const firebaseConfig = {
-  apiKey: "PASTE_YOUR_API_KEY_HERE",
-  authDomain: "PASTE_YOUR_PROJECT.firebaseapp.com",
-  projectId: "PASTE_YOUR_PROJECT_ID_HERE",
-  storageBucket: "PASTE_YOUR_PROJECT.firebasestorage.app",
-  messagingSenderId: "PASTE_YOUR_SENDER_ID_HERE",
-  appId: "PASTE_YOUR_APP_ID_HERE"
+  apiKey: "AIzaSyCyKR142HXqpJm-DAYGpoIrfi_aHP-mtxTY",
+  authDomain: "mathmagic-1fffd.firebaseapp.com",
+  projectId: "mathmagic-1fffd",
+  storageBucket: "mathmagic-1fffd.firebasestorage.app",
+  messagingSenderId: "1048211177993",
+  appId: "1:1048211177993:web:96c752e54cca60f5d52ed8"
 };
