@@ -88,6 +88,26 @@ if (!configured) {
         }
       }
 
+      const additionPanel = document.querySelector('[data-topic-progress="addition-subtraction"]');
+      if (additionPanel) {
+        try {
+          const key = "mathmagic:" + user.uid + ":addition-subtraction:progress";
+          const p = JSON.parse(localStorage.getItem(key) || "{}");
+          const attempts = Number(p.attempts || 0);
+          const best = Number(p.bestScore || 0);
+          const proficient = p.proficient === true;
+          additionPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
+          additionPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
+          additionPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
+          additionPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+          const badge = additionPanel.querySelector("[data-proficiency]");
+          badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
+          badge.classList.toggle("achieved", proficient);
+        } catch (progressError) {
+          console.warn("Addition & Subtraction progress could not be loaded:", progressError);
+        }
+      }
+
       document.body.classList.add("authenticated");
       document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
       document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
