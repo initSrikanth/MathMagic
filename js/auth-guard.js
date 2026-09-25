@@ -48,6 +48,26 @@ if (!configured) {
         }
       }
 
+      const fractionsPanel = document.querySelector('[data-topic-progress="fractions"]');
+      if (fractionsPanel) {
+        try {
+          const key = "mathmagic:" + user.uid + ":fractions:progress";
+          const p = JSON.parse(localStorage.getItem(key) || "{}");
+          const attempts = Number(p.attempts || 0);
+          const best = Number(p.bestScore || 0);
+          const proficient = p.proficient === true;
+          fractionsPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
+          fractionsPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
+          fractionsPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
+          fractionsPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+          const badge = fractionsPanel.querySelector("[data-proficiency]");
+          badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
+          badge.classList.toggle("achieved", proficient);
+        } catch (progressError) {
+          console.warn("Fractions progress could not be loaded:", progressError);
+        }
+      }
+
       document.body.classList.add("authenticated");
       document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
       document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
