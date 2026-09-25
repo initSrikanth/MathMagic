@@ -28,6 +28,9 @@ if (!configured) {
         return;
       }
 
+      const progressPanel=document.querySelector('[data-topic-progress="whole-numbers"]');
+      if(progressPanel){try{const pSnap=await getDoc(doc(db,"progress",user.uid,"topics","whole-numbers"));const p=pSnap.exists()?pSnap.data():{},attempts=Number(p.attempts||0),best=Number(p.bestScore||0),proficient=p.proficient===true;progressPanel.querySelector(".practice-dots").textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");progressPanel.querySelector("[data-attempts]").textContent=`${Math.min(attempts,5)}/5${attempts>5?` • ${attempts} total`:""}`;progressPanel.querySelector("[data-progress-bar]").style.width=`${Math.min(attempts,5)*20}%`;progressPanel.querySelector("[data-best]").textContent=attempts?`Best: ${best}/20`:"Best: —";const badge=progressPanel.querySelector("[data-proficiency]");badge.textContent=proficient?"✓ PROFICIENT":"IN PROGRESS";badge.classList.toggle("achieved",proficient)}catch(progressError){console.warn("Dashboard progress could not be loaded:",progressError)}}
+
       document.body.classList.add("authenticated");
       document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
       document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
