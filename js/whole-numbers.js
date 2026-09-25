@@ -46,12 +46,10 @@ function identifyPlaceQuestion(){
   const n = makeNumberWithDigitAtPlace(place,digit);
   return {
     topic:"Place Value",
-    prompt:`In ${fmt(n)}, which place is the highlighted digit in?`,
+    prompt:`In ${fmt(n)}, which digit is in the ${PLACE_NAMES[place]} place?`,
     display:fmt(n),
-    highlightPlace:place,
-    answer:PLACE_NAMES[place],
-    type:"select",
-    options:["tens","hundreds","thousands","ten thousands","hundred thousands"]
+    answer:String(digit),
+    type:"number"
   };
 }
 function expandedQuestion(){
