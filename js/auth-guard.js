@@ -1,6 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
-import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+import { getFirestore, doc, getDoc, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js";
 
 const configured = !firebaseConfig.apiKey.includes("PASTE_");
@@ -31,20 +31,44 @@ if (!configured) {
       const progressPanel = document.querySelector('[data-topic-progress="whole-numbers"]');
       if (progressPanel) {
         try {
-          const key = "mathmagic:" + user.uid + ":whole-numbers:progress";
-          const p = JSON.parse(localStorage.getItem(key) || "{}");
-          const attempts = Number(p.attempts || 0);
-          const best = Number(p.bestScore || 0);
-          const proficient = p.proficient === true;
-          progressPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
-          progressPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
-          progressPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
-          progressPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
-          const badge = progressPanel.querySelector("[data-proficiency]");
-          badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
-          badge.classList.toggle("achieved", proficient);
+          const localKey = "mathmagic:" + user.uid + ":whole-numbers:progress";
+          const progressRef = doc(db, "progress", user.uid, "topics", "whole-numbers");
+          const snap = await getDoc(progressRef);
+          let p;
+          if (snap.exists()) {
+            p = snap.data();
+            localStorage.setItem(localKey, JSON.stringify(p));
+          } else {
+            try { p = JSON.parse(localStorage.getItem(localKey) || "{}"); } catch { p = {}; }
+            if (Number(p.attempts || 0) > 0) await setDoc(progressRef, p);
+          }
+          const paintWholeNumbers = (data = {}) => {
+            const attempts = Number(data.attempts || 0), best = Number(data.bestScore || 0), proficient = data.proficient === true;
+            progressPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
+            progressPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
+            progressPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
+            progressPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+            const badge = progressPanel.querySelector("[data-proficiency]");
+            badge.textContent = proficient ? "✓ PROFICIENT" : attempts > 0 ? "IN PROGRESS" : "START";
+            badge.classList.toggle("achieved", proficient);
+          };
+          paintWholeNumbers(p);
+          const reset = progressPanel.querySelector('[data-reset-topic="whole-numbers"]');
+          reset?.addEventListener("click", async (event) => {
+            event.preventDefault(); event.stopPropagation();
+            if (!confirm("Reset Whole Numbers progress to 0? This clears attempts, best score and proficiency on all devices.")) return;
+            reset.disabled = true;
+            try {
+              await deleteDoc(progressRef);
+              localStorage.removeItem(localKey);
+              paintWholeNumbers({});
+            } catch (e) {
+              console.error("Whole Numbers reset failed:", e);
+              alert("Progress could not be reset. Please try again.");
+            } finally { reset.disabled = false; }
+          });
         } catch (progressError) {
-          console.warn("Dashboard progress could not be loaded:", progressError);
+          console.warn("Whole Numbers cloud progress could not be loaded:", progressError);
         }
       }
 
