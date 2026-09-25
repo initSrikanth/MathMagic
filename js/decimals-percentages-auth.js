@@ -1,1 +1,31 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";import { getAuth,onAuthStateChanged,signOut } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";import { getFirestore,doc,getDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";import { firebaseConfig } from "./firebase-config.js";const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);onAuthStateChanged(auth,async user=>{if(!user){location.replace("index.html");return}try{const snap=await getDoc(doc(db,"access",user.uid));if(!(snap.exists()&&snap.data().approved===true)){location.replace("access-required.html");return}document.body.classList.remove("auth-loading")}catch(e){console.error("MathMagic access check failed:",e);location.replace("access-required.html?error=1")}});document.getElementById("logoutBtn")?.addEventListener("click",async()=>{await signOut(auth);location.replace("index.html")});
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+import { getAuth,onAuthStateChanged,signOut } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+import { getFirestore,doc,getDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+import { firebaseConfig } from "./firebase-config.js";
+const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
+function key(uid){return "mathmagic:"+uid+":decimals-percentages:progress"}
+function readProgress(uid){try{return JSON.parse(localStorage.getItem(key(uid))||"{}")}catch{return{}}}
+function saveProgress(uid,data){localStorage.setItem(key(uid),JSON.stringify(data))}
+function paint(data={}){
+ const attempts=Number(data.attempts||0),best=Number(data.bestScore||0),proficient=data.proficient===true;
+ const dots=document.getElementById("attemptDots"),at=document.getElementById("attemptText"),bt=document.getElementById("bestText"),pr=document.getElementById("proficiencyText");
+ if(dots)dots.textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");
+ if(at)at.textContent=attempts<5?attempts+" of 5 completed":"5 of 5 minimum completed • "+attempts+" total attempts";
+ if(bt)bt.textContent=attempts?"Best: "+best+"/20":"Best: —";
+ if(pr){pr.textContent=proficient?"✓ PROFICIENT":"Proficiency: In progress";pr.classList.toggle("proficient",proficient)}
+}
+onAuthStateChanged(auth,async user=>{
+ if(!user){location.replace("index.html");return}
+ try{
+  const snap=await getDoc(doc(db,"access",user.uid));
+  if(!(snap.exists()&&snap.data().approved===true)){location.replace("access-required.html");return}
+  paint(readProgress(user.uid));
+  window.MathMagicDecimalsProgress={async saveAttempt(score){
+   const old=readProgress(user.uid),attempts=Number(old.attempts||0)+1,best=Math.max(Number(old.bestScore||0),Number(score||0)),proficient=old.proficient===true||Number(score)===20;
+   const data={attempts,bestScore:best,lastScore:Number(score||0),proficient,lastCompletedAt:new Date().toISOString()};
+   saveProgress(user.uid,data);paint(data);return data;
+  }};
+  document.body.classList.remove("auth-loading");
+ }catch(e){console.error("MathMagic access check failed:",e);location.replace("access-required.html?error=1")}
+});
+document.getElementById("logoutBtn")?.addEventListener("click",async()=>{await signOut(auth);location.replace("index.html")});
