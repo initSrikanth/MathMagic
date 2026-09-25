@@ -76,21 +76,24 @@ if (!configured) {
       const fractionsPanel = document.querySelector('[data-topic-progress="fractions"]');
       if (fractionsPanel) {
         try {
-          const key = "mathmagic:" + user.uid + ":fractions:progress";
-          const p = JSON.parse(localStorage.getItem(key) || "{}");
-          const attempts = Number(p.attempts || 0);
-          const best = Number(p.bestScore || 0);
-          const proficient = p.proficient === true;
-          fractionsPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
-          fractionsPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
-          fractionsPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
-          fractionsPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
-          const badge = fractionsPanel.querySelector("[data-proficiency]");
-          badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
-          badge.classList.toggle("achieved", proficient);
-        } catch (progressError) {
-          console.warn("Fractions progress could not be loaded:", progressError);
-        }
+          const localKey = "mathmagic:" + user.uid + ":fractions:progress";
+          const progressRef = doc(db, "progress", user.uid, "topics", "fractions");
+          const snap = await getDoc(progressRef);
+          let p;
+          if (snap.exists()) { p = snap.data(); localStorage.setItem(localKey, JSON.stringify(p)); }
+          else { try { p = JSON.parse(localStorage.getItem(localKey) || "{}"); } catch { p = {}; } if (Number(p.attempts || 0) > 0) await setDoc(progressRef, p); }
+          const paintFractions = (data = {}) => {
+            const attempts=Number(data.attempts||0),best=Number(data.bestScore||0),proficient=data.proficient===true;
+            fractionsPanel.querySelector(".practice-dots").textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");
+            fractionsPanel.querySelector("[data-attempts]").textContent=Math.min(attempts,5)+"/5"+(attempts>5?" • "+attempts+" total":"");
+            fractionsPanel.querySelector("[data-progress-bar]").style.width=(Math.min(attempts,5)*20)+"%";
+            fractionsPanel.querySelector("[data-best]").textContent=attempts?"Best: "+best+"/20":"Best: —";
+            const badge=fractionsPanel.querySelector("[data-proficiency]");badge.textContent=proficient?"✓ PROFICIENT":attempts>0?"IN PROGRESS":"START";badge.classList.toggle("achieved",proficient);
+          };
+          paintFractions(p);
+          const reset=fractionsPanel.querySelector('[data-reset-topic="fractions"]');
+          reset?.addEventListener("click",async event=>{event.preventDefault();event.stopPropagation();if(!confirm("Reset Fractions progress to 0? This clears attempts, best score and proficiency on all devices."))return;reset.disabled=true;try{const resetData={attempts:0,bestScore:0,lastScore:0,proficient:false,lastCompletedAt:null};await setDoc(progressRef,resetData);localStorage.setItem(localKey,JSON.stringify(resetData));paintFractions(resetData)}catch(err){console.error("Fractions reset failed:",err);alert("Progress could not be reset. Please try again.")}finally{reset.disabled=false}});
+        } catch (progressError) { console.warn("Fractions cloud progress could not be loaded:", progressError); }
       }
 
       const decimalsPanel = document.querySelector('[data-topic-progress="decimals-percentages"]');
