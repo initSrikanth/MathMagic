@@ -59,9 +59,10 @@ if (!configured) {
             if (!confirm("Reset Whole Numbers progress to 0? This clears attempts, best score and proficiency on all devices.")) return;
             reset.disabled = true;
             try {
-              await deleteDoc(progressRef);
-              localStorage.removeItem(localKey);
-              paintWholeNumbers({});
+              const resetData = {attempts:0,bestScore:0,lastScore:0,proficient:false,lastCompletedAt:null};
+              await setDoc(progressRef, resetData);
+              localStorage.setItem(localKey, JSON.stringify(resetData));
+              paintWholeNumbers(resetData);
             } catch (e) {
               console.error("Whole Numbers reset failed:", e);
               alert("Progress could not be reset. Please try again.");
