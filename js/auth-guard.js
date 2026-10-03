@@ -87,7 +87,7 @@ if (!configured) {
             fractionsPanel.querySelector(".practice-dots").textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");
             fractionsPanel.querySelector("[data-attempts]").textContent=Math.min(attempts,5)+"/5"+(attempts>5?" • "+attempts+" total":"");
             fractionsPanel.querySelector("[data-progress-bar]").style.width=(Math.min(attempts,5)*20)+"%";
-            fractionsPanel.querySelector("[data-best]").textContent=attempts?"Best: "+best+"/20":"Best: —";
+            fractionsPanel.querySelector("[data-best]").textContent=attempts?"Best: "+best+"/30":"Best: —";
             const badge=fractionsPanel.querySelector("[data-proficiency]");badge.textContent=proficient?"✓ PROFICIENT":attempts>0?"IN PROGRESS":"START";badge.classList.toggle("achieved",proficient);
           };
           paintFractions(p);
