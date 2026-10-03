@@ -3,7 +3,7 @@ const TOTAL=30;
 const screens=[...document.querySelectorAll('.screen')],tabs=[...document.querySelectorAll('.tab')];
 function showScreen(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));tabs.forEach(t=>t.classList.toggle('active',t.dataset.screen===id));window.scrollTo({top:0,behavior:'smooth'});if(id==='challenge'&&!quiz.length)startQuiz()}
 tabs.forEach(t=>t.addEventListener('click',()=>showScreen(t.dataset.screen)));document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.next)));
-document.querySelectorAll('[data-practice]').forEach(b=>b.addEventListener('click',()=>{b.nextElementSibling.textContent='Answer: '+b.dataset.practice}));
+document.querySelectorAll('[data-practice]').forEach(b=>b.addEventListener('click',()=>{b.nextElementSibling.innerHTML='Answer: '+rich(b.dataset.practice)}));
 const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,choice=a=>a[rnd(0,a.length-1)];
 function gcd(a,b){while(b)[a,b]=[b,a%b];return Math.abs(a)||1}function simp(n,d){const g=gcd(n,d);return[n/g,d/g]}function eq(a,b){return a[0]*b[1]===b[0]*a[1]}
 function frac(n,d){return `<span class="frac"><span>${n}</span><i></i><span>${d}</span></span>`}function mixed(w,n,d){return `<span class="mixed"><strong>${w}</strong>${frac(n,d)}</span>`}
