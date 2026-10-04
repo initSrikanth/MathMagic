@@ -41,17 +41,20 @@ function classProjectProblem(){const a=choice([[1,3],[2,5],[3,8]]),b=choice([[1,
 function juiceProblem(){const total=choice([[11,4],[13,4],[17,6]]),used=choice([[3,4],[5,6],[7,8]]),ans=simp(total[0]*used[1]-used[0]*total[1],total[1]*used[1]);return{topic:'Capacity Problem',prompt:'A jug contains '+total[0]+'/'+total[1]+' litres of juice. At lunch, '+used[0]+'/'+used[1]+' litre is served. How much juice remains?',answer:ans,type:'fraction',strict:true,solution:'Subtract the amount served from the amount in the jug. Rename the fractions with a common denominator, subtract, then simplify. The amount remaining is '+ans[0]+'/'+ans[1]+' litres.'}}
 function compareJourneyProblem(){const a=choice([[3,4],[5,6],[7,8]]),b=choice([[2,3],[3,5],[4,5]]),cmp=a[0]*b[1]>b[0]*a[1]?'>':'<';return{topic:'Reasoning in Context',prompt:'Ava completes '+a[0]+'/'+a[1]+' of a cycling route. Ben completes '+b[0]+'/'+b[1]+' of the same route. Which comparison is correct?',html:expr([a,'___',b]),answer:cmp,type:'choice',options:['<','=','>'],solution:'Because both fractions describe the same route, compare their values using equivalent fractions or cross-products. The correct symbol is '+cmp+'.'}}
 function reasoningError(){return{topic:'Reasoning',prompt:'A student has added the fractions incorrectly. Which statement best explains the error?',html:expr([[2,3],'+',[1,6],'=',[3,9]]),answer:'Rename the fractions with a common denominator before adding.',type:'choice',options:['Add the numerators and denominators separately.','Rename the fractions with a common denominator before adding.','Only add the denominators.','Every answer must have denominator 9.'],solution:'Denominators tell the size of the parts. Rename '+frac(2,3)+' as '+frac(4,6)+', then '+frac(4,6)+' + '+frac(1,6)+' = '+frac(5,6)+'.'}}
-function buildQuiz(){const seen=new Set();const bands=[
-[visualBar,partitionQ,equivalent,compare,numberLine],
-[areaAdd,stripSubtract,improper,toImproper,()=>same('+')],
-[compareRelated,()=>same('-'),()=>related('+'),simplifyQ,reasoningError],
-[numberLineAdd,compareMixed,()=>related('-'),triple,ribbonProblem],
-[shareProblem,tankProblem,recipeProblem,readingProblem,classProjectProblem],
-[juiceProblem,compareJourneyProblem,trailProblem,triple,numberLine]
-];return bands.flatMap(b=>shuffle(b.map(f=>unique(f,seen))))}
+// Difficulty is controlled by the skill sequence, not merely by the label shown on screen.
+// Randomisation happens only inside each five-question level.
+const DIFFICULTY_BANDS=[
+{level:'FOUNDATION',skills:[visualBar,numberLine,compare,equivalent,partitionQ]},
+{level:'DEVELOPING',skills:[areaAdd,stripSubtract,()=>same('+'),()=>same('-'),simplifyQ]},
+{level:'DEVELOPING +',skills:[improper,toImproper,compareMixed,compareRelated,reasoningError]},
+{level:'PROFICIENT',skills:[()=>related('+'),()=>related('-'),numberLineAdd,ribbonProblem,readingProblem]},
+{level:'APPLICATION',skills:[shareProblem,tankProblem,classProjectProblem,compareJourneyProblem,recipeProblem]},
+{level:'CHALLENGE',skills:[triple,trailProblem,juiceProblem,()=>related('-'),()=>related('+')]}
+];
+function buildQuiz(){const seen=new Set();return DIFFICULTY_BANDS.flatMap(b=>shuffle(b.skills.map(f=>{const q=unique(f,seen);q.level=b.level;return q})))}
 let quiz=[],index=0,score=0,answered=false,attemptSaved=false;
 const qn=document.getElementById('qNumber'),ql=document.getElementById('qLevel'),qs=document.getElementById('qScore'),qp=document.getElementById('quizProgress'),qt=document.getElementById('qTopic'),qprompt=document.getElementById('qPrompt'),qd=document.getElementById('qDisplay'),qa=document.getElementById('qAnswer'),qf=document.getElementById('qFeedback'),solution=document.getElementById('qSolution'),check=document.getElementById('checkAnswer'),next=document.getElementById('nextQuestion'),result=document.getElementById('resultCard');
-function level(){return index<5?'FOUNDATION':index<10?'DEVELOPING':index<15?'DEVELOPING +':index<20?'PROFICIENT':index<25?'APPLICATION':'CHALLENGE'}
+function level(){return quiz[index]?.level||DIFFICULTY_BANDS[Math.min(Math.floor(index/5),DIFFICULTY_BANDS.length-1)].level}
 function fractionEntry(){qa.innerHTML='<div class="fraction-entry"><input id="num" class="number-input" inputmode="numeric" aria-label="Numerator"><i></i><input id="den" class="number-input" inputmode="numeric" aria-label="Denominator"></div>'}
 function render(){const q=quiz[index];answered=false;qn.textContent=`${index+1} / ${TOTAL}`;ql.textContent=level();qs.textContent=`${score} / ${TOTAL}`;qp.style.width=`${((index+1)/TOTAL)*100}%`;qt.textContent=q.topic;qprompt.innerHTML=rich(q.prompt);qd.innerHTML=q.html?rich(q.html):expr(q.parts||[]);qf.textContent='';qf.className='q-feedback';solution.hidden=true;solution.innerHTML='';check.disabled=false;next.disabled=true;qa.innerHTML='';
 if(q.type==='fraction')fractionEntry();else if(q.type==='single')qa.innerHTML='<input id="single" class="number-input single-input" inputmode="numeric">';else if(q.type==='mixed')qa.innerHTML='<div class="mixed-entry"><label>Whole<input id="whole" class="number-input" inputmode="numeric"></label><div class="fraction-entry"><input id="num" class="number-input" inputmode="numeric"><i></i><input id="den" class="number-input" inputmode="numeric"></div></div>';else if(q.type==='choice')qa.innerHTML='<div class="choice-wrap">'+q.options.map((o,i)=>`<button type="button" data-choice-index="${i}">${richOption(o)}</button>`).join('')+'</div>';
