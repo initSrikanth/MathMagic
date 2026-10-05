@@ -6,7 +6,7 @@ Large whole numbers multiplied by one- and two-digit numbers; whole numbers divi
 ## Assessment progression
 30 questions: Foundation, Developing, Developing+, Proficient, Application, Challenge — five questions per band.
 
-## Protection
+## Architecture decision\nThe production challenge is protected-only and fails closed if the callable service is unavailable. The public browser bundle contains UI/rendering code but no production question generator or answer bank. CI uses an explicit injected protected-service adapter for browser flow testing; generator stress testing targets the protected server generator separately.\n\n## Protection
 Firebase callable start/submit endpoints require Auth, approval and App Check. Sessions are UID/topic bound; answers and solutions are removed from public question payloads; marking is server-side.
 
 ## Production caveat
@@ -18,7 +18,7 @@ Repository/CI validation does not establish production deployment. Firebase depl
 | One-digit multiplication / place-value partitioning | Page 1 | Foundation–Developing |
 | Two-digit multiplication / distributive property | Page 2 | Developing–Application |
 | Exact single-digit division / inverse checking | Page 3 | Foundation–Proficient |
-| Remainders and contextual rounding | Page 4 | Developing–Application |
+| Remainders and contextual rounding | Page 4 | Developing–Application |\n| Remainder as decimal quotient | Page 4 remainder interpretation | Proficient–Application |\n| Remainder as simplified mixed fraction | Page 4 mixed-fraction example | Developing+–Application |
 | Unknown values / inverse relationships | Page 5 | Foundation–Proficient |
 | Estimation / reasonableness | Page 5 | Foundation–Developing+ |
 | Contextual modelling | Pages 4–5 | Developing+–Application |
