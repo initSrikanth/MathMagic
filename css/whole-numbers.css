@@ -5,3 +5,6 @@
 
 @media(max-width:720px){.challenge-head .attempt-summary{display:grid;grid-template-columns:1fr;gap:7px;margin-top:14px;padding:12px 14px;text-align:center}.challenge-head .attempt-summary b{display:block}.challenge-head .attempt-summary #attemptDots{display:inline-block;margin-left:4px}.challenge-head .attempt-summary span{display:block}.challenge-head #proficiencyText{padding-top:2px}.challenge-head h2{line-height:1.12}.challenge-head p{line-height:1.35}}
  .decimal-table{grid-template-columns:repeat(4,1fr)} .choice-wrap{display:flex;gap:10px;justify-content:center;flex-wrap:wrap} .qa-number-line{display:grid;grid-template-columns:repeat(11,1fr);width:92%;margin:28px auto;border-top:4px solid #00394f} .qa-number-line span{text-align:center} .qa-number-line span i{display:block;width:2px;height:16px;background:#00394f;margin:-2px auto 5px}
+.video-resource{margin:24px 0;padding:18px;border:1px solid #d8e4e8;border-radius:14px;background:#f8fbfc}
+.video-resource h3{margin-top:0}.video-frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:12px;background:#111}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.video-resource p{margin:12px 0 6px}.resource-link{font-weight:700}
