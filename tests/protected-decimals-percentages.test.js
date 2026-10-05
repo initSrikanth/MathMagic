@@ -1,0 +1,12 @@
+const fs=require('fs'),assert=require('assert');
+const src=fs.readFileSync('functions/index.js','utf8');
+assert(src.includes('exports.startDecimalsPercentagesChallenge=onCall({enforceAppCheck:true}'),'Decimals start endpoint must enforce App Check');
+assert(src.includes('exports.submitDecimalsPercentagesAnswer=onCall({enforceAppCheck:true}'),'Decimals submit endpoint must enforce App Check');
+assert(src.includes("await approved(req.auth.uid)"),'server approval check missing');
+assert(src.includes("topic:'decimals-percentages'"),'topic-bound protected session missing');
+assert(src.includes("d.uid!==req.auth.uid"),'session ownership check missing');
+assert(src.includes('function publicDecimalQ(q,i){const {answer,solution,...safe}=q'),'answer/solution stripping missing');
+assert(src.includes("Percentage-of-quantity calculations are deliberately excluded"),'Year 5 topic boundary declaration missing');
+assert(!/return\{sessionId:id,question:qs\[0\]/.test(src),'raw protected question may expose answer');
+assert(src.includes('question:complete?null:d.questions[next]'),'protected flow must return the next safe question');
+console.log('Protected Decimals & Percentages architecture static checks passed');
