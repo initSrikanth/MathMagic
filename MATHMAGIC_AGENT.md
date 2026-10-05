@@ -75,3 +75,12 @@ Wrong answers should receive concise worked feedback that teaches the intended s
 
 ### Release QA
 At minimum check: curriculum scope, coverage matrix, teaching-assessment alignment, difficulty-band integrity, mathematical answers, duplicate generation, notation leaks, visual layout, responsive behaviour, accessibility labels/instructions, browser input behaviour, authentication, progress saving/restoring and cache/version changes. Never claim a test was run unless it was actually executed.
+
+
+### Automated browser QA gate
+Every substantial module change must pass automated end-to-end browser QA before production merge. The automated suite must exercise the complete student-facing challenge flow, not merely inspect source code. It must verify navigation, all challenge positions, answer controls, feedback/solutions, critical mathematical representations, responsive layout and the absence of obvious child-facing notation leaks. Failed browser QA blocks release.
+
+Browser automation complements rather than replaces generator QA. Where authentication or external services are deliberately isolated in CI, the test must say so; authentication/progress integration must have separate checks and must never be falsely reported as browser-tested.
+
+### Visual regression and diagnostic evidence
+Critical instructional representations and layouts should receive automated visual/dimensional checks at representative desktop and mobile viewports. CI failures must preserve useful diagnostic evidence such as Playwright traces, screenshots and/or HTML reports. A human real-device check remains appropriate for major releases and browser-specific issues, but routine 30-question click-through should be automated.
