@@ -34,6 +34,7 @@ const BANDS=[
 ];
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=rnd(0,i);[a[i],a[j]]=[a[j],a[i]]}return a}
 function buildQuiz(){return BANDS.flatMap(b=>shuffle(b.skills.map(f=>{const q=f();q.level=b.level;return q})))}
+if(typeof window!=='undefined')window.MathMagicWholeNumbersQA={buildQuiz,BANDS};
 let quiz=[],index=0,score=0,answered=false,attemptSaved=false;
 const qn=document.getElementById('qNumber'),ql=document.getElementById('qLevel'),qs=document.getElementById('qScore'),qp=document.getElementById('quizProgress'),qt=document.getElementById('qTopic'),qprompt=document.getElementById('qPrompt'),qd=document.getElementById('qDisplay'),qa=document.getElementById('qAnswer'),qf=document.getElementById('qFeedback'),check=document.getElementById('checkAnswer'),next=document.getElementById('nextQuestion'),result=document.getElementById('resultCard');
 function normal(v){return String(v).trim().toLowerCase().replace(/,/g,'').replace(/−/g,'-')}
