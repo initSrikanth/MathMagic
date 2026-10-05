@@ -100,3 +100,12 @@ Use this order of preference:
 8. Release QA must check that external links still resolve, point to the intended resource, are age-appropriate, do not unexpectedly require payment/login, and have not been replaced by unsuitable content. Broken or unsuitable resources must be replaced or removed.
 
 Researching resources is mandatory; including a particular third-party resource is not. Only resources that materially support the topic and pass the copyright, child-safety, relevance and quality checks should appear on the student site.
+
+### Embedded learning resource requirement
+Every substantial MathMagic topic build or full revision must include a deliberate external-resource pass before release. Where a suitable provider-supported educational video materially reinforces the taught concept, embed it in the relevant learning page using the provider's official mechanism. For YouTube, use the official privacy-enhanced `youtube-nocookie.com` player, lazy loading, an accessible title, fullscreen support, visible creator/provider attribution and a direct original-source fallback link. Do not autoplay.
+
+Do not add videos simply to satisfy a quota. One high-quality resource may support more than one closely related concept; conversely, a topic may need several resources. The release decision is based on pedagogical relevance, age suitability, source quality, embedding permission, privacy/copyright compliance and page usability.
+
+A substantial module revision is incomplete until the resource pass has been performed and the chosen resources have been implemented or the development record explicitly explains why no suitable embeddable resource should be used.
+
+Automated browser QA for modules with embeds must verify that expected embedded-resource elements exist, use approved provider domains, have accessible titles and expose working original-source fallback links. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
