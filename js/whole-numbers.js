@@ -1,219 +1,49 @@
-const screens = [...document.querySelectorAll(".screen")];
-const tabs = [...document.querySelectorAll(".tab")];
-const rnd = (a,b) => Math.floor(Math.random() * (b-a+1)) + a;
-const fmt = n => Number(n).toLocaleString("en-AU");
-const PLACE_NAMES = {1:"ones",10:"tens",100:"hundreds",1000:"thousands",10000:"ten thousands",100000:"hundred thousands"};
-const PLACES = [10,100,1000,10000,100000];
-
-function showScreen(id){
-  screens.forEach(s => s.classList.toggle("active", s.id === id));
-  tabs.forEach(t => t.classList.toggle("active", t.dataset.screen === id));
-  window.scrollTo({top:0,behavior:"smooth"});
-  if(id === "challenge" && !quiz.length) startQuiz();
-}
-tabs.forEach(t => t.addEventListener("click", () => showScreen(t.dataset.screen)));
-document.querySelectorAll("[data-next]").forEach(b => b.addEventListener("click", () => showScreen(b.dataset.next)));
-
-document.querySelectorAll(".practice button[data-answer]").forEach(btn => btn.addEventListener("click", () => {
-  const box = btn.closest(".practice");
-  const input = box.querySelector("input");
-  const fb = box.querySelector(".practice-feedback");
-  const ok = input.value.trim().replace(/,/g,"") === btn.dataset.answer;
-  fb.textContent = ok ? "Correct — well done." : "Not quite. Look back at the example and try again.";
-  fb.className = "practice-feedback " + (ok ? "correct" : "incorrect");
-}));
-
-function makeNumberWithDigitAtPlace(place,digit){
-  const n = rnd(100000,999999);
-  return Math.floor(n/(place*10))*(place*10) + digit*place + (n%place);
-}
-function placeValueQuestion(){
-  const place = PLACES[rnd(0,PLACES.length-1)];
-  const digit = rnd(1,9);
-  const n = makeNumberWithDigitAtPlace(place,digit);
-  return {
-    topic:"Place Value",
-    prompt:`In ${fmt(n)}, what is the value of the digit in the ${PLACE_NAMES[place]} place?`,
-    display:fmt(n),
-    highlightPlace:place,
-    answer:String(digit*place),
-    type:"number"
-  };
-}
-function identifyPlaceQuestion(){
-  const place = PLACES[rnd(0,PLACES.length-1)];
-  const digit = rnd(1,9);
-  const n = makeNumberWithDigitAtPlace(place,digit);
-  return {
-    topic:"Place Value",
-    prompt:`In ${fmt(n)}, which digit is in the ${PLACE_NAMES[place]} place?`,
-    display:fmt(n),
-    answer:String(digit),
-    type:"number"
-  };
-}
-function expandedQuestion(){
-  const n = rnd(100000,999999);
-  const parts = [];
-  [100000,10000,1000,100,10,1].forEach(p => {
-    const d = Math.floor(n/p)%10;
-    if(d) parts.push(fmt(d*p));
-  });
-  return {topic:"Representing Numbers",prompt:"What number is shown by this expanded form?",display:parts.join(" + "),answer:String(n),type:"number"};
-}
-function digitContributionQuestion(){
-  const place = [100,1000,10000][rnd(0,2)];
-  const digit = rnd(1,9);
-  const n = makeNumberWithDigitAtPlace(place,digit);
-  return {
-    topic:"Representing Numbers",
-    prompt:`In ${fmt(n)}, what is the value of the digit in the ${PLACE_NAMES[place]} place?`,
-    display:fmt(n),
-    highlightPlace:place,
-    answer:String(digit*place),
-    type:"number"
-  };
-}
-function compareQuestion(){
-  let a=rnd(10000,999999), b=rnd(10000,999999);
-  if(a===b) b++;
-  return {topic:"Compare & Order",prompt:"Which symbol makes this statement correct?",display:`${fmt(a)}  ___  ${fmt(b)}`,answer:a>b?">":"<",type:"select",options:["<",">","="]};
-}
-function orderQuestion(){
-  let nums;
-  do { nums=[rnd(10000,999999),rnd(10000,999999),rnd(10000,999999)]; } while(new Set(nums).size<3);
-  return {topic:"Compare & Order",prompt:"Which of these numbers is the smallest?",display:nums.map(fmt).join("   •   "),answer:String(Math.min(...nums)),type:"number"};
-}
-function roundingQuestion(){
-  const place=[10,100,1000,10000][rnd(0,3)];
-  const n=rnd(10000,999999);
-  return {topic:"Rounding & Estimation",prompt:`Round ${fmt(n)} to the nearest ${PLACE_NAMES[place].replace(/s$/,"")}.`,display:"",answer:String(Math.round(n/place)*place),type:"number"};
-}
-function estimateQuestion(){
-  const a=rnd(12000,89000), b=rnd(12000,89000);
-  const answer=Math.round(a/10000)*10000 + Math.round(b/10000)*10000;
-  return {topic:"Rounding & Estimation",prompt:"Estimate the sum. Round each number to the nearest ten thousand first.",display:`${fmt(a)} + ${fmt(b)}`,answer:String(answer),type:"number"};
-}
-function reasoningQuestion(i){
-  const set=[
-    {topic:"Reasoning",prompt:"A six-digit number has 6 in the hundred-thousands place, 3 in the thousands place, 8 in the tens place and 2 in the ones place. All other digits are zero. What is the number?",display:"",answer:"603082",type:"number"},
-    {topic:"Reasoning",prompt:"Which number rounds to 450,000 when rounded to the nearest ten thousand?",display:"Choose one",answer:"447200",type:"select",options:["443,900","447,200","455,100","461,000"]},
-    {topic:"Reasoning",prompt:"Compare 398,950 and 400,012. Which number is greater?",display:"",answer:"400012",type:"number"},
-    {topic:"Reasoning",prompt:"A stadium attendance was 248,761. Round this attendance to the nearest ten thousand.",display:"",answer:"250000",type:"number"},
-    {topic:"Reasoning",prompt:"What is 42,506 multiplied by 10?",display:"",answer:"425060",type:"number"}
-  ];
-  return set[i%set.length];
-}
-function buildQuiz(){
-  return [
-    placeValueQuestion(), identifyPlaceQuestion(), expandedQuestion(), compareQuestion(), roundingQuestion(),
-    placeValueQuestion(), expandedQuestion(), orderQuestion(), roundingQuestion(), compareQuestion(),
-    digitContributionQuestion(), orderQuestion(), roundingQuestion(), estimateQuestion(), compareQuestion(),
-    reasoningQuestion(0), reasoningQuestion(1), reasoningQuestion(2), reasoningQuestion(3), reasoningQuestion(4)
-  ];
-}
-
-let quiz=[], index=0, score=0, answered=false, attemptSaved=false;
-const qn=document.getElementById("qNumber"), ql=document.getElementById("qLevel"), qs=document.getElementById("qScore");
-const qp=document.getElementById("quizProgress"), qt=document.getElementById("qTopic"), qprompt=document.getElementById("qPrompt");
-const qd=document.getElementById("qDisplay"), qa=document.getElementById("qAnswer"), qf=document.getElementById("qFeedback");
-const check=document.getElementById("checkAnswer"), next=document.getElementById("nextQuestion"), result=document.getElementById("resultCard");
-
-function level(){ return index<5?"FOUNDATION":index<10?"DEVELOPING":index<15?"PROFICIENT":"CHALLENGE"; }
-function renderNumberDisplay(q){
-  if(!q.highlightPlace){ qd.textContent=q.display; return; }
-  const raw=String(q.display).replace(/,/g,"");
-  const highlightIndex=raw.length-1-Math.log10(q.highlightPlace);
-  qd.innerHTML="";
-  [...raw].forEach((ch,i)=>{
-    if(i>0 && (raw.length-i)%3===0) qd.append(document.createTextNode(","));
-    const span=document.createElement("span");
-    span.textContent=ch;
-    if(i===highlightIndex){ span.className="highlight-digit"; span.setAttribute("aria-label",ch+" highlighted"); }
-    qd.append(span);
-  });
-}
-function render(){
-  const q=quiz[index];
-  answered=false;
-  qn.textContent=`${index+1} / 20`;
-  ql.textContent=level();
-  qs.textContent=`${score} / 20`;
-  qp.style.width=`${((index+1)/20)*100}%`;
-  qt.textContent=q.topic;
-  qprompt.textContent=q.prompt;
-  renderNumberDisplay(q);
-  qf.textContent="";
-  qf.className="q-feedback";
-  check.disabled=false;
-  next.disabled=true;
-  qa.innerHTML="";
-  if(q.type==="select"){
-    const s=document.createElement("select");
-    s.innerHTML='<option value="">Choose an answer</option>'+q.options.map(o=>`<option value="${o.replace(/,/g,"")}">${o}</option>`).join("");
-    qa.appendChild(s);
-  }else{
-    const input=document.createElement("input");
-    input.inputMode="numeric";
-    input.placeholder="Your answer";
-    qa.appendChild(input);
-    input.focus();
-  }
-}
-function normal(v){ return String(v).trim().toLowerCase().replace(/,/g,"").replace(/-/g," "); }
-
-check.addEventListener("click",()=>{
-  if(answered) return;
-  const field=qa.querySelector("input,select");
-  if(!field || !field.value.trim()){ qf.textContent="Enter or choose an answer first."; return; }
-  answered=true;
-  const q=quiz[index];
-  const ok=normal(field.value)===normal(q.answer);
-  if(ok){
-    score++;
-    qf.textContent="Correct!";
-    qf.className="q-feedback correct";
-  }else{
-    const shown=q.type==="number"&&!isNaN(Number(q.answer))?fmt(Number(q.answer)):q.answer;
-    qf.textContent=`Not quite. The correct answer is ${shown}. Review ${q.topic} before your next attempt.`;
-    qf.className="q-feedback incorrect";
-  }
-  qs.textContent=`${score} / 20`;
-  check.disabled=true;
-  next.disabled=false;
-});
-
-next.addEventListener("click",()=>{ if(index<19){ index++; render(); } else { finish(); } });
-
-async function finish(){
-  document.querySelector(".quiz-card").hidden=true;
-  result.hidden=false;
-  const pct=score*5;
-  const msg=score===20?"Perfect score — proficiency achieved!":pct>=85?"Excellent understanding.":pct>=70?"Strong work. Review any concepts you missed.":pct>=50?"Good progress. Revisit the learning pages before another attempt.":"Revisit Pages 1–4, then try the challenge again.";
-  result.innerHTML=`<p class="page-tag">CHALLENGE COMPLETE</p><h2>${pct}%</h2><strong>${score} out of 20 correct</strong><p>${msg}</p><p id="saveStatus">Recording completed attempt…</p>`;
-  if(attemptSaved) return;
-  attemptSaved=true;
-  const status=document.getElementById("saveStatus");
-  try{
-    let tries=0;
-    while(!window.MathMagicProgress?.saveWholeNumbersAttempt && tries<20){
-      await new Promise(resolve=>setTimeout(resolve,100));
-      tries++;
-    }
-    if(!window.MathMagicProgress?.saveWholeNumbersAttempt) throw new Error("Progress service unavailable");
-    const p=await window.MathMagicProgress.saveWholeNumbersAttempt(score);
-    if(status) status.textContent=`✓ Attempt recorded • ${Math.min(p.attempts,5)}/5 completed • Best ${p.bestScore}/20${p.proficient?" • PROFICIENT":""}`;
-  }catch(e){
-    console.error("Progress save failed:",e);
-    attemptSaved=false;
-    if(status){ status.textContent="This attempt could not be recorded. Please keep this page open and try Finish again."; status.className="incorrect"; }
-  }
-}
-function startQuiz(){
-  quiz=buildQuiz(); index=0; score=0; attemptSaved=false;
-  document.querySelector(".quiz-card").hidden=false;
-  result.hidden=true;
-  render();
-}
-document.getElementById("restartQuiz").addEventListener("click",startQuiz);
-qa?.addEventListener("keydown",e=>{ if(e.key==="Enter"&&!check.disabled) check.click(); });
+'use strict';
+const TOTAL=30;
+const screens=[...document.querySelectorAll('.screen')],tabs=[...document.querySelectorAll('.tab')];
+const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,choice=a=>a[rnd(0,a.length-1)],fmt=n=>Number(n).toLocaleString('en-AU',{maximumFractionDigits:3});
+function showScreen(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));tabs.forEach(t=>t.classList.toggle('active',t.dataset.screen===id));window.scrollTo({top:0,behavior:'smooth'});if(id==='challenge'&&!quiz.length)startQuiz()}
+tabs.forEach(t=>t.addEventListener('click',()=>showScreen(t.dataset.screen)));document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.next)));
+document.querySelectorAll('.practice button[data-answer]').forEach(btn=>btn.addEventListener('click',()=>{const box=btn.closest('.practice'),input=box.querySelector('input'),fb=box.querySelector('.practice-feedback');const ok=normal(input.value)===normal(btn.dataset.answer);fb.textContent=ok?'Correct — well done.':'Not quite. Look back at the example and try again.';fb.className='practice-feedback '+(ok?'correct':'incorrect')}));
+const PLACE_NAMES={1:'ones',10:'tens',100:'hundreds',1000:'thousands',10000:'ten thousands',100000:'hundred thousands'};
+function makeNumberWithDigitAtPlace(place,digit){const n=rnd(100000,999999);return Math.floor(n/(place*10))*(place*10)+digit*place+(n%place)}
+function wholePlace(){const place=choice([10,100,1000,10000,100000]),digit=rnd(1,9),n=makeNumberWithDigitAtPlace(place,digit);return{topic:'Whole-number review',prompt:'What is the value of the highlighted digit?',display:fmt(n),highlightPlace:place,answer:String(digit*place),type:'number',solution:'The digit is in the '+PLACE_NAMES[place]+' place, so its value is '+fmt(digit*place)+'.'}}
+function expandedWhole(){const n=rnd(100000,999999),parts=[];[100000,10000,1000,100,10,1].forEach(p=>{const d=Math.floor(n/p)%10;if(d)parts.push(fmt(d*p))});return{topic:'Representing numbers',prompt:'What whole number is shown by this expanded form?',display:parts.join(' + '),answer:String(n),type:'number',solution:'Add the place-value parts to rebuild the number: '+fmt(n)+'.'}}
+function wholeCompare(){let a=rnd(10000,999999),b=rnd(10000,999999);if(a===b)b++;return{topic:'Compare whole numbers',prompt:'Choose the correct symbol.',display:fmt(a)+' ___ '+fmt(b),answer:a>b?'>':'<',type:'choice',options:['<','=','>'],solution:'Compare from the greatest place value. The first place that differs decides which number is greater.'}}
+function decimalParts(){const whole=rnd(0,9),t=rnd(0,9),h=rnd(0,9),th=rnd(1,9),n=Number(whole+'.'+t+h+th),place=choice(['tenths','hundredths','thousandths']),digit=place==='tenths'?t:place==='hundredths'?h:th,value=place==='tenths'?digit/10:place==='hundredths'?digit/100:digit/1000;return{topic:'Decimal place value',prompt:'In '+n.toFixed(3)+', what is the value of the digit in the '+place+' place?',display:n.toFixed(3),answer:String(value),type:'decimal',solution:'Read the digit by its place. Its value is '+value+'.'}}
+function decimalDigit(){const n=(rnd(1000,9999)/1000).toFixed(3),place=choice([1,2,3]),names=['','tenths','hundredths','thousandths'];return{topic:'Decimal place value',prompt:'Which digit is in the '+names[place]+' place?',display:n,answer:n.split('.')[1][place-1],type:'number',solution:'Line up the places after the decimal point: tenths, hundredths, thousandths.'}}
+function decimalExpanded(){const w=rnd(0,5),t=rnd(0,9),h=rnd(0,9),th=rnd(1,9),ans=(w+t/10+h/100+th/1000).toFixed(3);return{topic:'Expanded decimals',prompt:'What decimal is shown by this expanded form?',display:[w,t/10,h/100,th/1000].filter(x=>x).join(' + '),answer:ans,type:'decimal',solution:'Combine the ones, tenths, hundredths and thousandths to make '+ans+'.'}}
+function relation10(){const digit=rnd(1,9),pair=choice([['tenths','hundredths',digit/10,digit/100],['hundredths','thousandths',digit/100,digit/1000]]);return{topic:'Place-value relationships',prompt:'How many times greater is '+pair[2]+' than '+pair[3]+'?',display:pair[2]+' compared with '+pair[3],answer:'10',type:'number',solution:'Moving one place left makes the value 10 times greater.'}}
+function decimalCompare(){const base=rnd(0,4),a=Number((base+rnd(1,999)/1000).toFixed(3)),b=Number((base+rnd(1,999)/1000).toFixed(3));if(a===b)return decimalCompare();return{topic:'Compare decimals',prompt:'Choose the correct symbol.',display:a.toFixed(3)+' ___ '+b.toFixed(3),answer:a>b?'>':'<',type:'choice',options:['<','=','>'],solution:'Compare ones, then tenths, hundredths and thousandths from left to right.'}}
+function equivalentDecimal(){const a=choice(['0.5','1.4','2.07','3.6']),b=a.includes('.')?a+'0':a+'.0';return{topic:'Equivalent decimals',prompt:'Choose the correct symbol.',display:a+' ___ '+b,answer:'=',type:'choice',options:['<','=','>'],solution:'Zeros added to the end of a decimal do not change its value.'}}
+function decimalOrder(){let vals;do{vals=[rnd(1001,4999),rnd(1001,4999),rnd(1001,4999)].map(x=>(x/1000).toFixed(3))}while(new Set(vals).size<3);const sorted=[...vals].sort((a,b)=>Number(a)-Number(b)),ans=sorted.join(' → '),wrong=[...sorted].reverse().join(' → ');return{topic:'Order decimals',prompt:'Which option shows the decimals from smallest to largest?',display:vals.join('   •   '),answer:ans,type:'choice',options:[ans,wrong,[sorted[1],sorted[0],sorted[2]].join(' → ')],solution:'Line up the decimal places and compare from left to right.'}}
+function decimalLine(){const start=rnd(0,3),step=0.01,k=rnd(1,9),ans=(start+k*step).toFixed(2);return{topic:'Decimal number line',prompt:'The interval from '+start.toFixed(2)+' to '+(start+0.1).toFixed(2)+' is split into 10 equal parts. What decimal is at mark '+k+'?',display:'Mark '+k+' of 10 equal intervals',answer:ans,type:'decimal',visual:'line',lineStart:start,lineMark:k,solution:'Each interval is one hundredth. Count '+k+' hundredths from '+start.toFixed(2)+' to reach '+ans+'.'}}
+function betweenDecimals(){const base=rnd(0,4),h=rnd(10,89),low=Number((base+h/100).toFixed(2)),high=Number((low+0.01).toFixed(2)),ans=(low+0.005).toFixed(3);return{topic:'Locate decimals',prompt:'Which decimal lies between '+low.toFixed(2)+' and '+high.toFixed(2)+'?',display:'Choose one',answer:ans,type:'choice',options:[ans,(low-0.005).toFixed(3),(high+0.005).toFixed(3)],solution:ans+' is greater than '+low.toFixed(2)+' and less than '+high.toFixed(2)+'.'}}
+function rounding(){const n=rnd(10000,999999),place=choice([100,1000,10000]);return{topic:'Whole-number estimation',prompt:'Round '+fmt(n)+' to the nearest '+PLACE_NAMES[place].replace(/s$/,'')+'.',display:'',answer:String(Math.round(n/place)*place),type:'number',solution:'Look at the digit immediately to the right of the rounding place, then round to the nearest value.'}}
+function estimate(){const a=rnd(12000,89000),b=rnd(12000,89000),ans=Math.round(a/10000)*10000+Math.round(b/10000)*10000;return{topic:'Reasonableness',prompt:'Estimate the sum by rounding each number to the nearest ten thousand.',display:fmt(a)+' + '+fmt(b),answer:String(ans),type:'number',solution:'Round each addend first, then add the rounded numbers. This gives an estimate for checking reasonableness.'}}
+function errorAnalysis(){return{topic:'Reasoning',prompt:'A student says 2.407 is greater than 2.47 because 407 is greater than 47. What is the best correction?',display:'2.407 ___ 2.470',answer:'2.407 < 2.470',type:'choice',options:['2.407 < 2.470','2.407 > 2.470','They cannot be compared'],solution:'Line up equal place values. At the hundredths place, 0 is less than 7, so 2.407 is less than 2.470.'}}
+function contextOrder(){const vals=['12.408','12.48','12.084'],ans='12.084 → 12.408 → 12.48';return{topic:'Measurement context',prompt:'Three jump distances are shown in metres. Which order is shortest to longest?',display:vals.join(' m   •   ')+' m',answer:ans,type:'choice',options:[ans,'12.48 → 12.408 → 12.084','12.408 → 12.084 → 12.48'],solution:'Compare the decimal places carefully. 12.084 is smallest, then 12.408, then 12.480.'}}
+function missingDigit(){const d=rnd(1,8),ans=String(d+1);return{topic:'Decimal reasoning',prompt:'Choose the smallest digit that makes the statement true.',display:'3.'+d+'7_ > 3.'+d+'70',answer:ans,type:'number',solution:'The numbers match through the hundredths place. The thousandths digit must be greater than 0; the smallest possible digit is 1.'}}
+const BANDS=[
+{level:'FOUNDATION',skills:[wholePlace,expandedWhole,wholeCompare,decimalDigit,decimalParts]},
+{level:'DEVELOPING',skills:[decimalExpanded,relation10,equivalentDecimal,decimalCompare,decimalLine]},
+{level:'DEVELOPING +',skills:[decimalCompare,decimalOrder,betweenDecimals,decimalParts,relation10]},
+{level:'PROFICIENT',skills:[decimalLine,decimalOrder,betweenDecimals,rounding,estimate]},
+{level:'APPLICATION',skills:[contextOrder,decimalLine,decimalCompare,estimate,missingDigit]},
+{level:'CHALLENGE',skills:[errorAnalysis,missingDigit,contextOrder,decimalOrder,decimalLine]}
+];
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=rnd(0,i);[a[i],a[j]]=[a[j],a[i]]}return a}
+function buildQuiz(){return BANDS.flatMap(b=>shuffle(b.skills.map(f=>{const q=f();q.level=b.level;return q})))}
+let quiz=[],index=0,score=0,answered=false,attemptSaved=false;
+const qn=document.getElementById('qNumber'),ql=document.getElementById('qLevel'),qs=document.getElementById('qScore'),qp=document.getElementById('quizProgress'),qt=document.getElementById('qTopic'),qprompt=document.getElementById('qPrompt'),qd=document.getElementById('qDisplay'),qa=document.getElementById('qAnswer'),qf=document.getElementById('qFeedback'),check=document.getElementById('checkAnswer'),next=document.getElementById('nextQuestion'),result=document.getElementById('resultCard');
+function normal(v){return String(v).trim().toLowerCase().replace(/,/g,'').replace(/−/g,'-')}
+function inputName(){return 'mm-whole-'+(index+1)+'-'+Date.now()+'-'+Math.random().toString(36).slice(2)}
+function renderNumberDisplay(q){if(!q.highlightPlace){qd.textContent=q.display||'';return}const raw=String(q.display).replace(/,/g,''),hi=raw.length-1-Math.log10(q.highlightPlace);qd.innerHTML='';[...raw].forEach((ch,i)=>{if(i>0&&(raw.length-i)%3===0)qd.append(document.createTextNode(','));const s=document.createElement('span');s.textContent=ch;if(i===hi)s.className='highlight-digit';qd.append(s)})}
+function renderLine(q){qd.innerHTML='<div class="qa-number-line" aria-label="Number line split into ten equal intervals">'+Array.from({length:11},(_,i)=>'<span class="'+(i===q.lineMark?'target':'')+'"><i></i><b>'+(i===0?q.lineStart.toFixed(2):i===10?(q.lineStart+0.1).toFixed(2):i===q.lineMark?'?':'')+'</b></span>').join('')+'</div>'}
+function render(){const q=quiz[index];answered=false;qn.textContent=(index+1)+' / '+TOTAL;ql.textContent=q.level;qs.textContent=score+' / '+TOTAL;qp.style.width=((index+1)/TOTAL*100)+'%';qt.textContent=q.topic;qprompt.textContent=q.prompt;qf.textContent='';qf.className='q-feedback';check.disabled=false;next.disabled=true;qa.innerHTML='';if(q.visual==='line')renderLine(q);else renderNumberDisplay(q);if(q.type==='choice'){qa.innerHTML='<div class="choice-wrap">'+q.options.map((o,i)=>'<button type="button" data-choice="'+i+'">'+o+'</button>').join('')+'</div>';qa.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>finishCheck(q.options[Number(b.dataset.choice)])))}else{const input=document.createElement('input');input.inputMode=q.type==='decimal'?'decimal':'numeric';input.name=inputName();input.autocomplete='new-password';input.autocorrect='off';input.spellcheck=false;input.setAttribute('aria-label','Answer');input.placeholder='Your answer';qa.appendChild(input)}}
+function finishCheck(v){if(answered)return;answered=true;const q=quiz[index],ok=normal(v)===normal(q.answer);if(ok){score++;qf.textContent='Correct!';qf.className='q-feedback correct'}else{qf.textContent='Not quite. '+q.solution;qf.className='q-feedback incorrect'}qs.textContent=score+' / '+TOTAL;check.disabled=true;next.disabled=false;qa.querySelectorAll('input,button').forEach(x=>x.disabled=true)}
+check.addEventListener('click',()=>{if(answered)return;const input=qa.querySelector('input');if(!input||!input.value.trim()){qf.textContent='Enter an answer first.';return}finishCheck(input.value)});
+next.addEventListener('click',()=>{if(index<TOTAL-1){index++;render()}else finish()});
+async function finish(){document.querySelector('.quiz-card').hidden=true;result.hidden=false;const pct=Math.round(score/TOTAL*100),msg=pct>=85?'Excellent understanding.':pct>=70?'Strong work. Review any concepts you missed.':pct>=50?'Good progress. Revisit the learning pages before another attempt.':'Revisit Pages 1–5, then try the challenge again.';result.innerHTML='<p class="page-tag">CHALLENGE COMPLETE</p><h2>'+pct+'%</h2><strong>'+score+' out of '+TOTAL+' correct</strong><p>'+msg+'</p><p id="saveStatus">Recording completed attempt…</p>';if(attemptSaved)return;attemptSaved=true;const status=document.getElementById('saveStatus');try{let tries=0;while(!window.MathMagicProgress?.saveWholeNumbersAttempt&&tries<20){await new Promise(r=>setTimeout(r,100));tries++}if(!window.MathMagicProgress?.saveWholeNumbersAttempt)throw new Error('Progress service unavailable');const p=await window.MathMagicProgress.saveWholeNumbersAttempt(score);if(status)status.textContent='✓ Attempt recorded • '+Math.min(p.attempts,5)+'/5 completed • Best '+p.bestScore+'/'+TOTAL+(p.proficient?' • PROFICIENT':'')}catch(e){console.error(e);attemptSaved=false;if(status)status.textContent='This attempt could not be recorded.'}}
+function startQuiz(){quiz=buildQuiz();index=0;score=0;attemptSaved=false;document.querySelector('.quiz-card').hidden=false;result.hidden=true;render()}
+document.getElementById('restartQuiz').addEventListener('click',startQuiz);qa?.addEventListener('keydown',e=>{if(e.key==='Enter'&&!check.disabled)check.click()});

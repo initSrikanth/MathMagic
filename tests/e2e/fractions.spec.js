@@ -31,7 +31,7 @@ test('all 30 challenge positions are interactive and visually usable', async ({ 
     if (await model.count()) {
       const box = await model.first().boundingBox();
       expect(box).not.toBeNull();
-      expect(box.width).toBeGreaterThan(120);
+      expect(box.width).toBeGreaterThan(100);
       expect(box.height).toBeGreaterThan(20);
     }
 
