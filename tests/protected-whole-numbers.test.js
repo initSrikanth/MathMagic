@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('assert');
+const src=fs.readFileSync('functions/index.js','utf8');
+assert(src.includes('exports.startWholeNumbersChallenge=onCall({enforceAppCheck:true}'),'Whole Numbers start endpoint must enforce App Check');
+assert(src.includes('exports.submitWholeNumbersAnswer=onCall({enforceAppCheck:true}'),'Whole Numbers submit endpoint must enforce App Check');
+assert(src.includes('if(!(await approved(req.auth.uid)))'),'server approval check missing');
+assert(src.includes("topic:'whole-numbers'"),'topic-bound protected session missing');
+assert(src.includes("d.topic!=='whole-numbers'"),'topic isolation check missing');
+assert(src.includes('function publicWholeQ(q,i){const {answer,solution,...safe}=q'),'answer/solution stripping missing');
+assert(src.includes('question:complete?null:d.questions[next]'),'protected next-question flow missing');
+console.log('Protected Whole Numbers & Place Value architecture static checks passed');
