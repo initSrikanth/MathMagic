@@ -1,0 +1,77 @@
+# MathMagic Agent Development Standard
+
+## Purpose
+This file is the default operating specification for building, revising, fixing or redesigning MathMagic learning modules. A request to build/revise/fix/update MathMagic authorises the full workflow through implementation, QA, pull request and merge unless the user explicitly asks for investigation/design only.
+
+## Mandatory workflow
+1. Establish the current Australian Curriculum v9 scope and achievement expectations.
+2. Research established learning platforms (for example IXL and Education Perfect) and credible resources to identify materially different question forms and representations. This is coverage research only: never copy proprietary questions, wording, graphics or question banks.
+3. Create an internal question-coverage matrix before coding.
+4. Design the teaching sequence before the challenge.
+5. Map every assessed question family to something taught or reasonably developed in the learning pages.
+6. Map question families to genuine cognitive-difficulty bands.
+7. Implement using existing MathMagic architecture and preserve working authentication/progress features.
+8. QA mathematical correctness, generator behaviour, notation, accessibility, responsive visuals, browser behaviour and progress persistence.
+9. Branch -> PR -> merge after checks pass. Report exactly what was and was not tested.
+
+## Golden rules
+### Australian Curriculum is the authority
+Australian Curriculum v9 defines the Year-level scope. Competitor breadth is a coverage benchmark, not permission to assess content outside the intended curriculum.
+
+### Curriculum codes stay internal
+Maintain content descriptor codes in planning/QA metadata when useful, but do not show codes such as AC9M5N03 to children. Child-facing pages use natural Year-level language.
+
+### Student-language rule
+Everything a child sees must be concise, clear and appropriate for the target Year level. Curriculum terminology may guide development internally, but curriculum administration language, implementation terminology, developer metadata and unnecessary educational jargon stay behind the scenes. Simplify the language, not the mathematical thinking.
+
+### Question-type coverage rule
+For every topic, identify all materially different question families used by the curriculum and strong learning platforms. The challenge must sample meaningful breadth, not cosmetic variations of the same calculation. Representations may include symbolic work, visual/area models, strips/bars, number lines, comparison, ordering, construction/input, missing values, reasoning/error analysis and contextual problems when appropriate to the topic.
+
+### Originality rule
+Research other platforms to detect coverage gaps only. MathMagic explanations, examples, diagrams, questions, distractors, solutions and feedback must be independently created.
+
+### Representation diversity
+A new picture or new numbers do not automatically make a new question type. Measure conceptual variety by distinct skills, representations and reasoning demands.
+
+### Teaching-assessment alignment
+Anything materially assessed must be taught, demonstrated or reasonably developed in the learning sequence. Important taught concepts must have an appropriate opportunity to appear in assessment.
+
+### Genuine difficulty progression
+Difficulty must rise through cognitive demand, not labels, arbitrary large numbers, excessive reading or tricks. Randomisation occurs within suitable bands and must not move an advanced question into an early band or an elementary question into the final challenge band.
+
+Default 30-question progression:
+- Q1-5 Foundation: recognise, interpret, basic representations.
+- Q6-10 Developing: straightforward procedures and models.
+- Q11-15 Developing+: connect representations, equivalence, comparison and reasoning.
+- Q16-20 Proficient: less-scaffolded curriculum operations/strategies.
+- Q21-25 Application: choose and apply strategies in contexts.
+- Q26-30 Challenge: multi-step, reasoning-rich and less-scaffolded work within Year-level scope.
+
+### No artificial difficulty
+Challenge comes from mathematics and reasoning, not obscure wording, unnecessarily awkward numbers or irrelevant literacy load.
+
+### QCAA quality assessment rule
+Every assessed question and every random generator must satisfy:
+- Validity: assesses the intended taught curriculum knowledge/skill and provides appropriate challenge without construct-irrelevant demands.
+- Accessibility: clear concise unambiguous instructions, age-appropriate language, readable layout/visual cues, equitable access and no unnecessary barriers.
+- Reliability: one defensible interpretation, correct and stable marking logic, appropriate equivalent answers, and random variants that preserve the intended construct and difficulty.
+
+A mathematically correct item that fails validity, accessibility or reliability must be revised or removed.
+
+### Generator reliability
+QA the generator, not one sample. Random variants must remain mathematically correct, unique enough for an attempt, inside curriculum scope, in the intended difficulty band and free from ambiguous/invalid states.
+
+### Notation rule
+Use conventional child-friendly mathematical notation. Fractions displayed to students must use stacked numerator/bar/denominator notation, never slash notation such as 3/4. Raw slash strings may exist internally only when immediately converted by the renderer and never exposed to the student.
+
+### Visual integrity
+Visual questions must convey the mathematics accurately and remain readable on desktop, tablet and mobile. Models may not collapse, distort the whole, misalign equal parts or provide unintended answer cues.
+
+### Input/browser hygiene
+Student answer fields should minimise browser autofill/saved-information interference, preserve appropriate mobile keyboards and have accessible labels.
+
+### Feedback
+Wrong answers should receive concise worked feedback that teaches the intended strategy without exposing implementation language. Correct-answer handling must accept mathematically valid equivalents when simplification is not explicitly required.
+
+### Release QA
+At minimum check: curriculum scope, coverage matrix, teaching-assessment alignment, difficulty-band integrity, mathematical answers, duplicate generation, notation leaks, visual layout, responsive behaviour, accessibility labels/instructions, browser input behaviour, authentication, progress saving/restoring and cache/version changes. Never claim a test was run unless it was actually executed.
