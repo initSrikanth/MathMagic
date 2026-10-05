@@ -47,7 +47,7 @@ if (!configured) {
             progressPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
             progressPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
             progressPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
-            progressPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+            progressPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/30" : "Best: —";
             const badge = progressPanel.querySelector("[data-proficiency]");
             badge.textContent = proficient ? "✓ PROFICIENT" : attempts > 0 ? "IN PROGRESS" : "START";
             badge.classList.toggle("achieved", proficient);
@@ -124,14 +124,18 @@ if (!configured) {
       if (additionPanel) {
         try {
           const key = "mathmagic:" + user.uid + ":addition-subtraction:progress";
-          const p = JSON.parse(localStorage.getItem(key) || "{}");
+          const progressRef = doc(db, "progress", user.uid, "topics", "addition-subtraction");
+          const cloudSnap = await getDoc(progressRef);
+          let p;
+          if (cloudSnap.exists()) { p = cloudSnap.data(); localStorage.setItem(key, JSON.stringify(p)); }
+          else { try { p = JSON.parse(localStorage.getItem(key) || "{}"); } catch { p = {}; } if (Number(p.attempts || 0) > 0) await setDoc(progressRef, p); }
           const attempts = Number(p.attempts || 0);
           const best = Number(p.bestScore || 0);
           const proficient = p.proficient === true;
           additionPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
           additionPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
           additionPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
-          additionPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+          additionPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/30" : "Best: —";
           const badge = additionPanel.querySelector("[data-proficiency]");
           badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
           badge.classList.toggle("achieved", proficient);
