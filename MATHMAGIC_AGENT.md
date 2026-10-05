@@ -84,3 +84,19 @@ Browser automation complements rather than replaces generator QA. Where authenti
 
 ### Visual regression and diagnostic evidence
 Critical instructional representations and layouts should receive automated visual/dimensional checks at representative desktop and mobile viewports. CI failures must preserve useful diagnostic evidence such as Playwright traces, screenshots and/or HTML reports. A human real-device check remains appropriate for major releases and browser-specific issues, but routine 30-question click-through should be automated. The GitHub browser-QA workflow is a required release check for substantial module changes.
+
+
+### External learning resources and copyright rule
+Every substantial topic build or revision must research and curate useful external learning resources, including age-appropriate explanatory videos where they materially improve learning. External resources are part of the learning design and release QA, not an optional afterthought.
+
+Use this order of preference:
+1. Link to the original authoritative or creator-hosted resource. Linking is the default because MathMagic does not make or host a copy.
+2. Embed only when the provider explicitly supplies/supports embedding and the embed complies with the provider's current terms and child-directed/privacy requirements.
+3. Attribute the creator/provider clearly and provide a direct fallback link when embedding.
+4. Never download, screen-record, re-upload, mirror or redistribute third-party videos, worksheets, question banks, transcripts, graphics or other copyright material unless MathMagic has an explicit licence or the material is clearly licensed for that reuse.
+5. Never copy competitor questions or proprietary learning content into MathMagic. External resources supplement MathMagic's independently created teaching and assessment.
+6. Do not rely on school-only educational copyright exceptions for a public or commercial MathMagic release. If reuse rights are unclear, link rather than copy; if linking/embedding rights are unclear, omit the resource pending permission.
+7. For child-facing video embeds, use privacy-enhanced/provider-supported settings where available and comply with any child-directed-site designation requirements.
+8. Release QA must check that external links still resolve, point to the intended resource, are age-appropriate, do not unexpectedly require payment/login, and have not been replaced by unsuitable content. Broken or unsuitable resources must be replaced or removed.
+
+Researching resources is mandatory; including a particular third-party resource is not. Only resources that materially support the topic and pass the copyright, child-safety, relevance and quality checks should appear on the student site.
