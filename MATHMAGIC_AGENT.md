@@ -76,6 +76,8 @@ Wrong answers should receive concise worked feedback that teaches the intended s
 ### Release QA
 At minimum check: curriculum scope, coverage matrix, teaching-assessment alignment, difficulty-band integrity, mathematical answers, duplicate generation, notation leaks, visual layout, responsive behaviour, accessibility labels/instructions, browser input behaviour, authentication, progress saving/restoring and cache/version changes. Never claim a test was run unless it was actually executed.
 
+### Rule-by-rule post-build compliance audit
+After every MathMagic build or review/rebuild, perform a post-build compliance audit against the complete current `MATHMAGIC_AGENT.md`. Record every applicable rule individually as PASS or FAIL with brief evidence. Any repository/CI-applicable FAIL blocks merge and must be corrected and retested. Only merge after all repository/CI-applicable rules pass and required automated QA passes on the exact final commit SHA. Report that exact tested SHA. Production-only Firebase deployment, App Check enforcement and real authorised/unauthorised session verification must remain explicitly separate and must never be falsely reported as CI-tested.
 
 ### Automated browser QA gate
 Every substantial module change must pass automated end-to-end browser QA before production merge. The automated suite must exercise the complete student-facing challenge flow, not merely inspect source code. It must verify navigation, all challenge positions, answer controls, feedback/solutions, critical mathematical representations, responsive layout and the absence of obvious child-facing notation leaks. Failed browser QA blocks release.
