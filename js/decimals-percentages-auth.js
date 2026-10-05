@@ -1,11 +1,12 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
 import { getAuth,onAuthStateChanged,signOut } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
-import { getFirestore,doc,getDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+import { getFirestore,doc,getDoc,setDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js";
 const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
 function key(uid){return "mathmagic:"+uid+":decimals-percentages:progress"}
 function readProgress(uid){try{return JSON.parse(localStorage.getItem(key(uid))||"{}")}catch{return{}}}
 function saveProgress(uid,data){localStorage.setItem(key(uid),JSON.stringify(data))}
+async function loadCloudProgress(uid){const ref=doc(db,"progress",uid,"topics","decimals-percentages"),snap=await getDoc(ref);if(snap.exists()){const p=snap.data();saveProgress(uid,p);return p}const local=readProgress(uid);if(Number(local.attempts||0)>0)await setDoc(ref,local);return local}
 function paint(data={}){
  const attempts=Number(data.attempts||0),best=Number(data.bestScore||0),proficient=data.proficient===true;
  const dots=document.getElementById("attemptDots"),at=document.getElementById("attemptText"),bt=document.getElementById("bestText"),pr=document.getElementById("proficiencyText");
@@ -19,11 +20,11 @@ onAuthStateChanged(auth,async user=>{
  try{
   const snap=await getDoc(doc(db,"access",user.uid));
   if(!(snap.exists()&&snap.data().approved===true)){location.replace("access-required.html");return}
-  paint(readProgress(user.uid));
+  const initial=await loadCloudProgress(user.uid);paint(initial);
   window.MathMagicDecimalsProgress={async saveAttempt(score){
    const old=readProgress(user.uid),attempts=Number(old.attempts||0)+1,best=Math.max(Number(old.bestScore||0),Number(score||0)),proficient=old.proficient===true||Number(score)===30;
    const data={attempts,bestScore:best,lastScore:Number(score||0),proficient,lastCompletedAt:new Date().toISOString()};
-   saveProgress(user.uid,data);paint(data);return data;
+   await setDoc(doc(db,"progress",user.uid,"topics","decimals-percentages"),data);saveProgress(user.uid,data);paint(data);return data;
   }};
   document.body.classList.remove("auth-loading");
  }catch(e){console.error("MathMagic access check failed:",e);location.replace("access-required.html?error=1")}
