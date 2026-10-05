@@ -18,3 +18,32 @@ test('external learning resources use privacy enhanced embeds and fallbacks',asy
     await expect(link).toHaveAttribute('rel',/noopener/);
   }
 });
+
+test('whole numbers generator stress: 500 full challenges preserve structure and answers',async({page})=>{
+ await openTopic(page);
+ const report=await page.evaluate(()=>{
+  const failures=[],seen=new Set(),levels=['FOUNDATION','DEVELOPING','DEVELOPING +','PROFICIENT','APPLICATION','CHALLENGE'];
+  for(let run=0;run<500;run++){
+   const quiz=window.MathMagicWholeNumbersQA.buildQuiz();
+   if(quiz.length!==30)failures.push('count '+quiz.length);
+   for(let band=0;band<6;band++)for(let i=band*5;i<band*5+5;i++)if(quiz[i].level!==levels[band])failures.push('band '+i);
+   for(const q of quiz){
+    if(!q.prompt||q.answer==null||String(q.answer).trim()==='')failures.push('missing answer');
+    if(q.type==='choice'){
+     if(!q.options.includes(q.answer))failures.push('answer missing:'+q.topic);
+     if(new Set(q.options).size!==q.options.length)failures.push('duplicate option:'+q.topic);
+    }
+   }
+   seen.add(quiz.map(q=>q.prompt+'|'+q.display+'|'+q.answer).join('||'));
+  }
+  return{failures:failures.slice(0,20),distinct:seen.size};
+ });
+ expect(report.failures).toEqual([]);expect(report.distinct).toBeGreaterThan(450);
+});
+test('whole numbers progress uses the 30-question scale',async({page})=>{
+ await openTopic(page);
+ const src=await (await page.request.get('/js/whole-numbers-auth.js')).text();
+ expect(src).toContain('p.bestScore+"/30"');
+ expect(src).toContain('Number(score)===30');
+ expect(src).not.toContain('bestScore+"/20"');
+});
