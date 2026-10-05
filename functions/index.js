@@ -21,3 +21,64 @@ function publicQ(q,i){const {answer,solution,...safe}=q;return{...safe,index:i+1
 async function approved(uid){const s=await db.doc('access/'+uid).get();return s.exists&&s.data().approved===true}
 exports.startFractionsChallenge=onCall({enforceAppCheck:true},async req=>{if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');if(!(await approved(req.auth.uid)))throw new HttpsError('permission-denied','MathMagic approval required.');const qs=build(),id=crypto.randomUUID(),answers=qs.map(q=>({answer:q.answer,solution:q.solution,type:q.type,strict:!!q.strict}));await db.doc('challengeSessions/'+id).set({uid:req.auth.uid,topic:'fractions',answers,createdAt:Date.now(),nextIndex:0,score:0,complete:false});return{sessionId:id,question:publicQ(qs[0],0)};});
 exports.submitFractionsAnswer=onCall({enforceAppCheck:true},async req=>{if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');const id=String(req.data?.sessionId||''),index=Number(req.data?.index),response=req.data?.response;if(!id)throw new HttpsError('invalid-argument','Missing session.');const ref=db.doc('challengeSessions/'+id);return db.runTransaction(async tx=>{const s=await tx.get(ref);if(!s.exists)throw new HttpsError('not-found','Session expired.');const d=s.data();if(d.uid!==req.auth.uid)throw new HttpsError('permission-denied','Wrong session owner.');if(d.complete||index!==d.nextIndex)throw new HttpsError('failed-precondition','Question is not current.');const key=d.answers[index],eq=(a,b)=>Array.isArray(a)&&Array.isArray(b)&&a.length===b.length&&a.every((v,i)=>Number(v)===Number(b[i]));let ok=false;if(key.type==='choice'||key.type==='single')ok=String(response)===String(key.answer);else if(Array.isArray(response)&&Array.isArray(key.answer)){if(key.type==='fraction'&&response.length===2){const n=response[0],den=response[1],an=key.answer[0],ad=key.answer[1];ok=Number(den)!==0&&Number(n)*Number(ad)===Number(an)*Number(den);if(key.strict)ok=ok&&Number(n)===Number(an)&&Number(den)===Number(ad)}else ok=eq(response,key.answer)}const score=d.score+(ok?1:0),next=index+1,complete=next>=TOTAL;tx.update(ref,{score,nextIndex:next,complete});return{correct:ok,solution:ok?null:key.solution,answer:ok?null:key.answer,score,complete,nextIndex:next};});});
+
+
+// Decimals & Percentages protected-content pilot.
+// Topic-exclusive Year 5 rules: decimal place value to thousandths; compare/order/locate
+// decimals; percent as out of 100/relative size; common fraction-decimal-percentage
+// equivalence. Percentage-of-quantity calculations are deliberately excluded.
+const DP_CONNECTS=[[1,2,0.5,50],[1,4,0.25,25],[3,4,0.75,75],[1,10,0.1,10],[1,5,0.2,20]];
+const dpShuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=rnd(0,i);[a[i],a[j]]=[a[j],a[i]]}return a};
+const dpChoice=(topic,prompt,display,options,answer,solution)=>({topic,prompt,display,options:options.map(String),answer:String(answer),type:'choice',solution});
+const dpNumber=(topic,prompt,display,answer,solution)=>({topic,prompt,display,answer:String(answer),type:'number',solution});
+function dpPlace(){const whole=rnd(1,19),ds=[rnd(1,9),rnd(0,9),rnd(1,9)],i=rnd(0,2),names=['tenths','hundredths','thousandths'];return dpChoice('Decimal Place Value','Which place is the digit '+ds[i]+' in?',whole+'.'+ds.join(''),['tenths','hundredths','thousandths','ones'],names[i],'Read the decimal from left to right: tenths, hundredths, then thousandths.')}
+function dpValue(){const whole=rnd(1,9),ds=[rnd(1,9),rnd(0,9),rnd(1,9)],i=rnd(0,2),vals=[ds[0]/10,ds[1]/100,ds[2]/1000],names=['tenths','hundredths','thousandths'];return dpNumber('Decimal Place Value','What is the value of the digit in the '+names[i]+' place?',whole+'.'+ds.join(''),vals[i],'Use the place of the digit to determine its value.')}
+function dpCompare(){let a=rnd(1001,9999),b=rnd(1001,9999);while(a===b)b=rnd(1001,9999);return dpChoice('Compare Decimals','Which symbol makes the statement correct?',(a/1000).toFixed(3)+' ___ '+(b/1000).toFixed(3),['<','=','>'],a<b?'<':'>','Compare whole numbers, then tenths, hundredths and thousandths.')}
+function dpOrder(){const s=new Set();while(s.size<3)s.add((rnd(101,999)/100).toFixed(2));const v=[...s],ans=Math.min(...v.map(Number)).toFixed(2);return dpChoice('Order Decimals','Which decimal is the smallest?',v.join(' • '),v,ans,'Compare corresponding place values from left to right.')}
+function dpPercentMeaning(){const p=choice([10,20,25,40,50,60,75,80]);return dpChoice('Understanding Percent',p+'% means which amount out of 100?',p+'%',dpShuffle([p+' out of 100',p+' out of 10',(100-p)+' out of 100','100 out of '+p]),p+' out of 100','Percent means per hundred.')}
+function dpF2P(){const [n,d,,p]=choice(DP_CONNECTS),pool=dpShuffle([10,20,25,50,75,80].filter(x=>x!==p)).slice(0,3);return dpChoice('Connect Representations','Which percentage is equivalent to '+n+'/'+d+'?',{kind:'fraction',numerator:n,denominator:d},dpShuffle([p,...pool]),p,'Rename the fraction as an equivalent amount out of 100.')}
+function dpD2P(){const [,,dec,p]=choice(DP_CONNECTS),pool=dpShuffle([10,20,25,50,75,80].filter(x=>x!==p)).slice(0,3);return dpChoice('Connect Representations','Which percentage is equivalent to '+dec+'?',String(dec),dpShuffle([p,...pool]),p,'Use the known decimal and percentage equivalence.')}
+function dpP2D(){const [,,dec,p]=choice(DP_CONNECTS),pool=DP_CONNECTS.filter(x=>x[2]!==dec).map(x=>x[2]);return dpChoice('Connect Representations','Which decimal is equivalent to '+p+'%?',p+'%',dpShuffle([dec,...dpShuffle(pool).slice(0,3)]),dec,'Percent describes hundredths; connect it to the equivalent decimal.')}
+function dpP2F(){const [n,d,,p]=choice(DP_CONNECTS),others=DP_CONNECTS.filter(x=>x[3]!==p).slice(0,3).map(x=>x[0]+'/'+x[1]);return dpChoice('Connect Representations','Which fraction is equivalent to '+p+'%?',p+'%',dpShuffle([n+'/'+d,...others]),n+'/'+d,'Match the percentage to a familiar equivalent fraction.')}
+function dpLocate(){const base=rnd(1,6),step=rnd(1,9),ans=(base+step/100).toFixed(2),pool=[(base+step/10).toFixed(2),(base+(step===5?4:10-step)/100).toFixed(2),(base+.1+step/100).toFixed(2)];return dpChoice('Decimals on a Number Line','Which decimal is '+step+' hundredths after '+base.toFixed(2)+'?',{kind:'numberLine',start:base.toFixed(2),end:(base+.1).toFixed(2)},dpShuffle([ans,...pool.filter(x=>x!==ans).slice(0,3)]),ans,'Move by hundredths, not tenths.')}
+function dpRelative(){let a=choice([20,25,40,50,60,75,80]),b=choice([10,25,50,75,90]);while(a===b)b=choice([10,25,50,75,90]);return dpChoice('Compare Percentages','Which percentage is the greater relative amount?',a+'% or '+b+'%',[a+'%',b+'%','They are equal','Not enough information'],Math.max(a,b)+'%','Percentages use the same scale of 100, so compare their values directly.')}
+function dpReason(){return choice([
+ ()=>dpChoice('Reasoning','A battery is 0.75 full. Which percentage is equivalent?','0.75',['25%','50%','75%','100%'],'75%','0.75 is 75 hundredths, so it is 75%.'),
+ ()=>dpChoice('Reasoning','Which decimal lies between 2.4 and 2.5?','2.4 < ? < 2.5',['2.35','2.405','2.45','2.505'],'2.45','Write 2.4 as 2.40 and compare hundredths.'),
+ ()=>dpChoice('Reasoning','Which statement is true?','Equivalent decimal notation',['3.5 = 3.050','3.5 = 3.500','3.5 < 3.05','3.5 = 3.005'],'3.5 = 3.500','Zeros added after the final decimal digit do not change the value.'),
+ ()=>dpChoice('Reasoning','A student says 0.62 < 0.599 because 62 < 599. What is correct?','Compare place values',['0.62 < 0.599','0.62 = 0.599','0.62 > 0.599','They cannot be compared'],'0.62 > 0.599','Write 0.62 as 0.620, then compare place values.')
+ ])()}
+const DP_BANDS=[
+ ['FOUNDATION',[dpPlace,dpValue,dpPercentMeaning,dpF2P,dpD2P]],
+ ['DEVELOPING',[dpCompare,dpOrder,dpP2D,dpP2F,dpLocate]],
+ ['DEVELOPING +',[dpLocate,dpCompare,dpRelative,dpD2P,dpF2P]],
+ ['PROFICIENT',[dpOrder,dpRelative,dpP2D,dpReason,dpReason]],
+ ['APPLICATION',[dpRelative,dpReason,dpReason,dpP2F,dpD2P]],
+ ['CHALLENGE',[dpReason,dpLocate,dpRelative,dpReason,dpCompare]]
+];
+function buildDecimalsPercentages(){return DP_BANDS.flatMap(([level,makers])=>dpShuffle(makers.map(make=>({...make(),level})))).slice(0,TOTAL)}
+function publicDecimalQ(q,i){const {answer,solution,...safe}=q;return{...safe,index:i+1,total:TOTAL}}
+exports.startDecimalsPercentagesChallenge=onCall({enforceAppCheck:true},async req=>{
+ if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');
+ if(!(await approved(req.auth.uid)))throw new HttpsError('permission-denied','MathMagic approval required.');
+ const qs=buildDecimalsPercentages(),id=crypto.randomUUID();
+ const answers=qs.map(q=>({answer:q.answer,solution:q.solution,type:q.type}));
+ const questions=qs.map((q,i)=>publicDecimalQ(q,i));
+ await db.doc('challengeSessions/'+id).set({uid:req.auth.uid,topic:'decimals-percentages',answers,questions,createdAt:Date.now(),nextIndex:0,score:0,complete:false});
+ return{sessionId:id,question:questions[0]};
+});
+exports.submitDecimalsPercentagesAnswer=onCall({enforceAppCheck:true},async req=>{
+ if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');
+ const id=String(req.data?.sessionId||''),index=Number(req.data?.index),response=req.data?.response;
+ if(!id)throw new HttpsError('invalid-argument','Missing session.');
+ const ref=db.doc('challengeSessions/'+id);
+ return db.runTransaction(async tx=>{
+  const s=await tx.get(ref);if(!s.exists)throw new HttpsError('not-found','Session expired.');
+  const d=s.data();if(d.uid!==req.auth.uid)throw new HttpsError('permission-denied','Wrong session owner.');
+  if(d.topic!=='decimals-percentages'||d.complete||index!==d.nextIndex)throw new HttpsError('failed-precondition','Question is not current.');
+  const key=d.answers[index],ok=key.type==='number'?Number.isFinite(Number(response))&&Math.abs(Number(response)-Number(key.answer))<1e-9:String(response)===String(key.answer);
+  const score=d.score+(ok?1:0),next=index+1,complete=next>=TOTAL;
+  tx.update(ref,{score,nextIndex:next,complete});
+  return{correct:ok,solution:ok?null:key.solution,answer:ok?null:key.answer,score,complete,nextIndex:next,question:complete?null:d.questions[next]};
+ });
+});
