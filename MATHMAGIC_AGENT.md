@@ -110,7 +110,7 @@ Do not add videos simply to satisfy a quota. One high-quality resource may suppo
 
 A substantial module revision is incomplete until the resource pass has been performed and the chosen resources have been implemented or the development record explicitly explains why no suitable embeddable resource should be used.
 
-Automated browser QA for modules with embeds must verify that expected embedded-resource elements exist, use approved provider domains, have accessible titles and expose working original-source fallback links. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
+Automated browser QA for modules with embeds must verify the resource through the actual student journey, not merely by source/DOM presence. The test must navigate to the relevant lesson, confirm the resource section, embed, attribution and fallback link are visibly reachable, confirm the embed has usable rendered dimensions at representative desktop and mobile viewports, and verify the approved provider domain and accessible title. Resources must be placed with the concept they materially teach; an unrelated or buried placement does not satisfy this requirement. A hidden, zero-size, inaccessible or merely source-present embed is a FAIL. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
 
 
 ### Protected content architecture rule
