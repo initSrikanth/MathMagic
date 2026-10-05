@@ -11,7 +11,7 @@ function paint(data={}){
  const dots=document.getElementById("attemptDots"),at=document.getElementById("attemptText"),bt=document.getElementById("bestText"),pr=document.getElementById("proficiencyText");
  if(dots)dots.textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");
  if(at)at.textContent=attempts<5?attempts+" of 5 completed":"5 of 5 minimum completed • "+attempts+" total attempts";
- if(bt)bt.textContent=attempts?"Best: "+best+"/20":"Best: —";
+ if(bt)bt.textContent=attempts?"Best: "+best+"/30":"Best: —";
  if(pr){pr.textContent=proficient?"✓ PROFICIENT":"Proficiency: In progress";pr.classList.toggle("proficient",proficient)}
 }
 onAuthStateChanged(auth,async user=>{
@@ -21,7 +21,7 @@ onAuthStateChanged(auth,async user=>{
   if(!(snap.exists()&&snap.data().approved===true)){location.replace("access-required.html");return}
   paint(readProgress(user.uid));
   window.MathMagicDecimalsProgress={async saveAttempt(score){
-   const old=readProgress(user.uid),attempts=Number(old.attempts||0)+1,best=Math.max(Number(old.bestScore||0),Number(score||0)),proficient=old.proficient===true||Number(score)===20;
+   const old=readProgress(user.uid),attempts=Number(old.attempts||0)+1,best=Math.max(Number(old.bestScore||0),Number(score||0)),proficient=old.proficient===true||Number(score)===30;
    const data={attempts,bestScore:best,lastScore:Number(score||0),proficient,lastCompletedAt:new Date().toISOString()};
    saveProgress(user.uid,data);paint(data);return data;
   }};
