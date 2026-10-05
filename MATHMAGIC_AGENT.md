@@ -109,3 +109,21 @@ Do not add videos simply to satisfy a quota. One high-quality resource may suppo
 A substantial module revision is incomplete until the resource pass has been performed and the chosen resources have been implemented or the development record explicitly explains why no suitable embeddable resource should be used.
 
 Automated browser QA for modules with embeds must verify that expected embedded-resource elements exist, use approved provider domains, have accessible titles and expose working original-source fallback links. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
+
+
+### Protected content architecture rule
+Valuable MathMagic assessment generators, question banks, answer keys/marking logic and other premium instructional logic must not be shipped unnecessarily to the public browser client. New modules should use protected server-side generation by default, and existing mature modules should migrate incrementally using a proven pilot pattern.
+
+Protected assessment endpoints must:
+- require a valid Firebase Authentication identity;
+- verify the MathMagic approval/entitlement record server-side before returning protected assessment data;
+- enforce Firebase App Check in production once the web app is registered and enforcement has been verified;
+- return only the question/session data needed by the authorised learner rather than the complete generator or question bank;
+- keep authoritative answer/marking logic server-side wherever practical, so correct answers are not exposed with the question payload;
+- preserve Firestore security rules as the authoritative protection for student-owned progress data;
+- use bounded sessions, rate/abuse controls where appropriate, and avoid trusting client-supplied scores as authoritative evidence;
+- fail closed when authentication, approval or protected-service validation fails.
+
+CI/browser automation may use an explicit test-only adapter or emulator, but production code must never contain an unauthenticated bypass added for automated testing. Tests must clearly distinguish UI QA from a real Firebase-authenticated/App-Check-protected integration test.
+
+A protected-backend migration is not considered live merely because server code exists in the repository. Release reporting must separately verify deployment, production configuration, App Check registration/enforcement, authorised-user success, unauthorised-user rejection, and progress persistence before claiming the protection is active in production.
