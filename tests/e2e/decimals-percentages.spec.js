@@ -16,7 +16,7 @@ test('generator stress: 500 full challenges preserve structure, answers and nota
     if(!q.prompt||q.answer==null)failures.push('missing');
     if(q.type==='choice'){
      if(!q.options.includes(q.answer))failures.push('answer missing');
-     if(new Set(q.options).size!==q.options.length)failures.push('duplicate option');
+     if(new Set(q.options).size!==q.options.length)failures.push('duplicate option:'+q.topic+':'+q.options.join(' || '));
     }
     const visible=[q.prompt,q.display,...(q.options||[])].join(' ').replace(/<[^>]*>/g,' ');
     if(/\b\d+\s*\/\s*\d+\b/.test(visible))failures.push('slash fraction');
