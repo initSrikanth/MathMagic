@@ -19,7 +19,7 @@ test('generator stress: 500 full challenges preserve structure, answers and nota
      if(new Set(q.options).size!==q.options.length)failures.push('duplicate option:'+q.topic+':'+q.options.join(' || '));
     }
     const visible=[q.prompt,q.display,...(q.options||[])].join(' ').replace(/<[^>]*>/g,' ');
-    if(/\b\d+\s*\/\s*\d+\b/.test(visible))failures.push('slash fraction');
+    const sm=visible.match(/\\b\\d+\\s*\\/\\s*\\d+\\b/);if(sm)failures.push('slash fraction:'+q.topic+':'+sm[0]+':'+visible);
    }
    seen.add(quiz.map(q=>q.prompt+'|'+q.display+'|'+q.answer).join('||'));
   }
