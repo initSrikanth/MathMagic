@@ -100,7 +100,11 @@ if (!configured) {
       if (decimalsPanel) {
         try {
           const key = "mathmagic:" + user.uid + ":decimals-percentages:progress";
-          const p = JSON.parse(localStorage.getItem(key) || "{}");
+          const progressRef = doc(db, "progress", user.uid, "topics", "decimals-percentages");
+          const cloudSnap = await getDoc(progressRef);
+          let p;
+          if (cloudSnap.exists()) { p = cloudSnap.data(); localStorage.setItem(key, JSON.stringify(p)); }
+          else { try { p = JSON.parse(localStorage.getItem(key) || "{}"); } catch { p = {}; } if (Number(p.attempts || 0) > 0) await setDoc(progressRef, p); }
           const attempts = Number(p.attempts || 0);
           const best = Number(p.bestScore || 0);
           const proficient = p.proficient === true;
