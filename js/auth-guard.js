@@ -107,7 +107,7 @@ if (!configured) {
           decimalsPanel.querySelector(".practice-dots").textContent = Array.from({length:5}, (_,i) => i < Math.min(attempts,5) ? "●" : "○").join(" ");
           decimalsPanel.querySelector("[data-attempts]").textContent = Math.min(attempts,5) + "/5" + (attempts > 5 ? " • " + attempts + " total" : "");
           decimalsPanel.querySelector("[data-progress-bar]").style.width = (Math.min(attempts,5) * 20) + "%";
-          decimalsPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/20" : "Best: —";
+          decimalsPanel.querySelector("[data-best]").textContent = attempts ? "Best: " + best + "/30" : "Best: —";
           const badge = decimalsPanel.querySelector("[data-proficiency]");
           badge.textContent = proficient ? "✓ PROFICIENT" : "IN PROGRESS";
           badge.classList.toggle("achieved", proficient);
