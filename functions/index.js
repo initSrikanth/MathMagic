@@ -82,3 +82,53 @@ exports.submitDecimalsPercentagesAnswer=onCall({enforceAppCheck:true},async req=
   return{correct:ok,solution:ok?null:key.solution,answer:ok?null:key.answer,score,complete,nextIndex:next,question:complete?null:d.questions[next]};
  });
 });
+
+
+// Whole Numbers & Place Value protected-content pilot.
+// Topic-exclusive Year 5 rules: whole-number place value/representation/comparison;
+// decimal place value to thousandths; compare/order/locate decimals; powers-of-ten
+// place relationships; whole-number rounding/estimation for reasonableness.
+const wnShuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=rnd(0,i);[a[i],a[j]]=[a[j],a[i]]}return a};
+const WN_PLACES={10:'tens',100:'hundreds',1000:'thousands',10000:'ten thousands',100000:'hundred thousands'};
+function wnPlace(){const place=choice([10,100,1000,10000,100000]),digit=rnd(1,9),n=Math.floor(rnd(100000,999999)/(place*10))*(place*10)+digit*place+rnd(0,place-1);return{topic:'Whole-number place value',prompt:'What is the value of the specified digit?',display:String(n),detail:{digit,place:WN_PLACES[place]},answer:String(digit*place),type:'number',solution:'Use the digit position to find its place value.'}}
+function wnExpanded(){const n=rnd(100000,999999),parts=[];[100000,10000,1000,100,10,1].forEach(p=>{const d=Math.floor(n/p)%10;if(d)parts.push(d*p)});return{topic:'Representing numbers',prompt:'What whole number is shown by this expanded form?',display:parts.join(' + '),answer:String(n),type:'number',solution:'Combine the place-value parts to rebuild the number.'}}
+function wnCompare(){let a=rnd(10000,999999),b=rnd(10000,999999);while(a===b)b=rnd(10000,999999);return{topic:'Compare whole numbers',prompt:'Choose the correct symbol.',display:a+' ___ '+b,options:['<','=','>'],answer:a>b?'>':'<',type:'choice',solution:'Compare from the greatest place value.'}}
+function wnDecimalValue(){const w=rnd(0,9),t=rnd(0,9),h=rnd(0,9),th=rnd(1,9),place=choice(['tenths','hundredths','thousandths']),digit=place==='tenths'?t:place==='hundredths'?h:th,value=place==='tenths'?digit/10:place==='hundredths'?digit/100:digit/1000;return{topic:'Decimal place value',prompt:'What is the value of the digit in the '+place+' place?',display:w+'.'+t+h+th,answer:String(value),type:'number',solution:'Read the digit using its decimal place.'}}
+function wnDecimalCompare(){const base=rnd(0,4),a=(base+rnd(1,999)/1000).toFixed(3),b=(base+rnd(1,999)/1000).toFixed(3);if(a===b)return wnDecimalCompare();return{topic:'Compare decimals',prompt:'Choose the correct symbol.',display:a+' ___ '+b,options:['<','=','>'],answer:Number(a)>Number(b)?'>':'<',type:'choice',solution:'Compare ones, tenths, hundredths and thousandths in order.'}}
+function wnDecimalLine(){const start=rnd(0,3),k=rnd(1,9),ans=(start+k/100).toFixed(2);return{topic:'Decimal number line',prompt:'The interval is split into 10 equal hundredth steps. What decimal is at mark '+k+'?',display:{kind:'numberLine',start:start.toFixed(2),end:(start+.1).toFixed(2),mark:k},answer:ans,type:'number',solution:'Each step is one hundredth.'}}
+function wnRelation10(){const digit=rnd(1,9),a=digit/10,b=digit/100;return{topic:'Place-value relationships',prompt:'How many times greater is '+a+' than '+b+'?',display:a+' compared with '+b,answer:'10',type:'number',solution:'Moving one place left makes a digit value 10 times greater.'}}
+function wnRound(){const n=rnd(10000,999999),place=choice([100,1000,10000]);return{topic:'Whole-number estimation',prompt:'Round '+n+' to the nearest '+WN_PLACES[place].replace(/s$/,'')+'.',display:String(n),answer:String(Math.round(n/place)*place),type:'number',solution:'Use the digit immediately to the right of the rounding place.'}}
+function wnReason(){return choice([
+ ()=>({topic:'Reasoning',prompt:'Which statement is true?',display:'4.7 and 4.700',options:['4.7 < 4.700','4.7 = 4.700','4.7 > 4.700'],answer:'4.7 = 4.700',type:'choice',solution:'Trailing zeros do not change a decimal value.'}),
+ ()=>({topic:'Reasoning',prompt:'A student compares 2.407 and 2.47 as whole-number digit strings. Which correction is true?',display:'2.407 ___ 2.470',options:['2.407 < 2.470','2.407 > 2.470','They cannot be compared'],answer:'2.407 < 2.470',type:'choice',solution:'Align equal place values before comparing.'})
+ ])()}
+const WN_BANDS=[
+ ['FOUNDATION',[wnPlace,wnExpanded,wnCompare,wnDecimalValue,wnRelation10]],
+ ['DEVELOPING',[wnDecimalValue,wnDecimalCompare,wnDecimalLine,wnRelation10,wnRound]],
+ ['DEVELOPING +',[wnDecimalCompare,wnDecimalLine,wnDecimalValue,wnRound,wnReason]],
+ ['PROFICIENT',[wnDecimalLine,wnDecimalCompare,wnRound,wnReason,wnRelation10]],
+ ['APPLICATION',[wnRound,wnDecimalLine,wnReason,wnCompare,wnDecimalCompare]],
+ ['CHALLENGE',[wnReason,wnDecimalLine,wnRound,wnDecimalCompare,wnPlace]]
+];
+function buildWholeNumbers(){return WN_BANDS.flatMap(([level,makers])=>wnShuffle(makers.map(make=>({...make(),level})))).slice(0,TOTAL)}
+function publicWholeQ(q,i){const {answer,solution,...safe}=q;return{...safe,index:i+1,total:TOTAL}}
+exports.startWholeNumbersChallenge=onCall({enforceAppCheck:true},async req=>{
+ if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');
+ if(!(await approved(req.auth.uid)))throw new HttpsError('permission-denied','MathMagic approval required.');
+ const qs=buildWholeNumbers(),id=crypto.randomUUID(),answers=qs.map(q=>({answer:q.answer,solution:q.solution,type:q.type})),questions=qs.map((q,i)=>publicWholeQ(q,i));
+ await db.doc('challengeSessions/'+id).set({uid:req.auth.uid,topic:'whole-numbers',answers,questions,createdAt:Date.now(),nextIndex:0,score:0,complete:false});
+ return{sessionId:id,question:questions[0]};
+});
+exports.submitWholeNumbersAnswer=onCall({enforceAppCheck:true},async req=>{
+ if(!req.auth)throw new HttpsError('unauthenticated','Sign in required.');
+ const id=String(req.data?.sessionId||''),index=Number(req.data?.index),response=req.data?.response;if(!id)throw new HttpsError('invalid-argument','Missing session.');
+ const ref=db.doc('challengeSessions/'+id);
+ return db.runTransaction(async tx=>{
+  const s=await tx.get(ref);if(!s.exists)throw new HttpsError('not-found','Session expired.');
+  const d=s.data();if(d.uid!==req.auth.uid)throw new HttpsError('permission-denied','Wrong session owner.');
+  if(d.topic!=='whole-numbers'||d.complete||index!==d.nextIndex)throw new HttpsError('failed-precondition','Question is not current.');
+  const key=d.answers[index],ok=key.type==='number'?String(response).replace(/,/g,'').trim()===String(key.answer).replace(/,/g,'').trim():String(response)===String(key.answer);
+  const score=d.score+(ok?1:0),next=index+1,complete=next>=TOTAL;tx.update(ref,{score,nextIndex:next,complete});
+  return{correct:ok,solution:ok?null:key.solution,answer:ok?null:key.answer,score,complete,nextIndex:next,question:complete?null:d.questions[next]};
+ });
+});

@@ -17,7 +17,7 @@ function paint(data={}){
  const dots=document.getElementById("attemptDots"),at=document.getElementById("attemptText"),bt=document.getElementById("bestText"),pr=document.getElementById("proficiencyText");
  if(dots)dots.textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?"●":"○").join(" ");
  if(at)at.textContent=attempts<5?attempts+" of 5 completed":"5 of 5 minimum completed • "+attempts+" total attempts";
- if(bt)bt.textContent=attempts?"Best: "+p.bestScore+"/20":"Best: —";
+ if(bt)bt.textContent=attempts?"Best: "+p.bestScore+"/30":"Best: —";
  if(pr){pr.textContent=p.proficient?"✓ PROFICIENT":attempts>0?"Proficiency: In progress":"Proficiency: Start";pr.classList.toggle("proficient",p.proficient)}
 }
 async function loadProgress(uid){
@@ -35,7 +35,7 @@ onAuthStateChanged(auth,async user=>{
   let current=await loadProgress(user.uid);paint(current);
   window.MathMagicProgress={async saveWholeNumbersAttempt(score){
    const latest=await loadProgress(user.uid),attempts=latest.attempts+1,best=Math.max(latest.bestScore,Number(score||0));
-   const data={attempts,bestScore:best,lastScore:Number(score||0),proficient:latest.proficient||Number(score)===20,lastCompletedAt:new Date().toISOString()};
+   const data={attempts,bestScore:best,lastScore:Number(score||0),proficient:latest.proficient||Number(score)===30,lastCompletedAt:new Date().toISOString()};
    await setDoc(cloudRef(user.uid),data);localSave(user.uid,data);current=data;paint(data);return data;
   }};
   document.body.classList.remove("auth-loading");
