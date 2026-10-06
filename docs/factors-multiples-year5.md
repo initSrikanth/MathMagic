@@ -40,11 +40,13 @@ Coverage was compared with current IXL Australia Year 5 Factors, multiples and d
 Foundation recognises direct factors/multiples and completes one-step relationships. Developing applies complete factor sets and single divisibility rules. Developing+ connects factor/multiple relationships, shared properties and algorithm steps. Proficient applies rules with less scaffolding and pattern reasoning. Application chooses/combines tests and relationships in context. Challenge analyses algorithms, errors and multi-condition divisibility while remaining inside Year 5 scope.
 
 ## Architecture
-The production challenge is protected-only. Generator, answers and marking remain in Firebase Functions; the public browser receives only the current safe question. Start and submit require Firebase Auth, server-side approval and App Check declarations; sessions are UID/topic/index bound and fail closed. CI uses an explicit test-only browser adapter.
+The live module follows the proven Fractions operational pattern: Firebase Authentication -> `access/{uid}.approved === true` -> authorised topic page. The 30-question generator and marking run in the authenticated browser, and progress is stored at `progress/{uid}/topics/factors-multiples` with a local-storage mirror. This removes the topic-specific dependency on separately deployed callable Functions that made the live challenge unavailable.
+
+This architecture gates student access but does not claim that browser-delivered generator logic is secret. Stronger server-only assessment delivery remains a future site-wide migration once one production-verified deployment pipeline is available for all topics.
 
 ## External resource pass
 - Khan Academy original-provider factors/multiples article is linked.
 - Math with Mr. J “Multiples vs. Factors” uses the same established MathMagic external-video pattern as Fractions and the other live modules: the provider-hosted `youtube-nocookie.com` player, lazy loading, accessible title, creator attribution and an original YouTube fallback link. The video is streamed from YouTube; MathMagic does not copy or re-host the media. Child-directed-site platform designation remains a separate site-level production configuration check.
 
 ## Production caveat
-Repository/CI validation does not prove Firebase Functions deployment, live App Check enforcement, real authorised/unauthorised sessions or production Firestore rules/progress persistence.
+Repository/CI validates the Fractions-style authentication/progress wiring and browser challenge flow but does not impersonate a real production Firebase user. Live authorised/unauthorised access and real Firestore persistence remain production smoke checks. Child-directed video platform designation is also a site-level production configuration check.
