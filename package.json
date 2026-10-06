@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test:e2e": "playwright test",
-    "test:protected": "node tests/protected-fractions.test.js && node tests/protected-decimals-percentages.test.js && node tests/protected-whole-numbers.test.js && node tests/protected-addition-subtraction.test.js && node tests/protected-multiplication-division.test.js && node tests/generator-multiplication-division.test.js"
+    "test:protected": "node tests/protected-fractions.test.js && node tests/protected-decimals-percentages.test.js && node tests/protected-whole-numbers.test.js && node tests/protected-addition-subtraction.test.js && node tests/protected-multiplication-division.test.js && node tests/generator-multiplication-division.test.js && node tests/protected-factors-multiples.test.js && node tests/generator-factors-multiples.test.js"
   },
   "devDependencies": {
     "@playwright/test": "1.55.1"
