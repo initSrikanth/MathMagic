@@ -4,6 +4,7 @@ assert(s.includes('submitMultiplicationDivisionAnswer=onCall({enforceAppCheck:tr
 assert(s.includes("if(!(await approved(req.auth.uid)))"));
 assert(s.includes("d.topic!=='multiplication-division'"));
 const mdSubmit=s.slice(s.indexOf('exports.submitMultiplicationDivisionAnswer'));
+assert(mdSubmit.includes("if(!(await approved(req.auth.uid)))throw new HttpsError('permission-denied','MathMagic approval required.')"));
 assert(!mdSubmit.includes('answer:ok?null:k.answer'));
 assert(mdSubmit.includes('solution:ok?null:k.solution,score,complete'));
 
