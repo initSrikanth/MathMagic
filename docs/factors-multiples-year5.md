@@ -44,8 +44,8 @@ The production challenge is protected-only. Generator, answers and marking remai
 
 ## External resource pass
 - Khan Academy original-provider factors/multiples article is linked.
-- Math with Mr. J “Multiples vs. Factors” is embedded with YouTube's privacy-enhanced `youtube-nocookie.com` player, lazy loading, accessible title, creator attribution and original YouTube fallback.
-No third-party questions, transcripts, graphics or videos are copied/re-hosted.
+- Math with Mr. J “Multiples vs. Factors” is linked to the creator's original YouTube video. It is deliberately not embedded in this release because YouTube currently requires child-directed websites/apps to self-designate with Google even when Privacy Enhanced Mode is used; that site-wide production designation has not been verified in repository/CI.
+No third-party questions, transcripts, graphics or videos are copied/re-hosted. Once the child-directed site designation is verified, a provider-supported privacy-enhanced embed can be reconsidered.
 
 ## Production caveat
 Repository/CI validation does not prove Firebase Functions deployment, live App Check enforcement, real authorised/unauthorised sessions or production Firestore rules/progress persistence.
