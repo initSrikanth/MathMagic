@@ -14,6 +14,6 @@ assert(client.includes('function buildFactorsMultiples()'));
 assert(client.includes('quiz=buildFactorsMultiples()'));
 assert(client.includes('current.answer'));
 assert(html.includes('js/factors-multiples-auth.js?v=2'));
-assert(html.includes('js/factors-multiples.js?v=2'));
+assert(html.includes('js/factors-multiples.js?v=3'));
 for(const token of ['onAuthStateChanged','access.data().approved===true','localStorage.setItem','setDoc'])assert(auth.includes(token)&&fractions.includes(token));
 console.log('Factors & Multiples Fractions-style authenticated architecture passed');
