@@ -3,6 +3,10 @@ assert(s.includes('startMultiplicationDivisionChallenge=onCall({enforceAppCheck:
 assert(s.includes('submitMultiplicationDivisionAnswer=onCall({enforceAppCheck:true}'));
 assert(s.includes("if(!(await approved(req.auth.uid)))"));
 assert(s.includes("d.topic!=='multiplication-division'"));
+const mdSubmit=s.slice(s.indexOf('exports.submitMultiplicationDivisionAnswer'));
+assert(!mdSubmit.includes('answer:ok?null:k.answer'));
+assert(mdSubmit.includes('solution:ok?null:k.solution,score,complete'));
+
 assert(s.includes('function publicMD(q,i){const{answer,solution,...safe}=q'));
 assert(s.includes('mdDecimalQuotient'));
 assert(s.includes('mdFractionQuotient'));
