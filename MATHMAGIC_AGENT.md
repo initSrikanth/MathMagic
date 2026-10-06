@@ -104,6 +104,7 @@ Use this order of preference:
 5. Never copy competitor questions or proprietary learning content into MathMagic. External resources supplement MathMagic's independently created teaching and assessment.
 6. Do not rely on school-only educational copyright exceptions for a public or commercial MathMagic release. If reuse rights are unclear, link rather than copy; if linking/embedding rights are unclear, omit the resource pending permission.
 7. For child-facing video embeds, use privacy-enhanced/provider-supported settings where available and comply with any child-directed-site designation requirements.
+8. Copyright and child-directed/privacy configuration are separate checks. An official provider-supported embed streams the provider's copy and must not be described as MathMagic copying or re-hosting the video. Site-wide child-directed platform designation is tracked and verified as production configuration; do not remove an otherwise approved embed from one topic while leaving the same established provider pattern across other MathMagic topics without a site-wide decision.
 8. Release QA must check that external links still resolve, point to the intended resource, are age-appropriate, do not unexpectedly require payment/login, and have not been replaced by unsuitable content. Broken or unsuitable resources must be replaced or removed.
 
 Researching resources is mandatory; including a particular third-party resource is not. Only resources that materially support the topic and pass the copyright, child-safety, relevance and quality checks should appear on the student site.
@@ -117,6 +118,11 @@ A substantial module revision is incomplete until the resource pass has been per
 
 Automated browser QA for modules with embeds must verify that expected embedded-resource elements exist, use approved provider domains, have accessible titles and expose working original-source fallback links. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
 
+
+### Current operational authentication baseline
+Until MathMagic has one production-verified, site-wide Firebase Functions deployment pipeline, new topic releases must not introduce a topic-specific callable-Functions dependency that can leave an otherwise deployed challenge unusable. Use the proven Fractions pattern as the operational baseline: Firebase Authentication -> `access/{uid}.approved === true` -> authorised topic page -> Firestore progress at `progress/{uid}/topics/{topic}`, with the challenge running in the authenticated browser.
+
+This is an explicit transitional architecture, not a claim that browser-delivered generator logic is secret. The stronger server-only protection below remains the target architecture, but migration must be site-wide or use a production-verified deployment path before a topic is declared complete. Do not make one topic depend on an undeployed backend while the established live modules use the browser challenge pattern.
 
 ### Protected content architecture rule
 Valuable MathMagic assessment generators, question banks, answer keys/marking logic and other premium instructional logic must not be shipped unnecessarily to the public browser client. New modules should use protected server-side generation by default, and existing mature modules should migrate incrementally using a proven pilot pattern.

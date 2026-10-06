@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const s=fs.readFileSync('functions/factors-multiples.js','utf8'),a=s.indexOf('const shuffle='),b=s.indexOf('async function approved');
+const s=fs.readFileSync('js/factors-multiples.js','utf8'),a=s.indexOf('const shuffle='),b=s.indexOf('let quiz=');
 assert(a>=0&&b>a);
 const pre="const TOTAL=30;const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,choice=a=>a[rnd(0,a.length-1)];";
 const box={};vm.createContext(box);vm.runInContext(pre+s.slice(a,b)+";globalThis.build=buildFactorsMultiples;",box);
