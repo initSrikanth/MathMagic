@@ -78,6 +78,8 @@ Student answer fields should minimise browser autofill/saved-information interfe
 ### Feedback
 Wrong answers should receive concise worked feedback that teaches the intended strategy without exposing implementation language. Correct-answer handling must accept mathematically valid equivalents when simplification is not explicitly required.
 
+Student feedback must also use the established MathMagic visual language consistently: correct feedback uses the shared green `correct` state and incorrect feedback uses the shared red `incorrect` state in both lesson practice and challenge questions. Browser QA must verify the feedback state/class and rendered colour for substantial module changes; checking the wording alone is insufficient.
+
 ### Release QA
 At minimum check: curriculum scope, coverage matrix, teaching-assessment alignment, difficulty-band integrity, mathematical answers, duplicate generation, notation leaks, visual layout, responsive behaviour, accessibility labels/instructions, browser input behaviour, authentication, progress saving/restoring and cache/version changes. Never claim a test was run unless it was actually executed.
 
