@@ -3,6 +3,11 @@
 ## Purpose
 This file is the default operating specification for building, revising, fixing or redesigning MathMagic learning modules. A request to build/revise/fix/update MathMagic authorises the full workflow through implementation, QA, pull request and merge unless the user explicitly asks for investigation/design only.
 
+## MathMagic build command contract
+A request in the form `MathMagic: Build <topic>` authorises the complete workflow without further prompting: curriculum/coverage research -> teaching and assessment design -> implementation -> source and mathematical audit -> generator stress QA -> protected-architecture QA -> complete rule-by-rule audit -> automated Playwright student-flow QA -> exact-head CI -> correction/retest of every repository/CI-applicable failure -> final exact-head audit -> squash merge -> completion report with tested SHA and merge SHA.
+
+The rules in this file are the specification. Source inspection, mathematical validation and generator QA happen before Playwright wherever practical; Playwright verifies the finished student experience and never substitutes for the full rule audit. A green browser run alone is not permission to merge.
+
 ## Mandatory workflow
 1. Establish the current Australian Curriculum v9 scope and achievement expectations.
 2. Research established learning platforms (for example IXL and Education Perfect) and credible resources to identify materially different question forms and representations. This is coverage research only: never copy proprietary questions, wording, graphics or question banks.
