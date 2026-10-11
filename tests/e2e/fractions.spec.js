@@ -22,20 +22,21 @@ test('five learning pages and challenge navigation render', async ({ page }) => 
 test('five original MathMagic explainers are embedded across the learning pages', async ({ page }) => {
   await openFractions(page);
   const expected = [
-    ['meaning','guide0do8gaihl'],
-    ['equivalent','guide0sg51dt0a'],
-    ['mixed','guide08gc82cuu'],
-    ['addsub','guide0pl10dlm6'],
-    ['problems','guide0qcibakhr']
+    ['meaning','guide0do8gaihl','qp18gt2ns5crtvtb'],
+    ['equivalent','guide0sg51dt0a','880ibeuj7t4u685p'],
+    ['mixed','guide08gc82cuu','g0f34oj4d0cmhsvo'],
+    ['addsub','guide0pl10dlm6','12ondtimn8vnq0il'],
+    ['problems','guide0qcibakhr','klaes8bm913i2o8c']
   ];
-  for (const [screen, guide] of expected) {
+  for (const [screen, guide, claim] of expected) {
     await page.locator('[data-screen="'+screen+'"]').click();
-    const frame = page.locator('#'+screen+' iframe[src="https://scrimba.com/explain/'+guide+'"]');
+    const share='https://scrimba.com/explain/'+guide+'?claim='+claim+'&fullscreen=1';
+    const frame = page.locator('#'+screen+' iframe[src="'+share+'"]');
     await expect(frame).toHaveCount(1);
     await expect(frame).toHaveAttribute('loading','lazy');
     await expect(frame).toHaveAttribute('title',/MathMagic/);
     await expect(frame).toHaveAttribute('allowfullscreen','');
-    const fallback = page.locator('#'+screen+' a[href="https://scrimba.com/explain/'+guide+'"]');
+    const fallback = page.locator('#'+screen+' a[href="'+share+'"]');
     await expect(fallback).toHaveCount(1);
   }
 });
