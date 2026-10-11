@@ -12,7 +12,7 @@ for(const file of htmlFiles){
     assert(/allowfullscreen/i.test(m[0]),file+' Scrimba embed must support fullscreen');
     const guide=(m[1].match(/scrimba\.com\/explain\/([^?"#]+)/)||[])[1];
     assert(guide,file+' Scrimba embed needs a guide id');
-    assert(new RegExp('<a\\b[^>]*href="https://scrimba\\.com/explain/'+guide+'"','i').test(h),file+' needs a visible fallback Scrimba guide link');
+    assert(new RegExp('<a\\b[^>]*href="https://scrimba\\.com/explain/'+guide+'\\?[^\"]+"','i').test(h),file+' needs a visible fallback Scrimba share link with access parameters');
   }
 }
 console.log('MathMagic Scrimba explainer embed audit passed for '+embeds+' current embed(s)');
