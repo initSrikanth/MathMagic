@@ -4,11 +4,11 @@ This topic now uses original MathMagic explainers in place of generic third-part
 
 | Lesson | Explainer | Scrimba guide | Teaching purpose |
 | --- | --- | --- | --- |
-| Fraction Sense | Comparing Fractions | https://scrimba.com/explain/guide0do8gaihl | Compare and order fractions using equal parts and equivalence |
-| Equivalent Fractions | Equivalent Fractions | https://scrimba.com/explain/guide0sg51dt0a | Explain equivalent values, scaling and simplification |
-| Mixed Numbers | Mixed Numbers and Improper Fractions | https://scrimba.com/explain/guide08gc82cuu | Convert and compare amounts greater than one whole |
-| Add & Subtract | Adding and Subtracting Fractions | https://scrimba.com/explain/guide0pl10dlm6 | Use common/related denominators and reliable calculation steps |
-| Problems | Fraction Word Problems | https://scrimba.com/explain/guide0qcibakhr | Identify the whole, choose an operation and check reasonableness |
+| Fraction Sense | Comparing Fractions | https://scrimba.com/explain/guide0do8gaihl?claim=qp18gt2ns5crtvtb&fullscreen=1 | Compare and order fractions using equal parts and equivalence |
+| Equivalent Fractions | Equivalent Fractions | https://scrimba.com/explain/guide0sg51dt0a?claim=880ibeuj7t4u685p&fullscreen=1 | Explain equivalent values, scaling and simplification |
+| Mixed Numbers | Mixed Numbers and Improper Fractions | https://scrimba.com/explain/guide08gc82cuu?claim=g0f34oj4d0cmhsvo&fullscreen=1 | Convert and compare amounts greater than one whole |
+| Add & Subtract | Adding and Subtracting Fractions | https://scrimba.com/explain/guide0pl10dlm6?claim=12ondtimn8vnq0il&fullscreen=1 | Use common/related denominators and reliable calculation steps |
+| Problems | Fraction Word Problems | https://scrimba.com/explain/guide0qcibakhr?claim=klaes8bm913i2o8c&fullscreen=1 | Identify the whole, choose an operation and check reasonableness |
 
 ## Style reference
 
@@ -26,3 +26,7 @@ All five embeds use:
 - responsive 16:9 containment through the existing `.video-frame`
 - a visible direct fallback link to the original explainer
 
+
+## Access note
+
+Embed and fallback links must preserve the complete share URL returned by the Explain generator, including its access query parameters. Stripping those parameters can make an unclaimed/unlisted explainer appear private or require account access.
