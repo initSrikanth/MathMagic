@@ -95,19 +95,49 @@ Browser automation complements rather than replaces generator QA. Where authenti
 Critical instructional representations and layouts should receive automated visual/dimensional checks at representative desktop and mobile viewports. CI failures must preserve useful diagnostic evidence such as Playwright traces, screenshots and/or HTML reports. A human real-device check remains appropriate for major releases and browser-specific issues, but routine 30-question click-through should be automated. The GitHub browser-QA workflow is a required release check for substantial module changes.
 
 
+### Original MathMagic explainer rule
+Original MathMagic explainers are the preferred video resource when a short visual explanation would materially improve a lesson. For substantial topic builds and major revisions, the agent must deliberately decide whether one or more original explainers should be created. Do not default to third-party YouTube simply because a suitable external video exists.
+
+When an original explainer is appropriate:
+- create it through the connected Scrimba Explain / Explain Video Generator workflow;
+- author the narration, examples, mathematics and diagrams specifically for the MathMagic lesson;
+- keep the language suitable for the target Year level and aligned to the Australian Curriculum scope already established for the module;
+- use MathMagic-authored examples and visuals only; do not copy third-party scripts, diagrams, transcripts or question wording;
+- prefer a concise 2–4 minute explainer focused on one clear concept rather than a long survey;
+- include at least one worked example and, where pedagogically useful, a visual model, misconception check or reasoning prompt;
+- use mathematical notation suitable for the topic, including properly rendered fractions rather than slash notation in student-facing visuals;
+- create the explainer as unlisted unless there is a deliberate reason to publish it publicly;
+- use a landscape frame by default for lesson-page embeds unless another frame is clearly better for the concept.
+
+After generation, embed the finished explainer directly in the relevant MathMagic learning page using Scrimba's supported iframe player. The embed must:
+- use a `https://scrimba.com/explain/...` URL;
+- lazy-load;
+- have an accessible title;
+- allow fullscreen;
+- be responsive on desktop and mobile;
+- include a visible fallback link that opens the original Scrimba explainer;
+- preserve the lesson flow rather than replacing the surrounding MathMagic explanation and practice.
+
+Record each original explainer in `docs/explainers/<topic>.md` with its title, guide URL, lesson/page placement, teaching purpose and any regeneration notes. When an original MathMagic explainer exists for a concept, use it in preference to a generic third-party video unless the external resource adds a materially different learning benefit.
+
+Third-party video remains acceptable when an original explainer would add little value, when the connected explainer service is unavailable, or when a specialist external source is pedagogically preferable. In those cases, document the reason and apply the external-resource/copyright rules below.
+
+For CI/browser QA, any module containing a Scrimba explainer must verify the expected `scrimba.com/explain/` iframe, lazy loading, accessible title, fullscreen support, responsive containment and fallback link. Network playback itself is an external-service check and must not be falsely represented as CI-tested.
+
 ### External learning resources and copyright rule
 Every substantial topic build or revision must research and curate useful external learning resources, including age-appropriate explanatory videos where they materially improve learning. External resources are part of the learning design and release QA, not an optional afterthought.
 
 Use this order of preference:
-1. Link to the original authoritative or creator-hosted resource. Linking is the default because MathMagic does not make or host a copy.
-2. Embed only when the provider explicitly supplies/supports embedding and the embed complies with the provider's current terms and child-directed/privacy requirements.
-3. Attribute the creator/provider clearly and provide a direct fallback link when embedding.
-4. Never download, screen-record, re-upload, mirror or redistribute third-party videos, worksheets, question banks, transcripts, graphics or other copyright material unless MathMagic has an explicit licence or the material is clearly licensed for that reuse.
-5. Never copy competitor questions or proprietary learning content into MathMagic. External resources supplement MathMagic's independently created teaching and assessment.
-6. Do not rely on school-only educational copyright exceptions for a public or commercial MathMagic release. If reuse rights are unclear, link rather than copy; if linking/embedding rights are unclear, omit the resource pending permission.
-7. For child-facing video embeds, use privacy-enhanced/provider-supported settings where available and comply with any child-directed-site designation requirements.
-8. Copyright and child-directed/privacy configuration are separate checks. An official provider-supported embed streams the provider's copy and must not be described as MathMagic copying or re-hosting the video. Site-wide child-directed platform designation is tracked and verified as production configuration; do not remove an otherwise approved embed from one topic while leaving the same established provider pattern across other MathMagic topics without a site-wide decision.
-8. Release QA must check that external links still resolve, point to the intended resource, are age-appropriate, do not unexpectedly require payment/login, and have not been replaced by unsuitable content. Broken or unsuitable resources must be replaced or removed.
+1. Prefer an original MathMagic explainer when a short custom visual explanation would materially improve the lesson.
+2. Otherwise link to the original authoritative or creator-hosted resource. Linking is the default because MathMagic does not make or host a copy.
+3. Embed only when the provider explicitly supplies/supports embedding and the embed complies with the provider's current terms and child-directed/privacy requirements.
+4. Attribute the creator/provider clearly and provide a direct fallback link when embedding.
+5. Never download, screen-record, re-upload, mirror or redistribute third-party videos, worksheets, question banks, transcripts, graphics or other copyright material unless MathMagic has an explicit licence or the material is clearly licensed for that reuse.
+6. Never copy competitor questions or proprietary learning content into MathMagic. External resources supplement MathMagic's independently created teaching and assessment.
+7. Do not rely on school-only educational copyright exceptions for a public or commercial MathMagic release. If reuse rights are unclear, link rather than copy; if linking/embedding rights are unclear, omit the resource pending permission.
+8. For child-facing video embeds, use privacy-enhanced/provider-supported settings where available and comply with any child-directed-site designation requirements.
+9. Copyright and child-directed/privacy configuration are separate checks. An official provider-supported embed streams the provider's copy and must not be described as MathMagic copying or re-hosting the video. Site-wide child-directed platform designation is tracked and verified as production configuration; do not remove an otherwise approved embed from one topic while leaving the same established provider pattern across other MathMagic topics without a site-wide decision.
+10. Release QA must check that external links still resolve, point to the intended resource, are age-appropriate, do not unexpectedly require payment/login, and have not been replaced by unsuitable content. Broken or unsuitable resources must be replaced or removed.
 
 Researching resources is mandatory; including a particular third-party resource is not. Only resources that materially support the topic and pass the copyright, child-safety, relevance and quality checks should appear on the student site.
 
