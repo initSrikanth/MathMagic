@@ -111,6 +111,7 @@ When an original explainer is appropriate:
 
 After generation, embed the finished explainer directly in the relevant MathMagic learning page using Scrimba's supported iframe player. The embed must:
 - use a `https://scrimba.com/explain/...` URL;
+- preserve the complete share URL returned by the Explain generator, including required query/access parameters; never reduce it to the bare guide path unless that bare path has been separately verified as publicly playable;
 - lazy-load;
 - have an accessible title;
 - allow fullscreen;
