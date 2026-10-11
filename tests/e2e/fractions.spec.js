@@ -18,6 +18,40 @@ test('five learning pages and challenge navigation render', async ({ page }) => 
   }
 });
 
+
+test('five original MathMagic explainers are embedded across the learning pages', async ({ page }) => {
+  await openFractions(page);
+  const expected = [
+    ['meaning','guide0do8gaihl'],
+    ['equivalent','guide0sg51dt0a'],
+    ['mixed','guide08gc82cuu'],
+    ['addsub','guide0pl10dlm6'],
+    ['problems','guide0qcibakhr']
+  ];
+  for (const [screen, guide] of expected) {
+    await page.locator('[data-screen="'+screen+'"]').click();
+    const frame = page.locator('#'+screen+' iframe[src="https://scrimba.com/explain/'+guide+'"]');
+    await expect(frame).toHaveCount(1);
+    await expect(frame).toHaveAttribute('loading','lazy');
+    await expect(frame).toHaveAttribute('title',/MathMagic/);
+    await expect(frame).toHaveAttribute('allowfullscreen','');
+    const fallback = page.locator('#'+screen+' a[href="https://scrimba.com/explain/'+guide+'"]');
+    await expect(fallback).toHaveCount(1);
+  }
+});
+
+test('original explainer frames stay responsive on desktop and mobile', async ({ page }) => {
+  for (const vp of [{width:1280,height:800},{width:390,height:844}]) {
+    await page.setViewportSize(vp);
+    await openFractions(page);
+    const frame = page.locator('#meaning .video-frame');
+    const box = await frame.boundingBox();
+    expect(box).not.toBeNull();
+    expect(box.width).toBeLessThanOrEqual(vp.width);
+    expect(Math.abs((box.width / box.height) - (16/9))).toBeLessThan(0.08);
+  }
+});
+
 test('all 30 challenge positions are interactive and visually usable', async ({ page }) => {
   await openFractions(page);
   await page.locator('[data-screen="challenge"]').click();
