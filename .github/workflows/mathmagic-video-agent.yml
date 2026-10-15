@@ -1,5 +1,9 @@
 name: MathMagic Video Agent (safe preparation)
 on:
+  pull_request:
+    paths:
+      - 'video-agent/**'
+      - '.github/workflows/mathmagic-video-agent.yml'
   workflow_dispatch:
     inputs:
       lesson:
