@@ -1,86 +1,16 @@
-name: MathMagic Video Agent (safe preparation)
+name: MathMagic Comparing Fractions Video
 on:
   pull_request:
     paths:
       - 'video-agent/**'
       - '.github/workflows/mathmagic-video-agent.yml'
   workflow_dispatch:
-    inputs:
-      lesson:
-        description: 'Lesson scope (currently all five Fractions lessons)'
-        required: true
-        default: fractions
-        type: choice
-        options: [fractions]
-      existing_video_url:
-        description: 'Optional completed HeyGen transparent WebM HTTPS URL (no generation)'
-        required: false
-        default: ''
-        type: string
-      existing_video_id:
-        description: 'Optional completed HeyGen video ID (requires HEYGEN_API_KEY secret)'
-        required: false
-        default: ''
-        type: string
-      preview:
-        description: 'Render silent board previews (no HeyGen credits)'
-        required: true
-        default: false
-        type: boolean
 permissions:
   contents: write
 jobs:
-  prepare:
+  publish-comparing:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r video-agent/requirements.txt
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-      - name: Validate mathematical content and safety gates
-        run: python -m unittest discover -s video-agent/tests -v
-      - name: Prepare narration, scenes and QA report
-        run: python video-agent/agent.py prepare
-      - name: Render board-only previews
-        if: ${{ inputs.preview }}
-        run: python video-agent/agent.py preview
-      - name: Fetch existing HeyGen WebM without generating a new video
-        if: ${{ inputs.existing_video_url != '' || inputs.existing_video_id != '' }}
-        env:
-          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
-          VIDEO_URL: ${{ inputs.existing_video_url }}
-          VIDEO_ID: ${{ inputs.existing_video_id }}
-        run: |
-          if [ -n "$VIDEO_URL" ]; then
-            python video-agent/production.py fetch --url "$VIDEO_URL" --output video-agent/output/existing.webm
-          else
-            python video-agent/production.py fetch --video-id "$VIDEO_ID" --output video-agent/output/existing.webm
-          fi
-      - name: Composite a three-second free proof-of-pipeline
-        if: ${{ inputs.existing_video_url != '' || inputs.existing_video_id != '' }}
-        run: |
-          python -c "import cairosvg; cairosvg.svg2png(url='video-agent/output/equivalent/scene_01.svg',write_to='video-agent/output/equivalent/test_board.png',output_width=1280,output_height=720)"
-          ffmpeg -y -loglevel error -loop 1 -framerate 24 -i video-agent/output/equivalent/test_board.png -t 4 -c:v libx264 -pix_fmt yuv420p video-agent/output/equivalent/test_board.mp4
-          python video-agent/production.py render --board video-agent/output/equivalent/test_board.mp4 --avatar-webm video-agent/output/existing.webm --output video-agent/output/equivalent/phase2_proof.mp4 --seconds 3
-          python video-agent/production.py qa --output video-agent/output/equivalent/phase2_proof.mp4
-      - name: Save prepared artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: mathmagic-fractions-prepared
-          path: video-agent/output/
-          retention-days: 14
-
-  equivalent-final:
-    if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
@@ -89,23 +19,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install production tools
+      - name: Install dependencies
         run: |
           pip install -r video-agent/requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Render finished Equivalent Fractions MP4 from existing HeyGen video
-        run: python video-agent/produce_equivalent.py
-      - name: Render completed Comparing Fractions MP4\n        run: python video-agent/produce_comparing.py\n      - name: Publish MP4 to feature branch for direct browser playback
+      - name: Produce Comparing Fractions classroom MP4
+        run: |
+          python video-agent/produce_comparing.py
+          test -s videos/MathMagic_Comparing_Fractions_FINAL.mp4
+      - name: Publish classroom video to live main branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
-          git commit -m "Render Equivalent Fractions final classroom video" || exit 0
-          git push origin HEAD:feature/video-production-agent
-      - name: Verify both video embeds against actual MP4 assets\n        run: npm run test:protected\n      - name: Publish both lessons on the live MathMagic site\n        run: |\n          git fetch origin main\n          git checkout -B publish-mathmagic origin/main\n          git checkout feature/video-production-agent -- fractions.html videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4\n          git add fractions.html videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4\n          git commit -m "Publish Comparing and Equivalent Fractions classroom videos" || exit 0\n          git push origin HEAD:main\n      - name: Archive final MP4
+          git fetch origin main
+          git checkout -B publish-comparing origin/main
+          git add -f videos/MathMagic_Comparing_Fractions_FINAL.mp4
+          git commit -m "Publish Comparing Fractions classroom video"
+          git push origin HEAD:main
+      - name: Save finished video
         uses: actions/upload-artifact@v4
         with:
-          name: mathmagic-equivalent-fractions-final
-          path: |\n            videos/MathMagic_Equivalent_Fractions_FINAL.mp4\n            videos/MathMagic_Comparing_Fractions_FINAL.mp4
+          name: mathmagic-comparing-fractions-final
+          path: videos/MathMagic_Comparing_Fractions_FINAL.mp4
           retention-days: 30
