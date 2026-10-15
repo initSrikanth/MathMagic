@@ -37,7 +37,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git checkout -B publish-fractions origin/main
-          git checkout feature/video-production-agent -- fractions.html
+          git fetch origin feature/video-production-agent\n          git show FETCH_HEAD:fractions.html > fractions.html
           git add fractions.html
           git add -f videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
           git commit -m "Embed Comparing and Equivalent Fractions lesson videos on MathMagic"
