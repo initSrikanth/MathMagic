@@ -103,7 +103,7 @@ jobs:
           git add videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
           git commit -m "Render Equivalent Fractions final classroom video" || exit 0
           git push origin HEAD:feature/video-production-agent
-      - name: Archive final MP4
+      - name: Publish both lessons on the live MathMagic site\n        run: |\n          git fetch origin main\n          git checkout -B publish-mathmagic origin/main\n          git checkout feature/video-production-agent -- fractions.html videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4\n          git add fractions.html videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4\n          git commit -m "Publish Comparing and Equivalent Fractions classroom videos" || exit 0\n          git push origin HEAD:main\n      - name: Archive final MP4
         uses: actions/upload-artifact@v4
         with:
           name: mathmagic-equivalent-fractions-final
