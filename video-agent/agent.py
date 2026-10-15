@@ -84,11 +84,27 @@ def fraction(x, y, n, d):
 
 
 def bar(x, y, pair, width=820, height=90):
+    """Draw every whole and remainder; never truncate improper fractions."""
     n, d = pair
+    if d <= 0 or n < 0:
+        raise ValueError("Invalid bar fraction")
+    wholes = max(1, (n + d - 1) // d)
+    if wholes > 3:
+        raise ValueError("Too many whole bars for this teaching layout")
+    strip_height = min(height, 65 if wholes > 1 else height)
+    gap = 10
     cells = []
-    for i in range(d):
-        px = x + width*i/d
-        cells.append(f'<rect x="{px:.2f}" y="{y}" width="{width/d:.2f}" height="{height}" fill="{"#5aa2eb" if i<n else "#e4e9f0"}" stroke="#455a72" stroke-width="3"/>')
+    for whole in range(wholes):
+        for i in range(d):
+            px = x + width*i/d
+            py = y + whole*(strip_height+gap)
+            shaded = whole*d+i < n
+            colour = "#5aa2eb" if shaded else "#e4e9f0"
+            cells.append(
+                f'<rect x="{px:.2f}" y="{py:.2f}" '
+                f'width="{width/d:.2f}" height="{strip_height}" '
+                f'fill="{colour}" stroke="#455a72" stroke-width="3"/>'
+            )
     return "".join(cells)
 
 
