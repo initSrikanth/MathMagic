@@ -1,4 +1,4 @@
-name: Publish MathMagic Fractions Videos
+name: Publish Comparing Fractions Classroom MP4
 on:
   push:
     paths:
@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 jobs:
-  publish:
+  publish-comparing:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
@@ -18,37 +18,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install video production dependencies
+      - name: Install renderer
         run: |
           pip install -r production/video-agent/requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Render both completed presenter videos with classroom whiteboards
+      - name: Assemble Comparing Fractions classroom MP4
         run: |
           cd production
-          python video-agent/produce_equivalent.py
           python video-agent/produce_comparing.py
-          test -s videos/MathMagic_Equivalent_Fractions_FINAL.mp4
           test -s videos/MathMagic_Comparing_Fractions_FINAL.mp4
-      - name: Commit both videos and the updated Fractions page to main
+      - name: Publish only Comparing Fractions video without touching Equivalent Fractions
         run: |
           cd production
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
-          git checkout -B publish-fractions origin/main
-          git fetch origin feature/video-production-agent
-          git show FETCH_HEAD:fractions.html > fractions.html
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('fractions.html')
-          t=p.read_text()
-          t=t.replace('https://resource2.heygen.ai/aws_pacific/avatar_tmp/f45de351b0f64d64b92ccf9397642c65/75adeb4005e511a9aaa5af6372d7224e.webm','videos/MathMagic_Comparing_Fractions_FINAL.mp4')
-          t=t.replace('https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4','videos/MathMagic_Equivalent_Fractions_FINAL.mp4')
-          t=t.replace('type="video/webm"','type="video/mp4"')
-          p.write_text(t)
-          PY
-          git add fractions.html
-          git add -f videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
-          git commit -m "Embed Comparing and Equivalent Fractions lesson videos on MathMagic"
+          git checkout -B publish-comparing origin/main
+          git add -f videos/MathMagic_Comparing_Fractions_FINAL.mp4
+          git commit -m "Publish Comparing Fractions classroom MP4"
           git push origin HEAD:main
