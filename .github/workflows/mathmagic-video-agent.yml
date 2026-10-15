@@ -12,6 +12,16 @@ on:
         default: fractions
         type: choice
         options: [fractions]
+      existing_video_url:
+        description: 'Optional completed HeyGen transparent WebM HTTPS URL (no generation)'
+        required: false
+        default: ''
+        type: string
+      existing_video_id:
+        description: 'Optional completed HeyGen video ID (requires HEYGEN_API_KEY secret)'
+        required: false
+        default: ''
+        type: string
       preview:
         description: 'Render silent board previews (no HeyGen credits)'
         required: true
@@ -41,6 +51,25 @@ jobs:
       - name: Render board-only previews
         if: ${{ inputs.preview }}
         run: python video-agent/agent.py preview
+      - name: Fetch existing HeyGen WebM without generating a new video
+        if: ${{ inputs.existing_video_url != '' || inputs.existing_video_id != '' }}
+        env:
+          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
+          VIDEO_URL: ${{ inputs.existing_video_url }}
+          VIDEO_ID: ${{ inputs.existing_video_id }}
+        run: |
+          if [ -n "$VIDEO_URL" ]; then
+            python video-agent/production.py fetch --url "$VIDEO_URL" --output video-agent/output/existing.webm
+          else
+            python video-agent/production.py fetch --video-id "$VIDEO_ID" --output video-agent/output/existing.webm
+          fi
+      - name: Composite a three-second free proof-of-pipeline
+        if: ${{ inputs.existing_video_url != '' || inputs.existing_video_id != '' }}
+        run: |
+          python -c "import cairosvg; cairosvg.svg2png(url='video-agent/output/equivalent/scene_01.svg',write_to='video-agent/output/equivalent/test_board.png',output_width=1280,output_height=720)"
+          ffmpeg -y -loglevel error -loop 1 -framerate 24 -i video-agent/output/equivalent/test_board.png -t 4 -c:v libx264 -pix_fmt yuv420p video-agent/output/equivalent/test_board.mp4
+          python video-agent/production.py render --board video-agent/output/equivalent/test_board.mp4 --avatar-webm video-agent/output/existing.webm --output video-agent/output/equivalent/phase2_proof.mp4 --seconds 3
+          python video-agent/production.py qa --output video-agent/output/equivalent/phase2_proof.mp4
       - name: Save prepared artifacts
         uses: actions/upload-artifact@v4
         with:
