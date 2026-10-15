@@ -14,7 +14,7 @@ for(const file of modules){
     assert(id,file+' embed needs a video id');
     assert(h.includes('youtube.com/watch?v='+id),file+' embed needs an original YouTube fallback link');
   }
-  const localVideos=[...h.matchAll(/<video\\b[^>]*src="(videos\\/[^"]+\\.mp4)"[^>]*>/gi)];
+  const localVideos=[...h.matchAll(/<video\b[^>]*src="(videos\/[^"]+\.mp4)"[^>]*>/gi)];
   for(const m of localVideos){
     nativeVideos++;
     assert(/controls/i.test(m[0]),file+' native video requires playback controls');
