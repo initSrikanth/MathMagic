@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "settings": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 24,
+    "avatar_approved": false,
+    "hosting_base_url": "",
+    "avatar_position": "left",
+    "avatar_max_width_percent": 22
+  },
+  "lessons": [
+    {
+      "id": "comparing",
+      "screen": "meaning",
+      "title": "Comparing Fractions",
+      "status": "existing_review_required",
+      "scenes": [
+        {
+          "heading": "Comparing fractions",
+          "narration": "Fractions help us compare parts of the same whole.",
+          "kind": "compare",
+          "a": [
+            3,
+            5
+          ],
+          "b": [
+            4,
+            5
+          ],
+          "relation": "<",
+          "seconds": 15
+        },
+        {
+          "heading": "Same denominator",
+          "narration": "Compare three fifths and four fifths. Both have fifths, so four fifths is greater.",
+          "kind": "compare",
+          "a": [
+            3,
+            5
+          ],
+          "b": [
+            4,
+            5
+          ],
+          "relation": "<",
+          "seconds": 25
+        },
+        {
+          "heading": "Same numerator",
+          "narration": "One half is greater than one quarter, because each half is larger than each quarter.",
+          "kind": "compare",
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            1,
+            4
+          ],
+          "relation": ">",
+          "seconds": 25
+        },
+        {
+          "heading": "Equivalent fractions",
+          "narration": "One half and two quarters are equal.",
+          "kind": "compare",
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            4
+          ],
+          "relation": "=",
+          "seconds": 15
+        },
+        {
+          "heading": "Number line",
+          "narration": "Fractions further to the right on the number line are greater.",
+          "kind": "numberline",
+          "denominator": 4,
+          "seconds": 15
+        }
+      ]
+    },
+    {
+      "id": "equivalent",
+      "screen": "equivalent",
+      "title": "Equivalent Fractions",
+      "status": "planned",
+      "scenes": [
+        {
+          "heading": "Same amount",
+          "narration": "One half and two quarters represent exactly the same amount.",
+          "kind": "compare",
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            4
+          ],
+          "relation": "=",
+          "seconds": 25
+        },
+        {
+          "heading": "Multiply both parts",
+          "narration": "Multiplying the numerator and denominator by two creates an equivalent fraction.",
+          "kind": "compare",
+          "a": [
+            2,
+            3
+          ],
+          "b": [
+            4,
+            6
+          ],
+          "relation": "=",
+          "seconds": 25
+        },
+        {
+          "heading": "Simplify",
+          "narration": "Six eighths simplifies to three quarters.",
+          "kind": "compare",
+          "a": [
+            6,
+            8
+          ],
+          "b": [
+            3,
+            4
+          ],
+          "relation": "=",
+          "seconds": 25
+        }
+      ]
+    },
+    {
+      "id": "mixed",
+      "screen": "mixed",
+      "title": "Mixed Numbers and Improper Fractions",
+      "status": "planned",
+      "scenes": [
+        {
+          "heading": "More than one whole",
+          "narration": "Seven quarters is one whole and three quarters.",
+          "kind": "mixed",
+          "improper": [
+            7,
+            4
+          ],
+          "whole": 1,
+          "remainder": [
+            3,
+            4
+          ],
+          "seconds": 30
+        },
+        {
+          "heading": "Convert to improper",
+          "narration": "Two and one third is seven thirds.",
+          "kind": "mixed",
+          "improper": [
+            7,
+            3
+          ],
+          "whole": 2,
+          "remainder": [
+            1,
+            3
+          ],
+          "seconds": 30
+        }
+      ]
+    },
+    {
+      "id": "addsub",
+      "screen": "addsub",
+      "title": "Adding and Subtracting Fractions",
+      "status": "planned",
+      "scenes": [
+        {
+          "heading": "Same denominator",
+          "narration": "Two sevenths plus three sevenths equals five sevenths.",
+          "kind": "operation",
+          "a": [
+            2,
+            7
+          ],
+          "b": [
+            3,
+            7
+          ],
+          "op": "+",
+          "result": [
+            5,
+            7
+          ],
+          "seconds": 30
+        },
+        {
+          "heading": "Related denominators",
+          "narration": "One half plus one quarter equals three quarters.",
+          "kind": "operation",
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            1,
+            4
+          ],
+          "op": "+",
+          "result": [
+            3,
+            4
+          ],
+          "seconds": 30
+        },
+        {
+          "heading": "Subtract",
+          "narration": "Three quarters minus one eighth equals five eighths.",
+          "kind": "operation",
+          "a": [
+            3,
+            4
+          ],
+          "b": [
+            1,
+            8
+          ],
+          "op": "-",
+          "result": [
+            5,
+            8
+          ],
+          "seconds": 30
+        }
+      ]
+    },
+    {
+      "id": "problems",
+      "screen": "problems",
+      "title": "Fraction Word Problems",
+      "status": "planned",
+      "scenes": [
+        {
+          "heading": "Recipe problem",
+          "narration": "Mia uses one half cup of oats and one quarter cup of nuts. Together, that is three quarters of a cup.",
+          "kind": "operation",
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            1,
+            4
+          ],
+          "op": "+",
+          "result": [
+            3,
+            4
+          ],
+          "seconds": 30
+        },
+        {
+          "heading": "What remains?",
+          "narration": "A two metre ribbon has three quarters of a metre cut off. One and one quarter metres remain.",
+          "kind": "operation",
+          "a": [
+            2,
+            1
+          ],
+          "b": [
+            3,
+            4
+          ],
+          "op": "-",
+          "result": [
+            5,
+            4
+          ],
+          "seconds": 30
+        }
+      ]
+    }
+  ]
+}
