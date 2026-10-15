@@ -37,7 +37,17 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git checkout -B publish-fractions origin/main
-          git fetch origin feature/video-production-agent\n          git show FETCH_HEAD:fractions.html > fractions.html
+          git fetch origin feature/video-production-agent
+          git show FETCH_HEAD:fractions.html > fractions.html
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('fractions.html')
+          t=p.read_text()
+          t=t.replace('https://resource2.heygen.ai/aws_pacific/avatar_tmp/f45de351b0f64d64b92ccf9397642c65/75adeb4005e511a9aaa5af6372d7224e.webm','videos/MathMagic_Comparing_Fractions_FINAL.mp4')
+          t=t.replace('https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4','videos/MathMagic_Equivalent_Fractions_FINAL.mp4')
+          t=t.replace('type="video/webm"','type="video/mp4"')
+          p.write_text(t)
+          PY
           git add fractions.html
           git add -f videos/MathMagic_Equivalent_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
           git commit -m "Embed Comparing and Equivalent Fractions lesson videos on MathMagic"
