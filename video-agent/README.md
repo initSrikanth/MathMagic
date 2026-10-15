@@ -4,7 +4,7 @@
 
 **Implemented:** five Fractions lesson specifications, rational-number validation, scalable 1920×1080 SVG teaching scenes, narration files, silent board-preview rendering, unit tests, GitHub Actions workflow, and a guarded replacement mechanism for the five existing Scrimba embeds.
 
-**Not implemented or approved yet:** corrected HeyGen avatar, unattended paid HeyGen video creation, audio/scene alignment, full-body transparent overlay at production quality, remote video hosting, automatic production video upload, visual QA of teeth/feet/alpha edges, or live replacement of Scrimba. Do not describe phase 1 as a complete unattended publishing agent.
+**Phase 2 implemented and locally tested:** a gated HeyGen transparent-WebM request client, completed-video status lookup, automatic HTTPS download, VP9 alpha-boundary detection, bounded-memory FFmpeg overlay and H.264/AAC MP4 technical QA. A 3-second proof using the existing user-provided transparent HeyGen WebM passed locally. Seven provider tests passed locally. GitHub CI results and live authenticated API integration remain unverified.\n\n**Not implemented or approved yet:** corrected HeyGen avatar, unattended paid HeyGen video creation, narration-to-scene alignment, remote video hosting, automatic production video upload, full visual QA of teeth/feet/alpha edges, or live replacement of Scrimba. Do not describe phase 1 as a complete unattended publishing agent.
 
 The existing `fractions.html` and Firebase code are **not modified** by the preparation workflow.
 
@@ -60,3 +60,33 @@ python video-agent/agent.py preview  # requires ffmpeg
 - All shaded fraction bars use equal-sized cells and represent the same whole.
 - Fraction values and comparisons are checked using exact rational arithmetic.
 - Do not claim full automation or publish new videos before avatar approval and a successful end-to-end pilot.
+
+## Phase 2 — safe integration commands
+
+The HeyGen provider client uses the documented legacy transparent-WebM endpoint `POST /v1/video.webm` (avatar **pose** ID and voice ID) and `GET /v1/video_status.get`. These endpoints may have account-specific access or changes; validate against the actual HeyGen account before paid production. Newer v3 APIs also exist; this first connector deliberately isolates the endpoint for replacement.
+
+```bash
+# Completed video: fetch without paying or using the HeyGen browser.
+python video-agent/production.py fetch \
+  --url 'https://resource2.heygen.ai/path/to/completed.webm' \
+  --output video-agent/output/existing.webm
+
+# Existing completed video ID: requires HEYGEN_API_KEY for status.
+python video-agent/production.py fetch --video-id EXISTING_ID \
+  --output video-agent/output/existing.webm
+
+# Composite a previously prepared board-only MP4 with transparent presenter.
+python video-agent/production.py render \
+  --board video-agent/output/equivalent/BOARD_ONLY_PREVIEW.mp4 \
+  --avatar-webm video-agent/output/existing.webm \
+  --output video-agent/output/equivalent/proof.mp4
+
+python video-agent/production.py qa \
+  --output video-agent/output/equivalent/proof.mp4
+```
+
+**Paid generation is blocked unless all three are present:** `--approved-avatar`, `--allow-paid`, and `HEYGEN_API_KEY`. The GitHub Actions workflow exposes **no paid generation option**. It accepts an optional already-completed video URL or ID, automatically downloads it and composites a **3-second proof**. Do not enter a private API key as a workflow input; use Actions Secrets.
+
+The compositor requires a true VP9 alpha stream (`ALPHA_MODE=1`), uses `libvpx-vp9` decoding, measures the visible alpha bounding box, and places the entire presenter within the left lane. A single alpha-frame crop is a starting point, not yet a guarantee for changing poses throughout a video. For hundreds of videos, future QA must sample all scenes and detect clipping and sync drift.
+
+**Local evidence:** 3-second output was `1280×720`, `H.264`, `yuv420p`, `AAC`, duration `3.0s`, QA passed. It used the already-generated WebM and a plant-free board; **no new paid video was generated**. This does not prove live GitHub Actions or API access yet.
