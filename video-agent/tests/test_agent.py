@@ -48,6 +48,21 @@ class MathMagicVideoTests(unittest.TestCase):
             self.assertTrue((Path(folder)/"equivalent"/"scene_01.svg").exists())
             self.assertTrue((Path(folder)/"qa-report.json").exists())
 
+    def test_improper_fraction_shows_two_wholes(self):
+        svg=agent.bar(520,315,[2,1])
+        self.assertEqual(svg.count("<rect "),2)
+        self.assertEqual(svg.count('fill="#5aa2eb"'),2)
+        self.assertIn('y="390.00"',svg)
+
+    def test_proper_fraction_shades_only_numerator(self):
+        svg=agent.bar(520,315,[3,4])
+        self.assertEqual(svg.count("<rect "),4)
+        self.assertEqual(svg.count('fill="#5aa2eb"'),3)
+
+    def test_fraction_bar_rejects_overflow(self):
+        with self.assertRaisesRegex(ValueError,"Too many whole"):
+            agent.bar(520,315,[5,1])
+
     def test_svg_escapes_comparison_symbols(self):
         scene=dict(kind="compare",a=[1,2],b=[1,4],relation=">",seconds=10,
                    heading="Test",narration="Test")
