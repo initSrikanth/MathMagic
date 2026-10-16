@@ -104,6 +104,10 @@ def run():
         summary_board(),
     ]
     assert len(boards) == len(SEGMENTS) == 7
+    # Reject accidentally repeated or static teaching graphics before publishing.
+    assert len(set(boards)) == len(boards), "Every teaching board must be distinct"
+    assert all(seconds > 0 for seconds in SEGMENTS), "Scene timings must be positive"
+    assert all(svg.startswith("<svg") and svg.endswith("</svg>") for svg in boards), "Invalid SVG board"
     assert abs(sum(SEGMENTS) - DURATION) < 0.001
     playlist_lines = []
     for i, (svg, seconds) in enumerate(zip(boards, SEGMENTS), 1):
