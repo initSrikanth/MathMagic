@@ -23,8 +23,8 @@ jobs:
           node-version: '20'
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Chromium and Chrome for H.264/AAC playback
+        run: npx playwright install --with-deps chromium chrome
       - name: Check protected Fractions architecture
         run: npm run test:protected
       - name: Run MathMagic browser QA

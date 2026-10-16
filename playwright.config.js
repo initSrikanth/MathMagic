@@ -6,6 +6,9 @@ module.exports = defineConfig({
   retries: 1,
   reporter: [['line'], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   use: {
+    // Chrome carries the H.264/AAC codecs needed by the real MP4 playback gates.
+    // Keep all media assertions enabled; bundled Chromium headless-shell may lack these codecs.
+    channel: process.env.CI ? 'chrome' : undefined,
     baseURL: 'http://127.0.0.1:4173',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure'
