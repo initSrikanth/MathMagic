@@ -24,7 +24,8 @@ test('five original MathMagic explainers retain approved MP4 or Scrimba players 
   const mp4s = [
     ['meaning','videos/MathMagic_Comparing_Fractions_FINAL.mp4'],
     ['equivalent','https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'],
-    ['mixed','videos/MathMagic_Mixed_Numbers_FINAL.mp4']
+    ['mixed','videos/MathMagic_Mixed_Numbers_FINAL.mp4'],
+    ['addsub','videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4']
   ];
   for (const [screen, src] of mp4s) {
     await page.locator('[data-screen="'+screen+'"]').click();
@@ -44,7 +45,6 @@ test('five original MathMagic explainers retain approved MP4 or Scrimba players 
     await expect(page.locator('#'+screen+' .video-frame + a')).toHaveAttribute('href',fallbackSrc);
   }
   const expected = [
-    ['addsub','guide0pl10dlm6','12ondtimn8vnq0il'],
     ['problems','guide0qcibakhr','klaes8bm913i2o8c']
   ];
   for (const [screen, guide, claim] of expected) {

@@ -6,7 +6,8 @@ const crypto=require('crypto');
 const approvedVideos=new Map([
   ['videos/MathMagic_Comparing_Fractions_FINAL.mp4','videos/MathMagic_Comparing_Fractions_FINAL.mp4'],
   ['https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4','https://github.com/initSrikanth/MathMagic/raw/refs/heads/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'],
-  ['videos/MathMagic_Mixed_Numbers_FINAL.mp4','videos/MathMagic_Mixed_Numbers_FINAL.mp4']
+  ['videos/MathMagic_Mixed_Numbers_FINAL.mp4','videos/MathMagic_Mixed_Numbers_FINAL.mp4'],
+  ['videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4','videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4']
 ]);
 let youtubeEmbeds=0,scrimbaEmbeds=0,mathmagicVideos=0;
 const seenVideos=new Set();
@@ -52,6 +53,9 @@ for(const file of modules){
     if(!src.startsWith('https://')){
       const bytes=fs.readFileSync(src);
       assert(bytes.length>0&&bytes.subarray(4,8).toString()==='ftyp',src+' must be a real MP4, not a missing file or LFS pointer');
+      if(src==='videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4'){
+        assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),'48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db','Adding and Subtracting Fractions must preserve the approved corrected MP4 bytes');
+      }
       if(src==='videos/MathMagic_Mixed_Numbers_FINAL.mp4'){
         assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),'92c831fce1d463b7a369511098a1a5eff47a8756d840e5fe52f510dc3f7cdc56','Mixed Numbers must preserve the approved MP4 bytes');
       }
