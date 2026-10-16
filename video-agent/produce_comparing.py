@@ -16,9 +16,9 @@ DURATION=110.942
 def run():
     TMP.mkdir(parents=True,exist_ok=True)
     spec=json.loads((ROOT/"video-agent"/"lessons.json").read_text())
-    lesson=next(x for x in spec["lessons"] if x["id"]=="equivalent")
-    segments=[20,24,24,20,DURATION-88]
-    concat=[]
+    lesson=next(x for x in spec["lessons"] if x["id"]=="comparing")
+    segments=[18,25,24,21,DURATION-88]
+    # Each board scene follows the Comparing Fractions curriculum, never Equivalent Fractions.\n    assert len(lesson["scenes"]) == len(segments), "Narration and scene count must agree"\n    concat=[]
     for i,(scene,seconds) in enumerate(zip(lesson["scenes"],segments),1):
         png=TMP/f"scene_{i:02d}.png"
         cairosvg.svg2png(bytestring=draw_scene(scene,lesson["title"]).encode(),write_to=str(png),output_width=1280,output_height=720)
