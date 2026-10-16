@@ -18,3 +18,6 @@
 16. Retain reversible source footage and scene-generation code.
 17. Publish one lesson at a time; provide a working commit and the live video URL.
 18. Never report success based solely on a workflow or HTML commit.
+
+19. Never insert artificial silence, frozen teacher frames, sentence holds, audio stretching or unnatural narration interruptions. Synchronise persistent graphics to the continuous original audio; transition graphics only.
+20. For explicitly authorised graphics-only lessons, omit the avatar. Verify the exact requested provider voice and settings; never substitute a voice or route synthesis through HeyGen when HeyGen credits are prohibited. Keep silent drafts clearly labelled and unreviewed videos off the live lesson.
