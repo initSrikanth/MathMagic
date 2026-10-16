@@ -195,6 +195,10 @@ A substantial module revision is incomplete until the resource pass has been per
 
 Automated browser QA for modules with embeds must verify that expected embedded-resource elements exist, use approved provider domains, have accessible titles and expose working original-source fallback links. Network playback itself may depend on the third-party provider and is not equivalent to verifying the educational content of the video.
 
+## Specialised video production workflow
+
+For authorised MathMagic presenter-video work, read [Video Production Agent](agents/VIDEO_PRODUCTION.md) and the [integration readiness report](docs/video-production-readiness.md). These supplement this canonical instruction set; they are not another master agent. An audit does not authorise paid rendering or lesson publication.
+
 ## Approved presenter videos and media replacement
 The preference for original explainers and the Scrimba workflow above applies to new concept explainers. Existing or explicitly approved MathMagic presenter videos follow this production/replacement path. Self-host an owned/licensed approved MP4 where appropriate; this is not permission to copy third-party media or replace working embeds merely to standardise format. Preserve suitable provider embeds until the replacement is rendered, checked, uploaded and verified. Publish one lesson at a time and leave unrelated lessons, authentication and progress unchanged.
 
