@@ -7,39 +7,41 @@ on:
 permissions:
   contents: write
 jobs:
-  comparing:
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 45
     steps:
-      - name: Check out video renderer
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: feature/video-production-agent
           path: production
-      - name: Set up Python
-        uses: actions/setup-python@v5
+          persist-credentials: true
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install dependencies
+      - name: Install renderer and ffmpeg
         run: |
           pip install -r production/video-agent/requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Produce Comparing Fractions classroom video
+      - name: Render seven teaching scenes with the approved presenter
         run: |
           cd production
           python video-agent/produce_comparing.py
           test -s videos/MathMagic_Comparing_Fractions_FINAL.mp4
-      - name: Publish Comparing Fractions MP4 only
+      - name: Publish Comparing Fractions MP4 without changing Equivalent Fractions
         run: |
           cd production
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp videos/MathMagic_Comparing_Fractions_FINAL.mp4 /tmp/MathMagic_Comparing_Fractions_FINAL.mp4
           git fetch origin main
           git checkout -B publish-comparing origin/main
-          mkdir -p videos
-          cp /tmp/MathMagic_Comparing_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
           git add -f videos/MathMagic_Comparing_Fractions_FINAL.mp4
-          git commit -m "Publish corrected Comparing Fractions lesson video"
+          git diff --cached --quiet || git commit -m "Replace static Comparing Fractions video with seven-scene lesson"
           git push origin HEAD:main
+      - name: Archive rendered MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: comparing-fractions-seven-scenes
+          path: production/videos/MathMagic_Comparing_Fractions_FINAL.mp4
+          retention-days: 30
