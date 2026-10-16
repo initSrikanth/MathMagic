@@ -23,7 +23,7 @@ test('approved Adding and Subtracting video preserves bytes, captions and respon
  await video.evaluate(v=>v.textTracks[0].mode='showing');
  await expect.poll(()=>video.evaluate(v=>v.textTracks[0].cues?.length||0)).toBe(50);
  await page.getByText('Read the video transcript',{exact:true}).click();
- await expect(page.locator('#addsub details')).toHaveAttribute('open','');
+ await expect(page.locator('#addsub .video-resource').filter({has:video}).locator('details')).toHaveAttribute('open','');
  for(const viewport of [{width:1440,height:1000},{width:768,height:1024},{width:390,height:844}]){
   await page.setViewportSize(viewport);await video.scrollIntoViewIfNeeded();
   await video.focus();await expect(video).toBeFocused();
@@ -34,6 +34,6 @@ test('approved Adding and Subtracting video preserves bytes, captions and respon
   for(const t of [1,45,89]){await video.evaluate((v,t)=>{v.pause();v.currentTime=t},t);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();expect(await video.evaluate(v=>v.currentTime)).toBeCloseTo(t,1)}
  }
  await video.evaluate(v=>{v.currentTime=91.3;return v.play()});await expect.poll(()=>video.evaluate(v=>v.ended)).toBeTruthy();
- await expect(page.locator('#addsub .video-resource')).toHaveCount(1);
- await expect(page.getByText('Extension: Finding the Lowest Common Multiple (LCM)',{exact:true})).toHaveCount(0);
+ await expect(page.locator('#addsub .video-resource')).toHaveCount(2);
+ await expect(page.getByText('Extension: Finding the Lowest Common Multiple (LCM)',{exact:true})).toHaveCount(1);
 });
