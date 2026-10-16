@@ -1,5 +1,11 @@
 name: MathMagic Comparing Fractions Video
 on:
+  push:
+    branches:
+      - feature/video-production-agent
+    paths:
+      - 'video-agent/**'
+      - '.github/workflows/mathmagic-video-agent.yml'
   pull_request:
     paths:
       - 'video-agent/**'
