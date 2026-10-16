@@ -19,12 +19,31 @@ test('five learning pages and challenge navigation render', async ({ page }) => 
 });
 
 
-test('five original MathMagic explainers are embedded across the learning pages', async ({ page }) => {
+test('five original MathMagic explainers retain approved MP4 or Scrimba players across the learning pages', async ({ page }) => {
   await openFractions(page);
+  const mp4s = [
+    ['meaning','videos/MathMagic_Comparing_Fractions_FINAL.mp4'],
+    ['equivalent','https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'],
+    ['mixed','videos/MathMagic_Mixed_Numbers_FINAL.mp4']
+  ];
+  for (const [screen, src] of mp4s) {
+    await page.locator('[data-screen="'+screen+'"]').click();
+    const video = page.locator('#'+screen+' video');
+    await expect(video).toHaveCount(1);
+    await expect(page.locator('#'+screen+' iframe')).toHaveCount(0);
+    await expect(video).toHaveAttribute('controls','');
+    await expect(video).toHaveAttribute('playsinline','');
+    await expect(video).toHaveAttribute('preload','metadata');
+    await expect(video).toHaveAttribute('aria-label',/MathMagic/);
+    await expect(video).not.toHaveAttribute('autoplay',/.*/);
+    await expect(video.locator('source')).toHaveAttribute('src',src);
+    await expect(video.locator('source')).toHaveAttribute('type','video/mp4');
+    const fallbackSrc = screen === 'equivalent'
+      ? 'https://github.com/initSrikanth/MathMagic/raw/refs/heads/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'
+      : src;
+    await expect(page.locator('#'+screen+' .video-frame + a')).toHaveAttribute('href',fallbackSrc);
+  }
   const expected = [
-    ['meaning','guide0do8gaihl','qp18gt2ns5crtvtb'],
-    ['equivalent','guide0sg51dt0a','880ibeuj7t4u685p'],
-    ['mixed','guide08gc82cuu','g0f34oj4d0cmhsvo'],
     ['addsub','guide0pl10dlm6','12ondtimn8vnq0il'],
     ['problems','guide0qcibakhr','klaes8bm913i2o8c']
   ];
@@ -38,6 +57,40 @@ test('five original MathMagic explainers are embedded across the learning pages'
     await expect(frame).toHaveAttribute('allowfullscreen','');
     const fallback = page.locator('#'+screen+' a[href="'+share+'"]');
     await expect(fallback).toHaveCount(1);
+  }
+});
+
+test('approved Mixed Numbers video loads and plays within desktop and mobile layouts', async ({ page }) => {
+  const response=await page.request.get('/videos/MathMagic_Mixed_Numbers_FINAL.mp4',{headers:{Range:'bytes=0-1023'}});
+  expect(response.status()).toBe(206);
+  expect(response.headers()['content-type']).toBe('video/mp4');
+  expect(response.headers()['content-range']).toBe('bytes 0-1023/4870811');
+  expect((await response.body()).length).toBe(1024);
+  await openFractions(page);
+  await page.locator('[data-screen="mixed"]').click();
+  const video = page.locator('#mathmagic-mixed-video');
+  await expect.poll(() => video.evaluate(v => v.readyState)).toBeGreaterThanOrEqual(2);
+  const metadata = await video.evaluate(v => ({duration:v.duration,width:v.videoWidth,height:v.videoHeight,error:v.error?.code}));
+  expect(metadata.error).toBeUndefined();
+  expect(metadata.duration).toBeCloseTo(75.889,1);
+  expect(metadata.width).toBe(1280);
+  expect(metadata.height).toBe(720);
+  await video.evaluate(v => v.play());
+  await expect.poll(() => video.evaluate(v => v.currentTime)).toBeGreaterThan(0.2);
+  for (const time of [15,30,45,60,74]) {
+    await video.evaluate((v,t) => {v.pause();v.currentTime=t;},time);
+    await expect.poll(() => video.evaluate(v => !v.seeking && v.readyState >= 2)).toBeTruthy();
+    expect(await video.evaluate(v => v.currentTime)).toBeCloseTo(time,0);
+  }
+  await video.evaluate(v => {v.currentTime=74;return v.play();});
+  await expect.poll(() => video.evaluate(v => v.ended),{timeout:10000}).toBeTruthy();
+  for (const viewport of [{width:1280,height:800},{width:390,height:844}]) {
+    await page.setViewportSize(viewport);
+    const box=await video.boundingBox();
+    expect(box).not.toBeNull();
+    expect(box.width).toBeLessThanOrEqual(viewport.width);
+    expect(Math.abs(box.width/box.height-16/9)).toBeLessThan(0.08);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth<=document.documentElement.clientWidth+1)).toBeTruthy();
   }
 });
 
