@@ -1,0 +1,20 @@
+{
+  "title": "Finding the Lowest Common Multiple (LCM)",
+  "status": "NARRATION_BLOCKED_GRAPHICS_DRAFT_ONLY",
+  "year_level": 5,
+  "scope": "Optional extension; formal LCM is not required by AC9M5N05",
+  "voice": {"provider": "ElevenLabs", "clone_name": "Srikanth sogathur", "voice_id": null, "model_id": null, "settings": null, "status": "No connected ElevenLabs tool or secret binding; do not substitute the HeyGen voice ID"},
+  "paid_generation_allowed": false,
+  "publication_allowed": false,
+  "scenes": [
+    {"id":"meaning","draft_seconds":9,"narration":"The lowest common multiple is the smallest positive number that appears in both numbers' times tables. We call it the L C M."},
+    {"id":"multiples-four","draft_seconds":8,"narration":"Let's find it for four and six. Multiples of four are four, eight, twelve, sixteen, and so on."},
+    {"id":"multiples-six","draft_seconds":7,"narration":"Multiples of six are six, twelve, eighteen, and so on."},
+    {"id":"shared","draft_seconds":9,"narration":"Twelve is the first positive number in both lists. So twelve is the lowest common multiple of four and six."},
+    {"id":"question","draft_seconds":9,"narration":"That helps us add one quarter and one sixth. We need equal-sized parts. Twelve is a useful common denominator because both four and six divide into twelve."},
+    {"id":"quarters","draft_seconds":10,"narration":"Multiply both numbers in one quarter by three. One quarter equals three twelfths. Multiplying the numerator and denominator by the same number keeps the fraction's value unchanged."},
+    {"id":"sixths","draft_seconds":9,"narration":"For one sixth, multiply the numerator and denominator by two. One sixth equals two twelfths. These fractions now use the same-sized parts."},
+    {"id":"add","draft_seconds":9,"narration":"Add three twelfths and two twelfths. That makes five twelfths. Keep the denominator twelve. The answer is already in simplest form."},
+    {"id":"recap","draft_seconds":10,"narration":"Remember: find the shared multiples, choose the smallest positive one, rename, then calculate. Any common denominator can work, but the lowest common multiple usually keeps the numbers smaller."}
+  ]
+}
