@@ -1,4 +1,4 @@
-name: Publish Comparing Fractions Classroom MP4
+name: Publish MathMagic Comparing Fractions
 on:
   push:
     paths:
@@ -7,34 +7,39 @@ on:
 permissions:
   contents: write
 jobs:
-  publish-comparing:
+  comparing:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out video renderer
+        uses: actions/checkout@v4
         with:
           ref: feature/video-production-agent
           path: production
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install renderer
+      - name: Install dependencies
         run: |
           pip install -r production/video-agent/requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Assemble Comparing Fractions classroom MP4
+      - name: Produce Comparing Fractions classroom video
         run: |
           cd production
           python video-agent/produce_comparing.py
           test -s videos/MathMagic_Comparing_Fractions_FINAL.mp4
-      - name: Publish only Comparing Fractions video without touching Equivalent Fractions
+      - name: Publish Comparing Fractions MP4 only
         run: |
           cd production
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp videos/MathMagic_Comparing_Fractions_FINAL.mp4 /tmp/MathMagic_Comparing_Fractions_FINAL.mp4
           git fetch origin main
           git checkout -B publish-comparing origin/main
+          mkdir -p videos
+          cp /tmp/MathMagic_Comparing_Fractions_FINAL.mp4 videos/MathMagic_Comparing_Fractions_FINAL.mp4
           git add -f videos/MathMagic_Comparing_Fractions_FINAL.mp4
-          git commit -m "Publish Comparing Fractions classroom MP4"
+          git commit -m "Publish corrected Comparing Fractions lesson video"
           git push origin HEAD:main
