@@ -18,7 +18,7 @@ TMP = ROOT / "video-agent" / "output" / "comparing_final"
 URL = "https://resource2.heygen.ai/aws_pacific/avatar_tmp/f45de351b0f64d64b92ccf9397642c65/75adeb4005e511a9aaa5af6372d7224e.webm"
 DURATION = 110.942
 # Scene boundaries are editable. Every scene MUST have a different visual.
-SEGMENTS = [12, 19, 17, 16, 18, 15, DURATION - 97]
+SEGMENTS = [15, 25, 25, 15, 15, 10, DURATION - 105]
 
 
 def custom_board(title, subtitle, contents):
