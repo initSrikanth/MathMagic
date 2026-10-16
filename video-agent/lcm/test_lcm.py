@@ -32,4 +32,31 @@ class LCMTests(unittest.TestCase):
    p={'provider':'ElevenLabs','verified_clone_name':'Srikanth sogathur','verified_voice_id':'v','approved_voice_id':'v','actual_settings':{},'approved_settings':{},'model_id':'model','audio_sha256':hashlib.sha256(audio.read_bytes()).hexdigest()}
    pp=r/'p.json';pp.write_text(json.dumps(p));ap=r/'a.json';ap.write_text(json.dumps({'characters':['w','r','o','n','g'],'character_start_times_seconds':[0,1,2,3,4],'character_end_times_seconds':[1,2,3,4,5]}))
    with patch.object(m.subprocess,'check_output',return_value=b'{"format":{"duration":"80"}}'),self.assertRaises(AssertionError):m.load_alignment(ap,audio,pp)
+class HeyGenNarrationRegression(unittest.TestCase):
+ def setUp(self):
+  self.final=HERE.parents[1]/'reviews/lcm/final'
+  self.audio=self.final/'LCM_Original_HeyGen_Narration.mp3';self.alignment=self.final/'heygen-speech-response.json'
+  self.provenance=self.final/'voice-provenance.json'
+ def test_real_provider_timestamps_match_the_approved_script(self):
+  scenes,duration=m.load_alignment(self.alignment,self.audio,self.provenance)
+  self.assertAlmostEqual(duration,87.640813,5);self.assertEqual(len(scenes),9)
+  self.assertAlmostEqual(m.anchor(scenes[5],'One quarter equals three twelfths',3),47.461)
+  self.assertAlmostEqual(m.anchor(scenes[6],'One sixth equals two twelfths',3),61.646)
+  self.assertAlmostEqual(m.anchor(scenes[7],'That makes five twelfths',2),69.447)
+ def test_substitute_voice_or_changed_speech_speed_is_rejected(self):
+  for change in ['voice','speed']:
+   with self.subTest(change=change),tempfile.TemporaryDirectory()as td:
+    p=json.loads(self.provenance.read_text())
+    if change=='voice':p['verified_voice_id']=p['approved_voice_id']='substitute'
+    else:p['returned_regeneration_parameters']['speed']=.9
+    dest=Path(td)/'p.json';dest.write_text(json.dumps(p))
+    with self.assertRaises(AssertionError):m.load_alignment(self.alignment,self.audio,dest)
+ def test_changed_audio_or_multiple_generation_provenance_is_rejected(self):
+  for change in ['hash','requests']:
+   with self.subTest(change=change),tempfile.TemporaryDirectory()as td:
+    p=json.loads(self.provenance.read_text())
+    if change=='hash':p['audio_sha256']='incorrect'
+    else:p['speech_requests_submitted']=2
+    dest=Path(td)/'p.json';dest.write_text(json.dumps(p))
+    with self.assertRaises(AssertionError):m.load_alignment(self.alignment,self.audio,dest)
 if __name__=='__main__':unittest.main()

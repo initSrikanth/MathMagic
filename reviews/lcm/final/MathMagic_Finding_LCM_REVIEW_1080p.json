@@ -1,0 +1,1316 @@
+{
+  "status": "REVIEW_CANDIDATE_HUMAN_APPROVAL_REQUIRED",
+  "seconds": 87.640813,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "bytes": 3111284,
+  "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+  "actual_word_alignment": true,
+  "teacher": null,
+  "heygen_calls": 1,
+  "credits_spent": "4-credit observed balance difference; no per-request billing receipt exposed",
+  "scenes": [
+    {
+      "scene": {
+        "id": "meaning",
+        "draft_seconds": 9,
+        "narration": "The lowest common multiple is the smallest positive number that appears in both numbers' times tables. We call it the L C M."
+      },
+      "start": 0,
+      "end": 10.298,
+      "words": [
+        {
+          "word": "the",
+          "start": 0,
+          "end": 0.139,
+          "provider_word": "The"
+        },
+        {
+          "word": "lowest",
+          "start": 0.209,
+          "end": 0.499,
+          "provider_word": "lowest"
+        },
+        {
+          "word": "common",
+          "start": 0.569,
+          "end": 0.859,
+          "provider_word": "common"
+        },
+        {
+          "word": "multiple",
+          "start": 0.917,
+          "end": 1.463,
+          "provider_word": "multiple"
+        },
+        {
+          "word": "is",
+          "start": 1.579,
+          "end": 1.765,
+          "provider_word": "is"
+        },
+        {
+          "word": "the",
+          "start": 1.834,
+          "end": 1.916,
+          "provider_word": "the"
+        },
+        {
+          "word": "smallest",
+          "start": 1.974,
+          "end": 2.403,
+          "provider_word": "smallest"
+        },
+        {
+          "word": "positive",
+          "start": 2.473,
+          "end": 2.937,
+          "provider_word": "positive"
+        },
+        {
+          "word": "number",
+          "start": 2.984,
+          "end": 3.309,
+          "provider_word": "number"
+        },
+        {
+          "word": "that",
+          "start": 3.669,
+          "end": 3.866,
+          "provider_word": "that"
+        },
+        {
+          "word": "appears",
+          "start": 3.913,
+          "end": 4.516,
+          "provider_word": "appears"
+        },
+        {
+          "word": "in",
+          "start": 4.83,
+          "end": 4.969,
+          "provider_word": "in"
+        },
+        {
+          "word": "both",
+          "start": 5.05,
+          "end": 5.329,
+          "provider_word": "both"
+        },
+        {
+          "word": "numbers",
+          "start": 5.457,
+          "end": 5.793,
+          "provider_word": "numbers'"
+        },
+        {
+          "word": "times",
+          "start": 5.875,
+          "end": 6.211,
+          "provider_word": "times"
+        },
+        {
+          "word": "tables",
+          "start": 6.258,
+          "end": 6.722,
+          "provider_word": "tables."
+        },
+        {
+          "word": "we",
+          "start": 7.535,
+          "end": 7.674,
+          "provider_word": "We"
+        },
+        {
+          "word": "call",
+          "start": 7.732,
+          "end": 7.941,
+          "provider_word": "call"
+        },
+        {
+          "word": "it",
+          "start": 7.999,
+          "end": 8.127,
+          "provider_word": "it"
+        },
+        {
+          "word": "the",
+          "start": 8.371,
+          "end": 8.58,
+          "provider_word": "the"
+        },
+        {
+          "word": "l",
+          "start": 8.696,
+          "end": 8.928,
+          "provider_word": "L"
+        },
+        {
+          "word": "c",
+          "start": 9.021,
+          "end": 9.172,
+          "provider_word": "C"
+        },
+        {
+          "word": "m",
+          "start": 9.334,
+          "end": 9.648,
+          "provider_word": "M."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "multiples-four",
+        "draft_seconds": 8,
+        "narration": "Let's find it for four and six. Multiples of four are four, eight, twelve, sixteen, and so on."
+      },
+      "start": 10.298,
+      "end": 18.029999999999998,
+      "words": [
+        {
+          "word": "let",
+          "start": 10.298,
+          "end": 10.519,
+          "provider_word": "Let's"
+        },
+        {
+          "word": "s",
+          "start": 10.298,
+          "end": 10.519,
+          "provider_word": "Let's"
+        },
+        {
+          "word": "find",
+          "start": 10.577,
+          "end": 10.786,
+          "provider_word": "find"
+        },
+        {
+          "word": "it",
+          "start": 10.844,
+          "end": 10.913,
+          "provider_word": "it"
+        },
+        {
+          "word": "for",
+          "start": 10.96,
+          "end": 11.076,
+          "provider_word": "for"
+        },
+        {
+          "word": "four",
+          "start": 11.169,
+          "end": 11.505,
+          "provider_word": "four"
+        },
+        {
+          "word": "and",
+          "start": 11.587,
+          "end": 11.738,
+          "provider_word": "and"
+        },
+        {
+          "word": "six",
+          "start": 11.831,
+          "end": 12.225,
+          "provider_word": "six."
+        },
+        {
+          "word": "multiples",
+          "start": 13.003,
+          "end": 13.514,
+          "provider_word": "Multiples"
+        },
+        {
+          "word": "of",
+          "start": 13.572,
+          "end": 13.63,
+          "provider_word": "of"
+        },
+        {
+          "word": "four",
+          "start": 13.7,
+          "end": 14.002,
+          "provider_word": "four"
+        },
+        {
+          "word": "are",
+          "start": 14.095,
+          "end": 14.327,
+          "provider_word": "are"
+        },
+        {
+          "word": "four",
+          "start": 14.408,
+          "end": 14.756,
+          "provider_word": "four,"
+        },
+        {
+          "word": "eight",
+          "start": 15.012,
+          "end": 15.267,
+          "provider_word": "eight,"
+        },
+        {
+          "word": "twelve",
+          "start": 15.348,
+          "end": 15.859,
+          "provider_word": "twelve,"
+        },
+        {
+          "word": "sixteen",
+          "start": 16.091,
+          "end": 16.614,
+          "provider_word": "sixteen,"
+        },
+        {
+          "word": "and",
+          "start": 16.672,
+          "end": 16.811,
+          "provider_word": "and"
+        },
+        {
+          "word": "so",
+          "start": 16.893,
+          "end": 17.055,
+          "provider_word": "so"
+        },
+        {
+          "word": "on",
+          "start": 17.148,
+          "end": 17.31,
+          "provider_word": "on."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "multiples-six",
+        "draft_seconds": 7,
+        "narration": "Multiples of six are six, twelve, eighteen, and so on."
+      },
+      "start": 18.029999999999998,
+      "end": 22.220999999999997,
+      "words": [
+        {
+          "word": "multiples",
+          "start": 18.029999999999998,
+          "end": 18.529,
+          "provider_word": "Multiples"
+        },
+        {
+          "word": "of",
+          "start": 18.587,
+          "end": 18.657,
+          "provider_word": "of"
+        },
+        {
+          "word": "six",
+          "start": 18.75,
+          "end": 19.086,
+          "provider_word": "six"
+        },
+        {
+          "word": "are",
+          "start": 19.237,
+          "end": 19.423,
+          "provider_word": "are"
+        },
+        {
+          "word": "six",
+          "start": 19.480999999999998,
+          "end": 19.829,
+          "provider_word": "six,"
+        },
+        {
+          "word": "twelve",
+          "start": 20.026999999999997,
+          "end": 20.479999999999997,
+          "provider_word": "twelve,"
+        },
+        {
+          "word": "eighteen",
+          "start": 20.584,
+          "end": 21.06,
+          "provider_word": "eighteen,"
+        },
+        {
+          "word": "and",
+          "start": 21.153,
+          "end": 21.304,
+          "provider_word": "and"
+        },
+        {
+          "word": "so",
+          "start": 21.372999999999998,
+          "end": 21.49,
+          "provider_word": "so"
+        },
+        {
+          "word": "on",
+          "start": 21.570999999999998,
+          "end": 21.71,
+          "provider_word": "on."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "shared",
+        "draft_seconds": 9,
+        "narration": "Twelve is the first positive number in both lists. So twelve is the lowest common multiple of four and six."
+      },
+      "start": 22.220999999999997,
+      "end": 31.66,
+      "words": [
+        {
+          "word": "twelve",
+          "start": 22.220999999999997,
+          "end": 22.813,
+          "provider_word": "Twelve"
+        },
+        {
+          "word": "is",
+          "start": 23.057,
+          "end": 23.253999999999998,
+          "provider_word": "is"
+        },
+        {
+          "word": "the",
+          "start": 23.311999999999998,
+          "end": 23.394,
+          "provider_word": "the"
+        },
+        {
+          "word": "first",
+          "start": 23.509999999999998,
+          "end": 23.927999999999997,
+          "provider_word": "first"
+        },
+        {
+          "word": "positive",
+          "start": 24.079,
+          "end": 24.636,
+          "provider_word": "positive"
+        },
+        {
+          "word": "number",
+          "start": 24.682,
+          "end": 25.019,
+          "provider_word": "number"
+        },
+        {
+          "word": "in",
+          "start": 25.112,
+          "end": 25.24,
+          "provider_word": "in"
+        },
+        {
+          "word": "both",
+          "start": 25.308999999999997,
+          "end": 25.53,
+          "provider_word": "both"
+        },
+        {
+          "word": "lists",
+          "start": 25.599999999999998,
+          "end": 26.028999999999996,
+          "provider_word": "lists."
+        },
+        {
+          "word": "so",
+          "start": 26.412,
+          "end": 26.586,
+          "provider_word": "So"
+        },
+        {
+          "word": "twelve",
+          "start": 26.656,
+          "end": 27.237,
+          "provider_word": "twelve"
+        },
+        {
+          "word": "is",
+          "start": 27.619999999999997,
+          "end": 27.817,
+          "provider_word": "is"
+        },
+        {
+          "word": "the",
+          "start": 27.887,
+          "end": 27.956,
+          "provider_word": "the"
+        },
+        {
+          "word": "lowest",
+          "start": 28.049,
+          "end": 28.432,
+          "provider_word": "lowest"
+        },
+        {
+          "word": "common",
+          "start": 28.514,
+          "end": 28.826999999999998,
+          "provider_word": "common"
+        },
+        {
+          "word": "multiple",
+          "start": 28.897,
+          "end": 29.546999999999997,
+          "provider_word": "multiple"
+        },
+        {
+          "word": "of",
+          "start": 29.720999999999997,
+          "end": 29.86,
+          "provider_word": "of"
+        },
+        {
+          "word": "four",
+          "start": 29.976,
+          "end": 30.302,
+          "provider_word": "four"
+        },
+        {
+          "word": "and",
+          "start": 30.476,
+          "end": 30.685,
+          "provider_word": "and"
+        },
+        {
+          "word": "six",
+          "start": 30.766,
+          "end": 31.102999999999998,
+          "provider_word": "six."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "question",
+        "draft_seconds": 9,
+        "narration": "That helps us add one quarter and one sixth. We need equal-sized parts. Twelve is a useful common denominator because both four and six divide into twelve."
+      },
+      "start": 31.66,
+      "end": 42.968,
+      "words": [
+        {
+          "word": "that",
+          "start": 31.66,
+          "end": 31.869,
+          "provider_word": "That"
+        },
+        {
+          "word": "helps",
+          "start": 31.927,
+          "end": 32.159,
+          "provider_word": "helps"
+        },
+        {
+          "word": "us",
+          "start": 32.206,
+          "end": 32.299,
+          "provider_word": "us"
+        },
+        {
+          "word": "add",
+          "start": 32.345,
+          "end": 32.496,
+          "provider_word": "add"
+        },
+        {
+          "word": "one",
+          "start": 32.566,
+          "end": 32.74,
+          "provider_word": "one"
+        },
+        {
+          "word": "quarter",
+          "start": 32.798,
+          "end": 33.181,
+          "provider_word": "quarter"
+        },
+        {
+          "word": "and",
+          "start": 33.39,
+          "end": 33.599000000000004,
+          "provider_word": "and"
+        },
+        {
+          "word": "one",
+          "start": 33.692,
+          "end": 33.889,
+          "provider_word": "one"
+        },
+        {
+          "word": "sixth",
+          "start": 33.947,
+          "end": 34.319,
+          "provider_word": "sixth."
+        },
+        {
+          "word": "we",
+          "start": 34.771,
+          "end": 34.899,
+          "provider_word": "We"
+        },
+        {
+          "word": "need",
+          "start": 34.957,
+          "end": 35.143,
+          "provider_word": "need"
+        },
+        {
+          "word": "equal",
+          "start": 35.201,
+          "end": 35.898,
+          "provider_word": "equal-sized"
+        },
+        {
+          "word": "sized",
+          "start": 35.201,
+          "end": 35.898,
+          "provider_word": "equal-sized"
+        },
+        {
+          "word": "parts",
+          "start": 35.944,
+          "end": 36.408,
+          "provider_word": "parts."
+        },
+        {
+          "word": "twelve",
+          "start": 36.884,
+          "end": 37.419,
+          "provider_word": "Twelve"
+        },
+        {
+          "word": "is",
+          "start": 37.477000000000004,
+          "end": 37.639,
+          "provider_word": "is"
+        },
+        {
+          "word": "a",
+          "start": 37.697,
+          "end": 37.732,
+          "provider_word": "a"
+        },
+        {
+          "word": "useful",
+          "start": 37.848,
+          "end": 38.278,
+          "provider_word": "useful"
+        },
+        {
+          "word": "common",
+          "start": 38.359,
+          "end": 38.672,
+          "provider_word": "common"
+        },
+        {
+          "word": "denominator",
+          "start": 38.730000000000004,
+          "end": 39.439,
+          "provider_word": "denominator"
+        },
+        {
+          "word": "because",
+          "start": 39.763999999999996,
+          "end": 40.147,
+          "provider_word": "because"
+        },
+        {
+          "word": "both",
+          "start": 40.205,
+          "end": 40.449,
+          "provider_word": "both"
+        },
+        {
+          "word": "four",
+          "start": 40.53,
+          "end": 40.774,
+          "provider_word": "four"
+        },
+        {
+          "word": "and",
+          "start": 40.82,
+          "end": 40.902,
+          "provider_word": "and"
+        },
+        {
+          "word": "six",
+          "start": 40.971000000000004,
+          "end": 41.272999999999996,
+          "provider_word": "six"
+        },
+        {
+          "word": "divide",
+          "start": 41.343,
+          "end": 41.796,
+          "provider_word": "divide"
+        },
+        {
+          "word": "into",
+          "start": 41.854,
+          "end": 42.039,
+          "provider_word": "into"
+        },
+        {
+          "word": "twelve",
+          "start": 42.097,
+          "end": 42.597,
+          "provider_word": "twelve."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "quarters",
+        "draft_seconds": 10,
+        "narration": "Multiply both numbers in one quarter by three. One quarter equals three twelfths. Multiplying the numerator and denominator by the same number keeps the fraction's value unchanged."
+      },
+      "start": 42.968,
+      "end": 55.67,
+      "words": [
+        {
+          "word": "multiply",
+          "start": 42.968,
+          "end": 43.513999999999996,
+          "provider_word": "Multiply"
+        },
+        {
+          "word": "both",
+          "start": 43.607,
+          "end": 43.839,
+          "provider_word": "both"
+        },
+        {
+          "word": "numbers",
+          "start": 43.909,
+          "end": 44.245000000000005,
+          "provider_word": "numbers"
+        },
+        {
+          "word": "in",
+          "start": 44.303,
+          "end": 44.373,
+          "provider_word": "in"
+        },
+        {
+          "word": "one",
+          "start": 44.454,
+          "end": 44.617000000000004,
+          "provider_word": "one"
+        },
+        {
+          "word": "quarter",
+          "start": 44.663,
+          "end": 45,
+          "provider_word": "quarter"
+        },
+        {
+          "word": "by",
+          "start": 45.07,
+          "end": 45.197,
+          "provider_word": "by"
+        },
+        {
+          "word": "three",
+          "start": 45.29,
+          "end": 45.743,
+          "provider_word": "three."
+        },
+        {
+          "word": "one",
+          "start": 46.126000000000005,
+          "end": 46.347,
+          "provider_word": "One"
+        },
+        {
+          "word": "quarter",
+          "start": 46.393,
+          "end": 46.765,
+          "provider_word": "quarter"
+        },
+        {
+          "word": "equals",
+          "start": 47.009,
+          "end": 47.403,
+          "provider_word": "equals"
+        },
+        {
+          "word": "three",
+          "start": 47.461,
+          "end": 47.694,
+          "provider_word": "three"
+        },
+        {
+          "word": "twelfths",
+          "start": 47.728,
+          "end": 48.204,
+          "provider_word": "twelfths."
+        },
+        {
+          "word": "multiplying",
+          "start": 48.704,
+          "end": 49.331,
+          "provider_word": "Multiplying"
+        },
+        {
+          "word": "the",
+          "start": 49.388999999999996,
+          "end": 49.458,
+          "provider_word": "the"
+        },
+        {
+          "word": "numerator",
+          "start": 49.528000000000006,
+          "end": 50.120000000000005,
+          "provider_word": "numerator"
+        },
+        {
+          "word": "and",
+          "start": 50.201,
+          "end": 50.352000000000004,
+          "provider_word": "and"
+        },
+        {
+          "word": "denominator",
+          "start": 50.422,
+          "end": 51.037000000000006,
+          "provider_word": "denominator"
+        },
+        {
+          "word": "by",
+          "start": 51.084,
+          "end": 51.177,
+          "provider_word": "by"
+        },
+        {
+          "word": "the",
+          "start": 51.235,
+          "end": 51.304,
+          "provider_word": "the"
+        },
+        {
+          "word": "same",
+          "start": 51.351,
+          "end": 51.571,
+          "provider_word": "same"
+        },
+        {
+          "word": "number",
+          "start": 51.618,
+          "end": 51.966,
+          "provider_word": "number"
+        },
+        {
+          "word": "keeps",
+          "start": 52.407,
+          "end": 52.766999999999996,
+          "provider_word": "keeps"
+        },
+        {
+          "word": "the",
+          "start": 52.837,
+          "end": 52.918000000000006,
+          "provider_word": "the"
+        },
+        {
+          "word": "fraction",
+          "start": 52.976,
+          "end": 53.545,
+          "provider_word": "fraction's"
+        },
+        {
+          "word": "s",
+          "start": 52.976,
+          "end": 53.545,
+          "provider_word": "fraction's"
+        },
+        {
+          "word": "value",
+          "start": 53.614999999999995,
+          "end": 54.091,
+          "provider_word": "value"
+        },
+        {
+          "word": "unchanged",
+          "start": 54.265,
+          "end": 55.17,
+          "provider_word": "unchanged."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "sixths",
+        "draft_seconds": 9,
+        "narration": "For one sixth, multiply the numerator and denominator by two. One sixth equals two twelfths. These fractions now use the same-sized parts."
+      },
+      "start": 55.67,
+      "end": 66.27799999999999,
+      "words": [
+        {
+          "word": "for",
+          "start": 55.67,
+          "end": 55.844,
+          "provider_word": "For"
+        },
+        {
+          "word": "one",
+          "start": 55.925,
+          "end": 56.134,
+          "provider_word": "one"
+        },
+        {
+          "word": "sixth",
+          "start": 56.227000000000004,
+          "end": 56.772999999999996,
+          "provider_word": "sixth,"
+        },
+        {
+          "word": "multiply",
+          "start": 57.063,
+          "end": 57.551,
+          "provider_word": "multiply"
+        },
+        {
+          "word": "the",
+          "start": 57.620000000000005,
+          "end": 57.69,
+          "provider_word": "the"
+        },
+        {
+          "word": "numerator",
+          "start": 57.736000000000004,
+          "end": 58.259,
+          "provider_word": "numerator"
+        },
+        {
+          "word": "and",
+          "start": 58.34,
+          "end": 58.444,
+          "provider_word": "and"
+        },
+        {
+          "word": "denominator",
+          "start": 58.503,
+          "end": 59.071,
+          "provider_word": "denominator"
+        },
+        {
+          "word": "by",
+          "start": 59.129000000000005,
+          "end": 59.257000000000005,
+          "provider_word": "by"
+        },
+        {
+          "word": "two",
+          "start": 59.338,
+          "end": 59.629000000000005,
+          "provider_word": "two."
+        },
+        {
+          "word": "one",
+          "start": 60.263999999999996,
+          "end": 60.519,
+          "provider_word": "One"
+        },
+        {
+          "word": "sixth",
+          "start": 60.589,
+          "end": 60.995,
+          "provider_word": "sixth"
+        },
+        {
+          "word": "equals",
+          "start": 61.145999999999994,
+          "end": 61.57599999999999,
+          "provider_word": "equals"
+        },
+        {
+          "word": "two",
+          "start": 61.645999999999994,
+          "end": 61.80799999999999,
+          "provider_word": "two"
+        },
+        {
+          "word": "twelfths",
+          "start": 61.86599999999999,
+          "end": 62.376999999999995,
+          "provider_word": "twelfths."
+        },
+        {
+          "word": "these",
+          "start": 62.76,
+          "end": 62.992,
+          "provider_word": "These"
+        },
+        {
+          "word": "fractions",
+          "start": 63.038999999999994,
+          "end": 63.642999999999994,
+          "provider_word": "fractions"
+        },
+        {
+          "word": "now",
+          "start": 63.851,
+          "end": 64.08399999999999,
+          "provider_word": "now"
+        },
+        {
+          "word": "use",
+          "start": 64.17699999999999,
+          "end": 64.467,
+          "provider_word": "use"
+        },
+        {
+          "word": "the",
+          "start": 64.52499999999999,
+          "end": 64.606,
+          "provider_word": "the"
+        },
+        {
+          "word": "same",
+          "start": 64.664,
+          "end": 65.34899999999999,
+          "provider_word": "same-sized"
+        },
+        {
+          "word": "sized",
+          "start": 64.664,
+          "end": 65.34899999999999,
+          "provider_word": "same-sized"
+        },
+        {
+          "word": "parts",
+          "start": 65.407,
+          "end": 65.779,
+          "provider_word": "parts."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "add",
+        "draft_seconds": 9,
+        "narration": "Add three twelfths and two twelfths. That makes five twelfths. Keep the denominator twelve. The answer is already in simplest form."
+      },
+      "start": 66.27799999999999,
+      "end": 75.65899999999999,
+      "words": [
+        {
+          "word": "add",
+          "start": 66.27799999999999,
+          "end": 66.52199999999999,
+          "provider_word": "Add"
+        },
+        {
+          "word": "three",
+          "start": 66.58,
+          "end": 66.824,
+          "provider_word": "three"
+        },
+        {
+          "word": "twelfths",
+          "start": 66.85799999999999,
+          "end": 67.323,
+          "provider_word": "twelfths"
+        },
+        {
+          "word": "and",
+          "start": 67.497,
+          "end": 67.67099999999999,
+          "provider_word": "and"
+        },
+        {
+          "word": "two",
+          "start": 67.71799999999999,
+          "end": 67.88,
+          "provider_word": "two"
+        },
+        {
+          "word": "twelfths",
+          "start": 67.938,
+          "end": 68.39099999999999,
+          "provider_word": "twelfths."
+        },
+        {
+          "word": "that",
+          "start": 68.86699999999999,
+          "end": 69.053,
+          "provider_word": "That"
+        },
+        {
+          "word": "makes",
+          "start": 69.11099999999999,
+          "end": 69.33099999999999,
+          "provider_word": "makes"
+        },
+        {
+          "word": "five",
+          "start": 69.447,
+          "end": 69.83099999999999,
+          "provider_word": "five"
+        },
+        {
+          "word": "twelfths",
+          "start": 69.877,
+          "end": 70.37599999999999,
+          "provider_word": "twelfths."
+        },
+        {
+          "word": "keep",
+          "start": 70.85199999999999,
+          "end": 71.084,
+          "provider_word": "Keep"
+        },
+        {
+          "word": "the",
+          "start": 71.143,
+          "end": 71.21199999999999,
+          "provider_word": "the"
+        },
+        {
+          "word": "denominator",
+          "start": 71.259,
+          "end": 71.862,
+          "provider_word": "denominator"
+        },
+        {
+          "word": "twelve",
+          "start": 71.92,
+          "end": 72.38499999999999,
+          "provider_word": "twelve."
+        },
+        {
+          "word": "the",
+          "start": 72.675,
+          "end": 72.803,
+          "provider_word": "The"
+        },
+        {
+          "word": "answer",
+          "start": 72.872,
+          "end": 73.314,
+          "provider_word": "answer"
+        },
+        {
+          "word": "is",
+          "start": 73.42999999999999,
+          "end": 73.592,
+          "provider_word": "is"
+        },
+        {
+          "word": "already",
+          "start": 73.64999999999999,
+          "end": 74.045,
+          "provider_word": "already"
+        },
+        {
+          "word": "in",
+          "start": 74.12599999999999,
+          "end": 74.219,
+          "provider_word": "in"
+        },
+        {
+          "word": "simplest",
+          "start": 74.3,
+          "end": 74.74199999999999,
+          "provider_word": "simplest"
+        },
+        {
+          "word": "form",
+          "start": 74.81099999999999,
+          "end": 75.125,
+          "provider_word": "form."
+        }
+      ]
+    },
+    {
+      "scene": {
+        "id": "recap",
+        "draft_seconds": 10,
+        "narration": "Remember: find the shared multiples, choose the smallest positive one, rename, then calculate. Any common denominator can work, but the lowest common multiple usually keeps the numbers smaller."
+      },
+      "start": 75.65899999999999,
+      "end": 87.640813,
+      "words": [
+        {
+          "word": "remember",
+          "start": 75.65899999999999,
+          "end": 76.1,
+          "provider_word": "Remember:"
+        },
+        {
+          "word": "find",
+          "start": 76.553,
+          "end": 76.797,
+          "provider_word": "find"
+        },
+        {
+          "word": "the",
+          "start": 76.84299999999999,
+          "end": 76.913,
+          "provider_word": "the"
+        },
+        {
+          "word": "shared",
+          "start": 76.971,
+          "end": 77.29599999999999,
+          "provider_word": "shared"
+        },
+        {
+          "word": "multiples",
+          "start": 77.342,
+          "end": 77.923,
+          "provider_word": "multiples,"
+        },
+        {
+          "word": "choose",
+          "start": 78.24799999999999,
+          "end": 78.538,
+          "provider_word": "choose"
+        },
+        {
+          "word": "the",
+          "start": 78.573,
+          "end": 78.654,
+          "provider_word": "the"
+        },
+        {
+          "word": "smallest",
+          "start": 78.71199999999999,
+          "end": 79.072,
+          "provider_word": "smallest"
+        },
+        {
+          "word": "positive",
+          "start": 79.119,
+          "end": 79.548,
+          "provider_word": "positive"
+        },
+        {
+          "word": "one",
+          "start": 79.606,
+          "end": 79.88499999999999,
+          "provider_word": "one,"
+        },
+        {
+          "word": "rename",
+          "start": 80.187,
+          "end": 80.82499999999999,
+          "provider_word": "rename,"
+        },
+        {
+          "word": "then",
+          "start": 81.04599999999999,
+          "end": 81.243,
+          "provider_word": "then"
+        },
+        {
+          "word": "calculate",
+          "start": 81.32499999999999,
+          "end": 81.98599999999999,
+          "provider_word": "calculate."
+        },
+        {
+          "word": "any",
+          "start": 82.31099999999999,
+          "end": 82.57799999999999,
+          "provider_word": "Any"
+        },
+        {
+          "word": "common",
+          "start": 82.67099999999999,
+          "end": 82.93799999999999,
+          "provider_word": "common"
+        },
+        {
+          "word": "denominator",
+          "start": 82.984,
+          "end": 83.50699999999999,
+          "provider_word": "denominator"
+        },
+        {
+          "word": "can",
+          "start": 83.553,
+          "end": 83.669,
+          "provider_word": "can"
+        },
+        {
+          "word": "work",
+          "start": 83.72699999999999,
+          "end": 83.97099999999999,
+          "provider_word": "work,"
+        },
+        {
+          "word": "but",
+          "start": 84.366,
+          "end": 84.529,
+          "provider_word": "but"
+        },
+        {
+          "word": "the",
+          "start": 84.56299999999999,
+          "end": 84.633,
+          "provider_word": "the"
+        },
+        {
+          "word": "lowest",
+          "start": 84.70299999999999,
+          "end": 84.981,
+          "provider_word": "lowest"
+        },
+        {
+          "word": "common",
+          "start": 85.01599999999999,
+          "end": 85.27199999999999,
+          "provider_word": "common"
+        },
+        {
+          "word": "multiple",
+          "start": 85.318,
+          "end": 85.73599999999999,
+          "provider_word": "multiple"
+        },
+        {
+          "word": "usually",
+          "start": 85.806,
+          "end": 86.119,
+          "provider_word": "usually"
+        },
+        {
+          "word": "keeps",
+          "start": 86.166,
+          "end": 86.42099999999999,
+          "provider_word": "keeps"
+        },
+        {
+          "word": "the",
+          "start": 86.479,
+          "end": 86.55999999999999,
+          "provider_word": "the"
+        },
+        {
+          "word": "numbers",
+          "start": 86.607,
+          "end": 86.89699999999999,
+          "provider_word": "numbers"
+        },
+        {
+          "word": "smaller",
+          "start": 86.93199999999999,
+          "end": 87.36099999999999,
+          "provider_word": "smaller."
+        }
+      ]
+    }
+  ]
+}

@@ -57,24 +57,36 @@ def validate_math():
 
 def load_alignment(path,audio,provenance):
  p=json.loads(provenance.read_text())
- assert p['provider']=='ElevenLabs' and p['verified_clone_name']==LESSON['voice']['clone_name']
+ assert p['provider']in ['ElevenLabs','HeyGen'] and p['verified_clone_name']==LESSON['voice']['clone_name']
  assert p['verified_voice_id']==p['approved_voice_id'] and p['verified_voice_id']
- assert p['actual_settings']==p['approved_settings'] and p['model_id']
+ if p['provider']=='HeyGen':
+  assert p['verified_voice_id']=='2ec5ec7926eb471d9f33e1b7ba4bb77d'
+  assert p['engine']=='elevenlabs' and p['request_id'] and p['speech_requests_submitted']==1
+  assert p['returned_regeneration_parameters']=={'engine':'elevenlabs','speed':1}
+ else:assert p['actual_settings']==p['approved_settings'] and p['model_id']
  assert p['audio_sha256']==hashlib.sha256(audio.read_bytes()).hexdigest()
  info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-of','json',str(audio)]));duration=float(info['format']['duration'])
- data=json.loads(path.read_text());data=data.get('normalized_alignment')or data.get('alignment')or data
- chars=data['characters'];starts=data['character_start_times_seconds'];ends=data['character_end_times_seconds']
- assert len(chars)==len(starts)==len(ends) and starts==sorted(starts)
- joined=''.join(chars);records=[];pos=0;bounds=[]
- for ch,a,b in zip(chars,starts,ends):
-  bounds.extend([(a,b)]*len(ch))
- for m in re.finditer(r'[a-z0-9]+',joined.lower()):records.append({'word':m.group(),'start':bounds[m.start()][0],'end':bounds[m.end()-1][1]})
+ data=json.loads(path.read_text());records=[]
+ if 'word_timestamps'in data:
+  for entry in data['word_timestamps']:
+   if entry['word']in ['<start>','<end>']:continue
+   # Normalisation splits contractions/hyphens only for script matching; retain the
+   # provider's original whole-word interval rather than inventing subword timings.
+   for token in words(entry['word']):records.append(dict(word=token,start=entry['start'],end=entry['end'],provider_word=entry['word']))
+ else:
+  data=data.get('normalized_alignment')or data.get('alignment')or data
+  chars=data['characters'];starts=data['character_start_times_seconds'];ends=data['character_end_times_seconds']
+  assert len(chars)==len(starts)==len(ends) and starts==sorted(starts)
+  joined=''.join(chars);bounds=[]
+  for ch,a,b in zip(chars,starts,ends):bounds.extend([(a,b)]*len(ch))
+  for m in re.finditer(r'[a-z0-9]+',joined.lower()):records.append({'word':m.group(),'start':bounds[m.start()][0],'end':bounds[m.end()-1][1]})
  expected=words(' '.join(s['narration']for s in LESSON['scenes']));assert [x['word']for x in records]==expected,'Actual narration must match the full script'
+ assert all(0<=w['start']<w['end']<=duration+.01 for w in records),'Word timing exceeds unedited narration'
+ assert [w['start']for w in records]==sorted(w['start']for w in records)
  cursor=0;scenes=[]
  for scene in LESSON['scenes']:
   n=len(words(scene['narration']));ws=records[cursor:cursor+n];cursor+=n
   scenes.append(dict(scene=scene,start=ws[0]['start'],end=ws[-1]['end'],words=ws))
- # All source audio is retained, including any natural initial/trailing pauses.
  scenes[0]['start']=0
  for i in range(len(scenes)-1):scenes[i]['end']=scenes[i+1]['start']
  scenes[-1]['end']=duration
@@ -155,7 +167,7 @@ def main():
   if not all([a.audio,a.alignment,a.provenance]):raise SystemExit('BLOCKED: exact ElevenLabs clone audio, actual alignment and verified voice provenance required; no substitute voice or estimated final timing')
   scenes,duration=load_alignment(a.alignment,a.audio,a.provenance)
  cmd=['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','30','-i','pipe:0']
- if a.audio:cmd+=['-i',str(a.audio),'-map','0:v:0','-map','1:a:0','-c:a','aac','-b:a','192k']
+ if a.audio:cmd+=['-i',str(a.audio),'-map','0:v:0','-map','1:a:0','-c:a','aac','-b:a','256k']
  else:cmd+=['-an']
  cmd+=['-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(a.output)]
  a.output.parent.mkdir(exist_ok=True,parents=True);proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
@@ -165,6 +177,6 @@ def main():
    if n%600==0:print(n,flush=True)
  finally:proc.stdin.close()
  if proc.wait():raise RuntimeError('Render failed')
- report={'status':'SILENT_DRAFT_NOT_NARRATED_NOT_PUBLICATION_READY'if a.draft else'REVIEW_CANDIDATE_HUMAN_APPROVAL_REQUIRED','seconds':duration,'fps':30,'size':[1920,1080],'bytes':a.output.stat().st_size,'sha256':hashlib.sha256(a.output.read_bytes()).hexdigest(),'actual_word_alignment':not a.draft,'teacher':None,'heygen_calls':0,'credits_spent':0,'scenes':scenes}
+ report={'status':'SILENT_DRAFT_NOT_NARRATED_NOT_PUBLICATION_READY'if a.draft else'REVIEW_CANDIDATE_HUMAN_APPROVAL_REQUIRED','seconds':duration,'fps':30,'size':[1920,1080],'bytes':a.output.stat().st_size,'sha256':hashlib.sha256(a.output.read_bytes()).hexdigest(),'actual_word_alignment':not a.draft,'teacher':None,'heygen_calls':1 if a.audio and json.loads(a.provenance.read_text())['provider']=='HeyGen'else 0,'credits_spent':json.loads(a.provenance.read_text()).get('credits_spent')if a.audio else 0,'scenes':scenes}
  a.output.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items()if k!='scenes'},indent=2))
 if __name__=='__main__':main()

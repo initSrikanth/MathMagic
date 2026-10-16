@@ -1,0 +1,194 @@
+{
+  "status": "TECHNICAL_QA_PASS_USER_REVIEW_PENDING",
+  "filename": "MathMagic_Finding_LCM_REVIEW_1080p.mp4",
+  "duration": 87.666667,
+  "source_audio_duration": 87.640813,
+  "bytes": 3111284,
+  "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+  "format": "1920x1080 H.264/yuv420p, 30 fps, AAC 44.1 kHz mono, faststart",
+  "full_decode": "PASS",
+  "audio": {
+    "source_mp3_sha256": "e841c7b0e1a52985b3eefc184520e3892895020b00bb971afbb7cafb33490d7f",
+    "original_sample_count": 3864960,
+    "final_sample_count": 3865600,
+    "zero_lag_correlation": 0.9999789542370023,
+    "SNR_dB_after_AAC_encoding": 43.654924373187356,
+    "gain_difference_dB": -0.00892479156412949,
+    "peak_dBFS": -3.4958770547064884,
+    "RMS_dBFS": -23.455201917829825,
+    "clipped_samples": 0,
+    "early_middle_late_samples": [
+      {
+        "start": 1,
+        "zero_lag_correlation": 0.999973449216044
+      },
+      {
+        "start": 40,
+        "zero_lag_correlation": 0.9999829560976394
+      },
+      {
+        "start": 80,
+        "zero_lag_correlation": 0.9999764596539439
+      }
+    ],
+    "pitch_speed_changes": false,
+    "silence_inserted": false,
+    "note": "Only AAC encoding and codec-frame tail padding; no temporal filters, cropping, looping, silence insertion or narration edits"
+  },
+  "mathematics": "PASS; LCM, exact equivalences, addition and simplification verified",
+  "distinct_equation_states": 5,
+  "existing_graphics_code": "PASS; mathematical drawing and animation functions AST-identical to a4ad2da",
+  "source_word_alignment": "PASS; complete script matched to actual provider word timestamps",
+  "rendered_board_samples": 142,
+  "max_frame_pixel_mae": 0.3549525784465021,
+  "result_persistence": [
+    {
+      "result": "one quarter equals three twelfths",
+      "reveal": 47.461,
+      "needed_until": 75.659
+    },
+    {
+      "result": "one sixth equals two twelfths",
+      "reveal": 61.646,
+      "needed_until": 75.659
+    },
+    {
+      "result": "five twelfths answer",
+      "reveal": 69.447,
+      "needed_until": 87.640813
+    }
+  ],
+  "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+  "voice_name": "Srikanth sogathur",
+  "engine": "elevenlabs via connected HeyGen",
+  "speech_generation_requests": 1,
+  "publication_allowed": false,
+  "human_audiovisual_review": "User approval of naturalness, pronunciation and teaching experience remains pending; automated checks do not certify subjective quality",
+  "playback": [
+    {
+      "device": "desktop",
+      "metadata": "PASS",
+      "playback": "PASS",
+      "seeking": "PASS",
+      "end": "PASS",
+      "ranges": "PASS",
+      "keyboard": "PASS",
+      "containment": "PASS",
+      "captions": "PASS",
+      "audio": "AAC narration present; technical identity checked separately"
+    },
+    {
+      "device": "tablet",
+      "metadata": "PASS",
+      "playback": "PASS",
+      "seeking": "PASS",
+      "end": "PASS",
+      "ranges": "PASS",
+      "keyboard": "PASS",
+      "containment": "PASS",
+      "captions": "PASS",
+      "audio": "AAC narration present; technical identity checked separately"
+    },
+    {
+      "device": "mobile",
+      "metadata": "PASS",
+      "playback": "PASS",
+      "seeking": "PASS",
+      "end": "PASS",
+      "ranges": "PASS",
+      "keyboard": "PASS",
+      "containment": "PASS",
+      "captions": "PASS",
+      "audio": "AAC narration present; technical identity checked separately"
+    }
+  ],
+  "independent_acoustic_crosscheck": {
+    "method": "Independent offline PocketSphinx constrained acoustic alignment; diagnostic, not a listening certification",
+    "normalised_acoustic_words": 198,
+    "overall_max_start_delta_seconds": 0.3569999999999851,
+    "mathematical_reveal_anchors": [
+      {
+        "scene": "multiples-four",
+        "phrase": "four eight twelve sixteen",
+        "provider_start": 14.408,
+        "independent_acoustic_start": 14.35,
+        "delta": -0.05799999999999983
+      },
+      {
+        "scene": "multiples-four",
+        "phrase": "four eight twelve sixteen",
+        "provider_start": 15.012,
+        "independent_acoustic_start": 15.06,
+        "delta": 0.04800000000000004
+      },
+      {
+        "scene": "multiples-four",
+        "phrase": "four eight twelve sixteen",
+        "provider_start": 15.348,
+        "independent_acoustic_start": 15.39,
+        "delta": 0.041999999999999815
+      },
+      {
+        "scene": "multiples-four",
+        "phrase": "four eight twelve sixteen",
+        "provider_start": 16.091,
+        "independent_acoustic_start": 16.06,
+        "delta": -0.03100000000000236
+      },
+      {
+        "scene": "multiples-six",
+        "phrase": "six twelve eighteen",
+        "provider_start": 19.480999999999998,
+        "independent_acoustic_start": 19.42,
+        "delta": -0.06099999999999639
+      },
+      {
+        "scene": "multiples-six",
+        "phrase": "six twelve eighteen",
+        "provider_start": 20.026999999999997,
+        "independent_acoustic_start": 20.06,
+        "delta": 0.03300000000000125
+      },
+      {
+        "scene": "multiples-six",
+        "phrase": "six twelve eighteen",
+        "provider_start": 20.584,
+        "independent_acoustic_start": 20.64,
+        "delta": 0.05600000000000094
+      },
+      {
+        "scene": "shared",
+        "phrase": "Twelve is the first",
+        "provider_start": 22.220999999999997,
+        "independent_acoustic_start": 22.28,
+        "delta": 0.059000000000004604
+      },
+      {
+        "scene": "quarters",
+        "phrase": "One quarter equals three twelfths",
+        "provider_start": 47.461,
+        "independent_acoustic_start": 47.49,
+        "delta": 0.029000000000003467
+      },
+      {
+        "scene": "sixths",
+        "phrase": "One sixth equals two twelfths",
+        "provider_start": 61.645999999999994,
+        "independent_acoustic_start": 61.68,
+        "delta": 0.034000000000006025
+      },
+      {
+        "scene": "add",
+        "phrase": "That makes five twelfths",
+        "provider_start": 69.447,
+        "independent_acoustic_start": 69.4,
+        "delta": -0.046999999999997044
+      }
+    ],
+    "mathematical_anchor_max_delta_seconds": 0.06099999999999639,
+    "note": "Independent acoustic diagnostics; provider word timestamps remain authoritative. Human listening approval pending."
+  },
+  "LCM_regression_tests": "9 PASS",
+  "existing_site_browser_regression": "74 PASS; Firebase isolated; unchanged application files",
+  "protected_generator_regression": "PASS; 45000 generated positions"
+}

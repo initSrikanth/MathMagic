@@ -1,0 +1,86 @@
+{
+  "method": "Independent offline PocketSphinx constrained acoustic alignment; diagnostic, not a listening certification",
+  "normalised_acoustic_words": 198,
+  "overall_max_start_delta_seconds": 0.3569999999999851,
+  "mathematical_reveal_anchors": [
+    {
+      "scene": "multiples-four",
+      "phrase": "four eight twelve sixteen",
+      "provider_start": 14.408,
+      "independent_acoustic_start": 14.35,
+      "delta": -0.05799999999999983
+    },
+    {
+      "scene": "multiples-four",
+      "phrase": "four eight twelve sixteen",
+      "provider_start": 15.012,
+      "independent_acoustic_start": 15.06,
+      "delta": 0.04800000000000004
+    },
+    {
+      "scene": "multiples-four",
+      "phrase": "four eight twelve sixteen",
+      "provider_start": 15.348,
+      "independent_acoustic_start": 15.39,
+      "delta": 0.041999999999999815
+    },
+    {
+      "scene": "multiples-four",
+      "phrase": "four eight twelve sixteen",
+      "provider_start": 16.091,
+      "independent_acoustic_start": 16.06,
+      "delta": -0.03100000000000236
+    },
+    {
+      "scene": "multiples-six",
+      "phrase": "six twelve eighteen",
+      "provider_start": 19.480999999999998,
+      "independent_acoustic_start": 19.42,
+      "delta": -0.06099999999999639
+    },
+    {
+      "scene": "multiples-six",
+      "phrase": "six twelve eighteen",
+      "provider_start": 20.026999999999997,
+      "independent_acoustic_start": 20.06,
+      "delta": 0.03300000000000125
+    },
+    {
+      "scene": "multiples-six",
+      "phrase": "six twelve eighteen",
+      "provider_start": 20.584,
+      "independent_acoustic_start": 20.64,
+      "delta": 0.05600000000000094
+    },
+    {
+      "scene": "shared",
+      "phrase": "Twelve is the first",
+      "provider_start": 22.220999999999997,
+      "independent_acoustic_start": 22.28,
+      "delta": 0.059000000000004604
+    },
+    {
+      "scene": "quarters",
+      "phrase": "One quarter equals three twelfths",
+      "provider_start": 47.461,
+      "independent_acoustic_start": 47.49,
+      "delta": 0.029000000000003467
+    },
+    {
+      "scene": "sixths",
+      "phrase": "One sixth equals two twelfths",
+      "provider_start": 61.645999999999994,
+      "independent_acoustic_start": 61.68,
+      "delta": 0.034000000000006025
+    },
+    {
+      "scene": "add",
+      "phrase": "That makes five twelfths",
+      "provider_start": 69.447,
+      "independent_acoustic_start": 69.4,
+      "delta": -0.046999999999997044
+    }
+  ],
+  "mathematical_anchor_max_delta_seconds": 0.06099999999999639,
+  "note": "Independent acoustic diagnostics; provider word timestamps remain authoritative. Human listening approval pending."
+}

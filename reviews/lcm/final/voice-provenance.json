@@ -1,0 +1,26 @@
+{
+  "provider": "HeyGen",
+  "verified_clone_name": "Srikanth sogathur",
+  "verified_voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+  "approved_voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+  "engine": "elevenlabs",
+  "request_id": "5wHM1c4XHiNJkTuKRq9D",
+  "request_parameters": {
+    "voiceId": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "engine": "omitted to retain saved default",
+    "speed": "omitted to retain saved default",
+    "settings": "omitted to retain saved defaults"
+  },
+  "returned_regeneration_parameters": {
+    "engine": "elevenlabs",
+    "speed": 1
+  },
+  "speech_requests_submitted": 1,
+  "credits_spent": "4-credit observed balance difference; no per-request billing receipt exposed",
+  "publication_allowed": false,
+  "audio_sha256": "e841c7b0e1a52985b3eefc184520e3892895020b00bb971afbb7cafb33490d7f",
+  "returned_container_note": "Service URL and widget label say WAV; FFprobe detects native 256 kbps MP3, 44.1 kHz mono. Original returned bytes preserved with correct .mp3 extension.",
+  "last_preceding_observed_balance": 428,
+  "balance_after": 424,
+  "observed_credit_difference": 4
+}
