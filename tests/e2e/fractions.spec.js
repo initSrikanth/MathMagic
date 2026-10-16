@@ -29,7 +29,8 @@ test('five original MathMagic explainers retain approved MP4 or Scrimba players 
   ];
   for (const [screen, src] of mp4s) {
     await page.locator('[data-screen="'+screen+'"]').click();
-    const video = page.locator('#'+screen+' video');
+    const card = page.locator('#'+screen+' .video-resource').filter({has:page.locator('source[src="'+src+'"]')});
+    const video = card.locator('video');
     await expect(video).toHaveCount(1);
     await expect(page.locator('#'+screen+' iframe')).toHaveCount(0);
     await expect(video).toHaveAttribute('controls','');
@@ -42,7 +43,7 @@ test('five original MathMagic explainers retain approved MP4 or Scrimba players 
     const fallbackSrc = screen === 'equivalent'
       ? 'https://github.com/initSrikanth/MathMagic/raw/refs/heads/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'
       : src;
-    await expect(page.locator('#'+screen+' .video-frame + a')).toHaveAttribute('href',fallbackSrc);
+    await expect(card.locator('.video-frame + a')).toHaveAttribute('href',fallbackSrc);
   }
   const expected = [
     ['problems','guide0qcibakhr','klaes8bm913i2o8c']

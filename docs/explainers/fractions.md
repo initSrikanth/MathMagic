@@ -39,3 +39,17 @@ The Mixed Numbers section now uses the supplied `MathMagic_Mixed_Numbers_CAREFUL
 This approved replacement supersedes the historical Scrimba player/QA description above for Mixed Numbers only. Its HTML5 player has native controls, inline playback, metadata-only preload, responsive 16:9 containment, an accessible name and a direct MP4 fallback link. Other lesson content and players are unchanged by this publication. Do not regenerate this approved video.
 
 Coverage retains at least 14 resources across the six modules and an original explainer in every one of the five Fractions lessons, counting approved MP4 replacements alongside supported embeds. The static audit pins the Mixed Numbers bytes; browser QA checks metadata, actual playback, seeking/end and desktop/mobile containment. See [the scoped publication audit](../mixed-numbers-video-publication.md) for observed checks and production limitations.
+
+
+## Approved LCM extension publication
+
+The approved graphics-only “Finding the Lowest Common Multiple (LCM)” explainer is an additional player immediately after the approved Adding & Subtracting Fractions player, under “Extension: Finding the Lowest Common Multiple (LCM)”. The five original lesson explainers remain in place. Formal LCM is useful extension material; the Year 5 assessed related-denominator scope is unchanged.
+
+- Asset: `videos/MathMagic_Finding_LCM_FINAL_1080p.mp4`, copied byte-for-byte from review commit `9ec0be51671a738ae964130a9c56adbc384433d9`.
+- Size: 3,111,284 bytes; SHA-256: `374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00`.
+- Format: 1920×1080, 30 fps, 87.666667 seconds, H.264/yuv420p, AAC, faststart.
+- Accessibility: 27 final word-timed English caption cues and the matching complete narration transcript, available inline and in `videos/MathMagic_Finding_LCM_Transcript.txt`.
+- Provenance: user-approved final mathematical animation and original HeyGen cloned narration. No synthesis, re-encoding, pitch/speed change, added silence, avatar generation or credit expenditure during publication.
+- Release gates: immutable-byte checks, complete decode, exact fraction arithmetic, native playback/seeking/end, captions/transcript, keyboard focus and desktop/tablet/mobile containment; full architecture/generator and browser regressions. CI isolates Firebase and cannot certify live Firebase services or real Safari/iOS.
+
+The canonical continuous-narration production and integration workflow already covers this publication; no new `AGENTS.md` rule is needed.
