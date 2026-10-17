@@ -1,0 +1,38 @@
+{
+  "lesson": "lesson1",
+  "title": "Understanding Place Value",
+  "status": "PASS",
+  "filename": "MathMagic_Understanding_Place_Value_1080p.mp4",
+  "bytes": 14302169,
+  "sha256": "9925a8688266d8913cfb04119b40af77410c8f64a3d6a6095df18b1673a0b8c2",
+  "duration": 82.56,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25.0,
+  "full_decode": "PASS",
+  "faststart": "PASS",
+  "mathematics": "PASS: every worked numerical relationship and number-line partition checked exactly",
+  "audio": {
+    "zero_lag_correlation": 1.0,
+    "clipped_samples": 0,
+    "source_samples": 3640971,
+    "final_samples": 3640971,
+    "time_stretch": false,
+    "artificial_silence": false,
+    "decoded_audio_identical": true
+  },
+  "alignment": "PocketSphinx 5.0.4 two-pass acoustic alignment",
+  "complete_script_match": true,
+  "events_quantised_within_one_frame": true,
+  "minimum_event_persistence_seconds": 3.83,
+  "caption_cues": 29,
+  "transcript_match": true,
+  "teacher": {
+    "status": "PASS",
+    "sampled_teacher_frames": 83,
+    "max_pixel_mae": 0.7722826558971687,
+    "source_photo_fully_retained": true,
+    "teacher_scale_uniform": true,
+    "no_new_teacher_holds": "Frame correspondence to continuously advancing source verified each second; renderer has no temporal filters"
+  }
+}
