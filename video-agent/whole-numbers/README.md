@@ -4,7 +4,7 @@ Resume from `manifest.json`; never repeat a dispatched paid request. Exact scrip
 
 ## Reproducible offline pipeline
 
-1. Retain the downloaded original binaries in `sources/` (ignored by Git). Source hashes and provider job/request IDs are recorded in the manifest; these identify the originals without committing signed media URLs. Provider word clocks are retained for graphics-only lessons, and acoustic word clocks plus original provider subtitles for the avatar lessons.
+1. Retain the downloaded original binaries in `sources/` and Git so recovery never depends on another generation. Source hashes and provider job/request IDs are recorded in the manifest; these identify the originals without committing signed media URLs. Provider word clocks are retained for graphics-only lessons, and acoustic word clocks plus original provider subtitles for the avatar lessons.
 2. `python video-agent/whole-numbers/align.py` matches every script word and resolves every row reveal to actual audio. The aligner's analysis-only end context never enters an output audio file. The final missing word in lesson 3 is retained and cross-checked against the provider subtitle.
 3. `python video-agent/whole-numbers/captions.py` creates matching WebVTT and transcripts.
 4. `python video-agent/whole-numbers/render.py lessonN` renders a **local** composition, not a paid job. Native avatar frames/audio remain continuous; graphics-only audio is encoded to AAC without time filters. Output is written to a working file and atomically promoted only after FFmpeg succeeds. Never run two renders writing the same destination.
