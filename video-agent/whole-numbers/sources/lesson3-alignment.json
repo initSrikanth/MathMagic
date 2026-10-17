@@ -1,0 +1,1554 @@
+{
+  "lesson": "lesson3",
+  "method": "PocketSphinx 5.0.4 two-pass acoustic alignment",
+  "words": [
+    {
+      "word": "which",
+      "start": 0.2,
+      "end": 0.45
+    },
+    {
+      "word": "number",
+      "start": 0.45,
+      "end": 0.77
+    },
+    {
+      "word": "is",
+      "start": 0.77,
+      "end": 0.88
+    },
+    {
+      "word": "larger",
+      "start": 0.88,
+      "end": 1.33
+    },
+    {
+      "word": "when",
+      "start": 1.33,
+      "end": 1.6
+    },
+    {
+      "word": "most",
+      "start": 1.6,
+      "end": 1.87
+    },
+    {
+      "word": "of",
+      "start": 1.87,
+      "end": 1.95
+    },
+    {
+      "word": "the",
+      "start": 1.95,
+      "end": 2.03
+    },
+    {
+      "word": "digits",
+      "start": 2.03,
+      "end": 2.42
+    },
+    {
+      "word": "match",
+      "start": 2.42,
+      "end": 2.88
+    },
+    {
+      "word": "compare",
+      "start": 3.09,
+      "end": 3.47
+    },
+    {
+      "word": "from",
+      "start": 3.47,
+      "end": 3.7
+    },
+    {
+      "word": "the",
+      "start": 3.7,
+      "end": 3.77
+    },
+    {
+      "word": "greatest",
+      "start": 3.77,
+      "end": 4.18
+    },
+    {
+      "word": "place",
+      "start": 4.18,
+      "end": 4.46
+    },
+    {
+      "word": "value",
+      "start": 4.46,
+      "end": 4.95
+    },
+    {
+      "word": "not",
+      "start": 5.21,
+      "end": 5.4
+    },
+    {
+      "word": "from",
+      "start": 5.4,
+      "end": 5.6
+    },
+    {
+      "word": "the",
+      "start": 5.6,
+      "end": 5.68
+    },
+    {
+      "word": "right",
+      "start": 5.68,
+      "end": 6.06
+    },
+    {
+      "word": "for",
+      "start": 6.35,
+      "end": 6.5
+    },
+    {
+      "word": "whole",
+      "start": 6.5,
+      "end": 6.75
+    },
+    {
+      "word": "numbers",
+      "start": 6.75,
+      "end": 7.13
+    },
+    {
+      "word": "with",
+      "start": 7.13,
+      "end": 7.3
+    },
+    {
+      "word": "no",
+      "start": 7.3,
+      "end": 7.49
+    },
+    {
+      "word": "leading",
+      "start": 7.49,
+      "end": 7.81
+    },
+    {
+      "word": "zeros",
+      "start": 7.81,
+      "end": 8.37
+    },
+    {
+      "word": "more",
+      "start": 8.67,
+      "end": 8.88
+    },
+    {
+      "word": "digits",
+      "start": 8.88,
+      "end": 9.42
+    },
+    {
+      "word": "means",
+      "start": 9.42,
+      "end": 9.84
+    },
+    {
+      "word": "a",
+      "start": 9.84,
+      "end": 9.87
+    },
+    {
+      "word": "larger",
+      "start": 9.87,
+      "end": 10.31
+    },
+    {
+      "word": "number",
+      "start": 10.31,
+      "end": 10.71
+    },
+    {
+      "word": "if",
+      "start": 10.95,
+      "end": 11.11
+    },
+    {
+      "word": "the",
+      "start": 11.11,
+      "end": 11.21
+    },
+    {
+      "word": "lengths",
+      "start": 11.21,
+      "end": 11.59
+    },
+    {
+      "word": "match",
+      "start": 11.59,
+      "end": 12.23
+    },
+    {
+      "word": "compare",
+      "start": 12.23,
+      "end": 12.61
+    },
+    {
+      "word": "one",
+      "start": 12.61,
+      "end": 12.9
+    },
+    {
+      "word": "column",
+      "start": 12.9,
+      "end": 13.27
+    },
+    {
+      "word": "at",
+      "start": 13.27,
+      "end": 13.33
+    },
+    {
+      "word": "a",
+      "start": 13.33,
+      "end": 13.36
+    },
+    {
+      "word": "time",
+      "start": 13.36,
+      "end": 13.76
+    },
+    {
+      "word": "compare",
+      "start": 14.08,
+      "end": 14.44
+    },
+    {
+      "word": "four",
+      "start": 14.44,
+      "end": 14.72
+    },
+    {
+      "word": "hundred",
+      "start": 14.72,
+      "end": 15.02
+    },
+    {
+      "word": "and",
+      "start": 15.02,
+      "end": 15.11
+    },
+    {
+      "word": "fifty",
+      "start": 15.11,
+      "end": 15.42
+    },
+    {
+      "word": "six",
+      "start": 15.42,
+      "end": 15.71
+    },
+    {
+      "word": "thousand",
+      "start": 15.71,
+      "end": 16.41
+    },
+    {
+      "word": "seven",
+      "start": 16.41,
+      "end": 16.76
+    },
+    {
+      "word": "hundred",
+      "start": 16.76,
+      "end": 17.05
+    },
+    {
+      "word": "and",
+      "start": 17.05,
+      "end": 17.14
+    },
+    {
+      "word": "eighty",
+      "start": 17.14,
+      "end": 17.39
+    },
+    {
+      "word": "two",
+      "start": 17.39,
+      "end": 17.87
+    },
+    {
+      "word": "with",
+      "start": 18.18,
+      "end": 18.33
+    },
+    {
+      "word": "four",
+      "start": 18.33,
+      "end": 18.62
+    },
+    {
+      "word": "hundred",
+      "start": 18.62,
+      "end": 18.93
+    },
+    {
+      "word": "and",
+      "start": 18.93,
+      "end": 19.03
+    },
+    {
+      "word": "fifty",
+      "start": 19.03,
+      "end": 19.34
+    },
+    {
+      "word": "six",
+      "start": 19.34,
+      "end": 19.62
+    },
+    {
+      "word": "thousand",
+      "start": 19.62,
+      "end": 20.37
+    },
+    {
+      "word": "seven",
+      "start": 20.37,
+      "end": 20.73
+    },
+    {
+      "word": "hundred",
+      "start": 20.73,
+      "end": 21.09
+    },
+    {
+      "word": "and",
+      "start": 21.09,
+      "end": 21.23
+    },
+    {
+      "word": "twenty",
+      "start": 21.23,
+      "end": 21.6
+    },
+    {
+      "word": "eight",
+      "start": 21.6,
+      "end": 21.97
+    },
+    {
+      "word": "their",
+      "start": 22.71,
+      "end": 22.87
+    },
+    {
+      "word": "hundred",
+      "start": 22.87,
+      "end": 23.21
+    },
+    {
+      "word": "thousands",
+      "start": 23.21,
+      "end": 24.1
+    },
+    {
+      "word": "ten",
+      "start": 24.1,
+      "end": 24.35
+    },
+    {
+      "word": "thousands",
+      "start": 24.35,
+      "end": 24.99
+    },
+    {
+      "word": "thousands",
+      "start": 25.19,
+      "end": 25.71
+    },
+    {
+      "word": "and",
+      "start": 25.71,
+      "end": 25.81
+    },
+    {
+      "word": "hundreds",
+      "start": 25.81,
+      "end": 26.17
+    },
+    {
+      "word": "match",
+      "start": 26.17,
+      "end": 26.55
+    },
+    {
+      "word": "we",
+      "start": 26.93,
+      "end": 27.05
+    },
+    {
+      "word": "have",
+      "start": 27.05,
+      "end": 27.21
+    },
+    {
+      "word": "not",
+      "start": 27.21,
+      "end": 27.43
+    },
+    {
+      "word": "found",
+      "start": 27.43,
+      "end": 27.71
+    },
+    {
+      "word": "a",
+      "start": 27.71,
+      "end": 27.77
+    },
+    {
+      "word": "difference",
+      "start": 27.77,
+      "end": 28.17
+    },
+    {
+      "word": "yet",
+      "start": 28.17,
+      "end": 28.75
+    },
+    {
+      "word": "so",
+      "start": 28.75,
+      "end": 28.97
+    },
+    {
+      "word": "keep",
+      "start": 28.97,
+      "end": 29.3
+    },
+    {
+      "word": "moving",
+      "start": 29.3,
+      "end": 29.67
+    },
+    {
+      "word": "right",
+      "start": 29.67,
+      "end": 30.21
+    },
+    {
+      "word": "at",
+      "start": 30.21,
+      "end": 30.38
+    },
+    {
+      "word": "the",
+      "start": 30.38,
+      "end": 30.45
+    },
+    {
+      "word": "tens",
+      "start": 30.45,
+      "end": 30.78
+    },
+    {
+      "word": "place",
+      "start": 30.78,
+      "end": 31.35
+    },
+    {
+      "word": "eight",
+      "start": 31.35,
+      "end": 31.52
+    },
+    {
+      "word": "is",
+      "start": 31.52,
+      "end": 31.68
+    },
+    {
+      "word": "greater",
+      "start": 31.68,
+      "end": 31.95
+    },
+    {
+      "word": "than",
+      "start": 31.95,
+      "end": 32.14
+    },
+    {
+      "word": "two",
+      "start": 32.14,
+      "end": 32.49
+    },
+    {
+      "word": "stop",
+      "start": 32.49,
+      "end": 32.94
+    },
+    {
+      "word": "there",
+      "start": 32.94,
+      "end": 33.29
+    },
+    {
+      "word": "the",
+      "start": 33.72,
+      "end": 33.81
+    },
+    {
+      "word": "first",
+      "start": 33.81,
+      "end": 34.17
+    },
+    {
+      "word": "number",
+      "start": 34.17,
+      "end": 34.43
+    },
+    {
+      "word": "is",
+      "start": 34.43,
+      "end": 34.53
+    },
+    {
+      "word": "greater",
+      "start": 34.53,
+      "end": 34.94
+    },
+    {
+      "word": "so",
+      "start": 35.16,
+      "end": 35.34
+    },
+    {
+      "word": "four",
+      "start": 35.34,
+      "end": 35.6
+    },
+    {
+      "word": "hundred",
+      "start": 35.6,
+      "end": 35.86
+    },
+    {
+      "word": "and",
+      "start": 35.86,
+      "end": 35.96
+    },
+    {
+      "word": "fifty",
+      "start": 35.96,
+      "end": 36.25
+    },
+    {
+      "word": "six",
+      "start": 36.25,
+      "end": 36.51
+    },
+    {
+      "word": "thousand",
+      "start": 36.51,
+      "end": 37.0
+    },
+    {
+      "word": "seven",
+      "start": 37.0,
+      "end": 37.32
+    },
+    {
+      "word": "hundred",
+      "start": 37.32,
+      "end": 37.57
+    },
+    {
+      "word": "and",
+      "start": 37.57,
+      "end": 37.68
+    },
+    {
+      "word": "eighty",
+      "start": 37.68,
+      "end": 37.93
+    },
+    {
+      "word": "two",
+      "start": 37.93,
+      "end": 38.29
+    },
+    {
+      "word": "is",
+      "start": 38.55,
+      "end": 38.73
+    },
+    {
+      "word": "greater",
+      "start": 38.73,
+      "end": 39.06
+    },
+    {
+      "word": "than",
+      "start": 39.06,
+      "end": 39.22
+    },
+    {
+      "word": "four",
+      "start": 39.22,
+      "end": 39.48
+    },
+    {
+      "word": "hundred",
+      "start": 39.48,
+      "end": 39.75
+    },
+    {
+      "word": "and",
+      "start": 39.75,
+      "end": 39.86
+    },
+    {
+      "word": "fifty",
+      "start": 39.86,
+      "end": 40.15
+    },
+    {
+      "word": "six",
+      "start": 40.15,
+      "end": 40.41
+    },
+    {
+      "word": "thousand",
+      "start": 40.41,
+      "end": 40.89
+    },
+    {
+      "word": "seven",
+      "start": 40.89,
+      "end": 41.21
+    },
+    {
+      "word": "hundred",
+      "start": 41.21,
+      "end": 41.52
+    },
+    {
+      "word": "and",
+      "start": 41.52,
+      "end": 41.61
+    },
+    {
+      "word": "twenty",
+      "start": 41.61,
+      "end": 41.93
+    },
+    {
+      "word": "eight",
+      "start": 41.93,
+      "end": 42.27
+    },
+    {
+      "word": "the",
+      "start": 43.11,
+      "end": 43.19
+    },
+    {
+      "word": "ones",
+      "start": 43.19,
+      "end": 43.54
+    },
+    {
+      "word": "cannot",
+      "start": 43.54,
+      "end": 43.87
+    },
+    {
+      "word": "overturn",
+      "start": 43.87,
+      "end": 44.33
+    },
+    {
+      "word": "that",
+      "start": 44.33,
+      "end": 44.47
+    },
+    {
+      "word": "difference",
+      "start": 44.47,
+      "end": 45.05
+    },
+    {
+      "word": "now",
+      "start": 45.35,
+      "end": 45.52
+    },
+    {
+      "word": "compare",
+      "start": 45.52,
+      "end": 45.99
+    },
+    {
+      "word": "three",
+      "start": 45.99,
+      "end": 46.33
+    },
+    {
+      "word": "hundred",
+      "start": 46.33,
+      "end": 46.61
+    },
+    {
+      "word": "and",
+      "start": 46.61,
+      "end": 46.73
+    },
+    {
+      "word": "nine",
+      "start": 46.73,
+      "end": 46.99
+    },
+    {
+      "word": "thousand",
+      "start": 46.99,
+      "end": 47.55
+    },
+    {
+      "word": "nine",
+      "start": 47.91,
+      "end": 48.19
+    },
+    {
+      "word": "hundred",
+      "start": 48.19,
+      "end": 48.53
+    },
+    {
+      "word": "and",
+      "start": 48.53,
+      "end": 48.66
+    },
+    {
+      "word": "fifty",
+      "start": 48.66,
+      "end": 49.26
+    },
+    {
+      "word": "with",
+      "start": 49.58,
+      "end": 49.75
+    },
+    {
+      "word": "three",
+      "start": 49.75,
+      "end": 49.95
+    },
+    {
+      "word": "hundred",
+      "start": 49.95,
+      "end": 50.25
+    },
+    {
+      "word": "and",
+      "start": 50.25,
+      "end": 50.4
+    },
+    {
+      "word": "ten",
+      "start": 50.4,
+      "end": 50.62
+    },
+    {
+      "word": "thousand",
+      "start": 50.62,
+      "end": 51.06
+    },
+    {
+      "word": "and",
+      "start": 51.06,
+      "end": 51.21
+    },
+    {
+      "word": "five",
+      "start": 51.21,
+      "end": 51.75
+    },
+    {
+      "word": "the",
+      "start": 52.03,
+      "end": 52.12
+    },
+    {
+      "word": "hundred",
+      "start": 52.12,
+      "end": 52.44
+    },
+    {
+      "word": "thousands",
+      "start": 52.44,
+      "end": 52.92
+    },
+    {
+      "word": "match",
+      "start": 52.92,
+      "end": 53.34
+    },
+    {
+      "word": "at",
+      "start": 53.84,
+      "end": 54.05
+    },
+    {
+      "word": "ten",
+      "start": 54.05,
+      "end": 54.31
+    },
+    {
+      "word": "thousands",
+      "start": 54.31,
+      "end": 54.81
+    },
+    {
+      "word": "zero",
+      "start": 54.81,
+      "end": 55.23
+    },
+    {
+      "word": "is",
+      "start": 55.23,
+      "end": 55.42
+    },
+    {
+      "word": "less",
+      "start": 55.42,
+      "end": 55.8
+    },
+    {
+      "word": "than",
+      "start": 55.8,
+      "end": 55.98
+    },
+    {
+      "word": "one",
+      "start": 55.98,
+      "end": 56.41
+    },
+    {
+      "word": "therefore",
+      "start": 56.7,
+      "end": 57.17
+    },
+    {
+      "word": "three",
+      "start": 57.17,
+      "end": 57.43
+    },
+    {
+      "word": "hundred",
+      "start": 57.43,
+      "end": 57.73
+    },
+    {
+      "word": "and",
+      "start": 57.73,
+      "end": 57.86
+    },
+    {
+      "word": "nine",
+      "start": 57.86,
+      "end": 58.12
+    },
+    {
+      "word": "thousand",
+      "start": 58.12,
+      "end": 58.66
+    },
+    {
+      "word": "nine",
+      "start": 58.97,
+      "end": 59.21
+    },
+    {
+      "word": "hundred",
+      "start": 59.21,
+      "end": 59.52
+    },
+    {
+      "word": "and",
+      "start": 59.52,
+      "end": 59.64
+    },
+    {
+      "word": "fifty",
+      "start": 59.64,
+      "end": 60.17
+    },
+    {
+      "word": "is",
+      "start": 60.17,
+      "end": 60.28
+    },
+    {
+      "word": "smaller",
+      "start": 60.28,
+      "end": 60.82
+    },
+    {
+      "word": "to",
+      "start": 61.24,
+      "end": 61.38
+    },
+    {
+      "word": "order",
+      "start": 61.38,
+      "end": 61.72
+    },
+    {
+      "word": "several",
+      "start": 61.72,
+      "end": 62.19
+    },
+    {
+      "word": "numbers",
+      "start": 62.19,
+      "end": 62.74
+    },
+    {
+      "word": "repeat",
+      "start": 62.94,
+      "end": 63.37
+    },
+    {
+      "word": "the",
+      "start": 63.37,
+      "end": 63.45
+    },
+    {
+      "word": "same",
+      "start": 63.45,
+      "end": 63.77
+    },
+    {
+      "word": "method",
+      "start": 63.77,
+      "end": 64.21
+    },
+    {
+      "word": "eighty",
+      "start": 64.53,
+      "end": 64.78
+    },
+    {
+      "word": "nine",
+      "start": 64.78,
+      "end": 65.01
+    },
+    {
+      "word": "thousand",
+      "start": 65.01,
+      "end": 65.55
+    },
+    {
+      "word": "nine",
+      "start": 65.55,
+      "end": 65.76
+    },
+    {
+      "word": "hundred",
+      "start": 65.76,
+      "end": 66.02
+    },
+    {
+      "word": "and",
+      "start": 66.02,
+      "end": 66.11
+    },
+    {
+      "word": "ninety",
+      "start": 66.11,
+      "end": 66.35
+    },
+    {
+      "word": "nine",
+      "start": 66.35,
+      "end": 66.59
+    },
+    {
+      "word": "comes",
+      "start": 66.59,
+      "end": 66.86
+    },
+    {
+      "word": "before",
+      "start": 66.86,
+      "end": 67.18
+    },
+    {
+      "word": "ninety",
+      "start": 67.18,
+      "end": 67.51
+    },
+    {
+      "word": "thousand",
+      "start": 67.51,
+      "end": 67.89
+    },
+    {
+      "word": "and",
+      "start": 67.89,
+      "end": 68.01
+    },
+    {
+      "word": "one",
+      "start": 68.01,
+      "end": 68.57
+    },
+    {
+      "word": "which",
+      "start": 68.57,
+      "end": 68.75
+    },
+    {
+      "word": "comes",
+      "start": 68.75,
+      "end": 69.01
+    },
+    {
+      "word": "before",
+      "start": 69.01,
+      "end": 69.35
+    },
+    {
+      "word": "ninety",
+      "start": 69.35,
+      "end": 69.71
+    },
+    {
+      "word": "thousand",
+      "start": 69.71,
+      "end": 70.11
+    },
+    {
+      "word": "and",
+      "start": 70.11,
+      "end": 70.25
+    },
+    {
+      "word": "ten",
+      "start": 70.25,
+      "end": 70.56
+    },
+    {
+      "word": "do",
+      "start": 70.9,
+      "end": 71.09
+    },
+    {
+      "word": "not",
+      "start": 71.09,
+      "end": 71.3
+    },
+    {
+      "word": "compare",
+      "start": 71.3,
+      "end": 71.86
+    },
+    {
+      "word": "only",
+      "start": 71.86,
+      "end": 72.11
+    },
+    {
+      "word": "the",
+      "start": 72.11,
+      "end": 72.23
+    },
+    {
+      "word": "final",
+      "start": 72.23,
+      "end": 72.67
+    },
+    {
+      "word": "three",
+      "start": 72.67,
+      "end": 72.92
+    },
+    {
+      "word": "digits",
+      "start": 72.92,
+      "end": 73.53
+    },
+    {
+      "word": "the",
+      "start": 73.89,
+      "end": 74.01
+    },
+    {
+      "word": "greatest",
+      "start": 74.01,
+      "end": 74.42
+    },
+    {
+      "word": "differing",
+      "start": 74.42,
+      "end": 74.78
+    },
+    {
+      "word": "place",
+      "start": 74.78,
+      "end": 75.18
+    },
+    {
+      "word": "decides",
+      "start": 75.18,
+      "end": 75.93
+    },
+    {
+      "word": "as",
+      "start": 76.18,
+      "end": 76.33
+    },
+    {
+      "word": "a",
+      "start": 76.33,
+      "end": 76.39
+    },
+    {
+      "word": "supporting",
+      "start": 76.39,
+      "end": 76.91
+    },
+    {
+      "word": "estimation",
+      "start": 76.91,
+      "end": 77.51
+    },
+    {
+      "word": "check",
+      "start": 77.51,
+      "end": 77.89
+    },
+    {
+      "word": "rounding",
+      "start": 78.19,
+      "end": 78.64
+    },
+    {
+      "word": "eighty",
+      "start": 78.64,
+      "end": 78.86
+    },
+    {
+      "word": "nine",
+      "start": 78.86,
+      "end": 79.09
+    },
+    {
+      "word": "thousand",
+      "start": 79.09,
+      "end": 79.54
+    },
+    {
+      "word": "nine",
+      "start": 79.54,
+      "end": 79.77
+    },
+    {
+      "word": "hundred",
+      "start": 79.77,
+      "end": 80.03
+    },
+    {
+      "word": "and",
+      "start": 80.03,
+      "end": 80.12
+    },
+    {
+      "word": "ninety",
+      "start": 80.12,
+      "end": 80.35
+    },
+    {
+      "word": "nine",
+      "start": 80.35,
+      "end": 80.64
+    },
+    {
+      "word": "to",
+      "start": 80.64,
+      "end": 80.75
+    },
+    {
+      "word": "the",
+      "start": 80.75,
+      "end": 80.82
+    },
+    {
+      "word": "nearest",
+      "start": 80.82,
+      "end": 81.19
+    },
+    {
+      "word": "thousand",
+      "start": 81.19,
+      "end": 81.66
+    },
+    {
+      "word": "gives",
+      "start": 81.66,
+      "end": 81.91
+    },
+    {
+      "word": "ninety",
+      "start": 81.91,
+      "end": 82.25
+    },
+    {
+      "word": "thousand",
+      "start": 82.25,
+      "end": 82.76
+    },
+    {
+      "word": "a",
+      "start": 83.22,
+      "end": 83.28
+    },
+    {
+      "word": "rounded",
+      "start": 83.28,
+      "end": 83.73
+    },
+    {
+      "word": "value",
+      "start": 83.73,
+      "end": 84.09
+    },
+    {
+      "word": "is",
+      "start": 84.09,
+      "end": 84.22
+    },
+    {
+      "word": "useful",
+      "start": 84.22,
+      "end": 84.66
+    },
+    {
+      "word": "but",
+      "start": 84.66,
+      "end": 84.93
+    },
+    {
+      "word": "it",
+      "start": 84.93,
+      "end": 85.01
+    },
+    {
+      "word": "does",
+      "start": 85.01,
+      "end": 85.21
+    },
+    {
+      "word": "not",
+      "start": 85.21,
+      "end": 85.43
+    },
+    {
+      "word": "replace",
+      "start": 85.43,
+      "end": 85.8
+    },
+    {
+      "word": "an",
+      "start": 85.8,
+      "end": 85.88
+    },
+    {
+      "word": "exact",
+      "start": 85.88,
+      "end": 86.17
+    },
+    {
+      "word": "comparison",
+      "start": 86.17,
+      "end": 86.99
+    },
+    {
+      "word": "recap",
+      "start": 87.33,
+      "end": 87.93
+    },
+    {
+      "word": "line",
+      "start": 88.2,
+      "end": 88.44
+    },
+    {
+      "word": "up",
+      "start": 88.44,
+      "end": 88.58
+    },
+    {
+      "word": "the",
+      "start": 88.58,
+      "end": 88.67
+    },
+    {
+      "word": "places",
+      "start": 88.67,
+      "end": 89.41
+    },
+    {
+      "word": "start",
+      "start": 89.41,
+      "end": 89.84
+    },
+    {
+      "word": "left",
+      "start": 89.84,
+      "end": 90.41
+    },
+    {
+      "word": "find",
+      "start": 90.41,
+      "end": 90.73
+    },
+    {
+      "word": "the",
+      "start": 90.73,
+      "end": 90.79
+    },
+    {
+      "word": "first",
+      "start": 90.79,
+      "end": 91.1
+    },
+    {
+      "word": "difference",
+      "start": 91.1,
+      "end": 91.62
+    },
+    {
+      "word": "and",
+      "start": 91.92,
+      "end": 92.05
+    },
+    {
+      "word": "explain",
+      "start": 92.05,
+      "end": 92.49
+    },
+    {
+      "word": "your",
+      "start": 92.49,
+      "end": 92.73
+    },
+    {
+      "word": "order",
+      "start": 92.73,
+      "end": 93.01
+    }
+  ],
+  "boards": [
+    {
+      "narration": "Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+      "heading": "Start with the greatest place",
+      "rows": [
+        {
+          "cue": "more digits",
+          "text": "100,000 > 99,999"
+        },
+        {
+          "cue": "one column",
+          "text": "Compare from left to right \u2192"
+        }
+      ],
+      "model": null,
+      "start": 0.2,
+      "speech_end": 13.76,
+      "events": [
+        {
+          "cue": "more digits",
+          "text": "100,000 > 99,999",
+          "at": 8.67
+        },
+        {
+          "cue": "one column",
+          "text": "Compare from left to right \u2192",
+          "at": 12.61
+        }
+      ],
+      "end": 14.08
+    },
+    {
+      "narration": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+      "heading": "Line up the places",
+      "rows": [
+        {
+          "cue": "Compare",
+          "text": "456,782     456,728"
+        },
+        {
+          "cue": "Their hundred",
+          "text": "4 = 4    5 = 5    6 = 6    7 = 7"
+        }
+      ],
+      "model": null,
+      "start": 14.08,
+      "speech_end": 30.21,
+      "events": [
+        {
+          "cue": "Compare",
+          "text": "456,782     456,728",
+          "at": 14.08
+        },
+        {
+          "cue": "Their hundred",
+          "text": "4 = 4    5 = 5    6 = 6    7 = 7",
+          "at": 22.71
+        }
+      ],
+      "end": 30.21
+    },
+    {
+      "narration": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+      "heading": "First different place: tens",
+      "rows": [
+        {
+          "cue": "eight is",
+          "text": "80 > 20"
+        },
+        {
+          "cue": "The first number",
+          "text": "456,782 > 456,728"
+        }
+      ],
+      "model": null,
+      "start": 30.21,
+      "speech_end": 45.05,
+      "events": [
+        {
+          "cue": "eight is",
+          "text": "80 > 20",
+          "at": 31.35
+        },
+        {
+          "cue": "The first number",
+          "text": "456,782 > 456,728",
+          "at": 33.72
+        }
+      ],
+      "end": 45.35
+    },
+    {
+      "narration": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+      "heading": "Another comparison",
+      "rows": [
+        {
+          "cue": "Now compare",
+          "text": "309,950     310,005"
+        },
+        {
+          "cue": "zero is less",
+          "text": "0 ten-thousands < 1 ten-thousand"
+        },
+        {
+          "cue": "Therefore",
+          "text": "309,950 < 310,005"
+        }
+      ],
+      "model": null,
+      "start": 45.35,
+      "speech_end": 60.82,
+      "events": [
+        {
+          "cue": "Now compare",
+          "text": "309,950     310,005",
+          "at": 45.35
+        },
+        {
+          "cue": "zero is less",
+          "text": "0 ten-thousands < 1 ten-thousand",
+          "at": 54.81
+        },
+        {
+          "cue": "Therefore",
+          "text": "309,950 < 310,005",
+          "at": 56.7
+        }
+      ],
+      "end": 61.24
+    },
+    {
+      "narration": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+      "heading": "Order from smallest to largest",
+      "rows": [
+        {
+          "cue": "Eighty nine",
+          "text": "89,999 < 90,001 < 90,010"
+        },
+        {
+          "cue": "Do not",
+          "text": "Start left; stop at the first difference"
+        }
+      ],
+      "model": null,
+      "start": 61.24,
+      "speech_end": 75.93,
+      "events": [
+        {
+          "cue": "Eighty nine",
+          "text": "89,999 < 90,001 < 90,010",
+          "at": 64.53
+        },
+        {
+          "cue": "Do not",
+          "text": "Start left; stop at the first difference",
+          "at": 70.9
+        }
+      ],
+      "end": 76.18
+    },
+    {
+      "narration": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+      "heading": "Recap: compare exactly",
+      "rows": [
+        {
+          "cue": "rounding",
+          "text": "89,999 \u2248 90,000  (nearest 1,000)"
+        },
+        {
+          "cue": "A rounded",
+          "text": "Estimate \u2260 exact comparison"
+        },
+        {
+          "cue": "Recap",
+          "text": "Line up \u2192 start left \u2192 first difference"
+        }
+      ],
+      "model": null,
+      "start": 76.18,
+      "speech_end": 93.01,
+      "events": [
+        {
+          "cue": "rounding",
+          "text": "89,999 \u2248 90,000  (nearest 1,000)",
+          "at": 78.19
+        },
+        {
+          "cue": "A rounded",
+          "text": "Estimate \u2260 exact comparison",
+          "at": 83.22
+        },
+        {
+          "cue": "Recap",
+          "text": "Line up \u2192 start left \u2192 first difference",
+          "at": 87.33
+        }
+      ],
+      "end": 93.164
+    }
+  ],
+  "duration": 93.164,
+  "source": "/workspace/work/mathmagic-whole-videos/video-agent/whole-numbers/sources/lesson3-original.mp4",
+  "all_script_words_verified": true
+}

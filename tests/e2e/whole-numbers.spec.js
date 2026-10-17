@@ -7,7 +7,7 @@ test('external learning resources use privacy enhanced embeds and fallbacks',asy
   await openTopic(page);
   for(const id of ['lesson1','lesson4','lesson5']){
     await page.locator('[data-screen="'+id+'"]').click();
-    const card=page.locator('#'+id+' .video-resource');
+    const card=page.locator('#'+id+' .video-resource').filter({has:page.locator('iframe')});
     await expect(card).toBeVisible();
     const frame=card.locator('iframe');
     await expect(frame).toHaveAttribute('src',/^https:\/\/www\.youtube-nocookie\.com\/embed\//);

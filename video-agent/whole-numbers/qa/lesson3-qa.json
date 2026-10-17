@@ -1,0 +1,38 @@
+{
+  "lesson": "lesson3",
+  "title": "Comparing & Ordering Whole Numbers",
+  "status": "PASS",
+  "filename": "MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4",
+  "bytes": 17384561,
+  "sha256": "3f826efdda13c3e50b79cbe9b471007ba11554385fd32585f43535c6ec93dea0",
+  "duration": 93.164,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25.0,
+  "full_decode": "PASS",
+  "faststart": "PASS",
+  "mathematics": "PASS: every worked numerical relationship and number-line partition checked exactly",
+  "audio": {
+    "zero_lag_correlation": 1.0,
+    "clipped_samples": 0,
+    "source_samples": 4108549,
+    "final_samples": 4108549,
+    "time_stretch": false,
+    "artificial_silence": false,
+    "decoded_audio_identical": true
+  },
+  "alignment": "PocketSphinx 5.0.4 two-pass acoustic alignment",
+  "complete_script_match": true,
+  "events_quantised_within_one_frame": true,
+  "minimum_event_persistence_seconds": 3,
+  "caption_cues": 30,
+  "transcript_match": true,
+  "teacher": {
+    "status": "PASS",
+    "sampled_teacher_frames": 93,
+    "max_pixel_mae": 0.7522526923745007,
+    "source_photo_fully_retained": true,
+    "teacher_scale_uniform": true,
+    "no_new_teacher_holds": "Frame correspondence to continuously advancing source verified each second; renderer has no temporal filters"
+  }
+}

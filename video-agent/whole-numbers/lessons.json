@@ -1,0 +1,650 @@
+[
+  {
+    "id": "lesson1",
+    "slug": "Understanding_Place_Value",
+    "title": "Understanding Place Value",
+    "method": "avatar",
+    "scenes": [
+      {
+        "narration": "What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+        "heading": "One place changes the value",
+        "rows": [
+          {
+            "cue": "ten ones",
+            "text": "10 ones = 1 ten"
+          },
+          {
+            "cue": "ten tens",
+            "text": "10 tens = 1 hundred"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+        "heading": "Read the place, then the value",
+        "rows": [
+          {
+            "cue": "The seven",
+            "text": "7 \u00d7 10,000 = 70,000"
+          }
+        ],
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "narration": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+        "heading": "Every digit has a value",
+        "rows": [
+          {
+            "cue": "The two",
+            "text": "2,000 + 600 + 30 + 1"
+          },
+          {
+            "cue": "Reading",
+            "text": "472,631"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+        "heading": "Same digit, different places",
+        "rows": [
+          {
+            "cue": "The first",
+            "text": "50,000 and 5,000"
+          },
+          {
+            "cue": "Fifty thousand is",
+            "text": "50,000 = 10 \u00d7 5,000"
+          }
+        ],
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "narration": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+        "heading": "Ten times as much",
+        "rows": [
+          {
+            "cue": "Thirty four times",
+            "text": "34 \u00d7 10 = 340"
+          },
+          {
+            "cue": "Three hundred and forty divided",
+            "text": "340 \u00f7 10 = 34"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+        "heading": "Recap: place first, value second",
+        "rows": [
+          {
+            "cue": "The eight",
+            "text": "583,214 \u2192 8 means 80,000"
+          },
+          {
+            "cue": "Remember",
+            "text": "One place left: \u00d7 10"
+          }
+        ],
+        "model": null
+      }
+    ],
+    "number": 1,
+    "status": "PREPARED_NOT_GENERATED",
+    "avatar_id": "2e895abe1f515732737973186daa2e51",
+    "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "voice_settings": {
+      "pitch": 0,
+      "speed": 1,
+      "volume": 1
+    },
+    "engine": "avatar_iv",
+    "script_sha256": "c35a87fa67b4a59e05aac79ff3afe51b0a9eca5b5f323f804a295582f26dabeb",
+    "word_count": 240
+  },
+  {
+    "id": "lesson2",
+    "slug": "Expanded_Form",
+    "title": "Expanded Form & Representing Numbers",
+    "method": "speech",
+    "scenes": [
+      {
+        "narration": "How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+        "heading": "One quantity, several representations",
+        "rows": [
+          {
+            "cue": "four hundred",
+            "text": "406,275"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+        "heading": "Zero keeps the places organised",
+        "rows": [
+          {
+            "cue": "The four",
+            "text": "4 means 400,000"
+          },
+          {
+            "cue": "The six",
+            "text": "6 means 6,000"
+          }
+        ],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "narration": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+        "heading": "Build the expanded form",
+        "rows": [
+          {
+            "cue": "two hundred",
+            "text": "200 + 70 + 5"
+          },
+          {
+            "cue": "The expanded form",
+            "text": "406,275 ="
+          },
+          {
+            "cue": "four hundred thousand plus",
+            "text": "400,000 + 6,000 + 200 + 70 + 5"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+        "heading": "Connect the three forms",
+        "rows": [
+          {
+            "cue": "In words",
+            "text": "Four hundred and six thousand,"
+          },
+          {
+            "cue": "two hundred and seventy",
+            "text": "two hundred and seventy-five"
+          },
+          {
+            "cue": "The word form",
+            "text": "Words \u2194 406,275 \u2194 expanded form"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+        "heading": "Regroup without changing the amount",
+        "rows": [
+          {
+            "cue": "three thousands",
+            "text": "3,400 = 3 thousands + 4 hundreds"
+          },
+          {
+            "cue": "thirty four hundreds",
+            "text": "3,400 = 34 hundreds"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+        "heading": "Recap: represent the same value",
+        "rows": [
+          {
+            "cue": "combine",
+            "text": "600,000 + 20,000 + 4,000 + 300 + 8"
+          },
+          {
+            "cue": "That gives",
+            "text": "624,308"
+          },
+          {
+            "cue": "There are no tens",
+            "text": "Zero tens: keep the placeholder"
+          }
+        ],
+        "model": null
+      }
+    ],
+    "number": 2,
+    "status": "PREPARED_NOT_GENERATED",
+    "avatar_id": null,
+    "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "voice_settings": {
+      "pitch": 0,
+      "speed": 1,
+      "volume": 1
+    },
+    "engine": "saved speech default",
+    "script_sha256": "972db5cd3f653b2cc9ca00579cf87229838558af0f0bbf0980318e45a708ce4b",
+    "word_count": 255
+  },
+  {
+    "id": "lesson3",
+    "slug": "Comparing_Ordering_Whole_Numbers",
+    "title": "Comparing & Ordering Whole Numbers",
+    "method": "avatar",
+    "scenes": [
+      {
+        "narration": "Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+        "heading": "Start with the greatest place",
+        "rows": [
+          {
+            "cue": "more digits",
+            "text": "100,000 > 99,999"
+          },
+          {
+            "cue": "one column",
+            "text": "Compare from left to right \u2192"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+        "heading": "Line up the places",
+        "rows": [
+          {
+            "cue": "Compare",
+            "text": "456,782     456,728"
+          },
+          {
+            "cue": "Their hundred",
+            "text": "4 = 4    5 = 5    6 = 6    7 = 7"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+        "heading": "First different place: tens",
+        "rows": [
+          {
+            "cue": "eight is",
+            "text": "80 > 20"
+          },
+          {
+            "cue": "The first number",
+            "text": "456,782 > 456,728"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+        "heading": "Another comparison",
+        "rows": [
+          {
+            "cue": "Now compare",
+            "text": "309,950     310,005"
+          },
+          {
+            "cue": "zero is less",
+            "text": "0 ten-thousands < 1 ten-thousand"
+          },
+          {
+            "cue": "Therefore",
+            "text": "309,950 < 310,005"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+        "heading": "Order from smallest to largest",
+        "rows": [
+          {
+            "cue": "Eighty nine",
+            "text": "89,999 < 90,001 < 90,010"
+          },
+          {
+            "cue": "Do not",
+            "text": "Start left; stop at the first difference"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+        "heading": "Recap: compare exactly",
+        "rows": [
+          {
+            "cue": "rounding",
+            "text": "89,999 \u2248 90,000  (nearest 1,000)"
+          },
+          {
+            "cue": "A rounded",
+            "text": "Estimate \u2260 exact comparison"
+          },
+          {
+            "cue": "Recap",
+            "text": "Line up \u2192 start left \u2192 first difference"
+          }
+        ],
+        "model": null
+      }
+    ],
+    "number": 3,
+    "status": "PREPARED_NOT_GENERATED",
+    "avatar_id": "2e895abe1f515732737973186daa2e51",
+    "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "voice_settings": {
+      "pitch": 0,
+      "speed": 1,
+      "volume": 1
+    },
+    "engine": "avatar_iv",
+    "script_sha256": "b5442413e893d6aa06982c6b3cf0b4bf403e9f19cd1a6d66c1b2f0970200186a",
+    "word_count": 269
+  },
+  {
+    "id": "lesson4",
+    "slug": "Decimal_Place_Value",
+    "title": "Decimal Place Value",
+    "method": "speech",
+    "scenes": [
+      {
+        "narration": "What happens when we split one whole into smaller equal parts? The same base ten pattern continues beyond the decimal point. After ones come tenths, hundredths and thousandths. Each place is one tenth of the value of the place immediately to its left.",
+        "heading": "Base ten continues past ones",
+        "rows": [
+          {
+            "cue": "After ones",
+            "text": "Ones \u2192 tenths \u2192 hundredths \u2192 thousandths"
+          },
+          {
+            "cue": "Each place",
+            "text": "One place right: divide the value by 10"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Read four point seven two six. The four is four ones. The seven is seven tenths, written zero point seven. The two is two hundredths, written zero point zero two. The six is six thousandths, written zero point zero zero six.",
+        "heading": "Name each decimal place",
+        "rows": [
+          {
+            "cue": "Read four",
+            "text": "4.726"
+          },
+          {
+            "cue": "The seven",
+            "text": "7 tenths = 0.7"
+          },
+          {
+            "cue": "The two",
+            "text": "2 hundredths = 0.02"
+          },
+          {
+            "cue": "The six",
+            "text": "6 thousandths = 0.006"
+          }
+        ],
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "narration": "Put the parts together. Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six. The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+        "heading": "Expand the decimal",
+        "rows": [
+          {
+            "cue": "Four point seven",
+            "text": "4.726 = 4 + 0.7 + 0.02 + 0.006"
+          },
+          {
+            "cue": "The digits",
+            "text": "Same digits; place determines value"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "A tenth is ten hundredths. A hundredth is ten thousandths. Now compare zero point five with zero point zero five. Five tenths is ten times five hundredths, so zero point five is greater. The same digit does not mean the same value.",
+        "heading": "Connect neighbouring places",
+        "rows": [
+          {
+            "cue": "A tenth",
+            "text": "0.1 = 10 \u00d7 0.01"
+          },
+          {
+            "cue": "A hundredth",
+            "text": "0.01 = 10 \u00d7 0.001"
+          },
+          {
+            "cue": "Five tenths",
+            "text": "0.5 = 10 \u00d7 0.05"
+          },
+          {
+            "cue": "so zero",
+            "text": "0.5 > 0.05"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Think of a measuring scale marked in equal small steps. Thousandths let us describe positions more precisely than hundredths. This is about understanding place value, not just counting how many digits come after the point. Keep the whole and the size of each part clear.",
+        "heading": "More precise equal-sized steps",
+        "rows": [
+          {
+            "cue": "Thousandths",
+            "text": "1 hundredth = 10 thousandths"
+          },
+          {
+            "cue": "This is about",
+            "text": "Name the place, not just the digit count"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Try the page example: three point four five eight. The five is in the hundredths place, so its value is zero point zero five. Remember: ones, tenths, hundredths, thousandths. Every step right divides the place value by ten; every step left makes it ten times as much.",
+        "heading": "Recap: read the place",
+        "rows": [
+          {
+            "cue": "three point",
+            "text": "3.458"
+          },
+          {
+            "cue": "The five",
+            "text": "5 hundredths = 0.05"
+          },
+          {
+            "cue": "Remember",
+            "text": "Ones \u2192 tenths \u2192 hundredths \u2192 thousandths"
+          }
+        ],
+        "model": null
+      }
+    ],
+    "number": 4,
+    "status": "PREPARED_NOT_GENERATED",
+    "avatar_id": null,
+    "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "voice_settings": {
+      "pitch": 0,
+      "speed": 1,
+      "volume": 1
+    },
+    "engine": "saved speech default",
+    "script_sha256": "6af1fab62311512d45597ee3397469590e47afab53e1afbf6d9b39be548d190f",
+    "word_count": 263
+  },
+  {
+    "id": "lesson5",
+    "slug": "Comparing_Ordering_Locating_Decimals",
+    "title": "Compare, Order & Locate Decimals",
+    "method": "speech",
+    "scenes": [
+      {
+        "narration": "Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+        "heading": "Compare values, not digit counts",
+        "rows": [
+          {
+            "cue": "No",
+            "text": "Longer decimal \u2260 larger value"
+          },
+          {
+            "cue": "Adding zeros",
+            "text": "1.47 = 1.470"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+        "heading": "The hundredths decide",
+        "rows": [
+          {
+            "cue": "Compare",
+            "text": "1.407     1.470"
+          },
+          {
+            "cue": "Ones and tenths",
+            "text": "Ones: 1 = 1     Tenths: 4 = 4"
+          },
+          {
+            "cue": "At the hundredths",
+            "text": "Hundredths: 0 < 7"
+          },
+          {
+            "cue": "So one",
+            "text": "1.407 < 1.470"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+        "heading": "Order from smallest to largest",
+        "rows": [
+          {
+            "cue": "line up",
+            "text": "2.053     2.305     2.350"
+          },
+          {
+            "cue": "The first",
+            "text": "2.053 < 2.305 < 2.350"
+          }
+        ],
+        "model": null
+      },
+      {
+        "narration": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+        "heading": "Hundredths on a number line",
+        "rows": [
+          {
+            "cue": "Each step",
+            "text": "Step size = 0.01"
+          }
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      },
+      {
+        "narration": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+        "heading": "Zoom in to thousandths",
+        "rows": [
+          {
+            "cue": "Each step",
+            "text": "Step size = 0.001"
+          },
+          {
+            "cue": "Count seven",
+            "text": "1.430 + 0.007 = 1.437"
+          }
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.43,
+          "end": 1.44,
+          "mark": 1.437,
+          "decimals": 3
+        }
+      },
+      {
+        "narration": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+        "heading": "Recap: place value gives the order",
+        "rows": [
+          {
+            "cue": "four point",
+            "text": "4.7 = 4.700"
+          },
+          {
+            "cue": "Remember",
+            "text": "Line up \u2192 compare left to right"
+          },
+          {
+            "cue": "equal step",
+            "text": "Number line: check the step size"
+          }
+        ],
+        "model": null
+      }
+    ],
+    "number": 5,
+    "status": "PREPARED_NOT_GENERATED",
+    "avatar_id": null,
+    "voice_id": "2ec5ec7926eb471d9f33e1b7ba4bb77d",
+    "voice_settings": {
+      "pitch": 0,
+      "speed": 1,
+      "volume": 1
+    },
+    "engine": "saved speech default",
+    "script_sha256": "4bbaff72bd29b37ef152e6920062eba54d0415a68399f0c431f141cbc267fec1",
+    "word_count": 271
+  }
+]
