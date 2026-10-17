@@ -5,5 +5,7 @@
   "scope": "Saved full local desktop/mobile Playwright run completed during the interrupted session; includes three viewport sizes for all five new media cases.",
   "protected_checks": "PASS; 45,000 generated positions and architecture/resource checks",
   "recovery": "Original final MP4 hashes reverified; completed local tests not repeated",
-  "ci": "Required on final PR head before merge"
+  "ci": "Required on final PR head before merge",
+  "caption_visual_check": "Found lower equations obscured with native controls visible; moved the five caption tracks to top margin, without modifying MP4s or spoken text.",
+  "followup": "Run only affected five-video browser cases locally; require CI on final PR head."
 }

@@ -23,7 +23,7 @@ def main():
    for x in g:
     if len(lines[-1])+len(x['text'])+1>42:lines.append('')
     lines[-1]+=(' 'if lines[-1]else'')+x['text']
-   text+=f'{i+1}\n{stamp(g[0]["start"])} --> {stamp(max(g[0]["start"]+.01,g[-1]["end"]))}\n'+ '\n'.join(lines)+'\n\n'
+   text+=f'{i+1}\n{stamp(g[0]["start"])} --> {stamp(max(g[0]["start"]+.01,g[-1]["end"]))} line:1% position:50% align:center size:90%\n'+ '\n'.join(lines)+'\n\n'
   name=f'MathMagic_{p["slug"]}_1080p';(REPO/'videos'/f'{name}.vtt').write_text(text);(REPO/'videos'/f'{name}_transcript.txt').write_text(script)
   assert norm(' '.join(t['text']for g in groups for t in g))==norm(script)
   print(p['id'],len(groups),'caption cues')

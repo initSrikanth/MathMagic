@@ -24,6 +24,7 @@ for(const lesson of lessons)test('Whole Numbers '+lesson.id+' media, captions, t
  expect(await video.evaluate(v=>[v.videoWidth,v.videoHeight])).toEqual([1920,1080]);expect(await video.evaluate(v=>v.duration)).toBeCloseTo(qa.duration,2);
  await expect(video.locator('track')).toHaveAttribute('srclang','en-AU');
  await video.evaluate(v=>v.textTracks[0].mode='showing');await expect.poll(()=>video.evaluate(v=>v.textTracks[0].cues?.length||0)).toBe(qa.caption_cues);
+ expect(await video.evaluate(v=>Array.from(v.textTracks[0].cues).every(c=>c.line===1&&c.snapToLines===false))).toBeTruthy();
  const transcript=fs.readFileSync(path.join(root,'video-agent/whole-numbers',lesson.id+'.txt'),'utf8');
  await card.locator('summary').focus();await expect(card.locator('summary')).toBeFocused();await page.keyboard.press('Enter');
  await expect(card.locator('details')).toHaveAttribute('open','');expect(norm((await card.locator('details p').allTextContents()).join(' '))).toBe(norm(transcript));
