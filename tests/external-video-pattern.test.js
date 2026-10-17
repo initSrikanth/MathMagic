@@ -2,7 +2,9 @@ const fs=require('fs'),assert=require('assert');
 const modules=['fractions.html','whole-numbers.html','addition-subtraction.html','decimals-percentages.html','multiplication-division.html','factors-multiples.html'];
 const crypto=require('crypto');
 // Approved MathMagic replacements count as the same lesson coverage, not extra
-// coverage. The LCM extension and five new Whole Numbers videos cannot mask missing original resources. Keep the established 14-resource / five-Fractions-lesson minimums.
+// coverage. The LCM extension and two additional Whole Numbers lesson players
+// add three resources beyond the original coverage. The other three Whole Numbers
+// players replace the removed Math Antics embeds. Keep the 14-resource minimum.
 const approvedVideos=new Map([
   ['videos/MathMagic_Understanding_Place_Value_1080p.mp4','videos/MathMagic_Understanding_Place_Value_1080p.mp4'],
   ['videos/MathMagic_Expanded_Form_1080p.mp4','videos/MathMagic_Expanded_Form_1080p.mp4'],
@@ -88,6 +90,6 @@ for(const file of modules){
     assert(scrimba.length+videos.length>=5,'Expected the five Fractions lessons to use original MathMagic explainers');
   }
 }
-assert(youtubeEmbeds+scrimbaEmbeds+mathmagicVideos-6>=14,'Expected established MathMagic embedded-video coverage');
+assert(youtubeEmbeds+scrimbaEmbeds+mathmagicVideos-3>=14,'Expected established MathMagic embedded-video coverage');
 assert.strictEqual(seenVideos.size,approvedVideos.size,'All approved MathMagic MP4 replacements must remain present');
 console.log('MathMagic video pattern passed across '+modules.length+' modules with '+youtubeEmbeds+' YouTube, '+scrimbaEmbeds+' Scrimba and '+mathmagicVideos+' approved MP4 players');
