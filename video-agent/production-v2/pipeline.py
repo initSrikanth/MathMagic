@@ -283,7 +283,7 @@ def live(m):
                 with urllib.request.urlopen(base+e['video_filename'][:-4]+suffix,timeout=60) as r: assert r.status==200 and len(r.read())>0
             e.update(deployment_status='verified_live',live_verified_at=iso(now()),live_url=base+e['video_filename'])
             e.pop('deployment_error',None)
-        except Exception as ex: e['deployment_error']=str(ex)
+        except Exception as ex: e['deployment_error']=f'{type(ex).__name__}: {str(ex) or "Live page or media not available yet"}'
     batch=m.get('active_batch')
     if batch and all(m['lessons'][k]['deployment_status']=='verified_live' for k in batch['lessons']):
         m['last_successful_batch']=dict(id=batch['id'],lessons=batch['lessons'],completed=iso(now())); m['active_batch']=None

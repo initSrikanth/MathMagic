@@ -3,7 +3,8 @@
   "interval_hours": 5,
   "last_batch_started": "2026-10-19T10:52:57.414915+00:00",
   "next_batch_due": "2026-10-19T15:52:57.414915+00:00",
-  "active_batch": {
+  "active_batch": null,
+  "last_successful_batch": {
     "id": "20261019T105257Z",
     "lessons": [
       "fractions-comparing",
@@ -12,10 +13,8 @@
       "fractions-addsub",
       "fractions-problems"
     ],
-    "started": "2026-10-19T10:52:57.414915+00:00",
-    "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+    "completed": "2026-10-19T11:23:52.202784+00:00"
   },
-  "last_successful_batch": null,
   "errors": [],
   "limitations": [
     "Local Kokoro bf_emma neural speech; perceived expressiveness and pronunciation have not been human-certified.",
@@ -28,8 +27,8 @@
       "section": "meaning",
       "video_filename": "videos/MathMagic_V2_fractions_comparing.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "84144e3bbaeb2065de0daa534e99bef6acaf9367",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "4a57120a6e8e42471c1a585d76811aeac2cb95807738d42b8ce40ee3ccbd359e",
       "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
@@ -86,7 +85,9 @@
         "preserved_original_sha256": "7d317feb7dc443c821b3e596af3970145b74c4a8f9f8cbd60a3522d9fbb026f8",
         "replaced_wrapper_sha256": "e94c1f57d31b89178623c3a8d02af530070a2354dfa93302f73241f1b3dac316",
         "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
-      }
+      },
+      "live_verified_at": "2026-10-19T11:23:44.734541+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_fractions_comparing.mp4"
     },
     "fractions-equivalent": {
       "topic": "fractions",
@@ -94,8 +95,8 @@
       "section": "equivalent",
       "video_filename": "videos/MathMagic_V2_fractions_equivalent.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "84144e3bbaeb2065de0daa534e99bef6acaf9367",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "f1b1473dd7be20fd82740183d761858ba15028f17647313e6db9bb54fb79d631",
       "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
@@ -152,7 +153,9 @@
         "preserved_original_sha256": "b3da069159a9565433951af9663ec260697a702893336c4ab7b38b71ef1da7f6",
         "replaced_wrapper_sha256": "fd2498e4f1efdce2e76323dc8bc98aaaf6a7990642f846123c7b6a338f32d4fc",
         "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
-      }
+      },
+      "live_verified_at": "2026-10-19T11:23:46.604722+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_fractions_equivalent.mp4"
     },
     "fractions-mixed": {
       "topic": "fractions",
@@ -160,8 +163,8 @@
       "section": "mixed",
       "video_filename": "videos/MathMagic_V2_fractions_mixed.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "84144e3bbaeb2065de0daa534e99bef6acaf9367",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "7bb85237842f2518ac4dcdd3091abd4352a72eddb3f3833e59112a4503b308a1",
       "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
@@ -218,7 +221,9 @@
         "preserved_original_sha256": "1c3c49b8969039f1ec3f41d9360f4c46f1d7a496a11059bbb13d58d3980a5c1d",
         "replaced_wrapper_sha256": "2e4a250fbdee3cc10b4331b25e122f58209af70a1482b67fa86cb001fdbd879b",
         "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
-      }
+      },
+      "live_verified_at": "2026-10-19T11:23:48.384402+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_fractions_mixed.mp4"
     },
     "fractions-addsub": {
       "topic": "fractions",
@@ -226,8 +231,8 @@
       "section": "addsub",
       "video_filename": "videos/MathMagic_V2_fractions_addsub.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "84144e3bbaeb2065de0daa534e99bef6acaf9367",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "09e93a4bfa61158bcc828bbc2e8a1f422061fa9f0acaf768204c88b9f552a130",
       "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
@@ -284,7 +289,9 @@
             "perceptual_voice_review": "Not human-certified"
           }
         }
-      ]
+      ],
+      "live_verified_at": "2026-10-19T11:23:50.307140+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_fractions_addsub.mp4"
     },
     "fractions-problems": {
       "topic": "fractions",
@@ -292,8 +299,8 @@
       "section": "problems",
       "video_filename": "videos/MathMagic_V2_fractions_problems.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "84144e3bbaeb2065de0daa534e99bef6acaf9367",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
       "script_sha256": "8f01497d034985a7483b4e09a75ee23961639915654555667c6804961f64648e",
@@ -332,7 +339,9 @@
         "preserved_original_sha256": "3b6f924d9b69cde002e4822057d6c9dd4004d9436315eb9ea49e70ae82435bf7",
         "replaced_wrapper_sha256": "bbd7d9af426a42c2a50d928081230dbadb0581303e4962753cb452fe1418790b",
         "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
-      }
+      },
+      "live_verified_at": "2026-10-19T11:23:52.202735+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_fractions_problems.mp4"
     },
     "whole-numbers-lesson1": {
       "topic": "whole-numbers",

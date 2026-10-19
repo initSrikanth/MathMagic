@@ -5,7 +5,7 @@ import hashlib
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 import pipeline as p
 
 class ProductionTests(unittest.TestCase):
@@ -50,6 +50,12 @@ class ProductionTests(unittest.TestCase):
         l=p.LESSONS[0]; m=self.state(); e=m['lessons'][l['id']]; e.update(qa={'sha256':'wrong'})
         m['active_batch']={'rollback_sha':'test'}
         with self.assertRaises((AssertionError,FileNotFoundError)): p.integrate([l['id']],m)
+    def test_stale_html_is_an_explicit_deployment_failure(self):
+        m=self.state(); e=next(iter(m['lessons'].values())); e.update(production_status='integrated',commit_sha='abc')
+        response=MagicMock(); response.__enter__.return_value.read.return_value=b'<html>Old deployment</html>'
+        with patch.object(p,'persist'),patch.object(p,'record_commits'),patch.object(p.urllib.request,'urlopen',return_value=response):
+            self.assertFalse(p.live(m)); self.assertIn('AssertionError',e['deployment_error'])
+            self.assertEqual(e['deployment_status'],'pending')
     def test_live_failure_is_not_marked_published(self):
         m=self.state(); e=next(iter(m['lessons'].values())); e.update(production_status='integrated',commit_sha='abc')
         with patch.object(p,'persist'),patch.object(p,'record_commits'),patch.object(p.urllib.request,'urlopen',side_effect=OSError('offline')):
