@@ -1,0 +1,1035 @@
+{
+  "input_hash": "015e766f21e91bb2dad91438d03ef3b0b2ee751561f830e3b2740ec32d8765ad",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.313416666666665,
+      "lesson_progress": 0.058823529411764705,
+      "text": "A recipe needs one half of a cup of oats and one quarter of a cup of nuts. How much goes into the bowl altogether? Today we are solving fraction problems by modelling the situation, choosing an operation, and checking whether our answer makes sense.",
+      "chapter": "Mix a snack",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "Oats: half a cup",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 4,
+          "label": "Nuts: quarter of a cup",
+          "colour": "gold"
+        }
+      ],
+      "note": "Both measurements use the same one-cup unit.",
+      "line": null,
+      "area": null,
+      "context": "SNACK MIX",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.313416666666665,
+      "end": 23.696166666666667,
+      "lesson_progress": 0.11764705882352941,
+      "text": "First identify the whole: one cup. Altogether tells us to combine the amounts, so choose addition.",
+      "chapter": "1. Understand and plan",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "Oats",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 4,
+          "label": "Nuts",
+          "colour": "gold"
+        }
+      ],
+      "note": "Understand the situation; do not rely on a keyword alone.",
+      "line": null,
+      "area": null,
+      "context": "ONE CUP",
+      "role": "explanation"
+    },
+    {
+      "index": 2,
+      "start": 23.696166666666667,
+      "end": 30.315958333333334,
+      "lesson_progress": 0.17647058823529413,
+      "text": "Rename one half as two quarters. Two quarters plus one quarter makes three quarters.",
+      "chapter": "2. Model and calculate",
+      "equation": [
+        [
+          2,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 2,
+          "d": 4,
+          "label": "Oats, renamed",
+          "colour": "teal"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Combined amount",
+          "colour": "gold"
+        }
+      ],
+      "note": "The parts must be the same size.",
+      "line": null,
+      "area": null,
+      "context": "SNACK MIX",
+      "role": "explanation"
+    },
+    {
+      "index": 3,
+      "start": 30.315958333333334,
+      "end": 38.977916666666665,
+      "lesson_progress": 0.23529411764705882,
+      "text": "Mia uses three quarters of a cup altogether. That is more than half a cup and less than one cup, so the answer makes sense.",
+      "chapter": "3. Answer and check",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "<",
+        [
+          3,
+          4
+        ],
+        "<",
+        "1"
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters of a cup",
+          "colour": "teal"
+        }
+      ],
+      "note": "State the unit, then check the size of the result.",
+      "line": null,
+      "area": null,
+      "context": "SNACK MIX",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 38.977916666666665,
+      "end": 46.64775,
+      "lesson_progress": 0.29411764705882354,
+      "text": "Now a ribbon is two metres long. We cut off three quarters of a metre. How much ribbon remains?",
+      "chapter": "Cut a ribbon",
+      "equation": [
+        "2",
+        "−",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "First metre",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Second metre",
+          "colour": "gold"
+        }
+      ],
+      "note": "One whole unit is one metre, not the entire two-metre ribbon.",
+      "line": null,
+      "area": null,
+      "context": "RIBBON",
+      "role": "explanation"
+    },
+    {
+      "index": 5,
+      "start": 46.64775,
+      "end": 52.809666666666665,
+      "lesson_progress": 0.35294117647058826,
+      "text": "We want what remains, so subtract. Two metres equals eight quarter-metres.",
+      "chapter": "Choose the unit",
+      "equation": [
+        "2",
+        "=",
+        [
+          8,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Four quarter-metres",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Four quarter-metres",
+          "colour": "gold"
+        }
+      ],
+      "note": "Two equal metre-lengths make eight quarter-metres.",
+      "line": null,
+      "area": null,
+      "context": "RIBBON",
+      "role": "explanation"
+    },
+    {
+      "index": 6,
+      "start": 52.809666666666665,
+      "end": 59.91170833333333,
+      "lesson_progress": 0.4117647058823529,
+      "text": "Eight quarters minus three quarters is five quarters. Five quarters is one and one quarter.",
+      "chapter": "Work through the subtraction",
+      "equation": [
+        [
+          8,
+          4
+        ],
+        "−",
+        [
+          3,
+          4
+        ],
+        "=",
+        [
+          5,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "One metre remains",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 4,
+          "label": "One quarter-metre remains",
+          "colour": "gold"
+        }
+      ],
+      "note": "Five quarters = one whole and one quarter.",
+      "line": null,
+      "area": null,
+      "context": "RIBBON",
+      "role": "explanation"
+    },
+    {
+      "index": 7,
+      "start": 59.91170833333333,
+      "end": 66.707125,
+      "lesson_progress": 0.47058823529411764,
+      "text": "One and one quarter metres remain. On the number line, move back three quarter-steps from two.",
+      "chapter": "Check with a number line",
+      "equation": [
+        [
+          5,
+          4
+        ],
+        "=",
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "The remaining length must be less than two metres.",
+      "line": {
+        "d": 4,
+        "points": [
+          5,
+          8
+        ],
+        "maximum": 2,
+        "jump": [
+          8,
+          5
+        ]
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 8,
+      "start": 66.707125,
+      "end": 76.96129166666667,
+      "lesson_progress": 0.5294117647058824,
+      "text": "For a comparison, Ava walks three quarters of a kilometre. Leo walks five eighths of a kilometre. Who walks farther, and by how much?",
+      "chapter": "Compare two distances",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "?",
+        [
+          5,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Ava",
+          "colour": "teal"
+        },
+        {
+          "n": 5,
+          "d": 8,
+          "label": "Leo",
+          "colour": "gold"
+        }
+      ],
+      "note": "Use the same one-kilometre unit for both distances.",
+      "line": null,
+      "area": null,
+      "context": "WALKING",
+      "role": "explanation"
+    },
+    {
+      "index": 9,
+      "start": 76.96129166666667,
+      "end": 84.904125,
+      "lesson_progress": 0.5882352941176471,
+      "text": "Rename three quarters as six eighths. Ava walks farther because six eighths is greater than five eighths.",
+      "chapter": "Compare equal-sized parts",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        ">",
+        [
+          5,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Ava",
+          "colour": "teal"
+        },
+        {
+          "n": 5,
+          "d": 8,
+          "label": "Leo",
+          "colour": "gold"
+        }
+      ],
+      "note": "First answer who, then find the difference.",
+      "line": null,
+      "area": null,
+      "context": "WALKING",
+      "role": "explanation"
+    },
+    {
+      "index": 10,
+      "start": 84.904125,
+      "end": 91.66325,
+      "lesson_progress": 0.6470588235294118,
+      "text": "Subtract five eighths from six eighths. Ava walks one eighth of a kilometre farther.",
+      "chapter": "Find the difference",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "−",
+        [
+          5,
+          8
+        ],
+        "=",
+        [
+          1,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Ava",
+          "colour": "teal"
+        },
+        {
+          "n": 5,
+          "d": 8,
+          "label": "Leo",
+          "colour": "gold"
+        }
+      ],
+      "note": "The difference measures the gap between the distances.",
+      "line": null,
+      "area": null,
+      "context": "WALKING",
+      "role": "explanation"
+    },
+    {
+      "index": 11,
+      "start": 91.66325,
+      "end": 101.8005,
+      "lesson_progress": 0.7058823529411765,
+      "text": "Here is a two-step problem. A jug holds one litre. We pour out a quarter of a litre, then another half a litre. How much remains?",
+      "chapter": "A two-step situation",
+      "equation": [
+        "1",
+        "−",
+        [
+          1,
+          4
+        ],
+        "−",
+        [
+          1,
+          2
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "One litre at the start",
+          "colour": "teal"
+        }
+      ],
+      "note": "Both poured amounts are measured in litres.",
+      "line": null,
+      "area": null,
+      "context": "WATER JUG",
+      "role": "explanation"
+    },
+    {
+      "index": 12,
+      "start": 101.8005,
+      "end": 109.37229166666667,
+      "lesson_progress": 0.7647058823529411,
+      "text": "A quarter plus a half is three quarters of a litre poured out. Subtract three quarters from one whole litre.",
+      "chapter": "Combine, then subtract",
+      "equation": [
+        [
+          1,
+          4
+        ],
+        "+",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "One litre",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 4,
+          "label": "Amount remaining",
+          "colour": "gold"
+        }
+      ],
+      "note": "Three quarters poured out; one quarter stays in the jug.",
+      "line": null,
+      "area": null,
+      "context": "WATER JUG",
+      "role": "explanation"
+    },
+    {
+      "index": 13,
+      "start": 109.37229166666667,
+      "end": 117.12529166666667,
+      "lesson_progress": 0.8235294117647058,
+      "text": "One quarter of a litre remains. Check: three quarters poured out plus one quarter remaining makes one whole litre.",
+      "chapter": "Check the whole",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ],
+        "=",
+        "1"
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "The original whole",
+          "colour": "teal"
+        }
+      ],
+      "note": "An inverse check helps catch mistakes.",
+      "line": null,
+      "area": null,
+      "context": "WATER JUG",
+      "role": "explanation"
+    },
+    {
+      "index": 14,
+      "start": 117.12529166666667,
+      "end": 127.072875,
+      "lesson_progress": 0.8823529411764706,
+      "chapter": "Think it through",
+      "equation": [
+        [
+          2,
+          3
+        ],
+        "+",
+        [
+          1,
+          6
+        ],
+        "=",
+        "?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Take four seconds to think.",
+      "text": "You walk two thirds of a kilometre, then one sixth more. How far is that altogether?",
+      "pause": 4,
+      "role": "question"
+    },
+    {
+      "index": 15,
+      "start": 127.072875,
+      "end": 134.05304166666667,
+      "lesson_progress": 0.9411764705882353,
+      "chapter": "Let’s check",
+      "equation": [
+        [
+          2,
+          3
+        ],
+        "+",
+        [
+          1,
+          6
+        ],
+        "=",
+        [
+          5,
+          6
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Explain why your answer makes sense.",
+      "text": "Two thirds is four sixths. Adding one sixth gives five sixths of a kilometre.",
+      "pause": 1,
+      "role": "answer"
+    },
+    {
+      "index": 16,
+      "start": 134.05304166666667,
+      "end": 144.924125,
+      "lesson_progress": 1.0,
+      "text": "Identify the whole, model the relationship, and choose an operation from the story. Rename to equal-sized parts, calculate carefully, and check the answer with its unit.",
+      "chapter": "Explain your reasoning",
+      "equation": [
+        [
+          4,
+          6
+        ],
+        "+",
+        [
+          1,
+          6
+        ],
+        "=",
+        [
+          5,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "n": 5,
+          "d": 6,
+          "label": "Five sixths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Understand → model → calculate → answer with units → check.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.607125,
+      "text": "A recipe needs one half of a cup of oats and one quarter of a cup of nuts."
+    },
+    {
+      "start": 4.827125,
+      "end": 7.187666666666667,
+      "text": "How much goes into the bowl altogether?"
+    },
+    {
+      "start": 7.837666666666666,
+      "end": 15.663416666666667,
+      "text": "Today we are solving fraction problems by modelling the situation, choosing an operation, and checking whether our answer makes sense."
+    },
+    {
+      "start": 16.313416666666665,
+      "end": 18.987625,
+      "text": "First identify the whole: one cup."
+    },
+    {
+      "start": 19.207625,
+      "end": 23.046166666666668,
+      "text": "Altogether tells us to combine the amounts, so choose addition."
+    },
+    {
+      "start": 23.696166666666667,
+      "end": 26.094625,
+      "text": "Rename one half as two quarters."
+    },
+    {
+      "start": 26.314625,
+      "end": 29.665958333333332,
+      "text": "Two quarters plus one quarter makes three quarters."
+    },
+    {
+      "start": 30.315958333333334,
+      "end": 33.538125,
+      "text": "Mia uses three quarters of a cup altogether."
+    },
+    {
+      "start": 33.758125,
+      "end": 38.32791666666667,
+      "text": "That is more than half a cup and less than one cup, so the answer makes sense."
+    },
+    {
+      "start": 38.977916666666665,
+      "end": 41.26683333333333,
+      "text": "Now a ribbon is two metres long."
+    },
+    {
+      "start": 41.48683333333334,
+      "end": 43.92695833333333,
+      "text": "We cut off three quarters of a metre."
+    },
+    {
+      "start": 44.14695833333333,
+      "end": 45.99775,
+      "text": "How much ribbon remains?"
+    },
+    {
+      "start": 46.64775,
+      "end": 49.363458333333334,
+      "text": "We want what remains, so subtract."
+    },
+    {
+      "start": 49.58345833333333,
+      "end": 52.159666666666666,
+      "text": "Two metres equals eight quarter-metres."
+    },
+    {
+      "start": 52.809666666666665,
+      "end": 56.31966666666667,
+      "text": "Eight quarters minus three quarters is five quarters."
+    },
+    {
+      "start": 56.53966666666667,
+      "end": 59.26170833333333,
+      "text": "Five quarters is one and one quarter."
+    },
+    {
+      "start": 59.91170833333333,
+      "end": 62.25391666666667,
+      "text": "One and one quarter metres remain."
+    },
+    {
+      "start": 62.47391666666667,
+      "end": 66.057125,
+      "text": "On the number line, move back three quarter-steps from two."
+    },
+    {
+      "start": 66.707125,
+      "end": 70.52191666666667,
+      "text": "For a comparison, Ava walks three quarters of a kilometre."
+    },
+    {
+      "start": 70.74191666666667,
+      "end": 73.60020833333333,
+      "text": "Leo walks five eighths of a kilometre."
+    },
+    {
+      "start": 73.82020833333333,
+      "end": 76.31129166666666,
+      "text": "Who walks farther, and by how much?"
+    },
+    {
+      "start": 76.96129166666667,
+      "end": 79.72666666666667,
+      "text": "Rename three quarters as six eighths."
+    },
+    {
+      "start": 79.94666666666667,
+      "end": 84.254125,
+      "text": "Ava walks farther because six eighths is greater than five eighths."
+    },
+    {
+      "start": 84.904125,
+      "end": 87.69141666666667,
+      "text": "Subtract five eighths from six eighths."
+    },
+    {
+      "start": 87.91141666666667,
+      "end": 91.01325,
+      "text": "Ava walks one eighth of a kilometre farther."
+    },
+    {
+      "start": 91.66325,
+      "end": 93.63795833333333,
+      "text": "Here is a two-step problem."
+    },
+    {
+      "start": 93.85795833333333,
+      "end": 95.80066666666667,
+      "text": "A jug holds one litre."
+    },
+    {
+      "start": 96.02066666666667,
+      "end": 99.369625,
+      "text": "We pour out a quarter of a litre, then another half a litre."
+    },
+    {
+      "start": 99.589625,
+      "end": 101.1505,
+      "text": "How much remains?"
+    },
+    {
+      "start": 101.8005,
+      "end": 105.59133333333334,
+      "text": "A quarter plus a half is three quarters of a litre poured out."
+    },
+    {
+      "start": 105.81133333333334,
+      "end": 108.72229166666666,
+      "text": "Subtract three quarters from one whole litre."
+    },
+    {
+      "start": 109.37229166666667,
+      "end": 111.58329166666667,
+      "text": "One quarter of a litre remains."
+    },
+    {
+      "start": 111.80329166666667,
+      "end": 116.47529166666666,
+      "text": "Check: three quarters poured out plus one quarter remaining makes one whole litre."
+    },
+    {
+      "start": 117.12529166666667,
+      "end": 120.78116666666666,
+      "text": "You walk two thirds of a kilometre, then one sixth more."
+    },
+    {
+      "start": 121.00116666666666,
+      "end": 123.072875,
+      "text": "How far is that altogether?"
+    },
+    {
+      "start": 127.072875,
+      "end": 129.37354166666665,
+      "text": "Two thirds is four sixths."
+    },
+    {
+      "start": 129.59354166666665,
+      "end": 133.05304166666667,
+      "text": "Adding one sixth gives five sixths of a kilometre."
+    },
+    {
+      "start": 134.05304166666667,
+      "end": 138.91170833333334,
+      "text": "Identify the whole, model the relationship, and choose an operation from the story."
+    },
+    {
+      "start": 139.13170833333334,
+      "end": 144.274125,
+      "text": "Rename to equal-sized parts, calculate carefully, and check the answer with its unit."
+    }
+  ],
+  "pauses": [
+    [
+      4.607125,
+      4.827125,
+      "sentence pause"
+    ],
+    [
+      7.187666666666667,
+      7.837666666666667,
+      "sentence pause"
+    ],
+    [
+      15.663416666666667,
+      16.313416666666665,
+      "sentence pause"
+    ],
+    [
+      18.987625,
+      19.207625,
+      "sentence pause"
+    ],
+    [
+      23.046166666666668,
+      23.696166666666667,
+      "sentence pause"
+    ],
+    [
+      26.094625,
+      26.314625,
+      "sentence pause"
+    ],
+    [
+      29.665958333333332,
+      30.31595833333333,
+      "sentence pause"
+    ],
+    [
+      33.538125,
+      33.758125,
+      "sentence pause"
+    ],
+    [
+      38.32791666666667,
+      38.977916666666665,
+      "sentence pause"
+    ],
+    [
+      41.26683333333333,
+      41.48683333333333,
+      "sentence pause"
+    ],
+    [
+      43.92695833333333,
+      44.14695833333333,
+      "sentence pause"
+    ],
+    [
+      45.99775,
+      46.64775,
+      "sentence pause"
+    ],
+    [
+      49.363458333333334,
+      49.58345833333333,
+      "sentence pause"
+    ],
+    [
+      52.159666666666666,
+      52.809666666666665,
+      "sentence pause"
+    ],
+    [
+      56.31966666666667,
+      56.53966666666667,
+      "sentence pause"
+    ],
+    [
+      59.26170833333333,
+      59.91170833333333,
+      "sentence pause"
+    ],
+    [
+      62.25391666666667,
+      62.47391666666667,
+      "sentence pause"
+    ],
+    [
+      66.057125,
+      66.707125,
+      "sentence pause"
+    ],
+    [
+      70.52191666666667,
+      70.74191666666667,
+      "sentence pause"
+    ],
+    [
+      73.60020833333333,
+      73.82020833333333,
+      "sentence pause"
+    ],
+    [
+      76.31129166666666,
+      76.96129166666667,
+      "sentence pause"
+    ],
+    [
+      79.72666666666667,
+      79.94666666666667,
+      "sentence pause"
+    ],
+    [
+      84.254125,
+      84.90412500000001,
+      "sentence pause"
+    ],
+    [
+      87.69141666666667,
+      87.91141666666667,
+      "sentence pause"
+    ],
+    [
+      91.01325,
+      91.66325,
+      "sentence pause"
+    ],
+    [
+      93.63795833333333,
+      93.85795833333333,
+      "sentence pause"
+    ],
+    [
+      95.80066666666667,
+      96.02066666666667,
+      "sentence pause"
+    ],
+    [
+      99.369625,
+      99.589625,
+      "sentence pause"
+    ],
+    [
+      101.1505,
+      101.8005,
+      "sentence pause"
+    ],
+    [
+      105.59133333333334,
+      105.81133333333334,
+      "sentence pause"
+    ],
+    [
+      108.72229166666666,
+      109.37229166666667,
+      "sentence pause"
+    ],
+    [
+      111.58329166666667,
+      111.80329166666667,
+      "sentence pause"
+    ],
+    [
+      116.47529166666666,
+      117.12529166666667,
+      "sentence pause"
+    ],
+    [
+      120.78116666666666,
+      121.00116666666666,
+      "sentence pause"
+    ],
+    [
+      123.072875,
+      127.072875,
+      "think time"
+    ],
+    [
+      129.37354166666665,
+      129.59354166666665,
+      "sentence pause"
+    ],
+    [
+      133.05304166666667,
+      134.05304166666667,
+      "sentence pause"
+    ],
+    [
+      138.91170833333334,
+      139.13170833333334,
+      "sentence pause"
+    ],
+    [
+      144.274125,
+      144.924125,
+      "sentence pause"
+    ]
+  ],
+  "duration": 144.924125,
+  "narration_sha256": "72c40ab876d32256215100d13d27d1481cf8dd4555d731762962cad85f10eb31",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

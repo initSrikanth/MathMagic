@@ -1,0 +1,938 @@
+{
+  "input_hash": "53a4b61af65b4ead575c8f7608fd819875354172ffee4d85101e493b918503ff",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.381458333333335,
+      "lesson_progress": 0.06666666666666667,
+      "text": "Can a fraction change its name without changing its size? Today we are exploring equivalent fractions. We will split and regroup equal parts, then check our thinking with pictures. Could one half really be the same amount as four eighths?",
+      "chapter": "Different names, same amount",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "?",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Equivalent means equal in value.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.381458333333335,
+      "end": 25.568458333333332,
+      "lesson_progress": 0.13333333333333333,
+      "text": "Start with one half. Split every part of the whole into two equal pieces. The shaded half now contains two quarters.",
+      "chapter": "Split every part equally",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "Before",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "After",
+          "colour": "gold"
+        }
+      ],
+      "note": "The whole and shaded amount stay the same.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 2,
+      "start": 25.568458333333332,
+      "end": 35.34279166666666,
+      "lesson_progress": 0.2,
+      "text": "Split every quarter in half again. Now four of eight equal pieces are shaded. One half, two quarters and four eighths are equivalent.",
+      "chapter": "Rename again",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 2,
+          "d": 4,
+          "label": "Two quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Smaller pieces, more pieces, same amount.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 3,
+      "start": 35.34279166666666,
+      "end": 42.655166666666666,
+      "lesson_progress": 0.26666666666666666,
+      "text": "The number rule matches the picture. Multiply the numerator and denominator by the same non-zero number.",
+      "chapter": "Scale both numbers",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "×",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Multiplying by four over four is multiplying by one.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 42.655166666666666,
+      "end": 50.84545833333333,
+      "lesson_progress": 0.3333333333333333,
+      "text": "For three fifths, multiply both numbers by four. Three times four is twelve, and five times four is twenty.",
+      "chapter": "Worked example",
+      "equation": [
+        [
+          3,
+          5
+        ],
+        "×",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          12,
+          20
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 5,
+          "label": "Three fifths",
+          "colour": "teal"
+        },
+        {
+          "n": 12,
+          "d": 20,
+          "label": "Twelve twentieths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Both numbers change by the same factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 5,
+      "start": 50.84545833333333,
+      "end": 58.132125,
+      "lesson_progress": 0.4,
+      "text": "Equivalent fractions also land at the same point on a number line. They are different names for one number.",
+      "chapter": "One position, many names",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [],
+      "note": "One half, two quarters and four eighths meet here.",
+      "line": {
+        "d": 8,
+        "points": [
+          4
+        ],
+        "maximum": 1,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 6,
+      "start": 58.132125,
+      "end": 65.879875,
+      "lesson_progress": 0.4666666666666667,
+      "text": "Simplifying works in reverse. Group equal pieces together instead of splitting them into smaller pieces.",
+      "chapter": "Simplify without changing value",
+      "equation": [
+        [
+          6,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Six eighths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Look for a common factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 7,
+      "start": 65.879875,
+      "end": 74.99433333333333,
+      "lesson_progress": 0.5333333333333333,
+      "text": "Group the eighths in pairs. Six eighths becomes three quarters. We divided the numerator and denominator by two.",
+      "chapter": "Group the pieces",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "=",
+        [
+          "6 ÷ 2",
+          "8 ÷ 2"
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Six eighths",
+          "colour": "teal"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "gold"
+        }
+      ],
+      "note": "Three and four have no common factor greater than one.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 8,
+      "start": 74.99433333333333,
+      "end": 85.94170833333334,
+      "lesson_progress": 0.6,
+      "text": "Try twelve eighteenths. Both twelve and eighteen divide by six. Twelve divided by six is two; eighteen divided by six is three.",
+      "chapter": "Another simplification",
+      "equation": [
+        [
+          12,
+          18
+        ],
+        "=",
+        [
+          "12 ÷ 6",
+          "18 ÷ 6"
+        ],
+        "=",
+        [
+          2,
+          3
+        ]
+      ],
+      "rows": [
+        {
+          "n": 12,
+          "d": 18,
+          "label": "Twelve eighteenths",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 3,
+          "label": "Two thirds",
+          "colour": "gold"
+        }
+      ],
+      "note": "Two thirds is in simplest form.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 9,
+      "start": 85.94170833333334,
+      "end": 94.25658333333334,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Be careful: adding the same number to both numbers does not preserve the value. One half and two thirds are different amounts.",
+      "chapter": "Spot the mistake",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "≠",
+        [
+          2,
+          3
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 3,
+          "label": "Two thirds",
+          "colour": "gold"
+        }
+      ],
+      "note": "Use multiplication or division, not addition.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 10,
+      "start": 94.25658333333334,
+      "end": 101.3005,
+      "lesson_progress": 0.7333333333333333,
+      "text": "We can also partition a fraction. Three quarters is three one-quarter pieces added together.",
+      "chapter": "Break an amount into parts",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "=",
+        [
+          1,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarter-pieces",
+          "colour": "teal"
+        }
+      ],
+      "note": "Partitioning keeps the total amount unchanged.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 11,
+      "start": 101.3005,
+      "end": 110.32529166666667,
+      "lesson_progress": 0.8,
+      "text": "Two quarters make one half, so three quarters is also one half plus one quarter. Different partitions can describe the same amount.",
+      "chapter": "Another useful partition",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "=",
+        [
+          1,
+          2
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Two quarters plus one quarter",
+          "colour": "teal"
+        }
+      ],
+      "note": "One amount can be split in different ways.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 12,
+      "start": 110.32529166666667,
+      "end": 117.36158333333333,
+      "lesson_progress": 0.8666666666666667,
+      "chapter": "Think it through",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "?",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Take four seconds to think.",
+      "text": "Is six eighths equivalent to three quarters?",
+      "pause": 4,
+      "role": "question"
+    },
+    {
+      "index": 13,
+      "start": 117.36158333333333,
+      "end": 123.37270833333334,
+      "lesson_progress": 0.9333333333333333,
+      "chapter": "Let’s check",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Explain why your answer makes sense.",
+      "text": "Yes. Dividing both six and eight by two gives three quarters.",
+      "pause": 1,
+      "role": "answer"
+    },
+    {
+      "index": 14,
+      "start": 123.37270833333334,
+      "end": 136.06345833333333,
+      "lesson_progress": 1.0,
+      "text": "Equivalent fractions name the same amount. Multiply or divide both numbers by the same non-zero factor. A model or number line helps you check that the value stays unchanged.",
+      "chapter": "Same value, new name",
+      "equation": [
+        [
+          3,
+          5
+        ],
+        "=",
+        [
+          12,
+          20
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 5,
+          "label": "Three fifths",
+          "colour": "teal"
+        },
+        {
+          "n": 12,
+          "d": 20,
+          "label": "Twelve twentieths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Multiply or divide BOTH numbers by the same non-zero number.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.4844583333333334,
+      "text": "Can a fraction change its name without changing its size?"
+    },
+    {
+      "start": 4.134458333333333,
+      "end": 7.272083333333334,
+      "text": "Today we are exploring equivalent fractions."
+    },
+    {
+      "start": 7.492083333333333,
+      "end": 12.0195,
+      "text": "We will split and regroup equal parts, then check our thinking with pictures."
+    },
+    {
+      "start": 12.2395,
+      "end": 15.731458333333334,
+      "text": "Could one half really be the same amount as four eighths?"
+    },
+    {
+      "start": 16.381458333333335,
+      "end": 18.029375,
+      "text": "Start with one half."
+    },
+    {
+      "start": 18.249375,
+      "end": 21.785833333333333,
+      "text": "Split every part of the whole into two equal pieces."
+    },
+    {
+      "start": 22.00583333333333,
+      "end": 24.918458333333334,
+      "text": "The shaded half now contains two quarters."
+    },
+    {
+      "start": 25.568458333333332,
+      "end": 27.869125,
+      "text": "Split every quarter in half again."
+    },
+    {
+      "start": 28.089125,
+      "end": 30.878,
+      "text": "Now four of eight equal pieces are shaded."
+    },
+    {
+      "start": 31.098,
+      "end": 34.692791666666665,
+      "text": "One half, two quarters and four eighths are equivalent."
+    },
+    {
+      "start": 35.34279166666666,
+      "end": 37.47091666666667,
+      "text": "The number rule matches the picture."
+    },
+    {
+      "start": 37.690916666666666,
+      "end": 42.00516666666667,
+      "text": "Multiply the numerator and denominator by the same non-zero number."
+    },
+    {
+      "start": 42.655166666666666,
+      "end": 46.135333333333335,
+      "text": "For three fifths, multiply both numbers by four."
+    },
+    {
+      "start": 46.355333333333334,
+      "end": 50.195458333333335,
+      "text": "Three times four is twelve, and five times four is twenty."
+    },
+    {
+      "start": 50.84545833333333,
+      "end": 55.06775,
+      "text": "Equivalent fractions also land at the same point on a number line."
+    },
+    {
+      "start": 55.28775,
+      "end": 57.482125,
+      "text": "They are different names for one number."
+    },
+    {
+      "start": 58.132125,
+      "end": 60.515708333333336,
+      "text": "Simplifying works in reverse."
+    },
+    {
+      "start": 60.735708333333335,
+      "end": 65.229875,
+      "text": "Group equal pieces together instead of splitting them into smaller pieces."
+    },
+    {
+      "start": 65.879875,
+      "end": 67.97033333333333,
+      "text": "Group the eighths in pairs."
+    },
+    {
+      "start": 68.19033333333333,
+      "end": 70.75179166666666,
+      "text": "Six eighths becomes three quarters."
+    },
+    {
+      "start": 70.97179166666666,
+      "end": 74.34433333333334,
+      "text": "We divided the numerator and denominator by two."
+    },
+    {
+      "start": 74.99433333333333,
+      "end": 76.81554166666666,
+      "text": "Try twelve eighteenths."
+    },
+    {
+      "start": 77.03554166666666,
+      "end": 80.324375,
+      "text": "Both twelve and eighteen divide by six."
+    },
+    {
+      "start": 80.544375,
+      "end": 85.29170833333333,
+      "text": "Twelve divided by six is two; eighteen divided by six is three."
+    },
+    {
+      "start": 85.94170833333334,
+      "end": 90.61975,
+      "text": "Be careful: adding the same number to both numbers does not preserve the value."
+    },
+    {
+      "start": 90.83975,
+      "end": 93.60658333333333,
+      "text": "One half and two thirds are different amounts."
+    },
+    {
+      "start": 94.25658333333334,
+      "end": 96.57883333333334,
+      "text": "We can also partition a fraction."
+    },
+    {
+      "start": 96.79883333333333,
+      "end": 100.6505,
+      "text": "Three quarters is three one-quarter pieces added together."
+    },
+    {
+      "start": 101.3005,
+      "end": 106.39383333333333,
+      "text": "Two quarters make one half, so three quarters is also one half plus one quarter."
+    },
+    {
+      "start": 106.61383333333333,
+      "end": 109.67529166666667,
+      "text": "Different partitions can describe the same amount."
+    },
+    {
+      "start": 110.32529166666667,
+      "end": 113.36158333333333,
+      "text": "Is six eighths equivalent to three quarters?"
+    },
+    {
+      "start": 117.36158333333333,
+      "end": 118.391875,
+      "text": "Yes."
+    },
+    {
+      "start": 118.611875,
+      "end": 122.37270833333334,
+      "text": "Dividing both six and eight by two gives three quarters."
+    },
+    {
+      "start": 123.37270833333334,
+      "end": 126.26183333333333,
+      "text": "Equivalent fractions name the same amount."
+    },
+    {
+      "start": 126.48183333333333,
+      "end": 130.803125,
+      "text": "Multiply or divide both numbers by the same non-zero factor."
+    },
+    {
+      "start": 131.023125,
+      "end": 135.41345833333332,
+      "text": "A model or number line helps you check that the value stays unchanged."
+    }
+  ],
+  "pauses": [
+    [
+      3.4844583333333334,
+      4.134458333333334,
+      "sentence pause"
+    ],
+    [
+      7.272083333333334,
+      7.492083333333333,
+      "sentence pause"
+    ],
+    [
+      12.0195,
+      12.239500000000001,
+      "sentence pause"
+    ],
+    [
+      15.731458333333334,
+      16.381458333333335,
+      "sentence pause"
+    ],
+    [
+      18.029375,
+      18.249375,
+      "sentence pause"
+    ],
+    [
+      21.785833333333333,
+      22.00583333333333,
+      "sentence pause"
+    ],
+    [
+      24.918458333333334,
+      25.568458333333332,
+      "sentence pause"
+    ],
+    [
+      27.869125,
+      28.089125,
+      "sentence pause"
+    ],
+    [
+      30.878,
+      31.098,
+      "sentence pause"
+    ],
+    [
+      34.692791666666665,
+      35.34279166666666,
+      "sentence pause"
+    ],
+    [
+      37.47091666666667,
+      37.690916666666666,
+      "sentence pause"
+    ],
+    [
+      42.00516666666667,
+      42.655166666666666,
+      "sentence pause"
+    ],
+    [
+      46.135333333333335,
+      46.355333333333334,
+      "sentence pause"
+    ],
+    [
+      50.195458333333335,
+      50.84545833333333,
+      "sentence pause"
+    ],
+    [
+      55.06775,
+      55.287749999999996,
+      "sentence pause"
+    ],
+    [
+      57.482125,
+      58.132125,
+      "sentence pause"
+    ],
+    [
+      60.515708333333336,
+      60.735708333333335,
+      "sentence pause"
+    ],
+    [
+      65.229875,
+      65.87987500000001,
+      "sentence pause"
+    ],
+    [
+      67.97033333333333,
+      68.19033333333333,
+      "sentence pause"
+    ],
+    [
+      70.75179166666666,
+      70.97179166666666,
+      "sentence pause"
+    ],
+    [
+      74.34433333333334,
+      74.99433333333334,
+      "sentence pause"
+    ],
+    [
+      76.81554166666666,
+      77.03554166666666,
+      "sentence pause"
+    ],
+    [
+      80.324375,
+      80.544375,
+      "sentence pause"
+    ],
+    [
+      85.29170833333333,
+      85.94170833333334,
+      "sentence pause"
+    ],
+    [
+      90.61975,
+      90.83975,
+      "sentence pause"
+    ],
+    [
+      93.60658333333333,
+      94.25658333333334,
+      "sentence pause"
+    ],
+    [
+      96.57883333333334,
+      96.79883333333333,
+      "sentence pause"
+    ],
+    [
+      100.6505,
+      101.3005,
+      "sentence pause"
+    ],
+    [
+      106.39383333333333,
+      106.61383333333333,
+      "sentence pause"
+    ],
+    [
+      109.67529166666667,
+      110.32529166666667,
+      "sentence pause"
+    ],
+    [
+      113.36158333333333,
+      117.36158333333333,
+      "think time"
+    ],
+    [
+      118.391875,
+      118.611875,
+      "sentence pause"
+    ],
+    [
+      122.37270833333334,
+      123.37270833333334,
+      "sentence pause"
+    ],
+    [
+      126.26183333333333,
+      126.48183333333333,
+      "sentence pause"
+    ],
+    [
+      130.803125,
+      131.023125,
+      "sentence pause"
+    ],
+    [
+      135.41345833333332,
+      136.06345833333333,
+      "sentence pause"
+    ]
+  ],
+  "duration": 136.06345833333333,
+  "narration_sha256": "12d469fd31e0718d726fd17658616029f6c7925fdfe86ceb5bdbaea7d6c139a1",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

@@ -1,0 +1,127 @@
+name: MathMagic five-hour production
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  actions: read
+concurrency:
+  group: mathmagic-production-main
+  cancel-in-progress: false
+jobs:
+  produce:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 270
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check scheduler and scoped integration safety
+        run: python -m unittest discover -s video-agent/production-v2 -p 'test_*.py'
+      - name: Reconcile previously published media
+        run: python video-agent/production-v2/pipeline.py verify-live || true
+      - name: Check persisted five-hour due time
+        id: due
+        run: echo "due=$(python video-agent/production-v2/pipeline.py due)" >> "$GITHUB_OUTPUT"
+      - name: Restore model
+        if: steps.due.outputs.due == 'true'
+        uses: actions/cache@v4
+        with:
+          path: work/models/kokoro-en-v0_19
+          key: kokoro-en-v019-912804855a04745f
+      - name: Restore latest resumable work
+        if: steps.due.outputs.due == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: work/production-v2
+          key: production-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: production-v2-
+      - name: Recover intermediates from artifact if the cache was evicted
+        if: steps.due.outputs.due == 'true'
+        run: |
+          if [ ! -d work/production-v2 ]; then
+            artifact_id=$(gh api "repos/${{ github.repository }}/actions/artifacts?per_page=100" --jq '[.artifacts[] | select((.name | startswith("production-")) and .expired == false)] | sort_by(.created_at) | reverse | .[0].id // empty')
+            if [ -n "$artifact_id" ]; then
+              gh api "repos/${{ github.repository }}/actions/artifacts/$artifact_id/zip" > "$RUNNER_TEMP/production-recovery.zip"
+              unzip -q -o "$RUNNER_TEMP/production-recovery.zip" 'work/production-v2/*' -d .
+            fi
+          fi
+      - name: Install pinned local tools and verify model package
+        if: steps.due.outputs.due == 'true'
+        run: |
+          python -m pip install -r video-agent/production-v2/requirements.txt
+          command -v ffmpeg
+          if [ ! -f work/models/kokoro-en-v0_19/voices.bin ]; then
+            mkdir -p work/models
+            curl --fail --location --retry 2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-en-v0_19.tar.bz2 -o work/models/model.tar.bz2
+            echo '912804855a04745fa77a30be545b3f9a5d15c4d66db00b88cbcd4921df605ac7  work/models/model.tar.bz2' | sha256sum --check
+            tar -xjf work/models/model.tar.bz2 -C work/models
+            rm work/models/model.tar.bz2
+          fi
+      - name: Produce or resume the active five-video batch
+        if: steps.due.outputs.due == 'true'
+        run: python video-agent/production-v2/pipeline.py run --voice-dir work/models/kokoro-en-v0_19 --work-dir work/production-v2 --budget-minutes 220
+      - name: Persist completed cue renders and narration
+        if: always() && steps.due.outputs.due == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: work/production-v2
+          key: production-v2-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Retain batch recovery artifact
+        if: always() && steps.due.outputs.due == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            work/production-v2
+            video-agent/production-v2/manifest.json
+            video-agent/production-v2/status.json
+            videos/MathMagic_V2_*
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Commit verified assets and progress without overwriting newer main
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add video-agent/production-v2 videos fractions.html whole-numbers.html addition-subtraction.html multiplication-division.html decimals-percentages.html factors-multiples.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Advance MathMagic production batch and checkpoint progress'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+      - name: Request legacy Pages deployment explicitly
+        if: always()
+        run: |
+          if python -c "import json; m=json.load(open('video-agent/production-v2/manifest.json')); exit(not any(e['production_status']=='integrated' and e['deployment_status']!='verified_live' for e in m['lessons'].values()))"; then
+            gh api --method POST repos/${{ github.repository }}/pages/builds
+          fi
+      - name: Verify public media and page references
+        if: always()
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if python video-agent/production-v2/pipeline.py verify-live; then break; fi
+            if [ "$attempt" -eq 6 ]; then exit 1; fi
+            sleep 45
+          done
+      - name: Commit deployment evidence
+        if: always()
+        run: |
+          git add video-agent/production-v2/manifest.json video-agent/production-v2/status.json video-agent/production-v2/STATUS.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record observed MathMagic publication status'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi

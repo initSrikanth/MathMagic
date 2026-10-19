@@ -1,0 +1,858 @@
+{
+  "input_hash": "98549976217745b81952d8d38add67f20b6b840500c5bd0ec26747ce6e793382",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.570166666666665,
+      "lesson_progress": 0.06666666666666667,
+      "text": "What happens when the amount is bigger than one whole? Today we are exploring mixed numbers and improper fractions. We will build the wholes, count the extra pieces, and connect two ways of naming exactly the same amount. Ready to investigate?",
+      "chapter": "Beyond one whole",
+      "equation": [
+        [
+          11,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "First whole",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Second whole",
+          "colour": "gold"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three more quarters",
+          "colour": "teal"
+        }
+      ],
+      "note": "Every whole is the same size.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.570166666666665,
+      "end": 24.366125,
+      "lesson_progress": 0.13333333333333333,
+      "text": "Four quarters make one whole. Another four quarters make a second whole. Three quarters are left over.",
+      "chapter": "Group complete wholes",
+      "equation": [
+        [
+          11,
+          4
+        ],
+        "=",
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "4 quarters = 1 whole",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "4 quarters = 1 whole",
+          "colour": "gold"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "3 quarters remain",
+          "colour": "teal"
+        }
+      ],
+      "note": "Eleven quarters makes two wholes and three quarters.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 2,
+      "start": 24.366125,
+      "end": 34.02033333333333,
+      "lesson_progress": 0.2,
+      "text": "Eleven quarters is an improper fraction. Its numerator is at least as large as its denominator. It can describe one whole or more.",
+      "chapter": "Improper fractions",
+      "equation": [
+        [
+          11,
+          4
+        ],
+        ">",
+        "1"
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "One whole",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "One whole",
+          "colour": "gold"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "A fractional part",
+          "colour": "teal"
+        }
+      ],
+      "note": "Improper does not mean incorrect.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 3,
+      "start": 34.02033333333333,
+      "end": 40.56104166666667,
+      "lesson_progress": 0.26666666666666666,
+      "text": "Two and three quarters is a mixed number. It combines two whole units with a fractional part.",
+      "chapter": "Mixed numbers",
+      "equation": [
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Whole",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Whole",
+          "colour": "gold"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Fraction",
+          "colour": "teal"
+        }
+      ],
+      "note": "Keep a clear space between the whole number and fraction.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 40.56104166666667,
+      "end": 47.91266666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "To convert, divide eleven by four. Eleven divided by four is two with a remainder of three.",
+      "chapter": "Improper → mixed",
+      "equation": [
+        "11",
+        "÷",
+        "4",
+        "=",
+        "2",
+        "remainder",
+        "3"
+      ],
+      "rows": [],
+      "note": "The quotient counts whole units. The remainder counts quarter-pieces.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 5,
+      "start": 47.91266666666667,
+      "end": 56.03216666666667,
+      "lesson_progress": 0.4,
+      "text": "The denominator stays four because our pieces are still quarters. So eleven quarters equals two and three quarters.",
+      "chapter": "Keep the piece size",
+      "equation": [
+        [
+          11,
+          4
+        ],
+        "=",
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Two complete wholes, then three more quarter-steps.",
+      "line": {
+        "d": 4,
+        "points": [
+          11
+        ],
+        "maximum": 3,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 6,
+      "start": 56.03216666666667,
+      "end": 63.54604166666667,
+      "lesson_progress": 0.4666666666666667,
+      "text": "Now go the other way. Take three and two fifths. Each whole contains five fifths.",
+      "chapter": "Mixed → improper",
+      "equation": [
+        [
+          3,
+          2,
+          5
+        ]
+      ],
+      "rows": [
+        {
+          "n": 5,
+          "d": 5,
+          "label": "One whole",
+          "colour": "teal"
+        },
+        {
+          "n": 5,
+          "d": 5,
+          "label": "One whole",
+          "colour": "gold"
+        },
+        {
+          "n": 5,
+          "d": 5,
+          "label": "One whole",
+          "colour": "teal"
+        }
+      ],
+      "note": "Three wholes contain fifteen fifths.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 7,
+      "start": 63.54604166666667,
+      "end": 70.62825,
+      "lesson_progress": 0.5333333333333333,
+      "text": "Three times five gives fifteen fifths. Add the extra two fifths to make seventeen fifths.",
+      "chapter": "Count all the fifths",
+      "equation": [
+        "3",
+        "×",
+        "5",
+        "+",
+        "2",
+        "=",
+        "17"
+      ],
+      "rows": [
+        {
+          "n": 17,
+          "d": 5,
+          "label": "Three whole units, then two more fifths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Fifteen fifths + two fifths = seventeen fifths.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 8,
+      "start": 70.62825,
+      "end": 80.181625,
+      "lesson_progress": 0.6,
+      "text": "So three and two fifths equals seventeen fifths. Multiply the whole number by the denominator, add the numerator, and keep the denominator.",
+      "chapter": "Same amount, different form",
+      "equation": [
+        [
+          3,
+          2,
+          5
+        ],
+        "=",
+        [
+          17,
+          5
+        ]
+      ],
+      "rows": [
+        {
+          "n": 17,
+          "d": 5,
+          "label": "Seventeen fifths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Wholes × parts per whole + extra parts.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 9,
+      "start": 80.181625,
+      "end": 87.95033333333333,
+      "lesson_progress": 0.6666666666666666,
+      "text": "A fraction can also equal an exact whole. Eight quarters is two wholes, with no fractional part left over.",
+      "chapter": "An exact whole",
+      "equation": [
+        [
+          8,
+          4
+        ],
+        "=",
+        "2"
+      ],
+      "rows": [
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Four quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 4,
+          "label": "Four quarters",
+          "colour": "gold"
+        }
+      ],
+      "note": "A zero remainder means no fractional part remains.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 10,
+      "start": 87.95033333333333,
+      "end": 95.65416666666667,
+      "lesson_progress": 0.7333333333333333,
+      "text": "To compare mixed numbers, compare the wholes first. Three and one quarter is greater than two and three quarters.",
+      "chapter": "Compare the wholes first",
+      "equation": [
+        [
+          3,
+          1,
+          4
+        ],
+        ">",
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Three wholes already exceeds two and three quarters.",
+      "line": {
+        "d": 4,
+        "points": [
+          11,
+          13
+        ],
+        "maximum": 4,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 11,
+      "start": 95.65416666666667,
+      "end": 102.84758333333333,
+      "lesson_progress": 0.8,
+      "text": "If the wholes match, compare the fractional parts. Two and one half is greater than two and one quarter.",
+      "chapter": "Then compare the fractions",
+      "equation": [
+        [
+          2,
+          1,
+          2
+        ],
+        ">",
+        [
+          2,
+          1,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Both have two wholes. One half is greater than one quarter.",
+      "line": {
+        "d": 4,
+        "points": [
+          9,
+          10
+        ],
+        "maximum": 3,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 12,
+      "start": 102.84758333333333,
+      "end": 109.834375,
+      "lesson_progress": 0.8666666666666667,
+      "chapter": "Think it through",
+      "equation": [
+        [
+          9,
+          4
+        ],
+        "=",
+        "?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Take four seconds to think.",
+      "text": "How many wholes and quarters are in nine quarters?",
+      "pause": 4,
+      "role": "question"
+    },
+    {
+      "index": 13,
+      "start": 109.834375,
+      "end": 113.86075,
+      "lesson_progress": 0.9333333333333333,
+      "chapter": "Let’s check",
+      "equation": [
+        [
+          9,
+          4
+        ],
+        "=",
+        [
+          2,
+          1,
+          4
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Explain why your answer makes sense.",
+      "text": "Nine quarters is two wholes and one quarter.",
+      "pause": 1,
+      "role": "answer"
+    },
+    {
+      "index": 14,
+      "start": 113.86075,
+      "end": 124.31916666666666,
+      "lesson_progress": 1.0,
+      "text": "Group equal fractional parts to make wholes, then keep the remainder as a fraction. Mixed numbers and improper fractions are two ways to name the same amount.",
+      "chapter": "Two ways to name an amount",
+      "equation": [
+        [
+          9,
+          4
+        ],
+        "=",
+        [
+          2,
+          1,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Group to make wholes. Count pieces to go back.",
+      "line": {
+        "d": 4,
+        "points": [
+          9
+        ],
+        "maximum": 3,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.11725,
+      "text": "What happens when the amount is bigger than one whole?"
+    },
+    {
+      "start": 3.76725,
+      "end": 7.708666666666667,
+      "text": "Today we are exploring mixed numbers and improper fractions."
+    },
+    {
+      "start": 7.9286666666666665,
+      "end": 13.869041666666666,
+      "text": "We will build the wholes, count the extra pieces, and connect two ways of naming exactly the same amount."
+    },
+    {
+      "start": 14.089041666666667,
+      "end": 15.920166666666667,
+      "text": "Ready to investigate?"
+    },
+    {
+      "start": 16.570166666666665,
+      "end": 18.637166666666666,
+      "text": "Four quarters make one whole."
+    },
+    {
+      "start": 18.857166666666668,
+      "end": 21.48575,
+      "text": "Another four quarters make a second whole."
+    },
+    {
+      "start": 21.70575,
+      "end": 23.716125,
+      "text": "Three quarters are left over."
+    },
+    {
+      "start": 24.366125,
+      "end": 27.263125,
+      "text": "Eleven quarters is an improper fraction."
+    },
+    {
+      "start": 27.483125,
+      "end": 30.918375,
+      "text": "Its numerator is at least as large as its denominator."
+    },
+    {
+      "start": 31.138375,
+      "end": 33.370333333333335,
+      "text": "It can describe one whole or more."
+    },
+    {
+      "start": 34.02033333333333,
+      "end": 36.55866666666667,
+      "text": "Two and three quarters is a mixed number."
+    },
+    {
+      "start": 36.778666666666666,
+      "end": 39.91104166666667,
+      "text": "It combines two whole units with a fractional part."
+    },
+    {
+      "start": 40.56104166666667,
+      "end": 43.278125,
+      "text": "To convert, divide eleven by four."
+    },
+    {
+      "start": 43.498125,
+      "end": 47.26266666666667,
+      "text": "Eleven divided by four is two with a remainder of three."
+    },
+    {
+      "start": 47.91266666666667,
+      "end": 51.88070833333333,
+      "text": "The denominator stays four because our pieces are still quarters."
+    },
+    {
+      "start": 52.10070833333333,
+      "end": 55.38216666666667,
+      "text": "So eleven quarters equals two and three quarters."
+    },
+    {
+      "start": 56.03216666666667,
+      "end": 57.73679166666667,
+      "text": "Now go the other way."
+    },
+    {
+      "start": 57.95679166666667,
+      "end": 60.084375,
+      "text": "Take three and two fifths."
+    },
+    {
+      "start": 60.304375,
+      "end": 62.89604166666667,
+      "text": "Each whole contains five fifths."
+    },
+    {
+      "start": 63.54604166666667,
+      "end": 66.25795833333333,
+      "text": "Three times five gives fifteen fifths."
+    },
+    {
+      "start": 66.47795833333333,
+      "end": 69.97825,
+      "text": "Add the extra two fifths to make seventeen fifths."
+    },
+    {
+      "start": 70.62825,
+      "end": 74.227625,
+      "text": "So three and two fifths equals seventeen fifths."
+    },
+    {
+      "start": 74.447625,
+      "end": 79.531625,
+      "text": "Multiply the whole number by the denominator, add the numerator, and keep the denominator."
+    },
+    {
+      "start": 80.181625,
+      "end": 83.1315,
+      "text": "A fraction can also equal an exact whole."
+    },
+    {
+      "start": 83.3515,
+      "end": 87.30033333333333,
+      "text": "Eight quarters is two wholes, with no fractional part left over."
+    },
+    {
+      "start": 87.95033333333333,
+      "end": 91.11254166666667,
+      "text": "To compare mixed numbers, compare the wholes first."
+    },
+    {
+      "start": 91.33254166666667,
+      "end": 95.00416666666666,
+      "text": "Three and one quarter is greater than two and three quarters."
+    },
+    {
+      "start": 95.65416666666667,
+      "end": 98.66645833333334,
+      "text": "If the wholes match, compare the fractional parts."
+    },
+    {
+      "start": 98.88645833333334,
+      "end": 102.19758333333333,
+      "text": "Two and one half is greater than two and one quarter."
+    },
+    {
+      "start": 102.84758333333333,
+      "end": 105.834375,
+      "text": "How many wholes and quarters are in nine quarters?"
+    },
+    {
+      "start": 109.834375,
+      "end": 112.86075,
+      "text": "Nine quarters is two wholes and one quarter."
+    },
+    {
+      "start": 113.86075,
+      "end": 118.88316666666667,
+      "text": "Group equal fractional parts to make wholes, then keep the remainder as a fraction."
+    },
+    {
+      "start": 119.10316666666667,
+      "end": 123.66916666666667,
+      "text": "Mixed numbers and improper fractions are two ways to name the same amount."
+    }
+  ],
+  "pauses": [
+    [
+      3.11725,
+      3.7672499999999998,
+      "sentence pause"
+    ],
+    [
+      7.708666666666667,
+      7.9286666666666665,
+      "sentence pause"
+    ],
+    [
+      13.869041666666666,
+      14.089041666666667,
+      "sentence pause"
+    ],
+    [
+      15.920166666666667,
+      16.570166666666665,
+      "sentence pause"
+    ],
+    [
+      18.637166666666666,
+      18.857166666666664,
+      "sentence pause"
+    ],
+    [
+      21.48575,
+      21.70575,
+      "sentence pause"
+    ],
+    [
+      23.716125,
+      24.366125,
+      "sentence pause"
+    ],
+    [
+      27.263125,
+      27.483124999999998,
+      "sentence pause"
+    ],
+    [
+      30.918375,
+      31.138375,
+      "sentence pause"
+    ],
+    [
+      33.370333333333335,
+      34.02033333333333,
+      "sentence pause"
+    ],
+    [
+      36.55866666666667,
+      36.778666666666666,
+      "sentence pause"
+    ],
+    [
+      39.91104166666667,
+      40.56104166666667,
+      "sentence pause"
+    ],
+    [
+      43.278125,
+      43.498125,
+      "sentence pause"
+    ],
+    [
+      47.26266666666667,
+      47.91266666666667,
+      "sentence pause"
+    ],
+    [
+      51.88070833333333,
+      52.10070833333333,
+      "sentence pause"
+    ],
+    [
+      55.38216666666667,
+      56.03216666666667,
+      "sentence pause"
+    ],
+    [
+      57.73679166666667,
+      57.95679166666667,
+      "sentence pause"
+    ],
+    [
+      60.084375,
+      60.304375,
+      "sentence pause"
+    ],
+    [
+      62.89604166666667,
+      63.54604166666667,
+      "sentence pause"
+    ],
+    [
+      66.25795833333333,
+      66.47795833333333,
+      "sentence pause"
+    ],
+    [
+      69.97825,
+      70.62825000000001,
+      "sentence pause"
+    ],
+    [
+      74.227625,
+      74.447625,
+      "sentence pause"
+    ],
+    [
+      79.531625,
+      80.18162500000001,
+      "sentence pause"
+    ],
+    [
+      83.1315,
+      83.3515,
+      "sentence pause"
+    ],
+    [
+      87.30033333333333,
+      87.95033333333333,
+      "sentence pause"
+    ],
+    [
+      91.11254166666667,
+      91.33254166666667,
+      "sentence pause"
+    ],
+    [
+      95.00416666666666,
+      95.65416666666667,
+      "sentence pause"
+    ],
+    [
+      98.66645833333334,
+      98.88645833333334,
+      "sentence pause"
+    ],
+    [
+      102.19758333333333,
+      102.84758333333333,
+      "sentence pause"
+    ],
+    [
+      105.834375,
+      109.834375,
+      "think time"
+    ],
+    [
+      112.86075,
+      113.86075,
+      "sentence pause"
+    ],
+    [
+      118.88316666666667,
+      119.10316666666667,
+      "sentence pause"
+    ],
+    [
+      123.66916666666667,
+      124.31916666666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 124.31916666666666,
+  "narration_sha256": "6183aac78f95fb58f196ea6afefb616acc3e795e13716e3f4ce890b77f2ae3fa",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

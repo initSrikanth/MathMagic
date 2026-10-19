@@ -1,0 +1,833 @@
+{
+  "input_hash": "12c8d8cc5f739d35c249b342665853bed3e88c0a6fc2cc71b27b36f852d2f919",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.765125,
+      "lesson_progress": 0.06666666666666667,
+      "text": "Would you choose three quarters of a pizza, or one half? Today we are comparing and ordering fractions. We will build equal-sized wholes, look carefully at the pieces, and use a number line to explain which amount is bigger. What do you predict?",
+      "chapter": "Which is bigger?",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "?",
+        [
+          1,
+          2
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "gold"
+        }
+      ],
+      "note": "Always compare the same-sized whole.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.765125,
+      "end": 23.782333333333334,
+      "lesson_progress": 0.13333333333333333,
+      "text": "A fraction starts with equal parts. Here, one whole is divided into four equal pieces.",
+      "chapter": "Equal parts make fractions",
+      "equation": [
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Each piece is one quarter.",
+      "line": null,
+      "area": [
+        1,
+        4
+      ],
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 2,
+      "start": 23.782333333333334,
+      "end": 33.26795833333333,
+      "lesson_progress": 0.2,
+      "text": "Shade three pieces. The numerator, three, counts the shaded parts. The denominator, four, counts the equal parts in the whole.",
+      "chapter": "Read the fraction",
+      "equation": [
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Numerator: parts chosen. Denominator: equal parts in one whole.",
+      "line": null,
+      "area": [
+        3,
+        4
+      ],
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 3,
+      "start": 33.26795833333333,
+      "end": 42.33133333333333,
+      "lesson_progress": 0.26666666666666666,
+      "text": "A strip shows the same amount. Three of four equal lengths are shaded. The picture changes, but the value stays the same.",
+      "chapter": "Different model, same value",
+      "equation": [
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three equal quarter-lengths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Area models and strips show the same fraction.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 42.33133333333333,
+      "end": 51.571875,
+      "lesson_progress": 0.3333333333333333,
+      "text": "When denominators match, the pieces have the same size. Three quarters is greater than two quarters because three pieces are more than two.",
+      "chapter": "Same denominator",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        ">",
+        [
+          2,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "Two quarters",
+          "colour": "gold"
+        }
+      ],
+      "note": "Compare the numerators when denominators match.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 5,
+      "start": 51.571875,
+      "end": 59.39908333333333,
+      "lesson_progress": 0.4,
+      "text": "Now compare one third and one sixth. These wholes are the same length, but the sixths are smaller pieces.",
+      "chapter": "One piece: compare its size",
+      "equation": [
+        [
+          1,
+          3
+        ],
+        "?",
+        [
+          1,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 3,
+          "label": "One third",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 6,
+          "label": "One sixth",
+          "colour": "gold"
+        }
+      ],
+      "note": "More equal pieces in a whole means smaller pieces.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 6,
+      "start": 59.39908333333333,
+      "end": 66.876875,
+      "lesson_progress": 0.4666666666666667,
+      "text": "So one third is greater than one sixth. A bigger denominator does not always mean a bigger fraction.",
+      "chapter": "Unit fractions",
+      "equation": [
+        [
+          1,
+          3
+        ],
+        ">",
+        [
+          1,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 3,
+          "label": "One third",
+          "colour": "teal"
+        },
+        {
+          "n": 1,
+          "d": 6,
+          "label": "One sixth",
+          "colour": "gold"
+        }
+      ],
+      "note": "For unit fractions, compare the size of one piece.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 7,
+      "start": 66.876875,
+      "end": 75.61979166666667,
+      "lesson_progress": 0.5333333333333333,
+      "text": "Return to three quarters and one half. Split each half into two equal pieces. One half becomes two quarters.",
+      "chapter": "Use equal-sized parts",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "One half, renamed",
+          "colour": "gold"
+        }
+      ],
+      "note": "Renaming keeps the amount unchanged.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 8,
+      "start": 75.61979166666667,
+      "end": 83.38995833333334,
+      "lesson_progress": 0.6,
+      "text": "Now the parts match. Three quarters is greater than two quarters, so three quarters is greater than one half.",
+      "chapter": "Make the comparison",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        ">",
+        [
+          1,
+          2
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "One half",
+          "colour": "gold"
+        }
+      ],
+      "note": "Same whole. Same-sized parts. Clear comparison.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 9,
+      "start": 83.38995833333334,
+      "end": 92.32183333333333,
+      "lesson_progress": 0.6666666666666666,
+      "text": "A number line shows fraction size as distance from zero. Divide the distance from zero to one into four equal intervals.",
+      "chapter": "Fractions are numbers",
+      "equation": [],
+      "rows": [],
+      "note": "Count intervals, not tick marks.",
+      "line": {
+        "d": 4,
+        "points": [],
+        "maximum": 1,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 10,
+      "start": 92.32183333333333,
+      "end": 100.0815,
+      "lesson_progress": 0.7333333333333333,
+      "text": "One quarter is one interval from zero. One half is two intervals, and three quarters is three intervals.",
+      "chapter": "Locate the fractions",
+      "equation": [
+        [
+          1,
+          4
+        ],
+        "<",
+        [
+          1,
+          2
+        ],
+        "<",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Numbers get larger as you move to the right.",
+      "line": {
+        "d": 4,
+        "points": [
+          1,
+          2,
+          3
+        ],
+        "maximum": 1,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 11,
+      "start": 100.0815,
+      "end": 107.033375,
+      "lesson_progress": 0.8,
+      "text": "Read from left to right to order them from smallest to largest: one quarter, one half, then three quarters.",
+      "chapter": "Order from smallest to largest",
+      "equation": [
+        [
+          1,
+          4
+        ],
+        "<",
+        [
+          1,
+          2
+        ],
+        "<",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "note": "Left to right: smallest to largest.",
+      "line": {
+        "d": 4,
+        "points": [
+          1,
+          2,
+          3
+        ],
+        "maximum": 1,
+        "jump": [
+          1,
+          3
+        ]
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation"
+    },
+    {
+      "index": 12,
+      "start": 107.033375,
+      "end": 114.10391666666666,
+      "lesson_progress": 0.8666666666666667,
+      "chapter": "Think it through",
+      "equation": [
+        [
+          5,
+          8
+        ],
+        "?",
+        [
+          3,
+          8
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Take four seconds to think.",
+      "text": "Which is greater, five eighths or three eighths?",
+      "pause": 4,
+      "role": "question"
+    },
+    {
+      "index": 13,
+      "start": 114.10391666666666,
+      "end": 119.20045833333333,
+      "lesson_progress": 0.9333333333333333,
+      "chapter": "Let’s check",
+      "equation": [
+        [
+          5,
+          8
+        ],
+        ">",
+        [
+          3,
+          8
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Explain why your answer makes sense.",
+      "text": "Five eighths is greater: the same-sized parts are being counted.",
+      "pause": 1,
+      "role": "answer"
+    },
+    {
+      "index": 14,
+      "start": 119.20045833333333,
+      "end": 128.72516666666667,
+      "lesson_progress": 1.0,
+      "text": "Compare equal wholes. When pieces have the same size, compare their counts. Use a number line to order fractions from left to right.",
+      "chapter": "You have it!",
+      "equation": [
+        [
+          5,
+          8
+        ],
+        ">",
+        [
+          3,
+          8
+        ]
+      ],
+      "rows": [],
+      "note": "Equal wholes → equal-sized parts → compare or order.",
+      "line": {
+        "d": 8,
+        "points": [
+          3,
+          5
+        ],
+        "maximum": 1,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.4949583333333334,
+      "text": "Would you choose three quarters of a pizza, or one half?"
+    },
+    {
+      "start": 4.144958333333333,
+      "end": 7.410875,
+      "text": "Today we are comparing and ordering fractions."
+    },
+    {
+      "start": 7.630875,
+      "end": 14.476583333333334,
+      "text": "We will build equal-sized wholes, look carefully at the pieces, and use a number line to explain which amount is bigger."
+    },
+    {
+      "start": 14.696583333333333,
+      "end": 16.115125,
+      "text": "What do you predict?"
+    },
+    {
+      "start": 16.765125,
+      "end": 19.302958333333333,
+      "text": "A fraction starts with equal parts."
+    },
+    {
+      "start": 19.52295833333333,
+      "end": 23.13233333333333,
+      "text": "Here, one whole is divided into four equal pieces."
+    },
+    {
+      "start": 23.782333333333334,
+      "end": 25.56833333333333,
+      "text": "Shade three pieces."
+    },
+    {
+      "start": 25.788333333333334,
+      "end": 28.797,
+      "text": "The numerator, three, counts the shaded parts."
+    },
+    {
+      "start": 29.017,
+      "end": 32.617958333333334,
+      "text": "The denominator, four, counts the equal parts in the whole."
+    },
+    {
+      "start": 33.26795833333333,
+      "end": 35.488625,
+      "text": "A strip shows the same amount."
+    },
+    {
+      "start": 35.708625,
+      "end": 38.374583333333334,
+      "text": "Three of four equal lengths are shaded."
+    },
+    {
+      "start": 38.59458333333333,
+      "end": 41.681333333333335,
+      "text": "The picture changes, but the value stays the same."
+    },
+    {
+      "start": 42.33133333333333,
+      "end": 45.92220833333333,
+      "text": "When denominators match, the pieces have the same size."
+    },
+    {
+      "start": 46.142208333333336,
+      "end": 50.921875,
+      "text": "Three quarters is greater than two quarters because three pieces are more than two."
+    },
+    {
+      "start": 51.571875,
+      "end": 54.51204166666667,
+      "text": "Now compare one third and one sixth."
+    },
+    {
+      "start": 54.73204166666667,
+      "end": 58.74908333333333,
+      "text": "These wholes are the same length, but the sixths are smaller pieces."
+    },
+    {
+      "start": 59.39908333333333,
+      "end": 62.31741666666667,
+      "text": "So one third is greater than one sixth."
+    },
+    {
+      "start": 62.537416666666665,
+      "end": 66.226875,
+      "text": "A bigger denominator does not always mean a bigger fraction."
+    },
+    {
+      "start": 66.876875,
+      "end": 69.43220833333334,
+      "text": "Return to three quarters and one half."
+    },
+    {
+      "start": 69.65220833333333,
+      "end": 72.49529166666666,
+      "text": "Split each half into two equal pieces."
+    },
+    {
+      "start": 72.71529166666667,
+      "end": 74.96979166666667,
+      "text": "One half becomes two quarters."
+    },
+    {
+      "start": 75.61979166666667,
+      "end": 77.29804166666666,
+      "text": "Now the parts match."
+    },
+    {
+      "start": 77.51804166666666,
+      "end": 82.73995833333333,
+      "text": "Three quarters is greater than two quarters, so three quarters is greater than one half."
+    },
+    {
+      "start": 83.38995833333334,
+      "end": 87.20333333333333,
+      "text": "A number line shows fraction size as distance from zero."
+    },
+    {
+      "start": 87.42333333333333,
+      "end": 91.67183333333334,
+      "text": "Divide the distance from zero to one into four equal intervals."
+    },
+    {
+      "start": 92.32183333333333,
+      "end": 95.12195833333334,
+      "text": "One quarter is one interval from zero."
+    },
+    {
+      "start": 95.34195833333334,
+      "end": 99.4315,
+      "text": "One half is two intervals, and three quarters is three intervals."
+    },
+    {
+      "start": 100.0815,
+      "end": 106.383375,
+      "text": "Read from left to right to order them from smallest to largest: one quarter, one half, then three quarters."
+    },
+    {
+      "start": 107.033375,
+      "end": 110.10391666666666,
+      "text": "Which is greater, five eighths or three eighths?"
+    },
+    {
+      "start": 114.10391666666666,
+      "end": 118.20045833333333,
+      "text": "Five eighths is greater: the same-sized parts are being counted."
+    },
+    {
+      "start": 119.20045833333333,
+      "end": 120.9685,
+      "text": "Compare equal wholes."
+    },
+    {
+      "start": 121.1885,
+      "end": 124.48883333333333,
+      "text": "When pieces have the same size, compare their counts."
+    },
+    {
+      "start": 124.70883333333333,
+      "end": 128.07516666666666,
+      "text": "Use a number line to order fractions from left to right."
+    }
+  ],
+  "pauses": [
+    [
+      3.4949583333333334,
+      4.144958333333333,
+      "sentence pause"
+    ],
+    [
+      7.410875,
+      7.630875,
+      "sentence pause"
+    ],
+    [
+      14.476583333333334,
+      14.696583333333335,
+      "sentence pause"
+    ],
+    [
+      16.115125,
+      16.765124999999998,
+      "sentence pause"
+    ],
+    [
+      19.302958333333333,
+      19.52295833333333,
+      "sentence pause"
+    ],
+    [
+      23.13233333333333,
+      23.78233333333333,
+      "sentence pause"
+    ],
+    [
+      25.56833333333333,
+      25.78833333333333,
+      "sentence pause"
+    ],
+    [
+      28.797,
+      29.017,
+      "sentence pause"
+    ],
+    [
+      32.617958333333334,
+      33.26795833333333,
+      "sentence pause"
+    ],
+    [
+      35.488625,
+      35.708625,
+      "sentence pause"
+    ],
+    [
+      38.374583333333334,
+      38.59458333333333,
+      "sentence pause"
+    ],
+    [
+      41.681333333333335,
+      42.33133333333333,
+      "sentence pause"
+    ],
+    [
+      45.92220833333333,
+      46.14220833333333,
+      "sentence pause"
+    ],
+    [
+      50.921875,
+      51.571875,
+      "sentence pause"
+    ],
+    [
+      54.51204166666667,
+      54.73204166666667,
+      "sentence pause"
+    ],
+    [
+      58.74908333333333,
+      59.39908333333333,
+      "sentence pause"
+    ],
+    [
+      62.31741666666667,
+      62.537416666666665,
+      "sentence pause"
+    ],
+    [
+      66.226875,
+      66.87687500000001,
+      "sentence pause"
+    ],
+    [
+      69.43220833333334,
+      69.65220833333333,
+      "sentence pause"
+    ],
+    [
+      72.49529166666666,
+      72.71529166666666,
+      "sentence pause"
+    ],
+    [
+      74.96979166666667,
+      75.61979166666667,
+      "sentence pause"
+    ],
+    [
+      77.29804166666666,
+      77.51804166666666,
+      "sentence pause"
+    ],
+    [
+      82.73995833333333,
+      83.38995833333334,
+      "sentence pause"
+    ],
+    [
+      87.20333333333333,
+      87.42333333333333,
+      "sentence pause"
+    ],
+    [
+      91.67183333333334,
+      92.32183333333334,
+      "sentence pause"
+    ],
+    [
+      95.12195833333334,
+      95.34195833333334,
+      "sentence pause"
+    ],
+    [
+      99.4315,
+      100.0815,
+      "sentence pause"
+    ],
+    [
+      106.383375,
+      107.033375,
+      "sentence pause"
+    ],
+    [
+      110.10391666666666,
+      114.10391666666666,
+      "think time"
+    ],
+    [
+      118.20045833333333,
+      119.20045833333333,
+      "sentence pause"
+    ],
+    [
+      120.9685,
+      121.1885,
+      "sentence pause"
+    ],
+    [
+      124.48883333333333,
+      124.70883333333333,
+      "sentence pause"
+    ],
+    [
+      128.07516666666666,
+      128.72516666666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 128.72516666666667,
+  "narration_sha256": "d0f5e99c91c2c4bb0049dd52e5fcafdb99744c90e1e279273d7c552431af5b70",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

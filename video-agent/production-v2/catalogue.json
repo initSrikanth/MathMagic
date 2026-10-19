@@ -1,0 +1,6070 @@
+[
+  {
+    "id": "fractions-comparing",
+    "section": "meaning",
+    "title": "Comparing and Ordering Fractions",
+    "file": "MathMagic_V2_fractions_comparing",
+    "beats": [
+      {
+        "text": "Would you choose three quarters of a pizza, or one half? Today we are comparing and ordering fractions. We will build equal-sized wholes, look carefully at the pieces, and use a number line to explain which amount is bigger. What do you predict?",
+        "chapter": "Which is bigger?",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "?",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "gold"
+          }
+        ],
+        "note": "Always compare the same-sized whole.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "opening"
+      },
+      {
+        "text": "A fraction starts with equal parts. Here, one whole is divided into four equal pieces.",
+        "chapter": "Equal parts make fractions",
+        "equation": [
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Each piece is one quarter.",
+        "line": null,
+        "area": [
+          1,
+          4
+        ],
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Shade three pieces. The numerator, three, counts the shaded parts. The denominator, four, counts the equal parts in the whole.",
+        "chapter": "Read the fraction",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Numerator: parts chosen. Denominator: equal parts in one whole.",
+        "line": null,
+        "area": [
+          3,
+          4
+        ],
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "A strip shows the same amount. Three of four equal lengths are shaded. The picture changes, but the value stays the same.",
+        "chapter": "Different model, same value",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three equal quarter-lengths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Area models and strips show the same fraction.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "When denominators match, the pieces have the same size. Three quarters is greater than two quarters because three pieces are more than two.",
+        "chapter": "Same denominator",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Compare the numerators when denominators match.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Now compare one third and one sixth. These wholes are the same length, but the sixths are smaller pieces.",
+        "chapter": "One piece: compare its size",
+        "equation": [
+          [
+            1,
+            3
+          ],
+          "?",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 3,
+            "label": "One third",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 6,
+            "label": "One sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "More equal pieces in a whole means smaller pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "So one third is greater than one sixth. A bigger denominator does not always mean a bigger fraction.",
+        "chapter": "Unit fractions",
+        "equation": [
+          [
+            1,
+            3
+          ],
+          ">",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 3,
+            "label": "One third",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 6,
+            "label": "One sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "For unit fractions, compare the size of one piece.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Return to three quarters and one half. Split each half into two equal pieces. One half becomes two quarters.",
+        "chapter": "Use equal-sized parts",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half, renamed",
+            "colour": "gold"
+          }
+        ],
+        "note": "Renaming keeps the amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Now the parts match. Three quarters is greater than two quarters, so three quarters is greater than one half.",
+        "chapter": "Make the comparison",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half",
+            "colour": "gold"
+          }
+        ],
+        "note": "Same whole. Same-sized parts. Clear comparison.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "A number line shows fraction size as distance from zero. Divide the distance from zero to one into four equal intervals.",
+        "chapter": "Fractions are numbers",
+        "equation": [],
+        "rows": [],
+        "note": "Count intervals, not tick marks.",
+        "line": {
+          "d": 4,
+          "points": [],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "One quarter is one interval from zero. One half is two intervals, and three quarters is three intervals.",
+        "chapter": "Locate the fractions",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "<",
+          [
+            1,
+            2
+          ],
+          "<",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Numbers get larger as you move to the right.",
+        "line": {
+          "d": 4,
+          "points": [
+            1,
+            2,
+            3
+          ],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Read from left to right to order them from smallest to largest: one quarter, one half, then three quarters.",
+        "chapter": "Order from smallest to largest",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "<",
+          [
+            1,
+            2
+          ],
+          "<",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Left to right: smallest to largest.",
+        "line": {
+          "d": 4,
+          "points": [
+            1,
+            2,
+            3
+          ],
+          "maximum": 1,
+          "jump": [
+            1,
+            3
+          ]
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "chapter": "Think it through",
+        "equation": [
+          [
+            5,
+            8
+          ],
+          "?",
+          [
+            3,
+            8
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Take four seconds to think.",
+        "text": "Which is greater, five eighths or three eighths?",
+        "pause": 4,
+        "role": "question"
+      },
+      {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            5,
+            8
+          ],
+          ">",
+          [
+            3,
+            8
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Five eighths is greater: the same-sized parts are being counted.",
+        "pause": 1,
+        "role": "answer"
+      },
+      {
+        "text": "Compare equal wholes. When pieces have the same size, compare their counts. Use a number line to order fractions from left to right.",
+        "chapter": "You have it!",
+        "equation": [
+          [
+            5,
+            8
+          ],
+          ">",
+          [
+            3,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "Equal wholes → equal-sized parts → compare or order.",
+        "line": {
+          "d": 8,
+          "points": [
+            3,
+            5
+          ],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "recap"
+      }
+    ],
+    "topic": "fractions"
+  },
+  {
+    "id": "fractions-equivalent",
+    "section": "equivalent",
+    "title": "Equivalent Fractions",
+    "file": "MathMagic_V2_fractions_equivalent",
+    "beats": [
+      {
+        "text": "Can a fraction change its name without changing its size? Today we are exploring equivalent fractions. We will split and regroup equal parts, then check our thinking with pictures. Could one half really be the same amount as four eighths?",
+        "chapter": "Different names, same amount",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "?",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Equivalent means equal in value.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "opening"
+      },
+      {
+        "text": "Start with one half. Split every part of the whole into two equal pieces. The shaded half now contains two quarters.",
+        "chapter": "Split every part equally",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "The whole and shaded amount stay the same.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Split every quarter in half again. Now four of eight equal pieces are shaded. One half, two quarters and four eighths are equivalent.",
+        "chapter": "Rename again",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Smaller pieces, more pieces, same amount.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "The number rule matches the picture. Multiply the numerator and denominator by the same non-zero number.",
+        "chapter": "Scale both numbers",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Multiplying by four over four is multiplying by one.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "For three fifths, multiply both numbers by four. Three times four is twelve, and five times four is twenty.",
+        "chapter": "Worked example",
+        "equation": [
+          [
+            3,
+            5
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            12,
+            20
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 5,
+            "label": "Three fifths",
+            "colour": "teal"
+          },
+          {
+            "n": 12,
+            "d": 20,
+            "label": "Twelve twentieths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Both numbers change by the same factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Equivalent fractions also land at the same point on a number line. They are different names for one number.",
+        "chapter": "One position, many names",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "One half, two quarters and four eighths meet here.",
+        "line": {
+          "d": 8,
+          "points": [
+            4
+          ],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Simplifying works in reverse. Group equal pieces together instead of splitting them into smaller pieces.",
+        "chapter": "Simplify without changing value",
+        "equation": [
+          [
+            6,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Look for a common factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Group the eighths in pairs. Six eighths becomes three quarters. We divided the numerator and denominator by two.",
+        "chapter": "Group the pieces",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "=",
+          [
+            "6 ÷ 2",
+            "8 ÷ 2"
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Three and four have no common factor greater than one.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Try twelve eighteenths. Both twelve and eighteen divide by six. Twelve divided by six is two; eighteen divided by six is three.",
+        "chapter": "Another simplification",
+        "equation": [
+          [
+            12,
+            18
+          ],
+          "=",
+          [
+            "12 ÷ 6",
+            "18 ÷ 6"
+          ],
+          "=",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 12,
+            "d": 18,
+            "label": "Twelve eighteenths",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Two thirds is in simplest form.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Be careful: adding the same number to both numbers does not preserve the value. One half and two thirds are different amounts.",
+        "chapter": "Spot the mistake",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "≠",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Use multiplication or division, not addition.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "We can also partition a fraction. Three quarters is three one-quarter pieces added together.",
+        "chapter": "Break an amount into parts",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarter-pieces",
+            "colour": "teal"
+          }
+        ],
+        "note": "Partitioning keeps the total amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Two quarters make one half, so three quarters is also one half plus one quarter. Different partitions can describe the same amount.",
+        "chapter": "Another useful partition",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Two quarters plus one quarter",
+            "colour": "teal"
+          }
+        ],
+        "note": "One amount can be split in different ways.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "chapter": "Think it through",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "?",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Take four seconds to think.",
+        "text": "Is six eighths equivalent to three quarters?",
+        "pause": 4,
+        "role": "question"
+      },
+      {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Yes. Dividing both six and eight by two gives three quarters.",
+        "pause": 1,
+        "role": "answer"
+      },
+      {
+        "text": "Equivalent fractions name the same amount. Multiply or divide both numbers by the same non-zero factor. A model or number line helps you check that the value stays unchanged.",
+        "chapter": "Same value, new name",
+        "equation": [
+          [
+            3,
+            5
+          ],
+          "=",
+          [
+            12,
+            20
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 5,
+            "label": "Three fifths",
+            "colour": "teal"
+          },
+          {
+            "n": 12,
+            "d": 20,
+            "label": "Twelve twentieths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Multiply or divide BOTH numbers by the same non-zero number.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "recap"
+      }
+    ],
+    "topic": "fractions"
+  },
+  {
+    "id": "fractions-mixed",
+    "section": "mixed",
+    "title": "Mixed Numbers and Improper Fractions",
+    "file": "MathMagic_V2_fractions_mixed",
+    "beats": [
+      {
+        "text": "What happens when the amount is bigger than one whole? Today we are exploring mixed numbers and improper fractions. We will build the wholes, count the extra pieces, and connect two ways of naming exactly the same amount. Ready to investigate?",
+        "chapter": "Beyond one whole",
+        "equation": [
+          [
+            11,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "First whole",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Second whole",
+            "colour": "gold"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three more quarters",
+            "colour": "teal"
+          }
+        ],
+        "note": "Every whole is the same size.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "opening"
+      },
+      {
+        "text": "Four quarters make one whole. Another four quarters make a second whole. Three quarters are left over.",
+        "chapter": "Group complete wholes",
+        "equation": [
+          [
+            11,
+            4
+          ],
+          "=",
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "4 quarters = 1 whole",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "4 quarters = 1 whole",
+            "colour": "gold"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "3 quarters remain",
+            "colour": "teal"
+          }
+        ],
+        "note": "Eleven quarters makes two wholes and three quarters.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Eleven quarters is an improper fraction. Its numerator is at least as large as its denominator. It can describe one whole or more.",
+        "chapter": "Improper fractions",
+        "equation": [
+          [
+            11,
+            4
+          ],
+          ">",
+          "1"
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "One whole",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "One whole",
+            "colour": "gold"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "A fractional part",
+            "colour": "teal"
+          }
+        ],
+        "note": "Improper does not mean incorrect.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Two and three quarters is a mixed number. It combines two whole units with a fractional part.",
+        "chapter": "Mixed numbers",
+        "equation": [
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Whole",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Whole",
+            "colour": "gold"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Fraction",
+            "colour": "teal"
+          }
+        ],
+        "note": "Keep a clear space between the whole number and fraction.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "To convert, divide eleven by four. Eleven divided by four is two with a remainder of three.",
+        "chapter": "Improper → mixed",
+        "equation": [
+          "11",
+          "÷",
+          "4",
+          "=",
+          "2",
+          "remainder",
+          "3"
+        ],
+        "rows": [],
+        "note": "The quotient counts whole units. The remainder counts quarter-pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "The denominator stays four because our pieces are still quarters. So eleven quarters equals two and three quarters.",
+        "chapter": "Keep the piece size",
+        "equation": [
+          [
+            11,
+            4
+          ],
+          "=",
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Two complete wholes, then three more quarter-steps.",
+        "line": {
+          "d": 4,
+          "points": [
+            11
+          ],
+          "maximum": 3,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Now go the other way. Take three and two fifths. Each whole contains five fifths.",
+        "chapter": "Mixed → improper",
+        "equation": [
+          [
+            3,
+            2,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 5,
+            "label": "One whole",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "One whole",
+            "colour": "gold"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "One whole",
+            "colour": "teal"
+          }
+        ],
+        "note": "Three wholes contain fifteen fifths.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Three times five gives fifteen fifths. Add the extra two fifths to make seventeen fifths.",
+        "chapter": "Count all the fifths",
+        "equation": [
+          "3",
+          "×",
+          "5",
+          "+",
+          "2",
+          "=",
+          "17"
+        ],
+        "rows": [
+          {
+            "n": 17,
+            "d": 5,
+            "label": "Three whole units, then two more fifths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Fifteen fifths + two fifths = seventeen fifths.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "So three and two fifths equals seventeen fifths. Multiply the whole number by the denominator, add the numerator, and keep the denominator.",
+        "chapter": "Same amount, different form",
+        "equation": [
+          [
+            3,
+            2,
+            5
+          ],
+          "=",
+          [
+            17,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 17,
+            "d": 5,
+            "label": "Seventeen fifths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Wholes × parts per whole + extra parts.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "A fraction can also equal an exact whole. Eight quarters is two wholes, with no fractional part left over.",
+        "chapter": "An exact whole",
+        "equation": [
+          [
+            8,
+            4
+          ],
+          "=",
+          "2"
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Four quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Four quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "A zero remainder means no fractional part remains.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "To compare mixed numbers, compare the wholes first. Three and one quarter is greater than two and three quarters.",
+        "chapter": "Compare the wholes first",
+        "equation": [
+          [
+            3,
+            1,
+            4
+          ],
+          ">",
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Three wholes already exceeds two and three quarters.",
+        "line": {
+          "d": 4,
+          "points": [
+            11,
+            13
+          ],
+          "maximum": 4,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "If the wholes match, compare the fractional parts. Two and one half is greater than two and one quarter.",
+        "chapter": "Then compare the fractions",
+        "equation": [
+          [
+            2,
+            1,
+            2
+          ],
+          ">",
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Both have two wholes. One half is greater than one quarter.",
+        "line": {
+          "d": 4,
+          "points": [
+            9,
+            10
+          ],
+          "maximum": 3,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "chapter": "Think it through",
+        "equation": [
+          [
+            9,
+            4
+          ],
+          "=",
+          "?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Take four seconds to think.",
+        "text": "How many wholes and quarters are in nine quarters?",
+        "pause": 4,
+        "role": "question"
+      },
+      {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            9,
+            4
+          ],
+          "=",
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Nine quarters is two wholes and one quarter.",
+        "pause": 1,
+        "role": "answer"
+      },
+      {
+        "text": "Group equal fractional parts to make wholes, then keep the remainder as a fraction. Mixed numbers and improper fractions are two ways to name the same amount.",
+        "chapter": "Two ways to name an amount",
+        "equation": [
+          [
+            9,
+            4
+          ],
+          "=",
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Group to make wholes. Count pieces to go back.",
+        "line": {
+          "d": 4,
+          "points": [
+            9
+          ],
+          "maximum": 3,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "recap"
+      }
+    ],
+    "topic": "fractions"
+  },
+  {
+    "id": "fractions-addsub",
+    "section": "addsub",
+    "title": "Adding and Subtracting Fractions",
+    "file": "MathMagic_V2_fractions_addsub",
+    "beats": [
+      {
+        "text": "How can we add pieces when the pieces have different names? Today we are adding and subtracting fractions. We will use equal-sized wholes and rename parts when we need to. What should happen to the size of the pieces when we combine them?",
+        "chapter": "Make the parts match",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "?",
+          [
+            2,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "One quarter",
+            "colour": "gold"
+          }
+        ],
+        "note": "Use the same whole and the same-sized parts.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "opening"
+      },
+      {
+        "text": "First, use matching denominators. Two sevenths plus three sevenths makes five sevenths.",
+        "chapter": "Like denominators",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 7,
+            "label": "Two sevenths",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 7,
+            "label": "Add three more",
+            "colour": "gold"
+          }
+        ],
+        "note": "Count the parts. Keep the size of each part.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "We add the numerators and keep the denominator. We are still counting sevenths, not fourteenths.",
+        "chapter": "Keep the denominator",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 7,
+            "label": "Five seventh-pieces",
+            "colour": "teal"
+          }
+        ],
+        "note": "Never add the denominators.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "For one half plus one quarter, the denominators are related: four is a multiple of two. Rename the half as two quarters.",
+        "chapter": "Related denominators",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Split each half into two equal pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Now add two quarters and one quarter. The result is three quarters.",
+        "chapter": "Now combine equal parts",
+        "equation": [
+          [
+            2,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Start with two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Add one quarter",
+            "colour": "gold"
+          }
+        ],
+        "note": "One half + one quarter = three quarters.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Subtraction follows the same idea. For three quarters minus one eighth, rename three quarters as six eighths.",
+        "chapter": "Subtract with equal parts",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            6,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Eight is a multiple of four.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Take away one eighth. Five eighths remain. The denominator stays eight.",
+        "chapter": "Remove one part",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "Six eighths − one eighth = five eighths.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "On a number line, begin at six eighths and move back one eighth. You land on five eighths.",
+        "chapter": "See subtraction as a jump",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "Add: move right. Subtract: move left.",
+        "line": {
+          "d": 8,
+          "points": [
+            5,
+            6
+          ],
+          "maximum": 1,
+          "jump": [
+            6,
+            5
+          ]
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Simplify when you can. One sixth plus three sixths is four sixths, which equals two thirds.",
+        "chapter": "Calculate, then simplify",
+        "equation": [
+          [
+            1,
+            6
+          ],
+          "+",
+          [
+            3,
+            6
+          ],
+          "=",
+          [
+            4,
+            6
+          ],
+          "=",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 6,
+            "label": "Four sixths",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Divide the numerator and denominator by two.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Mixed numbers can make another whole. One and four fifths plus two fifths is one and six fifths.",
+        "chapter": "Regroup a mixed number",
+        "equation": [
+          [
+            1,
+            4,
+            5
+          ],
+          "+",
+          [
+            2,
+            5
+          ],
+          "=",
+          "1",
+          "+",
+          [
+            6,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 5,
+            "label": "One whole",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Five more fifths",
+            "colour": "gold"
+          },
+          {
+            "n": 1,
+            "d": 5,
+            "label": "One extra fifth",
+            "colour": "teal"
+          }
+        ],
+        "note": "Six fifths is one whole and one fifth.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Regroup five fifths as one whole. The answer is two and one fifth.",
+        "chapter": "Make the extra whole",
+        "equation": [
+          [
+            1,
+            4,
+            5
+          ],
+          "+",
+          [
+            2,
+            5
+          ],
+          "=",
+          [
+            2,
+            1,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Whole",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Whole",
+            "colour": "gold"
+          },
+          {
+            "n": 1,
+            "d": 5,
+            "label": "One fifth",
+            "colour": "teal"
+          }
+        ],
+        "note": "Check: the result is a little more than two.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "For several fractions, rename them with a common denominator. One half plus one quarter minus one eighth becomes four eighths plus two eighths minus one eighth.",
+        "chapter": "More than two fractions",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "−",
+          [
+            1,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "A common denominator of eight works for all three.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Four plus two minus one is five, so the result is five eighths.",
+        "chapter": "Combine the numerators",
+        "equation": [
+          [
+            4,
+            8
+          ],
+          "+",
+          [
+            2,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 8,
+            "label": "Five eighths remain",
+            "colour": "teal"
+          }
+        ],
+        "note": "Keep the denominator eight throughout.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "Here is an extension: when neither denominator is a multiple of the other, shared multiples can help. Try one quarter plus one sixth.",
+        "chapter": "Extension: least common multiple",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [],
+        "note": "The least common multiple is also called the lowest common multiple.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Multiples of four include four, eight, twelve. Multiples of six include six, twelve, eighteen. Twelve is the smallest positive shared multiple.",
+        "chapter": "Find a common denominator",
+        "equation": [
+          "4, 8, 12",
+          "and",
+          "6, 12, 18"
+        ],
+        "rows": [],
+        "note": "LCM of four and six = twelve. This is extension work.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "One quarter is three twelfths. One sixth is two twelfths. Add to get five twelfths.",
+        "chapter": "Rename, then calculate",
+        "equation": [
+          [
+            3,
+            12
+          ],
+          "+",
+          [
+            2,
+            12
+          ],
+          "=",
+          [
+            5,
+            12
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 12,
+            "label": "One quarter",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 12,
+            "label": "Add one sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "Any common denominator works; the least keeps numbers smaller.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "chapter": "Think it through",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "−",
+          [
+            1,
+            6
+          ],
+          "=",
+          "?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Take four seconds to think.",
+        "text": "What is two thirds minus one sixth?",
+        "pause": 4,
+        "role": "question"
+      },
+      {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "−",
+          [
+            1,
+            6
+          ],
+          "=",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Two thirds is four sixths. Four sixths minus one sixth is three sixths, or one half.",
+        "pause": 1,
+        "role": "answer"
+      },
+      {
+        "text": "Use the same-sized whole and same-sized parts. Rename fractions when needed, combine or remove parts, and check the size of the result. Shared-denominator methods beyond related denominators are extension work.",
+        "chapter": "A reliable four-step method",
+        "equation": [
+          [
+            3,
+            6
+          ],
+          "=",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 6,
+            "label": "Three sixths",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "gold"
+          }
+        ],
+        "note": "Same whole → rename → calculate → simplify.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "recap"
+      }
+    ],
+    "topic": "fractions"
+  },
+  {
+    "id": "fractions-problems",
+    "section": "problems",
+    "title": "Fraction Word Problems",
+    "file": "MathMagic_V2_fractions_problems",
+    "beats": [
+      {
+        "text": "A recipe needs one half of a cup of oats and one quarter of a cup of nuts. How much goes into the bowl altogether? Today we are solving fraction problems by modelling the situation, choosing an operation, and checking whether our answer makes sense.",
+        "chapter": "Mix a snack",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Oats: half a cup",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "Nuts: quarter of a cup",
+            "colour": "gold"
+          }
+        ],
+        "note": "Both measurements use the same one-cup unit.",
+        "line": null,
+        "area": null,
+        "context": "SNACK MIX",
+        "role": "opening"
+      },
+      {
+        "text": "First identify the whole: one cup. Altogether tells us to combine the amounts, so choose addition.",
+        "chapter": "1. Understand and plan",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Oats",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "Nuts",
+            "colour": "gold"
+          }
+        ],
+        "note": "Understand the situation; do not rely on a keyword alone.",
+        "line": null,
+        "area": null,
+        "context": "ONE CUP",
+        "role": "explanation"
+      },
+      {
+        "text": "Rename one half as two quarters. Two quarters plus one quarter makes three quarters.",
+        "chapter": "2. Model and calculate",
+        "equation": [
+          [
+            2,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Oats, renamed",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Combined amount",
+            "colour": "gold"
+          }
+        ],
+        "note": "The parts must be the same size.",
+        "line": null,
+        "area": null,
+        "context": "SNACK MIX",
+        "role": "explanation"
+      },
+      {
+        "text": "Mia uses three quarters of a cup altogether. That is more than half a cup and less than one cup, so the answer makes sense.",
+        "chapter": "3. Answer and check",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "<",
+          [
+            3,
+            4
+          ],
+          "<",
+          "1"
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters of a cup",
+            "colour": "teal"
+          }
+        ],
+        "note": "State the unit, then check the size of the result.",
+        "line": null,
+        "area": null,
+        "context": "SNACK MIX",
+        "role": "explanation"
+      },
+      {
+        "text": "Now a ribbon is two metres long. We cut off three quarters of a metre. How much ribbon remains?",
+        "chapter": "Cut a ribbon",
+        "equation": [
+          "2",
+          "−",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "First metre",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Second metre",
+            "colour": "gold"
+          }
+        ],
+        "note": "One whole unit is one metre, not the entire two-metre ribbon.",
+        "line": null,
+        "area": null,
+        "context": "RIBBON",
+        "role": "explanation"
+      },
+      {
+        "text": "We want what remains, so subtract. Two metres equals eight quarter-metres.",
+        "chapter": "Choose the unit",
+        "equation": [
+          "2",
+          "=",
+          [
+            8,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Four quarter-metres",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 4,
+            "label": "Four quarter-metres",
+            "colour": "gold"
+          }
+        ],
+        "note": "Two equal metre-lengths make eight quarter-metres.",
+        "line": null,
+        "area": null,
+        "context": "RIBBON",
+        "role": "explanation"
+      },
+      {
+        "text": "Eight quarters minus three quarters is five quarters. Five quarters is one and one quarter.",
+        "chapter": "Work through the subtraction",
+        "equation": [
+          [
+            8,
+            4
+          ],
+          "−",
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            5,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "One metre remains",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "One quarter-metre remains",
+            "colour": "gold"
+          }
+        ],
+        "note": "Five quarters = one whole and one quarter.",
+        "line": null,
+        "area": null,
+        "context": "RIBBON",
+        "role": "explanation"
+      },
+      {
+        "text": "One and one quarter metres remain. On the number line, move back three quarter-steps from two.",
+        "chapter": "Check with a number line",
+        "equation": [
+          [
+            5,
+            4
+          ],
+          "=",
+          [
+            1,
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "The remaining length must be less than two metres.",
+        "line": {
+          "d": 4,
+          "points": [
+            5,
+            8
+          ],
+          "maximum": 2,
+          "jump": [
+            8,
+            5
+          ]
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation"
+      },
+      {
+        "text": "For a comparison, Ava walks three quarters of a kilometre. Leo walks five eighths of a kilometre. Who walks farther, and by how much?",
+        "chapter": "Compare two distances",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "?",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Ava",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "Leo",
+            "colour": "gold"
+          }
+        ],
+        "note": "Use the same one-kilometre unit for both distances.",
+        "line": null,
+        "area": null,
+        "context": "WALKING",
+        "role": "explanation"
+      },
+      {
+        "text": "Rename three quarters as six eighths. Ava walks farther because six eighths is greater than five eighths.",
+        "chapter": "Compare equal-sized parts",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          ">",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Ava",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "Leo",
+            "colour": "gold"
+          }
+        ],
+        "note": "First answer who, then find the difference.",
+        "line": null,
+        "area": null,
+        "context": "WALKING",
+        "role": "explanation"
+      },
+      {
+        "text": "Subtract five eighths from six eighths. Ava walks one eighth of a kilometre farther.",
+        "chapter": "Find the difference",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            5,
+            8
+          ],
+          "=",
+          [
+            1,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Ava",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "Leo",
+            "colour": "gold"
+          }
+        ],
+        "note": "The difference measures the gap between the distances.",
+        "line": null,
+        "area": null,
+        "context": "WALKING",
+        "role": "explanation"
+      },
+      {
+        "text": "Here is a two-step problem. A jug holds one litre. We pour out a quarter of a litre, then another half a litre. How much remains?",
+        "chapter": "A two-step situation",
+        "equation": [
+          "1",
+          "−",
+          [
+            1,
+            4
+          ],
+          "−",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "One litre at the start",
+            "colour": "teal"
+          }
+        ],
+        "note": "Both poured amounts are measured in litres.",
+        "line": null,
+        "area": null,
+        "context": "WATER JUG",
+        "role": "explanation"
+      },
+      {
+        "text": "A quarter plus a half is three quarters of a litre poured out. Subtract three quarters from one whole litre.",
+        "chapter": "Combine, then subtract",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "One litre",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "Amount remaining",
+            "colour": "gold"
+          }
+        ],
+        "note": "Three quarters poured out; one quarter stays in the jug.",
+        "line": null,
+        "area": null,
+        "context": "WATER JUG",
+        "role": "explanation"
+      },
+      {
+        "text": "One quarter of a litre remains. Check: three quarters poured out plus one quarter remaining makes one whole litre.",
+        "chapter": "Check the whole",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "=",
+          "1"
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 4,
+            "label": "The original whole",
+            "colour": "teal"
+          }
+        ],
+        "note": "An inverse check helps catch mistakes.",
+        "line": null,
+        "area": null,
+        "context": "WATER JUG",
+        "role": "explanation"
+      },
+      {
+        "chapter": "Think it through",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "+",
+          [
+            1,
+            6
+          ],
+          "=",
+          "?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Take four seconds to think.",
+        "text": "You walk two thirds of a kilometre, then one sixth more. How far is that altogether?",
+        "pause": 4,
+        "role": "question"
+      },
+      {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "+",
+          [
+            1,
+            6
+          ],
+          "=",
+          [
+            5,
+            6
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Two thirds is four sixths. Adding one sixth gives five sixths of a kilometre.",
+        "pause": 1,
+        "role": "answer"
+      },
+      {
+        "text": "Identify the whole, model the relationship, and choose an operation from the story. Rename to equal-sized parts, calculate carefully, and check the answer with its unit.",
+        "chapter": "Explain your reasoning",
+        "equation": [
+          [
+            4,
+            6
+          ],
+          "+",
+          [
+            1,
+            6
+          ],
+          "=",
+          [
+            5,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 6,
+            "label": "Five sixths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Understand → model → calculate → answer with units → check.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "recap"
+      }
+    ],
+    "topic": "fractions"
+  },
+  {
+    "id": "whole-numbers-lesson1",
+    "topic": "whole-numbers",
+    "section": "lesson1",
+    "title": "Understanding Place Value",
+    "file": "MathMagic_V2_whole_numbers_lesson1",
+    "beats": [
+      {
+        "text": "Today we are investigating understanding place value. What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+        "chapter": "One place changes the value",
+        "equation": [],
+        "board": [
+          "10 ones = 1 ten",
+          "10 tens = 1 hundred"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening",
+        "model": null
+      },
+      {
+        "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+        "chapter": "Read the place, then the value",
+        "equation": [],
+        "board": [
+          "7 × 10,000 = 70,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+        "chapter": "Every digit has a value",
+        "equation": [],
+        "board": [
+          "2,000 + 600 + 30 + 1",
+          "472,631"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+        "chapter": "Same digit, different places",
+        "equation": [],
+        "board": [
+          "50,000 and 5,000",
+          "50,000 = 10 × 5,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+        "chapter": "Ten times as much",
+        "equation": [],
+        "board": [
+          "34 × 10 = 340",
+          "340 ÷ 10 = 34"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "In 583,214, what is the value of the eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "583,214: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 × 10,000 = 80,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+        "chapter": "Recap: place first, value second",
+        "equation": [],
+        "board": [
+          "583,214 → 8 means 80,000",
+          "One place left: × 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap",
+        "model": null
+      }
+    ]
+  },
+  {
+    "id": "whole-numbers-lesson2",
+    "topic": "whole-numbers",
+    "section": "lesson2",
+    "title": "Expanded Form & Representing Numbers",
+    "file": "MathMagic_V2_whole_numbers_lesson2",
+    "beats": [
+      {
+        "text": "Today we are investigating expanded form & representing numbers. How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "One quantity, several representations",
+        "equation": [],
+        "board": [
+          "406,275"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening",
+        "model": null
+      },
+      {
+        "text": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+        "chapter": "Zero keeps the places organised",
+        "equation": [],
+        "board": [
+          "4 means 400,000",
+          "6 means 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+        "chapter": "Build the expanded form",
+        "equation": [],
+        "board": [
+          "200 + 70 + 5",
+          "406,275 =",
+          "400,000 + 6,000 + 200 + 70 + 5"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "Connect the three forms",
+        "equation": [],
+        "board": [
+          "Four hundred and six thousand,",
+          "two hundred and seventy-five",
+          "Words ↔ 406,275 ↔ expanded form"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+        "chapter": "Regroup without changing the amount",
+        "equation": [],
+        "board": [
+          "3,400 = 3 thousands + 4 hundreds",
+          "3,400 = 34 hundreds"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "The total is six hundred and twenty-four thousand, three hundred and eight. There are zero tens.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "624,308"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+        "chapter": "Recap: represent the same value",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8",
+          "624,308",
+          "Zero tens: keep the placeholder"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap",
+        "model": null
+      }
+    ]
+  },
+  {
+    "id": "whole-numbers-lesson3",
+    "topic": "whole-numbers",
+    "section": "lesson3",
+    "title": "Comparing & Ordering Whole Numbers",
+    "file": "MathMagic_V2_whole_numbers_lesson3",
+    "beats": [
+      {
+        "text": "Today we are investigating comparing & ordering whole numbers. Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+        "chapter": "Start with the greatest place",
+        "equation": [],
+        "board": [
+          "100,000 > 99,999",
+          "Compare from left to right →"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening",
+        "model": null
+      },
+      {
+        "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+        "chapter": "Line up the places",
+        "equation": [],
+        "board": [
+          "456,782     456,728",
+          "4 = 4    5 = 5    6 = 6    7 = 7"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+        "chapter": "First different place: tens",
+        "equation": [],
+        "board": [
+          "80 > 20",
+          "456,782 > 456,728"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+        "chapter": "Another comparison",
+        "equation": [],
+        "board": [
+          "309,950     310,005",
+          "0 ten-thousands < 1 ten-thousand",
+          "309,950 < 310,005"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "89,999 < 90,001 < 90,010",
+          "Start left; stop at the first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Which is greater: 582,430 or 582,403?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "582,430 ? 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "The first differing place is the tens. Three tens is greater than zero tens, so 582,430 is greater.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "582,430 > 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+        "chapter": "Recap: compare exactly",
+        "equation": [],
+        "board": [
+          "89,999 ≈ 90,000  (nearest 1,000)",
+          "Estimate ≠ exact comparison",
+          "Line up → start left → first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap",
+        "model": null
+      }
+    ]
+  },
+  {
+    "id": "whole-numbers-lesson4",
+    "topic": "whole-numbers",
+    "section": "lesson4",
+    "title": "Decimal Place Value",
+    "file": "MathMagic_V2_whole_numbers_lesson4",
+    "beats": [
+      {
+        "text": "Today we are investigating decimal place value. What happens when we split one whole into smaller equal parts? The same base ten pattern continues beyond the decimal point. After ones come tenths, hundredths and thousandths. Each place is one tenth of the value of the place immediately to its left.",
+        "chapter": "Base ten continues past ones",
+        "equation": [],
+        "board": [
+          "Ones → tenths → hundredths → thousandths",
+          "One place right: divide the value by 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening",
+        "model": null
+      },
+      {
+        "text": "Read four point seven two six. The four is four ones. The seven is seven tenths, written zero point seven. The two is two hundredths, written zero point zero two. The six is six thousandths, written zero point zero zero six.",
+        "chapter": "Name each decimal place",
+        "equation": [],
+        "board": [
+          "4.726",
+          "7 tenths = 0.7",
+          "2 hundredths = 0.02",
+          "6 thousandths = 0.006"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "Put the parts together. Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six. The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+        "chapter": "Expand the decimal",
+        "equation": [],
+        "board": [
+          "4.726 = 4 + 0.7 + 0.02 + 0.006",
+          "Same digits; place determines value"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "A tenth is ten hundredths. A hundredth is ten thousandths. Now compare zero point five with zero point zero five. Five tenths is ten times five hundredths, so zero point five is greater. The same digit does not mean the same value.",
+        "chapter": "Connect neighbouring places",
+        "equation": [],
+        "board": [
+          "0.1 = 10 × 0.01",
+          "0.01 = 10 × 0.001",
+          "0.5 = 10 × 0.05",
+          "0.5 > 0.05"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Think of a measuring scale marked in equal small steps. Thousandths let us describe positions more precisely than hundredths. This is about understanding place value, not just counting how many digits come after the point. Keep the whole and the size of each part clear.",
+        "chapter": "More precise equal-sized steps",
+        "equation": [],
+        "board": [
+          "1 hundredth = 10 thousandths",
+          "Name the place, not just the digit count"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "What is the value of the eight in 5.218?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "5.218: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "The eight is in the thousandths place, so it represents eight thousandths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 thousandths = 0.008"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Try the page example: three point four five eight. The five is in the hundredths place, so its value is zero point zero five. Remember: ones, tenths, hundredths, thousandths. Every step right divides the place value by ten; every step left makes it ten times as much.",
+        "chapter": "Recap: read the place",
+        "equation": [],
+        "board": [
+          "3.458",
+          "5 hundredths = 0.05",
+          "Ones → tenths → hundredths → thousandths"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap",
+        "model": null
+      }
+    ]
+  },
+  {
+    "id": "whole-numbers-lesson5",
+    "topic": "whole-numbers",
+    "section": "lesson5",
+    "title": "Compare, Order & Locate Decimals",
+    "file": "MathMagic_V2_whole_numbers_lesson5",
+    "beats": [
+      {
+        "text": "Today we are investigating compare, order & locate decimals. Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+        "chapter": "Compare values, not digit counts",
+        "equation": [],
+        "board": [
+          "Longer decimal ≠ larger value",
+          "1.47 = 1.470"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening",
+        "model": null
+      },
+      {
+        "text": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+        "chapter": "The hundredths decide",
+        "equation": [],
+        "board": [
+          "1.407     1.470",
+          "Ones: 1 = 1     Tenths: 4 = 4",
+          "Hundredths: 0 < 7",
+          "1.407 < 1.470"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "2.053     2.305     2.350",
+          "2.053 < 2.305 < 2.350"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+        "chapter": "Hundredths on a number line",
+        "equation": [],
+        "board": [
+          "Step size = 0.01"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      },
+      {
+        "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+        "chapter": "Zoom in to thousandths",
+        "equation": [],
+        "board": [
+          "Step size = 0.001",
+          "1.430 + 0.007 = 1.437"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.43,
+          "end": 1.44,
+          "mark": 1.437,
+          "decimals": 3
+        }
+      },
+      {
+        "text": "Which is greater: 2.405 or 2.45?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "2.405 ? 2.45"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Write 2.45 as 2.450. At the hundredths place, five hundredths is greater than zero hundredths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "2.450 > 2.405"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+        "chapter": "Recap: place value gives the order",
+        "equation": [],
+        "board": [
+          "4.7 = 4.700",
+          "Line up → compare left to right",
+          "Number line: check the step size"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap",
+        "model": null
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-lesson1",
+    "topic": "addition-subtraction",
+    "section": "lesson1",
+    "title": "Efficient Mental Strategies",
+    "file": "MathMagic_V2_addition_subtraction_lesson1",
+    "beats": [
+      {
+        "text": "Could subtracting two large numbers be easier than adding two small ones? Today we are choosing mental addition and subtraction strategies. We will look at how close the numbers are, try a friendly number, and explain why our shortcuts keep the answer correct.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "A useful strategy fits the numbers. Counting up finds the distance between nearby numbers. Compensation changes a number to make a calculation easier, then adjusts the answer to undo that change.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Find six thousand and four minus five thousand nine hundred and ninety-seven. Counting up avoids lots of regrouping. First go up three to six thousand.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "6,004 − 5,997",
+          "5,997 + 3 = 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Then go up four more. The total distance is three plus four, which is seven. Check: five thousand nine hundred and ninety-seven plus seven is six thousand and four.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "6,000 + 4 = 6,004",
+          "3 + 4 = 7",
+          "6,004 − 5,997 = 7"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now add three hundred and ninety-eight and two hundred and fifty-seven. Move the first number up by two to make four hundred.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "398 + 257",
+          "400 + 257 = 657"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "We added two too many, so subtract two from six hundred and fifty-seven. The answer is six hundred and fifty-five. Compensation preserves the original total after we undo the change.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "657 − 2 = 655",
+          "398 + 257 = 655"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Try five hundred and two minus four hundred and ninety-eight. Can you count up?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "502 − 498 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Go up two to five hundred, then two more to five hundred and two. The difference is four.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "498 + 2 + 2 = 502",
+          "502 − 498 = 4"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Look at the numbers before choosing a method. Use counting up for nearby numbers and compensation for friendly totals. Explain the adjustment and check using the inverse operation.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-lesson2",
+    "topic": "addition-subtraction",
+    "section": "lesson2",
+    "title": "Written Addition and Subtraction",
+    "file": "MathMagic_V2_addition_subtraction_lesson2",
+    "beats": [
+      {
+        "text": "How can one little column change an answer by thousands? Today we are using written addition and subtraction. We will line up equal place values and see how regrouping changes the grouping without changing the amount. What happens when a column contains zero?",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Keep ones under ones and tens under tens. Ten units in any column can be exchanged for one unit in the column to its left. In subtraction we can exchange one larger unit for ten smaller units.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Add two thousand seven hundred and eighty-six and one thousand four hundred and fifty-seven. Start at the ones: six plus seven makes thirteen, so exchange ten ones for one ten.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "2,786 + 1,457",
+          "6 + 7 = 13 ones"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Eight tens plus five tens plus the exchanged ten makes fourteen tens. Continue the regrouping. Seven hundreds plus four hundreds plus one hundred makes twelve hundreds. The final total is four thousand two hundred and forty-three.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "13 ones = 1 ten + 3 ones",
+          "14 tens = 1 hundred + 4 tens",
+          "2,786 + 1,457 = 4,243"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now subtract twenty-seven thousand six hundred and eighty-four from fifty-two thousand. Across the zeros, exchange one thousand for ten hundreds, then exchange one hundred and one ten as needed.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "52,000 − 27,684",
+          "52,000 = 40,000 + 11,000 + 900 + 90 + 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Subtract each place after regrouping: six ones, one ten, three hundreds, four thousands and two ten-thousands. The difference is twenty-four thousand three hundred and sixteen. Add it back to check.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "52,000 − 27,684 = 24,316",
+          "27,684 + 24,316 = 52,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What is four hundred and six minus one hundred and seventy-eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "406 − 178 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Regroup across the zero. Sixteen ones minus eight is eight, nine tens minus seven is two, and three hundreds minus one is two. The answer is two hundred and twenty-eight.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "406 = 300 + 90 + 16",
+          "406 − 178 = 228"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Align place values, regroup without changing the total, and work systematically. A zero is a placeholder, so exchanges may cross more than one column. Use addition to check subtraction.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-lesson3",
+    "topic": "addition-subtraction",
+    "section": "lesson3",
+    "title": "Estimate and Check",
+    "file": "MathMagic_V2_addition_subtraction_lesson3",
+    "beats": [
+      {
+        "text": "If a calculator shows an answer with one extra zero, how could you spot it? Today we are estimating addition and subtraction. We will use nearby friendly numbers as benchmarks, then decide whether an exact answer has a sensible size.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "An estimate is a useful approximate answer. Choose a rounding place that suits the situation. Keep the exact numbers for the final calculation; the estimate helps you check the scale, not replace the exact answer.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Estimate three thousand eight hundred and seventy-six plus two thousand one hundred and forty-two. Round to the nearest hundred: three thousand nine hundred plus two thousand one hundred.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "3,876 + 2,142",
+          "3,900 + 2,100 = 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The exact total is six thousand and eighteen, close to six thousand. A result near sixty thousand would be unreasonable because each starting number is only a few thousand.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "3,876 + 2,142 = 6,018",
+          "6,018 is close to 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Estimate eight thousand and thirty-two minus three thousand nine hundred and eighty-seven. Nearby thousands give eight thousand minus four thousand.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "8,032 − 3,987",
+          "8,000 − 4,000 = 4,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The exact difference is four thousand and forty-five, close to our estimate. Both rounding choices made the mental subtraction simple enough to check the size quickly.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "8,032 − 3,987 = 4,045",
+          "4,045 is close to 4,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Would forty thousand be a reasonable estimate for four thousand nine hundred plus one thousand nine hundred?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "4,900 + 1,900 ≈ 40,000 ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "No. Five thousand plus two thousand is about seven thousand. The exact answer is six thousand eight hundred, so forty thousand is much too large.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "5,000 + 2,000 = 7,000",
+          "4,900 + 1,900 = 6,800"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Choose sensible nearby numbers, calculate the benchmark, and compare its size with the exact result. Different useful estimates are possible. Always explain your rounding choice.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-lesson4",
+    "topic": "addition-subtraction",
+    "section": "lesson4",
+    "title": "Missing Values and Inverses",
+    "file": "MathMagic_V2_addition_subtraction_lesson4",
+    "beats": [
+      {
+        "text": "A number is hidden, but the relationship is still there. Today we are finding missing values using addition and subtraction. We will think about parts and totals, reverse an operation, and put our answer back into the original sentence to check it.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Addition joins parts into a total. Subtraction can find a missing part. Read the whole number sentence before choosing an operation: the position of the missing value matters.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A missing number plus two hundred and seventy-five equals nine hundred. Nine hundred is the total, so subtract the known part.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "□ + 275 = 900",
+          "900 − 275 = 625"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The missing part is six hundred and twenty-five. Substitute it into the original sentence: six hundred and twenty-five plus two hundred and seventy-five equals nine hundred.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "625 + 275 = 900"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now eight hundred minus a missing number equals three hundred and forty-five. The starting total is eight hundred; the removed part is unknown.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "800 − □ = 345",
+          "800 − 345 = 455"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The removed part is four hundred and fifty-five. Check by subtracting it from eight hundred. We return to three hundred and forty-five, as required.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "800 − 455 = 345"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A missing number minus one hundred and eighty equals four hundred and twenty. What was the starting number?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "□ − 180 = 420"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Add the removed part back: four hundred and twenty plus one hundred and eighty is six hundred. Check: six hundred minus one hundred and eighty is four hundred and twenty.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "420 + 180 = 600",
+          "600 − 180 = 420"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Identify the total and the parts. Use inverse operations to find the unknown, then substitute your answer into the original sentence. A check tests the relationship, not just the arithmetic.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-lesson5",
+    "topic": "addition-subtraction",
+    "section": "lesson5",
+    "title": "Model Practical Problems",
+    "file": "MathMagic_V2_addition_subtraction_lesson5",
+    "beats": [
+      {
+        "text": "Does the word more always tell you to add? Today we are modelling addition and subtraction problems. We will identify the quantities, decide how they relate, and check both the number and the unit. The story, rather than one keyword, tells us what to do.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "First understand what is known and what is being asked. A total combines parts; a difference compares amounts or finds what remains. A simple bar can show those relationships before you calculate.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A library has one thousand two hundred and forty-eight books and receives three hundred and seventy-five more. Both quantities are parts of the new total, so add.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "1,248 books + 375 books"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The new total is one thousand six hundred and twenty-three books. It is greater than either part, which fits the story. A rough check gives about twelve hundred plus four hundred, or sixteen hundred.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "1,248 + 375 = 1,623 books"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A class needs nine hundred dollars and has saved six hundred and seventy-five dollars. How much more is needed? This asks for the gap, so subtract.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "$675 + gap = $900"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Nine hundred minus six hundred and seventy-five is two hundred and twenty-five dollars. Adding the gap to the savings returns the target, so the model and answer agree.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "900 − 675 = 225",
+          "$675 + $225 = $900"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A school has eight hundred and twenty seats and five hundred and eighty-six are filled. How many are empty?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "820 − 586 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Two hundred and thirty-four seats are empty. Filled seats and empty seats combine to make all eight hundred and twenty seats.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "820 − 586 = 234",
+          "586 + 234 = 820"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Understand, model, calculate, and check. Choose an operation from the relationship between quantities. Give the answer with its unit and explain why its size makes sense.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "multiplication-division-lesson1",
+    "topic": "multiplication-division",
+    "section": "lesson1",
+    "title": "Multiply Efficiently",
+    "file": "MathMagic_V2_multiplication_division_lesson1",
+    "beats": [
+      {
+        "text": "Could a large multiplication become three familiar facts? Today we are multiplying efficiently by breaking numbers into place-value parts. We will multiply each part and recombine the results, while keeping track of what each digit is worth.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Partitioning uses the distributive property: multiplying a sum gives the same result as multiplying each part and adding the partial products. Hundreds stay hundreds, tens stay tens, and ones stay ones until we regroup.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Calculate three hundred and twenty-four times eight. Split three hundred and twenty-four into three hundred, twenty and four.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "324 × 8",
+          "300 × 8 = 2,400"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Twenty times eight is one hundred and sixty, and four times eight is thirty-two. Combine all three partial products to get two thousand five hundred and ninety-two.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "20 × 8 = 160",
+          "4 × 8 = 32",
+          "2,400 + 160 + 32 = 2,592"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Try four hundred and twenty-six times seven. Four hundred times seven gives two thousand eight hundred.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "426 × 7",
+          "400 × 7 = 2,800"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Twenty times seven is one hundred and forty; six times seven is forty-two. Their sum is two thousand nine hundred and eighty-two. A result near three thousand fits our estimate.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "20 × 7 = 140",
+          "6 × 7 = 42",
+          "2,800 + 140 + 42 = 2,982"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What is two hundred and three times four?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "203 × 4 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Two hundred times four is eight hundred, and three times four is twelve. Add them to get eight hundred and twelve.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "800 + 12 = 812",
+          "203 × 4 = 812"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Partition by place value, multiply every part, then add the partial products. Keep the value of each digit clear and use an estimate to check the scale of your answer.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "multiplication-division-lesson2",
+    "topic": "multiplication-division",
+    "section": "lesson2",
+    "title": "Multiply by Two-digit Numbers",
+    "file": "MathMagic_V2_multiplication_division_lesson2",
+    "beats": [
+      {
+        "text": "When a multiplier has two digits, does the tens digit count as ones? Today we are multiplying by two-digit numbers. We will separate tens and ones, calculate two partial products, and connect them to the complete multiplication.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Thirteen means ten plus three. Multiplying by thirteen means taking ten groups and three more groups. Missing the tens value is a common error; label each partial product before adding.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Calculate two hundred and forty-six times thirteen. First take ten groups: two hundred and forty-six times ten is two thousand four hundred and sixty.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "246 × 13",
+          "246 × 10 = 2,460"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Then take three groups: two hundred and forty-six times three is seven hundred and thirty-eight. Add the partial products to get three thousand one hundred and ninety-eight.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "246 × 3 = 738",
+          "2,460 + 738 = 3,198"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now calculate three hundred and fifteen times twenty-four. Twenty-four is twenty plus four. Three hundred and fifteen times twenty is six thousand three hundred.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "315 × 24",
+          "315 × 20 = 6,300"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Four groups make one thousand two hundred and sixty. Combining twenty groups and four groups gives seven thousand five hundred and sixty.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "315 × 4 = 1,260",
+          "6,300 + 1,260 = 7,560"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What is one hundred and two times twelve?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "102 × 12 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Ten groups make one thousand and twenty, and two groups make two hundred and four. The total is one thousand two hundred and twenty-four.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "1,020 + 204 = 1,224",
+          "102 × 12 = 1,224"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Split the multiplier into tens and ones. Calculate both partial products with their correct place values, add them, then check with a nearby friendly multiplication.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "multiplication-division-lesson3",
+    "topic": "multiplication-division",
+    "section": "lesson3",
+    "title": "Divide by a Single-digit Number",
+    "file": "MathMagic_V2_multiplication_division_lesson3",
+    "beats": [
+      {
+        "text": "How can a large sharing problem become two smaller ones? Today we are dividing by a single-digit number. We will choose useful parts, share each part equally, and use multiplication to check that no amount has been lost.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Division can mean sharing into equal groups or finding how many equal groups fit. Choose parts that divide exactly. The parts must add to the original dividend, and their quotients must be combined.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Divide one thousand five hundred and thirty-six by six. Split it into one thousand five hundred, and a separate thirty-six. One thousand five hundred divided by six is two hundred and fifty.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "1,536 = 1,500 + 36",
+          "1,500 ÷ 6 = 250"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Thirty-six divided by six is six. Add the quotients: two hundred and fifty plus six gives two hundred and fifty-six. Check by multiplying two hundred and fifty-six by six.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "36 ÷ 6 = 6",
+          "250 + 6 = 256",
+          "256 × 6 = 1,536"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Divide two thousand one hundred and eighty-four by seven. Two thousand one hundred divides into three hundred groups of seven.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "2,184 = 2,100 + 84",
+          "2,100 ÷ 7 = 300"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Eighty-four divided by seven is twelve. Combine the quotients to get three hundred and twelve. Multiplying back gives two thousand one hundred and eighty-four.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "84 ÷ 7 = 12",
+          "300 + 12 = 312",
+          "312 × 7 = 2,184"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What is eight hundred and sixteen divided by four?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "816 ÷ 4 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Eight hundred divided by four is two hundred, and sixteen divided by four is four. The quotient is two hundred and four.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "200 + 4 = 204",
+          "204 × 4 = 816"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Partition into useful parts, divide each part by the same divisor, and add the quotients. Check that quotient times divisor returns the dividend when there is no remainder.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "multiplication-division-lesson4",
+    "topic": "multiplication-division",
+    "section": "lesson4",
+    "title": "Interpret Remainders",
+    "file": "MathMagic_V2_multiplication_division_lesson4",
+    "beats": [
+      {
+        "text": "If a division leaves something over, is the answer finished? Today we are interpreting remainders. We will compare a situation where everyone needs a place with a situation where the leftover amount can be shared. The context decides what the remainder means.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "A remainder must be smaller than the divisor. Check a division using groups times group size plus the remainder. Then decide whether to round up, keep whole groups, or share the remainder as a fraction.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Sixty-seven students need teams of up to eight. Eight full teams hold sixty-four students, leaving three students.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "67 ÷ 8 = 8 remainder 3",
+          "8 × 8 + 3 = 67"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Everyone needs a team, so one more team is needed. Nine teams have enough places, although the last team is not full. Eight teams would leave three students out.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "8 teams: 64 places",
+          "9 teams: 72 places",
+          "9 teams are needed"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Share twenty-three litres equally among four containers. Five litres in each container uses twenty litres, leaving three litres.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "23 ÷ 4 = 5 remainder 3"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Share those three litres equally too. Each container gets three quarters of a litre more, so the amount is five and three quarter litres, or five point seven five litres.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "Each gets 5 litres + three quarters",
+          "Each gets 5.75 litres"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Thirty-one students travel in cars with five student seats each. How many cars are needed?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "31 ÷ 5 = ? cars"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Six cars hold thirty students, leaving one student. A seventh car is needed, so the contextual answer is seven cars.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "6 × 5 = 30",
+          "7 cars are needed"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Calculate and check the remainder, then return to the story. People need whole places; divisible quantities can be shared further. Explain your answer using the correct unit.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "multiplication-division-lesson5",
+    "topic": "multiplication-division",
+    "section": "lesson5",
+    "title": "Unknowns, Estimation and Modelling",
+    "file": "MathMagic_V2_multiplication_division_lesson5",
+    "beats": [
+      {
+        "text": "Can multiplication help you solve a division, or uncover a hidden number? Today we are connecting inverse operations, estimates and real situations. We will identify equal groups, find a missing value, and check whether an answer has the right size.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Multiplication and division describe the same equal-group relationship. If groups times group size gives the total, dividing the total by one known factor finds the other. An estimate provides a separate size check.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A missing number times twenty-four equals one thousand six hundred and eighty. Divide the total by twenty-four to find the missing number.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "□ × 24 = 1,680"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Seventy groups of twenty-four make one thousand six hundred and eighty. Substitute seventy into the original sentence to verify the relationship.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "70 × 24 = 1,680",
+          "1,680 ÷ 24 = 70"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A shop has twenty-one boxes with three hundred and ninety-eight pencils in each. Estimate using twenty boxes of four hundred: about eight thousand pencils.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "398 × 21 ≈ 400 × 20 = 8,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The exact calculation is three hundred and ninety-eight times twenty plus one more group. Seven thousand nine hundred and sixty plus three hundred and ninety-eight gives eight thousand three hundred and fifty-eight pencils.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "398 × 20 = 7,960",
+          "7,960 + 398 = 8,358"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A missing number times eighteen equals one thousand four hundred and forty. What is it?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "□ × 18 = 1,440"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Eighty times eighteen equals one thousand four hundred and forty, so the missing number is eighty.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "80 × 18 = 1,440"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Identify the equal groups, use an inverse operation for missing values, and estimate before calculating. Check by substitution and state what the result means in the problem.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "decimals-percentages-place",
+    "topic": "decimals-percentages",
+    "section": "place",
+    "title": "Decimal Place Value",
+    "file": "MathMagic_V2_decimals_percentages_place",
+    "beats": [
+      {
+        "text": "Could a zero between two digits change the value of a number? Today we are reading decimals through thousandths. We will name each place, work out the value of a digit, and investigate why some zeros matter while others leave the amount unchanged.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "To the right of the decimal point come tenths, hundredths and thousandths. Each place is one tenth of the place to its left. A digit gives the number of those units; its position gives their size.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Read four point three zero seven. The four represents four ones, the three represents three tenths, and the seven represents seven thousandths. There are no hundredths.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "4.307",
+          "4 ones + 3 tenths + 0 hundredths + 7 thousandths"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The zero keeps the seven in the thousandths place. Without that zero, four point three seven would have seven hundredths, a different amount.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "4.307 ≠ 4.37",
+          "7 thousandths = 0.007"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Find the value of the six in twelve point zero six four. The six is the second digit after the decimal point.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "12.064",
+          "tenths: 0 | hundredths: 6 | thousandths: 4"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The six represents six hundredths, or zero point zero six. Name the place before stating the value. It does not represent six tenths or six whole ones.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "6 hundredths = 0.06"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What is the value of the eight in five point two one eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "5.218: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "It is eight thousandths, or zero point zero zero eight. The eight is in the third decimal place.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 thousandths = 0.008"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Read the places in order: ones, tenths, hundredths, thousandths. Zeros can hold a place. Adding zeros at the end, as in three point five and three point five zero zero, leaves the value unchanged.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "decimals-percentages-compare",
+    "topic": "decimals-percentages",
+    "section": "compare",
+    "title": "Compare and Order Decimals",
+    "file": "MathMagic_V2_decimals_percentages_compare",
+    "beats": [
+      {
+        "text": "Does the decimal with more digits always have a greater value? Today we are comparing and ordering decimals. We will line up equal places, use placeholder zeros, and find the first place where the values differ. Which would you predict is larger: four point six eight or four point six zero seven?",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Compare from left to right. If the whole numbers match, compare tenths, then hundredths, then thousandths. Trailing zeros can show equal places without changing a value. Decimal digits are not a separate whole number.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Compare four point six eight and four point six zero seven. Rename four point six eight as four point six eight zero. The ones and tenths match.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "4.68 = 4.680",
+          "4.680 ? 4.607"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "At the hundredths place, eight is greater than zero. That decides the comparison: four point six eight is greater. The thousandths cannot reverse it.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "4.680 > 4.607"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now compare zero point six two with zero point five nine nine. Both have zero whole ones. At the tenths place, six is greater than five.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "0.620 ? 0.599"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "So zero point six two is greater, even though it has fewer written decimal digits. Comparing sixty-two with five hundred and ninety-nine would compare the wrong units.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "0.620 > 0.599"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Which is greater: two point four zero five, or two point four five?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "2.405 ? 2.45"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Two point four five equals two point four five zero. The first differing place is the hundredths, so two point four five is greater.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "2.450 > 2.405"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Align equal place values and compare from the largest place. Stop at the first difference. On a number line the greater number is further right; the number of written digits alone does not decide.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "decimals-percentages-percent",
+    "topic": "decimals-percentages",
+    "section": "percent",
+    "title": "Understanding Percent",
+    "file": "MathMagic_V2_decimals_percentages_percent",
+    "beats": [
+      {
+        "text": "What does a battery showing seventy-five percent tell you? Today we are exploring percent as a way of describing relative size. We will use one whole divided into one hundred equal parts and compare familiar percentages on the same scale.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Percent means per hundred. One hundred percent is one complete whole. Fifty percent is half of that whole. Always identify the whole: a percentage describes a share of it, rather than a count by itself.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "A battery at seventy-five percent represents seventy-five of one hundred equal parts of full capacity. It is more than half full but less than completely full.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "75% = 75 out of 100",
+          "50% < 75% < 100%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The percentage bar shows the same relative share: three quarters of its complete length. The full bar always stands for the same full battery in this comparison.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "75% = three quarters of the whole"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Compare forty percent and sixty percent of the same whole. Imagine forty shaded cells and sixty shaded cells on equal hundred-grids.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "40% = 40 out of 100",
+          "60% = 60 out of 100"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Sixty percent is the greater share because sixty of the same-sized parts is more than forty. Both shares use a common scale of one hundred.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "60% > 40%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Which is closer to a complete whole: ninety percent or twenty-five percent?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "90% ? 25%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Ninety percent is only ten of the hundred parts below the whole. Twenty-five percent is seventy-five parts below it. Ninety percent is closer.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "100% − 90% = 10%",
+          "100% − 25% = 75%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Percent means out of one hundred equal parts. Identify the whole, use familiar benchmarks such as fifty and one hundred percent, and compare relative shares on the same scale.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "decimals-percentages-connect",
+    "topic": "decimals-percentages",
+    "section": "connect",
+    "title": "Connect Fractions, Decimals and Percentages",
+    "file": "MathMagic_V2_decimals_percentages_connect",
+    "beats": [
+      {
+        "text": "Can one amount have three different mathematical names? Today we are connecting fractions, decimals and percentages. We will use the same whole each time, rename shares in hundredths, and explain why the notation changes while the amount stays the same.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "A fraction describes equal parts, a decimal uses place-value parts, and a percentage uses hundredths. Rename a familiar fraction in hundredths to connect all three. Always keep the whole unchanged.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "One half of a whole is fifty hundredths. In decimal notation that is zero point five zero, or zero point five.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "one half = 50 hundredths",
+          "0.50 = 0.5"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Fifty hundredths is fifty percent. All three names identify the midpoint between zero and one, so the amount has not changed.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "one half = 0.5 = 50%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Three quarters is seventy-five hundredths. In decimal notation it is zero point seven five.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "three quarters = 75 hundredths"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Seventy-five hundredths is seventy-five percent. One quarter would be twenty-five hundredths, or zero point two five, or twenty-five percent.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "three quarters = 0.75 = 75%",
+          "one quarter = 0.25 = 25%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "One fifth is how many tenths, and what decimal and percentage does it represent?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "one fifth = ? = ?%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "One fifth is two tenths, or twenty hundredths. That gives zero point two and twenty percent.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "one fifth = 0.2 = 20%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Keep the same whole and connect through equal parts. One half, one quarter, three quarters, one tenth and one fifth are useful benchmarks. Equivalent representations locate the same amount on a number line.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "decimals-percentages-apply",
+    "topic": "decimals-percentages",
+    "section": "apply",
+    "title": "Compare Relative Size",
+    "file": "MathMagic_V2_decimals_percentages_apply",
+    "beats": [
+      {
+        "text": "One team wins eight games out of ten, and another wins seventy-five out of one hundred. Which record is the greater relative success? Today we are comparing shares fairly by using a common whole and connecting fractions, decimals and percentages.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Counts alone can be misleading when the totals differ. Compare the share of each total by renaming it on a common scale. Percentages use a scale of one hundred; they do not tell us how many items there were originally.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Team A wins eight out of ten games. Rename the share as eighty out of one hundred, which is eighty percent.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "Team A: 8 out of 10 = 80%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Team B wins seventy-five out of one hundred games, which is seventy-five percent. Eighty percent is greater, so Team A has the greater relative success, although Team B has more wins in total.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "Team B: 75 out of 100 = 75%",
+          "80% > 75%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Compare a bar that is half shaded with a bar that is zero point four shaded. Use equal complete bars for the wholes.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "one half = 0.5 = 50%",
+          "0.4 = 40%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Half is fifty percent and zero point four is forty percent. Half is the greater share because fifty hundredths is more than forty hundredths.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "50% > 40%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Which share is greater: three quarters or seventy percent?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "three quarters ? 70%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Three quarters is seventy-five percent. That is greater than seventy percent by five percentage points.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "three quarters = 75%",
+          "75% > 70%"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Identify each whole, rename shares on a common scale, and compare relative size. A greater percentage does not necessarily mean a greater count when the totals differ. Explain which comparison the question asks for.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "factors-multiples-lesson1",
+    "topic": "factors-multiples",
+    "section": "lesson1",
+    "title": "Build Numbers from Factors",
+    "file": "MathMagic_V2_factors_multiples_lesson1",
+    "beats": [
+      {
+        "text": "How many different rectangles could you build with twenty-four equal tiles? Today we are finding factor pairs. We will arrange whole-number rows, record matching products, and use those pairs to find every factor without missing one.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Factors are whole numbers that multiply to make a product. A factor pair gives the number of rows and the number in each row of a rectangular array. Exact division tells us whether a proposed row size works.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Start with twenty-four tiles. One row of twenty-four works. Two rows of twelve work too, as do three rows of eight and four rows of six.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "1 × 24 = 24",
+          "2 × 12 = 24",
+          "3 × 8 = 24"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The factors are one, two, three, four, six, eight, twelve and twenty-four. After four and six, later successful pairs repeat earlier pairs in reverse.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "4 × 6 = 24",
+          "Factors: 1, 2, 3, 4, 6, 8, 12, 24"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "For thirty-six tiles, begin with one and thirty-six, two and eighteen, three and twelve, and four and nine. Five does not divide thirty-six exactly.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "1 × 36 = 36",
+          "2 × 18 = 36",
+          "3 × 12 = 36"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Six and six is also a pair. Record six only once in the complete factor set. The repeated factor makes a square array, and later pairs repeat in reverse.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "4 × 9 = 36",
+          "6 × 6 = 36",
+          "Factors: 1, 2, 3, 4, 6, 9, 12, 18, 36"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What number pairs with seven to make forty-two?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "7 × □ = 42"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Six pairs with seven, because seven times six is forty-two. Both numbers are factors of forty-two.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "7 × 6 = 42"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Find factors systematically with exact division or arrays. Record both members of each factor pair, remove repeated entries, and explain why the search is complete.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "factors-multiples-lesson2",
+    "topic": "factors-multiples",
+    "section": "lesson2",
+    "title": "Recognise Multiples",
+    "file": "MathMagic_V2_factors_multiples_lesson2",
+    "beats": [
+      {
+        "text": "A pattern goes six, twelve, eighteen. What connects every number in it? Today we are recognising multiples and connecting them to factors. We will build equal groups, continue number patterns, and explain how one multiplication gives two related facts.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Multiples are products formed by multiplying a number by whole numbers. Adding another equal group produces the next positive multiple. The list continues without ending; zero is also a multiple, although our counting patterns start at the first positive one.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Make groups of six. One group gives six, two give twelve, and three give eighteen. Keep adding six to reach twenty-four, thirty and thirty-six.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "6, 12, 18, 24, 30, 36"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Every value in this pattern is a multiple of six because it equals six times a whole number. Six is a factor of each positive value in the list.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "6 × 4 = 24",
+          "6 is a factor of 24"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Because seven times six is forty-two, forty-two is a multiple of both seven and six. The direction of the relationship matters.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "7 × 6 = 42"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Seven and six are factors of forty-two; forty-two is their multiple. Continuing the sevens pattern from twenty-eight gives thirty-five, forty-two, forty-nine and fifty-six.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "28, 35, 42, 49, 56"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "What comes after forty-eight in the positive multiples of eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "8, 16, 24, 32, 40, 48, ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Add another eight to get fifty-six. Seven groups of eight make fifty-six.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "48 + 8 = 56",
+          "7 × 8 = 56"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Multiples come from equal groups and can be continued by repeated addition. Use multiplication or exact division to check membership. Factors build a number; multiples are the products you make.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "factors-multiples-lesson3",
+    "topic": "factors-multiples",
+    "section": "lesson3",
+    "title": "Use Divisibility Rules",
+    "file": "MathMagic_V2_factors_multiples_lesson3",
+    "beats": [
+      {
+        "text": "Can you tell whether a number divides exactly without doing the whole division? Today we are using divisibility rules. We will test digits, combine two conditions when needed, and explain what the result tells us about factors and remainders.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Divisible means division leaves no remainder. For two, check the final digit is even. For five, it must end in zero or five; for ten, zero. For three or nine, test the digit sum. For four, test the final two digits.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Is seven hundred and thirty-eight divisible by six? A number is divisible by six when it is divisible by both two and three. Its last digit, eight, is even.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "738: last digit 8 is even"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The digit sum is seven plus three plus eight, which is eighteen. Eighteen is divisible by three. Both tests pass, so seven hundred and thirty-eight is divisible by six.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "7 + 3 + 8 = 18",
+          "738 ÷ 6 = 123"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Is one thousand two hundred and forty-five divisible by five and by nine? It ends in five, so the test for five passes.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "1,245: ends in 5"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Its digit sum is twelve. Twelve is not divisible by nine, so the number is not divisible by nine. Passing one divisibility test does not imply passing every other test.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "1 + 2 + 4 + 5 = 12",
+          "Divisible by 5; not by 9"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Is three hundred and twelve divisible by four?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "312: test the final two digits"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "The last two digits form twelve. Twelve is divisible by four, so three hundred and twelve is divisible by four. Check: four times seventy-eight is three hundred and twelve.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "12 ÷ 4 = 3",
+          "4 × 78 = 312"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Choose the rule for the divisor and explain each condition. Six needs both the two and three tests. Divisibility rules are shortcuts for exact-division decisions, and multiplication can confirm the result.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "factors-multiples-lesson4",
+    "topic": "factors-multiples",
+    "section": "lesson4",
+    "title": "Follow an Algorithm",
+    "file": "MathMagic_V2_factors_multiples_lesson4",
+    "beats": [
+      {
+        "text": "How can a set of instructions help us find every factor? Today we are following an algorithm: a sequence of steps and decisions we can repeat. We will test candidates in order, record successful pairs, and decide when it is safe to stop.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "Choose the target number and start with one. Test exact division. If it works, record the candidate and its partner. Increase the candidate by one. Stop when the candidate is greater than its possible partner, because pairs would repeat in reverse.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "For thirty-six, test one, two, three and four. They produce partners thirty-six, eighteen, twelve and nine. Five leaves a remainder, so do not record it.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "1 × 36",
+          "2 × 18",
+          "3 × 12",
+          "4 × 9"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Six divides exactly and pairs with six. The next candidate would be seven, already beyond its partner, so the search is complete. Record six only once when listing the factors.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "5: not a factor",
+          "6 × 6",
+          "Stop before pairs repeat"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Apply the same steps to forty. One pairs with forty, two with twenty, and four with ten. Three does not divide exactly.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "1 × 40",
+          "2 × 20",
+          "4 × 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Five pairs with eight. Six does not work, and by seven the candidate is greater than the partner it would need. The complete factors are one, two, four, five, eight, ten, twenty and forty.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "5 × 8",
+          "Factors: 1, 2, 4, 5, 8, 10, 20, 40"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "For twenty-four, after recording four times six, should we also record six times four as a new pair?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "4 × 6 = 24",
+          "6 × 4 = 24: new pair?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "No. They use the same two factors in reverse order. A complete factor set includes each value once.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "Same pair, reversed"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "An algorithm needs a starting point, a repeatable test, a way to record results, and a stopping rule. Follow every step so the search is complete without unnecessary repetition.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  },
+  {
+    "id": "factors-multiples-lesson5",
+    "topic": "factors-multiples",
+    "section": "lesson5",
+    "title": "Connect and Reason",
+    "file": "MathMagic_V2_factors_multiples_lesson5",
+    "beats": [
+      {
+        "text": "Could two different numbers share the same factors or meet in the same multiples pattern? Today we are connecting factors, multiples and divisibility. We will compare sets, identify shared relationships, and explain why a pattern continues.",
+        "chapter": "Let’s investigate",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "opening"
+      },
+      {
+        "text": "A shared factor divides each number exactly. A shared multiple can be made as a whole-number multiple of each number. These are different questions, so decide whether you are looking for building blocks or for products.",
+        "chapter": "Build the idea",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "List the factors of eighteen: one, two, three, six, nine and eighteen. List the factors of thirty: one, two, three, five, six, ten, fifteen and thirty.",
+        "chapter": "Example 1: plan",
+        "equation": [],
+        "board": [
+          "18: 1, 2, 3, 6, 9, 18",
+          "30: 1, 2, 3, 5, 6, 10, 15, 30"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "The values in both lists are one, two, three and six. Each divides both numbers exactly. These are their shared factors.",
+        "chapter": "Example 1: explain",
+        "equation": [],
+        "board": [
+          "Shared factors: 1, 2, 3, 6"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Now compare positive multiples of four and six. Four gives four, eight, twelve, sixteen, twenty and twenty-four. Six gives six, twelve, eighteen and twenty-four.",
+        "chapter": "Example 2: plan",
+        "equation": [],
+        "board": [
+          "4, 8, 12, 16, 20, 24",
+          "6, 12, 18, 24"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Twelve and twenty-four appear in both lists. They are shared multiples because each is a whole-number multiple of both four and six.",
+        "chapter": "Example 2: explain",
+        "equation": [],
+        "board": [
+          "Shared multiples shown: 12, 24"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation"
+      },
+      {
+        "text": "Which of five, six, seven or eight is a factor of both twenty-four and thirty-six?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "24 and 36: shared factor?",
+          "5, 6, 7 or 8"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 4
+      },
+      {
+        "text": "Six works. Six times four is twenty-four and six times six is thirty-six. Eight divides twenty-four but not thirty-six, so it is not shared.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "6 × 4 = 24",
+          "6 × 6 = 36"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer"
+      },
+      {
+        "text": "Shared factors divide both numbers; shared multiples appear in both product patterns. Use complete lists or exact division to justify your decision. Explain the relationship rather than guessing from one example.",
+        "chapter": "What to remember",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "recap"
+      }
+    ]
+  }
+]

@@ -1,0 +1,598 @@
+{
+  "schema": 2,
+  "interval_hours": 5,
+  "last_batch_started": "2026-10-19T10:52:57.414915+00:00",
+  "next_batch_due": "2026-10-19T15:52:57.414915+00:00",
+  "active_batch": {
+    "id": "20261019T105257Z",
+    "lessons": [
+      "fractions-comparing",
+      "fractions-equivalent",
+      "fractions-mixed",
+      "fractions-addsub",
+      "fractions-problems"
+    ],
+    "started": "2026-10-19T10:52:57.414915+00:00",
+    "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+  },
+  "last_successful_batch": null,
+  "errors": [],
+  "limitations": [
+    "Local Kokoro bf_emma neural speech; perceived expressiveness and pronunciation have not been human-certified.",
+    "Only existing six-topic curriculum is catalogued; no future-year topics are inferred."
+  ],
+  "lessons": {
+    "fractions-comparing": {
+      "topic": "fractions",
+      "lesson": "Comparing and Ordering Fractions",
+      "section": "meaning",
+      "video_filename": "videos/MathMagic_V2_fractions_comparing.mp4",
+      "production_status": "integrated",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "4a57120a6e8e42471c1a585d76811aeac2cb95807738d42b8ce40ee3ccbd359e",
+      "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 128.72516666666667,
+      "narration_sha256": "d0f5e99c91c2c4bb0049dd52e5fcafdb99744c90e1e279273d7c552431af5b70",
+      "qa": {
+        "result": "passed",
+        "sha256": "73fd8af115560704af1f58197204a17b245699cf8608c590a32e7311a1ccd5c7",
+        "bytes": 2531705,
+        "duration": 128.72516666666667,
+        "audio_rms": 0.06329319626092911,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998581578567841,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Measured cue boundaries within two frames (67 ms); sentence PCM clocks retained.",
+        "perceptual_voice_review": "Not human-certified",
+        "maximum_cue_boundary_error_seconds": 0.01566666666666805
+      },
+      "superseded_local_renders": [
+        {
+          "reason": "Teaching review removed duplicate practice prompts and tightened recaps before publication.",
+          "qa": {
+            "result": "passed",
+            "sha256": "3cf75520cb28477f200dddc9475ea464a57f85ad3686c83e735b1d20f61ebba6",
+            "bytes": 2743203,
+            "duration": 141.32329166666668,
+            "audio_rms": 0.06251105666160583,
+            "clipping_fraction": 0.0,
+            "audio_correlation": 0.9998916731837633,
+            "full_decode": true,
+            "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+            "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+            "perceptual_voice_review": "Not human-certified"
+          }
+        }
+      ],
+      "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
+      "source_tree_dirty": true,
+      "producer_sha256": "c452b78fe1e4740489c87cfdece8f6f3c917b9c10d235653b525a2b2d6742c84",
+      "graphics_sha256": "38c94c39f138919835224a728fe917245c041070b6248601d1e7f305576afef2",
+      "integration": {
+        "page": "fractions.html",
+        "section": "meaning",
+        "preserved_original_sha256": "7d317feb7dc443c821b3e596af3970145b74c4a8f9f8cbd60a3522d9fbb026f8",
+        "replaced_wrapper_sha256": "e94c1f57d31b89178623c3a8d02af530070a2354dfa93302f73241f1b3dac316",
+        "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+      }
+    },
+    "fractions-equivalent": {
+      "topic": "fractions",
+      "lesson": "Equivalent Fractions",
+      "section": "equivalent",
+      "video_filename": "videos/MathMagic_V2_fractions_equivalent.mp4",
+      "production_status": "integrated",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "f1b1473dd7be20fd82740183d761858ba15028f17647313e6db9bb54fb79d631",
+      "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 136.06345833333333,
+      "narration_sha256": "12d469fd31e0718d726fd17658616029f6c7925fdfe86ceb5bdbaea7d6c139a1",
+      "qa": {
+        "result": "passed",
+        "sha256": "b9e2746aff3fd05aa81af540a8e3b6d69c37299c0c9a86d1d8f50d6deecc1137",
+        "bytes": 2731610,
+        "duration": 136.06345833333333,
+        "audio_rms": 0.06252256035804749,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998148909948549,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Measured cue boundaries within two frames (67 ms); sentence PCM clocks retained.",
+        "perceptual_voice_review": "Not human-certified",
+        "maximum_cue_boundary_error_seconds": 0.014791666666667425
+      },
+      "superseded_local_renders": [
+        {
+          "reason": "Teaching review removed duplicate practice prompts and tightened recaps before publication.",
+          "qa": {
+            "result": "passed",
+            "sha256": "289437ba7466cadc149cb3a4577f62ab51b32fe9e71f2a7079e755ad325e1b2c",
+            "bytes": 2820803,
+            "duration": 142.32520833333334,
+            "audio_rms": 0.06222068890929222,
+            "clipping_fraction": 0.0,
+            "audio_correlation": 0.9998222408637073,
+            "full_decode": true,
+            "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+            "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+            "perceptual_voice_review": "Not human-certified"
+          }
+        }
+      ],
+      "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
+      "source_tree_dirty": true,
+      "producer_sha256": "c452b78fe1e4740489c87cfdece8f6f3c917b9c10d235653b525a2b2d6742c84",
+      "graphics_sha256": "38c94c39f138919835224a728fe917245c041070b6248601d1e7f305576afef2",
+      "integration": {
+        "page": "fractions.html",
+        "section": "equivalent",
+        "preserved_original_sha256": "b3da069159a9565433951af9663ec260697a702893336c4ab7b38b71ef1da7f6",
+        "replaced_wrapper_sha256": "fd2498e4f1efdce2e76323dc8bc98aaaf6a7990642f846123c7b6a338f32d4fc",
+        "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+      }
+    },
+    "fractions-mixed": {
+      "topic": "fractions",
+      "lesson": "Mixed Numbers and Improper Fractions",
+      "section": "mixed",
+      "video_filename": "videos/MathMagic_V2_fractions_mixed.mp4",
+      "production_status": "integrated",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "7bb85237842f2518ac4dcdd3091abd4352a72eddb3f3833e59112a4503b308a1",
+      "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "source_tree_dirty": true,
+      "producer_sha256": "c452b78fe1e4740489c87cfdece8f6f3c917b9c10d235653b525a2b2d6742c84",
+      "graphics_sha256": "38c94c39f138919835224a728fe917245c041070b6248601d1e7f305576afef2",
+      "duration": 124.31916666666666,
+      "narration_sha256": "6183aac78f95fb58f196ea6afefb616acc3e795e13716e3f4ce890b77f2ae3fa",
+      "qa": {
+        "result": "passed",
+        "sha256": "54c6591ca7ebd6d65b143d8f40379587f82f8d88fdf3e1b493dda05c9eac6484",
+        "bytes": 2399070,
+        "duration": 124.31916666666666,
+        "audio_rms": 0.06310763955116272,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998766908973906,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Measured cue boundaries within two frames (67 ms); sentence PCM clocks retained.",
+        "perceptual_voice_review": "Not human-certified",
+        "maximum_cue_boundary_error_seconds": 0.01633333333333553
+      },
+      "superseded_local_renders": [
+        {
+          "reason": "Teaching review removed duplicate practice prompts and tightened recaps before publication.",
+          "qa": {
+            "result": "passed",
+            "sha256": "604981790dba5bdd15924993cf08b805dad6bf9b027ba8ce791e2444237dd207",
+            "bytes": 2547020,
+            "duration": 133.231625,
+            "audio_rms": 0.06270603090524673,
+            "clipping_fraction": 0.0,
+            "audio_correlation": 0.9998759885324613,
+            "full_decode": true,
+            "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+            "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+            "perceptual_voice_review": "Not human-certified"
+          }
+        }
+      ],
+      "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
+      "integration": {
+        "page": "fractions.html",
+        "section": "mixed",
+        "preserved_original_sha256": "1c3c49b8969039f1ec3f41d9360f4c46f1d7a496a11059bbb13d58d3980a5c1d",
+        "replaced_wrapper_sha256": "2e4a250fbdee3cc10b4331b25e122f58209af70a1482b67fa86cb001fdbd879b",
+        "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+      }
+    },
+    "fractions-addsub": {
+      "topic": "fractions",
+      "lesson": "Adding and Subtracting Fractions",
+      "section": "addsub",
+      "video_filename": "videos/MathMagic_V2_fractions_addsub.mp4",
+      "production_status": "integrated",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "09e93a4bfa61158bcc828bbc2e8a1f422061fa9f0acaf768204c88b9f552a130",
+      "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
+      "source_tree_dirty": true,
+      "producer_sha256": "c452b78fe1e4740489c87cfdece8f6f3c917b9c10d235653b525a2b2d6742c84",
+      "graphics_sha256": "38c94c39f138919835224a728fe917245c041070b6248601d1e7f305576afef2",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 161.58116666666666,
+      "narration_sha256": "f5ecd83887ce1bdc3b246204c9a18d2abd3035bcf0ffd52b34e21a7f95ecaf8d",
+      "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
+      "qa": {
+        "result": "passed",
+        "sha256": "74ce81c1d7ce811c00650d5402d7fc9b355156c1036fb1a424c5103574a3d778",
+        "bytes": 3152773,
+        "duration": 161.58116666666666,
+        "audio_rms": 0.06276142597198486,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9997949334622845,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Measured cue boundaries within two frames (67 ms); sentence PCM clocks retained.",
+        "perceptual_voice_review": "Not human-certified",
+        "maximum_cue_boundary_error_seconds": 0.02933333333334076
+      },
+      "integration": {
+        "page": "fractions.html",
+        "section": "addsub",
+        "preserved_original_sha256": "8b813e067c89fa840fcf4f5b314e6a4ae7a79be255761117cb2acfc5dbe7eba2",
+        "replaced_wrapper_sha256": "0478ef2ebd93d0696ed81096096cc3146dd4053df8183577bba3e5bb8d623fbb",
+        "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+      },
+      "superseded_local_renders": [
+        {
+          "reason": "Correct introductory narration to match the displayed fraction question.",
+          "qa": {
+            "result": "passed",
+            "sha256": "b7e08a811ca2a8197008c9d883c0d445dcee6da67afae891ee7ebb0f9f1bfc3b",
+            "bytes": 3177356,
+            "duration": 162.266625,
+            "audio_rms": 0.0627804845571518,
+            "clipping_fraction": 0.0,
+            "audio_correlation": 0.9997779013580054,
+            "full_decode": true,
+            "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+            "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+            "perceptual_voice_review": "Not human-certified"
+          }
+        }
+      ]
+    },
+    "fractions-problems": {
+      "topic": "fractions",
+      "lesson": "Fraction Word Problems",
+      "section": "problems",
+      "video_filename": "videos/MathMagic_V2_fractions_problems.mp4",
+      "production_status": "integrated",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "revision_reason": "Remove duplicate practice prompts; one dedicated question/answer plus a focused recap.",
+      "script_sha256": "8f01497d034985a7483b4e09a75ee23961639915654555667c6804961f64648e",
+      "source_commit_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd",
+      "source_tree_dirty": true,
+      "producer_sha256": "c452b78fe1e4740489c87cfdece8f6f3c917b9c10d235653b525a2b2d6742c84",
+      "graphics_sha256": "38c94c39f138919835224a728fe917245c041070b6248601d1e7f305576afef2",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 144.924125,
+      "narration_sha256": "72c40ab876d32256215100d13d27d1481cf8dd4555d731762962cad85f10eb31",
+      "qa": {
+        "result": "passed",
+        "sha256": "b2437f7aca617eacdeea37ef19fdf97bd3f4c2d9be55ce5186145249a452c625",
+        "bytes": 2802528,
+        "duration": 144.924125,
+        "audio_rms": 0.0634753406047821,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998259809033104,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Measured cue boundaries within two frames (67 ms); sentence PCM clocks retained.",
+        "perceptual_voice_review": "Not human-certified",
+        "maximum_cue_boundary_error_seconds": 0.01595833333333374
+      },
+      "integration": {
+        "page": "fractions.html",
+        "section": "problems",
+        "preserved_original_sha256": "3b6f924d9b69cde002e4822057d6c9dd4004d9436315eb9ea49e70ae82435bf7",
+        "replaced_wrapper_sha256": "bbd7d9af426a42c2a50d928081230dbadb0581303e4962753cb452fe1418790b",
+        "rollback_sha": "f3f5327d29c0fd65b4b8e7cc49b9cf48f9693bfd"
+      }
+    },
+    "whole-numbers-lesson1": {
+      "topic": "whole-numbers",
+      "lesson": "Understanding Place Value",
+      "section": "lesson1",
+      "video_filename": "videos/MathMagic_V2_whole_numbers_lesson1.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "whole-numbers-lesson2": {
+      "topic": "whole-numbers",
+      "lesson": "Expanded Form & Representing Numbers",
+      "section": "lesson2",
+      "video_filename": "videos/MathMagic_V2_whole_numbers_lesson2.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "whole-numbers-lesson3": {
+      "topic": "whole-numbers",
+      "lesson": "Comparing & Ordering Whole Numbers",
+      "section": "lesson3",
+      "video_filename": "videos/MathMagic_V2_whole_numbers_lesson3.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "whole-numbers-lesson4": {
+      "topic": "whole-numbers",
+      "lesson": "Decimal Place Value",
+      "section": "lesson4",
+      "video_filename": "videos/MathMagic_V2_whole_numbers_lesson4.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "whole-numbers-lesson5": {
+      "topic": "whole-numbers",
+      "lesson": "Compare, Order & Locate Decimals",
+      "section": "lesson5",
+      "video_filename": "videos/MathMagic_V2_whole_numbers_lesson5.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "addition-subtraction-lesson1": {
+      "topic": "addition-subtraction",
+      "lesson": "Efficient Mental Strategies",
+      "section": "lesson1",
+      "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "addition-subtraction-lesson2": {
+      "topic": "addition-subtraction",
+      "lesson": "Written Addition and Subtraction",
+      "section": "lesson2",
+      "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "addition-subtraction-lesson3": {
+      "topic": "addition-subtraction",
+      "lesson": "Estimate and Check",
+      "section": "lesson3",
+      "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "addition-subtraction-lesson4": {
+      "topic": "addition-subtraction",
+      "lesson": "Missing Values and Inverses",
+      "section": "lesson4",
+      "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "addition-subtraction-lesson5": {
+      "topic": "addition-subtraction",
+      "lesson": "Model Practical Problems",
+      "section": "lesson5",
+      "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "multiplication-division-lesson1": {
+      "topic": "multiplication-division",
+      "lesson": "Multiply Efficiently",
+      "section": "lesson1",
+      "video_filename": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "multiplication-division-lesson2": {
+      "topic": "multiplication-division",
+      "lesson": "Multiply by Two-digit Numbers",
+      "section": "lesson2",
+      "video_filename": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "multiplication-division-lesson3": {
+      "topic": "multiplication-division",
+      "lesson": "Divide by a Single-digit Number",
+      "section": "lesson3",
+      "video_filename": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "multiplication-division-lesson4": {
+      "topic": "multiplication-division",
+      "lesson": "Interpret Remainders",
+      "section": "lesson4",
+      "video_filename": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "multiplication-division-lesson5": {
+      "topic": "multiplication-division",
+      "lesson": "Unknowns, Estimation and Modelling",
+      "section": "lesson5",
+      "video_filename": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "decimals-percentages-place": {
+      "topic": "decimals-percentages",
+      "lesson": "Decimal Place Value",
+      "section": "place",
+      "video_filename": "videos/MathMagic_V2_decimals_percentages_place.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "decimals-percentages-compare": {
+      "topic": "decimals-percentages",
+      "lesson": "Compare and Order Decimals",
+      "section": "compare",
+      "video_filename": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "decimals-percentages-percent": {
+      "topic": "decimals-percentages",
+      "lesson": "Understanding Percent",
+      "section": "percent",
+      "video_filename": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "decimals-percentages-connect": {
+      "topic": "decimals-percentages",
+      "lesson": "Connect Fractions, Decimals and Percentages",
+      "section": "connect",
+      "video_filename": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "decimals-percentages-apply": {
+      "topic": "decimals-percentages",
+      "lesson": "Compare Relative Size",
+      "section": "apply",
+      "video_filename": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "factors-multiples-lesson1": {
+      "topic": "factors-multiples",
+      "lesson": "Build Numbers from Factors",
+      "section": "lesson1",
+      "video_filename": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "factors-multiples-lesson2": {
+      "topic": "factors-multiples",
+      "lesson": "Recognise Multiples",
+      "section": "lesson2",
+      "video_filename": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "factors-multiples-lesson3": {
+      "topic": "factors-multiples",
+      "lesson": "Use Divisibility Rules",
+      "section": "lesson3",
+      "video_filename": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "factors-multiples-lesson4": {
+      "topic": "factors-multiples",
+      "lesson": "Follow an Algorithm",
+      "section": "lesson4",
+      "video_filename": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    },
+    "factors-multiples-lesson5": {
+      "topic": "factors-multiples",
+      "lesson": "Connect and Reason",
+      "section": "lesson5",
+      "video_filename": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+      "production_status": "pending",
+      "commit_sha": null,
+      "deployment_status": "pending",
+      "reason": "Missing explainer or requested narration/palette/structure revision."
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "sherpa-onnx": "1.12.26",
+      "soundfile": "0.14.0",
+      "numpy": "2.5.4",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  }
+}
