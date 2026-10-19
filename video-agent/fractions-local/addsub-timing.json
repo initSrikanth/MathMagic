@@ -1,0 +1,724 @@
+[
+  {
+    "index": 0,
+    "start": 0.0,
+    "end": 6.03546485260771,
+    "samples": 133082,
+    "audio_sha256": "7081b705b8218f4ae07bd71162474dd56f530a55459a9aa4338debb4710e2949",
+    "text": "A half plus a quarter: do we get two sixths? No. We need equal-sized parts before we can combine them.",
+    "chapter": "Make the parts match",
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "+",
+      [
+        1,
+        4
+      ],
+      "?",
+      [
+        2,
+        6
+      ]
+    ],
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One half",
+        "colour": "teal"
+      },
+      {
+        "n": 1,
+        "d": 4,
+        "label": "One quarter",
+        "colour": "gold"
+      }
+    ],
+    "note": "Use the same whole and the same-sized parts.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 1,
+    "start": 6.03546485260771,
+    "end": 11.455510204081632,
+    "samples": 119512,
+    "audio_sha256": "cce911fc98b2c7cc7d5773da493599fe0fbcac9a708cda8655eb618b964fc182",
+    "text": "First, use matching denominators. Two sevenths plus three sevenths makes five sevenths.",
+    "chapter": "Like denominators",
+    "equation": [
+      [
+        2,
+        7
+      ],
+      "+",
+      [
+        3,
+        7
+      ],
+      "=",
+      [
+        5,
+        7
+      ]
+    ],
+    "rows": [
+      {
+        "n": 2,
+        "d": 7,
+        "label": "Two sevenths",
+        "colour": "teal"
+      },
+      {
+        "n": 5,
+        "d": 7,
+        "label": "Add three more",
+        "colour": "gold"
+      }
+    ],
+    "note": "Count the parts. Keep the size of each part.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 2,
+    "start": 11.455510204081632,
+    "end": 17.317551020408164,
+    "samples": 129258,
+    "audio_sha256": "9c88b7af5d0287974634a089ec1f82d187feed7fb26a22fcc604d4743ced282d",
+    "text": "We add the numerators and keep the denominator. We are still counting sevenths, not fourteenths.",
+    "chapter": "Keep the denominator",
+    "equation": [
+      [
+        2,
+        7
+      ],
+      "+",
+      [
+        3,
+        7
+      ],
+      "=",
+      [
+        5,
+        7
+      ]
+    ],
+    "rows": [
+      {
+        "n": 5,
+        "d": 7,
+        "label": "Five seventh-pieces",
+        "colour": "teal"
+      }
+    ],
+    "note": "Never add the denominators.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 3,
+    "start": 17.317551020408164,
+    "end": 24.393197278911565,
+    "samples": 156018,
+    "audio_sha256": "0817fb11344d9dbfc2a1b5a9a76efaad11feb870cd186a24447cc322ed344944",
+    "text": "For one half plus one quarter, the denominators are related: four is a multiple of two. Rename the half as two quarters.",
+    "chapter": "Related denominators",
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "=",
+      [
+        2,
+        4
+      ]
+    ],
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One half",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Two quarters",
+        "colour": "gold"
+      }
+    ],
+    "note": "Split each half into two equal pieces.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 4,
+    "start": 24.393197278911565,
+    "end": 28.294149659863944,
+    "samples": 86016,
+    "audio_sha256": "63d73a865fdb67410d98a3151721b95dbab4f2fa100394da11cd57a424ab062d",
+    "text": "Now add two quarters and one quarter. The result is three quarters.",
+    "chapter": "Now combine equal parts",
+    "equation": [
+      [
+        2,
+        4
+      ],
+      "+",
+      [
+        1,
+        4
+      ],
+      "=",
+      [
+        3,
+        4
+      ]
+    ],
+    "rows": [
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Start with two quarters",
+        "colour": "teal"
+      },
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Add one quarter",
+        "colour": "gold"
+      }
+    ],
+    "note": "One half + one quarter = three quarters.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 5,
+    "start": 28.294149659863944,
+    "end": 34.394013605442176,
+    "samples": 134502,
+    "audio_sha256": "31291574aba82b7250c15430e0456a84a815ac8286ba32b73b6eae88846a9bce",
+    "text": "Subtraction follows the same idea. For three quarters minus one eighth, rename three quarters as six eighths.",
+    "chapter": "Subtract with equal parts",
+    "equation": [
+      [
+        3,
+        4
+      ],
+      "=",
+      [
+        6,
+        8
+      ]
+    ],
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarters",
+        "colour": "teal"
+      },
+      {
+        "n": 6,
+        "d": 8,
+        "label": "Six eighths",
+        "colour": "gold"
+      }
+    ],
+    "note": "Eight is a multiple of four.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 6,
+    "start": 34.394013605442176,
+    "end": 38.875464852607706,
+    "samples": 98816,
+    "audio_sha256": "e991974b29f08e95eac6a34e15b0dc36c1ae712f16047b5a803ac28f03dd0917",
+    "text": "Take away one eighth. Five eighths remain. The denominator stays eight.",
+    "chapter": "Remove one part",
+    "equation": [
+      [
+        6,
+        8
+      ],
+      "−",
+      [
+        1,
+        8
+      ],
+      "=",
+      [
+        5,
+        8
+      ]
+    ],
+    "rows": [
+      {
+        "n": 6,
+        "d": 8,
+        "label": "Before",
+        "colour": "teal"
+      },
+      {
+        "n": 5,
+        "d": 8,
+        "label": "After",
+        "colour": "gold"
+      }
+    ],
+    "note": "Six eighths − one eighth = five eighths.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 7,
+    "start": 38.875464852607706,
+    "end": 43.76598639455782,
+    "samples": 107836,
+    "audio_sha256": "b8cfc1676da2559fceeefe4c07c54a7ab797542c8f7c69d559fcc4bbfa9f8f15",
+    "text": "On a number line, begin at six eighths and move back one eighth. You land on five eighths.",
+    "chapter": "See subtraction as a jump",
+    "equation": [
+      [
+        6,
+        8
+      ],
+      "−",
+      [
+        1,
+        8
+      ],
+      "=",
+      [
+        5,
+        8
+      ]
+    ],
+    "rows": [],
+    "note": "Add: move right. Subtract: move left.",
+    "line": {
+      "d": 8,
+      "points": [
+        5,
+        6
+      ],
+      "maximum": 1,
+      "jump": [
+        6,
+        5
+      ]
+    },
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 8,
+    "start": 43.76598639455782,
+    "end": 49.288662131519274,
+    "samples": 121775,
+    "audio_sha256": "d2495b978d573aa262e42d0fedb89f19ec22ec692bf958094550ef151c428fcd",
+    "text": "Simplify when you can. One sixth plus three sixths is four sixths, which equals two thirds.",
+    "chapter": "Calculate, then simplify",
+    "equation": [
+      [
+        1,
+        6
+      ],
+      "+",
+      [
+        3,
+        6
+      ],
+      "=",
+      [
+        4,
+        6
+      ],
+      "=",
+      [
+        2,
+        3
+      ]
+    ],
+    "rows": [
+      {
+        "n": 4,
+        "d": 6,
+        "label": "Four sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds",
+        "colour": "gold"
+      }
+    ],
+    "note": "Divide the numerator and denominator by two.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 9,
+    "start": 49.288662131519274,
+    "end": 55.63278911564626,
+    "samples": 139888,
+    "audio_sha256": "0489ba6fff497d44a5cdfebaa6b67b09b5202290ffc21c27bec57e8b252c7edf",
+    "text": "Mixed numbers can make another whole. One and four fifths plus two fifths is one and six fifths.",
+    "chapter": "Regroup a mixed number",
+    "equation": [
+      [
+        1,
+        4,
+        5
+      ],
+      "+",
+      [
+        2,
+        5
+      ],
+      "=",
+      "1",
+      "+",
+      [
+        6,
+        5
+      ]
+    ],
+    "rows": [
+      {
+        "n": 5,
+        "d": 5,
+        "label": "One whole",
+        "colour": "teal"
+      },
+      {
+        "n": 5,
+        "d": 5,
+        "label": "Five more fifths",
+        "colour": "gold"
+      },
+      {
+        "n": 1,
+        "d": 5,
+        "label": "One extra fifth",
+        "colour": "teal"
+      }
+    ],
+    "note": "Six fifths is one whole and one fifth.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 10,
+    "start": 55.63278911564626,
+    "end": 59.6156462585034,
+    "samples": 87822,
+    "audio_sha256": "ff380f9ac3e4e6bccbb30a11fb45ec978e31285c4d8af33b7d2fbdf89493dde0",
+    "text": "Regroup five fifths as one whole. The answer is two and one fifth.",
+    "chapter": "Make the extra whole",
+    "equation": [
+      [
+        1,
+        4,
+        5
+      ],
+      "+",
+      [
+        2,
+        5
+      ],
+      "=",
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "rows": [
+      {
+        "n": 5,
+        "d": 5,
+        "label": "Whole",
+        "colour": "teal"
+      },
+      {
+        "n": 5,
+        "d": 5,
+        "label": "Whole",
+        "colour": "gold"
+      },
+      {
+        "n": 1,
+        "d": 5,
+        "label": "One fifth",
+        "colour": "teal"
+      }
+    ],
+    "note": "Check: the result is a little more than two.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 11,
+    "start": 59.6156462585034,
+    "end": 68.19510204081632,
+    "samples": 189177,
+    "audio_sha256": "b7e9f7fab4f2f7a2f8f0341c40880fa252c13b741cda01c8496441912342b739",
+    "text": "For several fractions, rename them with a common denominator. One half plus one quarter minus one eighth becomes four eighths plus two eighths minus one eighth.",
+    "chapter": "More than two fractions",
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "+",
+      [
+        1,
+        4
+      ],
+      "−",
+      [
+        1,
+        8
+      ]
+    ],
+    "rows": [],
+    "note": "A common denominator of eight works for all three.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 12,
+    "start": 68.19510204081632,
+    "end": 72.12439909297052,
+    "samples": 86641,
+    "audio_sha256": "b0bcbcb88f37502f8b6ec32e0038e9402b8ba8172de08299b917f6d4d62a933b",
+    "text": "Four plus two minus one is five, so the result is five eighths.",
+    "chapter": "Combine the numerators",
+    "equation": [
+      [
+        4,
+        8
+      ],
+      "+",
+      [
+        2,
+        8
+      ],
+      "−",
+      [
+        1,
+        8
+      ],
+      "=",
+      [
+        5,
+        8
+      ]
+    ],
+    "rows": [
+      {
+        "n": 5,
+        "d": 8,
+        "label": "Five eighths remain",
+        "colour": "teal"
+      }
+    ],
+    "note": "Keep the denominator eight throughout.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 13,
+    "start": 72.12439909297052,
+    "end": 79.58630385487528,
+    "samples": 164535,
+    "audio_sha256": "1f55c44d9ce6a43664d4a550019cb11201d7f819bd1c678df9e84aa7b80a88dd",
+    "text": "Here is an extension: when neither denominator is a multiple of the other, shared multiples can help. Try one quarter plus one sixth.",
+    "chapter": "Extension: least common multiple",
+    "equation": [
+      [
+        1,
+        4
+      ],
+      "+",
+      [
+        1,
+        6
+      ]
+    ],
+    "rows": [],
+    "note": "The least common multiple is also called the lowest common multiple.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 14,
+    "start": 79.58630385487528,
+    "end": 88.98380952380953,
+    "samples": 207215,
+    "audio_sha256": "d3e755e7b32b4e1017610a1dc44d1502cc41fabfbeaf7484fc0051f0378084fc",
+    "text": "Multiples of four include four, eight, twelve. Multiples of six include six, twelve, eighteen. Twelve is the smallest positive shared multiple.",
+    "chapter": "Find a common denominator",
+    "equation": [
+      "4, 8, 12",
+      "and",
+      "6, 12, 18"
+    ],
+    "rows": [],
+    "note": "LCM of four and six = twelve. This is extension work.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 15,
+    "start": 88.98380952380953,
+    "end": 94.14426303854876,
+    "samples": 113788,
+    "audio_sha256": "00e2a1228dd8266bcf52545ab5100795f2f16b709b404760e953a0cc3698b10b",
+    "text": "One quarter is three twelfths. One sixth is two twelfths. Add to get five twelfths.",
+    "chapter": "Rename, then calculate",
+    "equation": [
+      [
+        3,
+        12
+      ],
+      "+",
+      [
+        2,
+        12
+      ],
+      "=",
+      [
+        5,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "n": 3,
+        "d": 12,
+        "label": "One quarter",
+        "colour": "teal"
+      },
+      {
+        "n": 5,
+        "d": 12,
+        "label": "Add one sixth",
+        "colour": "gold"
+      }
+    ],
+    "note": "Any common denominator works; the least keeps numbers smaller.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 16,
+    "start": 94.14426303854876,
+    "end": 100.25954648526077,
+    "samples": 134842,
+    "audio_sha256": "7d6c62c335b990e0194bdf988025b04e4e0f2376c24b919a6bf1bc9804e068d3",
+    "text": "Your turn: two thirds minus one sixth. Rename two thirds as four sixths, then subtract one sixth.",
+    "chapter": "Your turn",
+    "equation": [
+      [
+        2,
+        3
+      ],
+      "−",
+      [
+        1,
+        6
+      ],
+      "=",
+      [
+        4,
+        6
+      ],
+      "−",
+      [
+        1,
+        6
+      ]
+    ],
+    "rows": [
+      {
+        "n": 4,
+        "d": 6,
+        "label": "Four sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 3,
+        "d": 6,
+        "label": "Remove one sixth",
+        "colour": "gold"
+      }
+    ],
+    "note": "Pause and simplify your answer.",
+    "line": null,
+    "area": null,
+    "context": null
+  },
+  {
+    "index": 17,
+    "start": 100.25954648526077,
+    "end": 106.94145124716553,
+    "samples": 147336,
+    "audio_sha256": "f934498dbdc606a12443d1e3ec2ac985fb184dd508b748537ca6293dd67f7d19",
+    "text": "Three sixths remain, which is one half. Use equal wholes, rename into equal parts, calculate, and simplify.",
+    "chapter": "A reliable four-step method",
+    "equation": [
+      [
+        3,
+        6
+      ],
+      "=",
+      [
+        1,
+        2
+      ]
+    ],
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "Three sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One half",
+        "colour": "gold"
+      }
+    ],
+    "note": "Same whole → rename → calculate → simplify.",
+    "line": null,
+    "area": null,
+    "context": null
+  }
+]

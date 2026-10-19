@@ -1,0 +1,197 @@
+{
+  "comparing": {
+    "path": "videos/MathMagic_Comparing_Fractions_Animated_1080p.mp4",
+    "sha256": "e3e23c521144cd9a3111ec558fbf7f1858113e41859d7fdd0d087fe10d502b6b",
+    "bytes": 4602137,
+    "duration": 84.966667,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "AAC",
+    "audio_rms_dbfs": -25.257436738344488,
+    "audio_peak": 0.3738933801651001,
+    "decode": "complete, no errors",
+    "speech_samples": [
+      {
+        "cue": 0,
+        "expected": "Which is bigger: three quarters or one half? Let’s build the amounts and find out.",
+        "recognised": "which is bigger three quarters or one half that spilled the amounts and find out",
+        "similarity": 0.8765432098765432
+      },
+      {
+        "cue": 7,
+        "expected": "Return to three quarters and one half. Split each half into two equal pieces. One half becomes two quarters.",
+        "recognised": "a ten of three quarters and one half spit each half into two equal pieces one half becomes two quarters",
+        "similarity": 0.9383886255924171
+      },
+      {
+        "cue": 13,
+        "expected": "Five eighths is greater. Both use eighth-sized parts, and five parts are more than three. Compare equal wholes, use models, and check the number line.",
+        "recognised": "five eights is greater both use eight sized parts and five parts are more than three compare equal holes use models and check the number line",
+        "similarity": 0.9621993127147767
+      }
+    ],
+    "frame_samples": 14,
+    "alignment": "Measured cue sample boundaries; visual changes within one video frame",
+    "human_listening_review": false
+  },
+  "equivalent": {
+    "path": "videos/MathMagic_Equivalent_Fractions_Animated_1080p.mp4",
+    "sha256": "775de43c438b47be332f2f95fbba9fa3f8f8e16de793b8844101fa8d2cec307e",
+    "bytes": 4688917,
+    "duration": 88.266667,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "AAC",
+    "audio_rms_dbfs": -25.098833774687893,
+    "audio_peak": 0.42991048097610474,
+    "decode": "complete, no errors",
+    "speech_samples": [
+      {
+        "cue": 0,
+        "expected": "Can one half and four eighths be the same amount? Watch the shaded length as we change the pieces.",
+        "recognised": "and one half and four eighths be the same amount watch the shade at length as we change the pieces",
+        "similarity": 0.9591836734693877
+      },
+      {
+        "cue": 7,
+        "expected": "Group the eighths in pairs. Six eighths becomes three quarters. We divided the numerator and denominator by two.",
+        "recognised": "group the eights in pairs six eights become three quarters we divided the numerator and denominator by two",
+        "similarity": 0.9724770642201835
+      },
+      {
+        "cue": 13,
+        "expected": "The answer is twelve twentieths. Multiply both numbers by four. Remember: change the name, keep the value.",
+        "recognised": "the answer is twelve twentywentth multiply both numbers by four remember change the name keep the value",
+        "similarity": 0.9473684210526315
+      }
+    ],
+    "frame_samples": 14,
+    "alignment": "Measured cue sample boundaries; visual changes within one video frame",
+    "human_listening_review": false
+  },
+  "mixed": {
+    "path": "videos/MathMagic_Mixed_Numbers_Animated_1080p.mp4",
+    "sha256": "ed7c7c46bcd4c717a3fcf1f8ed73c3b30051a2e1400f921ce0a75c329df9c0e1",
+    "bytes": 5110800,
+    "duration": 82.233333,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "AAC",
+    "audio_rms_dbfs": -24.998917731808664,
+    "audio_peak": 0.3976055383682251,
+    "decode": "complete, no errors",
+    "speech_samples": [
+      {
+        "cue": 0,
+        "expected": "What happens when we have more than one whole? Let’s count eleven quarter-sized pieces.",
+        "recognised": "what happens when we have more than one wholele let's count eleven quartersized pieces",
+        "similarity": 0.9595375722543352
+      },
+      {
+        "cue": 7,
+        "expected": "Three times five gives fifteen fifths. Add the extra two fifths to make seventeen fifths.",
+        "recognised": "three times five gives fifteen fifth at the extra two fifths to make seventeen fifth",
+        "similarity": 0.9595375722543352
+      },
+      {
+        "cue": 13,
+        "expected": "Nine quarters is two and one quarter. Two groups of four use eight quarters, leaving one quarter. Both forms name the same number.",
+        "recognised": "nine quarters is two and one quarter two groups of four use eight quarters even one quarter both forms name the same number",
+        "similarity": 0.9644268774703557
+      }
+    ],
+    "frame_samples": 14,
+    "alignment": "Measured cue sample boundaries; visual changes within one video frame",
+    "human_listening_review": false
+  },
+  "addsub": {
+    "path": "videos/MathMagic_Adding_Subtracting_Fractions_Animated_1080p.mp4",
+    "sha256": "9ab1f9994d4709df76083f78496fcec8e9d99f8705bff2ac35b7bc7260fc7ddf",
+    "bytes": 6074630,
+    "duration": 106.933333,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "AAC",
+    "audio_rms_dbfs": -25.186147842168435,
+    "audio_peak": 0.4415546953678131,
+    "decode": "complete, no errors",
+    "speech_samples": [
+      {
+        "cue": 0,
+        "expected": "A half plus a quarter: do we get two sixths? No. We need equal-sized parts before we can combine them.",
+        "recognised": "half plus a quarter two week get two six we need equal sized parts before we can combine them",
+        "similarity": 0.9025641025641026
+      },
+      {
+        "cue": 9,
+        "expected": "Mixed numbers can make another whole. One and four fifths plus two fifths is one and six fifths.",
+        "recognised": "mixed numbers can make another whole one and four fifthus two fifth is one and six fifth",
+        "similarity": 0.9565217391304348
+      },
+      {
+        "cue": 17,
+        "expected": "Three sixths remain, which is one half. Use equal wholes, rename into equal parts, calculate, and simplify.",
+        "recognised": "three six remain which is one half used equal wholeles re name into equal barts calcuulate and simplify",
+        "similarity": 0.9238095238095239
+      }
+    ],
+    "frame_samples": 18,
+    "alignment": "Measured cue sample boundaries; visual changes within one video frame",
+    "human_listening_review": false
+  },
+  "problems": {
+    "path": "videos/MathMagic_Fraction_Word_Problems_Animated_1080p.mp4",
+    "sha256": "8ad8207564c2908d93ba814362566a207ef748a693af8f1404a746f7311337ff",
+    "bytes": 5493705,
+    "duration": 93.266667,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "AAC",
+    "audio_rms_dbfs": -25.55690849300798,
+    "audio_peak": 0.38745757937431335,
+    "decode": "complete, no errors",
+    "speech_samples": [
+      {
+        "cue": 0,
+        "expected": "Mia mixes half a cup of oats with a quarter of a cup of nuts. How much does she use altogether?",
+        "recognised": "near mixes half a cup of oots with a quarter of a cup of nuts how much does she use altogether",
+        "similarity": 0.9523809523809523
+      },
+      {
+        "cue": 8,
+        "expected": "For a comparison, Ava walks three quarters of a kilometre. Leo walks five eighths of a kilometre. Who walks farther, and by how much?",
+        "recognised": "a comparison arva walks threequarters of a kilomere vio walks five eighths of a kilomere who walks farther and by how much",
+        "similarity": 0.9333333333333333
+      },
+      {
+        "cue": 15,
+        "expected": "Rename two thirds as four sixths. Add one sixth to get five sixths. Identify the whole, model the relationship, calculate, and check your answer in context.",
+        "recognised": "re nameam two-thirds as four sixths at onesth to get five sixth identify the whole model the relationgship calculate and check your answer in context",
+        "similarity": 0.9377049180327869
+      }
+    ],
+    "frame_samples": 16,
+    "alignment": "Measured cue sample boundaries; visual changes within one video frame",
+    "human_listening_review": false
+  }
+}
