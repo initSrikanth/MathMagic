@@ -1,0 +1,60 @@
+{
+  "scope": "Two review prototypes only; no website/production operations.",
+  "mathematics": {
+    "same_denominator": true,
+    "same_numerator": true,
+    "equivalence": true,
+    "challenge": true
+  },
+  "videos": {
+    "A": {
+      "file": "Comparing_Fractions_Prototype_Voice_A.mp4",
+      "bytes": 5965076,
+      "sha256": "f7f5aecfdd9510df92481edd02f122ef2a19cbe28fc506466feecb47208de1d6",
+      "duration": 190.233333,
+      "full_decode": "passed",
+      "unexpected_silence_over_two_seconds": [],
+      "audible_every_narration_segment": true,
+      "peak_dBFS": -1.932508945465088,
+      "challenge_pause_seconds": 5.025458333333347,
+      "cue_alignment": "continuous sample clock, frame-rounded only at segment boundaries",
+      "format": "1080p30 H264 yuv420p / AAC, faststart"
+    },
+    "B": {
+      "file": "Comparing_Fractions_Prototype_Voice_B.mp4",
+      "bytes": 6684925,
+      "sha256": "bf61d00d79f454df6d6d2110f7dc493e084119c664124b65555e3c966afff6c4",
+      "duration": 220.033333,
+      "full_decode": "passed",
+      "unexpected_silence_over_two_seconds": [],
+      "audible_every_narration_segment": true,
+      "peak_dBFS": -1.9751863479614258,
+      "challenge_pause_seconds": 5.032625000000024,
+      "cue_alignment": "continuous sample clock, frame-rounded only at segment boundaries",
+      "format": "1080p30 H264 yuv420p / AAC, faststart"
+    }
+  },
+  "limitations": [
+    "No direct perceptual listening: human naturalness, warmth, pronunciation and intonation require reviewer judgement.",
+    "Cue timing follows measured narration segments, not word-level forced alignment.",
+    "American English and British English speakers, not specifically Australian voices.",
+    "Captions are narration-segment transcripts; not word-level captions."
+  ],
+  "visuals": {
+    "identical_cue_images_for_both_voices": true,
+    "shaded_cell_pixel_checks": "passed for every cell of every fraction bar",
+    "visual_inspection": "all 13 cues, plus encoded challenge before/after reveal and ending; proper stacked fractions and no branding"
+  },
+  "speaker_identity": {
+    "engine": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+    "A": "af_heart, speaker 3, American English female",
+    "B": "bm_george, speaker 26, British English male",
+    "different_style_embeddings": true,
+    "synthesis_speed": 0.94,
+    "post_synthesis_pitch_or_speed_changes": false,
+    "models": {
+      "model.onnx": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+      "voices.bin": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+    }
+  }
+}
