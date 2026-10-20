@@ -1,7 +1,6 @@
 name: MathMagic five-hour production
+# Suspended by owner request. Do not re-enable without explicit authorisation.
 on:
-  schedule:
-    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -12,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   produce:
-    if: github.ref == 'refs/heads/main'
+    if: ${{ false }} # Production suspended, including manual dispatch.
     runs-on: ubuntu-24.04
     timeout-minutes: 270
     env:

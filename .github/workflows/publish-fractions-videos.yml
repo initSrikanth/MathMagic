@@ -1,13 +1,12 @@
 name: Publish MathMagic Comparing Fractions
+# Suspended by owner request. Do not re-enable without explicit authorisation.
 on:
-  push:
-    paths:
-      - '.github/workflows/publish-fractions-videos.yml'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   publish:
+    if: ${{ false }} # Automatic and manual publication suspended.
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
