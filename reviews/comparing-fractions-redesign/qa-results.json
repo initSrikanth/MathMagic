@@ -1,0 +1,85 @@
+{
+  "file": "Comparing_Fractions_Redesigned_Prototype.mp4",
+  "bytes": 10835615,
+  "sha256": "b3774b6eb4d54e6c4a7a7e1945febd51006ffdca463d2a310fab5c2b378e1b81",
+  "duration_seconds": 355.466667,
+  "format": "1920x1080, 30fps, H264 yuv420p, AAC 48kHz, faststart",
+  "full_decode": "passed",
+  "audible_every_narration_segment": true,
+  "peak_dBFS": -1.9545626640319824,
+  "unexpected_silence_over_two_seconds": [],
+  "thinking_pauses": [
+    {
+      "scene": 0,
+      "start": 14.033333333333333,
+      "end": 18.033333333333335,
+      "seconds": 4.0
+    },
+    {
+      "scene": 5,
+      "start": 59.06666666666667,
+      "end": 62.06666666666667,
+      "seconds": 3.0
+    },
+    {
+      "scene": 7,
+      "start": 75.96666666666667,
+      "end": 78.96666666666667,
+      "seconds": 3.0
+    },
+    {
+      "scene": 9,
+      "start": 105.03333333333333,
+      "end": 109.03333333333333,
+      "seconds": 4.0
+    },
+    {
+      "scene": 12,
+      "start": 151.70000000000002,
+      "end": 155.7,
+      "seconds": 4.0
+    },
+    {
+      "scene": 15,
+      "start": 197.6,
+      "end": 201.6,
+      "seconds": 4.0
+    },
+    {
+      "scene": 22,
+      "start": 290.56666666666666,
+      "end": 295.56666666666666,
+      "seconds": 5.0
+    }
+  ],
+  "stage_duration_seconds": {
+    "A": 29.8,
+    "B": 61.199999999999996,
+    "C": 48.30000000000001,
+    "D": 46.833333333333314,
+    "E": 90.26666666666665,
+    "F": 54.9666666666667,
+    "G": 24.099999999999966
+  },
+  "mathematics": "All comparisons and equivalences passed exact-rational checks; every model part pixel checked; equivalent subdivisions preserve shaded quantity.",
+  "pedagogy": "A-G sequence; concrete before symbols; fraction vocabulary; visual reasoning before comparison signs; guided predictions; denominator misconception; equivalent fraction modelling; five-second independent challenge; reflective recap.",
+  "curriculum": "Year 5 same/related denominator foundations; thirds-versus-quarters challenge is guided extension using twelfths, not a claim that an LCM algorithm is required.",
+  "voice": {
+    "engine": "Kokoro v1.0, sherpa-onnx 1.12.26",
+    "speaker": "af_heart",
+    "id": 3,
+    "accent": "American English",
+    "native_synthesis_rates": "0.87\u20130.94 depending on teaching role; not post-synthesis stretching",
+    "emotion_control": "No explicit Kokoro emotion/emphasis controls exposed; rate changes are not evidence of expressive teaching performance."
+  },
+  "limitations": [
+    "Direct perceptual listening unavailable. Naturalness, pronunciation, warmth and emotional expressiveness require user review.",
+    "Same voice as previous Voice A; pedagogical design and native pacing improved, but no claim that underlying TTS expressiveness is solved.",
+    "Timings are measured narration segments, not word-level alignment.",
+    "Captions are segment-level transcript sidecars."
+  ],
+  "models": {
+    "model.onnx": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices.bin": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+  }
+}

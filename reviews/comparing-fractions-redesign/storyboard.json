@@ -1,0 +1,753 @@
+[
+  {
+    "stage": "A",
+    "chapter": "Who ate more chocolate?",
+    "text": "You and a friend each have a chocolate bar. Both bars are exactly the same size, and both are divided into four equal pieces. You eat three pieces. Your friend eats two. Who ate more chocolate? How could the picture help you explain your answer?",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Your share: three pieces",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Your friend’s share: two pieces",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "The coloured pieces show how much each person ate.",
+    "pause": 4,
+    "concrete": true,
+    "hide": true,
+    "tone": "question"
+  },
+  {
+    "stage": "A",
+    "chapter": "Comparing fractions: explain why",
+    "text": "You had one more of those equal-sized pieces. Today, we'll discover how to compare fractions, and explain why one amount is greater. We'll begin with pictures, then connect them to fraction numbers.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Your share",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Your friend’s share",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Our goal: compare fractions and explain our reasoning.",
+    "pause": 0.6,
+    "concrete": true,
+    "hide": true
+  },
+  {
+    "stage": "B",
+    "chapter": "Start with one whole",
+    "text": "Let's build a fraction from the beginning. This rectangle represents one whole chocolate bar. When we divide a whole into parts, the parts must be equal in size. Unequal pieces wouldn't each be a quarter.",
+    "rows": [
+      {
+        "n": 1,
+        "d": 1,
+        "label": "One whole",
+        "colour": "teal"
+      }
+    ],
+    "equation": null,
+    "note": "One whole → equal parts",
+    "pause": 0.6,
+    "hide": true
+  },
+  {
+    "stage": "B",
+    "chapter": "Four equal parts",
+    "text": "Here are four equal parts. Each part is one quarter of the whole.",
+    "rows": [
+      {
+        "n": 0,
+        "d": 4,
+        "label": "Four equal-sized parts",
+        "colour": "teal"
+      }
+    ],
+    "equation": null,
+    "note": "Equal parts are essential.",
+    "pause": 0.5,
+    "hide": true,
+    "subdivide": [
+      1
+    ]
+  },
+  {
+    "stage": "B",
+    "chapter": "Choose three of those parts",
+    "text": "Now choose three parts. The coloured region shows the amount we've chosen; the whole bar is still the same size.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three of four equal parts",
+        "colour": "teal"
+      }
+    ],
+    "equation": null,
+    "note": "Four equal parts in the whole • Three parts chosen",
+    "pause": 0.6,
+    "hide": true,
+    "reveal": true
+  },
+  {
+    "stage": "B",
+    "chapter": "What does the four tell us?",
+    "text": "We write that amount as three quarters. Look at the four below the fraction bar. What does that four tell us about the whole?",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarters",
+        "colour": "teal"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "Think about all the equal parts, including the uncoloured part.",
+    "pause": 3,
+    "tone": "question"
+  },
+  {
+    "stage": "B",
+    "chapter": "Denominator: equal parts in the whole",
+    "text": "Four tells us the whole is divided into four equal parts. We call the bottom number the denominator. It tells us the size of the parts we're using: these are quarters.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Four equal parts make one whole",
+        "colour": "teal"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "Denominator → how many equal parts make the whole.",
+    "pause": 1,
+    "annotation": "denominator",
+    "tone": "term"
+  },
+  {
+    "stage": "B",
+    "chapter": "And what does the three tell us?",
+    "text": "Now look above the fraction bar. What does the three tell us?",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Count the coloured parts",
+        "colour": "teal"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "What has been chosen?",
+    "pause": 3,
+    "tone": "question"
+  },
+  {
+    "stage": "B",
+    "chapter": "Numerator: parts chosen",
+    "text": "It tells us that three parts are chosen. The top number is the numerator. Three chosen parts out of four equal parts make three quarters. The fraction and the picture describe the same amount.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three chosen quarter-sized parts",
+        "colour": "teal"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "Numerator → how many equal parts are chosen.",
+    "pause": 1,
+    "annotation": "both",
+    "tone": "term"
+  },
+  {
+    "stage": "C",
+    "chapter": "Same-sized pieces: make a prediction",
+    "text": "Bring back your friend's bar. You chose three quarters; your friend chose two quarters. Both wholes are the same size, and both use quarter-sized pieces. Before we write a comparison, which coloured amount looks greater? Explain your prediction using the pieces.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Your share: three quarters",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Your friend’s share: two quarters",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Same whole • Same-sized parts",
+    "pause": 4,
+    "hide": true,
+    "tone": "question"
+  },
+  {
+    "stage": "C",
+    "chapter": "One extra quarter makes the difference",
+    "text": "Look at the ends of the coloured regions. Both shares contain two quarters, but your share has one extra quarter. So three quarters is greater than two quarters. We know why: we're comparing different numbers of pieces that have exactly the same size.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarter-sized pieces",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Two quarter-sized pieces",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Three equal pieces cover more than two of the same pieces.",
+    "pause": 1,
+    "hide": true
+  },
+  {
+    "stage": "C",
+    "chapter": "Now connect the picture to the symbol",
+    "text": "Here's how we record that relationship. Three quarters is greater than two quarters. The wide opening of the comparison sign faces the greater amount. When denominators match, compare the numerators, because the equal parts already have the same size.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Greater amount",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "label": "Smaller amount",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ],
+      ">",
+      [
+        2,
+        4
+      ]
+    ],
+    "note": "Same denominator → compare the number of equal parts chosen.",
+    "pause": 1
+  },
+  {
+    "stage": "D",
+    "chapter": "One piece from each: which is larger?",
+    "text": "What if the pieces aren't the same size? These two wholes are identical. Divide one into two equal parts and the other into four. If you take just one piece from each whole, which piece will be larger? Look at the size of each piece.",
+    "rows": [
+      {
+        "n": 0,
+        "d": 2,
+        "label": "Two equal parts",
+        "colour": "teal"
+      },
+      {
+        "n": 0,
+        "d": 4,
+        "label": "Four equal parts",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Predict before the pieces are coloured.",
+    "pause": 4,
+    "hide": true,
+    "tone": "question"
+  },
+  {
+    "stage": "D",
+    "chapter": "Fewer equal parts means larger pieces",
+    "text": "The piece from the first bar is larger. It's one half of the whole; the other piece is one quarter. Cutting the same whole into fewer equal parts makes each piece larger. We chose one piece each time, but those pieces have different sizes.",
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One of two equal parts",
+        "colour": "teal"
+      },
+      {
+        "n": 1,
+        "d": 4,
+        "label": "One of four equal parts",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "One half covers more of the same whole than one quarter.",
+    "pause": 1,
+    "hide": true,
+    "reveal": true
+  },
+  {
+    "stage": "D",
+    "chapter": "A bigger denominator does not mean more",
+    "text": "So one half is greater than one quarter. Notice something important: four is bigger than two, but one quarter is smaller than one half. A bigger denominator means more equal parts in the whole, not bigger pieces. With the same positive numerator, think about piece size.",
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "Fewer, larger parts",
+        "colour": "teal"
+      },
+      {
+        "n": 1,
+        "d": 4,
+        "label": "More, smaller parts",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        1,
+        2
+      ],
+      ">",
+      [
+        1,
+        4
+      ]
+    ],
+    "note": "Same numerator → think about the size of each equal part.",
+    "pause": 1,
+    "tone": "misconception"
+  },
+  {
+    "stage": "E",
+    "chapter": "Different-sized parts: make a fair comparison",
+    "text": "Now let's compare one half and two thirds. Start with the pictures. Which coloured region reaches further across its whole? Predict which fraction is greater, and think about how you could make the pieces the same size.",
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One half",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Same-sized wholes, but different-sized parts.",
+    "pause": 4,
+    "hide": true,
+    "tone": "question"
+  },
+  {
+    "stage": "E",
+    "chapter": "Neither number alone tells the whole story",
+    "text": "The two-thirds region reaches further. But comparing just the top numbers, or just the bottom numbers, isn't a reliable strategy when both are different. We need a fair way to name these amounts using equal-sized pieces. We can divide the existing pieces without changing what's coloured.",
+    "rows": [
+      {
+        "n": 1,
+        "d": 2,
+        "label": "One half",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Keep each shaded amount unchanged; change the size of the parts.",
+    "pause": 0.6,
+    "hide": true,
+    "tone": "misconception"
+  },
+  {
+    "stage": "E",
+    "chapter": "Rename the half using sixths",
+    "text": "Split each half into three equal pieces. The whole now contains six equal parts, and the coloured half covers three of them. We haven't added any chocolate. One half is the same amount as three sixths.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "Three sixths: the same coloured half",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds stays visible",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "The shaded length stays the same.",
+    "pause": 1,
+    "hide": true,
+    "subdivide": [
+      2,
+      3
+    ],
+    "tone": "discovery"
+  },
+  {
+    "stage": "E",
+    "chapter": "Equivalent fractions: the same amount",
+    "text": "These are equivalent fractions: different names for the same amount. We can record one half equals three sixths. The picture explains why multiplying both the numerator and denominator by three preserves the fraction's value.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "One half renamed as three sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "=",
+      [
+        3,
+        6
+      ]
+    ],
+    "note": "Numerator × 3 • Denominator × 3 • Same value",
+    "pause": 0.6,
+    "tone": "term"
+  },
+  {
+    "stage": "E",
+    "chapter": "Rename two thirds using sixths",
+    "text": "Now split each third into two equal pieces. Two coloured thirds become four coloured sixths. Again, the amount hasn't changed.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "Three sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 4,
+        "d": 6,
+        "label": "Four sixths: the same coloured two thirds",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Both models now use sixth-sized pieces.",
+    "pause": 1,
+    "hide": true,
+    "subdivide": [
+      6,
+      3
+    ],
+    "tone": "discovery"
+  },
+  {
+    "stage": "E",
+    "chapter": "Two thirds equals four sixths",
+    "text": "Two thirds equals four sixths. We multiplied both the numerator and denominator by two, keeping the same amount.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "One half is three sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 4,
+        "d": 6,
+        "label": "Two thirds is four sixths",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        2,
+        3
+      ],
+      "=",
+      [
+        4,
+        6
+      ]
+    ],
+    "note": "Numerator × 2 • Denominator × 2 • Same value",
+    "pause": 0.6,
+    "tone": "discovery"
+  },
+  {
+    "stage": "E",
+    "chapter": "Equal-sized pieces make comparison clear",
+    "text": "Now we can compare three sixths and four sixths. Four sixths is greater, because it contains one more sixth. So one half is less than two thirds. Six is a common denominator: it lets us compare the same-sized pieces. The new names made the comparison clearer.",
+    "rows": [
+      {
+        "n": 3,
+        "d": 6,
+        "label": "One half equals three sixths",
+        "colour": "teal"
+      },
+      {
+        "n": 4,
+        "d": 6,
+        "label": "Two thirds equals four sixths",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "<",
+      [
+        2,
+        3
+      ]
+    ],
+    "note": "Three sixths is less than four sixths.",
+    "pause": 1
+  },
+  {
+    "stage": "F",
+    "chapter": "Your challenge: explain your choice",
+    "text": "It's your turn. Which is greater: two thirds or three quarters? The wholes are equal in size. Use the models, and try to rename both fractions with equal-sized pieces. Think about twelfths. Take five seconds, or pause the video if you'd like more time.",
+    "rows": [
+      {
+        "n": 2,
+        "d": 3,
+        "label": "Two thirds",
+        "colour": "teal"
+      },
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarters",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        2,
+        3
+      ],
+      "?",
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "Think first: how could thirds and quarters become twelfths?",
+    "pause": 5,
+    "tone": "question"
+  },
+  {
+    "stage": "F",
+    "chapter": "Turn thirds into twelfths",
+    "text": "Split each third into four equal pieces. The two coloured thirds become eight twelfths. The shaded amount stays exactly the same.",
+    "rows": [
+      {
+        "n": 8,
+        "d": 12,
+        "label": "Eight twelfths: the same as two thirds",
+        "colour": "teal"
+      },
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarters stays visible",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Keep the amount; divide the parts.",
+    "pause": 0.7,
+    "hide": true,
+    "subdivide": [
+      3,
+      4
+    ]
+  },
+  {
+    "stage": "F",
+    "chapter": "Record the first equivalent fraction",
+    "text": "So two thirds equals eight twelfths.",
+    "rows": [
+      {
+        "n": 8,
+        "d": 12,
+        "label": "Eight twelfths",
+        "colour": "teal"
+      },
+      {
+        "n": 3,
+        "d": 4,
+        "label": "Three quarters",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        2,
+        3
+      ],
+      "=",
+      [
+        8,
+        12
+      ]
+    ],
+    "note": "Two thirds has been renamed using twelfths.",
+    "pause": 0.6
+  },
+  {
+    "stage": "F",
+    "chapter": "Turn quarters into twelfths",
+    "text": "Split each quarter into three equal pieces. Three coloured quarters become nine twelfths. Again, only the divisions change, not the amount.",
+    "rows": [
+      {
+        "n": 8,
+        "d": 12,
+        "label": "Eight twelfths",
+        "colour": "teal"
+      },
+      {
+        "n": 9,
+        "d": 12,
+        "label": "Nine twelfths: the same as three quarters",
+        "colour": "gold"
+      }
+    ],
+    "equation": null,
+    "note": "Both models now have twelve equal parts.",
+    "pause": 0.7,
+    "hide": true,
+    "subdivide": [
+      12,
+      4
+    ]
+  },
+  {
+    "stage": "F",
+    "chapter": "Record the second equivalent fraction",
+    "text": "Three quarters equals nine twelfths.",
+    "rows": [
+      {
+        "n": 8,
+        "d": 12,
+        "label": "Eight twelfths",
+        "colour": "teal"
+      },
+      {
+        "n": 9,
+        "d": 12,
+        "label": "Nine twelfths",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        3,
+        4
+      ],
+      "=",
+      [
+        9,
+        12
+      ]
+    ],
+    "note": "Three quarters has been renamed using twelfths.",
+    "pause": 0.6
+  },
+  {
+    "stage": "F",
+    "chapter": "Use equal parts to justify the answer",
+    "text": "Compare eight twelfths with nine twelfths. Nine twelfths has one more twelfth, so three quarters is greater than two thirds. Did your prediction agree? The important part is explaining your answer using equal-sized pieces.",
+    "rows": [
+      {
+        "n": 8,
+        "d": 12,
+        "label": "Eight twelfths",
+        "colour": "teal"
+      },
+      {
+        "n": 9,
+        "d": 12,
+        "label": "Nine twelfths",
+        "colour": "gold"
+      }
+    ],
+    "equation": [
+      [
+        2,
+        3
+      ],
+      "<",
+      [
+        3,
+        4
+      ]
+    ],
+    "note": "Two thirds is less than three quarters.",
+    "pause": 1,
+    "tone": "discovery"
+  },
+  {
+    "stage": "G",
+    "chapter": "What will you look for first?",
+    "text": "Think back over the lesson. With the same denominator, compare how many equal parts are chosen. With the same numerator, compare the sizes of the pieces. With different denominators, use pictures or equivalent fractions to make a fair comparison. Always check that the wholes are equal in size. When you meet two new fractions, which strategy will you try first, and how will you explain why it works?",
+    "rows": [],
+    "equation": null,
+    "note": "Same denominator • Same numerator • Equivalent fractions",
+    "pause": 2,
+    "recap": true,
+    "tone": "recap"
+  }
+]
