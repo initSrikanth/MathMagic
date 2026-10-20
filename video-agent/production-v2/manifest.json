@@ -1,9 +1,20 @@
 {
   "schema": 2,
   "interval_hours": 5,
-  "last_batch_started": "2026-10-19T10:52:57.414915+00:00",
-  "next_batch_due": "2026-10-19T15:52:57.414915+00:00",
-  "active_batch": null,
+  "last_batch_started": "2026-10-20T01:50:59.059926+00:00",
+  "next_batch_due": "2026-10-20T06:50:59.059926+00:00",
+  "active_batch": {
+    "id": "20261020T015059Z",
+    "lessons": [
+      "whole-numbers-lesson1",
+      "whole-numbers-lesson2",
+      "whole-numbers-lesson3",
+      "whole-numbers-lesson4",
+      "whole-numbers-lesson5"
+    ],
+    "started": "2026-10-20T01:50:59.059926+00:00",
+    "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+  },
   "last_successful_batch": {
     "id": "20261019T105257Z",
     "lessons": [
@@ -348,50 +359,230 @@
       "lesson": "Understanding Place Value",
       "section": "lesson1",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson1.mp4",
-      "production_status": "pending",
+      "production_status": "integrated",
       "commit_sha": null,
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "4a5ff6f660811da90cc53c6caec1258be736aa57339f07beb558527a5a2e0720",
+      "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
+      "source_tree_dirty": true,
+      "producer_sha256": "d62e6b4932cfc3e50a8e12bad175e60ef3ffc4cebe2892aa41713377785906fe",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 113.19991666666667,
+      "narration_sha256": "b7ef1d81a2fac85af1d6afc7c707bc72a4bb35c26cb6d3388e9ecfab9c8204b9",
+      "qa": {
+        "result": "passed",
+        "sha256": "06c028d619309e0d18e6c39c80d2936b811bac31df4c519b5801b6387a8b64b5",
+        "bytes": 2132532,
+        "duration": 113.19991666666667,
+        "audio_rms": 0.06354804337024689,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9997779199140614,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "whole-numbers.html",
+        "section": "lesson1",
+        "preserved_original_sha256": "1ebff466ac0162e59f3dfc4fec92f20bae218b1ed9ce7a793ab3257fd2b49cd9",
+        "replaced_wrapper_sha256": "6440fb8658cf01925bb6e6b6134b186eb91fbfaa652304223de21c36702cdc0c",
+        "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+      }
     },
     "whole-numbers-lesson2": {
       "topic": "whole-numbers",
       "lesson": "Expanded Form & Representing Numbers",
       "section": "lesson2",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson2.mp4",
-      "production_status": "pending",
+      "production_status": "integrated",
       "commit_sha": null,
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "32a102fbb3fef3cc5c445e35b5a60e71d38eb84be91f0e946f3849dd3107b39c",
+      "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
+      "source_tree_dirty": true,
+      "producer_sha256": "d62e6b4932cfc3e50a8e12bad175e60ef3ffc4cebe2892aa41713377785906fe",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 125.195125,
+      "narration_sha256": "e0a858c8a9f286ae2611af801517898e29c6a53a38dae6bcda71cdf9b8804f7f",
+      "qa": {
+        "result": "passed",
+        "sha256": "546584be69618cd15a5858fa1b5022edb698f8760465023f2599eaaf436b3c98",
+        "bytes": 2477308,
+        "duration": 125.195125,
+        "audio_rms": 0.06280846893787384,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998647520242829,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "whole-numbers.html",
+        "section": "lesson2",
+        "preserved_original_sha256": "54cbc43e3931d4b5564b137a75d0f4481fd5dbcca3c394b6fb6346ce1aa74ae9",
+        "replaced_wrapper_sha256": "7fe4871bdc3314488ff87f25475e5f41b4c7258dccd5c404b518cd67ae598b1b",
+        "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+      }
     },
     "whole-numbers-lesson3": {
       "topic": "whole-numbers",
       "lesson": "Comparing & Ordering Whole Numbers",
       "section": "lesson3",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson3.mp4",
-      "production_status": "pending",
+      "production_status": "integrated",
       "commit_sha": null,
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "8853613dfea311d573aba0d20cb7ef2f15f96e42c638f347eb651719b8749bb7",
+      "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
+      "source_tree_dirty": true,
+      "producer_sha256": "d62e6b4932cfc3e50a8e12bad175e60ef3ffc4cebe2892aa41713377785906fe",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 130.51091666666667,
+      "narration_sha256": "dc47816542567c830587cad1ac53232e03a127588921757e500a1d30175034ec",
+      "qa": {
+        "result": "passed",
+        "sha256": "bd28d0ac616251c63d8afa64fe8636fdf68d95b0d901a2dcf0bd3424be4f7e4a",
+        "bytes": 2612304,
+        "duration": 130.51091666666667,
+        "audio_rms": 0.06270793080329895,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9997792856308174,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "whole-numbers.html",
+        "section": "lesson3",
+        "preserved_original_sha256": "5178f049c036bb801c38bfb96e99aa543d35a11e667db174e4239689e56283d2",
+        "replaced_wrapper_sha256": "c62568572dcf963acc1056164569413e0a9cdeaf0ceeb1b0e3464c1856244e9f",
+        "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+      }
     },
     "whole-numbers-lesson4": {
       "topic": "whole-numbers",
       "lesson": "Decimal Place Value",
       "section": "lesson4",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson4.mp4",
-      "production_status": "pending",
+      "production_status": "integrated",
       "commit_sha": null,
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "0c37998830046ef7a39e015711c9b4d602717307d199ddec09012054c734f616",
+      "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
+      "source_tree_dirty": true,
+      "producer_sha256": "d62e6b4932cfc3e50a8e12bad175e60ef3ffc4cebe2892aa41713377785906fe",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 120.88804166666667,
+      "narration_sha256": "941de60a885bcb30d536f85d7de77b57572f85c907aba41d8aabcd18713be03d",
+      "qa": {
+        "result": "passed",
+        "sha256": "048e257caaf7b524a041fe694aa697718d57a5d87b3c854c9b1f839333be0353",
+        "bytes": 2395156,
+        "duration": 120.88804166666667,
+        "audio_rms": 0.06303770840167999,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999846399337449,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "whole-numbers.html",
+        "section": "lesson4",
+        "preserved_original_sha256": "269a419f87502ce98ba766b91c4ac4355744e01db84ce41a0d69a2dc8f681ac1",
+        "replaced_wrapper_sha256": "a1094c8c226e4bbbf7f29ca8da4a440cc90bc04e808ed50b435e0fdfd3236010",
+        "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+      }
     },
     "whole-numbers-lesson5": {
       "topic": "whole-numbers",
       "lesson": "Compare, Order & Locate Decimals",
       "section": "lesson5",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson5.mp4",
-      "production_status": "pending",
+      "production_status": "integrated",
       "commit_sha": null,
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "9f8050bc781b415ba10d2bf173e8e844a4534882b919e42e36f2136d8f6428ec",
+      "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
+      "source_tree_dirty": true,
+      "producer_sha256": "d62e6b4932cfc3e50a8e12bad175e60ef3ffc4cebe2892aa41713377785906fe",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 127.01191666666666,
+      "narration_sha256": "c21396f47e4be03a08e47d60ad7ecd71dbd0841d22d5f4533e61de790f05b47f",
+      "qa": {
+        "result": "passed",
+        "sha256": "20c2ce4ef0248c7499fff9c999ba1039a5c1a13282b48c1388daf14b00df2b4e",
+        "bytes": 2433218,
+        "duration": 127.01191666666666,
+        "audio_rms": 0.06302239000797272,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999827087113735,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "whole-numbers.html",
+        "section": "lesson5",
+        "preserved_original_sha256": "b7343602ad0a510cd81741c0261f0e67b7ea3b6c2d5d4701073275e27d542556",
+        "replaced_wrapper_sha256": "15641df62de4546d4df7b23fa9ecfeea18b1d07138f7a254d54b11ebdc7586b7",
+        "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
+      }
     },
     "addition-subtraction-lesson1": {
       "topic": "addition-subtraction",
@@ -595,13 +786,13 @@
     }
   },
   "runtime": {
-    "python": "3.12.14",
+    "python": "3.12.15",
     "packages": {
       "sherpa-onnx": "1.12.26",
       "soundfile": "0.14.0",
       "numpy": "2.5.4",
       "Pillow": "13.0.0"
     },
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
   }
 }

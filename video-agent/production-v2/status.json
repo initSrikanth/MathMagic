@@ -1,6 +1,6 @@
 {
   "total_videos_required": 30,
-  "videos_successfully_rendered": 5,
+  "videos_successfully_rendered": 10,
   "videos_committed": 5,
   "videos_deployed_and_verified_live": 5,
   "remaining_videos": 25,
@@ -15,8 +15,8 @@
     ],
     "completed": "2026-10-19T11:23:52.202784+00:00"
   },
-  "next_scheduled_batch": "2026-10-19T16:17:00+00:00",
-  "next_batch_eligible": "2026-10-19T15:52:57.414915+00:00",
+  "next_scheduled_batch": "2026-10-20T07:17:00+00:00",
+  "next_batch_eligible": "2026-10-20T06:50:59.059926+00:00",
   "errors_or_blockers": [],
   "limitations": [
     "Local Kokoro bf_emma neural speech; perceived expressiveness and pronunciation have not been human-certified.",

@@ -1,0 +1,457 @@
+{
+  "input_hash": "1152748c95ac325e81f4e5b58120acc96fe2d062fc3fb843a037fab92e07b52e",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 22.048416666666668,
+      "lesson_progress": 0.125,
+      "text": "Today we are investigating expanded form & representing numbers. How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+      "chapter": "One quantity, several representations",
+      "equation": [],
+      "board": [
+        "406,275"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": null
+    },
+    {
+      "index": 1,
+      "start": 22.048416666666668,
+      "end": 39.64545833333333,
+      "lesson_progress": 0.25,
+      "text": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+      "chapter": "Zero keeps the places organised",
+      "equation": [],
+      "board": [
+        "4 means 400,000",
+        "6 means 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "index": 2,
+      "start": 39.64545833333333,
+      "end": 55.238625,
+      "lesson_progress": 0.375,
+      "text": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+      "chapter": "Build the expanded form",
+      "equation": [],
+      "board": [
+        "200 + 70 + 5",
+        "406,275 =",
+        "400,000 + 6,000 + 200 + 70 + 5"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 3,
+      "start": 55.238625,
+      "end": 73.11904166666666,
+      "lesson_progress": 0.5,
+      "text": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+      "chapter": "Connect the three forms",
+      "equation": [],
+      "board": [
+        "Four hundred and six thousand,",
+        "two hundred and seventy-five",
+        "Words ↔ 406,275 ↔ expanded form"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 4,
+      "start": 73.11904166666666,
+      "end": 89.24479166666667,
+      "lesson_progress": 0.625,
+      "text": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+      "chapter": "Regroup without changing the amount",
+      "equation": [],
+      "board": [
+        "3,400 = 3 thousands + 4 hundreds",
+        "3,400 = 34 hundreds"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 5,
+      "start": 89.24479166666667,
+      "end": 99.07975,
+      "lesson_progress": 0.75,
+      "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "600,000 + 20,000 + 4,000 + 300 + 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 6,
+      "start": 99.07975,
+      "end": 105.89645833333333,
+      "lesson_progress": 0.875,
+      "text": "The total is six hundred and twenty-four thousand, three hundred and eight. There are zero tens.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "624,308"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "index": 7,
+      "start": 105.89645833333333,
+      "end": 125.195125,
+      "lesson_progress": 1.0,
+      "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+      "chapter": "Recap: represent the same value",
+      "equation": [],
+      "board": [
+        "600,000 + 20,000 + 4,000 + 300 + 8",
+        "624,308",
+        "Zero tens: keep the placeholder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "model": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.625166666666667,
+      "text": "Today we are investigating expanded form & representing numbers."
+    },
+    {
+      "start": 4.845166666666667,
+      "end": 8.533,
+      "text": "How can one number have several correct representations?"
+    },
+    {
+      "start": 9.183,
+      "end": 13.598708333333333,
+      "text": "We can write its digits, say it in words, or split it into place values."
+    },
+    {
+      "start": 13.818708333333333,
+      "end": 16.46575,
+      "text": "All three describe the same quantity."
+    },
+    {
+      "start": 16.68575,
+      "end": 21.398416666666666,
+      "text": "Let us represent four hundred and six thousand, two hundred and seventy five."
+    },
+    {
+      "start": 22.048416666666668,
+      "end": 24.081416666666666,
+      "text": "Start with the largest place."
+    },
+    {
+      "start": 24.301416666666668,
+      "end": 26.873125,
+      "text": "The four means four hundred thousand."
+    },
+    {
+      "start": 27.093125,
+      "end": 30.077416666666668,
+      "text": "The zero ten thousands contributes zero."
+    },
+    {
+      "start": 30.297416666666667,
+      "end": 32.5875,
+      "text": "The six means six thousand."
+    },
+    {
+      "start": 32.8075,
+      "end": 38.99545833333333,
+      "text": "Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place."
+    },
+    {
+      "start": 39.64545833333333,
+      "end": 43.798875,
+      "text": "Now add the smaller places: two hundred, seventy and five."
+    },
+    {
+      "start": 44.018875,
+      "end": 50.628083333333336,
+      "text": "The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five."
+    },
+    {
+      "start": 50.848083333333335,
+      "end": 54.588625,
+      "text": "We can leave out the zero contribution without changing the total."
+    },
+    {
+      "start": 55.238625,
+      "end": 60.205625,
+      "text": "In words, say four hundred and six thousand, two hundred and seventy five."
+    },
+    {
+      "start": 60.425625,
+      "end": 64.54383333333334,
+      "text": "Notice how the thousands group and the final three digits fit together."
+    },
+    {
+      "start": 64.76383333333334,
+      "end": 72.46904166666667,
+      "text": "The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five."
+    },
+    {
+      "start": 73.11904166666666,
+      "end": 75.25191666666667,
+      "text": "We can also regroup a number."
+    },
+    {
+      "start": 75.47191666666667,
+      "end": 79.57091666666666,
+      "text": "Three thousand four hundred is three thousands and four hundreds."
+    },
+    {
+      "start": 79.79091666666666,
+      "end": 85.516625,
+      "text": "It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred."
+    },
+    {
+      "start": 85.736625,
+      "end": 88.59479166666667,
+      "text": "The grouping changes; the amount does not."
+    },
+    {
+      "start": 89.24479166666667,
+      "end": 95.07975,
+      "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?"
+    },
+    {
+      "start": 99.07975,
+      "end": 103.39920833333333,
+      "text": "The total is six hundred and twenty-four thousand, three hundred and eight."
+    },
+    {
+      "start": 103.61920833333333,
+      "end": 105.24645833333334,
+      "text": "There are zero tens."
+    },
+    {
+      "start": 105.89645833333333,
+      "end": 111.73141666666666,
+      "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight."
+    },
+    {
+      "start": 111.95141666666666,
+      "end": 116.01404166666667,
+      "text": "That gives six hundred and twenty four thousand, three hundred and eight."
+    },
+    {
+      "start": 116.23404166666667,
+      "end": 119.69991666666667,
+      "text": "There are no tens, but the zero still holds their place."
+    },
+    {
+      "start": 119.91991666666667,
+      "end": 124.545125,
+      "text": "Remember: read, partition and regroup, while keeping the value unchanged."
+    }
+  ],
+  "pauses": [
+    [
+      4.625166666666667,
+      4.845166666666667,
+      "sentence pause"
+    ],
+    [
+      8.533,
+      9.183,
+      "sentence pause"
+    ],
+    [
+      13.598708333333333,
+      13.818708333333333,
+      "sentence pause"
+    ],
+    [
+      16.46575,
+      16.68575,
+      "sentence pause"
+    ],
+    [
+      21.398416666666666,
+      22.048416666666665,
+      "sentence pause"
+    ],
+    [
+      24.081416666666666,
+      24.301416666666665,
+      "sentence pause"
+    ],
+    [
+      26.873125,
+      27.093125,
+      "sentence pause"
+    ],
+    [
+      30.077416666666668,
+      30.297416666666667,
+      "sentence pause"
+    ],
+    [
+      32.5875,
+      32.8075,
+      "sentence pause"
+    ],
+    [
+      38.99545833333333,
+      39.64545833333333,
+      "sentence pause"
+    ],
+    [
+      43.798875,
+      44.018875,
+      "sentence pause"
+    ],
+    [
+      50.628083333333336,
+      50.848083333333335,
+      "sentence pause"
+    ],
+    [
+      54.588625,
+      55.238625,
+      "sentence pause"
+    ],
+    [
+      60.205625,
+      60.425625,
+      "sentence pause"
+    ],
+    [
+      64.54383333333334,
+      64.76383333333334,
+      "sentence pause"
+    ],
+    [
+      72.46904166666667,
+      73.11904166666667,
+      "sentence pause"
+    ],
+    [
+      75.25191666666667,
+      75.47191666666667,
+      "sentence pause"
+    ],
+    [
+      79.57091666666666,
+      79.79091666666666,
+      "sentence pause"
+    ],
+    [
+      85.516625,
+      85.736625,
+      "sentence pause"
+    ],
+    [
+      88.59479166666667,
+      89.24479166666667,
+      "sentence pause"
+    ],
+    [
+      95.07975,
+      99.07975,
+      "think time"
+    ],
+    [
+      103.39920833333333,
+      103.61920833333333,
+      "sentence pause"
+    ],
+    [
+      105.24645833333334,
+      105.89645833333334,
+      "sentence pause"
+    ],
+    [
+      111.73141666666666,
+      111.95141666666666,
+      "sentence pause"
+    ],
+    [
+      116.01404166666667,
+      116.23404166666667,
+      "sentence pause"
+    ],
+    [
+      119.69991666666667,
+      119.91991666666667,
+      "sentence pause"
+    ],
+    [
+      124.545125,
+      125.195125,
+      "sentence pause"
+    ]
+  ],
+  "duration": 125.195125,
+  "narration_sha256": "e0a858c8a9f286ae2611af801517898e29c6a53a38dae6bcda71cdf9b8804f7f",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

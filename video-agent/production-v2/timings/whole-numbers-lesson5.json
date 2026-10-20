@@ -1,0 +1,467 @@
+{
+  "input_hash": "aee2bff75f5cbd7cb69a59a7c409a567d4f93c0504aaa1716a4de8c3c14dc93e",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 22.961041666666667,
+      "lesson_progress": 0.125,
+      "text": "Today we are investigating compare, order & locate decimals. Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+      "chapter": "Compare values, not digit counts",
+      "equation": [],
+      "board": [
+        "Longer decimal ≠ larger value",
+        "1.47 = 1.470"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": null
+    },
+    {
+      "index": 1,
+      "start": 22.961041666666667,
+      "end": 41.418416666666666,
+      "lesson_progress": 0.25,
+      "text": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+      "chapter": "The hundredths decide",
+      "equation": [],
+      "board": [
+        "1.407     1.470",
+        "Ones: 1 = 1     Tenths: 4 = 4",
+        "Hundredths: 0 < 7",
+        "1.407 < 1.470"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 2,
+      "start": 41.418416666666666,
+      "end": 57.633291666666665,
+      "lesson_progress": 0.375,
+      "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+      "chapter": "Order from smallest to largest",
+      "equation": [],
+      "board": [
+        "2.053     2.305     2.350",
+        "2.053 < 2.305 < 2.350"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 3,
+      "start": 57.633291666666665,
+      "end": 73.75779166666666,
+      "lesson_progress": 0.5,
+      "text": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+      "chapter": "Hundredths on a number line",
+      "equation": [],
+      "board": [
+        "Step size = 0.01"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": null,
+        "decimals": 2
+      }
+    },
+    {
+      "index": 4,
+      "start": 73.75779166666666,
+      "end": 92.44629166666667,
+      "lesson_progress": 0.625,
+      "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+      "chapter": "Zoom in to thousandths",
+      "equation": [],
+      "board": [
+        "Step size = 0.001",
+        "1.430 + 0.007 = 1.437"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 1.43,
+        "end": 1.44,
+        "mark": 1.437,
+        "decimals": 3
+      }
+    },
+    {
+      "index": 5,
+      "start": 92.44629166666667,
+      "end": 100.608125,
+      "lesson_progress": 0.75,
+      "text": "Which is greater: 2.405 or 2.45?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "2.405 ? 2.45"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 6,
+      "start": 100.608125,
+      "end": 109.33679166666667,
+      "lesson_progress": 0.875,
+      "text": "Write 2.45 as 2.450. At the hundredths place, five hundredths is greater than zero hundredths.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "2.450 > 2.405"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "index": 7,
+      "start": 109.33679166666667,
+      "end": 127.01191666666666,
+      "lesson_progress": 1.0,
+      "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+      "chapter": "Recap: place value gives the order",
+      "equation": [],
+      "board": [
+        "4.7 = 4.700",
+        "Line up → compare left to right",
+        "Number line: check the step size"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "model": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.319416666666666,
+      "text": "Today we are investigating compare, order & locate decimals."
+    },
+    {
+      "start": 4.539416666666667,
+      "end": 7.548291666666667,
+      "text": "Does a longer decimal always mean a bigger number?"
+    },
+    {
+      "start": 8.198291666666666,
+      "end": 9.236541666666668,
+      "text": "No."
+    },
+    {
+      "start": 9.456541666666666,
+      "end": 11.703666666666667,
+      "text": "Compare place values instead."
+    },
+    {
+      "start": 11.923666666666668,
+      "end": 16.499041666666667,
+      "text": "Start with the whole number parts, then tenths, hundredths and thousandths."
+    },
+    {
+      "start": 16.719041666666666,
+      "end": 22.311041666666668,
+      "text": "Adding zeros at the end of a decimal can help line up the places without changing its value."
+    },
+    {
+      "start": 22.961041666666667,
+      "end": 26.775083333333335,
+      "text": "Compare one point four zero seven and one point four seven."
+    },
+    {
+      "start": 26.995083333333334,
+      "end": 30.284333333333333,
+      "text": "Write the second as one point four seven zero."
+    },
+    {
+      "start": 30.504333333333335,
+      "end": 32.51054166666667,
+      "text": "Ones and tenths match."
+    },
+    {
+      "start": 32.73054166666667,
+      "end": 35.929291666666664,
+      "text": "At the hundredths place, zero is less than seven."
+    },
+    {
+      "start": 36.14929166666667,
+      "end": 40.76841666666667,
+      "text": "So one point four zero seven is less than one point four seven zero."
+    },
+    {
+      "start": 41.418416666666666,
+      "end": 47.809125,
+      "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero."
+    },
+    {
+      "start": 48.029125,
+      "end": 51.93845833333334,
+      "text": "The first is smallest because its tenths digit is zero."
+    },
+    {
+      "start": 52.158458333333336,
+      "end": 56.983291666666666,
+      "text": "The other two match in tenths, but zero hundredths is less than five hundredths."
+    },
+    {
+      "start": 57.633291666666665,
+      "end": 59.78758333333333,
+      "text": "Now locate a number on a line."
+    },
+    {
+      "start": 60.007583333333336,
+      "end": 65.95625,
+      "text": "From one point four zero to one point five zero, divide the interval into ten equal steps."
+    },
+    {
+      "start": 66.17625,
+      "end": 68.24204166666667,
+      "text": "Each step is one hundredth."
+    },
+    {
+      "start": 68.46204166666666,
+      "end": 73.10779166666667,
+      "text": "One point four three and one point four four are neighbouring marks on this line."
+    },
+    {
+      "start": 73.75779166666666,
+      "end": 80.548875,
+      "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four."
+    },
+    {
+      "start": 80.768875,
+      "end": 84.10029166666666,
+      "text": "Divide that interval into ten equal steps."
+    },
+    {
+      "start": 84.32029166666666,
+      "end": 86.57058333333333,
+      "text": "Each step is one thousandth."
+    },
+    {
+      "start": 86.79058333333333,
+      "end": 91.79629166666666,
+      "text": "Count seven steps from one point four three zero to reach one point four three seven."
+    },
+    {
+      "start": 92.44629166666667,
+      "end": 96.608125,
+      "text": "Which is greater: 2.405 or 2.45?"
+    },
+    {
+      "start": 100.608125,
+      "end": 104.12520833333333,
+      "text": "Write 2.45 as 2.450."
+    },
+    {
+      "start": 104.34520833333333,
+      "end": 108.68679166666666,
+      "text": "At the hundredths place, five hundredths is greater than zero hundredths."
+    },
+    {
+      "start": 109.33679166666667,
+      "end": 116.29070833333333,
+      "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes."
+    },
+    {
+      "start": 116.51070833333333,
+      "end": 119.73879166666667,
+      "text": "Extra end zeros do not add any value."
+    },
+    {
+      "start": 119.95879166666667,
+      "end": 126.36191666666667,
+      "text": "Remember: line up the places, compare from the left, and check the equal step size before locating a decimal."
+    }
+  ],
+  "pauses": [
+    [
+      4.319416666666666,
+      4.539416666666666,
+      "sentence pause"
+    ],
+    [
+      7.548291666666667,
+      8.198291666666666,
+      "sentence pause"
+    ],
+    [
+      9.236541666666668,
+      9.456541666666668,
+      "sentence pause"
+    ],
+    [
+      11.703666666666667,
+      11.923666666666668,
+      "sentence pause"
+    ],
+    [
+      16.499041666666667,
+      16.719041666666666,
+      "sentence pause"
+    ],
+    [
+      22.311041666666668,
+      22.961041666666667,
+      "sentence pause"
+    ],
+    [
+      26.775083333333335,
+      26.995083333333334,
+      "sentence pause"
+    ],
+    [
+      30.284333333333333,
+      30.50433333333333,
+      "sentence pause"
+    ],
+    [
+      32.51054166666667,
+      32.73054166666667,
+      "sentence pause"
+    ],
+    [
+      35.929291666666664,
+      36.14929166666666,
+      "sentence pause"
+    ],
+    [
+      40.76841666666667,
+      41.418416666666666,
+      "sentence pause"
+    ],
+    [
+      47.809125,
+      48.029125,
+      "sentence pause"
+    ],
+    [
+      51.93845833333334,
+      52.158458333333336,
+      "sentence pause"
+    ],
+    [
+      56.983291666666666,
+      57.633291666666665,
+      "sentence pause"
+    ],
+    [
+      59.78758333333333,
+      60.00758333333333,
+      "sentence pause"
+    ],
+    [
+      65.95625,
+      66.17625,
+      "sentence pause"
+    ],
+    [
+      68.24204166666667,
+      68.46204166666666,
+      "sentence pause"
+    ],
+    [
+      73.10779166666667,
+      73.75779166666668,
+      "sentence pause"
+    ],
+    [
+      80.548875,
+      80.768875,
+      "sentence pause"
+    ],
+    [
+      84.10029166666666,
+      84.32029166666666,
+      "sentence pause"
+    ],
+    [
+      86.57058333333333,
+      86.79058333333333,
+      "sentence pause"
+    ],
+    [
+      91.79629166666666,
+      92.44629166666667,
+      "sentence pause"
+    ],
+    [
+      96.608125,
+      100.608125,
+      "think time"
+    ],
+    [
+      104.12520833333333,
+      104.34520833333333,
+      "sentence pause"
+    ],
+    [
+      108.68679166666666,
+      109.33679166666667,
+      "sentence pause"
+    ],
+    [
+      116.29070833333333,
+      116.51070833333333,
+      "sentence pause"
+    ],
+    [
+      119.73879166666667,
+      119.95879166666667,
+      "sentence pause"
+    ],
+    [
+      126.36191666666667,
+      127.01191666666668,
+      "sentence pause"
+    ]
+  ],
+  "duration": 127.01191666666666,
+  "narration_sha256": "c21396f47e4be03a08e47d60ad7ecd71dbd0841d22d5f4533e61de790f05b47f",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

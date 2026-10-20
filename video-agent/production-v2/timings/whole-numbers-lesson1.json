@@ -1,0 +1,466 @@
+{
+  "input_hash": "96a8a68adb556ca024e8e6e3091ae6cb682abe77757d0b8a6977097b441a7785",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 19.366,
+      "lesson_progress": 0.125,
+      "text": "Today we are investigating understanding place value. What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+      "chapter": "One place changes the value",
+      "equation": [],
+      "board": [
+        "10 ones = 1 ten",
+        "10 tens = 1 hundred"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": null
+    },
+    {
+      "index": 1,
+      "start": 19.366,
+      "end": 36.099041666666665,
+      "lesson_progress": 0.25,
+      "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+      "chapter": "Read the place, then the value",
+      "equation": [],
+      "board": [
+        "7 × 10,000 = 70,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "index": 2,
+      "start": 36.099041666666665,
+      "end": 49.890166666666666,
+      "lesson_progress": 0.375,
+      "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+      "chapter": "Every digit has a value",
+      "equation": [],
+      "board": [
+        "2,000 + 600 + 30 + 1",
+        "472,631"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 3,
+      "start": 49.890166666666666,
+      "end": 64.69616666666667,
+      "lesson_progress": 0.5,
+      "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+      "chapter": "Same digit, different places",
+      "equation": [],
+      "board": [
+        "50,000 and 5,000",
+        "50,000 = 10 × 5,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "055000",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 64.69616666666667,
+      "end": 81.20379166666666,
+      "lesson_progress": 0.625,
+      "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+      "chapter": "Ten times as much",
+      "equation": [],
+      "board": [
+        "34 × 10 = 340",
+        "340 ÷ 10 = 34"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 5,
+      "start": 81.20379166666666,
+      "end": 90.22679166666667,
+      "lesson_progress": 0.75,
+      "text": "In 583,214, what is the value of the eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "583,214: value of 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 6,
+      "start": 90.22679166666667,
+      "end": 95.921625,
+      "lesson_progress": 0.875,
+      "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "8 × 10,000 = 80,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "index": 7,
+      "start": 95.921625,
+      "end": 113.19991666666667,
+      "lesson_progress": 1.0,
+      "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+      "chapter": "Recap: place first, value second",
+      "equation": [],
+      "board": [
+        "583,214 → 8 means 80,000",
+        "One place left: × 10"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "model": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.8236666666666665,
+      "text": "Today we are investigating understanding place value."
+    },
+    {
+      "start": 4.043666666666667,
+      "end": 7.254541666666666,
+      "text": "What makes the same digit worth ten times as much?"
+    },
+    {
+      "start": 7.904541666666667,
+      "end": 9.54125,
+      "text": "Its position does."
+    },
+    {
+      "start": 9.76125,
+      "end": 14.591083333333334,
+      "text": "In our base ten system, ten ones make one ten, and ten tens make one hundred."
+    },
+    {
+      "start": 14.811083333333332,
+      "end": 18.716,
+      "text": "Each place is ten times the place immediately to its right."
+    },
+    {
+      "start": 19.366,
+      "end": 23.972625,
+      "text": "Look at four hundred and seventy two thousand, six hundred and thirty one."
+    },
+    {
+      "start": 24.192625,
+      "end": 28.605333333333334,
+      "text": "Put each digit into its own column, from hundred thousands down to ones."
+    },
+    {
+      "start": 28.825333333333333,
+      "end": 31.71,
+      "text": "The seven is in the ten thousands column."
+    },
+    {
+      "start": 31.93,
+      "end": 35.449041666666666,
+      "text": "Its value is seventy thousand, not seven thousand."
+    },
+    {
+      "start": 36.099041666666665,
+      "end": 40.98620833333333,
+      "text": "The two stands for two thousand, the six for six hundred, and the three for thirty."
+    },
+    {
+      "start": 41.206208333333336,
+      "end": 47.18920833333333,
+      "text": "Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one."
+    },
+    {
+      "start": 47.40920833333333,
+      "end": 49.24016666666667,
+      "text": "Every digit has a job."
+    },
+    {
+      "start": 49.890166666666666,
+      "end": 53.296875,
+      "text": "Now compare the two fives in fifty five thousand."
+    },
+    {
+      "start": 53.516875,
+      "end": 56.25033333333333,
+      "text": "The first five represents fifty thousand."
+    },
+    {
+      "start": 56.470333333333336,
+      "end": 59.045791666666666,
+      "text": "The second represents five thousand."
+    },
+    {
+      "start": 59.265791666666665,
+      "end": 64.04616666666666,
+      "text": "Fifty thousand is ten times five thousand, even though the digits look the same."
+    },
+    {
+      "start": 64.69616666666667,
+      "end": 69.15404166666667,
+      "text": "This relationship helps us multiply and divide whole numbers by ten."
+    },
+    {
+      "start": 69.37404166666667,
+      "end": 72.70704166666667,
+      "text": "Thirty four times ten is three hundred and forty."
+    },
+    {
+      "start": 72.92704166666667,
+      "end": 76.25866666666667,
+      "text": "Each digit takes a place worth ten times as much."
+    },
+    {
+      "start": 76.47866666666667,
+      "end": 80.55379166666667,
+      "text": "Three hundred and forty divided by ten returns thirty four."
+    },
+    {
+      "start": 81.20379166666666,
+      "end": 86.22679166666667,
+      "text": "In 583,214, what is the value of the eight?"
+    },
+    {
+      "start": 90.22679166666667,
+      "end": 92.82479166666667,
+      "text": "The eight is in the ten-thousands place."
+    },
+    {
+      "start": 93.04479166666667,
+      "end": 95.271625,
+      "text": "Its value is eighty thousand."
+    },
+    {
+      "start": 95.921625,
+      "end": 101.16525,
+      "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen."
+    },
+    {
+      "start": 101.38525,
+      "end": 105.78820833333333,
+      "text": "The eight is in the ten thousands place, so it represents eighty thousand."
+    },
+    {
+      "start": 106.00820833333333,
+      "end": 109.468625,
+      "text": "Remember: name the place first, then work out the value."
+    },
+    {
+      "start": 109.688625,
+      "end": 112.54991666666666,
+      "text": "One place left means ten times as much."
+    }
+  ],
+  "pauses": [
+    [
+      3.8236666666666665,
+      4.043666666666667,
+      "sentence pause"
+    ],
+    [
+      7.254541666666666,
+      7.904541666666667,
+      "sentence pause"
+    ],
+    [
+      9.54125,
+      9.76125,
+      "sentence pause"
+    ],
+    [
+      14.591083333333334,
+      14.811083333333334,
+      "sentence pause"
+    ],
+    [
+      18.716,
+      19.366,
+      "sentence pause"
+    ],
+    [
+      23.972625,
+      24.192625,
+      "sentence pause"
+    ],
+    [
+      28.605333333333334,
+      28.825333333333333,
+      "sentence pause"
+    ],
+    [
+      31.71,
+      31.93,
+      "sentence pause"
+    ],
+    [
+      35.449041666666666,
+      36.099041666666665,
+      "sentence pause"
+    ],
+    [
+      40.98620833333333,
+      41.20620833333333,
+      "sentence pause"
+    ],
+    [
+      47.18920833333333,
+      47.40920833333333,
+      "sentence pause"
+    ],
+    [
+      49.24016666666667,
+      49.890166666666666,
+      "sentence pause"
+    ],
+    [
+      53.296875,
+      53.516875,
+      "sentence pause"
+    ],
+    [
+      56.25033333333333,
+      56.47033333333333,
+      "sentence pause"
+    ],
+    [
+      59.045791666666666,
+      59.265791666666665,
+      "sentence pause"
+    ],
+    [
+      64.04616666666666,
+      64.69616666666667,
+      "sentence pause"
+    ],
+    [
+      69.15404166666667,
+      69.37404166666667,
+      "sentence pause"
+    ],
+    [
+      72.70704166666667,
+      72.92704166666667,
+      "sentence pause"
+    ],
+    [
+      76.25866666666667,
+      76.47866666666667,
+      "sentence pause"
+    ],
+    [
+      80.55379166666667,
+      81.20379166666667,
+      "sentence pause"
+    ],
+    [
+      86.22679166666667,
+      90.22679166666667,
+      "think time"
+    ],
+    [
+      92.82479166666667,
+      93.04479166666667,
+      "sentence pause"
+    ],
+    [
+      95.271625,
+      95.921625,
+      "sentence pause"
+    ],
+    [
+      101.16525,
+      101.38525,
+      "sentence pause"
+    ],
+    [
+      105.78820833333333,
+      106.00820833333333,
+      "sentence pause"
+    ],
+    [
+      109.468625,
+      109.688625,
+      "sentence pause"
+    ],
+    [
+      112.54991666666666,
+      113.19991666666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 113.19991666666667,
+  "narration_sha256": "b7ef1d81a2fac85af1d6afc7c707bc72a4bb35c26cb6d3388e9ecfab9c8204b9",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

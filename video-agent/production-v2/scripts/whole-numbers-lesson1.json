@@ -1,0 +1,157 @@
+{
+  "id": "whole-numbers-lesson1",
+  "topic": "whole-numbers",
+  "section": "lesson1",
+  "title": "Understanding Place Value",
+  "file": "MathMagic_V2_whole_numbers_lesson1",
+  "beats": [
+    {
+      "text": "Today we are investigating understanding place value. What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+      "chapter": "One place changes the value",
+      "equation": [],
+      "board": [
+        "10 ones = 1 ten",
+        "10 tens = 1 hundred"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": null
+    },
+    {
+      "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+      "chapter": "Read the place, then the value",
+      "equation": [],
+      "board": [
+        "7 × 10,000 = 70,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+      "chapter": "Every digit has a value",
+      "equation": [],
+      "board": [
+        "2,000 + 600 + 30 + 1",
+        "472,631"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+      "chapter": "Same digit, different places",
+      "equation": [],
+      "board": [
+        "50,000 and 5,000",
+        "50,000 = 10 × 5,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "055000",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+      "chapter": "Ten times as much",
+      "equation": [],
+      "board": [
+        "34 × 10 = 340",
+        "340 ÷ 10 = 34"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "In 583,214, what is the value of the eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "583,214: value of 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "8 × 10,000 = 80,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+      "chapter": "Recap: place first, value second",
+      "equation": [],
+      "board": [
+        "583,214 → 8 means 80,000",
+        "One place left: × 10"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "model": null
+    }
+  ]
+}

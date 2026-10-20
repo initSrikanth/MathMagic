@@ -1,0 +1,435 @@
+{
+  "input_hash": "b3d2aa26f3a8cc8ac83fe6de684c9548523d39b58ca9fb3496ad236eb07edad1",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 20.271041666666665,
+      "lesson_progress": 0.125,
+      "text": "Today we are investigating comparing & ordering whole numbers. Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+      "chapter": "Start with the greatest place",
+      "equation": [],
+      "board": [
+        "100,000 > 99,999",
+        "Compare from left to right →"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": null
+    },
+    {
+      "index": 1,
+      "start": 20.271041666666665,
+      "end": 37.523583333333335,
+      "lesson_progress": 0.25,
+      "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+      "chapter": "Line up the places",
+      "equation": [],
+      "board": [
+        "456,782     456,728",
+        "4 = 4    5 = 5    6 = 6    7 = 7"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 2,
+      "start": 37.523583333333335,
+      "end": 56.365833333333335,
+      "lesson_progress": 0.375,
+      "text": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+      "chapter": "First different place: tens",
+      "equation": [],
+      "board": [
+        "80 > 20",
+        "456,782 > 456,728"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 3,
+      "start": 56.365833333333335,
+      "end": 73.66541666666667,
+      "lesson_progress": 0.5,
+      "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+      "chapter": "Another comparison",
+      "equation": [],
+      "board": [
+        "309,950     310,005",
+        "0 ten-thousands < 1 ten-thousand",
+        "309,950 < 310,005"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 4,
+      "start": 73.66541666666667,
+      "end": 90.84066666666666,
+      "lesson_progress": 0.625,
+      "text": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+      "chapter": "Order from smallest to largest",
+      "equation": [],
+      "board": [
+        "89,999 < 90,001 < 90,010",
+        "Start left; stop at the first difference"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "index": 5,
+      "start": 90.84066666666666,
+      "end": 101.69029166666667,
+      "lesson_progress": 0.75,
+      "text": "Which is greater: 582,430 or 582,403?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "582,430 ? 582,403"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 6,
+      "start": 101.69029166666667,
+      "end": 111.51575,
+      "lesson_progress": 0.875,
+      "text": "The first differing place is the tens. Three tens is greater than zero tens, so 582,430 is greater.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "582,430 > 582,403"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "index": 7,
+      "start": 111.51575,
+      "end": 130.51091666666667,
+      "lesson_progress": 1.0,
+      "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+      "chapter": "Recap: compare exactly",
+      "equation": [],
+      "board": [
+        "89,999 ≈ 90,000  (nearest 1,000)",
+        "Estimate ≠ exact comparison",
+        "Line up → start left → first difference"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "model": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.179208333333333,
+      "text": "Today we are investigating comparing & ordering whole numbers."
+    },
+    {
+      "start": 4.399208333333333,
+      "end": 7.491708333333333,
+      "text": "Which number is larger when most of the digits match?"
+    },
+    {
+      "start": 8.141708333333334,
+      "end": 11.576916666666667,
+      "text": "Compare from the greatest place value, not from the right."
+    },
+    {
+      "start": 11.796916666666666,
+      "end": 16.241833333333332,
+      "text": "For whole numbers with no leading zeros, more digits means a larger number."
+    },
+    {
+      "start": 16.461833333333335,
+      "end": 19.621041666666667,
+      "text": "If the lengths match, compare one column at a time."
+    },
+    {
+      "start": 20.271041666666665,
+      "end": 28.721083333333333,
+      "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight."
+    },
+    {
+      "start": 28.941083333333335,
+      "end": 33.29116666666667,
+      "text": "Their hundred thousands, ten thousands, thousands and hundreds match."
+    },
+    {
+      "start": 33.51116666666667,
+      "end": 36.873583333333336,
+      "text": "We have not found a difference yet, so keep moving right."
+    },
+    {
+      "start": 37.523583333333335,
+      "end": 40.54516666666667,
+      "text": "At the tens place, eight is greater than two."
+    },
+    {
+      "start": 40.765166666666666,
+      "end": 42.01375,
+      "text": "Stop there."
+    },
+    {
+      "start": 42.23375,
+      "end": 52.79216666666667,
+      "text": "The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight."
+    },
+    {
+      "start": 53.012166666666666,
+      "end": 55.715833333333336,
+      "text": "The ones cannot overturn that difference."
+    },
+    {
+      "start": 56.365833333333335,
+      "end": 62.823166666666665,
+      "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five."
+    },
+    {
+      "start": 63.043166666666664,
+      "end": 65.019625,
+      "text": "The hundred thousands match."
+    },
+    {
+      "start": 65.239625,
+      "end": 68.27291666666666,
+      "text": "At ten thousands, zero is less than one."
+    },
+    {
+      "start": 68.49291666666667,
+      "end": 73.01541666666667,
+      "text": "Therefore three hundred and nine thousand, nine hundred and fifty is smaller."
+    },
+    {
+      "start": 73.66541666666667,
+      "end": 76.872,
+      "text": "To order several numbers, repeat the same method."
+    },
+    {
+      "start": 77.092,
+      "end": 84.36145833333333,
+      "text": "Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten."
+    },
+    {
+      "start": 84.58145833333333,
+      "end": 87.59066666666666,
+      "text": "Do not compare only the final three digits."
+    },
+    {
+      "start": 87.81066666666666,
+      "end": 90.19066666666667,
+      "text": "The greatest differing place decides."
+    },
+    {
+      "start": 90.84066666666666,
+      "end": 97.69029166666667,
+      "text": "Which is greater: 582,430 or 582,403?"
+    },
+    {
+      "start": 101.69029166666667,
+      "end": 104.29616666666666,
+      "text": "The first differing place is the tens."
+    },
+    {
+      "start": 104.51616666666666,
+      "end": 110.86575,
+      "text": "Three tens is greater than zero tens, so 582,430 is greater."
+    },
+    {
+      "start": 111.51575,
+      "end": 119.65479166666667,
+      "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand."
+    },
+    {
+      "start": 119.87479166666667,
+      "end": 124.36983333333333,
+      "text": "A rounded value is useful, but it does not replace an exact comparison."
+    },
+    {
+      "start": 124.58983333333333,
+      "end": 129.86091666666667,
+      "text": "Recap: line up the places, start left, find the first difference, and explain your order."
+    }
+  ],
+  "pauses": [
+    [
+      4.179208333333333,
+      4.399208333333333,
+      "sentence pause"
+    ],
+    [
+      7.491708333333333,
+      8.141708333333334,
+      "sentence pause"
+    ],
+    [
+      11.576916666666667,
+      11.796916666666668,
+      "sentence pause"
+    ],
+    [
+      16.241833333333332,
+      16.46183333333333,
+      "sentence pause"
+    ],
+    [
+      19.621041666666667,
+      20.271041666666665,
+      "sentence pause"
+    ],
+    [
+      28.721083333333333,
+      28.94108333333333,
+      "sentence pause"
+    ],
+    [
+      33.29116666666667,
+      33.51116666666667,
+      "sentence pause"
+    ],
+    [
+      36.873583333333336,
+      37.523583333333335,
+      "sentence pause"
+    ],
+    [
+      40.54516666666667,
+      40.765166666666666,
+      "sentence pause"
+    ],
+    [
+      42.01375,
+      42.23375,
+      "sentence pause"
+    ],
+    [
+      52.79216666666667,
+      53.012166666666666,
+      "sentence pause"
+    ],
+    [
+      55.715833333333336,
+      56.365833333333335,
+      "sentence pause"
+    ],
+    [
+      62.823166666666665,
+      63.043166666666664,
+      "sentence pause"
+    ],
+    [
+      65.019625,
+      65.239625,
+      "sentence pause"
+    ],
+    [
+      68.27291666666666,
+      68.49291666666666,
+      "sentence pause"
+    ],
+    [
+      73.01541666666667,
+      73.66541666666667,
+      "sentence pause"
+    ],
+    [
+      76.872,
+      77.092,
+      "sentence pause"
+    ],
+    [
+      84.36145833333333,
+      84.58145833333333,
+      "sentence pause"
+    ],
+    [
+      87.59066666666666,
+      87.81066666666666,
+      "sentence pause"
+    ],
+    [
+      90.19066666666667,
+      90.84066666666668,
+      "sentence pause"
+    ],
+    [
+      97.69029166666667,
+      101.69029166666667,
+      "think time"
+    ],
+    [
+      104.29616666666666,
+      104.51616666666666,
+      "sentence pause"
+    ],
+    [
+      110.86575,
+      111.51575000000001,
+      "sentence pause"
+    ],
+    [
+      119.65479166666667,
+      119.87479166666667,
+      "sentence pause"
+    ],
+    [
+      124.36983333333333,
+      124.58983333333333,
+      "sentence pause"
+    ],
+    [
+      129.86091666666667,
+      130.51091666666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 130.51091666666667,
+  "narration_sha256": "dc47816542567c830587cad1ac53232e03a127588921757e500a1d30175034ec",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}
