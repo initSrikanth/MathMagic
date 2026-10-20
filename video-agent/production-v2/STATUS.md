@@ -2,10 +2,10 @@
 
 - total videos required: 30
 - videos successfully rendered: 10
-- videos committed: 5
-- videos deployed and verified live: 5
-- remaining videos: 25
-- last successful batch: {'id': '20261019T105257Z', 'lessons': ['fractions-comparing', 'fractions-equivalent', 'fractions-mixed', 'fractions-addsub', 'fractions-problems'], 'completed': '2026-10-19T11:23:52.202784+00:00'}
+- videos committed: 10
+- videos deployed and verified live: 10
+- remaining videos: 20
+- last successful batch: {'id': '20261020T015059Z', 'lessons': ['whole-numbers-lesson1', 'whole-numbers-lesson2', 'whole-numbers-lesson3', 'whole-numbers-lesson4', 'whole-numbers-lesson5'], 'completed': '2026-10-20T01:59:11.879795+00:00'}
 - next scheduled batch: 2026-10-20T07:17:00+00:00
 - next batch eligible: 2026-10-20T06:50:59.059926+00:00
 - errors or blockers: []

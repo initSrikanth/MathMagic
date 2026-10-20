@@ -3,7 +3,8 @@
   "interval_hours": 5,
   "last_batch_started": "2026-10-20T01:50:59.059926+00:00",
   "next_batch_due": "2026-10-20T06:50:59.059926+00:00",
-  "active_batch": {
+  "active_batch": null,
+  "last_successful_batch": {
     "id": "20261020T015059Z",
     "lessons": [
       "whole-numbers-lesson1",
@@ -12,19 +13,7 @@
       "whole-numbers-lesson4",
       "whole-numbers-lesson5"
     ],
-    "started": "2026-10-20T01:50:59.059926+00:00",
-    "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-  },
-  "last_successful_batch": {
-    "id": "20261019T105257Z",
-    "lessons": [
-      "fractions-comparing",
-      "fractions-equivalent",
-      "fractions-mixed",
-      "fractions-addsub",
-      "fractions-problems"
-    ],
-    "completed": "2026-10-19T11:23:52.202784+00:00"
+    "completed": "2026-10-20T01:59:11.879795+00:00"
   },
   "errors": [],
   "limitations": [
@@ -360,8 +349,8 @@
       "section": "lesson1",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson1.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "4374846dfc9c405f6ce7af885b38f3bd64e9920d",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "4a5ff6f660811da90cc53c6caec1258be736aa57339f07beb558527a5a2e0720",
       "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
@@ -398,7 +387,9 @@
         "preserved_original_sha256": "1ebff466ac0162e59f3dfc4fec92f20bae218b1ed9ce7a793ab3257fd2b49cd9",
         "replaced_wrapper_sha256": "6440fb8658cf01925bb6e6b6134b186eb91fbfaa652304223de21c36702cdc0c",
         "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-      }
+      },
+      "live_verified_at": "2026-10-20T01:59:08.616843+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_whole_numbers_lesson1.mp4"
     },
     "whole-numbers-lesson2": {
       "topic": "whole-numbers",
@@ -406,8 +397,8 @@
       "section": "lesson2",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson2.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "4374846dfc9c405f6ce7af885b38f3bd64e9920d",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "32a102fbb3fef3cc5c445e35b5a60e71d38eb84be91f0e946f3849dd3107b39c",
       "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
@@ -444,7 +435,9 @@
         "preserved_original_sha256": "54cbc43e3931d4b5564b137a75d0f4481fd5dbcca3c394b6fb6346ce1aa74ae9",
         "replaced_wrapper_sha256": "7fe4871bdc3314488ff87f25475e5f41b4c7258dccd5c404b518cd67ae598b1b",
         "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-      }
+      },
+      "live_verified_at": "2026-10-20T01:59:09.524851+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_whole_numbers_lesson2.mp4"
     },
     "whole-numbers-lesson3": {
       "topic": "whole-numbers",
@@ -452,8 +445,8 @@
       "section": "lesson3",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson3.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "4374846dfc9c405f6ce7af885b38f3bd64e9920d",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "8853613dfea311d573aba0d20cb7ef2f15f96e42c638f347eb651719b8749bb7",
       "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
@@ -490,7 +483,9 @@
         "preserved_original_sha256": "5178f049c036bb801c38bfb96e99aa543d35a11e667db174e4239689e56283d2",
         "replaced_wrapper_sha256": "c62568572dcf963acc1056164569413e0a9cdeaf0ceeb1b0e3464c1856244e9f",
         "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-      }
+      },
+      "live_verified_at": "2026-10-20T01:59:10.280225+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_whole_numbers_lesson3.mp4"
     },
     "whole-numbers-lesson4": {
       "topic": "whole-numbers",
@@ -498,8 +493,8 @@
       "section": "lesson4",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson4.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "4374846dfc9c405f6ce7af885b38f3bd64e9920d",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "0c37998830046ef7a39e015711c9b4d602717307d199ddec09012054c734f616",
       "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
@@ -536,7 +531,9 @@
         "preserved_original_sha256": "269a419f87502ce98ba766b91c4ac4355744e01db84ce41a0d69a2dc8f681ac1",
         "replaced_wrapper_sha256": "a1094c8c226e4bbbf7f29ca8da4a440cc90bc04e808ed50b435e0fdfd3236010",
         "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-      }
+      },
+      "live_verified_at": "2026-10-20T01:59:11.193928+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_whole_numbers_lesson4.mp4"
     },
     "whole-numbers-lesson5": {
       "topic": "whole-numbers",
@@ -544,8 +541,8 @@
       "section": "lesson5",
       "video_filename": "videos/MathMagic_V2_whole_numbers_lesson5.mp4",
       "production_status": "integrated",
-      "commit_sha": null,
-      "deployment_status": "pending",
+      "commit_sha": "4374846dfc9c405f6ce7af885b38f3bd64e9920d",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "9f8050bc781b415ba10d2bf173e8e844a4534882b919e42e36f2136d8f6428ec",
       "source_commit_sha": "44416e029102358c0831c472d7166669b47bfbe9",
@@ -582,7 +579,9 @@
         "preserved_original_sha256": "b7343602ad0a510cd81741c0261f0e67b7ea3b6c2d5d4701073275e27d542556",
         "replaced_wrapper_sha256": "15641df62de4546d4df7b23fa9ecfeea18b1d07138f7a254d54b11ebdc7586b7",
         "rollback_sha": "44416e029102358c0831c472d7166669b47bfbe9"
-      }
+      },
+      "live_verified_at": "2026-10-20T01:59:11.879763+00:00",
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_whole_numbers_lesson5.mp4"
     },
     "addition-subtraction-lesson1": {
       "topic": "addition-subtraction",
