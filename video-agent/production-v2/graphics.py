@@ -46,7 +46,6 @@ def equation(d,tokens,y=290):
 def draw(lesson,cue,path,progress=1):
     im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     d.rounded_rectangle((45,35,1875,1035),radius=35,fill='white',outline='#DBE7DF',width=3)
-    text(d,'MathMagic',90,65,32,TEAL)
     text(d,lesson['title'],1830-width(lesson['title'],30),68,30,MUTED,maxw=1400)
     d.line((90,130,1830,130),fill=EMPTY,width=3)
     text(d,cue['chapter'],W/2,175,51,INK,True)

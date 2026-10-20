@@ -60,7 +60,12 @@ jobs:
         if: steps.due.outputs.due == 'true'
         run: |
           python -m pip install -r video-agent/production-v2/requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg
           command -v ffmpeg
+          command -v ffprobe
+          ffmpeg -version
+          ffprobe -version
           if [ ! -f work/models/kokoro-en-v0_19/voices.bin ]; then
             mkdir -p work/models
             curl --fail --location --retry 2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-en-v0_19.tar.bz2 -o work/models/model.tar.bz2
