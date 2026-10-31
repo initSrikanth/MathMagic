@@ -24,3 +24,7 @@
 
 /* Accessible worked models stay inside their lesson card on narrow phones. */
 .mixed-number-line-svg{display:block;width:100%;max-width:760px;height:auto;margin:12px auto}.subtraction-worked-strip{width:100%;grid-template-columns:repeat(8,minmax(0,1fr))}
+/* Ticks and the axis use the same zero-to-one span; suppress the superseded axis. */
+.number-line::before{content:none}.number-line .nl-axis{left:0;right:0}
+
+.practice-feedback.correct{color:var(--ok)}

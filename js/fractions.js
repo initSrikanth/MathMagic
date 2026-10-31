@@ -1,9 +1,9 @@
 'use strict';
 const TOTAL=30;
 const screens=[...document.querySelectorAll('.screen')],tabs=[...document.querySelectorAll('.tab')];
-function showScreen(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));tabs.forEach(t=>t.classList.toggle('active',t.dataset.screen===id));window.scrollTo({top:0,behavior:'smooth'});if(id==='challenge'&&!quiz.length)startQuiz()}
-tabs.forEach(t=>t.addEventListener('click',()=>showScreen(t.dataset.screen)));document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.next)));
-document.querySelectorAll('[data-practice]').forEach(b=>b.addEventListener('click',()=>{b.nextElementSibling.innerHTML='Answer: '+rich(b.dataset.practice)}));
+function showScreen(id){const target=document.getElementById(id);if(!target)return;screens.forEach(s=>{s.classList.toggle('active',s.id===id);if(s.id!==id)s.querySelectorAll('video').forEach(v=>v.pause())});tabs.forEach(t=>{t.classList.toggle('active',t.dataset.screen===id);if(t.dataset.screen===id)t.setAttribute('aria-current','step');else t.removeAttribute('aria-current')});window.scrollTo({top:0,behavior:'smooth'});if(id==='challenge'&&!quiz.length)startQuiz();const heading=target.querySelector('h2');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true})}}
+tabs.forEach(t=>{if(t.classList.contains('active'))t.setAttribute('aria-current','step');t.addEventListener('click',()=>showScreen(t.dataset.screen))});document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.next)));
+document.querySelectorAll('[data-practice]').forEach(b=>b.addEventListener('click',()=>{b.nextElementSibling.innerHTML='Answer: '+rich(b.dataset.practice);b.nextElementSibling.className='practice-feedback correct'}));
 const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,choice=a=>a[rnd(0,a.length-1)];
 function gcd(a,b){while(b)[a,b]=[b,a%b];return Math.abs(a)||1}function simp(n,d){const g=gcd(n,d);return[n/g,d/g]}function eq(a,b){if(!Array.isArray(a)||!Array.isArray(b)||a.length!==2||b.length!==2||!a.every(Number.isSafeInteger)||!b.every(Number.isSafeInteger)||a[1]===0||b[1]===0)return false;return BigInt(a[0])*BigInt(b[1])===BigInt(b[0])*BigInt(a[1])}
 function frac(n,d){return `<span class="frac"><span>${n}</span><i></i><span>${d}</span></span>`}function mixed(w,n,d){return `<span class="mixed"><strong>${w}</strong>${frac(n,d)}</span>`}
@@ -57,7 +57,7 @@ const DIFFICULTY_BANDS=[
 {level:'CHALLENGE',skills:[reasoningError,tankProblem,classProjectProblem,triple,trailProblem]}
 ];
 function buildQuiz(){const seen=new Set();return DIFFICULTY_BANDS.flatMap(b=>shuffle(b.skills.map(f=>{const q=unique(f,seen);q.level=b.level;return q})))}
-let quiz=[],index=0,score=0,answered=false,attemptSaved=false;
+let quiz=[],index=0,score=0,answered=false,attemptSaved=false,saveInFlight=false,attemptId='';
 const qn=document.getElementById('qNumber'),ql=document.getElementById('qLevel'),qs=document.getElementById('qScore'),qp=document.getElementById('quizProgress'),qt=document.getElementById('qTopic'),qprompt=document.getElementById('qPrompt'),qd=document.getElementById('qDisplay'),qa=document.getElementById('qAnswer'),qf=document.getElementById('qFeedback'),solution=document.getElementById('qSolution'),check=document.getElementById('checkAnswer'),next=document.getElementById('nextQuestion'),result=document.getElementById('resultCard');
 function level(){return quiz[index]?.level||DIFFICULTY_BANDS[Math.min(Math.floor(index/5),DIFFICULTY_BANDS.length-1)].level}
 function answerFieldName(part){return `mm-q${index+1}-${part}-${Date.now()}-${Math.random().toString(36).slice(2,8)}`}
@@ -71,5 +71,24 @@ function finishCheck(ok,answer){answered=true;const x=quiz[index];if(ok){score++
 function checkChoice(v){if(answered)return;finishCheck(v===quiz[index].answer,quiz[index].answer)}
 check.addEventListener('click',()=>{if(answered)return;const q=quiz[index];if(q.type==='choice'){qf.textContent='Choose one of the answer options.';return}if(q.type==='single'){const v=val('single');if(v===null){qf.textContent='Enter a whole number.';return}finishCheck(v===q.answer,String(q.answer));return}if(q.type==='mixed'){const w=val('whole'),n=val('num'),d=val('den');if([w,n,d].some(v=>v===null)||d<=0){qf.textContent='Enter a whole number, a numerator and a positive denominator.';return}if(n>=d){qf.textContent='The fractional part of a mixed number must be less than one whole.';return}finishCheck(w===q.answer[0]&&eq([n,d],[q.answer[1],q.answer[2]]),mixed(...q.answer));return}const n=val('num'),d=val('den');if(n===null||d===null||d<=0){qf.textContent='Enter a numerator and a positive denominator.';return}const equivalent=eq([n,d],q.answer),exact=n===q.answer[0]&&d===q.answer[1];if(q.strict&&equivalent&&!exact){qf.textContent='Equivalent, but simplify it fully.';qf.className='q-feedback incorrect';return}finishCheck(q.strict?exact:equivalent,frac(...q.answer))});
 next.addEventListener('click',()=>{if(!answered)return;if(index<TOTAL-1){index++;render()}else finish()});document.getElementById('restartQuiz').addEventListener('click',startQuiz);
-function startQuiz(){quiz=buildQuiz();index=0;score=0;attemptSaved=false;document.querySelector('.quiz-card').hidden=false;result.hidden=true;render()}
-async function finish(){document.querySelector('.quiz-card').hidden=true;result.hidden=false;const pct=Math.round((score/TOTAL)*100);const msg=score===TOTAL?'Perfect score — proficiency achieved!':pct>=85?'Excellent understanding.':pct>=70?'Strong work. Review any concepts you missed.':pct>=50?'Good progress. Revisit the learning pages before another attempt.':'Revisit Pages 1–5, then try the challenge again.';result.innerHTML=`<p class="tag">CHALLENGE COMPLETE</p><h2>${pct}%</h2><strong>${score} out of ${TOTAL} correct</strong><p>${msg}</p><p id="saveStatus">Recording completed attempt…</p>`;if(attemptSaved)return;attemptSaved=true;const status=document.getElementById('saveStatus');try{let tries=0;while(!window.MathMagicFractionsProgress?.saveAttempt&&tries<20){await new Promise(r=>setTimeout(r,100));tries++}if(!window.MathMagicFractionsProgress?.saveAttempt)throw new Error('Progress service unavailable');const p=await window.MathMagicFractionsProgress.saveAttempt(score);if(status)status.textContent=`✓ Attempt recorded • ${Math.min(p.attempts,5)}/5 completed • Best ${p.bestScore}/${TOTAL}${p.proficient?' • PROFICIENT':''}`;}catch(e){console.error('Progress save failed:',e);attemptSaved=false;if(status){status.textContent='This attempt could not be recorded. Please keep this page open and try again.';status.className='incorrect'}}}
+function startQuiz(){if(saveInFlight)return;quiz=buildQuiz();index=0;score=0;attemptSaved=false;attemptId=globalThis.crypto?.randomUUID?.()||Date.now()+'-'+Math.random().toString(36).slice(2);document.querySelector('.quiz-card').hidden=false;result.hidden=true;render()}
+async function finish(){
+ if(saveInFlight)return;
+ document.querySelector('.quiz-card').hidden=true;result.hidden=false;
+ const pct=Math.round((score/TOTAL)*100),msg=score===TOTAL?'Perfect score — proficiency achieved!':pct>=85?'Excellent understanding.':pct>=70?'Strong work. Review any concepts you missed.':pct>=50?'Good progress. Revisit the learning pages before another attempt.':'Revisit Pages 1–5, then try the challenge again.';
+ result.innerHTML=`<p class="tag">CHALLENGE COMPLETE</p><h2>${pct}%</h2><strong>${score} out of ${TOTAL} correct</strong><p>${msg}</p><p id="saveStatus" role="status">Recording completed attempt…</p><div class="quiz-buttons"><button id="retrySave" hidden>Retry saving this attempt</button><button id="newChallenge">New Challenge</button></div>`;
+ result.tabIndex=-1;result.focus({preventScroll:true});
+ const status=document.getElementById('saveStatus'),retry=document.getElementById('retrySave'),newChallenge=document.getElementById('newChallenge');
+ retry.addEventListener('click',finish);
+ newChallenge.addEventListener('click',()=>{if(!attemptSaved&&!confirm('This attempt has not been recorded. Start a new challenge and leave it unsaved?'))return;startQuiz()});
+ if(attemptSaved){status.textContent='✓ This attempt has already been recorded.';return}
+ saveInFlight=true;retry.disabled=true;newChallenge.disabled=true;
+ try{
+  if(!window.MathMagicFractionsProgress?.saveAttempt)throw new Error('Progress service unavailable');
+  const p=await window.MathMagicFractionsProgress.saveAttempt(score,attemptId);
+  attemptSaved=true;status.textContent=`✓ Attempt recorded • ${Math.min(p.attempts,5)}/5 completed • Best ${p.bestScore}/${TOTAL}${p.proficient?' • PROFICIENT':''}`;
+ }catch(e){
+  console.error('Progress save failed:',e);attemptSaved=false;
+  status.textContent='This attempt could not be recorded. Keep this page open and retry saving it.';status.className='incorrect';retry.hidden=false;
+ }finally{saveInFlight=false;retry.disabled=false;newChallenge.disabled=false}
+}
