@@ -29,6 +29,7 @@ onAuthStateChanged(auth,async user=>{
  if(!user){location.replace("index.html");return}
  try{
   const access=await getDoc(doc(db,"access",user.uid));
+  if(auth.currentUser?.uid!==user.uid)return;
   if(!(access.exists()&&access.data().approved===true)){location.replace("access-required.html");return}
   const progress=await load(user.uid);
   if(auth.currentUser?.uid!==user.uid)return;
@@ -51,6 +52,6 @@ onAuthStateChanged(auth,async user=>{
    return data;
   }};
   document.body.classList.remove("auth-loading");
- }catch(e){console.error("MathMagic access/progress check failed:",e);location.replace("access-required.html?error=1")}
+ }catch(e){if(auth.currentUser?.uid!==user.uid)return;console.error("MathMagic access/progress check failed:",e);location.replace("access-required.html?error=1")}
 });
 document.getElementById("logoutBtn")?.addEventListener("click",async()=>{await signOut(auth);location.replace("index.html")});

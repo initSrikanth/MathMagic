@@ -28,3 +28,4 @@
 .number-line::before{content:none}.number-line .nl-axis{left:0;right:0}
 
 .practice-feedback.correct{color:var(--ok)}
+.result #saveStatus.incorrect{color:var(--bad)}

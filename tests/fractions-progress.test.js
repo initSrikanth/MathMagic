@@ -7,7 +7,7 @@ function harness({cacheFails=false,readFails=false,approved=true,stored={}}={}){
  const element=id=>{if(!elements.has(id))elements.set(id,{textContent:'',classList:{toggle(){}},addEventListener(){}});return elements.get(id)};
  const snapshot=path=>({exists:()=>data.has(path),data:()=>structuredClone(data.get(path))});
  data.set('access/student-a',{approved});
- const context={console:{error(){},warn(){}},window:{},location:{replace:x=>redirects.push(x)},localStorage:{getItem:k=>{if(cacheFails)throw Error('cache blocked');return cache.get(k)||null},setItem:(k,v)=>{if(cacheFails)throw Error('cache blocked');cache.set(k,v)}},document:{getElementById:element,body:{classList:{add(){},remove(){}}}},initializeApp:()=>({}),firebaseConfig:{},getAuth:()=>auth,getFirestore:()=>({}),doc:(_, ...parts)=>parts.join('/'),getDoc:async path=>{if(readFails)throw Error('offline');return snapshot(path)},onAuthStateChanged:(_,fn)=>listener=fn,signOut:async()=>{},runTransaction:(_,callback)=>{
+ const context={console:{error(){},warn(){}},window:{},location:{replace:x=>redirects.push(x)},localStorage:{getItem:k=>{if(cacheFails)throw Error('cache blocked');return cache.get(k)||null},setItem:(k,v)=>{if(cacheFails)throw Error('cache blocked');cache.set(k,v)}},document:{getElementById:element,body:{classList:{add(){},remove(){}}}},initializeApp:()=>({}),firebaseConfig:{},getAuth:()=>auth,getFirestore:()=>({}),doc:(_, ...parts)=>parts.join('/'),getDoc:async path=>{if(readFails)throw Error('offline');const override=await context.readHook?.(path);return override===undefined?snapshot(path):override},onAuthStateChanged:(_,fn)=>listener=fn,signOut:async()=>{},runTransaction:(_,callback)=>{
   const task=queue.then(async()=>{
    const changes=[];const result=await callback({get:async path=>snapshot(path),set:(path,value)=>changes.push([path,structuredClone(value)])});
    for(const [path,value] of changes){data.set(path,value);writes.push(path)}
@@ -36,5 +36,18 @@ function harness({cacheFails=false,readFails=false,approved=true,stored={}}={}){
  h=harness({approved:false});await h.login();assert.equal(h.service(),undefined);assert.equal(h.redirects.at(-1),'access-required.html');assert.equal(h.writes.length,0);
  // Existing Firestore progress wins over a stale local cache; unrelated topics stay untouched.
  h=harness({stored:{[path]:{attempts:7,bestScore:28,lastScore:20,proficient:false},'progress/student-a/topics/whole-numbers':{attempts:9}}});h.cache.set('mathmagic:student-a:fractions:progress',JSON.stringify({attempts:99,bestScore:30}));await h.login();await h.service().saveAttempt(29,'attempt-reload-0001');assert.equal(h.data.get(path).attempts,8);assert.equal(h.data.get('progress/student-a/topics/whole-numbers').attempts,9);
+ // A late callback for the previous account must not deny the current account.
+ for(const failure of ['denied','access-error','progress-error']){
+  h=harness();let release,reject;const pending=new Promise((resolve,no)=>{release=resolve;reject=no});
+  h.context.readHook=path=>path===(failure==='progress-error'?'progress/student-a/topics/fractions':'access/student-a')?pending:undefined;
+  const oldLogin=h.login();
+  // Let A reach its pending access/progress read before switching accounts.
+  await Promise.resolve();await Promise.resolve();await Promise.resolve();
+  h.auth.currentUser={uid:'student-b'};h.data.set('access/student-b',{approved:true});await h.login();
+  const currentService=h.service();assert(currentService);
+  if(failure==='denied')release({exists:()=>true,data:()=>({approved:false})});else reject(Error('old request failed'));
+  await oldLogin;assert.equal(h.redirects.length,0,failure+' must not redirect the new approved user');assert.equal(h.service(),currentService);
+  await h.service().saveAttempt(20,'new-user-after-stale-callback');assert.equal(h.data.get('progress/student-b/topics/fractions').attempts,1);
+ }
  console.log('Fractions progress mocked-adapter checks passed: concurrent transactions, duplicate/ambiguous retries, validation, approval, auth changes, unavailable storage and UID/topic isolation. Live Firebase was not tested.');
 })().catch(error=>{console.error(error);process.exitCode=1});
