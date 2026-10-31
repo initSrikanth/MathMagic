@@ -24,3 +24,7 @@ Baseline: `bebf1528e2f5c816e070ba897a6a5872b3c52583`. Scope: browser Fractions g
 `node tests/protected-fractions.test.js` — PASS: existing static protected-backend assertions only. This does not prove backend deployment, live Firestore rules, App Check, authentication or persistence.
 
 The generator test executes the real current source in Node's VM with a seeded RNG and isolated DOM stubs. It does **not** certify browser rendering/accessibility or real Firebase services. Independent browser/QA review remains a release requirement. HTML practice feedback, live mobile/Safari, progress saving/retry and approved-video inventory are separate workstreams.
+
+## Independent CEO arithmetic counterexample
+
+After the initial safe-input fix, CEO independently found that safe integer inputs alone do not make Number cross-products exact: numerator `6004799503160659` / denominator `9007199254740988` was falsely equivalent to two thirds after multiplication rounded. `eq()` now validates integer pairs and uses BigInt cross-products. The regression rejects that unequal ratio while accepting a genuinely equivalent large safe-integer half. This is answer equality only; bounded lesson/generator arithmetic remains unchanged. The 30,000-position seeded suite and protected Fractions static checks passed again after this correction.
