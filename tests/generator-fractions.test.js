@@ -67,6 +67,9 @@ assert.strictEqual(duplicateRemainders,0);
 function checkQuestion(question,values){api.setQuestion(question);for(const[id,v]of Object.entries(values))node(id).value=String(v);api.check();return api.state()}
 for(const bad of [{num:'-1',den:'-2'},{num:'1',den:'0'},{num:'9'.repeat(400),den:'9'.repeat(400)}]){const s=checkQuestion({type:'fraction',answer:[1,2]},bad);assert.strictEqual(s.answered,false);assert.strictEqual(s.score,0)}
 assert.strictEqual(checkQuestion({type:'fraction',answer:[1,2]},{num:2,den:4}).score,1);
+// Both inputs are safe integers, but Number cross-products round these unequal ratios equal.
+assert.strictEqual(checkQuestion({type:'fraction',answer:[2,3]},{num:6004799503160659,den:9007199254740988}).score,0);
+assert.strictEqual(checkQuestion({type:'fraction',answer:[1,2]},{num:4503599627370495,den:9007199254740990}).score,1);
 assert.strictEqual(checkQuestion({type:'fraction',strict:true,answer:[1,2]},{num:2,den:4}).answered,false);
 assert.strictEqual(checkQuestion({type:'fraction',strict:true,answer:[1,2]},{num:1,den:2}).score,1);
 assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:-1,den:-2}).answered,false);

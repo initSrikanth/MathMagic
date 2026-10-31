@@ -5,7 +5,7 @@ function showScreen(id){screens.forEach(s=>s.classList.toggle('active',s.id===id
 tabs.forEach(t=>t.addEventListener('click',()=>showScreen(t.dataset.screen)));document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.next)));
 document.querySelectorAll('[data-practice]').forEach(b=>b.addEventListener('click',()=>{b.nextElementSibling.innerHTML='Answer: '+rich(b.dataset.practice)}));
 const rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,choice=a=>a[rnd(0,a.length-1)];
-function gcd(a,b){while(b)[a,b]=[b,a%b];return Math.abs(a)||1}function simp(n,d){const g=gcd(n,d);return[n/g,d/g]}function eq(a,b){return a[0]*b[1]===b[0]*a[1]}
+function gcd(a,b){while(b)[a,b]=[b,a%b];return Math.abs(a)||1}function simp(n,d){const g=gcd(n,d);return[n/g,d/g]}function eq(a,b){if(!Array.isArray(a)||!Array.isArray(b)||a.length!==2||b.length!==2||!a.every(Number.isSafeInteger)||!b.every(Number.isSafeInteger)||a[1]===0||b[1]===0)return false;return BigInt(a[0])*BigInt(b[1])===BigInt(b[0])*BigInt(a[1])}
 function frac(n,d){return `<span class="frac"><span>${n}</span><i></i><span>${d}</span></span>`}function mixed(w,n,d){return `<span class="mixed"><strong>${w}</strong>${frac(n,d)}</span>`}
 function expr(parts){return '<div class="math-row">'+parts.map(x=>Array.isArray(x)?frac(x[0],x[1]):x).join('')+'</div>'}
 function rich(text=''){return String(text).replace(/\b(\d+)\/(\d+)\b/g,(_,n,d)=>frac(n,d))}
