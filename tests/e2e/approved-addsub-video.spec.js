@@ -22,7 +22,7 @@ test('approved Adding and Subtracting video preserves bytes, captions and respon
  const cc=await page.request.get(await track.getAttribute('src'));expect(cc.ok()).toBeTruthy();expect(await cc.text()).toMatch(/^WEBVTT/);
  await video.evaluate(v=>v.textTracks[0].mode='showing');
  await expect.poll(()=>video.evaluate(v=>v.textTracks[0].cues?.length||0)).toBe(50);
- await page.getByText('Read the video transcript',{exact:true}).click();
+ await page.locator('#addsub .video-resource').filter({has:video}).getByText('Read the video transcript',{exact:true}).click();
  await expect(page.locator('#addsub .video-resource').filter({has:video}).locator('details')).toHaveAttribute('open','');
  for(const viewport of [{width:1440,height:1000},{width:768,height:1024},{width:390,height:844}]){
   await page.setViewportSize(viewport);await video.scrollIntoViewIfNeeded();

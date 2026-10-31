@@ -1,0 +1,143 @@
+{
+  "tested_source_commit": "bebf1528e2f5c816e070ba897a6a5872b3c52583",
+  "scope": "Existing media only. No generation or transcoding. Fresh local sha256, ffprobe, full decode and volume analysis.",
+  "media": [
+    {
+      "file": "videos/MathMagic_V2_fractions_addsub.mp4",
+      "bytes": 3152773,
+      "sha256": "74ce81c1d7ce811c00650d5402d7fc9b355156c1036fb1a424c5103574a3d778",
+      "duration": 161.581,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "24000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -24.0,
+      "peak_volume_db": -5.4
+    },
+    {
+      "file": "videos/MathMagic_V2_fractions_comparing.mp4",
+      "bytes": 2531705,
+      "sha256": "73fd8af115560704af1f58197204a17b245699cf8608c590a32e7311a1ccd5c7",
+      "duration": 128.733333,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "24000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -24.0,
+      "peak_volume_db": -5.1
+    },
+    {
+      "file": "videos/MathMagic_V2_fractions_equivalent.mp4",
+      "bytes": 2731610,
+      "sha256": "b9e2746aff3fd05aa81af540a8e3b6d69c37299c0c9a86d1d8f50d6deecc1137",
+      "duration": 136.066667,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "24000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -24.1,
+      "peak_volume_db": -5.3
+    },
+    {
+      "file": "videos/MathMagic_V2_fractions_mixed.mp4",
+      "bytes": 2399070,
+      "sha256": "54c6591ca7ebd6d65b143d8f40379587f82f8d88fdf3e1b493dda05c9eac6484",
+      "duration": 124.333333,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "24000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -24.0,
+      "peak_volume_db": -6.2
+    },
+    {
+      "file": "videos/MathMagic_V2_fractions_problems.mp4",
+      "bytes": 2802528,
+      "sha256": "b2437f7aca617eacdeea37ef19fdf97bd3f4c2d9be55ce5186145249a452c625",
+      "duration": 144.933333,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "24000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -23.9,
+      "peak_volume_db": -3.6
+    },
+    {
+      "file": "videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4",
+      "bytes": 14169595,
+      "sha256": "48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db",
+      "duration": 91.72,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "25/1",
+      "audio_codec": "aac",
+      "audio_rate": "48000",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -21.5,
+      "peak_volume_db": -3.7
+    },
+    {
+      "file": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4",
+      "bytes": 3111284,
+      "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+      "duration": 87.666667,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_rate": "44100",
+      "full_decode": true,
+      "decode_error": "",
+      "mean_volume_db": -23.5,
+      "peak_volume_db": -3.5
+    }
+  ],
+  "limitations": [
+    "Volume/decode checks do not certify natural narration, pronunciation, intelligibility or teaching quality.",
+    "Real Safari/iOS device testing and live authenticated Firebase playback are not established by these checks."
+  ]
+}
