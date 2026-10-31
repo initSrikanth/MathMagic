@@ -7,7 +7,7 @@ let seed=0x39f5a;
 const math=Object.create(Math);math.random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296};
 const context={Math:math,Date,console,document:{querySelectorAll(){return[]},querySelector(){return node('query')},getElementById:node},window:{scrollTo(){}}};
 vm.createContext(context);
-vm.runInContext(fs.readFileSync('js/fractions.js','utf8')+`\nglobalThis.subject={buildQuiz,fingerprint,stripSubtract,classProjectProblem,estimateReasonable,rich,
+vm.runInContext(fs.readFileSync('js/fractions.js','utf8')+`\nglobalThis.subject={buildQuiz,fingerprint,stripSubtract,classProjectProblem,estimateReasonable,mixedSameAdd,rich,
 setQuestion(q){quiz=[q];index=0;score=0;answered=false;qf.textContent='';qf.className=''},
 state(){return {index,score,answered,feedback:qf.textContent,feedbackClass:qf.className}},
 check(){check.handlers.click()},next(){next.handlers.click()}};`,context);
@@ -21,7 +21,7 @@ const cmp=(a,b)=>a[0]*b[1]===b[0]*a[1]?'=':a[0]*b[1]>b[0]*a[1]?'>':'<';
 const fromText=s=>[...s.matchAll(/(\d+)\/(\d+)/g)].map(m=>[Number(m[1]),Number(m[2])]);
 const fromHtml=s=>[...s.matchAll(/<span class="frac"><span>(\d+)<\/span><i><\/i><span>(\d+)<\/span><\/span>/g)].map(m=>[Number(m[1]),Number(m[2])]);
 const levels=['FOUNDATION','DEVELOPING','DEVELOPING +','PROFICIENT','APPLICATION','CHALLENGE'];
-let positions=0,duplicateRemainders=0;const covered=new Map();
+let positions=0,duplicateRemainders=0,regroupingQuestions=0;const covered=new Map();
 for(let attempt=0;attempt<1000;attempt++){
  const quiz=api.buildQuiz();assert.strictEqual(quiz.length,30);const keys=new Set();
  for(let i=0;i<quiz.length;i++){
@@ -53,7 +53,7 @@ for(let attempt=0;attempt<1000;attempt++){
    case 'Multi-step Problem':expected=sub(sub(f[0],f[1]),f[2]);break;
    case 'Missing Fraction':{const a=fromHtml(x.html);assert(same([x.answer,a[1][1]],sub(a[1],a[0])));break}
    case 'Mixed Number Line':{const m=x.html.match(/from (\d+) to (\d+) split into (\d+) equal intervals; marked point (\d+) intervals/);assert.strictEqual(Number(m[2]),Number(m[1])+1);assert.strictEqual(x.answer[0],Number(m[1]));assert(same(x.answer.slice(1),[Number(m[4]),Number(m[3])]));break}
-   case 'Mixed Numerals':{const a=fromHtml(x.html),w=Number(x.html.match(/<strong>(\d+)<\/strong>/)[1]);assert(same(add([w,1],add(a[0],a[1])),add([x.answer[0],1],x.answer.slice(1))));assert.strictEqual(gcd(x.answer[1],x.answer[2]),1);break}
+   case 'Mixed Numerals':{const a=fromHtml(x.html),w=Number(x.html.match(/<strong>(\d+)<\/strong>/)[1]);if(add(a[0],a[1])[0]>add(a[0],a[1])[1])regroupingQuestions++;assert(same(add([w,1],add(a[0],a[1])),add([x.answer[0],1],x.answer.slice(1))));assert.strictEqual(gcd(x.answer[1],x.answer[2]),1);break}
    case 'Order Fractions':{const a=fromText(x.answer);assert(a.every((v,j)=>!j||cmp(a[j-1],v)==='<'));assert.strictEqual(new Set(a.map(v=>q(...v).join('/'))).size,3);break}
    case 'Reasoning':assert.strictEqual(x.answer,'Rename the fractions with a common denominator before adding.');break;
    default:throw new Error('Unverified topic '+x.topic);
@@ -62,7 +62,8 @@ for(let attempt=0;attempt<1000;attempt++){
  }
  const remainders=quiz.filter(x=>x.topic==='Project Planning'||x.topic==='Problem Solving').map(x=>api.fingerprint(x));if(new Set(remainders).size<remainders.length)duplicateRemainders++;
 }
-assert.strictEqual(duplicateRemainders,0);
+assert.strictEqual(duplicateRemainders,0);assert(regroupingQuestions>0,'Regrouping must have an opportunity to appear');
+const originalRandom=math.random;const values=[0,0,.99,0];math.random=()=>values.shift();const carry=api.mixedSameAdd();math.random=originalRandom;assert.deepStrictEqual(Array.from(carry.answer),[2,1,4]);assert(carry.solution.includes('one extra whole'));
 // Actual marking callbacks with isolated input nodes, including malformed large input.
 function checkQuestion(question,values){api.setQuestion(question);for(const[id,v]of Object.entries(values))node(id).value=String(v);api.check();return api.state()}
 for(const bad of [{num:'-1',den:'-2'},{num:'1',den:'0'},{num:'9'.repeat(400),den:'9'.repeat(400)}]){const s=checkQuestion({type:'fraction',answer:[1,2]},bad);assert.strictEqual(s.answered,false);assert.strictEqual(s.score,0)}
@@ -76,4 +77,4 @@ assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:-1,d
 assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:3,den:2}).answered,false);
 assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:2,den:4}).score,1);
 api.setQuestion({type:'single',answer:2});api.next();assert.strictEqual(api.state().index,0,'Cannot advance unanswered question');assert.notStrictEqual(node('query').hidden,true,'Cannot finish an unanswered question');
-console.log(JSON.stringify({status:'passed',seed:'0x39f5a',attempts:1000,positions,questionFamilies:covered.size,duplicateRemainders,scope:'Isolated seeded generator, exact-answer and marking callbacks; not browser/Firebase integration.'}));
+console.log(JSON.stringify({status:'passed',seed:'0x39f5a',attempts:1000,positions,questionFamilies:covered.size,duplicateRemainders,regroupingQuestions,scope:'Isolated seeded generator, exact-answer and marking callbacks; not browser/Firebase integration.'}));
