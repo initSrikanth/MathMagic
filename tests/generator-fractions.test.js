@@ -21,7 +21,7 @@ const cmp=(a,b)=>a[0]*b[1]===b[0]*a[1]?'=':a[0]*b[1]>b[0]*a[1]?'>':'<';
 const fromText=s=>[...s.matchAll(/(\d+)\/(\d+)/g)].map(m=>[Number(m[1]),Number(m[2])]);
 const fromHtml=s=>[...s.matchAll(/<span class="frac"><span>(\d+)<\/span><i><\/i><span>(\d+)<\/span><\/span>/g)].map(m=>[Number(m[1]),Number(m[2])]);
 const levels=['FOUNDATION','DEVELOPING','DEVELOPING +','PROFICIENT','APPLICATION','CHALLENGE'];
-let positions=0,duplicateRemainders=0,regroupingQuestions=0;const covered=new Map();
+let positions=0,duplicateRemainders=0,regroupingQuestions=0,mixedLineComparisons=0;const covered=new Map();
 for(let attempt=0;attempt<1000;attempt++){
  const quiz=api.buildQuiz();assert.strictEqual(quiz.length,30);const keys=new Set();
  for(let i=0;i<quiz.length;i++){
@@ -52,7 +52,7 @@ for(let attempt=0;attempt<1000;attempt++){
    case 'Estimate First':{const a=fromHtml(x.html),sum=add(a[0],a[1]);assert.deepStrictEqual(Array.from(x.options),['less than 1','equal to 1','greater than 1']);assert.strictEqual(x.answer,sum[0]<sum[1]?'less than 1':sum[0]===sum[1]?'equal to 1':'greater than 1');break}
    case 'Multi-step Problem':expected=sub(sub(f[0],f[1]),f[2]);break;
    case 'Missing Fraction':{const a=fromHtml(x.html);assert(same([x.answer,a[1][1]],sub(a[1],a[0])));break}
-   case 'Mixed Number Line':{const m=x.html.match(/from (\d+) to (\d+) split into (\d+) equal intervals; marked point (\d+) intervals/);assert.strictEqual(Number(m[2]),Number(m[1])+1);assert.strictEqual(x.answer[0],Number(m[1]));assert(same(x.answer.slice(1),[Number(m[4]),Number(m[3])]));break}
+   case 'Mixed Number Line':{mixedLineComparisons++;assert.strictEqual(x.type,'choice');const m=x.html.match(/from (\d+) to (\d+); each whole split into (\d+) equal intervals; point A at (\d+) intervals after (\d+); point B at (\d+) intervals after (\d+)/);assert(m,'Missing accessible point positions');assert.strictEqual(Number(m[2]),Number(m[1])+2);const den=Number(m[3]),a=add([Number(m[1]),1],[Number(m[4]),den]),b=add([Number(m[1]),1],[Number(m[6]),den]),parts=fromHtml(x.html),wholes=[...x.html.matchAll(/<strong>(\d+)<\/strong>/g)].map(v=>Number(v[1]));assert.strictEqual(parts.length,2);assert(same(a,add([wholes[0],1],parts[0])));assert(same(b,add([wholes[1],1],parts[1])));assert(parts[0][1]%parts[1][1]===0||parts[1][1]%parts[0][1]===0,'Unrelated mixed comparison parts');assert.strictEqual(x.answer,cmp(a,b));const markers=[...x.html.matchAll(/nl-tick target" style="left:([\d.]+)%"><i><\/i><b>(A|B)<\/b>/g)];assert.strictEqual(markers.length,2);for(const p of markers){const interval=Number(p[2]==='A'?m[4]:m[6]);assert(Math.abs(Number(p[1])/100-interval/(2*den))<1e-12)}break}
    case 'Mixed Numerals':{const a=fromHtml(x.html),w=Number(x.html.match(/<strong>(\d+)<\/strong>/)[1]);if(add(a[0],a[1])[0]>add(a[0],a[1])[1])regroupingQuestions++;assert(same(add([w,1],add(a[0],a[1])),add([x.answer[0],1],x.answer.slice(1))));assert.strictEqual(gcd(x.answer[1],x.answer[2]),1);break}
    case 'Order Fractions':{const a=fromText(x.answer);assert(a.every((v,j)=>!j||cmp(a[j-1],v)==='<'));assert.strictEqual(new Set(a.map(v=>q(...v).join('/'))).size,3);break}
    case 'Reasoning':assert.strictEqual(x.answer,'Rename the fractions with a common denominator before adding.');break;
@@ -62,7 +62,7 @@ for(let attempt=0;attempt<1000;attempt++){
  }
  const remainders=quiz.filter(x=>x.topic==='Project Planning'||x.topic==='Problem Solving').map(x=>api.fingerprint(x));if(new Set(remainders).size<remainders.length)duplicateRemainders++;
 }
-assert.strictEqual(duplicateRemainders,0);assert(regroupingQuestions>0,'Regrouping must have an opportunity to appear');
+assert.strictEqual(duplicateRemainders,0);assert(regroupingQuestions>0,'Regrouping must have an opportunity to appear');assert.strictEqual(mixedLineComparisons,1000,'Every attempt must include mixed-number comparison with a number-line representation');
 const originalRandom=math.random;const values=[0,0,.99,0];math.random=()=>values.shift();const carry=api.mixedSameAdd();math.random=originalRandom;assert.deepStrictEqual(Array.from(carry.answer),[2,1,4]);assert(carry.solution.includes('one extra whole'));
 // Actual marking callbacks with isolated input nodes, including malformed large input.
 function checkQuestion(question,values){api.setQuestion(question);for(const[id,v]of Object.entries(values))node(id).value=String(v);api.check();return api.state()}
@@ -77,4 +77,4 @@ assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:-1,d
 assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:3,den:2}).answered,false);
 assert.strictEqual(checkQuestion({type:'mixed',answer:[1,1,2]},{whole:1,num:2,den:4}).score,1);
 api.setQuestion({type:'single',answer:2});api.next();assert.strictEqual(api.state().index,0,'Cannot advance unanswered question');assert.notStrictEqual(node('query').hidden,true,'Cannot finish an unanswered question');
-console.log(JSON.stringify({status:'passed',seed:'0x39f5a',attempts:1000,positions,questionFamilies:covered.size,duplicateRemainders,regroupingQuestions,scope:'Isolated seeded generator, exact-answer and marking callbacks; not browser/Firebase integration.'}));
+console.log(JSON.stringify({status:'passed',seed:'0x39f5a',attempts:1000,positions,questionFamilies:covered.size,duplicateRemainders,regroupingQuestions,mixedLineComparisons,scope:'Isolated seeded generator, exact-answer and marking callbacks; not browser/Firebase integration.'}));
