@@ -21,3 +21,6 @@
 .q-display .visual-hint{display:flex;align-items:center;justify-content:center;gap:8px;min-height:54px;margin:8px auto 4px;font-size:1.15rem}
 .q-display .visual-hint .frac{min-width:38px}
 @media(max-width:700px){.q-display .area-quiz,.q-display .strip-quiz{width:min(90vw,460px);min-width:240px;height:62px}.q-display .visual-hint{font-size:1rem}}
+
+/* Accessible worked models stay inside their lesson card on narrow phones. */
+.mixed-number-line-svg{display:block;width:100%;max-width:760px;height:auto;margin:12px auto}.subtraction-worked-strip{width:100%;grid-template-columns:repeat(8,minmax(0,1fr))}
