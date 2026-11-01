@@ -18,6 +18,7 @@ for(const l of batch.lessons)test('graphics-only '+l.title+' exact media, captio
  const track=video.locator('track[kind="captions"]');await expect(track).toHaveAttribute('srclang','en');await expect(track).toHaveAttribute('default','');
  await video.evaluate(v=>v.textTracks[0].mode='showing');await expect.poll(()=>video.evaluate(v=>v.textTracks[0].cues?.length||0)).toBe(l.caption_cues);
  expect(await video.evaluate(v=>Array.from(v.textTracks[0].cues).every(c=>c.line===1&&c.snapToLines===false))).toBeTruthy();
+ expect(await video.evaluate(v=>Array.from(v.textTracks[0].cues).every(c=>c.text.split('\n').every(line=>line.length<=48)))).toBeTruthy();
  const transcript=fs.readFileSync(path.join(root,l.transcript),'utf8');expect(normal(await video.evaluate(v=>Array.from(v.textTracks[0].cues,c=>c.text).join(' ')))).toBe(normal(transcript));
  await card.locator('summary').click();expect(normal((await card.locator('details p').allTextContents()).join(' '))).toBe(normal(transcript));
  for(const viewport of [{width:1440,height:1000},{width:768,height:1024},{width:390,height:844}]){

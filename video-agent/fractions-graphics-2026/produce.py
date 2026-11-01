@@ -1,5 +1,5 @@
 """One resumable five-lesson job. Offline speech only; no batch workflows/APIs."""
-import json,sys,hashlib,math,re,subprocess,os,time
+import json,sys,hashlib,math,re,subprocess,os,time,textwrap
 from pathlib import Path
 import numpy as np
 import soundfile as sf
@@ -70,8 +70,8 @@ def render(l,folder,timeline,narration):
  out=ROOT/l['file'];out.parent.mkdir(parents=True,exist_ok=True)
  vtt=['WEBVTT',''];srt=[]
  for i,c in enumerate(timeline['captions'],1):
-  vtt += [f'{stamp(c["start"])} --> {stamp(c["end"])} line:1% position:50% align:center size:88%',c['text'],'']
-  srt += [str(i),f'{stamp(c["start"],True)} --> {stamp(c["end"],True)}',c['text'],'']
+  vtt += [f'{stamp(c["start"])} --> {stamp(c["end"])} line:1% position:50% align:center size:88%','\n'.join(textwrap.wrap(c['text'],48)),'']
+  srt += [str(i),f'{stamp(c["start"],True)} --> {stamp(c["end"],True)}','\n'.join(textwrap.wrap(c['text'],48)),'']
  out.with_suffix('.vtt').write_text('\n'.join(vtt));srtpath=folder/'captions.srt';srtpath.write_text('\n'.join(srt));(out.parent/(out.name+'_transcript.txt')).write_text('\n\n'.join(c['text'] for c in timeline['captions'])+'\n')
  listing=folder/'clips.txt';listing.write_text(''.join(f"file '{p}'\n" for p in clips));dest=out.with_suffix('.mp4');temp=folder/'final.partial.mp4'
  run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',listing,'-i',narration,'-i',srtpath,'-map','0:v:0','-map','1:a:0','-map','2:s:0','-c:v','copy','-af','loudnorm=I=-17:TP=-2:LRA=9','-c:a','aac','-b:a','160k','-ar','48000','-c:s','mov_text','-metadata:s:s:0','language=eng','-movflags','+faststart','-metadata','title='+l['title'],temp]);temp.replace(dest)
