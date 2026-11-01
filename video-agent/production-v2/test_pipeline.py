@@ -28,6 +28,23 @@ class ProductionTests(unittest.TestCase):
         s=p.summary(m); self.assertEqual(s['videos_successfully_rendered'],1)
         self.assertEqual(s['videos_committed'],0); self.assertEqual(s['videos_deployed_and_verified_live'],0)
     def test_all_authored_arithmetic(self): self.assertEqual(p.maths()['lessons'],30)
+    def test_decimals_goals_and_three_criteria_are_spoken_and_visible(self):
+        lessons = [lesson for lesson in p.LESSONS if lesson['topic'] == 'decimals-percentages']
+        self.assertEqual(len(lessons), 5)
+        for lesson in lessons:
+            with self.subTest(lesson=lesson['id']):
+                opening, goal, criteria, concept = lesson['beats'][:4]
+                self.assertEqual(opening['role'], 'opening')
+                self.assertEqual(goal['role'], 'learning_goal')
+                self.assertEqual(criteria['role'], 'success_criteria')
+                self.assertEqual(concept['chapter'], 'Build the idea')
+                self.assertEqual(len(goal['board']), 1)
+                self.assertIn('Our learning goal is to', goal['text'])
+                self.assertEqual(len(criteria['board']), 3)
+                self.assertEqual(criteria['text'].count('I can '), 3)
+                self.assertTrue(all(line.startswith(str(i) + '. ') for i, line in enumerate(criteria['board'], 1)))
+                self.assertFalse(any(cue.get('equation') for cue in [opening, goal, criteria]))
+
     def test_integration_is_scoped_and_idempotent_for_all_thirty_sections(self):
         # Use actual page markup, including nested Fractions div wrappers and aside wrappers.
         for l in p.LESSONS:
