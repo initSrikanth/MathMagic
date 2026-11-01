@@ -1,6 +1,25 @@
 const { test, expect } = require('@playwright/test');
 async function openTopic(page){await page.route('**/js/whole-numbers-auth.js*',r=>r.abort());await page.goto('/whole-numbers.html');await page.evaluate(()=>document.body.classList.remove('auth-loading'))}
-test('whole numbers lessons render',async({page})=>{await openTopic(page);for(const id of ['lesson1','lesson2','lesson3','lesson4','lesson5','challenge']){await page.locator('[data-screen="'+id+'"]').click();await expect(page.locator('#'+id)).toHaveClass(/active/)}});
+test('whole numbers lesson goals, success criteria and navigation are readable',async({page})=>{
+ await openTopic(page);
+ for(const width of [1440,768,390]){
+  await page.setViewportSize({width,height:900});
+  for(let i=1;i<=5;i++){
+   await page.locator('[data-screen="lesson'+i+'"]').click();
+   const lesson=page.locator('#lesson'+i),goals=lesson.getByRole('region',{name:'Today’s Learning Goal'});
+   await expect(lesson).toHaveClass(/active/);await expect(goals).toBeVisible();
+   await expect(goals.locator('p')).not.toBeEmpty();await expect(goals.getByRole('heading',{name:'Success criteria: I can…'})).toBeVisible();
+   await expect(goals.getByRole('listitem')).toHaveCount(3);
+   for(const item of await goals.getByRole('listitem').all())await expect(item).not.toBeEmpty();
+   expect(await goals.evaluate(el=>{const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&document.documentElement.scrollWidth<=innerWidth})).toBe(true);
+  }
+  await page.locator('[data-screen="lesson3"]').click();
+  const next=page.locator('#lesson3 .lesson-nav button[data-next="lesson4"]');
+  await expect(next).toHaveText('Next: Decimal Place Value →');await next.focus();await next.press('Enter');
+  await expect(page.locator('#lesson4')).toHaveClass(/active/);await expect(page.locator('#lesson4 .lesson-heading h2')).toHaveText('Decimal Place Value');
+ }
+ await page.locator('[data-screen="challenge"]').click();await expect(page.locator('#challenge')).toHaveClass(/active/);
+});
 test('whole numbers 30 question challenge',async({page})=>{await openTopic(page);await page.locator('[data-screen="challenge"]').click();for(let q=1;q<=30;q++){await expect(page.locator('#qNumber')).toHaveText(q+' / 30');await expect(page.locator('#qPrompt')).not.toBeEmpty();const choices=page.locator('#qAnswer [data-choice]');if(await choices.count())await choices.first().click();else{await page.locator('#qAnswer input').fill('999999');await page.locator('#checkAnswer').click()}await expect(page.locator('#qFeedback')).not.toBeEmpty();await expect(page.locator('#nextQuestion')).toBeEnabled();await page.locator('#nextQuestion').click()}await expect(page.locator('#resultCard')).toContainText('CHALLENGE COMPLETE')});
 
 test('all five lessons retain only their corresponding MathMagic video at desktop tablet and mobile sizes',async({page})=>{
