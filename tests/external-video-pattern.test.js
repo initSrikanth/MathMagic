@@ -5,18 +5,29 @@ const crypto=require('crypto');
 // coverage. The LCM extension and two additional Whole Numbers lesson players
 // add three resources beyond the original coverage. The other three Whole Numbers
 // players replace the removed Math Antics embeds. Keep the 14-resource minimum.
+// Five new graphics-only replacements explicitly authorised in this production mission.
+const fractionsBatch=require('../video-agent/fractions-graphics-2026/manifest.json');
+const previousMedia=require('../video-agent/fractions-graphics-2026/previous-integrations.json');
+assert.strictEqual(fractionsBatch.lessons.length,5);
+const newFractions=new Map(fractionsBatch.lessons.map(l=>[l.src,l]));
+for(const [src,record] of Object.entries(previousMedia.assets)){
+ const bytes=fs.readFileSync(src);assert.strictEqual(bytes.length,record.bytes,'Previous media backup size changed: '+src);
+ assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),record.sha256,'Previous approved media changed: '+src);
+}
+// Original approved files remain immutable even though the active players changed.
+for(const [src,hash] of [
+ ['videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4','48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db'],
+ ['videos/MathMagic_Mixed_Numbers_FINAL.mp4','92c831fce1d463b7a369511098a1a5eff47a8756d840e5fe52f510dc3f7cdc56'],
+ ['videos/MathMagic_Finding_LCM_FINAL_1080p.mp4','374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00']
+])assert.strictEqual(crypto.createHash('sha256').update(fs.readFileSync(src)).digest('hex'),hash);
 const approvedVideos=new Map([
   ['videos/MathMagic_Understanding_Place_Value_1080p.mp4','videos/MathMagic_Understanding_Place_Value_1080p.mp4'],
   ['videos/MathMagic_Expanded_Form_1080p.mp4','videos/MathMagic_Expanded_Form_1080p.mp4'],
   ['videos/MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4','videos/MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4'],
   ['videos/MathMagic_Decimal_Place_Value_1080p.mp4','videos/MathMagic_Decimal_Place_Value_1080p.mp4'],
   ['videos/MathMagic_Comparing_Ordering_Locating_Decimals_1080p.mp4','videos/MathMagic_Comparing_Ordering_Locating_Decimals_1080p.mp4'],
-
   ['videos/MathMagic_Finding_LCM_FINAL_1080p.mp4','videos/MathMagic_Finding_LCM_FINAL_1080p.mp4'],
-  ['videos/MathMagic_Comparing_Fractions_FINAL.mp4','videos/MathMagic_Comparing_Fractions_FINAL.mp4'],
-  ['https://raw.githubusercontent.com/initSrikanth/MathMagic/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4','https://github.com/initSrikanth/MathMagic/raw/refs/heads/feature/video-production-agent/videos/MathMagic_Equivalent_Fractions_FINAL.mp4'],
-  ['videos/MathMagic_Mixed_Numbers_FINAL.mp4','videos/MathMagic_Mixed_Numbers_FINAL.mp4'],
-  ['videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4','videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4']
+  ...fractionsBatch.lessons.map(l=>[l.src,l.src])
 ]);
 let youtubeEmbeds=0,scrimbaEmbeds=0,mathmagicVideos=0;
 const seenVideos=new Set();
@@ -61,6 +72,7 @@ for(const file of modules){
     assert(h.includes('href="'+fallback+'"'),file+' video needs a direct MP4 fallback link');
     if(!src.startsWith('https://')){
       const bytes=fs.readFileSync(src);
+      if(newFractions.has(src)){const expected=newFractions.get(src);assert.strictEqual(expected.status,'verified');assert.strictEqual(expected.presenter,false);assert.strictEqual(bytes.length,expected.bytes);assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256);}
       assert(bytes.length>0&&bytes.subarray(4,8).toString()==='ftyp',src+' must be a real MP4, not a missing file or LFS pointer');
       if(src==='videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4'){
         assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),'48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db','Adding and Subtracting Fractions must preserve the approved corrected MP4 bytes');
@@ -83,9 +95,9 @@ for(const file of modules){
       assert.strictEqual(players.length,id==='addsub'?2:1,'Each lesson retains its core explainer, plus only the approved addsub extension: '+id);
       if(id==='addsub'){
         assert(lesson[1].includes('id="mathmagic-lcm-extension"'),'LCM extension belongs only in Adding and Subtracting');
-        assert(lesson[1].includes('src="videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4"'),'Core Adding and Subtracting video must remain');
+        assert(lesson[1].includes('src="'+fractionsBatch.lessons.find(l=>l.section==='addsub').src+'"'),'Verified core Adding and Subtracting video must remain');
       }
-      if(id==='mixed')assert(lesson[1].includes('src="videos/MathMagic_Mixed_Numbers_FINAL.mp4"'),'Mixed Numbers must use its approved local MP4');
+      const expected=fractionsBatch.lessons.find(l=>l.section===id);assert(expected&&lesson[1].includes('src="'+expected.src+'"'),'Each section must use its matching verified graphics-only MP4: '+id);
     }
     assert(scrimba.length+videos.length>=5,'Expected the five Fractions lessons to use original MathMagic explainers');
   }

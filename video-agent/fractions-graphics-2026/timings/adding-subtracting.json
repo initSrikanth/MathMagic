@@ -1,0 +1,1508 @@
+{
+  "duration": 228.26666666666668,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 9.613625,
+      "end": 10.333333333333334,
+      "role": "hook",
+      "chapter": "A fraction puzzle for you",
+      "pause": 0.7,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "A fraction puzzle for you",
+        "text": "You're making a snack mix. One scoop fills half a cup, and another fills a quarter of a cup. Will they fill the cup, spill over, or leave some space?",
+        "role": "hook",
+        "equation": null,
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Half a cup",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "A quarter of the same cup",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.7,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 10.333333333333334,
+      "speech_end": 20.057166666666667,
+      "end": 20.666666666666668,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.6,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we're learning to add and subtract fractions using visual models and number strategies. The secret is working with equal-sized parts.",
+        "role": "goal",
+        "equation": null,
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Half a cup",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "A quarter of the same cup",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.6,
+        "display": "Add and subtract fractions using equal-sized parts."
+      }
+    },
+    {
+      "index": 2,
+      "start": 20.666666666666668,
+      "speech_end": 25.003833333333333,
+      "end": 25.233333333333334,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll make the parts the same size when the denominators are related.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Choose a common size of part",
+          "Add or subtract and simplify",
+          "Explain the result with a model"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 25.233333333333334,
+      "speech_end": 29.828958333333333,
+      "end": 30.033333333333335,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll add or subtract carefully, and simplify your answer when you can.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Choose a common size of part",
+          "Add or subtract and simplify",
+          "Explain the result with a model"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 30.033333333333335,
+      "speech_end": 35.547,
+      "end": 35.766666666666666,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll use a model, a number line or an estimate to explain why your answer makes sense.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Choose a common size of part",
+          "Add or subtract and simplify",
+          "Explain the result with a model"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 35.766666666666666,
+      "speech_end": 44.924458333333334,
+      "end": 45.43333333333333,
+      "role": "explanation",
+      "chapter": "Start with the whole",
+      "pause": 0.5,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Start with the whole",
+        "text": "First, choose one whole. Its parts must be equal in size. The outline of the model shows the entire whole, not just the coloured share.",
+        "role": "explanation",
+        "equation": null,
+        "rows": [
+          {
+            "n": 0,
+            "d": 4,
+            "label": "One whole divided into four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.5,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 45.43333333333333,
+      "speech_end": 57.273208333333336,
+      "end": 57.9,
+      "role": "explanation",
+      "chapter": "Connect the picture to the numbers",
+      "pause": 0.6,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Connect the picture to the numbers",
+        "text": "Here, three equal parts are chosen out of four. The top number, the numerator, counts chosen parts. The bottom number, the denominator, tells how many equal parts make the whole.",
+        "role": "explanation",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three of four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.6
+      }
+    },
+    {
+      "index": 7,
+      "start": 57.9,
+      "speech_end": 65.63904166666667,
+      "end": 68.66666666666667,
+      "role": "prediction",
+      "chapter": "Example 1: combine matching parts",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "What is two sevenths plus three sevenths? Think about the size of each piece, then predict the number of pieces altogether.",
+        "chapter": "Example 1: combine matching parts",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 7,
+            "label": "Two sevenths",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 7,
+            "label": "Three sevenths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Count the parts. Keep the size of each part.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 1,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 68.66666666666667,
+      "speech_end": 74.97416666666666,
+      "end": 75.33333333333333,
+      "role": "explanation",
+      "chapter": "Like denominators",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "First, use matching denominators. Two sevenths plus three sevenths makes five sevenths.",
+        "chapter": "Like denominators",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 7,
+            "label": "Two sevenths",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 7,
+            "label": "Add three more",
+            "colour": "gold"
+          }
+        ],
+        "note": "Count the parts. Keep the size of each part.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 1
+      }
+    },
+    {
+      "index": 9,
+      "start": 75.33333333333333,
+      "speech_end": 82.21554166666667,
+      "end": 82.56666666666666,
+      "role": "misconception",
+      "chapter": "Keep the denominator",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "text": "We add the numerators and keep the denominator. We are still counting sevenths, not fourteenths.",
+        "chapter": "Keep the denominator",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 7,
+            "label": "Five seventh-pieces",
+            "colour": "teal"
+          }
+        ],
+        "note": "Never add the denominators.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.35,
+        "source_beat": 2
+      }
+    },
+    {
+      "index": 10,
+      "start": 82.56666666666666,
+      "speech_end": 92.59329166666667,
+      "end": 93.26666666666667,
+      "role": "misconception",
+      "chapter": "A useful mistake to notice",
+      "pause": 0.65,
+      "speed": 0.88,
+      "graphic": {
+        "text": "Adding denominators would rename our pieces as fourteenths, even though we never cut the pieces smaller. Keep the piece size, and count the chosen pieces.",
+        "chapter": "A useful mistake to notice",
+        "equation": [
+          [
+            2,
+            7
+          ],
+          "+",
+          [
+            3,
+            7
+          ],
+          "=",
+          [
+            5,
+            7
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 7,
+            "label": "Five seventh-pieces",
+            "colour": "teal"
+          }
+        ],
+        "note": "Never add the denominators.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.65,
+        "source_beat": 2
+      }
+    },
+    {
+      "index": 11,
+      "start": 93.26666666666667,
+      "speech_end": 100.28425,
+      "end": 103.3,
+      "role": "prediction",
+      "chapter": "Example 2: rename, then add",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "For half a cup plus a quarter of a cup, what size of piece could you use for both amounts? Predict the total.",
+        "chapter": "Example 2: rename, then add",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Half a cup",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 4,
+            "label": "A quarter of the same cup",
+            "colour": "gold"
+          }
+        ],
+        "note": "Split each half into two equal pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 3,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 12,
+      "start": 103.3,
+      "speech_end": 111.29645833333333,
+      "end": 111.66666666666667,
+      "role": "explanation",
+      "chapter": "Related denominators",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "For one half plus one quarter, the denominators are related: four is a multiple of two. Rename the half as two quarters.",
+        "chapter": "Related denominators",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Split each half into two equal pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 3
+      }
+    },
+    {
+      "index": 13,
+      "start": 111.66666666666667,
+      "speech_end": 116.8335,
+      "end": 117.2,
+      "role": "explanation",
+      "chapter": "Now combine equal parts",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now add two quarters and one quarter. The result is three quarters.",
+        "chapter": "Now combine equal parts",
+        "equation": [
+          [
+            2,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Start with two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Add one quarter",
+            "colour": "gold"
+          }
+        ],
+        "note": "One half + one quarter = three quarters.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 14,
+      "start": 117.2,
+      "speech_end": 125.39670833333334,
+      "end": 126.06666666666666,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Two quarters plus one quarter is three quarters. That's more than half a cup but less than a full cup, which agrees with the picture.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            2,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Start with two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Add one quarter",
+            "colour": "gold"
+          }
+        ],
+        "note": "One half + one quarter = three quarters.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 15,
+      "start": 126.06666666666666,
+      "speech_end": 133.90158333333332,
+      "end": 134.26666666666668,
+      "role": "explanation",
+      "chapter": "Subtract with equal parts",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Subtraction follows the same idea. For three quarters minus one eighth, rename three quarters as six eighths.",
+        "chapter": "Subtract with equal parts",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            6,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Eight is a multiple of four.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 5
+      }
+    },
+    {
+      "index": 16,
+      "start": 134.26666666666668,
+      "speech_end": 140.16766666666666,
+      "end": 140.53333333333333,
+      "role": "explanation",
+      "chapter": "Remove one part",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Take away one eighth. Five eighths remain. The denominator stays eight.",
+        "chapter": "Remove one part",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "Six eighths − one eighth = five eighths.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 6
+      }
+    },
+    {
+      "index": 17,
+      "start": 140.53333333333333,
+      "speech_end": 149.835625,
+      "end": 150.5,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Six eighths with one eighth removed leaves five eighths. The result is smaller than three quarters, so our subtraction passes a quick sense check.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 8,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "Six eighths − one eighth = five eighths.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 6
+      }
+    },
+    {
+      "index": 18,
+      "start": 150.5,
+      "speech_end": 156.64866666666666,
+      "end": 157.0,
+      "role": "explanation",
+      "chapter": "See subtraction as a jump",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "On a number line, begin at six eighths and move back one eighth. You land on five eighths.",
+        "chapter": "See subtraction as a jump",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "Add: move right. Subtract: move left.",
+        "line": {
+          "d": 8,
+          "points": [
+            5,
+            6
+          ],
+          "maximum": 1,
+          "jump": [
+            6,
+            5
+          ]
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 7
+      }
+    },
+    {
+      "index": 19,
+      "start": 157.0,
+      "speech_end": 163.91125,
+      "end": 164.26666666666668,
+      "role": "explanation",
+      "chapter": "Calculate, then simplify",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Simplify when you can. One sixth plus three sixths is four sixths, which equals two thirds.",
+        "chapter": "Calculate, then simplify",
+        "equation": [
+          [
+            1,
+            6
+          ],
+          "+",
+          [
+            3,
+            6
+          ],
+          "=",
+          [
+            4,
+            6
+          ],
+          "=",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 4,
+            "d": 6,
+            "label": "Four sixths",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Divide the numerator and denominator by two.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 8
+      }
+    },
+    {
+      "index": 20,
+      "start": 164.26666666666668,
+      "speech_end": 170.99733333333333,
+      "end": 171.36666666666667,
+      "role": "explanation",
+      "chapter": "Regroup a mixed number",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Mixed numbers can make another whole. One and four fifths plus two fifths is one and six fifths.",
+        "chapter": "Regroup a mixed number",
+        "equation": [
+          [
+            1,
+            4,
+            5
+          ],
+          "+",
+          [
+            2,
+            5
+          ],
+          "=",
+          "1",
+          "+",
+          [
+            6,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 5,
+            "label": "One whole",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Five more fifths",
+            "colour": "gold"
+          },
+          {
+            "n": 1,
+            "d": 5,
+            "label": "One extra fifth",
+            "colour": "teal"
+          }
+        ],
+        "note": "Six fifths is one whole and one fifth.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 9
+      }
+    },
+    {
+      "index": 21,
+      "start": 171.36666666666667,
+      "speech_end": 176.683625,
+      "end": 177.06666666666666,
+      "role": "explanation",
+      "chapter": "Make the extra whole",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Regroup five fifths as one whole. The answer is two and one fifth.",
+        "chapter": "Make the extra whole",
+        "equation": [
+          [
+            1,
+            4,
+            5
+          ],
+          "+",
+          [
+            2,
+            5
+          ],
+          "=",
+          [
+            2,
+            1,
+            5
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Whole",
+            "colour": "teal"
+          },
+          {
+            "n": 5,
+            "d": 5,
+            "label": "Whole",
+            "colour": "gold"
+          },
+          {
+            "n": 1,
+            "d": 5,
+            "label": "One fifth",
+            "colour": "teal"
+          }
+        ],
+        "note": "Check: the result is a little more than two.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 10
+      }
+    },
+    {
+      "index": 22,
+      "start": 177.06666666666666,
+      "speech_end": 187.404875,
+      "end": 187.76666666666668,
+      "role": "explanation",
+      "chapter": "More than two fractions",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "For several fractions, rename them with a common denominator. One half plus one quarter minus one eighth becomes four eighths plus two eighths minus one eighth.",
+        "chapter": "More than two fractions",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "−",
+          [
+            1,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "A common denominator of eight works for all three.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 11
+      }
+    },
+    {
+      "index": 23,
+      "start": 187.76666666666668,
+      "speech_end": 192.32766666666666,
+      "end": 192.7,
+      "role": "explanation",
+      "chapter": "Combine the numerators",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Four plus two minus one is five, so the result is five eighths.",
+        "chapter": "Combine the numerators",
+        "equation": [
+          [
+            4,
+            8
+          ],
+          "+",
+          [
+            2,
+            8
+          ],
+          "−",
+          [
+            1,
+            8
+          ],
+          "=",
+          [
+            5,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 5,
+            "d": 8,
+            "label": "Five eighths remain",
+            "colour": "teal"
+          }
+        ],
+        "note": "Keep the denominator eight throughout.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 12
+      }
+    },
+    {
+      "index": 24,
+      "start": 192.7,
+      "speech_end": 195.53954166666668,
+      "end": 200.56666666666666,
+      "role": "question",
+      "chapter": "Your turn: think for five seconds",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "Your turn: think for five seconds",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "−",
+          [
+            1,
+            6
+          ],
+          "=",
+          "?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Think for five seconds, then explain your reasoning.",
+        "text": "What is two thirds minus one sixth?",
+        "pause": 5,
+        "role": "question",
+        "source_beat": 16,
+        "hide_equation": false
+      }
+    },
+    {
+      "index": 25,
+      "start": 200.56666666666666,
+      "speech_end": 207.009875,
+      "end": 207.36666666666667,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            2,
+            3
+          ],
+          "−",
+          [
+            1,
+            6
+          ],
+          "=",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Two thirds is four sixths. Four sixths minus one sixth is three sixths, or one half.",
+        "pause": 0.35,
+        "role": "answer",
+        "source_beat": 17
+      }
+    },
+    {
+      "index": 26,
+      "start": 207.36666666666667,
+      "speech_end": 226.25475,
+      "end": 228.26666666666668,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 2,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to add and subtract fractions. Make the parts match, combine or remove them, then simplify and check. What would you draw first for your next calculation? Try the fraction practice on Math Magic. The separate L C M video is optional extension work.",
+        "role": "recap",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 2,
+        "display": "Add and subtract fractions using equal-sized parts.",
+        "criteria": [
+          "Choose a common size of part",
+          "Add or subtract and simplify",
+          "Explain the result with a model"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 1.8511666666666666,
+      "text": "You're making a snack mix.",
+      "source_sha256": "edf790ea64cb589cf8f22e287b1581b90e1656c4a6ed9048b4174b82aaa170d5"
+    },
+    {
+      "start": 1.9711666666666667,
+      "end": 5.978833333333333,
+      "text": "One scoop fills half a cup, and another fills a quarter of a cup.",
+      "source_sha256": "877e6fd73c89279da5d342449b467ca69ccb4427f4d4e897b2e8704c235c4c27"
+    },
+    {
+      "start": 6.098833333333333,
+      "end": 9.613625,
+      "text": "Will they fill the cup, spill over, or leave some space?",
+      "source_sha256": "0b42611b7ee9cacd8541e0e37884d57390e60c52afd283e19d8212eea48fdf34"
+    },
+    {
+      "start": 10.333333333333334,
+      "end": 16.4505,
+      "text": "Today, we're learning to add and subtract fractions using visual models and number strategies.",
+      "source_sha256": "63f3879208eba89c197f74e369b1b334b839eead73ef86bc006e7e49f6ed6e3f"
+    },
+    {
+      "start": 16.5705,
+      "end": 20.057166666666667,
+      "text": "The secret is working with equal-sized parts.",
+      "source_sha256": "c45f5cd9ea58f930319154607971d0d38513511e7df53b99f5abe8e68a2f3d5b"
+    },
+    {
+      "start": 20.666666666666668,
+      "end": 25.003833333333333,
+      "text": "You'll make the parts the same size when the denominators are related.",
+      "source_sha256": "45416ae69a5bba121030dee05a97944d3cc7df2d97a96e782022f2b7f25b681e"
+    },
+    {
+      "start": 25.233333333333334,
+      "end": 29.828958333333333,
+      "text": "You'll add or subtract carefully, and simplify your answer when you can.",
+      "source_sha256": "7c646e56d59df31897bd9894bd292877ba97fd474775cd36564e0c350717ca91"
+    },
+    {
+      "start": 30.033333333333335,
+      "end": 35.547,
+      "text": "You'll use a model, a number line or an estimate to explain why your answer makes sense.",
+      "source_sha256": "e06f90164878a6e22ab0445bfc3fbffe0e6ca9f7e6faee7e3146fce386563448"
+    },
+    {
+      "start": 35.766666666666666,
+      "end": 37.331,
+      "text": "First, choose one whole.",
+      "source_sha256": "c95935f98dca4dbd6067be9fc5d3ffe57fe52652d18f182cf155e206cf41e492"
+    },
+    {
+      "start": 37.451,
+      "end": 40.16725,
+      "text": "Its parts must be equal in size.",
+      "source_sha256": "ae991533b6ad658dde26876d25212a27aa8c91dab88ba94fe7b2dd6902ab5c48"
+    },
+    {
+      "start": 40.28725,
+      "end": 44.924458333333334,
+      "text": "The outline of the model shows the entire whole, not just the coloured share.",
+      "source_sha256": "d6abbd24c39758b034466b468b623de477e886ac9cb4c93c0baa3670c56754c5"
+    },
+    {
+      "start": 45.43333333333333,
+      "end": 48.64879166666667,
+      "text": "Here, three equal parts are chosen out of four.",
+      "source_sha256": "63f4310cac29388f9178d90c1790c7d787f80ea7516e188992feec5ca2796696"
+    },
+    {
+      "start": 48.768791666666665,
+      "end": 52.537791666666664,
+      "text": "The top number, the numerator, counts chosen parts.",
+      "source_sha256": "ec4b28360490b06d5a705b1c1ff8d6563a5374da389288ba01ffa8e1e841f720"
+    },
+    {
+      "start": 52.65779166666667,
+      "end": 57.273208333333336,
+      "text": "The bottom number, the denominator, tells how many equal parts make the whole.",
+      "source_sha256": "fb01afef746abdbb770b06205fdd64bd18bcd6d7cb820f6a5ef2846567907391"
+    },
+    {
+      "start": 57.9,
+      "end": 60.592708333333334,
+      "text": "What is two sevenths plus three sevenths?",
+      "source_sha256": "d55fbaee26f48219be686d2f64c94d6a961163e49594acccf0fd9079b764df55"
+    },
+    {
+      "start": 60.71270833333333,
+      "end": 65.63904166666667,
+      "text": "Think about the size of each piece, then predict the number of pieces altogether.",
+      "source_sha256": "e45066aaf9e9c280dd5aec43149eac06fbf553cd6c43d8d83fba5d2a18bee2f1"
+    },
+    {
+      "start": 68.66666666666667,
+      "end": 71.32058333333333,
+      "text": "First, use matching denominators.",
+      "source_sha256": "bb8b03d7875be74206ce84e77a34963b3129f23abc21d67d0599b7131c6a5853"
+    },
+    {
+      "start": 71.44058333333334,
+      "end": 74.97416666666666,
+      "text": "Two sevenths plus three sevenths makes five sevenths.",
+      "source_sha256": "0be1700bc4552efcb661e9ed59c9ff69a255743deb9660bd20cf9aa536998630"
+    },
+    {
+      "start": 75.33333333333333,
+      "end": 78.59179166666667,
+      "text": "We add the numerators and keep the denominator.",
+      "source_sha256": "576043cbbd2d5dcd4c2ce6712134950621954a25e77e1b47a8443f665766097c"
+    },
+    {
+      "start": 78.71179166666667,
+      "end": 82.21554166666667,
+      "text": "We are still counting sevenths, not fourteenths.",
+      "source_sha256": "32185714944166e46f6e3194937037d75350c9e026e6530251310b9601e841bd"
+    },
+    {
+      "start": 82.56666666666666,
+      "end": 88.97741666666667,
+      "text": "Adding denominators would rename our pieces as fourteenths, even though we never cut the pieces smaller.",
+      "source_sha256": "48594c31d2f6cb4006f3e5ffea5eb2c1acc3a7fc09f08f7d060181da86149670"
+    },
+    {
+      "start": 89.09741666666666,
+      "end": 92.59329166666667,
+      "text": "Keep the piece size, and count the chosen pieces.",
+      "source_sha256": "116d9877c541a7e29f3933475d4b955fdedaab2c8e624f451fcb9cc34f574112"
+    },
+    {
+      "start": 93.26666666666667,
+      "end": 98.708875,
+      "text": "For half a cup plus a quarter of a cup, what size of piece could you use for both amounts?",
+      "source_sha256": "94fc495db0930e332e0da60e64836143b63e6eefa24351b0261e509dd9b47caa"
+    },
+    {
+      "start": 98.828875,
+      "end": 100.28425,
+      "text": "Predict the total.",
+      "source_sha256": "3066f90e0857e0bd0bc6ba925cc113d8bf901b439207a3a0d543eed0f82a51a4"
+    },
+    {
+      "start": 103.3,
+      "end": 108.719,
+      "text": "For one half plus one quarter, the denominators are related: four is a multiple of two.",
+      "source_sha256": "c930b406ecc50adaaa01a9b4d4418d2ce0a4b084d8b5bd9243b2cc24848e0d6e"
+    },
+    {
+      "start": 108.839,
+      "end": 111.29645833333333,
+      "text": "Rename the half as two quarters.",
+      "source_sha256": "2963e621aac30550689990433fd700c6190cbe3d76fb9e17562e1219022a02d6"
+    },
+    {
+      "start": 111.66666666666667,
+      "end": 114.385,
+      "text": "Now add two quarters and one quarter.",
+      "source_sha256": "9ec1209f5e9e5c8d4703ae25354a9a0c853c3ee44857234f38c3bdae9c54289c"
+    },
+    {
+      "start": 114.505,
+      "end": 116.8335,
+      "text": "The result is three quarters.",
+      "source_sha256": "a39a74308110a1158d9f504ce91fa6eba59e5dc8cdfc41b6054f2e7e1be4fe0a"
+    },
+    {
+      "start": 117.2,
+      "end": 120.44566666666667,
+      "text": "Two quarters plus one quarter is three quarters.",
+      "source_sha256": "1fce2bb92eee5200387903c33586f5fe09dc882d882b03c008306580af0d2db6"
+    },
+    {
+      "start": 120.56566666666667,
+      "end": 125.39670833333334,
+      "text": "That's more than half a cup but less than a full cup, which agrees with the picture.",
+      "source_sha256": "8a460ecad41f7b0cd86ecba7d8fd5fa79948fd4f3dfcb843a768c83acddc14da"
+    },
+    {
+      "start": 126.06666666666666,
+      "end": 128.94208333333333,
+      "text": "Subtraction follows the same idea.",
+      "source_sha256": "6698a9f6afabd7e64868b6b0e204520557c21d8f40d3ac3c11bac144808e2b31"
+    },
+    {
+      "start": 129.06208333333333,
+      "end": 133.90158333333332,
+      "text": "For three quarters minus one eighth, rename three quarters as six eighths.",
+      "source_sha256": "76464a5e665978fa3525e77b925a1cb7ab5c454c0576499356a75acfc5d1c138"
+    },
+    {
+      "start": 134.26666666666668,
+      "end": 136.12454166666666,
+      "text": "Take away one eighth.",
+      "source_sha256": "1c1af3b9ddfa6dd34af1fb8a4f1f73c8cae565d34b5b588b9335a546f768e0d4"
+    },
+    {
+      "start": 136.24454166666666,
+      "end": 137.89266666666666,
+      "text": "Five eighths remain.",
+      "source_sha256": "82dffb4cb8a7ba7848e4eb07dcbe149460c39a07d31ebd852579c36ee4a3a367"
+    },
+    {
+      "start": 138.01266666666666,
+      "end": 140.16766666666666,
+      "text": "The denominator stays eight.",
+      "source_sha256": "91781cfcf4eb352a34717725b5aa624536bd9a0064e7b1bc57d25bc3e946425f"
+    },
+    {
+      "start": 140.53333333333333,
+      "end": 144.3995,
+      "text": "Six eighths with one eighth removed leaves five eighths.",
+      "source_sha256": "4870c5a7b908bc8090c0052921c1b629433eb5008e306654c059613a5b6d0113"
+    },
+    {
+      "start": 144.5195,
+      "end": 149.835625,
+      "text": "The result is smaller than three quarters, so our subtraction passes a quick sense check.",
+      "source_sha256": "922b4a5703e1581417c304bff5e4518ef5f6a9e80ef14e60abf3d8ae15bfa6d7"
+    },
+    {
+      "start": 150.5,
+      "end": 154.47758333333334,
+      "text": "On a number line, begin at six eighths and move back one eighth.",
+      "source_sha256": "86d250de786c3e3080b51674763bdea00f696c03ce25be0e1bd3cfe7a9dff112"
+    },
+    {
+      "start": 154.59758333333335,
+      "end": 156.64866666666666,
+      "text": "You land on five eighths.",
+      "source_sha256": "7df7caa11a98fd6a55aecd6c657f85ce15fc11c509f70d04689026e67541ae51"
+    },
+    {
+      "start": 157.0,
+      "end": 158.93395833333332,
+      "text": "Simplify when you can.",
+      "source_sha256": "6cd73940c7ff3c7e35391a09bdb15913f1f40acab14b434cabd18515362816eb"
+    },
+    {
+      "start": 159.05395833333333,
+      "end": 163.91125,
+      "text": "One sixth plus three sixths is four sixths, which equals two thirds.",
+      "source_sha256": "96bcbe801822e24c80891d14dbc0144774ef81822ddb94d8e7519ab95504c02b"
+    },
+    {
+      "start": 164.26666666666668,
+      "end": 166.733875,
+      "text": "Mixed numbers can make another whole.",
+      "source_sha256": "0bbff7d8c429fc95087575eb0bfa1d46c92b0344300d1246f15fdd674ac6eb71"
+    },
+    {
+      "start": 166.853875,
+      "end": 170.99733333333333,
+      "text": "One and four fifths plus two fifths is one and six fifths.",
+      "source_sha256": "858fe4942d8c1cce73c68ed10d5cca78adf21f4948f4742220b7b73c444b41a7"
+    },
+    {
+      "start": 171.36666666666667,
+      "end": 173.91666666666666,
+      "text": "Regroup five fifths as one whole.",
+      "source_sha256": "e49027dfbfdf94988e8690c95e9aca5ebee44ca3292f79776775b5b63b25bd9e"
+    },
+    {
+      "start": 174.03666666666666,
+      "end": 176.683625,
+      "text": "The answer is two and one fifth.",
+      "source_sha256": "c088e1d43b736b2efd4cb37d7c319aea26ef2ed0fe8377e2c67bbb1b38593aa0"
+    },
+    {
+      "start": 177.06666666666666,
+      "end": 180.97004166666667,
+      "text": "For several fractions, rename them with a common denominator.",
+      "source_sha256": "62b0ac0e8dcf066fc1acc5c2a9575c24c0402f88d758fb589b8c07c138a921fd"
+    },
+    {
+      "start": 181.09004166666668,
+      "end": 187.404875,
+      "text": "One half plus one quarter minus one eighth becomes four eighths plus two eighths minus one eighth.",
+      "source_sha256": "318adee6f9a07bf1d3034c7ea85b58fbb2e7b989b19e03f035cc4c218b559f70"
+    },
+    {
+      "start": 187.76666666666668,
+      "end": 192.32766666666666,
+      "text": "Four plus two minus one is five, so the result is five eighths.",
+      "source_sha256": "90395cb3f5e74a8d807ab02cf85cd79828e9d94a767de01517ccd33226f62fea"
+    },
+    {
+      "start": 192.7,
+      "end": 195.53954166666668,
+      "text": "What is two thirds minus one sixth?",
+      "source_sha256": "c563f49e9b0faa7819168356d3f2c2c7d6d0f2d915616a1f6168159fefbf56ca"
+    },
+    {
+      "start": 200.56666666666666,
+      "end": 202.68208333333334,
+      "text": "Two thirds is four sixths.",
+      "source_sha256": "ee9142fa3e7438df6d59f19b1d39430b36b2d2c98428344a937ce2f9b9a4ff07"
+    },
+    {
+      "start": 202.80208333333334,
+      "end": 207.009875,
+      "text": "Four sixths minus one sixth is three sixths, or one half.",
+      "source_sha256": "6ef537be91c57cd559ea6b59cd0100c19ccb9a426810c5738af9067197dfbac0"
+    },
+    {
+      "start": 207.36666666666667,
+      "end": 210.605125,
+      "text": "Our goal was to add and subtract fractions.",
+      "source_sha256": "c08428b3737baab784b8a120f6eeb6c5cd0ef68ada127ae3181a136aeab3ab3c"
+    },
+    {
+      "start": 210.725125,
+      "end": 215.41883333333334,
+      "text": "Make the parts match, combine or remove them, then simplify and check.",
+      "source_sha256": "edce9bfa18152c6e86b0533375b0018784a24066a2a0409f0a4899946b8e20d4"
+    },
+    {
+      "start": 215.53883333333334,
+      "end": 218.83479166666666,
+      "text": "What would you draw first for your next calculation?",
+      "source_sha256": "bff7b8c2d6db6c384662e090dfeb08fbce3c431a71f41341eee73613dc18ed46"
+    },
+    {
+      "start": 218.95479166666667,
+      "end": 221.95483333333334,
+      "text": "Try the fraction practice on Math Magic.",
+      "source_sha256": "7c480f83723e89b7ed1b0b2fa1aa59276b928f08100d741919b63b2b1727e157"
+    },
+    {
+      "start": 222.07483333333334,
+      "end": 226.25475,
+      "text": "The separate L C M video is optional extension work.",
+      "source_sha256": "1fb3de22a6f2b2ff73bc5caa36cc8331d630fbde54fbc44e53f3db1cc200ab7e"
+    }
+  ],
+  "narration_sha256": "a5df1391e2f7568ac28af4e5e02153a9467b5a21a70b4505bb60bf66ce755475",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}
