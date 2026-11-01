@@ -1,0 +1,98 @@
+{
+  "mathematics": {
+    "exact_relations": 34,
+    "mathematical_models": 50,
+    "pedagogy": "Hook, goal, three success criteria, conceptual models, two guided predictions, worked examples, misconception, five-second challenge and recap in every lesson."
+  },
+  "videos": {
+    "lesson1": {
+      "result": "passed",
+      "sha256": "e8e4b39fadb807d63c534167f8459fa5d3458e1d540a4fa780d3edc1d03c9d04",
+      "bytes": 6122421,
+      "duration": 199.66666666666666,
+      "format": "1080p30 H264/yuv420p + AAC 48kHz + embedded English subtitles",
+      "full_decode": true,
+      "audible_sentence_windows": 47,
+      "source_audio_correlation": 0.9985218136896821,
+      "peak_dBFS": -1.9836418628692627,
+      "unexpected_silence": [],
+      "model_cell_checks": 10,
+      "graphics_only": true,
+      "listening_review": "not_performed",
+      "word_alignment": "Not claimed; exact generated-sentence sample clocks are used.",
+      "qa_source_sha256": "d708fe6131e3af60af42e2cf95dd793d4467604d3871972290dc7fce2fe5d98d"
+    },
+    "lesson2": {
+      "result": "passed",
+      "sha256": "e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52",
+      "bytes": 6651776,
+      "duration": 210.1,
+      "format": "1080p30 H264/yuv420p + AAC 48kHz + embedded English subtitles",
+      "full_decode": true,
+      "audible_sentence_windows": 45,
+      "source_audio_correlation": 0.9992167427346248,
+      "peak_dBFS": -1.9297744035720825,
+      "unexpected_silence": [],
+      "model_cell_checks": 0,
+      "graphics_only": true,
+      "listening_review": "not_performed",
+      "word_alignment": "Not claimed; exact generated-sentence sample clocks are used.",
+      "qa_source_sha256": "d708fe6131e3af60af42e2cf95dd793d4467604d3871972290dc7fce2fe5d98d"
+    },
+    "lesson3": {
+      "result": "passed",
+      "sha256": "46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51",
+      "bytes": 6815013,
+      "duration": 215.26666666666668,
+      "format": "1080p30 H264/yuv420p + AAC 48kHz + embedded English subtitles",
+      "full_decode": true,
+      "audible_sentence_windows": 45,
+      "source_audio_correlation": 0.9987080433121569,
+      "peak_dBFS": -1.9769686460494995,
+      "unexpected_silence": [],
+      "model_cell_checks": 0,
+      "graphics_only": true,
+      "listening_review": "not_performed",
+      "word_alignment": "Not claimed; exact generated-sentence sample clocks are used.",
+      "qa_source_sha256": "d708fe6131e3af60af42e2cf95dd793d4467604d3871972290dc7fce2fe5d98d"
+    },
+    "lesson4": {
+      "result": "passed",
+      "sha256": "e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217",
+      "bytes": 6260833,
+      "duration": 208.0,
+      "format": "1080p30 H264/yuv420p + AAC 48kHz + embedded English subtitles",
+      "full_decode": true,
+      "audible_sentence_windows": 47,
+      "source_audio_correlation": 0.9990627653607927,
+      "peak_dBFS": -1.9836184978485107,
+      "unexpected_silence": [],
+      "model_cell_checks": 41,
+      "graphics_only": true,
+      "listening_review": "not_performed",
+      "word_alignment": "Not claimed; exact generated-sentence sample clocks are used.",
+      "qa_source_sha256": "d708fe6131e3af60af42e2cf95dd793d4467604d3871972290dc7fce2fe5d98d"
+    },
+    "lesson5": {
+      "result": "passed",
+      "sha256": "5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831",
+      "bytes": 6381704,
+      "duration": 211.83333333333334,
+      "format": "1080p30 H264/yuv420p + AAC 48kHz + embedded English subtitles",
+      "full_decode": true,
+      "audible_sentence_windows": 46,
+      "source_audio_correlation": 0.9992822865437283,
+      "peak_dBFS": -1.9225234985351562,
+      "unexpected_silence": [],
+      "model_cell_checks": 7,
+      "graphics_only": true,
+      "listening_review": "not_performed",
+      "word_alignment": "Not claimed; exact generated-sentence sample clocks are used.",
+      "qa_source_sha256": "d708fe6131e3af60af42e2cf95dd793d4467604d3871972290dc7fce2fe5d98d"
+    }
+  },
+  "limitations": [
+    "Audible warmth, expressive naturalness and accent were not directly listened to; female hf_alpha speaker identity and native English synthesis configuration are verified.",
+    "Physical iPhone/iPad and real Safari are not available; native Chromium playback is tested separately."
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "duration": 208.0,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 14.370125,
+      "end": 14.733333333333333,
+      "role": "hook",
+      "chapter": "A whole with tiny parts",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "role": "hook",
+        "chapter": "A whole with tiny parts",
+        "text": "Imagine a measuring strip that keeps zooming in. First we see little parts, then even smaller parts inside those. How can we name an amount precisely? Our place-value pattern has a wonderfully useful answer.",
+        "board": [],
+        "model": {
+          "type": "parts",
+          "n": 1,
+          "den": 10,
+          "label": "One whole split into ten equal parts"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "start": 14.733333333333333,
+      "speech_end": 19.506166666666665,
+      "end": 19.866666666666667,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to explain decimal place value through thousandths.",
+        "board": [],
+        "model": null,
+        "display": "Explain decimal place value through thousandths."
+      }
+    },
+    {
+      "index": 2,
+      "start": 19.866666666666667,
+      "speech_end": 23.320875,
+      "end": 23.7,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to name tenths, hundredths and thousandths.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 23.7,
+      "speech_end": 28.894708333333334,
+      "end": 29.266666666666666,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to give a decimal digit’s value and write a number in expanded form.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 29.266666666666666,
+      "speech_end": 34.309041666666666,
+      "end": 34.666666666666664,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain the ten-times relationship between neighbouring places.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 34.666666666666664,
+      "speech_end": 51.43320833333333,
+      "end": 51.8,
+      "role": "explanation",
+      "chapter": "Base ten continues past ones",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "What happens when we split one whole into smaller equal parts? The same base ten pattern continues beyond the decimal point. After ones come tenths, hundredths and thousandths. Each place is one tenth of the value of the place immediately to its left.",
+        "chapter": "Base ten continues past ones",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "parts",
+          "n": 1,
+          "den": 10,
+          "label": "One whole split into ten equal parts"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "start": 51.8,
+      "speech_end": 59.099666666666664,
+      "end": 60.6,
+      "role": "prediction",
+      "chapter": "Measuring example one",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Measuring example one",
+        "text": "Before we name each part, predict the value of the seven. Is it seven wholes, seven tenths, or seven hundredths?",
+        "board": [
+          "4.726: value of 7 = ?"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "highlight": 1,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 7,
+      "start": 60.6,
+      "speech_end": 77.78333333333333,
+      "end": 78.13333333333334,
+      "role": "explanation",
+      "chapter": "Name each decimal place",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Read four point seven two six. The four is four ones. The seven is seven tenths, written zero point seven. The two is two hundredths, written zero point zero two. The six is six thousandths, written zero point zero zero six.",
+        "chapter": "Name each decimal place",
+        "equation": [],
+        "board": [
+          "4.726",
+          "7 tenths = 0.7",
+          "2 hundredths = 0.02",
+          "6 thousandths = 0.006"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 8,
+      "start": 78.13333333333334,
+      "speech_end": 95.862125,
+      "end": 96.23333333333333,
+      "role": "explanation",
+      "chapter": "Expand the decimal",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Put the parts together. Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six. The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+        "chapter": "Expand the decimal",
+        "equation": [],
+        "board": [
+          "4.726 = 4 + 0.7 + 0.02 + 0.006",
+          "Same digits; place determines value"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "highlight": 2,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      }
+    },
+    {
+      "index": 9,
+      "start": 96.23333333333333,
+      "speech_end": 105.23558333333334,
+      "end": 106.76666666666667,
+      "role": "prediction",
+      "chapter": "Measuring example two",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Measuring example two",
+        "text": "The digit five appears in both numbers. Do you think these two amounts are equal? Picture tenths and hundredths before deciding.",
+        "board": [
+          "0.5 ? 0.05"
+        ],
+        "model": {
+          "type": "parts",
+          "n": 5,
+          "den": 10,
+          "label": "Five of ten equal parts: 0.5"
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 10,
+      "start": 106.76666666666667,
+      "speech_end": 124.45941666666667,
+      "end": 124.83333333333333,
+      "role": "explanation",
+      "chapter": "Connect neighbouring places",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "A tenth is ten hundredths. A hundredth is ten thousandths. Now compare zero point five with zero point zero five. Five tenths is ten times five hundredths, so zero point five is greater. The same digit does not mean the same value.",
+        "chapter": "Connect neighbouring places",
+        "equation": [],
+        "board": [
+          "0.1 = 10 × 0.01",
+          "0.01 = 10 × 0.001",
+          "0.5 = 10 × 0.05",
+          "0.5 > 0.05"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 11,
+      "start": 124.83333333333333,
+      "speech_end": 143.117625,
+      "end": 143.5,
+      "role": "explanation",
+      "chapter": "More precise equal-sized steps",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Think of a measuring scale marked in equal small steps. Thousandths let us describe positions more precisely than hundredths. This is about understanding place value, not just counting how many digits come after the point. Keep the whole and the size of each part clear.",
+        "chapter": "More precise equal-sized steps",
+        "equation": [],
+        "board": [
+          "1 hundredth = 10 thousandths",
+          "Name the place, not just the digit count"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 0,
+          "end": 0.01,
+          "mark": 0.007,
+          "decimals": 3
+        }
+      }
+    },
+    {
+      "index": 12,
+      "start": 143.5,
+      "speech_end": 157.51975,
+      "end": 157.9,
+      "role": "misconception",
+      "chapter": "Count places, not just digits",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "role": "misconception",
+        "chapter": "Count places, not just digits",
+        "text": "A five after one decimal place and a five after two decimal places do not have the same value. Five tenths is ten times five hundredths. Keep the same-sized whole in mind when you compare the parts.",
+        "board": [
+          "0.5 = 10 × 0.05",
+          "0.5 > 0.05"
+        ],
+        "model": {
+          "type": "parts",
+          "n": 5,
+          "den": 10,
+          "label": "Five tenths of the same whole"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "start": 157.9,
+      "speech_end": 161.640625,
+      "end": 166.66666666666666,
+      "role": "question",
+      "chapter": "Your turn",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "text": "What is the value of the eight in 5.218?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "5.218: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "place",
+          "digits": "5218",
+          "highlight": 3,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      }
+    },
+    {
+      "index": 14,
+      "start": 166.66666666666666,
+      "speech_end": 171.102625,
+      "end": 171.46666666666667,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "text": "The eight is in the thousandths place, so it represents eight thousandths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 thousandths = 0.008"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "5218",
+          "highlight": 3,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      }
+    },
+    {
+      "index": 15,
+      "start": 171.46666666666667,
+      "speech_end": 189.93825,
+      "end": 190.3,
+      "role": "explanation",
+      "chapter": "Recap: read the place",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Try the page example: three point four five eight. The five is in the hundredths place, so its value is zero point zero five. Remember: ones, tenths, hundredths, thousandths. Every step right divides the place value by ten; every step left makes it ten times as much.",
+        "chapter": "Recap: read the place",
+        "equation": [],
+        "board": [
+          "3.458",
+          "5 hundredths = 0.05",
+          "Ones → tenths → hundredths → thousandths"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 16,
+      "start": 190.3,
+      "speech_end": 207.63670833333333,
+      "end": 208.0,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to explain decimal place value through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Explain decimal place value through thousandths.",
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.2239166666666668,
+      "text": "Imagine a measuring strip that keeps zooming in.",
+      "source_sha256": "dcaa0064b3edeeea388cf9505cc99e807eb6826ec95e4bba755a634340685300"
+    },
+    {
+      "start": 3.343916666666667,
+      "end": 7.634666666666667,
+      "text": "First we see little parts, then even smaller parts inside those.",
+      "source_sha256": "2fa820994be3f57fad01cb26daef652a67c4f947a425f9aa08a3b37a1ab84c36"
+    },
+    {
+      "start": 7.754666666666667,
+      "end": 10.521833333333333,
+      "text": "How can we name an amount precisely?",
+      "source_sha256": "75fdd15b78c0c2ef3793d3fab166dd66d2162949e99c8c002e41c14d9b62cc63"
+    },
+    {
+      "start": 10.641833333333333,
+      "end": 14.370125,
+      "text": "Our place-value pattern has a wonderfully useful answer.",
+      "source_sha256": "153adcdf985e27bc2b7555c467850b646a8b4ef73b1dd04b61aa9c3d52a71bba"
+    },
+    {
+      "start": 14.733333333333333,
+      "end": 19.506166666666665,
+      "text": "Today, we’re learning to explain decimal place value through thousandths.",
+      "source_sha256": "dea8020f8e7298711ff1f99448e50aa281bbfd8cbb2ad92115dd572f2bee77a8"
+    },
+    {
+      "start": 19.866666666666667,
+      "end": 23.320875,
+      "text": "You’ll be able to name tenths, hundredths and thousandths.",
+      "source_sha256": "4f216419872cb5b5077cfd8dbda581ada7045274a930bde0f72f35ea91600abb"
+    },
+    {
+      "start": 23.7,
+      "end": 28.894708333333334,
+      "text": "You’ll be able to give a decimal digit’s value and write a number in expanded form.",
+      "source_sha256": "8bfd1892a8ffc47f2c3bf3c579594d00ed74bd74882b4c6b17f835b2db2321ea"
+    },
+    {
+      "start": 29.266666666666666,
+      "end": 34.309041666666666,
+      "text": "You’ll be able to explain the ten-times relationship between neighbouring places.",
+      "source_sha256": "e03b293ab2624d06adc4227d359b3e8a9b5c6b920ec6bedaba70db07827ddf02"
+    },
+    {
+      "start": 34.666666666666664,
+      "end": 38.8,
+      "text": "What happens when we split one whole into smaller equal parts?",
+      "source_sha256": "c3fcca66b17b4096d7c876deaee020f657038c7d386622dc67e8640fe2eb5f07"
+    },
+    {
+      "start": 38.92,
+      "end": 42.986875,
+      "text": "The same base ten pattern continues beyond the decimal point.",
+      "source_sha256": "51c645573b762d629218f479a7200bfd62744f7fc11842280f93fe13fbe2df5d"
+    },
+    {
+      "start": 43.106875,
+      "end": 46.52220833333333,
+      "text": "After ones come tenths, hundredths and thousandths.",
+      "source_sha256": "f84d02f77c295ba135e0f3fb31bf2acba12ea84c6d7510557f55e80ab007a441"
+    },
+    {
+      "start": 46.642208333333336,
+      "end": 51.43320833333333,
+      "text": "Each place is one tenth of the value of the place immediately to its left.",
+      "source_sha256": "212677b23b639b9f951c144a5f0f1cd08f8e48f36649f5800f0bba8b23c4b625"
+    },
+    {
+      "start": 51.8,
+      "end": 55.368291666666664,
+      "text": "Before we name each part, predict the value of the seven.",
+      "source_sha256": "32dce45a4070b3cb78b195d7bdcd913a7bab4c35033436533b00f05376476120"
+    },
+    {
+      "start": 55.48829166666667,
+      "end": 59.099666666666664,
+      "text": "Is it seven wholes, seven tenths, or seven hundredths?",
+      "source_sha256": "e9a0ff5b049c71e0aec342fa85d3bfe3e9b8945d5d7034f75eefecea34d25ad6"
+    },
+    {
+      "start": 60.6,
+      "end": 63.186875,
+      "text": "Read four point seven two six.",
+      "source_sha256": "56e20290d6b1efc003e7723f2f835d324c16090a306876c3c85eddeb51197f6d"
+    },
+    {
+      "start": 63.306875,
+      "end": 65.216875,
+      "text": "The four is four ones.",
+      "source_sha256": "d03975215184defc9e4220ca4d16c7cb42d588befc43c4f842cfc7d8c8e970a8"
+    },
+    {
+      "start": 65.336875,
+      "end": 69.15795833333334,
+      "text": "The seven is seven tenths, written zero point seven.",
+      "source_sha256": "e83d7622b307df5dd61be04e697374aaef94c7af2551fd8b5f2ab5bb52cb6269"
+    },
+    {
+      "start": 69.27795833333333,
+      "end": 73.144125,
+      "text": "The two is two hundredths, written zero point zero two.",
+      "source_sha256": "8a43d5668cc968dbc868c5a2f356e8239a1f87d584933c266b7ea3f8d71b64a6"
+    },
+    {
+      "start": 73.264125,
+      "end": 77.78333333333333,
+      "text": "The six is six thousandths, written zero point zero zero six.",
+      "source_sha256": "d89e19c1bd14fe5b239926112e25283776768deace67d234d917b123c7af5f54"
+    },
+    {
+      "start": 78.13333333333334,
+      "end": 79.76225,
+      "text": "Put the parts together.",
+      "source_sha256": "c77cd9b2274365e2d5679d211f835c4fbc5725d40dfa62c8da7b1f574c33a5f6"
+    },
+    {
+      "start": 79.88225,
+      "end": 88.62279166666667,
+      "text": "Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six.",
+      "source_sha256": "707f75cd5a08ac1008373d1e06e9850586cadc225c759d076c49e057f315a457"
+    },
+    {
+      "start": 88.74279166666666,
+      "end": 95.862125,
+      "text": "The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+      "source_sha256": "66280f4ab1498be1e864abe6c01a2d5f11cd9893ea6f9b110064b2f8b4cdc36f"
+    },
+    {
+      "start": 96.23333333333333,
+      "end": 99.20458333333333,
+      "text": "The digit five appears in both numbers.",
+      "source_sha256": "5f5fc276fd3c97bab4653c7009185bf450a27c68e150f32523851f15d5dce814"
+    },
+    {
+      "start": 99.32458333333334,
+      "end": 102.003625,
+      "text": "Do you think these two amounts are equal?",
+      "source_sha256": "0e7814ba1dfca51feda8362711cccb48a4e1b78c71fc11cfc79901a657ed02c6"
+    },
+    {
+      "start": 102.123625,
+      "end": 105.23558333333334,
+      "text": "Picture tenths and hundredths before deciding.",
+      "source_sha256": "ba7fb615575ea197354e92e5df6ef8cfcaf43a86a2a2f0b13f2712371443a428"
+    },
+    {
+      "start": 106.76666666666667,
+      "end": 109.02633333333333,
+      "text": "A tenth is ten hundredths.",
+      "source_sha256": "3177a5ccc1e87cad050ce5f45730c8fbdc553ea46e9faa90a7c1d3078e9ae5c0"
+    },
+    {
+      "start": 109.14633333333333,
+      "end": 111.70245833333334,
+      "text": "A hundredth is ten thousandths.",
+      "source_sha256": "6868126130031291619eebdcd03ec0f7a53b76cd15322b048bda469a129dc57d"
+    },
+    {
+      "start": 111.82245833333333,
+      "end": 116.13504166666667,
+      "text": "Now compare zero point five with zero point zero five.",
+      "source_sha256": "24ae03e898051a5eac660af3b7e80c5f1fd7da7321b04c799be2df9248dab023"
+    },
+    {
+      "start": 116.25504166666667,
+      "end": 121.36825,
+      "text": "Five tenths is ten times five hundredths, so zero point five is greater.",
+      "source_sha256": "367c56ea3962dd92d1a70d2ab87827550fb4666ff06f946dff86eb4283e8bb3d"
+    },
+    {
+      "start": 121.48825,
+      "end": 124.45941666666667,
+      "text": "The same digit does not mean the same value.",
+      "source_sha256": "7753fa409af861c5884c84dcc12084a97116a06914361a24cca67ce00383b183"
+    },
+    {
+      "start": 124.83333333333333,
+      "end": 128.74908333333335,
+      "text": "Think of a measuring scale marked in equal small steps.",
+      "source_sha256": "0e1ed828ff17e48943e0375fb352ce7b127cab90fed3327039b4f6f53b142dd4"
+    },
+    {
+      "start": 128.86908333333332,
+      "end": 133.6225,
+      "text": "Thousandths let us describe positions more precisely than hundredths.",
+      "source_sha256": "6e788c842eba939135235709757a4f4f477c15b1f9e9feb51ab1e25cf9bdf151"
+    },
+    {
+      "start": 133.7425,
+      "end": 139.94695833333333,
+      "text": "This is about understanding place value, not just counting how many digits come after the point.",
+      "source_sha256": "e172679a48727d04ded86ad04610a24c452f0a4eccf1f83bfcd24f2ad6f8fdb7"
+    },
+    {
+      "start": 140.06695833333333,
+      "end": 143.117625,
+      "text": "Keep the whole and the size of each part clear.",
+      "source_sha256": "7de0d08ced37f8ccc850824d1ce1b46b4b55fde795d8689cea7e08f45879c64c"
+    },
+    {
+      "start": 143.5,
+      "end": 150.17933333333335,
+      "text": "A five after one decimal place and a five after two decimal places do not have the same value.",
+      "source_sha256": "d653752e44e73f66c043366490bce8dab6996801a051a33eb2a085de445e14cb"
+    },
+    {
+      "start": 150.29933333333332,
+      "end": 153.49179166666667,
+      "text": "Five tenths is ten times five hundredths.",
+      "source_sha256": "53a27cc0ef8ccbf6a2ca9c0930f412d5b1faed6af94b740c8fbf0c30220bf8a6"
+    },
+    {
+      "start": 153.61179166666668,
+      "end": 157.51975,
+      "text": "Keep the same-sized whole in mind when you compare the parts.",
+      "source_sha256": "81505253ac900d5bd69ef37442de4da108d1ff2cf9b30d7ad703b74e059770ea"
+    },
+    {
+      "start": 157.9,
+      "end": 161.640625,
+      "text": "What is the value of the eight in 5.218?",
+      "source_sha256": "7c9513d22a1afeae09635b8b65109f26d2218daef9f13364352c2400cce9264e"
+    },
+    {
+      "start": 166.66666666666666,
+      "end": 171.102625,
+      "text": "The eight is in the thousandths place, so it represents eight thousandths.",
+      "source_sha256": "0cf946d4b953bcf905cf067fe35f61f7393d6b18e6b16b357937553978bb3c50"
+    },
+    {
+      "start": 171.46666666666667,
+      "end": 174.925125,
+      "text": "Try the page example: three point four five eight.",
+      "source_sha256": "06c1d33fb1770538dbb001af85689538e4e81b2dceec7e54450faf2c9f837746"
+    },
+    {
+      "start": 175.045125,
+      "end": 180.17475,
+      "text": "The five is in the hundredths place, so its value is zero point zero five.",
+      "source_sha256": "be875b8374eea0a7e210cbccfc992d7ecda7106a3ab6fff84bc2c59a200ced48"
+    },
+    {
+      "start": 180.29475,
+      "end": 183.65220833333333,
+      "text": "Remember: ones, tenths, hundredths, thousandths.",
+      "source_sha256": "8df9d0963ba69fdffc2e2ec8f49f09c0109706b740f87c72113bde0d39201b78"
+    },
+    {
+      "start": 183.77220833333334,
+      "end": 189.93825,
+      "text": "Every step right divides the place value by ten; every step left makes it ten times as much.",
+      "source_sha256": "f797b54d98efcc31dfab8a4432760664c498b5d32de53699079561e6fb74e016"
+    },
+    {
+      "start": 190.3,
+      "end": 194.683,
+      "text": "Our goal was to explain decimal place value through thousandths.",
+      "source_sha256": "b74fca0db81c07faacf55f1ec7156ef597c5850ac6d145992f55e1ca0309d5ad"
+    },
+    {
+      "start": 194.803,
+      "end": 200.59591666666665,
+      "text": "You can now explain your strategy, check the places carefully, and show why your answer makes sense.",
+      "source_sha256": "72dfd21364e9d624c83db67254bc8dc050af51b190f2b4ce62944209b65f94f3"
+    },
+    {
+      "start": 200.71591666666666,
+      "end": 204.329,
+      "text": "Choose a number of your own and explain it to someone nearby.",
+      "source_sha256": "8a4ab057fdd20aec8c7fb04983dd47e828cf4a15c1ae1b639e36fafabc914bc3"
+    },
+    {
+      "start": 204.449,
+      "end": 207.63670833333333,
+      "text": "Then try the lesson practice on Math Magic.",
+      "source_sha256": "8e3256f16702541b9b60339c43e6f5367195f536f368fabc5ca7d94870395949"
+    }
+  ],
+  "narration_sha256": "c143baa521771a6d7aace19106d1c45c98ee7f8b985cafcb9ad555f40cf163e9",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "duration": 215.26666666666668,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 14.026916666666667,
+      "end": 14.4,
+      "role": "hook",
+      "chapter": "Which ticket comes first?",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "role": "hook",
+        "chapter": "Which ticket comes first?",
+        "text": "Two friends are checking numbered tickets for a school event. Almost every digit matches! Which ticket comes first? A quick glance at the final digits could fool us, so let’s investigate from the right starting place.",
+        "board": [],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "start": 14.4,
+      "speech_end": 18.997208333333333,
+      "end": 19.366666666666667,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to compare and order whole numbers using place value.",
+        "board": [],
+        "model": null,
+        "display": "Compare and order whole numbers using place value."
+      }
+    },
+    {
+      "index": 2,
+      "start": 19.366666666666667,
+      "speech_end": 23.726166666666668,
+      "end": 24.1,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to compare from the largest place until I find a difference.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 24.1,
+      "speech_end": 27.489375,
+      "end": 27.866666666666667,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to use the symbols <, > and = correctly.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 27.866666666666667,
+      "speech_end": 32.48283333333333,
+      "end": 32.833333333333336,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to order numbers and explain your choice using digit values.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 32.833333333333336,
+      "speech_end": 48.44895833333333,
+      "end": 48.8,
+      "role": "explanation",
+      "chapter": "Start with the greatest place",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+        "chapter": "Start with the greatest place",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 6,
+      "start": 48.8,
+      "speech_end": 56.2155,
+      "end": 57.733333333333334,
+      "role": "prediction",
+      "chapter": "Ticket example one",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Ticket example one",
+        "text": "Which ticket number is greater? Point to the first place where the digits differ. We can stop once we find it.",
+        "board": [
+          "456,782 ? 456,728"
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 7,
+      "start": 57.733333333333334,
+      "speech_end": 74.435375,
+      "end": 74.8,
+      "role": "explanation",
+      "chapter": "Line up the places",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+        "chapter": "Line up the places",
+        "equation": [],
+        "board": [
+          "456,782     456,728",
+          "4 = 4    5 = 5    6 = 6    7 = 7"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 8,
+      "start": 74.8,
+      "speech_end": 92.90545833333333,
+      "end": 93.26666666666667,
+      "role": "explanation",
+      "chapter": "First different place: tens",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+        "chapter": "First different place: tens",
+        "equation": [],
+        "board": [
+          "80 > 20",
+          "456,782 > 456,728"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 9,
+      "start": 93.26666666666667,
+      "speech_end": 101.75154166666667,
+      "end": 103.26666666666667,
+      "role": "prediction",
+      "chapter": "Ticket example two",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Ticket example two",
+        "text": "Try this pair before I show the comparison. Will the many nines at the end decide the answer, or will an earlier place decide?",
+        "board": [
+          "309,950 ? 310,005"
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "309950",
+            "310005"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 10,
+      "start": 103.26666666666667,
+      "speech_end": 120.637625,
+      "end": 121.0,
+      "role": "explanation",
+      "chapter": "Another comparison",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+        "chapter": "Another comparison",
+        "equation": [],
+        "board": [
+          "309,950     310,005",
+          "0 ten-thousands < 1 ten-thousand",
+          "309,950 < 310,005"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "309950",
+            "310005"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 11,
+      "start": 121.0,
+      "speech_end": 138.27804166666667,
+      "end": 138.63333333333333,
+      "role": "explanation",
+      "chapter": "Order from smallest to largest",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "89,999 < 90,001 < 90,010",
+          "Start left; stop at the first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "tiles",
+          "values": [
+            "89,999",
+            "90,001",
+            "90,010"
+          ]
+        }
+      }
+    },
+    {
+      "index": 12,
+      "start": 138.63333333333333,
+      "speech_end": 155.6155,
+      "end": 155.96666666666667,
+      "role": "misconception",
+      "chapter": "Start at the largest place",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "role": "misconception",
+        "chapter": "Start at the largest place",
+        "text": "Sam compares only the final three digits and thinks eighty-nine thousand, nine hundred and ninety-nine must be greater than ninety thousand and one. That overlooks the ten-thousands! Nine ten-thousands is greater than eight ten-thousands, whatever follows.",
+        "board": [
+          "89,999 < 90,001",
+          "Start left, not at the final digits."
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "089999",
+            "090001"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 13,
+      "start": 155.96666666666667,
+      "speech_end": 163.179375,
+      "end": 168.2,
+      "role": "question",
+      "chapter": "Your turn",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "text": "Which is greater: 582,430 or 582,403?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "582,430 ? 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "582430",
+            "582403"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 14,
+      "start": 168.2,
+      "speech_end": 177.53958333333333,
+      "end": 177.9,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "text": "The first differing place is the tens. Three tens is greater than zero tens, so 582,430 is greater.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "582,430 > 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "582430",
+            "582403"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 15,
+      "start": 177.9,
+      "speech_end": 197.18883333333332,
+      "end": 197.56666666666666,
+      "role": "explanation",
+      "chapter": "Recap: compare exactly",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+        "chapter": "Recap: compare exactly",
+        "equation": [],
+        "board": [
+          "89,999 ≈ 90,000  (nearest 1,000)",
+          "Estimate ≠ exact comparison",
+          "Line up → start left → first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 16,
+      "start": 197.56666666666666,
+      "speech_end": 214.898125,
+      "end": 215.26666666666668,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to compare and order whole numbers using place value. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Compare and order whole numbers using place value.",
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.8089166666666667,
+      "text": "Two friends are checking numbered tickets for a school event.",
+      "source_sha256": "1cb67fa2b3bb8c641a3eff19dd03512bc77da076afe51938d31199945a41da32"
+    },
+    {
+      "start": 3.928916666666667,
+      "end": 6.1077916666666665,
+      "text": "Almost every digit matches!",
+      "source_sha256": "fc787f50d06117e583cbe09480afb821ececd5f4f4b49ca4c77ce42b37d7c743"
+    },
+    {
+      "start": 6.227791666666667,
+      "end": 8.089,
+      "text": "Which ticket comes first?",
+      "source_sha256": "fceb20a264030eeb1e408728d06203ef3c64658b2f0d5b4dc5357089e55cdcda"
+    },
+    {
+      "start": 8.209,
+      "end": 14.026916666666667,
+      "text": "A quick glance at the final digits could fool us, so let’s investigate from the right starting place.",
+      "source_sha256": "db6abb1cfe2ba77c21ea3d60bfb51136ecff9879bcf6e5e3a50a87e3e688e1b7"
+    },
+    {
+      "start": 14.4,
+      "end": 18.997208333333333,
+      "text": "Today, we’re learning to compare and order whole numbers using place value.",
+      "source_sha256": "641bb855452894183c41a289534435933bcf0ffe5dde6633ccc663f6674e734b"
+    },
+    {
+      "start": 19.366666666666667,
+      "end": 23.726166666666668,
+      "text": "You’ll be able to compare from the largest place until I find a difference.",
+      "source_sha256": "959a5b7d323292a9f5111b85d80e2f000c8751596814f42b200fd52616a68fd8"
+    },
+    {
+      "start": 24.1,
+      "end": 27.489375,
+      "text": "You’ll be able to use the symbols <, > and = correctly.",
+      "source_sha256": "7cab22fc2ee5bd50633b6e10dad4e5bd93ab8cf8aa6b8ac4af13177b878a3b66"
+    },
+    {
+      "start": 27.866666666666667,
+      "end": 32.48283333333333,
+      "text": "You’ll be able to order numbers and explain your choice using digit values.",
+      "source_sha256": "0cd3efda9547fea22cdcae7d1c756ed0479c7d6a2ee7af2785efa5445db523c7"
+    },
+    {
+      "start": 32.833333333333336,
+      "end": 36.39395833333333,
+      "text": "Which number is larger when most of the digits match?",
+      "source_sha256": "cfb5abbbf97e95e0fce9dc01f412fef8baa178d95d098e2414838bbcc43b61ad"
+    },
+    {
+      "start": 36.513958333333335,
+      "end": 40.07879166666667,
+      "text": "Compare from the greatest place value, not from the right.",
+      "source_sha256": "3114f9c32bfb0f11ed594d20a632877ef3b4eab26477f6a6b6440cafaf7bb13d"
+    },
+    {
+      "start": 40.198791666666665,
+      "end": 44.960458333333335,
+      "text": "For whole numbers with no leading zeros, more digits means a larger number.",
+      "source_sha256": "4a1849b3ebc2476a16f56012bc8cca6b60163deff76ffd7bdb27b97d5a94d40f"
+    },
+    {
+      "start": 45.08045833333333,
+      "end": 48.44895833333333,
+      "text": "If the lengths match, compare one column at a time.",
+      "source_sha256": "8c90f9c8371e5220982f86e2572b38c699d31def429e195b615e40a4bf352704"
+    },
+    {
+      "start": 48.8,
+      "end": 51.04241666666667,
+      "text": "Which ticket number is greater?",
+      "source_sha256": "a094d59c912b41d92ebe70f5b658e4f83a7b5f2e0184b763a2cf2aede9f47510"
+    },
+    {
+      "start": 51.162416666666665,
+      "end": 53.92666666666667,
+      "text": "Point to the first place where the digits differ.",
+      "source_sha256": "c436c5fc9f59e1171c5cab701ad60d1a4f559ebc3e4c20f688bd5cf33cc85d9b"
+    },
+    {
+      "start": 54.04666666666667,
+      "end": 56.2155,
+      "text": "We can stop once we find it.",
+      "source_sha256": "b3c6fa5d6cb77d8ff60fd73d598abc4ca78b5c132fae382d3ba57702afb6b049"
+    },
+    {
+      "start": 57.733333333333334,
+      "end": 66.52308333333333,
+      "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight.",
+      "source_sha256": "55d6bfee9ccf44bdb219a76d339ece65819845ee3065e6d2cdcaa773ab58fd97"
+    },
+    {
+      "start": 66.64308333333334,
+      "end": 70.86595833333334,
+      "text": "Their hundred thousands, ten thousands, thousands and hundreds match.",
+      "source_sha256": "65afc6446ae75bdfd6a5339986289ffdc7b55a98f6d19361dfaf0504a1373957"
+    },
+    {
+      "start": 70.98595833333333,
+      "end": 74.435375,
+      "text": "We have not found a difference yet, so keep moving right.",
+      "source_sha256": "d231c0ae813f5b71313ab81806bad552be72e4886070a0aaa454ed8cf48129dd"
+    },
+    {
+      "start": 74.8,
+      "end": 77.86304166666666,
+      "text": "At the tens place, eight is greater than two.",
+      "source_sha256": "460971cbb6fd8e272e2cc6999d0f1bbcad5ab7e9dfb7a0c3c10a4b7776866f7d"
+    },
+    {
+      "start": 77.98304166666667,
+      "end": 79.10466666666666,
+      "text": "Stop there.",
+      "source_sha256": "5ce7ea4853f51bb04f55e9fafab7e71d963a832334212033dd3b49e8b8420e06"
+    },
+    {
+      "start": 79.22466666666666,
+      "end": 89.99783333333333,
+      "text": "The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight.",
+      "source_sha256": "b3385dc4c96bbd68ab04acfbbd3b1ea67761231869504d58761de5bd8a3c64e5"
+    },
+    {
+      "start": 90.11783333333334,
+      "end": 92.90545833333333,
+      "text": "The ones cannot overturn that difference.",
+      "source_sha256": "0afce4540c8a222630209d57da95342f24952fe733328c94aaf29da7717d0e81"
+    },
+    {
+      "start": 93.26666666666667,
+      "end": 96.227625,
+      "text": "Try this pair before I show the comparison.",
+      "source_sha256": "a4d16205b9780c00a15334927c4d3730f5c1550ee76f74029b845264aef4b206"
+    },
+    {
+      "start": 96.347625,
+      "end": 101.75154166666667,
+      "text": "Will the many nines at the end decide the answer, or will an earlier place decide?",
+      "source_sha256": "efbd3b70cf3fb131ae14205ec200e0922f3d06f1b5d4f6fee80a1bb07a0877db"
+    },
+    {
+      "start": 103.26666666666667,
+      "end": 110.26333333333334,
+      "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five.",
+      "source_sha256": "7a58521b83a497bbac3fe02e48f52d7332958bb4ef2b5261e73dabbce0c19ce7"
+    },
+    {
+      "start": 110.38333333333334,
+      "end": 112.44008333333333,
+      "text": "The hundred thousands match.",
+      "source_sha256": "c51acc771955f46ff160eded58c55ad23391dd5b39005a5e7ca93c026b815acb"
+    },
+    {
+      "start": 112.56008333333334,
+      "end": 115.65466666666667,
+      "text": "At ten thousands, zero is less than one.",
+      "source_sha256": "76a56fb2c7a118b3402495947d1a9782f50cc2a0aa4bf35f46690e5281510e97"
+    },
+    {
+      "start": 115.77466666666666,
+      "end": 120.637625,
+      "text": "Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+      "source_sha256": "013ee7c4cf7ee59db9a40709bb9afbff83dcaad27a2c4d0a33a5eaf63d3dec72"
+    },
+    {
+      "start": 121.0,
+      "end": 124.27133333333333,
+      "text": "To order several numbers, repeat the same method.",
+      "source_sha256": "bd67b2987f0345e1c1b2b99e91e86895560735bd96b2d733a4308ce2ffb15804"
+    },
+    {
+      "start": 124.39133333333334,
+      "end": 132.30483333333333,
+      "text": "Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten.",
+      "source_sha256": "65fe8f03405e42df13c69ec6d059967619d2a917280cbedfb12a4b0c1deaaa9d"
+    },
+    {
+      "start": 132.42483333333334,
+      "end": 135.65295833333334,
+      "text": "Do not compare only the final three digits.",
+      "source_sha256": "d53a5af43a79572cbbf6a389654cbace608e705714c62d2d43ca24c31269b6d9"
+    },
+    {
+      "start": 135.77295833333332,
+      "end": 138.27804166666667,
+      "text": "The greatest differing place decides.",
+      "source_sha256": "1bb178f53bbbb36afd7c25d98ae56295ab681d6e1dd58f843c3509eafca26f44"
+    },
+    {
+      "start": 138.63333333333333,
+      "end": 147.88570833333333,
+      "text": "Sam compares only the final three digits and thinks eighty-nine thousand, nine hundred and ninety-nine must be greater than ninety thousand and one.",
+      "source_sha256": "e99fc6eae518b9bcdb23c6c5cc5e9ec0972bde0dd667c2c1869666aead77dca3"
+    },
+    {
+      "start": 148.00570833333333,
+      "end": 150.52529166666667,
+      "text": "That overlooks the ten-thousands!",
+      "source_sha256": "b7ccc8c7f834e70bcaec56d73bdd3d75703f5c8d79d84af301a89ff98671d747"
+    },
+    {
+      "start": 150.64529166666668,
+      "end": 155.6155,
+      "text": "Nine ten-thousands is greater than eight ten-thousands, whatever follows.",
+      "source_sha256": "0ce24354c13b4505f7d27c4c049933620d7480c0aa84983c0aad1b06e2e4c9c0"
+    },
+    {
+      "start": 155.96666666666667,
+      "end": 163.179375,
+      "text": "Which is greater: 582,430 or 582,403?",
+      "source_sha256": "dae992e50836276f5b5a3426c815f0aecefde5d8ac8e81090d3eed9d68e20844"
+    },
+    {
+      "start": 168.2,
+      "end": 170.70975,
+      "text": "The first differing place is the tens.",
+      "source_sha256": "5d514ae3434104c5a92a761044939c1ebbc54f75e54c1736b6e5fe925b12e503"
+    },
+    {
+      "start": 170.82975,
+      "end": 177.53958333333333,
+      "text": "Three tens is greater than zero tens, so 582,430 is greater.",
+      "source_sha256": "16a7dee723017fb3fdd96f248f7e169dab841fe77e149dff64b0828930d4adab"
+    },
+    {
+      "start": 177.9,
+      "end": 186.38358333333332,
+      "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand.",
+      "source_sha256": "c1ec80cb7e71957fd0821d3bfcdad0388a85d5aeedd0b1f81e09bce5c5eae0d8"
+    },
+    {
+      "start": 186.50358333333332,
+      "end": 191.370125,
+      "text": "A rounded value is useful, but it does not replace an exact comparison.",
+      "source_sha256": "a510d05dc59bdb1360e1ac5c686d01d439858d539a6125f2161aec571fac4611"
+    },
+    {
+      "start": 191.490125,
+      "end": 197.18883333333332,
+      "text": "Recap: line up the places, start left, find the first difference, and explain your order.",
+      "source_sha256": "e1c5e503195e29de26056b3d4636b070b9c67d042cfa94f72c965ee94a730b77"
+    },
+    {
+      "start": 197.56666666666666,
+      "end": 201.95441666666667,
+      "text": "Our goal was to compare and order whole numbers using place value.",
+      "source_sha256": "55717902fae54dfd9de3ae91e787e8d442f46f494574a92a2a0e3319508d99d3"
+    },
+    {
+      "start": 202.07441666666668,
+      "end": 207.85720833333335,
+      "text": "You can now explain your strategy, check the places carefully, and show why your answer makes sense.",
+      "source_sha256": "70ef95378ed80563b943f3565da662611a0bab9dd641452dde23e24788d9bc48"
+    },
+    {
+      "start": 207.97720833333332,
+      "end": 211.59045833333334,
+      "text": "Choose a number of your own and explain it to someone nearby.",
+      "source_sha256": "9042c8a9ad59a3859e74793e01737dbfffe5bfdd9b096ec82b8f3ef52d931520"
+    },
+    {
+      "start": 211.71045833333332,
+      "end": 214.898125,
+      "text": "Then try the lesson practice on Math Magic.",
+      "source_sha256": "26363be10e72145c4ab1292c24acfcb919f8de11ae18812261acddc1a1e0de99"
+    }
+  ],
+  "narration_sha256": "b59105bf5db28dc04c6c65f4860d97b7c09991e18a0900bf4c532c34f5ddef91",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}

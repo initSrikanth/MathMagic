@@ -1,0 +1,823 @@
+{
+  "duration": 199.66666666666666,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 15.536708333333333,
+      "end": 15.9,
+      "role": "hook",
+      "chapter": "A digit with two jobs",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "role": "hook",
+        "chapter": "A digit with two jobs",
+        "text": "Imagine two identical digits applying for different jobs in a giant number. One earns ten times as much as its neighbour! How can the very same digit have such different values? Let’s uncover its place-value secret.",
+        "board": [],
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "start": 15.9,
+      "speech_end": 21.324708333333334,
+      "end": 21.7,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to explain how a digit’s place changes its value in a whole number.",
+        "board": [],
+        "model": null,
+        "display": "Explain how a digit’s place changes its value in a whole number."
+      }
+    },
+    {
+      "index": 2,
+      "start": 21.7,
+      "speech_end": 25.3345,
+      "end": 25.7,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to name a digit’s place and give its value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 25.7,
+      "speech_end": 29.726625,
+      "end": 30.1,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to use a place-value chart to explain a number.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 30.1,
+      "speech_end": 36.28745833333333,
+      "end": 36.666666666666664,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain why the same digit is worth ten times as much one place to the left.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 36.666666666666664,
+      "speech_end": 51.451625,
+      "end": 51.833333333333336,
+      "role": "explanation",
+      "chapter": "One place changes the value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+        "chapter": "One place changes the value",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "array",
+          "rows": 1,
+          "cols": 10
+        }
+      }
+    },
+    {
+      "index": 6,
+      "start": 51.833333333333336,
+      "speech_end": 60.17008333333333,
+      "end": 61.7,
+      "role": "prediction",
+      "chapter": "Read the place first",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Read the place first",
+        "text": "Look at the seven in this number. Before I explain, predict which place it holds. Remember to count from ones at the right.",
+        "board": [
+          "472,631: value of 7 = ?"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 7,
+      "start": 61.7,
+      "speech_end": 78.52425,
+      "end": 78.9,
+      "role": "explanation",
+      "chapter": "Read the place, then the value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+        "chapter": "Read the place, then the value",
+        "equation": [],
+        "board": [
+          "7 × 10,000 = 70,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "start": 78.9,
+      "speech_end": 92.466375,
+      "end": 92.83333333333333,
+      "role": "explanation",
+      "chapter": "Every digit has a value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+        "chapter": "Every digit has a value",
+        "equation": [],
+        "board": [
+          "2,000 + 600 + 30 + 1",
+          "472,631"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 2,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 9,
+      "start": 92.83333333333333,
+      "speech_end": 100.011,
+      "end": 101.53333333333333,
+      "role": "prediction",
+      "chapter": "Same digit, new place",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Same digit, new place",
+        "text": "Now look at these two fives. Which one has the greater value? Point to its column before we compare.",
+        "board": [
+          "55,000: compare the two fives"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 10,
+      "start": 101.53333333333333,
+      "speech_end": 116.811875,
+      "end": 117.16666666666667,
+      "role": "explanation",
+      "chapter": "Same digit, different places",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+        "chapter": "Same digit, different places",
+        "equation": [],
+        "board": [
+          "50,000 and 5,000",
+          "50,000 = 10 × 5,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      }
+    },
+    {
+      "index": 11,
+      "start": 117.16666666666667,
+      "speech_end": 133.647,
+      "end": 134.0,
+      "role": "explanation",
+      "chapter": "Ten times as much",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+        "chapter": "Ten times as much",
+        "equation": [],
+        "board": [
+          "34 × 10 = 340",
+          "340 ÷ 10 = 34"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "000034",
+            "000340"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 12,
+      "start": 134.0,
+      "speech_end": 147.1915,
+      "end": 147.56666666666666,
+      "role": "misconception",
+      "chapter": "The digit is not its value",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "role": "misconception",
+        "chapter": "The digit is not its value",
+        "text": "A common mix-up is saying that the seven here is just worth seven. Seven names the digit, but its column tells us its value. In the ten-thousands column, it represents seven groups of ten thousand.",
+        "board": [
+          "Digit: 7",
+          "Value: 70,000"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 13,
+      "start": 147.56666666666666,
+      "speech_end": 153.08495833333333,
+      "end": 158.1,
+      "role": "question",
+      "chapter": "Your turn",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "text": "In 583,214, what is the value of the eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "583,214: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "place",
+          "digits": "583214",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 14,
+      "start": 158.1,
+      "speech_end": 163.20908333333333,
+      "end": 163.56666666666666,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 × 10,000 = 80,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "583214",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 15,
+      "start": 163.56666666666666,
+      "speech_end": 180.73429166666668,
+      "end": 181.1,
+      "role": "explanation",
+      "chapter": "Recap: place first, value second",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+        "chapter": "Recap: place first, value second",
+        "equation": [],
+        "board": [
+          "583,214 → 8 means 80,000",
+          "One place left: × 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 16,
+      "start": 181.1,
+      "speech_end": 199.30858333333333,
+      "end": 199.66666666666666,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to explain how a digit’s place changes its value in a whole number. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Explain how a digit’s place changes its value in a whole number.",
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 5.424708333333333,
+      "text": "Imagine two identical digits applying for different jobs in a giant number.",
+      "source_sha256": "65ce8f8ff4315a2c69c8da6f948273bfe7fe53571c815d2f119fe8ad32561fe6"
+    },
+    {
+      "start": 5.544708333333333,
+      "end": 8.779916666666667,
+      "text": "One earns ten times as much as its neighbour!",
+      "source_sha256": "e4a3be561b1d869393c490c3bd6c39d650b9be10622b41ed3549bf17d0bbc0d8"
+    },
+    {
+      "start": 8.899916666666666,
+      "end": 12.592666666666666,
+      "text": "How can the very same digit have such different values?",
+      "source_sha256": "e1446475747d8c300555d69c3edd97492d6627edfbc1d79b443dc0ab24b490f1"
+    },
+    {
+      "start": 12.712666666666667,
+      "end": 15.536708333333333,
+      "text": "Let’s uncover its place-value secret.",
+      "source_sha256": "68088845a924af60d3faacc2a2274d773e24635ea1d6273bf36f7dc9b1566e57"
+    },
+    {
+      "start": 15.9,
+      "end": 21.324708333333334,
+      "text": "Today, we’re learning to explain how a digit’s place changes its value in a whole number.",
+      "source_sha256": "be28566579f7722708a053df63c2260a87aa352c27f94ed64d2aa1db26504a63"
+    },
+    {
+      "start": 21.7,
+      "end": 25.3345,
+      "text": "You’ll be able to name a digit’s place and give its value.",
+      "source_sha256": "5c15f3863b9960f8c0627a40632990690ba35f878b944e83dc737fe8af84d0c6"
+    },
+    {
+      "start": 25.7,
+      "end": 29.726625,
+      "text": "You’ll be able to use a place-value chart to explain a number.",
+      "source_sha256": "1bbf2d21a829fcbc6bd8b766e6bdbe25066d4be1382bd93d129987ffb3e6d558"
+    },
+    {
+      "start": 30.1,
+      "end": 36.28745833333333,
+      "text": "You’ll be able to explain why the same digit is worth ten times as much one place to the left.",
+      "source_sha256": "7e0d5566de46146e091aec92fba65a27e443acea506d2c787ea0da695effb70f"
+    },
+    {
+      "start": 36.666666666666664,
+      "end": 40.17004166666667,
+      "text": "What makes the same digit worth ten times as much?",
+      "source_sha256": "0ec4b8e24b896da71ac6e1727df4d8ee544a81effd25a3bf6fd097be162182d4"
+    },
+    {
+      "start": 40.29004166666667,
+      "end": 42.02495833333333,
+      "text": "Its position does.",
+      "source_sha256": "11a43e77ec0d7bb7d4d6d7cc83b232c80d27a0dd0dd18098d172443d1fdacb31"
+    },
+    {
+      "start": 42.144958333333335,
+      "end": 47.300666666666665,
+      "text": "In our base ten system, ten ones make one ten, and ten tens make one hundred.",
+      "source_sha256": "154a122e885342d499402a10e73c2c5db717cec41f6efa6734d1cbdd6695c722"
+    },
+    {
+      "start": 47.42066666666667,
+      "end": 51.451625,
+      "text": "Each place is ten times the place immediately to its right.",
+      "source_sha256": "5d00fe2bbb624e7af4af80721178d0d5f3829823d44f2ba30e95fbb9fe1cc4cb"
+    },
+    {
+      "start": 51.833333333333336,
+      "end": 54.084125,
+      "text": "Look at the seven in this number.",
+      "source_sha256": "32f7f03f26dcbcc119bcc6ee38263f09fa837a0bdf597c10c0b6fda1092e5721"
+    },
+    {
+      "start": 54.204125,
+      "end": 57.411125,
+      "text": "Before I explain, predict which place it holds.",
+      "source_sha256": "2afb9f511927e7449d4510fa2e400e485bf1bc7f3efcad84bd49731c31d03ffa"
+    },
+    {
+      "start": 57.531125,
+      "end": 60.17008333333333,
+      "text": "Remember to count from ones at the right.",
+      "source_sha256": "c73a230483b8b3e8752083106b07e760106cedb1cfef6466f82888f95c0b910f"
+    },
+    {
+      "start": 61.7,
+      "end": 66.60045833333334,
+      "text": "Look at four hundred and seventy two thousand, six hundred and thirty one.",
+      "source_sha256": "63ad4646c1354cc4a62b181eed37d407eaca06539afc2151e64b8c1795932179"
+    },
+    {
+      "start": 66.72045833333334,
+      "end": 71.422,
+      "text": "Put each digit into its own column, from hundred thousands down to ones.",
+      "source_sha256": "2b964ac3604b1f3137fa5aeea850436962044d82b634bd79ad4f2baded7fef59"
+    },
+    {
+      "start": 71.542,
+      "end": 74.53675,
+      "text": "The seven is in the ten thousands column.",
+      "source_sha256": "69f19ef07edfa29aa2da2feef43198494365f35e2ee39f6ccd981bdf93178fb1"
+    },
+    {
+      "start": 74.65675,
+      "end": 78.52425,
+      "text": "Its value is seventy thousand, not seven thousand.",
+      "source_sha256": "c31d082653659326229d71e1e20449213e305c130a5ed27a36fe77138184ca7d"
+    },
+    {
+      "start": 78.9,
+      "end": 83.75670833333334,
+      "text": "The two stands for two thousand, the six for six hundred, and the three for thirty.",
+      "source_sha256": "426fe597c216714e86ee07ffa1c4f94037e427a4956974d2ccdefe9b30758117"
+    },
+    {
+      "start": 83.87670833333334,
+      "end": 90.22754166666667,
+      "text": "Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one.",
+      "source_sha256": "79fd337e7c160c3cfa7813bdc8080df2c39249da8ce9646e4f16bc69fd2cd740"
+    },
+    {
+      "start": 90.34754166666667,
+      "end": 92.466375,
+      "text": "Every digit has a job.",
+      "source_sha256": "8414f23259fbed28808d74a0459b58ad02ea013224e705266c05feaf1695c64b"
+    },
+    {
+      "start": 92.83333333333333,
+      "end": 94.86483333333334,
+      "text": "Now look at these two fives.",
+      "source_sha256": "00924920152f82a36e4a263ca138c269cccb780a73ca2fe3fa0c05650305bd65"
+    },
+    {
+      "start": 94.98483333333333,
+      "end": 97.30658333333334,
+      "text": "Which one has the greater value?",
+      "source_sha256": "4ca8bbc1e26329f1987ca1a89074e832ba9db1ba4871e520e1a85c8133484042"
+    },
+    {
+      "start": 97.42658333333334,
+      "end": 100.011,
+      "text": "Point to its column before we compare.",
+      "source_sha256": "efa89a9e3e5d8b8ebab7123a968d34e2c7b09feb51f62bd044dde8833673571b"
+    },
+    {
+      "start": 101.53333333333333,
+      "end": 105.177,
+      "text": "Now compare the two fives in fifty five thousand.",
+      "source_sha256": "2dcf75c049b730d92df8d827118b5b11ea5e44961a21863635d369924d97a18d"
+    },
+    {
+      "start": 105.297,
+      "end": 108.39291666666666,
+      "text": "The first five represents fifty thousand.",
+      "source_sha256": "5a8358c55bf20a9d1c0ad84f3168ec9a3e243c25ca94bec5d01d3f3f28d86071"
+    },
+    {
+      "start": 108.51291666666667,
+      "end": 111.382875,
+      "text": "The second represents five thousand.",
+      "source_sha256": "b93c47188e6951c474e86ee0f9c430dc7744267c329e753fdcfe9981adbc6f1a"
+    },
+    {
+      "start": 111.502875,
+      "end": 116.811875,
+      "text": "Fifty thousand is ten times five thousand, even though the digits look the same.",
+      "source_sha256": "4489b9080d62d5570b1191cfc967a5f5dd63c21a1bf3ef07fd12521a4aba8685"
+    },
+    {
+      "start": 117.16666666666667,
+      "end": 122.25829166666666,
+      "text": "This relationship helps us multiply and divide whole numbers by ten.",
+      "source_sha256": "cf08ed689a7173ff42888303d76e15ca2f3ea24bd7b27af9a2847ec66f2c2fea"
+    },
+    {
+      "start": 122.37829166666667,
+      "end": 125.85366666666667,
+      "text": "Thirty four times ten is three hundred and forty.",
+      "source_sha256": "565d1ff710396ff8ecbf07fdb091b3ae9ea0b3f0a8fdc01909eb956756499749"
+    },
+    {
+      "start": 125.97366666666667,
+      "end": 129.49466666666666,
+      "text": "Each digit takes a place worth ten times as much.",
+      "source_sha256": "0553e8cf80b8c2786f3a47d830453014657f19970434fc42858512196f87c89f"
+    },
+    {
+      "start": 129.61466666666666,
+      "end": 133.647,
+      "text": "Three hundred and forty divided by ten returns thirty four.",
+      "source_sha256": "769963356c36a6de3e4f0ecc34cdde9a267d32fccce2eddee2a4b21664d28f05"
+    },
+    {
+      "start": 134.0,
+      "end": 138.40033333333332,
+      "text": "A common mix-up is saying that the seven here is just worth seven.",
+      "source_sha256": "ca2bd633dc800baa6fe37fa3c9b7c0a32ec62d2d9a48fec3a1885e133dd3a8b2"
+    },
+    {
+      "start": 138.52033333333333,
+      "end": 142.34220833333333,
+      "text": "Seven names the digit, but its column tells us its value.",
+      "source_sha256": "3e63b140d1f988da46bcf7354cf7d4173b17a1b02cc05a1aeb69f3a1265b6987"
+    },
+    {
+      "start": 142.46220833333334,
+      "end": 147.1915,
+      "text": "In the ten-thousands column, it represents seven groups of ten thousand.",
+      "source_sha256": "878b63cf42df8635e275dc69ba65cadbeaa2483ccea804c4f8bea3a1c4bdb3e8"
+    },
+    {
+      "start": 147.56666666666666,
+      "end": 153.08495833333333,
+      "text": "In 583,214, what is the value of the eight?",
+      "source_sha256": "39ec599455a90c89929ffc14310bd926b40c9439241f8a23df780ffd0fd9b5cf"
+    },
+    {
+      "start": 158.1,
+      "end": 160.754875,
+      "text": "The eight is in the ten-thousands place.",
+      "source_sha256": "24c3c501d7353eaaa8a2ef34304dd579ff75cb6143b60f3f20cb4c0ad6ec3168"
+    },
+    {
+      "start": 160.874875,
+      "end": 163.20908333333333,
+      "text": "Its value is eighty thousand.",
+      "source_sha256": "88c00764728d9cdeaa07ffaa4716010c4d0d3d7d6df7cf75bb562f290b787b0b"
+    },
+    {
+      "start": 163.56666666666666,
+      "end": 168.858375,
+      "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen.",
+      "source_sha256": "7d08edc046b394a0196b30dbedef92b6504247b014bf86967ed1b1bc7a9e8a35"
+    },
+    {
+      "start": 168.978375,
+      "end": 173.81095833333333,
+      "text": "The eight is in the ten thousands place, so it represents eighty thousand.",
+      "source_sha256": "634233ec71ff5a4a827bda79a327d707f980b8b9938d6985961de39f1a045cdc"
+    },
+    {
+      "start": 173.93095833333334,
+      "end": 177.49783333333335,
+      "text": "Remember: name the place first, then work out the value.",
+      "source_sha256": "aba596da1bbca29921160322d0a9dd9eff9764e4a57a040e13f7c780f3ec71f3"
+    },
+    {
+      "start": 177.61783333333332,
+      "end": 180.73429166666668,
+      "text": "One place left means ten times as much.",
+      "source_sha256": "26e73739c2d24f2967f28dcb9966ba0c8fb8fc04e7db82ca6468c9e83aaeabda"
+    },
+    {
+      "start": 181.1,
+      "end": 186.36354166666666,
+      "text": "Our goal was to explain how a digit’s place changes its value in a whole number.",
+      "source_sha256": "d7bf94f0654a9c2a7a4f3cd3da7af921da0b90bb054684da1b5ef28437d27e54"
+    },
+    {
+      "start": 186.48354166666667,
+      "end": 192.266,
+      "text": "You can now explain your strategy, check the places carefully, and show why your answer makes sense.",
+      "source_sha256": "51d819bcb5bf6b50cfc852f9fba23757e88637863135525c30c2cbaa98f9d36f"
+    },
+    {
+      "start": 192.386,
+      "end": 196.00079166666666,
+      "text": "Choose a number of your own and explain it to someone nearby.",
+      "source_sha256": "05b80a6c9824eeffe145f354eb8bc852e3df38e8246550f62ac27d78afd66c1a"
+    },
+    {
+      "start": 196.12079166666666,
+      "end": 199.30858333333333,
+      "text": "Then try the lesson practice on Math Magic.",
+      "source_sha256": "6797a6ee6e7035ba17688f4339fae0dc52cacf162ba5c0e78f9ad335fbaec39c"
+    }
+  ],
+  "narration_sha256": "43268500e26f518d5c34b481f1b05a8a9631b90536641927585a6ac21a112a60",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}

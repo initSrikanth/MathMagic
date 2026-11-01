@@ -1,0 +1,785 @@
+{
+  "duration": 210.1,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 14.367541666666666,
+      "end": 14.733333333333333,
+      "role": "hook",
+      "chapter": "One number, many disguises",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "role": "hook",
+        "chapter": "One number, many disguises",
+        "text": "A number arrives at a costume party. Sometimes it wears digits, sometimes words, and sometimes a long addition sentence. Can we spot the same number beneath every disguise? Let’s become number detectives.",
+        "board": [],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "start": 14.733333333333333,
+      "speech_end": 20.130583333333334,
+      "end": 20.5,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to read, write and regroup a whole number without changing its value.",
+        "board": [],
+        "model": null,
+        "display": "Read, write and regroup a whole number without changing its value."
+      }
+    },
+    {
+      "index": 2,
+      "start": 20.5,
+      "speech_end": 24.770791666666668,
+      "end": 25.133333333333333,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to match a number to its word form and expanded form.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 25.133333333333333,
+      "speech_end": 28.965333333333334,
+      "end": 29.333333333333332,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain how zero holds an empty place.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 29.333333333333332,
+      "speech_end": 33.71670833333334,
+      "end": 34.1,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to regroup thousands and hundreds to show the same amount.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 34.1,
+      "speech_end": 50.674791666666664,
+      "end": 51.03333333333333,
+      "role": "explanation",
+      "chapter": "One quantity, several representations",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "One quantity, several representations",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 6,
+      "start": 51.03333333333333,
+      "speech_end": 58.983958333333334,
+      "end": 60.5,
+      "role": "prediction",
+      "chapter": "Detective example one",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Detective example one",
+        "text": "How would you describe this number without using its digits? Notice the empty ten-thousands place before we unpack the number.",
+        "board": [
+          "406,275"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 7,
+      "start": 60.5,
+      "speech_end": 78.44045833333334,
+      "end": 78.8,
+      "role": "explanation",
+      "chapter": "Zero keeps the places organised",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+        "chapter": "Zero keeps the places organised",
+        "equation": [],
+        "board": [
+          "4 means 400,000",
+          "6 means 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "start": 78.8,
+      "speech_end": 93.84641666666667,
+      "end": 94.2,
+      "role": "explanation",
+      "chapter": "Build the expanded form",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+        "chapter": "Build the expanded form",
+        "equation": [],
+        "board": [
+          "200 + 70 + 5",
+          "406,275 =",
+          "400,000 + 6,000 + 200 + 70 + 5"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 9,
+      "start": 94.2,
+      "speech_end": 111.36566666666667,
+      "end": 111.73333333333333,
+      "role": "explanation",
+      "chapter": "Connect the three forms",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "Connect the three forms",
+        "equation": [],
+        "board": [
+          "Four hundred and six thousand,",
+          "two hundred and seventy-five",
+          "Words ↔ 406,275 ↔ expanded form"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 10,
+      "start": 111.73333333333333,
+      "speech_end": 119.442125,
+      "end": 120.96666666666667,
+      "role": "prediction",
+      "chapter": "Detective example two",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Detective example two",
+        "text": "Can we describe three thousand four hundred using only hundreds? Predict how many hundreds would make the same amount.",
+        "board": [
+          "3,400 = ? hundreds"
+        ],
+        "model": {
+          "type": "tiles",
+          "values": [
+            "1,000",
+            "1,000",
+            "1,000",
+            "400"
+          ]
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 11,
+      "start": 120.96666666666667,
+      "speech_end": 136.914375,
+      "end": 137.26666666666668,
+      "role": "explanation",
+      "chapter": "Regroup without changing the amount",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+        "chapter": "Regroup without changing the amount",
+        "equation": [],
+        "board": [
+          "3,400 = 3 thousands + 4 hundreds",
+          "3,400 = 34 hundreds"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "tiles",
+          "values": [
+            "1,000",
+            "1,000",
+            "1,000",
+            "400"
+          ]
+        }
+      }
+    },
+    {
+      "index": 12,
+      "start": 137.26666666666668,
+      "speech_end": 153.53079166666666,
+      "end": 153.9,
+      "role": "misconception",
+      "chapter": "Zero still has an important job",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "role": "misconception",
+        "chapter": "Zero still has an important job",
+        "text": "It is tempting to erase the zero when writing the number in digits. But removing that placeholder shifts the other digits into different places. Leave zero in the standard number, even when its zero contribution is omitted from expanded form.",
+        "board": [
+          "406,275 ≠ 46,275",
+          "Keep the empty place."
+        ],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 13,
+      "start": 153.9,
+      "speech_end": 160.187125,
+      "end": 165.2,
+      "role": "question",
+      "chapter": "Your turn",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "tiles",
+          "values": [
+            "600,000",
+            "20,000",
+            "4,000",
+            "300",
+            "8"
+          ]
+        }
+      }
+    },
+    {
+      "index": 14,
+      "start": 165.2,
+      "speech_end": 171.5815,
+      "end": 171.93333333333334,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "text": "The total is six hundred and twenty-four thousand, three hundred and eight. There are zero tens.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "624,308"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "624308",
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      }
+    },
+    {
+      "index": 15,
+      "start": 171.93333333333334,
+      "speech_end": 191.433625,
+      "end": 191.8,
+      "role": "explanation",
+      "chapter": "Recap: represent the same value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+        "chapter": "Recap: represent the same value",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8",
+          "624,308",
+          "Zero tens: keep the placeholder"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 16,
+      "start": 191.8,
+      "speech_end": 209.71975,
+      "end": 210.1,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to read, write and regroup a whole number without changing its value. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Read, write and regroup a whole number without changing its value.",
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.845083333333333,
+      "text": "A number arrives at a costume party.",
+      "source_sha256": "b8e8f3d5d52d09f63e2372b3a27146a0c7a892f8ccaa32e46cb187da300a6203"
+    },
+    {
+      "start": 2.9650833333333333,
+      "end": 8.421291666666667,
+      "text": "Sometimes it wears digits, sometimes words, and sometimes a long addition sentence.",
+      "source_sha256": "3ac254f0e83490824c89d87f60e16f7fda70e045fbe303201e71d9763e730971"
+    },
+    {
+      "start": 8.541291666666666,
+      "end": 11.881958333333333,
+      "text": "Can we spot the same number beneath every disguise?",
+      "source_sha256": "d043c7bd412d048c825257cbc0b28c3632c3bc99bb4fbabe17de1e1ea225dd1d"
+    },
+    {
+      "start": 12.001958333333333,
+      "end": 14.367541666666666,
+      "text": "Let’s become number detectives.",
+      "source_sha256": "c3f5a141cb391722bee03d63f3c876073a1cdbc9dd9fd5cd694a2ee5013f76fc"
+    },
+    {
+      "start": 14.733333333333333,
+      "end": 20.130583333333334,
+      "text": "Today, we’re learning to read, write and regroup a whole number without changing its value.",
+      "source_sha256": "f3c83e66bbcb9842b111aed8972cd0ee1181901dc2259b30b6751ce2737f651c"
+    },
+    {
+      "start": 20.5,
+      "end": 24.770791666666668,
+      "text": "You’ll be able to match a number to its word form and expanded form.",
+      "source_sha256": "5e83a172593669c245fa3b1b1c2f137253dc8d942ba21b95a33e58892b276a22"
+    },
+    {
+      "start": 25.133333333333333,
+      "end": 28.965333333333334,
+      "text": "You’ll be able to explain how zero holds an empty place.",
+      "source_sha256": "436c1f000c82f83435906e6688b90d9f34505e95dd7fa7c42e3fa43cddff41a3"
+    },
+    {
+      "start": 29.333333333333332,
+      "end": 33.71670833333334,
+      "text": "You’ll be able to regroup thousands and hundreds to show the same amount.",
+      "source_sha256": "add77c6019e931a5fcac4a2b6064262364a9b28b5a54b13c5be41baace093456"
+    },
+    {
+      "start": 34.1,
+      "end": 38.002541666666666,
+      "text": "How can one number have several correct representations?",
+      "source_sha256": "4cd0f45895c25be26b6d134293b97cc0090c68a5fcc35871be33f75dafc500a3"
+    },
+    {
+      "start": 38.12254166666666,
+      "end": 42.87266666666667,
+      "text": "We can write its digits, say it in words, or split it into place values.",
+      "source_sha256": "0d8b8ef80a81dac3669359bba3bfe6f4a675224b03ffacb83ee85fdccbcbd464"
+    },
+    {
+      "start": 42.992666666666665,
+      "end": 45.601125,
+      "text": "All three describe the same quantity.",
+      "source_sha256": "60c72dd6428bc72e7d43410615a2e1a362d996c70e7f81218b7f9d75bb3f84d0"
+    },
+    {
+      "start": 45.721125,
+      "end": 50.674791666666664,
+      "text": "Let us represent four hundred and six thousand, two hundred and seventy five.",
+      "source_sha256": "eaa99665ef7a168e28539f38289717f6b3741a1a091179eebe6d62b35e6e6213"
+    },
+    {
+      "start": 51.03333333333333,
+      "end": 54.659708333333334,
+      "text": "How would you describe this number without using its digits?",
+      "source_sha256": "99197661f37fc1b5c6bbc0706c87200ad07d07b72841d9a58482d479048f9122"
+    },
+    {
+      "start": 54.77970833333333,
+      "end": 58.983958333333334,
+      "text": "Notice the empty ten-thousands place before we unpack the number.",
+      "source_sha256": "643024ca702d2d84aedd26e2fe6f4ca05f2fe8420000ff6447b0619af02f7a85"
+    },
+    {
+      "start": 60.5,
+      "end": 62.70625,
+      "text": "Start with the largest place.",
+      "source_sha256": "7ae65a658d5e43144f3d89d3983d1a0e6e48fbed8d4d8004328bcf899062f638"
+    },
+    {
+      "start": 62.82625,
+      "end": 65.59425,
+      "text": "The four means four hundred thousand.",
+      "source_sha256": "d44df3423dd902329fc60eca253c0569b555ff93a7da2dcc9f19909c43496230"
+    },
+    {
+      "start": 65.71425,
+      "end": 69.004,
+      "text": "The zero ten thousands contributes zero.",
+      "source_sha256": "0f50d503c3dff05ce7743bc950db7bb967334d517855050a03e51ad41f776285"
+    },
+    {
+      "start": 69.124,
+      "end": 71.375875,
+      "text": "The six means six thousand.",
+      "source_sha256": "1255819809c7475bd522d759959fa1e903e1d6fd28ea3be3bdbbbc8c9acf5761"
+    },
+    {
+      "start": 71.495875,
+      "end": 78.44045833333334,
+      "text": "Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+      "source_sha256": "e42c43b2a47b177b8498e7ade674f1cc26c9489c329c085dd7fdc20fd9a5f048"
+    },
+    {
+      "start": 78.8,
+      "end": 82.82695833333334,
+      "text": "Now add the smaller places: two hundred, seventy and five.",
+      "source_sha256": "0accfbc903859f2d6ddf92b9a9235bd9456adebcf32aedbc021f0b8bf545f5a0"
+    },
+    {
+      "start": 82.94695833333333,
+      "end": 89.63020833333333,
+      "text": "The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five.",
+      "source_sha256": "6349c421fe9b1ebae80a4100334649a23bf3ba8c1e3dc61b10b15c59db5156bf"
+    },
+    {
+      "start": 89.75020833333333,
+      "end": 93.84641666666667,
+      "text": "We can leave out the zero contribution without changing the total.",
+      "source_sha256": "f35fef857ad10b8b6d93d648a969c8abd7316f836b771ba41fa3c5417a88a9a5"
+    },
+    {
+      "start": 94.2,
+      "end": 99.00191666666667,
+      "text": "In words, say four hundred and six thousand, two hundred and seventy five.",
+      "source_sha256": "3bfa800fd8d1cf432b29bb116000f92e524b132b45bf89411a07b857d61d8aa0"
+    },
+    {
+      "start": 99.12191666666666,
+      "end": 103.51416666666667,
+      "text": "Notice how the thousands group and the final three digits fit together.",
+      "source_sha256": "1e5f03fbde08a6ef389c323bd5a908f2a25f2faaee2019e90b9bc691a185850c"
+    },
+    {
+      "start": 103.63416666666667,
+      "end": 111.36566666666667,
+      "text": "The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+      "source_sha256": "1e745ded1bee12276212fd86159ddd9519169fba971de17e11021aead3251aaa"
+    },
+    {
+      "start": 111.73333333333333,
+      "end": 115.90633333333334,
+      "text": "Can we describe three thousand four hundred using only hundreds?",
+      "source_sha256": "3e6494d7b67d739dd860c51ab001a0cc1ae3286244595231fb5adfea8d0996e2"
+    },
+    {
+      "start": 116.02633333333333,
+      "end": 119.442125,
+      "text": "Predict how many hundreds would make the same amount.",
+      "source_sha256": "0723eb05e08f2e617fd5efa96c990ddc9e2094297cf7e57cb69ee82208bcbe3d"
+    },
+    {
+      "start": 120.96666666666667,
+      "end": 123.38483333333333,
+      "text": "We can also regroup a number.",
+      "source_sha256": "7634c68abf308d32182d97d9b8c08254079359d93407d7bd0005bbe9d94a8d77"
+    },
+    {
+      "start": 123.50483333333334,
+      "end": 127.538375,
+      "text": "Three thousand four hundred is three thousands and four hundreds.",
+      "source_sha256": "446f60742c79c3a6c5b6a0de93310c14a69eca13cae8f9ddf8958e1a4f2c8343"
+    },
+    {
+      "start": 127.658375,
+      "end": 134.0275,
+      "text": "It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred.",
+      "source_sha256": "ae0dab56f88e0f69c40b38c4b56ede0d39a02c8339546f873f5a281eb7f3312e"
+    },
+    {
+      "start": 134.1475,
+      "end": 136.914375,
+      "text": "The grouping changes; the amount does not.",
+      "source_sha256": "8a2c8d7002e44b30773b05d9023dc40ee11f1ddab6cb236f13a954aabcdb3164"
+    },
+    {
+      "start": 137.26666666666668,
+      "end": 141.872375,
+      "text": "It is tempting to erase the zero when writing the number in digits.",
+      "source_sha256": "ae9fd8bebf330505a0a810052812d4e45965d6ebe70578778552c92e0c400386"
+    },
+    {
+      "start": 141.992375,
+      "end": 146.724,
+      "text": "But removing that placeholder shifts the other digits into different places.",
+      "source_sha256": "fd78b3a1bf3f9c85fa36fb17b06fb2b98981b7c0f08dd18e57c49dfbef92568d"
+    },
+    {
+      "start": 146.844,
+      "end": 153.53079166666666,
+      "text": "Leave zero in the standard number, even when its zero contribution is omitted from expanded form.",
+      "source_sha256": "1ee081473005eb44795d6ebb7374a05672f03217ada5ec2322db579cfa0b59cc"
+    },
+    {
+      "start": 153.9,
+      "end": 160.187125,
+      "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+      "source_sha256": "a94b7fbef4de42d7d5d19910bbf9b5bba74870d86fca1d8bd2228e9e597b7531"
+    },
+    {
+      "start": 165.2,
+      "end": 169.724375,
+      "text": "The total is six hundred and twenty-four thousand, three hundred and eight.",
+      "source_sha256": "6651fe53f2b17fd2f5944dd64f72a3ec2984a24739bc74a714aee366d0f627c9"
+    },
+    {
+      "start": 169.844375,
+      "end": 171.5815,
+      "text": "There are zero tens.",
+      "source_sha256": "b0c8314fdd92ab2241bb2ca0c87e4bc1176edb6e5b61451cf4d0606ec19d53fc"
+    },
+    {
+      "start": 171.93333333333334,
+      "end": 177.972375,
+      "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight.",
+      "source_sha256": "6448d82796e6be71fcab4bbbe6d44c68d8b00d0ed9cf9e1fb384bd23e1b50ef7"
+    },
+    {
+      "start": 178.092375,
+      "end": 182.60683333333333,
+      "text": "That gives six hundred and twenty four thousand, three hundred and eight.",
+      "source_sha256": "559aaadfedadd21228d143c1b274242a27ec7273c608ebed9b2cb3dc6bfccfb6"
+    },
+    {
+      "start": 182.72683333333333,
+      "end": 186.30654166666667,
+      "text": "There are no tens, but the zero still holds their place.",
+      "source_sha256": "f2066d57593b263bf250551ad858d0d2dc486af78c7d4b2d5c7698c93de211cb"
+    },
+    {
+      "start": 186.42654166666668,
+      "end": 191.433625,
+      "text": "Remember: read, partition and regroup, while keeping the value unchanged.",
+      "source_sha256": "6ab908eead602d8726ecf3574031aaebc1ffa25771c9c5bb882fa11668c78a6e"
+    },
+    {
+      "start": 191.8,
+      "end": 196.766,
+      "text": "Our goal was to read, write and regroup a whole number without changing its value.",
+      "source_sha256": "fdaa2da06ea2d6325781b7425579cbcbc732e03dddbb937c66a4d3cfa9911d68"
+    },
+    {
+      "start": 196.886,
+      "end": 202.67866666666666,
+      "text": "You can now explain your strategy, check the places carefully, and show why your answer makes sense.",
+      "source_sha256": "c05121d9be0181e7d5e9eabc7bfda5690a466e386fdea17c2467447b05a9070e"
+    },
+    {
+      "start": 202.79866666666666,
+      "end": 206.41195833333333,
+      "text": "Choose a number of your own and explain it to someone nearby.",
+      "source_sha256": "cab9c866b98aa8f683275d69424690577f29ddc91a2d7762edd1880e714e1e0e"
+    },
+    {
+      "start": 206.53195833333334,
+      "end": 209.71975,
+      "text": "Then try the lesson practice on Math Magic.",
+      "source_sha256": "bd3e5c67a871736d618226bff00bea66256633ab7b5cb23f1df99fed1c7327c5"
+    }
+  ],
+  "narration_sha256": "749f86de43fde22a29a93e2f4646f4fc52a877c4048c0b9fdeac7075b0fca309",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}
