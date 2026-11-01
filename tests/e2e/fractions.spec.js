@@ -107,6 +107,40 @@ test('original explainer frames stay responsive on desktop and mobile', async ({
   }
 });
 
+// UI-flow fixtures use each generated question's expected answer; mathematical
+// correctness is independently covered by the existing generator regression.
+async function submitValidAnswer(page) {
+  const question = await page.evaluate(() => {
+    const q = quiz[index];
+    return { type: q.type, answer: q.answer, options: q.options };
+  });
+  await expect(page.locator('#nextQuestion')).toBeDisabled();
+  if (question.type === 'choice') {
+    const option = question.options.indexOf(question.answer);
+    expect(option).toBeGreaterThanOrEqual(0);
+    await page.locator(`[data-choice-index="${option}"]`).click();
+  } else {
+    if (question.type === 'mixed') {
+      await page.locator('#whole').fill(String(question.answer[0]));
+      await page.locator('#num').fill('1');
+      await page.locator('#den').fill('1');
+      await page.locator('#checkAnswer').click();
+      await expect(page.locator('#nextQuestion')).toBeDisabled();
+      await expect(page.locator('#qFeedback')).toContainText('less than one whole');
+    }
+    const fields = question.type === 'mixed' ? ['whole', 'num', 'den']
+      : question.type === 'single' ? ['single'] : ['num', 'den'];
+    const values = Array.isArray(question.answer) ? question.answer : [question.answer];
+    for (let i = 0; i < fields.length; i++) {
+      await page.locator('#' + fields[i]).fill(String(values[i]));
+    }
+    await expect(page.locator('#nextQuestion')).toBeDisabled();
+    await page.locator('#checkAnswer').click();
+  }
+  await expect(page.locator('#qFeedback')).toHaveClass(/\bcorrect\b/);
+  await expect(page.locator('#nextQuestion')).toBeEnabled();
+}
+
 test('all 30 challenge positions are interactive and visually usable', async ({ page }) => {
   await openFractions(page);
   await page.locator('[data-screen="challenge"]').click();
@@ -124,25 +158,7 @@ test('all 30 challenge positions are interactive and visually usable', async ({ 
       expect(box.height).toBeGreaterThan(20);
     }
 
-    const choices = page.locator('#qAnswer [data-choice-index]');
-    if (await choices.count()) {
-      await choices.first().click();
-    } else {
-      const inputs = page.locator('#qAnswer input');
-      expect(await inputs.count()).toBeGreaterThan(0);
-      for (let i = 0; i < await inputs.count(); i++) await inputs.nth(i).fill('1');
-      await page.locator('#checkAnswer').click();
-    }
-
-    // Some simplified-fraction entries can request further simplification after
-    // an equivalent answer. Replace with a clearly wrong value to complete the item.
-    if (!(await page.locator('#nextQuestion').isEnabled())) {
-      const inputs = page.locator('#qAnswer input');
-      for (let i = 0; i < await inputs.count(); i++) {
-        await inputs.nth(i).fill(i === 0 ? '999' : '997');
-      }
-      await page.locator('#checkAnswer').click();
-    }
+    await submitValidAnswer(page);
 
     await expect(page.locator('#qFeedback')).not.toBeEmpty();
     await expect(page.locator('#nextQuestion')).toBeEnabled();
@@ -160,18 +176,7 @@ test('student-facing challenge does not expose slash fraction notation', async (
     const visible = await page.locator('#qPrompt, #qDisplay, #qAnswer').allTextContents();
     expect(visible.join(' ')).not.toMatch(/\b\d+\/\d+\b/);
 
-    const choices = page.locator('#qAnswer [data-choice-index]');
-    if (await choices.count()) await choices.first().click();
-    else {
-      const inputs = page.locator('#qAnswer input');
-      for (let i = 0; i < await inputs.count(); i++) await inputs.nth(i).fill(i === 0 ? '999' : '997');
-      await page.locator('#checkAnswer').click();
-    }
-    if (!(await page.locator('#nextQuestion').isEnabled())) {
-      const inputs = page.locator('#qAnswer input');
-      for (let i = 0; i < await inputs.count(); i++) await inputs.nth(i).fill(i === 0 ? '991' : '983');
-      await page.locator('#checkAnswer').click();
-    }
+    await submitValidAnswer(page);
     await page.locator('#nextQuestion').click();
   }
 });
