@@ -1,0 +1,1422 @@
+{
+  "duration": 233.83333333333334,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 9.738416666666666,
+      "end": 10.466666666666667,
+      "role": "hook",
+      "chapter": "A fraction puzzle for you",
+      "pause": 0.7,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "A fraction puzzle for you",
+        "text": "Can a share change its name without getting any bigger? Imagine dividing your half of a ribbon into smaller pieces. Have you somehow gained more ribbon?",
+        "role": "hook",
+        "equation": null,
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "A half-length share",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "The same share with more divisions",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.7,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 10.466666666666667,
+      "speech_end": 17.693666666666665,
+      "end": 18.3,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.6,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we're learning to recognise, create and explain equivalent fractions: different names for exactly the same amount.",
+        "role": "goal",
+        "equation": null,
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "A half-length share",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "The same share with more divisions",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.6,
+        "display": "Recognise, create and explain equivalent fractions."
+      }
+    },
+    {
+      "index": 2,
+      "start": 18.3,
+      "speech_end": 23.531041666666667,
+      "end": 23.733333333333334,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll recognise equal amounts, even when the pictures have different numbers of pieces.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Spot equal amounts in different models",
+          "Create equivalent fractions",
+          "Simplify without changing the value"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 23.733333333333334,
+      "speech_end": 27.929,
+      "end": 28.133333333333333,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll create a new fraction name by changing both numbers fairly.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Spot equal amounts in different models",
+          "Create equivalent fractions",
+          "Simplify without changing the value"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 28.133333333333333,
+      "speech_end": 33.97795833333333,
+      "end": 34.2,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll also simplify a fraction, and use a model to explain why its value stays the same.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Spot equal amounts in different models",
+          "Create equivalent fractions",
+          "Simplify without changing the value"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 34.2,
+      "speech_end": 43.354416666666665,
+      "end": 43.86666666666667,
+      "role": "explanation",
+      "chapter": "Start with the whole",
+      "pause": 0.5,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Start with the whole",
+        "text": "First, choose one whole. Its parts must be equal in size. The outline of the model shows the entire whole, not just the coloured share.",
+        "role": "explanation",
+        "equation": null,
+        "rows": [
+          {
+            "n": 0,
+            "d": 4,
+            "label": "One whole divided into four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.5,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 43.86666666666667,
+      "speech_end": 55.721833333333336,
+      "end": 56.333333333333336,
+      "role": "explanation",
+      "chapter": "Connect the picture to the numbers",
+      "pause": 0.6,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Connect the picture to the numbers",
+        "text": "Here, three equal parts are chosen out of four. The top number, the numerator, counts chosen parts. The bottom number, the denominator, tells how many equal parts make the whole.",
+        "role": "explanation",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three of four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.6
+      }
+    },
+    {
+      "index": 7,
+      "start": 56.333333333333336,
+      "speech_end": 63.94275,
+      "end": 66.96666666666667,
+      "role": "prediction",
+      "chapter": "Example 1: rename a half",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "If every half is split into two equal pieces, what will happen to the coloured amount? Predict its new fraction name.",
+        "chapter": "Example 1: rename a half",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "The whole and shaded amount stay the same.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 1,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 66.96666666666667,
+      "speech_end": 75.78104166666667,
+      "end": 76.13333333333334,
+      "role": "explanation",
+      "chapter": "Split every part equally",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Start with one half. Split every part of the whole into two equal pieces. The shaded half now contains two quarters.",
+        "chapter": "Split every part equally",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Before",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "After",
+            "colour": "gold"
+          }
+        ],
+        "note": "The whole and shaded amount stay the same.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 1
+      }
+    },
+    {
+      "index": 9,
+      "start": 76.13333333333334,
+      "speech_end": 85.81916666666666,
+      "end": 86.2,
+      "role": "explanation",
+      "chapter": "Rename again",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Split every quarter in half again. Now four of eight equal pieces are shaded. One half, two quarters and four eighths are equivalent.",
+        "chapter": "Rename again",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Smaller pieces, more pieces, same amount.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 2
+      }
+    },
+    {
+      "index": 10,
+      "start": 86.2,
+      "speech_end": 95.42320833333333,
+      "end": 96.1,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Notice the coloured length stays fixed while the boundaries change. We aren't adding ribbon; we're choosing a new way to count equal-sized pieces.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Smaller pieces, more pieces, same amount.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 2
+      }
+    },
+    {
+      "index": 11,
+      "start": 96.1,
+      "speech_end": 103.760625,
+      "end": 104.13333333333334,
+      "role": "explanation",
+      "chapter": "Scale both numbers",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "The number rule matches the picture. Multiply the numerator and denominator by the same non-zero number.",
+        "chapter": "Scale both numbers",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 4,
+            "d": 8,
+            "label": "Four eighths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Multiplying by four over four is multiplying by one.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 3
+      }
+    },
+    {
+      "index": 12,
+      "start": 104.13333333333334,
+      "speech_end": 111.96654166666667,
+      "end": 114.96666666666667,
+      "role": "prediction",
+      "chapter": "Example 2: rename three fifths",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "Can you give three fifths a new name with twenty equal parts in the whole? Think about what changes and what must stay unchanged.",
+        "chapter": "Example 2: rename three fifths",
+        "equation": [
+          [
+            3,
+            5
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            12,
+            20
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 5,
+            "label": "Three fifths",
+            "colour": "teal"
+          },
+          {
+            "n": 12,
+            "d": 20,
+            "label": "Twelve twentieths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Both numbers change by the same factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 4,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 13,
+      "start": 114.96666666666667,
+      "speech_end": 122.56966666666666,
+      "end": 122.93333333333334,
+      "role": "explanation",
+      "chapter": "Worked example",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "For three fifths, multiply both numbers by four. Three times four is twelve, and five times four is twenty.",
+        "chapter": "Worked example",
+        "equation": [
+          [
+            3,
+            5
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            12,
+            20
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 5,
+            "label": "Three fifths",
+            "colour": "teal"
+          },
+          {
+            "n": 12,
+            "d": 20,
+            "label": "Twelve twentieths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Both numbers change by the same factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 14,
+      "start": 122.93333333333334,
+      "speech_end": 133.37479166666665,
+      "end": 134.03333333333333,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "The whole has four times as many pieces, and the chosen share has four times as many pieces too. Changing both counts together keeps the share unchanged.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            3,
+            5
+          ],
+          "×",
+          [
+            4,
+            4
+          ],
+          "=",
+          [
+            12,
+            20
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 5,
+            "label": "Three fifths",
+            "colour": "teal"
+          },
+          {
+            "n": 12,
+            "d": 20,
+            "label": "Twelve twentieths",
+            "colour": "gold"
+          }
+        ],
+        "note": "Both numbers change by the same factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 15,
+      "start": 134.03333333333333,
+      "speech_end": 140.86079166666667,
+      "end": 141.23333333333332,
+      "role": "explanation",
+      "chapter": "One position, many names",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Equivalent fractions also land at the same point on a number line. They are different names for one number.",
+        "chapter": "One position, many names",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ],
+          "=",
+          [
+            4,
+            8
+          ]
+        ],
+        "rows": [],
+        "note": "One half, two quarters and four eighths meet here.",
+        "line": {
+          "d": 8,
+          "points": [
+            4
+          ],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 5
+      }
+    },
+    {
+      "index": 16,
+      "start": 141.23333333333332,
+      "speech_end": 148.27604166666666,
+      "end": 148.63333333333333,
+      "role": "explanation",
+      "chapter": "Simplify without changing value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Simplifying works in reverse. Group equal pieces together instead of splitting them into smaller pieces.",
+        "chapter": "Simplify without changing value",
+        "equation": [
+          [
+            6,
+            8
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Look for a common factor.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 6
+      }
+    },
+    {
+      "index": 17,
+      "start": 148.63333333333333,
+      "speech_end": 157.173375,
+      "end": 157.53333333333333,
+      "role": "explanation",
+      "chapter": "Group the pieces",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Group the eighths in pairs. Six eighths becomes three quarters. We divided the numerator and denominator by two.",
+        "chapter": "Group the pieces",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "=",
+          [
+            "6 ÷ 2",
+            "8 ÷ 2"
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 6,
+            "d": 8,
+            "label": "Six eighths",
+            "colour": "teal"
+          },
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Three and four have no common factor greater than one.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 7
+      }
+    },
+    {
+      "index": 18,
+      "start": 157.53333333333333,
+      "speech_end": 167.50991666666667,
+      "end": 167.86666666666667,
+      "role": "explanation",
+      "chapter": "Another simplification",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Try twelve eighteenths. Both twelve and eighteen divide by six. Twelve divided by six is two; eighteen divided by six is three.",
+        "chapter": "Another simplification",
+        "equation": [
+          [
+            12,
+            18
+          ],
+          "=",
+          [
+            "12 ÷ 6",
+            "18 ÷ 6"
+          ],
+          "=",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 12,
+            "d": 18,
+            "label": "Twelve eighteenths",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Two thirds is in simplest form.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 8
+      }
+    },
+    {
+      "index": 19,
+      "start": 167.86666666666667,
+      "speech_end": 176.15695833333334,
+      "end": 176.53333333333333,
+      "role": "misconception",
+      "chapter": "Spot the mistake",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "text": "Be careful: adding the same number to both numbers does not preserve the value. One half and two thirds are different amounts.",
+        "chapter": "Spot the mistake",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "≠",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Use multiplication or division, not addition.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.35,
+        "source_beat": 9
+      }
+    },
+    {
+      "index": 20,
+      "start": 176.53333333333333,
+      "speech_end": 185.434625,
+      "end": 186.1,
+      "role": "misconception",
+      "chapter": "A useful mistake to notice",
+      "pause": 0.65,
+      "speed": 0.88,
+      "graphic": {
+        "text": "Adding one to the top and bottom gives two thirds, not another name for one half. Compare the equal-length bars: the coloured amounts are different.",
+        "chapter": "A useful mistake to notice",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "≠",
+          [
+            2,
+            3
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 2,
+            "label": "One half",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 3,
+            "label": "Two thirds",
+            "colour": "gold"
+          }
+        ],
+        "note": "Use multiplication or division, not addition.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.65,
+        "source_beat": 9
+      }
+    },
+    {
+      "index": 21,
+      "start": 186.1,
+      "speech_end": 192.60641666666666,
+      "end": 192.96666666666667,
+      "role": "explanation",
+      "chapter": "Break an amount into parts",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "We can also partition a fraction. Three quarters is three one-quarter pieces added together.",
+        "chapter": "Break an amount into parts",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarter-pieces",
+            "colour": "teal"
+          }
+        ],
+        "note": "Partitioning keeps the total amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 10
+      }
+    },
+    {
+      "index": 22,
+      "start": 192.96666666666667,
+      "speech_end": 201.563625,
+      "end": 201.93333333333334,
+      "role": "explanation",
+      "chapter": "Another useful partition",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Two quarters make one half, so three quarters is also one half plus one quarter. Different partitions can describe the same amount.",
+        "chapter": "Another useful partition",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          "=",
+          [
+            1,
+            2
+          ],
+          "+",
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Two quarters plus one quarter",
+            "colour": "teal"
+          }
+        ],
+        "note": "One amount can be split in different ways.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 11
+      }
+    },
+    {
+      "index": 23,
+      "start": 201.93333333333334,
+      "speech_end": 204.96204166666666,
+      "end": 209.96666666666667,
+      "role": "question",
+      "chapter": "Your turn: think for five seconds",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "Your turn: think for five seconds",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "?",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Think for five seconds, then explain your reasoning.",
+        "text": "Is six eighths equivalent to three quarters?",
+        "pause": 5,
+        "role": "question",
+        "source_beat": 12,
+        "hide_equation": false
+      }
+    },
+    {
+      "index": 24,
+      "start": 209.96666666666667,
+      "speech_end": 214.77079166666667,
+      "end": 215.13333333333333,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            6,
+            8
+          ],
+          "=",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Yes. Dividing both six and eight by two gives three quarters.",
+        "pause": 0.35,
+        "role": "answer",
+        "source_beat": 13
+      }
+    },
+    {
+      "index": 25,
+      "start": 215.13333333333333,
+      "speech_end": 231.81404166666667,
+      "end": 233.83333333333334,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 2,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Look what you can do now",
+        "text": "We set out to recognise, create and explain equivalent fractions. You can split or group equal parts, change both numbers together, and check that the amount stays the same. How many names can you find for one half? Explore the practice on Math Magic.",
+        "role": "recap",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 2,
+        "display": "Recognise, create and explain equivalent fractions.",
+        "criteria": [
+          "Spot equal amounts in different models",
+          "Create equivalent fractions",
+          "Simplify without changing the value"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.125875,
+      "text": "Can a share change its name without getting any bigger?",
+      "source_sha256": "f8995dd7243530d6101916b797d92c1e05ee8e6352c6a5983317d820e36e3438"
+    },
+    {
+      "start": 3.245875,
+      "end": 7.218125,
+      "text": "Imagine dividing your half of a ribbon into smaller pieces.",
+      "source_sha256": "a1c0e4cef39baeeaef05b09ac31ee85335b1e708684c388a3a89637bf70901c0"
+    },
+    {
+      "start": 7.338125,
+      "end": 9.738416666666666,
+      "text": "Have you somehow gained more ribbon?",
+      "source_sha256": "fba66723d6011351180cbd3cf5a69affd0812eb6e00dcf856dc869d1a666fbe6"
+    },
+    {
+      "start": 10.466666666666667,
+      "end": 17.693666666666665,
+      "text": "Today, we're learning to recognise, create and explain equivalent fractions: different names for exactly the same amount.",
+      "source_sha256": "b1b3dc3717dd03488da4f081b7d5daa5772bfef978b5d63736dfaa60f82258a9"
+    },
+    {
+      "start": 18.3,
+      "end": 23.531041666666667,
+      "text": "You'll recognise equal amounts, even when the pictures have different numbers of pieces.",
+      "source_sha256": "ca61e2e7bf3bc407e64a25a1ad91382bcc55eee0ecc663965bedb0a489b22563"
+    },
+    {
+      "start": 23.733333333333334,
+      "end": 27.929,
+      "text": "You'll create a new fraction name by changing both numbers fairly.",
+      "source_sha256": "d592c0296f63cf19bd795754f6cd006d5482df58dfd44b7319ee26af78a6c14c"
+    },
+    {
+      "start": 28.133333333333333,
+      "end": 33.97795833333333,
+      "text": "You'll also simplify a fraction, and use a model to explain why its value stays the same.",
+      "source_sha256": "a1626cad5e6406d306b34830fa2b209fc017b1b191018e2f11c6fdc28d0976fa"
+    },
+    {
+      "start": 34.2,
+      "end": 35.77033333333333,
+      "text": "First, choose one whole.",
+      "source_sha256": "7e101bd27b3da6ca2ce27baafb76055fd7259335a137a8e746cb201af616b823"
+    },
+    {
+      "start": 35.89033333333333,
+      "end": 38.5975,
+      "text": "Its parts must be equal in size.",
+      "source_sha256": "b9bf48a1ffc5b6d3c73fb0a8c27542e8712625a8731aa2275ae536f2d0cbbf1a"
+    },
+    {
+      "start": 38.7175,
+      "end": 43.354416666666665,
+      "text": "The outline of the model shows the entire whole, not just the coloured share.",
+      "source_sha256": "73d1a9c4a463db9a97e01aa06c1e10c242f158e9c0feae2f017d2b42e2e43f9e"
+    },
+    {
+      "start": 43.86666666666667,
+      "end": 47.082125,
+      "text": "Here, three equal parts are chosen out of four.",
+      "source_sha256": "384340c7a80ec6886d87195982f702328b9f2a1a2cfd4f50da242032f0a6f99f"
+    },
+    {
+      "start": 47.202125,
+      "end": 50.97304166666667,
+      "text": "The top number, the numerator, counts chosen parts.",
+      "source_sha256": "e44912350979e0f4f14884ca88d5e96d596453de0683d8b01cbdefbd2c98836b"
+    },
+    {
+      "start": 51.093041666666664,
+      "end": 55.721833333333336,
+      "text": "The bottom number, the denominator, tells how many equal parts make the whole.",
+      "source_sha256": "05a1025f9d006de9936984495c767ecd74f32f8caac28a6ab28ad75e66a2e319"
+    },
+    {
+      "start": 56.333333333333336,
+      "end": 61.5715,
+      "text": "If every half is split into two equal pieces, what will happen to the coloured amount?",
+      "source_sha256": "0f651c14110f5ebe8177b2449851a003d64bcf71168673881872732af0582017"
+    },
+    {
+      "start": 61.6915,
+      "end": 63.94275,
+      "text": "Predict its new fraction name.",
+      "source_sha256": "8b023e0cc5ed41e2368b857d83079c8c4d8e157a1d15fbe32a944d2dceadd4c2"
+    },
+    {
+      "start": 66.96666666666667,
+      "end": 68.58729166666667,
+      "text": "Start with one half.",
+      "source_sha256": "19cf481299edc04ecdbb4329c7c454b5e87d0b16adda2a8ef35a2baf0f883ead"
+    },
+    {
+      "start": 68.70729166666666,
+      "end": 72.548,
+      "text": "Split every part of the whole into two equal pieces.",
+      "source_sha256": "5a6fe72cf104d0c306204955f9dfea35d3407083a75879f5987c3c9c4f8639de"
+    },
+    {
+      "start": 72.668,
+      "end": 75.78104166666667,
+      "text": "The shaded half now contains two quarters.",
+      "source_sha256": "d10cc5c62a180cb7ef2d1ab576bf03219b74ca3fd54d90083d85551238508b2a"
+    },
+    {
+      "start": 76.13333333333334,
+      "end": 78.549625,
+      "text": "Split every quarter in half again.",
+      "source_sha256": "fbe653b8834db1ca93e8ad4efb6a05add37a197e82a56d6dc6904733f82954c2"
+    },
+    {
+      "start": 78.669625,
+      "end": 81.88558333333333,
+      "text": "Now four of eight equal pieces are shaded.",
+      "source_sha256": "421c5a793d587842c3f3c989f9ab80d246cca35a605348bfeca5c2b9e73d58dd"
+    },
+    {
+      "start": 82.00558333333333,
+      "end": 85.81916666666666,
+      "text": "One half, two quarters and four eighths are equivalent.",
+      "source_sha256": "4d8f112040ab74525e447fcde78471f8a53612b0f88ad9d125a78811b211bf63"
+    },
+    {
+      "start": 86.2,
+      "end": 90.31154166666667,
+      "text": "Notice the coloured length stays fixed while the boundaries change.",
+      "source_sha256": "62866978d23e349c27946e1d3be646ffc1955d9f41f1b4916b052328214a02d6"
+    },
+    {
+      "start": 90.43154166666666,
+      "end": 95.42320833333333,
+      "text": "We aren't adding ribbon; we're choosing a new way to count equal-sized pieces.",
+      "source_sha256": "0682fb0cfb03680574f1a93c133eb9e8c48986c0ff18730e120807d6c6037348"
+    },
+    {
+      "start": 96.1,
+      "end": 98.72520833333333,
+      "text": "The number rule matches the picture.",
+      "source_sha256": "cd5d9ab0c65063cbf119aecf5ef6f8f1b89a0dbbd94db292455020a4fc55c96b"
+    },
+    {
+      "start": 98.84520833333333,
+      "end": 103.760625,
+      "text": "Multiply the numerator and denominator by the same non-zero number.",
+      "source_sha256": "b9a472c55d659c85e1d32384063c732c145f5190e87cc7241c67eff29a135347"
+    },
+    {
+      "start": 104.13333333333334,
+      "end": 108.45191666666666,
+      "text": "Can you give three fifths a new name with twenty equal parts in the whole?",
+      "source_sha256": "45830bc9b799a4bd07c36f10e48ccc38451450c2f00041b8eebec7ca298b578b"
+    },
+    {
+      "start": 108.57191666666667,
+      "end": 111.96654166666667,
+      "text": "Think about what changes and what must stay unchanged.",
+      "source_sha256": "296dc64119011211ee077c824dd59ed93622c48e7aa8f712d32fc90c55a76f54"
+    },
+    {
+      "start": 114.96666666666667,
+      "end": 118.58241666666666,
+      "text": "For three fifths, multiply both numbers by four.",
+      "source_sha256": "1700873487b2280cfae547b2f03e01ce9fd735ded0310c9c4745627807080e7f"
+    },
+    {
+      "start": 118.70241666666666,
+      "end": 122.56966666666666,
+      "text": "Three times four is twelve, and five times four is twenty.",
+      "source_sha256": "c99441dd10422b9fb36885ec2ffabe5a4541fff741af82c2086ae834e08c0e79"
+    },
+    {
+      "start": 122.93333333333334,
+      "end": 129.34541666666667,
+      "text": "The whole has four times as many pieces, and the chosen share has four times as many pieces too.",
+      "source_sha256": "36baff1f84ee40cd25d500bf0b4fa8345d4a1cb912c8bb44a00b4fad9608f507"
+    },
+    {
+      "start": 129.46541666666667,
+      "end": 133.37479166666665,
+      "text": "Changing both counts together keeps the share unchanged.",
+      "source_sha256": "e6a220e9efe4f9d156323f935b9292334c06b981eb3b90365293561e8e504d37"
+    },
+    {
+      "start": 134.03333333333333,
+      "end": 138.24004166666666,
+      "text": "Equivalent fractions also land at the same point on a number line.",
+      "source_sha256": "5c64ff95ec97d2196aee7bea93d656239d4ea4f553cf758127742f19d17a6d89"
+    },
+    {
+      "start": 138.36004166666666,
+      "end": 140.86079166666667,
+      "text": "They are different names for one number.",
+      "source_sha256": "e8559e1f50365c8111fbc16318e03284b5aa85b56ee0b9fc639a46a793c0d44c"
+    },
+    {
+      "start": 141.23333333333332,
+      "end": 143.507375,
+      "text": "Simplifying works in reverse.",
+      "source_sha256": "6e682198eded2ae89ed378dfad0c40ff01bd92fef94a3b209129b262e7f97424"
+    },
+    {
+      "start": 143.627375,
+      "end": 148.27604166666666,
+      "text": "Group equal pieces together instead of splitting them into smaller pieces.",
+      "source_sha256": "aa1873aff56735493dbd16e262142fdec80ed7de8c0e557988364f96f3552004"
+    },
+    {
+      "start": 148.63333333333333,
+      "end": 150.77175,
+      "text": "Group the eighths in pairs.",
+      "source_sha256": "5513fb0295a50c3de063e6045dc9f24ac95670d4f83ae5797db5b7edfb5d43dd"
+    },
+    {
+      "start": 150.89175,
+      "end": 153.35304166666666,
+      "text": "Six eighths becomes three quarters.",
+      "source_sha256": "c1342e88624ac5052deb8243d5316c38582cd8ade68f23cbe07783a5a56994d8"
+    },
+    {
+      "start": 153.47304166666666,
+      "end": 157.173375,
+      "text": "We divided the numerator and denominator by two.",
+      "source_sha256": "ee6e9dd30c130ee89424238f657d494da2ea224792d4428e5f40525445710ed4"
+    },
+    {
+      "start": 157.53333333333333,
+      "end": 159.39045833333333,
+      "text": "Try twelve eighteenths.",
+      "source_sha256": "f64c76735190376a17188ec8d685c0395ea120400197b094bf8e9c1725ff2d8f"
+    },
+    {
+      "start": 159.51045833333333,
+      "end": 162.77858333333333,
+      "text": "Both twelve and eighteen divide by six.",
+      "source_sha256": "a34000f02fbe98f07ab3222b2daf106a788a339b57ca2729eccbd3c1d8686ce9"
+    },
+    {
+      "start": 162.89858333333333,
+      "end": 167.50991666666667,
+      "text": "Twelve divided by six is two; eighteen divided by six is three.",
+      "source_sha256": "789b7241b6cd34f67e612144e511249b85b5fdd0fc44a2bb477cecd31a9f22e7"
+    },
+    {
+      "start": 167.86666666666667,
+      "end": 172.856625,
+      "text": "Be careful: adding the same number to both numbers does not preserve the value.",
+      "source_sha256": "6cdefa4c45d177559768acfce2c8f25f72924e48172e8385d4460b7439256fb9"
+    },
+    {
+      "start": 172.976625,
+      "end": 176.15695833333334,
+      "text": "One half and two thirds are different amounts.",
+      "source_sha256": "fb607279aa4a7f120ca45b13c813bf59278badcbace77f1e16171392acc6747d"
+    },
+    {
+      "start": 176.53333333333333,
+      "end": 181.451875,
+      "text": "Adding one to the top and bottom gives two thirds, not another name for one half.",
+      "source_sha256": "e623ead59f477bdec6d185b6e0198c3f3d672c34a84d5842cbee137dc67b5732"
+    },
+    {
+      "start": 181.571875,
+      "end": 185.434625,
+      "text": "Compare the equal-length bars: the coloured amounts are different.",
+      "source_sha256": "de46961bc52b76a2e515daae575887be10f1f2559a09a771398ac04d0e5fdc73"
+    },
+    {
+      "start": 186.1,
+      "end": 188.67083333333332,
+      "text": "We can also partition a fraction.",
+      "source_sha256": "3eb4ecd569542f147756fb5c70512480d869785ec601a0fb8e52fe77a6612e88"
+    },
+    {
+      "start": 188.79083333333332,
+      "end": 192.60641666666666,
+      "text": "Three quarters is three one-quarter pieces added together.",
+      "source_sha256": "6e6c17d2efca9c2c4e160766bfca43d396a0b3a9bd0fd8c26c3fc7c295823b2a"
+    },
+    {
+      "start": 192.96666666666667,
+      "end": 198.10258333333334,
+      "text": "Two quarters make one half, so three quarters is also one half plus one quarter.",
+      "source_sha256": "326c6787d10d34d88a9fea7fbb3e6c7f89f589cb4215c776c39cb3ab1a89ecb1"
+    },
+    {
+      "start": 198.22258333333335,
+      "end": 201.563625,
+      "text": "Different partitions can describe the same amount.",
+      "source_sha256": "332b6b36153c71f4463489ea48361995c5e6c2ce6fed5640cc4135d1c7c23ad0"
+    },
+    {
+      "start": 201.93333333333334,
+      "end": 204.96204166666666,
+      "text": "Is six eighths equivalent to three quarters?",
+      "source_sha256": "a5e1503b50634e6afcc697e8b6d031e3bbacbf1347eb0f40ab5add71db0bc9ef"
+    },
+    {
+      "start": 209.96666666666667,
+      "end": 210.80825,
+      "text": "Yes.",
+      "source_sha256": "4fd86f3edc8903f69a77d80350f24493605f0144399774cb8c10aaff2973b102"
+    },
+    {
+      "start": 210.92825,
+      "end": 214.77079166666667,
+      "text": "Dividing both six and eight by two gives three quarters.",
+      "source_sha256": "89e38c676ad50aa95e6d530b83d67f8fc69c9a7653b97166cf9f122efaa56b85"
+    },
+    {
+      "start": 215.13333333333333,
+      "end": 219.553125,
+      "text": "We set out to recognise, create and explain equivalent fractions.",
+      "source_sha256": "4b9c474e8b18041ae295301ea066cf5a3ea8e96392e2a77887e3ed8b0a31ac9a"
+    },
+    {
+      "start": 219.673125,
+      "end": 226.14916666666667,
+      "text": "You can split or group equal parts, change both numbers together, and check that the amount stays the same.",
+      "source_sha256": "35179425a4c76854727a35b09caef103761067b0e1edd7ae81b0840b11af9ab4"
+    },
+    {
+      "start": 226.26916666666668,
+      "end": 229.04370833333334,
+      "text": "How many names can you find for one half?",
+      "source_sha256": "14cab8408d56163c25787a78f1e745b69f3d3f781e30ad4581e87977dc3d59d3"
+    },
+    {
+      "start": 229.16370833333335,
+      "end": 231.81404166666667,
+      "text": "Explore the practice on Math Magic.",
+      "source_sha256": "d9fcb9b1bfc719df0b354f391fb20e9202e197c3b18118814fc04fffb6128adc"
+    }
+  ],
+  "narration_sha256": "6dde23fd5403cce5d82abb5a758213d0538a2b1b3963b6d49745c31d3dbea692",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}

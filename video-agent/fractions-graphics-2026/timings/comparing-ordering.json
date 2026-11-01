@@ -1,0 +1,1331 @@
+{
+  "duration": 226.3,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 8.380125,
+      "end": 9.1,
+      "role": "hook",
+      "chapter": "A fraction puzzle for you",
+      "pause": 0.7,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "A fraction puzzle for you",
+        "text": "Two friends both claim they've chosen the bigger share of the same-sized chocolate bar. How could a picture settle this delicious disagreement?",
+        "role": "hook",
+        "equation": null,
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "A share of a chocolate bar",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Another share of the same-sized bar",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.7,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 9.1,
+      "speech_end": 15.963666666666667,
+      "end": 16.566666666666666,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.6,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we're learning to compare and order fractions, so we can explain which amount is greater, smaller or equal.",
+        "role": "goal",
+        "equation": null,
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "A share of a chocolate bar",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 2,
+            "label": "Another share of the same-sized bar",
+            "colour": "gold"
+          }
+        ],
+        "note": "",
+        "pause": 0.6,
+        "display": "Compare and order fractions using models and reasoning."
+      }
+    },
+    {
+      "index": 2,
+      "start": 16.566666666666666,
+      "speech_end": 20.289083333333334,
+      "end": 20.5,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll compare shares fairly, using wholes of the same size.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Compare equal-sized parts",
+          "Explain comparisons using models",
+          "Order fractions on a number line"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 20.5,
+      "speech_end": 26.538125,
+      "end": 26.766666666666666,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You'll use a picture or equivalent fractions to explain your choice, rather than guessing from the numbers.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Compare equal-sized parts",
+          "Explain comparisons using models",
+          "Order fractions on a number line"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 26.766666666666666,
+      "speech_end": 31.221791666666668,
+      "end": 31.433333333333334,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.2,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "And you'll put fractions in order by finding their positions on a number line.",
+        "role": "criteria",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 0.2,
+        "criteria": [
+          "Compare equal-sized parts",
+          "Explain comparisons using models",
+          "Order fractions on a number line"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 31.433333333333334,
+      "speech_end": 40.59891666666667,
+      "end": 41.1,
+      "role": "explanation",
+      "chapter": "Start with the whole",
+      "pause": 0.5,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Start with the whole",
+        "text": "First, choose one whole. Its parts must be equal in size. The outline of the model shows the entire whole, not just the coloured share.",
+        "role": "explanation",
+        "equation": null,
+        "rows": [
+          {
+            "n": 0,
+            "d": 4,
+            "label": "One whole divided into four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.5,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 41.1,
+      "speech_end": 52.9425,
+      "end": 53.56666666666667,
+      "role": "explanation",
+      "chapter": "Connect the picture to the numbers",
+      "pause": 0.6,
+      "speed": 0.9,
+      "graphic": {
+        "chapter": "Connect the picture to the numbers",
+        "text": "Here, three equal parts are chosen out of four. The top number, the numerator, counts chosen parts. The bottom number, the denominator, tells how many equal parts make the whole.",
+        "role": "explanation",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three of four equal parts",
+            "colour": "teal"
+          }
+        ],
+        "note": "",
+        "pause": 0.6
+      }
+    },
+    {
+      "index": 7,
+      "start": 53.56666666666667,
+      "speech_end": 60.1835,
+      "end": 60.56666666666667,
+      "role": "explanation",
+      "chapter": "Equal parts make fractions",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "A fraction starts with equal parts. Here, one whole is divided into four equal pieces.",
+        "chapter": "Equal parts make fractions",
+        "equation": [
+          [
+            1,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Each piece is one quarter.",
+        "line": null,
+        "area": [
+          1,
+          4
+        ],
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 1
+      }
+    },
+    {
+      "index": 8,
+      "start": 60.56666666666667,
+      "speech_end": 69.35775,
+      "end": 69.73333333333333,
+      "role": "explanation",
+      "chapter": "Read the fraction",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Shade three pieces. The numerator, three, counts the shaded parts. The denominator, four, counts the equal parts in the whole.",
+        "chapter": "Read the fraction",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Numerator: parts chosen. Denominator: equal parts in one whole.",
+        "line": null,
+        "area": [
+          3,
+          4
+        ],
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 2
+      }
+    },
+    {
+      "index": 9,
+      "start": 69.73333333333333,
+      "speech_end": 78.24895833333333,
+      "end": 78.6,
+      "role": "explanation",
+      "chapter": "Different model, same value",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "A strip shows the same amount. Three of four equal lengths are shaded. The picture changes, but the value stays the same.",
+        "chapter": "Different model, same value",
+        "equation": [
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three equal quarter-lengths",
+            "colour": "teal"
+          }
+        ],
+        "note": "Area models and strips show the same fraction.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 3
+      }
+    },
+    {
+      "index": 10,
+      "start": 78.6,
+      "speech_end": 87.13616666666667,
+      "end": 90.16666666666667,
+      "role": "prediction",
+      "chapter": "Example 1: compare matching parts",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "Look at these two equal-sized wholes. Which has the greater coloured share? Count the quarter-sized pieces before you decide.",
+        "chapter": "Example 1: compare matching parts",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Compare the numerators when denominators match.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 4,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 11,
+      "start": 90.16666666666667,
+      "speech_end": 99.29233333333333,
+      "end": 99.66666666666667,
+      "role": "explanation",
+      "chapter": "Same denominator",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "When denominators match, the pieces have the same size. Three quarters is greater than two quarters because three pieces are more than two.",
+        "chapter": "Same denominator",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Compare the numerators when denominators match.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 12,
+      "start": 99.66666666666667,
+      "speech_end": 109.808875,
+      "end": 110.46666666666667,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "We can count these pieces directly because their sizes match. With the same denominator and equal-sized wholes, more chosen parts means more of the whole.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "Two quarters",
+            "colour": "gold"
+          }
+        ],
+        "note": "Compare the numerators when denominators match.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 4
+      }
+    },
+    {
+      "index": 13,
+      "start": 110.46666666666667,
+      "speech_end": 117.44466666666666,
+      "end": 117.8,
+      "role": "explanation",
+      "chapter": "One piece: compare its size",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now compare one third and one sixth. These wholes are the same length, but the sixths are smaller pieces.",
+        "chapter": "One piece: compare its size",
+        "equation": [
+          [
+            1,
+            3
+          ],
+          "?",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 3,
+            "label": "One third",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 6,
+            "label": "One sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "More equal pieces in a whole means smaller pieces.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 5
+      }
+    },
+    {
+      "index": 14,
+      "start": 117.8,
+      "speech_end": 125.14591666666666,
+      "end": 125.5,
+      "role": "misconception",
+      "chapter": "Unit fractions",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "text": "So one third is greater than one sixth. A bigger denominator does not always mean a bigger fraction.",
+        "chapter": "Unit fractions",
+        "equation": [
+          [
+            1,
+            3
+          ],
+          ">",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 3,
+            "label": "One third",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 6,
+            "label": "One sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "For unit fractions, compare the size of one piece.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.35,
+        "source_beat": 6
+      }
+    },
+    {
+      "index": 15,
+      "start": 125.5,
+      "speech_end": 135.08404166666668,
+      "end": 135.76666666666668,
+      "role": "misconception",
+      "chapter": "A useful mistake to notice",
+      "pause": 0.65,
+      "speed": 0.88,
+      "graphic": {
+        "text": "It can be tempting to choose the fraction with the bigger denominator. But dividing the same whole into more pieces makes each piece smaller, not bigger.",
+        "chapter": "A useful mistake to notice",
+        "equation": [
+          [
+            1,
+            3
+          ],
+          ">",
+          [
+            1,
+            6
+          ]
+        ],
+        "rows": [
+          {
+            "n": 1,
+            "d": 3,
+            "label": "One third",
+            "colour": "teal"
+          },
+          {
+            "n": 1,
+            "d": 6,
+            "label": "One sixth",
+            "colour": "gold"
+          }
+        ],
+        "note": "For unit fractions, compare the size of one piece.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "misconception",
+        "pause": 0.65,
+        "source_beat": 6
+      }
+    },
+    {
+      "index": 16,
+      "start": 135.76666666666668,
+      "speech_end": 145.04645833333333,
+      "end": 148.06666666666666,
+      "role": "prediction",
+      "chapter": "Example 2: make the pieces match",
+      "pause": 3,
+      "speed": 0.92,
+      "graphic": {
+        "text": "Now the pieces have different sizes. Predict whether three quarters or one half is greater. Could you describe the half using quarters?",
+        "chapter": "Example 2: make the pieces match",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half, renamed",
+            "colour": "gold"
+          }
+        ],
+        "note": "Renaming keeps the amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "prediction",
+        "pause": 3,
+        "source_beat": 7,
+        "hide_equation": true,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 17,
+      "start": 148.06666666666666,
+      "speech_end": 156.25308333333334,
+      "end": 156.63333333333333,
+      "role": "explanation",
+      "chapter": "Use equal-sized parts",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Return to three quarters and one half. Split each half into two equal pieces. One half becomes two quarters.",
+        "chapter": "Use equal-sized parts",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half, renamed",
+            "colour": "gold"
+          }
+        ],
+        "note": "Renaming keeps the amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 7
+      }
+    },
+    {
+      "index": 18,
+      "start": 156.63333333333333,
+      "speech_end": 166.10320833333333,
+      "end": 166.76666666666668,
+      "role": "explanation",
+      "chapter": "Why does that work?",
+      "pause": 0.65,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Only the divisions have changed. The half still covers exactly the same length. Two quarters and one half are equivalent names for that amount.",
+        "chapter": "Why does that work?",
+        "equation": [
+          [
+            1,
+            2
+          ],
+          "=",
+          [
+            2,
+            4
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half, renamed",
+            "colour": "gold"
+          }
+        ],
+        "note": "Renaming keeps the amount unchanged.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.65,
+        "source_beat": 7
+      }
+    },
+    {
+      "index": 19,
+      "start": 166.76666666666668,
+      "speech_end": 173.83416666666668,
+      "end": 174.2,
+      "role": "explanation",
+      "chapter": "Make the comparison",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now the parts match. Three quarters is greater than two quarters, so three quarters is greater than one half.",
+        "chapter": "Make the comparison",
+        "equation": [
+          [
+            3,
+            4
+          ],
+          ">",
+          [
+            1,
+            2
+          ]
+        ],
+        "rows": [
+          {
+            "n": 3,
+            "d": 4,
+            "label": "Three quarters",
+            "colour": "teal"
+          },
+          {
+            "n": 2,
+            "d": 4,
+            "label": "One half",
+            "colour": "gold"
+          }
+        ],
+        "note": "Same whole. Same-sized parts. Clear comparison.",
+        "line": null,
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 8
+      }
+    },
+    {
+      "index": 20,
+      "start": 174.2,
+      "speech_end": 182.88941666666668,
+      "end": 183.26666666666668,
+      "role": "explanation",
+      "chapter": "Fractions are numbers",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "A number line shows fraction size as distance from zero. Divide the distance from zero to one into four equal intervals.",
+        "chapter": "Fractions are numbers",
+        "equation": [],
+        "rows": [],
+        "note": "Count intervals, not tick marks.",
+        "line": {
+          "d": 4,
+          "points": [],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 9
+      }
+    },
+    {
+      "index": 21,
+      "start": 183.26666666666668,
+      "speech_end": 190.34916666666666,
+      "end": 190.7,
+      "role": "explanation",
+      "chapter": "Locate the fractions",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "One quarter is one interval from zero. One half is two intervals, and three quarters is three intervals.",
+        "chapter": "Locate the fractions",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "<",
+          [
+            1,
+            2
+          ],
+          "<",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Numbers get larger as you move to the right.",
+        "line": {
+          "d": 4,
+          "points": [
+            1,
+            2,
+            3
+          ],
+          "maximum": 1,
+          "jump": null
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 10
+      }
+    },
+    {
+      "index": 22,
+      "start": 190.7,
+      "speech_end": 197.126375,
+      "end": 197.5,
+      "role": "explanation",
+      "chapter": "Order from smallest to largest",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Read from left to right to order them from smallest to largest: one quarter, one half, then three quarters.",
+        "chapter": "Order from smallest to largest",
+        "equation": [
+          [
+            1,
+            4
+          ],
+          "<",
+          [
+            1,
+            2
+          ],
+          "<",
+          [
+            3,
+            4
+          ]
+        ],
+        "rows": [],
+        "note": "Left to right: smallest to largest.",
+        "line": {
+          "d": 4,
+          "points": [
+            1,
+            2,
+            3
+          ],
+          "maximum": 1,
+          "jump": [
+            1,
+            3
+          ]
+        },
+        "area": null,
+        "context": null,
+        "role": "explanation",
+        "pause": 0.35,
+        "source_beat": 11
+      }
+    },
+    {
+      "index": 23,
+      "start": 197.5,
+      "speech_end": 200.57220833333332,
+      "end": 205.6,
+      "role": "question",
+      "chapter": "Your turn: think for five seconds",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "chapter": "Your turn: think for five seconds",
+        "equation": [
+          [
+            5,
+            8
+          ],
+          "?",
+          [
+            3,
+            8
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Think for five seconds, then explain your reasoning.",
+        "text": "Which is greater, five eighths or three eighths?",
+        "pause": 5,
+        "role": "question",
+        "source_beat": 12,
+        "hide_equation": false
+      }
+    },
+    {
+      "index": 24,
+      "start": 205.6,
+      "speech_end": 209.68075,
+      "end": 210.03333333333333,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "chapter": "Let’s check",
+        "equation": [
+          [
+            5,
+            8
+          ],
+          ">",
+          [
+            3,
+            8
+          ]
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "Explain why your answer makes sense.",
+        "text": "Five eighths is greater: the same-sized parts are being counted.",
+        "pause": 0.35,
+        "role": "answer",
+        "source_beat": 13
+      }
+    },
+    {
+      "index": 25,
+      "start": 210.03333333333333,
+      "speech_end": 224.28458333333333,
+      "end": 226.3,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 2,
+      "speed": 0.91,
+      "graphic": {
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to compare and order fractions. You can compare equal parts, explain a fair comparison, and read a number line. Which model will help you explain your next answer? Try the practice on Math Magic.",
+        "role": "recap",
+        "equation": null,
+        "rows": [],
+        "note": "",
+        "pause": 2,
+        "display": "Compare and order fractions using models and reasoning.",
+        "criteria": [
+          "Compare equal-sized parts",
+          "Explain comparisons using models",
+          "Order fractions on a number line"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.939916666666667,
+      "text": "Two friends both claim they've chosen the bigger share of the same-sized chocolate bar.",
+      "source_sha256": "81190bd293fb62989d2b5e644f9dd81ddc89e62348f0a3fbc99fb0ad375b8f18"
+    },
+    {
+      "start": 5.059916666666667,
+      "end": 8.380125,
+      "text": "How could a picture settle this delicious disagreement?",
+      "source_sha256": "268250ece72fef89c42d858e8876add0cbb6e7eeaa4c0c250c51becc79ec021b"
+    },
+    {
+      "start": 9.1,
+      "end": 15.963666666666667,
+      "text": "Today, we're learning to compare and order fractions, so we can explain which amount is greater, smaller or equal.",
+      "source_sha256": "c26324fe4e36b60b3c2a6a679d3ea1bc1c5aba6d6cb7b75581adf4da6b1ee051"
+    },
+    {
+      "start": 16.566666666666666,
+      "end": 20.289083333333334,
+      "text": "You'll compare shares fairly, using wholes of the same size.",
+      "source_sha256": "242736276537f203cd0f0dde9c4660f8c142d2bc2602b07bc50a8d5bfad614c7"
+    },
+    {
+      "start": 20.5,
+      "end": 26.538125,
+      "text": "You'll use a picture or equivalent fractions to explain your choice, rather than guessing from the numbers.",
+      "source_sha256": "02f1fc84fdfeeb2efb76afcc5ffb767ac35444fabe6033dc0e5f89ffce68daf4"
+    },
+    {
+      "start": 26.766666666666666,
+      "end": 31.221791666666668,
+      "text": "And you'll put fractions in order by finding their positions on a number line.",
+      "source_sha256": "5365e7b730e52648f583bdc5a9374a689ecd83d9cd5657fa6520e1c3640d184c"
+    },
+    {
+      "start": 31.433333333333334,
+      "end": 33.0035,
+      "text": "First, choose one whole.",
+      "source_sha256": "f16c82e9c7a5256697e4dc9b0121568226b68459ed4e63a03adbea9db5ce9057"
+    },
+    {
+      "start": 33.1235,
+      "end": 35.84166666666667,
+      "text": "Its parts must be equal in size.",
+      "source_sha256": "d93503b8d33c53cb6991df352329845b89b3814799a74201f82ae3df96ada226"
+    },
+    {
+      "start": 35.961666666666666,
+      "end": 40.59891666666667,
+      "text": "The outline of the model shows the entire whole, not just the coloured share.",
+      "source_sha256": "543f42b2993f1be9b452b2027a65ea653f1a3e3eeffda8be833f18471b51c393"
+    },
+    {
+      "start": 41.1,
+      "end": 44.31379166666667,
+      "text": "Here, three equal parts are chosen out of four.",
+      "source_sha256": "ff7d23f54a2f43ba1da8654d796b155432130025c0dc1038f99da8741b26e1f3"
+    },
+    {
+      "start": 44.433791666666664,
+      "end": 48.20279166666667,
+      "text": "The top number, the numerator, counts chosen parts.",
+      "source_sha256": "408f7af116a0a151becef97e88c95176ede5fa7745bcf8b408928ca6613fc782"
+    },
+    {
+      "start": 48.32279166666667,
+      "end": 52.9425,
+      "text": "The bottom number, the denominator, tells how many equal parts make the whole.",
+      "source_sha256": "e8c0c7f22f3d864694f9c6476725cbf4c41b937e0230ddf88d865b1b3ab4e26b"
+    },
+    {
+      "start": 53.56666666666667,
+      "end": 56.12533333333333,
+      "text": "A fraction starts with equal parts.",
+      "source_sha256": "aa072c86cf4d74f18b9e3d40cf6c5c72024acd575a62ce02385e6ab55dfe7707"
+    },
+    {
+      "start": 56.245333333333335,
+      "end": 60.1835,
+      "text": "Here, one whole is divided into four equal pieces.",
+      "source_sha256": "e51e674a1562076ff1bdeae70267b5b5dc366b6e6a3ea3a7df648d00141bd326"
+    },
+    {
+      "start": 60.56666666666667,
+      "end": 62.23404166666667,
+      "text": "Shade three pieces.",
+      "source_sha256": "b04f96d8acf5115b0ecdb75910cfdfe03b5d191a9b0cd34fcd31e958d7e08ebe"
+    },
+    {
+      "start": 62.35404166666667,
+      "end": 65.42695833333333,
+      "text": "The numerator, three, counts the shaded parts.",
+      "source_sha256": "efc5c363f7be5f3af0b1a7407194350c0507d0634effe28e1144ca2adeafb0fe"
+    },
+    {
+      "start": 65.54695833333334,
+      "end": 69.35775,
+      "text": "The denominator, four, counts the equal parts in the whole.",
+      "source_sha256": "9bfca037cc52de9c4d13876e3550e1e955b42391d134b40b9478b5d4aa13ada1"
+    },
+    {
+      "start": 69.73333333333333,
+      "end": 71.93341666666667,
+      "text": "A strip shows the same amount.",
+      "source_sha256": "6f4809b0d832222db1dae63e197a73efd451c59a5e889a57803c48f9d158cac7"
+    },
+    {
+      "start": 72.05341666666666,
+      "end": 74.87841666666667,
+      "text": "Three of four equal lengths are shaded.",
+      "source_sha256": "6897eba5541fde5122e46ce4f2eb5171bef8ec88578b4c431cb55e4dba5858af"
+    },
+    {
+      "start": 74.99841666666667,
+      "end": 78.24895833333333,
+      "text": "The picture changes, but the value stays the same.",
+      "source_sha256": "9b5d5bd0f55fdc73746c091c82be0b1ecc2e2f9ce62d14e93ddc872ec1ad8a05"
+    },
+    {
+      "start": 78.6,
+      "end": 81.26954166666667,
+      "text": "Look at these two equal-sized wholes.",
+      "source_sha256": "7f3ad04805bb234313e23f1b3a64989d9e7d115b007f603866ba7c4b72e92366"
+    },
+    {
+      "start": 81.38954166666667,
+      "end": 83.66983333333333,
+      "text": "Which has the greater coloured share?",
+      "source_sha256": "57187211d25807da686bd86014aad35bb3e79fdc10db5b2f8de518eacf59c195"
+    },
+    {
+      "start": 83.78983333333333,
+      "end": 87.13616666666667,
+      "text": "Count the quarter-sized pieces before you decide.",
+      "source_sha256": "f77ad30291743ce36552b093535c54dff3e8f6f1020a09153f0565506c4f35cd"
+    },
+    {
+      "start": 90.16666666666667,
+      "end": 94.12466666666667,
+      "text": "When denominators match, the pieces have the same size.",
+      "source_sha256": "49e146582325e60821076e41f7ed64a72d34047ac88b1e028718f3b131f422f7"
+    },
+    {
+      "start": 94.24466666666666,
+      "end": 99.29233333333333,
+      "text": "Three quarters is greater than two quarters because three pieces are more than two.",
+      "source_sha256": "fce4ce8c10bb423a90004bd15ce0f311f63c803e06eaca7f42b2311de769b2e5"
+    },
+    {
+      "start": 99.66666666666667,
+      "end": 103.93725,
+      "text": "We can count these pieces directly because their sizes match.",
+      "source_sha256": "998007ea86acfec4d247bc35a00cc49a4249220b9d67e0bd13eaf91515e335e0"
+    },
+    {
+      "start": 104.05725,
+      "end": 109.808875,
+      "text": "With the same denominator and equal-sized wholes, more chosen parts means more of the whole.",
+      "source_sha256": "293e5f82c6720f220cb745bd5cc43e82562038df6ad8bcf2f3cec9026d55f39d"
+    },
+    {
+      "start": 110.46666666666667,
+      "end": 113.22054166666666,
+      "text": "Now compare one third and one sixth.",
+      "source_sha256": "4487d122a6db1f2580bf6301027b2a4f807c7ebd0f742a916ed8eba6406260e8"
+    },
+    {
+      "start": 113.34054166666667,
+      "end": 117.44466666666666,
+      "text": "These wholes are the same length, but the sixths are smaller pieces.",
+      "source_sha256": "4520fac0cefaedec40f15ee0498ad339518c1b63a94070f96876590a59f597e4"
+    },
+    {
+      "start": 117.8,
+      "end": 120.84145833333334,
+      "text": "So one third is greater than one sixth.",
+      "source_sha256": "5b61fb39df19bf4ea171e8c476ecd6c0f95d1b02f2afb0a1af0463b990d57fd5"
+    },
+    {
+      "start": 120.96145833333334,
+      "end": 125.14591666666666,
+      "text": "A bigger denominator does not always mean a bigger fraction.",
+      "source_sha256": "8a1954344afab8a0c234fa7919ad4bd02b3ab81addc4c1c0a8b675fe386ab5c1"
+    },
+    {
+      "start": 125.5,
+      "end": 129.69891666666666,
+      "text": "It can be tempting to choose the fraction with the bigger denominator.",
+      "source_sha256": "d3ff846a5e9dc4d9f0e4134b0efe89e89455b02b1df3481a831d74644c668282"
+    },
+    {
+      "start": 129.81891666666667,
+      "end": 135.08404166666668,
+      "text": "But dividing the same whole into more pieces makes each piece smaller, not bigger.",
+      "source_sha256": "c83d0ecb714b290c86a317ef8d125cbd77fc9f7d96478fb3acfc8b494041f6b8"
+    },
+    {
+      "start": 135.76666666666668,
+      "end": 138.34691666666666,
+      "text": "Now the pieces have different sizes.",
+      "source_sha256": "2dd7ac927bcb804a5d42390056228b75af649f1fa93bbd9e274a964ecfa626f6"
+    },
+    {
+      "start": 138.46691666666666,
+      "end": 142.03608333333332,
+      "text": "Predict whether three quarters or one half is greater.",
+      "source_sha256": "a8119fafedd4bce820c4a23a8457f4ec4942839c71f0de9f9d0972934d2501e8"
+    },
+    {
+      "start": 142.15608333333333,
+      "end": 145.04645833333333,
+      "text": "Could you describe the half using quarters?",
+      "source_sha256": "037ec48a477787d9cb3c56ef84adc7b53c1b2ee1355e741eb240702a57f35c03"
+    },
+    {
+      "start": 148.06666666666666,
+      "end": 150.65116666666665,
+      "text": "Return to three quarters and one half.",
+      "source_sha256": "213f9101c3606cfc7cc2181cd9e7f4d21d9bb4182be424b1be2665f5c482024f"
+    },
+    {
+      "start": 150.77116666666666,
+      "end": 153.81633333333335,
+      "text": "Split each half into two equal pieces.",
+      "source_sha256": "8c25d61d0a88c1358b373136ea6b971e2871104a8b105e71935a105558a27c99"
+    },
+    {
+      "start": 153.93633333333332,
+      "end": 156.25308333333334,
+      "text": "One half becomes two quarters.",
+      "source_sha256": "20ac4587b6b871790ba09f4384b8b2cb52a89ecf472d9b71d36e2628b5846d43"
+    },
+    {
+      "start": 156.63333333333333,
+      "end": 158.87233333333333,
+      "text": "Only the divisions have changed.",
+      "source_sha256": "a020acf9eb1cd743528f986605c1fe5dad9bce2280fc7206d9145122db03fe18"
+    },
+    {
+      "start": 158.99233333333333,
+      "end": 162.10483333333335,
+      "text": "The half still covers exactly the same length.",
+      "source_sha256": "d8e6aeba7b1d73800cabf955538703024656144209958c334df8a0ab33b93eda"
+    },
+    {
+      "start": 162.22483333333332,
+      "end": 166.10320833333333,
+      "text": "Two quarters and one half are equivalent names for that amount.",
+      "source_sha256": "56362eb33bc17e72118396624f976011e1e92345632d6ad5ecbf503a9a28f2e4"
+    },
+    {
+      "start": 166.76666666666668,
+      "end": 168.40179166666667,
+      "text": "Now the parts match.",
+      "source_sha256": "bd28241ea73747b8e4266589d023c11592031fde3061ca2d60f6f428162ecdd6"
+    },
+    {
+      "start": 168.52179166666667,
+      "end": 173.83416666666668,
+      "text": "Three quarters is greater than two quarters, so three quarters is greater than one half.",
+      "source_sha256": "eab1afd94b2af5cf3891286b143919dfe164d09d317580e43eb6db5cd17d5782"
+    },
+    {
+      "start": 174.2,
+      "end": 178.21733333333333,
+      "text": "A number line shows fraction size as distance from zero.",
+      "source_sha256": "831d2ff1cf4b97eb2c68c606939a6055dd4fa19718e91e0ed5f50dbd3fab9e8b"
+    },
+    {
+      "start": 178.33733333333333,
+      "end": 182.88941666666668,
+      "text": "Divide the distance from zero to one into four equal intervals.",
+      "source_sha256": "2530de1581281dae0e23ae73dfac8bf41fb7c6647607f57975c0fa97f4a1d2b7"
+    },
+    {
+      "start": 183.26666666666668,
+      "end": 186.06320833333334,
+      "text": "One quarter is one interval from zero.",
+      "source_sha256": "acc9cf091f64e56fa40f73cdd6c066380b616075b16688e77e7e9b26401eb60e"
+    },
+    {
+      "start": 186.18320833333334,
+      "end": 190.34916666666666,
+      "text": "One half is two intervals, and three quarters is three intervals.",
+      "source_sha256": "15ddca0efd0e1fef129383befd5f087ced0f7a7b3b43e0b00f3b57f1bdb6d199"
+    },
+    {
+      "start": 190.7,
+      "end": 197.126375,
+      "text": "Read from left to right to order them from smallest to largest: one quarter, one half, then three quarters.",
+      "source_sha256": "d74e1c85e7dad72af4f44ef702beb51effc669ebaa1c04f2a3a0275d9b316191"
+    },
+    {
+      "start": 197.5,
+      "end": 200.57220833333332,
+      "text": "Which is greater, five eighths or three eighths?",
+      "source_sha256": "5078660144a873afff4554ed4666dc169393bc20aabf9cd4b6272db17e4e2288"
+    },
+    {
+      "start": 205.6,
+      "end": 209.68075,
+      "text": "Five eighths is greater: the same-sized parts are being counted.",
+      "source_sha256": "d966415cd77ccf9823c771d65e9a668c1a6ee08e73c55ebd0571e3ca24f0ab25"
+    },
+    {
+      "start": 210.03333333333333,
+      "end": 213.01758333333333,
+      "text": "Our goal was to compare and order fractions.",
+      "source_sha256": "ec7352dc3bac2dafd2d04eba1aa6f12cf3d3fc64e10b440cee7ea7c9f3b7dd03"
+    },
+    {
+      "start": 213.13758333333334,
+      "end": 218.12816666666666,
+      "text": "You can compare equal parts, explain a fair comparison, and read a number line.",
+      "source_sha256": "370620956316824c429782bb73f3bf9f35f2c84f3bbf5e761e7cdf871b80ac12"
+    },
+    {
+      "start": 218.24816666666666,
+      "end": 221.69741666666667,
+      "text": "Which model will help you explain your next answer?",
+      "source_sha256": "2c5fccb00028aa3ac68bdb1f08bc609efd92f0f9fb6f05fb9942530306a07d76"
+    },
+    {
+      "start": 221.81741666666667,
+      "end": 224.28458333333333,
+      "text": "Try the practice on Math Magic.",
+      "source_sha256": "4489ad43a3153a0ddc195207cabdd0aa3501f7d0a7b8d1913778cf59e11dd632"
+    }
+  ],
+  "narration_sha256": "fffba8e9237d1e4bb8b53b3643454c3a0123744806acf1f8223a5106e27442ce",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}
