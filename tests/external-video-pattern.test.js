@@ -10,6 +10,18 @@ const fractionsBatch=require('../video-agent/fractions-graphics-2026/manifest.js
 const previousMedia=require('../video-agent/fractions-graphics-2026/previous-integrations.json');
 assert.strictEqual(fractionsBatch.lessons.length,5);
 const newFractions=new Map(fractionsBatch.lessons.map(l=>[l.src,l]));
+// Explicitly authorised, independently verified graphics-only topic replacements.
+const year5Batches=[
+  ['whole-numbers.html',require('../video-agent/year5-graphics-2026/whole-numbers/manifest.json'),require('../video-agent/year5-graphics-2026/whole-numbers/previous-integrations.json')]
+];
+for(const [,batch,backup] of year5Batches){
+ assert.strictEqual(batch.lessons.length,5);
+ for(const [src,expected] of Object.entries(backup.assets)){
+  const bytes=fs.readFileSync(src);assert.strictEqual(bytes.length,expected.bytes,'Previous approved media size changed: '+src);
+  assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256,'Previous approved media changed: '+src);
+ }
+}
+const newVerified=new Map([...newFractions,...year5Batches.flatMap(([,batch])=>batch.lessons.map(l=>[l.src,l]))]);
 for(const [src,record] of Object.entries(previousMedia.assets)){
  const bytes=fs.readFileSync(src);assert.strictEqual(bytes.length,record.bytes,'Previous media backup size changed: '+src);
  assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),record.sha256,'Previous approved media changed: '+src);
@@ -21,13 +33,9 @@ for(const [src,hash] of [
  ['videos/MathMagic_Finding_LCM_FINAL_1080p.mp4','374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00']
 ])assert.strictEqual(crypto.createHash('sha256').update(fs.readFileSync(src)).digest('hex'),hash);
 const approvedVideos=new Map([
-  ['videos/MathMagic_Understanding_Place_Value_1080p.mp4','videos/MathMagic_Understanding_Place_Value_1080p.mp4'],
-  ['videos/MathMagic_Expanded_Form_1080p.mp4','videos/MathMagic_Expanded_Form_1080p.mp4'],
-  ['videos/MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4','videos/MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4'],
-  ['videos/MathMagic_Decimal_Place_Value_1080p.mp4','videos/MathMagic_Decimal_Place_Value_1080p.mp4'],
-  ['videos/MathMagic_Comparing_Ordering_Locating_Decimals_1080p.mp4','videos/MathMagic_Comparing_Ordering_Locating_Decimals_1080p.mp4'],
   ['videos/MathMagic_Finding_LCM_FINAL_1080p.mp4','videos/MathMagic_Finding_LCM_FINAL_1080p.mp4'],
-  ...fractionsBatch.lessons.map(l=>[l.src,l.src])
+  ...fractionsBatch.lessons.map(l=>[l.src,l.src]),
+  ...year5Batches.flatMap(([,batch])=>batch.lessons.map(l=>[l.src,l.src]))
 ]);
 let youtubeEmbeds=0,scrimbaEmbeds=0,mathmagicVideos=0;
 const seenVideos=new Set();
@@ -72,7 +80,7 @@ for(const file of modules){
     assert(h.includes('href="'+fallback+'"'),file+' video needs a direct MP4 fallback link');
     if(!src.startsWith('https://')){
       const bytes=fs.readFileSync(src);
-      if(newFractions.has(src)){const expected=newFractions.get(src);assert.strictEqual(expected.status,'verified');assert.strictEqual(expected.presenter,false);assert.strictEqual(bytes.length,expected.bytes);assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256);}
+      if(newVerified.has(src)){const expected=newVerified.get(src);assert.strictEqual(expected.status,'verified');assert.strictEqual(expected.presenter,false);assert.strictEqual(bytes.length,expected.bytes);assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256);}
       assert(bytes.length>0&&bytes.subarray(4,8).toString()==='ftyp',src+' must be a real MP4, not a missing file or LFS pointer');
       if(src==='videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4'){
         assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),'48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db','Adding and Subtracting Fractions must preserve the approved corrected MP4 bytes');
@@ -83,6 +91,14 @@ for(const file of modules){
       }
     }
     mathmagicVideos++;
+  }
+  const topicBatch=year5Batches.find(([page])=>page===file);
+  if(topicBatch){
+   assert.strictEqual(videos.length,5,'Five distinct validated core videos required: '+file);
+   for(const expected of topicBatch[1].lessons){
+    const section=h.match(new RegExp('<section id="'+expected.section+'"[^>]*>([\\s\\S]*?)</section>'));
+    assert(section&&section[1].includes('src="'+expected.src+'"'),'Wrong lesson video: '+file+' '+expected.section);
+   }
   }
   if(file==='fractions.html'){
     assert.strictEqual((h.match(/id="mathmagic-lcm-extension"/g)||[]).length,1);

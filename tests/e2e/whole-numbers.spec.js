@@ -18,19 +18,22 @@ test('whole numbers lesson goals, success criteria and navigation are readable',
   await expect(next).toHaveText('Next: Decimal Place Value →');await next.focus();await next.press('Enter');
   await expect(page.locator('#lesson4')).toHaveClass(/active/);await expect(page.locator('#lesson4 .lesson-heading h2')).toHaveText('Decimal Place Value');
  }
+ await page.locator('[data-screen="lesson5"]').click();
+ const diagram=page.locator('.decimal-line-model');await expect(diagram).toBeVisible();await expect(diagram.getByRole('img')).toHaveCount(2);
+ for(const svg of await diagram.getByRole('img').all()){
+  await expect(svg.locator('[data-tick]')).toHaveCount(11);
+  const geometry=await svg.evaluate(el=>({a:Number(el.dataset.start),b:Number(el.dataset.end),m:Number(el.dataset.mark),x:Number(el.querySelector('circle').getAttribute('cx')),ticks:Array.from(el.querySelectorAll('[data-tick]'),t=>Number(t.getAttribute('x1')))}));
+  expect(geometry.x).toBeCloseTo(40+520*(geometry.m-geometry.a)/(geometry.b-geometry.a),6);
+  for(let i=1;i<11;i++)expect(geometry.ticks[i]-geometry.ticks[i-1]).toBe(52);
+ }
+ for(const width of [1440,768,390]){await page.setViewportSize({width,height:900});expect(await diagram.evaluate(el=>{const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&document.documentElement.scrollWidth<=innerWidth})).toBe(true)}
  await page.locator('[data-screen="challenge"]').click();await expect(page.locator('#challenge')).toHaveClass(/active/);
 });
 test('whole numbers 30 question challenge',async({page})=>{await openTopic(page);await page.locator('[data-screen="challenge"]').click();for(let q=1;q<=30;q++){await expect(page.locator('#qNumber')).toHaveText(q+' / 30');await expect(page.locator('#qPrompt')).not.toBeEmpty();const choices=page.locator('#qAnswer [data-choice]');if(await choices.count())await choices.first().click();else{await page.locator('#qAnswer input').fill('999999');await page.locator('#checkAnswer').click()}await expect(page.locator('#qFeedback')).not.toBeEmpty();await expect(page.locator('#nextQuestion')).toBeEnabled();await page.locator('#nextQuestion').click()}await expect(page.locator('#resultCard')).toContainText('CHALLENGE COMPLETE')});
 
 test('all five lessons retain only their corresponding MathMagic video at desktop tablet and mobile sizes',async({page})=>{
   await openTopic(page);
-  const sources=[
-    'MathMagic_Understanding_Place_Value_1080p.mp4',
-    'MathMagic_Expanded_Form_1080p.mp4',
-    'MathMagic_Comparing_Ordering_Whole_Numbers_1080p.mp4',
-    'MathMagic_Decimal_Place_Value_1080p.mp4',
-    'MathMagic_Comparing_Ordering_Locating_Decimals_1080p.mp4'
-  ];
+  const sources=require('../../video-agent/year5-graphics-2026/whole-numbers/manifest.json').lessons.map(l=>l.src.replace('videos/',''));
   await expect(page.locator('iframe, a[href*="youtube"]')).toHaveCount(0);
   await expect(page.locator('body')).not.toContainText('Math Antics');
   for(const width of [1440,768,390]){

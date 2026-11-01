@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "whole-numbers-lesson1",
+    "topic": "whole-numbers",
+    "section": "lesson1",
+    "title": "Understanding Place Value",
+    "file": "videos/whole-numbers-2026/lesson1",
+    "beats": [
+      {
+        "role": "hook",
+        "chapter": "A digit with two jobs",
+        "text": "Imagine two identical digits applying for different jobs in a giant number. One earns ten times as much as its neighbour! How can the very same digit have such different values? Let’s uncover its place-value secret.",
+        "board": [],
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to explain how a digit’s place changes its value in a whole number.",
+        "board": [],
+        "model": null,
+        "display": "Explain how a digit’s place changes its value in a whole number."
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to name a digit’s place and give its value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 0
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to use a place-value chart to explain a number.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 1
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain why the same digit is worth ten times as much one place to the left.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ],
+        "active": 2
+      },
+      {
+        "text": "What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+        "chapter": "One place changes the value",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "array",
+          "rows": 1,
+          "cols": 10
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Read the place first",
+        "text": "Look at the seven in this number. Before I explain, predict which place it holds. Remember to count from ones at the right.",
+        "board": [
+          "472,631: value of 7 = ?"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+        "chapter": "Read the place, then the value",
+        "equation": [],
+        "board": [
+          "7 × 10,000 = 70,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+        "chapter": "Every digit has a value",
+        "equation": [],
+        "board": [
+          "2,000 + 600 + 30 + 1",
+          "472,631"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 2,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Same digit, new place",
+        "text": "Now look at these two fives. Which one has the greater value? Point to its column before we compare.",
+        "board": [
+          "55,000: compare the two fives"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+        "chapter": "Same digit, different places",
+        "equation": [],
+        "board": [
+          "50,000 and 5,000",
+          "50,000 = 10 × 5,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "055000",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+        "chapter": "Ten times as much",
+        "equation": [],
+        "board": [
+          "34 × 10 = 340",
+          "340 ÷ 10 = 34"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "000034",
+            "000340"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "misconception",
+        "chapter": "The digit is not its value",
+        "text": "A common mix-up is saying that the seven here is just worth seven. Seven names the digit, but its column tells us its value. In the ten-thousands column, it represents seven groups of ten thousand.",
+        "board": [
+          "Digit: 7",
+          "Value: 70,000"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "472631",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "In 583,214, what is the value of the eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "583,214: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "place",
+          "digits": "583214",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 × 10,000 = 80,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "583214",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+        "chapter": "Recap: place first, value second",
+        "equation": [],
+        "board": [
+          "583,214 → 8 means 80,000",
+          "One place left: × 10"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to explain how a digit’s place changes its value in a whole number. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Explain how a digit’s place changes its value in a whole number.",
+        "criteria": [
+          "Name a digit’s place and value",
+          "Explain a number using a chart",
+          "Explain the ten-times relationship"
+        ]
+      }
+    ],
+    "slug": "lesson1",
+    "default_model": {
+      "type": "place",
+      "digits": "055000",
+      "highlight": 1,
+      "labels": [
+        "Hundred\nthousands",
+        "Ten\nthousands",
+        "Thousands",
+        "Hundreds",
+        "Tens",
+        "Ones"
+      ]
+    }
+  },
+  {
+    "id": "whole-numbers-lesson2",
+    "topic": "whole-numbers",
+    "section": "lesson2",
+    "title": "Expanded Form & Representing Numbers",
+    "file": "videos/whole-numbers-2026/lesson2",
+    "beats": [
+      {
+        "role": "hook",
+        "chapter": "One number, many disguises",
+        "text": "A number arrives at a costume party. Sometimes it wears digits, sometimes words, and sometimes a long addition sentence. Can we spot the same number beneath every disguise? Let’s become number detectives.",
+        "board": [],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to read, write and regroup a whole number without changing its value.",
+        "board": [],
+        "model": null,
+        "display": "Read, write and regroup a whole number without changing its value."
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to match a number to its word form and expanded form.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 0
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain how zero holds an empty place.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 1
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to regroup thousands and hundreds to show the same amount.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ],
+        "active": 2
+      },
+      {
+        "text": "How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "One quantity, several representations",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Detective example one",
+        "text": "How would you describe this number without using its digits? Notice the empty ten-thousands place before we unpack the number.",
+        "board": [
+          "406,275"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+        "chapter": "Zero keeps the places organised",
+        "equation": [],
+        "board": [
+          "4 means 400,000",
+          "6 means 6,000"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ],
+          "highlight": 1
+        }
+      },
+      {
+        "text": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+        "chapter": "Build the expanded form",
+        "equation": [],
+        "board": [
+          "200 + 70 + 5",
+          "406,275 =",
+          "400,000 + 6,000 + 200 + 70 + 5"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+        "chapter": "Connect the three forms",
+        "equation": [],
+        "board": [
+          "Four hundred and six thousand,",
+          "two hundred and seventy-five",
+          "Words ↔ 406,275 ↔ expanded form"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "prediction",
+        "chapter": "Detective example two",
+        "text": "Can we describe three thousand four hundred using only hundreds? Predict how many hundreds would make the same amount.",
+        "board": [
+          "3,400 = ? hundreds"
+        ],
+        "model": {
+          "type": "tiles",
+          "values": [
+            "1,000",
+            "1,000",
+            "1,000",
+            "400"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+        "chapter": "Regroup without changing the amount",
+        "equation": [],
+        "board": [
+          "3,400 = 3 thousands + 4 hundreds",
+          "3,400 = 34 hundreds"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "tiles",
+          "values": [
+            "1,000",
+            "1,000",
+            "1,000",
+            "400"
+          ]
+        }
+      },
+      {
+        "role": "misconception",
+        "chapter": "Zero still has an important job",
+        "text": "It is tempting to erase the zero when writing the number in digits. But removing that placeholder shifts the other digits into different places. Leave zero in the standard number, even when its zero contribution is omitted from expanded form.",
+        "board": [
+          "406,275 ≠ 46,275",
+          "Keep the empty place."
+        ],
+        "model": {
+          "type": "place",
+          "digits": "406275",
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "tiles",
+          "values": [
+            "600,000",
+            "20,000",
+            "4,000",
+            "300",
+            "8"
+          ]
+        }
+      },
+      {
+        "text": "The total is six hundred and twenty-four thousand, three hundred and eight. There are zero tens.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "624,308"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "624308",
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+        "chapter": "Recap: represent the same value",
+        "equation": [],
+        "board": [
+          "600,000 + 20,000 + 4,000 + 300 + 8",
+          "624,308",
+          "Zero tens: keep the placeholder"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to read, write and regroup a whole number without changing its value. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Read, write and regroup a whole number without changing its value.",
+        "criteria": [
+          "Connect digits, words and expanded form",
+          "Explain zero as a placeholder",
+          "Regroup without changing the value"
+        ]
+      }
+    ],
+    "slug": "lesson2",
+    "default_model": {
+      "type": "place",
+      "digits": "406275",
+      "highlight": 1,
+      "labels": [
+        "Hundred\nthousands",
+        "Ten\nthousands",
+        "Thousands",
+        "Hundreds",
+        "Tens",
+        "Ones"
+      ]
+    }
+  },
+  {
+    "id": "whole-numbers-lesson3",
+    "topic": "whole-numbers",
+    "section": "lesson3",
+    "title": "Comparing & Ordering Whole Numbers",
+    "file": "videos/whole-numbers-2026/lesson3",
+    "beats": [
+      {
+        "role": "hook",
+        "chapter": "Which ticket comes first?",
+        "text": "Two friends are checking numbered tickets for a school event. Almost every digit matches! Which ticket comes first? A quick glance at the final digits could fool us, so let’s investigate from the right starting place.",
+        "board": [],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to compare and order whole numbers using place value.",
+        "board": [],
+        "model": null,
+        "display": "Compare and order whole numbers using place value."
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to compare from the largest place until I find a difference.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 0
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to use the symbols <, > and = correctly.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 1
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to order numbers and explain your choice using digit values.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ],
+        "active": 2
+      },
+      {
+        "text": "Which number is larger when most of the digits match? Compare from the greatest place value, not from the right. For whole numbers with no leading zeros, more digits means a larger number. If the lengths match, compare one column at a time.",
+        "chapter": "Start with the greatest place",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Ticket example one",
+        "text": "Which ticket number is greater? Point to the first place where the digits differ. We can stop once we find it.",
+        "board": [
+          "456,782 ? 456,728"
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Compare four hundred and fifty six thousand, seven hundred and eighty two, with four hundred and fifty six thousand, seven hundred and twenty eight. Their hundred thousands, ten thousands, thousands and hundreds match. We have not found a difference yet, so keep moving right.",
+        "chapter": "Line up the places",
+        "equation": [],
+        "board": [
+          "456,782     456,728",
+          "4 = 4    5 = 5    6 = 6    7 = 7"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "At the tens place, eight is greater than two. Stop there. The first number is greater, so four hundred and fifty six thousand, seven hundred and eighty two is greater than four hundred and fifty six thousand, seven hundred and twenty eight. The ones cannot overturn that difference.",
+        "chapter": "First different place: tens",
+        "equation": [],
+        "board": [
+          "80 > 20",
+          "456,782 > 456,728"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "456782",
+            "456728"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Ticket example two",
+        "text": "Try this pair before I show the comparison. Will the many nines at the end decide the answer, or will an earlier place decide?",
+        "board": [
+          "309,950 ? 310,005"
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "309950",
+            "310005"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Now compare three hundred and nine thousand, nine hundred and fifty, with three hundred and ten thousand and five. The hundred thousands match. At ten thousands, zero is less than one. Therefore three hundred and nine thousand, nine hundred and fifty is smaller.",
+        "chapter": "Another comparison",
+        "equation": [],
+        "board": [
+          "309,950     310,005",
+          "0 ten-thousands < 1 ten-thousand",
+          "309,950 < 310,005"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "309950",
+            "310005"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "To order several numbers, repeat the same method. Eighty nine thousand, nine hundred and ninety nine comes before ninety thousand and one, which comes before ninety thousand and ten. Do not compare only the final three digits. The greatest differing place decides.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "89,999 < 90,001 < 90,010",
+          "Start left; stop at the first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "tiles",
+          "values": [
+            "89,999",
+            "90,001",
+            "90,010"
+          ]
+        }
+      },
+      {
+        "role": "misconception",
+        "chapter": "Start at the largest place",
+        "text": "Sam compares only the final three digits and thinks eighty-nine thousand, nine hundred and ninety-nine must be greater than ninety thousand and one. That overlooks the ten-thousands! Nine ten-thousands is greater than eight ten-thousands, whatever follows.",
+        "board": [
+          "89,999 < 90,001",
+          "Start left, not at the final digits."
+        ],
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "089999",
+            "090001"
+          ],
+          "highlight": 1,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "Which is greater: 582,430 or 582,403?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "582,430 ? 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "582430",
+            "582403"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "The first differing place is the tens. Three tens is greater than zero tens, so 582,430 is greater.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "582,430 > 582,403"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "compare",
+          "numbers": [
+            "582430",
+            "582403"
+          ],
+          "highlight": 4,
+          "labels": [
+            "Hundred\nthousands",
+            "Ten\nthousands",
+            "Thousands",
+            "Hundreds",
+            "Tens",
+            "Ones"
+          ]
+        }
+      },
+      {
+        "text": "As a supporting estimation check, rounding eighty nine thousand, nine hundred and ninety nine to the nearest thousand gives ninety thousand. A rounded value is useful, but it does not replace an exact comparison. Recap: line up the places, start left, find the first difference, and explain your order.",
+        "chapter": "Recap: compare exactly",
+        "equation": [],
+        "board": [
+          "89,999 ≈ 90,000  (nearest 1,000)",
+          "Estimate ≠ exact comparison",
+          "Line up → start left → first difference"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to compare and order whole numbers using place value. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Compare and order whole numbers using place value.",
+        "criteria": [
+          "Find the first different place",
+          "Use comparison symbols correctly",
+          "Order and justify using place value"
+        ]
+      }
+    ],
+    "slug": "lesson3",
+    "default_model": {
+      "type": "compare",
+      "numbers": [
+        "456782",
+        "456728"
+      ],
+      "highlight": 4,
+      "labels": [
+        "Hundred\nthousands",
+        "Ten\nthousands",
+        "Thousands",
+        "Hundreds",
+        "Tens",
+        "Ones"
+      ]
+    }
+  },
+  {
+    "id": "whole-numbers-lesson4",
+    "topic": "whole-numbers",
+    "section": "lesson4",
+    "title": "Decimal Place Value",
+    "file": "videos/whole-numbers-2026/lesson4",
+    "beats": [
+      {
+        "role": "hook",
+        "chapter": "A whole with tiny parts",
+        "text": "Imagine a measuring strip that keeps zooming in. First we see little parts, then even smaller parts inside those. How can we name an amount precisely? Our place-value pattern has a wonderfully useful answer.",
+        "board": [],
+        "model": {
+          "type": "parts",
+          "n": 1,
+          "den": 10,
+          "label": "One whole split into ten equal parts"
+        }
+      },
+      {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to explain decimal place value through thousandths.",
+        "board": [],
+        "model": null,
+        "display": "Explain decimal place value through thousandths."
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to name tenths, hundredths and thousandths.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 0
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to give a decimal digit’s value and write a number in expanded form.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 1
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain the ten-times relationship between neighbouring places.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ],
+        "active": 2
+      },
+      {
+        "text": "What happens when we split one whole into smaller equal parts? The same base ten pattern continues beyond the decimal point. After ones come tenths, hundredths and thousandths. Each place is one tenth of the value of the place immediately to its left.",
+        "chapter": "Base ten continues past ones",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "parts",
+          "n": 1,
+          "den": 10,
+          "label": "One whole split into ten equal parts"
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Measuring example one",
+        "text": "Before we name each part, predict the value of the seven. Is it seven wholes, seven tenths, or seven hundredths?",
+        "board": [
+          "4.726: value of 7 = ?"
+        ],
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "highlight": 1,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Read four point seven two six. The four is four ones. The seven is seven tenths, written zero point seven. The two is two hundredths, written zero point zero two. The six is six thousandths, written zero point zero zero six.",
+        "chapter": "Name each decimal place",
+        "equation": [],
+        "board": [
+          "4.726",
+          "7 tenths = 0.7",
+          "2 hundredths = 0.02",
+          "6 thousandths = 0.006"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Put the parts together. Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six. The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+        "chapter": "Expand the decimal",
+        "equation": [],
+        "board": [
+          "4.726 = 4 + 0.7 + 0.02 + 0.006",
+          "Same digits; place determines value"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "place",
+          "digits": "4726",
+          "highlight": 2,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Measuring example two",
+        "text": "The digit five appears in both numbers. Do you think these two amounts are equal? Picture tenths and hundredths before deciding.",
+        "board": [
+          "0.5 ? 0.05"
+        ],
+        "model": {
+          "type": "parts",
+          "n": 5,
+          "den": 10,
+          "label": "Five of ten equal parts: 0.5"
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "A tenth is ten hundredths. A hundredth is ten thousandths. Now compare zero point five with zero point zero five. Five tenths is ten times five hundredths, so zero point five is greater. The same digit does not mean the same value.",
+        "chapter": "Connect neighbouring places",
+        "equation": [],
+        "board": [
+          "0.1 = 10 × 0.01",
+          "0.01 = 10 × 0.001",
+          "0.5 = 10 × 0.05",
+          "0.5 > 0.05"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "Think of a measuring scale marked in equal small steps. Thousandths let us describe positions more precisely than hundredths. This is about understanding place value, not just counting how many digits come after the point. Keep the whole and the size of each part clear.",
+        "chapter": "More precise equal-sized steps",
+        "equation": [],
+        "board": [
+          "1 hundredth = 10 thousandths",
+          "Name the place, not just the digit count"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 0,
+          "end": 0.01,
+          "mark": 0.007,
+          "decimals": 3
+        }
+      },
+      {
+        "role": "misconception",
+        "chapter": "Count places, not just digits",
+        "text": "A five after one decimal place and a five after two decimal places do not have the same value. Five tenths is ten times five hundredths. Keep the same-sized whole in mind when you compare the parts.",
+        "board": [
+          "0.5 = 10 × 0.05",
+          "0.5 > 0.05"
+        ],
+        "model": {
+          "type": "parts",
+          "n": 5,
+          "den": 10,
+          "label": "Five tenths of the same whole"
+        }
+      },
+      {
+        "text": "What is the value of the eight in 5.218?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "5.218: value of 8 = ?"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "place",
+          "digits": "5218",
+          "highlight": 3,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      },
+      {
+        "text": "The eight is in the thousandths place, so it represents eight thousandths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "8 thousandths = 0.008"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "place",
+          "digits": "5218",
+          "highlight": 3,
+          "labels": [
+            "Ones",
+            "Tenths",
+            "Hundredths",
+            "Thousandths"
+          ]
+        }
+      },
+      {
+        "text": "Try the page example: three point four five eight. The five is in the hundredths place, so its value is zero point zero five. Remember: ones, tenths, hundredths, thousandths. Every step right divides the place value by ten; every step left makes it ten times as much.",
+        "chapter": "Recap: read the place",
+        "equation": [],
+        "board": [
+          "3.458",
+          "5 hundredths = 0.05",
+          "Ones → tenths → hundredths → thousandths"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to explain decimal place value through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Explain decimal place value through thousandths.",
+        "criteria": [
+          "Name parts through thousandths",
+          "Give each digit’s value",
+          "Explain neighbouring place values"
+        ]
+      }
+    ],
+    "slug": "lesson4",
+    "default_model": {
+      "type": "parts",
+      "n": 1,
+      "den": 10,
+      "label": "One whole split into ten equal parts"
+    }
+  },
+  {
+    "id": "whole-numbers-lesson5",
+    "topic": "whole-numbers",
+    "section": "lesson5",
+    "title": "Compare, Order & Locate Decimals",
+    "file": "videos/whole-numbers-2026/lesson5",
+    "beats": [
+      {
+        "role": "hook",
+        "chapter": "The longer-number trap",
+        "text": "Two measuring displays disagree about who has the bigger amount. One display has more digits, but does that make its amount greater? Let’s use matching places and a zoomable number line to solve the mystery.",
+        "board": [],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      },
+      {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to compare, order and locate decimals through thousandths.",
+        "board": [],
+        "model": null,
+        "display": "Compare, order and locate decimals through thousandths."
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to line up places and use end zeros without changing a decimal’s value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 0
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to compare and order decimals using place value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 1
+      },
+      {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain where a decimal belongs between two number-line marks.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 2
+      },
+      {
+        "text": "Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+        "chapter": "Compare values, not digit counts",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Display example one",
+        "text": "Which display shows the greater amount? Try matching the decimal places, rather than counting how many digits you see.",
+        "board": [
+          "1.407 ? 1.47"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.407,
+          "decimals": 2
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+        "chapter": "The hundredths decide",
+        "equation": [],
+        "board": [
+          "1.407     1.470",
+          "Ones: 1 = 1     Tenths: 4 = 4",
+          "Hundredths: 0 < 7",
+          "1.407 < 1.470"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "2.053     2.305     2.350",
+          "2.053 < 2.305 < 2.350"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 2,
+          "end": 2.5,
+          "mark": 2.305,
+          "decimals": 3
+        }
+      },
+      {
+        "role": "prediction",
+        "chapter": "Display example two",
+        "text": "Where might one point four three seven lie? First find its neighbouring hundredths. Then we can zoom in together.",
+        "board": [
+          "1.43 < 1.437 < 1.44"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.437,
+          "decimals": 2
+        },
+        "pause": 1.5
+      },
+      {
+        "text": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+        "chapter": "Hundredths on a number line",
+        "equation": [],
+        "board": [
+          "Step size = 0.01"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      },
+      {
+        "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+        "chapter": "Zoom in to thousandths",
+        "equation": [],
+        "board": [
+          "Step size = 0.001",
+          "1.430 + 0.007 = 1.437"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.43,
+          "end": 1.44,
+          "mark": 1.437,
+          "decimals": 3
+        }
+      },
+      {
+        "role": "misconception",
+        "chapter": "More decimal digits is not more value",
+        "text": "A longer decimal is not automatically larger. One point four zero seven is smaller than one point four seven. Adding an end zero to make one point four seven zero changes its name, but not its value.",
+        "board": [
+          "1.407 < 1.470",
+          "1.47 = 1.470"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.47,
+          "decimals": 2
+        }
+      },
+      {
+        "text": "Which is greater: 2.405 or 2.45?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "2.405 ? 2.45"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "line",
+          "start": 2.4,
+          "end": 2.5,
+          "mark": 2.45,
+          "decimals": 3
+        }
+      },
+      {
+        "text": "Write 2.45 as 2.450. At the hundredths place, five hundredths is greater than zero hundredths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "2.450 > 2.405"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "line",
+          "start": 2.4,
+          "end": 2.5,
+          "mark": 2.45,
+          "decimals": 3
+        }
+      },
+      {
+        "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+        "chapter": "Recap: place value gives the order",
+        "equation": [],
+        "board": [
+          "4.7 = 4.700",
+          "Line up → compare left to right",
+          "Number line: check the step size"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      },
+      {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to compare, order and locate decimals through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Compare, order and locate decimals through thousandths.",
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ]
+      }
+    ],
+    "slug": "lesson5",
+    "default_model": {
+      "type": "line",
+      "start": 1.4,
+      "end": 1.5,
+      "mark": null,
+      "decimals": 2
+    }
+  }
+]

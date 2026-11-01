@@ -1,0 +1,753 @@
+{
+  "duration": 211.83333333333334,
+  "sample_rate": 24000,
+  "events": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "speech_end": 12.831583333333333,
+      "end": 13.2,
+      "role": "hook",
+      "chapter": "The longer-number trap",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "role": "hook",
+        "chapter": "The longer-number trap",
+        "text": "Two measuring displays disagree about who has the bigger amount. One display has more digits, but does that make its amount greater? Let’s use matching places and a zoomable number line to solve the mystery.",
+        "board": [],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "index": 1,
+      "start": 13.2,
+      "speech_end": 18.077,
+      "end": 18.433333333333334,
+      "role": "goal",
+      "chapter": "Today’s Learning Goal",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "goal",
+        "chapter": "Today’s Learning Goal",
+        "text": "Today, we’re learning to compare, order and locate decimals through thousandths.",
+        "board": [],
+        "model": null,
+        "display": "Compare, order and locate decimals through thousandths."
+      }
+    },
+    {
+      "index": 2,
+      "start": 18.433333333333334,
+      "speech_end": 23.954958333333334,
+      "end": 24.333333333333332,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to line up places and use end zeros without changing a decimal’s value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 0
+      }
+    },
+    {
+      "index": 3,
+      "start": 24.333333333333332,
+      "speech_end": 28.54775,
+      "end": 28.9,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to compare and order decimals using place value.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "index": 4,
+      "start": 28.9,
+      "speech_end": 33.870416666666664,
+      "end": 34.233333333333334,
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to…",
+      "pause": 0.35,
+      "speed": 0.92,
+      "graphic": {
+        "role": "criteria",
+        "chapter": "By the end of this lesson, you will be able to…",
+        "text": "You’ll be able to explain where a decimal belongs between two number-line marks.",
+        "board": [],
+        "model": null,
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ],
+        "active": 2
+      }
+    },
+    {
+      "index": 5,
+      "start": 34.233333333333334,
+      "speech_end": 51.781416666666665,
+      "end": 52.13333333333333,
+      "role": "explanation",
+      "chapter": "Compare values, not digit counts",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+        "chapter": "Compare values, not digit counts",
+        "equation": [],
+        "board": [],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "index": 6,
+      "start": 52.13333333333333,
+      "speech_end": 59.83208333333334,
+      "end": 61.333333333333336,
+      "role": "prediction",
+      "chapter": "Display example one",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Display example one",
+        "text": "Which display shows the greater amount? Try matching the decimal places, rather than counting how many digits you see.",
+        "board": [
+          "1.407 ? 1.47"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.407,
+          "decimals": 2
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 7,
+      "start": 61.333333333333336,
+      "speech_end": 79.458375,
+      "end": 79.83333333333333,
+      "role": "explanation",
+      "chapter": "The hundredths decide",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+        "chapter": "The hundredths decide",
+        "equation": [],
+        "board": [
+          "1.407     1.470",
+          "Ones: 1 = 1     Tenths: 4 = 4",
+          "Hundredths: 0 < 7",
+          "1.407 < 1.470"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 8,
+      "start": 79.83333333333333,
+      "speech_end": 96.28054166666666,
+      "end": 96.63333333333334,
+      "role": "explanation",
+      "chapter": "Order from smallest to largest",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+        "chapter": "Order from smallest to largest",
+        "equation": [],
+        "board": [
+          "2.053     2.305     2.350",
+          "2.053 < 2.305 < 2.350"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 2,
+          "end": 2.5,
+          "mark": 2.305,
+          "decimals": 3
+        }
+      }
+    },
+    {
+      "index": 9,
+      "start": 96.63333333333334,
+      "speech_end": 104.52020833333333,
+      "end": 106.03333333333333,
+      "role": "prediction",
+      "chapter": "Display example two",
+      "pause": 1.5,
+      "speed": 0.92,
+      "graphic": {
+        "role": "prediction",
+        "chapter": "Display example two",
+        "text": "Where might one point four three seven lie? First find its neighbouring hundredths. Then we can zoom in together.",
+        "board": [
+          "1.43 < 1.437 < 1.44"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.437,
+          "decimals": 2
+        },
+        "pause": 1.5
+      }
+    },
+    {
+      "index": 10,
+      "start": 106.03333333333333,
+      "speech_end": 122.33216666666667,
+      "end": 122.7,
+      "role": "explanation",
+      "chapter": "Hundredths on a number line",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+        "chapter": "Hundredths on a number line",
+        "equation": [],
+        "board": [
+          "Step size = 0.01"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": null,
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "index": 11,
+      "start": 122.7,
+      "speech_end": 142.02054166666667,
+      "end": 142.4,
+      "role": "explanation",
+      "chapter": "Zoom in to thousandths",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+        "chapter": "Zoom in to thousandths",
+        "equation": [],
+        "board": [
+          "Step size = 0.001",
+          "1.430 + 0.007 = 1.437"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": {
+          "type": "line",
+          "start": 1.43,
+          "end": 1.44,
+          "mark": 1.437,
+          "decimals": 3
+        }
+      }
+    },
+    {
+      "index": 12,
+      "start": 142.4,
+      "speech_end": 157.382375,
+      "end": 157.73333333333332,
+      "role": "misconception",
+      "chapter": "More decimal digits is not more value",
+      "pause": 0.35,
+      "speed": 0.88,
+      "graphic": {
+        "role": "misconception",
+        "chapter": "More decimal digits is not more value",
+        "text": "A longer decimal is not automatically larger. One point four zero seven is smaller than one point four seven. Adding an end zero to make one point four seven zero changes its name, but not its value.",
+        "board": [
+          "1.407 < 1.470",
+          "1.47 = 1.470"
+        ],
+        "model": {
+          "type": "line",
+          "start": 1.4,
+          "end": 1.5,
+          "mark": 1.47,
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "index": 13,
+      "start": 157.73333333333332,
+      "speech_end": 162.22854166666667,
+      "end": 167.23333333333332,
+      "role": "question",
+      "chapter": "Your turn",
+      "pause": 5,
+      "speed": 0.92,
+      "graphic": {
+        "text": "Which is greater: 2.405 or 2.45?",
+        "chapter": "Your turn",
+        "equation": [],
+        "board": [
+          "2.405 ? 2.45"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "question",
+        "pause": 5,
+        "model": {
+          "type": "line",
+          "start": 2.4,
+          "end": 2.5,
+          "mark": 2.45,
+          "decimals": 3
+        }
+      }
+    },
+    {
+      "index": 14,
+      "start": 167.23333333333332,
+      "speech_end": 175.43483333333333,
+      "end": 175.8,
+      "role": "answer",
+      "chapter": "Let’s check",
+      "pause": 0.35,
+      "speed": 0.94,
+      "graphic": {
+        "text": "Write 2.45 as 2.450. At the hundredths place, five hundredths is greater than zero hundredths.",
+        "chapter": "Let’s check",
+        "equation": [],
+        "board": [
+          "2.450 > 2.405"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "answer",
+        "model": {
+          "type": "line",
+          "start": 2.4,
+          "end": 2.5,
+          "mark": 2.45,
+          "decimals": 3
+        }
+      }
+    },
+    {
+      "index": 15,
+      "start": 175.8,
+      "speech_end": 193.61541666666668,
+      "end": 193.96666666666667,
+      "role": "explanation",
+      "chapter": "Recap: place value gives the order",
+      "pause": 0.35,
+      "speed": 0.9,
+      "graphic": {
+        "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+        "chapter": "Recap: place value gives the order",
+        "equation": [],
+        "board": [
+          "4.7 = 4.700",
+          "Line up → compare left to right",
+          "Number line: check the step size"
+        ],
+        "rows": [],
+        "line": null,
+        "area": null,
+        "context": null,
+        "note": "",
+        "role": "explanation",
+        "model": null
+      }
+    },
+    {
+      "index": 16,
+      "start": 193.96666666666667,
+      "speech_end": 211.478375,
+      "end": 211.83333333333334,
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "pause": 0.35,
+      "speed": 0.91,
+      "graphic": {
+        "role": "recap",
+        "chapter": "Look what you can do now",
+        "text": "Our goal was to compare, order and locate decimals through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby. Then try the lesson practice on Math Magic.",
+        "board": [],
+        "model": null,
+        "display": "Compare, order and locate decimals through thousandths.",
+        "criteria": [
+          "Line up places and use end zeros",
+          "Compare and order decimals",
+          "Locate decimals on a number line"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.064541666666667,
+      "text": "Two measuring displays disagree about who has the bigger amount.",
+      "source_sha256": "31cb204596c78ce6a4e63f1c2c0acf07bae04af97c0b4168a125620d2b991110"
+    },
+    {
+      "start": 4.184541666666667,
+      "end": 8.285375,
+      "text": "One display has more digits, but does that make its amount greater?",
+      "source_sha256": "e3c38602d398430816e0f3d56ec24b2a182d8fcf22f2b94d5dda7fd3356c893c"
+    },
+    {
+      "start": 8.405375,
+      "end": 12.831583333333333,
+      "text": "Let’s use matching places and a zoomable number line to solve the mystery.",
+      "source_sha256": "5e0ceb3047b7b30b92780ab23bf74baa56c4433031756a80d75ec86169f69ebb"
+    },
+    {
+      "start": 13.2,
+      "end": 18.077,
+      "text": "Today, we’re learning to compare, order and locate decimals through thousandths.",
+      "source_sha256": "14acaf47a5efbfe927e26dd556714d98094ff2b636f8d8774fc302dcd6435c41"
+    },
+    {
+      "start": 18.433333333333334,
+      "end": 23.954958333333334,
+      "text": "You’ll be able to line up places and use end zeros without changing a decimal’s value.",
+      "source_sha256": "bfd76f03ebfb723c4672a4083cc774b2ad06d96f22a5e0df54cfc9d573c6c0e4"
+    },
+    {
+      "start": 24.333333333333332,
+      "end": 28.54775,
+      "text": "You’ll be able to compare and order decimals using place value.",
+      "source_sha256": "72f26c1481ca46bcd83b865053e41460891f96787c57890f81d0072ac62578c5"
+    },
+    {
+      "start": 28.9,
+      "end": 33.870416666666664,
+      "text": "You’ll be able to explain where a decimal belongs between two number-line marks.",
+      "source_sha256": "69859ff1aa5b3d036b826d3a3ede9451e19770547ea4170579fb93fa10fc9e05"
+    },
+    {
+      "start": 34.233333333333334,
+      "end": 37.589625,
+      "text": "Does a longer decimal always mean a bigger number?",
+      "source_sha256": "4cbf460a5495fd88050332d89cacea394e087023fcd0f82cb7ee83854436180c"
+    },
+    {
+      "start": 37.709625,
+      "end": 38.51958333333334,
+      "text": "No.",
+      "source_sha256": "e4e8da5869ab7865399dd2b1c7ebc1bceb43c6f73315ffaae94aae9f6c8bb36f"
+    },
+    {
+      "start": 38.639583333333334,
+      "end": 40.91458333333333,
+      "text": "Compare place values instead.",
+      "source_sha256": "c6f39d75a88830a7e8b29e881c5c91881c4599325e5dd5ceb41cd0463eeec918"
+    },
+    {
+      "start": 41.03458333333333,
+      "end": 45.754333333333335,
+      "text": "Start with the whole number parts, then tenths, hundredths and thousandths.",
+      "source_sha256": "67821c5b863591139c6eb82535b248989d798465703a1fca44a08cddd0105e6a"
+    },
+    {
+      "start": 45.87433333333333,
+      "end": 51.781416666666665,
+      "text": "Adding zeros at the end of a decimal can help line up the places without changing its value.",
+      "source_sha256": "bc6f69bcadb477a29c882a045375e9db1e6f5948898733a9ad12069d4087f1d1"
+    },
+    {
+      "start": 52.13333333333333,
+      "end": 54.89729166666667,
+      "text": "Which display shows the greater amount?",
+      "source_sha256": "f4969f8917d9f1b1f34b59d78ceb3611731f9b2c0ada18f2de3d57d0499438bc"
+    },
+    {
+      "start": 55.017291666666665,
+      "end": 59.83208333333334,
+      "text": "Try matching the decimal places, rather than counting how many digits you see.",
+      "source_sha256": "3ff66ef2b5d9ba32d91e8b5208bc5bbd2240aeeb6f7a188fac293319ce5bfb30"
+    },
+    {
+      "start": 61.333333333333336,
+      "end": 65.610875,
+      "text": "Compare one point four zero seven and one point four seven.",
+      "source_sha256": "a74436795ea847dd2f70473939a1f1523a55380c874b204a2823266836a50d4c"
+    },
+    {
+      "start": 65.730875,
+      "end": 69.09033333333333,
+      "text": "Write the second as one point four seven zero.",
+      "source_sha256": "5af301bb30269bc87100db9cb05472ed3b7e438915605fcf6953752c9646a9f8"
+    },
+    {
+      "start": 69.21033333333334,
+      "end": 70.98566666666666,
+      "text": "Ones and tenths match.",
+      "source_sha256": "4cda1f5c191e517db423c100ef3d02620083b6654d700f12b4b65ecf0252d70c"
+    },
+    {
+      "start": 71.10566666666666,
+      "end": 74.27625,
+      "text": "At the hundredths place, zero is less than seven.",
+      "source_sha256": "f69e5e00001de076913df154fa7e25a858962bc9201dc17bd8b0701a06bd90a4"
+    },
+    {
+      "start": 74.39625,
+      "end": 79.458375,
+      "text": "So one point four zero seven is less than one point four seven zero.",
+      "source_sha256": "af7d54ef5f8fb8bb949ee83fc9d81964d4baa51edf81a6f738d69d4b5d2fddb5"
+    },
+    {
+      "start": 79.83333333333333,
+      "end": 87.04254166666666,
+      "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero.",
+      "source_sha256": "afe9f2b3e3a0857e7187f3eef36734077983432ad02e8e31f37fa129fef48396"
+    },
+    {
+      "start": 87.16254166666667,
+      "end": 91.16054166666666,
+      "text": "The first is smallest because its tenths digit is zero.",
+      "source_sha256": "72876afb34f94bec66712b2e00ce63a9c3b55d108e1eb99711a1c37696429e31"
+    },
+    {
+      "start": 91.28054166666666,
+      "end": 96.28054166666666,
+      "text": "The other two match in tenths, but zero hundredths is less than five hundredths.",
+      "source_sha256": "5fde1402ae94e02aa2719379899488cb2d736b45451a9d1c8d91b26a5636cac7"
+    },
+    {
+      "start": 96.63333333333334,
+      "end": 99.51054166666667,
+      "text": "Where might one point four three seven lie?",
+      "source_sha256": "27df7b535a13e44019158e13fbf8219996bb32a0f1ebd2db37c32e4910cbaa59"
+    },
+    {
+      "start": 99.63054166666667,
+      "end": 102.17733333333334,
+      "text": "First find its neighbouring hundredths.",
+      "source_sha256": "62abc9dc1cf10039b83ee967a24a1a5d191bedf3b6cbc7e546063cfacedcae33"
+    },
+    {
+      "start": 102.29733333333333,
+      "end": 104.52020833333333,
+      "text": "Then we can zoom in together.",
+      "source_sha256": "d47f85618a2f4a52e8389eb4cc26015dbfb08fdcae6e2fb7ba544ca1e3fcdc1b"
+    },
+    {
+      "start": 106.03333333333333,
+      "end": 108.451875,
+      "text": "Now locate a number on a line.",
+      "source_sha256": "ad083f16fb2822a848c53677daec3af3bd707e1dad61574ed164d0c7e912be48"
+    },
+    {
+      "start": 108.571875,
+      "end": 114.84520833333333,
+      "text": "From one point four zero to one point five zero, divide the interval into ten equal steps.",
+      "source_sha256": "becd810b992c837f62d7e6e2fd38d2681c42b639681f4b8b2b128e1c79e33c2a"
+    },
+    {
+      "start": 114.96520833333334,
+      "end": 117.107,
+      "text": "Each step is one hundredth.",
+      "source_sha256": "a59d695b4971574653d24f892811362ed6b77da08655d69e0b0aae51ffe3c4f2"
+    },
+    {
+      "start": 117.227,
+      "end": 122.33216666666667,
+      "text": "One point four three and one point four four are neighbouring marks on this line.",
+      "source_sha256": "0c5406de3fba855ae8b12bada3d0df3cf132b1daf33a47038366fc3793b521aa"
+    },
+    {
+      "start": 122.7,
+      "end": 130.238375,
+      "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four.",
+      "source_sha256": "65658b03202ac3f2f778cd36bd101e033f2027ac08118fb293aa2da2be0daf20"
+    },
+    {
+      "start": 130.358375,
+      "end": 133.786875,
+      "text": "Divide that interval into ten equal steps.",
+      "source_sha256": "05804d3350c22fa58eb9041d302e592550a4f32e74d3d66332923cbb1cb599c1"
+    },
+    {
+      "start": 133.906875,
+      "end": 136.19225,
+      "text": "Each step is one thousandth.",
+      "source_sha256": "979415aa0c73509957e6a6809c746d3ff0b0cc1f448485550ccf07b277d0d329"
+    },
+    {
+      "start": 136.31225,
+      "end": 142.02054166666667,
+      "text": "Count seven steps from one point four three zero to reach one point four three seven.",
+      "source_sha256": "47babf678fab50b489b98aecd8a50dc8501e40cc08d9a988832a3d6c834c52f9"
+    },
+    {
+      "start": 142.4,
+      "end": 145.94016666666667,
+      "text": "A longer decimal is not automatically larger.",
+      "source_sha256": "51212560a5f87cdcf54e5ad9b85e220a1066877334386957fe75a5d2bef85c82"
+    },
+    {
+      "start": 146.06016666666667,
+      "end": 150.78475,
+      "text": "One point four zero seven is smaller than one point four seven.",
+      "source_sha256": "894e5105d6931ec02cabc4499c3973f1deee3034fba2220a0f2f934f9cb6dd19"
+    },
+    {
+      "start": 150.90475,
+      "end": 157.382375,
+      "text": "Adding an end zero to make one point four seven zero changes its name, but not its value.",
+      "source_sha256": "38f337cd2e66d037a6b59a749cdb3b82a547cdbe44b84cc128948519795647ed"
+    },
+    {
+      "start": 157.73333333333332,
+      "end": 162.22854166666667,
+      "text": "Which is greater: 2.405 or 2.45?",
+      "source_sha256": "1391e1b619ae6fca44b773ea239ec5e53afd7ec23c86810d0197253e1c641c23"
+    },
+    {
+      "start": 167.23333333333332,
+      "end": 171.01091666666667,
+      "text": "Write 2.45 as 2.450.",
+      "source_sha256": "3c0c8c78f5c1075db3d3a42e22ceaa84d334a50da2be492be93368c4cbfb58be"
+    },
+    {
+      "start": 171.13091666666668,
+      "end": 175.43483333333333,
+      "text": "At the hundredths place, five hundredths is greater than zero hundredths.",
+      "source_sha256": "feebe3701dc0e7cd40d812cbae91339731efad41f12c17c8ebabb0343e3808b5"
+    },
+    {
+      "start": 175.8,
+      "end": 183.338875,
+      "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes.",
+      "source_sha256": "4d750cb37a64067c95229c8839cb0b8e6b6ed61205ca8f8d775bda680004050d"
+    },
+    {
+      "start": 183.458875,
+      "end": 186.521125,
+      "text": "Extra end zeros do not add any value.",
+      "source_sha256": "7d16767caeb4b0308ab9c370527c35ede33f4eaa4a2314cb1cbffd0d37970450"
+    },
+    {
+      "start": 186.641125,
+      "end": 193.61541666666668,
+      "text": "Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+      "source_sha256": "fc155686e6b16e2ee51fbd77b89b0faa835ff763a2b0694226dc60bc0292ece6"
+    },
+    {
+      "start": 193.96666666666667,
+      "end": 198.52266666666668,
+      "text": "Our goal was to compare, order and locate decimals through thousandths.",
+      "source_sha256": "9fe51d998aa983678671e78ec91e00360909d0d0b098ca0fe957c880ba8fa7ae"
+    },
+    {
+      "start": 198.64266666666666,
+      "end": 204.430375,
+      "text": "You can now explain your strategy, check the places carefully, and show why your answer makes sense.",
+      "source_sha256": "7dae7bccd544f8de6f13545ddba21ec27ec13535ea0882b6adb029853164d66d"
+    },
+    {
+      "start": 204.550375,
+      "end": 208.170625,
+      "text": "Choose a number of your own and explain it to someone nearby.",
+      "source_sha256": "95753b4371494cefb75405559cf20997737c10b2c237dba75c9f74b159d6a809"
+    },
+    {
+      "start": 208.290625,
+      "end": 211.478375,
+      "text": "Then try the lesson practice on Math Magic.",
+      "source_sha256": "5d29954460db2fb9424a6de484decadcdcc1d4bb80e071ff20433c7193077a56"
+    }
+  ],
+  "narration_sha256": "e4cabc573f801393b95855da85a4d50af9210f26811dad0486046ff1974a138b",
+  "alignment": "Measured generated-sentence PCM sample intervals; no estimated word times.",
+  "voice_id": 31,
+  "voice": "Kokoro v1.0 hf_alpha",
+  "language": "English phonemes with native female Hindi speaker embedding",
+  "rates": {
+    "hook": 0.94,
+    "goal": 0.91,
+    "criteria": 0.92,
+    "prediction": 0.92,
+    "question": 0.92,
+    "answer": 0.94,
+    "misconception": 0.88,
+    "recap": 0.91,
+    "explanation": 0.9
+  }
+}
