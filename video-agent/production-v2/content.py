@@ -182,6 +182,67 @@ def load_final_topics():
         [('Team A wins eight out of ten games. Rename the share as eighty out of one hundred, which is eighty percent.',['Team A: 8 out of 10 = 80%'], 'Team B wins seventy-five out of one hundred games, which is seventy-five percent. Eighty percent is greater, so Team A has the greater relative success, although Team B has more wins in total.',['Team B: 75 out of 100 = 75%','80% > 75%']),('Compare a bar that is half shaded with a bar that is zero point four shaded. Use equal complete bars for the wholes.',['one half = 0.5 = 50%','0.4 = 40%'], 'Half is fifty percent and zero point four is forty percent. Half is the greater share because fifty hundredths is more than forty hundredths.',['50% > 40%'])],
         ('Which share is greater: three quarters or seventy percent?', ['three quarters ? 70%']),('Three quarters is seventy-five percent. That is greater than seventy percent by five percentage points.',['three quarters = 75%','75% > 70%']),
         'Identify each whole, rename shares on a common scale, and compare relative size. A greater percentage does not necessarily mean a greater count when the totals differ. Explain which comparison the question asks for.')
+    # Video-only learning intentions. Keep the hook first, then teach the goal and
+    # all three success criteria visibly AND aloud before the first calculation.
+    # Wording matches the already-published five lesson pages; no HTML changes.
+    decimal_video_goals = {
+        "place": [
+            "Read and explain decimal place value to thousandths.",
+            [
+                "Name the tenths, hundredths and thousandths places.",
+                "Explain a decimal using a place-value chart.",
+                "Identify the value of a digit in a decimal number."
+            ]
+        ],
+        "compare": [
+            "Compare, order and locate decimal numbers using place value and number lines.",
+            [
+                "Compare decimal digits from left to right.",
+                "Use placeholder zeros to compare equivalent decimal forms.",
+                "Locate decimals accurately between labelled points on a number line."
+            ]
+        ],
+        "percent": [
+            "Explain percentages as parts of a whole divided into 100 equal parts.",
+            [
+                "Explain what the percent symbol means.",
+                "Represent a familiar percentage using a hundred-part model.",
+                "Compare percentages by thinking about the same whole."
+            ]
+        ],
+        "connect": [
+            "Connect familiar fractions, decimals and percentages that represent the same amount.",
+            [
+                "Match familiar fractions to equivalent decimals and percentages.",
+                "Use a visual model to explain why the forms are equivalent.",
+                "Place equivalent representations at the same position on a number line."
+            ]
+        ],
+        "apply": [
+            "Use decimal and percentage representations to compare real-world relative amounts.",
+            [
+                "Convert familiar decimals and fractions into percentages.",
+                "Compare amounts using a common whole or a scale of 100.",
+                "Explain why comparing numbers in different forms can be misleading."
+            ]
+        ]
+    }
+    for lesson in out:
+        if lesson['topic'] != 'decimals-percentages':
+            continue
+        goal, criteria = decimal_video_goals[lesson['section']]
+        goal_cue = beat(
+            'Our learning goal is to ' + goal[0].lower() + goal[1:],
+            'Today’s Learning Goal', board=[goal])
+        goal_cue['role'] = 'learning_goal'
+        criteria_cue = beat(
+            'Success criteria. I can ' + '. I can '.join(
+                item.rstrip('.').lower() for item in criteria) + '.',
+            'Success Criteria: I can…',
+            board=[str(i) + '. ' + item for i, item in enumerate(criteria, 1)])
+        criteria_cue['role'] = 'success_criteria'
+        lesson['beats'][1:1] = [goal_cue, criteria_cue]
+
     t='factors-multiples'
     add(t,'lesson1','Build Numbers from Factors',
         'How many different rectangles could you build with twenty-four equal tiles? Today we are finding factor pairs. We will arrange whole-number rows, record matching products, and use those pairs to find every factor without missing one.',
