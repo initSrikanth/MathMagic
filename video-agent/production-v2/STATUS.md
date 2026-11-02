@@ -2,7 +2,7 @@
 
 - total videos required: 30
 - videos successfully rendered: 15
-- videos committed: 10
+- videos committed: 15
 - videos deployed and verified live: 10
 - remaining videos: 20
 - last successful batch: {'id': '20261020T015059Z', 'lessons': ['whole-numbers-lesson1', 'whole-numbers-lesson2', 'whole-numbers-lesson3', 'whole-numbers-lesson4', 'whole-numbers-lesson5'], 'completed': '2026-10-20T01:59:11.879795+00:00'}
