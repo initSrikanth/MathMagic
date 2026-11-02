@@ -1,0 +1,669 @@
+{
+  "input_hash": "c0b2d85fc0f276c14e2c14f15cfb674acc48081d622d2e7dbc3359bfedbf34f2",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 15.867041666666667,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Can you tell whether a number divides exactly without doing the whole division? Today we are using divisibility rules. We will test digits, combine two conditions when needed, and explain what the result tells us about factors and remainders.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 15.867041666666667,
+      "end": 21.467083333333335,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to use divisibility rules and explain why a test passes.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Use divisibility rules and explain why a test passes."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 21.467083333333335,
+      "end": 33.840916666666665,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can choose the test for the divisor. I can use final digits or digit sums correctly. I can combine the tests for two and three to test six.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Choose the test for the divisor.",
+        "2. Use final digits or digit sums correctly.",
+        "3. Combine the tests for two and three to test six."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 33.840916666666665,
+      "end": 50.165625,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Divisible means division leaves no remainder. For two, check the final digit is even. For five, it must end in zero or five; for ten, zero. For three or nine, test the digit sum. For four, test the final two digits.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 120,
+        "divisors": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "start": 50.165625,
+      "end": 62.0105,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Is seven hundred and thirty-eight divisible by six? A number is divisible by six when it is divisible by both two and three. Its last digit, eight, is even.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "738: last digit 8 is even"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 738,
+        "divisors": [
+          2
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "start": 62.0105,
+      "end": 74.3445,
+      "lesson_progress": 0.5,
+      "text": "The digit sum is seven plus three plus eight, which is eighteen. Eighteen is divisible by three. Both tests pass, so seven hundred and thirty-eight is divisible by six.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "7 + 3 + 8 = 18",
+        "738 ÷ 6 = 123"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 738,
+        "divisors": [
+          2,
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "start": 74.3445,
+      "end": 83.85275,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Is one thousand two hundred and forty-five divisible by five and by nine? It ends in five, so the test for five passes.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "1,245: ends in 5"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 1245,
+        "divisors": [
+          5
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "start": 83.85275,
+      "end": 96.3605,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Its digit sum is twelve. Twelve is not divisible by nine, so the number is not divisible by nine. Passing one divisibility test does not imply passing every other test.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "1 + 2 + 4 + 5 = 12",
+        "Divisible by 5; not by 9"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 1245,
+        "divisors": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "start": 96.3605,
+      "end": 109.80520833333334,
+      "lesson_progress": 0.75,
+      "text": "An even number is divisible by two, but not always by six. Fourteen is even, yet its digit sum is five, which is not divisible by three. To test six, both conditions must pass.",
+      "chapter": "One passing test is not enough",
+      "equation": [],
+      "board": [
+        "14: even, but 1 + 4 = 5",
+        "14 is not divisible by 6"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 14,
+        "divisors": [
+          2,
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "start": 109.80520833333334,
+      "end": 116.871,
+      "lesson_progress": 0.8333333333333334,
+      "text": "Is three hundred and twelve divisible by four?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "312: test the final two digits"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 116.871,
+      "end": 129.14791666666667,
+      "lesson_progress": 0.9166666666666666,
+      "text": "The last two digits form twelve. Twelve is divisible by four, so three hundred and twelve is divisible by four. Check: four times seventy-eight is three hundred and twelve.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "12 ÷ 4 = 3",
+        "4 × 78 = 312"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "factor_table",
+        "kind": "rules",
+        "n": 312,
+        "divisors": [
+          4
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "start": 129.14791666666667,
+      "end": 150.3105,
+      "lesson_progress": 1.0,
+      "text": "Choose the rule for the divisor and explain each condition. Six needs both the two and three tests. Divisibility rules are shortcuts for exact-division decisions, and multiplication can confirm the result. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Choose the divisor → apply its test → explain",
+        "For 6, check both 2 and 3"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.342,
+      "text": "Can you tell whether a number divides exactly without doing the whole division?"
+    },
+    {
+      "start": 4.992,
+      "end": 7.852625,
+      "text": "Today we are using divisibility rules."
+    },
+    {
+      "start": 8.072625,
+      "end": 15.217041666666667,
+      "text": "We will test digits, combine two conditions when needed, and explain what the result tells us about factors and remainders."
+    },
+    {
+      "start": 15.867041666666667,
+      "end": 20.817083333333333,
+      "text": "Our learning goal is to use divisibility rules and explain why a test passes."
+    },
+    {
+      "start": 21.467083333333335,
+      "end": 23.225833333333334,
+      "text": "Success criteria."
+    },
+    {
+      "start": 23.445833333333333,
+      "end": 25.911166666666666,
+      "text": "I can choose the test for the divisor."
+    },
+    {
+      "start": 26.131166666666665,
+      "end": 29.373958333333334,
+      "text": "I can use final digits or digit sums correctly."
+    },
+    {
+      "start": 29.593958333333333,
+      "end": 33.190916666666666,
+      "text": "I can combine the tests for two and three to test six."
+    },
+    {
+      "start": 33.840916666666665,
+      "end": 36.824375,
+      "text": "Divisible means division leaves no remainder."
+    },
+    {
+      "start": 37.044375,
+      "end": 39.754958333333335,
+      "text": "For two, check the final digit is even."
+    },
+    {
+      "start": 39.97495833333333,
+      "end": 43.84608333333333,
+      "text": "For five, it must end in zero or five; for ten, zero."
+    },
+    {
+      "start": 44.06608333333333,
+      "end": 46.596875,
+      "text": "For three or nine, test the digit sum."
+    },
+    {
+      "start": 46.816875,
+      "end": 49.515625,
+      "text": "For four, test the final two digits."
+    },
+    {
+      "start": 50.165625,
+      "end": 53.574,
+      "text": "Is seven hundred and thirty-eight divisible by six?"
+    },
+    {
+      "start": 54.224,
+      "end": 58.700625,
+      "text": "A number is divisible by six when it is divisible by both two and three."
+    },
+    {
+      "start": 58.920625,
+      "end": 61.3605,
+      "text": "Its last digit, eight, is even."
+    },
+    {
+      "start": 62.0105,
+      "end": 66.10325,
+      "text": "The digit sum is seven plus three plus eight, which is eighteen."
+    },
+    {
+      "start": 66.32325,
+      "end": 68.82720833333333,
+      "text": "Eighteen is divisible by three."
+    },
+    {
+      "start": 69.04720833333333,
+      "end": 73.6945,
+      "text": "Both tests pass, so seven hundred and thirty-eight is divisible by six."
+    },
+    {
+      "start": 74.3445,
+      "end": 79.064375,
+      "text": "Is one thousand two hundred and forty-five divisible by five and by nine?"
+    },
+    {
+      "start": 79.714375,
+      "end": 83.20275,
+      "text": "It ends in five, so the test for five passes."
+    },
+    {
+      "start": 83.85275,
+      "end": 86.00745833333333,
+      "text": "Its digit sum is twelve."
+    },
+    {
+      "start": 86.22745833333333,
+      "end": 90.74695833333334,
+      "text": "Twelve is not divisible by nine, so the number is not divisible by nine."
+    },
+    {
+      "start": 90.96695833333334,
+      "end": 95.7105,
+      "text": "Passing one divisibility test does not imply passing every other test."
+    },
+    {
+      "start": 96.3605,
+      "end": 100.48991666666667,
+      "text": "An even number is divisible by two, but not always by six."
+    },
+    {
+      "start": 100.70991666666667,
+      "end": 105.82783333333333,
+      "text": "Fourteen is even, yet its digit sum is five, which is not divisible by three."
+    },
+    {
+      "start": 106.04783333333333,
+      "end": 109.15520833333333,
+      "text": "To test six, both conditions must pass."
+    },
+    {
+      "start": 109.80520833333334,
+      "end": 112.871,
+      "text": "Is three hundred and twelve divisible by four?"
+    },
+    {
+      "start": 116.871,
+      "end": 119.328625,
+      "text": "The last two digits form twelve."
+    },
+    {
+      "start": 119.548625,
+      "end": 124.53275,
+      "text": "Twelve is divisible by four, so three hundred and twelve is divisible by four."
+    },
+    {
+      "start": 124.75275,
+      "end": 128.49791666666667,
+      "text": "Check: four times seventy-eight is three hundred and twelve."
+    },
+    {
+      "start": 129.14791666666667,
+      "end": 132.8085,
+      "text": "Choose the rule for the divisor and explain each condition."
+    },
+    {
+      "start": 133.0285,
+      "end": 136.05395833333333,
+      "text": "Six needs both the two and three tests."
+    },
+    {
+      "start": 136.27395833333333,
+      "end": 142.70133333333334,
+      "text": "Divisibility rules are shortcuts for exact-division decisions, and multiplication can confirm the result."
+    },
+    {
+      "start": 142.92133333333334,
+      "end": 146.32883333333334,
+      "text": "Reflect on which model helped you and explain why."
+    },
+    {
+      "start": 146.54883333333333,
+      "end": 149.6605,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.342,
+      4.992,
+      "sentence pause"
+    ],
+    [
+      7.852625,
+      8.072625,
+      "sentence pause"
+    ],
+    [
+      15.217041666666667,
+      15.867041666666667,
+      "sentence pause"
+    ],
+    [
+      20.817083333333333,
+      21.46708333333333,
+      "sentence pause"
+    ],
+    [
+      23.225833333333334,
+      23.445833333333333,
+      "sentence pause"
+    ],
+    [
+      25.911166666666666,
+      26.131166666666665,
+      "sentence pause"
+    ],
+    [
+      29.373958333333334,
+      29.593958333333333,
+      "sentence pause"
+    ],
+    [
+      33.190916666666666,
+      33.840916666666665,
+      "sentence pause"
+    ],
+    [
+      36.824375,
+      37.044375,
+      "sentence pause"
+    ],
+    [
+      39.754958333333335,
+      39.97495833333333,
+      "sentence pause"
+    ],
+    [
+      43.84608333333333,
+      44.06608333333333,
+      "sentence pause"
+    ],
+    [
+      46.596875,
+      46.816874999999996,
+      "sentence pause"
+    ],
+    [
+      49.515625,
+      50.165625,
+      "sentence pause"
+    ],
+    [
+      53.574,
+      54.224,
+      "sentence pause"
+    ],
+    [
+      58.700625,
+      58.920625,
+      "sentence pause"
+    ],
+    [
+      61.3605,
+      62.0105,
+      "sentence pause"
+    ],
+    [
+      66.10325,
+      66.32325,
+      "sentence pause"
+    ],
+    [
+      68.82720833333333,
+      69.04720833333333,
+      "sentence pause"
+    ],
+    [
+      73.6945,
+      74.34450000000001,
+      "sentence pause"
+    ],
+    [
+      79.064375,
+      79.714375,
+      "sentence pause"
+    ],
+    [
+      83.20275,
+      83.85275,
+      "sentence pause"
+    ],
+    [
+      86.00745833333333,
+      86.22745833333333,
+      "sentence pause"
+    ],
+    [
+      90.74695833333334,
+      90.96695833333334,
+      "sentence pause"
+    ],
+    [
+      95.7105,
+      96.3605,
+      "sentence pause"
+    ],
+    [
+      100.48991666666667,
+      100.70991666666667,
+      "sentence pause"
+    ],
+    [
+      105.82783333333333,
+      106.04783333333333,
+      "sentence pause"
+    ],
+    [
+      109.15520833333333,
+      109.80520833333334,
+      "sentence pause"
+    ],
+    [
+      112.871,
+      116.871,
+      "think time"
+    ],
+    [
+      119.328625,
+      119.548625,
+      "sentence pause"
+    ],
+    [
+      124.53275,
+      124.75274999999999,
+      "sentence pause"
+    ],
+    [
+      128.49791666666667,
+      129.14791666666667,
+      "sentence pause"
+    ],
+    [
+      132.8085,
+      133.0285,
+      "sentence pause"
+    ],
+    [
+      136.05395833333333,
+      136.27395833333333,
+      "sentence pause"
+    ],
+    [
+      142.70133333333334,
+      142.92133333333334,
+      "sentence pause"
+    ],
+    [
+      146.32883333333334,
+      146.54883333333333,
+      "sentence pause"
+    ],
+    [
+      149.6605,
+      150.31050000000002,
+      "sentence pause"
+    ]
+  ],
+  "duration": 150.3105,
+  "narration_sha256": "b1af1d50efccba9ec41c5b5296b3dc48a2c0a6f7c22c0ebe05902e2668c409d2",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

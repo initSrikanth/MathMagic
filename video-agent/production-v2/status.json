@@ -1,19 +1,21 @@
 {
   "total_videos_required": 30,
-  "videos_successfully_rendered": 25,
-  "videos_committed": 25,
-  "videos_deployed_and_verified_live": 20,
-  "remaining_videos": 10,
+  "videos_successfully_rendered": 30,
+  "videos_committed": 30,
+  "videos_deployed_and_verified_live": 25,
+  "remaining_videos": 5,
   "last_successful_batch": {
-    "id": "20261102T105149Z",
+    "id": "20261102T195910Z",
     "lessons": [
-      "addition-subtraction-lesson1",
-      "addition-subtraction-lesson2",
-      "addition-subtraction-lesson3",
-      "addition-subtraction-lesson4",
-      "addition-subtraction-lesson5"
+      "multiplication-division-lesson1",
+      "multiplication-division-lesson2",
+      "multiplication-division-lesson3",
+      "multiplication-division-lesson4",
+      "multiplication-division-lesson5"
     ],
-    "completed": "2026-11-02T19:36:23.808267+00:00"
+    "completed": "2026-11-02T20:23:16.107184+00:00",
+    "pr": 48,
+    "commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
   },
   "next_scheduled_batch": null,
   "next_batch_eligible": null,

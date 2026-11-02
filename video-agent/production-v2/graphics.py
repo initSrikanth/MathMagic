@@ -132,6 +132,45 @@ def draw_family(d,m,progress):
     equation_text=('?' if m['unknown'] else f'{m["groups"]:,}')+' × '+f'{m["each"]:,}'+' = '+f'{m["total"]:,}'
     text(d,equation_text,960,805,43,INK,True)
 
+def draw_factor_table(d,m,progress):
+    n=m['n'];kind=m['kind'];rows=[];footer=''
+    if kind in ['pairs','algorithm']:
+        headings=['Test number','Partner / remainder','Decision']
+        for a in range(1,m['upto']+1):
+            q,r=divmod(n,a)
+            if kind=='pairs' and r:continue
+            rows.append([str(a),str(q) if not r else 'Remainder '+str(r),'Record pair' if not r else 'Continue'])
+        if (m['upto']+1)**2>n:
+            fs=sorted({v for a in range(1,m['upto']+1) if n%a==0 for v in [a,n//a]})
+            footer='Factors: '+', '.join(map(str,fs))
+    elif kind=='multiples':
+        headings=['Equal groups','Total counters'];rows=[[str(i)+' × '+str(n),str(i*n)] for i in range(1,m['upto']+1)]
+    else:
+        headings=['Divisor','Evidence','Passes?'];ds=sum(map(int,str(n)))
+        evidence={2:'Last digit '+str(n%10),3:'Digit sum '+str(ds),4:'Last two digits '+str(n%100),5:'Last digit '+str(n%10),6:'Both 2 and 3',9:'Digit sum '+str(ds),10:'Last digit '+str(n%10)}
+        rows=[[str(v),evidence[v],'Yes' if n%v==0 else 'No'] for v in m['divisors']]
+    left=210;cw=1500/len(headings);rh=min(54,350/max(1,len(rows)))
+    for j,h in enumerate(headings):text(d,h,left+cw*(j+.5),510,32,INK,True,maxw=cw-20)
+    for i,row in enumerate(rows):
+        y=560+i*rh
+        for j,value in enumerate(row):
+            x=left+j*cw;d.rounded_rectangle((x,y,x+cw-8,y+rh-3),radius=8,fill=EMPTY if i%2==0 else '#FFF1D0')
+            text(d,value,x+(cw-8)/2,y+3,34,TEAL if i<len(rows)*progress else INK,True,maxw=cw-25)
+    if footer:text(d,footer,960,930,34,TEAL,True,maxw=1600)
+
+def draw_factor_sets(d,m,progress):
+    ns=m['numbers'];kind=m['kind']
+    lists=[[x for x in range(1,n+1) if n%x==0] if kind=='factors' else list(range(n,m['limit']+1,n)) for n in ns]
+    shared=set(lists[0])&set(lists[1])
+    for j,(n,values) in enumerate(zip(ns,lists)):
+        y=530+j*150;text(d,('Factors' if kind=='factors' else 'Multiples shown')+' of '+str(n),960,y,35,INK,True)
+        cw=1500/max(9,len(values));left=960-len(values)*cw/2
+        for i,v in enumerate(values):
+            x=left+i*cw;chosen=m['highlight'] and v in shared
+            d.rounded_rectangle((x,y+48,x+cw-12,y+115),radius=12,fill=GOLD if chosen else EMPTY,outline=TEAL if chosen else None,width=3)
+            text(d,str(v),x+(cw-12)/2,y+55,44,INK,True)
+    if m['highlight']:text(d,'Shared: '+', '.join(map(str,sorted(shared))),960,875,42,TEAL,True)
+
 def draw(lesson,cue,path,progress=1):
     im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     d.rounded_rectangle((45,35,1875,1035),radius=35,fill='white',outline='#DBE7DF',width=3)
@@ -269,6 +308,8 @@ def draw(lesson,cue,path,progress=1):
             d.rounded_rectangle((x,y,x+cw-8,y+150),radius=9,fill='#FFF0C8' if i==model['highlight'] else EMPTY)
             for k,line in enumerate(label.split('\n')): text(d,line,x+cw/2,y+12+k*26,23,INK,True,maxw=cw-12)
             text(d,digit,x+cw/2,y+86,45,TEAL,True)
+    if model and model['type']=='factor_table': draw_factor_table(d,model,progress)
+    if model and model['type']=='factor_sets': draw_factor_sets(d,model,progress)
     if model and model['type']=='array': draw_array(d,model,progress)
     if model and model['type']=='products': draw_products(d,model,progress)
     if model and model['type']=='groups': draw_groups(d,model,progress)

@@ -1,9 +1,22 @@
 {
   "schema": 2,
   "interval_hours": 5,
-  "last_batch_started": "2026-11-02T19:59:10.436136+00:00",
+  "last_batch_started": "2026-11-02T22:51:00.777609+00:00",
   "next_batch_due": null,
   "active_batch": {
+    "id": "20261102T225100Z",
+    "lessons": [
+      "factors-multiples-lesson1",
+      "factors-multiples-lesson2",
+      "factors-multiples-lesson3",
+      "factors-multiples-lesson4",
+      "factors-multiples-lesson5"
+    ],
+    "started": "2026-11-02T22:51:00.777609+00:00",
+    "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+    "mode": "manual-authorised"
+  },
+  "last_successful_batch": {
     "id": "20261102T195910Z",
     "lessons": [
       "multiplication-division-lesson1",
@@ -12,20 +25,9 @@
       "multiplication-division-lesson4",
       "multiplication-division-lesson5"
     ],
-    "started": "2026-11-02T19:59:10.436136+00:00",
-    "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
-    "mode": "manual-authorised"
-  },
-  "last_successful_batch": {
-    "id": "20261102T105149Z",
-    "lessons": [
-      "addition-subtraction-lesson1",
-      "addition-subtraction-lesson2",
-      "addition-subtraction-lesson3",
-      "addition-subtraction-lesson4",
-      "addition-subtraction-lesson5"
-    ],
-    "completed": "2026-11-02T19:36:23.808267+00:00"
+    "completed": "2026-11-02T20:23:16.107184+00:00",
+    "pr": 48,
+    "commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
   },
   "errors": [],
   "limitations": [
@@ -847,7 +849,7 @@
       "video_filename": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
       "production_status": "integrated",
       "commit_sha": "b87ddfe7416115eddac72af44c18adbb54ed6bf0",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "efa25c82bb21fd0858ee84aa45696bb7822db2b81f392178cf628a4ae4afa369",
       "source_commit_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
@@ -884,7 +886,11 @@
         "preserved_original_sha256": "0d6ae767acb16f47b05d17e98ec3bd5b4ab753cd34846bf1eee7f62ade082fa0",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+      "live_verified_at": "2026-11-02T20:23:16.107184+00:00",
+      "deployment_commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "pages_run": 41518231005
     },
     "multiplication-division-lesson2": {
       "topic": "multiplication-division",
@@ -893,7 +899,7 @@
       "video_filename": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
       "production_status": "integrated",
       "commit_sha": "b87ddfe7416115eddac72af44c18adbb54ed6bf0",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "b6177f42168df500e35be61cddb7424093050d598b0818cb60f53a453912dbb3",
       "source_commit_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
@@ -930,7 +936,11 @@
         "preserved_original_sha256": "e3490aa3219f792bf3cebfd29a0d6cf87b8ec4253e661a955682f7ed0c5bf4bf",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+      "live_verified_at": "2026-11-02T20:23:16.107184+00:00",
+      "deployment_commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "pages_run": 41518231005
     },
     "multiplication-division-lesson3": {
       "topic": "multiplication-division",
@@ -939,7 +949,7 @@
       "video_filename": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
       "production_status": "integrated",
       "commit_sha": "b87ddfe7416115eddac72af44c18adbb54ed6bf0",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "e1bdad54b9feb7b3719aa89d857e84bfaa9c3d435eb25a74e664cf90e3650c5e",
       "source_commit_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
@@ -976,7 +986,11 @@
         "preserved_original_sha256": "740488070502b918fa9bb74a29a16bdc171647607e149c2584b4bdba243db825",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+      "live_verified_at": "2026-11-02T20:23:16.107184+00:00",
+      "deployment_commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "pages_run": 41518231005
     },
     "multiplication-division-lesson4": {
       "topic": "multiplication-division",
@@ -985,7 +999,7 @@
       "video_filename": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
       "production_status": "integrated",
       "commit_sha": "b87ddfe7416115eddac72af44c18adbb54ed6bf0",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "8505841b4636453edafe0841b0c91c417633175ccd6e397abc6089bb438fb3a8",
       "source_commit_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
@@ -1022,7 +1036,11 @@
         "preserved_original_sha256": "46d1cccf8fbb6a473946c18573805c4422cf941dbe0fbb574ae481b573c7036d",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+      "live_verified_at": "2026-11-02T20:23:16.107184+00:00",
+      "deployment_commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "pages_run": 41518231005
     },
     "multiplication-division-lesson5": {
       "topic": "multiplication-division",
@@ -1031,7 +1049,7 @@
       "video_filename": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
       "production_status": "integrated",
       "commit_sha": "b87ddfe7416115eddac72af44c18adbb54ed6bf0",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "c9275fb8d6cbffac0945ac4a5eda4c799bee60042a2bdb4748e4ad4da0c292b3",
       "source_commit_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9",
@@ -1068,7 +1086,11 @@
         "preserved_original_sha256": "d6d7d4f4a528af20d8c424740f5b4eef9decd19ad7a598095c226984e4d1707a",
         "replaced_wrapper_sha256": "417553e40a2176900041c8f15845cdfa4246d68d6c6d4d8560bb7547e08abf33",
         "rollback_sha": "191bfad2b38ebe8ef655b0c941448ed9c1d69da9"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+      "live_verified_at": "2026-11-02T20:23:16.107184+00:00",
+      "deployment_commit": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "pages_run": 41518231005
     },
     "decimals-percentages-place": {
       "topic": "decimals-percentages",
@@ -1320,50 +1342,239 @@
       "lesson": "Build Numbers from Factors",
       "section": "lesson1",
       "video_filename": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "5ca4b3a5c06f858719e6cbf929ecd08d9c644292",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "776e7135ecd896e8879dc7ab4de72a757ff9bc3d18bec3e863fab27c55f0a5f6",
+      "source_commit_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "source_tree_dirty": true,
+      "producer_sha256": "dc345309d10c1b8e1e84b74e166d221cf3132cf3c160d361745d5d5ec66d3f6b",
+      "graphics_sha256": "0dba1b24c0bfb551526ebdef4091f0a85b4b36bc4df2c1a8b2ec335957fa2582",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 145.648375,
+      "narration_sha256": "89772dbfaa1e989ecd5e29ec6c45126c08eae08cc727b36eea5d32625c1ce9bc",
+      "qa": {
+        "result": "passed",
+        "sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+        "bytes": 2957224,
+        "duration": 145.648375,
+        "audio_rms": 0.062093157321214676,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999862693727677,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "factors-multiples.html",
+        "section": "lesson1",
+        "preserved_original_sha256": "076b7e2e14807ee92817d256474fd2e1b75f3cd1892f4979cb782542d9c228e2",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
+      },
+      "visual_correction": {
+        "changed_cues": [
+          0,
+          4,
+          6
+        ],
+        "narration_unchanged": true,
+        "original_clips_reused": 9
+      }
     },
     "factors-multiples-lesson2": {
       "topic": "factors-multiples",
       "lesson": "Recognise Multiples",
       "section": "lesson2",
       "video_filename": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "5ca4b3a5c06f858719e6cbf929ecd08d9c644292",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "ca5c0df2026512c68a81fae8a7978a1a4d6c464793a905b4624c72290e0e5141",
+      "source_commit_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "source_tree_dirty": true,
+      "producer_sha256": "dc345309d10c1b8e1e84b74e166d221cf3132cf3c160d361745d5d5ec66d3f6b",
+      "graphics_sha256": "0dba1b24c0bfb551526ebdef4091f0a85b4b36bc4df2c1a8b2ec335957fa2582",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 147.11975,
+      "narration_sha256": "27e8a478bbd85d8260be4266d78b0a1d431b45a23954c94d0f9d0512b5674e64",
+      "qa": {
+        "result": "passed",
+        "sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+        "bytes": 2903745,
+        "duration": 147.11975,
+        "audio_rms": 0.0633845254778862,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998271593066432,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "factors-multiples.html",
+        "section": "lesson2",
+        "preserved_original_sha256": "f715db8388a8d3eb3375eb8807d526a298f4b5a5dcf08c8b5779ee34dc4cf615",
+        "replaced_wrapper_sha256": "d4839d48672171502f033a44bfef3226ee3b9a4b19a9ef7dc564105a002d6909",
+        "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
+      }
     },
     "factors-multiples-lesson3": {
       "topic": "factors-multiples",
       "lesson": "Use Divisibility Rules",
       "section": "lesson3",
       "video_filename": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "5ca4b3a5c06f858719e6cbf929ecd08d9c644292",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "91eb93dea7ffd6730cb84361271fd811aaf4999daa0781d077cff36a137bdec3",
+      "source_commit_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "source_tree_dirty": true,
+      "producer_sha256": "dc345309d10c1b8e1e84b74e166d221cf3132cf3c160d361745d5d5ec66d3f6b",
+      "graphics_sha256": "0dba1b24c0bfb551526ebdef4091f0a85b4b36bc4df2c1a8b2ec335957fa2582",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 150.3105,
+      "narration_sha256": "b1af1d50efccba9ec41c5b5296b3dc48a2c0a6f7c22c0ebe05902e2668c409d2",
+      "qa": {
+        "result": "passed",
+        "sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+        "bytes": 2934737,
+        "duration": 150.3105,
+        "audio_rms": 0.06307711452245712,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998046130209137,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "factors-multiples.html",
+        "section": "lesson3",
+        "preserved_original_sha256": "33f9e50dc603a1c0748cc5e5b1143d9bdf6e7fcbb910727cea81063aefd1d8b0",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
+      }
     },
     "factors-multiples-lesson4": {
       "topic": "factors-multiples",
       "lesson": "Follow an Algorithm",
       "section": "lesson4",
       "video_filename": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "5ca4b3a5c06f858719e6cbf929ecd08d9c644292",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "924a91aa5ede92c9414308b4f27449ff1bdec5c2eeeb9f4dcfb75b9aa50400ab",
+      "source_commit_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "source_tree_dirty": true,
+      "producer_sha256": "dc345309d10c1b8e1e84b74e166d221cf3132cf3c160d361745d5d5ec66d3f6b",
+      "graphics_sha256": "0dba1b24c0bfb551526ebdef4091f0a85b4b36bc4df2c1a8b2ec335957fa2582",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 154.02966666666666,
+      "narration_sha256": "bb1a0b16395f68a923c460c988930c7f0133db7ccbcad9df561ec4ab8f50ebcc",
+      "qa": {
+        "result": "passed",
+        "sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+        "bytes": 3218942,
+        "duration": 154.02966666666666,
+        "audio_rms": 0.0626293271780014,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998227790154768,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "factors-multiples.html",
+        "section": "lesson4",
+        "preserved_original_sha256": "e19798441b294f87eaa4eb166a8c32e443cfa0aa35f9dcded7c861d4e351fd19",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
+      }
     },
     "factors-multiples-lesson5": {
       "topic": "factors-multiples",
       "lesson": "Connect and Reason",
       "section": "lesson5",
       "video_filename": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "5ca4b3a5c06f858719e6cbf929ecd08d9c644292",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "de8c2c3fc0d46d1d625d02c89eb86dd2c9d2cf731164ea247206455d1853e6d0",
+      "source_commit_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe",
+      "source_tree_dirty": true,
+      "producer_sha256": "dc345309d10c1b8e1e84b74e166d221cf3132cf3c160d361745d5d5ec66d3f6b",
+      "graphics_sha256": "0dba1b24c0bfb551526ebdef4091f0a85b4b36bc4df2c1a8b2ec335957fa2582",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 149.757125,
+      "narration_sha256": "0599623a6932ee1f22c69d66b4fb2e11b375141767af129b763d27d9df2be7b5",
+      "qa": {
+        "result": "passed",
+        "sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+        "bytes": 3022168,
+        "duration": 149.757125,
+        "audio_rms": 0.06279987096786499,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9997913210652951,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "factors-multiples.html",
+        "section": "lesson5",
+        "preserved_original_sha256": "5374a9f10303ab92bfba6472cf41bb1afdbc4b7d57399a3440b4f1d2718fd6fb",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "3695c3cf6f1c5a0ac0c9117b61b49212b1a9a8fe"
+      }
     }
   },
   "runtime": {

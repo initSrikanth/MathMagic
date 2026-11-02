@@ -6,15 +6,15 @@ assert(auth.includes('access.data().approved===true'));
 assert(auth.includes('location.replace("index.html")'));
 assert(auth.includes('location.replace("access-required.html")'));
 assert(auth.includes('doc(db,"progress",uid,"topics",topicId)'));
-assert(auth.includes('setDoc(ref(user.uid),data)'));
+assert(auth.includes('runTransaction')&&auth.includes('transaction.set(ref(user.uid),data)'));
 assert(auth.includes('localStorage.setItem'));
 assert(auth.includes('MathMagicFactorsMultiplesProgress'));
 assert(!auth.includes('getFunctions')&&!auth.includes('httpsCallable'));
 assert(client.includes('function buildFactorsMultiples()'));
 assert(client.includes('quiz=buildFactorsMultiples()'));
 assert(client.includes('current.answer'));
-assert(html.includes('js/factors-multiples-auth.js?v=2'));
-assert(html.includes('js/factors-multiples.js?v=3'));
+assert(html.includes('js/factors-multiples-auth.js?v=3'));
+assert(html.includes('js/factors-multiples.js?v=4'));
 for(const token of ['onAuthStateChanged','access.data().approved===true','localStorage.setItem'])assert(auth.includes(token)&&fractions.includes(token));
 // Fractions now persists atomically; retain an explicit write-path assertion.
 assert(fractions.includes('runTransaction')&&fractions.includes('transaction.set(ref(user.uid),next)'));

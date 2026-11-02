@@ -1,0 +1,147 @@
+{
+  "topic": "factors-multiples",
+  "result": "passed",
+  "videos": [
+    {
+      "id": "factors-multiples-lesson1",
+      "qa": {
+        "result": "passed",
+        "sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+        "bytes": 2957224,
+        "duration": 145.648375,
+        "audio_rms": 0.062093157321214676,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999862693727677,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "factors-multiples-lesson2",
+      "qa": {
+        "result": "passed",
+        "sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+        "bytes": 2903745,
+        "duration": 147.11975,
+        "audio_rms": 0.0633845254778862,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998271593066432,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "factors-multiples-lesson3",
+      "qa": {
+        "result": "passed",
+        "sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+        "bytes": 2934737,
+        "duration": 150.3105,
+        "audio_rms": 0.06307711452245712,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998046130209137,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "factors-multiples-lesson4",
+      "qa": {
+        "result": "passed",
+        "sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+        "bytes": 3218942,
+        "duration": 154.02966666666666,
+        "audio_rms": 0.0626293271780014,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998227790154768,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "factors-multiples-lesson5",
+      "qa": {
+        "result": "passed",
+        "sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+        "bytes": 3022168,
+        "duration": 149.757125,
+        "audio_rms": 0.06279987096786499,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9997913210652951,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    }
+  ],
+  "teaching_sequence": "hook, narrated goal, three narrated criteria, visual concept, two worked examples, misconception, four-second thinking challenge, answer, recap/practice",
+  "voice": "Existing offline Kokoro bf_emma speaker 7, speed .84; no paid calls",
+  "visual_review": "All 60 preflight scenes rendered; all goals/criteria and representative factor pairs, equal groups, divisibility tests, algorithm steps and shared sets visually reviewed",
+  "limitations": [
+    "Physical Safari/iOS and live Firebase not tested; unchanged protected implementation.",
+    "Narration expressiveness not human-certified."
+  ],
+  "targeted_browser": {
+    "quiz_cases": 12,
+    "media_cases": 12,
+    "result": "passed",
+    "viewports": [
+      1440,
+      768,
+      390
+    ]
+  },
+  "quiz": {
+    "generated_positions": 30000,
+    "unique_prompts": true,
+    "commutative_duplicates_excluded": true,
+    "worked_feedback": "question-specific",
+    "independent_arithmetic": "passed"
+  },
+  "progress": "Mocked atomic concurrent and sequential scores, best/proficiency preservation, refresh/sign-in, UID separation, read/write failure, blocked-cache tolerance and invalid-score rejection passed. Two focused final UI submission cases passed; real Firebase remains unverified.",
+  "visual_correction": {
+    "lesson": 1,
+    "cues": [
+      0,
+      4,
+      6
+    ],
+    "narration_unchanged": true,
+    "original_clips_reused": 9
+  },
+  "page_preservation": "Original written teaching, assessments markup and authentication preserved; five goal/criteria cards and players plus quiz cache version added."
+}

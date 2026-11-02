@@ -12,6 +12,7 @@ assert.strictEqual(fractionsBatch.lessons.length,5);
 const newFractions=new Map(fractionsBatch.lessons.map(l=>[l.src,l]));
 // Explicitly authorised, independently verified graphics-only topic replacements.
 const year5Batches=[
+  ['factors-multiples.html',require('../video-agent/production-v2/factors-multiples-release.json'),require('../video-agent/production-v2/factors-multiples-previous-integrations.json')],
   ['multiplication-division.html',require('../video-agent/production-v2/multiplication-division-release.json'),require('../video-agent/production-v2/multiplication-division-previous-integrations.json')],
   ['addition-subtraction.html',require('../video-agent/production-v2/addition-subtraction-release.json'),require('../video-agent/production-v2/addition-subtraction-previous-integrations.json')],
   ['decimals-percentages.html',require('../video-agent/production-v2/decimals-release.json'),require('../video-agent/production-v2/decimals-previous-integrations.json')],

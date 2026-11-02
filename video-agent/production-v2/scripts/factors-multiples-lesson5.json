@@ -1,0 +1,257 @@
+{
+  "id": "factors-multiples-lesson5",
+  "topic": "factors-multiples",
+  "section": "lesson5",
+  "title": "Connect and Reason",
+  "file": "MathMagic_V2_factors_multiples_lesson5",
+  "beats": [
+    {
+      "text": "Could two different numbers share the same factors or meet in the same multiples pattern? Today we are connecting factors, multiples and divisibility. We will compare sets, identify shared relationships, and explain why a pattern continues.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to explain shared factors and shared multiples.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Explain shared factors and shared multiples."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can compare factor lists for shared values. I can compare equal-group patterns for shared multiples. I can check and explain a shared relationship.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Compare factor lists for shared values.",
+        "2. Compare equal-group patterns for shared multiples.",
+        "3. Check and explain a shared relationship."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "A shared factor divides each number exactly. A shared multiple can be made as a whole-number multiple of each number. These are different questions, so decide whether you are looking for building blocks or for products. For example, two divides both twelve and eighteen exactly, so it is a shared factor.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          12,
+          18
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "text": "List the factors of eighteen: one, two, three, six, nine and eighteen. List the factors of thirty: one, two, three, five, six, ten, fifteen and thirty.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Compare the complete factor lists"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          18,
+          30
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": false
+      }
+    },
+    {
+      "text": "The values in both lists are one, two, three and six. Each divides both numbers exactly. These are their shared factors.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "Shared factors: 1, 2, 3, 6"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          18,
+          30
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "text": "Now compare positive multiples of four and six. Four gives four, eight, twelve, sixteen, twenty and twenty-four. Six gives six, twelve, eighteen and twenty-four.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "4, 8, 12, 16, 20, 24",
+        "6, 12, 18, 24"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          4,
+          6
+        ],
+        "kind": "multiples",
+        "limit": 24,
+        "highlight": false
+      }
+    },
+    {
+      "text": "Twelve and twenty-four appear in both lists. They are shared multiples because each is a whole-number multiple of both four and six.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Shared multiples shown: 12, 24"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          4,
+          6
+        ],
+        "kind": "multiples",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "text": "Eight divides twenty-four, but it does not divide thirty-six exactly. A factor of just one number is not a shared factor. Always check both numbers before choosing.",
+      "chapter": "Shared means it works for both",
+      "equation": [],
+      "board": [
+        "24 ÷ 8 = 3",
+        "36 ÷ 8 leaves a remainder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          24,
+          36
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "text": "Which of five, six, seven or eight is a factor of both twenty-four and thirty-six?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "24 and 36: shared factor?",
+        "5, 6, 7 or 8"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Six works. Six times four is twenty-four and six times six is thirty-six. Eight divides twenty-four but not thirty-six, so it is not shared.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "6 × 4 = 24",
+        "6 × 6 = 36"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          24,
+          36
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "text": "Shared factors divide both numbers; shared multiples appear in both product patterns. Use complete lists or exact division to justify your decision. Explain the relationship rather than guessing from one example. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Compare → identify shared values → check both",
+        "Explain the relationship"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}
