@@ -43,6 +43,12 @@ def equation(d,tokens,y=290):
         else: text(d,t,x,y+12,size,TEAL if t in ['=','>','<','≠'] else INK)
         x+=tw(t)+gap
 
+def mathematical_board(line):
+    # Keep the approved spoken wording, but typeset familiar fractions conventionally.
+    for words,notation in [('three quarters','3/4'),('one quarter','1/4'),('one half','1/2'),('one fifth','1/5'),('one tenth','1/10')]:
+        line=re.sub(r'\b'+words+r'\b',notation,line,flags=re.I)
+    return line
+
 def draw(lesson,cue,path,progress=1):
     im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     d.rounded_rectangle((45,35,1875,1035),radius=35,fill='white',outline='#DBE7DF',width=3)
@@ -160,6 +166,7 @@ def draw(lesson,cue,path,progress=1):
         size=min(52,200//max(1,len(board))+12)
         y=300 if not cue.get('equation') else 470
         for j,line in enumerate(board):
+            line=mathematical_board(line)
             # Handle source fraction notation as structured numerator/bar/denominator.
             if re.search(r'\d+/\d+',line):
                 parts=re.split(r'(\d+/\d+)',line)

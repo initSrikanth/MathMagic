@@ -12,6 +12,7 @@ import re
 import subprocess
 import sys
 import time
+import textwrap
 import urllib.request
 from content import LESSONS, HERE, ROOT
 
@@ -104,6 +105,13 @@ def maths():
 def vtt_time(t):
     ms=round(t*1000); return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02}.{ms%1000:03}'
 
+def formatted_captions(timeline):
+    lines=['WEBVTT','']
+    for c in timeline['captions']:
+        lines.extend([f'{vtt_time(c["start"])} --> {vtt_time(c["end"])} line:0% position:50% align:center size:96%',
+                      '\n'.join(textwrap.wrap(c['text'],60,break_long_words=False,break_on_hyphens=False)),''])
+    return '\n'.join(lines)
+
 def synthesise(l,folder,model,deadline):
     import numpy as np
     import soundfile as sf
@@ -173,19 +181,14 @@ def render(l,folder,timeline,deadline):
     command(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',listing,'-i',folder/'narration.wav','-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','128k','-movflags','+faststart','-metadata','title='+l['title'],temp])
     assert temp.stat().st_size<90*1024**2, 'MP4 exceeds repository file budget'
     # Stage every output; never overwrite a published video before QA passes.
-    captions=['WEBVTT','']
-    for c in timeline['captions']: captions.extend([f'{vtt_time(c["start"])} --> {vtt_time(c["end"])}',c['text'],''])
-    (folder/'captions.vtt').write_text('\n'.join(captions))
+    (folder/'captions.vtt').write_text(formatted_captions(timeline))
     (folder/'transcript.txt').write_text('\n\n'.join(b['text'] for b in l['beats'])+'\n')
     command(['ffmpeg','-v','error','-y','-ss','2','-i',temp,'-frames:v','1','-vf','scale=1280:720',folder/'poster.jpg'])
     return temp
 
 def verify_sidecars(l,folder,timeline):
     """Fail closed if caption timing/text, transcript, or poster is missing or corrupt."""
-    expected=['WEBVTT','']
-    for c in timeline['captions']:
-        expected.extend([f'{vtt_time(c["start"])} --> {vtt_time(c["end"])}',c['text'],''])
-    assert (folder/'captions.vtt').read_text()=='\n'.join(expected), 'Caption track differs from measured narration'
+    assert (folder/'captions.vtt').read_text()==formatted_captions(timeline), 'Caption track differs from measured narration'
     assert (folder/'transcript.txt').read_text()=='\n\n'.join(b['text'] for b in l['beats'])+'\n', 'Transcript differs from script'
     from PIL import Image
     with Image.open(folder/'poster.jpg') as poster:
