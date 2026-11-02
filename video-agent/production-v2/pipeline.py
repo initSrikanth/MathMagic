@@ -14,7 +14,7 @@ import sys
 import time
 import textwrap
 import urllib.request
-from content import LESSONS, HERE, ROOT, validate_addition_models
+from content import LESSONS, HERE, ROOT, validate_addition_models, validate_multiplication_models
 
 STATE=HERE/'manifest.json'
 UTC=dt.timezone.utc
@@ -101,6 +101,7 @@ def maths():
         for b in l['beats']:
             for r in b.get('rows',[]): assert r['d']>0 and 0<=r['n']<=4*r['d']
     validate_addition_models(LESSONS)
+    validate_multiplication_models(LESSONS)
     return {'exact_arithmetic':'passed','lessons':len(LESSONS),'curriculum_scope':'Existing Year 5 topic boundaries; foundations/extension retained as labelled in lesson text.'}
 
 def vtt_time(t):

@@ -1,0 +1,661 @@
+{
+  "input_hash": "e01230259c67750686258405f348af26683d240941776d2dfbd7a46ed3e61ec6",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 15.089833333333333,
+      "lesson_progress": 0.08333333333333333,
+      "text": "How can a large sharing problem become two smaller ones? Today we are dividing by a single-digit number. We will choose useful parts, share each part equally, and use multiplication to check that no amount has been lost.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 15.089833333333333,
+      "end": 21.297875,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to divide whole numbers by a single-digit number using useful parts.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Divide whole numbers by a single-digit number using useful parts."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 21.297875,
+      "end": 33.498583333333336,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can choose parts that divide equally. I can divide every part by the same divisor. I can combine the quotients and multiply back to check.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Choose parts that divide equally.",
+        "2. Divide every part by the same divisor.",
+        "3. Combine the quotients and multiply back to check."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 33.498583333333336,
+      "end": 54.00491666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Division can mean sharing into equal groups or finding how many equal groups fit. Choose parts that divide exactly. The parts must add to the original dividend, and their quotients must be combined. Picture twenty-four counters in four equal groups. Each group gets six, and every counter is shared once.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6
+      }
+    },
+    {
+      "index": 4,
+      "start": 54.00491666666667,
+      "end": 67.30425,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Divide one thousand five hundred and thirty-six by six. Split it into one thousand five hundred, and a separate thirty-six. One thousand five hundred divided by six is two hundred and fifty.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "1,536 = 1,500 + 36",
+        "1,500 ÷ 6 = 250"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "÷",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 5,
+      "start": 67.30425,
+      "end": 79.952875,
+      "lesson_progress": 0.5,
+      "text": "Thirty-six divided by six is six. Add the quotients: two hundred and fifty plus six gives two hundred and fifty-six. Check by multiplying two hundred and fifty-six by six.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "36 ÷ 6 = 6",
+        "256 × 6 = 1,536"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "÷",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 6,
+      "start": 79.952875,
+      "end": 88.19466666666666,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Divide two thousand one hundred and eighty-four by seven. Two thousand one hundred divides into three hundred groups of seven.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "2,184 = 2,100 + 84",
+        "2,100 ÷ 7 = 300"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          2100,
+          84
+        ],
+        "other": 7,
+        "original": 2184,
+        "operation": "÷",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 7,
+      "start": 88.19466666666666,
+      "end": 99.171625,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Eighty-four divided by seven is twelve. Combine the quotients to get three hundred and twelve. Multiplying back gives two thousand one hundred and eighty-four.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "84 ÷ 7 = 12",
+        "312 × 7 = 2,184"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          2100,
+          84
+        ],
+        "other": 7,
+        "original": 2184,
+        "operation": "÷",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 8,
+      "start": 99.171625,
+      "end": 112.42108333333333,
+      "lesson_progress": 0.75,
+      "text": "When you split a dividend, divide every part by the same divisor. Sharing only fifteen hundred and ignoring thirty-six loses some of the amount. Combine both quotients, then multiply back to check.",
+      "chapter": "Share every part",
+      "equation": [],
+      "board": [
+        "1,500 ÷ 6 = 250",
+        "36 ÷ 6 = 6"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "÷",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 9,
+      "start": 112.42108333333333,
+      "end": 119.897375,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What is eight hundred and sixteen divided by four?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "816 ÷ 4 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 119.897375,
+      "end": 128.53804166666666,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Eight hundred divided by four is two hundred, and sixteen divided by four is four. The quotient is two hundred and four.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "200 + 4 = 204",
+        "204 × 4 = 816"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "products",
+        "parts": [
+          800,
+          16
+        ],
+        "other": 4,
+        "original": 816,
+        "operation": "÷",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 11,
+      "start": 128.53804166666666,
+      "end": 146.72966666666667,
+      "lesson_progress": 1.0,
+      "text": "Partition into useful parts, divide each part by the same divisor, and add the quotients. Check that quotient times divisor returns the dividend when there is no remainder. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Useful parts → divide every part → combine",
+        "Multiply back to check"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.713,
+      "text": "How can a large sharing problem become two smaller ones?"
+    },
+    {
+      "start": 4.363,
+      "end": 7.589958333333334,
+      "text": "Today we are dividing by a single-digit number."
+    },
+    {
+      "start": 7.809958333333333,
+      "end": 14.439833333333333,
+      "text": "We will choose useful parts, share each part equally, and use multiplication to check that no amount has been lost."
+    },
+    {
+      "start": 15.089833333333333,
+      "end": 20.647875,
+      "text": "Our learning goal is to divide whole numbers by a single-digit number using useful parts."
+    },
+    {
+      "start": 21.297875,
+      "end": 23.054875,
+      "text": "Success criteria."
+    },
+    {
+      "start": 23.274875,
+      "end": 25.94825,
+      "text": "I can choose parts that divide equally."
+    },
+    {
+      "start": 26.16825,
+      "end": 29.316416666666665,
+      "text": "I can divide every part by the same divisor."
+    },
+    {
+      "start": 29.536416666666668,
+      "end": 32.84858333333333,
+      "text": "I can combine the quotients and multiply back to check."
+    },
+    {
+      "start": 33.498583333333336,
+      "end": 38.573708333333336,
+      "text": "Division can mean sharing into equal groups or finding how many equal groups fit."
+    },
+    {
+      "start": 38.793708333333335,
+      "end": 41.172041666666665,
+      "text": "Choose parts that divide exactly."
+    },
+    {
+      "start": 41.392041666666664,
+      "end": 46.059666666666665,
+      "text": "The parts must add to the original dividend, and their quotients must be combined."
+    },
+    {
+      "start": 46.279666666666664,
+      "end": 49.559583333333336,
+      "text": "Picture twenty-four counters in four equal groups."
+    },
+    {
+      "start": 49.779583333333335,
+      "end": 53.35491666666667,
+      "text": "Each group gets six, and every counter is shared once."
+    },
+    {
+      "start": 54.00491666666667,
+      "end": 57.82454166666667,
+      "text": "Divide one thousand five hundred and thirty-six by six."
+    },
+    {
+      "start": 58.04454166666667,
+      "end": 61.947541666666666,
+      "text": "Split it into one thousand five hundred, and a separate thirty-six."
+    },
+    {
+      "start": 62.167541666666665,
+      "end": 66.65425,
+      "text": "One thousand five hundred divided by six is two hundred and fifty."
+    },
+    {
+      "start": 67.30425,
+      "end": 70.14791666666666,
+      "text": "Thirty-six divided by six is six."
+    },
+    {
+      "start": 70.36791666666667,
+      "end": 75.37225,
+      "text": "Add the quotients: two hundred and fifty plus six gives two hundred and fifty-six."
+    },
+    {
+      "start": 75.59225,
+      "end": 79.302875,
+      "text": "Check by multiplying two hundred and fifty-six by six."
+    },
+    {
+      "start": 79.952875,
+      "end": 83.41733333333333,
+      "text": "Divide two thousand one hundred and eighty-four by seven."
+    },
+    {
+      "start": 83.63733333333333,
+      "end": 87.54466666666667,
+      "text": "Two thousand one hundred divides into three hundred groups of seven."
+    },
+    {
+      "start": 88.19466666666666,
+      "end": 91.12583333333333,
+      "text": "Eighty-four divided by seven is twelve."
+    },
+    {
+      "start": 91.34583333333333,
+      "end": 94.53258333333333,
+      "text": "Combine the quotients to get three hundred and twelve."
+    },
+    {
+      "start": 94.75258333333333,
+      "end": 98.521625,
+      "text": "Multiplying back gives two thousand one hundred and eighty-four."
+    },
+    {
+      "start": 99.171625,
+      "end": 103.24241666666667,
+      "text": "When you split a dividend, divide every part by the same divisor."
+    },
+    {
+      "start": 103.46241666666667,
+      "end": 108.167,
+      "text": "Sharing only fifteen hundred and ignoring thirty-six loses some of the amount."
+    },
+    {
+      "start": 108.387,
+      "end": 111.77108333333334,
+      "text": "Combine both quotients, then multiply back to check."
+    },
+    {
+      "start": 112.42108333333333,
+      "end": 115.897375,
+      "text": "What is eight hundred and sixteen divided by four?"
+    },
+    {
+      "start": 119.897375,
+      "end": 125.09529166666667,
+      "text": "Eight hundred divided by four is two hundred, and sixteen divided by four is four."
+    },
+    {
+      "start": 125.31529166666667,
+      "end": 127.88804166666667,
+      "text": "The quotient is two hundred and four."
+    },
+    {
+      "start": 128.53804166666666,
+      "end": 134.043,
+      "text": "Partition into useful parts, divide each part by the same divisor, and add the quotients."
+    },
+    {
+      "start": 134.263,
+      "end": 139.1805,
+      "text": "Check that quotient times divisor returns the dividend when there is no remainder."
+    },
+    {
+      "start": 139.4005,
+      "end": 142.748,
+      "text": "Choose a model and explain why your strategy works."
+    },
+    {
+      "start": 142.968,
+      "end": 146.07966666666667,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.713,
+      4.363,
+      "sentence pause"
+    ],
+    [
+      7.589958333333334,
+      7.809958333333333,
+      "sentence pause"
+    ],
+    [
+      14.439833333333333,
+      15.089833333333333,
+      "sentence pause"
+    ],
+    [
+      20.647875,
+      21.297874999999998,
+      "sentence pause"
+    ],
+    [
+      23.054875,
+      23.274874999999998,
+      "sentence pause"
+    ],
+    [
+      25.94825,
+      26.16825,
+      "sentence pause"
+    ],
+    [
+      29.316416666666665,
+      29.536416666666664,
+      "sentence pause"
+    ],
+    [
+      32.84858333333333,
+      33.49858333333333,
+      "sentence pause"
+    ],
+    [
+      38.573708333333336,
+      38.793708333333335,
+      "sentence pause"
+    ],
+    [
+      41.172041666666665,
+      41.392041666666664,
+      "sentence pause"
+    ],
+    [
+      46.059666666666665,
+      46.279666666666664,
+      "sentence pause"
+    ],
+    [
+      49.559583333333336,
+      49.779583333333335,
+      "sentence pause"
+    ],
+    [
+      53.35491666666667,
+      54.00491666666667,
+      "sentence pause"
+    ],
+    [
+      57.82454166666667,
+      58.04454166666667,
+      "sentence pause"
+    ],
+    [
+      61.947541666666666,
+      62.167541666666665,
+      "sentence pause"
+    ],
+    [
+      66.65425,
+      67.30425000000001,
+      "sentence pause"
+    ],
+    [
+      70.14791666666666,
+      70.36791666666666,
+      "sentence pause"
+    ],
+    [
+      75.37225,
+      75.59224999999999,
+      "sentence pause"
+    ],
+    [
+      79.302875,
+      79.952875,
+      "sentence pause"
+    ],
+    [
+      83.41733333333333,
+      83.63733333333333,
+      "sentence pause"
+    ],
+    [
+      87.54466666666667,
+      88.19466666666668,
+      "sentence pause"
+    ],
+    [
+      91.12583333333333,
+      91.34583333333333,
+      "sentence pause"
+    ],
+    [
+      94.53258333333333,
+      94.75258333333333,
+      "sentence pause"
+    ],
+    [
+      98.521625,
+      99.171625,
+      "sentence pause"
+    ],
+    [
+      103.24241666666667,
+      103.46241666666667,
+      "sentence pause"
+    ],
+    [
+      108.167,
+      108.387,
+      "sentence pause"
+    ],
+    [
+      111.77108333333334,
+      112.42108333333334,
+      "sentence pause"
+    ],
+    [
+      115.897375,
+      119.897375,
+      "think time"
+    ],
+    [
+      125.09529166666667,
+      125.31529166666667,
+      "sentence pause"
+    ],
+    [
+      127.88804166666667,
+      128.53804166666666,
+      "sentence pause"
+    ],
+    [
+      134.043,
+      134.263,
+      "sentence pause"
+    ],
+    [
+      139.1805,
+      139.4005,
+      "sentence pause"
+    ],
+    [
+      142.748,
+      142.968,
+      "sentence pause"
+    ],
+    [
+      146.07966666666667,
+      146.72966666666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 146.72966666666667,
+  "narration_sha256": "16f785433d06002406d43c156c8fa24397daf6acb8f97d427d4e56810f105e38",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

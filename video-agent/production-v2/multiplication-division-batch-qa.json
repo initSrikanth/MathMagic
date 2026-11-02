@@ -1,0 +1,140 @@
+{
+  "topic": "multiplication-division",
+  "result": "passed",
+  "videos": [
+    {
+      "id": "multiplication-division-lesson1",
+      "qa": {
+        "result": "passed",
+        "sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+        "bytes": 2742639,
+        "duration": 141.229625,
+        "audio_rms": 0.062485165894031525,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998448219622257,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "multiplication-division-lesson2",
+      "qa": {
+        "result": "passed",
+        "sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+        "bytes": 2889349,
+        "duration": 143.124875,
+        "audio_rms": 0.06301077455282211,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998622910121454,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "multiplication-division-lesson3",
+      "qa": {
+        "result": "passed",
+        "sha256": "cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628",
+        "bytes": 2875304,
+        "duration": 146.72966666666667,
+        "audio_rms": 0.06302531808614731,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999858820722232,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "multiplication-division-lesson4",
+      "qa": {
+        "result": "passed",
+        "sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
+        "bytes": 3049757,
+        "duration": 148.80754166666668,
+        "audio_rms": 0.06289800256490707,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998537421524267,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    },
+    {
+      "id": "multiplication-division-lesson5",
+      "qa": {
+        "result": "passed",
+        "sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+        "bytes": 3067130,
+        "duration": 150.658375,
+        "audio_rms": 0.06192851439118385,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9996285044807535,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "scenes": 12,
+      "sequence": "unique and continuous",
+      "model_count": 8,
+      "sidecars": "verified against measured narration",
+      "presenter": false
+    }
+  ],
+  "teaching_sequence": "hook, narrated goal, three narrated criteria, visual concept, two worked examples, misconception, five-second thinking challenge, answer, recap/practice",
+  "voice": "Existing offline Kokoro bf_emma speaker 7, speed .84; no paid calls",
+  "visual_review": "All 60 preflight scenes rendered; all goals/criteria and representative products, equal groups, unknowns and stacked mixed fractions visually reviewed",
+  "limitations": [
+    "Physical Safari/iOS and live Firebase not tested; unchanged protected implementation.",
+    "Narration expressiveness not human-certified."
+  ],
+  "targeted_browser": {
+    "video_cases": 10,
+    "resource_cases": 2,
+    "result": "passed",
+    "viewports": [
+      1440,
+      768,
+      390
+    ],
+    "checks": [
+      "native playback",
+      "metadata",
+      "byte ranges",
+      "early/middle/late seeking",
+      "ending",
+      "captions exact",
+      "transcripts exact",
+      "keyboard focus",
+      "viewport containment"
+    ]
+  },
+  "page_preservation": "All non-resource page content matches baseline after resource-card removal."
+}

@@ -1,0 +1,233 @@
+{
+  "id": "multiplication-division-lesson4",
+  "topic": "multiplication-division",
+  "section": "lesson4",
+  "title": "Interpret Remainders",
+  "file": "MathMagic_V2_multiplication_division_lesson4",
+  "beats": [
+    {
+      "text": "If a division leaves something over, is the answer finished? Today we are interpreting remainders. We will compare a situation where everyone needs a place with a situation where the leftover amount can be shared. The context decides what the remainder means.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to interpret remainders to answer real-world division problems.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Interpret remainders to answer real-world division problems."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can check that a remainder is smaller than the divisor. I can decide when a whole extra group is needed. I can share a remainder as a fraction when appropriate.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Check that a remainder is smaller than the divisor.",
+        "2. Decide when a whole extra group is needed.",
+        "3. Share a remainder as a fraction when appropriate."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "A remainder must be smaller than the divisor. Check a division using groups times group size plus the remainder. Then decide whether to round up, keep whole groups, or share the remainder as a fraction. In a small model, seventeen counters make three full groups of five, with two left over.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 17,
+        "size": 5,
+        "round_up": false,
+        "unit": "Group"
+      }
+    },
+    {
+      "text": "Sixty-seven students need teams of up to eight. Eight full teams hold sixty-four students, leaving three students.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "67 ÷ 8 = 8 remainder 3",
+        "8 × 8 + 3 = 67"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 67,
+        "size": 8,
+        "round_up": false,
+        "unit": "Team"
+      }
+    },
+    {
+      "text": "Everyone needs a team, so one more team is needed. Nine teams have enough places, although the last team is not full. Eight teams would leave three students out.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "8 teams: 64 places",
+        "9 teams: 72 places"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 67,
+        "size": 8,
+        "round_up": true,
+        "unit": "Team"
+      }
+    },
+    {
+      "text": "Share twenty-three litres equally among four containers. Five litres in each container uses twenty litres, leaving three litres.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "23 ÷ 4 = 5 remainder 3"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Share those three litres equally too. Each container gets three quarters of a litre more, so the amount is five and three quarter litres, or five point seven five litres.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "23 ÷ 4 = 5.75 litres"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A remainder of three does not automatically mean point three. In our litre problem, the three leftover litres are shared between four containers. Each gets three quarters of a litre more. The divisor and the story explain the fractional part.",
+      "chapter": "A remainder is not automatically a decimal",
+      "equation": [],
+      "board": [
+        "5 remainder 3 is not 5.3",
+        "23 ÷ 4 = 5.75 litres"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Thirty-one students travel in cars with five student seats each. How many cars are needed?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "31 ÷ 5 = ? cars"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Six cars hold thirty students, leaving one student. A seventh car is needed, so the contextual answer is seven cars.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "6 × 5 = 30",
+        "7 cars are needed"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "groups",
+        "total": 31,
+        "size": 5,
+        "round_up": true,
+        "unit": "Car"
+      }
+    },
+    {
+      "text": "Calculate and check the remainder, then return to the story. People need whole places; divisible quantities can be shared further. Explain your answer using the correct unit. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Calculate → interpret the story → check",
+        "A remainder is smaller than the divisor"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

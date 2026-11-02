@@ -243,6 +243,97 @@ def validate_addition_models(lessons):
             else:raise AssertionError(m['type'])
     return count
 
+def multiplication_teaching_standard(lessons):
+    goals=[
+      ('Multiply whole numbers efficiently by partitioning place values.', ['Split a number into useful place-value parts.','Multiply every part and combine the products.','Use an estimate to check the answer.']),
+      ('Multiply by two-digit numbers using tens and ones.', ['Split a multiplier into tens and ones.','Label and calculate both partial products.','Add the products and check their size.']),
+      ('Divide whole numbers by a single-digit number using useful parts.', ['Choose parts that divide equally.','Divide every part by the same divisor.','Combine the quotients and multiply back to check.']),
+      ('Interpret remainders to answer real-world division problems.', ['Check that a remainder is smaller than the divisor.','Decide when a whole extra group is needed.','Share a remainder as a fraction when appropriate.']),
+      ('Use inverse operations, estimates and equal-group models.', ['Find a missing factor using an inverse relationship.','Estimate before finding an exact total.','Explain an answer with its meaning and unit.'])]
+    mistakes=[
+      ('Every part must be multiplied','Remember to multiply every part, including the ones. Eight groups of four ones make thirty-two, not just four left unchanged. Combine all the partial products so none of the original amount is lost.',['300 × 8 = 2,400','20 × 8 = 160; 4 × 8 = 32']),
+      ('A tens digit is worth tens','The two in twenty-four means twenty, not two. Multiplying by two instead of twenty misses a place value. Label twenty groups and four groups, then combine the correct partial products.',['315 × 20 = 6,300','315 × 4 = 1,260']),
+      ('Share every part','When you split a dividend, divide every part by the same divisor. Sharing only fifteen hundred and ignoring thirty-six loses some of the amount. Combine both quotients, then multiply back to check.',['1,500 ÷ 6 = 250','36 ÷ 6 = 6']),
+      ('A remainder is not automatically a decimal','A remainder of three does not automatically mean point three. In our litre problem, the three leftover litres are shared between four containers. Each gets three quarters of a litre more. The divisor and the story explain the fractional part.',['5 remainder 3 is not 5.3','23 ÷ 4 = 5.75 litres']),
+      ('Keep estimates and exact totals separate','An estimate is a useful check, but do not use eight thousand as the exact total. Keep twenty-one groups of three hundred and ninety-eight for the real calculation. An inverse check uses the exact values, not the rounded ones.',['Estimate: about 8,000','Exact: 8,358'])]
+    def products(parts,other,original,operation='×',reveal=None,side='multiplicand'):
+        return dict(type='products',parts=parts,other=other,original=original,operation=operation,reveal=len(parts) if reveal is None else reveal,side=side)
+    def array(r,c,**kw):return dict(type='array',rows=r,cols=c,**kw)
+    def groups(n,size,up=False,unit='Group'):return dict(type='groups',total=n,size=size,round_up=up,unit=unit)
+    def share(reveal):return dict(type='share',total=23,groups=4,reveal=reveal)
+    def family(n,each,total,unknown=False,**kw):return dict(type='family',groups=n,each=each,total=total,unknown=unknown,**kw)
+    for l in lessons:
+        if l['topic']!='multiplication-division':continue
+        i=int(l['section'][-1])-1;b=l['beats'];goal,criteria=goals[i]
+        b[0]['model']=array(3,4,hide_labels=True)
+        if i==0:
+            b[1]['text']+=' Picture three equal rows with four counters in each. Splitting each row into two and two does not change the twelve counters.'
+            b[1]['model']=array(3,4,split=2)
+            b[2]['model']=products([300,20,4],8,324,reveal=1)
+            b[3]['board']=['20 × 8 = 160','4 × 8 = 32'];b[3]['model']=products([300,20,4],8,324)
+            b[4]['model']=products([400,20,6],7,426,reveal=1)
+            b[5]['board']=['20 × 7 = 140','6 × 7 = 42'];b[5]['model']=products([400,20,6],7,426)
+            b[7]['model']=products([200,3],4,203)
+        elif i==1:
+            b[1]['text']+=' In a small picture, imagine two rows of thirteen counters. Each row has ten and three more. Both parts still belong in the answer.'
+            b[1]['model']=array(2,13,split=10)
+            for j,reveal in [(2,1),(3,2)]:b[j]['model']=products([10,3],246,13,reveal=reveal,side='multiplier')
+            for j,reveal in [(4,1),(5,2)]:b[j]['model']=products([20,4],315,24,reveal=reveal,side='multiplier')
+            b[7]['model']=products([10,2],102,12,side='multiplier')
+        elif i==2:
+            b[1]['text']+=' Picture twenty-four counters in four equal groups. Each group gets six, and every counter is shared once.'
+            b[1]['model']=array(4,6)
+            b[2]['model']=products([1500,36],6,1536,'÷',1)
+            b[3]['board']=['36 ÷ 6 = 6','256 × 6 = 1,536'];b[3]['model']=products([1500,36],6,1536,'÷')
+            b[4]['model']=products([2100,84],7,2184,'÷',1)
+            b[5]['board']=['84 ÷ 7 = 12','312 × 7 = 2,184'];b[5]['model']=products([2100,84],7,2184,'÷')
+            b[7]['model']=products([800,16],4,816,'÷')
+        elif i==3:
+            b[1]['text']+=' In a small model, seventeen counters make three full groups of five, with two left over.'
+            b[1]['model']=groups(17,5)
+            b[2]['model']=groups(67,8,unit='Team')
+            b[3]['board']=['8 teams: 64 places','9 teams: 72 places'];b[3]['model']=groups(67,8,True,'Team')
+            b[4]['model']=share(False);b[5]['model']=share(True);b[5]['board']=['23 ÷ 4 = 5.75 litres']
+            b[7]['model']=groups(31,5,True,'Car')
+        else:
+            b[1]['text']+=' Three equal groups of four make twelve. Sharing twelve into three equal groups gives four in each.'
+            b[1]['model']=family(3,4,12)
+            b[2]['model']=family(70,24,1680,True)
+            b[3]['model']=family(70,24,1680)
+            b[4]['model']=family(20,400,8000,approximate=True,labels=['Boxes','Pencils in each box','Total pencils'])
+            b[5]['model']=products([20,1],398,21,side='multiplier')
+            b[7]['model']=family(80,18,1440)
+        ch,text,board=mistakes[i];wrong=beat(text,ch,board=board);wrong['role']='misconception'
+        wrong['model']=[products([300,20,4],8,324),products([20,4],315,24,side='multiplier'),products([1500,36],6,1536,'÷'),share(True),family(21,398,8358)][i]
+        b[-1]['board']=[['Partition → multiply every part → combine','Estimate and check'],['Tens and ones → partial products → total','Keep place values clear'],['Useful parts → divide every part → combine','Multiply back to check'],['Calculate → interpret the story → check','A remainder is smaller than the divisor'],['Model → estimate → calculate → check','Use exact values for an inverse check']][i]
+        b.insert(6,wrong);b[-1]['text']+=' Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!'
+        goal_cue=beat('Our learning goal is to '+goal[0].lower()+goal[1:],'Today’s Learning Goal',board=[goal]);goal_cue['role']='learning_goal'
+        criteria_cue=beat('Success criteria. I can '+'. I can '.join(x.rstrip('.').lower() for x in criteria)+'.','Success Criteria: I can…',board=[str(j)+'. '+x for j,x in enumerate(criteria,1)]);criteria_cue['role']='success_criteria'
+        b[1:1]=[goal_cue,criteria_cue]
+
+def validate_multiplication_models(lessons):
+    count=0
+    for l in lessons:
+        if l['topic']!='multiplication-division':continue
+        for cue in l['beats']:
+            m=cue.get('model')
+            if not m:continue
+            count+=1;typ=m['type']
+            if typ=='array':assert 0<m['rows']*m['cols']<=100 and 0<=m.get('split',0)<=m['cols']
+            elif typ=='products':
+                assert sum(m['parts'])==m['original'] and m['other']>0 and 0<=m['reveal']<=len(m['parts'])
+                if m['operation']=='÷':assert all(v%m['other']==0 for v in m['parts']) and sum(v//m['other'] for v in m['parts'])==m['original']//m['other']
+                else:assert m['operation']=='×' and sum(v*m['other'] for v in m['parts'])==m['original']*m['other']
+            elif typ=='groups':
+                q,r=divmod(m['total'],m['size']);assert 1<=m['size']<=9 and q*m['size']+r==m['total'] and 0<=r<m['size']
+                assert q+bool(r and m['round_up'])<=10
+            elif typ=='share':
+                from fractions import Fraction
+                q,r=divmod(m['total'],m['groups']);assert m['groups']==4 and q==5 and Fraction(q)+Fraction(r,m['groups'])==Fraction('5.75')
+            elif typ=='family':assert m['groups']*m['each']==m['total']
+            else:raise AssertionError(typ)
+    return count
+
 def load_final_topics():
     out=[]
     def add(*args): out.append(generic(*args))
@@ -372,3 +463,5 @@ def load_final_topics():
     return out
 
 LESSONS=load_fractions()+load_whole()+load_other()+load_final_topics()
+
+multiplication_teaching_standard(LESSONS)

@@ -92,6 +92,22 @@ class ProductionTests(unittest.TestCase):
         model['regroup'][0]+=1
         with self.assertRaises(AssertionError):validate_addition_models(bad)
 
+    def test_multiplication_teaching_sequence_and_exact_models(self):
+        from content import validate_multiplication_models
+        lessons=[l for l in p.LESSONS if l['topic']=='multiplication-division']
+        self.assertEqual(len(lessons),5)
+        self.assertEqual(validate_multiplication_models(lessons),40)
+        for l in lessons:
+            self.assertEqual([c['role'] for c in l['beats'][:3]],['opening','learning_goal','success_criteria'])
+            self.assertEqual(len(l['beats'][2]['board']),3)
+            self.assertEqual(l['beats'][2]['text'].count('I can '),3)
+            self.assertTrue(any(c['role']=='misconception' for c in l['beats']))
+            self.assertIn('lesson practice',l['beats'][-1]['text'])
+            self.assertFalse(l['beats'][0]['board'])
+        broken=copy.deepcopy(lessons)
+        next(c['model'] for c in broken[0]['beats'] if c.get('model',{}).get('type')=='products')['parts'][0]+=1
+        with self.assertRaises(AssertionError):validate_multiplication_models(broken)
+
     def test_staged_media_preserves_previous_video_until_verified(self):
         lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
         with tempfile.TemporaryDirectory() as tmp:
