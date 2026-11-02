@@ -1,0 +1,512 @@
+{
+  "input_hash": "084e45398fbf2115bf7df124bdede2d28a115ba1ca7e0865f2aa2abf1f70145c",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 19.81575,
+      "lesson_progress": 0.09090909090909091,
+      "text": "Does the decimal with more digits always have a greater value? Today we are comparing and ordering decimals. We will line up equal places, use placeholder zeros, and find the first place where the values differ. Which would you predict is larger: four point six eight or four point six zero seven?",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 19.81575,
+      "end": 27.065958333333334,
+      "lesson_progress": 0.18181818181818182,
+      "text": "Our learning goal is to compare, order and locate decimal numbers using place value and number lines.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Compare, order and locate decimal numbers using place value and number lines."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 27.065958333333334,
+      "end": 42.336166666666664,
+      "lesson_progress": 0.2727272727272727,
+      "text": "Success criteria. I can compare decimal digits from left to right. I can use placeholder zeros to compare equivalent decimal forms. I can locate decimals accurately between labelled points on a number line.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Compare decimal digits from left to right.",
+        "2. Use placeholder zeros to compare equivalent decimal forms.",
+        "3. Locate decimals accurately between labelled points on a number line."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 42.336166666666664,
+      "end": 57.526625,
+      "lesson_progress": 0.36363636363636365,
+      "text": "Compare from left to right. If the whole numbers match, compare tenths, then hundredths, then thousandths. Trailing zeros can show equal places without changing a value. Decimal digits are not a separate whole number.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 57.526625,
+      "end": 68.37220833333333,
+      "lesson_progress": 0.45454545454545453,
+      "text": "Compare four point six eight and four point six zero seven. Rename four point six eight as four point six eight zero. The ones and tenths match.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "4.68 = 4.680",
+        "4.680 ? 4.607"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 5,
+      "start": 68.37220833333333,
+      "end": 79.00841666666666,
+      "lesson_progress": 0.5454545454545454,
+      "text": "At the hundredths place, eight is greater than zero. That decides the comparison: four point six eight is greater. The thousandths cannot reverse it.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "4.680 > 4.607"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 6,
+      "start": 79.00841666666666,
+      "end": 89.678,
+      "lesson_progress": 0.6363636363636364,
+      "text": "Now compare zero point six two with zero point five nine nine. Both have zero whole ones. At the tenths place, six is greater than five.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "0.620 ? 0.599"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 7,
+      "start": 89.678,
+      "end": 100.66941666666666,
+      "lesson_progress": 0.7272727272727273,
+      "text": "So zero point six two is greater, even though it has fewer written decimal digits. Comparing sixty-two with five hundred and ninety-nine would compare the wrong units.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "0.620 > 0.599"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 8,
+      "start": 100.66941666666666,
+      "end": 108.888,
+      "lesson_progress": 0.8181818181818182,
+      "text": "Which is greater: two point four zero five, or two point four five?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "2.405 ? 2.45"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 9,
+      "start": 108.888,
+      "end": 117.79483333333333,
+      "lesson_progress": 0.9090909090909091,
+      "text": "Two point four five equals two point four five zero. The first differing place is the hundredths, so two point four five is greater.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "2.450 > 2.405"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer"
+    },
+    {
+      "index": 10,
+      "start": 117.79483333333333,
+      "end": 130.845875,
+      "lesson_progress": 1.0,
+      "text": "Align equal place values and compare from the largest place. Stop at the first difference. On a number line the greater number is further right; the number of written digits alone does not decide.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.766625,
+      "text": "Does the decimal with more digits always have a greater value?"
+    },
+    {
+      "start": 4.416625,
+      "end": 7.7603333333333335,
+      "text": "Today we are comparing and ordering decimals."
+    },
+    {
+      "start": 7.980333333333333,
+      "end": 13.852625,
+      "text": "We will line up equal places, use placeholder zeros, and find the first place where the values differ."
+    },
+    {
+      "start": 14.072625,
+      "end": 19.16575,
+      "text": "Which would you predict is larger: four point six eight or four point six zero seven?"
+    },
+    {
+      "start": 19.81575,
+      "end": 26.415958333333332,
+      "text": "Our learning goal is to compare, order and locate decimal numbers using place value and number lines."
+    },
+    {
+      "start": 27.065958333333334,
+      "end": 28.822958333333332,
+      "text": "Success criteria."
+    },
+    {
+      "start": 29.042958333333335,
+      "end": 32.163625,
+      "text": "I can compare decimal digits from left to right."
+    },
+    {
+      "start": 32.383625,
+      "end": 36.65425,
+      "text": "I can use placeholder zeros to compare equivalent decimal forms."
+    },
+    {
+      "start": 36.87425,
+      "end": 41.686166666666665,
+      "text": "I can locate decimals accurately between labelled points on a number line."
+    },
+    {
+      "start": 42.336166666666664,
+      "end": 44.27608333333333,
+      "text": "Compare from left to right."
+    },
+    {
+      "start": 44.49608333333333,
+      "end": 49.252875,
+      "text": "If the whole numbers match, compare tenths, then hundredths, then thousandths."
+    },
+    {
+      "start": 49.472875,
+      "end": 53.601125,
+      "text": "Trailing zeros can show equal places without changing a value."
+    },
+    {
+      "start": 53.821125,
+      "end": 56.876625,
+      "text": "Decimal digits are not a separate whole number."
+    },
+    {
+      "start": 57.526625,
+      "end": 61.531416666666665,
+      "text": "Compare four point six eight and four point six zero seven."
+    },
+    {
+      "start": 61.751416666666664,
+      "end": 65.4745,
+      "text": "Rename four point six eight as four point six eight zero."
+    },
+    {
+      "start": 65.6945,
+      "end": 67.72220833333333,
+      "text": "The ones and tenths match."
+    },
+    {
+      "start": 68.37220833333333,
+      "end": 71.614125,
+      "text": "At the hundredths place, eight is greater than zero."
+    },
+    {
+      "start": 71.834125,
+      "end": 75.74375,
+      "text": "That decides the comparison: four point six eight is greater."
+    },
+    {
+      "start": 75.96375,
+      "end": 78.35841666666667,
+      "text": "The thousandths cannot reverse it."
+    },
+    {
+      "start": 79.00841666666666,
+      "end": 83.33941666666666,
+      "text": "Now compare zero point six two with zero point five nine nine."
+    },
+    {
+      "start": 83.55941666666666,
+      "end": 85.64045833333333,
+      "text": "Both have zero whole ones."
+    },
+    {
+      "start": 85.86045833333333,
+      "end": 89.028,
+      "text": "At the tenths place, six is greater than five."
+    },
+    {
+      "start": 89.678,
+      "end": 94.71783333333333,
+      "text": "So zero point six two is greater, even though it has fewer written decimal digits."
+    },
+    {
+      "start": 94.93783333333333,
+      "end": 100.01941666666667,
+      "text": "Comparing sixty-two with five hundred and ninety-nine would compare the wrong units."
+    },
+    {
+      "start": 100.66941666666666,
+      "end": 104.888,
+      "text": "Which is greater: two point four zero five, or two point four five?"
+    },
+    {
+      "start": 108.888,
+      "end": 112.34154166666667,
+      "text": "Two point four five equals two point four five zero."
+    },
+    {
+      "start": 112.56154166666667,
+      "end": 117.14483333333334,
+      "text": "The first differing place is the hundredths, so two point four five is greater."
+    },
+    {
+      "start": 117.79483333333333,
+      "end": 121.945875,
+      "text": "Align equal place values and compare from the largest place."
+    },
+    {
+      "start": 122.165875,
+      "end": 124.12095833333333,
+      "text": "Stop at the first difference."
+    },
+    {
+      "start": 124.34095833333333,
+      "end": 130.195875,
+      "text": "On a number line the greater number is further right; the number of written digits alone does not decide."
+    }
+  ],
+  "pauses": [
+    [
+      3.766625,
+      4.416625,
+      "sentence pause"
+    ],
+    [
+      7.7603333333333335,
+      7.980333333333333,
+      "sentence pause"
+    ],
+    [
+      13.852625,
+      14.072625,
+      "sentence pause"
+    ],
+    [
+      19.16575,
+      19.815749999999998,
+      "sentence pause"
+    ],
+    [
+      26.415958333333332,
+      27.06595833333333,
+      "sentence pause"
+    ],
+    [
+      28.822958333333332,
+      29.04295833333333,
+      "sentence pause"
+    ],
+    [
+      32.163625,
+      32.383625,
+      "sentence pause"
+    ],
+    [
+      36.65425,
+      36.874249999999996,
+      "sentence pause"
+    ],
+    [
+      41.686166666666665,
+      42.336166666666664,
+      "sentence pause"
+    ],
+    [
+      44.27608333333333,
+      44.49608333333333,
+      "sentence pause"
+    ],
+    [
+      49.252875,
+      49.472875,
+      "sentence pause"
+    ],
+    [
+      53.601125,
+      53.821125,
+      "sentence pause"
+    ],
+    [
+      56.876625,
+      57.526624999999996,
+      "sentence pause"
+    ],
+    [
+      61.531416666666665,
+      61.751416666666664,
+      "sentence pause"
+    ],
+    [
+      65.4745,
+      65.6945,
+      "sentence pause"
+    ],
+    [
+      67.72220833333333,
+      68.37220833333333,
+      "sentence pause"
+    ],
+    [
+      71.614125,
+      71.834125,
+      "sentence pause"
+    ],
+    [
+      75.74375,
+      75.96375,
+      "sentence pause"
+    ],
+    [
+      78.35841666666667,
+      79.00841666666668,
+      "sentence pause"
+    ],
+    [
+      83.33941666666666,
+      83.55941666666666,
+      "sentence pause"
+    ],
+    [
+      85.64045833333333,
+      85.86045833333333,
+      "sentence pause"
+    ],
+    [
+      89.028,
+      89.67800000000001,
+      "sentence pause"
+    ],
+    [
+      94.71783333333333,
+      94.93783333333333,
+      "sentence pause"
+    ],
+    [
+      100.01941666666667,
+      100.66941666666668,
+      "sentence pause"
+    ],
+    [
+      104.888,
+      108.888,
+      "think time"
+    ],
+    [
+      112.34154166666667,
+      112.56154166666667,
+      "sentence pause"
+    ],
+    [
+      117.14483333333334,
+      117.79483333333334,
+      "sentence pause"
+    ],
+    [
+      121.945875,
+      122.165875,
+      "sentence pause"
+    ],
+    [
+      124.12095833333333,
+      124.34095833333333,
+      "sentence pause"
+    ],
+    [
+      130.195875,
+      130.845875,
+      "sentence pause"
+    ]
+  ],
+  "duration": 130.845875,
+  "narration_sha256": "b10bc0e6ead99d1b8c6335fcfe56b5e4440ce7cec54afd4652623bc2cd75ab4e",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

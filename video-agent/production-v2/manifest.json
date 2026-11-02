@@ -1,9 +1,20 @@
 {
   "schema": 2,
   "interval_hours": 5,
-  "last_batch_started": "2026-10-20T01:50:59.059926+00:00",
-  "next_batch_due": "2026-10-20T06:50:59.059926+00:00",
-  "active_batch": null,
+  "last_batch_started": "2026-11-02T09:54:29.920836+00:00",
+  "next_batch_due": "2026-11-02T14:54:29.920836+00:00",
+  "active_batch": {
+    "id": "20261102T095429Z",
+    "lessons": [
+      "decimals-percentages-place",
+      "decimals-percentages-compare",
+      "decimals-percentages-percent",
+      "decimals-percentages-connect",
+      "decimals-percentages-apply"
+    ],
+    "started": "2026-11-02T09:54:29.920836+00:00",
+    "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+  },
   "last_successful_batch": {
     "id": "20261020T015059Z",
     "lessons": [
@@ -688,50 +699,230 @@
       "lesson": "Decimal Place Value",
       "section": "place",
       "video_filename": "videos/MathMagic_V2_decimals_percentages_place.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "a95de28eb0916c464b00c04db7ba0b6ca2fb0dc51d48e32149c79c59ad8f847f",
+      "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
+      "source_tree_dirty": true,
+      "producer_sha256": "dfd15921d3861571207fd5e87a5c5314c04dafacbce5c95120c93ba14a9cbb53",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 116.45308333333334,
+      "narration_sha256": "f6f0ca1c1ca85c707a57b833b8af1eba4484e93b7a01c224fd3216bbb991e8d1",
+      "qa": {
+        "result": "passed",
+        "sha256": "d963277765a4326eeb8011308b27e992229d00002f818029628d91a517a03484",
+        "bytes": 2230445,
+        "duration": 116.45308333333334,
+        "audio_rms": 0.06337354332208633,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999869983045904,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "decimals-percentages.html",
+        "section": "place",
+        "preserved_original_sha256": "6ec57a1a181bbdb8d2fc4fc3a6222af36ec7830d6a7850117a797838a6372d14",
+        "replaced_wrapper_sha256": "4906a5e670daa4b6828dc0e7a8fb97a42453a2f7f363f63dfeab9a71efb14e1b",
+        "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+      }
     },
     "decimals-percentages-compare": {
       "topic": "decimals-percentages",
       "lesson": "Compare and Order Decimals",
       "section": "compare",
       "video_filename": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "92ac1dd3529f7a131af30128bfa22096cdd7eb9bc0e403382b5d26fadf9fbf71",
+      "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
+      "source_tree_dirty": true,
+      "producer_sha256": "dfd15921d3861571207fd5e87a5c5314c04dafacbce5c95120c93ba14a9cbb53",
+      "graphics_sha256": "aafb2ab3168dfe240fcc6ada796b2d3fd01d5aac78736ff960b04f4dd83768ce",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 130.845875,
+      "narration_sha256": "b10bc0e6ead99d1b8c6335fcfe56b5e4440ce7cec54afd4652623bc2cd75ab4e",
+      "qa": {
+        "result": "passed",
+        "sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
+        "bytes": 2488493,
+        "duration": 130.845875,
+        "audio_rms": 0.06281961500644684,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998576276680301,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "decimals-percentages.html",
+        "section": "compare",
+        "preserved_original_sha256": "4d6c9f268a7f27f50e7c20f7f56c6d5a3f4bed8d316a37ad940cb90e563a0be3",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+      }
     },
     "decimals-percentages-percent": {
       "topic": "decimals-percentages",
       "lesson": "Understanding Percent",
       "section": "percent",
       "video_filename": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
+      "script_sha256": "832e81df12fa03b64884ec73643af0ff82387c3c79ca4ca14553e7d4c340faf8",
+      "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
+      "source_tree_dirty": true,
+      "producer_sha256": "dfd15921d3861571207fd5e87a5c5314c04dafacbce5c95120c93ba14a9cbb53",
+      "graphics_sha256": "f2504e9256e34ef3559c7ad59809a5f860935d9968b708c95b8957a5bcf648c7",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 121.35208333333334,
+      "narration_sha256": "2a5da54b932f813046a7f993b18f6f14319a5c57f89ed2f327fc2ad640589002",
+      "qa": {
+        "result": "passed",
+        "sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
+        "bytes": 2376922,
+        "duration": 121.35208333333334,
+        "audio_rms": 0.06188477948307991,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998369001462227,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "decimals-percentages.html",
+        "section": "percent",
+        "preserved_original_sha256": "1f8b9336d15f1a4f85f99736bee65c1f77b10a72388493736bd3905f508e3105",
+        "replaced_wrapper_sha256": "38159075b9b33e8bae604e293a641d44c36d365a7a4f747b274be8272ed077be",
+        "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+      }
     },
     "decimals-percentages-connect": {
       "topic": "decimals-percentages",
       "lesson": "Connect Fractions, Decimals and Percentages",
       "section": "connect",
       "video_filename": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
+      "script_sha256": "b2cc147eee651f7dd40776a5959da207cfe6d689cc4b654ce2f49a9837510be4",
+      "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
+      "source_tree_dirty": true,
+      "producer_sha256": "dfd15921d3861571207fd5e87a5c5314c04dafacbce5c95120c93ba14a9cbb53",
+      "graphics_sha256": "f2504e9256e34ef3559c7ad59809a5f860935d9968b708c95b8957a5bcf648c7",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 118.21729166666667,
+      "narration_sha256": "5805bf3708b0dd03d673111926fd91463722ecf906923e20c89626f375e3923c",
+      "qa": {
+        "result": "passed",
+        "sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+        "bytes": 2352056,
+        "duration": 118.21729166666667,
+        "audio_rms": 0.06254449486732483,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998477819324558,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "decimals-percentages.html",
+        "section": "connect",
+        "preserved_original_sha256": "b2b09db8a6ca55ecb32423dbaf31692a8936f60e6ef124c80de93084cdea03f5",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+      }
     },
     "decimals-percentages-apply": {
       "topic": "decimals-percentages",
       "lesson": "Compare Relative Size",
       "section": "apply",
       "video_filename": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
+      "script_sha256": "de730a0f6cacc92744d2a5e2503358a6f05f8460453d620ff40db86740074c09",
+      "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
+      "source_tree_dirty": true,
+      "producer_sha256": "dfd15921d3861571207fd5e87a5c5314c04dafacbce5c95120c93ba14a9cbb53",
+      "graphics_sha256": "f2504e9256e34ef3559c7ad59809a5f860935d9968b708c95b8957a5bcf648c7",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 120.91633333333333,
+      "narration_sha256": "21e9641a6eb6f1c7e9020ad7923a502d5bc7f772b2895e9932606425210e5f3b",
+      "qa": {
+        "result": "passed",
+        "sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+        "bytes": 2322968,
+        "duration": 120.91633333333333,
+        "audio_rms": 0.061810579150915146,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999848429194559,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "decimals-percentages.html",
+        "section": "apply",
+        "preserved_original_sha256": "bab0ca534a597f478c90e6382245bd897ad557f39c366202e266d47d77a2e717",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
+      }
     },
     "factors-multiples-lesson1": {
       "topic": "factors-multiples",
@@ -785,13 +976,13 @@
     }
   },
   "runtime": {
-    "python": "3.12.15",
+    "python": "3.12.14",
     "packages": {
       "sherpa-onnx": "1.12.26",
       "soundfile": "0.14.0",
       "numpy": "2.5.4",
-      "Pillow": "13.0.0"
+      "Pillow": "12.3.0"
     },
-    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
   }
 }

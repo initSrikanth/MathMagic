@@ -28,6 +28,90 @@ class ProductionTests(unittest.TestCase):
         s=p.summary(m); self.assertEqual(s['videos_successfully_rendered'],1)
         self.assertEqual(s['videos_committed'],0); self.assertEqual(s['videos_deployed_and_verified_live'],0)
     def test_all_authored_arithmetic(self): self.assertEqual(p.maths()['lessons'],30)
+    def test_next_video_batch_prioritises_decimals_without_mixing_topics(self):
+        m=self.state()
+        topics=('decimals-percentages','addition-subtraction',
+                'multiplication-division','factors-multiples')
+        for topic in topics:
+            expected=[l['id'] for l in p.LESSONS if l['topic']==topic]
+            self.assertEqual(len(expected),5)
+            self.assertEqual(p.next_video_batch(m),expected)
+            for lesson_id in expected:
+                m['lessons'][lesson_id]['production_status']='integrated'
+        self.assertEqual(p.next_video_batch(m),[])
+        decimals=[l['id'] for l in p.LESSONS if l['topic']=='decimals-percentages']
+        m['lessons'][decimals[-1]]['production_status']='pending'
+        self.assertEqual(p.next_video_batch(m),[decimals[-1]])
+
+    def test_decimals_goals_and_three_criteria_are_spoken_and_visible(self):
+        lessons = [lesson for lesson in p.LESSONS if lesson['topic'] == 'decimals-percentages']
+        self.assertEqual(len(lessons), 5)
+        for lesson in lessons:
+            with self.subTest(lesson=lesson['id']):
+                opening, goal, criteria, concept = lesson['beats'][:4]
+                self.assertEqual(opening['role'], 'opening')
+                self.assertEqual(goal['role'], 'learning_goal')
+                self.assertEqual(criteria['role'], 'success_criteria')
+                self.assertEqual(concept['chapter'], 'Build the idea')
+                self.assertEqual(len(goal['board']), 1)
+                self.assertIn('Our learning goal is to', goal['text'])
+                self.assertEqual(len(criteria['board']), 3)
+                self.assertEqual(criteria['text'].count('I can '), 3)
+                self.assertTrue(all(line.startswith(str(i) + '. ') for i, line in enumerate(criteria['board'], 1)))
+                self.assertFalse(any(cue.get('equation') for cue in [opening, goal, criteria]))
+
+    def test_familiar_fraction_names_use_stacked_fraction_tokens(self):
+        from graphics import mathematical_board
+        for words,notation in [('one half','1/2'),('one quarter','1/4'),('three quarters','3/4'),('one fifth','1/5'),('one tenth','1/10')]:
+            with self.subTest(words=words):
+                self.assertEqual(mathematical_board(words+' = equivalent forms'),notation+' = equivalent forms')
+        self.assertEqual(mathematical_board('Read decimal place value.'),'Read decimal place value.')
+
+    def test_caption_layout_preserves_words_and_uses_upper_margin(self):
+        text='These quarter-steps preserve the original narration while the mathematical model stays readable below the captions.'
+        output=p.formatted_captions({'captions':[{'start':0,'end':8,'text':text}]})
+        self.assertIn('line:0% position:50% align:center size:96%',output)
+        payload=output.splitlines()[3:]
+        self.assertEqual(' '.join(' '.join(payload).split()),text)
+        self.assertTrue(all(len(line)<=60 for line in payload))
+        self.assertIn('quarter-steps',output)
+
+    def test_staged_media_preserves_previous_video_until_verified(self):
+        lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); (root/'videos').mkdir()
+            old=root/'videos'/(lesson['file']+'.mp4'); old.write_bytes(b'previous-video')
+            folder=root/'staging'; folder.mkdir()
+            staged=folder/'final.partial.mp4'; staged.write_bytes(b'new-video')
+            with patch.object(p,'ROOT',root):
+                with self.assertRaises(AssertionError):
+                    p.promote_media(lesson,folder,{'sha256':p.sha(staged)})
+                self.assertEqual(old.read_bytes(),b'previous-video')
+                for name in ['captions.vtt','transcript.txt','poster.jpg']:
+                    (folder/name).write_bytes(b'present')
+                with self.assertRaises(AssertionError):
+                    p.promote_media(lesson,folder,{'sha256':'incorrect-hash'})
+                self.assertEqual(old.read_bytes(),b'previous-video')
+                p.promote_media(lesson,folder,{'sha256':p.sha(staged)})
+                self.assertEqual(old.read_bytes(),b'new-video')
+                self.assertTrue((root/'videos'/(lesson['file']+'.vtt')).exists())
+                self.assertTrue((root/'videos'/(lesson['file']+'_transcript.txt')).exists())
+                self.assertTrue((root/'videos'/(lesson['file']+'_poster.jpg')).exists())
+
+    def test_sidecar_validation_rejects_mismatched_captions(self):
+        from PIL import Image
+        lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=Path(tmp)
+            timeline={'captions':[{'start':0.0,'end':1.5,'text':'Learning goal.'}]}
+            (folder/'captions.vtt').write_text('WEBVTT\n\n00:00:00.000 --> 00:00:01.500 line:0% position:50% align:center size:96%\nLearning goal.\n')
+            (folder/'transcript.txt').write_text('\n\n'.join(b['text'] for b in lesson['beats'])+'\n')
+            Image.new('RGB',(1280,720),'white').save(folder/'poster.jpg')
+            p.verify_sidecars(lesson,folder,timeline)
+            (folder/'captions.vtt').write_text('WEBVTT\n\n00:00:00.000 --> 00:00:01.500 line:0% position:50% align:center size:96%\nIncorrect words.\n')
+            with self.assertRaises(AssertionError):
+                p.verify_sidecars(lesson,folder,timeline)
+
     def test_integration_is_scoped_and_idempotent_for_all_thirty_sections(self):
         # Use actual page markup, including nested Fractions div wrappers and aside wrappers.
         for l in p.LESSONS:
@@ -41,6 +125,13 @@ class ProductionTests(unittest.TestCase):
                 # Wrapper's filename matches the fixture for this isolated integration test.
                 test_l=l
                 with patch.object(p,'ROOT',root), patch.object(p,'LESSONS',[test_l]):
+                    if l['id']=='fractions-addsub':
+                        # Core lesson plus approved LCM extension is intentionally ambiguous.
+                        # Preserve the production guard and both existing players.
+                        with self.assertRaisesRegex(AssertionError,'Ambiguous existing players'):
+                            p.integrate([l['id']],m)
+                        self.assertEqual(page.read_text(),before)
+                        continue
                     p.integrate([l['id']],m); after=page.read_text()
                     self.assertEqual(after.count('data-mathmagic-v2="'+l['id']+'"'),1)
                     self.assertIn('src="videos/'+l['file']+'.mp4"',after)

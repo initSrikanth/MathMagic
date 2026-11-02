@@ -1,6 +1,14 @@
 const {test,expect}=require('@playwright/test');
 async function openTopic(page){await page.route('**/js/decimals-percentages-auth.js*',r=>r.abort());await page.goto('/decimals-percentages.html');await page.evaluate(()=>document.body.classList.remove('auth-loading'))}
-test('five lessons and privacy-enhanced resources',async({page})=>{await openTopic(page);for(const id of ['place','compare','percent','connect','apply']){await page.locator('[data-screen="'+id+'"]').click();await expect(page.locator('#'+id)).toBeVisible()}const frames=page.locator('.video-resource iframe');await expect(frames).toHaveCount(2);for(let i=0;i<2;i++){await expect(frames.nth(i)).toHaveAttribute('src',/^https:\/\/www\.youtube-nocookie\.com\/embed\//);await expect(frames.nth(i)).toHaveAttribute('title',/.+/);await expect(frames.nth(i)).toHaveAttribute('loading','lazy')}await expect(page.locator('.video-resource a.resource-link')).toHaveCount(2)});
+test('five lessons retain learning goals and matching validated MP4 resources',async({page})=>{
+ await openTopic(page);const release=require('../../video-agent/production-v2/decimals-release.json');
+ for(const l of release.lessons){
+  await page.locator('[data-screen="'+l.section+'"]').click();const lesson=page.locator('#'+l.section);await expect(lesson).toBeVisible();
+  await expect(lesson).toContainText('Learning Goal');await expect(lesson.getByRole('heading',{name:'Success criteria: I can…'})).toBeVisible();
+  await expect(lesson.locator('.video-resource video')).toHaveCount(1);await expect(lesson.locator('.video-resource source')).toHaveAttribute('src',l.src);
+ }
+ await expect(page.locator('.video-resource iframe')).toHaveCount(0);
+});
 test('complete 30-question challenge flow',async({page})=>{await openTopic(page);await page.locator('[data-screen="challenge"]').click();for(let q=1;q<=30;q++){await expect(page.locator('#qNumber')).toHaveText(q+' / 30');await expect(page.locator('#qPrompt')).not.toHaveText('');const choices=page.locator('#qAnswer [data-choice]');if(await choices.count())await choices.first().click();else{await page.locator('#answerInput').fill('999');await page.locator('#checkAnswer').click()}await expect(page.locator('#qFeedback')).not.toHaveText('');await expect(page.locator('#nextQuestion')).toBeEnabled();await page.locator('#nextQuestion').click()}await expect(page.locator('#resultCard')).toContainText('CHALLENGE COMPLETE')});
 test('Year 5 boundary excludes percentage-of-quantity examples',async({page})=>{await openTopic(page);const text=await page.locator('body').innerText();expect(text).not.toMatch(/60% of 40|25% of 80|percentage discount/i)});
 
