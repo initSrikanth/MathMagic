@@ -1,0 +1,637 @@
+{
+  "input_hash": "c4c08acb1a15be755b9b786726e5ea59b7f4680d8533f0c460b1d0d99e5a9c58",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.285041666666668,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Could a large multiplication become three familiar facts? Today we are multiplying efficiently by breaking numbers into place-value parts. We will multiply each part and recombine the results, while keeping track of what each digit is worth.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 16.285041666666668,
+      "end": 22.16025,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to multiply whole numbers efficiently by partitioning place values.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Multiply whole numbers efficiently by partitioning place values."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 22.16025,
+      "end": 34.465666666666664,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can split a number into useful place-value parts. I can multiply every part and combine the products. I can use an estimate to check the answer.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Split a number into useful place-value parts.",
+        "2. Multiply every part and combine the products.",
+        "3. Use an estimate to check the answer."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 34.465666666666664,
+      "end": 57.18816666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Partitioning uses the distributive property: multiplying a sum gives the same result as multiplying each part and adding the partial products. Hundreds stay hundreds, tens stay tens, and ones stay ones until we regroup. Picture three equal rows with four counters in each. Splitting each row into two and two does not change the twelve counters.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "split": 2
+      }
+    },
+    {
+      "index": 4,
+      "start": 57.18816666666667,
+      "end": 65.39370833333334,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Calculate three hundred and twenty-four times eight. Split three hundred and twenty-four into three hundred, twenty and four.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "324 × 8",
+        "300 × 8 = 2,400"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "×",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 5,
+      "start": 65.39370833333334,
+      "end": 76.27416666666667,
+      "lesson_progress": 0.5,
+      "text": "Twenty times eight is one hundred and sixty, and four times eight is thirty-two. Combine all three partial products to get two thousand five hundred and ninety-two.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "20 × 8 = 160",
+        "4 × 8 = 32"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "×",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 6,
+      "start": 76.27416666666667,
+      "end": 83.15270833333334,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Try four hundred and twenty-six times seven. Four hundred times seven gives two thousand eight hundred.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "426 × 7",
+        "400 × 7 = 2,800"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          400,
+          20,
+          6
+        ],
+        "other": 7,
+        "original": 426,
+        "operation": "×",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 7,
+      "start": 83.15270833333334,
+      "end": 95.83979166666667,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Twenty times seven is one hundred and forty; six times seven is forty-two. Their sum is two thousand nine hundred and eighty-two. A result near three thousand fits our estimate.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "20 × 7 = 140",
+        "6 × 7 = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          400,
+          20,
+          6
+        ],
+        "other": 7,
+        "original": 426,
+        "operation": "×",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 8,
+      "start": 95.83979166666667,
+      "end": 109.34241666666667,
+      "lesson_progress": 0.75,
+      "text": "Remember to multiply every part, including the ones. Eight groups of four ones make thirty-two, not just four left unchanged. Combine all the partial products so none of the original amount is lost.",
+      "chapter": "Every part must be multiplied",
+      "equation": [],
+      "board": [
+        "300 × 8 = 2,400",
+        "20 × 8 = 160; 4 × 8 = 32"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "×",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 9,
+      "start": 109.34241666666667,
+      "end": 116.01791666666666,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What is two hundred and three times four?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "203 × 4 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 116.01791666666666,
+      "end": 123.78120833333334,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Two hundred times four is eight hundred, and three times four is twelve. Add them to get eight hundred and twelve.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "800 + 12 = 812",
+        "203 × 4 = 812"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "products",
+        "parts": [
+          200,
+          3
+        ],
+        "other": 4,
+        "original": 203,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "index": 11,
+      "start": 123.78120833333334,
+      "end": 141.229625,
+      "lesson_progress": 1.0,
+      "text": "Partition by place value, multiply every part, then add the partial products. Keep the value of each digit clear and use an estimate to check the scale of your answer. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Partition → multiply every part → combine",
+        "Estimate and check"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.947041666666667,
+      "text": "Could a large multiplication become three familiar facts?"
+    },
+    {
+      "start": 4.597041666666667,
+      "end": 9.648333333333333,
+      "text": "Today we are multiplying efficiently by breaking numbers into place-value parts."
+    },
+    {
+      "start": 9.868333333333334,
+      "end": 15.635041666666666,
+      "text": "We will multiply each part and recombine the results, while keeping track of what each digit is worth."
+    },
+    {
+      "start": 16.285041666666668,
+      "end": 21.51025,
+      "text": "Our learning goal is to multiply whole numbers efficiently by partitioning place values."
+    },
+    {
+      "start": 22.16025,
+      "end": 23.910666666666668,
+      "text": "Success criteria."
+    },
+    {
+      "start": 24.130666666666666,
+      "end": 27.36775,
+      "text": "I can split a number into useful place-value parts."
+    },
+    {
+      "start": 27.58775,
+      "end": 30.939291666666666,
+      "text": "I can multiply every part and combine the products."
+    },
+    {
+      "start": 31.159291666666668,
+      "end": 33.815666666666665,
+      "text": "I can use an estimate to check the answer."
+    },
+    {
+      "start": 34.465666666666664,
+      "end": 43.225541666666665,
+      "text": "Partitioning uses the distributive property: multiplying a sum gives the same result as multiplying each part and adding the partial products."
+    },
+    {
+      "start": 43.445541666666664,
+      "end": 48.41070833333333,
+      "text": "Hundreds stay hundreds, tens stay tens, and ones stay ones until we regroup."
+    },
+    {
+      "start": 48.63070833333333,
+      "end": 52.02054166666667,
+      "text": "Picture three equal rows with four counters in each."
+    },
+    {
+      "start": 52.240541666666665,
+      "end": 56.53816666666667,
+      "text": "Splitting each row into two and two does not change the twelve counters."
+    },
+    {
+      "start": 57.18816666666667,
+      "end": 60.29991666666667,
+      "text": "Calculate three hundred and twenty-four times eight."
+    },
+    {
+      "start": 60.51991666666667,
+      "end": 64.74370833333333,
+      "text": "Split three hundred and twenty-four into three hundred, twenty and four."
+    },
+    {
+      "start": 65.39370833333334,
+      "end": 70.43595833333333,
+      "text": "Twenty times eight is one hundred and sixty, and four times eight is thirty-two."
+    },
+    {
+      "start": 70.65595833333333,
+      "end": 75.62416666666667,
+      "text": "Combine all three partial products to get two thousand five hundred and ninety-two."
+    },
+    {
+      "start": 76.27416666666667,
+      "end": 79.091625,
+      "text": "Try four hundred and twenty-six times seven."
+    },
+    {
+      "start": 79.311625,
+      "end": 82.50270833333333,
+      "text": "Four hundred times seven gives two thousand eight hundred."
+    },
+    {
+      "start": 83.15270833333334,
+      "end": 87.90058333333333,
+      "text": "Twenty times seven is one hundred and forty; six times seven is forty-two."
+    },
+    {
+      "start": 88.12058333333333,
+      "end": 91.64891666666666,
+      "text": "Their sum is two thousand nine hundred and eighty-two."
+    },
+    {
+      "start": 91.86891666666666,
+      "end": 95.18979166666666,
+      "text": "A result near three thousand fits our estimate."
+    },
+    {
+      "start": 95.83979166666667,
+      "end": 99.41529166666666,
+      "text": "Remember to multiply every part, including the ones."
+    },
+    {
+      "start": 99.63529166666666,
+      "end": 104.18025,
+      "text": "Eight groups of four ones make thirty-two, not just four left unchanged."
+    },
+    {
+      "start": 104.40025,
+      "end": 108.69241666666667,
+      "text": "Combine all the partial products so none of the original amount is lost."
+    },
+    {
+      "start": 109.34241666666667,
+      "end": 112.01791666666666,
+      "text": "What is two hundred and three times four?"
+    },
+    {
+      "start": 116.01791666666666,
+      "end": 120.19158333333333,
+      "text": "Two hundred times four is eight hundred, and three times four is twelve."
+    },
+    {
+      "start": 120.41158333333334,
+      "end": 123.13120833333333,
+      "text": "Add them to get eight hundred and twelve."
+    },
+    {
+      "start": 123.78120833333334,
+      "end": 128.495,
+      "text": "Partition by place value, multiply every part, then add the partial products."
+    },
+    {
+      "start": 128.715,
+      "end": 133.724875,
+      "text": "Keep the value of each digit clear and use an estimate to check the scale of your answer."
+    },
+    {
+      "start": 133.944875,
+      "end": 137.24795833333334,
+      "text": "Choose a model and explain why your strategy works."
+    },
+    {
+      "start": 137.46795833333334,
+      "end": 140.579625,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.947041666666667,
+      4.597041666666667,
+      "sentence pause"
+    ],
+    [
+      9.648333333333333,
+      9.868333333333334,
+      "sentence pause"
+    ],
+    [
+      15.635041666666666,
+      16.285041666666665,
+      "sentence pause"
+    ],
+    [
+      21.51025,
+      22.160249999999998,
+      "sentence pause"
+    ],
+    [
+      23.910666666666668,
+      24.130666666666666,
+      "sentence pause"
+    ],
+    [
+      27.36775,
+      27.58775,
+      "sentence pause"
+    ],
+    [
+      30.939291666666666,
+      31.159291666666665,
+      "sentence pause"
+    ],
+    [
+      33.815666666666665,
+      34.465666666666664,
+      "sentence pause"
+    ],
+    [
+      43.225541666666665,
+      43.445541666666664,
+      "sentence pause"
+    ],
+    [
+      48.41070833333333,
+      48.63070833333333,
+      "sentence pause"
+    ],
+    [
+      52.02054166666667,
+      52.240541666666665,
+      "sentence pause"
+    ],
+    [
+      56.53816666666667,
+      57.18816666666667,
+      "sentence pause"
+    ],
+    [
+      60.29991666666667,
+      60.51991666666667,
+      "sentence pause"
+    ],
+    [
+      64.74370833333333,
+      65.39370833333334,
+      "sentence pause"
+    ],
+    [
+      70.43595833333333,
+      70.65595833333333,
+      "sentence pause"
+    ],
+    [
+      75.62416666666667,
+      76.27416666666667,
+      "sentence pause"
+    ],
+    [
+      79.091625,
+      79.31162499999999,
+      "sentence pause"
+    ],
+    [
+      82.50270833333333,
+      83.15270833333334,
+      "sentence pause"
+    ],
+    [
+      87.90058333333333,
+      88.12058333333333,
+      "sentence pause"
+    ],
+    [
+      91.64891666666666,
+      91.86891666666666,
+      "sentence pause"
+    ],
+    [
+      95.18979166666666,
+      95.83979166666667,
+      "sentence pause"
+    ],
+    [
+      99.41529166666666,
+      99.63529166666666,
+      "sentence pause"
+    ],
+    [
+      104.18025,
+      104.40025,
+      "sentence pause"
+    ],
+    [
+      108.69241666666667,
+      109.34241666666668,
+      "sentence pause"
+    ],
+    [
+      112.01791666666666,
+      116.01791666666666,
+      "think time"
+    ],
+    [
+      120.19158333333333,
+      120.41158333333333,
+      "sentence pause"
+    ],
+    [
+      123.13120833333333,
+      123.78120833333334,
+      "sentence pause"
+    ],
+    [
+      128.495,
+      128.715,
+      "sentence pause"
+    ],
+    [
+      133.724875,
+      133.944875,
+      "sentence pause"
+    ],
+    [
+      137.24795833333334,
+      137.46795833333334,
+      "sentence pause"
+    ],
+    [
+      140.579625,
+      141.229625,
+      "sentence pause"
+    ]
+  ],
+  "duration": 141.229625,
+  "narration_sha256": "b68f91bd8ff1dcd1aecef7497504ccab21d2bee308c2cb709ae7186cf88f3e13",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

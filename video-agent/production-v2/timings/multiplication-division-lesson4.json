@@ -1,0 +1,638 @@
+{
+  "input_hash": "c6b05e4c30b5465082e320790ba8da144883cfb135b8a0dfdb2276d95a069f22",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 17.368125,
+      "lesson_progress": 0.08333333333333333,
+      "text": "If a division leaves something over, is the answer finished? Today we are interpreting remainders. We will compare a situation where everyone needs a place with a situation where the leftover amount can be shared. The context decides what the remainder means.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 17.368125,
+      "end": 22.999875,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to interpret remainders to answer real-world division problems.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Interpret remainders to answer real-world division problems."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 22.999875,
+      "end": 36.172958333333334,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can check that a remainder is smaller than the divisor. I can decide when a whole extra group is needed. I can share a remainder as a fraction when appropriate.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Check that a remainder is smaller than the divisor.",
+        "2. Decide when a whole extra group is needed.",
+        "3. Share a remainder as a fraction when appropriate."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 36.172958333333334,
+      "end": 54.85075,
+      "lesson_progress": 0.3333333333333333,
+      "text": "A remainder must be smaller than the divisor. Check a division using groups times group size plus the remainder. Then decide whether to round up, keep whole groups, or share the remainder as a fraction. In a small model, seventeen counters make three full groups of five, with two left over.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 17,
+        "size": 5,
+        "round_up": false,
+        "unit": "Group"
+      }
+    },
+    {
+      "index": 4,
+      "start": 54.85075,
+      "end": 62.9635,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Sixty-seven students need teams of up to eight. Eight full teams hold sixty-four students, leaving three students.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "67 ÷ 8 = 8 remainder 3",
+        "8 × 8 + 3 = 67"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 67,
+        "size": 8,
+        "round_up": false,
+        "unit": "Team"
+      }
+    },
+    {
+      "index": 5,
+      "start": 62.9635,
+      "end": 74.295625,
+      "lesson_progress": 0.5,
+      "text": "Everyone needs a team, so one more team is needed. Nine teams have enough places, although the last team is not full. Eight teams would leave three students out.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "8 teams: 64 places",
+        "9 teams: 72 places"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "groups",
+        "total": 67,
+        "size": 8,
+        "round_up": true,
+        "unit": "Team"
+      }
+    },
+    {
+      "index": 6,
+      "start": 74.295625,
+      "end": 83.77216666666666,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Share twenty-three litres equally among four containers. Five litres in each container uses twenty litres, leaving three litres.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "23 ÷ 4 = 5 remainder 3"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 83.77216666666666,
+      "end": 94.8935,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Share those three litres equally too. Each container gets three quarters of a litre more, so the amount is five and three quarter litres, or five point seven five litres.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "23 ÷ 4 = 5.75 litres"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 94.8935,
+      "end": 111.22416666666666,
+      "lesson_progress": 0.75,
+      "text": "A remainder of three does not automatically mean point three. In our litre problem, the three leftover litres are shared between four containers. Each gets three quarters of a litre more. The divisor and the story explain the fractional part.",
+      "chapter": "A remainder is not automatically a decimal",
+      "equation": [],
+      "board": [
+        "5 remainder 3 is not 5.3",
+        "23 ÷ 4 = 5.75 litres"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "share",
+        "total": 23,
+        "groups": 4,
+        "reveal": true
+      }
+    },
+    {
+      "index": 9,
+      "start": 111.22416666666666,
+      "end": 121.156375,
+      "lesson_progress": 0.8333333333333334,
+      "text": "Thirty-one students travel in cars with five student seats each. How many cars are needed?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "31 ÷ 5 = ? cars"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 121.156375,
+      "end": 130.156875,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Six cars hold thirty students, leaving one student. A seventh car is needed, so the contextual answer is seven cars.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "6 × 5 = 30",
+        "7 cars are needed"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "groups",
+        "total": 31,
+        "size": 5,
+        "round_up": true,
+        "unit": "Car"
+      }
+    },
+    {
+      "index": 11,
+      "start": 130.156875,
+      "end": 148.80754166666668,
+      "lesson_progress": 1.0,
+      "text": "Calculate and check the remainder, then return to the story. People need whole places; divisible quantities can be shared further. Explain your answer using the correct unit. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Calculate → interpret the story → check",
+        "A remainder is smaller than the divisor"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.54025,
+      "text": "If a division leaves something over, is the answer finished?"
+    },
+    {
+      "start": 4.19025,
+      "end": 6.900083333333333,
+      "text": "Today we are interpreting remainders."
+    },
+    {
+      "start": 7.1200833333333335,
+      "end": 13.299541666666666,
+      "text": "We will compare a situation where everyone needs a place with a situation where the leftover amount can be shared."
+    },
+    {
+      "start": 13.519541666666667,
+      "end": 16.718125,
+      "text": "The context decides what the remainder means."
+    },
+    {
+      "start": 17.368125,
+      "end": 22.349875,
+      "text": "Our learning goal is to interpret remainders to answer real-world division problems."
+    },
+    {
+      "start": 22.999875,
+      "end": 24.756875,
+      "text": "Success criteria."
+    },
+    {
+      "start": 24.976875,
+      "end": 28.546041666666667,
+      "text": "I can check that a remainder is smaller than the divisor."
+    },
+    {
+      "start": 28.766041666666666,
+      "end": 31.971083333333333,
+      "text": "I can decide when a whole extra group is needed."
+    },
+    {
+      "start": 32.19108333333333,
+      "end": 35.522958333333335,
+      "text": "I can share a remainder as a fraction when appropriate."
+    },
+    {
+      "start": 36.172958333333334,
+      "end": 39.025,
+      "text": "A remainder must be smaller than the divisor."
+    },
+    {
+      "start": 39.245,
+      "end": 43.254083333333334,
+      "text": "Check a division using groups times group size plus the remainder."
+    },
+    {
+      "start": 43.47408333333333,
+      "end": 48.56366666666667,
+      "text": "Then decide whether to round up, keep whole groups, or share the remainder as a fraction."
+    },
+    {
+      "start": 48.78366666666667,
+      "end": 54.20075,
+      "text": "In a small model, seventeen counters make three full groups of five, with two left over."
+    },
+    {
+      "start": 54.85075,
+      "end": 57.964875,
+      "text": "Sixty-seven students need teams of up to eight."
+    },
+    {
+      "start": 58.184875,
+      "end": 62.3135,
+      "text": "Eight full teams hold sixty-four students, leaving three students."
+    },
+    {
+      "start": 62.9635,
+      "end": 66.2585,
+      "text": "Everyone needs a team, so one more team is needed."
+    },
+    {
+      "start": 66.4785,
+      "end": 70.720625,
+      "text": "Nine teams have enough places, although the last team is not full."
+    },
+    {
+      "start": 70.940625,
+      "end": 73.645625,
+      "text": "Eight teams would leave three students out."
+    },
+    {
+      "start": 74.295625,
+      "end": 78.055,
+      "text": "Share twenty-three litres equally among four containers."
+    },
+    {
+      "start": 78.275,
+      "end": 83.12216666666667,
+      "text": "Five litres in each container uses twenty litres, leaving three litres."
+    },
+    {
+      "start": 83.77216666666666,
+      "end": 86.35708333333334,
+      "text": "Share those three litres equally too."
+    },
+    {
+      "start": 86.57708333333333,
+      "end": 94.2435,
+      "text": "Each container gets three quarters of a litre more, so the amount is five and three quarter litres, or five point seven five litres."
+    },
+    {
+      "start": 94.8935,
+      "end": 98.6465,
+      "text": "A remainder of three does not automatically mean point three."
+    },
+    {
+      "start": 98.8665,
+      "end": 103.899,
+      "text": "In our litre problem, the three leftover litres are shared between four containers."
+    },
+    {
+      "start": 104.119,
+      "end": 106.78254166666666,
+      "text": "Each gets three quarters of a litre more."
+    },
+    {
+      "start": 107.00254166666667,
+      "end": 110.57416666666667,
+      "text": "The divisor and the story explain the fractional part."
+    },
+    {
+      "start": 111.22416666666666,
+      "end": 115.17245833333334,
+      "text": "Thirty-one students travel in cars with five student seats each."
+    },
+    {
+      "start": 115.39245833333334,
+      "end": 117.156375,
+      "text": "How many cars are needed?"
+    },
+    {
+      "start": 121.156375,
+      "end": 124.75391666666667,
+      "text": "Six cars hold thirty students, leaving one student."
+    },
+    {
+      "start": 124.97391666666667,
+      "end": 129.506875,
+      "text": "A seventh car is needed, so the contextual answer is seven cars."
+    },
+    {
+      "start": 130.156875,
+      "end": 133.66470833333332,
+      "text": "Calculate and check the remainder, then return to the story."
+    },
+    {
+      "start": 133.88470833333332,
+      "end": 138.04954166666667,
+      "text": "People need whole places; divisible quantities can be shared further."
+    },
+    {
+      "start": 138.26954166666667,
+      "end": 141.30279166666668,
+      "text": "Explain your answer using the correct unit."
+    },
+    {
+      "start": 141.52279166666668,
+      "end": 144.825875,
+      "text": "Choose a model and explain why your strategy works."
+    },
+    {
+      "start": 145.045875,
+      "end": 148.15754166666667,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.54025,
+      4.19025,
+      "sentence pause"
+    ],
+    [
+      6.900083333333333,
+      7.120083333333333,
+      "sentence pause"
+    ],
+    [
+      13.299541666666666,
+      13.519541666666667,
+      "sentence pause"
+    ],
+    [
+      16.718125,
+      17.368125,
+      "sentence pause"
+    ],
+    [
+      22.349875,
+      22.999875,
+      "sentence pause"
+    ],
+    [
+      24.756875,
+      24.976875,
+      "sentence pause"
+    ],
+    [
+      28.546041666666667,
+      28.766041666666666,
+      "sentence pause"
+    ],
+    [
+      31.971083333333333,
+      32.19108333333333,
+      "sentence pause"
+    ],
+    [
+      35.522958333333335,
+      36.172958333333334,
+      "sentence pause"
+    ],
+    [
+      39.025,
+      39.245,
+      "sentence pause"
+    ],
+    [
+      43.254083333333334,
+      43.47408333333333,
+      "sentence pause"
+    ],
+    [
+      48.56366666666667,
+      48.78366666666667,
+      "sentence pause"
+    ],
+    [
+      54.20075,
+      54.85075,
+      "sentence pause"
+    ],
+    [
+      57.964875,
+      58.184875,
+      "sentence pause"
+    ],
+    [
+      62.3135,
+      62.963499999999996,
+      "sentence pause"
+    ],
+    [
+      66.2585,
+      66.4785,
+      "sentence pause"
+    ],
+    [
+      70.720625,
+      70.940625,
+      "sentence pause"
+    ],
+    [
+      73.645625,
+      74.295625,
+      "sentence pause"
+    ],
+    [
+      78.055,
+      78.275,
+      "sentence pause"
+    ],
+    [
+      83.12216666666667,
+      83.77216666666668,
+      "sentence pause"
+    ],
+    [
+      86.35708333333334,
+      86.57708333333333,
+      "sentence pause"
+    ],
+    [
+      94.2435,
+      94.8935,
+      "sentence pause"
+    ],
+    [
+      98.6465,
+      98.8665,
+      "sentence pause"
+    ],
+    [
+      103.899,
+      104.119,
+      "sentence pause"
+    ],
+    [
+      106.78254166666666,
+      107.00254166666666,
+      "sentence pause"
+    ],
+    [
+      110.57416666666667,
+      111.22416666666668,
+      "sentence pause"
+    ],
+    [
+      115.17245833333334,
+      115.39245833333334,
+      "sentence pause"
+    ],
+    [
+      117.156375,
+      121.156375,
+      "think time"
+    ],
+    [
+      124.75391666666667,
+      124.97391666666667,
+      "sentence pause"
+    ],
+    [
+      129.506875,
+      130.156875,
+      "sentence pause"
+    ],
+    [
+      133.66470833333332,
+      133.88470833333332,
+      "sentence pause"
+    ],
+    [
+      138.04954166666667,
+      138.26954166666667,
+      "sentence pause"
+    ],
+    [
+      141.30279166666668,
+      141.52279166666668,
+      "sentence pause"
+    ],
+    [
+      144.825875,
+      145.045875,
+      "sentence pause"
+    ],
+    [
+      148.15754166666667,
+      148.80754166666668,
+      "sentence pause"
+    ]
+  ],
+  "duration": 148.80754166666668,
+  "narration_sha256": "c307b6b9f48cd403b0c252e32df7d320e23f0f304b464bca5d575a12ca70a26c",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

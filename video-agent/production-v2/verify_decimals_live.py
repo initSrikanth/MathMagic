@@ -1,5 +1,5 @@
 """TLS-verified published HTML/assets, hashes and actual HTTP byte-range checks."""
-import os,json,urllib.request,urllib.error,hashlib,concurrent.futures,sys
+import os,json,re,urllib.request,urllib.error,hashlib,concurrent.futures,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];P=Path(__file__).resolve().parent
 TOPIC=os.environ.get('MATHMAGIC_TOPIC','decimals-percentages')
@@ -25,7 +25,9 @@ def main():
   assert cc==(ROOT/e['captions']).read_bytes() and tr==(ROOT/e['transcript']).read_bytes()
   return dict(src=e['src'],url=BASE+e['src'],http=200,bytes=len(data),sha256=e['sha256'],range=206,mime='video/mp4',captions_transcript_exact=True)
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(check,m['lessons']))
- for path in ['css/'+TOPIC+'.css','js/'+TOPIC+'.js']:
+ # Topics may reuse another topic's stylesheet; verify the actual page references.
+ for path in sorted(set(re.findall(r'(?:src|href)="((?:css|js)/[^"]+)"',text))):
+  path=path.split('?')[0]
   content,_,_=fetch(path);assert content==(ROOT/path).read_bytes()
  report=dict(passed=True,source='Actual published GitHub Pages responses, TLS verification enabled',videos=results)
  (CACHE/'verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

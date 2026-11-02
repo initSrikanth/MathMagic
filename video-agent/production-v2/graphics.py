@@ -73,6 +73,65 @@ def draw_part_bar(d,m,progress):
     d.line((left,730,left+span*progress,730),fill=INK,width=4)
     text(d,'Total: '+m['total'],960,770,44,INK,True)
 
+def draw_array(d,m,progress):
+    r,c=m['rows'],m['cols'];cell=min(90,1200/c,220/r);left=(W-c*cell)/2;top=560
+    for row in range(r):
+        for col in range(c):
+            x=left+(col+.5)*cell;y=top+(row+.5)*cell;colour=TEAL if (col<m['split'] if 'split' in m else row%2==0) else GOLD
+            d.ellipse((x-cell*.22,y-cell*.22,x+cell*.22,y+cell*.22),fill=colour if row*c+col<r*c*progress else EMPTY)
+    if not m.get('hide_labels'):text(d,f'{r} equal rows of {c}',960,810,38,INK,True)
+
+def draw_products(d,m,progress):
+    n=len(m['parts']);cw=1500/n;results=[]
+    text(d,'Divide each useful part' if m['operation']=='÷' else 'Multiply each useful part',960,500,31,INK,True)
+    for i,part in enumerate(m['parts']):
+        x=210+i*cw;value=part//m['other'] if m['operation']=='÷' else part*m['other'];results.append(value)
+        d.rounded_rectangle((x,545,x+cw-20,750),radius=18,fill=EMPTY,outline=TEAL,width=3)
+        a,b=(m['other'],part) if m['side']=='multiplier' else (part,m['other'])
+        text(d,f'{a:,} {m["operation"]} {b:,}',x+(cw-20)/2,570,47,INK,True,maxw=cw-50)
+        text(d,f'{value:,}' if i<m['reveal'] else '?',x+(cw-20)/2,650,65,TEAL,True,maxw=cw-50)
+        if i<m['reveal']:d.line((x+25,740,x+25+(cw-70)*progress,740),fill=GOLD,width=5)
+    total=' + '.join(f'{v:,}' for v in results)+' = '+f'{sum(results):,}' if m['reveal']==n else 'Total: ?'
+    text(d,total,960,805,43,INK,True,maxw=1600)
+
+def draw_groups(d,m,progress):
+    q,r=divmod(m['total'],m['size']);n=q+bool(r and m['round_up']);size=m['size']
+    for j in range(n):
+        x=220+(j%5)*290;y=520+(j//5)*170
+        d.rounded_rectangle((x,y,x+260,y+125),radius=14,fill=EMPTY,outline=INK,width=2)
+        text(d,m.get('unit','Group')+' '+str(j+1),x+130,y+8,26,INK,True)
+        for k in range(size):
+            cx=x+40+(k%4)*55;cy=y+58+(k//4)*(27 if size>8 else 40);chosen=j*size+k<m['total'];col=(GOLD if j==q else TEAL) if chosen else 'white'
+            d.ellipse((cx-10,cy-10,cx+10,cy+10),fill=col if j*size+k<m['total']*progress else 'white',outline=INK,width=1)
+    if r and not m['round_up']:
+        x=220+(q%5)*290;y=520+(q//5)*170
+        text(d,str(r)+' left over',x+130,y+10,30,GOLD,True)
+        for k in range(r):
+            cx=x+45+k*55;cy=y+75;d.ellipse((cx-10,cy-10,cx+10,cy+10),fill=GOLD,outline=INK,width=1)
+
+def draw_share(d,m,progress):
+    q,r=divmod(m['total'],m['groups']);reveal=m['reveal']
+    text(d,f'{r} litres shared equally between {m["groups"]} containers' if reveal else f'{r} litres still to share',960,495,32,INK,True)
+    for j in range(m['groups']):
+        x=200+j*400;d.rounded_rectangle((x,540,x+320,815),radius=15,fill=EMPTY,outline=TEAL,width=3)
+        text(d,'Container '+str(j+1),x+160,560,32,INK,True)
+        for i in range(q):
+            left=x+20+i*45;d.rectangle((left,630,left+40,680),fill=TEAL,outline='white',width=2)
+        if reveal:
+            left=x+20+q*45;d.rectangle((left,630,left+40,680),fill='white',outline=INK,width=2);d.rectangle((left,630,left+40*r/m['groups']*progress,680),fill=GOLD)
+            for k in range(1,m['groups']):d.line((left+40*k/m['groups'],630,left+40*k/m['groups'],680),fill=INK,width=1)
+            notation=[q,r,m['groups']];fw=frac_width(notation,34);fraction(d,notation,x+145-fw/2,720,34,INK);text(d,'L',x+155+fw/2,740,30,INK)
+        else:text(d,str(q)+' L each',x+160,735,38,INK,True)
+
+def draw_family(d,m,progress):
+    labels=m.get('labels',['Number of groups','In each group','Total']);values=['?' if m['unknown'] else f'{m["groups"]:,}',f'{m["each"]:,}',f'{m["total"]:,}']
+    text(d,'Estimate' if m.get('approximate') else 'Equal-group relationship',960,500,32,INK,True)
+    for i,(label,value) in enumerate(zip(labels,values)):
+        x=210+i*500;d.rounded_rectangle((x,545,x+480,750),radius=18,fill=EMPTY,outline=TEAL,width=3)
+        text(d,label,x+240,568,32,INK,True,maxw=450);text(d,('About ' if m.get('approximate') else '')+value,x+240,650,65,TEAL,True,maxw=450)
+    equation_text=('?' if m['unknown'] else f'{m["groups"]:,}')+' × '+f'{m["each"]:,}'+' = '+f'{m["total"]:,}'
+    text(d,equation_text,960,805,43,INK,True)
+
 def draw(lesson,cue,path,progress=1):
     im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     d.rounded_rectangle((45,35,1875,1035),radius=35,fill='white',outline='#DBE7DF',width=3)
@@ -210,6 +269,11 @@ def draw(lesson,cue,path,progress=1):
             d.rounded_rectangle((x,y,x+cw-8,y+150),radius=9,fill='#FFF0C8' if i==model['highlight'] else EMPTY)
             for k,line in enumerate(label.split('\n')): text(d,line,x+cw/2,y+12+k*26,23,INK,True,maxw=cw-12)
             text(d,digit,x+cw/2,y+86,45,TEAL,True)
+    if model and model['type']=='array': draw_array(d,model,progress)
+    if model and model['type']=='products': draw_products(d,model,progress)
+    if model and model['type']=='groups': draw_groups(d,model,progress)
+    if model and model['type']=='share': draw_share(d,model,progress)
+    if model and model['type']=='family': draw_family(d,model,progress)
     if model and model['type']=='column': draw_column(d,model)
     if model and model['type']=='bar': draw_part_bar(d,model,progress)
     if model and model['type']=='line':

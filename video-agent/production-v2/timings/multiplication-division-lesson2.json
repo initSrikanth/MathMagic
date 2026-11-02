@@ -1,0 +1,652 @@
+{
+  "input_hash": "0956ba0ec42fa9377f0d65879c98463e8e9a9fb9676e6f321ddf7628b254a985",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 15.551958333333333,
+      "lesson_progress": 0.08333333333333333,
+      "text": "When a multiplier has two digits, does the tens digit count as ones? Today we are multiplying by two-digit numbers. We will separate tens and ones, calculate two partial products, and connect them to the complete multiplication.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 15.551958333333333,
+      "end": 20.91379166666667,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to multiply by two-digit numbers using tens and ones.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Multiply by two-digit numbers using tens and ones."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 20.91379166666667,
+      "end": 33.029333333333334,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can split a multiplier into tens and ones. I can label and calculate both partial products. I can add the products and check their size.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Split a multiplier into tens and ones.",
+        "2. Label and calculate both partial products.",
+        "3. Add the products and check their size."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 33.029333333333334,
+      "end": 55.66466666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Thirteen means ten plus three. Multiplying by thirteen means taking ten groups and three more groups. Missing the tens value is a common error; label each partial product before adding. In a small picture, imagine two rows of thirteen counters. Each row has ten and three more. Both parts still belong in the answer.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 2,
+        "cols": 13,
+        "split": 10
+      }
+    },
+    {
+      "index": 4,
+      "start": 55.66466666666667,
+      "end": 65.74933333333334,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Calculate two hundred and forty-six times thirteen. First take ten groups: two hundred and forty-six times ten is two thousand four hundred and sixty.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "246 × 13",
+        "246 × 10 = 2,460"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          10,
+          3
+        ],
+        "other": 246,
+        "original": 13,
+        "operation": "×",
+        "reveal": 1,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 5,
+      "start": 65.74933333333334,
+      "end": 76.32654166666667,
+      "lesson_progress": 0.5,
+      "text": "Then take three groups: two hundred and forty-six times three is seven hundred and thirty-eight. Add the partial products to get three thousand one hundred and ninety-eight.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "246 × 3 = 738",
+        "2,460 + 738 = 3,198"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          10,
+          3
+        ],
+        "other": 246,
+        "original": 13,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 6,
+      "start": 76.32654166666667,
+      "end": 87.598375,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Now calculate three hundred and fifteen times twenty-four. Twenty-four is twenty plus four. Three hundred and fifteen times twenty is six thousand three hundred.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "315 × 24",
+        "315 × 20 = 6,300"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          20,
+          4
+        ],
+        "other": 315,
+        "original": 24,
+        "operation": "×",
+        "reveal": 1,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 7,
+      "start": 87.598375,
+      "end": 96.688,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Four groups make one thousand two hundred and sixty. Combining twenty groups and four groups gives seven thousand five hundred and sixty.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "315 × 4 = 1,260",
+        "6,300 + 1,260 = 7,560"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          20,
+          4
+        ],
+        "other": 315,
+        "original": 24,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 8,
+      "start": 96.688,
+      "end": 109.60504166666666,
+      "lesson_progress": 0.75,
+      "text": "The two in twenty-four means twenty, not two. Multiplying by two instead of twenty misses a place value. Label twenty groups and four groups, then combine the correct partial products.",
+      "chapter": "A tens digit is worth tens",
+      "equation": [],
+      "board": [
+        "315 × 20 = 6,300",
+        "315 × 4 = 1,260"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "products",
+        "parts": [
+          20,
+          4
+        ],
+        "other": 315,
+        "original": 24,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 9,
+      "start": 109.60504166666666,
+      "end": 116.3125,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What is one hundred and two times twelve?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "102 × 12 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 116.3125,
+      "end": 125.12245833333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Ten groups make one thousand and twenty, and two groups make two hundred and four. The total is one thousand two hundred and twenty-four.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "1,020 + 204 = 1,224",
+        "102 × 12 = 1,224"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "products",
+        "parts": [
+          10,
+          2
+        ],
+        "other": 102,
+        "original": 12,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 11,
+      "start": 125.12245833333333,
+      "end": 143.124875,
+      "lesson_progress": 1.0,
+      "text": "Split the multiplier into tens and ones. Calculate both partial products with their correct place values, add them, then check with a nearby friendly multiplication. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Tens and ones → partial products → total",
+        "Keep place values clear"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.274791666666666,
+      "text": "When a multiplier has two digits, does the tens digit count as ones?"
+    },
+    {
+      "start": 4.924791666666667,
+      "end": 8.2475,
+      "text": "Today we are multiplying by two-digit numbers."
+    },
+    {
+      "start": 8.4675,
+      "end": 14.901958333333333,
+      "text": "We will separate tens and ones, calculate two partial products, and connect them to the complete multiplication."
+    },
+    {
+      "start": 15.551958333333333,
+      "end": 20.263791666666666,
+      "text": "Our learning goal is to multiply by two-digit numbers using tens and ones."
+    },
+    {
+      "start": 20.91379166666667,
+      "end": 22.67275,
+      "text": "Success criteria."
+    },
+    {
+      "start": 22.89275,
+      "end": 25.963916666666666,
+      "text": "I can split a multiplier into tens and ones."
+    },
+    {
+      "start": 26.183916666666665,
+      "end": 29.360375,
+      "text": "I can label and calculate both partial products."
+    },
+    {
+      "start": 29.580375,
+      "end": 32.379333333333335,
+      "text": "I can add the products and check their size."
+    },
+    {
+      "start": 33.029333333333334,
+      "end": 35.455041666666666,
+      "text": "Thirteen means ten plus three."
+    },
+    {
+      "start": 35.675041666666665,
+      "end": 40.17025,
+      "text": "Multiplying by thirteen means taking ten groups and three more groups."
+    },
+    {
+      "start": 40.39025,
+      "end": 45.48820833333333,
+      "text": "Missing the tens value is a common error; label each partial product before adding."
+    },
+    {
+      "start": 45.70820833333333,
+      "end": 49.64908333333333,
+      "text": "In a small picture, imagine two rows of thirteen counters."
+    },
+    {
+      "start": 49.869083333333336,
+      "end": 52.24025,
+      "text": "Each row has ten and three more."
+    },
+    {
+      "start": 52.46025,
+      "end": 55.01466666666666,
+      "text": "Both parts still belong in the answer."
+    },
+    {
+      "start": 55.66466666666667,
+      "end": 59.03758333333333,
+      "text": "Calculate two hundred and forty-six times thirteen."
+    },
+    {
+      "start": 59.257583333333336,
+      "end": 65.09933333333333,
+      "text": "First take ten groups: two hundred and forty-six times ten is two thousand four hundred and sixty."
+    },
+    {
+      "start": 65.74933333333334,
+      "end": 71.19,
+      "text": "Then take three groups: two hundred and forty-six times three is seven hundred and thirty-eight."
+    },
+    {
+      "start": 71.41,
+      "end": 75.67654166666667,
+      "text": "Add the partial products to get three thousand one hundred and ninety-eight."
+    },
+    {
+      "start": 76.32654166666667,
+      "end": 80.01820833333333,
+      "text": "Now calculate three hundred and fifteen times twenty-four."
+    },
+    {
+      "start": 80.23820833333333,
+      "end": 82.53733333333334,
+      "text": "Twenty-four is twenty plus four."
+    },
+    {
+      "start": 82.75733333333334,
+      "end": 86.948375,
+      "text": "Three hundred and fifteen times twenty is six thousand three hundred."
+    },
+    {
+      "start": 87.598375,
+      "end": 90.807375,
+      "text": "Four groups make one thousand two hundred and sixty."
+    },
+    {
+      "start": 91.027375,
+      "end": 96.038,
+      "text": "Combining twenty groups and four groups gives seven thousand five hundred and sixty."
+    },
+    {
+      "start": 96.688,
+      "end": 99.76904166666667,
+      "text": "The two in twenty-four means twenty, not two."
+    },
+    {
+      "start": 99.98904166666667,
+      "end": 103.8695,
+      "text": "Multiplying by two instead of twenty misses a place value."
+    },
+    {
+      "start": 104.0895,
+      "end": 108.95504166666667,
+      "text": "Label twenty groups and four groups, then combine the correct partial products."
+    },
+    {
+      "start": 109.60504166666666,
+      "end": 112.3125,
+      "text": "What is one hundred and two times twelve?"
+    },
+    {
+      "start": 116.3125,
+      "end": 121.03520833333333,
+      "text": "Ten groups make one thousand and twenty, and two groups make two hundred and four."
+    },
+    {
+      "start": 121.25520833333333,
+      "end": 124.47245833333334,
+      "text": "The total is one thousand two hundred and twenty-four."
+    },
+    {
+      "start": 125.12245833333333,
+      "end": 128.19620833333335,
+      "text": "Split the multiplier into tens and ones."
+    },
+    {
+      "start": 128.41620833333334,
+      "end": 135.620125,
+      "text": "Calculate both partial products with their correct place values, add them, then check with a nearby friendly multiplication."
+    },
+    {
+      "start": 135.840125,
+      "end": 139.14320833333332,
+      "text": "Choose a model and explain why your strategy works."
+    },
+    {
+      "start": 139.36320833333335,
+      "end": 142.474875,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.274791666666666,
+      4.924791666666667,
+      "sentence pause"
+    ],
+    [
+      8.2475,
+      8.467500000000001,
+      "sentence pause"
+    ],
+    [
+      14.901958333333333,
+      15.551958333333333,
+      "sentence pause"
+    ],
+    [
+      20.263791666666666,
+      20.913791666666665,
+      "sentence pause"
+    ],
+    [
+      22.67275,
+      22.89275,
+      "sentence pause"
+    ],
+    [
+      25.963916666666666,
+      26.183916666666665,
+      "sentence pause"
+    ],
+    [
+      29.360375,
+      29.580375,
+      "sentence pause"
+    ],
+    [
+      32.379333333333335,
+      33.029333333333334,
+      "sentence pause"
+    ],
+    [
+      35.455041666666666,
+      35.675041666666665,
+      "sentence pause"
+    ],
+    [
+      40.17025,
+      40.39025,
+      "sentence pause"
+    ],
+    [
+      45.48820833333333,
+      45.70820833333333,
+      "sentence pause"
+    ],
+    [
+      49.64908333333333,
+      49.86908333333333,
+      "sentence pause"
+    ],
+    [
+      52.24025,
+      52.46025,
+      "sentence pause"
+    ],
+    [
+      55.01466666666666,
+      55.66466666666666,
+      "sentence pause"
+    ],
+    [
+      59.03758333333333,
+      59.25758333333333,
+      "sentence pause"
+    ],
+    [
+      65.09933333333333,
+      65.74933333333334,
+      "sentence pause"
+    ],
+    [
+      71.19,
+      71.41,
+      "sentence pause"
+    ],
+    [
+      75.67654166666667,
+      76.32654166666667,
+      "sentence pause"
+    ],
+    [
+      80.01820833333333,
+      80.23820833333333,
+      "sentence pause"
+    ],
+    [
+      82.53733333333334,
+      82.75733333333334,
+      "sentence pause"
+    ],
+    [
+      86.948375,
+      87.598375,
+      "sentence pause"
+    ],
+    [
+      90.807375,
+      91.02737499999999,
+      "sentence pause"
+    ],
+    [
+      96.038,
+      96.688,
+      "sentence pause"
+    ],
+    [
+      99.76904166666667,
+      99.98904166666667,
+      "sentence pause"
+    ],
+    [
+      103.8695,
+      104.0895,
+      "sentence pause"
+    ],
+    [
+      108.95504166666667,
+      109.60504166666668,
+      "sentence pause"
+    ],
+    [
+      112.3125,
+      116.3125,
+      "think time"
+    ],
+    [
+      121.03520833333333,
+      121.25520833333333,
+      "sentence pause"
+    ],
+    [
+      124.47245833333334,
+      125.12245833333334,
+      "sentence pause"
+    ],
+    [
+      128.19620833333335,
+      128.41620833333334,
+      "sentence pause"
+    ],
+    [
+      135.620125,
+      135.840125,
+      "sentence pause"
+    ],
+    [
+      139.14320833333332,
+      139.36320833333332,
+      "sentence pause"
+    ],
+    [
+      142.474875,
+      143.124875,
+      "sentence pause"
+    ]
+  ],
+  "duration": 143.124875,
+  "narration_sha256": "2efdb19b11936366ec8bba4d2ea0990170685b5a9f96da786ac3d16b3abcf999",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

@@ -1,0 +1,611 @@
+{
+  "input_hash": "d189c7e76b77409ac7f74a129f682bc2d5b8c6aacffcdb1d192c6601ebe6ecd7",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.748916666666666,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Can multiplication help you solve a division, or uncover a hidden number? Today we are connecting inverse operations, estimates and real situations. We will identify equal groups, find a missing value, and check whether an answer has the right size.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 16.748916666666666,
+      "end": 22.561,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to use inverse operations, estimates and equal-group models.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Use inverse operations, estimates and equal-group models."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 22.561,
+      "end": 35.703625,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can find a missing factor using an inverse relationship. I can estimate before finding an exact total. I can explain an answer with its meaning and unit.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Find a missing factor using an inverse relationship.",
+        "2. Estimate before finding an exact total.",
+        "3. Explain an answer with its meaning and unit."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 35.703625,
+      "end": 57.4945,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Multiplication and division describe the same equal-group relationship. If groups times group size gives the total, dividing the total by one known factor finds the other. An estimate provides a separate size check. Three equal groups of four make twelve. Sharing twelve into three equal groups gives four in each.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 3,
+        "each": 4,
+        "total": 12,
+        "unknown": false
+      }
+    },
+    {
+      "index": 4,
+      "start": 57.4945,
+      "end": 66.550125,
+      "lesson_progress": 0.4166666666666667,
+      "text": "A missing number times twenty-four equals one thousand six hundred and eighty. Divide the total by twenty-four to find the missing number.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "□ × 24 = 1,680"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 70,
+        "each": 24,
+        "total": 1680,
+        "unknown": true
+      }
+    },
+    {
+      "index": 5,
+      "start": 66.550125,
+      "end": 76.38716666666667,
+      "lesson_progress": 0.5,
+      "text": "Seventy groups of twenty-four make one thousand six hundred and eighty. Substitute seventy into the original sentence to verify the relationship.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "70 × 24 = 1,680",
+        "1,680 ÷ 24 = 70"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 70,
+        "each": 24,
+        "total": 1680,
+        "unknown": false
+      }
+    },
+    {
+      "index": 6,
+      "start": 76.38716666666667,
+      "end": 87.04204166666666,
+      "lesson_progress": 0.5833333333333334,
+      "text": "A shop has twenty-one boxes with three hundred and ninety-eight pencils in each. Estimate using twenty boxes of four hundred: about eight thousand pencils.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "398 × 21 ≈ 400 × 20 = 8,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 20,
+        "each": 400,
+        "total": 8000,
+        "unknown": false,
+        "approximate": true,
+        "labels": [
+          "Boxes",
+          "Pencils in each box",
+          "Total pencils"
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "start": 87.04204166666666,
+      "end": 100.72991666666667,
+      "lesson_progress": 0.6666666666666666,
+      "text": "The exact calculation is three hundred and ninety-eight times twenty plus one more group. Seven thousand nine hundred and sixty plus three hundred and ninety-eight gives eight thousand three hundred and fifty-eight pencils.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "398 × 20 = 7,960",
+        "7,960 + 398 = 8,358"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          20,
+          1
+        ],
+        "other": 398,
+        "original": 21,
+        "operation": "×",
+        "reveal": 2,
+        "side": "multiplier"
+      }
+    },
+    {
+      "index": 8,
+      "start": 100.72991666666667,
+      "end": 116.08433333333333,
+      "lesson_progress": 0.75,
+      "text": "An estimate is a useful check, but do not use eight thousand as the exact total. Keep twenty-one groups of three hundred and ninety-eight for the real calculation. An inverse check uses the exact values, not the rounded ones.",
+      "chapter": "Keep estimates and exact totals separate",
+      "equation": [],
+      "board": [
+        "Estimate: about 8,000",
+        "Exact: 8,358"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "family",
+        "groups": 21,
+        "each": 398,
+        "total": 8358,
+        "unknown": false
+      }
+    },
+    {
+      "index": 9,
+      "start": 116.08433333333333,
+      "end": 126.15545833333333,
+      "lesson_progress": 0.8333333333333334,
+      "text": "A missing number times eighteen equals one thousand four hundred and forty. What is it?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "□ × 18 = 1,440"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 126.15545833333333,
+      "end": 132.23533333333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Eighty times eighteen equals one thousand four hundred and forty, so the missing number is eighty.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "80 × 18 = 1,440"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "family",
+        "groups": 80,
+        "each": 18,
+        "total": 1440,
+        "unknown": false
+      }
+    },
+    {
+      "index": 11,
+      "start": 132.23533333333333,
+      "end": 150.658375,
+      "lesson_progress": 1.0,
+      "text": "Identify the equal groups, use an inverse operation for missing values, and estimate before calculating. Check by substitution and state what the result means in the problem. Choose a model and explain why your strategy works. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Model → estimate → calculate → check",
+        "Use exact values for an inverse check"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.33275,
+      "text": "Can multiplication help you solve a division, or uncover a hidden number?"
+    },
+    {
+      "start": 4.98275,
+      "end": 10.063541666666667,
+      "text": "Today we are connecting inverse operations, estimates and real situations."
+    },
+    {
+      "start": 10.283541666666666,
+      "end": 16.098916666666668,
+      "text": "We will identify equal groups, find a missing value, and check whether an answer has the right size."
+    },
+    {
+      "start": 16.748916666666666,
+      "end": 21.911,
+      "text": "Our learning goal is to use inverse operations, estimates and equal-group models."
+    },
+    {
+      "start": 22.561,
+      "end": 24.31775,
+      "text": "Success criteria."
+    },
+    {
+      "start": 24.53775,
+      "end": 28.365541666666665,
+      "text": "I can find a missing factor using an inverse relationship."
+    },
+    {
+      "start": 28.585541666666668,
+      "end": 31.754,
+      "text": "I can estimate before finding an exact total."
+    },
+    {
+      "start": 31.974,
+      "end": 35.053625,
+      "text": "I can explain an answer with its meaning and unit."
+    },
+    {
+      "start": 35.703625,
+      "end": 40.491375,
+      "text": "Multiplication and division describe the same equal-group relationship."
+    },
+    {
+      "start": 40.711375,
+      "end": 46.617583333333336,
+      "text": "If groups times group size gives the total, dividing the total by one known factor finds the other."
+    },
+    {
+      "start": 46.837583333333335,
+      "end": 49.77675,
+      "text": "An estimate provides a separate size check."
+    },
+    {
+      "start": 49.99675,
+      "end": 52.871291666666664,
+      "text": "Three equal groups of four make twelve."
+    },
+    {
+      "start": 53.09129166666666,
+      "end": 56.8445,
+      "text": "Sharing twelve into three equal groups gives four in each."
+    },
+    {
+      "start": 57.4945,
+      "end": 62.13816666666666,
+      "text": "A missing number times twenty-four equals one thousand six hundred and eighty."
+    },
+    {
+      "start": 62.35816666666667,
+      "end": 65.900125,
+      "text": "Divide the total by twenty-four to find the missing number."
+    },
+    {
+      "start": 66.550125,
+      "end": 70.68095833333334,
+      "text": "Seventy groups of twenty-four make one thousand six hundred and eighty."
+    },
+    {
+      "start": 70.90095833333334,
+      "end": 75.73716666666667,
+      "text": "Substitute seventy into the original sentence to verify the relationship."
+    },
+    {
+      "start": 76.38716666666667,
+      "end": 81.43733333333333,
+      "text": "A shop has twenty-one boxes with three hundred and ninety-eight pencils in each."
+    },
+    {
+      "start": 81.65733333333333,
+      "end": 86.39204166666667,
+      "text": "Estimate using twenty boxes of four hundred: about eight thousand pencils."
+    },
+    {
+      "start": 87.04204166666666,
+      "end": 92.54045833333333,
+      "text": "The exact calculation is three hundred and ninety-eight times twenty plus one more group."
+    },
+    {
+      "start": 92.76045833333333,
+      "end": 100.07991666666666,
+      "text": "Seven thousand nine hundred and sixty plus three hundred and ninety-eight gives eight thousand three hundred and fifty-eight pencils."
+    },
+    {
+      "start": 100.72991666666667,
+      "end": 105.832,
+      "text": "An estimate is a useful check, but do not use eight thousand as the exact total."
+    },
+    {
+      "start": 106.052,
+      "end": 110.77941666666666,
+      "text": "Keep twenty-one groups of three hundred and ninety-eight for the real calculation."
+    },
+    {
+      "start": 110.99941666666666,
+      "end": 115.43433333333333,
+      "text": "An inverse check uses the exact values, not the rounded ones."
+    },
+    {
+      "start": 116.08433333333333,
+      "end": 120.78133333333334,
+      "text": "A missing number times eighteen equals one thousand four hundred and forty."
+    },
+    {
+      "start": 121.00133333333333,
+      "end": 122.15545833333333,
+      "text": "What is it?"
+    },
+    {
+      "start": 126.15545833333333,
+      "end": 131.58533333333332,
+      "text": "Eighty times eighteen equals one thousand four hundred and forty, so the missing number is eighty."
+    },
+    {
+      "start": 132.23533333333333,
+      "end": 138.81583333333333,
+      "text": "Identify the equal groups, use an inverse operation for missing values, and estimate before calculating."
+    },
+    {
+      "start": 139.03583333333333,
+      "end": 143.153625,
+      "text": "Check by substitution and state what the result means in the problem."
+    },
+    {
+      "start": 143.373625,
+      "end": 146.67670833333332,
+      "text": "Choose a model and explain why your strategy works."
+    },
+    {
+      "start": 146.89670833333332,
+      "end": 150.008375,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.33275,
+      4.98275,
+      "sentence pause"
+    ],
+    [
+      10.063541666666667,
+      10.283541666666668,
+      "sentence pause"
+    ],
+    [
+      16.098916666666668,
+      16.748916666666666,
+      "sentence pause"
+    ],
+    [
+      21.911,
+      22.561,
+      "sentence pause"
+    ],
+    [
+      24.31775,
+      24.53775,
+      "sentence pause"
+    ],
+    [
+      28.365541666666665,
+      28.585541666666664,
+      "sentence pause"
+    ],
+    [
+      31.754,
+      31.974,
+      "sentence pause"
+    ],
+    [
+      35.053625,
+      35.703624999999995,
+      "sentence pause"
+    ],
+    [
+      40.491375,
+      40.711375,
+      "sentence pause"
+    ],
+    [
+      46.617583333333336,
+      46.837583333333335,
+      "sentence pause"
+    ],
+    [
+      49.77675,
+      49.99675,
+      "sentence pause"
+    ],
+    [
+      52.871291666666664,
+      53.09129166666666,
+      "sentence pause"
+    ],
+    [
+      56.8445,
+      57.494499999999995,
+      "sentence pause"
+    ],
+    [
+      62.13816666666666,
+      62.35816666666666,
+      "sentence pause"
+    ],
+    [
+      65.900125,
+      66.55012500000001,
+      "sentence pause"
+    ],
+    [
+      70.68095833333334,
+      70.90095833333334,
+      "sentence pause"
+    ],
+    [
+      75.73716666666667,
+      76.38716666666667,
+      "sentence pause"
+    ],
+    [
+      81.43733333333333,
+      81.65733333333333,
+      "sentence pause"
+    ],
+    [
+      86.39204166666667,
+      87.04204166666668,
+      "sentence pause"
+    ],
+    [
+      92.54045833333333,
+      92.76045833333333,
+      "sentence pause"
+    ],
+    [
+      100.07991666666666,
+      100.72991666666667,
+      "sentence pause"
+    ],
+    [
+      105.832,
+      106.05199999999999,
+      "sentence pause"
+    ],
+    [
+      110.77941666666666,
+      110.99941666666666,
+      "sentence pause"
+    ],
+    [
+      115.43433333333333,
+      116.08433333333333,
+      "sentence pause"
+    ],
+    [
+      120.78133333333334,
+      121.00133333333333,
+      "sentence pause"
+    ],
+    [
+      122.15545833333333,
+      126.15545833333333,
+      "think time"
+    ],
+    [
+      131.58533333333332,
+      132.23533333333333,
+      "sentence pause"
+    ],
+    [
+      138.81583333333333,
+      139.03583333333333,
+      "sentence pause"
+    ],
+    [
+      143.153625,
+      143.373625,
+      "sentence pause"
+    ],
+    [
+      146.67670833333332,
+      146.89670833333332,
+      "sentence pause"
+    ],
+    [
+      150.008375,
+      150.658375,
+      "sentence pause"
+    ]
+  ],
+  "duration": 150.658375,
+  "narration_sha256": "a990f34a5ab3616ff5427eb95af989ff30d2c4930f2630c3b08bf1c70daa69fb",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}
