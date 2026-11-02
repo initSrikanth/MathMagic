@@ -2,7 +2,7 @@
 
 - total videos required: 30
 - videos successfully rendered: 20
-- videos committed: 15
+- videos committed: 20
 - videos deployed and verified live: 15
 - remaining videos: 15
 - last successful batch: {'id': '20261102T095429Z', 'lessons': ['decimals-percentages-place', 'decimals-percentages-compare', 'decimals-percentages-percent', 'decimals-percentages-connect', 'decimals-percentages-apply'], 'completed': '2026-11-02T10:33:09.536044+00:00'}
