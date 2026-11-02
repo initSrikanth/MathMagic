@@ -45,6 +45,42 @@ class ProductionTests(unittest.TestCase):
                 self.assertTrue(all(line.startswith(str(i) + '. ') for i, line in enumerate(criteria['board'], 1)))
                 self.assertFalse(any(cue.get('equation') for cue in [opening, goal, criteria]))
 
+    def test_staged_media_preserves_previous_video_until_verified(self):
+        lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); (root/'videos').mkdir()
+            old=root/'videos'/(lesson['file']+'.mp4'); old.write_bytes(b'previous-video')
+            folder=root/'staging'; folder.mkdir()
+            staged=folder/'final.partial.mp4'; staged.write_bytes(b'new-video')
+            with patch.object(p,'ROOT',root):
+                with self.assertRaises(AssertionError):
+                    p.promote_media(lesson,folder,{'sha256':p.sha(staged)})
+                self.assertEqual(old.read_bytes(),b'previous-video')
+                for name in ['captions.vtt','transcript.txt','poster.jpg']:
+                    (folder/name).write_bytes(b'present')
+                with self.assertRaises(AssertionError):
+                    p.promote_media(lesson,folder,{'sha256':'incorrect-hash'})
+                self.assertEqual(old.read_bytes(),b'previous-video')
+                p.promote_media(lesson,folder,{'sha256':p.sha(staged)})
+                self.assertEqual(old.read_bytes(),b'new-video')
+                self.assertTrue((root/'videos'/(lesson['file']+'.vtt')).exists())
+                self.assertTrue((root/'videos'/(lesson['file']+'_transcript.txt')).exists())
+                self.assertTrue((root/'videos'/(lesson['file']+'_poster.jpg')).exists())
+
+    def test_sidecar_validation_rejects_mismatched_captions(self):
+        from PIL import Image
+        lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=Path(tmp)
+            timeline={'captions':[{'start':0.0,'end':1.5,'text':'Learning goal.'}]}
+            (folder/'captions.vtt').write_text('WEBVTT\n\n00:00:00.000 --> 00:00:01.500\nLearning goal.\n')
+            (folder/'transcript.txt').write_text('\n\n'.join(b['text'] for b in lesson['beats'])+'\n')
+            Image.new('RGB',(1280,720),'white').save(folder/'poster.jpg')
+            p.verify_sidecars(lesson,folder,timeline)
+            (folder/'captions.vtt').write_text('WEBVTT\n\n00:00:00.000 --> 00:00:01.500\nIncorrect words.\n')
+            with self.assertRaises(AssertionError):
+                p.verify_sidecars(lesson,folder,timeline)
+
     def test_integration_is_scoped_and_idempotent_for_all_thirty_sections(self):
         # Use actual page markup, including nested Fractions div wrappers and aside wrappers.
         for l in p.LESSONS:

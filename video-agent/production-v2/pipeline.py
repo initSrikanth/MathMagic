@@ -169,16 +169,43 @@ def render(l,folder,timeline,deadline):
         clips.append(clip)
         print(f'{l["id"]}: graphics {i+1}/{len(timeline["cues"])}',flush=True)
     listing=folder/'clips.txt'; listing.write_text(''.join(f"file '{p.as_posix()}'\n" for p in clips))
-    out=ROOT/'videos'; out.mkdir(exist_ok=True); final=out/(l['file']+'.mp4'); temp=folder/'final.partial.mp4'
+    out=ROOT/'videos'; out.mkdir(exist_ok=True); temp=folder/'final.partial.mp4'
     command(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',listing,'-i',folder/'narration.wav','-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','128k','-movflags','+faststart','-metadata','title='+l['title'],temp])
     assert temp.stat().st_size<90*1024**2, 'MP4 exceeds repository file budget'
-    temp.replace(final)
+    # Stage every output; never overwrite a published video before QA passes.
     captions=['WEBVTT','']
     for c in timeline['captions']: captions.extend([f'{vtt_time(c["start"])} --> {vtt_time(c["end"])}',c['text'],''])
-    (out/(l['file']+'.vtt')).write_text('\n'.join(captions))
-    (out/(l['file']+'_transcript.txt')).write_text('\n\n'.join(b['text'] for b in l['beats'])+'\n')
-    command(['ffmpeg','-v','error','-y','-ss','2','-i',final,'-frames:v','1','-vf','scale=1280:720',out/(l['file']+'_poster.jpg')])
-    return final
+    (folder/'captions.vtt').write_text('\n'.join(captions))
+    (folder/'transcript.txt').write_text('\n\n'.join(b['text'] for b in l['beats'])+'\n')
+    command(['ffmpeg','-v','error','-y','-ss','2','-i',temp,'-frames:v','1','-vf','scale=1280:720',folder/'poster.jpg'])
+    return temp
+
+def verify_sidecars(l,folder,timeline):
+    """Fail closed if caption timing/text, transcript, or poster is missing or corrupt."""
+    expected=['WEBVTT','']
+    for c in timeline['captions']:
+        expected.extend([f'{vtt_time(c["start"])} --> {vtt_time(c["end"])}',c['text'],''])
+    assert (folder/'captions.vtt').read_text()=='\n'.join(expected), 'Caption track differs from measured narration'
+    assert (folder/'transcript.txt').read_text()=='\n\n'.join(b['text'] for b in l['beats'])+'\n', 'Transcript differs from script'
+    from PIL import Image
+    with Image.open(folder/'poster.jpg') as poster:
+        assert poster.format=='JPEG' and poster.size==(1280,720), 'Invalid video poster'
+        poster.verify()
+
+def promote_media(l,folder,qa):
+    """Promote only a complete, verified staged bundle; preserve old media on QA failure."""
+    out=ROOT/'videos'; out.mkdir(parents=True,exist_ok=True)
+    stem=l['file']
+    pairs=[
+        (folder/'final.partial.mp4',out/(stem+'.mp4')),
+        (folder/'captions.vtt',out/(stem+'.vtt')),
+        (folder/'transcript.txt',out/(stem+'_transcript.txt')),
+        (folder/'poster.jpg',out/(stem+'_poster.jpg'))
+    ]
+    assert all(src.is_file() and src.stat().st_size>0 for src,_ in pairs), 'Incomplete staged media bundle'
+    assert sha(pairs[0][0])==qa['sha256'], 'Staged MP4 differs from verified bytes'
+    for src,dst in pairs: src.replace(dst)
+    return pairs[0][1]
 
 def verify(final,timeline,narration):
     import numpy as np
@@ -320,8 +347,11 @@ def batch_run(m,args):
             timeline=synthesise(l,folder,args.voice_dir,deadline)
             save(HERE/'timings'/(key+'.json'),timeline)
             e.update(production_status='rendering',duration=timeline['duration'],narration_sha256=timeline['narration_sha256']); persist(m)
-            final=render(l,folder,timeline,deadline)
-            e.update(qa=verify(final,timeline,folder/'narration.wav'),production_status='verified'); e.pop('error',None)
+            staged=render(l,folder,timeline,deadline)
+            qa=verify(staged,timeline,folder/'narration.wav')
+            verify_sidecars(l,folder,timeline)
+            promote_media(l,folder,qa)
+            e.update(qa=qa,production_status='verified'); e.pop('error',None)
             persist(m)
         except Exception as ex:
             e['error']=f'{type(ex).__name__}: {ex}'; e['production_status']='incomplete'
