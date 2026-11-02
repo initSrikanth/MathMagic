@@ -132,7 +132,7 @@
     "worked_feedback": "question-specific",
     "independent_arithmetic": "passed"
   },
-  "progress": "Mocked approved/denied access, sequential score/best/proficiency, refresh/sign-in restore, UID-scoped paths, failed requests; UI double-submit guard passed.",
+  "progress": "Mocked atomic concurrent and sequential scores, best/proficiency preservation, refresh/sign-in, UID separation, read/write failure, blocked-cache tolerance and invalid-score rejection passed. Two focused final UI submission cases passed; real Firebase remains unverified.",
   "visual_correction": {
     "lesson": 1,
     "cues": [
