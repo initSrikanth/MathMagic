@@ -49,6 +49,30 @@ def mathematical_board(line):
         line=re.sub(r'\b'+words+r'\b',notation,line,flags=re.I)
     return line
 
+def draw_column(d,m):
+    w=m['width']; labels=['Ten\nthousands','Thousands','Hundreds','Tens','Ones'][-w:]; cw=1120/w; left=450
+    a=str(m['a']).rjust(w,'0'); b=str(m['b']).rjust(w,'0'); result=str(m.get('result','')).rjust(w)
+    for i,label in enumerate(labels):
+        x=left+(i+.5)*cw
+        for k,part in enumerate(label.split('\n')):text(d,part,x,(490+k*24) if '\n' in label else 514,26,INK,True,maxw=cw-12)
+        annotation=m.get('regroup',m.get('carry',['']*w))[i]
+        if annotation!='':text(d,str(annotation),x,555,33,GOLD,True)
+        text(d,a[i],x,600,58,INK,True)
+        if 'regroup' in m and int(a[i])!=annotation:d.line((x-23,628,x+23,628),fill=GOLD,width=3)
+        text(d,b[i],x,670,58,INK,True)
+        if result[i]!=' ':text(d,result[i],x,753,61,TEAL,True)
+    text(d,m['op'],320,670,58,INK,True)
+    d.line((360,738,1600,738),fill=INK,width=4)
+
+def draw_part_bar(d,m,progress):
+    values=m['values'];total=sum(values);left=300;span=1320;x=left
+    for i,(v,label) in enumerate(zip(values,m['labels'])):
+        width=span*v/total
+        d.rectangle((x,570,x+width,690),fill=TEAL if i%2==0 else GOLD,outline='white',width=4)
+        text(d,label,x+width/2,610,42,'white',True,maxw=width-24);x+=width
+    d.line((left,730,left+span*progress,730),fill=INK,width=4)
+    text(d,'Total: '+m['total'],960,770,44,INK,True)
+
 def draw(lesson,cue,path,progress=1):
     im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     d.rounded_rectangle((45,35,1875,1035),radius=35,fill='white',outline='#DBE7DF',width=3)
@@ -186,6 +210,8 @@ def draw(lesson,cue,path,progress=1):
             d.rounded_rectangle((x,y,x+cw-8,y+150),radius=9,fill='#FFF0C8' if i==model['highlight'] else EMPTY)
             for k,line in enumerate(label.split('\n')): text(d,line,x+cw/2,y+12+k*26,23,INK,True,maxw=cw-12)
             text(d,digit,x+cw/2,y+86,45,TEAL,True)
+    if model and model['type']=='column': draw_column(d,model)
+    if model and model['type']=='bar': draw_part_bar(d,model,progress)
     if model and model['type']=='line':
         y=740; start,end=model['start'],model['end']
         d.line((220,y,1700,y),fill=MUTED,width=4)
@@ -193,7 +219,16 @@ def draw(lesson,cue,path,progress=1):
             x=220+148*i; v=start+(end-start)*i/10
             d.line((x,y-12,x,y+12),fill=INK,width=3)
             if i in [0,10]: text(d,f'{v:.{model["decimals"]}f}',x,y+32,32,INK,True)
-        if model.get('mark') is not None:
+        if model.get('points') is not None:
+            for value in model['points']:
+                x=220+1480*(value-start)/(end-start);d.ellipse((x-10,y-10,x+10,y+10),fill=TEAL)
+                text(d,f'{value:,}',x,y-62,36,TEAL,True)
+            for a,b in model.get('jumps',[]):
+                x1=220+1480*(a-start)/(end-start);x2=220+1480*(b-start)/(end-start);xe=x1+(x2-x1)*progress;direction=1 if b>a else -1
+                d.line((x1,650,xe,650),fill=GOLD,width=6)
+                if progress>.05:d.polygon([(xe,650),(xe-direction*14,640),(xe-direction*14,660)],fill=GOLD)
+                text(d,('+' if b>a else '−')+f'{abs(b-a):,}',(x1+x2)/2,600,36,GOLD,True)
+        elif model.get('mark') is not None:
             x=220+1480*(model['mark']-start)/(end-start)
             d.ellipse((x-10,y-10,x+10,y+10),fill=TEAL)
             text(d,str(model['mark']),x,y-62,36,TEAL,True)

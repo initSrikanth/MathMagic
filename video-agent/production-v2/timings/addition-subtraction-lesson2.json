@@ -1,0 +1,680 @@
+{
+  "input_hash": "492b7b6c17831a72e0853217f70c586a2fe8dd014b80e7c14372bdd8661bd88f",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 17.761625,
+      "lesson_progress": 0.08333333333333333,
+      "text": "How can one little column change an answer by thousands? Today we are using written addition and subtraction. We will line up equal place values and see how regrouping changes the grouping without changing the amount. What happens when a column contains zero?",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 17.761625,
+      "end": 23.586833333333335,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to add and subtract whole numbers accurately using written methods.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Add and subtract whole numbers accurately using written methods."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 23.586833333333335,
+      "end": 34.20854166666667,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can line up matching place values. I can regroup without changing the total. I can check subtraction by adding back.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Line up matching place values.",
+        "2. Regroup without changing the total.",
+        "3. Check subtraction by adding back."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 34.20854166666667,
+      "end": 47.867916666666666,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Keep ones under ones and tens under tens. Ten units in any column can be exchanged for one unit in the column to its left. In subtraction we can exchange one larger unit for ten smaller units.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 47.867916666666666,
+      "end": 59.46966666666667,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Add two thousand seven hundred and eighty-six and one thousand four hundred and fifty-seven. Start at the ones: six plus seven makes thirteen, so exchange ten ones for one ten.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "2,786 + 1,457",
+        "6 + 7 = 13 ones"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 2786,
+        "b": 1457,
+        "op": "+",
+        "width": 4,
+        "result": "   3",
+        "carry": [
+          "",
+          "",
+          "1",
+          ""
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "start": 59.46966666666667,
+      "end": 75.114375,
+      "lesson_progress": 0.5,
+      "text": "Eight tens plus five tens plus the exchanged ten makes fourteen tens. Continue the regrouping. Seven hundreds plus four hundreds plus one hundred makes twelve hundreds. The final total is four thousand two hundred and forty-three.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "13 ones = 1 ten + 3 ones",
+        "14 tens = 1 hundred + 4 tens"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 2786,
+        "b": 1457,
+        "op": "+",
+        "width": 4,
+        "result": "4243",
+        "carry": [
+          "1",
+          "1",
+          "1",
+          ""
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "start": 75.114375,
+      "end": 87.93895833333333,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Now subtract twenty-seven thousand six hundred and eighty-four from fifty-two thousand. Across the zeros, exchange one thousand for ten hundreds, then exchange one hundred and one ten as needed.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "52,000 − 27,684",
+        "52,000 = 40,000 + 11,000 + 900 + 90 + 10"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "−",
+        "width": 5,
+        "result": "",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "start": 87.93895833333333,
+      "end": 101.249375,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Subtract each place after regrouping: six ones, one ten, three hundreds, four thousands and two ten-thousands. The difference is twenty-four thousand three hundred and sixteen. Add it back to check.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "52,000 − 27,684 = 24,316",
+        "27,684 + 24,316 = 52,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "−",
+        "width": 5,
+        "result": "24316",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "start": 101.249375,
+      "end": 116.90483333333333,
+      "lesson_progress": 0.75,
+      "text": "Regrouping does not create extra value. When a zero is involved, exchange from a larger place and adjust that place too. Our regrouped parts must still add to fifty-two thousand. Checking the total keeps every exchange honest.",
+      "chapter": "Exchange, do not invent units",
+      "equation": [],
+      "board": [
+        "40,000 + 11,000 + 900 + 90 + 10 = 52,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "−",
+        "width": 5,
+        "result": "",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "start": 116.90483333333333,
+      "end": 124.84704166666667,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What is four hundred and six minus one hundred and seventy-eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "406 − 178 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 124.84704166666667,
+      "end": 137.023625,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Regroup across the zero. Sixteen ones minus eight is eight, nine tens minus seven is two, and three hundreds minus one is two. The answer is two hundred and twenty-eight.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "406 = 300 + 90 + 16",
+        "406 − 178 = 228"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "column",
+        "a": 406,
+        "b": 178,
+        "op": "−",
+        "width": 3,
+        "result": "228",
+        "regroup": [
+          3,
+          9,
+          16
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "start": 137.023625,
+      "end": 156.34529166666667,
+      "lesson_progress": 1.0,
+      "text": "Align place values, regroup without changing the total, and work systematically. A zero is a placeholder, so exchanges may cross more than one column. Use addition to check subtraction. Now choose a strategy and explain why it works. Have a go at the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.6000833333333335,
+      "text": "How can one little column change an answer by thousands?"
+    },
+    {
+      "start": 4.250083333333333,
+      "end": 7.640666666666666,
+      "text": "Today we are using written addition and subtraction."
+    },
+    {
+      "start": 7.860666666666667,
+      "end": 14.080208333333333,
+      "text": "We will line up equal place values and see how regrouping changes the grouping without changing the amount."
+    },
+    {
+      "start": 14.300208333333334,
+      "end": 17.111625,
+      "text": "What happens when a column contains zero?"
+    },
+    {
+      "start": 17.761625,
+      "end": 22.936833333333333,
+      "text": "Our learning goal is to add and subtract whole numbers accurately using written methods."
+    },
+    {
+      "start": 23.586833333333335,
+      "end": 25.345791666666667,
+      "text": "Success criteria."
+    },
+    {
+      "start": 25.565791666666666,
+      "end": 27.991125,
+      "text": "I can line up matching place values."
+    },
+    {
+      "start": 28.211125,
+      "end": 30.661291666666667,
+      "text": "I can regroup without changing the total."
+    },
+    {
+      "start": 30.881291666666666,
+      "end": 33.55854166666666,
+      "text": "I can check subtraction by adding back."
+    },
+    {
+      "start": 34.20854166666667,
+      "end": 37.271791666666665,
+      "text": "Keep ones under ones and tens under tens."
+    },
+    {
+      "start": 37.491791666666664,
+      "end": 42.39391666666667,
+      "text": "Ten units in any column can be exchanged for one unit in the column to its left."
+    },
+    {
+      "start": 42.61391666666667,
+      "end": 47.21791666666667,
+      "text": "In subtraction we can exchange one larger unit for ten smaller units."
+    },
+    {
+      "start": 47.867916666666666,
+      "end": 53.196625,
+      "text": "Add two thousand seven hundred and eighty-six and one thousand four hundred and fifty-seven."
+    },
+    {
+      "start": 53.416625,
+      "end": 58.81966666666667,
+      "text": "Start at the ones: six plus seven makes thirteen, so exchange ten ones for one ten."
+    },
+    {
+      "start": 59.46966666666667,
+      "end": 63.99120833333333,
+      "text": "Eight tens plus five tens plus the exchanged ten makes fourteen tens."
+    },
+    {
+      "start": 64.21120833333333,
+      "end": 66.00925,
+      "text": "Continue the regrouping."
+    },
+    {
+      "start": 66.22925,
+      "end": 70.464,
+      "text": "Seven hundreds plus four hundreds plus one hundred makes twelve hundreds."
+    },
+    {
+      "start": 70.684,
+      "end": 74.464375,
+      "text": "The final total is four thousand two hundred and forty-three."
+    },
+    {
+      "start": 75.114375,
+      "end": 80.56879166666667,
+      "text": "Now subtract twenty-seven thousand six hundred and eighty-four from fifty-two thousand."
+    },
+    {
+      "start": 80.78879166666667,
+      "end": 87.28895833333333,
+      "text": "Across the zeros, exchange one thousand for ten hundreds, then exchange one hundred and one ten as needed."
+    },
+    {
+      "start": 87.93895833333333,
+      "end": 94.93870833333334,
+      "text": "Subtract each place after regrouping: six ones, one ten, three hundreds, four thousands and two ten-thousands."
+    },
+    {
+      "start": 95.15870833333334,
+      "end": 98.78458333333333,
+      "text": "The difference is twenty-four thousand three hundred and sixteen."
+    },
+    {
+      "start": 99.00458333333333,
+      "end": 100.599375,
+      "text": "Add it back to check."
+    },
+    {
+      "start": 101.249375,
+      "end": 104.08520833333333,
+      "text": "Regrouping does not create extra value."
+    },
+    {
+      "start": 104.30520833333334,
+      "end": 109.13379166666667,
+      "text": "When a zero is involved, exchange from a larger place and adjust that place too."
+    },
+    {
+      "start": 109.35379166666667,
+      "end": 112.953,
+      "text": "Our regrouped parts must still add to fifty-two thousand."
+    },
+    {
+      "start": 113.173,
+      "end": 116.25483333333334,
+      "text": "Checking the total keeps every exchange honest."
+    },
+    {
+      "start": 116.90483333333333,
+      "end": 120.84704166666667,
+      "text": "What is four hundred and six minus one hundred and seventy-eight?"
+    },
+    {
+      "start": 124.84704166666667,
+      "end": 126.788875,
+      "text": "Regroup across the zero."
+    },
+    {
+      "start": 127.008875,
+      "end": 133.33245833333334,
+      "text": "Sixteen ones minus eight is eight, nine tens minus seven is two, and three hundreds minus one is two."
+    },
+    {
+      "start": 133.55245833333333,
+      "end": 136.373625,
+      "text": "The answer is two hundred and twenty-eight."
+    },
+    {
+      "start": 137.023625,
+      "end": 141.713875,
+      "text": "Align place values, regroup without changing the total, and work systematically."
+    },
+    {
+      "start": 141.933875,
+      "end": 146.321125,
+      "text": "A zero is a placeholder, so exchanges may cross more than one column."
+    },
+    {
+      "start": 146.541125,
+      "end": 148.948625,
+      "text": "Use addition to check subtraction."
+    },
+    {
+      "start": 149.168625,
+      "end": 152.327375,
+      "text": "Now choose a strategy and explain why it works."
+    },
+    {
+      "start": 152.547375,
+      "end": 155.69529166666666,
+      "text": "Have a go at the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.6000833333333335,
+      4.250083333333333,
+      "sentence pause"
+    ],
+    [
+      7.640666666666666,
+      7.860666666666666,
+      "sentence pause"
+    ],
+    [
+      14.080208333333333,
+      14.300208333333334,
+      "sentence pause"
+    ],
+    [
+      17.111625,
+      17.761625,
+      "sentence pause"
+    ],
+    [
+      22.936833333333333,
+      23.58683333333333,
+      "sentence pause"
+    ],
+    [
+      25.345791666666667,
+      25.565791666666666,
+      "sentence pause"
+    ],
+    [
+      27.991125,
+      28.211125,
+      "sentence pause"
+    ],
+    [
+      30.661291666666667,
+      30.881291666666666,
+      "sentence pause"
+    ],
+    [
+      33.55854166666666,
+      34.20854166666666,
+      "sentence pause"
+    ],
+    [
+      37.271791666666665,
+      37.491791666666664,
+      "sentence pause"
+    ],
+    [
+      42.39391666666667,
+      42.61391666666667,
+      "sentence pause"
+    ],
+    [
+      47.21791666666667,
+      47.867916666666666,
+      "sentence pause"
+    ],
+    [
+      53.196625,
+      53.416624999999996,
+      "sentence pause"
+    ],
+    [
+      58.81966666666667,
+      59.46966666666667,
+      "sentence pause"
+    ],
+    [
+      63.99120833333333,
+      64.21120833333333,
+      "sentence pause"
+    ],
+    [
+      66.00925,
+      66.22925,
+      "sentence pause"
+    ],
+    [
+      70.464,
+      70.684,
+      "sentence pause"
+    ],
+    [
+      74.464375,
+      75.11437500000001,
+      "sentence pause"
+    ],
+    [
+      80.56879166666667,
+      80.78879166666667,
+      "sentence pause"
+    ],
+    [
+      87.28895833333333,
+      87.93895833333333,
+      "sentence pause"
+    ],
+    [
+      94.93870833333334,
+      95.15870833333334,
+      "sentence pause"
+    ],
+    [
+      98.78458333333333,
+      99.00458333333333,
+      "sentence pause"
+    ],
+    [
+      100.599375,
+      101.249375,
+      "sentence pause"
+    ],
+    [
+      104.08520833333333,
+      104.30520833333333,
+      "sentence pause"
+    ],
+    [
+      109.13379166666667,
+      109.35379166666667,
+      "sentence pause"
+    ],
+    [
+      112.953,
+      113.173,
+      "sentence pause"
+    ],
+    [
+      116.25483333333334,
+      116.90483333333334,
+      "sentence pause"
+    ],
+    [
+      120.84704166666667,
+      124.84704166666667,
+      "think time"
+    ],
+    [
+      126.788875,
+      127.008875,
+      "sentence pause"
+    ],
+    [
+      133.33245833333334,
+      133.55245833333333,
+      "sentence pause"
+    ],
+    [
+      136.373625,
+      137.023625,
+      "sentence pause"
+    ],
+    [
+      141.713875,
+      141.933875,
+      "sentence pause"
+    ],
+    [
+      146.321125,
+      146.541125,
+      "sentence pause"
+    ],
+    [
+      148.948625,
+      149.168625,
+      "sentence pause"
+    ],
+    [
+      152.327375,
+      152.547375,
+      "sentence pause"
+    ],
+    [
+      155.69529166666666,
+      156.34529166666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 156.34529166666667,
+  "narration_sha256": "4b0aa5e439b226db80495fe166a2b08694d7d329932d4e2a09b615331c5826e4",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

@@ -1,22 +1,22 @@
 {
   "total_videos_required": 30,
-  "videos_successfully_rendered": 15,
+  "videos_successfully_rendered": 20,
   "videos_committed": 15,
-  "videos_deployed_and_verified_live": 10,
-  "remaining_videos": 20,
+  "videos_deployed_and_verified_live": 15,
+  "remaining_videos": 15,
   "last_successful_batch": {
-    "id": "20261020T015059Z",
+    "id": "20261102T095429Z",
     "lessons": [
-      "whole-numbers-lesson1",
-      "whole-numbers-lesson2",
-      "whole-numbers-lesson3",
-      "whole-numbers-lesson4",
-      "whole-numbers-lesson5"
+      "decimals-percentages-place",
+      "decimals-percentages-compare",
+      "decimals-percentages-percent",
+      "decimals-percentages-connect",
+      "decimals-percentages-apply"
     ],
-    "completed": "2026-10-20T01:59:11.879795+00:00"
+    "completed": "2026-11-02T10:33:09.536044+00:00"
   },
-  "next_scheduled_batch": "2026-11-02T15:17:00+00:00",
-  "next_batch_eligible": "2026-11-02T14:54:29.920836+00:00",
+  "next_scheduled_batch": null,
+  "next_batch_eligible": null,
   "errors_or_blockers": [],
   "limitations": [
     "Local Kokoro bf_emma neural speech; perceived expressiveness and pronunciation have not been human-certified.",
