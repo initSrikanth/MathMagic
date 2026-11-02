@@ -14,7 +14,7 @@ assert(client.includes('function buildFactorsMultiples()'));
 assert(client.includes('quiz=buildFactorsMultiples()'));
 assert(client.includes('current.answer'));
 assert(html.includes('js/factors-multiples-auth.js?v=2'));
-assert(html.includes('js/factors-multiples.js?v=3'));
+assert(html.includes('js/factors-multiples.js?v=4'));
 for(const token of ['onAuthStateChanged','access.data().approved===true','localStorage.setItem'])assert(auth.includes(token)&&fractions.includes(token));
 // Fractions now persists atomically; retain an explicit write-path assertion.
 assert(fractions.includes('runTransaction')&&fractions.includes('transaction.set(ref(user.uid),next)'));

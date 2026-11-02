@@ -465,3 +465,75 @@ def load_final_topics():
 LESSONS=load_fractions()+load_whole()+load_other()+load_final_topics()
 
 multiplication_teaching_standard(LESSONS)
+
+
+def factor_goals():
+    return [
+      ('Find factor pairs and explain a complete factor set.', ['Build equal-row arrays.','Find both numbers in each factor pair.','Explain when all factors have been found.']),
+      ('Recognise and explain multiples using equal groups.', ['Build and continue equal-group patterns.','Check a multiple using multiplication.','Explain the factor and multiple relationship.']),
+      ('Use divisibility rules and explain why a test passes.', ['Choose the test for the divisor.','Use final digits or digit sums correctly.','Combine the tests for two and three to test six.']),
+      ('Follow an algorithm to find factors systematically.', ['Repeat the test and record steps.','Record pairs only for exact division.','Stop before factor pairs repeat.']),
+      ('Explain shared factors and shared multiples.', ['Compare factor lists for shared values.','Compare equal-group patterns for shared multiples.','Check and explain a shared relationship.'])]
+
+def factors_teaching_standard(lessons):
+    def pairs(n,upto):return dict(type='factor_table',kind='pairs',n=n,upto=upto)
+    def algo(n,upto):return dict(type='factor_table',kind='algorithm',n=n,upto=upto)
+    def multiples(n,count):return dict(type='factor_table',kind='multiples',n=n,upto=count)
+    def rules(n,ds):return dict(type='factor_table',kind='rules',n=n,divisors=ds)
+    def sets(a,b,kind='factors',highlight=False):return dict(type='factor_sets',numbers=[a,b],kind=kind,limit=24,highlight=highlight)
+    mistakes=[
+      ('Include both members of a pair','A factor pair has two partners. Finding four times six does not mean four is the only factor. Both four and six divide twenty-four exactly. Record both, and include one and the number itself.', ['4 × 6 = 24','Both 4 and 6 are factors']),
+      ('Keep the relationship the right way round','Six is a factor of forty-two, and forty-two is a multiple of six. Reversing those words changes the claim. Forty-two cannot divide six into a whole number of equal groups.', ['6 × 7 = 42','6: factor; 42: multiple']),
+      ('One passing test is not enough','An even number is divisible by two, but not always by six. Fourteen is even, yet its digit sum is five, which is not divisible by three. To test six, both conditions must pass.', ['14: even, but 1 + 4 = 5','14 is not divisible by 6']),
+      ('Do not stop at the first successful pair','Finding one and forty is only the beginning. Keep increasing the test number and record each exact pair. Stop only when the test number passes its possible partner, so later pairs would repeat.', ['1 × 40 is only one pair','Continue the systematic search']),
+      ('Shared means it works for both','Eight divides twenty-four, but it does not divide thirty-six exactly. A factor of just one number is not a shared factor. Always check both numbers before choosing.', ['24 ÷ 8 = 3','36 ÷ 8 leaves a remainder'])]
+    for l in lessons:
+        if l['topic']!='factors-multiples':continue
+        i=int(l['section'][-1])-1;b=l['beats'];goal,criteria=factor_goals()[i]
+        b[0]['model']=dict(type='array',rows=4 if i==0 else 3,cols=6 if i==0 else 4,hide_labels=True)
+        if i==0:
+            b[1]['text']+=' Picture twenty-four tiles in four equal rows of six. The row count and tiles in each row form a factor pair.'
+            b[1]['model']=dict(type='array',rows=4,cols=6)
+            b[2]['model']=pairs(24,4);b[3]['model']=pairs(24,4);b[4]['model']=pairs(36,5);b[5]['model']=pairs(36,6);b[7]['model']=dict(type='family',groups=7,each=6,total=42,unknown=False)
+            b[2]['board']=['24 tiles: equal rows'];b[3]['board']=['4 × 6 = 24','Record both partners'];b[4]['board']=['36 tiles: test equal rows','5 leaves a remainder'];b[5]['board']=['6 × 6 = 36','Record 6 only once']
+        elif i==1:
+            b[1]['text']+=' Picture three groups of six counters. Each new group adds six more counters.'
+            b[1]['model']=dict(type='array',rows=3,cols=6)
+            b[2]['model']=multiples(6,6);b[3]['model']=dict(type='family',groups=4,each=6,total=24,unknown=False);b[4]['model']=dict(type='family',groups=7,each=6,total=42,unknown=False);b[5]['model']=multiples(7,8);b[7]['model']=dict(type='family',groups=7,each=8,total=56,unknown=False)
+        elif i==2:
+            b[1]['model']=rules(120,[2,3,4,5,6,9,10]);b[2]['model']=rules(738,[2]);b[3]['model']=rules(738,[2,3,6]);b[4]['model']=rules(1245,[5]);b[5]['model']=rules(1245,[5,9]);b[7]['model']=rules(312,[4])
+        elif i==3:
+            b[1]['model']=algo(12,3);b[1]['text']+=' For a small start, twelve has the pairs one and twelve, two and six, three and four.'
+            b[2]['board']=['36: test candidates in order'];b[2]['model']=algo(36,5);b[3]['board']=['6 × 6 = 36','Next: 7 is past its partner'];b[3]['model']=algo(36,6)
+            b[4]['board']=['40: repeat the same steps'];b[4]['model']=algo(40,4);b[5]['board']=['5 × 8 = 40','Next: 7 is past its partner'];b[5]['model']=algo(40,6);b[7]['model']=pairs(24,4)
+        else:
+            b[1]['model']=sets(12,18,highlight=True);b[1]['text']+=' For example, two divides both twelve and eighteen exactly, so it is a shared factor.'
+            b[2]['board']=['Compare the complete factor lists'];b[2]['model']=sets(18,30);b[3]['model']=sets(18,30,highlight=True);b[4]['model']=sets(4,6,'multiples');b[5]['model']=sets(4,6,'multiples',True);b[7]['model']=sets(24,36,highlight=True)
+        chapter,words,board=mistakes[i];wrong=beat(words,chapter,board=board);wrong['role']='misconception';wrong['model']=[pairs(24,4),dict(type='family',groups=7,each=6,total=42,unknown=False),rules(14,[2,3,6]),algo(40,6),sets(24,36,highlight=True)][i]
+        b.insert(6,wrong);b[-1]['board']=[['Equal rows → factor pairs → complete set','Explain why your search is complete'],['Equal groups → repeated addition → multiples','Explain the factor–multiple relationship'],['Choose the divisor → apply its test → explain','For 6, check both 2 and 3'],['Test → decide → record → increase','Stop before pairs repeat'],['Compare → identify shared values → check both','Explain the relationship']][i]
+        b[-1]['text']+=' Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!'
+        g=beat('Our learning goal is to '+goal[0].lower()+goal[1:],'Today’s Learning Goal',board=[goal]);g['role']='learning_goal'
+        c=beat('Success criteria. I can '+'. I can '.join(x.rstrip('.').lower() for x in criteria)+'.','Success Criteria: I can…',board=[str(j)+'. '+x for j,x in enumerate(criteria,1)]);c['role']='success_criteria';b[1:1]=[g,c]
+
+def validate_factor_models(lessons):
+    count=0
+    for l in lessons:
+        if l['topic']!='factors-multiples':continue
+        for c in l['beats']:
+            m=c.get('model')
+            if not m:continue
+            count+=1
+            if m['type']=='array':assert 0<m['rows']*m['cols']<=100
+            elif m['type']=='family':assert m['groups']*m['each']==m['total']
+            elif m['type']=='factor_table':
+                n=m['n'];assert isinstance(n,int) and n>0
+                if m['kind'] in ['pairs','algorithm']:
+                    pairs=[(x,n//x) for x in range(1,m['upto']+1) if n%x==0];assert all(a*b==n and a<=b for a,b in pairs)
+                    if (m['upto']+1)**2>n:assert {v for pair in pairs for v in pair}=={x for x in range(1,n+1) if n%x==0}
+                elif m['kind']=='multiples':assert 1<=m['upto']<=8
+                else:assert m['kind']=='rules' and all(d in [2,3,4,5,6,9,10] for d in m['divisors'])
+            elif m['type']=='factor_sets':assert m['kind'] in ['factors','multiples'] and all(n>0 for n in m['numbers'])
+            else:raise AssertionError(m['type'])
+    return count
+
+factors_teaching_standard(LESSONS)

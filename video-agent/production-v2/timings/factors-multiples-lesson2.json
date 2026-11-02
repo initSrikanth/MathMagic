@@ -1,0 +1,626 @@
+{
+  "input_hash": "41e05aae67b2c9c13c062fed5f6fe2badd91d0e4fedebbd7fb5b4f88770a90dc",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 17.876666666666665,
+      "lesson_progress": 0.08333333333333333,
+      "text": "A pattern goes six, twelve, eighteen. What connects every number in it? Today we are recognising multiples and connecting them to factors. We will build equal groups, continue number patterns, and explain how one multiplication gives two related facts.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 17.876666666666665,
+      "end": 23.427958333333333,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to recognise and explain multiples using equal groups.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Recognise and explain multiples using equal groups."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 23.427958333333333,
+      "end": 36.16620833333333,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can build and continue equal-group patterns. I can check a multiple using multiplication. I can explain the factor and multiple relationship.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Build and continue equal-group patterns.",
+        "2. Check a multiple using multiplication.",
+        "3. Explain the factor and multiple relationship."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 36.16620833333333,
+      "end": 58.75866666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Multiples are products formed by multiplying a number by whole numbers. Adding another equal group produces the next positive multiple. The list continues without ending; zero is also a multiple, although our counting patterns start at the first positive one. Picture three groups of six counters. Each new group adds six more counters.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 6
+      }
+    },
+    {
+      "index": 4,
+      "start": 58.75866666666667,
+      "end": 69.83091666666667,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Make groups of six. One group gives six, two give twelve, and three give eighteen. Keep adding six to reach twenty-four, thirty and thirty-six.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "6, 12, 18, 24, 30, 36"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "multiples",
+        "n": 6,
+        "upto": 6
+      }
+    },
+    {
+      "index": 5,
+      "start": 69.83091666666667,
+      "end": 79.83670833333333,
+      "lesson_progress": 0.5,
+      "text": "Every value in this pattern is a multiple of six because it equals six times a whole number. Six is a factor of each positive value in the list.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "6 × 4 = 24",
+        "6 is a factor of 24"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 4,
+        "each": 6,
+        "total": 24,
+        "unknown": false
+      }
+    },
+    {
+      "index": 6,
+      "start": 79.83670833333333,
+      "end": 88.82020833333333,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Because seven times six is forty-two, forty-two is a multiple of both seven and six. The direction of the relationship matters.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "7 × 6 = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "family",
+        "groups": 7,
+        "each": 6,
+        "total": 42,
+        "unknown": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 88.82020833333333,
+      "end": 100.5435,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Seven and six are factors of forty-two; forty-two is their multiple. Continuing the sevens pattern from twenty-eight gives thirty-five, forty-two, forty-nine and fifty-six.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "28, 35, 42, 49, 56"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "multiples",
+        "n": 7,
+        "upto": 8
+      }
+    },
+    {
+      "index": 8,
+      "start": 100.5435,
+      "end": 113.25695833333333,
+      "lesson_progress": 0.75,
+      "text": "Six is a factor of forty-two, and forty-two is a multiple of six. Reversing those words changes the claim. Forty-two cannot divide six into a whole number of equal groups.",
+      "chapter": "Keep the relationship the right way round",
+      "equation": [],
+      "board": [
+        "6 × 7 = 42",
+        "6: factor; 42: multiple"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "family",
+        "groups": 7,
+        "each": 6,
+        "total": 42,
+        "unknown": false
+      }
+    },
+    {
+      "index": 9,
+      "start": 113.25695833333333,
+      "end": 120.89454166666667,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What comes after forty-eight in the positive multiples of eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "8, 16, 24, 32, 40, 48, ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 120.89454166666667,
+      "end": 126.81095833333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Add another eight to get fifty-six. Seven groups of eight make fifty-six.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "48 + 8 = 56",
+        "7 × 8 = 56"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "family",
+        "groups": 7,
+        "each": 8,
+        "total": 56,
+        "unknown": false
+      }
+    },
+    {
+      "index": 11,
+      "start": 126.81095833333333,
+      "end": 147.11975,
+      "lesson_progress": 1.0,
+      "text": "Multiples come from equal groups and can be continued by repeated addition. Use multiplication or exact division to check membership. Factors build a number; multiples are the products you make. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Equal groups → repeated addition → multiples",
+        "Explain the factor–multiple relationship"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.983625,
+      "text": "A pattern goes six, twelve, eighteen."
+    },
+    {
+      "start": 3.203625,
+      "end": 5.261625,
+      "text": "What connects every number in it?"
+    },
+    {
+      "start": 5.911625,
+      "end": 10.267583333333333,
+      "text": "Today we are recognising multiples and connecting them to factors."
+    },
+    {
+      "start": 10.487583333333333,
+      "end": 17.226666666666667,
+      "text": "We will build equal groups, continue number patterns, and explain how one multiplication gives two related facts."
+    },
+    {
+      "start": 17.876666666666665,
+      "end": 22.777958333333334,
+      "text": "Our learning goal is to recognise and explain multiples using equal groups."
+    },
+    {
+      "start": 23.427958333333333,
+      "end": 25.184958333333334,
+      "text": "Success criteria."
+    },
+    {
+      "start": 25.404958333333333,
+      "end": 28.621666666666666,
+      "text": "I can build and continue equal-group patterns."
+    },
+    {
+      "start": 28.841666666666665,
+      "end": 31.885458333333332,
+      "text": "I can check a multiple using multiplication."
+    },
+    {
+      "start": 32.10545833333333,
+      "end": 35.51620833333333,
+      "text": "I can explain the factor and multiple relationship."
+    },
+    {
+      "start": 36.16620833333333,
+      "end": 40.54054166666667,
+      "text": "Multiples are products formed by multiplying a number by whole numbers."
+    },
+    {
+      "start": 40.76054166666667,
+      "end": 44.876375,
+      "text": "Adding another equal group produces the next positive multiple."
+    },
+    {
+      "start": 45.096375,
+      "end": 52.251041666666666,
+      "text": "The list continues without ending; zero is also a multiple, although our counting patterns start at the first positive one."
+    },
+    {
+      "start": 52.471041666666665,
+      "end": 55.099125,
+      "text": "Picture three groups of six counters."
+    },
+    {
+      "start": 55.319125,
+      "end": 58.108666666666664,
+      "text": "Each new group adds six more counters."
+    },
+    {
+      "start": 58.75866666666667,
+      "end": 60.58779166666667,
+      "text": "Make groups of six."
+    },
+    {
+      "start": 60.80779166666667,
+      "end": 65.03441666666667,
+      "text": "One group gives six, two give twelve, and three give eighteen."
+    },
+    {
+      "start": 65.25441666666667,
+      "end": 69.18091666666666,
+      "text": "Keep adding six to reach twenty-four, thirty and thirty-six."
+    },
+    {
+      "start": 69.83091666666667,
+      "end": 75.351625,
+      "text": "Every value in this pattern is a multiple of six because it equals six times a whole number."
+    },
+    {
+      "start": 75.571625,
+      "end": 79.18670833333333,
+      "text": "Six is a factor of each positive value in the list."
+    },
+    {
+      "start": 79.83670833333333,
+      "end": 85.32554166666667,
+      "text": "Because seven times six is forty-two, forty-two is a multiple of both seven and six."
+    },
+    {
+      "start": 85.54554166666667,
+      "end": 88.17020833333333,
+      "text": "The direction of the relationship matters."
+    },
+    {
+      "start": 88.82020833333333,
+      "end": 93.38225,
+      "text": "Seven and six are factors of forty-two; forty-two is their multiple."
+    },
+    {
+      "start": 93.60225,
+      "end": 99.8935,
+      "text": "Continuing the sevens pattern from twenty-eight gives thirty-five, forty-two, forty-nine and fifty-six."
+    },
+    {
+      "start": 100.5435,
+      "end": 105.03745833333333,
+      "text": "Six is a factor of forty-two, and forty-two is a multiple of six."
+    },
+    {
+      "start": 105.25745833333333,
+      "end": 107.93725,
+      "text": "Reversing those words changes the claim."
+    },
+    {
+      "start": 108.15725,
+      "end": 112.60695833333334,
+      "text": "Forty-two cannot divide six into a whole number of equal groups."
+    },
+    {
+      "start": 113.25695833333333,
+      "end": 116.89454166666667,
+      "text": "What comes after forty-eight in the positive multiples of eight?"
+    },
+    {
+      "start": 120.89454166666667,
+      "end": 123.34125,
+      "text": "Add another eight to get fifty-six."
+    },
+    {
+      "start": 123.56125,
+      "end": 126.16095833333334,
+      "text": "Seven groups of eight make fifty-six."
+    },
+    {
+      "start": 126.81095833333333,
+      "end": 131.48979166666666,
+      "text": "Multiples come from equal groups and can be continued by repeated addition."
+    },
+    {
+      "start": 131.70979166666666,
+      "end": 135.651,
+      "text": "Use multiplication or exact division to check membership."
+    },
+    {
+      "start": 135.871,
+      "end": 139.510125,
+      "text": "Factors build a number; multiples are the products you make."
+    },
+    {
+      "start": 139.730125,
+      "end": 143.137625,
+      "text": "Reflect on which model helped you and explain why."
+    },
+    {
+      "start": 143.357625,
+      "end": 146.46975,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      2.983625,
+      3.203625,
+      "sentence pause"
+    ],
+    [
+      5.261625,
+      5.911625000000001,
+      "sentence pause"
+    ],
+    [
+      10.267583333333333,
+      10.487583333333333,
+      "sentence pause"
+    ],
+    [
+      17.226666666666667,
+      17.876666666666665,
+      "sentence pause"
+    ],
+    [
+      22.777958333333334,
+      23.427958333333333,
+      "sentence pause"
+    ],
+    [
+      25.184958333333334,
+      25.404958333333333,
+      "sentence pause"
+    ],
+    [
+      28.621666666666666,
+      28.841666666666665,
+      "sentence pause"
+    ],
+    [
+      31.885458333333332,
+      32.10545833333333,
+      "sentence pause"
+    ],
+    [
+      35.51620833333333,
+      36.16620833333333,
+      "sentence pause"
+    ],
+    [
+      40.54054166666667,
+      40.76054166666667,
+      "sentence pause"
+    ],
+    [
+      44.876375,
+      45.096375,
+      "sentence pause"
+    ],
+    [
+      52.251041666666666,
+      52.471041666666665,
+      "sentence pause"
+    ],
+    [
+      55.099125,
+      55.319125,
+      "sentence pause"
+    ],
+    [
+      58.108666666666664,
+      58.75866666666666,
+      "sentence pause"
+    ],
+    [
+      60.58779166666667,
+      60.80779166666667,
+      "sentence pause"
+    ],
+    [
+      65.03441666666667,
+      65.25441666666667,
+      "sentence pause"
+    ],
+    [
+      69.18091666666666,
+      69.83091666666667,
+      "sentence pause"
+    ],
+    [
+      75.351625,
+      75.571625,
+      "sentence pause"
+    ],
+    [
+      79.18670833333333,
+      79.83670833333333,
+      "sentence pause"
+    ],
+    [
+      85.32554166666667,
+      85.54554166666667,
+      "sentence pause"
+    ],
+    [
+      88.17020833333333,
+      88.82020833333334,
+      "sentence pause"
+    ],
+    [
+      93.38225,
+      93.60225,
+      "sentence pause"
+    ],
+    [
+      99.8935,
+      100.54350000000001,
+      "sentence pause"
+    ],
+    [
+      105.03745833333333,
+      105.25745833333333,
+      "sentence pause"
+    ],
+    [
+      107.93725,
+      108.15725,
+      "sentence pause"
+    ],
+    [
+      112.60695833333334,
+      113.25695833333334,
+      "sentence pause"
+    ],
+    [
+      116.89454166666667,
+      120.89454166666667,
+      "think time"
+    ],
+    [
+      123.34125,
+      123.56125,
+      "sentence pause"
+    ],
+    [
+      126.16095833333334,
+      126.81095833333335,
+      "sentence pause"
+    ],
+    [
+      131.48979166666666,
+      131.70979166666666,
+      "sentence pause"
+    ],
+    [
+      135.651,
+      135.871,
+      "sentence pause"
+    ],
+    [
+      139.510125,
+      139.730125,
+      "sentence pause"
+    ],
+    [
+      143.137625,
+      143.357625,
+      "sentence pause"
+    ],
+    [
+      146.46975,
+      147.11975,
+      "sentence pause"
+    ]
+  ],
+  "duration": 147.11975,
+  "narration_sha256": "27e8a478bbd85d8260be4266d78b0a1d431b45a23954c94d0f9d0512b5674e64",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

@@ -1,0 +1,229 @@
+{
+  "id": "factors-multiples-lesson1",
+  "topic": "factors-multiples",
+  "section": "lesson1",
+  "title": "Build Numbers from Factors",
+  "file": "MathMagic_V2_factors_multiples_lesson1",
+  "beats": [
+    {
+      "text": "How many different rectangles could you build with twenty-four equal tiles? Today we are finding factor pairs. We will arrange whole-number rows, record matching products, and use those pairs to find every factor without missing one.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to find factor pairs and explain a complete factor set.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Find factor pairs and explain a complete factor set."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can build equal-row arrays. I can find both numbers in each factor pair. I can explain when all factors have been found.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Build equal-row arrays.",
+        "2. Find both numbers in each factor pair.",
+        "3. Explain when all factors have been found."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Factors are whole numbers that multiply to make a product. A factor pair gives the number of rows and the number in each row of a rectangular array. Exact division tells us whether a proposed row size works. Picture twenty-four tiles in four equal rows of six. The row count and tiles in each row form a factor pair.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6
+      }
+    },
+    {
+      "text": "Start with twenty-four tiles. One row of twenty-four works. Two rows of twelve work too, as do three rows of eight and four rows of six.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "24 tiles: equal rows"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "text": "The factors are one, two, three, four, six, eight, twelve and twenty-four. After four and six, later successful pairs repeat earlier pairs in reverse.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "4 × 6 = 24",
+        "Record both partners"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "text": "For thirty-six tiles, begin with one and thirty-six, two and eighteen, three and twelve, and four and nine. Five does not divide thirty-six exactly.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "36 tiles: test equal rows",
+        "5 leaves a remainder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 36,
+        "upto": 5
+      }
+    },
+    {
+      "text": "Six and six is also a pair. Record six only once in the complete factor set. The repeated factor makes a square array, and later pairs repeat in reverse.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "6 × 6 = 36",
+        "Record 6 only once"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 36,
+        "upto": 6
+      }
+    },
+    {
+      "text": "A factor pair has two partners. Finding four times six does not mean four is the only factor. Both four and six divide twenty-four exactly. Record both, and include one and the number itself.",
+      "chapter": "Include both members of a pair",
+      "equation": [],
+      "board": [
+        "4 × 6 = 24",
+        "Both 4 and 6 are factors"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "text": "What number pairs with seven to make forty-two?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "7 × □ = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Six pairs with seven, because seven times six is forty-two. Both numbers are factors of forty-two.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "7 × 6 = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "family",
+        "groups": 7,
+        "each": 6,
+        "total": 42,
+        "unknown": false
+      }
+    },
+    {
+      "text": "Find factors systematically with exact division or arrays. Record both members of each factor pair, remove repeated entries, and explain why the search is complete. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Equal rows → factor pairs → complete set",
+        "Explain why your search is complete"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

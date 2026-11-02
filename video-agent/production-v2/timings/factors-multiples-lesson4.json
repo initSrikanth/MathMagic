@@ -1,0 +1,654 @@
+{
+  "input_hash": "176e78a57c8ef8346b695fe95e3f3248bc27c6a389ba54eee7923865600df429",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.128791666666668,
+      "lesson_progress": 0.08333333333333333,
+      "text": "How can a set of instructions help us find every factor? Today we are following an algorithm: a sequence of steps and decisions we can repeat. We will test candidates in order, record successful pairs, and decide when it is safe to stop.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 16.128791666666668,
+      "end": 21.312125,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to follow an algorithm to find factors systematically.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Follow an algorithm to find factors systematically."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 21.312125,
+      "end": 33.09466666666667,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can repeat the test and record steps. I can record pairs only for exact division. I can stop before factor pairs repeat.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Repeat the test and record steps.",
+        "2. Record pairs only for exact division.",
+        "3. Stop before factor pairs repeat."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 33.09466666666667,
+      "end": 56.052375,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Choose the target number and start with one. Test exact division. If it works, record the candidate and its partner. Increase the candidate by one. Stop when the candidate is greater than its possible partner, because pairs would repeat in reverse. For a small start, twelve has the pairs one and twelve, two and six, three and four.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 12,
+        "upto": 3
+      }
+    },
+    {
+      "index": 4,
+      "start": 56.052375,
+      "end": 67.62045833333333,
+      "lesson_progress": 0.4166666666666667,
+      "text": "For thirty-six, test one, two, three and four. They produce partners thirty-six, eighteen, twelve and nine. Five leaves a remainder, so do not record it.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "36: test candidates in order"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 36,
+        "upto": 5
+      }
+    },
+    {
+      "index": 5,
+      "start": 67.62045833333333,
+      "end": 80.50420833333334,
+      "lesson_progress": 0.5,
+      "text": "Six divides exactly and pairs with six. The next candidate would be seven, already beyond its partner, so the search is complete. Record six only once when listing the factors.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "6 × 6 = 36",
+        "Next: 7 is past its partner"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 36,
+        "upto": 6
+      }
+    },
+    {
+      "index": 6,
+      "start": 80.50420833333334,
+      "end": 90.159375,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Apply the same steps to forty. One pairs with forty, two with twenty, and four with ten. Three does not divide exactly.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "40: repeat the same steps"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 4
+      }
+    },
+    {
+      "index": 7,
+      "start": 90.159375,
+      "end": 103.16520833333334,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Five pairs with eight. Six does not work, and by seven the candidate is greater than the partner it would need. The complete factors are one, two, four, five, eight, ten, twenty and forty.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "5 × 8 = 40",
+        "Next: 7 is past its partner"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 6
+      }
+    },
+    {
+      "index": 8,
+      "start": 103.16520833333334,
+      "end": 116.54020833333334,
+      "lesson_progress": 0.75,
+      "text": "Finding one and forty is only the beginning. Keep increasing the test number and record each exact pair. Stop only when the test number passes its possible partner, so later pairs would repeat.",
+      "chapter": "Do not stop at the first successful pair",
+      "equation": [],
+      "board": [
+        "1 × 40 is only one pair",
+        "Continue the systematic search"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 6
+      }
+    },
+    {
+      "index": 9,
+      "start": 116.54020833333334,
+      "end": 126.6065,
+      "lesson_progress": 0.8333333333333334,
+      "text": "For twenty-four, after recording four times six, should we also record six times four as a new pair?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "4 × 6 = 24",
+        "6 × 4 = 24: new pair?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 126.6065,
+      "end": 135.32308333333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "No. They use the same two factors in reverse order. A complete factor set includes each value once.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "Same pair, reversed"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "index": 11,
+      "start": 135.32308333333333,
+      "end": 154.02966666666666,
+      "lesson_progress": 1.0,
+      "text": "An algorithm needs a starting point, a repeatable test, a way to record results, and a stopping rule. Follow every step so the search is complete without unnecessary repetition. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Test → decide → record → increase",
+        "Stop before pairs repeat"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.6283333333333334,
+      "text": "How can a set of instructions help us find every factor?"
+    },
+    {
+      "start": 4.278333333333333,
+      "end": 9.486333333333333,
+      "text": "Today we are following an algorithm: a sequence of steps and decisions we can repeat."
+    },
+    {
+      "start": 9.706333333333333,
+      "end": 15.478791666666666,
+      "text": "We will test candidates in order, record successful pairs, and decide when it is safe to stop."
+    },
+    {
+      "start": 16.128791666666668,
+      "end": 20.662125,
+      "text": "Our learning goal is to follow an algorithm to find factors systematically."
+    },
+    {
+      "start": 21.312125,
+      "end": 23.062291666666667,
+      "text": "Success criteria."
+    },
+    {
+      "start": 23.282291666666666,
+      "end": 26.075333333333333,
+      "text": "I can repeat the test and record steps."
+    },
+    {
+      "start": 26.295333333333332,
+      "end": 29.338875,
+      "text": "I can record pairs only for exact division."
+    },
+    {
+      "start": 29.558875,
+      "end": 32.44466666666667,
+      "text": "I can stop before factor pairs repeat."
+    },
+    {
+      "start": 33.09466666666667,
+      "end": 35.83475,
+      "text": "Choose the target number and start with one."
+    },
+    {
+      "start": 36.05475,
+      "end": 37.891666666666666,
+      "text": "Test exact division."
+    },
+    {
+      "start": 38.111666666666665,
+      "end": 41.382583333333336,
+      "text": "If it works, record the candidate and its partner."
+    },
+    {
+      "start": 41.602583333333335,
+      "end": 43.79525,
+      "text": "Increase the candidate by one."
+    },
+    {
+      "start": 44.01525,
+      "end": 49.90029166666667,
+      "text": "Stop when the candidate is greater than its possible partner, because pairs would repeat in reverse."
+    },
+    {
+      "start": 50.12029166666667,
+      "end": 55.402375,
+      "text": "For a small start, twelve has the pairs one and twelve, two and six, three and four."
+    },
+    {
+      "start": 56.052375,
+      "end": 59.502625,
+      "text": "For thirty-six, test one, two, three and four."
+    },
+    {
+      "start": 59.722625,
+      "end": 63.718041666666664,
+      "text": "They produce partners thirty-six, eighteen, twelve and nine."
+    },
+    {
+      "start": 63.93804166666666,
+      "end": 66.97045833333334,
+      "text": "Five leaves a remainder, so do not record it."
+    },
+    {
+      "start": 67.62045833333333,
+      "end": 70.95041666666667,
+      "text": "Six divides exactly and pairs with six."
+    },
+    {
+      "start": 71.17041666666667,
+      "end": 76.31691666666667,
+      "text": "The next candidate would be seven, already beyond its partner, so the search is complete."
+    },
+    {
+      "start": 76.53691666666667,
+      "end": 79.85420833333333,
+      "text": "Record six only once when listing the factors."
+    },
+    {
+      "start": 80.50420833333334,
+      "end": 82.86954166666666,
+      "text": "Apply the same steps to forty."
+    },
+    {
+      "start": 83.08954166666666,
+      "end": 86.93845833333333,
+      "text": "One pairs with forty, two with twenty, and four with ten."
+    },
+    {
+      "start": 87.15845833333333,
+      "end": 89.509375,
+      "text": "Three does not divide exactly."
+    },
+    {
+      "start": 90.159375,
+      "end": 91.99895833333333,
+      "text": "Five pairs with eight."
+    },
+    {
+      "start": 92.21895833333333,
+      "end": 97.24416666666667,
+      "text": "Six does not work, and by seven the candidate is greater than the partner it would need."
+    },
+    {
+      "start": 97.46416666666667,
+      "end": 102.51520833333333,
+      "text": "The complete factors are one, two, four, five, eight, ten, twenty and forty."
+    },
+    {
+      "start": 103.16520833333334,
+      "end": 106.22933333333333,
+      "text": "Finding one and forty is only the beginning."
+    },
+    {
+      "start": 106.44933333333333,
+      "end": 110.172625,
+      "text": "Keep increasing the test number and record each exact pair."
+    },
+    {
+      "start": 110.392625,
+      "end": 115.89020833333333,
+      "text": "Stop only when the test number passes its possible partner, so later pairs would repeat."
+    },
+    {
+      "start": 116.54020833333334,
+      "end": 122.6065,
+      "text": "For twenty-four, after recording four times six, should we also record six times four as a new pair?"
+    },
+    {
+      "start": 126.6065,
+      "end": 127.66520833333334,
+      "text": "No."
+    },
+    {
+      "start": 127.88520833333334,
+      "end": 131.06958333333333,
+      "text": "They use the same two factors in reverse order."
+    },
+    {
+      "start": 131.28958333333333,
+      "end": 134.67308333333332,
+      "text": "A complete factor set includes each value once."
+    },
+    {
+      "start": 135.32308333333333,
+      "end": 141.34829166666665,
+      "text": "An algorithm needs a starting point, a repeatable test, a way to record results, and a stopping rule."
+    },
+    {
+      "start": 141.56829166666665,
+      "end": 146.4205,
+      "text": "Follow every step so the search is complete without unnecessary repetition."
+    },
+    {
+      "start": 146.6405,
+      "end": 150.048,
+      "text": "Reflect on which model helped you and explain why."
+    },
+    {
+      "start": 150.268,
+      "end": 153.37966666666668,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.6283333333333334,
+      4.278333333333333,
+      "sentence pause"
+    ],
+    [
+      9.486333333333333,
+      9.706333333333333,
+      "sentence pause"
+    ],
+    [
+      15.478791666666666,
+      16.128791666666665,
+      "sentence pause"
+    ],
+    [
+      20.662125,
+      21.312124999999998,
+      "sentence pause"
+    ],
+    [
+      23.062291666666667,
+      23.282291666666666,
+      "sentence pause"
+    ],
+    [
+      26.075333333333333,
+      26.295333333333332,
+      "sentence pause"
+    ],
+    [
+      29.338875,
+      29.558875,
+      "sentence pause"
+    ],
+    [
+      32.44466666666667,
+      33.09466666666667,
+      "sentence pause"
+    ],
+    [
+      35.83475,
+      36.05475,
+      "sentence pause"
+    ],
+    [
+      37.891666666666666,
+      38.111666666666665,
+      "sentence pause"
+    ],
+    [
+      41.382583333333336,
+      41.602583333333335,
+      "sentence pause"
+    ],
+    [
+      43.79525,
+      44.01525,
+      "sentence pause"
+    ],
+    [
+      49.90029166666667,
+      50.12029166666667,
+      "sentence pause"
+    ],
+    [
+      55.402375,
+      56.052375,
+      "sentence pause"
+    ],
+    [
+      59.502625,
+      59.722625,
+      "sentence pause"
+    ],
+    [
+      63.718041666666664,
+      63.93804166666666,
+      "sentence pause"
+    ],
+    [
+      66.97045833333334,
+      67.62045833333335,
+      "sentence pause"
+    ],
+    [
+      70.95041666666667,
+      71.17041666666667,
+      "sentence pause"
+    ],
+    [
+      76.31691666666667,
+      76.53691666666667,
+      "sentence pause"
+    ],
+    [
+      79.85420833333333,
+      80.50420833333334,
+      "sentence pause"
+    ],
+    [
+      82.86954166666666,
+      83.08954166666666,
+      "sentence pause"
+    ],
+    [
+      86.93845833333333,
+      87.15845833333333,
+      "sentence pause"
+    ],
+    [
+      89.509375,
+      90.15937500000001,
+      "sentence pause"
+    ],
+    [
+      91.99895833333333,
+      92.21895833333333,
+      "sentence pause"
+    ],
+    [
+      97.24416666666667,
+      97.46416666666667,
+      "sentence pause"
+    ],
+    [
+      102.51520833333333,
+      103.16520833333334,
+      "sentence pause"
+    ],
+    [
+      106.22933333333333,
+      106.44933333333333,
+      "sentence pause"
+    ],
+    [
+      110.172625,
+      110.392625,
+      "sentence pause"
+    ],
+    [
+      115.89020833333333,
+      116.54020833333334,
+      "sentence pause"
+    ],
+    [
+      122.6065,
+      126.6065,
+      "think time"
+    ],
+    [
+      127.66520833333334,
+      127.88520833333334,
+      "sentence pause"
+    ],
+    [
+      131.06958333333333,
+      131.28958333333333,
+      "sentence pause"
+    ],
+    [
+      134.67308333333332,
+      135.32308333333333,
+      "sentence pause"
+    ],
+    [
+      141.34829166666665,
+      141.56829166666665,
+      "sentence pause"
+    ],
+    [
+      146.4205,
+      146.6405,
+      "sentence pause"
+    ],
+    [
+      150.048,
+      150.268,
+      "sentence pause"
+    ],
+    [
+      153.37966666666668,
+      154.02966666666669,
+      "sentence pause"
+    ]
+  ],
+  "duration": 154.02966666666666,
+  "narration_sha256": "bb1a0b16395f68a923c460c988930c7f0133db7ccbcad9df561ec4ab8f50ebcc",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

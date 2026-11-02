@@ -1,0 +1,652 @@
+{
+  "input_hash": "39ac3cd24c1e7a59938e48bb4833a7528c73b1d0b2211c50c92808388f29f5eb",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.483291666666666,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Could two different numbers share the same factors or meet in the same multiples pattern? Today we are connecting factors, multiples and divisibility. We will compare sets, identify shared relationships, and explain why a pattern continues.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 16.483291666666666,
+      "end": 21.559916666666666,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to explain shared factors and shared multiples.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Explain shared factors and shared multiples."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 21.559916666666666,
+      "end": 34.40295833333333,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can compare factor lists for shared values. I can compare equal-group patterns for shared multiples. I can check and explain a shared relationship.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Compare factor lists for shared values.",
+        "2. Compare equal-group patterns for shared multiples.",
+        "3. Check and explain a shared relationship."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 34.40295833333333,
+      "end": 53.95,
+      "lesson_progress": 0.3333333333333333,
+      "text": "A shared factor divides each number exactly. A shared multiple can be made as a whole-number multiple of each number. These are different questions, so decide whether you are looking for building blocks or for products. For example, two divides both twelve and eighteen exactly, so it is a shared factor.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          12,
+          18
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "index": 4,
+      "start": 53.95,
+      "end": 65.1215,
+      "lesson_progress": 0.4166666666666667,
+      "text": "List the factors of eighteen: one, two, three, six, nine and eighteen. List the factors of thirty: one, two, three, five, six, ten, fifteen and thirty.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Compare the complete factor lists"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          18,
+          30
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": false
+      }
+    },
+    {
+      "index": 5,
+      "start": 65.1215,
+      "end": 74.877875,
+      "lesson_progress": 0.5,
+      "text": "The values in both lists are one, two, three and six. Each divides both numbers exactly. These are their shared factors.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "Shared factors: 1, 2, 3, 6"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          18,
+          30
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 74.877875,
+      "end": 87.322875,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Now compare positive multiples of four and six. Four gives four, eight, twelve, sixteen, twenty and twenty-four. Six gives six, twelve, eighteen and twenty-four.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "4, 8, 12, 16, 20, 24",
+        "6, 12, 18, 24"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          4,
+          6
+        ],
+        "kind": "multiples",
+        "limit": 24,
+        "highlight": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 87.322875,
+      "end": 96.32079166666666,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Twelve and twenty-four appear in both lists. They are shared multiples because each is a whole-number multiple of both four and six.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Shared multiples shown: 12, 24"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          4,
+          6
+        ],
+        "kind": "multiples",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 96.32079166666666,
+      "end": 107.97579166666667,
+      "lesson_progress": 0.75,
+      "text": "Eight divides twenty-four, but it does not divide thirty-six exactly. A factor of just one number is not a shared factor. Always check both numbers before choosing.",
+      "chapter": "Shared means it works for both",
+      "equation": [],
+      "board": [
+        "24 ÷ 8 = 3",
+        "36 ÷ 8 leaves a remainder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          24,
+          36
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "index": 9,
+      "start": 107.97579166666667,
+      "end": 117.02545833333333,
+      "lesson_progress": 0.8333333333333334,
+      "text": "Which of five, six, seven or eight is a factor of both twenty-four and thirty-six?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "24 and 36: shared factor?",
+        "5, 6, 7 or 8"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 117.02545833333333,
+      "end": 128.25054166666666,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Six works. Six times four is twenty-four and six times six is thirty-six. Eight divides twenty-four but not thirty-six, so it is not shared.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "6 × 4 = 24",
+        "6 × 6 = 36"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "factor_sets",
+        "numbers": [
+          24,
+          36
+        ],
+        "kind": "factors",
+        "limit": 24,
+        "highlight": true
+      }
+    },
+    {
+      "index": 11,
+      "start": 128.25054166666666,
+      "end": 149.757125,
+      "lesson_progress": 1.0,
+      "text": "Shared factors divide both numbers; shared multiples appear in both product patterns. Use complete lists or exact division to justify your decision. Explain the relationship rather than guessing from one example. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Compare → identify shared values → check both",
+        "Explain the relationship"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 5.099833333333334,
+      "text": "Could two different numbers share the same factors or meet in the same multiples pattern?"
+    },
+    {
+      "start": 5.749833333333333,
+      "end": 9.863916666666666,
+      "text": "Today we are connecting factors, multiples and divisibility."
+    },
+    {
+      "start": 10.083916666666667,
+      "end": 15.833291666666666,
+      "text": "We will compare sets, identify shared relationships, and explain why a pattern continues."
+    },
+    {
+      "start": 16.483291666666666,
+      "end": 20.909916666666668,
+      "text": "Our learning goal is to explain shared factors and shared multiples."
+    },
+    {
+      "start": 21.559916666666666,
+      "end": 23.316666666666666,
+      "text": "Success criteria."
+    },
+    {
+      "start": 23.536666666666665,
+      "end": 26.6655,
+      "text": "I can compare factor lists for shared values."
+    },
+    {
+      "start": 26.8855,
+      "end": 30.544375,
+      "text": "I can compare equal-group patterns for shared multiples."
+    },
+    {
+      "start": 30.764375,
+      "end": 33.75295833333333,
+      "text": "I can check and explain a shared relationship."
+    },
+    {
+      "start": 34.40295833333333,
+      "end": 37.60254166666667,
+      "text": "A shared factor divides each number exactly."
+    },
+    {
+      "start": 37.822541666666666,
+      "end": 41.890875,
+      "text": "A shared multiple can be made as a whole-number multiple of each number."
+    },
+    {
+      "start": 42.110875,
+      "end": 47.513875,
+      "text": "These are different questions, so decide whether you are looking for building blocks or for products."
+    },
+    {
+      "start": 47.733875,
+      "end": 53.3,
+      "text": "For example, two divides both twelve and eighteen exactly, so it is a shared factor."
+    },
+    {
+      "start": 53.95,
+      "end": 58.82454166666667,
+      "text": "List the factors of eighteen: one, two, three, six, nine and eighteen."
+    },
+    {
+      "start": 59.04454166666667,
+      "end": 64.4715,
+      "text": "List the factors of thirty: one, two, three, five, six, ten, fifteen and thirty."
+    },
+    {
+      "start": 65.1215,
+      "end": 68.937,
+      "text": "The values in both lists are one, two, three and six."
+    },
+    {
+      "start": 69.157,
+      "end": 71.804,
+      "text": "Each divides both numbers exactly."
+    },
+    {
+      "start": 72.024,
+      "end": 74.227875,
+      "text": "These are their shared factors."
+    },
+    {
+      "start": 74.877875,
+      "end": 78.216125,
+      "text": "Now compare positive multiples of four and six."
+    },
+    {
+      "start": 78.436125,
+      "end": 82.93404166666667,
+      "text": "Four gives four, eight, twelve, sixteen, twenty and twenty-four."
+    },
+    {
+      "start": 83.15404166666667,
+      "end": 86.672875,
+      "text": "Six gives six, twelve, eighteen and twenty-four."
+    },
+    {
+      "start": 87.322875,
+      "end": 90.49383333333333,
+      "text": "Twelve and twenty-four appear in both lists."
+    },
+    {
+      "start": 90.71383333333333,
+      "end": 95.67079166666667,
+      "text": "They are shared multiples because each is a whole-number multiple of both four and six."
+    },
+    {
+      "start": 96.32079166666666,
+      "end": 100.55270833333333,
+      "text": "Eight divides twenty-four, but it does not divide thirty-six exactly."
+    },
+    {
+      "start": 100.77270833333333,
+      "end": 104.27908333333333,
+      "text": "A factor of just one number is not a shared factor."
+    },
+    {
+      "start": 104.49908333333333,
+      "end": 107.32579166666666,
+      "text": "Always check both numbers before choosing."
+    },
+    {
+      "start": 107.97579166666667,
+      "end": 113.02545833333333,
+      "text": "Which of five, six, seven or eight is a factor of both twenty-four and thirty-six?"
+    },
+    {
+      "start": 117.02545833333333,
+      "end": 118.46529166666667,
+      "text": "Six works."
+    },
+    {
+      "start": 118.68529166666667,
+      "end": 123.15979166666666,
+      "text": "Six times four is twenty-four and six times six is thirty-six."
+    },
+    {
+      "start": 123.37979166666666,
+      "end": 127.60054166666667,
+      "text": "Eight divides twenty-four but not thirty-six, so it is not shared."
+    },
+    {
+      "start": 128.25054166666666,
+      "end": 133.71675,
+      "text": "Shared factors divide both numbers; shared multiples appear in both product patterns."
+    },
+    {
+      "start": 133.93675,
+      "end": 138.10054166666666,
+      "text": "Use complete lists or exact division to justify your decision."
+    },
+    {
+      "start": 138.32054166666666,
+      "end": 142.14795833333332,
+      "text": "Explain the relationship rather than guessing from one example."
+    },
+    {
+      "start": 142.36795833333332,
+      "end": 145.77545833333335,
+      "text": "Reflect on which model helped you and explain why."
+    },
+    {
+      "start": 145.99545833333335,
+      "end": 149.107125,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      5.099833333333334,
+      5.749833333333334,
+      "sentence pause"
+    ],
+    [
+      9.863916666666666,
+      10.083916666666667,
+      "sentence pause"
+    ],
+    [
+      15.833291666666666,
+      16.483291666666666,
+      "sentence pause"
+    ],
+    [
+      20.909916666666668,
+      21.559916666666666,
+      "sentence pause"
+    ],
+    [
+      23.316666666666666,
+      23.536666666666665,
+      "sentence pause"
+    ],
+    [
+      26.6655,
+      26.8855,
+      "sentence pause"
+    ],
+    [
+      30.544375,
+      30.764374999999998,
+      "sentence pause"
+    ],
+    [
+      33.75295833333333,
+      34.40295833333333,
+      "sentence pause"
+    ],
+    [
+      37.60254166666667,
+      37.822541666666666,
+      "sentence pause"
+    ],
+    [
+      41.890875,
+      42.110875,
+      "sentence pause"
+    ],
+    [
+      47.513875,
+      47.733875,
+      "sentence pause"
+    ],
+    [
+      53.3,
+      53.949999999999996,
+      "sentence pause"
+    ],
+    [
+      58.82454166666667,
+      59.04454166666667,
+      "sentence pause"
+    ],
+    [
+      64.4715,
+      65.12150000000001,
+      "sentence pause"
+    ],
+    [
+      68.937,
+      69.157,
+      "sentence pause"
+    ],
+    [
+      71.804,
+      72.024,
+      "sentence pause"
+    ],
+    [
+      74.227875,
+      74.877875,
+      "sentence pause"
+    ],
+    [
+      78.216125,
+      78.436125,
+      "sentence pause"
+    ],
+    [
+      82.93404166666667,
+      83.15404166666667,
+      "sentence pause"
+    ],
+    [
+      86.672875,
+      87.32287500000001,
+      "sentence pause"
+    ],
+    [
+      90.49383333333333,
+      90.71383333333333,
+      "sentence pause"
+    ],
+    [
+      95.67079166666667,
+      96.32079166666668,
+      "sentence pause"
+    ],
+    [
+      100.55270833333333,
+      100.77270833333333,
+      "sentence pause"
+    ],
+    [
+      104.27908333333333,
+      104.49908333333333,
+      "sentence pause"
+    ],
+    [
+      107.32579166666666,
+      107.97579166666667,
+      "sentence pause"
+    ],
+    [
+      113.02545833333333,
+      117.02545833333333,
+      "think time"
+    ],
+    [
+      118.46529166666667,
+      118.68529166666667,
+      "sentence pause"
+    ],
+    [
+      123.15979166666666,
+      123.37979166666666,
+      "sentence pause"
+    ],
+    [
+      127.60054166666667,
+      128.25054166666666,
+      "sentence pause"
+    ],
+    [
+      133.71675,
+      133.93675,
+      "sentence pause"
+    ],
+    [
+      138.10054166666666,
+      138.32054166666666,
+      "sentence pause"
+    ],
+    [
+      142.14795833333332,
+      142.36795833333332,
+      "sentence pause"
+    ],
+    [
+      145.77545833333335,
+      145.99545833333335,
+      "sentence pause"
+    ],
+    [
+      149.107125,
+      149.757125,
+      "sentence pause"
+    ]
+  ],
+  "duration": 149.757125,
+  "narration_sha256": "0599623a6932ee1f22c69d66b4fb2e11b375141767af129b763d27d9df2be7b5",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

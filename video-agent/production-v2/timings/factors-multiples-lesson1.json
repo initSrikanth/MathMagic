@@ -1,0 +1,624 @@
+{
+  "input_hash": "4eb645cfba70e33fa5ea2ab7dc6f1daa02071791257c55edd5fb47efb4ddeebe",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 15.286375,
+      "lesson_progress": 0.08333333333333333,
+      "text": "How many different rectangles could you build with twenty-four equal tiles? Today we are finding factor pairs. We will arrange whole-number rows, record matching products, and use those pairs to find every factor without missing one.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6,
+        "hide_labels": true
+      }
+    },
+    {
+      "index": 1,
+      "start": 15.286375,
+      "end": 20.7215,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to find factor pairs and explain a complete factor set.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Find factor pairs and explain a complete factor set."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 20.7215,
+      "end": 32.24191666666667,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can build equal-row arrays. I can find both numbers in each factor pair. I can explain when all factors have been found.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Build equal-row arrays.",
+        "2. Find both numbers in each factor pair.",
+        "3. Explain when all factors have been found."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 32.24191666666667,
+      "end": 54.006083333333336,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Factors are whole numbers that multiply to make a product. A factor pair gives the number of rows and the number in each row of a rectangular array. Exact division tells us whether a proposed row size works. Picture twenty-four tiles in four equal rows of six. The row count and tiles in each row form a factor pair.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6
+      }
+    },
+    {
+      "index": 4,
+      "start": 54.006083333333336,
+      "end": 64.299875,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Start with twenty-four tiles. One row of twenty-four works. Two rows of twelve work too, as do three rows of eight and four rows of six.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "24 tiles: equal rows"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "index": 5,
+      "start": 64.299875,
+      "end": 74.88579166666666,
+      "lesson_progress": 0.5,
+      "text": "The factors are one, two, three, four, six, eight, twelve and twenty-four. After four and six, later successful pairs repeat earlier pairs in reverse.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "4 × 6 = 24",
+        "Record both partners"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "index": 6,
+      "start": 74.88579166666666,
+      "end": 85.51854166666666,
+      "lesson_progress": 0.5833333333333334,
+      "text": "For thirty-six tiles, begin with one and thirty-six, two and eighteen, three and twelve, and four and nine. Five does not divide thirty-six exactly.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "36 tiles: test equal rows",
+        "5 leaves a remainder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 36,
+        "upto": 5
+      }
+    },
+    {
+      "index": 7,
+      "start": 85.51854166666666,
+      "end": 97.52975,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Six and six is also a pair. Record six only once in the complete factor set. The repeated factor makes a square array, and later pairs repeat in reverse.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "6 × 6 = 36",
+        "Record 6 only once"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 36,
+        "upto": 6
+      }
+    },
+    {
+      "index": 8,
+      "start": 97.52975,
+      "end": 112.47208333333333,
+      "lesson_progress": 0.75,
+      "text": "A factor pair has two partners. Finding four times six does not mean four is the only factor. Both four and six divide twenty-four exactly. Record both, and include one and the number itself.",
+      "chapter": "Include both members of a pair",
+      "equation": [],
+      "board": [
+        "4 × 6 = 24",
+        "Both 4 and 6 are factors"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "index": 9,
+      "start": 112.47208333333333,
+      "end": 119.49675,
+      "lesson_progress": 0.8333333333333334,
+      "text": "What number pairs with seven to make forty-two?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "7 × □ = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 119.49675,
+      "end": 127.31183333333334,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Six pairs with seven, because seven times six is forty-two. Both numbers are factors of forty-two.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "7 × 6 = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "family",
+        "groups": 7,
+        "each": 6,
+        "total": 42,
+        "unknown": false
+      }
+    },
+    {
+      "index": 11,
+      "start": 127.31183333333334,
+      "end": 145.648375,
+      "lesson_progress": 1.0,
+      "text": "Find factors systematically with exact division or arrays. Record both members of each factor pair, remove repeated entries, and explain why the search is complete. Reflect on which model helped you and explain why. Now try the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Equal rows → factor pairs → complete set",
+        "Explain why your search is complete"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.100625,
+      "text": "How many different rectangles could you build with twenty-four equal tiles?"
+    },
+    {
+      "start": 4.750625,
+      "end": 7.44125,
+      "text": "Today we are finding factor pairs."
+    },
+    {
+      "start": 7.66125,
+      "end": 14.636375,
+      "text": "We will arrange whole-number rows, record matching products, and use those pairs to find every factor without missing one."
+    },
+    {
+      "start": 15.286375,
+      "end": 20.0715,
+      "text": "Our learning goal is to find factor pairs and explain a complete factor set."
+    },
+    {
+      "start": 20.7215,
+      "end": 22.4785,
+      "text": "Success criteria."
+    },
+    {
+      "start": 22.6985,
+      "end": 24.965208333333333,
+      "text": "I can build equal-row arrays."
+    },
+    {
+      "start": 25.185208333333332,
+      "end": 28.286208333333335,
+      "text": "I can find both numbers in each factor pair."
+    },
+    {
+      "start": 28.506208333333333,
+      "end": 31.591916666666666,
+      "text": "I can explain when all factors have been found."
+    },
+    {
+      "start": 32.24191666666667,
+      "end": 35.79591666666666,
+      "text": "Factors are whole numbers that multiply to make a product."
+    },
+    {
+      "start": 36.01591666666667,
+      "end": 41.162958333333336,
+      "text": "A factor pair gives the number of rows and the number in each row of a rectangular array."
+    },
+    {
+      "start": 41.382958333333335,
+      "end": 45.345083333333335,
+      "text": "Exact division tells us whether a proposed row size works."
+    },
+    {
+      "start": 45.565083333333334,
+      "end": 49.27795833333333,
+      "text": "Picture twenty-four tiles in four equal rows of six."
+    },
+    {
+      "start": 49.49795833333334,
+      "end": 53.35608333333333,
+      "text": "The row count and tiles in each row form a factor pair."
+    },
+    {
+      "start": 54.006083333333336,
+      "end": 56.14041666666667,
+      "text": "Start with twenty-four tiles."
+    },
+    {
+      "start": 56.360416666666666,
+      "end": 58.50333333333333,
+      "text": "One row of twenty-four works."
+    },
+    {
+      "start": 58.723333333333336,
+      "end": 63.649875,
+      "text": "Two rows of twelve work too, as do three rows of eight and four rows of six."
+    },
+    {
+      "start": 64.299875,
+      "end": 68.94416666666666,
+      "text": "The factors are one, two, three, four, six, eight, twelve and twenty-four."
+    },
+    {
+      "start": 69.16416666666667,
+      "end": 74.23579166666667,
+      "text": "After four and six, later successful pairs repeat earlier pairs in reverse."
+    },
+    {
+      "start": 74.88579166666666,
+      "end": 81.48925,
+      "text": "For thirty-six tiles, begin with one and thirty-six, two and eighteen, three and twelve, and four and nine."
+    },
+    {
+      "start": 81.70925,
+      "end": 84.86854166666667,
+      "text": "Five does not divide thirty-six exactly."
+    },
+    {
+      "start": 85.51854166666666,
+      "end": 87.95716666666667,
+      "text": "Six and six is also a pair."
+    },
+    {
+      "start": 88.17716666666666,
+      "end": 91.79675,
+      "text": "Record six only once in the complete factor set."
+    },
+    {
+      "start": 92.01675,
+      "end": 96.87975,
+      "text": "The repeated factor makes a square array, and later pairs repeat in reverse."
+    },
+    {
+      "start": 97.52975,
+      "end": 99.8805,
+      "text": "A factor pair has two partners."
+    },
+    {
+      "start": 100.1005,
+      "end": 104.485,
+      "text": "Finding four times six does not mean four is the only factor."
+    },
+    {
+      "start": 104.705,
+      "end": 108.115625,
+      "text": "Both four and six divide twenty-four exactly."
+    },
+    {
+      "start": 108.335625,
+      "end": 111.82208333333334,
+      "text": "Record both, and include one and the number itself."
+    },
+    {
+      "start": 112.47208333333333,
+      "end": 115.49675,
+      "text": "What number pairs with seven to make forty-two?"
+    },
+    {
+      "start": 119.49675,
+      "end": 123.59266666666667,
+      "text": "Six pairs with seven, because seven times six is forty-two."
+    },
+    {
+      "start": 123.81266666666667,
+      "end": 126.66183333333333,
+      "text": "Both numbers are factors of forty-two."
+    },
+    {
+      "start": 127.31183333333334,
+      "end": 131.47083333333333,
+      "text": "Find factors systematically with exact division or arrays."
+    },
+    {
+      "start": 131.69083333333333,
+      "end": 138.03920833333333,
+      "text": "Record both members of each factor pair, remove repeated entries, and explain why the search is complete."
+    },
+    {
+      "start": 138.25920833333333,
+      "end": 141.66670833333333,
+      "text": "Reflect on which model helped you and explain why."
+    },
+    {
+      "start": 141.88670833333333,
+      "end": 144.998375,
+      "text": "Now try the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.100625,
+      4.750625,
+      "sentence pause"
+    ],
+    [
+      7.44125,
+      7.66125,
+      "sentence pause"
+    ],
+    [
+      14.636375,
+      15.286375,
+      "sentence pause"
+    ],
+    [
+      20.0715,
+      20.7215,
+      "sentence pause"
+    ],
+    [
+      22.4785,
+      22.6985,
+      "sentence pause"
+    ],
+    [
+      24.965208333333333,
+      25.185208333333332,
+      "sentence pause"
+    ],
+    [
+      28.286208333333335,
+      28.506208333333333,
+      "sentence pause"
+    ],
+    [
+      31.591916666666666,
+      32.24191666666667,
+      "sentence pause"
+    ],
+    [
+      35.79591666666666,
+      36.01591666666666,
+      "sentence pause"
+    ],
+    [
+      41.162958333333336,
+      41.382958333333335,
+      "sentence pause"
+    ],
+    [
+      45.345083333333335,
+      45.565083333333334,
+      "sentence pause"
+    ],
+    [
+      49.27795833333333,
+      49.49795833333333,
+      "sentence pause"
+    ],
+    [
+      53.35608333333333,
+      54.00608333333333,
+      "sentence pause"
+    ],
+    [
+      56.14041666666667,
+      56.360416666666666,
+      "sentence pause"
+    ],
+    [
+      58.50333333333333,
+      58.72333333333333,
+      "sentence pause"
+    ],
+    [
+      63.649875,
+      64.299875,
+      "sentence pause"
+    ],
+    [
+      68.94416666666666,
+      69.16416666666666,
+      "sentence pause"
+    ],
+    [
+      74.23579166666667,
+      74.88579166666668,
+      "sentence pause"
+    ],
+    [
+      81.48925,
+      81.70925,
+      "sentence pause"
+    ],
+    [
+      84.86854166666667,
+      85.51854166666668,
+      "sentence pause"
+    ],
+    [
+      87.95716666666667,
+      88.17716666666666,
+      "sentence pause"
+    ],
+    [
+      91.79675,
+      92.01675,
+      "sentence pause"
+    ],
+    [
+      96.87975,
+      97.52975,
+      "sentence pause"
+    ],
+    [
+      99.8805,
+      100.1005,
+      "sentence pause"
+    ],
+    [
+      104.485,
+      104.705,
+      "sentence pause"
+    ],
+    [
+      108.115625,
+      108.335625,
+      "sentence pause"
+    ],
+    [
+      111.82208333333334,
+      112.47208333333334,
+      "sentence pause"
+    ],
+    [
+      115.49675,
+      119.49675,
+      "think time"
+    ],
+    [
+      123.59266666666667,
+      123.81266666666667,
+      "sentence pause"
+    ],
+    [
+      126.66183333333333,
+      127.31183333333334,
+      "sentence pause"
+    ],
+    [
+      131.47083333333333,
+      131.69083333333333,
+      "sentence pause"
+    ],
+    [
+      138.03920833333333,
+      138.25920833333333,
+      "sentence pause"
+    ],
+    [
+      141.66670833333333,
+      141.88670833333333,
+      "sentence pause"
+    ],
+    [
+      144.998375,
+      145.64837500000002,
+      "sentence pause"
+    ]
+  ],
+  "duration": 145.648375,
+  "narration_sha256": "89772dbfaa1e989ecd5e29ec6c45126c08eae08cc727b36eea5d32625c1ce9bc",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}
