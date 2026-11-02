@@ -1,9 +1,22 @@
 {
   "schema": 2,
   "interval_hours": 5,
-  "last_batch_started": "2026-11-02T09:54:29.920836+00:00",
-  "next_batch_due": "2026-11-02T14:54:29.920836+00:00",
+  "last_batch_started": "2026-11-02T10:51:49.797071+00:00",
+  "next_batch_due": null,
   "active_batch": {
+    "id": "20261102T105149Z",
+    "lessons": [
+      "addition-subtraction-lesson1",
+      "addition-subtraction-lesson2",
+      "addition-subtraction-lesson3",
+      "addition-subtraction-lesson4",
+      "addition-subtraction-lesson5"
+    ],
+    "started": "2026-11-02T10:51:49.797071+00:00",
+    "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+    "mode": "explicitly authorised manual topic batch"
+  },
+  "last_successful_batch": {
     "id": "20261102T095429Z",
     "lessons": [
       "decimals-percentages-place",
@@ -12,19 +25,7 @@
       "decimals-percentages-connect",
       "decimals-percentages-apply"
     ],
-    "started": "2026-11-02T09:54:29.920836+00:00",
-    "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-  },
-  "last_successful_batch": {
-    "id": "20261020T015059Z",
-    "lessons": [
-      "whole-numbers-lesson1",
-      "whole-numbers-lesson2",
-      "whole-numbers-lesson3",
-      "whole-numbers-lesson4",
-      "whole-numbers-lesson5"
-    ],
-    "completed": "2026-10-20T01:59:11.879795+00:00"
+    "completed": "2026-11-02T10:33:09.536044+00:00"
   },
   "errors": [],
   "limitations": [
@@ -599,50 +600,230 @@
       "lesson": "Efficient Mental Strategies",
       "section": "lesson1",
       "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "a84582e14208092ddbf323658dcd58615897c1d6",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "8485b8e2df30ec47b12affebeddb6e23178e65c2b5296aa61c01ed3a63205659",
+      "source_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+      "source_tree_dirty": true,
+      "producer_sha256": "6df2cd930bae268415c84a9e6c7e87cf1ef0c380252aa6d6633216a010c3a79c",
+      "graphics_sha256": "82507a3b5ae11980738c6055aae423615aeb2550d2719998bac44f03bbf10221",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 142.314375,
+      "narration_sha256": "3bade137072d353b549c3eb3f8266d967447384aca13a35881daa9bcb857d01e",
+      "qa": {
+        "result": "passed",
+        "sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+        "bytes": 2798501,
+        "duration": 142.314375,
+        "audio_rms": 0.0626906082034111,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998570012283123,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "addition-subtraction.html",
+        "section": "lesson1",
+        "preserved_original_sha256": "e045f367e97fb758a8d6c6984b8293819cc85c555e5f97ae1340d49153f8aca4",
+        "replaced_wrapper_sha256": "6729a7b011f461e254a1a2f52703cb994934598b5396b44bc214e60cf2b535eb",
+        "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
+      }
     },
     "addition-subtraction-lesson2": {
       "topic": "addition-subtraction",
       "lesson": "Written Addition and Subtraction",
       "section": "lesson2",
       "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "a84582e14208092ddbf323658dcd58615897c1d6",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "ea6ba2fddcf2228313005322f1c4731b47cd791b8f0ab871dfc3d483b619270d",
+      "source_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+      "source_tree_dirty": true,
+      "producer_sha256": "6df2cd930bae268415c84a9e6c7e87cf1ef0c380252aa6d6633216a010c3a79c",
+      "graphics_sha256": "82507a3b5ae11980738c6055aae423615aeb2550d2719998bac44f03bbf10221",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 156.34529166666667,
+      "narration_sha256": "4b0aa5e439b226db80495fe166a2b08694d7d329932d4e2a09b615331c5826e4",
+      "qa": {
+        "result": "passed",
+        "sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+        "bytes": 3129447,
+        "duration": 156.34529166666667,
+        "audio_rms": 0.06258773058652878,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998497928230717,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "addition-subtraction.html",
+        "section": "lesson2",
+        "preserved_original_sha256": "cd57f06ca7ad142c0502d7a3c2b84aac78c6ae75577c6d25069c762fc29294f8",
+        "replaced_wrapper_sha256": "e361ed02a0dcc3474b4073727a23587c0eb201e46866d627938a5bd6a56ef646",
+        "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
+      }
     },
     "addition-subtraction-lesson3": {
       "topic": "addition-subtraction",
       "lesson": "Estimate and Check",
       "section": "lesson3",
       "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "a84582e14208092ddbf323658dcd58615897c1d6",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "3b22d3e271c0bb4425e2924735984c35d0a3a0bad87e3b5188b81bc29b0c69f2",
+      "source_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+      "source_tree_dirty": true,
+      "producer_sha256": "6df2cd930bae268415c84a9e6c7e87cf1ef0c380252aa6d6633216a010c3a79c",
+      "graphics_sha256": "82507a3b5ae11980738c6055aae423615aeb2550d2719998bac44f03bbf10221",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 147.51345833333335,
+      "narration_sha256": "cf69f91d2c2903690c551c9543420283cb2eb67eea1ec11a7f138d147200f913",
+      "qa": {
+        "result": "passed",
+        "sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+        "bytes": 2933419,
+        "duration": 147.51345833333335,
+        "audio_rms": 0.061791326850652695,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998570434341733,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "addition-subtraction.html",
+        "section": "lesson3",
+        "preserved_original_sha256": "58bd598e982da7a5820bf4197f587aebf773ccfd2c5b32d9db47dbf70d6f94ec",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
+      }
     },
     "addition-subtraction-lesson4": {
       "topic": "addition-subtraction",
       "lesson": "Missing Values and Inverses",
       "section": "lesson4",
       "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "a84582e14208092ddbf323658dcd58615897c1d6",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "3015429c9f762722a44019ef7ab6c454f8e3a9b3f262b58ec658f48ed54327f7",
+      "source_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+      "source_tree_dirty": true,
+      "producer_sha256": "6df2cd930bae268415c84a9e6c7e87cf1ef0c380252aa6d6633216a010c3a79c",
+      "graphics_sha256": "82507a3b5ae11980738c6055aae423615aeb2550d2719998bac44f03bbf10221",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 144.29479166666667,
+      "narration_sha256": "3088be091645085c839ef270d99599bf48bce0082a149bb277ff05469933c95f",
+      "qa": {
+        "result": "passed",
+        "sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+        "bytes": 2822930,
+        "duration": 144.29479166666667,
+        "audio_rms": 0.06288580596446991,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998281717928278,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "addition-subtraction.html",
+        "section": "lesson4",
+        "preserved_original_sha256": "d134e5cc7ec06b033a49242f26819628e41465157ca0cbab8227d0711977dbeb",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
+      }
     },
     "addition-subtraction-lesson5": {
       "topic": "addition-subtraction",
       "lesson": "Model Practical Problems",
       "section": "lesson5",
       "video_filename": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
-      "production_status": "pending",
-      "commit_sha": null,
+      "production_status": "integrated",
+      "commit_sha": "a84582e14208092ddbf323658dcd58615897c1d6",
       "deployment_status": "pending",
-      "reason": "Missing explainer or requested narration/palette/structure revision."
+      "reason": "Missing explainer or requested narration/palette/structure revision.",
+      "script_sha256": "caecbc3b78765a7d86bc7f33fdf66edd15c9d29004ec6478220d09cba36c6514",
+      "source_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6",
+      "source_tree_dirty": true,
+      "producer_sha256": "6df2cd930bae268415c84a9e6c7e87cf1ef0c380252aa6d6633216a010c3a79c",
+      "graphics_sha256": "82507a3b5ae11980738c6055aae423615aeb2550d2719998bac44f03bbf10221",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "duration": 144.11775,
+      "narration_sha256": "0c59ebe189d0af3c6f736d974f9c5f6762131955558e7f9c4d0cba43a70c996e",
+      "qa": {
+        "result": "passed",
+        "sha256": "1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062",
+        "bytes": 2859633,
+        "duration": 144.11775,
+        "audio_rms": 0.0628262609243393,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998488152055313,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified"
+      },
+      "integration": {
+        "page": "addition-subtraction.html",
+        "section": "lesson5",
+        "preserved_original_sha256": "9cbd8dc04cba8d872f2cc121e883afd7395d0d103067ee5913479b06ca8c00bb",
+        "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rollback_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
+      }
     },
     "multiplication-division-lesson1": {
       "topic": "multiplication-division",
@@ -701,7 +882,7 @@
       "video_filename": "videos/MathMagic_V2_decimals_percentages_place.mp4",
       "production_status": "integrated",
       "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "a95de28eb0916c464b00c04db7ba0b6ca2fb0dc51d48e32149c79c59ad8f847f",
       "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
@@ -738,7 +919,10 @@
         "preserved_original_sha256": "6ec57a1a181bbdb8d2fc4fc3a6222af36ec7830d6a7850117a797838a6372d14",
         "replaced_wrapper_sha256": "4906a5e670daa4b6828dc0e7a8fb97a42453a2f7f363f63dfeab9a71efb14e1b",
         "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_place.mp4",
+      "live_verified_at": "2026-11-02T10:33:09.536044+00:00",
+      "deployment_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
     },
     "decimals-percentages-compare": {
       "topic": "decimals-percentages",
@@ -747,7 +931,7 @@
       "video_filename": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
       "production_status": "integrated",
       "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Missing explainer or requested narration/palette/structure revision.",
       "script_sha256": "92ac1dd3529f7a131af30128bfa22096cdd7eb9bc0e403382b5d26fadf9fbf71",
       "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
@@ -784,7 +968,10 @@
         "preserved_original_sha256": "4d6c9f268a7f27f50e7c20f7f56c6d5a3f4bed8d316a37ad940cb90e563a0be3",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_compare.mp4",
+      "live_verified_at": "2026-11-02T10:33:09.536044+00:00",
+      "deployment_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
     },
     "decimals-percentages-percent": {
       "topic": "decimals-percentages",
@@ -793,7 +980,7 @@
       "video_filename": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
       "production_status": "integrated",
       "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
       "script_sha256": "832e81df12fa03b64884ec73643af0ff82387c3c79ca4ca14553e7d4c340faf8",
       "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
@@ -830,7 +1017,10 @@
         "preserved_original_sha256": "1f8b9336d15f1a4f85f99736bee65c1f77b10a72388493736bd3905f508e3105",
         "replaced_wrapper_sha256": "38159075b9b33e8bae604e293a641d44c36d365a7a4f747b274be8272ed077be",
         "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_percent.mp4",
+      "live_verified_at": "2026-11-02T10:33:09.536044+00:00",
+      "deployment_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
     },
     "decimals-percentages-connect": {
       "topic": "decimals-percentages",
@@ -839,7 +1029,7 @@
       "video_filename": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
       "production_status": "integrated",
       "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
       "script_sha256": "b2cc147eee651f7dd40776a5959da207cfe6d689cc4b654ce2f49a9837510be4",
       "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
@@ -876,7 +1066,10 @@
         "preserved_original_sha256": "b2b09db8a6ca55ecb32423dbaf31692a8936f60e6ef124c80de93084cdea03f5",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_connect.mp4",
+      "live_verified_at": "2026-11-02T10:33:09.536044+00:00",
+      "deployment_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
     },
     "decimals-percentages-apply": {
       "topic": "decimals-percentages",
@@ -885,7 +1078,7 @@
       "video_filename": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
       "production_status": "integrated",
       "commit_sha": "c27fd5e27e1b339741296f1d1e340b7230f812f7",
-      "deployment_status": "pending",
+      "deployment_status": "verified_live",
       "reason": "Typeset familiar fraction names using existing horizontal fraction-bar primitives; reuse exact narration.",
       "script_sha256": "de730a0f6cacc92744d2a5e2503358a6f05f8460453d620ff40db86740074c09",
       "source_commit_sha": "10425849282f935d734a9d434309b751eb193767",
@@ -922,7 +1115,10 @@
         "preserved_original_sha256": "bab0ca534a597f478c90e6382245bd897ad557f39c366202e266d47d77a2e717",
         "replaced_wrapper_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rollback_sha": "10425849282f935d734a9d434309b751eb193767"
-      }
+      },
+      "live_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_apply.mp4",
+      "live_verified_at": "2026-11-02T10:33:09.536044+00:00",
+      "deployment_commit_sha": "f5942b2c5d327b392fc229176fb9835dc4accef6"
     },
     "factors-multiples-lesson1": {
       "topic": "factors-multiples",

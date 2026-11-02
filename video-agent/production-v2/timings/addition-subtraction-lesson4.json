@@ -1,0 +1,625 @@
+{
+  "input_hash": "465aadf9f8710841064f330c3ed56523713b21683eec05acdd94de54c85a11b7",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 15.799458333333334,
+      "lesson_progress": 0.08333333333333333,
+      "text": "A number is hidden, but the relationship is still there. Today we are finding missing values using addition and subtraction. We will think about parts and totals, reverse an operation, and put our answer back into the original sentence to check it.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 15.799458333333334,
+      "end": 22.083333333333332,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to find missing values using parts, totals and inverse operations.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Find missing values using parts, totals and inverse operations."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 22.083333333333332,
+      "end": 34.51016666666667,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can identify which part or total is missing. I can choose the matching inverse operation. I can put the answer back to check the number sentence.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Identify which part or total is missing.",
+        "2. Choose the matching inverse operation.",
+        "3. Put the answer back to check the number sentence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 34.51016666666667,
+      "end": 46.450916666666664,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Addition joins parts into a total. Subtraction can find a missing part. Read the whole number sentence before choosing an operation: the position of the missing value matters.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 46.450916666666664,
+      "end": 55.44558333333333,
+      "lesson_progress": 0.4166666666666667,
+      "text": "A missing number plus two hundred and seventy-five equals nine hundred. Nine hundred is the total, so subtract the known part.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "□ + 275 = 900",
+        "900 − 275 = 625"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          625,
+          275
+        ],
+        "labels": [
+          "?",
+          "275"
+        ],
+        "total": "900"
+      }
+    },
+    {
+      "index": 5,
+      "start": 55.44558333333333,
+      "end": 66.94070833333333,
+      "lesson_progress": 0.5,
+      "text": "The missing part is six hundred and twenty-five. Substitute it into the original sentence: six hundred and twenty-five plus two hundred and seventy-five equals nine hundred.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "625 + 275 = 900"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          625,
+          275
+        ],
+        "labels": [
+          "625",
+          "275"
+        ],
+        "total": "900"
+      }
+    },
+    {
+      "index": 6,
+      "start": 66.94070833333333,
+      "end": 76.43858333333333,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Now eight hundred minus a missing number equals three hundred and forty-five. The starting total is eight hundred; the removed part is unknown.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "800 − □ = 345",
+        "800 − 345 = 455"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          345,
+          455
+        ],
+        "labels": [
+          "345",
+          "?"
+        ],
+        "total": "800"
+      }
+    },
+    {
+      "index": 7,
+      "start": 76.43858333333333,
+      "end": 87.001625,
+      "lesson_progress": 0.6666666666666666,
+      "text": "The removed part is four hundred and fifty-five. Check by subtracting it from eight hundred. We return to three hundred and forty-five, as required.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "800 − 455 = 345"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          345,
+          455
+        ],
+        "labels": [
+          "345",
+          "455"
+        ],
+        "total": "800"
+      }
+    },
+    {
+      "index": 8,
+      "start": 87.001625,
+      "end": 102.01683333333334,
+      "lesson_progress": 0.75,
+      "text": "It is tempting to subtract just because you see a subtraction sign. But a missing starting total needs the removed part added back. For a blank minus two hundred and fifty equals five hundred, add those two known parts, then check.",
+      "chapter": "Read where the blank belongs",
+      "equation": [],
+      "board": [
+        "□ − 250 = 500",
+        "500 + 250 = 750"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "bar",
+        "values": [
+          500,
+          250
+        ],
+        "labels": [
+          "500",
+          "250"
+        ],
+        "total": "750"
+      }
+    },
+    {
+      "index": 9,
+      "start": 102.01683333333334,
+      "end": 112.77041666666666,
+      "lesson_progress": 0.8333333333333334,
+      "text": "A missing number minus one hundred and eighty equals four hundred and twenty. What was the starting number?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "□ − 180 = 420"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 112.77041666666666,
+      "end": 123.99175,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Add the removed part back: four hundred and twenty plus one hundred and eighty is six hundred. Check: six hundred minus one hundred and eighty is four hundred and twenty.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "420 + 180 = 600",
+        "600 − 180 = 420"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "bar",
+        "values": [
+          420,
+          180
+        ],
+        "labels": [
+          "420",
+          "180"
+        ],
+        "total": "600"
+      }
+    },
+    {
+      "index": 11,
+      "start": 123.99175,
+      "end": 144.29479166666667,
+      "lesson_progress": 1.0,
+      "text": "Identify the total and the parts. Use inverse operations to find the unknown, then substitute your answer into the original sentence. A check tests the relationship, not just the arithmetic. Now choose a strategy and explain why it works. Have a go at the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.2471666666666668,
+      "text": "A number is hidden, but the relationship is still there."
+    },
+    {
+      "start": 3.4671666666666665,
+      "end": 7.912208333333333,
+      "text": "Today we are finding missing values using addition and subtraction."
+    },
+    {
+      "start": 8.132208333333333,
+      "end": 15.149458333333333,
+      "text": "We will think about parts and totals, reverse an operation, and put our answer back into the original sentence to check it."
+    },
+    {
+      "start": 15.799458333333334,
+      "end": 21.433333333333334,
+      "text": "Our learning goal is to find missing values using parts, totals and inverse operations."
+    },
+    {
+      "start": 22.083333333333332,
+      "end": 23.840333333333334,
+      "text": "Success criteria."
+    },
+    {
+      "start": 24.060333333333332,
+      "end": 27.27541666666667,
+      "text": "I can identify which part or total is missing."
+    },
+    {
+      "start": 27.495416666666667,
+      "end": 30.437541666666668,
+      "text": "I can choose the matching inverse operation."
+    },
+    {
+      "start": 30.657541666666667,
+      "end": 33.860166666666665,
+      "text": "I can put the answer back to check the number sentence."
+    },
+    {
+      "start": 34.51016666666667,
+      "end": 36.91008333333333,
+      "text": "Addition joins parts into a total."
+    },
+    {
+      "start": 37.13008333333333,
+      "end": 39.65679166666666,
+      "text": "Subtraction can find a missing part."
+    },
+    {
+      "start": 39.87679166666667,
+      "end": 45.800916666666666,
+      "text": "Read the whole number sentence before choosing an operation: the position of the missing value matters."
+    },
+    {
+      "start": 46.450916666666664,
+      "end": 50.87370833333333,
+      "text": "A missing number plus two hundred and seventy-five equals nine hundred."
+    },
+    {
+      "start": 51.09370833333333,
+      "end": 54.79558333333333,
+      "text": "Nine hundred is the total, so subtract the known part."
+    },
+    {
+      "start": 55.44558333333333,
+      "end": 58.549708333333335,
+      "text": "The missing part is six hundred and twenty-five."
+    },
+    {
+      "start": 58.769708333333334,
+      "end": 66.29070833333333,
+      "text": "Substitute it into the original sentence: six hundred and twenty-five plus two hundred and seventy-five equals nine hundred."
+    },
+    {
+      "start": 66.94070833333333,
+      "end": 71.73929166666667,
+      "text": "Now eight hundred minus a missing number equals three hundred and forty-five."
+    },
+    {
+      "start": 71.95929166666667,
+      "end": 75.78858333333334,
+      "text": "The starting total is eight hundred; the removed part is unknown."
+    },
+    {
+      "start": 76.43858333333333,
+      "end": 79.74191666666667,
+      "text": "The removed part is four hundred and fifty-five."
+    },
+    {
+      "start": 79.96191666666667,
+      "end": 82.54216666666666,
+      "text": "Check by subtracting it from eight hundred."
+    },
+    {
+      "start": 82.76216666666667,
+      "end": 86.351625,
+      "text": "We return to three hundred and forty-five, as required."
+    },
+    {
+      "start": 87.001625,
+      "end": 91.07579166666666,
+      "text": "It is tempting to subtract just because you see a subtraction sign."
+    },
+    {
+      "start": 91.29579166666667,
+      "end": 95.23729166666666,
+      "text": "But a missing starting total needs the removed part added back."
+    },
+    {
+      "start": 95.45729166666666,
+      "end": 101.36683333333333,
+      "text": "For a blank minus two hundred and fifty equals five hundred, add those two known parts, then check."
+    },
+    {
+      "start": 102.01683333333334,
+      "end": 106.65195833333334,
+      "text": "A missing number minus one hundred and eighty equals four hundred and twenty."
+    },
+    {
+      "start": 106.87195833333334,
+      "end": 108.77041666666666,
+      "text": "What was the starting number?"
+    },
+    {
+      "start": 112.77041666666666,
+      "end": 118.54454166666666,
+      "text": "Add the removed part back: four hundred and twenty plus one hundred and eighty is six hundred."
+    },
+    {
+      "start": 118.76454166666667,
+      "end": 123.34175,
+      "text": "Check: six hundred minus one hundred and eighty is four hundred and twenty."
+    },
+    {
+      "start": 123.99175,
+      "end": 126.55683333333333,
+      "text": "Identify the total and the parts."
+    },
+    {
+      "start": 126.77683333333333,
+      "end": 133.018,
+      "text": "Use inverse operations to find the unknown, then substitute your answer into the original sentence."
+    },
+    {
+      "start": 133.238,
+      "end": 136.90070833333334,
+      "text": "A check tests the relationship, not just the arithmetic."
+    },
+    {
+      "start": 137.12070833333334,
+      "end": 140.27841666666666,
+      "text": "Now choose a strategy and explain why it works."
+    },
+    {
+      "start": 140.49841666666666,
+      "end": 143.64479166666666,
+      "text": "Have a go at the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      3.2471666666666668,
+      3.467166666666667,
+      "sentence pause"
+    ],
+    [
+      7.912208333333333,
+      8.132208333333333,
+      "sentence pause"
+    ],
+    [
+      15.149458333333333,
+      15.799458333333334,
+      "sentence pause"
+    ],
+    [
+      21.433333333333334,
+      22.083333333333332,
+      "sentence pause"
+    ],
+    [
+      23.840333333333334,
+      24.060333333333332,
+      "sentence pause"
+    ],
+    [
+      27.27541666666667,
+      27.495416666666667,
+      "sentence pause"
+    ],
+    [
+      30.437541666666668,
+      30.657541666666667,
+      "sentence pause"
+    ],
+    [
+      33.860166666666665,
+      34.51016666666666,
+      "sentence pause"
+    ],
+    [
+      36.91008333333333,
+      37.13008333333333,
+      "sentence pause"
+    ],
+    [
+      39.65679166666666,
+      39.87679166666666,
+      "sentence pause"
+    ],
+    [
+      45.800916666666666,
+      46.450916666666664,
+      "sentence pause"
+    ],
+    [
+      50.87370833333333,
+      51.09370833333333,
+      "sentence pause"
+    ],
+    [
+      54.79558333333333,
+      55.44558333333333,
+      "sentence pause"
+    ],
+    [
+      58.549708333333335,
+      58.769708333333334,
+      "sentence pause"
+    ],
+    [
+      66.29070833333333,
+      66.94070833333333,
+      "sentence pause"
+    ],
+    [
+      71.73929166666667,
+      71.95929166666667,
+      "sentence pause"
+    ],
+    [
+      75.78858333333334,
+      76.43858333333334,
+      "sentence pause"
+    ],
+    [
+      79.74191666666667,
+      79.96191666666667,
+      "sentence pause"
+    ],
+    [
+      82.54216666666666,
+      82.76216666666666,
+      "sentence pause"
+    ],
+    [
+      86.351625,
+      87.001625,
+      "sentence pause"
+    ],
+    [
+      91.07579166666666,
+      91.29579166666666,
+      "sentence pause"
+    ],
+    [
+      95.23729166666666,
+      95.45729166666666,
+      "sentence pause"
+    ],
+    [
+      101.36683333333333,
+      102.01683333333334,
+      "sentence pause"
+    ],
+    [
+      106.65195833333334,
+      106.87195833333334,
+      "sentence pause"
+    ],
+    [
+      108.77041666666666,
+      112.77041666666666,
+      "think time"
+    ],
+    [
+      118.54454166666666,
+      118.76454166666666,
+      "sentence pause"
+    ],
+    [
+      123.34175,
+      123.99175000000001,
+      "sentence pause"
+    ],
+    [
+      126.55683333333333,
+      126.77683333333333,
+      "sentence pause"
+    ],
+    [
+      133.018,
+      133.238,
+      "sentence pause"
+    ],
+    [
+      136.90070833333334,
+      137.12070833333334,
+      "sentence pause"
+    ],
+    [
+      140.27841666666666,
+      140.49841666666666,
+      "sentence pause"
+    ],
+    [
+      143.64479166666666,
+      144.29479166666667,
+      "sentence pause"
+    ]
+  ],
+  "duration": 144.29479166666667,
+  "narration_sha256": "3088be091645085c839ef270d99599bf48bce0082a149bb277ff05469933c95f",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

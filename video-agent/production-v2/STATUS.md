@@ -1,13 +1,13 @@
 # MathMagic production status
 
 - total videos required: 30
-- videos successfully rendered: 15
-- videos committed: 15
-- videos deployed and verified live: 10
-- remaining videos: 20
-- last successful batch: {'id': '20261020T015059Z', 'lessons': ['whole-numbers-lesson1', 'whole-numbers-lesson2', 'whole-numbers-lesson3', 'whole-numbers-lesson4', 'whole-numbers-lesson5'], 'completed': '2026-10-20T01:59:11.879795+00:00'}
-- next scheduled batch: 2026-11-02T15:17:00+00:00
-- next batch eligible: 2026-11-02T14:54:29.920836+00:00
+- videos successfully rendered: 20
+- videos committed: 20
+- videos deployed and verified live: 15
+- remaining videos: 15
+- last successful batch: {'id': '20261102T095429Z', 'lessons': ['decimals-percentages-place', 'decimals-percentages-compare', 'decimals-percentages-percent', 'decimals-percentages-connect', 'decimals-percentages-apply'], 'completed': '2026-11-02T10:33:09.536044+00:00'}
+- next scheduled batch: None
+- next batch eligible: None
 - errors or blockers: []
 
 Scheduled events may be delayed by GitHub. A due time is an earliest eligible time, not a guaranteed start.

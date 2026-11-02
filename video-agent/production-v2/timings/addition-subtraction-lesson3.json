@@ -1,0 +1,625 @@
+{
+  "input_hash": "6f7137b3ded9e236a8a40cafdddd0c336052b712c15cb83114734f33c0f58924",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.260416666666668,
+      "lesson_progress": 0.08333333333333333,
+      "text": "If a calculator shows an answer with one extra zero, how could you spot it? Today we are estimating addition and subtraction. We will use nearby friendly numbers as benchmarks, then decide whether an exact answer has a sensible size.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.260416666666668,
+      "end": 21.37425,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to use estimates to check whether an answer is reasonable.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Use estimates to check whether an answer is reasonable."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 21.37425,
+      "end": 33.672958333333334,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can choose useful nearby numbers. I can keep an estimate separate from an exact answer. I can explain whether the answer has a sensible size.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Choose useful nearby numbers.",
+        "2. Keep an estimate separate from an exact answer.",
+        "3. Explain whether the answer has a sensible size."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 33.672958333333334,
+      "end": 48.13591666666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "An estimate is a useful approximate answer. Choose a rounding place that suits the situation. Keep the exact numbers for the final calculation; the estimate helps you check the scale, not replace the exact answer.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 48.13591666666667,
+      "end": 59.2875,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Estimate three thousand eight hundred and seventy-six plus two thousand one hundred and forty-two. Round to the nearest hundred: three thousand nine hundred plus two thousand one hundred.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "3,876 + 2,142",
+        "3,900 + 2,100 = 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 5,
+      "start": 59.2875,
+      "end": 70.73541666666667,
+      "lesson_progress": 0.5,
+      "text": "The exact total is six thousand and eighteen, close to six thousand. A result near sixty thousand would be unreasonable because each starting number is only a few thousand.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "3,876 + 2,142 = 6,018",
+        "6,018 is close to 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000,
+          6018
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 6,
+      "start": 70.73541666666667,
+      "end": 80.673375,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Estimate eight thousand and thirty-two minus three thousand nine hundred and eighty-seven. Nearby thousands give eight thousand minus four thousand.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "8,032 − 3,987",
+        "8,000 − 4,000 = 4,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 3900,
+        "end": 4100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          4000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 7,
+      "start": 80.673375,
+      "end": 91.44008333333333,
+      "lesson_progress": 0.6666666666666666,
+      "text": "The exact difference is four thousand and forty-five, close to our estimate. Both rounding choices made the mental subtraction simple enough to check the size quickly.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "8,032 − 3,987 = 4,045",
+        "4,045 is close to 4,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 3900,
+        "end": 4100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          4000,
+          4045
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 8,
+      "start": 91.44008333333333,
+      "end": 107.54504166666666,
+      "lesson_progress": 0.75,
+      "text": "An estimate is a helpful check, not a replacement for an exact calculation. About six thousand tells us the scale. Six thousand and eighteen is the exact total. Both have useful jobs, but they answer different questions.",
+      "chapter": "An estimate is not the exact answer",
+      "equation": [],
+      "board": [
+        "Estimate: about 6,000",
+        "Exact total: 6,018"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000,
+          6018
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 9,
+      "start": 107.54504166666666,
+      "end": 117.627625,
+      "lesson_progress": 0.8333333333333334,
+      "text": "Would forty thousand be a reasonable estimate for four thousand nine hundred plus one thousand nine hundred?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "4,900 + 1,900 ≈ 40,000 ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 117.627625,
+      "end": 128.62970833333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "No. Five thousand plus two thousand is about seven thousand. The exact answer is six thousand eight hundred, so forty thousand is much too large.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "5,000 + 2,000 = 7,000",
+        "4,900 + 1,900 = 6,800"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "line",
+        "start": 6000,
+        "end": 8000,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6800,
+          7000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "index": 11,
+      "start": 128.62970833333333,
+      "end": 147.51345833333335,
+      "lesson_progress": 1.0,
+      "text": "Choose sensible nearby numbers, calculate the benchmark, and compare its size with the exact result. Different useful estimates are possible. Always explain your rounding choice. Now choose a strategy and explain why it works. Have a go at the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.607333333333333,
+      "text": "If a calculator shows an answer with one extra zero, how could you spot it?"
+    },
+    {
+      "start": 5.257333333333333,
+      "end": 8.697666666666667,
+      "text": "Today we are estimating addition and subtraction."
+    },
+    {
+      "start": 8.917666666666667,
+      "end": 15.610416666666667,
+      "text": "We will use nearby friendly numbers as benchmarks, then decide whether an exact answer has a sensible size."
+    },
+    {
+      "start": 16.260416666666668,
+      "end": 20.72425,
+      "text": "Our learning goal is to use estimates to check whether an answer is reasonable."
+    },
+    {
+      "start": 21.37425,
+      "end": 23.124666666666666,
+      "text": "Success criteria."
+    },
+    {
+      "start": 23.344666666666665,
+      "end": 25.784875,
+      "text": "I can choose useful nearby numbers."
+    },
+    {
+      "start": 26.004875,
+      "end": 29.339041666666667,
+      "text": "I can keep an estimate separate from an exact answer."
+    },
+    {
+      "start": 29.559041666666666,
+      "end": 33.022958333333335,
+      "text": "I can explain whether the answer has a sensible size."
+    },
+    {
+      "start": 33.672958333333334,
+      "end": 36.92,
+      "text": "An estimate is a useful approximate answer."
+    },
+    {
+      "start": 37.14,
+      "end": 40.21370833333334,
+      "text": "Choose a rounding place that suits the situation."
+    },
+    {
+      "start": 40.433708333333335,
+      "end": 47.48591666666667,
+      "text": "Keep the exact numbers for the final calculation; the estimate helps you check the scale, not replace the exact answer."
+    },
+    {
+      "start": 48.13591666666667,
+      "end": 53.690666666666665,
+      "text": "Estimate three thousand eight hundred and seventy-six plus two thousand one hundred and forty-two."
+    },
+    {
+      "start": 53.910666666666664,
+      "end": 58.6375,
+      "text": "Round to the nearest hundred: three thousand nine hundred plus two thousand one hundred."
+    },
+    {
+      "start": 59.2875,
+      "end": 63.79004166666667,
+      "text": "The exact total is six thousand and eighteen, close to six thousand."
+    },
+    {
+      "start": 64.01004166666667,
+      "end": 70.08541666666666,
+      "text": "A result near sixty thousand would be unreasonable because each starting number is only a few thousand."
+    },
+    {
+      "start": 70.73541666666667,
+      "end": 76.00608333333334,
+      "text": "Estimate eight thousand and thirty-two minus three thousand nine hundred and eighty-seven."
+    },
+    {
+      "start": 76.22608333333334,
+      "end": 80.023375,
+      "text": "Nearby thousands give eight thousand minus four thousand."
+    },
+    {
+      "start": 80.673375,
+      "end": 85.33183333333334,
+      "text": "The exact difference is four thousand and forty-five, close to our estimate."
+    },
+    {
+      "start": 85.55183333333333,
+      "end": 90.79008333333333,
+      "text": "Both rounding choices made the mental subtraction simple enough to check the size quickly."
+    },
+    {
+      "start": 91.44008333333333,
+      "end": 96.45275,
+      "text": "An estimate is a helpful check, not a replacement for an exact calculation."
+    },
+    {
+      "start": 96.67275,
+      "end": 99.35441666666667,
+      "text": "About six thousand tells us the scale."
+    },
+    {
+      "start": 99.57441666666666,
+      "end": 102.99641666666666,
+      "text": "Six thousand and eighteen is the exact total."
+    },
+    {
+      "start": 103.21641666666666,
+      "end": 106.89504166666667,
+      "text": "Both have useful jobs, but they answer different questions."
+    },
+    {
+      "start": 107.54504166666666,
+      "end": 113.627625,
+      "text": "Would forty thousand be a reasonable estimate for four thousand nine hundred plus one thousand nine hundred?"
+    },
+    {
+      "start": 117.627625,
+      "end": 118.66541666666667,
+      "text": "No."
+    },
+    {
+      "start": 118.88541666666667,
+      "end": 122.68116666666667,
+      "text": "Five thousand plus two thousand is about seven thousand."
+    },
+    {
+      "start": 122.90116666666667,
+      "end": 127.97970833333333,
+      "text": "The exact answer is six thousand eight hundred, so forty thousand is much too large."
+    },
+    {
+      "start": 128.62970833333333,
+      "end": 134.76366666666667,
+      "text": "Choose sensible nearby numbers, calculate the benchmark, and compare its size with the exact result."
+    },
+    {
+      "start": 134.98366666666666,
+      "end": 137.475125,
+      "text": "Different useful estimates are possible."
+    },
+    {
+      "start": 137.695125,
+      "end": 140.117,
+      "text": "Always explain your rounding choice."
+    },
+    {
+      "start": 140.337,
+      "end": 143.49554166666667,
+      "text": "Now choose a strategy and explain why it works."
+    },
+    {
+      "start": 143.71554166666667,
+      "end": 146.86345833333334,
+      "text": "Have a go at the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.607333333333333,
+      5.257333333333333,
+      "sentence pause"
+    ],
+    [
+      8.697666666666667,
+      8.917666666666667,
+      "sentence pause"
+    ],
+    [
+      15.610416666666667,
+      16.260416666666668,
+      "sentence pause"
+    ],
+    [
+      20.72425,
+      21.37425,
+      "sentence pause"
+    ],
+    [
+      23.124666666666666,
+      23.344666666666665,
+      "sentence pause"
+    ],
+    [
+      25.784875,
+      26.004875,
+      "sentence pause"
+    ],
+    [
+      29.339041666666667,
+      29.559041666666666,
+      "sentence pause"
+    ],
+    [
+      33.022958333333335,
+      33.672958333333334,
+      "sentence pause"
+    ],
+    [
+      36.92,
+      37.14,
+      "sentence pause"
+    ],
+    [
+      40.21370833333334,
+      40.433708333333335,
+      "sentence pause"
+    ],
+    [
+      47.48591666666667,
+      48.13591666666667,
+      "sentence pause"
+    ],
+    [
+      53.690666666666665,
+      53.910666666666664,
+      "sentence pause"
+    ],
+    [
+      58.6375,
+      59.2875,
+      "sentence pause"
+    ],
+    [
+      63.79004166666667,
+      64.01004166666667,
+      "sentence pause"
+    ],
+    [
+      70.08541666666666,
+      70.73541666666667,
+      "sentence pause"
+    ],
+    [
+      76.00608333333334,
+      76.22608333333334,
+      "sentence pause"
+    ],
+    [
+      80.023375,
+      80.67337500000001,
+      "sentence pause"
+    ],
+    [
+      85.33183333333334,
+      85.55183333333333,
+      "sentence pause"
+    ],
+    [
+      90.79008333333333,
+      91.44008333333333,
+      "sentence pause"
+    ],
+    [
+      96.45275,
+      96.67275,
+      "sentence pause"
+    ],
+    [
+      99.35441666666667,
+      99.57441666666666,
+      "sentence pause"
+    ],
+    [
+      102.99641666666666,
+      103.21641666666666,
+      "sentence pause"
+    ],
+    [
+      106.89504166666667,
+      107.54504166666668,
+      "sentence pause"
+    ],
+    [
+      113.627625,
+      117.627625,
+      "think time"
+    ],
+    [
+      118.66541666666667,
+      118.88541666666667,
+      "sentence pause"
+    ],
+    [
+      122.68116666666667,
+      122.90116666666667,
+      "sentence pause"
+    ],
+    [
+      127.97970833333333,
+      128.62970833333333,
+      "sentence pause"
+    ],
+    [
+      134.76366666666667,
+      134.98366666666666,
+      "sentence pause"
+    ],
+    [
+      137.475125,
+      137.695125,
+      "sentence pause"
+    ],
+    [
+      140.117,
+      140.337,
+      "sentence pause"
+    ],
+    [
+      143.49554166666667,
+      143.71554166666667,
+      "sentence pause"
+    ],
+    [
+      146.86345833333334,
+      147.51345833333335,
+      "sentence pause"
+    ]
+  ],
+  "duration": 147.51345833333335,
+  "narration_sha256": "cf69f91d2c2903690c551c9543420283cb2eb67eea1ec11a7f138d147200f913",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

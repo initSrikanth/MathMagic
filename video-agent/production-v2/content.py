@@ -115,6 +115,7 @@ def load_other():
         [('A library has one thousand two hundred and forty-eight books and receives three hundred and seventy-five more. Both quantities are parts of the new total, so add.',['1,248 books + 375 books'], 'The new total is one thousand six hundred and twenty-three books. It is greater than either part, which fits the story. A rough check gives about twelve hundred plus four hundred, or sixteen hundred.',['1,248 + 375 = 1,623 books']),('A class needs nine hundred dollars and has saved six hundred and seventy-five dollars. How much more is needed? This asks for the gap, so subtract.',['$675 + gap = $900'], 'Nine hundred minus six hundred and seventy-five is two hundred and twenty-five dollars. Adding the gap to the savings returns the target, so the model and answer agree.',['900 − 675 = 225','$675 + $225 = $900'])],
         ('A school has eight hundred and twenty seats and five hundred and eighty-six are filled. How many are empty?', ['820 − 586 = ?']),('Two hundred and thirty-four seats are empty. Filled seats and empty seats combine to make all eight hundred and twenty seats.',['820 − 586 = 234','586 + 234 = 820']),
         'Understand, model, calculate, and check. Choose an operation from the relationship between quantities. Give the answer with its unit and explain why its size makes sense.')
+    addition_teaching_standard(out)
     t='multiplication-division'
     add(t,'lesson1','Multiply Efficiently',
         'Could a large multiplication become three familiar facts? Today we are multiplying efficiently by breaking numbers into place-value parts. We will multiply each part and recombine the results, while keeping track of what each digit is worth.',
@@ -147,6 +148,100 @@ def load_other():
         ('A missing number times eighteen equals one thousand four hundred and forty. What is it?', ['□ × 18 = 1,440']),('Eighty times eighteen equals one thousand four hundred and forty, so the missing number is eighty.',['80 × 18 = 1,440']),
         'Identify the equal groups, use an inverse operation for missing values, and estimate before calculating. Check by substitution and state what the result means in the problem.')
     return out
+
+def addition_teaching_standard(lessons):
+    goals=[
+      ('Choose and explain efficient mental addition and subtraction strategies.', ['Choose counting up for nearby numbers.','Use a friendly number and undo the adjustment.','Check an answer using the inverse operation.']),
+      ('Add and subtract whole numbers accurately using written methods.', ['Line up matching place values.','Regroup without changing the total.','Check subtraction by adding back.']),
+      ('Use estimates to check whether an answer is reasonable.', ['Choose useful nearby numbers.','Keep an estimate separate from an exact answer.','Explain whether the answer has a sensible size.']),
+      ('Find missing values using parts, totals and inverse operations.', ['Identify which part or total is missing.','Choose the matching inverse operation.','Put the answer back to check the number sentence.']),
+      ('Model everyday addition and subtraction problems and explain solutions.', ['Identify the known quantities and the question.','Use a bar model to choose an operation.','Give an answer with its unit and check its size.'])]
+    mistakes=[
+      ('Undo the adjustment','An easy mix-up is adding two again after changing three hundred and ninety-eight to four hundred. The friendly calculation is already two too high, so subtract two. You can check by returning to the original numbers.',['400 + 257 = 657','657 − 2 = 655']),
+      ('Exchange, do not invent units','Regrouping does not create extra value. When a zero is involved, exchange from a larger place and adjust that place too. Our regrouped parts must still add to fifty-two thousand. Checking the total keeps every exchange honest.',['40,000 + 11,000 + 900 + 90 + 10 = 52,000']),
+      ('An estimate is not the exact answer','An estimate is a helpful check, not a replacement for an exact calculation. About six thousand tells us the scale. Six thousand and eighteen is the exact total. Both have useful jobs, but they answer different questions.',['Estimate: about 6,000','Exact total: 6,018']),
+      ('Read where the blank belongs','It is tempting to subtract just because you see a subtraction sign. But a missing starting total needs the removed part added back. For a blank minus two hundred and fifty equals five hundred, add those two known parts, then check.',['□ − 250 = 500','500 + 250 = 750']),
+      ('The story decides the operation','The word more does not always mean add. How much more is needed asks for a gap. Picture the savings as one part of the target, find the missing part, and add it back to check.',['900 − 675 = 225','675 + 225 = 900'])]
+    def line(a,b,points,jumps=()):return dict(type='line',start=a,end=b,mark=None,decimals=0,points=points,jumps=[list(j) for j in jumps])
+    def bar(values,labels,total):return dict(type='bar',values=values,labels=labels,total=total)
+    def column(a,b,op,width,result='',**extra):return dict(type='column',a=a,b=b,op=op,width=width,result=result,**extra)
+    for i,l in enumerate(lessons):
+        if l['topic']!='addition-subtraction':continue
+        index=int(l['section'][-1])-1;goal,criteria=goals[index];b=l['beats']
+        if index==0:
+            b[2]['model']=line(5994,6004,[5997,6000],[(5997,6000)])
+            b[3]['model']=line(5994,6004,[5997,6000,6004],[(5997,6000),(6000,6004)])
+            b[4]['model']=line(390,400,[398,400],[(398,400)])
+            b[5]['model']=line(650,660,[657,655],[(657,655)])
+            b[7]['model']=line(496,506,[498,500,502],[(498,500),(500,502)])
+        elif index==1:
+            b[2]['model']=column(2786,1457,'+',4,'   3',carry=['','','1',''])
+            b[3]['board']=['13 ones = 1 ten + 3 ones','14 tens = 1 hundred + 4 tens']
+            b[3]['model']=column(2786,1457,'+',4,'4243',carry=['1','1','1',''])
+            for j in [4,5]:b[j]['model']=column(52000,27684,'−',5,'24316' if j==5 else '',regroup=[4,11,9,9,10])
+            b[7]['model']=column(406,178,'−',3,'228',regroup=[3,9,16])
+        elif index==2:
+            for j,mark in [(2,6000),(3,6018)]:b[j]['model']=line(5900,6100,[6000] if j==2 else [6000,6018])
+            for j,mark in [(4,4000),(5,4045)]:b[j]['model']=line(3900,4100,[4000] if j==4 else [4000,4045])
+            b[7]['model']=line(6000,8000,[6800,7000])
+        elif index==3:
+            b[2]['model']=bar([625,275],['?','275'],'900')
+            b[3]['model']=bar([625,275],['625','275'],'900')
+            b[4]['model']=bar([345,455],['345','?'],'800')
+            b[5]['model']=bar([345,455],['345','455'],'800')
+            b[7]['model']=bar([420,180],['420','180'],'600')
+        else:
+            b[2]['model']=bar([1248,375],['1,248 books','375 books'],'?')
+            b[3]['model']=bar([1248,375],['1,248 books','375 books'],'1,623 books')
+            b[4]['model']=bar([675,225],['$675','gap'],'$900')
+            b[5]['model']=bar([675,225],['$675','$225'],'$900')
+            b[7]['model']=bar([586,234],['586 filled','234 empty'],'820 seats')
+        chapter,text,board=mistakes[index];mistake=beat(text,chapter,board=board);mistake['role']='misconception'
+        if index==0:mistake['model']=line(650,660,[657,655],[(657,655)])
+        if index==1:mistake['model']=column(52000,27684,'−',5,'',regroup=[4,11,9,9,10])
+        if index==2:mistake['model']=line(5900,6100,[6000,6018])
+        if index==3:mistake['model']=bar([500,250],['500','250'],'750')
+        if index==4:mistake['model']=bar([675,225],['$675','$225'],'$900')
+        b.insert(6,mistake)
+        b[-1]['text']+=' Now choose a strategy and explain why it works. Have a go at the lesson practice on MathMagic!'
+        goal_cue=beat('Our learning goal is to '+goal[0].lower()+goal[1:],'Today’s Learning Goal',board=[goal]);goal_cue['role']='learning_goal'
+        success=beat('Success criteria. I can '+'. I can '.join(c.rstrip('.').lower() for c in criteria)+'.','Success Criteria: I can…',board=[str(j)+'. '+c for j,c in enumerate(criteria,1)]);success['role']='success_criteria'
+        b[1:1]=[goal_cue,success]
+
+def validate_addition_models(lessons):
+    count=0
+    for l in lessons:
+        if l['topic']!='addition-subtraction':continue
+        for cue in l['beats']:
+            m=cue.get('model')
+            if not m:continue
+            count+=1
+            if m['type']=='line':
+                assert m['end']>m['start']
+                assert all(m['start']<=v<=m['end'] for v in m['points'])
+                assert all(m['start']<=a<=m['end'] and m['start']<=b<=m['end'] and a!=b for a,b in m['jumps'])
+            elif m['type']=='bar':
+                assert len(m['values'])==len(m['labels']) and all(v>0 for v in m['values'])
+                if m['total']!='?':assert int(''.join(c for c in m['total'] if c.isdigit()))==sum(m['values'])
+                for v,label in zip(m['values'],m['labels']):
+                    digits=''.join(c for c in label if c.isdigit())
+                    if digits:assert int(digits)==v
+            elif m['type']=='column':
+                w=m['width'];aa=[int(c) for c in str(m['a']).zfill(w)];bb=[int(c) for c in str(m['b']).zfill(w)];assert len(aa)==len(bb)==w
+                result=m['a']+m['b'] if m['op']=='+' else m['a']-m['b'];assert 0<=result<10**w;answer=str(result).zfill(w)
+                visible=str(m['result']).rjust(w);assert len(visible)==w
+                assert all(c==' ' or c==answer[i] for i,c in enumerate(visible))
+                if 'regroup' in m:
+                    units=m['regroup'];assert len(units)==w and sum(v*10**(w-1-i) for i,v in enumerate(units))==m['a']
+                    assert all(v-b==int(answer[i]) for i,(v,b) in enumerate(zip(units,bb)))
+                if 'carry' in m:
+                    carry=0;expected=[0]*w
+                    for i in range(w-1,-1,-1):
+                        carry=(aa[i]+bb[i]+carry)//10
+                        if i:expected[i-1]=carry
+                    assert all(c=='' or int(c)==expected[i] for i,c in enumerate(m['carry']))
+            else:raise AssertionError(m['type'])
+    return count
 
 def load_final_topics():
     out=[]

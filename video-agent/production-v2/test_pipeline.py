@@ -76,6 +76,22 @@ class ProductionTests(unittest.TestCase):
         self.assertTrue(all(len(line)<=60 for line in payload))
         self.assertIn('quarter-steps',output)
 
+    def test_addition_goals_models_and_misconceptions(self):
+        from content import validate_addition_models
+        lessons=[l for l in p.LESSONS if l['topic']=='addition-subtraction']
+        self.assertEqual(len(lessons),5)
+        self.assertEqual(validate_addition_models(lessons),30)
+        for l in lessons:
+            self.assertEqual([c['role'] for c in l['beats'][:3]],['opening','learning_goal','success_criteria'])
+            self.assertEqual(len(l['beats'][2]['board']),3)
+            self.assertEqual(l['beats'][2]['text'].count('I can '),3)
+            self.assertTrue(any(c['role']=='misconception' for c in l['beats']))
+            self.assertIn('lesson practice',l['beats'][-1]['text'])
+        bad=copy.deepcopy(lessons)
+        model=next(c['model'] for c in bad[1]['beats'] if c.get('model',{}).get('type')=='column' and c['model'].get('regroup'))
+        model['regroup'][0]+=1
+        with self.assertRaises(AssertionError):validate_addition_models(bad)
+
     def test_staged_media_preserves_previous_video_until_verified(self):
         lesson=next(l for l in p.LESSONS if l['topic']=='decimals-percentages')
         with tempfile.TemporaryDirectory() as tmp:

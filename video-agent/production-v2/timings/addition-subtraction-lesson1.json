@@ -1,0 +1,688 @@
+{
+  "input_hash": "bdcee4beeee0c87d9f49493dceb51767e55f1bf79a948f33b57ecc77f2967275",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 16.864166666666666,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Could subtracting two large numbers be easier than adding two small ones? Today we are choosing mental addition and subtraction strategies. We will look at how close the numbers are, try a friendly number, and explain why our shortcuts keep the answer correct.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "index": 1,
+      "start": 16.864166666666666,
+      "end": 22.987041666666666,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to choose and explain efficient mental addition and subtraction strategies.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Choose and explain efficient mental addition and subtraction strategies."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 22.987041666666666,
+      "end": 35.521541666666664,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can choose counting up for nearby numbers. I can use a friendly number and undo the adjustment. I can check an answer using the inverse operation.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Choose counting up for nearby numbers.",
+        "2. Use a friendly number and undo the adjustment.",
+        "3. Check an answer using the inverse operation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 35.521541666666664,
+      "end": 48.66520833333333,
+      "lesson_progress": 0.3333333333333333,
+      "text": "A useful strategy fits the numbers. Counting up finds the distance between nearby numbers. Compensation changes a number to make a calculation easier, then adjusts the answer to undo that change.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "index": 4,
+      "start": 48.66520833333333,
+      "end": 59.763416666666664,
+      "lesson_progress": 0.4166666666666667,
+      "text": "Find six thousand and four minus five thousand nine hundred and ninety-seven. Counting up avoids lots of regrouping. First go up three to six thousand.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "6,004 − 5,997",
+        "5,997 + 3 = 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5994,
+        "end": 6004,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          5997,
+          6000
+        ],
+        "jumps": [
+          [
+            5997,
+            6000
+          ]
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "start": 59.763416666666664,
+      "end": 71.23158333333333,
+      "lesson_progress": 0.5,
+      "text": "Then go up four more. The total distance is three plus four, which is seven. Check: five thousand nine hundred and ninety-seven plus seven is six thousand and four.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "6,000 + 4 = 6,004",
+        "3 + 4 = 7",
+        "6,004 − 5,997 = 7"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5994,
+        "end": 6004,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          5997,
+          6000,
+          6004
+        ],
+        "jumps": [
+          [
+            5997,
+            6000
+          ],
+          [
+            6000,
+            6004
+          ]
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "start": 71.23158333333333,
+      "end": 79.61533333333334,
+      "lesson_progress": 0.5833333333333334,
+      "text": "Now add three hundred and ninety-eight and two hundred and fifty-seven. Move the first number up by two to make four hundred.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "398 + 257",
+        "400 + 257 = 657"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 390,
+        "end": 400,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          398,
+          400
+        ],
+        "jumps": [
+          [
+            398,
+            400
+          ]
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "start": 79.61533333333334,
+      "end": 92.519125,
+      "lesson_progress": 0.6666666666666666,
+      "text": "We added two too many, so subtract two from six hundred and fifty-seven. The answer is six hundred and fifty-five. Compensation preserves the original total after we undo the change.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "657 − 2 = 655",
+        "398 + 257 = 655"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 650,
+        "end": 660,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          657,
+          655
+        ],
+        "jumps": [
+          [
+            657,
+            655
+          ]
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "start": 92.519125,
+      "end": 107.062875,
+      "lesson_progress": 0.75,
+      "text": "An easy mix-up is adding two again after changing three hundred and ninety-eight to four hundred. The friendly calculation is already two too high, so subtract two. You can check by returning to the original numbers.",
+      "chapter": "Undo the adjustment",
+      "equation": [],
+      "board": [
+        "400 + 257 = 657",
+        "657 − 2 = 655"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "line",
+        "start": 650,
+        "end": 660,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          657,
+          655
+        ],
+        "jumps": [
+          [
+            657,
+            655
+          ]
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "start": 107.062875,
+      "end": 116.399125,
+      "lesson_progress": 0.8333333333333334,
+      "text": "Try five hundred and two minus four hundred and ninety-eight. Can you count up?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "502 − 498 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 116.399125,
+      "end": 122.94941666666666,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Go up two to five hundred, then two more to five hundred and two. The difference is four.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "498 + 2 + 2 = 502",
+        "502 − 498 = 4"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "line",
+        "start": 496,
+        "end": 506,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          498,
+          500,
+          502
+        ],
+        "jumps": [
+          [
+            498,
+            500
+          ],
+          [
+            500,
+            502
+          ]
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "start": 122.94941666666666,
+      "end": 142.314375,
+      "lesson_progress": 1.0,
+      "text": "Look at the numbers before choosing a method. Use counting up for nearby numbers and compensation for friendly totals. Explain the adjustment and check using the inverse operation. Now choose a strategy and explain why it works. Have a go at the lesson practice on MathMagic!",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.714,
+      "text": "Could subtracting two large numbers be easier than adding two small ones?"
+    },
+    {
+      "start": 5.364,
+      "end": 9.384833333333333,
+      "text": "Today we are choosing mental addition and subtraction strategies."
+    },
+    {
+      "start": 9.604833333333334,
+      "end": 16.214166666666667,
+      "text": "We will look at how close the numbers are, try a friendly number, and explain why our shortcuts keep the answer correct."
+    },
+    {
+      "start": 16.864166666666666,
+      "end": 22.337041666666668,
+      "text": "Our learning goal is to choose and explain efficient mental addition and subtraction strategies."
+    },
+    {
+      "start": 22.987041666666666,
+      "end": 24.744041666666668,
+      "text": "Success criteria."
+    },
+    {
+      "start": 24.964041666666667,
+      "end": 27.769166666666667,
+      "text": "I can choose counting up for nearby numbers."
+    },
+    {
+      "start": 27.989166666666666,
+      "end": 31.337666666666667,
+      "text": "I can use a friendly number and undo the adjustment."
+    },
+    {
+      "start": 31.557666666666666,
+      "end": 34.871541666666666,
+      "text": "I can check an answer using the inverse operation."
+    },
+    {
+      "start": 35.521541666666664,
+      "end": 38.040625,
+      "text": "A useful strategy fits the numbers."
+    },
+    {
+      "start": 38.260625,
+      "end": 41.643375,
+      "text": "Counting up finds the distance between nearby numbers."
+    },
+    {
+      "start": 41.863375,
+      "end": 48.015208333333334,
+      "text": "Compensation changes a number to make a calculation easier, then adjusts the answer to undo that change."
+    },
+    {
+      "start": 48.66520833333333,
+      "end": 53.555875,
+      "text": "Find six thousand and four minus five thousand nine hundred and ninety-seven."
+    },
+    {
+      "start": 53.775875,
+      "end": 56.40708333333333,
+      "text": "Counting up avoids lots of regrouping."
+    },
+    {
+      "start": 56.62708333333333,
+      "end": 59.113416666666666,
+      "text": "First go up three to six thousand."
+    },
+    {
+      "start": 59.763416666666664,
+      "end": 61.487833333333334,
+      "text": "Then go up four more."
+    },
+    {
+      "start": 61.70783333333333,
+      "end": 65.22325,
+      "text": "The total distance is three plus four, which is seven."
+    },
+    {
+      "start": 65.44325,
+      "end": 70.58158333333333,
+      "text": "Check: five thousand nine hundred and ninety-seven plus seven is six thousand and four."
+    },
+    {
+      "start": 71.23158333333333,
+      "end": 75.475,
+      "text": "Now add three hundred and ninety-eight and two hundred and fifty-seven."
+    },
+    {
+      "start": 75.695,
+      "end": 78.96533333333333,
+      "text": "Move the first number up by two to make four hundred."
+    },
+    {
+      "start": 79.61533333333334,
+      "end": 84.12754166666667,
+      "text": "We added two too many, so subtract two from six hundred and fifty-seven."
+    },
+    {
+      "start": 84.34754166666667,
+      "end": 87.23166666666667,
+      "text": "The answer is six hundred and fifty-five."
+    },
+    {
+      "start": 87.45166666666667,
+      "end": 91.869125,
+      "text": "Compensation preserves the original total after we undo the change."
+    },
+    {
+      "start": 92.519125,
+      "end": 98.26183333333333,
+      "text": "An easy mix-up is adding two again after changing three hundred and ninety-eight to four hundred."
+    },
+    {
+      "start": 98.48183333333333,
+      "end": 103.08854166666667,
+      "text": "The friendly calculation is already two too high, so subtract two."
+    },
+    {
+      "start": 103.30854166666667,
+      "end": 106.412875,
+      "text": "You can check by returning to the original numbers."
+    },
+    {
+      "start": 107.062875,
+      "end": 110.74941666666666,
+      "text": "Try five hundred and two minus four hundred and ninety-eight."
+    },
+    {
+      "start": 110.96941666666666,
+      "end": 112.399125,
+      "text": "Can you count up?"
+    },
+    {
+      "start": 116.399125,
+      "end": 120.31333333333333,
+      "text": "Go up two to five hundred, then two more to five hundred and two."
+    },
+    {
+      "start": 120.53333333333333,
+      "end": 122.29941666666667,
+      "text": "The difference is four."
+    },
+    {
+      "start": 122.94941666666666,
+      "end": 125.642,
+      "text": "Look at the numbers before choosing a method."
+    },
+    {
+      "start": 125.862,
+      "end": 130.46825,
+      "text": "Use counting up for nearby numbers and compensation for friendly totals."
+    },
+    {
+      "start": 130.68825,
+      "end": 134.91820833333333,
+      "text": "Explain the adjustment and check using the inverse operation."
+    },
+    {
+      "start": 135.13820833333332,
+      "end": 138.29666666666665,
+      "text": "Now choose a strategy and explain why it works."
+    },
+    {
+      "start": 138.51666666666668,
+      "end": 141.664375,
+      "text": "Have a go at the lesson practice on MathMagic!"
+    }
+  ],
+  "pauses": [
+    [
+      4.714,
+      5.364000000000001,
+      "sentence pause"
+    ],
+    [
+      9.384833333333333,
+      9.604833333333334,
+      "sentence pause"
+    ],
+    [
+      16.214166666666667,
+      16.864166666666666,
+      "sentence pause"
+    ],
+    [
+      22.337041666666668,
+      22.987041666666666,
+      "sentence pause"
+    ],
+    [
+      24.744041666666668,
+      24.964041666666667,
+      "sentence pause"
+    ],
+    [
+      27.769166666666667,
+      27.989166666666666,
+      "sentence pause"
+    ],
+    [
+      31.337666666666667,
+      31.557666666666666,
+      "sentence pause"
+    ],
+    [
+      34.871541666666666,
+      35.521541666666664,
+      "sentence pause"
+    ],
+    [
+      38.040625,
+      38.260625,
+      "sentence pause"
+    ],
+    [
+      41.643375,
+      41.863375,
+      "sentence pause"
+    ],
+    [
+      48.015208333333334,
+      48.66520833333333,
+      "sentence pause"
+    ],
+    [
+      53.555875,
+      53.775875,
+      "sentence pause"
+    ],
+    [
+      56.40708333333333,
+      56.62708333333333,
+      "sentence pause"
+    ],
+    [
+      59.113416666666666,
+      59.763416666666664,
+      "sentence pause"
+    ],
+    [
+      61.487833333333334,
+      61.70783333333333,
+      "sentence pause"
+    ],
+    [
+      65.22325,
+      65.44324999999999,
+      "sentence pause"
+    ],
+    [
+      70.58158333333333,
+      71.23158333333333,
+      "sentence pause"
+    ],
+    [
+      75.475,
+      75.695,
+      "sentence pause"
+    ],
+    [
+      78.96533333333333,
+      79.61533333333334,
+      "sentence pause"
+    ],
+    [
+      84.12754166666667,
+      84.34754166666667,
+      "sentence pause"
+    ],
+    [
+      87.23166666666667,
+      87.45166666666667,
+      "sentence pause"
+    ],
+    [
+      91.869125,
+      92.519125,
+      "sentence pause"
+    ],
+    [
+      98.26183333333333,
+      98.48183333333333,
+      "sentence pause"
+    ],
+    [
+      103.08854166666667,
+      103.30854166666667,
+      "sentence pause"
+    ],
+    [
+      106.412875,
+      107.062875,
+      "sentence pause"
+    ],
+    [
+      110.74941666666666,
+      110.96941666666666,
+      "sentence pause"
+    ],
+    [
+      112.399125,
+      116.399125,
+      "think time"
+    ],
+    [
+      120.31333333333333,
+      120.53333333333333,
+      "sentence pause"
+    ],
+    [
+      122.29941666666667,
+      122.94941666666668,
+      "sentence pause"
+    ],
+    [
+      125.642,
+      125.862,
+      "sentence pause"
+    ],
+    [
+      130.46825,
+      130.68825,
+      "sentence pause"
+    ],
+    [
+      134.91820833333333,
+      135.13820833333332,
+      "sentence pause"
+    ],
+    [
+      138.29666666666665,
+      138.51666666666665,
+      "sentence pause"
+    ],
+    [
+      141.664375,
+      142.314375,
+      "sentence pause"
+    ]
+  ],
+  "duration": 142.314375,
+  "narration_sha256": "3bade137072d353b549c3eb3f8266d967447384aca13a35881daa9bcb857d01e",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

@@ -3,15 +3,16 @@
    Actual live HTTP200/206 + hashes are independently checked by verify_live.py. */
 const {chromium}=require('playwright'),{expect}=require('@playwright/test');
 const fs=require('fs'),path=require('path');
-const batch=require('./decimals-release.json'),base='https://initsrikanth.github.io/MathMagic/';
-const cache='/workspace/pr46-live-cache';
+const topic=process.env.MATHMAGIC_TOPIC||'decimals-percentages';
+const batch=require('./'+(topic==='decimals-percentages'?'decimals':topic)+'-release.json'),base='https://initsrikanth.github.io/MathMagic/';
+const cache=topic==='decimals-percentages'?'/workspace/pr46-live-cache':'/workspace/'+topic+'-live-cache';
 (async()=>{
  const verified=JSON.parse(fs.readFileSync(path.join(cache,'verification.json')));expect(verified.passed).toBe(true);
  const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true});const page=await browser.newPage();const results=[];
  await page.route('**/*',async route=>{
   const url=route.request().url();
-  if(!url.startsWith(base)||url.includes('/js/decimals-percentages-auth.js'))return route.abort();
-  const rel=new URL(url).pathname.slice('/MathMagic/'.length),file=path.resolve(cache,rel||'decimals-percentages.html');
+  if(!url.startsWith(base)||url.includes('/js/'+topic+'-auth.js'))return route.abort();
+  const rel=new URL(url).pathname.slice('/MathMagic/'.length),file=path.resolve(cache,rel||topic+'.html');
   if(!file.startsWith(cache+'/')||!fs.existsSync(file))return route.abort();
   const data=fs.readFileSync(file),range=route.request().headers().range;let status=200,body=data;
   const type=file.endsWith('.mp4')?'video/mp4':file.endsWith('.vtt')?'text/vtt':file.endsWith('.css')?'text/css':file.endsWith('.js')?'application/javascript':file.endsWith('.jpg')?'image/jpeg':'text/html';
@@ -20,7 +21,7 @@ const cache='/workspace/pr46-live-cache';
   return route.fulfill({status,headers,body});
  });
  try{
-  await page.goto(base+'decimals-percentages.html');await page.evaluate(()=>document.body.classList.remove('auth-loading'));
+  await page.goto(base+topic+'.html');await page.evaluate(()=>document.body.classList.remove('auth-loading'));
   for(const size of [{width:1440,height:1000},{width:768,height:1024},{width:390,height:844}]){
    await page.setViewportSize(size);
    for(const l of batch.lessons){
