@@ -2,7 +2,7 @@
 
 - total videos required: 30
 - videos successfully rendered: 25
-- videos committed: 20
+- videos committed: 25
 - videos deployed and verified live: 20
 - remaining videos: 10
 - last successful batch: {'id': '20261102T105149Z', 'lessons': ['addition-subtraction-lesson1', 'addition-subtraction-lesson2', 'addition-subtraction-lesson3', 'addition-subtraction-lesson4', 'addition-subtraction-lesson5'], 'completed': '2026-11-02T19:36:23.808267+00:00'}
