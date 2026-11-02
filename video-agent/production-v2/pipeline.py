@@ -319,13 +319,23 @@ def live(m):
     persist(m)
     return not any(e.get('deployment_error') for e in m['lessons'].values())
 
+def next_video_batch(m):
+    """Prioritise Decimals and never mix different topics in a render batch."""
+    for topic in ('decimals-percentages', 'addition-subtraction',
+                  'multiplication-division', 'factors-multiples'):
+        pending = [l['id'] for l in LESSONS if l['topic'] == topic
+                   and m['lessons'][l['id']]['production_status'] != 'integrated']
+        if pending:
+            return pending[:5]
+    return []
+
 def batch_run(m,args):
     if not due(m) and not (args.resume_active and m.get('active_batch')): print('No production due.'); return
     started=now(); deadline=time.monotonic()+args.budget_minutes*60
     if not args.resume_active:
         m['last_batch_started']=iso(started); m['next_batch_due']=iso(started+dt.timedelta(hours=5))
     if not m.get('active_batch'):
-        pending=[l['id'] for l in LESSONS if m['lessons'][l['id']]['production_status']!='integrated'][:5]
+        pending=next_video_batch(m)
         if not pending:
             print('Rendering complete; live deployment verification remains.'); persist(m); return
         m['active_batch']=dict(id=started.strftime('%Y%m%dT%H%M%SZ'),lessons=pending,started=iso(started),rollback_sha=git('rev-parse','HEAD'))

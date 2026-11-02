@@ -28,6 +28,21 @@ class ProductionTests(unittest.TestCase):
         s=p.summary(m); self.assertEqual(s['videos_successfully_rendered'],1)
         self.assertEqual(s['videos_committed'],0); self.assertEqual(s['videos_deployed_and_verified_live'],0)
     def test_all_authored_arithmetic(self): self.assertEqual(p.maths()['lessons'],30)
+    def test_next_video_batch_prioritises_decimals_without_mixing_topics(self):
+        m=self.state()
+        topics=('decimals-percentages','addition-subtraction',
+                'multiplication-division','factors-multiples')
+        for topic in topics:
+            expected=[l['id'] for l in p.LESSONS if l['topic']==topic]
+            self.assertEqual(len(expected),5)
+            self.assertEqual(p.next_video_batch(m),expected)
+            for lesson_id in expected:
+                m['lessons'][lesson_id]['production_status']='integrated'
+        self.assertEqual(p.next_video_batch(m),[])
+        decimals=[l['id'] for l in p.LESSONS if l['topic']=='decimals-percentages']
+        m['lessons'][decimals[-1]]['production_status']='pending'
+        self.assertEqual(p.next_video_batch(m),[decimals[-1]])
+
     def test_decimals_goals_and_three_criteria_are_spoken_and_visible(self):
         lessons = [lesson for lesson in p.LESSONS if lesson['topic'] == 'decimals-percentages']
         self.assertEqual(len(lessons), 5)
