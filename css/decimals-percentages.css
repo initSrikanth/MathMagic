@@ -10,3 +10,17 @@
 .learning-intentions p{margin:0}
 .learning-intentions ul{margin:0;padding-left:1.5rem}
 .learning-intentions li{margin:4px 0}
+
+/* Year 5 Page 4: fraction, decimal and percentage equivalents share positions. */
+.equivalence-numberline{max-width:850px;margin:20px auto;padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--soft)}
+.equivalence-numberline h3{margin:0 0 12px;text-align:center}
+.equivalence-numberline-scroll{max-width:100%;overflow-x:auto}
+.equivalence-numberline-scroll:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+.equivalence-numberline svg{display:block;width:100%;min-width:650px;height:auto;margin:auto;background:#fff;border-radius:12px}
+.equivalence-axis{stroke:var(--ink);stroke-width:4;stroke-linecap:round}
+.equivalence-ticks line{stroke:var(--primary);stroke-width:4}
+.equivalence-fractions{fill:var(--ink);font-size:23px;font-weight:800}
+.equivalence-fractions line{stroke:var(--ink);stroke-width:2.5}
+.equivalence-decimals{fill:var(--ink);font-size:23px;font-weight:800}
+.equivalence-percents{fill:#087f96;font-size:20px;font-weight:800}
+.equivalence-numberline figcaption{margin-top:12px;line-height:1.5}
