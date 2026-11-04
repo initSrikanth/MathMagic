@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "scope": "All future teaching videos; current remediation inventory is exactly 35 Year 5 core placements",
+  "scope": "All Year 5, Year 6 and Year 7 teaching videos; current remediation inventory is exactly 35 Year 5 core placements",
+  "applicable_year_levels": [5, 6, 7],
   "production_hold": {
     "active": true,
     "reason": "Owner mandated individual 35-video quality audit and correction; no new topics or production batches",
-    "release_requires": "Founder-authorised lift after critical defects resolved or explicitly blocked"
+    "release_requires": "The founder authorises verified remediation deployment without intermediate approval. Mandatory quality evidence is still required; no new-topic production until the hold is explicitly lifted."
   },
   "approved_voice": {
     "model": "Kokoro v1.0 multilingual ONNX",
@@ -81,7 +82,7 @@
     "reflection and natural brand-free ending"
   ],
   "mathematics": {
-    "australian_curriculum": "Version 9 Year 5; no unlabelled extension assessment",
+    "australian_curriculum": "Version 9 for the lesson's stated Year 5, Year 6 or Year 7 level; the current 35-video library is Year 5. Verify official codes rather than inventing them; no unlabelled extension assessment.",
     "exact_independent_validation": true,
     "stacked_fractions_horizontal_bar_only": true,
     "units_shading_and_models_match_values": true,

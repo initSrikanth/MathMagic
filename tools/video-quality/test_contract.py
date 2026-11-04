@@ -11,6 +11,16 @@ class VideoContractTests(unittest.TestCase):
  def test_nested_rendered_brand_is_detected(self):self.assertTrue(any(c.branded(t) for t in c.rendered_texts({'beats':[{'board':['Try Math Magic']}]})))
  def test_generation_hold_blocks(self):
   with self.assertRaisesRegex(RuntimeError,'SUSPENDED'):c.assert_generation_allowed()
+ def test_contract_covers_all_requested_year_levels(self):
+  self.assertEqual(c.load()['applicable_year_levels'],[5,6,7])
+ def test_preserved_wrong_voice_is_not_approved_for_synthesis_or_release(self):
+  row=json.loads(c.REGISTER.read_text())['records'][20]
+  result=c.assert_preservation_edit_allowed(row,{'text':'Explain your strategy.'})
+  self.assertTrue(result['review_only'])
+  self.assertFalse(result['voice_approved']);self.assertFalse(result['synthesis_allowed']);self.assertFalse(result['release_allowed'])
+ def test_preservation_edit_cannot_introduce_branding(self):
+  row=json.loads(c.REGISTER.read_text())['records'][0]
+  with self.assertRaisesRegex(AssertionError,'branding'):c.assert_preservation_edit_allowed(row,{'text':'Visit MathMagic'})
  def test_no_british_fallback_for_candidates(self):
   with self.assertRaisesRegex(AssertionError,'Unapproved voice'):c.assert_generation_allowed('remediation_candidate',[{'topic':'measurement','text':'Predict the length.'}],{'name':'bf_emma','speaker_id':7})
  def test_no_new_topic_in_candidate_mode(self):

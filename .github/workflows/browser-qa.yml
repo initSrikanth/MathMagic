@@ -35,7 +35,15 @@ jobs:
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback
-        run: npx playwright install --with-deps chromium chrome webkit
+        run: |
+          # Avoid the Azure Ubuntu mirror that exhausted the job timeout in run 41911114963.
+          # Keep official Ubuntu repositories, package signatures and all browser checks.
+          for sources in /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu.sources; do
+            if [ -f "$sources" ]; then
+              sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' "$sources"
+            fi
+          done
+          npx playwright install --with-deps chromium chrome webkit
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

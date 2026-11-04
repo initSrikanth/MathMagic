@@ -50,6 +50,14 @@ def assert_release(records):
   if review.get('video_sha256')!=r.get('expected_sha256'):errors.append(f"{r['number']:02}: review not bound to exact video bytes")
  if errors:raise RuntimeError('VIDEO RELEASE BLOCKED:\n'+'\n'.join(errors))
  return True
+
+def assert_preservation_edit_allowed(record,clean):
+ """Allow review-only branding cuts, including bad voices, without approving synthesis or release."""
+ assert record['mp4'] in {r['mp4'] for r in json.loads(REGISTER.read_text())['records']},'Existing inventory only'
+ source=ROOT/record['mp4']
+ assert hashlib.sha256(source.read_bytes()).hexdigest()==record['expected_sha256'],'Original media changed'
+ assert not any(branded(t) for t in rendered_texts(clean)), 'Prohibited branding in edited source'
+ return {'review_only':True,'voice_approved':False,'synthesis_allowed':False,'release_allowed':False}
 if __name__=='__main__':
  c=load()
  if '--release' in sys.argv:assert_release(json.loads(REGISTER.read_text())['records'])
