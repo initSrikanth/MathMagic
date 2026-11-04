@@ -1,0 +1,710 @@
+{
+  "input_hash": "9534d36f768e0e219934214cb6286cbadfc38966271165d45b146369f3c3e196",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 13.31625,
+      "lesson_progress": 0.08333333333333333,
+      "text": "How many equal square tiles would cover a small floor? A long piece of string cannot cover the surface. We need a different measure from perimeter: area tells us how much flat space a shape covers.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 1,
+      "start": 13.31625,
+      "end": 18.292125,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to explain and find area using square units.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Explain and find area using square units."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 18.292125,
+      "end": 30.177083333333332,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can cover a surface without gaps or overlaps. I can use rows and columns to count squares. I can distinguish area from perimeter.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Cover a surface without gaps or overlaps.",
+        "2. Use rows and columns to count squares.",
+        "3. Distinguish area from perimeter."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 30.177083333333332,
+      "end": 48.14279166666667,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Arrange equal unit squares without gaps or overlaps. Each square covers one square unit. For a rectangle, equal rows let us count efficiently with multiplication. A square centimetre is a square one centimetre along each side, not a one-centimetre length.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 4,
+      "start": 48.14279166666667,
+      "end": 60.86441666666666,
+      "lesson_progress": 0.4166666666666667,
+      "text": "A rectangle has eight columns and five rows of square-centimetre tiles. Predict how many unit squares cover it. Each row contains eight squares, and there are five equal rows.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "8 squares in each row",
+        "5 equal rows"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 5,
+      "start": 60.86441666666666,
+      "end": 74.63141666666667,
+      "lesson_progress": 0.5,
+      "text": "Five groups of eight make forty unit squares. The area is forty square centimetres. Multiplying eight centimetres by five centimetres counts the same tiled surface, so we write the squared unit.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "8 × 5 = 40 cm²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 74.63141666666667,
+      "end": 88.12341666666667,
+      "lesson_progress": 0.5833333333333334,
+      "text": "A play mat is seven metres by four metres. Imagine covering it with one-metre squares. There are seven squares along each row, with four rows altogether. What would the surface measurement be?",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "7 columns × 4 rows",
+        "Each tile: 1 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 88.12341666666667,
+      "end": 100.98925,
+      "lesson_progress": 0.6666666666666666,
+      "text": "The area is twenty-eight square metres. The perimeter is a different quantity: seven plus four plus seven plus four is twenty-two metres. Area counts the cover; perimeter measures the border.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Area: 7 × 4 = 28 m²",
+        "Perimeter: 7 + 4 + 7 + 4 = 22 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 100.98925,
+      "end": 114.693875,
+      "lesson_progress": 0.75,
+      "text": "Adding eight and five does not count the tiles covering an eight-by-five rectangle. It counts only two side lengths. To find area, use all five rows of eight equal squares, with no gaps or overlaps.",
+      "chapter": "Square units are not side lengths",
+      "equation": [],
+      "board": [
+        "5 rows of 8 squares",
+        "Area: 40 cm², not 13 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 9,
+      "start": 114.693875,
+      "end": 124.63325,
+      "lesson_progress": 0.8333333333333334,
+      "text": "A rectangle has six columns and four rows of unit squares. What is its area?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "6 columns × 4 rows",
+        "Area = ? square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 124.63325,
+      "end": 135.38825,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Four groups of six make twenty-four square units. You can check by counting the tiles or adding six four times. No tile should be counted twice.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "6 × 4 = 24 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 6,
+        "h": 4,
+        "unit": "",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 11,
+      "start": 135.38825,
+      "end": 160.94758333333334,
+      "lesson_progress": 1.0,
+      "text": "Area counts equal squares covering a surface. Use rows and columns to count efficiently and always label the square unit. Draw two rectangles with the same area on squared paper. Do they have to have the same perimeter? Explain with a drawing. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Cover with equal squares, without gaps.",
+        "Rows × columns counts area.",
+        "Same area need not mean the same perimeter."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.6065416666666668,
+      "text": "How many equal square tiles would cover a small floor?"
+    },
+    {
+      "start": 4.256541666666666,
+      "end": 7.346,
+      "text": "A long piece of string cannot cover the surface."
+    },
+    {
+      "start": 7.566,
+      "end": 12.66625,
+      "text": "We need a different measure from perimeter: area tells us how much flat space a shape covers."
+    },
+    {
+      "start": 13.31625,
+      "end": 17.642125,
+      "text": "Our learning goal is to explain and find area using square units."
+    },
+    {
+      "start": 18.292125,
+      "end": 20.04275,
+      "text": "Success criteria."
+    },
+    {
+      "start": 20.26275,
+      "end": 23.623208333333334,
+      "text": "I can cover a surface without gaps or overlaps."
+    },
+    {
+      "start": 23.843208333333333,
+      "end": 26.884541666666667,
+      "text": "I can use rows and columns to count squares."
+    },
+    {
+      "start": 27.104541666666666,
+      "end": 29.527083333333334,
+      "text": "I can distinguish area from perimeter."
+    },
+    {
+      "start": 30.177083333333332,
+      "end": 34.05,
+      "text": "Arrange equal unit squares without gaps or overlaps."
+    },
+    {
+      "start": 34.27,
+      "end": 36.84758333333333,
+      "text": "Each square covers one square unit."
+    },
+    {
+      "start": 37.06758333333333,
+      "end": 41.532666666666664,
+      "text": "For a rectangle, equal rows let us count efficiently with multiplication."
+    },
+    {
+      "start": 41.75266666666667,
+      "end": 47.49279166666667,
+      "text": "A square centimetre is a square one centimetre along each side, not a one-centimetre length."
+    },
+    {
+      "start": 48.14279166666667,
+      "end": 52.987833333333334,
+      "text": "A rectangle has eight columns and five rows of square-centimetre tiles."
+    },
+    {
+      "start": 53.20783333333333,
+      "end": 55.8645,
+      "text": "Predict how many unit squares cover it."
+    },
+    {
+      "start": 56.0845,
+      "end": 60.214416666666665,
+      "text": "Each row contains eight squares, and there are five equal rows."
+    },
+    {
+      "start": 60.86441666666666,
+      "end": 63.90058333333333,
+      "text": "Five groups of eight make forty unit squares."
+    },
+    {
+      "start": 64.12058333333333,
+      "end": 67.00775,
+      "text": "The area is forty square centimetres."
+    },
+    {
+      "start": 67.22775,
+      "end": 73.98141666666666,
+      "text": "Multiplying eight centimetres by five centimetres counts the same tiled surface, so we write the squared unit."
+    },
+    {
+      "start": 74.63141666666667,
+      "end": 77.776,
+      "text": "A play mat is seven metres by four metres."
+    },
+    {
+      "start": 77.996,
+      "end": 80.95445833333333,
+      "text": "Imagine covering it with one-metre squares."
+    },
+    {
+      "start": 81.17445833333333,
+      "end": 84.98466666666667,
+      "text": "There are seven squares along each row, with four rows altogether."
+    },
+    {
+      "start": 85.20466666666667,
+      "end": 87.47341666666667,
+      "text": "What would the surface measurement be?"
+    },
+    {
+      "start": 88.12341666666667,
+      "end": 90.89558333333333,
+      "text": "The area is twenty-eight square metres."
+    },
+    {
+      "start": 91.11558333333333,
+      "end": 96.93645833333333,
+      "text": "The perimeter is a different quantity: seven plus four plus seven plus four is twenty-two metres."
+    },
+    {
+      "start": 97.15645833333333,
+      "end": 100.33925,
+      "text": "Area counts the cover; perimeter measures the border."
+    },
+    {
+      "start": 100.98925,
+      "end": 105.94316666666667,
+      "text": "Adding eight and five does not count the tiles covering an eight-by-five rectangle."
+    },
+    {
+      "start": 106.16316666666667,
+      "end": 108.506875,
+      "text": "It counts only two side lengths."
+    },
+    {
+      "start": 108.726875,
+      "end": 114.043875,
+      "text": "To find area, use all five rows of eight equal squares, with no gaps or overlaps."
+    },
+    {
+      "start": 114.693875,
+      "end": 118.84495833333334,
+      "text": "A rectangle has six columns and four rows of unit squares."
+    },
+    {
+      "start": 119.06495833333334,
+      "end": 120.63325,
+      "text": "What is its area?"
+    },
+    {
+      "start": 124.63325,
+      "end": 127.88558333333333,
+      "text": "Four groups of six make twenty-four square units."
+    },
+    {
+      "start": 128.10558333333333,
+      "end": 132.17070833333332,
+      "text": "You can check by counting the tiles or adding six four times."
+    },
+    {
+      "start": 132.39070833333332,
+      "end": 134.73825,
+      "text": "No tile should be counted twice."
+    },
+    {
+      "start": 135.38825,
+      "end": 138.762625,
+      "text": "Area counts equal squares covering a surface."
+    },
+    {
+      "start": 138.982625,
+      "end": 143.628625,
+      "text": "Use rows and columns to count efficiently and always label the square unit."
+    },
+    {
+      "start": 143.848625,
+      "end": 147.73208333333332,
+      "text": "Draw two rectangles with the same area on squared paper."
+    },
+    {
+      "start": 147.95208333333332,
+      "end": 150.252125,
+      "text": "Do they have to have the same perimeter?"
+    },
+    {
+      "start": 150.902125,
+      "end": 152.58870833333333,
+      "text": "Explain with a drawing."
+    },
+    {
+      "start": 152.80870833333333,
+      "end": 155.639,
+      "text": "Reflect on which model helped you and why."
+    },
+    {
+      "start": 155.859,
+      "end": 160.29758333333334,
+      "text": "Now try the MathMagic practice, and explain your thinking to someone."
+    }
+  ],
+  "pauses": [
+    [
+      3.6065416666666668,
+      4.256541666666667,
+      "sentence pause"
+    ],
+    [
+      7.346,
+      7.566,
+      "sentence pause"
+    ],
+    [
+      12.66625,
+      13.31625,
+      "sentence pause"
+    ],
+    [
+      17.642125,
+      18.292125,
+      "sentence pause"
+    ],
+    [
+      20.04275,
+      20.26275,
+      "sentence pause"
+    ],
+    [
+      23.623208333333334,
+      23.843208333333333,
+      "sentence pause"
+    ],
+    [
+      26.884541666666667,
+      27.104541666666666,
+      "sentence pause"
+    ],
+    [
+      29.527083333333334,
+      30.177083333333332,
+      "sentence pause"
+    ],
+    [
+      34.05,
+      34.269999999999996,
+      "sentence pause"
+    ],
+    [
+      36.84758333333333,
+      37.06758333333333,
+      "sentence pause"
+    ],
+    [
+      41.532666666666664,
+      41.75266666666666,
+      "sentence pause"
+    ],
+    [
+      47.49279166666667,
+      48.14279166666667,
+      "sentence pause"
+    ],
+    [
+      52.987833333333334,
+      53.20783333333333,
+      "sentence pause"
+    ],
+    [
+      55.8645,
+      56.0845,
+      "sentence pause"
+    ],
+    [
+      60.214416666666665,
+      60.86441666666666,
+      "sentence pause"
+    ],
+    [
+      63.90058333333333,
+      64.12058333333333,
+      "sentence pause"
+    ],
+    [
+      67.00775,
+      67.22775,
+      "sentence pause"
+    ],
+    [
+      73.98141666666666,
+      74.63141666666667,
+      "sentence pause"
+    ],
+    [
+      77.776,
+      77.996,
+      "sentence pause"
+    ],
+    [
+      80.95445833333333,
+      81.17445833333333,
+      "sentence pause"
+    ],
+    [
+      84.98466666666667,
+      85.20466666666667,
+      "sentence pause"
+    ],
+    [
+      87.47341666666667,
+      88.12341666666667,
+      "sentence pause"
+    ],
+    [
+      90.89558333333333,
+      91.11558333333333,
+      "sentence pause"
+    ],
+    [
+      96.93645833333333,
+      97.15645833333333,
+      "sentence pause"
+    ],
+    [
+      100.33925,
+      100.98925000000001,
+      "sentence pause"
+    ],
+    [
+      105.94316666666667,
+      106.16316666666667,
+      "sentence pause"
+    ],
+    [
+      108.506875,
+      108.72687499999999,
+      "sentence pause"
+    ],
+    [
+      114.043875,
+      114.693875,
+      "sentence pause"
+    ],
+    [
+      118.84495833333334,
+      119.06495833333334,
+      "sentence pause"
+    ],
+    [
+      120.63325,
+      124.63325,
+      "think time"
+    ],
+    [
+      127.88558333333333,
+      128.10558333333333,
+      "sentence pause"
+    ],
+    [
+      132.17070833333332,
+      132.39070833333332,
+      "sentence pause"
+    ],
+    [
+      134.73825,
+      135.38825,
+      "sentence pause"
+    ],
+    [
+      138.762625,
+      138.982625,
+      "sentence pause"
+    ],
+    [
+      143.628625,
+      143.848625,
+      "sentence pause"
+    ],
+    [
+      147.73208333333332,
+      147.95208333333332,
+      "sentence pause"
+    ],
+    [
+      150.252125,
+      150.902125,
+      "sentence pause"
+    ],
+    [
+      152.58870833333333,
+      152.80870833333333,
+      "sentence pause"
+    ],
+    [
+      155.639,
+      155.859,
+      "sentence pause"
+    ],
+    [
+      160.29758333333334,
+      160.94758333333334,
+      "sentence pause"
+    ]
+  ],
+  "duration": 160.94758333333334,
+  "narration_sha256": "fee5b11e50c68ffc908ff2051bbb28b0a7bc22c74694b91988fc3275ba2ddd10",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

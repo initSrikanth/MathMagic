@@ -2,3 +2,8 @@
 work/
 __pycache__/
 *.pyc
+
+# Local dependency and emulator caches
+node_modules/
+.firebase/
+*-debug.log

@@ -1,0 +1,717 @@
+{
+  "input_hash": "96c6c56385c6e15f67ae806a482ade157250d7f3496e94a67f4a9094da337f20",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 14.541916666666667,
+      "lesson_progress": 0.08333333333333333,
+      "text": "A playground has a corner cut out for a tree. Can we still work out how many paving tiles it needs? An irregular outline does not stop us measuring. Let us turn the tricky shape into familiar rectangles.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 1,
+      "start": 14.541916666666667,
+      "end": 19.441,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to solve practical problems with irregular shapes.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Solve practical problems with irregular shapes."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 19.441,
+      "end": 32.1755,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can split a shape or subtract a missing rectangle. I can check every outside length for perimeter. I can compare designs using the required measure.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Split a shape or subtract a missing rectangle.",
+        "2. Check every outside length for perimeter.",
+        "3. Compare designs using the required measure."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 32.1755,
+      "end": 49.215,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Build an L shape with square tiles, then slide a pencil along possible dividing lines. You can split its area into non-overlapping rectangles, or start with a large rectangle and subtract the missing part. Both methods must cover exactly the same surface.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 4,
+      "start": 49.215,
+      "end": 62.63016666666667,
+      "lesson_progress": 0.4166666666666667,
+      "text": "An L-shaped space fits inside an eight-metre by six-metre rectangle. A three-metre by two-metre corner is missing. Predict whether its area is greater or smaller than forty-eight square metres.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Whole rectangle: 8 × 6 = 48 m²",
+        "Missing corner: 3 × 2 = 6 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 5,
+      "start": 62.63016666666667,
+      "end": 78.82029166666666,
+      "lesson_progress": 0.5,
+      "text": "Subtract the missing six square metres from forty-eight. The L-shaped area is forty-two square metres. As a check, split it into an eight-by-four rectangle and a five-by-two rectangle. Thirty-two plus ten also gives forty-two.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "48 − 6 = 42 m²",
+        "8 × 4 + 5 × 2 = 42 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 78.82029166666666,
+      "end": 92.20833333333333,
+      "lesson_progress": 0.5833333333333334,
+      "text": "A larger design fits inside a ten-metre by eight-metre rectangle, with a four-by-three corner missing. Plan the area calculation first. Keep the border measurement separate from the surface measurement.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "Whole area: 10 × 8 = 80 m²",
+        "Missing area: 4 × 3 = 12 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 10,
+        "h": 8,
+        "a": 4,
+        "b": 3,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 92.20833333333333,
+      "end": 107.69333333333333,
+      "lesson_progress": 0.6666666666666666,
+      "text": "The usable area is sixty-eight square metres. For its border, trace ten, five, four, three, six and eight metres. That perimeter is thirty-six metres. Different questions about the same design need different measures.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Area: 80 − 12 = 68 m²",
+        "Border: 10 + 5 + 4 + 3 + 6 + 8 = 36 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 10,
+        "h": 8,
+        "a": 4,
+        "b": 3,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 107.69333333333333,
+      "end": 121.29058333333333,
+      "lesson_progress": 0.75,
+      "text": "Using the full eight-by-six rectangle would include the tree corner. That overcounts six square metres. Subtract the missing rectangle, or add two rectangles that cover only the actual playground.",
+      "chapter": "The missing corner does not need tiles",
+      "equation": [],
+      "board": [
+        "48 m² includes the missing corner",
+        "48 − 6 = 42 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 9,
+      "start": 121.29058333333333,
+      "end": 131.46529166666667,
+      "lesson_progress": 0.8333333333333334,
+      "text": "A six-by-five rectangle has a two-by-two corner removed. What area remains?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "Whole: 6 × 5 square units",
+        "Remove: 2 × 2 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 131.46529166666667,
+      "end": 142.51895833333333,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Thirty minus four leaves twenty-six square units. The missing corner is not part of the surface, so subtract it once, rather than including the full bounding rectangle.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "30 − 4 = 26 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 6,
+        "h": 5,
+        "a": 2,
+        "b": 2,
+        "unit": "",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "index": 11,
+      "start": 142.51895833333333,
+      "end": 167.24808333333334,
+      "lesson_progress": 1.0,
+      "text": "Choose the measure the problem needs. For area, split or subtract rectangles; for perimeter, trace every outside edge. Draw a garden on squared paper and explain a paving plan and a fencing plan. Check that your answers describe the actual design. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Area: split or subtract rectangles.",
+        "Perimeter: trace the outside boundary.",
+        "Plan, calculate and check the real design."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.9719166666666665,
+      "text": "A playground has a corner cut out for a tree."
+    },
+    {
+      "start": 3.1919166666666667,
+      "end": 6.505791666666667,
+      "text": "Can we still work out how many paving tiles it needs?"
+    },
+    {
+      "start": 7.1557916666666666,
+      "end": 10.315833333333334,
+      "text": "An irregular outline does not stop us measuring."
+    },
+    {
+      "start": 10.535833333333333,
+      "end": 13.891916666666667,
+      "text": "Let us turn the tricky shape into familiar rectangles."
+    },
+    {
+      "start": 14.541916666666667,
+      "end": 18.791,
+      "text": "Our learning goal is to solve practical problems with irregular shapes."
+    },
+    {
+      "start": 19.441,
+      "end": 21.191416666666665,
+      "text": "Success criteria."
+    },
+    {
+      "start": 21.411416666666668,
+      "end": 24.783083333333334,
+      "text": "I can split a shape or subtract a missing rectangle."
+    },
+    {
+      "start": 25.003083333333333,
+      "end": 27.911583333333333,
+      "text": "I can check every outside length for perimeter."
+    },
+    {
+      "start": 28.13158333333333,
+      "end": 31.5255,
+      "text": "I can compare designs using the required measure."
+    },
+    {
+      "start": 32.1755,
+      "end": 37.52554166666667,
+      "text": "Build an L shape with square tiles, then slide a pencil along possible dividing lines."
+    },
+    {
+      "start": 37.74554166666667,
+      "end": 44.916125,
+      "text": "You can split its area into non-overlapping rectangles, or start with a large rectangle and subtract the missing part."
+    },
+    {
+      "start": 45.136125,
+      "end": 48.565,
+      "text": "Both methods must cover exactly the same surface."
+    },
+    {
+      "start": 49.215,
+      "end": 53.748416666666664,
+      "text": "An L-shaped space fits inside an eight-metre by six-metre rectangle."
+    },
+    {
+      "start": 53.96841666666667,
+      "end": 56.96895833333333,
+      "text": "A three-metre by two-metre corner is missing."
+    },
+    {
+      "start": 57.18895833333333,
+      "end": 61.98016666666667,
+      "text": "Predict whether its area is greater or smaller than forty-eight square metres."
+    },
+    {
+      "start": 62.63016666666667,
+      "end": 66.0825,
+      "text": "Subtract the missing six square metres from forty-eight."
+    },
+    {
+      "start": 66.3025,
+      "end": 69.538125,
+      "text": "The L-shaped area is forty-two square metres."
+    },
+    {
+      "start": 69.758125,
+      "end": 74.76595833333333,
+      "text": "As a check, split it into an eight-by-four rectangle and a five-by-two rectangle."
+    },
+    {
+      "start": 74.98595833333333,
+      "end": 78.17029166666667,
+      "text": "Thirty-two plus ten also gives forty-two."
+    },
+    {
+      "start": 78.82029166666666,
+      "end": 85.10008333333333,
+      "text": "A larger design fits inside a ten-metre by eight-metre rectangle, with a four-by-three corner missing."
+    },
+    {
+      "start": 85.32008333333333,
+      "end": 87.93345833333333,
+      "text": "Plan the area calculation first."
+    },
+    {
+      "start": 88.15345833333333,
+      "end": 91.55833333333334,
+      "text": "Keep the border measurement separate from the surface measurement."
+    },
+    {
+      "start": 92.20833333333333,
+      "end": 95.53841666666666,
+      "text": "The usable area is sixty-eight square metres."
+    },
+    {
+      "start": 95.75841666666666,
+      "end": 100.35641666666666,
+      "text": "For its border, trace ten, five, four, three, six and eight metres."
+    },
+    {
+      "start": 100.57641666666666,
+      "end": 103.21054166666667,
+      "text": "That perimeter is thirty-six metres."
+    },
+    {
+      "start": 103.43054166666667,
+      "end": 107.04333333333334,
+      "text": "Different questions about the same design need different measures."
+    },
+    {
+      "start": 107.69333333333333,
+      "end": 111.99925,
+      "text": "Using the full eight-by-six rectangle would include the tree corner."
+    },
+    {
+      "start": 112.21925,
+      "end": 114.773,
+      "text": "That overcounts six square metres."
+    },
+    {
+      "start": 114.993,
+      "end": 120.64058333333334,
+      "text": "Subtract the missing rectangle, or add two rectangles that cover only the actual playground."
+    },
+    {
+      "start": 121.29058333333333,
+      "end": 125.53720833333334,
+      "text": "A six-by-five rectangle has a two-by-two corner removed."
+    },
+    {
+      "start": 125.75720833333334,
+      "end": 127.46529166666667,
+      "text": "What area remains?"
+    },
+    {
+      "start": 131.46529166666667,
+      "end": 134.65025,
+      "text": "Thirty minus four leaves twenty-six square units."
+    },
+    {
+      "start": 134.87025,
+      "end": 141.86895833333332,
+      "text": "The missing corner is not part of the surface, so subtract it once, rather than including the full bounding rectangle."
+    },
+    {
+      "start": 142.51895833333333,
+      "end": 144.79954166666667,
+      "text": "Choose the measure the problem needs."
+    },
+    {
+      "start": 145.01954166666667,
+      "end": 150.50895833333334,
+      "text": "For area, split or subtract rectangles; for perimeter, trace every outside edge."
+    },
+    {
+      "start": 150.72895833333334,
+      "end": 155.352875,
+      "text": "Draw a garden on squared paper and explain a paving plan and a fencing plan."
+    },
+    {
+      "start": 155.572875,
+      "end": 158.895375,
+      "text": "Check that your answers describe the actual design."
+    },
+    {
+      "start": 159.115375,
+      "end": 161.945625,
+      "text": "Reflect on which model helped you and why."
+    },
+    {
+      "start": 162.165625,
+      "end": 166.59808333333334,
+      "text": "Now try the MathMagic practice, and explain your thinking to someone."
+    }
+  ],
+  "pauses": [
+    [
+      2.9719166666666665,
+      3.1919166666666667,
+      "sentence pause"
+    ],
+    [
+      6.505791666666667,
+      7.155791666666667,
+      "sentence pause"
+    ],
+    [
+      10.315833333333334,
+      10.535833333333334,
+      "sentence pause"
+    ],
+    [
+      13.891916666666667,
+      14.541916666666667,
+      "sentence pause"
+    ],
+    [
+      18.791,
+      19.441,
+      "sentence pause"
+    ],
+    [
+      21.191416666666665,
+      21.411416666666664,
+      "sentence pause"
+    ],
+    [
+      24.783083333333334,
+      25.003083333333333,
+      "sentence pause"
+    ],
+    [
+      27.911583333333333,
+      28.13158333333333,
+      "sentence pause"
+    ],
+    [
+      31.5255,
+      32.1755,
+      "sentence pause"
+    ],
+    [
+      37.52554166666667,
+      37.74554166666667,
+      "sentence pause"
+    ],
+    [
+      44.916125,
+      45.136125,
+      "sentence pause"
+    ],
+    [
+      48.565,
+      49.214999999999996,
+      "sentence pause"
+    ],
+    [
+      53.748416666666664,
+      53.96841666666666,
+      "sentence pause"
+    ],
+    [
+      56.96895833333333,
+      57.18895833333333,
+      "sentence pause"
+    ],
+    [
+      61.98016666666667,
+      62.63016666666667,
+      "sentence pause"
+    ],
+    [
+      66.0825,
+      66.3025,
+      "sentence pause"
+    ],
+    [
+      69.538125,
+      69.75812499999999,
+      "sentence pause"
+    ],
+    [
+      74.76595833333333,
+      74.98595833333333,
+      "sentence pause"
+    ],
+    [
+      78.17029166666667,
+      78.82029166666668,
+      "sentence pause"
+    ],
+    [
+      85.10008333333333,
+      85.32008333333333,
+      "sentence pause"
+    ],
+    [
+      87.93345833333333,
+      88.15345833333333,
+      "sentence pause"
+    ],
+    [
+      91.55833333333334,
+      92.20833333333334,
+      "sentence pause"
+    ],
+    [
+      95.53841666666666,
+      95.75841666666666,
+      "sentence pause"
+    ],
+    [
+      100.35641666666666,
+      100.57641666666666,
+      "sentence pause"
+    ],
+    [
+      103.21054166666667,
+      103.43054166666667,
+      "sentence pause"
+    ],
+    [
+      107.04333333333334,
+      107.69333333333334,
+      "sentence pause"
+    ],
+    [
+      111.99925,
+      112.21925,
+      "sentence pause"
+    ],
+    [
+      114.773,
+      114.993,
+      "sentence pause"
+    ],
+    [
+      120.64058333333334,
+      121.29058333333334,
+      "sentence pause"
+    ],
+    [
+      125.53720833333334,
+      125.75720833333334,
+      "sentence pause"
+    ],
+    [
+      127.46529166666667,
+      131.46529166666667,
+      "think time"
+    ],
+    [
+      134.65025,
+      134.87025,
+      "sentence pause"
+    ],
+    [
+      141.86895833333332,
+      142.51895833333333,
+      "sentence pause"
+    ],
+    [
+      144.79954166666667,
+      145.01954166666667,
+      "sentence pause"
+    ],
+    [
+      150.50895833333334,
+      150.72895833333334,
+      "sentence pause"
+    ],
+    [
+      155.352875,
+      155.572875,
+      "sentence pause"
+    ],
+    [
+      158.895375,
+      159.115375,
+      "sentence pause"
+    ],
+    [
+      161.945625,
+      162.165625,
+      "sentence pause"
+    ],
+    [
+      166.59808333333334,
+      167.24808333333334,
+      "sentence pause"
+    ]
+  ],
+  "duration": 167.24808333333334,
+  "narration_sha256": "411241973baadc6562c11031b79d34f4d42a664c98ed18382be7b0dd789eff96",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}

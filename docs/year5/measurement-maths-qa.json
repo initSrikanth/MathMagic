@@ -1,0 +1,20 @@
+{
+  "content": {
+    "lessons": 5,
+    "scenes": 60,
+    "models": 40,
+    "board_equations": 27,
+    "exact_geometry": "SymPy polygons: area and perimeter",
+    "result": "passed"
+  },
+  "quiz": {
+    "result": "passed",
+    "attempts": 1000,
+    "positions": 30000,
+    "families": 27,
+    "duplicates": 0,
+    "invalid_answers": 0,
+    "plausible_unique_choices": "checked",
+    "independent_engine": "Python exact arithmetic and cached SymPy polygon geometry"
+  }
+}
