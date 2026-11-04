@@ -1,0 +1,79 @@
+{
+  "duration": 141.233333,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "24000"
+  },
+  "decoded_frames": 4237,
+  "blank_frame_candidates": 0,
+  "audio_rms": 0.06147994473576546,
+  "clipping_fraction": 0.0,
+  "long_silent_gaps": [
+    {
+      "start": 111.9,
+      "end": 116.0,
+      "duration": 4.1
+    }
+  ],
+  "extended_static_intervals": [
+    {
+      "start": 0.73,
+      "end": 16.27,
+      "duration": 15.53,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 22.7,
+      "end": 34.43,
+      "duration": 11.73,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 35.2,
+      "end": 57.17,
+      "duration": 21.97,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 66.2,
+      "end": 76.23,
+      "duration": 10.03,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 83.97,
+      "end": 95.8,
+      "duration": 11.83,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 96.63,
+      "end": 109.3,
+      "duration": 12.67,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 124.3,
+      "end": 141.2,
+      "duration": 16.9,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    }
+  ],
+  "full_audio_asr": "docs/video-quality-evidence/21/full-audio-asr.json",
+  "brand_asr_matches": [],
+  "frame_contact": "docs/video-quality-evidence/21/scene-contact.jpg",
+  "phase_contact": "docs/video-quality-evidence/21/begin-middle-ending.jpg",
+  "sampled_frame_ocr": "docs/video-quality-evidence/21/sampled-frame-ocr.json",
+  "ocr_brand_matches": [],
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "caption_brand_found": true,
+  "actual_listening_performed": false,
+  "full_temporal_perceptual_viewing_performed": false,
+  "video_sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+  "faststart": true
+}

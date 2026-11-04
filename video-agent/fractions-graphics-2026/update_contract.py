@@ -3,6 +3,11 @@ from pathlib import Path
 import re
 P=Path(__file__).resolve().parent;ROOT=P.parents[1]
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  p=ROOT/'tests/external-video-pattern.test.js';s=p.read_text();start=s.index('const approvedVideos=new Map([');end=s.index('\n]);',start)+4
  old=s[start:end];pairs=re.findall(r"\['([^']+)','([^']+)'\]",old);kept=pairs[:5];assert len(kept)==5 and all('Fractions' not in pair[0] and 'LCM' not in pair[0] and 'Mixed_Numbers' not in pair[0] for pair in kept)
  literal=',\n'.join('  '+repr(list(pair)).replace(', ',",") for pair in kept+[('videos/MathMagic_Finding_LCM_FINAL_1080p.mp4','videos/MathMagic_Finding_LCM_FINAL_1080p.mp4')])

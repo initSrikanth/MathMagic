@@ -5,6 +5,11 @@ BASE=Path(__file__).resolve().parent;ROOT=BASE.parents[1];TOPIC=os.environ.get('
 sp=importlib.util.spec_from_file_location('approved_card_parser',BASE.parent/'fractions-graphics-2026/integrate.py');old=importlib.util.module_from_spec(sp);sp.loader.exec_module(old);Cards=old.Cards
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  m=json.loads((P/'manifest.json').read_text());assert len(m['lessons'])==5 and all(e['status']=='verified' for e in m['lessons'])
  page=ROOT/(TOPIC+'.html');before=page.read_text();sections={e['section'] for e in m['lessons']};cards=[c for c in Cards(before).cards if c[0] in sections];assert len(cards)==5
  backup=dict(base_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),cards={},assets={});replace={}

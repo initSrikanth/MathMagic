@@ -1,0 +1,80 @@
+{
+  "limitation": "Samples every authored scene plus beginning/middle/end, not every frame; absence of OCR match cannot establish absence of branding",
+  "samples": [
+    {
+      "at": 1.5,
+      "text": "Use Divisibility Rules\n\nLet’s investigate\n\ne@eee\n\n@eee\n\n@eee\n",
+      "brand_found": false
+    },
+    {
+      "at": 2,
+      "text": "Use Divisibility Rules\n\nLet’s investigate\n\ne@eee\n\n@eee\n\n@eee\n",
+      "brand_found": false
+    },
+    {
+      "at": 17.367,
+      "text": "Use Divisibility Rules\n\nToday’s Learning Goal\n\nUse divisibility rules and explain why a test passes.\n",
+      "brand_found": false
+    },
+    {
+      "at": 22.967,
+      "text": "Use Divisibility Rules\n\nSuccess Criteria: | can...\n\n1. Choose the test for the divisor.\n\n2. Use final digits or digit sums correctly.\n\n3. Combine the tests for two and three to test six.\n",
+      "brand_found": false
+    },
+    {
+      "at": 35.341,
+      "text": "Use Divisibility Rules\n\nBuild the idea\n\nDivisor\n\nEvidence\n\nPasses?\n\nLast digit 0\n\nYes\n\nDi\n\nLast two digit:\n\nLast\n\n6\n\n220\n\nBoth 2 and 3\n\nYes\n\nDigit sum 3\n\n10\n\nLast digit 0\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 51.666,
+      "text": "Use Divisibility Rules\n\nExample 1: plan\n\n738: last digit 8 is even\n\nDivisor\n\nEvidence\n\nPasses?\n\n2\n\nLast digit 8\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 63.511,
+      "text": "Use Divisibility Rules\n\nExample 1: explain\n\n7+3+8=18\n\n738 +6 = 123\n\nDivisor\n\nEvidence\n\nPasses?\n\n2\n\nLast digit 8\n\nYes\n\n5)\n\nDigit sum 18\n\nYes\n\n6\n\nBoth 2 and 3\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 75.156,
+      "text": "Use Divisibility Rules\n\nExample 2: plan\n\n1,245: ends in 5\n\nDivisor\n\nEvidence\n\nPasses?\n\n5)\n\nLast digit 5\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 75.844,
+      "text": "Use Divisibility Rules\n\nExample 2: plan\n\n1,245: ends in 5\n\nDivisor\n\nEvidence\n\nPasses?\n\n5)\n\nLast digit 5\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 85.353,
+      "text": "Use Divisibility Rules\n\nExample 2: explain\n\n1+2+4+5=12\n\nDivisible by 5; not by 9\n\nDivisor\n\nEvidence\n\nPasses?\n\n5)\n\nLast digit 5\n\nYes\n\noI\n\nDigit sum 12\n\nNo\n",
+      "brand_found": false
+    },
+    {
+      "at": 97.861,
+      "text": "Use Divisibility Rules\n\nOne passing test is not enough\n\n14: even, but1+4=5\n\n14 is not divisible by 6\n\nDivisor\n\nEvidence\n\nPasses?\n\n2\n\nLast digit 4\n\nYes\n\n3)\n\nDigit sum 5\n\nNo\n\n6\n\nBoth 2 and 3\n\nNo\n",
+      "brand_found": false
+    },
+    {
+      "at": 111.305,
+      "text": "Use Divisibility Rules\n\nYour turn\n\n312: test the final two digits\n\nThink time * 4 seconds\n",
+      "brand_found": false
+    },
+    {
+      "at": 118.371,
+      "text": "Use Divisibility Rules\n\nLet’s check\n\n12+4=3\n\n4x 78 = 312\n\nDivisor\n\nEvidence\n\nPasses?\n\n4\n\nLast two digits 12\n\nYes\n",
+      "brand_found": false
+    },
+    {
+      "at": 130.648,
+      "text": "Use Divisibility Rules\n\nWhat to remember\n\nChoose the divisor > apply its test > explain\n\nFor 6, check both 2 and 3\n",
+      "brand_found": false
+    },
+    {
+      "at": 148.811,
+      "text": "Use Divisibility Rules\n\nWhat to remember\n\nChoose the divisor > apply its test > explain\n\nFor 6, check both 2 and 3\n",
+      "brand_found": false
+    }
+  ]
+}

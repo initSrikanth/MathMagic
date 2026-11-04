@@ -30,7 +30,7 @@ def maths():
   b=l['beats'];assert b[0]['role']=='hook' and b[1]['role']=='goal' and b[-1]['role']=='recap'
   assert sum(x['role']=='criteria' for x in b)==3 and sum(x['role']=='prediction' for x in b)>=2
   assert any(x['role']=='question' and x['pause']==5 for x in b) and any(x['role']=='misconception' for x in b)
-  assert 'Math Magic' in b[-1]['text'] and 'L C M' not in ' '.join(x['text'] for x in b[:-1]) if l['section']=='addsub' else True
+  assert 'L C M' not in ' '.join(x['text'] for x in b[:-1]) if l['section']=='addsub' else True  # Branding is prohibited by the authoritative production contract.
   for c in b:
    visible=[c['chapter'],c.get('note',''),c.get('display','')]+[r['label'] for r in c.get('rows',[])]+c.get('criteria',[])
    assert all(not re.search(r'\d+\s*/\s*\d+',s) for s in visible)

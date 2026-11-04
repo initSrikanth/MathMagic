@@ -3,6 +3,11 @@ from pathlib import Path
 import json,html,hashlib
 ROOT=Path(__file__).parent;REPO=ROOT.parents[1]
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  checks=json.loads((ROOT/'qa'/'all-media.json').read_text());assert len(checks)==5 and all(x['status']=='PASS'for x in checks)
  p=REPO/'whole-numbers.html';baseline=p.read_text();s=baseline
  for lesson in json.loads((ROOT/'lessons.json').read_text()):

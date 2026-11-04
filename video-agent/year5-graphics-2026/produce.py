@@ -85,6 +85,11 @@ def render(l,folder,timeline,narration):
 
 def main():
  # Resume only exact, hash-verified completed outputs; scene/speech caches are also retained.
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  old=json.loads((HERE/'manifest.json').read_text()) if (HERE/'manifest.json').exists() else {}
  completed={e['id']:e for e in old.get('lessons',[])}
  # Approved script source is retained before synthesis.

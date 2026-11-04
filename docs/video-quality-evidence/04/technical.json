@@ -1,0 +1,112 @@
+{
+  "duration": 228.3,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "48000"
+  },
+  "decoded_frames": 6848,
+  "blank_frame_candidates": 0,
+  "audio_rms": 0.1523536890745163,
+  "clipping_fraction": 0.0,
+  "long_silent_gaps": [
+    {
+      "start": 65.6,
+      "end": 68.7,
+      "duration": 3.1
+    },
+    {
+      "start": 100.3,
+      "end": 103.4,
+      "duration": 3.1
+    },
+    {
+      "start": 195.5,
+      "end": 200.6,
+      "duration": 5.1
+    },
+    {
+      "start": 226.2,
+      "end": 228.2,
+      "duration": 2.0
+    }
+  ],
+  "extended_static_intervals": [
+    {
+      "start": 0.0,
+      "end": 10.3,
+      "duration": 10.3,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 10.6,
+      "end": 20.64,
+      "duration": 10.03,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 36.04,
+      "end": 45.41,
+      "duration": 9.37,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 45.71,
+      "end": 57.88,
+      "duration": 12.17,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 75.61,
+      "end": 93.25,
+      "duration": 17.64,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 103.58,
+      "end": 111.65,
+      "duration": 8.07,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 111.95,
+      "end": 126.05,
+      "duration": 14.1,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 134.55,
+      "end": 150.49,
+      "duration": 15.94,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 177.36,
+      "end": 187.76,
+      "duration": 10.4,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 207.66,
+      "end": 228.27,
+      "duration": 20.6,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    }
+  ],
+  "full_audio_asr": "docs/video-quality-evidence/04/full-audio-asr.json",
+  "brand_asr_matches": [],
+  "frame_contact": "docs/video-quality-evidence/04/scene-contact.jpg",
+  "phase_contact": "docs/video-quality-evidence/04/begin-middle-ending.jpg",
+  "sampled_frame_ocr": "docs/video-quality-evidence/04/sampled-frame-ocr.json",
+  "ocr_brand_matches": [],
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "caption_brand_found": true,
+  "actual_listening_performed": false,
+  "full_temporal_perceptual_viewing_performed": false,
+  "video_sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+  "faststart": true
+}

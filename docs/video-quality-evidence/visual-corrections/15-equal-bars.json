@@ -1,0 +1,33 @@
+{
+  "number": 15,
+  "scene": 6,
+  "status": "Graphic draft only; not integrated or released",
+  "changes": {
+    "text": "Compare a bar that is half shaded with a bar that is zero point four shaded. Use equal complete bars for the wholes.",
+    "chapter": "Example 2: plan",
+    "equation": [],
+    "board": [
+      "50% ? 40%"
+    ],
+    "rows": [
+      {
+        "n": 5,
+        "d": 10,
+        "label": "One half: 5 tenths = 50%",
+        "colour": "teal"
+      },
+      {
+        "n": 4,
+        "d": 10,
+        "label": "0.4: four tenths = 40%",
+        "colour": "gold"
+      }
+    ],
+    "line": null,
+    "area": null,
+    "context": null,
+    "note": "Equal wholes and equal tenths make the comparison fair.",
+    "role": "explanation"
+  },
+  "mathematics": "Independent Fraction arithmetic checked; reuse existing stacked-fraction/number-line/bar primitives"
+}

@@ -45,6 +45,8 @@ jobs:
           path: work/production-v2
           key: production-v2-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: production-v2-
+      - name: Honour mandatory video-production hold
+        run: python3 -c "import sys; sys.path.insert(0,'tools/video-quality'); from guard import enforce; enforce()"
       - name: Recover intermediates from artifact if the cache was evicted
         if: steps.due.outputs.due == 'true'
         run: |
