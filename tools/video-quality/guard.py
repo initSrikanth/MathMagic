@@ -13,7 +13,6 @@ def enforce():
  if isinstance(declared,dict):voice=declared
  elif isinstance(declared,int):voice={'name':c['approved_voice']['voice'] if declared==31 else 'unapproved','speaker_id':declared}
  if voice is None:raise RuntimeError('Unverified production entry: explicit voice/script provenance and scoped contract approval required; use remediation API for review-only work.')
- if c['approved_voice']['enhanced_enthusiasm_approval'] is None:raise RuntimeError('Enhanced expressive voice profile is not perceptually approved')
  modelsha=globs.get('MODEL_SHA')
  if modelsha:voice=dict(voice,model_sha256=modelsha)
  model=globs.get('MODEL')

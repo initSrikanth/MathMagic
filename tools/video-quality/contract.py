@@ -17,6 +17,7 @@ def rendered_texts(value,key=None):
 def assert_generation_allowed(purpose='production',lessons=None,voice=None):
  c=load()
  if c['production_hold']['active'] and purpose!='remediation_candidate':raise RuntimeError('VIDEO PRODUCTION SUSPENDED: '+c['production_hold']['reason']+'. Only explicitly scoped review candidates may be prepared; no publication.')
+ if purpose=='production' and c['approved_voice']['enhanced_enthusiasm_approval'] is None:raise RuntimeError('Enhanced expressive voice profile is not perceptually approved')
  if purpose in ['production','remediation_candidate']:assert lessons and voice, 'Generation requires explicit script and voice provenance'
  if purpose=='remediation_candidate':
   allowed={r['topic'] for r in json.loads(REGISTER.read_text())['records']}

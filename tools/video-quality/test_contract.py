@@ -24,6 +24,10 @@ class VideoContractTests(unittest.TestCase):
   row=copy.deepcopy(json.loads(c.REGISTER.read_text())['records'][0]);row['final_status']='PASS'
   for a in row['attributes'].values():a['status']='PASS'
   with self.assertRaisesRegex(RuntimeError,'review missing'):c.assert_release([row])
+ def test_thaw_does_not_waive_enthusiasm_calibration(self):
+  cfg=copy.deepcopy(c.load());cfg['production_hold']['active']=False
+  with patch.object(c,'load',return_value=cfg):
+   with self.assertRaisesRegex(RuntimeError,'not perceptually approved'):c.assert_generation_allowed('production',[{'topic':'measurement','text':'Predict.'}],{'name':'hf_alpha','speaker_id':31})
  def test_overlay_branding(self):
   self.assertTrue(c.overlay_brand_literals('text(d, "MathMagic", 20, 30)'));self.assertFalse(c.overlay_brand_literals('print("MathMagic_file.mp4")'))
  def test_exact_worked_arithmetic(self):
