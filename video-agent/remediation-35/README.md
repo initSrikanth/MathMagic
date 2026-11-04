@@ -58,6 +58,8 @@ These are 854×480 scene previews, not full 1080p replacements. Models use indep
 
 Kokoro v1.0 hf_alpha, Apache-2.0, same installed Measurement baseline. No paid calls, unauthorised voice imitation, artificial pitch/time effects or inserted silence. Accent and increased enthusiasm remain UNVERIFIED pending meaningful listening. No replacement-narration batch was generated under an unverified expressive configuration.
 
+[Candidate browser evidence](candidate-browser-playback.json): 90 Chromium checks passed (30 videos × phone, tablet and desktop widths), exercising playback, seeking, captions, ending and containment. These are local review-byte tests through unchanged player markup, not live replacement deployment or physical-device/Safari tests.
+
 ## Release blocker
 
 The execution tools support waveform analysis, ASR, decoded images and browser automation, but no meaningful audio listening/full-motion perceptual assessment. None of the 35 videos has received every mandatory perceptual check. Actual full-video review bound to each exact final SHA-256, and validation of the requested enhanced delivery, are needed before publication. Founder authorisation is already recorded; no routine intermediate approval is being requested.

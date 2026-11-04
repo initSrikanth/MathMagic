@@ -1,0 +1,70 @@
+{
+  "observed_utc": "2026-11-04T21:01:53Z",
+  "scope": "Fresh exact-byte checks of all seven live lesson pages and one Measurement original; previous full 35-media checksum evidence retained because no published MP4 changed",
+  "checks": [
+    {
+      "path": "addition-subtraction.html",
+      "url": "https://initsrikanth.github.io/MathMagic/addition-subtraction.html",
+      "status": 200,
+      "bytes": 26779,
+      "sha256": "9813b2dc3032b4d598605025a2940cdd6957c94d0186ea34d22057f775d0e0ed",
+      "unchanged": true
+    },
+    {
+      "path": "decimals-percentages.html",
+      "url": "https://initsrikanth.github.io/MathMagic/decimals-percentages.html",
+      "status": 200,
+      "bytes": 25441,
+      "sha256": "1788b1597a3dcc8b8c428c24b49c56ca2a2ddfd13309780428170258d7b1a774",
+      "unchanged": true
+    },
+    {
+      "path": "factors-multiples.html",
+      "url": "https://initsrikanth.github.io/MathMagic/factors-multiples.html",
+      "status": 200,
+      "bytes": 26011,
+      "sha256": "682f21cbfd521fd4fd47a75a2a7e5d76cb0995af353fa1a5be64e9d627222aa8",
+      "unchanged": true
+    },
+    {
+      "path": "fractions.html",
+      "url": "https://initsrikanth.github.io/MathMagic/fractions.html",
+      "status": 200,
+      "bytes": 46630,
+      "sha256": "5d1fdd97eca39578a1b058efd049ada4a2173963dbc95e2ef36b9c4230c83bd4",
+      "unchanged": true
+    },
+    {
+      "path": "measurement.html",
+      "url": "https://initsrikanth.github.io/MathMagic/measurement.html",
+      "status": 200,
+      "bytes": 43313,
+      "sha256": "f655ac12423df051edf17ae1e59ba30a85f0382d2d7422279974a0fa897f4ed7",
+      "unchanged": true
+    },
+    {
+      "path": "multiplication-division.html",
+      "url": "https://initsrikanth.github.io/MathMagic/multiplication-division.html",
+      "status": 200,
+      "bytes": 24181,
+      "sha256": "06f1bd1bd2084316e45168672db0702d6bc5bd9efa428fbf932bf34d15eb32b0",
+      "unchanged": true
+    },
+    {
+      "path": "whole-numbers.html",
+      "url": "https://initsrikanth.github.io/MathMagic/whole-numbers.html",
+      "status": 200,
+      "bytes": 38275,
+      "sha256": "59878d9cc0a891ca25ecc7ac775a85a261f977fecf74cb415b076003d7e6fb00",
+      "unchanged": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson1.mp4",
+      "url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson1.mp4",
+      "status": 200,
+      "bytes": 3152035,
+      "sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+      "unchanged": true
+    }
+  ]
+}

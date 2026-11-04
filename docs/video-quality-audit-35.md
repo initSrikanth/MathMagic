@@ -33,6 +33,17 @@ No video receives PASS while a required attribute remains unexamined. `final_sta
 - fully perceptually audited: 0
 - fully passing: 0
 - remediated and deployed: 0
+- branding edits prepared: 30
+- unchanged packet prefix cuts: 29
+- lcmsafe internal sentence edits: 1
+- published branding violations resolved: 0
+- accent corrections completed: 0
+- full video animation corrections completed: 0
+- original audio animated model previews: 2
+- mathematical equation errors resolved: 0
+- candidate browser cases passed: 90
+- corrected teaching videos deployed: 0
+- perceptual checks passed: 0
 
 ## Numbered inventory
 
