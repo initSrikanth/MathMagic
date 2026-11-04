@@ -1,0 +1,210 @@
+{
+  "purpose": "Review only, no live replacement",
+  "results": [
+    {
+      "number": 31,
+      "lesson": "Choose Units and Measure Length",
+      "source": "videos/MathMagic_V3_measurement_lesson1.mp4",
+      "source_sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+      "candidate": "video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review.mp4",
+      "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+      "bytes": 3056211,
+      "cut_seconds": 139.48991666666666,
+      "removed_caption": {
+        "start": 139.50495772298177,
+        "end": 143.571875,
+        "text": "Now try the MathMagic practice, and explain your thinking to someone."
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4187,
+          "original_packets": 4307,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3271,
+          "original_packets": 3366,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        139.41491666666667,
+        139.57491666666667
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " DETICATION MEASURE A PENCIL IN SENTIMETERS AND MILLIMITTIS DISCUSS WHICH READING DESCRIBES ITS LENGTH MORE PRECISELY REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+    },
+    {
+      "number": 32,
+      "lesson": "Measure Mass and Capacity",
+      "source": "videos/MathMagic_V3_measurement_lesson2.mp4",
+      "source_sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+      "candidate": "video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review.mp4",
+      "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+      "bytes": 3246064,
+      "cut_seconds": 152.268,
+      "removed_caption": {
+        "start": 152.26304086558025,
+        "end": 156.35004166666667,
+        "text": "Now try the MathMagic practice, and explain your thinking to someone."
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4571,
+          "original_packets": 4691,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3570,
+          "original_packets": 3666,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        152.193,
+        152.35299999999998
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " OR MARKED JUG WITH AN ADULT PREDICT A READING MEASURE CAREFULLY AND EXPLAIN THE DIFFERENCE BETWEEN YOUR ESTIMATE AND OBSERVATION REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+    },
+    {
+      "number": 33,
+      "lesson": "Trace and Calculate Perimeter",
+      "source": "videos/MathMagic_V3_measurement_lesson3.mp4",
+      "source_sha256": "a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f",
+      "candidate": "video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review.mp4",
+      "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+      "bytes": 2636513,
+      "cut_seconds": 136.47625,
+      "removed_caption": {
+        "start": 136.46129113260906,
+        "end": 140.565625,
+        "text": "Now try the MathMagic practice, and explain your thinking to someone."
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4097,
+          "original_packets": 4217,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3200,
+          "original_packets": 3296,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        136.40125,
+        136.56125
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " AND KEEP UNITS CONSISTENT TRY OUTLINING A BOOK WITH STRING THEN COMPARE A DIRECT MEASUREMENT WITH THE TOTAL OF ITS SIDE LENGTHS REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+    },
+    {
+      "number": 34,
+      "lesson": "Cover and Calculate Area",
+      "source": "videos/MathMagic_V3_measurement_lesson4.mp4",
+      "source_sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+      "candidate": "video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review.mp4",
+      "sha256": "37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a",
+      "bytes": 2936324,
+      "cut_seconds": 139.27604166666669,
+      "removed_caption": {
+        "start": 139.28108318074544,
+        "end": 143.36325,
+        "text": "Now try the MathMagic practice, and explain your thinking to someone."
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4181,
+          "original_packets": 4301,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3266,
+          "original_packets": 3362,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        139.20104166666667,
+        139.36104166666667
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " TWO RECTANGLES WITH THE SAME AREA ON SQUARED PAPER DO THEY HAVE TO HAVE THE SAME PERIMETER EXPLAIN WITH A DRAWING REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+    },
+    {
+      "number": 35,
+      "lesson": "Design with Irregular Shapes",
+      "source": "videos/MathMagic_V3_measurement_lesson5.mp4",
+      "source_sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+      "candidate": "video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review.mp4",
+      "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+      "bytes": 3102329,
+      "cut_seconds": 146.89141666666666,
+      "removed_caption": {
+        "start": 146.9164571126302,
+        "end": 150.97525000000002,
+        "text": "Now try the MathMagic practice, and explain your thinking to someone."
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4409,
+          "original_packets": 4529,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3444,
+          "original_packets": 3540,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        146.81641666666667,
+        146.97641666666667
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " ON SQUARED PAPER AND EXPLAIN A PAVING PLAN AND A FENCING PLAN CHECK THAT YOUR ANSWERS DESCRIBE THE ACTUAL DESIGN REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "measurement-lesson1",
+  "topic": "measurement",
+  "section": "lesson1",
+  "title": "Choose Units and Measure Length",
+  "file": "MathMagic_V3_measurement_lesson1",
+  "beats": [
+    {
+      "text": "Could the same pencil seem longer just because someone moved the ruler? Imagine two friends measuring it from different marks. Before we trust a number, let us investigate the unit, the scale and the starting point.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Our learning goal is to measure length accurately using useful metric units.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Measure length accurately using useful metric units."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can choose a sensible unit and instrument. I can read a ruler from the correct starting point. I can combine metres and centimetres accurately.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Choose a sensible unit and instrument.",
+        "2. Read a ruler from the correct starting point.",
+        "3. Combine metres and centimetres accurately."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Remember that a measure counts equal units. Millimetres help with small details, centimetres suit a pencil, metres suit a room, and kilometres suit a long journey. Choose a tool with useful markings. Smaller units can give a more precise measurement, rather than changing the object.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "units",
+        "reveal": false
+      }
+    },
+    {
+      "text": "A ribbon begins at the two centimetre mark and ends at nine centimetres. Predict its length. Count the equal one-centimetre intervals between those marks, rather than reading the final label alone.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Start: 2 cm",
+        "End: 9 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": false
+      }
+    },
+    {
+      "text": "There are seven centimetres between the marks. Nine minus two equals seven. Moving the ruler does not stretch the ribbon: subtract the starting reading whenever the object is not lined up with zero.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "9 \u2212 2 = 7 cm",
+        "Length is the difference"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A display board measures two metres and thirty-five centimetres. We want a single centimetre reading. One metre contains one hundred centimetres, so the two metres account for two hundred centimetres.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "1 m = 100 cm",
+        "2 m = 200 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 2,
+        "part": 35,
+        "factor": 100,
+        "big": "m",
+        "small": "cm",
+        "reveal": false
+      }
+    },
+    {
+      "text": "Add the remaining thirty-five centimetres. Two hundred plus thirty-five makes two hundred and thirty-five centimetres. The combined measure and the single-unit measure describe exactly the same length.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "200 + 35 = 235 cm",
+        "2 m 35 cm = 235 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 2,
+        "part": 35,
+        "factor": 100,
+        "big": "m",
+        "small": "cm",
+        "reveal": true
+      }
+    },
+    {
+      "text": "Reading nine centimetres as the ribbon length ignores where it started. Count the space between the marks. A different starting mark changes the subtraction, but not the physical ribbon.",
+      "chapter": "Read the distance, not just the end",
+      "equation": [],
+      "board": [
+        "End reading is not always the length",
+        "9 \u2212 2 = 7 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A strip starts at three centimetres and ends at eleven centimetres. How long is it? Look at the model, and keep your prediction in mind.",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "Start 3 cm \u2192 end 11 cm",
+        "Length = ? cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4,
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 3,
+        "end": 11,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Eleven minus three is eight centimetres. Check by counting eight equal intervals, or placing a zero-start ruler beside the same strip.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "11 \u2212 3 = 8 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 3,
+        "end": 11,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Choose a useful unit, read the interval size and check the starting mark. For a practical investigation, measure a pencil in centimetres and millimetres. Discuss which reading describes its length more precisely. Reflect on which model helped you and why.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Choose the unit \u2192 read equal intervals.",
+        "Length = end reading \u2212 start reading.",
+        "Try measuring a pencil two ways."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "codes": [
+    "AC9M5M01"
+  ]
+}

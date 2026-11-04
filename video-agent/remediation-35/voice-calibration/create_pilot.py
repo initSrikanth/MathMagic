@@ -1,0 +1,16 @@
+"""One offline voice-only remediation audition; never integrate or call a paid API."""
+from pathlib import Path
+import sys,json,time,hashlib
+import numpy as np,soundfile as sf,sherpa_onnx
+ROOT=Path(__file__).resolve().parents[3];sys.path.insert(0,str(ROOT/'tools/video-quality'));from contract import load,assert_generation_allowed
+c=load();out=ROOT/'video-agent/remediation-35/voice-calibration';out.mkdir(exist_ok=True)
+parts=[('hook',"Could a big multiplication be hiding three smaller facts? Let's investigate!",1.0),('goal',"Our goal is to use place value to make multiplying easier.",1.0),('explanation',"For three hundred and twenty-four times eight, we can split the number into three hundred, twenty and four.",.98),('prediction',"Which part would you try first? Keep your prediction in mind.",.94),('discovery',"Here's the useful discovery: multiply each part by eight, then combine the results. Every part matters!",.98),('recap',"You have turned one big question into familiar facts. What a helpful strategy to explain to a friend!",1.0)]
+text=' '.join(x[1] for x in parts);assert_generation_allowed('remediation_candidate',[{'topic':'multiplication-division','text':text}],c['approved_voice']);assert 300+20+4==324 and 324*8==2592
+if (out/'native-curiosity-01.wav').exists():
+ print('Existing audition preserved; no synthesis repeated.');sys.exit(0)
+m=Path('/workspace/voice-calibration/kokoro-multi-lang-v1_0');assert hashlib.sha256((m/'model.onnx').read_bytes()).hexdigest()==c['approved_voice']['model_sha256'];assert hashlib.sha256((m/'voices.bin').read_bytes()).hexdigest()==c['approved_voice']['voices_sha256']
+tts=sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=str(m/'model.onnx'),voices=str(m/'voices.bin'),tokens=str(m/'tokens.txt'),data_dir=str(m/'espeak-ng-data'),lang='en'),num_threads=2)))
+start=time.monotonic();audio=[];cues=[];at=0
+for role,words,speed in parts:
+ a=tts.generate(words,sid=31,speed=speed);samples=np.asarray(a.samples);gain=min(1.0,.95/float(abs(samples).max()));samples=samples*gain;audio.append(samples);end=at+len(samples)/a.sample_rate;cues.append(dict(role=role,text=words,start=at,end=end,native_speed=speed,headroom_gain=gain));at=end
+sf.write(out/'native-curiosity-01.wav',np.concatenate(audio),24000,subtype='PCM_16');(out/'transcript.txt').write_text('\n\n'.join(x[1] for x in parts)+'\n');(out/'manifest.json').write_text(json.dumps(dict(purpose='Review-only voice calibration for existing Multiply Efficiently lesson; not a new topic or replacement batch',profile='Same approved hf_alpha baseline, native question/discovery phrasing and punctuation; no dedicated emotion parameter',status='UNVERIFIED',actual_listening_required=True,enthusiasm_increase_verified=False,native_rate_policy='Same 0.94/0.98/1.00 purpose-based rates as approved Measurement, not a speed-up or volume boost for enthusiasm',duration=at,runtime=time.monotonic()-start,inserted_silence_samples=0,pitch_time_audio_effects=False,paid_calls=0,voice=c['approved_voice'],cues=cues),indent=2)+'\n');print('Voice-only calibration candidate:',round(at,2),'seconds; UNVERIFIED, no paid calls, no video rendered.')

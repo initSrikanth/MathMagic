@@ -1,0 +1,344 @@
+{
+  "id": "whole-numbers-lesson2",
+  "topic": "whole-numbers",
+  "section": "lesson2",
+  "title": "Expanded Form & Representing Numbers",
+  "file": "videos/whole-numbers-2026/lesson2",
+  "beats": [
+    {
+      "role": "hook",
+      "chapter": "One number, many disguises",
+      "text": "A number arrives at a costume party. Sometimes it wears digits, sometimes words, and sometimes a long addition sentence. Can we spot the same number beneath every disguise? Let\u2019s become number detectives.",
+      "board": [],
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "role": "goal",
+      "chapter": "Today\u2019s Learning Goal",
+      "text": "Today, we\u2019re learning to read, write and regroup a whole number without changing its value.",
+      "board": [],
+      "model": null,
+      "display": "Read, write and regroup a whole number without changing its value."
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to match a number to its word form and expanded form.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Connect digits, words and expanded form",
+        "Explain zero as a placeholder",
+        "Regroup without changing the value"
+      ],
+      "active": 0
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to explain how zero holds an empty place.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Connect digits, words and expanded form",
+        "Explain zero as a placeholder",
+        "Regroup without changing the value"
+      ],
+      "active": 1
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to regroup thousands and hundreds to show the same amount.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Connect digits, words and expanded form",
+        "Explain zero as a placeholder",
+        "Regroup without changing the value"
+      ],
+      "active": 2
+    },
+    {
+      "text": "How can one number have several correct representations? We can write its digits, say it in words, or split it into place values. All three describe the same quantity. Let us represent four hundred and six thousand, two hundred and seventy five.",
+      "chapter": "One quantity, several representations",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Detective example one",
+      "text": "How would you describe this number without using its digits? Notice the empty ten-thousands place before we unpack the number.",
+      "board": [
+        "406,275"
+      ],
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Start with the largest place. The four means four hundred thousand. The zero ten thousands contributes zero. The six means six thousand. Keep that zero as a placeholder when writing the standard number, so every other digit stays in the right place.",
+      "chapter": "Zero keeps the places organised",
+      "equation": [],
+      "board": [
+        "4 means 400,000",
+        "6 means 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "text": "Now add the smaller places: two hundred, seventy and five. The expanded form is four hundred thousand, plus six thousand, plus two hundred, plus seventy, plus five. We can leave out the zero contribution without changing the total.",
+      "chapter": "Build the expanded form",
+      "equation": [],
+      "board": [
+        "200 + 70 + 5",
+        "406,275 =",
+        "400,000 + 6,000 + 200 + 70 + 5"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "In words, say four hundred and six thousand, two hundred and seventy five. Notice how the thousands group and the final three digits fit together. The word form, standard form and expanded form all represent four hundred and six thousand, two hundred and seventy five.",
+      "chapter": "Connect the three forms",
+      "equation": [],
+      "board": [
+        "Four hundred and six thousand,",
+        "two hundred and seventy-five",
+        "Words \u2194 406,275 \u2194 expanded form"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "role": "prediction",
+      "chapter": "Detective example two",
+      "text": "Can we describe three thousand four hundred using only hundreds? Predict how many hundreds would make the same amount.",
+      "board": [
+        "3,400 = ? hundreds"
+      ],
+      "model": {
+        "type": "tiles",
+        "values": [
+          "1,000",
+          "1,000",
+          "1,000",
+          "400"
+        ]
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "We can also regroup a number. Three thousand four hundred is three thousands and four hundreds. It is also thirty four hundreds, because thirty four groups of one hundred make three thousand four hundred. The grouping changes; the amount does not.",
+      "chapter": "Regroup without changing the amount",
+      "equation": [],
+      "board": [
+        "3,400 = 3 thousands + 4 hundreds",
+        "3,400 = 34 hundreds"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "tiles",
+        "values": [
+          "1,000",
+          "1,000",
+          "1,000",
+          "400"
+        ]
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Zero still has an important job",
+      "text": "It is tempting to erase the zero when writing the number in digits. But removing that placeholder shifts the other digits into different places. Leave zero in the standard number, even when its zero contribution is omitted from expanded form.",
+      "board": [
+        "406,275 \u2260 46,275",
+        "Keep the empty place."
+      ],
+      "model": {
+        "type": "place",
+        "digits": "406275",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "text": "What number is six hundred thousand plus twenty thousand plus four thousand plus three hundred plus eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "600,000 + 20,000 + 4,000 + 300 + 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 5,
+      "model": {
+        "type": "tiles",
+        "values": [
+          "600,000",
+          "20,000",
+          "4,000",
+          "300",
+          "8"
+        ]
+      }
+    },
+    {
+      "text": "The total is six hundred and twenty-four thousand, three hundred and eight. There are zero tens.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "624,308"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "place",
+        "digits": "624308",
+        "highlight": 4,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "text": "For practice, combine six hundred thousand, twenty thousand, four thousand, three hundred and eight. That gives six hundred and twenty four thousand, three hundred and eight. There are no tens, but the zero still holds their place. Remember: read, partition and regroup, while keeping the value unchanged.",
+      "chapter": "Recap: represent the same value",
+      "equation": [],
+      "board": [
+        "600,000 + 20,000 + 4,000 + 300 + 8",
+        "624,308",
+        "Zero tens: keep the placeholder"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "text": "Our goal was to read, write and regroup a whole number without changing its value. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby.",
+      "board": [],
+      "model": null,
+      "display": "Read, write and regroup a whole number without changing its value.",
+      "criteria": [
+        "Connect digits, words and expanded form",
+        "Explain zero as a placeholder",
+        "Regroup without changing the value"
+      ]
+    }
+  ],
+  "slug": "lesson2",
+  "default_model": {
+    "type": "place",
+    "digits": "406275",
+    "highlight": 1,
+    "labels": [
+      "Hundred\nthousands",
+      "Ten\nthousands",
+      "Thousands",
+      "Hundreds",
+      "Tens",
+      "Ones"
+    ]
+  }
+}

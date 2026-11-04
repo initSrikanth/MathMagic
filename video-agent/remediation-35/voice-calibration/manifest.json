@@ -1,0 +1,78 @@
+{
+  "purpose": "Review-only voice calibration for existing Multiply Efficiently lesson; not a new topic or replacement batch",
+  "profile": "Same approved hf_alpha baseline, native question/discovery phrasing and punctuation; no dedicated emotion parameter",
+  "status": "UNVERIFIED",
+  "actual_listening_required": true,
+  "enthusiasm_increase_verified": false,
+  "native_rate_policy": "Same 0.94/0.98/1.00 purpose-based rates as approved Measurement, not a speed-up or volume boost for enthusiasm",
+  "duration": 32.526833333333336,
+  "runtime": 17.00195790900034,
+  "inserted_silence_samples": 0,
+  "pitch_time_audio_effects": false,
+  "paid_calls": 0,
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "cues": [
+    {
+      "role": "hook",
+      "text": "Could a big multiplication be hiding three smaller facts? Let's investigate!",
+      "start": 0,
+      "end": 5.317166666666667,
+      "native_speed": 1.0,
+      "headroom_gain": 1.0
+    },
+    {
+      "role": "goal",
+      "text": "Our goal is to use place value to make multiplying easier.",
+      "start": 5.317166666666667,
+      "end": 9.221666666666668,
+      "native_speed": 1.0,
+      "headroom_gain": 1.0
+    },
+    {
+      "role": "explanation",
+      "text": "For three hundred and twenty-four times eight, we can split the number into three hundred, twenty and four.",
+      "start": 9.221666666666668,
+      "end": 14.991958333333335,
+      "native_speed": 0.98,
+      "headroom_gain": 1.0
+    },
+    {
+      "role": "prediction",
+      "text": "Which part would you try first? Keep your prediction in mind.",
+      "start": 14.991958333333335,
+      "end": 19.218375,
+      "native_speed": 0.94,
+      "headroom_gain": 1.0
+    },
+    {
+      "role": "discovery",
+      "text": "Here's the useful discovery: multiply each part by eight, then combine the results. Every part matters!",
+      "start": 19.218375,
+      "end": 25.920791666666666,
+      "native_speed": 0.98,
+      "headroom_gain": 1.0
+    },
+    {
+      "role": "recap",
+      "text": "You have turned one big question into familiar facts. What a helpful strategy to explain to a friend!",
+      "start": 25.920791666666666,
+      "end": 32.526833333333336,
+      "native_speed": 1.0,
+      "headroom_gain": 1.0
+    }
+  ],
+  "wav_sha256": "3ff8bfaad14295a1092b0315090d796b54fae0acdab7ac8d447b65b696fea3a4"
+}
