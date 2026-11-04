@@ -1,0 +1,19 @@
+// TEST FIXTURE ONLY. Not deployed, not evidence of the production project's rules.
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signedIn(){return request.auth != null;}
+  function approved(){return signedIn() && exists(/databases/$(database)/documents/access/$(request.auth.uid)) && get(/databases/$(database)/documents/access/$(request.auth.uid)).data.approved == true;}
+  match /access/{uid} {allow read: if signedIn() && request.auth.uid == uid; allow write: if false;}
+  match /progress/{uid}/topics/measurement {
+   allow read: if approved() && request.auth.uid == uid;
+   allow write: if approved() && request.auth.uid == uid
+    && request.resource.data.keys().hasOnly(['attempts','bestScore','lastScore','proficient','lastCompletedAt'])
+    && request.resource.data.attempts is int && request.resource.data.attempts >= 0
+    && request.resource.data.bestScore is int && request.resource.data.bestScore >= 0 && request.resource.data.bestScore <= 30
+    && request.resource.data.lastScore is int && request.resource.data.lastScore >= 0 && request.resource.data.lastScore <= request.resource.data.bestScore
+    && request.resource.data.proficient is bool;
+  }
+  match /{document=**}{allow read,write:if false;}
+ }
+}

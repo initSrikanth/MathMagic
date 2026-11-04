@@ -1,5 +1,5 @@
 const fs=require('fs'),assert=require('assert');
-const modules=['fractions.html','whole-numbers.html','addition-subtraction.html','decimals-percentages.html','multiplication-division.html','factors-multiples.html'];
+const modules=['measurement.html','fractions.html','whole-numbers.html','addition-subtraction.html','decimals-percentages.html','multiplication-division.html','factors-multiples.html'];
 const crypto=require('crypto');
 // Approved MathMagic replacements count as the same lesson coverage, not extra
 // coverage. The LCM extension and two additional Whole Numbers lesson players
@@ -12,6 +12,7 @@ assert.strictEqual(fractionsBatch.lessons.length,5);
 const newFractions=new Map(fractionsBatch.lessons.map(l=>[l.src,l]));
 // Explicitly authorised, independently verified graphics-only topic replacements.
 const year5Batches=[
+  ['measurement.html',require('../video-agent/production-v2/measurement-release.json'),require('../video-agent/production-v2/measurement-previous-integrations.json')],
   ['factors-multiples.html',require('../video-agent/production-v2/factors-multiples-release.json'),require('../video-agent/production-v2/factors-multiples-previous-integrations.json')],
   ['multiplication-division.html',require('../video-agent/production-v2/multiplication-division-release.json'),require('../video-agent/production-v2/multiplication-division-previous-integrations.json')],
   ['addition-subtraction.html',require('../video-agent/production-v2/addition-subtraction-release.json'),require('../video-agent/production-v2/addition-subtraction-previous-integrations.json')],

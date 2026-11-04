@@ -308,6 +308,9 @@ def draw(lesson,cue,path,progress=1):
             d.rounded_rectangle((x,y,x+cw-8,y+150),radius=9,fill='#FFF0C8' if i==model['highlight'] else EMPTY)
             for k,line in enumerate(label.split('\n')): text(d,line,x+cw/2,y+12+k*26,23,INK,True,maxw=cw-12)
             text(d,digit,x+cw/2,y+86,45,TEAL,True)
+    if model and model['type']=='measurement':
+        from measurement_graphics import draw_model
+        draw_model(d,model,progress)
     if model and model['type']=='factor_table': draw_factor_table(d,model,progress)
     if model and model['type']=='factor_sets': draw_factor_sets(d,model,progress)
     if model and model['type']=='array': draw_array(d,model,progress)

@@ -24,7 +24,21 @@ jobs:
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback
-        run: npx playwright install --with-deps chromium chrome
+        run: npx playwright install --with-deps chromium chrome webkit
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Independently validate Year 5 measurement mathematics
+        run: |
+          python -m pip install sympy==1.14.0
+          node tests/export-measurement.cjs /tmp/measurement-variants.json
+          python tests/validate-measurement.py /tmp/measurement-variants.json
+      - name: Test isolated Year 5 Firestore rules and progress
+        run: npm run test:measurement:emulator
       - name: Check protected Fractions architecture
         run: npm run test:protected
       - name: Run MathMagic browser QA

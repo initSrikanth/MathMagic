@@ -1,0 +1,188 @@
+{
+  "topic": "measurement",
+  "base_commit": "9420db79223d271c713651551c7c68568c0131f7",
+  "maths": {
+    "lessons": 5,
+    "scenes": 60,
+    "models": 40,
+    "board_equations": 27,
+    "exact_geometry": "SymPy polygons: area and perimeter",
+    "result": "passed"
+  },
+  "lessons": {
+    "measurement-lesson1": {
+      "status": "verified",
+      "script_sha256": "a8b2d1273320689ea8f97c4c55d2a499a63691bc545f0a5d43ba2690a7449b7d",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "voice": "bf_emma",
+        "speaker": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "paid_calls": 0
+      },
+      "qa": {
+        "result": "passed",
+        "sha256": "57f5da0e92fa1504f532e342b8f7421bfbfafc90ee0c7f78f81a8ec91b4cd272",
+        "bytes": 3171610,
+        "duration": 155.45383333333334,
+        "audio_rms": 0.06302665174007416,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998107114221677,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified",
+        "blank_frames": 0,
+        "frames_checked": 4664,
+        "minimum_frame_contrast": 5.600021432233431,
+        "unique_scenes": 12
+      },
+      "narration_sha256": "642985d9a9f789cde33353582530ff9c46b836ae4dde905d41d4b172e8a64eb5",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson1.flac",
+      "source_audio_sha256": "7973cc05a72e8782a4ad42e95991e6b8c071c16a11a38a4f2d7ab3007dba07d3"
+    },
+    "measurement-lesson2": {
+      "status": "verified",
+      "script_sha256": "c723acf9dfe1ce0bc476b4624e085647c9d4174708b2cfb9c65a17fe05398cf8",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "voice": "bf_emma",
+        "speaker": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "paid_calls": 0
+      },
+      "qa": {
+        "result": "passed",
+        "sha256": "c2cb8401c33434d0d22f101f8bcb32b2f7663737e3f440770c582ab9404a6e01",
+        "bytes": 3503856,
+        "duration": 173.204,
+        "audio_rms": 0.06276637315750122,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998317049438606,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified",
+        "blank_frames": 0,
+        "frames_checked": 5196,
+        "minimum_frame_contrast": 5.558114644970523,
+        "unique_scenes": 12
+      },
+      "narration_sha256": "edc7ee59be894afe5d98e6d80e9f6fffa9714baef7b9dfb4fd907eed288bb94d",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson2.flac",
+      "source_audio_sha256": "6047f2b2059922e993d09c599ff2281d4f547ddbb9657115a23c864d22ffa07d"
+    },
+    "measurement-lesson3": {
+      "status": "verified",
+      "script_sha256": "5f2206d27a966078486540fcf5d2367382c6ca239397cfe4c21dcf44f9a52263",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "voice": "bf_emma",
+        "speaker": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "paid_calls": 0
+      },
+      "qa": {
+        "result": "passed",
+        "sha256": "cc92a39b6fca75c466dad5ed1dd2cc0c4598f569170c6c0948131fb74b224f7b",
+        "bytes": 2914783,
+        "duration": 155.795125,
+        "audio_rms": 0.0635930746793747,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998511237591005,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified",
+        "blank_frames": 0,
+        "frames_checked": 4674,
+        "minimum_frame_contrast": 5.578147424048022,
+        "unique_scenes": 12
+      },
+      "narration_sha256": "ec55efe729d23a35cb914c7d4c889986700bed18a5496b38629070f459abaea9",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson3.flac",
+      "source_audio_sha256": "d986531bb5e8b602cda4d794f6eff95875e2c3ff34ab268952cc58c581a2cc42"
+    },
+    "measurement-lesson4": {
+      "status": "verified",
+      "script_sha256": "71a0b817cdf1c2ddb2378fe469601eb14966cf190ec5fe9c73742a7cf89898c3",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "voice": "bf_emma",
+        "speaker": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "paid_calls": 0
+      },
+      "qa": {
+        "result": "passed",
+        "sha256": "62b77ef9a61de78246f44045bd2362e51cdab73d3ce3b06aa273b8e88cc322cc",
+        "bytes": 3134090,
+        "duration": 160.94758333333334,
+        "audio_rms": 0.06314626336097717,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998729472465159,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified",
+        "blank_frames": 0,
+        "frames_checked": 4828,
+        "minimum_frame_contrast": 5.53225909746196,
+        "unique_scenes": 12
+      },
+      "narration_sha256": "fee5b11e50c68ffc908ff2051bbb28b0a7bc22c74694b91988fc3275ba2ddd10",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson4.flac",
+      "source_audio_sha256": "54b0b1284f7677069b3f9a95380edcf0b333150d6aeb9f93a4a7411c169e9e25"
+    },
+    "measurement-lesson5": {
+      "status": "verified",
+      "script_sha256": "7add1432f9096d0c7b2448d60ae1e88daa5c6fb8e245bfd58d65fb6257d2a8a7",
+      "voice": {
+        "model": "Kokoro v0.19",
+        "voice": "bf_emma",
+        "speaker": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "paid_calls": 0
+      },
+      "qa": {
+        "result": "passed",
+        "sha256": "e3a9057c7c103009cae03579a47503f8297361484dc62504c3215f1bb08a5209",
+        "bytes": 3309123,
+        "duration": 167.24808333333334,
+        "audio_rms": 0.06262116879224777,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9998586782368385,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+        "perceptual_voice_review": "Not human-certified",
+        "blank_frames": 0,
+        "frames_checked": 5017,
+        "minimum_frame_contrast": 5.576505367107163,
+        "unique_scenes": 12
+      },
+      "narration_sha256": "411241973baadc6562c11031b79d34f4d42a664c98ed18382be7b0dd789eff96",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson5.flac",
+      "source_audio_sha256": "8ec5a131b634c40fd10c9eb74d606c89a43cc0305b7cb0e39b29658457f7f74c"
+    }
+  },
+  "paid_calls": 0,
+  "automation": "manual only; legacy workflows unchanged",
+  "integrated": true,
+  "runtime_verified_after_render": {
+    "python": "3.12.14",
+    "packages": {
+      "sherpa-onnx": "1.12.26",
+      "soundfile": "0.14.0",
+      "numpy": "2.5.4",
+      "Pillow": "12.3.0",
+      "sympy": "1.14.0"
+    },
+    "voices_sha256": "a372c67b056ef0b695c375d39b99630d23fb07ad4c8d87aa32a19a62fca523ad"
+  }
+}

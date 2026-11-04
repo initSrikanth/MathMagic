@@ -1,0 +1,11 @@
+# Measuring Our World — Year 5
+
+Scope: AC9M5M01 and AC9M5M02. Choose useful metric units/instruments; read scales accurately; combine units; solve regular/irregular perimeter and area problems. No volume formula, triangle-area formula or general area-unit conversion assessment. Five lessons: length; mass/capacity; perimeter; area; irregular design.
+
+Assessment map: six bands of five, 30 unique questions per attempt. Foundation: useful units, boundary and unit squares. Developing: ruler/scale readings and rectangles. Developing+: mixed units and unknowns. Proficient: composite shapes and error analysis. Application: garden/border/tiling decisions. Challenge: compare designs, derive lengths and justify checks. Every family maps to one of the five lessons and has question-specific worked feedback. Independent Python/SymPy checks operate on exported variants, separately from JS marking.
+
+Resources: [Scootle M01](https://www.scootle.edu.au/ec/search?accContentId=AC9M5M01), [Scootle M02](https://www.scootle.edu.au/ec/search?accContentId=AC9M5M02). [IXL v9 alignment](https://au.ixl.com/standards/maths/year-5) used only to identify representation gaps (unit choice, reading instruments, perimeter/area decisions); all wording/examples/graphics are original. Existing offline graphics/narration replaces external video copying.
+
+Architecture: reuse the existing approved-user browser-topic pattern and transactional UID/topic progress. Browser-delivered assessment is not claimed secret. Server-only migration remains deferred until the project has a production-verified rollout path. No topic-specific unavailable callable dependency or security downgrade is introduced. Emulator policy is an isolated test fixture, never deployed rules.
+
+Question-family mappings: L1 unit choice/ruler/combined length/differences; L2 mass/capacity units/scales/combined readings/recipe gap; L3 rectangles/equal-sided polygons/unknown sides/gates; L4 unit squares/rectangle area/unknown dimension/unit-error correction; L5 L-area/perimeter/missing cut/whole packs/irregular packs/design comparison. Additional written examples explicitly teach recipe quantities, regular boundaries, unknown cut lengths and pack decisions; the five videos retain their two guided main examples. Prior single-digit division/remainder reasoning is reinforced, not replaced.

@@ -1,0 +1,259 @@
+{
+  "id": "measurement-lesson3",
+  "topic": "measurement",
+  "section": "lesson3",
+  "title": "Trace and Calculate Perimeter",
+  "file": "MathMagic_V2_measurement_lesson3",
+  "beats": [
+    {
+      "text": "A school garden needs a fence. Would counting the squares inside tell us how much fencing to buy? Imagine walking all the way around its edge. That journey measures the boundary, which is called the perimeter.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "boundary": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Our learning goal is to find the perimeter of regular and irregular shapes.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Find the perimeter of regular and irregular shapes."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can trace the complete outside boundary. I can use matching length units. I can find missing lengths before adding sides.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Trace the complete outside boundary.",
+        "2. Use matching length units.",
+        "3. Find missing lengths before adding sides."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Use string to trace a shape, then straighten the string beside a ruler. This makes the idea of perimeter concrete. On a diagram, follow every outside side once and add those lengths using matching units. An inside dividing line is not part of the outside boundary.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "boundary": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "A rectangular garden is seven metres long and four metres wide. Opposite sides have matching lengths. Trace the four edges and predict the total before we add them.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Opposite sides match",
+        "7 m, 4 m, 7 m, 4 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "boundary": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Seven plus four plus seven plus four is twenty-two metres. We can also add seven and four, then double eleven. Both methods count the complete boundary exactly once.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "7 + 4 + 7 + 4 = 22 m",
+        "2 × (7 + 4) = 22 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Now trace an L-shaped garden. Its top is eight metres and its left side is six. A three-by-two rectangle is missing from the lower right corner. Use subtraction to find the remaining straight lengths.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "Right edge: 6 − 2 = 4 m",
+        "Bottom edge: 8 − 3 = 5 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "boundary": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "The six outside edges measure eight, four, three, two, five and six metres. Their sum is twenty-eight metres. The inward corner still belongs to the outside boundary, so include both of its edges.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "8 + 4 + 3 + 2 + 5 + 6 = 28 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Seven times four counts square units covering this rectangle. It does not measure the fence. For perimeter, trace and add the outside lengths. A useful check is whether your answer has metres or square metres.",
+      "chapter": "Do not multiply for a boundary length",
+      "equation": [],
+      "board": [
+        "Boundary: add side lengths",
+        "Perimeter uses m, not m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A rectangle is six metres by three metres. What is its perimeter?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "6 m by 3 m",
+        "Perimeter = ? m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Six plus three makes nine. Double nine for the four sides: eighteen metres. Check by tracing and adding six, three, six and three.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "2 × (6 + 3) = 18 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 6,
+        "h": 3,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Perimeter is a length around the complete outside edge. Trace before calculating, find hidden lengths and keep units consistent. Try outlining a book with string, then compare a direct measurement with the total of its side lengths. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "codes": [
+    "AC9M5M02"
+  ],
+  "graphics_source_sha256": "f74754036d4d6943bdc8e67b897ed15ecd638527a669fdfe326cd74d66128ffd"
+}

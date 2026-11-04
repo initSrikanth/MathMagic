@@ -1,0 +1,4 @@
+const fs=require('fs'),assert=require('node:assert/strict'),{buildMeasurement,measurementKey}=require('../js/measurement');const records=[];
+const bands=['FOUNDATION','DEVELOPING','DEVELOPING +','PROFICIENT','APPLICATION','CHALLENGE'];
+for(let seed=0;seed<1000;seed++){const qs=buildMeasurement(seed);assert.equal(qs.length,30);assert.equal(new Set(qs.map(measurementKey)).size,30);for(const [i,q]of qs.entries()){assert.equal(q.level,bands[Math.floor(i/5)]);assert(q.solution&&q.lesson>=1&&q.lesson<=5);if(q.type==='choice'){assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.equal(q.options.filter(x=>x===q.answer).length,1)}}records.push(qs)}
+const out=process.argv[2]||'/tmp/measurement-variants.json';fs.writeFileSync(out,JSON.stringify(records));console.log('Exported 1,000 seeded attempts / 30,000 unique question positions for independent Python validation.');

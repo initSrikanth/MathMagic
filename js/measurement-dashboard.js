@@ -1,0 +1,7 @@
+// Only the new card is managed here; existing topic cards/auth guard stay unchanged.
+import {initializeApp,getApps,getApp} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js';
+import {getAuth,onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js';
+import {getFirestore,doc,getDoc} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js';
+import {firebaseConfig} from './firebase-config.js';
+const app=getApps().length?getApp():initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
+onAuthStateChanged(auth,async user=>{const card=document.querySelector('[data-topic-progress="measurement"]');if(!user||!card)return;try{const access=await getDoc(doc(db,'access',user.uid));if(!(access.exists()&&access.data().approved===true))return;const snap=await getDoc(doc(db,'progress',user.uid,'topics','measurement'));const p=snap.exists()?snap.data():{},attempts=Number(p.attempts||0),best=Number(p.bestScore||0);card.querySelector('.practice-dots').textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?'●':'○').join(' ');card.querySelector('[data-attempts]').textContent=Math.min(attempts,5)+'/5';card.querySelector('[data-progress-bar]').style.width=Math.min(attempts,5)*20+'%';card.querySelector('[data-best]').textContent=attempts?'Best: '+best+'/30':'Best: —';card.querySelector('[data-proficiency]').textContent=p.proficient?'✓ PROFICIENT':attempts?'IN PROGRESS':'START'}catch(e){console.warn('Measurement progress unavailable; existing dashboard access guard remains active.',e)}});

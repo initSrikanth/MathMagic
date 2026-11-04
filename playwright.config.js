@@ -8,7 +8,6 @@ module.exports = defineConfig({
   use: {
     // Chrome carries the H.264/AAC codecs needed by the real MP4 playback gates.
     // Keep all media assertions enabled; bundled Chromium headless-shell may lack these codecs.
-    channel: process.env.CI ? 'chrome' : undefined,
     baseURL: 'http://127.0.0.1:4173',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure'
@@ -19,7 +18,8 @@ module.exports = defineConfig({
     reuseExistingServer: !process.env.CI
   },
   projects: [
-    { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'mobile-chromium', use: { ...devices['Pixel 7'] } }
+    { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'], channel: process.env.CI ? 'chrome' : undefined } },
+    { name: 'mobile-chromium', use: { ...devices['Pixel 7'], channel: process.env.CI ? 'chrome' : undefined } },
+    { name: 'measurement-webkit', testMatch: /measurement(?:-videos)?\.spec\.js/, use: { ...devices['Desktop Safari'], browserName: 'webkit' } }
   ]
 });
