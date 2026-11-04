@@ -29,7 +29,7 @@ No video receives PASS while a required attribute remains unexamined. `final_sta
 - enhanced voice and perceptual release blocked: 35
 - phone sized chromium playback: 35
 - brandfree measurement review candidates prepared: 5
-- brandfree review candidates prepared: 14
+- brandfree review candidates prepared: 30
 - fully perceptually audited: 0
 - fully passing: 0
 - remediated and deployed: 0
@@ -85,6 +85,7 @@ No video receives PASS while a required attribute remains unexamined. `final_sta
 - Expected SHA-256: `dd552862abd39b1927c9694e0bfacbaefcf595ee7fcde13ddbf4721ca1835aed`; bytes: 6518932.
 - Actual-media evidence: [technical measurements](video-quality-evidence/01/technical.json), [complete soundtrack ASR](video-quality-evidence/01/full-audio-asr.json), [all scene samples](video-quality-evidence/01/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/01/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/01/sampled-frame-ocr.json).
 - Decoded frames: 6789; RMS: 0.1543; clipping fraction: 0.000000; long silence flags: 4; static flags: 12. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [meaning-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/fractions/meaning-brandfree-review.mp4); SHA-256 `7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -127,6 +128,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `cadb6328a2a5ec335f846fe03e830c3c687dede70397e58bb3a9e99386b7729c`; bytes: 6878798.
 - Actual-media evidence: [technical measurements](video-quality-evidence/02/technical.json), [complete soundtrack ASR](video-quality-evidence/02/full-audio-asr.json), [all scene samples](video-quality-evidence/02/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/02/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/02/sampled-frame-ocr.json).
 - Decoded frames: 7015; RMS: 0.1548; clipping fraction: 0.000000; long silence flags: 4; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [equivalent-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/fractions/equivalent-brandfree-review.mp4); SHA-256 `1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -169,6 +171,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `10bafdfff315211890bb9dfca478d0ecf1ba31439234ee58bc402f5b3d5db844`; bytes: 7443453.
 - Actual-media evidence: [technical measurements](video-quality-evidence/03/technical.json), [complete soundtrack ASR](video-quality-evidence/03/full-audio-asr.json), [all scene samples](video-quality-evidence/03/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/03/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/03/sampled-frame-ocr.json).
 - Decoded frames: 7400; RMS: 0.1551; clipping fraction: 0.000000; long silence flags: 4; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [mixed-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/fractions/mixed-brandfree-review.mp4); SHA-256 `eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -211,6 +214,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca`; bytes: 6776965.
 - Actual-media evidence: [technical measurements](video-quality-evidence/04/technical.json), [complete soundtrack ASR](video-quality-evidence/04/full-audio-asr.json), [all scene samples](video-quality-evidence/04/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/04/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/04/sampled-frame-ocr.json).
 - Decoded frames: 6848; RMS: 0.1524; clipping fraction: 0.000000; long silence flags: 4; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [addsub-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.mp4); SHA-256 `e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -253,6 +257,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `021eaa0261cb82adb3b5d6faf32e6556cc6691a4da5ab5629a251cb957ad4396`; bytes: 6856258.
 - Actual-media evidence: [technical measurements](video-quality-evidence/05/technical.json), [complete soundtrack ASR](video-quality-evidence/05/full-audio-asr.json), [all scene samples](video-quality-evidence/05/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/05/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/05/sampled-frame-ocr.json).
 - Decoded frames: 6995; RMS: 0.1555; clipping fraction: 0.000000; long silence flags: 4; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [problems-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/fractions/problems-brandfree-review.mp4); SHA-256 `3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -295,6 +300,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `e8e4b39fadb807d63c534167f8459fa5d3458e1d540a4fa780d3edc1d03c9d04`; bytes: 6122421.
 - Actual-media evidence: [technical measurements](video-quality-evidence/06/technical.json), [complete soundtrack ASR](video-quality-evidence/06/full-audio-asr.json), [all scene samples](video-quality-evidence/06/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/06/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/06/sampled-frame-ocr.json).
 - Decoded frames: 5990; RMS: 0.1580; clipping fraction: 0.000000; long silence flags: 3; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson1-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/whole-numbers/lesson1-brandfree-review.mp4); SHA-256 `890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -337,6 +343,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52`; bytes: 6651776.
 - Actual-media evidence: [technical measurements](video-quality-evidence/07/technical.json), [complete soundtrack ASR](video-quality-evidence/07/full-audio-asr.json), [all scene samples](video-quality-evidence/07/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/07/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/07/sampled-frame-ocr.json).
 - Decoded frames: 6303; RMS: 0.1578; clipping fraction: 0.000000; long silence flags: 3; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson2-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/whole-numbers/lesson2-brandfree-review.mp4); SHA-256 `65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -379,6 +386,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51`; bytes: 6815013.
 - Actual-media evidence: [technical measurements](video-quality-evidence/08/technical.json), [complete soundtrack ASR](video-quality-evidence/08/full-audio-asr.json), [all scene samples](video-quality-evidence/08/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/08/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/08/sampled-frame-ocr.json).
 - Decoded frames: 6458; RMS: 0.1562; clipping fraction: 0.000000; long silence flags: 3; static flags: 12. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson3-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/whole-numbers/lesson3-brandfree-review.mp4); SHA-256 `5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -421,6 +429,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217`; bytes: 6260833.
 - Actual-media evidence: [technical measurements](video-quality-evidence/09/technical.json), [complete soundtrack ASR](video-quality-evidence/09/full-audio-asr.json), [all scene samples](video-quality-evidence/09/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/09/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/09/sampled-frame-ocr.json).
 - Decoded frames: 6240; RMS: 0.1565; clipping fraction: 0.000000; long silence flags: 3; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson4-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/whole-numbers/lesson4-brandfree-review.mp4); SHA-256 `bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -463,6 +472,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831`; bytes: 6381704.
 - Actual-media evidence: [technical measurements](video-quality-evidence/10/technical.json), [complete soundtrack ASR](video-quality-evidence/10/full-audio-asr.json), [all scene samples](video-quality-evidence/10/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/10/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/10/sampled-frame-ocr.json).
 - Decoded frames: 6355; RMS: 0.1583; clipping fraction: 0.000000; long silence flags: 3; static flags: 12. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson5-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/whole-numbers/lesson5-brandfree-review.mp4); SHA-256 `5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -631,6 +641,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f`; bytes: 2352056.
 - Actual-media evidence: [technical measurements](video-quality-evidence/14/technical.json), [complete soundtrack ASR](video-quality-evidence/14/full-audio-asr.json), [all scene samples](video-quality-evidence/14/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/14/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/14/sampled-frame-ocr.json).
 - Decoded frames: 3547; RMS: 0.0615; clipping fraction: 0.000000; long silence flags: 1; static flags: 7. Flags are not automatic perceptual failures.
+- Missing-model animated scene preview: [MP4](../video-agent/remediation-35/model-previews/14-model-original-audio.mp4); original audio, low-resolution draft only, not integrated into a full replacement.
 
 Specific confirmed defects / timestamps:
 
@@ -674,6 +685,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b`; bytes: 2322968.
 - Actual-media evidence: [technical measurements](video-quality-evidence/15/technical.json), [complete soundtrack ASR](video-quality-evidence/15/full-audio-asr.json), [all scene samples](video-quality-evidence/15/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/15/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/15/sampled-frame-ocr.json).
 - Decoded frames: 3627; RMS: 0.0607; clipping fraction: 0.000000; long silence flags: 1; static flags: 6. Flags are not automatic perceptual failures.
+- Missing-model animated scene preview: [MP4](../video-agent/remediation-35/model-previews/15-model-original-audio.mp4); original audio, low-resolution draft only, not integrated into a full replacement.
 
 Specific confirmed defects / timestamps:
 
@@ -717,6 +729,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0`; bytes: 2798501.
 - Actual-media evidence: [technical measurements](video-quality-evidence/16/technical.json), [complete soundtrack ASR](video-quality-evidence/16/full-audio-asr.json), [all scene samples](video-quality-evidence/16/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/16/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/16/sampled-frame-ocr.json).
 - Decoded frames: 4269; RMS: 0.0616; clipping fraction: 0.000000; long silence flags: 1; static flags: 9. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson1-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review.mp4); SHA-256 `29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -760,6 +773,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e`; bytes: 3129447.
 - Actual-media evidence: [technical measurements](video-quality-evidence/17/technical.json), [complete soundtrack ASR](video-quality-evidence/17/full-audio-asr.json), [all scene samples](video-quality-evidence/17/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/17/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/17/sampled-frame-ocr.json).
 - Decoded frames: 4690; RMS: 0.0615; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson2-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review.mp4); SHA-256 `5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -803,6 +817,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a`; bytes: 2933419.
 - Actual-media evidence: [technical measurements](video-quality-evidence/18/technical.json), [complete soundtrack ASR](video-quality-evidence/18/full-audio-asr.json), [all scene samples](video-quality-evidence/18/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/18/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/18/sampled-frame-ocr.json).
 - Decoded frames: 4425; RMS: 0.0607; clipping fraction: 0.000000; long silence flags: 1; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson3-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review.mp4); SHA-256 `56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -846,6 +861,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778`; bytes: 2822930.
 - Actual-media evidence: [technical measurements](video-quality-evidence/19/technical.json), [complete soundtrack ASR](video-quality-evidence/19/full-audio-asr.json), [all scene samples](video-quality-evidence/19/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/19/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/19/sampled-frame-ocr.json).
 - Decoded frames: 4329; RMS: 0.0617; clipping fraction: 0.000000; long silence flags: 1; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson4-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review.mp4); SHA-256 `136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -889,6 +905,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062`; bytes: 2859633.
 - Actual-media evidence: [technical measurements](video-quality-evidence/20/technical.json), [complete soundtrack ASR](video-quality-evidence/20/full-audio-asr.json), [all scene samples](video-quality-evidence/20/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/20/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/20/sampled-frame-ocr.json).
 - Decoded frames: 4324; RMS: 0.0617; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson5-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review.mp4); SHA-256 `bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -932,6 +949,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405`; bytes: 2742639.
 - Actual-media evidence: [technical measurements](video-quality-evidence/21/technical.json), [complete soundtrack ASR](video-quality-evidence/21/full-audio-asr.json), [all scene samples](video-quality-evidence/21/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/21/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/21/sampled-frame-ocr.json).
 - Decoded frames: 4237; RMS: 0.0615; clipping fraction: 0.000000; long silence flags: 1; static flags: 7. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson1-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review.mp4); SHA-256 `6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -975,6 +993,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687`; bytes: 2889349.
 - Actual-media evidence: [technical measurements](video-quality-evidence/22/technical.json), [complete soundtrack ASR](video-quality-evidence/22/full-audio-asr.json), [all scene samples](video-quality-evidence/22/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/22/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/22/sampled-frame-ocr.json).
 - Decoded frames: 4294; RMS: 0.0620; clipping fraction: 0.000000; long silence flags: 1; static flags: 9. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson2-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review.mp4); SHA-256 `80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1018,6 +1037,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628`; bytes: 2875304.
 - Actual-media evidence: [technical measurements](video-quality-evidence/23/technical.json), [complete soundtrack ASR](video-quality-evidence/23/full-audio-asr.json), [all scene samples](video-quality-evidence/23/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/23/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/23/sampled-frame-ocr.json).
 - Decoded frames: 4402; RMS: 0.0619; clipping fraction: 0.000000; long silence flags: 1; static flags: 6. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson3-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review.mp4); SHA-256 `fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1061,6 +1081,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892`; bytes: 3049757.
 - Actual-media evidence: [technical measurements](video-quality-evidence/24/technical.json), [complete soundtrack ASR](video-quality-evidence/24/full-audio-asr.json), [all scene samples](video-quality-evidence/24/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/24/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/24/sampled-frame-ocr.json).
 - Decoded frames: 4464; RMS: 0.0618; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson4-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review.mp4); SHA-256 `1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1104,6 +1125,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1`; bytes: 3067130.
 - Actual-media evidence: [technical measurements](video-quality-evidence/25/technical.json), [complete soundtrack ASR](video-quality-evidence/25/full-audio-asr.json), [all scene samples](video-quality-evidence/25/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/25/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/25/sampled-frame-ocr.json).
 - Decoded frames: 4520; RMS: 0.0608; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson5-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review.mp4); SHA-256 `aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1147,6 +1169,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481`; bytes: 2957224.
 - Actual-media evidence: [technical measurements](video-quality-evidence/26/technical.json), [complete soundtrack ASR](video-quality-evidence/26/full-audio-asr.json), [all scene samples](video-quality-evidence/26/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/26/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/26/sampled-frame-ocr.json).
 - Decoded frames: 4369; RMS: 0.0611; clipping fraction: 0.000000; long silence flags: 1; static flags: 9. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson1-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review.mp4); SHA-256 `2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1190,6 +1213,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d`; bytes: 2903745.
 - Actual-media evidence: [technical measurements](video-quality-evidence/27/technical.json), [complete soundtrack ASR](video-quality-evidence/27/full-audio-asr.json), [all scene samples](video-quality-evidence/27/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/27/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/27/sampled-frame-ocr.json).
 - Decoded frames: 4414; RMS: 0.0623; clipping fraction: 0.000000; long silence flags: 1; static flags: 9. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson2-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review.mp4); SHA-256 `1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1233,6 +1257,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf`; bytes: 2934737.
 - Actual-media evidence: [technical measurements](video-quality-evidence/28/technical.json), [complete soundtrack ASR](video-quality-evidence/28/full-audio-asr.json), [all scene samples](video-quality-evidence/28/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/28/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/28/sampled-frame-ocr.json).
 - Decoded frames: 4509; RMS: 0.0619; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson3-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review.mp4); SHA-256 `4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1276,6 +1301,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079`; bytes: 3218942.
 - Actual-media evidence: [technical measurements](video-quality-evidence/29/technical.json), [complete soundtrack ASR](video-quality-evidence/29/full-audio-asr.json), [all scene samples](video-quality-evidence/29/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/29/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/29/sampled-frame-ocr.json).
 - Decoded frames: 4621; RMS: 0.0615; clipping fraction: 0.000000; long silence flags: 1; static flags: 10. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson4-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review.mp4); SHA-256 `7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1319,6 +1345,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461`; bytes: 3022168.
 - Actual-media evidence: [technical measurements](video-quality-evidence/30/technical.json), [complete soundtrack ASR](video-quality-evidence/30/full-audio-asr.json), [all scene samples](video-quality-evidence/30/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/30/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/30/sampled-frame-ocr.json).
 - Decoded frames: 4493; RMS: 0.0618; clipping fraction: 0.000000; long silence flags: 1; static flags: 11. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson5-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review.mp4); SHA-256 `eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1362,6 +1389,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc`; bytes: 3152035.
 - Actual-media evidence: [technical measurements](video-quality-evidence/31/technical.json), [complete soundtrack ASR](video-quality-evidence/31/full-audio-asr.json), [all scene samples](video-quality-evidence/31/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/31/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/31/sampled-frame-ocr.json).
 - Decoded frames: 4307; RMS: 0.1343; clipping fraction: 0.000000; long silence flags: 0; static flags: 5. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson1-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review.mp4); SHA-256 `7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1403,6 +1431,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b`; bytes: 3342183.
 - Actual-media evidence: [technical measurements](video-quality-evidence/32/technical.json), [complete soundtrack ASR](video-quality-evidence/32/full-audio-asr.json), [all scene samples](video-quality-evidence/32/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/32/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/32/sampled-frame-ocr.json).
 - Decoded frames: 4691; RMS: 0.1352; clipping fraction: 0.000000; long silence flags: 0; static flags: 4. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson2-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review.mp4); SHA-256 `7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1444,6 +1473,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f`; bytes: 2731690.
 - Actual-media evidence: [technical measurements](video-quality-evidence/33/technical.json), [complete soundtrack ASR](video-quality-evidence/33/full-audio-asr.json), [all scene samples](video-quality-evidence/33/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/33/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/33/sampled-frame-ocr.json).
 - Decoded frames: 4217; RMS: 0.1348; clipping fraction: 0.000000; long silence flags: 0; static flags: 7. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson3-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review.mp4); SHA-256 `e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1485,6 +1515,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e`; bytes: 3000512.
 - Actual-media evidence: [technical measurements](video-quality-evidence/34/technical.json), [complete soundtrack ASR](video-quality-evidence/34/full-audio-asr.json), [all scene samples](video-quality-evidence/34/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/34/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/34/sampled-frame-ocr.json).
 - Decoded frames: 4301; RMS: 0.1347; clipping fraction: 0.000000; long silence flags: 0; static flags: 4. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson4-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review.mp4); SHA-256 `37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1526,6 +1557,7 @@ Specific confirmed defects / timestamps:
 - Expected SHA-256: `d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b`; bytes: 3168230.
 - Actual-media evidence: [technical measurements](video-quality-evidence/35/technical.json), [complete soundtrack ASR](video-quality-evidence/35/full-audio-asr.json), [all scene samples](video-quality-evidence/35/scene-contact.jpg), [beginning/middle/ending](video-quality-evidence/35/begin-middle-ending.jpg), [sampled-frame OCR](video-quality-evidence/35/sampled-frame-ocr.json).
 - Decoded frames: 4529; RMS: 0.1335; clipping fraction: 0.000000; long silence flags: 0; static flags: 3. Flags are not automatic perceptual failures.
+- Branding-edit review copy: [lesson5-brandfree-review.mp4](../video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review.mp4); SHA-256 `f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15`. Original voice preserved; **UNVERIFIED / NOT DEPLOYED**.
 
 Specific confirmed defects / timestamps:
 
@@ -1572,7 +1604,7 @@ Existing archived MP4s are preserved, not counted as current core placements. Un
 
 1. Complete the 35-record evidence pass before preparing any replacement.
 2. Prioritise removing branded endings from the five owner-approved Measurement narrations. Use packet-preserving cuts only at verified natural phrase boundaries, with candidate captions/transcripts and rollback manifests; never overwrite the live MP4.
-3. Fourteen approved-profile brand-free review copies were prepared without any re-encoding; no corrected MP4 was deployed. The other Fractions closing needs an internal edit to preserve its following optional LCM notice. Twenty videos have the wrong declared British voice profile, including all five owner-reported Multiplication videos. The approved baseline hf_alpha model is installed; do not substitute another accent. A verified **more expressive** setting and full listening/viewing remain unavailable, so do not waste compute regenerating a 20-video batch under an unverified setting.
+3. Thirty branding-edited review copies are preserved: 29 exact H.264/AAC packet-prefix cuts and one internal Fractions edit preserving the optional LCM notice (215.7 seconds of original video packets, only a 7.6-second tail re-encoded; AAC re-encoded without pitch/speed changes). No corrected MP4 was deployed. Two original-audio animated scene previews correct the missing models, but are not full integrated replacements. Twenty videos have the wrong declared British voice profile, including all five owner-reported Multiplication videos. The approved baseline hf_alpha model is installed; do not substitute another accent. A verified **more expressive** setting and full listening/viewing remain unavailable, so do not waste compute regenerating a 20-video batch under an unverified setting.
 4. ASR/OCR/pitch/static metrics cannot satisfy perceptual review. Release candidates remain blocked until an actual reviewer examines the exact candidate bytes against every mandatory attribute.
 5. The single production contract is [video-agent/video-production-contract.json](../video-agent/video-production-contract.json); the default production hold and 16 guarded generation/integration entries prevent accidental restarts. Existing scheduled production remains disabled.
 6. No quiz, authentication, Firebase, dashboard or unrelated site functionality is changed by this audit.
@@ -1580,4 +1612,3 @@ Existing archived MP4s are preserved, not counted as current core placements. Un
 ## Extra placement
 
 - Existing approved LCM extension: `videos/MathMagic_Finding_LCM_FINAL_1080p.mp4` within Fractions. Not counted among the 35 core placements, not deleted or modified.
-

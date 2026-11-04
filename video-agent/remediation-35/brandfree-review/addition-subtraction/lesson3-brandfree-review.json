@@ -1,0 +1,250 @@
+{
+  "id": "addition-subtraction-lesson3",
+  "topic": "addition-subtraction",
+  "section": "lesson3",
+  "title": "Estimate and Check",
+  "file": "MathMagic_V2_addition_subtraction_lesson3",
+  "beats": [
+    {
+      "text": "If a calculator shows an answer with one extra zero, how could you spot it? Today we are estimating addition and subtraction. We will use nearby friendly numbers as benchmarks, then decide whether an exact answer has a sensible size.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "text": "Our learning goal is to use estimates to check whether an answer is reasonable.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Use estimates to check whether an answer is reasonable."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can choose useful nearby numbers. I can keep an estimate separate from an exact answer. I can explain whether the answer has a sensible size.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Choose useful nearby numbers.",
+        "2. Keep an estimate separate from an exact answer.",
+        "3. Explain whether the answer has a sensible size."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "An estimate is a useful approximate answer. Choose a rounding place that suits the situation. Keep the exact numbers for the final calculation; the estimate helps you check the scale, not replace the exact answer.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "text": "Estimate three thousand eight hundred and seventy-six plus two thousand one hundred and forty-two. Round to the nearest hundred: three thousand nine hundred plus two thousand one hundred.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "3,876 + 2,142",
+        "3,900 + 2,100 = 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "The exact total is six thousand and eighteen, close to six thousand. A result near sixty thousand would be unreasonable because each starting number is only a few thousand.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "3,876 + 2,142 = 6,018",
+        "6,018 is close to 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000,
+          6018
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "Estimate eight thousand and thirty-two minus three thousand nine hundred and eighty-seven. Nearby thousands give eight thousand minus four thousand.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "8,032 \u2212 3,987",
+        "8,000 \u2212 4,000 = 4,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 3900,
+        "end": 4100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          4000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "The exact difference is four thousand and forty-five, close to our estimate. Both rounding choices made the mental subtraction simple enough to check the size quickly.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "8,032 \u2212 3,987 = 4,045",
+        "4,045 is close to 4,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 3900,
+        "end": 4100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          4000,
+          4045
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "An estimate is a helpful check, not a replacement for an exact calculation. About six thousand tells us the scale. Six thousand and eighteen is the exact total. Both have useful jobs, but they answer different questions.",
+      "chapter": "An estimate is not the exact answer",
+      "equation": [],
+      "board": [
+        "Estimate: about 6,000",
+        "Exact total: 6,018"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "line",
+        "start": 5900,
+        "end": 6100,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6000,
+          6018
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "Would forty thousand be a reasonable estimate for four thousand nine hundred plus one thousand nine hundred?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "4,900 + 1,900 \u2248 40,000 ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "No. Five thousand plus two thousand is about seven thousand. The exact answer is six thousand eight hundred, so forty thousand is much too large.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "5,000 + 2,000 = 7,000",
+        "4,900 + 1,900 = 6,800"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "line",
+        "start": 6000,
+        "end": 8000,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          6800,
+          7000
+        ],
+        "jumps": []
+      }
+    },
+    {
+      "text": "Choose sensible nearby numbers, calculate the benchmark, and compare its size with the exact result. Different useful estimates are possible. Always explain your rounding choice. Now choose a strategy and explain why it works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

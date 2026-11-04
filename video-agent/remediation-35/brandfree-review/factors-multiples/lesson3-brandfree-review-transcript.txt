@@ -1,0 +1,23 @@
+Can you tell whether a number divides exactly without doing the whole division? Today we are using divisibility rules. We will test digits, combine two conditions when needed, and explain what the result tells us about factors and remainders.
+
+Our learning goal is to use divisibility rules and explain why a test passes.
+
+Success criteria. I can choose the test for the divisor. I can use final digits or digit sums correctly. I can combine the tests for two and three to test six.
+
+Divisible means division leaves no remainder. For two, check the final digit is even. For five, it must end in zero or five; for ten, zero. For three or nine, test the digit sum. For four, test the final two digits.
+
+Is seven hundred and thirty-eight divisible by six? A number is divisible by six when it is divisible by both two and three. Its last digit, eight, is even.
+
+The digit sum is seven plus three plus eight, which is eighteen. Eighteen is divisible by three. Both tests pass, so seven hundred and thirty-eight is divisible by six.
+
+Is one thousand two hundred and forty-five divisible by five and by nine? It ends in five, so the test for five passes.
+
+Its digit sum is twelve. Twelve is not divisible by nine, so the number is not divisible by nine. Passing one divisibility test does not imply passing every other test.
+
+An even number is divisible by two, but not always by six. Fourteen is even, yet its digit sum is five, which is not divisible by three. To test six, both conditions must pass.
+
+Is three hundred and twelve divisible by four?
+
+The last two digits form twelve. Twelve is divisible by four, so three hundred and twelve is divisible by four. Check: four times seventy-eight is three hundred and twelve.
+
+Choose the rule for the divisor and explain each condition. Six needs both the two and three tests. Divisibility rules are shortcuts for exact-division decisions, and multiplication can confirm the result. Reflect on which model helped you and explain why.

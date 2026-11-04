@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Cut only branded final sentences of existing approved-profile videos; packet-copy review candidates, never publish."""
+"""Cut branded final sentences with exact original packets; never approve a voice, synthesize, or publish."""
 import json,re,sys,subprocess,hashlib,copy
 from pathlib import Path
 import numpy as np
-from contract import ROOT,REGISTER,assert_generation_allowed,branded
+from contract import ROOT,REGISTER,assert_preservation_edit_allowed,branded
 OUT=ROOT/'video-agent/remediation-35/brandfree-review'
 def cmd(args):return subprocess.check_output(list(map(str,args)))
 def packets(path,stream):
@@ -14,8 +14,10 @@ def run():
  db=json.loads(REGISTER.read_text());assert db.get('automated_evidence_complete') and len(db['records'])==35
  OUT.mkdir(parents=True,exist_ok=True);results=json.loads((OUT/'manifest.json').read_text())['results'] if (OUT/'manifest.json').exists() else [];done={r['number'] for r in results}
  for r in db['records']:
-  if r['voice'].get('name')!='hf_alpha' or r['number'] in done:continue
-  source=ROOT/r['mp4'];t=json.loads((ROOT/r['timing']).read_text());caps=t['captions'];bad=[c for c in caps if branded(c['text'])];assert len(bad)==1
+  if r['number'] in done:continue
+  source=ROOT/r['mp4'];t=json.loads((ROOT/r['timing']).read_text());caps=t['captions'];bad=[c for c in caps if branded(c['text'])]
+  if not bad:continue
+  assert len(bad)==1
   if bad[0]!=caps[-1]:
    (OUT/(str(r['number'])+'-blocked.json')).write_text(json.dumps({'number':r['number'],'status':'BLOCKED','reason':'Branded sentence is followed by an optional LCM notice. A prefix cut would remove unrelated curriculum guidance; preserve it and require a reviewed internal edit.'},indent=2)+'\n');continue
   authored=json.loads((ROOT/r['script']).read_text());authored=next(v for v in authored if v.get('slug',v.get('id'))==r['script_key']) if isinstance(authored,list) else authored
@@ -24,7 +26,7 @@ def run():
    if isinstance(v,list):return [remove_phrase(x) for x in v]
    return v.replace(' '+bad[0]['text'],'').replace(bad[0]['text'],'') if isinstance(v,str) else v
   clean=remove_phrase(copy.deepcopy(authored));clean['topic']=r['topic'];assert not branded(clean['beats'][-1]['text']);assert clean['beats'][-1]['text'].strip().endswith(('.', '!', '?'))
-  assert_generation_allowed('remediation_candidate',[clean],r['voice'])
+  assert_preservation_edit_allowed(r,clean)
   audio=np.frombuffer(cmd(['ffmpeg','-v','error','-i',source,'-vn','-ac','1','-ar','24000','-f','f32le','-']),np.float32);sr=24000;at=bad[0]['start'];start=max(0,int((at-.75)*sr));stop=int((at+.10)*sr);quiet=[]
   for i in range(start,stop,240):
    if np.sqrt(np.mean(audio[i:i+240]**2))<.003:quiet.append(i/sr)

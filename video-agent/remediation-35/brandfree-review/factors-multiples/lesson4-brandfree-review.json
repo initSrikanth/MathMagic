@@ -1,0 +1,229 @@
+{
+  "id": "factors-multiples-lesson4",
+  "topic": "factors-multiples",
+  "section": "lesson4",
+  "title": "Follow an Algorithm",
+  "file": "MathMagic_V2_factors_multiples_lesson4",
+  "beats": [
+    {
+      "text": "How can a set of instructions help us find every factor? Today we are following an algorithm: a sequence of steps and decisions we can repeat. We will test candidates in order, record successful pairs, and decide when it is safe to stop.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to follow an algorithm to find factors systematically.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Follow an algorithm to find factors systematically."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can repeat the test and record steps. I can record pairs only for exact division. I can stop before factor pairs repeat.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Repeat the test and record steps.",
+        "2. Record pairs only for exact division.",
+        "3. Stop before factor pairs repeat."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Choose the target number and start with one. Test exact division. If it works, record the candidate and its partner. Increase the candidate by one. Stop when the candidate is greater than its possible partner, because pairs would repeat in reverse. For a small start, twelve has the pairs one and twelve, two and six, three and four.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 12,
+        "upto": 3
+      }
+    },
+    {
+      "text": "For thirty-six, test one, two, three and four. They produce partners thirty-six, eighteen, twelve and nine. Five leaves a remainder, so do not record it.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "36: test candidates in order"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 36,
+        "upto": 5
+      }
+    },
+    {
+      "text": "Six divides exactly and pairs with six. The next candidate would be seven, already beyond its partner, so the search is complete. Record six only once when listing the factors.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "6 \u00d7 6 = 36",
+        "Next: 7 is past its partner"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 36,
+        "upto": 6
+      }
+    },
+    {
+      "text": "Apply the same steps to forty. One pairs with forty, two with twenty, and four with ten. Three does not divide exactly.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "40: repeat the same steps"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 4
+      }
+    },
+    {
+      "text": "Five pairs with eight. Six does not work, and by seven the candidate is greater than the partner it would need. The complete factors are one, two, four, five, eight, ten, twenty and forty.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "5 \u00d7 8 = 40",
+        "Next: 7 is past its partner"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 6
+      }
+    },
+    {
+      "text": "Finding one and forty is only the beginning. Keep increasing the test number and record each exact pair. Stop only when the test number passes its possible partner, so later pairs would repeat.",
+      "chapter": "Do not stop at the first successful pair",
+      "equation": [],
+      "board": [
+        "1 \u00d7 40 is only one pair",
+        "Continue the systematic search"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "factor_table",
+        "kind": "algorithm",
+        "n": 40,
+        "upto": 6
+      }
+    },
+    {
+      "text": "For twenty-four, after recording four times six, should we also record six times four as a new pair?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "4 \u00d7 6 = 24",
+        "6 \u00d7 4 = 24: new pair?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "No. They use the same two factors in reverse order. A complete factor set includes each value once.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "Same pair, reversed"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "factor_table",
+        "kind": "pairs",
+        "n": 24,
+        "upto": 4
+      }
+    },
+    {
+      "text": "An algorithm needs a starting point, a repeatable test, a way to record results, and a stopping rule. Follow every step so the search is complete without unnecessary repetition. Reflect on which model helped you and explain why.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Test \u2192 decide \u2192 record \u2192 increase",
+        "Stop before pairs repeat"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

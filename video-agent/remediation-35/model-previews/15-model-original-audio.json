@@ -1,0 +1,32 @@
+{
+  "number": 15,
+  "scene": 6,
+  "source": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+  "source_sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+  "source_interval": [
+    73.564875,
+    81.92225
+  ],
+  "preview": "video-agent/remediation-35/model-previews/15-model-original-audio.mp4",
+  "sha256": "55cba770099a24cf58d20bd3367805a90b9eaa2a8d5f584c5650d7ab75ffcec0",
+  "native_narration": true,
+  "voice_regenerated": false,
+  "pitch_speed_changed": false,
+  "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+  "word_offsets": {
+    "half": 1.3199999332427979,
+    "half_shaded": 1.5999999046325684,
+    "zero_point_four": 3.0,
+    "four_shaded": 3.7200000286102295,
+    "equal_wholes": 5.359999656677246
+  },
+  "mathematical_models": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+  "prediction_answer_hidden": true,
+  "full_decode": true,
+  "resolution": [
+    854,
+    480
+  ],
+  "status": "UNVERIFIED_SCENE_PREVIEW_ONLY",
+  "deployed": false
+}

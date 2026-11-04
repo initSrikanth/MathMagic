@@ -1,0 +1,23 @@
+How can a set of instructions help us find every factor? Today we are following an algorithm: a sequence of steps and decisions we can repeat. We will test candidates in order, record successful pairs, and decide when it is safe to stop.
+
+Our learning goal is to follow an algorithm to find factors systematically.
+
+Success criteria. I can repeat the test and record steps. I can record pairs only for exact division. I can stop before factor pairs repeat.
+
+Choose the target number and start with one. Test exact division. If it works, record the candidate and its partner. Increase the candidate by one. Stop when the candidate is greater than its possible partner, because pairs would repeat in reverse. For a small start, twelve has the pairs one and twelve, two and six, three and four.
+
+For thirty-six, test one, two, three and four. They produce partners thirty-six, eighteen, twelve and nine. Five leaves a remainder, so do not record it.
+
+Six divides exactly and pairs with six. The next candidate would be seven, already beyond its partner, so the search is complete. Record six only once when listing the factors.
+
+Apply the same steps to forty. One pairs with forty, two with twenty, and four with ten. Three does not divide exactly.
+
+Five pairs with eight. Six does not work, and by seven the candidate is greater than the partner it would need. The complete factors are one, two, four, five, eight, ten, twenty and forty.
+
+Finding one and forty is only the beginning. Keep increasing the test number and record each exact pair. Stop only when the test number passes its possible partner, so later pairs would repeat.
+
+For twenty-four, after recording four times six, should we also record six times four as a new pair?
+
+No. They use the same two factors in reverse order. A complete factor set includes each value once.
+
+An algorithm needs a starting point, a repeatable test, a way to record results, and a stopping rule. Follow every step so the search is complete without unnecessary repetition. Reflect on which model helped you and explain why.

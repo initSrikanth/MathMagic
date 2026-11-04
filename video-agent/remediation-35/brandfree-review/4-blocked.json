@@ -1,5 +1,7 @@
 {
   "number": 4,
-  "status": "BLOCKED",
-  "reason": "Branded sentence is followed by an optional LCM notice. A prefix cut would remove unrelated curriculum guidance; preserve it and require a reviewed internal edit."
+  "status": "INTERNAL_EDIT_PREPARED_REVIEW_BLOCKED",
+  "candidate": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.mp4",
+  "optional_lcm_notice_preserved": true,
+  "perceptual_review": "UNVERIFIED"
 }

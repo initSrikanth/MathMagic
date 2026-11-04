@@ -1,0 +1,2049 @@
+{
+  "expected": 35,
+  "final_pass": 0,
+  "deployed": 0,
+  "records": [
+    {
+      "number": 1,
+      "topic": "fractions",
+      "lesson": "Comparing and Ordering Fractions",
+      "original": "videos/fractions-2026/comparing-ordering.mp4",
+      "original_sha256": "dd552862abd39b1927c9694e0bfacbaefcf595ee7fcde13ddbf4721ca1835aed",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/fractions-2026/comparing-ordering.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/fractions/meaning-brandfree-review.mp4",
+        "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+        "captions": "video-agent/remediation-35/brandfree-review/fractions/meaning-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/fractions/meaning-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/fractions/meaning-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+          "duration": 221.866667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.15483203530311584,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              87.04,
+              90.26
+            ],
+            [
+              144.96,
+              148.16
+            ],
+            [
+              200.5,
+              205.70000000000002
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 2,
+      "topic": "fractions",
+      "lesson": "Equivalent Fractions",
+      "original": "videos/fractions-2026/equivalent.mp4",
+      "original_sha256": "cadb6328a2a5ec335f846fe03e830c3c687dede70397e58bb3a9e99386b7729c",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/fractions-2026/equivalent.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/fractions/equivalent-brandfree-review.mp4",
+        "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+        "captions": "video-agent/remediation-35/brandfree-review/fractions/equivalent-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/fractions/equivalent-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/fractions/equivalent-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+          "duration": 229.2,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1552700251340866,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              63.86,
+              67.04
+            ],
+            [
+              111.88,
+              115.08
+            ],
+            [
+              204.88,
+              210.04
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 3,
+      "topic": "fractions",
+      "lesson": "Mixed Numbers and Improper Fractions",
+      "original": "videos/fractions-2026/mixed-improper.mp4",
+      "original_sha256": "10bafdfff315211890bb9dfca478d0ecf1ba31439234ee58bc402f5b3d5db844",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/fractions-2026/mixed-improper.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/fractions/mixed-brandfree-review.mp4",
+        "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+        "captions": "video-agent/remediation-35/brandfree-review/fractions/mixed-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/fractions/mixed-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/fractions/mixed-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+          "duration": 241.4,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.15560278296470642,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              63.86,
+              67.06
+            ],
+            [
+              125.52,
+              128.68
+            ],
+            [
+              220.64000000000001,
+              225.82
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 4,
+      "topic": "fractions",
+      "lesson": "Adding and Subtracting Fractions",
+      "original": "videos/fractions-2026/adding-subtracting.mp4",
+      "original_sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/fractions-2026/adding-subtracting.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.mp4",
+        "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+        "captions": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved",
+          "Optional LCM notice retained by internal sentence edit"
+        ],
+        "automated_evidence": {
+          "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+          "duration": 223.3,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.15287324786186218,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              65.54,
+              68.78
+            ],
+            [
+              100.22,
+              103.4
+            ],
+            [
+              195.48000000000002,
+              200.66
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 5,
+      "topic": "fractions",
+      "lesson": "Fraction Word Problems",
+      "original": "videos/fractions-2026/word-problems.mp4",
+      "original_sha256": "021eaa0261cb82adb3b5d6faf32e6556cc6691a4da5ab5629a251cb957ad4396",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/fractions-2026/word-problems.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/fractions/problems-brandfree-review.mp4",
+        "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+        "captions": "video-agent/remediation-35/brandfree-review/fractions/problems-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/fractions/problems-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/fractions/problems-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+          "duration": 227.5,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.15605224668979645,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              64.14,
+              67.34
+            ],
+            [
+              108.88,
+              112.10000000000001
+            ],
+            [
+              203.62,
+              208.78
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 6,
+      "topic": "whole-numbers",
+      "lesson": "Understanding Place Value",
+      "original": "videos/whole-numbers-2026/lesson1.mp4",
+      "original_sha256": "e8e4b39fadb807d63c534167f8459fa5d3458e1d540a4fa780d3edc1d03c9d04",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/whole-numbers-2026/lesson1.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson1-brandfree-review.mp4",
+        "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+        "captions": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson1-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson1-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson1-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+          "duration": 196.133333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.158124178647995,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              60.1,
+              61.800000000000004
+            ],
+            [
+              99.94,
+              101.62
+            ],
+            [
+              153.0,
+              158.20000000000002
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 7,
+      "topic": "whole-numbers",
+      "lesson": "Expanded Form & Representing Numbers",
+      "original": "videos/whole-numbers-2026/lesson2.mp4",
+      "original_sha256": "e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/whole-numbers-2026/lesson2.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson2-brandfree-review.mp4",
+        "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+        "captions": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson2-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson2-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson2-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+          "duration": 206.566667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.15786902606487274,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              58.9,
+              60.58
+            ],
+            [
+              119.36,
+              121.06
+            ],
+            [
+              160.1,
+              165.3
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 8,
+      "topic": "whole-numbers",
+      "lesson": "Comparing & Ordering Whole Numbers",
+      "original": "videos/whole-numbers-2026/lesson3.mp4",
+      "original_sha256": "46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/whole-numbers-2026/lesson3.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson3-brandfree-review.mp4",
+        "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+        "captions": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson3-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson3-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson3-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+          "duration": 211.733333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1562366932630539,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              56.14,
+              57.84
+            ],
+            [
+              101.66,
+              103.36
+            ],
+            [
+              163.1,
+              168.28
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 9,
+      "topic": "whole-numbers",
+      "lesson": "Decimal Place Value",
+      "original": "videos/whole-numbers-2026/lesson4.mp4",
+      "original_sha256": "e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/whole-numbers-2026/lesson4.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson4-brandfree-review.mp4",
+        "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+        "captions": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson4-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson4-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson4-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+          "duration": 204.5,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1565130352973938,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              59.0,
+              60.7
+            ],
+            [
+              105.16,
+              106.86
+            ],
+            [
+              161.56,
+              166.76
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 10,
+      "topic": "whole-numbers",
+      "lesson": "Compare, Order & Locate Decimals",
+      "original": "videos/whole-numbers-2026/lesson5.mp4",
+      "original_sha256": "5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/whole-numbers-2026/lesson5.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson5-brandfree-review.mp4",
+        "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+        "captions": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson5-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson5-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/whole-numbers/lesson5-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+          "duration": 208.333333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1583288311958313,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              59.76,
+              61.44
+            ],
+            [
+              104.46000000000001,
+              106.12
+            ],
+            [
+              162.14000000000001,
+              167.32
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 11,
+      "topic": "decimals-percentages",
+      "lesson": "Decimal Place Value",
+      "original": "videos/MathMagic_V2_decimals_percentages_place.mp4",
+      "original_sha256": "d963277765a4326eeb8011308b27e992229d00002f818029628d91a517a03484",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_place.mp4",
+      "review": null,
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 12,
+      "topic": "decimals-percentages",
+      "lesson": "Compare and Order Decimals",
+      "original": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
+      "original_sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_compare.mp4",
+      "review": null,
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 13,
+      "topic": "decimals-percentages",
+      "lesson": "Understanding Percent",
+      "original": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
+      "original_sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_percent.mp4",
+      "review": null,
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 14,
+      "topic": "decimals-percentages",
+      "lesson": "Connect Fractions, Decimals and Percentages",
+      "original": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+      "original_sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_connect.mp4",
+      "review": null,
+      "model_preview": {
+        "number": 14,
+        "scene": 5,
+        "source": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+        "source_sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+        "source_interval": [
+          62.60308333333333,
+          71.524
+        ],
+        "preview": "video-agent/remediation-35/model-previews/14-model-original-audio.mp4",
+        "sha256": "ccc9ef251e293d6b8c350245742df44a5b003620bcb8cae6ddeb6c9ccc60e34a",
+        "native_narration": true,
+        "voice_regenerated": false,
+        "pitch_speed_changed": false,
+        "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+        "word_offsets": {
+          "fifty_percent": 1.4399999380111694,
+          "all_three_names": 2.759999990463257,
+          "midpoint": 4.559999942779541,
+          "between_zero_one": 5.119999885559082
+        },
+        "mathematical_models": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+        "prediction_answer_hidden": true,
+        "full_decode": true,
+        "resolution": [
+          854,
+          480
+        ],
+        "status": "UNVERIFIED_SCENE_PREVIEW_ONLY",
+        "deployed": false
+      },
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 15,
+      "topic": "decimals-percentages",
+      "lesson": "Compare Relative Size",
+      "original": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+      "original_sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_decimals_percentages_apply.mp4",
+      "review": null,
+      "model_preview": {
+        "number": 15,
+        "scene": 6,
+        "source": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+        "source_sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+        "source_interval": [
+          73.564875,
+          81.92225
+        ],
+        "preview": "video-agent/remediation-35/model-previews/15-model-original-audio.mp4",
+        "sha256": "55cba770099a24cf58d20bd3367805a90b9eaa2a8d5f584c5650d7ab75ffcec0",
+        "native_narration": true,
+        "voice_regenerated": false,
+        "pitch_speed_changed": false,
+        "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+        "word_offsets": {
+          "half": 1.3199999332427979,
+          "half_shaded": 1.5999999046325684,
+          "zero_point_four": 3.0,
+          "four_shaded": 3.7200000286102295,
+          "equal_wholes": 5.359999656677246
+        },
+        "mathematical_models": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+        "prediction_answer_hidden": true,
+        "full_decode": true,
+        "resolution": [
+          854,
+          480
+        ],
+        "status": "UNVERIFIED_SCENE_PREVIEW_ONLY",
+        "deployed": false
+      },
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 16,
+      "topic": "addition-subtraction",
+      "lesson": "Efficient Mental Strategies",
+      "original": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+      "original_sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review.mp4",
+        "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+        "captions": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+          "duration": 138.433333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06168036162853241,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              112.26,
+              116.46000000000001
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 17,
+      "topic": "addition-subtraction",
+      "lesson": "Written Addition and Subtraction",
+      "original": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+      "original_sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review.mp4",
+        "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+        "captions": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+          "duration": 152.466667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06157028675079346,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              120.68,
+              124.9
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 18,
+      "topic": "addition-subtraction",
+      "lesson": "Estimate and Check",
+      "original": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+      "original_sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review.mp4",
+        "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+        "captions": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+          "duration": 143.633333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06078050658106804,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              113.46000000000001,
+              117.68
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 19,
+      "topic": "addition-subtraction",
+      "lesson": "Missing Values and Inverses",
+      "original": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+      "original_sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review.mp4",
+        "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+        "captions": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+          "duration": 140.4,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06181849166750908,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              108.58,
+              112.84
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 20,
+      "topic": "addition-subtraction",
+      "lesson": "Model Practical Problems",
+      "original": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+      "original_sha256": "1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review.mp4",
+        "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+        "captions": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+          "duration": 140.233333,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06174097955226898,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              112.86,
+              117.08
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 21,
+      "topic": "multiplication-division",
+      "lesson": "Multiply Efficiently",
+      "original": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+      "original_sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review.mp4",
+        "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+        "captions": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+          "duration": 137.366667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06159384176135063,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              111.84,
+              116.08
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 22,
+      "topic": "multiplication-division",
+      "lesson": "Multiply by Two-digit Numbers",
+      "original": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+      "original_sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review.mp4",
+        "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+        "captions": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+          "duration": 139.266667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06207273155450821,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              112.14,
+              116.38
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 23,
+      "topic": "multiplication-division",
+      "lesson": "Divide by a Single-digit Number",
+      "original": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+      "original_sha256": "cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review.mp4",
+        "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+        "captions": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+          "duration": 142.866667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06205884739756584,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              115.72,
+              119.98
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 24,
+      "topic": "multiplication-division",
+      "lesson": "Interpret Remainders",
+      "original": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+      "original_sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review.mp4",
+        "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+        "captions": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+          "duration": 144.966667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06195202097296715,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              116.98,
+              121.22
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 25,
+      "topic": "multiplication-division",
+      "lesson": "Unknowns, Estimation and Modelling",
+      "original": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+      "original_sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review.mp4",
+        "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+        "captions": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+          "duration": 146.8,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06091530993580818,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              122.02,
+              126.22
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 26,
+      "topic": "factors-multiples",
+      "lesson": "Build Numbers from Factors",
+      "original": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+      "original_sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review.mp4",
+        "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+        "captions": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+          "duration": 141.8,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06114053726196289,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              115.32000000000001,
+              119.56
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 27,
+      "topic": "factors-multiples",
+      "lesson": "Recognise Multiples",
+      "original": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+      "original_sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review.mp4",
+        "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+        "captions": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+          "duration": 143.266667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06246734783053398,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              116.72,
+              120.94
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 28,
+      "topic": "factors-multiples",
+      "lesson": "Use Divisibility Rules",
+      "original": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+      "original_sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review.mp4",
+        "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+        "captions": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+          "duration": 146.466667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.06200956553220749,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              112.7,
+              116.92
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 29,
+      "topic": "factors-multiples",
+      "lesson": "Follow an Algorithm",
+      "original": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+      "original_sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review.mp4",
+        "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+        "captions": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+          "duration": 150.166667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.061587776988744736,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              122.44,
+              126.7
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 30,
+      "topic": "factors-multiples",
+      "lesson": "Connect and Reason",
+      "original": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+      "original_sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review.mp4",
+        "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+        "captions": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+          "duration": 145.9,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.061863966286182404,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [
+            [
+              112.84,
+              117.08
+            ]
+          ],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 31,
+      "topic": "measurement",
+      "lesson": "Choose Units and Measure Length",
+      "original": "videos/MathMagic_V3_measurement_lesson1.mp4",
+      "original_sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson1.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review.mp4",
+        "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+        "captions": "video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/measurement/lesson1-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+          "duration": 139.566667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.13449686765670776,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 32,
+      "topic": "measurement",
+      "lesson": "Measure Mass and Capacity",
+      "original": "videos/MathMagic_V3_measurement_lesson2.mp4",
+      "original_sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson2.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review.mp4",
+        "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+        "captions": "video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/measurement/lesson2-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+          "duration": 152.366667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.13535749912261963,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 33,
+      "topic": "measurement",
+      "lesson": "Trace and Calculate Perimeter",
+      "original": "videos/MathMagic_V3_measurement_lesson3.mp4",
+      "original_sha256": "a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson3.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review.mp4",
+        "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+        "captions": "video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/measurement/lesson3-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+          "duration": 136.566667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1350311040878296,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 34,
+      "topic": "measurement",
+      "lesson": "Cover and Calculate Area",
+      "original": "videos/MathMagic_V3_measurement_lesson4.mp4",
+      "original_sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson4.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review.mp4",
+        "sha256": "37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a",
+        "captions": "video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/measurement/lesson4-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a",
+          "duration": 139.366667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.1348978728055954,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    },
+    {
+      "number": 35,
+      "topic": "measurement",
+      "lesson": "Design with Irregular Shapes",
+      "original": "videos/MathMagic_V3_measurement_lesson5.mp4",
+      "original_sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+      "published_url": "https://initsrikanth.github.io/MathMagic/videos/MathMagic_V3_measurement_lesson5.mp4",
+      "review": {
+        "mp4": "video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review.mp4",
+        "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+        "captions": "video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review.vtt",
+        "transcript": "video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review-transcript.txt",
+        "script": "video-agent/remediation-35/brandfree-review/measurement/lesson5-brandfree-review.json",
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "voice_preserved": true,
+        "corrections": [
+          "Brand invitation removed; all other narration preserved"
+        ],
+        "automated_evidence": {
+          "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+          "duration": 146.966667,
+          "encoding": {
+            "video": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pixel_format": "yuv420p",
+            "audio": "aac"
+          },
+          "audio_rms": 0.13361456990242004,
+          "clipping_fraction": 0.0,
+          "silence_flags_seconds": [],
+          "caption_timing_valid": true,
+          "caption_transcript_text_match": true,
+          "sidecars_brand_free": true,
+          "perceptual_review": "UNVERIFIED",
+          "deployed": false
+        },
+        "perceptual_assessment": "UNVERIFIED",
+        "status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+        "deployed": false
+      },
+      "model_preview": null,
+      "full_perceptual_status": "UNVERIFIED",
+      "release_status": "BLOCKED",
+      "deployed": false
+    }
+  ]
+}

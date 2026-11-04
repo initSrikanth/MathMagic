@@ -41,7 +41,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " AND ORDER FRACTIONS YOU CAN COMPARE EQUAL PARTS EXPLAIN A FAIR COMPARISON AND READ A NUMBER LINE WHICH MODEL WILL HELP YOU EXPLAIN YOUR NEXT ANSWER",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+        "duration": 221.866667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.15483203530311584,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            87.04,
+            90.26
+          ],
+          [
+            144.96,
+            148.16
+          ],
+          [
+            200.5,
+            205.70000000000002
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 2,
@@ -83,7 +115,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " ONES YOU CAN SPLIT OR GROUP EQUAL PARTS CHANGE BOTH NUMBERS TOGETHER AND CHECK THAT THE AMOUNT STAYS THE SAME HOW MANY NAMES CAN YOU FIND FOR ONE HALF",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+        "duration": 229.2,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1552700251340866,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            63.86,
+            67.04
+          ],
+          [
+            111.88,
+            115.08
+          ],
+          [
+            204.88,
+            210.04
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 3,
@@ -125,7 +189,100 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " AND IMPROPER FRACTIONS YOU CAN BUILD HOLES COUNT THE LEFT OVER PARTS AND CONVERT IN EITHER DIRECTION BEFORE CALCULATING WHAT WOULD YOUR AMOUNT LOOK LIKE",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+        "duration": 241.4,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.15560278296470642,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            63.86,
+            67.06
+          ],
+          [
+            125.52,
+            128.68
+          ],
+          [
+            220.64000000000001,
+            225.82
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 4,
+      "lesson": "Adding and Subtracting Fractions",
+      "source": "videos/fractions-2026/adding-subtracting.mp4",
+      "source_sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+      "candidate": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.mp4",
+      "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+      "bytes": 6624278,
+      "duration": 223.3,
+      "internal_removed_interval": [
+        218.9,
+        222.0
+      ],
+      "natural_quiet_boundaries_pcm_checked": true,
+      "optional_lcm_notice_preserved": true,
+      "video_prefix_exact_original_packets": 6471,
+      "video_tail_reencoded_seconds": 7.600000000000023,
+      "aac_reencoded": true,
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " YOU MOVE THEM THEN SIMPLIFY AND CHECK WHAT WOULD YOU DRAW FIRST FOR YOUR NEXT CALCULATION THE SEPARATE L C M VIDIO IS OPTIONAL EXTENSION WORK",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+        "duration": 223.3,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.15287324786186218,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            65.54,
+            68.78
+          ],
+          [
+            100.22,
+            103.4
+          ],
+          [
+            195.48000000000002,
+            200.66
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 5,
@@ -167,7 +324,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " FRACTION PROBLEMS IDENTIFY THE WHOLE MODEL THE RELATIONSHIP CALCULATE AND CHECK THE UNIT COULD YOU INVENT A FRACTION STORY ABOUT YOUR OWN DAY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+        "duration": 227.5,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.15605224668979645,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            64.14,
+            67.34
+          ],
+          [
+            108.88,
+            112.10000000000001
+          ],
+          [
+            203.62,
+            208.78
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 6,
@@ -209,7 +398,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " THERE YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+        "duration": 196.133333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.158124178647995,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            60.1,
+            61.800000000000004
+          ],
+          [
+            99.94,
+            101.62
+          ],
+          [
+            153.0,
+            158.20000000000002
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 7,
@@ -251,7 +472,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " YOU YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+        "duration": 206.566667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.15786902606487274,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            58.9,
+            60.58
+          ],
+          [
+            119.36,
+            121.06
+          ],
+          [
+            160.1,
+            165.3
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 8,
@@ -293,7 +546,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " YOU YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+        "duration": 211.733333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1562366932630539,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            56.14,
+            57.84
+          ],
+          [
+            101.66,
+            103.36
+          ],
+          [
+            163.1,
+            168.28
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 9,
@@ -335,7 +620,39 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+        "duration": 204.5,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1565130352973938,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            59.0,
+            60.7
+          ],
+          [
+            105.16,
+            106.86
+          ],
+          [
+            161.56,
+            166.76
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 10,
@@ -377,7 +694,1014 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
-      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required."
+      "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+      "candidate_automated_evidence": {
+        "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+        "duration": 208.333333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1583288311958313,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            59.76,
+            61.44
+          ],
+          [
+            104.46000000000001,
+            106.12
+          ],
+          [
+            162.14000000000001,
+            167.32
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 16,
+      "lesson": "Efficient Mental Strategies",
+      "source": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+      "source_sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+      "candidate": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson1-brandfree-review.mp4",
+      "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+      "bytes": 2716199,
+      "cut_seconds": 138.34166666666667,
+      "removed_caption": {
+        "start": 138.51666666666668,
+        "end": 141.664375,
+        "text": "Have a go at the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4153,
+          "original_packets": 4269,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3244,
+          "original_packets": 3337,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        138.12666666666667,
+        138.56666666666666
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " SENSATION FOR FRIENDLY TOTALS EXPLAIN THE ADJUSTMENT AND CHECK USING THE INVERSE OPERATION NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+        "duration": 138.433333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06168036162853241,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            112.26,
+            116.46000000000001
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 17,
+      "lesson": "Written Addition and Subtraction",
+      "source": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+      "source_sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+      "candidate": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson2-brandfree-review.mp4",
+      "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+      "bytes": 3046929,
+      "cut_seconds": 152.37233333333333,
+      "removed_caption": {
+        "start": 152.547375,
+        "end": 155.69529166666666,
+        "text": "Have a go at the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4574,
+          "original_packets": 4690,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3573,
+          "original_packets": 3666,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        152.15733333333333,
+        152.59733333333332
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " ROW IS A PLACE HOLDER SO EXCHANGES MAY CROSS MORE THAN ONE COLUMN USE ADDITION TO CHECK SUBTRACTION NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+        "duration": 152.466667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06157028675079346,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            120.68,
+            124.9
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 18,
+      "lesson": "Estimate and Check",
+      "source": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+      "source_sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+      "candidate": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson3-brandfree-review.mp4",
+      "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+      "bytes": 2852265,
+      "cut_seconds": 143.54054166666668,
+      "removed_caption": {
+        "start": 143.71554166666667,
+        "end": 146.86345833333334,
+        "text": "Have a go at the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4309,
+          "original_packets": 4425,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3366,
+          "original_packets": 3459,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        143.32554166666668,
+        143.76554166666665
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " EXACT RESULT DIFFERENT USEFUL ESTIMATES ARE PASSABLE ALWAYS EXPLAIN YOUR ROUNDING CHOICE NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+        "duration": 143.633333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06078050658106804,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            113.46000000000001,
+            117.68
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 19,
+      "lesson": "Missing Values and Inverses",
+      "source": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+      "source_sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+      "candidate": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson4-brandfree-review.mp4",
+      "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+      "bytes": 2740503,
+      "cut_seconds": 140.323375,
+      "removed_caption": {
+        "start": 140.49841666666666,
+        "end": 143.64479166666666,
+        "text": "Have a go at the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4212,
+          "original_packets": 4329,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3290,
+          "original_packets": 3383,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        140.108375,
+        140.548375
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " TUT YOUR ANSWER INTO THE ORIGINAL SENTENCE A CHECK TESTS THE RELATIONSHIP NOT JUST THE ARITHMETIC NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+        "duration": 140.4,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06181849166750908,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            108.58,
+            112.84
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 20,
+      "lesson": "Model Practical Problems",
+      "source": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+      "source_sha256": "1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062",
+      "candidate": "video-agent/remediation-35/brandfree-review/addition-subtraction/lesson5-brandfree-review.mp4",
+      "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+      "bytes": 2777550,
+      "cut_seconds": 140.14479166666666,
+      "removed_caption": {
+        "start": 140.31983333333332,
+        "end": 143.46775,
+        "text": "Have a go at the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4207,
+          "original_packets": 4324,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3286,
+          "original_packets": 3379,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        139.92979166666666,
+        140.36979166666666
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " THE RELATIONSHIP BETWEEN QUANTITIES GIVE THE ANSWER WITH ITS UNIT AND EXPLAIN WHY ITS SIZE MAKES SENSE NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+        "duration": 140.233333,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06174097955226898,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            112.86,
+            117.08
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 21,
+      "lesson": "Multiply Efficiently",
+      "source": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+      "source_sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+      "candidate": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson1-brandfree-review.mp4",
+      "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+      "bytes": 2666890,
+      "cut_seconds": 137.29795833333333,
+      "removed_caption": {
+        "start": 137.46795833333334,
+        "end": 140.579625,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4121,
+          "original_packets": 4237,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3219,
+          "original_packets": 3312,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        137.07795833333333,
+        137.52795833333332
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " USUAL PRODUCTS KEEP THE VALUE OF EACH DIGIT CLEAR AND USE AN ESTIMATE TO CHECK THE SCALE OF YOUR ANSWER CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+        "duration": 137.366667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06159384176135063,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            111.84,
+            116.08
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 22,
+      "lesson": "Multiply by Two-digit Numbers",
+      "source": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+      "source_sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+      "candidate": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson2-brandfree-review.mp4",
+      "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+      "bytes": 2810109,
+      "cut_seconds": 139.19320833333333,
+      "removed_caption": {
+        "start": 139.36320833333335,
+        "end": 142.474875,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4178,
+          "original_packets": 4294,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3264,
+          "original_packets": 3356,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        138.97320833333333,
+        139.42320833333332
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " PARTIAL PRODUCTS WITH THEIR CORRECT PLACE VALUES ADD THEM THEN CHECK WITH A NEAR BY FRIENDLY MULTIPLICATION CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+        "duration": 139.266667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06207273155450821,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            112.14,
+            116.38
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 23,
+      "lesson": "Divide by a Single-digit Number",
+      "source": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+      "source_sha256": "cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628",
+      "candidate": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson3-brandfree-review.mp4",
+      "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+      "bytes": 2796345,
+      "cut_seconds": 142.79795833333333,
+      "removed_caption": {
+        "start": 142.968,
+        "end": 146.07966666666667,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4286,
+          "original_packets": 4402,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3348,
+          "original_packets": 3440,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        142.57795833333333,
+        143.02795833333332
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " ADD THE QUSHIONS CHECK THAT QUOTIAN TIME'S DEVISER RETURNS THE DIVIDEND WHEN THERE IS NO REMAINDER CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+        "duration": 142.866667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06205884739756584,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            115.72,
+            119.98
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 24,
+      "lesson": "Interpret Remainders",
+      "source": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+      "source_sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
+      "candidate": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson4-brandfree-review.mp4",
+      "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+      "bytes": 2967877,
+      "cut_seconds": 144.875875,
+      "removed_caption": {
+        "start": 145.045875,
+        "end": 148.15754166666667,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4349,
+          "original_packets": 4464,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3397,
+          "original_packets": 3489,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        144.655875,
+        145.105875
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " IN PLACES DIVISIBLE QUANTITIES CAN BE SHARED FURTHER EXPLAIN YOUR ANSWER USING THE CORRECT UNIT CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+        "duration": 144.966667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06195202097296715,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            116.98,
+            121.22
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 25,
+      "lesson": "Unknowns, Estimation and Modelling",
+      "source": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+      "source_sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+      "candidate": "video-agent/remediation-35/brandfree-review/multiplication-division/lesson5-brandfree-review.mp4",
+      "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+      "bytes": 2985219,
+      "cut_seconds": 146.72666666666666,
+      "removed_caption": {
+        "start": 146.89670833333332,
+        "end": 150.008375,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4404,
+          "original_packets": 4520,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3440,
+          "original_packets": 3533,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        146.50666666666666,
+        146.95666666666665
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " AND ESTIMATE BEFORE CALCULATING CHECK BY SUBSTITUTION AND STATE WHAT THE RESULT MEANS IN THE PROBLEM CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+        "duration": 146.8,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06091530993580818,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            122.02,
+            126.22
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 26,
+      "lesson": "Build Numbers from Factors",
+      "source": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+      "source_sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+      "candidate": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson1-brandfree-review.mp4",
+      "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+      "bytes": 2875029,
+      "cut_seconds": 141.71170833333332,
+      "removed_caption": {
+        "start": 141.88670833333333,
+        "end": 144.998375,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4254,
+          "original_packets": 4369,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3323,
+          "original_packets": 3415,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        141.48670833333333,
+        141.94670833333333
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " RECORD BOTH MEMBERS OF EACH FACTOR PAIR REMOVE REPEATED ENTRIES AND EXPLAIN WHY THE SEARCH IS COMPLETE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+        "duration": 141.8,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06114053726196289,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            115.32000000000001,
+            119.56
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 27,
+      "lesson": "Recognise Multiples",
+      "source": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+      "source_sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+      "candidate": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson2-brandfree-review.mp4",
+      "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+      "bytes": 2821623,
+      "cut_seconds": 143.182625,
+      "removed_caption": {
+        "start": 143.357625,
+        "end": 146.46975,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4298,
+          "original_packets": 4414,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3357,
+          "original_packets": 3450,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        142.957625,
+        143.417625
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " OR EXACT DIVISION TO CHECK MEMBERSHIP FACTORS BUILD A NUMBER MULTIPLES ARE THE PRODUCTS YOU MAKE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+        "duration": 143.266667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06246734783053398,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            116.72,
+            120.94
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 28,
+      "lesson": "Use Divisibility Rules",
+      "source": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+      "source_sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+      "candidate": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson3-brandfree-review.mp4",
+      "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+      "bytes": 2878314,
+      "cut_seconds": 146.37383333333332,
+      "removed_caption": {
+        "start": 146.54883333333333,
+        "end": 149.6605,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4394,
+          "original_packets": 4509,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3432,
+          "original_packets": 3524,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        146.14883333333333,
+        146.60883333333334
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " VISIBILITY RULES ARE SHORT CUTS FOR EXACT DIVISION DECISIONS AND MULTIPLICATION CAN CONFIRM THE RESULT REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+        "duration": 146.466667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.06200956553220749,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            112.7,
+            116.92
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 29,
+      "lesson": "Follow an Algorithm",
+      "source": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+      "source_sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+      "candidate": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson4-brandfree-review.mp4",
+      "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+      "bytes": 3142324,
+      "cut_seconds": 150.09300000000002,
+      "removed_caption": {
+        "start": 150.268,
+        "end": 153.37966666666668,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4505,
+          "original_packets": 4621,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3519,
+          "original_packets": 3612,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        149.868,
+        150.328
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " AND A STOPPING RULE FOLLOW EVERY STEP SO THE SEARCH IS COMPLETE WITHOUT UNNECESSARY REPETITION REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+        "duration": 150.166667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.061587776988744736,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            122.44,
+            126.7
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
+    },
+    {
+      "number": 30,
+      "lesson": "Connect and Reason",
+      "source": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+      "source_sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+      "candidate": "video-agent/remediation-35/brandfree-review/factors-multiples/lesson5-brandfree-review.mp4",
+      "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+      "bytes": 2965489,
+      "cut_seconds": 145.82045833333333,
+      "removed_caption": {
+        "start": 145.99545833333335,
+        "end": 149.107125,
+        "text": "Now try the lesson practice on MathMagic!"
+      },
+      "packet_copy_proof": {
+        "v:0": {
+          "packets_kept": 4377,
+          "original_packets": 4493,
+          "exact_original_prefix": true
+        },
+        "a:0": {
+          "packets_kept": 3419,
+          "original_packets": 3511,
+          "exact_original_prefix": true
+        }
+      },
+      "narration_regenerated": false,
+      "pitch_speed_changed": false,
+      "enthusiasm_changed": false,
+      "natural_silence_cut_interval": [
+        145.59545833333334,
+        146.05545833333332
+      ],
+      "caption_brand_free": true,
+      "transcript_brand_free": true,
+      "deployed": false,
+      "final_status": "UNVERIFIED",
+      "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+      "ending_asr": " DIVISION TO JUSTIFY YOUR DECISION EXPLAIN THE RELATIONSHIP RATHER THAN GUESSING FROM ONE EXAMPLE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+      "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+      "candidate_automated_evidence": {
+        "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+        "duration": 145.9,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.061863966286182404,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [
+          [
+            112.84,
+            117.08
+          ]
+        ],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 31,
@@ -418,7 +1742,26 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " DETICATION MEASURE A PENCIL IN SENTIMETERS AND MILLIMITTIS DISCUSS WHICH READING DESCRIBES ITS LENGTH MORE PRECISELY REFLECT ON WHICH MODEL HELPED YOU AND WHY",
-      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+      "candidate_automated_evidence": {
+        "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+        "duration": 139.566667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.13449686765670776,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 32,
@@ -459,7 +1802,26 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " OR MARKED JUG WITH AN ADULT PREDICT A READING MEASURE CAREFULLY AND EXPLAIN THE DIFFERENCE BETWEEN YOUR ESTIMATE AND OBSERVATION REFLECT ON WHICH MODEL HELPED YOU AND WHY",
-      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+      "candidate_automated_evidence": {
+        "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+        "duration": 152.366667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.13535749912261963,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 33,
@@ -500,7 +1862,26 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " AND KEEP UNITS CONSISTENT TRY OUTLINING A BOOK WITH STRING THEN COMPARE A DIRECT MEASUREMENT WITH THE TOTAL OF ITS SIDE LENGTHS REFLECT ON WHICH MODEL HELPED YOU AND WHY",
-      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+      "candidate_automated_evidence": {
+        "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+        "duration": 136.566667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1350311040878296,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 34,
@@ -541,7 +1922,26 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " TWO RECTANGLES WITH THE SAME AREA ON SQUARED PAPER DO THEY HAVE TO HAVE THE SAME PERIMETER EXPLAIN WITH A DRAWING REFLECT ON WHICH MODEL HELPED YOU AND WHY",
-      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+      "candidate_automated_evidence": {
+        "sha256": "37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a",
+        "duration": 139.366667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.1348978728055954,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     },
     {
       "number": 35,
@@ -582,7 +1982,26 @@
       "final_status": "UNVERIFIED",
       "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
       "ending_asr": " ON SQUARED PAPER AND EXPLAIN A PAVING PLAN AND A FENCING PLAN CHECK THAT YOUR ANSWERS DESCRIBE THE ACTUAL DESIGN REFLECT ON WHICH MODEL HELPED YOU AND WHY",
-      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required."
+      "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+      "candidate_automated_evidence": {
+        "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+        "duration": 146.966667,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "audio": "aac"
+        },
+        "audio_rms": 0.13361456990242004,
+        "clipping_fraction": 0.0,
+        "silence_flags_seconds": [],
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "sidecars_brand_free": true,
+        "perceptual_review": "UNVERIFIED",
+        "deployed": false
+      }
     }
   ]
 }

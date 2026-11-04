@@ -1,0 +1,293 @@
+{
+  "id": "addition-subtraction-lesson1",
+  "topic": "addition-subtraction",
+  "section": "lesson1",
+  "title": "Efficient Mental Strategies",
+  "file": "MathMagic_V2_addition_subtraction_lesson1",
+  "beats": [
+    {
+      "text": "Could subtracting two large numbers be easier than adding two small ones? Today we are choosing mental addition and subtraction strategies. We will look at how close the numbers are, try a friendly number, and explain why our shortcuts keep the answer correct.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "text": "Our learning goal is to choose and explain efficient mental addition and subtraction strategies.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Choose and explain efficient mental addition and subtraction strategies."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can choose counting up for nearby numbers. I can use a friendly number and undo the adjustment. I can check an answer using the inverse operation.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Choose counting up for nearby numbers.",
+        "2. Use a friendly number and undo the adjustment.",
+        "3. Check an answer using the inverse operation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "A useful strategy fits the numbers. Counting up finds the distance between nearby numbers. Compensation changes a number to make a calculation easier, then adjusts the answer to undo that change.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "text": "Find six thousand and four minus five thousand nine hundred and ninety-seven. Counting up avoids lots of regrouping. First go up three to six thousand.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "6,004 \u2212 5,997",
+        "5,997 + 3 = 6,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5994,
+        "end": 6004,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          5997,
+          6000
+        ],
+        "jumps": [
+          [
+            5997,
+            6000
+          ]
+        ]
+      }
+    },
+    {
+      "text": "Then go up four more. The total distance is three plus four, which is seven. Check: five thousand nine hundred and ninety-seven plus seven is six thousand and four.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "6,000 + 4 = 6,004",
+        "3 + 4 = 7",
+        "6,004 \u2212 5,997 = 7"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 5994,
+        "end": 6004,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          5997,
+          6000,
+          6004
+        ],
+        "jumps": [
+          [
+            5997,
+            6000
+          ],
+          [
+            6000,
+            6004
+          ]
+        ]
+      }
+    },
+    {
+      "text": "Now add three hundred and ninety-eight and two hundred and fifty-seven. Move the first number up by two to make four hundred.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "398 + 257",
+        "400 + 257 = 657"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 390,
+        "end": 400,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          398,
+          400
+        ],
+        "jumps": [
+          [
+            398,
+            400
+          ]
+        ]
+      }
+    },
+    {
+      "text": "We added two too many, so subtract two from six hundred and fifty-seven. The answer is six hundred and fifty-five. Compensation preserves the original total after we undo the change.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "657 \u2212 2 = 655",
+        "398 + 257 = 655"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 650,
+        "end": 660,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          657,
+          655
+        ],
+        "jumps": [
+          [
+            657,
+            655
+          ]
+        ]
+      }
+    },
+    {
+      "text": "An easy mix-up is adding two again after changing three hundred and ninety-eight to four hundred. The friendly calculation is already two too high, so subtract two. You can check by returning to the original numbers.",
+      "chapter": "Undo the adjustment",
+      "equation": [],
+      "board": [
+        "400 + 257 = 657",
+        "657 \u2212 2 = 655"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "line",
+        "start": 650,
+        "end": 660,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          657,
+          655
+        ],
+        "jumps": [
+          [
+            657,
+            655
+          ]
+        ]
+      }
+    },
+    {
+      "text": "Try five hundred and two minus four hundred and ninety-eight. Can you count up?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "502 \u2212 498 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Go up two to five hundred, then two more to five hundred and two. The difference is four.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "498 + 2 + 2 = 502",
+        "502 \u2212 498 = 4"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "line",
+        "start": 496,
+        "end": 506,
+        "mark": null,
+        "decimals": 0,
+        "points": [
+          498,
+          500,
+          502
+        ],
+        "jumps": [
+          [
+            498,
+            500
+          ],
+          [
+            500,
+            502
+          ]
+        ]
+      }
+    },
+    {
+      "text": "Look at the numbers before choosing a method. Use counting up for nearby numbers and compensation for friendly totals. Explain the adjustment and check using the inverse operation. Now choose a strategy and explain why it works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}
