@@ -43,7 +43,7 @@ Full decode/composition checks, encoding, exact hashes, caption/transcript text 
 | 34 | Cover and Calculate Area | [MP4](brandfree-review/measurement/lesson4-brandfree-review.mp4) |
 | 35 | Design with Irregular Shapes | [MP4](brandfree-review/measurement/lesson5-brandfree-review.mp4) |
 
-[Packet/hash and automated evidence](brandfree-review/manifest.json). None of these edits changes enthusiasm or approves a previously unsuitable voice. The five Decimals originals have no source/caption brand match; their narration suitability remains unresolved.
+[Packet/hash and automated evidence](brandfree-review/manifest.json) · [All 30 GitHub download checksum checks](all-brand-candidates-github-checksums.json). None of these edits changes enthusiasm or approves a previously unsuitable voice. The five Decimals originals have no source/caption brand match; their narration suitability remains unresolved.
 
 [Internal edit frame samples](internal-brand-edit-seam.jpg) show consistent graphics across the removed invitation; this is sampled visual evidence, not full perceptual review.
 
