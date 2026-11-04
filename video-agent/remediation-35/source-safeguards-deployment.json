@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-11-04T21:27:49Z",
+  "pr": 53,
+  "tested_head": "772af66575dff684d2845695f65d8123b400f347",
+  "main_merge_commit": "26ea21a58568d798e17232a7582c9e765f565f15",
+  "required_ci": {
+    "run": 41913796907,
+    "conclusion": "success",
+    "contract_tests": 16,
+    "native_webkit_smoke": true,
+    "browser_cases": 179,
+    "independent_mathematics": true,
+    "isolated_firestore_emulator": true,
+    "physical_ios": false,
+    "live_firebase": false
+  },
+  "source_only_pages_deployment": {
+    "run": 41915850065,
+    "conclusion": "success",
+    "commit": "26ea21a58568d798e17232a7582c9e765f565f15",
+    "contract_url": "https://initsrikanth.github.io/MathMagic/video-agent/video-production-contract.json",
+    "contract_sha256": "aab7183cfcd2e25cac5e83ff1fc0b106b78ed6789d383f9e4e09758d86f16227",
+    "exact_live_contract_bytes": true
+  },
+  "video_release": {
+    "corrected_teaching_videos_deployed": 0,
+    "full_perceptual_pass": 0,
+    "production_hold": true
+  },
+  "production_workflows": "All three known workflows observed disabled_manually after merge",
+  "first_ci_failure": {
+    "run": 41911114963,
+    "cause": "Slow Azure Ubuntu mirror exhausted15-minute job timeout before tests",
+    "fixed": "Use standard official HTTPS Ubuntu archive; one verification retry passed"
+  }
+}
