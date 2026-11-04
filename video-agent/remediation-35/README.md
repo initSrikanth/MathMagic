@@ -45,6 +45,8 @@ Full decode/composition checks, encoding, exact hashes, caption/transcript text 
 
 [Packet/hash and automated evidence](brandfree-review/manifest.json). None of these edits changes enthusiasm or approves a previously unsuitable voice. The five Decimals originals have no source/caption brand match; their narration suitability remains unresolved.
 
+[Internal edit frame samples](internal-brand-edit-seam.jpg) show consistent graphics across the removed invitation; this is sampled visual evidence, not full perceptual review.
+
 ## Two original-audio animated model previews
 
 - [Midpoint number line](model-previews/14-model-original-audio.mp4): stacked one half, 0.5 and 50% at the same midpoint.
