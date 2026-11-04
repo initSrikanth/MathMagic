@@ -1,0 +1,96 @@
+{
+  "sample_rate": 24000,
+  "checks": [
+    {
+      "number": 4,
+      "candidate": "video-agent/remediation-35/brandfree-review/fractions/addsub-brandfree-review.mp4",
+      "comparisons": [
+        {
+          "candidate_time": 1,
+          "waveform_correlation": 0.9999998807907104,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 60,
+          "waveform_correlation": 0.9999992847442627,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 120,
+          "waveform_correlation": 0.9999995827674866,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 210,
+          "waveform_correlation": 0.9999998807907104,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 219.2,
+          "waveform_correlation": 0.9999970197677612,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 222,
+          "waveform_correlation": 0.9999957084655762,
+          "alignment_lag_samples": 0
+        }
+      ],
+      "statement": "Retained audio agrees with original source windows after AAC encoding. Objective preservation check; NOT accent, enthusiasm or perceptual certification."
+    },
+    {
+      "number": 14,
+      "candidate": "video-agent/remediation-35/model-previews/14-model-original-audio.mp4",
+      "comparisons": [
+        {
+          "candidate_time": 0.5,
+          "waveform_correlation": 0.9999428987503052,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 2,
+          "waveform_correlation": 0.9998683929443359,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 4,
+          "waveform_correlation": 0.9999212622642517,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 6,
+          "waveform_correlation": 0.9998866319656372,
+          "alignment_lag_samples": 0
+        }
+      ],
+      "statement": "Retained audio agrees with original source windows after AAC encoding. Objective preservation check; NOT accent, enthusiasm or perceptual certification."
+    },
+    {
+      "number": 15,
+      "candidate": "video-agent/remediation-35/model-previews/15-model-original-audio.mp4",
+      "comparisons": [
+        {
+          "candidate_time": 0.5,
+          "waveform_correlation": 0.9999809265136719,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 2,
+          "waveform_correlation": 0.9999210238456726,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 4,
+          "waveform_correlation": 0.9998037219047546,
+          "alignment_lag_samples": 0
+        },
+        {
+          "candidate_time": 6,
+          "waveform_correlation": 0.9999691247940063,
+          "alignment_lag_samples": 0
+        }
+      ],
+      "statement": "Retained audio agrees with original source windows after AAC encoding. Objective preservation check; NOT accent, enthusiasm or perceptual certification."
+    }
+  ]
+}

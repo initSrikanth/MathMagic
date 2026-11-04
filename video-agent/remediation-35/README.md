@@ -54,6 +54,8 @@ Full decode/composition checks, encoding, exact hashes, caption/transcript text 
 
 These are 854×480 scene previews, not full 1080p replacements. Models use independently checked exact fraction values; reveals follow existing local ASR word starts, with timing uncertainty documented in sidecars. Actual listening and full temporal review remain required.
 
+[AAC re-encoding preservation evidence](reencoded-audio-preservation.json) compares retained source waveforms with candidate windows; high correlation supports retained audio timing/characteristics but cannot certify heard accent or enthusiasm. All30 MP4s also have actual moov-before-mdat fast-start verification.
+
 ## Voice calibration evidence
 
 [32.53-second offline WAV](voice-calibration/native-curiosity-01.wav) · [Transcript](voice-calibration/transcript.txt) · [Configuration](voice-calibration/manifest.json).
