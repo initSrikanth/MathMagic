@@ -41,6 +41,14 @@ jobs:
         run: npm run test:measurement:emulator
       - name: Check protected Fractions architecture
         run: npm run test:protected
+      - name: Provide a virtual audio output for unmuted WebKit playback
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pulseaudio pulseaudio-utils
+          pulseaudio --start --exit-idle-time=-1
+          pactl load-module module-null-sink sink_name=mathmagic_test_audio
+          pactl set-default-sink mathmagic_test_audio
+          pactl info
       - name: Verify native WebKit lesson playback before full regression
         run: npx playwright test --project=measurement-webkit --grep "graphics-only Choose Units" --retries=0
       - name: Run MathMagic browser QA
@@ -53,5 +61,15 @@ jobs:
           path: |
             playwright-report/
             test-results/
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Preserve small browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: measurement-failure-images
+          path: |
+            test-results/**/test-failed-1.png
+            test-results/**/error-context.md
           if-no-files-found: ignore
           retention-days: 14

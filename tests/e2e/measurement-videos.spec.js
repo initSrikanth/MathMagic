@@ -30,7 +30,7 @@ for(const l of batch.lessons)test('graphics-only '+l.title+' exact media, captio
   await video.evaluate((v,t)=>{v.pause();v.currentTime=t},goal.start+1);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();
   if(viewport.width!==768)await video.screenshot({path:testInfo.outputPath(l.id+'-goal-'+viewport.width+'.png')});
   if(viewport.width===390){const concept=timing.cues.find(c=>c.chapter==='Build the idea');await video.evaluate((v,t)=>{v.currentTime=t;v.pause()},concept.start+1);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();await video.screenshot({path:testInfo.outputPath(l.id+'-concept-390.png')})}
-  await playFrom(video,0);await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(.2);
+  await playFrom(video,0);try{await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(.2)}catch(e){console.log('MEDIA_DIAGNOSTIC',JSON.stringify(await video.evaluate(v=>({paused:v.paused,time:v.currentTime,ready:v.readyState,network:v.networkState,error:v.error?{code:v.error.code,message:v.error.message}:null,muted:v.muted,volume:v.volume,audioTracks:v.audioTracks?.length,buffered:Array.from({length:v.buffered.length},(_,i)=>[v.buffered.start(i),v.buffered.end(i)])}))));throw e}
   for(const t of [1,l.duration/2,l.duration-2]){await video.evaluate((v,t)=>{v.pause();v.currentTime=t},t);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();expect(await video.evaluate(v=>v.currentTime)).toBeCloseTo(t,1)}
  }
  await playFrom(video,l.duration-.4);await expect.poll(()=>video.evaluate(v=>v.ended)).toBeTruthy();

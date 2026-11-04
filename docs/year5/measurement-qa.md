@@ -34,3 +34,5 @@ Evidence is split deliberately: source/mathematics, mocked adapters, local Chrom
 External checks remaining regardless of CI: real approved/unapproved Firebase sessions, deployed-rule inspection, actual cross-device Firestore persistence and physical iOS. Practical measurement/investigation activities also require pupils to perform and explain them; quiz results do not establish that observation.
 
 Visual correction: five recap end clips gained persistent summaries; 55 original clips, original narration and all sidecars remain exact. A semantic scene-content assertion supplements pixel blank checks. WebKit media testing waits for completed seeking and uses native keyboard playback, retaining metadata/caption/advancing-playback/seek/end assertions; a fail-fast smoke precedes full regression.
+
+Headless WebKit CI receives an explicit PulseAudio null sink so unmuted AAC playback has an output device. This is a test runtime dependency; production audio, media files and playback assertions are unchanged. Failed playback records bounded media-state diagnostics, with small screenshot/context artifacts kept separately from large traces.
