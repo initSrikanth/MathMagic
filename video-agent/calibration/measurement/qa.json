@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "format": "960x540 H.264/yuv420p 25fps AAC faststart",
+  "duration": 40.40270833333334,
+  "frames_checked": 1010,
+  "minimum_frame_contrast": 60.995829271042176,
+  "audio_source_correlation": 0.9999800064791298,
+  "source_peak": 0.88555908203125,
+  "audio_clipping_samples": 0,
+  "caption_cues": 15,
+  "trace_seconds": 5.080000072717667,
+  "prediction_guidance_seconds": 6.962208333333335,
+  "inserted_silence_samples": 0,
+  "estimated_voiced_f0_10th_90th_hz": [
+    160.0,
+    275.9
+  ],
+  "sha256": "3c056c9eeb9780ce92bb4a8d27f958dd1a5944a35e4358f3d19ce6c849666c41",
+  "bytes": 744498,
+  "limitations": [
+    "ASR timing is approximate; perceptual synchronisation requires review.",
+    "Pitch variation/ASR intelligibility do not establish accent, enthusiasm or naturalness.",
+    "Experimental Hindi female voice embedding speaking English; not a certified Indian-English voice."
+  ]
+}
