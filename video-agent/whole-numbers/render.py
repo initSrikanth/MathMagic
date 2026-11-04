@@ -77,6 +77,11 @@ def frame(p,al,t):
  return im
 
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  ap=argparse.ArgumentParser();ap.add_argument('lesson');ap.add_argument('--frames-only',action='store_true');args=ap.parse_args()
  p=next(x for x in json.loads((ROOT/'lessons.json').read_text())if x['id']==args.lesson);al=json.loads((ROOT/'sources'/f'{args.lesson}-alignment.json').read_text());source=Path(al['source']);dest=REPO/'videos'/f'MathMagic_{p["slug"]}_1080p.mp4'
  probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(source)]));v=next((s for s in probe['streams']if s['codec_type']=='video'),None)

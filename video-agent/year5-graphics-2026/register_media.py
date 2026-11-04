@@ -1,4 +1,9 @@
 """Register only a validated authorised topic, retaining immutable old media."""
+import pathlib as _vq_pathlib, sys as _vq_sys
+_vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+_vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+from guard import enforce as _vq_enforce
+_vq_enforce()
 import os,re
 from pathlib import Path
 BASE=Path(__file__).resolve().parent;ROOT=BASE.parents[1];TOPIC=os.environ.get('MATHMAGIC_TOPIC','whole-numbers')

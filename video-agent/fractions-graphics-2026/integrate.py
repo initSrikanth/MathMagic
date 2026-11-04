@@ -21,6 +21,11 @@ class Cards(HTMLParser):
   if entry['card']:self.cards.append((entry['section'],entry['start'],self.pos()+len('</'+tag+'>')))
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  manifest=json.loads((P/'manifest.json').read_text());assert manifest['status']=='verified_pending_integration' and len(manifest['lessons'])==5
  page=ROOT/'fractions.html';before=page.read_text();cards=Cards(before).cards;sections={e['section'] for e in manifest['lessons']};cards=[c for c in cards if c[0] in sections];assert len(cards)==5 and len({c[0] for c in cards})==5
  backup=dict(base_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),cards={},assets={})

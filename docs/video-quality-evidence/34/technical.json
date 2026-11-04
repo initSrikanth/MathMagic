@@ -1,0 +1,61 @@
+{
+  "duration": 143.366667,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "24000"
+  },
+  "decoded_frames": 4301,
+  "blank_frame_candidates": 0,
+  "audio_rms": 0.13466811180114746,
+  "clipping_fraction": 0.0,
+  "long_silent_gaps": [],
+  "extended_static_intervals": [
+    {
+      "start": 16.27,
+      "end": 26.7,
+      "duration": 10.43,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 56.07,
+      "end": 66.7,
+      "duration": 10.63,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 103.3,
+      "end": 111.9,
+      "duration": 8.6,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 121.13,
+      "end": 143.33,
+      "duration": 22.2,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    }
+  ],
+  "full_audio_asr": "docs/video-quality-evidence/34/full-audio-asr.json",
+  "brand_asr_matches": [
+    {
+      "start": 121.12108333333332,
+      "end": 143.36325,
+      "text": " AREA COUNTS EQUAL SQUARES COVERING A SURFACE USE ROWS AND COLUMNS TO COUNT EFFICIENTLY AND ALWAYS LABEL THE SQUARE UNIT DRAW TWO RECTANGLES WITH THE SAME AREA ON SQUARED PAPER DO THEY HAVE TO HAVE THE SAME PERIMETER EXPLAIN WITH A DRAWING REFLECT ON WHICH MUDDLE HELPED YOU AND WHY NOW TRY THE MATH MAGIC PRACTICE AND EXPLAIN YOUR THINKING TO SOMEONE"
+    }
+  ],
+  "frame_contact": "docs/video-quality-evidence/34/scene-contact.jpg",
+  "phase_contact": "docs/video-quality-evidence/34/begin-middle-ending.jpg",
+  "sampled_frame_ocr": "docs/video-quality-evidence/34/sampled-frame-ocr.json",
+  "ocr_brand_matches": [],
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "caption_brand_found": true,
+  "actual_listening_performed": false,
+  "full_temporal_perceptual_viewing_performed": false,
+  "video_sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+  "faststart": true
+}

@@ -1,7 +1,7 @@
 // Contract for the founder-approved offline voice calibration and this five-video correction.
 const fs=require('fs'),assert=require('assert'),crypto=require('crypto');
 const root='video-agent/production-v2/',manifest=require('../'+root+'measurement-quality-manifest.json'),release=require('../'+root+'measurement-release.json'),calibration=require('../video-agent/calibration/measurement/timing.json');
-for(const [key,file] of Object.entries({producer:'measurement_quality.py',graphics:'graphics.py',measurement_graphics:'measurement_graphics.py'}))assert.strictEqual(manifest.source_fingerprints[key],crypto.createHash('sha256').update(fs.readFileSync(root+file)).digest('hex'));
+for(const [key,file] of Object.entries({producer:'provenance/measurement-quality-producer-d31afb5.py.txt',graphics:'graphics.py',measurement_graphics:'measurement_graphics.py'}))assert.strictEqual(manifest.source_fingerprints[key],crypto.createHash('sha256').update(fs.readFileSync(root+file)).digest('hex'));
 assert.strictEqual(manifest.voice.name,'hf_alpha');assert.strictEqual(manifest.voice.speaker_id,31);assert.strictEqual(manifest.voice.model_sha256,calibration.model_sha256);assert.strictEqual(manifest.paid_calls,0);assert.strictEqual(release.lessons.length,5);assert(manifest.integrated);
 for(const l of release.lessons){
  const e=manifest.lessons[l.id],t=JSON.parse(fs.readFileSync(root+'timings/'+l.id+'.json'));

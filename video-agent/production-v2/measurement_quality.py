@@ -184,6 +184,11 @@ def render(l,folder,t):
  (folder/'captions.vtt').write_text(p.formatted_captions(t));(folder/'transcript.txt').write_text('\n\n'.join(b['text'] for b in l['beats'])+'\n');p.command(['ffmpeg','-v','error','-y','-ss','2','-i',out,'-frames:v','1','-vf','scale=1280:720',folder/'poster.jpg']);return out
 
 def run():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  WORK.mkdir(exist_ok=True);lock=(WORK/'batch.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
  calibration=json.loads((ROOT/'video-agent/calibration/measurement/timing.json').read_text());assert p.sha(MODEL/'model.onnx')==calibration['model_sha256']
  voice=dict(VOICE,model_sha256=calibration['model_sha256'],voices_sha256=p.sha(MODEL/'voices.bin'))

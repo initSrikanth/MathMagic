@@ -80,6 +80,11 @@ def render(l,folder,timeline,narration):
  return dict(id=l['slug'],section=l['section'],title=l['title'],src=str(dest.relative_to(ROOT)),captions=str(out.with_suffix('.vtt').relative_to(ROOT)),transcript=str((out.parent/(out.name+'_transcript.txt')).relative_to(ROOT)),poster=str((out.parent/(out.name+'_poster.jpg')).relative_to(ROOT)),duration=actual_duration,narration_duration=timeline['duration'],caption_cues=len(timeline['captions']),bytes=dest.stat().st_size,sha256=sha(dest),audio=str(narration.relative_to(ROOT)),audio_sha256=sha(narration),status='rendered',presenter=False)
 
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  save(HERE/'scripts.json',LESSONS)
  manifest=dict(schema=1,status='producing',scope='Five graphics-only Fractions lessons; separate approved LCM extension unchanged.',engine='Kokoro v1.0 / sherpa-onnx 1.12.26',speaker='hf_alpha',speaker_id=VOICE,voice_note='Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.',listening_review='not_performed',synthesis_cost=0,visual_source='Python mathematical primitives only; no video footage or faces.',models={p.name:sha(p) for p in [MODEL/'model.onnx',MODEL/'voices.bin']},lessons=[])
  save(HERE/'manifest.json',manifest)

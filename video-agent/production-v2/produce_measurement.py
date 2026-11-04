@@ -10,6 +10,11 @@ sys.path.insert(0,str(ROOT/'tests'));from importlib.util import spec_from_file_l
 sp=spec_from_file_location('measurement_math',ROOT/'tests/validate-measurement.py');checks=module_from_spec(sp);sp.loader.exec_module(checks)
 def persist(m):p.save(STATE,m)
 def run():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  WORK.mkdir(exist_ok=True);lock=(WORK/'production.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
  maths=checks.content();m=json.loads(STATE.read_text()) if STATE.exists() else dict(topic='measurement',base_commit=p.git('rev-parse','HEAD'),maths=maths,lessons={},paid_calls=0,automation='manual only; legacy workflows unchanged')
  deadline=time.monotonic()+220*60

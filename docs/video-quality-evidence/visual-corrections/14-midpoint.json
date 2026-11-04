@@ -1,0 +1,33 @@
+{
+  "number": 14,
+  "scene": 5,
+  "status": "Graphic draft only; not integrated or released",
+  "changes": {
+    "text": "Fifty hundredths is fifty percent. All three names identify the midpoint between zero and one, so the amount has not changed.",
+    "chapter": "Example 1: explain",
+    "equation": [
+      [
+        1,
+        2
+      ],
+      "=",
+      "0.5",
+      "=",
+      "50%"
+    ],
+    "board": [],
+    "rows": [],
+    "line": {
+      "d": 2,
+      "maximum": 1,
+      "points": [
+        1
+      ]
+    },
+    "area": null,
+    "context": null,
+    "note": "The same position: one half = 0.5 = 50%",
+    "role": "explanation"
+  },
+  "mathematics": "Independent Fraction arithmetic checked; reuse existing stacked-fraction/number-line/bar primitives"
+}

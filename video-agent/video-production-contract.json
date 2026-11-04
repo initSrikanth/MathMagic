@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "scope": "All future teaching videos; current remediation inventory is exactly 35 Year 5 core placements",
+  "production_hold": {
+    "active": true,
+    "reason": "Owner mandated individual 35-video quality audit and correction; no new topics or production batches",
+    "release_requires": "Founder-authorised lift after critical defects resolved or explicitly blocked"
+  },
+  "approved_voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "prohibited_branding": {
+    "patterns": [
+      "math[\\s_-]*magic"
+    ],
+    "applies_to": [
+      "spoken narration",
+      "captions",
+      "transcripts",
+      "rendered overlay text",
+      "introductions",
+      "endings"
+    ],
+    "excluded_from_text_search": [
+      "filenames",
+      "unrendered identifiers",
+      "website branding outside videos",
+      "immutable historical source records"
+    ]
+  },
+  "narration": {
+    "female": true,
+    "natural": true,
+    "warm": true,
+    "slight_indian_english_accent": true,
+    "expressive_conversational_delivery": true,
+    "enthusiasm": "Modestly more energetic curiosity, emphasis and achievement; calm for complex reasoning",
+    "enthusiasm_must_not_mean": [
+      "faster speech",
+      "excessive volume",
+      "artificial excitement",
+      "pitch shifting"
+    ],
+    "preserve_satisfactory_measurement_audio": true,
+    "no_paid_services": true,
+    "no_unconsented_imitation": true,
+    "no_speech_time_stretch_or_pitch_effects": true,
+    "no_silence_to_accommodate_graphics": true,
+    "native_breathing_preserved": true
+  },
+  "animation": {
+    "follow_actual_spoken_steps": true,
+    "word_timing_method_and_limitations_recorded": true,
+    "gradual_tracing_filling_measurement": true,
+    "keep_required_working_visible": true,
+    "hide_prediction_answers": true,
+    "flag_static_scene_seconds": 8,
+    "flag_rushed_reveal_seconds": 0.9,
+    "persistent_results_exception_requires_review": true
+  },
+  "pedagogy": [
+    "curiosity hook",
+    "learning goal",
+    "three success criteria",
+    "activate prior knowledge",
+    "concrete then pictorial then abstract",
+    "two guided worked examples",
+    "prediction and appropriate thinking time",
+    "positive misconception correction",
+    "reflection and natural brand-free ending"
+  ],
+  "mathematics": {
+    "australian_curriculum": "Version 9 Year 5; no unlabelled extension assessment",
+    "exact_independent_validation": true,
+    "stacked_fractions_horizontal_bar_only": true,
+    "units_shading_and_models_match_values": true,
+    "actual_render_review_required": true
+  },
+  "accessibility": {
+    "captions_match_actual_audio": true,
+    "transcript_matches_actual_audio": true,
+    "caption_timing_valid": true,
+    "readable_on_mobile": true,
+    "controls_and_playsinline": true,
+    "poster_and_fallback": true
+  },
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "pixel_format": "yuv420p",
+    "faststart": true,
+    "flag_silence_seconds": 1.5,
+    "audio_rms_min": 0.008,
+    "clipping_fraction_max": 0.001,
+    "full_decode": true,
+    "published_bytes_sha256_must_match": true
+  },
+  "perceptual_review": {
+    "mandatory": true,
+    "requires_full_listening_and_viewing": true,
+    "requires_beginning_middle_ending_and_transitions": true,
+    "required_reviewer_identity_date_and_exact_video_sha256": true,
+    "asr_ocr_metadata_and_tests_are_not_perceptual_review": true,
+    "unexamined_attribute_cannot_pass": true,
+    "enthusiasm_and_accent_require_listening": true
+  },
+  "release": {
+    "all_mandatory_attributes": "PASS",
+    "all_flags_resolved_or_reviewed": true,
+    "unverified_or_blocked_video_cannot_release": true,
+    "preserve_old_files_until_verified": true,
+    "controlled_batches_and_rollback": true,
+    "no_new_topic_until_hold_lifted": true
+  },
+  "visual_style": {
+    "graphics_only": true,
+    "no_human_presenters_avatars_or_faces": true,
+    "bright_readable_uncluttered": true
+  }
+}

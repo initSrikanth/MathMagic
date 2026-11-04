@@ -21,6 +21,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Enforce teaching-video production contract
+        env:
+          VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python3 tools/video-quality/test_contract.py
+          if [ -n "$VIDEO_QA_BASE" ]; then
+            git fetch --depth=1 origin "$VIDEO_QA_BASE"
+            python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
+          else
+            python3 tools/video-quality/ci_check.py
+          fi
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback

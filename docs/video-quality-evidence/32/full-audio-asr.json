@@ -1,0 +1,1745 @@
+{
+  "method": "Independent local Zipformer recognition of every decoded audio sample by scene; not listening or certified forced alignment",
+  "scenes": [
+    {
+      "scene": 0,
+      "start": 0,
+      "end": 14.135291666666667,
+      "text": " A LUNCH BOX FEELS HEAVY WHILE A BOTTLE LOOKS FULL ARE WE MEASURING THE SAME ATTRIBUTE IMAGINE PARKING FOR A PICNIC WE NEED A BALANCE FOR MASS AND A MARKED CONTAINER FOR CAPACITY LET US CHOOSE USEFUL UNITS BEFORE MEASURING",
+      "tokens": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "lunch",
+          "start": 0.1599999964237213
+        },
+        {
+          "word": "box",
+          "start": 0.5600000023841858
+        },
+        {
+          "word": "feels",
+          "start": 0.8399999737739563
+        },
+        {
+          "word": "heavy",
+          "start": 1.159999966621399
+        },
+        {
+          "word": "while",
+          "start": 1.559999942779541
+        },
+        {
+          "word": "a",
+          "start": 1.7599999904632568
+        },
+        {
+          "word": "bottle",
+          "start": 1.8799999952316284
+        },
+        {
+          "word": "looks",
+          "start": 2.240000009536743
+        },
+        {
+          "word": "full",
+          "start": 2.559999942779541
+        },
+        {
+          "word": "are",
+          "start": 2.919999837875366
+        },
+        {
+          "word": "we",
+          "start": 3.119999885559082
+        },
+        {
+          "word": "measuring",
+          "start": 3.359999895095825
+        },
+        {
+          "word": "the",
+          "start": 3.9599997997283936
+        },
+        {
+          "word": "same",
+          "start": 4.159999847412109
+        },
+        {
+          "word": "attribute",
+          "start": 4.519999980926514
+        },
+        {
+          "word": "imagine",
+          "start": 5.400000095367432
+        },
+        {
+          "word": "parking",
+          "start": 6.159999847412109
+        },
+        {
+          "word": "for",
+          "start": 6.599999904632568
+        },
+        {
+          "word": "a",
+          "start": 6.759999752044678
+        },
+        {
+          "word": "picnic",
+          "start": 6.87999963760376
+        },
+        {
+          "word": "we",
+          "start": 7.399999618530273
+        },
+        {
+          "word": "need",
+          "start": 7.639999866485596
+        },
+        {
+          "word": "a",
+          "start": 7.87999963760376
+        },
+        {
+          "word": "balance",
+          "start": 8.0
+        },
+        {
+          "word": "for",
+          "start": 8.519999504089355
+        },
+        {
+          "word": "mass",
+          "start": 8.720000267028809
+        },
+        {
+          "word": "and",
+          "start": 9.199999809265137
+        },
+        {
+          "word": "a",
+          "start": 9.359999656677246
+        },
+        {
+          "word": "marked",
+          "start": 9.519999504089355
+        },
+        {
+          "word": "container",
+          "start": 9.880000114440918
+        },
+        {
+          "word": "for",
+          "start": 10.399999618530273
+        },
+        {
+          "word": "capacity",
+          "start": 10.559999465942383
+        },
+        {
+          "word": "let",
+          "start": 11.359999656677246
+        },
+        {
+          "word": "us",
+          "start": 11.59999942779541
+        },
+        {
+          "word": "choose",
+          "start": 11.84000015258789
+        },
+        {
+          "word": "useful",
+          "start": 12.319999694824219
+        },
+        {
+          "word": "units",
+          "start": 12.799999237060547
+        },
+        {
+          "word": "before",
+          "start": 13.199999809265137
+        },
+        {
+          "word": "measuring",
+          "start": 13.519999504089355
+        }
+      ]
+    },
+    {
+      "scene": 1,
+      "start": 14.135291666666667,
+      "end": 19.175875,
+      "text": " OUR LEARNING GOAL IS TO MEASURE MASS AND CAPACITY USING SCALES AND COMBINED UNITS",
+      "tokens": [
+        {
+          "word": "our",
+          "start": 14.135291666666667
+        },
+        {
+          "word": "learning",
+          "start": 14.335291654745738
+        },
+        {
+          "word": "goal",
+          "start": 14.73529163090388
+        },
+        {
+          "word": "is",
+          "start": 15.015291661898296
+        },
+        {
+          "word": "to",
+          "start": 15.175291628519695
+        },
+        {
+          "word": "measure",
+          "start": 15.335291595141094
+        },
+        {
+          "word": "mass",
+          "start": 15.735291571299236
+        },
+        {
+          "word": "and",
+          "start": 16.055291623751323
+        },
+        {
+          "word": "capacity",
+          "start": 16.25529155222575
+        },
+        {
+          "word": "using",
+          "start": 16.97529158083598
+        },
+        {
+          "word": "scales",
+          "start": 17.37529167620341
+        },
+        {
+          "word": "and",
+          "start": 17.855291695276897
+        },
+        {
+          "word": "combined",
+          "start": 18.055291504542033
+        },
+        {
+          "word": "units",
+          "start": 18.615291685740154
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "start": 19.175875,
+      "end": 29.862583333333333,
+      "text": " SUCCESS CRITERIA I CAN DISTINGUISH MASS FROM CAPACITY I CAN READ EQUAL SCALE INTERVALS I CAN COMBINE KILOGRAMS AND GRAMS OLETUS AND MILITIS",
+      "tokens": [
+        {
+          "word": "success",
+          "start": 19.175875
+        },
+        {
+          "word": "criteria",
+          "start": 19.815874985694887
+        },
+        {
+          "word": "i",
+          "start": 20.735874942779542
+        },
+        {
+          "word": "can",
+          "start": 20.975874952316286
+        },
+        {
+          "word": "distinguish",
+          "start": 21.175875
+        },
+        {
+          "word": "mass",
+          "start": 21.89587502861023
+        },
+        {
+          "word": "from",
+          "start": 22.295874885559083
+        },
+        {
+          "word": "capacity",
+          "start": 22.4958749332428
+        },
+        {
+          "word": "i",
+          "start": 23.33587484741211
+        },
+        {
+          "word": "can",
+          "start": 23.575875095367433
+        },
+        {
+          "word": "read",
+          "start": 23.815874866485597
+        },
+        {
+          "word": "equal",
+          "start": 24.21587496185303
+        },
+        {
+          "word": "scale",
+          "start": 24.695874980926515
+        },
+        {
+          "word": "intervals",
+          "start": 25.095875076293947
+        },
+        {
+          "word": "i",
+          "start": 25.77587490463257
+        },
+        {
+          "word": "can",
+          "start": 25.975874713897706
+        },
+        {
+          "word": "combine",
+          "start": 26.21587496185303
+        },
+        {
+          "word": "kilograms",
+          "start": 26.735874942779542
+        },
+        {
+          "word": "and",
+          "start": 27.49587469482422
+        },
+        {
+          "word": "grams",
+          "start": 27.695874504089357
+        },
+        {
+          "word": "oletus",
+          "start": 28.21587496185303
+        },
+        {
+          "word": "and",
+          "start": 28.855874351501466
+        },
+        {
+          "word": "militis",
+          "start": 29.015875152587892
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "start": 29.862583333333333,
+      "end": 51.48920833333334,
+      "text": " MUST DESCRIBES HOW HEAVY AN OBJECT IS CAPACITY DESCRIBES HOW MUCH A CONTAINER CAN HOLD USE CRAMS OR KILOGRAMS FOR MASS AND MILITORS OR LITRES FOR CAPACITY ONE KILOGRAM IS ONE THOUSAND GRAMS ONE LITRE IS ONE THOUSAND MILLETRES ON EVERY SCALE COUNT EQUAL INTERVALS BEFORE DECIDING WHAT ONE INTERVAL REPRESENTS",
+      "tokens": [
+        {
+          "word": "must",
+          "start": 29.902583332439264
+        },
+        {
+          "word": "describes",
+          "start": 30.262583309491475
+        },
+        {
+          "word": "how",
+          "start": 31.022583299954732
+        },
+        {
+          "word": "heavy",
+          "start": 31.262583309491475
+        },
+        {
+          "word": "an",
+          "start": 31.582583242734273
+        },
+        {
+          "word": "object",
+          "start": 31.74258332856496
+        },
+        {
+          "word": "is",
+          "start": 32.22258322842916
+        },
+        {
+          "word": "capacity",
+          "start": 32.50258319981893
+        },
+        {
+          "word": "describes",
+          "start": 33.18258326657613
+        },
+        {
+          "word": "how",
+          "start": 33.90258329518636
+        },
+        {
+          "word": "much",
+          "start": 34.1025831044515
+        },
+        {
+          "word": "a",
+          "start": 34.38258331425985
+        },
+        {
+          "word": "container",
+          "start": 34.50258319981893
+        },
+        {
+          "word": "can",
+          "start": 35.1025831044515
+        },
+        {
+          "word": "hold",
+          "start": 35.30258339055379
+        },
+        {
+          "word": "use",
+          "start": 35.822583371480306
+        },
+        {
+          "word": "crams",
+          "start": 36.18258302815755
+        },
+        {
+          "word": "or",
+          "start": 36.66258304723104
+        },
+        {
+          "word": "kilograms",
+          "start": 36.86258333333333
+        },
+        {
+          "word": "for",
+          "start": 37.50258319981893
+        },
+        {
+          "word": "mass",
+          "start": 37.66258304723104
+        },
+        {
+          "word": "and",
+          "start": 38.02258318074544
+        },
+        {
+          "word": "militors",
+          "start": 38.18258302815755
+        },
+        {
+          "word": "or",
+          "start": 38.94258325703939
+        },
+        {
+          "word": "litres",
+          "start": 39.1025831044515
+        },
+        {
+          "word": "for",
+          "start": 39.5425826848348
+        },
+        {
+          "word": "capacity",
+          "start": 39.74258344777425
+        },
+        {
+          "word": "one",
+          "start": 40.582582646687825
+        },
+        {
+          "word": "kilogram",
+          "start": 40.90258329518636
+        },
+        {
+          "word": "is",
+          "start": 41.582582646687825
+        },
+        {
+          "word": "one",
+          "start": 41.90258329518636
+        },
+        {
+          "word": "thousand",
+          "start": 42.18258302815755
+        },
+        {
+          "word": "grams",
+          "start": 42.74258344777425
+        },
+        {
+          "word": "one",
+          "start": 43.422582799275716
+        },
+        {
+          "word": "litre",
+          "start": 43.702583485921224
+        },
+        {
+          "word": "is",
+          "start": 44.22258299001058
+        },
+        {
+          "word": "one",
+          "start": 44.5425826848348
+        },
+        {
+          "word": "thousand",
+          "start": 44.822583371480306
+        },
+        {
+          "word": "milletres",
+          "start": 45.34258287556966
+        },
+        {
+          "word": "on",
+          "start": 46.22258203633626
+        },
+        {
+          "word": "every",
+          "start": 46.46258371480306
+        },
+        {
+          "word": "scale",
+          "start": 46.78258340962728
+        },
+        {
+          "word": "count",
+          "start": 47.26258295186361
+        },
+        {
+          "word": "equal",
+          "start": 47.62258356221517
+        },
+        {
+          "word": "intervals",
+          "start": 48.062582188924154
+        },
+        {
+          "word": "before",
+          "start": 48.702583485921224
+        },
+        {
+          "word": "deciding",
+          "start": 49.02258318074544
+        },
+        {
+          "word": "what",
+          "start": 49.702583485921224
+        },
+        {
+          "word": "one",
+          "start": 49.94258325703939
+        },
+        {
+          "word": "interval",
+          "start": 50.22258203633626
+        },
+        {
+          "word": "represents",
+          "start": 50.702583485921224
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "start": 51.48920833333334,
+      "end": 64.31354166666667,
+      "text": " A BAG HAS A MASS OF ONE KILOGRAM AND THREE HUNDRED AND FIFTY GRAMS PICTURE ONE THOUSAND GRAMS AS A WHOLE KILOGRAM WITH THE SMALLER AMOUNT ADDED ALONGSIDE WHAT SINGLE GRAM READING WOULD DESCRIBE THE SAME MASS",
+      "tokens": [
+        {
+          "word": "a",
+          "start": 51.48920833333334
+        },
+        {
+          "word": "bag",
+          "start": 51.72920832796892
+        },
+        {
+          "word": "has",
+          "start": 52.08920829757055
+        },
+        {
+          "word": "a",
+          "start": 52.28920828564962
+        },
+        {
+          "word": "mass",
+          "start": 52.40920829041799
+        },
+        {
+          "word": "of",
+          "start": 52.72920834287008
+        },
+        {
+          "word": "one",
+          "start": 52.88920830949148
+        },
+        {
+          "word": "kilogram",
+          "start": 53.12920831902822
+        },
+        {
+          "word": "and",
+          "start": 53.72920834287008
+        },
+        {
+          "word": "three",
+          "start": 53.9292083905538
+        },
+        {
+          "word": "hundred",
+          "start": 54.16920816167196
+        },
+        {
+          "word": "and",
+          "start": 54.56920825703939
+        },
+        {
+          "word": "fifty",
+          "start": 54.689208142598474
+        },
+        {
+          "word": "grams",
+          "start": 55.089208237965906
+        },
+        {
+          "word": "picture",
+          "start": 55.64920818074545
+        },
+        {
+          "word": "one",
+          "start": 56.16920816167196
+        },
+        {
+          "word": "thousand",
+          "start": 56.44920837148031
+        },
+        {
+          "word": "grams",
+          "start": 57.00920831425985
+        },
+        {
+          "word": "as",
+          "start": 57.48920833333334
+        },
+        {
+          "word": "a",
+          "start": 57.64920818074545
+        },
+        {
+          "word": "whole",
+          "start": 57.809208028157556
+        },
+        {
+          "word": "kilogram",
+          "start": 58.089208237965906
+        },
+        {
+          "word": "with",
+          "start": 58.689208142598474
+        },
+        {
+          "word": "the",
+          "start": 58.849207990010584
+        },
+        {
+          "word": "smaller",
+          "start": 59.00920831425985
+        },
+        {
+          "word": "amount",
+          "start": 59.409207932790125
+        },
+        {
+          "word": "added",
+          "start": 59.809208028157556
+        },
+        {
+          "word": "alongside",
+          "start": 60.1692076848348
+        },
+        {
+          "word": "what",
+          "start": 61.00920783742269
+        },
+        {
+          "word": "single",
+          "start": 61.24920856221517
+        },
+        {
+          "word": "gram",
+          "start": 61.7292081044515
+        },
+        {
+          "word": "reading",
+          "start": 62.04920779927572
+        },
+        {
+          "word": "would",
+          "start": 62.529208295186365
+        },
+        {
+          "word": "describe",
+          "start": 62.7292081044515
+        },
+        {
+          "word": "the",
+          "start": 63.32920848592123
+        },
+        {
+          "word": "same",
+          "start": 63.48920833333334
+        },
+        {
+          "word": "mass",
+          "start": 63.809208028157556
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "start": 64.31354166666667,
+      "end": 76.96758333333334,
+      "text": " ONE THOUSAND PLUS THREE HUNDRED AND FIFTY IS ONE THOUSAND THREE HUNDRED AND FIFTY GRAMS THE BAG HAS NOT BECOME HEAVIER BECAUSE WE CHANGED ITS NAME KILOGRAMS AND GRAMS ARE TWO UNITS FOR THE SAME ATTRIBUTE",
+      "tokens": [
+        {
+          "word": "one",
+          "start": 64.31354166666667
+        },
+        {
+          "word": "thousand",
+          "start": 64.63354165951411
+        },
+        {
+          "word": "plus",
+          "start": 65.15354164044062
+        },
+        {
+          "word": "three",
+          "start": 65.51354159514109
+        },
+        {
+          "word": "hundred",
+          "start": 65.83354164759318
+        },
+        {
+          "word": "and",
+          "start": 66.1935416618983
+        },
+        {
+          "word": "fifty",
+          "start": 66.39354159037272
+        },
+        {
+          "word": "is",
+          "start": 66.79354168574015
+        },
+        {
+          "word": "one",
+          "start": 67.0335416952769
+        },
+        {
+          "word": "thousand",
+          "start": 67.27354170481364
+        },
+        {
+          "word": "three",
+          "start": 67.75354148546855
+        },
+        {
+          "word": "hundred",
+          "start": 67.99354149500529
+        },
+        {
+          "word": "and",
+          "start": 68.43354155222575
+        },
+        {
+          "word": "fifty",
+          "start": 68.63354136149088
+        },
+        {
+          "word": "grams",
+          "start": 69.11354138056437
+        },
+        {
+          "word": "the",
+          "start": 69.67354132334391
+        },
+        {
+          "word": "bag",
+          "start": 69.91354157129923
+        },
+        {
+          "word": "has",
+          "start": 70.31354166666667
+        },
+        {
+          "word": "not",
+          "start": 70.55354143778483
+        },
+        {
+          "word": "become",
+          "start": 70.75354172388712
+        },
+        {
+          "word": "heavier",
+          "start": 71.1535413424174
+        },
+        {
+          "word": "because",
+          "start": 71.67354132334391
+        },
+        {
+          "word": "we",
+          "start": 71.95354153315226
+        },
+        {
+          "word": "changed",
+          "start": 72.1535413424174
+        },
+        {
+          "word": "its",
+          "start": 72.59354139963786
+        },
+        {
+          "word": "name",
+          "start": 72.83354117075602
+        },
+        {
+          "word": "kilograms",
+          "start": 73.27354170481364
+        },
+        {
+          "word": "and",
+          "start": 74.0735418955485
+        },
+        {
+          "word": "grams",
+          "start": 74.27354170481364
+        },
+        {
+          "word": "are",
+          "start": 74.75354124704997
+        },
+        {
+          "word": "two",
+          "start": 74.9535410563151
+        },
+        {
+          "word": "units",
+          "start": 75.19354178110758
+        },
+        {
+          "word": "for",
+          "start": 75.59354139963786
+        },
+        {
+          "word": "the",
+          "start": 75.75354124704997
+        },
+        {
+          "word": "same",
+          "start": 75.91354109446208
+        },
+        {
+          "word": "attribute",
+          "start": 76.19354178110758
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "start": 76.96758333333334,
+      "end": 89.71837500000001,
+      "text": " A JUG HOLDS TWO LEATERS AND TWO HUNDRED AND FIFTY MILLETRES CONVERT THE WHOLE LEADERS FIRST TWO GROUPS OF ONE THOUSAND MILLETRES MAKE TWO THOUSAND MILLETRES THEN INCLUDE THE EXTRA MARKED AMOUNT",
+      "tokens": [
+        {
+          "word": "a",
+          "start": 76.96758333333334
+        },
+        {
+          "word": "jug",
+          "start": 77.20758332796892
+        },
+        {
+          "word": "holds",
+          "start": 77.60758331902822
+        },
+        {
+          "word": "two",
+          "start": 77.96758333333334
+        },
+        {
+          "word": "leaters",
+          "start": 78.20758334287008
+        },
+        {
+          "word": "and",
+          "start": 78.7275833237966
+        },
+        {
+          "word": "two",
+          "start": 78.887583290418
+        },
+        {
+          "word": "hundred",
+          "start": 79.16758338101705
+        },
+        {
+          "word": "and",
+          "start": 79.52758327611288
+        },
+        {
+          "word": "fifty",
+          "start": 79.7275833237966
+        },
+        {
+          "word": "milletres",
+          "start": 80.08758321889242
+        },
+        {
+          "word": "convert",
+          "start": 80.96758333333334
+        },
+        {
+          "word": "the",
+          "start": 81.48758331425985
+        },
+        {
+          "word": "whole",
+          "start": 81.72758308537801
+        },
+        {
+          "word": "leaders",
+          "start": 82.00758329518636
+        },
+        {
+          "word": "first",
+          "start": 82.52758327611288
+        },
+        {
+          "word": "two",
+          "start": 83.00758329518636
+        },
+        {
+          "word": "groups",
+          "start": 83.28758302815756
+        },
+        {
+          "word": "of",
+          "start": 83.68758312352499
+        },
+        {
+          "word": "one",
+          "start": 83.88758340962728
+        },
+        {
+          "word": "thousand",
+          "start": 84.16758314259847
+        },
+        {
+          "word": "milletres",
+          "start": 84.60758319981893
+        },
+        {
+          "word": "make",
+          "start": 85.32758299001058
+        },
+        {
+          "word": "two",
+          "start": 85.60758272298177
+        },
+        {
+          "word": "thousand",
+          "start": 85.84758344777426
+        },
+        {
+          "word": "milletres",
+          "start": 86.28758302815756
+        },
+        {
+          "word": "then",
+          "start": 87.16758314259847
+        },
+        {
+          "word": "include",
+          "start": 87.48758283742269
+        },
+        {
+          "word": "the",
+          "start": 88.04758325703939
+        },
+        {
+          "word": "extra",
+          "start": 88.24758306630453
+        },
+        {
+          "word": "marked",
+          "start": 88.72758260854086
+        },
+        {
+          "word": "amount",
+          "start": 89.12758318074545
+        }
+      ]
+    },
+    {
+      "scene": 7,
+      "start": 89.71837500000001,
+      "end": 103.31500000000001,
+      "text": " THE CAPACITY IS TWO THOUSAND TWO HUNDRED AND FIFTY MILLETRES ON A SCALE FROM ZERO TO ONE THOUSAND WITH FOUR EQUAL INTERVALS EACH INTERVAL WOULD BE TWO HUNDRED AND FIFTY MILLETRES COUNT INTERVALS NOT JUST DICK MARKS",
+      "tokens": [
+        {
+          "word": "the",
+          "start": 89.71837500000001
+        },
+        {
+          "word": "capacity",
+          "start": 89.87837499642373
+        },
+        {
+          "word": "is",
+          "start": 90.67837497854234
+        },
+        {
+          "word": "two",
+          "start": 90.95837500953675
+        },
+        {
+          "word": "thousand",
+          "start": 91.23837498092652
+        },
+        {
+          "word": "two",
+          "start": 91.67837491893769
+        },
+        {
+          "word": "hundred",
+          "start": 91.91837504768372
+        },
+        {
+          "word": "and",
+          "start": 92.31837490463258
+        },
+        {
+          "word": "fifty",
+          "start": 92.5183749523163
+        },
+        {
+          "word": "milletres",
+          "start": 92.91837480926515
+        },
+        {
+          "word": "on",
+          "start": 93.75837496185304
+        },
+        {
+          "word": "a",
+          "start": 93.91837480926515
+        },
+        {
+          "word": "scale",
+          "start": 94.07837513351441
+        },
+        {
+          "word": "from",
+          "start": 94.47837475204469
+        },
+        {
+          "word": "zero",
+          "start": 94.71837500000001
+        },
+        {
+          "word": "to",
+          "start": 95.15837505722047
+        },
+        {
+          "word": "one",
+          "start": 95.3583748664856
+        },
+        {
+          "word": "thousand",
+          "start": 95.59837463760377
+        },
+        {
+          "word": "with",
+          "start": 96.11837461853028
+        },
+        {
+          "word": "four",
+          "start": 96.31837490463258
+        },
+        {
+          "word": "equal",
+          "start": 96.63837507629395
+        },
+        {
+          "word": "intervals",
+          "start": 97.03837469482423
+        },
+        {
+          "word": "each",
+          "start": 97.6383745994568
+        },
+        {
+          "word": "interval",
+          "start": 97.87837484741212
+        },
+        {
+          "word": "would",
+          "start": 98.35837438964845
+        },
+        {
+          "word": "be",
+          "start": 98.51837519073487
+        },
+        {
+          "word": "two",
+          "start": 98.71837500000001
+        },
+        {
+          "word": "hundred",
+          "start": 98.95837477111817
+        },
+        {
+          "word": "and",
+          "start": 99.35837438964845
+        },
+        {
+          "word": "fifty",
+          "start": 99.5583751525879
+        },
+        {
+          "word": "milletres",
+          "start": 99.91837480926515
+        },
+        {
+          "word": "count",
+          "start": 100.79837492370606
+        },
+        {
+          "word": "intervals",
+          "start": 101.15837458038331
+        },
+        {
+          "word": "not",
+          "start": 101.91837480926515
+        },
+        {
+          "word": "just",
+          "start": 102.15837458038331
+        },
+        {
+          "word": "dick",
+          "start": 102.4383743133545
+        },
+        {
+          "word": "marks",
+          "start": 102.75837496185304
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "start": 103.31500000000001,
+      "end": 117.71108333333335,
+      "text": " GRAMS AND MILILEATORS ARE NOT INTERCHANGEABLE LABELS A BALANCE MEASURES MASS A MARKED JUG MEASURES CAPACITY EQUAL NUMERICAL READINGS DO NOT MAKE THOSE ATTRIBUTES THE SAME READ THE INSTRUMENT AND INCLUDE THE CORRECT UNIT",
+      "tokens": [
+        {
+          "word": "grams",
+          "start": 103.31500000000001
+        },
+        {
+          "word": "and",
+          "start": 103.8750000023842
+        },
+        {
+          "word": "milileators",
+          "start": 104.0349999690056
+        },
+        {
+          "word": "are",
+          "start": 104.87499994277955
+        },
+        {
+          "word": "not",
+          "start": 105.03499990940095
+        },
+        {
+          "word": "interchangeable",
+          "start": 105.31500000000001
+        },
+        {
+          "word": "labels",
+          "start": 106.35499996185304
+        },
+        {
+          "word": "a",
+          "start": 106.95499986648561
+        },
+        {
+          "word": "balance",
+          "start": 107.15499991416932
+        },
+        {
+          "word": "measures",
+          "start": 107.63499969482423
+        },
+        {
+          "word": "mass",
+          "start": 108.15499967575074
+        },
+        {
+          "word": "a",
+          "start": 108.55499977111818
+        },
+        {
+          "word": "marked",
+          "start": 108.71500009536744
+        },
+        {
+          "word": "jug",
+          "start": 109.15499967575074
+        },
+        {
+          "word": "measures",
+          "start": 109.47499984741212
+        },
+        {
+          "word": "capacity",
+          "start": 109.95499986648561
+        },
+        {
+          "word": "equal",
+          "start": 110.75500005722047
+        },
+        {
+          "word": "numerical",
+          "start": 111.2349995994568
+        },
+        {
+          "word": "readings",
+          "start": 111.8749994659424
+        },
+        {
+          "word": "do",
+          "start": 112.39499992370607
+        },
+        {
+          "word": "not",
+          "start": 112.55499977111818
+        },
+        {
+          "word": "make",
+          "start": 112.79499954223634
+        },
+        {
+          "word": "those",
+          "start": 113.07500022888185
+        },
+        {
+          "word": "attributes",
+          "start": 113.39499992370607
+        },
+        {
+          "word": "the",
+          "start": 114.11500019073488
+        },
+        {
+          "word": "same",
+          "start": 114.27500003814698
+        },
+        {
+          "word": "read",
+          "start": 114.75499958038331
+        },
+        {
+          "word": "the",
+          "start": 115.11500019073488
+        },
+        {
+          "word": "instrument",
+          "start": 115.35499996185304
+        },
+        {
+          "word": "and",
+          "start": 115.95499938964845
+        },
+        {
+          "word": "include",
+          "start": 116.1550001525879
+        },
+        {
+          "word": "the",
+          "start": 116.63499969482423
+        },
+        {
+          "word": "correct",
+          "start": 116.79499954223634
+        },
+        {
+          "word": "unit",
+          "start": 117.23500007629396
+        }
+      ]
+    },
+    {
+      "scene": 9,
+      "start": 117.71108333333335,
+      "end": 127.01004166666668,
+      "text": " A BALANCE POINTS HALFWAY BETWEEN FIVE HUNDRED AND SIX HUNDRED GRAMS WHAT MASS DOES IT SHOW LOOK AT THE MODEL AND KEEP YOUR PREDICTION IN MIND",
+      "tokens": [
+        {
+          "word": "a",
+          "start": 117.71108333333335
+        },
+        {
+          "word": "balance",
+          "start": 117.87108332975707
+        },
+        {
+          "word": "points",
+          "start": 118.4710833237966
+        },
+        {
+          "word": "halfway",
+          "start": 118.91108326180778
+        },
+        {
+          "word": "between",
+          "start": 119.39108328088126
+        },
+        {
+          "word": "five",
+          "start": 119.7910832570394
+        },
+        {
+          "word": "hundred",
+          "start": 120.1110831902822
+        },
+        {
+          "word": "and",
+          "start": 120.59108320935569
+        },
+        {
+          "word": "six",
+          "start": 120.7910832570394
+        },
+        {
+          "word": "hundred",
+          "start": 121.1110831902822
+        },
+        {
+          "word": "grams",
+          "start": 121.55108324750266
+        },
+        {
+          "word": "what",
+          "start": 122.23108331425986
+        },
+        {
+          "word": "mass",
+          "start": 122.55108300908408
+        },
+        {
+          "word": "does",
+          "start": 122.91108314259849
+        },
+        {
+          "word": "it",
+          "start": 123.19108335240684
+        },
+        {
+          "word": "show",
+          "start": 123.39108316167197
+        },
+        {
+          "word": "look",
+          "start": 123.91108314259849
+        },
+        {
+          "word": "at",
+          "start": 124.19108335240684
+        },
+        {
+          "word": "the",
+          "start": 124.35108319981894
+        },
+        {
+          "word": "model",
+          "start": 124.51108304723105
+        },
+        {
+          "word": "and",
+          "start": 124.95108310445151
+        },
+        {
+          "word": "keep",
+          "start": 125.15108339055381
+        },
+        {
+          "word": "your",
+          "start": 125.39108316167197
+        },
+        {
+          "word": "prediction",
+          "start": 125.63108293279014
+        },
+        {
+          "word": "in",
+          "start": 126.2310828374227
+        },
+        {
+          "word": "mind",
+          "start": 126.47108356221518
+        }
+      ]
+    },
+    {
+      "scene": 10,
+      "start": 127.01004166666668,
+      "end": 136.42304166666668,
+      "text": " HALF WAY IS FIFTY GRAMS BEYOND FIVE HUNDRED GIVING FIVE HUNDRED AND FIFTY GRAMS THE SCALE IS MEASURING MASS SO THE ANSWER NEEDS GRAMS NOT MILITA'S",
+      "tokens": [
+        {
+          "word": "half",
+          "start": 127.01004166666668
+        },
+        {
+          "word": "way",
+          "start": 127.33004165951412
+        },
+        {
+          "word": "is",
+          "start": 127.57004166905087
+        },
+        {
+          "word": "fifty",
+          "start": 127.81004161898296
+        },
+        {
+          "word": "grams",
+          "start": 128.2100415951411
+        },
+        {
+          "word": "beyond",
+          "start": 128.65004165236155
+        },
+        {
+          "word": "five",
+          "start": 129.01004166666667
+        },
+        {
+          "word": "hundred",
+          "start": 129.29004163805644
+        },
+        {
+          "word": "giving",
+          "start": 129.65004153315226
+        },
+        {
+          "word": "five",
+          "start": 130.0500416285197
+        },
+        {
+          "word": "hundred",
+          "start": 130.3700415617625
+        },
+        {
+          "word": "and",
+          "start": 130.77004165712992
+        },
+        {
+          "word": "fifty",
+          "start": 130.93004150454203
+        },
+        {
+          "word": "grams",
+          "start": 131.33004136149088
+        },
+        {
+          "word": "the",
+          "start": 131.89004178110758
+        },
+        {
+          "word": "scale",
+          "start": 132.0500416285197
+        },
+        {
+          "word": "is",
+          "start": 132.53004164759318
+        },
+        {
+          "word": "measuring",
+          "start": 132.73004145685832
+        },
+        {
+          "word": "mass",
+          "start": 133.25004143778483
+        },
+        {
+          "word": "so",
+          "start": 133.65004153315226
+        },
+        {
+          "word": "the",
+          "start": 133.81004138056437
+        },
+        {
+          "word": "answer",
+          "start": 134.01004166666667
+        },
+        {
+          "word": "needs",
+          "start": 134.3700413233439
+        },
+        {
+          "word": "grams",
+          "start": 134.73004145685832
+        },
+        {
+          "word": "not",
+          "start": 135.33004136149088
+        },
+        {
+          "word": "milita's",
+          "start": 135.57004113260905
+        }
+      ]
+    },
+    {
+      "scene": 11,
+      "start": 136.42304166666668,
+      "end": 156.35004166666667,
+      "text": " CHOOSE THE ATTRIBUTE UNIT AND INSTRUMENT TOGETHER FOR A PRACTICAL CHALLENGE USE A KITCHEN BALANCE OR MARK JUG WITH AN ADULT PREDICT A READING MEASURE CAREFULLY AND EXPLAIN THE DIFFERENCE BETWEEN YOUR ESTIMATE AND OBSERVATION REFLECT ON WHICH MODEL HELPED YOU AND WHY NOW TRY THE MATH MAGIC PRACTICE AND EXPLAIN YOUR THINKING TO SOMEONE",
+      "tokens": [
+        {
+          "word": "choose",
+          "start": 136.42304166666668
+        },
+        {
+          "word": "the",
+          "start": 136.82304164282482
+        },
+        {
+          "word": "attribute",
+          "start": 137.06304165236156
+        },
+        {
+          "word": "unit",
+          "start": 137.9430416475932
+        },
+        {
+          "word": "and",
+          "start": 138.34304162375133
+        },
+        {
+          "word": "instrument",
+          "start": 138.54304155222576
+        },
+        {
+          "word": "together",
+          "start": 139.06304153315227
+        },
+        {
+          "word": "for",
+          "start": 139.5830415140788
+        },
+        {
+          "word": "a",
+          "start": 139.74304159990947
+        },
+        {
+          "word": "practical",
+          "start": 139.86304148546856
+        },
+        {
+          "word": "challenge",
+          "start": 140.50304159037273
+        },
+        {
+          "word": "use",
+          "start": 141.02304157129925
+        },
+        {
+          "word": "a",
+          "start": 141.2630413424174
+        },
+        {
+          "word": "kitchen",
+          "start": 141.38304170481365
+        },
+        {
+          "word": "balance",
+          "start": 141.78304132334392
+        },
+        {
+          "word": "or",
+          "start": 142.30304130427044
+        },
+        {
+          "word": "mark",
+          "start": 142.50304159037273
+        },
+        {
+          "word": "jug",
+          "start": 142.90304168574016
+        },
+        {
+          "word": "with",
+          "start": 143.22304138056438
+        },
+        {
+          "word": "an",
+          "start": 143.38304170481365
+        },
+        {
+          "word": "adult",
+          "start": 143.54304155222576
+        },
+        {
+          "word": "predict",
+          "start": 144.1030414950053
+        },
+        {
+          "word": "a",
+          "start": 144.5830415140788
+        },
+        {
+          "word": "reading",
+          "start": 144.70304139963787
+        },
+        {
+          "word": "measure",
+          "start": 145.22304185740154
+        },
+        {
+          "word": "carefully",
+          "start": 145.6230414759318
+        },
+        {
+          "word": "and",
+          "start": 146.1830418955485
+        },
+        {
+          "word": "explain",
+          "start": 146.34304174296062
+        },
+        {
+          "word": "the",
+          "start": 146.78304132334392
+        },
+        {
+          "word": "difference",
+          "start": 146.94304117075603
+        },
+        {
+          "word": "between",
+          "start": 147.38304170481365
+        },
+        {
+          "word": "your",
+          "start": 147.78304132334392
+        },
+        {
+          "word": "estimate",
+          "start": 148.06304105631511
+        },
+        {
+          "word": "and",
+          "start": 148.5830415140788
+        },
+        {
+          "word": "observation",
+          "start": 148.82304128519695
+        },
+        {
+          "word": "reflect",
+          "start": 149.7430413614909
+        },
+        {
+          "word": "on",
+          "start": 150.34304174296062
+        },
+        {
+          "word": "which",
+          "start": 150.50304159037273
+        },
+        {
+          "word": "model",
+          "start": 150.78304132334392
+        },
+        {
+          "word": "helped",
+          "start": 151.1830409418742
+        },
+        {
+          "word": "you",
+          "start": 151.50304159037273
+        },
+        {
+          "word": "and",
+          "start": 151.66304143778484
+        },
+        {
+          "word": "why",
+          "start": 151.86304124704998
+        },
+        {
+          "word": "now",
+          "start": 152.26304086558025
+        },
+        {
+          "word": "try",
+          "start": 152.5830415140788
+        },
+        {
+          "word": "the",
+          "start": 152.98304113260906
+        },
+        {
+          "word": "math",
+          "start": 153.14304098002117
+        },
+        {
+          "word": "magic",
+          "start": 153.50304159037273
+        },
+        {
+          "word": "practice",
+          "start": 153.98304113260906
+        },
+        {
+          "word": "and",
+          "start": 154.50304159037273
+        },
+        {
+          "word": "explain",
+          "start": 154.66304143778484
+        },
+        {
+          "word": "your",
+          "start": 155.14304098002117
+        },
+        {
+          "word": "thinking",
+          "start": 155.34304174296062
+        },
+        {
+          "word": "to",
+          "start": 155.70304044596355
+        },
+        {
+          "word": "someone",
+          "start": 155.86304029337566
+        }
+      ]
+    }
+  ]
+}

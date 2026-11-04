@@ -21,6 +21,11 @@ def resources(text):
     return result
 
 def main():
+    import pathlib as _vq_pathlib, sys as _vq_sys
+    _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+    _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+    from guard import enforce as _vq_enforce
+    _vq_enforce()
     p=ROOT/'fractions.html'; original=p.read_text()
     blocks=resources(original)
     assert len(blocks)==6, 'Expected five core players and the legacy LCM extension'

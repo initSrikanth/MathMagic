@@ -380,6 +380,11 @@ def batch_run(m,args):
 
 
 def main():
+    import pathlib as _vq_pathlib, sys as _vq_sys
+    _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+    _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+    from guard import enforce as _vq_enforce
+    _vq_enforce()
     ap=argparse.ArgumentParser(); ap.add_argument('action',choices=['init','due','run','verify-live','maths'])
     ap.add_argument('--voice-dir',type=Path,default=Path('work/models/kokoro-en-v0_19'))
     ap.add_argument('--work-dir',type=Path,default=ROOT/'work/production-v2')

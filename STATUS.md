@@ -1,11 +1,10 @@
-# Year 5 curriculum completion
+# Year 5 video-quality remediation — HOLD
 
-- Preserved baseline: original six topics / 30 released videos; main 9420db7. Year 6 is excluded.
-- Official v9 audit: 24 descriptors — 10 covered, 2 partial, 12 missing at baseline. Matrix: docs/year5/coverage.md.
-- Current topic: **Measuring Our World**, AC9M5M01–M02; five pages and a 30-question challenge. Founder rejected PR #50 narration, then approved calibration `2ff0ffce` and authorised all five replacements.
-- Current correction: five V3 graphics-only videos use the approved hf_alpha/Kokoro v1.0 profile, continuous native speech, spoken-word mathematical reveals, captions and transcripts. Old V2 bundles and original six topics/30 videos are preserved.
-- Production checkpoint: video-agent/production-v2/measurement-quality-manifest.json; scripts/timing/source fingerprints and full media checks are retained. The manual produce_measurement.py entry delegates to the calibrated helper; do not rerender verified outputs or return to legacy bf_emma settings.
-- Release gate: exact-final-head required CI, merge/Pages, five live bundle hashes and desktop/tablet/phone playback. Final observed evidence is recorded in the correction PR; this source checkpoint does not claim a future deployment.
-- Dashboard correction: the Measurement card has its own Year 5 • Measurement strand heading; existing card/progress markup unchanged.
-- Local-only limitations: emulator/WebKit binary downloads are blocked by cloud policy; their configured CI gates run outside this local environment. Live Firebase/rules and physical iOS remain distinct external checks.
-- Legacy automation remains suspended. **Stop for founder review after this topic; do not start Time and Angles automatically.**
+- New-topic development and new production batches suspended by owner. All three known legacy generation/publication workflows are disabled manually; no reactivation is authorised.
+- Baseline: main d31afb5; exactly 35 core placements across seven topics, plus the existing LCM extension outside this audit. Original published assets and all application/Firebase/assessment code are preserved.
+- Complete source/automated evidence pass: docs/video-quality-audit-35.md, .json and .csv. Full soundtrack ASR, decoded-frame/motion/audio measurements, source arithmetic checks, scene OCR and actual sampled images are linked per video. These are not full perceptual listening/viewing.
+- Confirmed: 30 branded text endings; 20 disallowed British narrator configurations (five Multiplication voices also reported British by owner); two confirmed missing narrated visual-model defects. Other animation/synchronisation flags require review.
+- Zero videos are declared fully compliant. All 35 remain blocked for missing mandatory perceptual review and an approved modestly more expressive delivery setting. The baseline hf_alpha voice is installed/owner-approved; it is not an unavailable service.
+- Single authority: video-agent/video-production-contract.json. Sixteen generation/integration entries and relevant workflows enforce the production hold and release gates. Source provenance is archived rather than rewritten.
+- Fourteen brand-free review candidates are prepared separately (five Measurement, four Fractions and five Whole Numbers) by packet-preserving natural-sentence cuts, retaining excellent existing audio. No TTS generation, re-encoding, pitch/speed changes or publication. Fractions Adding/Subtracting is held separately because its branded invitation precedes the optional LCM notice; a blind prefix cut would remove unrelated guidance. They are not a claim that enhanced enthusiasm has been achieved.
+- Next action: actual full listening/viewing and enhanced-delivery calibration, then controlled existing-topic corrections. Do not start a new topic, rerender completed assets or publish unreviewed candidates.

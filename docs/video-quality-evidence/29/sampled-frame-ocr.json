@@ -1,0 +1,80 @@
+{
+  "limitation": "Samples every authored scene plus beginning/middle/end, not every frame; absence of OCR match cannot establish absence of branding",
+  "samples": [
+    {
+      "at": 1.5,
+      "text": "Follow an Algorithm\n\nLet’s investigate\n\ne@eee\n\n@eee\n\n@eee\n",
+      "brand_found": false
+    },
+    {
+      "at": 2,
+      "text": "Follow an Algorithm\n\nLet’s investigate\n\ne@eee\n\n@eee\n\n@eee\n",
+      "brand_found": false
+    },
+    {
+      "at": 17.629,
+      "text": "Follow an Algorithm\n\nToday’s Learning Goal\n\nFollow an algorithm to find factors systematically.\n",
+      "brand_found": false
+    },
+    {
+      "at": 22.812,
+      "text": "Follow an Algorithm\n\nSuccess Criteria: | can...\n\n1. Repeat the test and record steps.\n\n2. Record pairs only for exact division.\n\n3. Stop before factor pairs repeat.\n",
+      "brand_found": false
+    },
+    {
+      "at": 34.595,
+      "text": "Follow an Algorithm\n\nBuild the idea\n\nTest number\n\nDecision\n\nPartner / remainder\n\n1\n\n12\n\nRecord pair\n\n2\n\n6\n\nRecord pair\n\n3)\n\n4\n\nRecord pair\n\nFactors: 1, 2, 3, 4, 6, 12\n",
+      "brand_found": false
+    },
+    {
+      "at": 57.552,
+      "text": "Follow an Algorithm\n\nExample 1: plan\n\n36: test candidates in order\n\nTest number\n\nDecision\n\nPartner / remainder\n\n36\n\nRecord pair\n\n18\n\nRecord pair\n\nhe)\n\nRecord pair\n\niS\n\nRecord pair\n\nRemainder 1\n\nContinue\n",
+      "brand_found": false
+    },
+    {
+      "at": 69.12,
+      "text": "Follow an Algorithm\n\nExample 1: explain\n\n6 x 6 = 36\n\nNext: 7 is past its partner\n\nTest number\n\nDecision\n\nPartner / remainder\n\n36\n\nRecord pair\n\n18\n\nRecord pair\n\n12\n\nRecord pair\n\niS\n\nRecord pair\n\nRemainder 1\n\nContinue\n\n6\n\nRecord pair\n\nFactors: 1, 2, 3, 4, 6, 9, 12, 18, 36\n",
+      "brand_found": false
+    },
+    {
+      "at": 77.017,
+      "text": "Follow an Algorithm\n\nExample 1: explain\n\n6 x 6 = 36\n\nNext: 7 is past its partner\n\nTest number\n\nPartner / remainder\n\nDecision\n\n36\n\nRecord pair\n\nord\n\nRECORD pair\n\na\n\n5)\n\nRemainder 1\n\nContinue\n\nFactors: 1, 2, 3, 4, 6, 9, 12, 18, 36\n",
+      "brand_found": false
+    },
+    {
+      "at": 82.004,
+      "text": "Follow an Algorithm\n\nExample 2: plan\n\n40: repeat the same steps\n\nTest number\n\nDecision\n\nPartner / remainder\n\n1\n\n40\n\nRecord pair\n\n2\n\n20\n\nRecord pair\n\n5}\n\nRemainder 1\n\nContinue\n\n4\n\n10\n\nRecord pair\n",
+      "brand_found": false
+    },
+    {
+      "at": 91.659,
+      "text": "Follow an Algorithm\n\nExample 2: explain\n\n5x 8=40\n\nNext: 7 is past its partner\n\nTest number\n\nDecision\n\nPartner / remainder\n\n40\n\nRecord pair\n\n20\n\nRecord pair\n\nRemainder 1\n\nContinue\n\n10\n\nRecord pair\n\n8\n\nRecord pair\n\nRemainder 4\n\nContinue\n\nFactors: 1, 2, 4, 5, 8, 10, 20, 40\n",
+      "brand_found": false
+    },
+    {
+      "at": 104.665,
+      "text": "Follow an Algorithm\n\nDo not stop at the first successful pair\n\n1 x 40 is only one pair\n\nContinue the systematic search\n\nTest number\n\nPartner / remainder\n\nDecision\n\n40\n\nRecord pair\n\n20\n\nRecord pair\n\nRemainder 1\n\nContinue\n\n10\n\nRecord pair\n\n8\n\nRecord pair\n\nRemainder 4\n\nContinue\n\nFactors: 1, 2, 4, 5, 8, 10, 20, 40\n",
+      "brand_found": false
+    },
+    {
+      "at": 118.04,
+      "text": "Follow an Algorithm\n\nYour turn\n\n4x 6=24\n\n6 x 4 = 24: new pair?\n\nThink time * 4 seconds\n",
+      "brand_found": false
+    },
+    {
+      "at": 128.106,
+      "text": "Follow an Algorithm\n\nLet’s check\n\nSame pair, reversed\n\nTest number\n\nDecision\n\nPartner / remainder\n\n1\n\n24\n\nRecord pair\n\n2\n\n12\n\nRecord pair\n\n5)\n\n8\n\nRecord pair\n\n4\n\n6\n\nRecord pair\n\nFactors: 1, 2, 3, 4, 6, 8, 12,24\n",
+      "brand_found": false
+    },
+    {
+      "at": 136.823,
+      "text": "Follow an Algorithm\n\nWhat to remember\n\nTest — decide — record > increase\n\nStop before pairs repeat\n",
+      "brand_found": false
+    },
+    {
+      "at": 152.533,
+      "text": "Follow an Algorithm\n\nWhat to remember\n\nTest — decide — record > increase\n\nStop before pairs repeat\n",
+      "brand_found": false
+    }
+  ]
+}

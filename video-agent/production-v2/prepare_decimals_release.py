@@ -5,6 +5,11 @@ from content import LESSONS,HERE,ROOT
 from pipeline import sha,json_hash,verify_sidecars
 SECTIONS=['place','compare','percent','connect','apply']
 def main():
+ import pathlib as _vq_pathlib, sys as _vq_sys
+ _vq_root=next(p for p in _vq_pathlib.Path(__file__).resolve().parents if (p/'video-agent/video-production-contract.json').is_file())
+ _vq_sys.path.insert(0,str(_vq_root/'tools/video-quality'))
+ from guard import enforce as _vq_enforce
+ _vq_enforce()
  ap=argparse.ArgumentParser();ap.add_argument('--work-dir',type=Path,default=ROOT/'work/production-v2');ap.add_argument('--topic',default='decimals-percentages',choices=['decimals-percentages','addition-subtraction','multiplication-division','factors-multiples']);args=ap.parse_args()
  m=json.loads((HERE/'manifest.json').read_text());lessons=[l for l in LESSONS if l['topic']==args.topic];sections=[l['section'] for l in lessons];assert len(lessons)==5 and len(set(sections))==5
  assert m['active_batch']['lessons']==[l['id'] for l in lessons]

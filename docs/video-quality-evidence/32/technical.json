@@ -1,0 +1,61 @@
+{
+  "duration": 156.366667,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "24000"
+  },
+  "decoded_frames": 4691,
+  "blank_frame_candidates": 0,
+  "audio_rms": 0.1351853311061859,
+  "clipping_fraction": 0.0,
+  "long_silent_gaps": [],
+  "extended_static_intervals": [
+    {
+      "start": 19.17,
+      "end": 29.83,
+      "duration": 10.67,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 68.73,
+      "end": 76.93,
+      "duration": 8.2,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 117.7,
+      "end": 126.97,
+      "duration": 9.27,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 136.43,
+      "end": 156.33,
+      "duration": 19.9,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    }
+  ],
+  "full_audio_asr": "docs/video-quality-evidence/32/full-audio-asr.json",
+  "brand_asr_matches": [
+    {
+      "start": 136.42304166666668,
+      "end": 156.35004166666667,
+      "text": " CHOOSE THE ATTRIBUTE UNIT AND INSTRUMENT TOGETHER FOR A PRACTICAL CHALLENGE USE A KITCHEN BALANCE OR MARK JUG WITH AN ADULT PREDICT A READING MEASURE CAREFULLY AND EXPLAIN THE DIFFERENCE BETWEEN YOUR ESTIMATE AND OBSERVATION REFLECT ON WHICH MODEL HELPED YOU AND WHY NOW TRY THE MATH MAGIC PRACTICE AND EXPLAIN YOUR THINKING TO SOMEONE"
+    }
+  ],
+  "frame_contact": "docs/video-quality-evidence/32/scene-contact.jpg",
+  "phase_contact": "docs/video-quality-evidence/32/begin-middle-ending.jpg",
+  "sampled_frame_ocr": "docs/video-quality-evidence/32/sampled-frame-ocr.json",
+  "ocr_brand_matches": [],
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "caption_brand_found": true,
+  "actual_listening_performed": false,
+  "full_temporal_perceptual_viewing_performed": false,
+  "video_sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+  "faststart": true
+}

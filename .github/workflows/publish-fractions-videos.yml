@@ -23,6 +23,11 @@ jobs:
           pip install -r production/video-agent/requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
+      - name: Require current production contract before legacy rendering
+        run: |
+          test -f production/tools/video-quality/guard.py
+          cd production
+          python3 -c "import sys; sys.path.insert(0,'tools/video-quality'); from guard import enforce; enforce()"
       - name: Render seven teaching scenes with the approved presenter
         run: |
           cd production

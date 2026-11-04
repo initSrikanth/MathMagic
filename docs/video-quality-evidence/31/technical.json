@@ -1,0 +1,67 @@
+{
+  "duration": 143.572,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "24000"
+  },
+  "decoded_frames": 4307,
+  "blank_frame_candidates": 0,
+  "audio_rms": 0.13430172204971313,
+  "clipping_fraction": 0.0,
+  "long_silent_gaps": [],
+  "extended_static_intervals": [
+    {
+      "start": 0.0,
+      "end": 8.3,
+      "duration": 8.3,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 17.17,
+      "end": 28.4,
+      "duration": 11.23,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 95.14,
+      "end": 103.44,
+      "duration": 8.3,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 106.17,
+      "end": 114.47,
+      "duration": 8.3,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    },
+    {
+      "start": 123.87,
+      "end": 143.54,
+      "duration": 19.67,
+      "interpretation": "FLAG only: persistent working may be appropriate; compare with spoken concept"
+    }
+  ],
+  "full_audio_asr": "docs/video-quality-evidence/31/full-audio-asr.json",
+  "brand_asr_matches": [
+    {
+      "start": 123.86495833333333,
+      "end": 143.571875,
+      "text": " CHOOSE A USEFUL UNIT READ THE INTERVAL SIZE AND CHECK THE STARTING MARK FOR A PRACTICAL INVESTIGATION MEASURE A PENCIL IN CENTIMETERS AND MILLIMITORS DISCUSS WHICH READING DESCRIBES ITS LENGTH MORE PRECISELY REFLECT ON WHICH MODEL HELPED YOU AND WHY NOW TRY THE MATH MAGIC PRACTICE AND EXPLAIN YOUR THINKING TO SOMEONE"
+    }
+  ],
+  "frame_contact": "docs/video-quality-evidence/31/scene-contact.jpg",
+  "phase_contact": "docs/video-quality-evidence/31/begin-middle-ending.jpg",
+  "sampled_frame_ocr": "docs/video-quality-evidence/31/sampled-frame-ocr.json",
+  "ocr_brand_matches": [],
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "caption_brand_found": true,
+  "actual_listening_performed": false,
+  "full_temporal_perceptual_viewing_performed": false,
+  "video_sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+  "faststart": true
+}
