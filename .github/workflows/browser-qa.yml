@@ -41,6 +41,8 @@ jobs:
         run: npm run test:measurement:emulator
       - name: Check protected Fractions architecture
         run: npm run test:protected
+      - name: Verify native WebKit lesson playback before full regression
+        run: npx playwright test --project=measurement-webkit --grep "graphics-only Choose Units" --retries=0
       - name: Run MathMagic browser QA
         run: npm run test:e2e
       - name: Upload Playwright report and traces

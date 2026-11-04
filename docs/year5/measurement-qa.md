@@ -20,7 +20,7 @@ Evidence is split deliberately: source/mathematics, mocked adapters, local Chrom
 | Mathematical notation/units | PASS — square units for area, length units for boundaries, appropriate attribute units; no numeric slash fractions in displayed content. |
 | Audio/video format | PASS — five 1920×1080 H.264/AAC/yuv420p MP4s, full decode and faststart; original offline bf_emma configuration. |
 | Synchronisation / persistence | PASS — actual sentence PCM clocks, continuous cue boundaries, persistent worked steps; no fabricated word timings claimed. |
-| Blank frames / missing audio | PASS — all decoded frames checked for flat/blank contrast; audio RMS, clipping, source correlation and every speech window checked. |
+| Blank frames / missing audio | PASS — all decoded frames checked for flat/blank contrast; every teaching cue must contain a model, equation or readable board; audio RMS, clipping, source correlation and every speech window checked. |
 | Captions/transcripts/posters | PASS — measured-timing VTT, exact script transcript, decoded JPEGs, responsive native controls/fallback/transcript. |
 | Accessibility and responsive layout | PASS locally — labelled SVGs/controls/inputs, keyboard-focusable players, red/green plus textual feedback, phone/tablet/desktop containment. |
 | Authentication/progress pattern | PASS source/mocks — approved-user gate; transactional UID/topic state; score bounds, concurrent saves, blocked-cache tolerance, restore and failed writes. Browser assessment is not claimed secret. |
@@ -32,3 +32,5 @@ Evidence is split deliberately: source/mathematics, mocked adapters, local Chrom
 | Human-review stop | Required — founder reviews this completed topic before any next topic starts. |
 
 External checks remaining regardless of CI: real approved/unapproved Firebase sessions, deployed-rule inspection, actual cross-device Firestore persistence and physical iOS. Practical measurement/investigation activities also require pupils to perform and explain them; quiz results do not establish that observation.
+
+Visual correction: five recap end clips gained persistent summaries; 55 original clips, original narration and all sidecars remain exact. A semantic scene-content assertion supplements pixel blank checks. WebKit media testing waits for completed seeking and uses native keyboard playback, retaining metadata/caption/advancing-playback/seek/end assertions; a fail-fast smoke precedes full regression.

@@ -12,7 +12,7 @@
   "lessons": {
     "measurement-lesson1": {
       "status": "verified",
-      "script_sha256": "a8b2d1273320689ea8f97c4c55d2a499a63691bc545f0a5d43ba2690a7449b7d",
+      "script_sha256": "f0f863e2e35406548827ad043ff9af2ba44304a113b9006de1e4d3cb9fbc47a7",
       "voice": {
         "model": "Kokoro v0.19",
         "voice": "bf_emma",
@@ -23,8 +23,8 @@
       },
       "qa": {
         "result": "passed",
-        "sha256": "57f5da0e92fa1504f532e342b8f7421bfbfafc90ee0c7f78f81a8ec91b4cd272",
-        "bytes": 3171610,
+        "sha256": "205f1b074f8f7b488cca5ab08950e3ac1e59198cfdad47019544fdfd069919a6",
+        "bytes": 3238704,
         "duration": 155.45383333333334,
         "audio_rms": 0.06302665174007416,
         "clipping_fraction": 0.0,
@@ -35,16 +35,25 @@
         "perceptual_voice_review": "Not human-certified",
         "blank_frames": 0,
         "frames_checked": 4664,
-        "minimum_frame_contrast": 5.600021432233431,
-        "unique_scenes": 12
+        "minimum_frame_contrast": 6.061449641334714,
+        "unique_scenes": 12,
+        "semantic_content": "Every cue has model, equation or readable board; recap included."
       },
       "narration_sha256": "642985d9a9f789cde33353582530ff9c46b836ae4dde905d41d4b172e8a64eb5",
       "source_audio": "video-agent/production-v2/audio/measurement-lesson1.flac",
-      "source_audio_sha256": "7973cc05a72e8782a4ad42e95991e6b8c071c16a11a38a4f2d7ab3007dba07d3"
+      "source_audio_sha256": "7973cc05a72e8782a4ad42e95991e6b8c071c16a11a38a4f2d7ab3007dba07d3",
+      "recap_repair": {
+        "changed_cues": [
+          11
+        ],
+        "original_clips_reused": 11,
+        "narration_unchanged": true,
+        "sidecars_unchanged": true
+      }
     },
     "measurement-lesson2": {
       "status": "verified",
-      "script_sha256": "c723acf9dfe1ce0bc476b4624e085647c9d4174708b2cfb9c65a17fe05398cf8",
+      "script_sha256": "4b46dfa08d1be6d1442bc8c0848bf9c4b3f9e6ecc7cf8f2f3e1bee834f01e67d",
       "voice": {
         "model": "Kokoro v0.19",
         "voice": "bf_emma",
@@ -55,8 +64,8 @@
       },
       "qa": {
         "result": "passed",
-        "sha256": "c2cb8401c33434d0d22f101f8bcb32b2f7663737e3f440770c582ab9404a6e01",
-        "bytes": 3503856,
+        "sha256": "c238e868f66601dc2ccf88c3063316b3b111c57745ad8c6dfc8840e1e9aa3fa9",
+        "bytes": 3571248,
         "duration": 173.204,
         "audio_rms": 0.06276637315750122,
         "clipping_fraction": 0.0,
@@ -67,16 +76,25 @@
         "perceptual_voice_review": "Not human-certified",
         "blank_frames": 0,
         "frames_checked": 5196,
-        "minimum_frame_contrast": 5.558114644970523,
-        "unique_scenes": 12
+        "minimum_frame_contrast": 6.374621751063808,
+        "unique_scenes": 12,
+        "semantic_content": "Every cue has model, equation or readable board; recap included."
       },
       "narration_sha256": "edc7ee59be894afe5d98e6d80e9f6fffa9714baef7b9dfb4fd907eed288bb94d",
       "source_audio": "video-agent/production-v2/audio/measurement-lesson2.flac",
-      "source_audio_sha256": "6047f2b2059922e993d09c599ff2281d4f547ddbb9657115a23c864d22ffa07d"
+      "source_audio_sha256": "6047f2b2059922e993d09c599ff2281d4f547ddbb9657115a23c864d22ffa07d",
+      "recap_repair": {
+        "changed_cues": [
+          11
+        ],
+        "original_clips_reused": 11,
+        "narration_unchanged": true,
+        "sidecars_unchanged": true
+      }
     },
     "measurement-lesson3": {
       "status": "verified",
-      "script_sha256": "5f2206d27a966078486540fcf5d2367382c6ca239397cfe4c21dcf44f9a52263",
+      "script_sha256": "770e7592e3d5fda19214404906480581ef15c9e5cbbc2bfc458a111902b12887",
       "voice": {
         "model": "Kokoro v0.19",
         "voice": "bf_emma",
@@ -87,8 +105,8 @@
       },
       "qa": {
         "result": "passed",
-        "sha256": "cc92a39b6fca75c466dad5ed1dd2cc0c4598f569170c6c0948131fb74b224f7b",
-        "bytes": 2914783,
+        "sha256": "95a36472be84765d6928fb4493c2ef09ff6b6c2fe98853ee76ed21940ef5e9c7",
+        "bytes": 2978480,
         "duration": 155.795125,
         "audio_rms": 0.0635930746793747,
         "clipping_fraction": 0.0,
@@ -99,16 +117,25 @@
         "perceptual_voice_review": "Not human-certified",
         "blank_frames": 0,
         "frames_checked": 4674,
-        "minimum_frame_contrast": 5.578147424048022,
-        "unique_scenes": 12
+        "minimum_frame_contrast": 5.661656111319329,
+        "unique_scenes": 12,
+        "semantic_content": "Every cue has model, equation or readable board; recap included."
       },
       "narration_sha256": "ec55efe729d23a35cb914c7d4c889986700bed18a5496b38629070f459abaea9",
       "source_audio": "video-agent/production-v2/audio/measurement-lesson3.flac",
-      "source_audio_sha256": "d986531bb5e8b602cda4d794f6eff95875e2c3ff34ab268952cc58c581a2cc42"
+      "source_audio_sha256": "d986531bb5e8b602cda4d794f6eff95875e2c3ff34ab268952cc58c581a2cc42",
+      "recap_repair": {
+        "changed_cues": [
+          11
+        ],
+        "original_clips_reused": 11,
+        "narration_unchanged": true,
+        "sidecars_unchanged": true
+      }
     },
     "measurement-lesson4": {
       "status": "verified",
-      "script_sha256": "71a0b817cdf1c2ddb2378fe469601eb14966cf190ec5fe9c73742a7cf89898c3",
+      "script_sha256": "a75a8c00951fcd322cd03abda24a2039bfd2bea5c7aefa8ea356578fa0d8d3fe",
       "voice": {
         "model": "Kokoro v0.19",
         "voice": "bf_emma",
@@ -119,8 +146,8 @@
       },
       "qa": {
         "result": "passed",
-        "sha256": "62b77ef9a61de78246f44045bd2362e51cdab73d3ce3b06aa273b8e88cc322cc",
-        "bytes": 3134090,
+        "sha256": "6e3942cb4d350002665e20dc5f79dfbd9c7ba16574002dbaa4499c3969a2eee0",
+        "bytes": 3235158,
         "duration": 160.94758333333334,
         "audio_rms": 0.06314626336097717,
         "clipping_fraction": 0.0,
@@ -131,16 +158,25 @@
         "perceptual_voice_review": "Not human-certified",
         "blank_frames": 0,
         "frames_checked": 4828,
-        "minimum_frame_contrast": 5.53225909746196,
-        "unique_scenes": 12
+        "minimum_frame_contrast": 6.091816724034662,
+        "unique_scenes": 12,
+        "semantic_content": "Every cue has model, equation or readable board; recap included."
       },
       "narration_sha256": "fee5b11e50c68ffc908ff2051bbb28b0a7bc22c74694b91988fc3275ba2ddd10",
       "source_audio": "video-agent/production-v2/audio/measurement-lesson4.flac",
-      "source_audio_sha256": "54b0b1284f7677069b3f9a95380edcf0b333150d6aeb9f93a4a7411c169e9e25"
+      "source_audio_sha256": "54b0b1284f7677069b3f9a95380edcf0b333150d6aeb9f93a4a7411c169e9e25",
+      "recap_repair": {
+        "changed_cues": [
+          11
+        ],
+        "original_clips_reused": 11,
+        "narration_unchanged": true,
+        "sidecars_unchanged": true
+      }
     },
     "measurement-lesson5": {
       "status": "verified",
-      "script_sha256": "7add1432f9096d0c7b2448d60ae1e88daa5c6fb8e245bfd58d65fb6257d2a8a7",
+      "script_sha256": "098d4f048c6bf84fda4cbb886766a237070f34d650d3e727a0483864eb2610c4",
       "voice": {
         "model": "Kokoro v0.19",
         "voice": "bf_emma",
@@ -151,8 +187,8 @@
       },
       "qa": {
         "result": "passed",
-        "sha256": "e3a9057c7c103009cae03579a47503f8297361484dc62504c3215f1bb08a5209",
-        "bytes": 3309123,
+        "sha256": "f143e3a6b120198953cd05148fd0befccb8b2dd41934edaa6ea25b184b4a610f",
+        "bytes": 3384697,
         "duration": 167.24808333333334,
         "audio_rms": 0.06262116879224777,
         "clipping_fraction": 0.0,
@@ -163,12 +199,21 @@
         "perceptual_voice_review": "Not human-certified",
         "blank_frames": 0,
         "frames_checked": 5017,
-        "minimum_frame_contrast": 5.576505367107163,
-        "unique_scenes": 12
+        "minimum_frame_contrast": 6.416153469361506,
+        "unique_scenes": 12,
+        "semantic_content": "Every cue has model, equation or readable board; recap included."
       },
       "narration_sha256": "411241973baadc6562c11031b79d34f4d42a664c98ed18382be7b0dd789eff96",
       "source_audio": "video-agent/production-v2/audio/measurement-lesson5.flac",
-      "source_audio_sha256": "8ec5a131b634c40fd10c9eb74d606c89a43cc0305b7cb0e39b29658457f7f74c"
+      "source_audio_sha256": "8ec5a131b634c40fd10c9eb74d606c89a43cc0305b7cb0e39b29658457f7f74c",
+      "recap_repair": {
+        "changed_cues": [
+          11
+        ],
+        "original_clips_reused": 11,
+        "narration_unchanged": true,
+        "sidecars_unchanged": true
+      }
     }
   },
   "paid_calls": 0,

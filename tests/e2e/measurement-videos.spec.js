@@ -2,6 +2,7 @@ const {test,expect}=require('@playwright/test');
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
 const batch=require('../../video-agent/production-v2/measurement-release.json');
 const root=path.join(__dirname,'../..'),normal=s=>s.replace(/\s+/g,' ').trim();
+async function playFrom(video,time){await video.evaluate((v,t)=>{v.pause();v.currentTime=t},time);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();await video.focus();await video.press('Space')}
 for(const l of batch.lessons)test('graphics-only '+l.title+' exact media, captions and responsive playback',async({page},testInfo)=>{
  const bytes=fs.readFileSync(path.join(root,l.src));expect(bytes.length).toBe(l.bytes);expect(crypto.createHash('sha256').update(bytes).digest('hex')).toBe(l.sha256);
  const first=await page.request.get('/'+l.src,{headers:{Range:'bytes=0-1023'}});
@@ -29,9 +30,9 @@ for(const l of batch.lessons)test('graphics-only '+l.title+' exact media, captio
   await video.evaluate((v,t)=>{v.pause();v.currentTime=t},goal.start+1);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();
   if(viewport.width!==768)await video.screenshot({path:testInfo.outputPath(l.id+'-goal-'+viewport.width+'.png')});
   if(viewport.width===390){const concept=timing.cues.find(c=>c.chapter==='Build the idea');await video.evaluate((v,t)=>{v.currentTime=t;v.pause()},concept.start+1);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();await video.screenshot({path:testInfo.outputPath(l.id+'-concept-390.png')})}
-  await video.evaluate(v=>{v.currentTime=0;return v.play()});await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(.2);
+  await playFrom(video,0);await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(.2);
   for(const t of [1,l.duration/2,l.duration-2]){await video.evaluate((v,t)=>{v.pause();v.currentTime=t},t);await expect.poll(()=>video.evaluate(v=>!v.seeking&&v.readyState>=2)).toBeTruthy();expect(await video.evaluate(v=>v.currentTime)).toBeCloseTo(t,1)}
  }
- await video.evaluate(v=>{v.currentTime=v.duration-.4;return v.play()});await expect.poll(()=>video.evaluate(v=>v.ended)).toBeTruthy();
+ await playFrom(video,l.duration-.4);await expect.poll(()=>video.evaluate(v=>v.ended)).toBeTruthy();
  expect(l.presenter).toBe(false);
 });

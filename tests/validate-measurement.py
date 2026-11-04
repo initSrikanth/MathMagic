@@ -13,6 +13,7 @@ def content():
   assert len(l['beats'][2]['board'])==3 and l['beats'][2]['text'].count('I can ')==3
   assert any(c.get('pause')==4 and c['role']=='question' for c in l['beats'])
   for c in l['beats']:
+   assert c.get('board') or c.get('model') or c.get('equation'),'Heading-only teaching scene: '+l['id']+' '+c['chapter']
    for line in c['board']:
     assert not re.search(r'\d\s*/\s*\d',line)
     if '=' not in line:continue

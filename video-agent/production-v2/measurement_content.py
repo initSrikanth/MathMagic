@@ -85,3 +85,12 @@ add('lesson5','Design with Irregular Shapes',
 for lesson in LESSONS:
     for cue in lesson['beats']:
         if cue.get('model'):cue['model']['reveal']=cue['role'] in ['answer','misconception'] or cue['chapter'].endswith(': explain')
+
+# Semantic content must remain visible through the spoken recap, not just a heading.
+_RECAPS=[
+ ['Choose the unit → read equal intervals.','Length = end reading − start reading.','Try measuring a pencil two ways.'],
+ ['Mass: g and kg | Capacity: mL and L','Read intervals; combine matching units.','Predict, measure and explain.'],
+ ['Trace every outside edge once.','Add matching length units.','Check by measuring a real boundary.'],
+ ['Cover with equal squares, without gaps.','Rows × columns counts area.','Same area need not mean the same perimeter.'],
+ ['Area: split or subtract rectangles.','Perimeter: trace the outside boundary.','Plan, calculate and check the real design.']]
+for lesson,board in zip(LESSONS,_RECAPS):lesson['beats'][-1]['board']=board
