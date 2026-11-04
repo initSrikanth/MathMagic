@@ -1,11 +1,7 @@
 {
-  "input_hash": "9534d36f768e0e219934214cb6286cbadfc38966271165d45b146369f3c3e196",
+  "input_hash": "b5048e6dfd7d789f059e993b6d676bcfef686fb06fb1f7da6d9a6721a8b1321b",
   "cues": [
     {
-      "index": 0,
-      "start": 0.0,
-      "end": 13.31625,
-      "lesson_progress": 0.08333333333333333,
       "text": "How many equal square tiles would cover a small floor? A long piece of string cannot cover the surface. We need a different measure from perimeter: area tells us how much flat space a shape covers.",
       "chapter": "Let’s investigate",
       "equation": [],
@@ -24,13 +20,165 @@
         "unit": "cm",
         "grid": true,
         "reveal": false
-      }
+      },
+      "index": 0,
+      "start": 0,
+      "end": 12.002416666666667,
+      "words": [
+        {
+          "word": "how",
+          "start": 0.0
+        },
+        {
+          "word": "many",
+          "start": 0.23999999463558197
+        },
+        {
+          "word": "equal",
+          "start": 0.6800000071525574
+        },
+        {
+          "word": "square",
+          "start": 1.1200000047683716
+        },
+        {
+          "word": "tiles",
+          "start": 1.4800000190734863
+        },
+        {
+          "word": "would",
+          "start": 2.0
+        },
+        {
+          "word": "cover",
+          "start": 2.240000009536743
+        },
+        {
+          "word": "a",
+          "start": 2.6399998664855957
+        },
+        {
+          "word": "small",
+          "start": 2.799999952316284
+        },
+        {
+          "word": "floor",
+          "start": 3.119999885559082
+        },
+        {
+          "word": "a",
+          "start": 3.5999999046325684
+        },
+        {
+          "word": "long",
+          "start": 3.759999990463257
+        },
+        {
+          "word": "piece",
+          "start": 4.079999923706055
+        },
+        {
+          "word": "of",
+          "start": 4.440000057220459
+        },
+        {
+          "word": "string",
+          "start": 4.599999904632568
+        },
+        {
+          "word": "cannot",
+          "start": 5.079999923706055
+        },
+        {
+          "word": "cover",
+          "start": 5.480000019073486
+        },
+        {
+          "word": "the",
+          "start": 5.799999713897705
+        },
+        {
+          "word": "surface",
+          "start": 5.960000038146973
+        },
+        {
+          "word": "we",
+          "start": 6.519999980926514
+        },
+        {
+          "word": "need",
+          "start": 6.759999752044678
+        },
+        {
+          "word": "a",
+          "start": 7.0
+        },
+        {
+          "word": "different",
+          "start": 7.119999885559082
+        },
+        {
+          "word": "measure",
+          "start": 7.519999980926514
+        },
+        {
+          "word": "from",
+          "start": 7.87999963760376
+        },
+        {
+          "word": "primeter",
+          "start": 8.079999923706055
+        },
+        {
+          "word": "area",
+          "start": 8.679999351501465
+        },
+        {
+          "word": "tells",
+          "start": 9.15999984741211
+        },
+        {
+          "word": "us",
+          "start": 9.4399995803833
+        },
+        {
+          "word": "how",
+          "start": 9.679999351501465
+        },
+        {
+          "word": "much",
+          "start": 9.84000015258789
+        },
+        {
+          "word": "flat",
+          "start": 10.119999885559082
+        },
+        {
+          "word": "space",
+          "start": 10.479999542236328
+        },
+        {
+          "word": "a",
+          "start": 10.920000076293945
+        },
+        {
+          "word": "shape",
+          "start": 11.079999923706055
+        },
+        {
+          "word": "covers",
+          "start": 11.4399995803833
+        }
+      ],
+      "asr_text": " HOW MANY EQUAL SQUARE TILES WOULD COVER A SMALL FLOOR A LONG PIECE OF STRING CANNOT COVER THE SURFACE WE NEED A DIFFERENT MEASURE FROM PRIMETER AREA TELLS US HOW MUCH FLAT SPACE A SHAPE COVERS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 11.4399995803833,
+      "reveal_at": 11.2899995803833
     },
     {
-      "index": 1,
-      "start": 13.31625,
-      "end": 18.292125,
-      "lesson_progress": 0.16666666666666666,
       "text": "Our learning goal is to explain and find area using square units.",
       "chapter": "Today’s Learning Goal",
       "equation": [],
@@ -42,13 +190,75 @@
       "area": null,
       "context": null,
       "note": "",
-      "role": "learning_goal"
+      "role": "learning_goal",
+      "index": 1,
+      "start": 12.002416666666667,
+      "end": 16.264291666666665,
+      "words": [
+        {
+          "word": "our",
+          "start": 12.002416666666667
+        },
+        {
+          "word": "learning",
+          "start": 12.202416654745738
+        },
+        {
+          "word": "goal",
+          "start": 12.642416652361552
+        },
+        {
+          "word": "is",
+          "start": 12.962416645208995
+        },
+        {
+          "word": "to",
+          "start": 13.202416595141093
+        },
+        {
+          "word": "explain",
+          "start": 13.362416680971782
+        },
+        {
+          "word": "and",
+          "start": 13.96241658560435
+        },
+        {
+          "word": "find",
+          "start": 14.162416514078776
+        },
+        {
+          "word": "area",
+          "start": 14.482416685740153
+        },
+        {
+          "word": "using",
+          "start": 14.96241670481364
+        },
+        {
+          "word": "square",
+          "start": 15.322416599909465
+        },
+        {
+          "word": "units",
+          "start": 15.68241649500529
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO EXPLAIN AND FIND AREA USING SQUARE UNITS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Explain and find area using square units.",
+          "at": 12.002416666666667,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 12.002416666666667,
+      "motion_end": 15.68241649500529,
+      "reveal_at": 15.53241649500529
     },
     {
-      "index": 2,
-      "start": 18.292125,
-      "end": 30.177083333333332,
-      "lesson_progress": 0.25,
       "text": "Success criteria. I can cover a surface without gaps or overlaps. I can use rows and columns to count squares. I can distinguish area from perimeter.",
       "chapter": "Success Criteria: I can…",
       "equation": [],
@@ -62,13 +272,141 @@
       "area": null,
       "context": null,
       "note": "",
-      "role": "success_criteria"
+      "role": "success_criteria",
+      "index": 2,
+      "start": 16.264291666666665,
+      "end": 26.730708333333332,
+      "words": [
+        {
+          "word": "success",
+          "start": 16.264291666666665
+        },
+        {
+          "word": "criteria",
+          "start": 16.90429165236155
+        },
+        {
+          "word": "i",
+          "start": 17.824291609446206
+        },
+        {
+          "word": "can",
+          "start": 18.024291657129922
+        },
+        {
+          "word": "cover",
+          "start": 18.264291666666665
+        },
+        {
+          "word": "a",
+          "start": 18.62429156176249
+        },
+        {
+          "word": "surface",
+          "start": 18.78429164759318
+        },
+        {
+          "word": "without",
+          "start": 19.384291552225747
+        },
+        {
+          "word": "gaps",
+          "start": 19.78429164759318
+        },
+        {
+          "word": "or",
+          "start": 20.18429150454203
+        },
+        {
+          "word": "overlaps",
+          "start": 20.424291514078774
+        },
+        {
+          "word": "i",
+          "start": 21.144291781107583
+        },
+        {
+          "word": "can",
+          "start": 21.384291552225747
+        },
+        {
+          "word": "use",
+          "start": 21.62429132334391
+        },
+        {
+          "word": "rows",
+          "start": 21.944291495005288
+        },
+        {
+          "word": "and",
+          "start": 22.384291552225747
+        },
+        {
+          "word": "columns",
+          "start": 22.584291361490884
+        },
+        {
+          "word": "to",
+          "start": 23.06429138056437
+        },
+        {
+          "word": "count",
+          "start": 23.264291666666665
+        },
+        {
+          "word": "squares",
+          "start": 23.544291399637856
+        },
+        {
+          "word": "i",
+          "start": 24.144291304270425
+        },
+        {
+          "word": "can",
+          "start": 24.34429159037272
+        },
+        {
+          "word": "distinguish",
+          "start": 24.584291361490884
+        },
+        {
+          "word": "area",
+          "start": 25.384291552225747
+        },
+        {
+          "word": "from",
+          "start": 25.864291094462075
+        },
+        {
+          "word": "primetta",
+          "start": 26.06429185740153
+        }
+      ],
+      "asr_text": " SUCCESS CRITERIA I CAN COVER A SURFACE WITHOUT GAPS OR OVERLAPS I CAN USE ROWS AND COLUMNS TO COUNT SQUARES I CAN DISTINGUISH AREA FROM PRIMETTA",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "1. Cover a surface without gaps or overlaps.",
+          "at": 16.264291666666665,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "2. Use rows and columns to count squares.",
+          "at": 16.264291666666665,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "3. Distinguish area from perimeter.",
+          "at": 16.264291666666665,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 16.264291666666665,
+      "motion_end": 26.06429185740153,
+      "reveal_at": 25.91429185740153
     },
     {
-      "index": 3,
-      "start": 30.177083333333332,
-      "end": 48.14279166666667,
-      "lesson_progress": 0.3333333333333333,
       "text": "Arrange equal unit squares without gaps or overlaps. Each square covers one square unit. For a rectangle, equal rows let us count efficiently with multiplication. A square centimetre is a square one centimetre along each side, not a one-centimetre length.",
       "chapter": "Build the idea",
       "equation": [],
@@ -87,13 +425,185 @@
         "unit": "cm",
         "grid": true,
         "reveal": false
-      }
+      },
+      "index": 3,
+      "start": 26.730708333333332,
+      "end": 43.2695,
+      "words": [
+        {
+          "word": "arrange",
+          "start": 26.730708333333332
+        },
+        {
+          "word": "equal",
+          "start": 27.370708319028218
+        },
+        {
+          "word": "unit",
+          "start": 27.810708257039387
+        },
+        {
+          "word": "squares",
+          "start": 28.130708309491474
+        },
+        {
+          "word": "without",
+          "start": 28.650708290417988
+        },
+        {
+          "word": "gaps",
+          "start": 29.05070826657613
+        },
+        {
+          "word": "or",
+          "start": 29.450708361943562
+        },
+        {
+          "word": "overlaps",
+          "start": 29.6507081712087
+        },
+        {
+          "word": "each",
+          "start": 30.410708161671955
+        },
+        {
+          "word": "square",
+          "start": 30.730708333333332
+        },
+        {
+          "word": "covers",
+          "start": 31.130708428700764
+        },
+        {
+          "word": "one",
+          "start": 31.650708409627278
+        },
+        {
+          "word": "square",
+          "start": 31.890708180745442
+        },
+        {
+          "word": "unit",
+          "start": 32.250708314259846
+        },
+        {
+          "word": "for",
+          "start": 32.73070833333333
+        },
+        {
+          "word": "a",
+          "start": 32.89070818074544
+        },
+        {
+          "word": "rectangle",
+          "start": 33.05070802815755
+        },
+        {
+          "word": "equal",
+          "start": 33.81070825703939
+        },
+        {
+          "word": "rows",
+          "start": 34.250708314259846
+        },
+        {
+          "word": "let",
+          "start": 34.77070829518636
+        },
+        {
+          "word": "us",
+          "start": 34.9707081044515
+        },
+        {
+          "word": "count",
+          "start": 35.17070791371663
+        },
+        {
+          "word": "efficiently",
+          "start": 35.49070856221517
+        },
+        {
+          "word": "with",
+          "start": 36.130707951863606
+        },
+        {
+          "word": "multiplication",
+          "start": 36.33070776112874
+        },
+        {
+          "word": "a",
+          "start": 37.37070772298177
+        },
+        {
+          "word": "square",
+          "start": 37.57070848592122
+        },
+        {
+          "word": "centimeter",
+          "start": 37.93070814259847
+        },
+        {
+          "word": "is",
+          "start": 38.73070833333333
+        },
+        {
+          "word": "a",
+          "start": 38.89070818074544
+        },
+        {
+          "word": "square",
+          "start": 39.05070802815755
+        },
+        {
+          "word": "one",
+          "start": 39.4107076848348
+        },
+        {
+          "word": "centimeter",
+          "start": 39.690708371480305
+        },
+        {
+          "word": "along",
+          "start": 40.4107076848348
+        },
+        {
+          "word": "each",
+          "start": 40.81070825703939
+        },
+        {
+          "word": "side",
+          "start": 41.130707951863606
+        },
+        {
+          "word": "not",
+          "start": 41.49070760854085
+        },
+        {
+          "word": "a",
+          "start": 41.690708371480305
+        },
+        {
+          "word": "one",
+          "start": 41.89070818074544
+        },
+        {
+          "word": "centimeter",
+          "start": 42.130707951863606
+        },
+        {
+          "word": "length",
+          "start": 42.8507072652181
+        }
+      ],
+      "asr_text": " ARRANGE EQUAL UNIT SQUARES WITHOUT GAPS OR OVERLAPS EACH SQUARE COVERS ONE SQUARE UNIT FOR A RECTANGLE EQUAL ROWS LET US COUNT EFFICIENTLY WITH MULTIPLICATION A SQUARE CENTIMETER IS A SQUARE ONE CENTIMETER ALONG EACH SIDE NOT A ONE CENTIMETER LENGTH",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 26.730708333333332,
+      "motion_end": 42.8507072652181,
+      "reveal_at": 42.7007072652181
     },
     {
-      "index": 4,
-      "start": 48.14279166666667,
-      "end": 60.86441666666666,
-      "lesson_progress": 0.4166666666666667,
       "text": "A rectangle has eight columns and five rows of square-centimetre tiles. Predict how many unit squares cover it. Each row contains eight squares, and there are five equal rows.",
       "chapter": "Example 1: plan",
       "equation": [],
@@ -115,13 +625,152 @@
         "unit": "cm",
         "grid": true,
         "reveal": false
-      }
+      },
+      "index": 4,
+      "start": 43.2695,
+      "end": 54.3475,
+      "words": [
+        {
+          "word": "a",
+          "start": 43.2695
+        },
+        {
+          "word": "rectangle",
+          "start": 43.42949999642372
+        },
+        {
+          "word": "has",
+          "start": 44.22949997854233
+        },
+        {
+          "word": "eight",
+          "start": 44.46949992847443
+        },
+        {
+          "word": "columns",
+          "start": 44.74950001907349
+        },
+        {
+          "word": "and",
+          "start": 45.2695
+        },
+        {
+          "word": "five",
+          "start": 45.509500009536744
+        },
+        {
+          "word": "rows",
+          "start": 45.82949994277954
+        },
+        {
+          "word": "of",
+          "start": 46.22950003814697
+        },
+        {
+          "word": "square",
+          "start": 46.38949988555908
+        },
+        {
+          "word": "centimeter",
+          "start": 46.70949981880188
+        },
+        {
+          "word": "tiles",
+          "start": 47.349499923706055
+        },
+        {
+          "word": "predict",
+          "start": 47.909499866485596
+        },
+        {
+          "word": "how",
+          "start": 48.509499771118165
+        },
+        {
+          "word": "many",
+          "start": 48.70950005722046
+        },
+        {
+          "word": "unit",
+          "start": 49.10949967575073
+        },
+        {
+          "word": "squares",
+          "start": 49.42949984741211
+        },
+        {
+          "word": "cover",
+          "start": 49.949499828338624
+        },
+        {
+          "word": "it",
+          "start": 50.2695
+        },
+        {
+          "word": "each",
+          "start": 50.54949973297119
+        },
+        {
+          "word": "row",
+          "start": 50.86949990463257
+        },
+        {
+          "word": "contains",
+          "start": 51.10949967575073
+        },
+        {
+          "word": "eight",
+          "start": 51.7094995803833
+        },
+        {
+          "word": "squares",
+          "start": 51.949499351501466
+        },
+        {
+          "word": "and",
+          "start": 52.42949984741211
+        },
+        {
+          "word": "there",
+          "start": 52.58949969482422
+        },
+        {
+          "word": "are",
+          "start": 52.74949954223633
+        },
+        {
+          "word": "five",
+          "start": 52.98949931335449
+        },
+        {
+          "word": "equal",
+          "start": 53.349499923706055
+        },
+        {
+          "word": "rows",
+          "start": 53.74949954223633
+        }
+      ],
+      "asr_text": " A RECTANGLE HAS EIGHT COLUMNS AND FIVE ROWS OF SQUARE CENTIMETER TILES PREDICT HOW MANY UNIT SQUARES COVER IT EACH ROW CONTAINS EIGHT SQUARES AND THERE ARE FIVE EQUAL ROWS",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "8 squares in each row",
+          "at": 44.56949992847443,
+          "reason": "number phrase"
+        },
+        {
+          "text": "5 equal rows",
+          "at": 45.609500009536745,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 43.2695,
+      "motion_end": 53.74949954223633,
+      "reveal_at": 53.59949954223633
     },
     {
-      "index": 5,
-      "start": 60.86441666666666,
-      "end": 74.63141666666667,
-      "lesson_progress": 0.5,
       "text": "Five groups of eight make forty unit squares. The area is forty square centimetres. Multiplying eight centimetres by five centimetres counts the same tiled surface, so we write the squared unit.",
       "chapter": "Example 1: explain",
       "equation": [],
@@ -142,13 +791,151 @@
         "unit": "cm",
         "grid": true,
         "reveal": true
-      }
+      },
+      "index": 5,
+      "start": 54.3475,
+      "end": 66.73558333333332,
+      "words": [
+        {
+          "word": "five",
+          "start": 54.3475
+        },
+        {
+          "word": "groups",
+          "start": 54.78749999761581
+        },
+        {
+          "word": "of",
+          "start": 55.14749995231628
+        },
+        {
+          "word": "eight",
+          "start": 55.307499978542324
+        },
+        {
+          "word": "make",
+          "start": 55.667499933242794
+        },
+        {
+          "word": "forty",
+          "start": 55.947499904632565
+        },
+        {
+          "word": "unit",
+          "start": 56.3475
+        },
+        {
+          "word": "squares",
+          "start": 56.62749997138977
+        },
+        {
+          "word": "the",
+          "start": 57.227499876022335
+        },
+        {
+          "word": "area",
+          "start": 57.46749988555908
+        },
+        {
+          "word": "is",
+          "start": 58.02749982833862
+        },
+        {
+          "word": "forty",
+          "start": 58.3475
+        },
+        {
+          "word": "square",
+          "start": 58.74750009536743
+        },
+        {
+          "word": "centimeters",
+          "start": 59.107499752044674
+        },
+        {
+          "word": "multiplying",
+          "start": 60.06749979019165
+        },
+        {
+          "word": "eight",
+          "start": 60.98749986648559
+        },
+        {
+          "word": "centimeters",
+          "start": 61.30750003814697
+        },
+        {
+          "word": "by",
+          "start": 62.06749979019165
+        },
+        {
+          "word": "five",
+          "start": 62.30750003814697
+        },
+        {
+          "word": "centimeters",
+          "start": 62.62749973297119
+        },
+        {
+          "word": "counts",
+          "start": 63.387499961853024
+        },
+        {
+          "word": "the",
+          "start": 63.74749961853027
+        },
+        {
+          "word": "same",
+          "start": 63.90749946594238
+        },
+        {
+          "word": "tiled",
+          "start": 64.22750011444091
+        },
+        {
+          "word": "surface",
+          "start": 64.58749977111816
+        },
+        {
+          "word": "so",
+          "start": 65.14750019073486
+        },
+        {
+          "word": "we",
+          "start": 65.3475
+        },
+        {
+          "word": "write",
+          "start": 65.5074998474121
+        },
+        {
+          "word": "the",
+          "start": 65.7874995803833
+        },
+        {
+          "word": "squared",
+          "start": 65.90749946594238
+        },
+        {
+          "word": "unit",
+          "start": 66.3475
+        }
+      ],
+      "asr_text": " FIVE GROUPS OF EIGHT MAKE FORTY UNIT SQUARES THE AREA IS FORTY SQUARE CENTIMETERS MULTIPLYING EIGHT CENTIMETERS BY FIVE CENTIMETERS COUNTS THE SAME TILED SURFACE SO WE WRITE THE SQUARED UNIT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "8 × 5 = 40 cm²",
+          "at": 56.047499904632566,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 54.3475,
+      "motion_end": 56.047499904632566,
+      "reveal_at": 56.047499904632566
     },
     {
-      "index": 6,
-      "start": 74.63141666666667,
-      "end": 88.12341666666667,
-      "lesson_progress": 0.5833333333333334,
       "text": "A play mat is seven metres by four metres. Imagine covering it with one-metre squares. There are seven squares along each row, with four rows altogether. What would the surface measurement be?",
       "chapter": "Example 2: plan",
       "equation": [],
@@ -170,13 +957,160 @@
         "unit": "m",
         "grid": true,
         "reveal": false
-      }
+      },
+      "index": 6,
+      "start": 66.73558333333332,
+      "end": 78.63741666666665,
+      "words": [
+        {
+          "word": "a",
+          "start": 66.73558333333332
+        },
+        {
+          "word": "playmart",
+          "start": 66.9755833279689
+        },
+        {
+          "word": "is",
+          "start": 67.61558332856495
+        },
+        {
+          "word": "seven",
+          "start": 67.81558325703938
+        },
+        {
+          "word": "meters",
+          "start": 68.1755832713445
+        },
+        {
+          "word": "by",
+          "start": 68.695583252271
+        },
+        {
+          "word": "four",
+          "start": 68.89558318074543
+        },
+        {
+          "word": "metres",
+          "start": 69.13558319028218
+        },
+        {
+          "word": "imagine",
+          "start": 69.81558325703938
+        },
+        {
+          "word": "covering",
+          "start": 70.49558332379658
+        },
+        {
+          "word": "it",
+          "start": 70.97558310445149
+        },
+        {
+          "word": "with",
+          "start": 71.13558342870076
+        },
+        {
+          "word": "one",
+          "start": 71.37558319981892
+        },
+        {
+          "word": "metre",
+          "start": 71.61558344777424
+        },
+        {
+          "word": "squares",
+          "start": 71.97558310445149
+        },
+        {
+          "word": "there",
+          "start": 72.57558300908406
+        },
+        {
+          "word": "are",
+          "start": 72.81558325703938
+        },
+        {
+          "word": "seven",
+          "start": 73.05558302815754
+        },
+        {
+          "word": "squares",
+          "start": 73.37558319981892
+        },
+        {
+          "word": "along",
+          "start": 73.81558325703938
+        },
+        {
+          "word": "each",
+          "start": 74.17558339055378
+        },
+        {
+          "word": "row",
+          "start": 74.45558312352497
+        },
+        {
+          "word": "with",
+          "start": 74.73558333333332
+        },
+        {
+          "word": "four",
+          "start": 74.93558314259846
+        },
+        {
+          "word": "rows",
+          "start": 75.21558287556965
+        },
+        {
+          "word": "altogether",
+          "start": 75.61558344777424
+        },
+        {
+          "word": "what",
+          "start": 76.41558268483479
+        },
+        {
+          "word": "would",
+          "start": 76.65558340962727
+        },
+        {
+          "word": "the",
+          "start": 76.8555832188924
+        },
+        {
+          "word": "surface",
+          "start": 77.05558302815754
+        },
+        {
+          "word": "measurement",
+          "start": 77.61558344777424
+        },
+        {
+          "word": "be",
+          "start": 78.25558283742268
+        }
+      ],
+      "asr_text": " A PLAYMART IS SEVEN METERS BY FOUR METRES IMAGINE COVERING IT WITH ONE METRE SQUARES THERE ARE SEVEN SQUARES ALONG EACH ROW WITH FOUR ROWS ALTOGETHER WHAT WOULD THE SURFACE MEASUREMENT BE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "7 columns × 4 rows",
+          "at": 68.99558318074543,
+          "reason": "number phrase"
+        },
+        {
+          "text": "Each tile: 1 m²",
+          "at": 71.47558319981891,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 66.73558333333332,
+      "motion_end": 78.25558283742268,
+      "reveal_at": 78.10558283742267
     },
     {
-      "index": 7,
-      "start": 88.12341666666667,
-      "end": 100.98925,
-      "lesson_progress": 0.6666666666666666,
       "text": "The area is twenty-eight square metres. The perimeter is a different quantity: seven plus four plus seven plus four is twenty-two metres. Area counts the cover; perimeter measures the border.",
       "chapter": "Example 2: explain",
       "equation": [],
@@ -198,13 +1132,160 @@
         "unit": "m",
         "grid": true,
         "reveal": true
-      }
+      },
+      "index": 7,
+      "start": 78.63741666666665,
+      "end": 90.38491666666665,
+      "words": [
+        {
+          "word": "the",
+          "start": 78.63741666666665
+        },
+        {
+          "word": "area",
+          "start": 78.87741666130223
+        },
+        {
+          "word": "is",
+          "start": 79.43741661898294
+        },
+        {
+          "word": "twenty",
+          "start": 79.71741659037271
+        },
+        {
+          "word": "eight",
+          "start": 80.15741664759317
+        },
+        {
+          "word": "square",
+          "start": 80.39741665712991
+        },
+        {
+          "word": "metres",
+          "start": 80.71741659037271
+        },
+        {
+          "word": "the",
+          "start": 81.35741669527688
+        },
+        {
+          "word": "perimeter",
+          "start": 81.55741650454202
+        },
+        {
+          "word": "is",
+          "start": 82.1974166094462
+        },
+        {
+          "word": "a",
+          "start": 82.43741661898294
+        },
+        {
+          "word": "different",
+          "start": 82.55741650454202
+        },
+        {
+          "word": "quantity",
+          "start": 82.95741636149087
+        },
+        {
+          "word": "seven",
+          "start": 83.5574167429606
+        },
+        {
+          "word": "plus",
+          "start": 83.91741639963784
+        },
+        {
+          "word": "four",
+          "start": 84.23741657129922
+        },
+        {
+          "word": "plus",
+          "start": 84.51741630427041
+        },
+        {
+          "word": "seven",
+          "start": 84.83741647593179
+        },
+        {
+          "word": "plus",
+          "start": 85.1974166094462
+        },
+        {
+          "word": "four",
+          "start": 85.51741630427041
+        },
+        {
+          "word": "is",
+          "start": 85.83741647593179
+        },
+        {
+          "word": "twenty",
+          "start": 86.03741628519693
+        },
+        {
+          "word": "two",
+          "start": 86.43741638056436
+        },
+        {
+          "word": "metres",
+          "start": 86.63741666666665
+        },
+        {
+          "word": "area",
+          "start": 87.27741605631509
+        },
+        {
+          "word": "counts",
+          "start": 87.79741651407876
+        },
+        {
+          "word": "the",
+          "start": 88.19741613260904
+        },
+        {
+          "word": "cover",
+          "start": 88.35741598002114
+        },
+        {
+          "word": "parimeter",
+          "start": 88.71741659037271
+        },
+        {
+          "word": "measures",
+          "start": 89.27741605631509
+        },
+        {
+          "word": "the",
+          "start": 89.75741655222573
+        },
+        {
+          "word": "border",
+          "start": 89.91741639963784
+        }
+      ],
+      "asr_text": " THE AREA IS TWENTY EIGHT SQUARE METRES THE PERIMETER IS A DIFFERENT QUANTITY SEVEN PLUS FOUR PLUS SEVEN PLUS FOUR IS TWENTY TWO METRES AREA COUNTS THE COVER PARIMETER MEASURES THE BORDER",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Area: 7 × 4 = 28 m²",
+          "at": 80.25741664759316,
+          "reason": "number phrase"
+        },
+        {
+          "text": "Perimeter: 7 + 4 + 7 + 4 = 22 m",
+          "at": 86.53741638056435,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 78.63741666666665,
+      "motion_end": 80.25741664759316,
+      "reveal_at": 80.25741664759316
     },
     {
-      "index": 8,
-      "start": 100.98925,
-      "end": 114.693875,
-      "lesson_progress": 0.75,
       "text": "Adding eight and five does not count the tiles covering an eight-by-five rectangle. It counts only two side lengths. To find area, use all five rows of eight equal squares, with no gaps or overlaps.",
       "chapter": "Square units are not side lengths",
       "equation": [],
@@ -226,14 +1307,181 @@
         "unit": "cm",
         "grid": true,
         "reveal": true
-      }
+      },
+      "index": 8,
+      "start": 90.38491666666665,
+      "end": 103.29324999999999,
+      "words": [
+        {
+          "word": "adding",
+          "start": 90.38491666666665
+        },
+        {
+          "word": "eight",
+          "start": 90.82491666428247
+        },
+        {
+          "word": "and",
+          "start": 91.10491663567224
+        },
+        {
+          "word": "five",
+          "start": 91.30491662375131
+        },
+        {
+          "word": "does",
+          "start": 91.66491663805643
+        },
+        {
+          "word": "not",
+          "start": 91.9449166094462
+        },
+        {
+          "word": "count",
+          "start": 92.22491658083597
+        },
+        {
+          "word": "the",
+          "start": 92.50491655222574
+        },
+        {
+          "word": "tiles",
+          "start": 92.66491663805643
+        },
+        {
+          "word": "covering",
+          "start": 93.22491658083597
+        },
+        {
+          "word": "in",
+          "start": 93.70491659990945
+        },
+        {
+          "word": "eight",
+          "start": 93.90491664759317
+        },
+        {
+          "word": "by",
+          "start": 94.18491661898294
+        },
+        {
+          "word": "five",
+          "start": 94.42491662851968
+        },
+        {
+          "word": "rectangle",
+          "start": 94.70491636149087
+        },
+        {
+          "word": "it",
+          "start": 95.46491659037271
+        },
+        {
+          "word": "counts",
+          "start": 95.70491636149087
+        },
+        {
+          "word": "only",
+          "start": 96.18491638056436
+        },
+        {
+          "word": "two",
+          "start": 96.54491651407876
+        },
+        {
+          "word": "side",
+          "start": 96.86491668574014
+        },
+        {
+          "word": "lengths",
+          "start": 97.18491638056436
+        },
+        {
+          "word": "to",
+          "start": 97.7449163233439
+        },
+        {
+          "word": "find",
+          "start": 97.9449166094462
+        },
+        {
+          "word": "area",
+          "start": 98.38491666666665
+        },
+        {
+          "word": "use",
+          "start": 98.90491617075601
+        },
+        {
+          "word": "all",
+          "start": 99.18491685740152
+        },
+        {
+          "word": "five",
+          "start": 99.46491659037271
+        },
+        {
+          "word": "rows",
+          "start": 99.78491628519693
+        },
+        {
+          "word": "of",
+          "start": 100.10491598002115
+        },
+        {
+          "word": "eight",
+          "start": 100.3049167429606
+        },
+        {
+          "word": "equal",
+          "start": 100.58491647593179
+        },
+        {
+          "word": "squares",
+          "start": 100.94491613260904
+        },
+        {
+          "word": "with",
+          "start": 101.42491662851968
+        },
+        {
+          "word": "no",
+          "start": 101.58491647593179
+        },
+        {
+          "word": "gaps",
+          "start": 101.86491620890298
+        },
+        {
+          "word": "or",
+          "start": 102.3049167429606
+        },
+        {
+          "word": "overlaps",
+          "start": 102.54491651407876
+        }
+      ],
+      "asr_text": " ADDING EIGHT AND FIVE DOES NOT COUNT THE TILES COVERING IN EIGHT BY FIVE RECTANGLE IT COUNTS ONLY TWO SIDE LENGTHS TO FIND AREA USE ALL FIVE ROWS OF EIGHT EQUAL SQUARES WITH NO GAPS OR OVERLAPS",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "5 rows of 8 squares",
+          "at": 90.38491666666665,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "Area: 40 cm², not 13 cm",
+          "at": 90.38491666666665,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 90.38491666666665,
+      "motion_end": 102.54491651407876,
+      "reveal_at": 90.38491666666665
     },
     {
-      "index": 9,
-      "start": 114.693875,
-      "end": 124.63325,
-      "lesson_progress": 0.8333333333333334,
-      "text": "A rectangle has six columns and four rows of unit squares. What is its area?",
+      "text": "A rectangle has six columns and four rows of unit squares. What is its area? Look at the model, and keep your prediction in mind.",
       "chapter": "Your turn",
       "equation": [],
       "board": [
@@ -246,13 +1494,141 @@
       "context": null,
       "note": "",
       "role": "question",
-      "pause": 4
+      "pause": 4,
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 6,
+        "h": 4,
+        "unit": "",
+        "grid": true,
+        "reveal": false
+      },
+      "index": 9,
+      "start": 103.29324999999999,
+      "end": 111.94658333333332,
+      "words": [
+        {
+          "word": "a",
+          "start": 103.29324999999999
+        },
+        {
+          "word": "rectangle",
+          "start": 103.45324999642371
+        },
+        {
+          "word": "has",
+          "start": 104.25324997854231
+        },
+        {
+          "word": "six",
+          "start": 104.53325000953673
+        },
+        {
+          "word": "columns",
+          "start": 104.8132499809265
+        },
+        {
+          "word": "and",
+          "start": 105.33324996185301
+        },
+        {
+          "word": "four",
+          "start": 105.53325000953673
+        },
+        {
+          "word": "rows",
+          "start": 105.77325001907347
+        },
+        {
+          "word": "of",
+          "start": 106.1332499141693
+        },
+        {
+          "word": "unit",
+          "start": 106.29324999999999
+        },
+        {
+          "word": "squares",
+          "start": 106.57324997138976
+        },
+        {
+          "word": "what",
+          "start": 107.25324979972838
+        },
+        {
+          "word": "is",
+          "start": 107.49324980926512
+        },
+        {
+          "word": "its",
+          "start": 107.73325005722045
+        },
+        {
+          "word": "area",
+          "start": 108.01324979019164
+        },
+        {
+          "word": "look",
+          "start": 108.65324965667723
+        },
+        {
+          "word": "at",
+          "start": 108.97324982833861
+        },
+        {
+          "word": "the",
+          "start": 109.17324963760375
+        },
+        {
+          "word": "model",
+          "start": 109.29324999999999
+        },
+        {
+          "word": "and",
+          "start": 109.8132499809265
+        },
+        {
+          "word": "keep",
+          "start": 110.05324975204466
+        },
+        {
+          "word": "your",
+          "start": 110.33324996185301
+        },
+        {
+          "word": "prediction",
+          "start": 110.57324973297118
+        },
+        {
+          "word": "in",
+          "start": 111.17324963760375
+        },
+        {
+          "word": "mind",
+          "start": 111.41324988555907
+        }
+      ],
+      "asr_text": " A RECTANGLE HAS SIX COLUMNS AND FOUR ROWS OF UNIT SQUARES WHAT IS ITS AREA LOOK AT THE MODEL AND KEEP YOUR PREDICTION IN MIND",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "6 columns × 4 rows",
+          "at": 103.29324999999999,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "Area = ? square units",
+          "at": 103.29324999999999,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 103.29324999999999,
+      "motion_end": 111.41324988555907,
+      "reveal_at": 111.26324988555906
     },
     {
-      "index": 10,
-      "start": 124.63325,
-      "end": 135.38825,
-      "lesson_progress": 0.9166666666666666,
       "text": "Four groups of six make twenty-four square units. You can check by counting the tiles or adding six four times. No tile should be counted twice.",
       "chapter": "Let’s check",
       "equation": [],
@@ -273,13 +1649,135 @@
         "unit": "",
         "grid": true,
         "reveal": true
-      }
+      },
+      "index": 10,
+      "start": 111.94658333333332,
+      "end": 121.12108333333332,
+      "words": [
+        {
+          "word": "four",
+          "start": 111.94658333333332
+        },
+        {
+          "word": "groups",
+          "start": 112.22658333452542
+        },
+        {
+          "word": "of",
+          "start": 112.6665833023389
+        },
+        {
+          "word": "six",
+          "start": 112.82658332856495
+        },
+        {
+          "word": "make",
+          "start": 113.22658330472309
+        },
+        {
+          "word": "twenty",
+          "start": 113.54658323796589
+        },
+        {
+          "word": "four",
+          "start": 113.906583252271
+        },
+        {
+          "word": "square",
+          "start": 114.14658338101704
+        },
+        {
+          "word": "units",
+          "start": 114.50658327611286
+        },
+        {
+          "word": "you",
+          "start": 115.0665832188924
+        },
+        {
+          "word": "can",
+          "start": 115.26658326657612
+        },
+        {
+          "word": "check",
+          "start": 115.46658331425984
+        },
+        {
+          "word": "by",
+          "start": 115.82658320935566
+        },
+        {
+          "word": "counting",
+          "start": 116.02658325703938
+        },
+        {
+          "word": "the",
+          "start": 116.42658335240681
+        },
+        {
+          "word": "tiles",
+          "start": 116.58658319981892
+        },
+        {
+          "word": "or",
+          "start": 117.0665832188924
+        },
+        {
+          "word": "adding",
+          "start": 117.22658306630451
+        },
+        {
+          "word": "six",
+          "start": 117.66658312352497
+        },
+        {
+          "word": "four",
+          "start": 118.02658325703938
+        },
+        {
+          "word": "times",
+          "start": 118.26658302815754
+        },
+        {
+          "word": "no",
+          "start": 118.9065833714803
+        },
+        {
+          "word": "tile",
+          "start": 119.22658306630451
+        },
+        {
+          "word": "should",
+          "start": 119.62658316167195
+        },
+        {
+          "word": "be",
+          "start": 119.82658297093708
+        },
+        {
+          "word": "counted",
+          "start": 120.02658325703938
+        },
+        {
+          "word": "twice",
+          "start": 120.5065827992757
+        }
+      ],
+      "asr_text": " FOUR GROUPS OF SIX MAKE TWENTY FOUR SQUARE UNITS YOU CAN CHECK BY COUNTING THE TILES OR ADDING SIX FOUR TIMES NO TILE SHOULD BE COUNTED TWICE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "6 × 4 = 24 square units",
+          "at": 114.006583252271,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 111.94658333333332,
+      "motion_end": 114.006583252271,
+      "reveal_at": 114.006583252271
     },
     {
-      "index": 11,
-      "start": 135.38825,
-      "end": 160.94758333333334,
-      "lesson_progress": 1.0,
       "text": "Area counts equal squares covering a surface. Use rows and columns to count efficiently and always label the square unit. Draw two rectangles with the same area on squared paper. Do they have to have the same perimeter? Explain with a drawing. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
       "chapter": "What to remember",
       "equation": [],
@@ -293,418 +1791,499 @@
       "area": null,
       "context": null,
       "note": "",
-      "role": "recap"
+      "role": "recap",
+      "index": 11,
+      "start": 121.12108333333332,
+      "end": 143.36325,
+      "words": [
+        {
+          "word": "area",
+          "start": 121.12108333333332
+        },
+        {
+          "word": "counts",
+          "start": 121.6810833357175
+        },
+        {
+          "word": "equal",
+          "start": 122.12108333333332
+        },
+        {
+          "word": "squares",
+          "start": 122.56108327134449
+        },
+        {
+          "word": "covering",
+          "start": 123.04108329041797
+        },
+        {
+          "word": "a",
+          "start": 123.48108322842914
+        },
+        {
+          "word": "surface",
+          "start": 123.6010833524068
+        },
+        {
+          "word": "use",
+          "start": 124.36108334287006
+        },
+        {
+          "word": "rows",
+          "start": 124.72108323796589
+        },
+        {
+          "word": "and",
+          "start": 125.16108329518634
+        },
+        {
+          "word": "columns",
+          "start": 125.36108310445148
+        },
+        {
+          "word": "to",
+          "start": 125.84108312352497
+        },
+        {
+          "word": "count",
+          "start": 126.04108340962726
+        },
+        {
+          "word": "efficiently",
+          "start": 126.32108314259845
+        },
+        {
+          "word": "and",
+          "start": 127.00108297093708
+        },
+        {
+          "word": "always",
+          "start": 127.2410832188924
+        },
+        {
+          "word": "label",
+          "start": 127.64108331425983
+        },
+        {
+          "word": "the",
+          "start": 128.0010829709371
+        },
+        {
+          "word": "square",
+          "start": 128.16108329518636
+        },
+        {
+          "word": "unit",
+          "start": 128.5210829518636
+        },
+        {
+          "word": "draw",
+          "start": 128.96108300908406
+        },
+        {
+          "word": "two",
+          "start": 129.28108318074544
+        },
+        {
+          "word": "rectangles",
+          "start": 129.5210829518636
+        },
+        {
+          "word": "with",
+          "start": 130.44108302815755
+        },
+        {
+          "word": "the",
+          "start": 130.60108287556966
+        },
+        {
+          "word": "same",
+          "start": 130.72108276112874
+        },
+        {
+          "word": "area",
+          "start": 131.12108333333333
+        },
+        {
+          "word": "on",
+          "start": 131.5210829518636
+        },
+        {
+          "word": "squared",
+          "start": 131.76108272298177
+        },
+        {
+          "word": "paper",
+          "start": 132.2410832188924
+        },
+        {
+          "word": "do",
+          "start": 132.72108276112874
+        },
+        {
+          "word": "they",
+          "start": 132.9210835240682
+        },
+        {
+          "word": "have",
+          "start": 133.2010832570394
+        },
+        {
+          "word": "to",
+          "start": 133.40108306630452
+        },
+        {
+          "word": "have",
+          "start": 133.6410828374227
+        },
+        {
+          "word": "the",
+          "start": 133.92108257039388
+        },
+        {
+          "word": "same",
+          "start": 134.0810833714803
+        },
+        {
+          "word": "perimeter",
+          "start": 134.40108306630452
+        },
+        {
+          "word": "explain",
+          "start": 135.2010832570394
+        },
+        {
+          "word": "with",
+          "start": 135.8010826848348
+        },
+        {
+          "word": "a",
+          "start": 135.9610825322469
+        },
+        {
+          "word": "drawing",
+          "start": 136.12108333333333
+        },
+        {
+          "word": "reflect",
+          "start": 136.72108276112874
+        },
+        {
+          "word": "on",
+          "start": 137.3610831044515
+        },
+        {
+          "word": "which",
+          "start": 137.5210829518636
+        },
+        {
+          "word": "muddle",
+          "start": 137.8010836385091
+        },
+        {
+          "word": "helped",
+          "start": 138.2010832570394
+        },
+        {
+          "word": "you",
+          "start": 138.48108203633626
+        },
+        {
+          "word": "and",
+          "start": 138.6810827992757
+        },
+        {
+          "word": "why",
+          "start": 138.88108356221517
+        },
+        {
+          "word": "now",
+          "start": 139.28108318074544
+        },
+        {
+          "word": "try",
+          "start": 139.60108287556966
+        },
+        {
+          "word": "the",
+          "start": 140.00108249409993
+        },
+        {
+          "word": "math",
+          "start": 140.16108234151204
+        },
+        {
+          "word": "magic",
+          "start": 140.5210829518636
+        },
+        {
+          "word": "practice",
+          "start": 140.96108348592122
+        },
+        {
+          "word": "and",
+          "start": 141.48108203633626
+        },
+        {
+          "word": "explain",
+          "start": 141.6810827992757
+        },
+        {
+          "word": "your",
+          "start": 142.16108234151204
+        },
+        {
+          "word": "thinking",
+          "start": 142.3610831044515
+        },
+        {
+          "word": "to",
+          "start": 142.72108371480306
+        },
+        {
+          "word": "someone",
+          "start": 142.88108356221517
+        }
+      ],
+      "asr_text": " AREA COUNTS EQUAL SQUARES COVERING A SURFACE USE ROWS AND COLUMNS TO COUNT EFFICIENTLY AND ALWAYS LABEL THE SQUARE UNIT DRAW TWO RECTANGLES WITH THE SAME AREA ON SQUARED PAPER DO THEY HAVE TO HAVE THE SAME PERIMETER EXPLAIN WITH A DRAWING REFLECT ON WHICH MUDDLE HELPED YOU AND WHY NOW TRY THE MATH MAGIC PRACTICE AND EXPLAIN YOUR THINKING TO SOMEONE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9430769587611542,
+      "board_events": [
+        {
+          "text": "Cover with equal squares, without gaps.",
+          "at": 121.12108333333332,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "Rows × columns counts area.",
+          "at": 121.12108333333332,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "Same area need not mean the same perimeter.",
+          "at": 121.12108333333332,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 121.12108333333332,
+      "motion_end": 142.88108356221517,
+      "reveal_at": 142.73108356221516
     }
   ],
   "captions": [
     {
-      "start": 0.0,
-      "end": 3.6065416666666668,
+      "start": 0,
+      "end": 2.6399998664855957,
       "text": "How many equal square tiles would cover a small floor?"
     },
     {
-      "start": 4.256541666666666,
-      "end": 7.346,
+      "start": 2.6399998664855957,
+      "end": 6.519999980926514,
       "text": "A long piece of string cannot cover the surface."
     },
     {
-      "start": 7.566,
-      "end": 12.66625,
+      "start": 6.519999980926514,
+      "end": 12.002416666666667,
       "text": "We need a different measure from perimeter: area tells us how much flat space a shape covers."
     },
     {
-      "start": 13.31625,
-      "end": 17.642125,
+      "start": 12.002416666666667,
+      "end": 16.264291666666665,
       "text": "Our learning goal is to explain and find area using square units."
     },
     {
-      "start": 18.292125,
-      "end": 20.04275,
+      "start": 16.264291666666665,
+      "end": 17.824291609446206,
       "text": "Success criteria."
     },
     {
-      "start": 20.26275,
-      "end": 23.623208333333334,
+      "start": 17.824291609446206,
+      "end": 21.144291781107583,
       "text": "I can cover a surface without gaps or overlaps."
     },
     {
-      "start": 23.843208333333333,
-      "end": 26.884541666666667,
+      "start": 21.144291781107583,
+      "end": 24.144291304270425,
       "text": "I can use rows and columns to count squares."
     },
     {
-      "start": 27.104541666666666,
-      "end": 29.527083333333334,
+      "start": 24.144291304270425,
+      "end": 26.730708333333332,
       "text": "I can distinguish area from perimeter."
     },
     {
-      "start": 30.177083333333332,
-      "end": 34.05,
+      "start": 26.730708333333332,
+      "end": 30.410708161671955,
       "text": "Arrange equal unit squares without gaps or overlaps."
     },
     {
-      "start": 34.27,
-      "end": 36.84758333333333,
+      "start": 30.410708161671955,
+      "end": 32.73070833333333,
       "text": "Each square covers one square unit."
     },
     {
-      "start": 37.06758333333333,
-      "end": 41.532666666666664,
+      "start": 32.73070833333333,
+      "end": 32.89070818074544,
       "text": "For a rectangle, equal rows let us count efficiently with multiplication."
     },
     {
-      "start": 41.75266666666667,
-      "end": 47.49279166666667,
+      "start": 32.89070818074544,
+      "end": 43.2695,
       "text": "A square centimetre is a square one centimetre along each side, not a one-centimetre length."
     },
     {
-      "start": 48.14279166666667,
-      "end": 52.987833333333334,
+      "start": 43.2695,
+      "end": 47.909499866485596,
       "text": "A rectangle has eight columns and five rows of square-centimetre tiles."
     },
     {
-      "start": 53.20783333333333,
-      "end": 55.8645,
+      "start": 47.909499866485596,
+      "end": 50.54949973297119,
       "text": "Predict how many unit squares cover it."
     },
     {
-      "start": 56.0845,
-      "end": 60.214416666666665,
+      "start": 50.54949973297119,
+      "end": 54.3475,
       "text": "Each row contains eight squares, and there are five equal rows."
     },
     {
-      "start": 60.86441666666666,
-      "end": 63.90058333333333,
+      "start": 54.3475,
+      "end": 57.227499876022335,
       "text": "Five groups of eight make forty unit squares."
     },
     {
-      "start": 64.12058333333333,
-      "end": 67.00775,
+      "start": 57.227499876022335,
+      "end": 60.06749979019165,
       "text": "The area is forty square centimetres."
     },
     {
-      "start": 67.22775,
-      "end": 73.98141666666666,
+      "start": 60.06749979019165,
+      "end": 66.73558333333332,
       "text": "Multiplying eight centimetres by five centimetres counts the same tiled surface, so we write the squared unit."
     },
     {
-      "start": 74.63141666666667,
-      "end": 77.776,
+      "start": 66.73558333333332,
+      "end": 69.81558325703938,
       "text": "A play mat is seven metres by four metres."
     },
     {
-      "start": 77.996,
-      "end": 80.95445833333333,
+      "start": 69.81558325703938,
+      "end": 72.57558300908406,
       "text": "Imagine covering it with one-metre squares."
     },
     {
-      "start": 81.17445833333333,
-      "end": 84.98466666666667,
+      "start": 72.57558300908406,
+      "end": 76.41558268483479,
       "text": "There are seven squares along each row, with four rows altogether."
     },
     {
-      "start": 85.20466666666667,
-      "end": 87.47341666666667,
+      "start": 76.41558268483479,
+      "end": 78.63741666666665,
       "text": "What would the surface measurement be?"
     },
     {
-      "start": 88.12341666666667,
-      "end": 90.89558333333333,
+      "start": 78.63741666666665,
+      "end": 81.35741669527688,
       "text": "The area is twenty-eight square metres."
     },
     {
-      "start": 91.11558333333333,
-      "end": 96.93645833333333,
+      "start": 81.35741669527688,
+      "end": 87.27741605631509,
       "text": "The perimeter is a different quantity: seven plus four plus seven plus four is twenty-two metres."
     },
     {
-      "start": 97.15645833333333,
-      "end": 100.33925,
+      "start": 87.27741605631509,
+      "end": 90.38491666666665,
       "text": "Area counts the cover; perimeter measures the border."
     },
     {
-      "start": 100.98925,
-      "end": 105.94316666666667,
+      "start": 90.38491666666665,
+      "end": 95.46491659037271,
       "text": "Adding eight and five does not count the tiles covering an eight-by-five rectangle."
     },
     {
-      "start": 106.16316666666667,
-      "end": 108.506875,
+      "start": 95.46491659037271,
+      "end": 97.7449163233439,
       "text": "It counts only two side lengths."
     },
     {
-      "start": 108.726875,
-      "end": 114.043875,
+      "start": 97.7449163233439,
+      "end": 103.29324999999999,
       "text": "To find area, use all five rows of eight equal squares, with no gaps or overlaps."
     },
     {
-      "start": 114.693875,
-      "end": 118.84495833333334,
+      "start": 103.29324999999999,
+      "end": 107.25324979972838,
       "text": "A rectangle has six columns and four rows of unit squares."
     },
     {
-      "start": 119.06495833333334,
-      "end": 120.63325,
+      "start": 107.25324979972838,
+      "end": 108.65324965667723,
       "text": "What is its area?"
     },
     {
-      "start": 124.63325,
-      "end": 127.88558333333333,
+      "start": 108.65324965667723,
+      "end": 111.94658333333332,
+      "text": "Look at the model, and keep your prediction in mind."
+    },
+    {
+      "start": 111.94658333333332,
+      "end": 115.0665832188924,
       "text": "Four groups of six make twenty-four square units."
     },
     {
-      "start": 128.10558333333333,
-      "end": 132.17070833333332,
+      "start": 115.0665832188924,
+      "end": 118.9065833714803,
       "text": "You can check by counting the tiles or adding six four times."
     },
     {
-      "start": 132.39070833333332,
-      "end": 134.73825,
+      "start": 118.9065833714803,
+      "end": 121.12108333333332,
       "text": "No tile should be counted twice."
     },
     {
-      "start": 135.38825,
-      "end": 138.762625,
+      "start": 121.12108333333332,
+      "end": 124.36108334287006,
       "text": "Area counts equal squares covering a surface."
     },
     {
-      "start": 138.982625,
-      "end": 143.628625,
+      "start": 124.36108334287006,
+      "end": 128.96108300908406,
       "text": "Use rows and columns to count efficiently and always label the square unit."
     },
     {
-      "start": 143.848625,
-      "end": 147.73208333333332,
+      "start": 128.96108300908406,
+      "end": 132.72108276112874,
       "text": "Draw two rectangles with the same area on squared paper."
     },
     {
-      "start": 147.95208333333332,
-      "end": 150.252125,
+      "start": 132.72108276112874,
+      "end": 135.2010832570394,
       "text": "Do they have to have the same perimeter?"
     },
     {
-      "start": 150.902125,
-      "end": 152.58870833333333,
+      "start": 135.2010832570394,
+      "end": 136.72108276112874,
       "text": "Explain with a drawing."
     },
     {
-      "start": 152.80870833333333,
-      "end": 155.639,
+      "start": 136.72108276112874,
+      "end": 139.28108318074544,
       "text": "Reflect on which model helped you and why."
     },
     {
-      "start": 155.859,
-      "end": 160.29758333333334,
+      "start": 139.28108318074544,
+      "end": 143.36325,
       "text": "Now try the MathMagic practice, and explain your thinking to someone."
     }
   ],
-  "pauses": [
-    [
-      3.6065416666666668,
-      4.256541666666667,
-      "sentence pause"
-    ],
-    [
-      7.346,
-      7.566,
-      "sentence pause"
-    ],
-    [
-      12.66625,
-      13.31625,
-      "sentence pause"
-    ],
-    [
-      17.642125,
-      18.292125,
-      "sentence pause"
-    ],
-    [
-      20.04275,
-      20.26275,
-      "sentence pause"
-    ],
-    [
-      23.623208333333334,
-      23.843208333333333,
-      "sentence pause"
-    ],
-    [
-      26.884541666666667,
-      27.104541666666666,
-      "sentence pause"
-    ],
-    [
-      29.527083333333334,
-      30.177083333333332,
-      "sentence pause"
-    ],
-    [
-      34.05,
-      34.269999999999996,
-      "sentence pause"
-    ],
-    [
-      36.84758333333333,
-      37.06758333333333,
-      "sentence pause"
-    ],
-    [
-      41.532666666666664,
-      41.75266666666666,
-      "sentence pause"
-    ],
-    [
-      47.49279166666667,
-      48.14279166666667,
-      "sentence pause"
-    ],
-    [
-      52.987833333333334,
-      53.20783333333333,
-      "sentence pause"
-    ],
-    [
-      55.8645,
-      56.0845,
-      "sentence pause"
-    ],
-    [
-      60.214416666666665,
-      60.86441666666666,
-      "sentence pause"
-    ],
-    [
-      63.90058333333333,
-      64.12058333333333,
-      "sentence pause"
-    ],
-    [
-      67.00775,
-      67.22775,
-      "sentence pause"
-    ],
-    [
-      73.98141666666666,
-      74.63141666666667,
-      "sentence pause"
-    ],
-    [
-      77.776,
-      77.996,
-      "sentence pause"
-    ],
-    [
-      80.95445833333333,
-      81.17445833333333,
-      "sentence pause"
-    ],
-    [
-      84.98466666666667,
-      85.20466666666667,
-      "sentence pause"
-    ],
-    [
-      87.47341666666667,
-      88.12341666666667,
-      "sentence pause"
-    ],
-    [
-      90.89558333333333,
-      91.11558333333333,
-      "sentence pause"
-    ],
-    [
-      96.93645833333333,
-      97.15645833333333,
-      "sentence pause"
-    ],
-    [
-      100.33925,
-      100.98925000000001,
-      "sentence pause"
-    ],
-    [
-      105.94316666666667,
-      106.16316666666667,
-      "sentence pause"
-    ],
-    [
-      108.506875,
-      108.72687499999999,
-      "sentence pause"
-    ],
-    [
-      114.043875,
-      114.693875,
-      "sentence pause"
-    ],
-    [
-      118.84495833333334,
-      119.06495833333334,
-      "sentence pause"
-    ],
-    [
-      120.63325,
-      124.63325,
-      "think time"
-    ],
-    [
-      127.88558333333333,
-      128.10558333333333,
-      "sentence pause"
-    ],
-    [
-      132.17070833333332,
-      132.39070833333332,
-      "sentence pause"
-    ],
-    [
-      134.73825,
-      135.38825,
-      "sentence pause"
-    ],
-    [
-      138.762625,
-      138.982625,
-      "sentence pause"
-    ],
-    [
-      143.628625,
-      143.848625,
-      "sentence pause"
-    ],
-    [
-      147.73208333333332,
-      147.95208333333332,
-      "sentence pause"
-    ],
-    [
-      150.252125,
-      150.902125,
-      "sentence pause"
-    ],
-    [
-      152.58870833333333,
-      152.80870833333333,
-      "sentence pause"
-    ],
-    [
-      155.639,
-      155.859,
-      "sentence pause"
-    ],
-    [
-      160.29758333333334,
-      160.94758333333334,
-      "sentence pause"
-    ]
-  ],
-  "duration": 160.94758333333334,
-  "narration_sha256": "fee5b11e50c68ffc908ff2051bbb28b0a7bc22c74694b91988fc3275ba2ddd10",
-  "voice": "Kokoro v0.19 bf_emma",
-  "voice_id": 7,
-  "speed": 0.84,
+  "pauses": [],
+  "duration": 143.36325,
+  "narration_sha256": "d40fc95eeaa9c60c187ca7556812984921bfa93acb2dece41c5058423296ccb9",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
   "sample_rate": 24000,
-  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+  "inserted_silence_samples": 0,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment"
 }

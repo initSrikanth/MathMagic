@@ -1,0 +1,272 @@
+{
+  "topic": "measurement",
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "name": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "licence": "Apache-2.0",
+    "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+    "paid_calls": 0,
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+  },
+  "founder_approval": "User: All good, go ahead with all",
+  "paid_calls": 0,
+  "legacy_automation": "unchanged/suspended",
+  "lessons": {
+    "measurement-lesson1": {
+      "status": "verified",
+      "script_sha256": "635ce8b71f72fc72a3b4f6659def6d15cd49a8c1a406e1715d750974838f6df9",
+      "qa": {
+        "result": "passed",
+        "sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+        "bytes": 3152035,
+        "duration": 143.571875,
+        "audio_rms": 0.13443925976753235,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999825258334498,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "perceptual_voice_review": "Founder approved 40.4-second calibration 2ff0ffce",
+        "blank_frames": 0,
+        "frames_checked": 4307,
+        "inserted_silence_samples": 0,
+        "native_mathematical_animation_fps": 25,
+        "unique_scenes": 12,
+        "late_safe_reveals": 0,
+        "scene_repairs": [
+          "Misconception working persistent throughout speech",
+          "Prediction guide separated from instrument/grid labels"
+        ],
+        "unchanged_clips_reused": 7,
+        "corrected_scenes": [
+          5,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "voice": {
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "name": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "licence": "Apache-2.0",
+        "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+        "paid_calls": 0,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "narration_sha256": "181ab4687accc0c2cde2c0f319448c376c441f67a05aa7032aed41d2bd2313e7",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson1-calibrated.flac",
+      "source_audio_sha256": "b85b0d1a8a018c48b0a7059f1d47c28a7a33fe686265ff1fdb0d849fe34c5fd6"
+    },
+    "measurement-lesson2": {
+      "status": "verified",
+      "script_sha256": "cd8bfe3788b604a8f21c2911441635aca9f8a68c74d12862ebca989808004d48",
+      "qa": {
+        "result": "passed",
+        "sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+        "bytes": 3342183,
+        "duration": 156.35004166666667,
+        "audio_rms": 0.1353229433298111,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999819621230093,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "perceptual_voice_review": "Founder approved 40.4-second calibration 2ff0ffce",
+        "blank_frames": 0,
+        "frames_checked": 4691,
+        "inserted_silence_samples": 0,
+        "native_mathematical_animation_fps": 25,
+        "unique_scenes": 12,
+        "late_safe_reveals": 0,
+        "scene_repairs": [
+          "Misconception working persistent throughout speech",
+          "Prediction guide separated from instrument/grid labels"
+        ],
+        "unchanged_clips_reused": 7,
+        "corrected_scenes": [
+          5,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "voice": {
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "name": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "licence": "Apache-2.0",
+        "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+        "paid_calls": 0,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "narration_sha256": "bc21ad51c8a3cdebd614425a7dcf6c927e5998440af5c3bddc74846271afbe4a",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson2-calibrated.flac",
+      "source_audio_sha256": "cd51aeaea6284cfbe5fafb549c3b3a012bbf8f3b2e2508c76876d217636bb41a"
+    },
+    "measurement-lesson3": {
+      "status": "verified",
+      "script_sha256": "aed0e1774b75b541fdc00791ecacc6cf02c30515dad5e4b3b629d9179062596a",
+      "qa": {
+        "result": "passed",
+        "sha256": "a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f",
+        "bytes": 2731690,
+        "duration": 140.565625,
+        "audio_rms": 0.13494575023651123,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999764966673138,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "perceptual_voice_review": "Founder approved 40.4-second calibration 2ff0ffce",
+        "blank_frames": 0,
+        "frames_checked": 4217,
+        "inserted_silence_samples": 0,
+        "native_mathematical_animation_fps": 25,
+        "unique_scenes": 12,
+        "late_safe_reveals": 0,
+        "scene_repairs": [
+          "Misconception working persistent throughout speech",
+          "Prediction guide separated from instrument/grid labels"
+        ],
+        "unchanged_clips_reused": 6,
+        "corrected_scenes": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "voice": {
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "name": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "licence": "Apache-2.0",
+        "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+        "paid_calls": 0,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "narration_sha256": "9fb1c6714edb32a33b22aed0547eeba769ef8c71acf69579c79275fb04362537",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson3-calibrated.flac",
+      "source_audio_sha256": "157042cda0b61e266e26f2a8409b88034235581e2cbec8bb34831b734be9c33f"
+    },
+    "measurement-lesson4": {
+      "status": "verified",
+      "script_sha256": "00f40a3028d3610b3b2c54b3be6e93b05ce58c1cfd977e94c307bfe2eaaa1419",
+      "qa": {
+        "result": "passed",
+        "sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+        "bytes": 3000512,
+        "duration": 143.36325,
+        "audio_rms": 0.1347983330488205,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999837901611727,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "perceptual_voice_review": "Founder approved 40.4-second calibration 2ff0ffce",
+        "blank_frames": 0,
+        "frames_checked": 4301,
+        "inserted_silence_samples": 0,
+        "native_mathematical_animation_fps": 25,
+        "unique_scenes": 12,
+        "late_safe_reveals": 0,
+        "scene_repairs": [
+          "Misconception working persistent throughout speech",
+          "Prediction guide separated from instrument/grid labels"
+        ],
+        "unchanged_clips_reused": 7,
+        "corrected_scenes": [
+          5,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "voice": {
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "name": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "licence": "Apache-2.0",
+        "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+        "paid_calls": 0,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "narration_sha256": "d40fc95eeaa9c60c187ca7556812984921bfa93acb2dece41c5058423296ccb9",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson4-calibrated.flac",
+      "source_audio_sha256": "6573766e1b7d06e814ca3486f4e670cadc04717b888d9d2727517a83b9478a54"
+    },
+    "measurement-lesson5": {
+      "status": "verified",
+      "script_sha256": "77d1e9263a5f561bf95d45434939b7e0135fffc461a1f4e88e84f84697b01db7",
+      "qa": {
+        "result": "passed",
+        "sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+        "bytes": 3168230,
+        "duration": 150.97525000000002,
+        "audio_rms": 0.13359680771827698,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999808291466309,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "perceptual_voice_review": "Founder approved 40.4-second calibration 2ff0ffce",
+        "blank_frames": 0,
+        "frames_checked": 4529,
+        "inserted_silence_samples": 0,
+        "native_mathematical_animation_fps": 25,
+        "unique_scenes": 12,
+        "late_safe_reveals": 0,
+        "scene_repairs": [
+          "Misconception working persistent throughout speech",
+          "Prediction guide separated from instrument/grid labels"
+        ],
+        "unchanged_clips_reused": 6,
+        "corrected_scenes": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "voice": {
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "name": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "licence": "Apache-2.0",
+        "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+        "paid_calls": 0,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "narration_sha256": "0140f6042f88597123aabdd1bb98355aa891532d259d940f20c401622fe4e9d5",
+      "source_audio": "video-agent/production-v2/audio/measurement-lesson5-calibrated.flac",
+      "source_audio_sha256": "b37e0327ce6c9e1cac25ac15600df023015a90c88520fd87cba984f60b6369d7"
+    }
+  },
+  "integrated": true,
+  "source_fingerprints": {
+    "producer": "bee7b89bf9f4e72d6f78f3c1e628b065c65abf57dde8451c2af9729a96e797e9",
+    "graphics": "fca0d867109089241f3cef65dc1887650a250c8006bedd70f3bebd5384d49f0d",
+    "measurement_graphics": "f74754036d4d6943bdc8e67b897ed15ecd638527a669fdfe326cd74d66128ffd"
+  }
+}

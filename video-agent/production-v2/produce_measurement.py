@@ -36,4 +36,8 @@ def run():
   html,n=re.subn(pattern,lambda _:p.wrapper(l).replace('<video controls','<video tabindex="0" controls'),html,flags=re.S)
   assert n==1 or html.count('data-mathmagic-v2="'+l['id']+'"')==1
  assert 'data-measurement-pending' not in html;page.write_text(html);p.save(HERE/'measurement-release.json',release);p.save(HERE/'measurement-previous-integrations.json',dict(base_commit=m['base_commit'],cards={},assets={},reason='New Year 5 topic; no prior players replaced.'));m['integrated']=True;persist(m);print('PASS: five verified media bundles integrated; no previous media changed.',flush=True)
-if __name__=='__main__':run()
+if __name__=='__main__':
+ # The V2 implementation above is archived provenance, not the production entry.
+ # Never silently return to the founder-rejected bf_emma/.84 narration profile.
+ from measurement_quality import run as calibrated_run
+ calibrated_run()

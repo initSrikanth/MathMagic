@@ -1,0 +1,41 @@
+{
+  "videos": 5,
+  "scenes": 60,
+  "models": 45,
+  "mathematics": "Original validated equations/geometry unchanged; five prediction models copied from validated answer models",
+  "paid_calls": 0,
+  "inserted_silence_samples": 0,
+  "blank_frames": 0,
+  "frames_checked": 22045,
+  "reused_clips_in_final_timing_pass": 33,
+  "local_chromium_cases": 26,
+  "dashboard_heading_cases": 2,
+  "prior_assets_preserved": true,
+  "production_firebase_or_physical_ios_verified": false,
+  "voice_approval": "Founder approved calibration 2ff0ffce and authorised all five replacements",
+  "synchronisation_limit": "ASR token timing is approximate; not certified forced alignment",
+  "durations_seconds": {
+    "measurement-lesson1": 143.572,
+    "measurement-lesson2": 156.35,
+    "measurement-lesson3": 140.566,
+    "measurement-lesson4": 143.363,
+    "measurement-lesson5": 150.975
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "packages": {
+      "sherpa-onnx": "1.12.26",
+      "numpy": "2.5.4",
+      "soundfile": "0.14.0",
+      "scipy": "1.17.0",
+      "pillow": "12.3.0"
+    }
+  },
+  "alignment_model_files": {
+    "encoder-epoch-99-avg-1.int8.onnx": "3a6ac78a31cc2c60ca8c1e2e2f43c878fbbcaf051ada4900e0a42ef8ba53d375",
+    "tokens.txt": "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb",
+    "decoder-epoch-99-avg-1.int8.onnx": "f462ab9189ba6f9b2658774e6bf3d651913de54a3833655dc5e093e2f5e4c2b6",
+    "joiner-epoch-99-avg-1.int8.onnx": "6b183b6ec656e4d3ca6b86d0aeca992dac14df80aae6b416d7c068d0ff2bd4d7"
+  }
+}

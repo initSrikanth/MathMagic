@@ -1,0 +1,286 @@
+{
+  "id": "measurement-lesson5",
+  "topic": "measurement",
+  "section": "lesson5",
+  "title": "Design with Irregular Shapes",
+  "file": "MathMagic_V3_measurement_lesson5",
+  "beats": [
+    {
+      "text": "A playground has a corner cut out for a tree. Can we still work out how many paving tiles it needs? An irregular outline does not stop us measuring. Let us turn the tricky shape into familiar rectangles.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Our learning goal is to solve practical problems with irregular shapes.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Solve practical problems with irregular shapes."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can split a shape or subtract a missing rectangle. I can check every outside length for perimeter. I can compare designs using the required measure.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Split a shape or subtract a missing rectangle.",
+        "2. Check every outside length for perimeter.",
+        "3. Compare designs using the required measure."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Build an L shape with square tiles, then slide a pencil along possible dividing lines. You can split its area into non-overlapping rectangles, or start with a large rectangle and subtract the missing part. Both methods must cover exactly the same surface.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "An L-shaped space fits inside an eight-metre by six-metre rectangle. A three-metre by two-metre corner is missing. Predict whether its area is greater or smaller than forty-eight square metres.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Whole rectangle: 8 × 6 = 48 m²",
+        "Missing corner: 3 × 2 = 6 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Subtract the missing six square metres from forty-eight. The L-shaped area is forty-two square metres. As a check, split it into an eight-by-four rectangle and a five-by-two rectangle. Thirty-two plus ten also gives forty-two.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "48 − 6 = 42 m²",
+        "8 × 4 + 5 × 2 = 42 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A larger design fits inside a ten-metre by eight-metre rectangle, with a four-by-three corner missing. Plan the area calculation first. Keep the border measurement separate from the surface measurement.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "Whole area: 10 × 8 = 80 m²",
+        "Missing area: 4 × 3 = 12 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 10,
+        "h": 8,
+        "a": 4,
+        "b": 3,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "The usable area is sixty-eight square metres. For its border, trace ten, five, four, three, six and eight metres. That perimeter is thirty-six metres. Different questions about the same design need different measures.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Area: 80 − 12 = 68 m²",
+        "Border: 10 + 5 + 4 + 3 + 6 + 8 = 36 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 10,
+        "h": 8,
+        "a": 4,
+        "b": 3,
+        "unit": "m",
+        "boundary": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Using the full eight-by-six rectangle would include the tree corner. That overcounts six square metres. Subtract the missing rectangle, or add two rectangles that cover only the actual playground.",
+      "chapter": "The missing corner does not need tiles",
+      "equation": [],
+      "board": [
+        "48 m² includes the missing corner",
+        "48 − 6 = 42 m²"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 8,
+        "h": 6,
+        "a": 3,
+        "b": 2,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A six-by-five rectangle has a two-by-two corner removed. What area remains? Look at the model, and keep your prediction in mind.",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "Whole: 6 × 5 square units",
+        "Remove: 2 × 2 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4,
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 6,
+        "h": 5,
+        "a": 2,
+        "b": 2,
+        "unit": "",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Thirty minus four leaves twenty-six square units. The missing corner is not part of the surface, so subtract it once, rather than including the full bounding rectangle.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "30 − 4 = 26 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "composite",
+        "w": 6,
+        "h": 5,
+        "a": 2,
+        "b": 2,
+        "unit": "",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Choose the measure the problem needs. For area, split or subtract rectangles; for perimeter, trace every outside edge. Draw a garden on squared paper and explain a paving plan and a fencing plan. Check that your answers describe the actual design. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Area: split or subtract rectangles.",
+        "Perimeter: trace the outside boundary.",
+        "Plan, calculate and check the real design."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "codes": [
+    "AC9M5M02"
+  ]
+}

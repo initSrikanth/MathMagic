@@ -1,0 +1,659 @@
+{
+  "input_hash": "417ac207492eb776760862d00f07a195242d7238ae074de107240f4b8186de29",
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 14.042458333333334,
+      "lesson_progress": 0.08333333333333333,
+      "text": "Could the same pencil seem longer just because someone moved the ruler? Imagine two friends measuring it from different marks. Before we trust a number, let us investigate the unit, the scale and the starting point.",
+      "chapter": "Let’s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": false
+      }
+    },
+    {
+      "index": 1,
+      "start": 14.042458333333334,
+      "end": 19.313916666666668,
+      "lesson_progress": 0.16666666666666666,
+      "text": "Our learning goal is to measure length accurately using useful metric units.",
+      "chapter": "Today’s Learning Goal",
+      "equation": [],
+      "board": [
+        "Measure length accurately using useful metric units."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "index": 2,
+      "start": 19.313916666666668,
+      "end": 31.650916666666667,
+      "lesson_progress": 0.25,
+      "text": "Success criteria. I can choose a sensible unit and instrument. I can read a ruler from the correct starting point. I can combine metres and centimetres accurately.",
+      "chapter": "Success Criteria: I can…",
+      "equation": [],
+      "board": [
+        "1. Choose a sensible unit and instrument.",
+        "2. Read a ruler from the correct starting point.",
+        "3. Combine metres and centimetres accurately."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "index": 3,
+      "start": 31.650916666666667,
+      "end": 49.861291666666666,
+      "lesson_progress": 0.3333333333333333,
+      "text": "Remember that a measure counts equal units. Millimetres help with small details, centimetres suit a pencil, metres suit a room, and kilometres suit a long journey. Choose a tool with useful markings. Smaller units can give a more precise measurement, rather than changing the object.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "units",
+        "reveal": false
+      }
+    },
+    {
+      "index": 4,
+      "start": 49.861291666666666,
+      "end": 63.08629166666667,
+      "lesson_progress": 0.4166666666666667,
+      "text": "A ribbon begins at the two centimetre mark and ends at nine centimetres. Predict its length. Count the equal one-centimetre intervals between those marks, rather than reading the final label alone.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "Start: 2 cm",
+        "End: 9 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": false
+      }
+    },
+    {
+      "index": 5,
+      "start": 63.08629166666667,
+      "end": 76.05170833333334,
+      "lesson_progress": 0.5,
+      "text": "There are seven centimetres between the marks. Nine minus two equals seven. Moving the ruler does not stretch the ribbon: subtract the starting reading whenever the object is not lined up with zero.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "9 − 2 = 7 cm",
+        "Length is the difference"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": true
+      }
+    },
+    {
+      "index": 6,
+      "start": 76.05170833333334,
+      "end": 89.479375,
+      "lesson_progress": 0.5833333333333334,
+      "text": "A display board measures two metres and thirty-five centimetres. We want a single centimetre reading. One metre contains one hundred centimetres, so the two metres account for two hundred centimetres.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "1 m = 100 cm",
+        "2 m = 200 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 2,
+        "part": 35,
+        "factor": 100,
+        "big": "m",
+        "small": "cm",
+        "reveal": false
+      }
+    },
+    {
+      "index": 7,
+      "start": 89.479375,
+      "end": 102.38733333333333,
+      "lesson_progress": 0.6666666666666666,
+      "text": "Add the remaining thirty-five centimetres. Two hundred plus thirty-five makes two hundred and thirty-five centimetres. The combined measure and the single-unit measure describe exactly the same length.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "200 + 35 = 235 cm",
+        "2 m 35 cm = 235 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 2,
+        "part": 35,
+        "factor": 100,
+        "big": "m",
+        "small": "cm",
+        "reveal": true
+      }
+    },
+    {
+      "index": 8,
+      "start": 102.38733333333333,
+      "end": 114.08870833333333,
+      "lesson_progress": 0.75,
+      "text": "Reading nine centimetres as the ribbon length ignores where it started. Count the space between the marks. A different starting mark changes the subtraction, but not the physical ribbon.",
+      "chapter": "Read the distance, not just the end",
+      "equation": [],
+      "board": [
+        "End reading is not always the length",
+        "9 − 2 = 7 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 2,
+        "end": 9,
+        "reveal": true
+      }
+    },
+    {
+      "index": 9,
+      "start": 114.08870833333333,
+      "end": 124.20320833333334,
+      "lesson_progress": 0.8333333333333334,
+      "text": "A strip starts at three centimetres and ends at eleven centimetres. How long is it?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "Start 3 cm → end 11 cm",
+        "Length = ? cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "index": 10,
+      "start": 124.20320833333334,
+      "end": 133.79595833333335,
+      "lesson_progress": 0.9166666666666666,
+      "text": "Eleven minus three is eight centimetres. Check by counting eight equal intervals, or placing a zero-start ruler beside the same strip.",
+      "chapter": "Let’s check",
+      "equation": [],
+      "board": [
+        "11 − 3 = 8 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "ruler",
+        "start": 3,
+        "end": 11,
+        "reveal": true
+      }
+    },
+    {
+      "index": 11,
+      "start": 133.79595833333335,
+      "end": 155.45383333333334,
+      "lesson_progress": 1.0,
+      "text": "Choose a useful unit, read the interval size and check the starting mark. For a practical investigation, measure a pencil in centimetres and millimetres. Discuss which reading describes its length more precisely. Reflect on which model helped you and why. Now try the MathMagic practice, and explain your thinking to someone.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Choose the unit → read equal intervals.",
+        "Length = end reading − start reading.",
+        "Try measuring a pencil two ways."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.135166666666667,
+      "text": "Could the same pencil seem longer just because someone moved the ruler?"
+    },
+    {
+      "start": 4.785166666666667,
+      "end": 8.094041666666667,
+      "text": "Imagine two friends measuring it from different marks."
+    },
+    {
+      "start": 8.314041666666666,
+      "end": 13.392458333333334,
+      "text": "Before we trust a number, let us investigate the unit, the scale and the starting point."
+    },
+    {
+      "start": 14.042458333333334,
+      "end": 18.663916666666665,
+      "text": "Our learning goal is to measure length accurately using useful metric units."
+    },
+    {
+      "start": 19.313916666666668,
+      "end": 21.070916666666665,
+      "text": "Success criteria."
+    },
+    {
+      "start": 21.290916666666668,
+      "end": 24.24275,
+      "text": "I can choose a sensible unit and instrument."
+    },
+    {
+      "start": 24.46275,
+      "end": 27.422416666666667,
+      "text": "I can read a ruler from the correct starting point."
+    },
+    {
+      "start": 27.642416666666666,
+      "end": 31.000916666666665,
+      "text": "I can combine metres and centimetres accurately."
+    },
+    {
+      "start": 31.650916666666667,
+      "end": 34.619458333333334,
+      "text": "Remember that a measure counts equal units."
+    },
+    {
+      "start": 34.83945833333333,
+      "end": 41.656333333333336,
+      "text": "Millimetres help with small details, centimetres suit a pencil, metres suit a room, and kilometres suit a long journey."
+    },
+    {
+      "start": 41.876333333333335,
+      "end": 44.31166666666667,
+      "text": "Choose a tool with useful markings."
+    },
+    {
+      "start": 44.531666666666666,
+      "end": 49.21129166666667,
+      "text": "Smaller units can give a more precise measurement, rather than changing the object."
+    },
+    {
+      "start": 49.861291666666666,
+      "end": 54.51675,
+      "text": "A ribbon begins at the two centimetre mark and ends at nine centimetres."
+    },
+    {
+      "start": 54.73675,
+      "end": 56.308166666666665,
+      "text": "Predict its length."
+    },
+    {
+      "start": 56.528166666666664,
+      "end": 62.43629166666667,
+      "text": "Count the equal one-centimetre intervals between those marks, rather than reading the final label alone."
+    },
+    {
+      "start": 63.08629166666667,
+      "end": 65.72141666666667,
+      "text": "There are seven centimetres between the marks."
+    },
+    {
+      "start": 65.94141666666667,
+      "end": 68.34358333333333,
+      "text": "Nine minus two equals seven."
+    },
+    {
+      "start": 68.56358333333333,
+      "end": 75.40170833333333,
+      "text": "Moving the ruler does not stretch the ribbon: subtract the starting reading whenever the object is not lined up with zero."
+    },
+    {
+      "start": 76.05170833333334,
+      "end": 80.10770833333333,
+      "text": "A display board measures two metres and thirty-five centimetres."
+    },
+    {
+      "start": 80.32770833333333,
+      "end": 82.89016666666667,
+      "text": "We want a single centimetre reading."
+    },
+    {
+      "start": 83.11016666666667,
+      "end": 88.829375,
+      "text": "One metre contains one hundred centimetres, so the two metres account for two hundred centimetres."
+    },
+    {
+      "start": 89.479375,
+      "end": 92.291,
+      "text": "Add the remaining thirty-five centimetres."
+    },
+    {
+      "start": 92.511,
+      "end": 96.7,
+      "text": "Two hundred plus thirty-five makes two hundred and thirty-five centimetres."
+    },
+    {
+      "start": 96.92,
+      "end": 101.73733333333334,
+      "text": "The combined measure and the single-unit measure describe exactly the same length."
+    },
+    {
+      "start": 102.38733333333333,
+      "end": 106.65216666666667,
+      "text": "Reading nine centimetres as the ribbon length ignores where it started."
+    },
+    {
+      "start": 106.87216666666667,
+      "end": 108.92358333333334,
+      "text": "Count the space between the marks."
+    },
+    {
+      "start": 109.14358333333334,
+      "end": 113.43870833333334,
+      "text": "A different starting mark changes the subtraction, but not the physical ribbon."
+    },
+    {
+      "start": 114.08870833333333,
+      "end": 118.56941666666667,
+      "text": "A strip starts at three centimetres and ends at eleven centimetres."
+    },
+    {
+      "start": 118.78941666666667,
+      "end": 120.20320833333334,
+      "text": "How long is it?"
+    },
+    {
+      "start": 124.20320833333334,
+      "end": 127.217625,
+      "text": "Eleven minus three is eight centimetres."
+    },
+    {
+      "start": 127.437625,
+      "end": 133.14595833333334,
+      "text": "Check by counting eight equal intervals, or placing a zero-start ruler beside the same strip."
+    },
+    {
+      "start": 133.79595833333335,
+      "end": 138.11608333333334,
+      "text": "Choose a useful unit, read the interval size and check the starting mark."
+    },
+    {
+      "start": 138.33608333333333,
+      "end": 143.195,
+      "text": "For a practical investigation, measure a pencil in centimetres and millimetres."
+    },
+    {
+      "start": 143.415,
+      "end": 147.09916666666666,
+      "text": "Discuss which reading describes its length more precisely."
+    },
+    {
+      "start": 147.31916666666666,
+      "end": 150.143875,
+      "text": "Reflect on which model helped you and why."
+    },
+    {
+      "start": 150.363875,
+      "end": 154.80383333333333,
+      "text": "Now try the MathMagic practice, and explain your thinking to someone."
+    }
+  ],
+  "pauses": [
+    [
+      4.135166666666667,
+      4.785166666666667,
+      "sentence pause"
+    ],
+    [
+      8.094041666666667,
+      8.314041666666668,
+      "sentence pause"
+    ],
+    [
+      13.392458333333334,
+      14.042458333333334,
+      "sentence pause"
+    ],
+    [
+      18.663916666666665,
+      19.313916666666664,
+      "sentence pause"
+    ],
+    [
+      21.070916666666665,
+      21.290916666666664,
+      "sentence pause"
+    ],
+    [
+      24.24275,
+      24.46275,
+      "sentence pause"
+    ],
+    [
+      27.422416666666667,
+      27.642416666666666,
+      "sentence pause"
+    ],
+    [
+      31.000916666666665,
+      31.650916666666664,
+      "sentence pause"
+    ],
+    [
+      34.619458333333334,
+      34.83945833333333,
+      "sentence pause"
+    ],
+    [
+      41.656333333333336,
+      41.876333333333335,
+      "sentence pause"
+    ],
+    [
+      44.31166666666667,
+      44.531666666666666,
+      "sentence pause"
+    ],
+    [
+      49.21129166666667,
+      49.861291666666666,
+      "sentence pause"
+    ],
+    [
+      54.51675,
+      54.73675,
+      "sentence pause"
+    ],
+    [
+      56.308166666666665,
+      56.528166666666664,
+      "sentence pause"
+    ],
+    [
+      62.43629166666667,
+      63.08629166666667,
+      "sentence pause"
+    ],
+    [
+      65.72141666666667,
+      65.94141666666667,
+      "sentence pause"
+    ],
+    [
+      68.34358333333333,
+      68.56358333333333,
+      "sentence pause"
+    ],
+    [
+      75.40170833333333,
+      76.05170833333334,
+      "sentence pause"
+    ],
+    [
+      80.10770833333333,
+      80.32770833333333,
+      "sentence pause"
+    ],
+    [
+      82.89016666666667,
+      83.11016666666667,
+      "sentence pause"
+    ],
+    [
+      88.829375,
+      89.479375,
+      "sentence pause"
+    ],
+    [
+      92.291,
+      92.511,
+      "sentence pause"
+    ],
+    [
+      96.7,
+      96.92,
+      "sentence pause"
+    ],
+    [
+      101.73733333333334,
+      102.38733333333334,
+      "sentence pause"
+    ],
+    [
+      106.65216666666667,
+      106.87216666666667,
+      "sentence pause"
+    ],
+    [
+      108.92358333333334,
+      109.14358333333334,
+      "sentence pause"
+    ],
+    [
+      113.43870833333334,
+      114.08870833333334,
+      "sentence pause"
+    ],
+    [
+      118.56941666666667,
+      118.78941666666667,
+      "sentence pause"
+    ],
+    [
+      120.20320833333334,
+      124.20320833333334,
+      "think time"
+    ],
+    [
+      127.217625,
+      127.437625,
+      "sentence pause"
+    ],
+    [
+      133.14595833333334,
+      133.79595833333335,
+      "sentence pause"
+    ],
+    [
+      138.11608333333334,
+      138.33608333333333,
+      "sentence pause"
+    ],
+    [
+      143.195,
+      143.415,
+      "sentence pause"
+    ],
+    [
+      147.09916666666666,
+      147.31916666666666,
+      "sentence pause"
+    ],
+    [
+      150.143875,
+      150.363875,
+      "sentence pause"
+    ],
+    [
+      154.80383333333333,
+      155.45383333333334,
+      "sentence pause"
+    ]
+  ],
+  "duration": 155.45383333333334,
+  "narration_sha256": "642985d9a9f789cde33353582530ff9c46b836ae4dde905d41d4b172e8a64eb5",
+  "voice": "Kokoro v0.19 bf_emma",
+  "voice_id": 7,
+  "speed": 0.84,
+  "sample_rate": 24000,
+  "alignment": "Measured PCM sample boundaries of each generated sentence; no word alignment claimed."
+}
