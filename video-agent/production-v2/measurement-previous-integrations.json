@@ -1,6 +1,87 @@
 {
-  "base_commit": "9420db79223d271c713651551c7c68568c0131f7",
+  "base_commit": "d2bc93b685bff8465ac822adafbf95b77831d100",
   "cards": {},
-  "assets": {},
-  "reason": "New Year 5 topic; no prior players replaced."
+  "assets": {
+    "videos/MathMagic_V2_measurement_lesson1.mp4": {
+      "bytes": 3238704,
+      "sha256": "205f1b074f8f7b488cca5ab08950e3ac1e59198cfdad47019544fdfd069919a6"
+    },
+    "videos/MathMagic_V2_measurement_lesson1.vtt": {
+      "bytes": 4944,
+      "sha256": "c413b3dd5c7d91430b48da460bdf5b1a4779ab36daa492ec9a37aaf21f1c8de3"
+    },
+    "videos/MathMagic_V2_measurement_lesson1_transcript.txt": {
+      "bytes": 2284,
+      "sha256": "17c2bf7c026846c75dd28b48c9de0fe88c80bcb6dd64142a00bebb54da05bfab"
+    },
+    "videos/MathMagic_V2_measurement_lesson1_poster.jpg": {
+      "bytes": 38431,
+      "sha256": "70c921e1648793d73e7f27d234b58c251e7ccf988b09cd89dbdfb8f6ea9a059b"
+    },
+    "videos/MathMagic_V2_measurement_lesson2.mp4": {
+      "bytes": 3571248,
+      "sha256": "c238e868f66601dc2ccf88c3063316b3b111c57745ad8c6dfc8840e1e9aa3fa9"
+    },
+    "videos/MathMagic_V2_measurement_lesson2.vtt": {
+      "bytes": 5487,
+      "sha256": "f2023aedee7c84cd4fd2cab4069755021ba0ac9a96d4b5c0a9f1a7d2a2fa5783"
+    },
+    "videos/MathMagic_V2_measurement_lesson2_transcript.txt": {
+      "bytes": 2457,
+      "sha256": "9200a33f413c04aec0406efb23e38ea2900feb51756eb21d25d4b45bf62a51d6"
+    },
+    "videos/MathMagic_V2_measurement_lesson2_poster.jpg": {
+      "bytes": 38550,
+      "sha256": "bcd92084dec825ed4819d9bec7d9aa60ee727ce7d147208487861b78f3749dda"
+    },
+    "videos/MathMagic_V2_measurement_lesson3.mp4": {
+      "bytes": 2978480,
+      "sha256": "95a36472be84765d6928fb4493c2ef09ff6b6c2fe98853ee76ed21940ef5e9c7"
+    },
+    "videos/MathMagic_V2_measurement_lesson3.vtt": {
+      "bytes": 5142,
+      "sha256": "8fb1b6344c9ee53cde283acece95fa3c8e491981e298f75220e2695f12201e6c"
+    },
+    "videos/MathMagic_V2_measurement_lesson3_transcript.txt": {
+      "bytes": 2186,
+      "sha256": "d77f7f9ff8cd9d38b7610b740f41843c373f2ad2441f28609f97e6f3eab50679"
+    },
+    "videos/MathMagic_V2_measurement_lesson3_poster.jpg": {
+      "bytes": 20411,
+      "sha256": "1353748ecdc70a92a1892be363bdff41cb9a9e281b8b8117df9f268b555dea3a"
+    },
+    "videos/MathMagic_V2_measurement_lesson4.mp4": {
+      "bytes": 3235158,
+      "sha256": "6e3942cb4d350002665e20dc5f79dfbd9c7ba16574002dbaa4499c3969a2eee0"
+    },
+    "videos/MathMagic_V2_measurement_lesson4.vtt": {
+      "bytes": 5171,
+      "sha256": "3068569e62689b8df7ecc1b52ff1f5267ba4c98f9faa3e19aaef94070a9e4b8f"
+    },
+    "videos/MathMagic_V2_measurement_lesson4_transcript.txt": {
+      "bytes": 2215,
+      "sha256": "89ba7e6218ce14dde25d22be7070744761185f2325d12cb6a5e2b4fae4a90516"
+    },
+    "videos/MathMagic_V2_measurement_lesson4_poster.jpg": {
+      "bytes": 28356,
+      "sha256": "8995c225bd4548fc5313de06c040f85ba939d752be341a67753565286417545c"
+    },
+    "videos/MathMagic_V2_measurement_lesson5.mp4": {
+      "bytes": 3384697,
+      "sha256": "f143e3a6b120198953cd05148fd0befccb8b2dd41934edaa6ea25b184b4a610f"
+    },
+    "videos/MathMagic_V2_measurement_lesson5.vtt": {
+      "bytes": 5239,
+      "sha256": "500f35f26a57a3bc5e0d7d04fbbf9cec4f6c460f2931974efe4c988f1f62e58e"
+    },
+    "videos/MathMagic_V2_measurement_lesson5_transcript.txt": {
+      "bytes": 2357,
+      "sha256": "8ba8ff29d6af10ac9f3cad51c940e22c190048b92ea0924ad6050738a9b3cf7d"
+    },
+    "videos/MathMagic_V2_measurement_lesson5_poster.jpg": {
+      "bytes": 28601,
+      "sha256": "c8615c3ce28ea62782cfdaa16b9ccdf442ada88bba1a362860a98902e8981a6f"
+    }
+  },
+  "reason": "Preserve all PR50 media; founder approved calibrated narration and replacement batch"
 }

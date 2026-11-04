@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test:e2e": "playwright test",
-    "test:protected": "node tests/protected-fractions.test.js && node tests/protected-decimals-percentages.test.js && node tests/protected-whole-numbers.test.js && node tests/protected-addition-subtraction.test.js && node tests/protected-multiplication-division.test.js && node tests/generator-multiplication-division.test.js && node tests/protected-factors-multiples.test.js && node tests/generator-factors-multiples.test.js && node tests/factors-multiples-progress.test.js && node tests/external-video-pattern.test.js && node tests/explainer-embed-pattern.test.js && node tests/fractions-progress.test.js && node tests/generator-fractions.test.js && node tests/measurement-progress.test.js",
+    "test:protected": "node tests/protected-fractions.test.js && node tests/protected-decimals-percentages.test.js && node tests/protected-whole-numbers.test.js && node tests/protected-addition-subtraction.test.js && node tests/protected-multiplication-division.test.js && node tests/generator-multiplication-division.test.js && node tests/protected-factors-multiples.test.js && node tests/generator-factors-multiples.test.js && node tests/factors-multiples-progress.test.js && node tests/external-video-pattern.test.js && node tests/explainer-embed-pattern.test.js && node tests/fractions-progress.test.js && node tests/generator-fractions.test.js && node tests/measurement-progress.test.js && node tests/measurement-quality.test.js",
     "test:measurement:emulator": "firebase emulators:exec --project demo-mathmagic-year5 --only firestore --config tests/emulator/firebase.json \"node tests/measurement-emulator.test.cjs\""
   },
   "devDependencies": {
