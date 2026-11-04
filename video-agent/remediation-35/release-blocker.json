@@ -22,5 +22,11 @@
   "release_gate_exercised": "VIDEO RELEASE BLOCKED with missing full perceptual evidence and enhanced profile validation",
   "required_to_unblock": "An actual perceptual reviewer or a supported audio/video assessment environment must examine exact candidate bytes and validate the expressive voice profile. No approval request or MP3 upload is required.",
   "new_topic_production": "SUSPENDED",
-  "corrected_videos_deployed": 0
+  "corrected_videos_deployed": 0,
+  "direct_capability_probe": {
+    "input": "Three seconds extracted from the existing approved Measurement soundtrack; no synthesis",
+    "mechanism": "Forwarded existing local audio using the available audio-content output helper",
+    "actual_result": "audio content omitted because you do not support audio input",
+    "conclusion": "This model execution cannot receive/hear audio content; ASR and numerical signals cannot replace listening."
+  }
 }

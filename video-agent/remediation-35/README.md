@@ -66,6 +66,6 @@ Kokoro v1.0 hf_alpha, Apache-2.0, same installed Measurement baseline. No paid c
 
 ## Release blocker
 
-The execution tools support waveform analysis, ASR, decoded images and browser automation, but no meaningful audio listening/full-motion perceptual assessment. None of the 35 videos has received every mandatory perceptual check. Actual full-video review bound to each exact final SHA-256, and validation of the requested enhanced delivery, are needed before publication. Founder authorisation is already recorded; no routine intermediate approval is being requested.
+The execution tools support waveform analysis, ASR, decoded images and browser automation, but no meaningful audio listening/full-motion perceptual assessment. A direct probe forwarding three seconds of the existing Measurement soundtrack returned: **“audio content omitted because you do not support audio input”**. None of the 35 videos has received every mandatory perceptual check. Actual full-video review bound to each exact final SHA-256, and validation of the requested enhanced delivery, are needed before publication. Founder authorisation is already recorded; no routine intermediate approval is being requested.
 
 Source-only safeguards: [PR #52](https://github.com/initSrikanth/MathMagic/pull/52), commit `41dbb30`. Cross-year contract/tool refinements: [PR #53](https://github.com/initSrikanth/MathMagic/pull/53). Published lesson pages, quizzes, authentication and Firebase are unchanged.
