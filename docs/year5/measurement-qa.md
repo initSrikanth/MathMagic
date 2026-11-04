@@ -27,7 +27,7 @@ Evidence is split deliberately: source/mathematics, mocked adapters, local Chrom
 | Firestore security/progress emulator | Required CI gate — isolated demo project/test-only policy; production rules/config are untouched. Local binary download blocked by storage.googleapis.com HTTP 403. |
 | WebKit / browser regression | Required CI gate — Chromium plus WebKit on the final head. Local WebKit download blocked by CDN policy; physical Safari/iOS is not equivalent to WebKit CI. |
 | Preserve existing work/shared safety | PASS — original six topic pages, generators, authentication/config and dashboard content unchanged; only a new dashboard card/module; all 30 media hashes retained. Year 6 excluded. |
-| Workflow/cost controls | PASS — one manual five-video batch; no paid services/HeyGen; no suspended production workflow changed. Active QA gains the explicitly requested emulator/WebKit tests. |
+| Workflow/cost controls | PASS — one manual five-video batch; no paid services/HeyGen; no suspended production workflow changed. Active QA gains the explicitly requested emulator/WebKit tests. CI pins supported Ubuntu 24.04 (Playwright 1.55 rejects Ubuntu 26.04) and Node 22 for the emulator dependencies. |
 | Final CI and publication | Required gate — exact-head CI, squash merge and Pages success, live byte hashes/MIME/ranges/sidecars and 15 published-byte playback cases. Final observed results are recorded in the release PR completion comment. |
 | Human-review stop | Required — founder reviews this completed topic before any next topic starts. |
 
