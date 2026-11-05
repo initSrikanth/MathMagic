@@ -23,6 +23,13 @@ jobs:
           node-version: '22'
       - name: Provide media inspection dependency
         run: |
+          # Avoid the Azure Ubuntu mirror that exhausted the job timeout in run 41911114963.
+          # Keep official Ubuntu repositories, package signatures and all browser checks.
+          for sources in /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu.sources; do
+            if [ -f "$sources" ]; then
+              sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' "$sources"
+            fi
+          done
           command -v ffprobe || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
           ffmpeg -version | head -1
           ffprobe -version | head -1
@@ -41,13 +48,6 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback
         run: |
-          # Avoid the Azure Ubuntu mirror that exhausted the job timeout in run 41911114963.
-          # Keep official Ubuntu repositories, package signatures and all browser checks.
-          for sources in /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu.sources; do
-            if [ -f "$sources" ]; then
-              sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' "$sources"
-            fi
-          done
           npx playwright install --with-deps chromium chrome webkit
       - uses: actions/setup-java@v4
         with:

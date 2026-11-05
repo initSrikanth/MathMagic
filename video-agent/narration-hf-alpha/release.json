@@ -486,6 +486,39 @@
       "deployed": false
     },
     {
+      "number": 26,
+      "page": "factors-multiples.html",
+      "section": "lesson1",
+      "previous": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+        "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+        "bytes": 2875029,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/26.json",
+        "duration": 141.8,
+        "caption_cues": 33,
+        "audio_duration": 141.739
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+        "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+        "bytes": 2458952,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/26.json",
+        "duration": 141.8,
+        "caption_cues": 33,
+        "audio_duration": 141.739
+      },
+      "evidence": "video-agent/narration-hf-alpha/26/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
       "number": 27,
       "page": "factors-multiples.html",
       "section": "lesson2",
@@ -514,6 +547,105 @@
         "audio_duration": 143.189
       },
       "evidence": "video-agent/narration-hf-alpha/27/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 28,
+      "page": "factors-multiples.html",
+      "section": "lesson3",
+      "previous": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+        "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+        "bytes": 2878314,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/28.json",
+        "duration": 146.466667,
+        "caption_cues": 35,
+        "audio_duration": 146.389
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+        "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+        "bytes": 2459097,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/28.json",
+        "duration": 146.467,
+        "caption_cues": 35,
+        "audio_duration": 146.389
+      },
+      "evidence": "video-agent/narration-hf-alpha/28/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 29,
+      "page": "factors-multiples.html",
+      "section": "lesson4",
+      "previous": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+        "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+        "bytes": 3142324,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/29.json",
+        "duration": 150.166667,
+        "caption_cues": 36,
+        "audio_duration": 150.101
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+        "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+        "bytes": 2723431,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/29.json",
+        "duration": 150.167,
+        "caption_cues": 36,
+        "audio_duration": 150.101
+      },
+      "evidence": "video-agent/narration-hf-alpha/29/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 30,
+      "page": "factors-multiples.html",
+      "section": "lesson5",
+      "previous": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+        "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+        "bytes": 2965489,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/30.json",
+        "duration": 145.9,
+        "caption_cues": 33,
+        "audio_duration": 145.835
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+        "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+        "bytes": 2553494,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/30.json",
+        "duration": 145.9,
+        "caption_cues": 33,
+        "audio_duration": 145.835
+      },
+      "evidence": "video-agent/narration-hf-alpha/30/candidate.json",
       "owner_authorised": true,
       "perceptual_status": "UNVERIFIED",
       "deployed": false

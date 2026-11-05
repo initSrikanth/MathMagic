@@ -1,5 +1,5 @@
 {
-  "title": "Multiply Efficiently \u2014 single narration review candidate",
+  "title": "Compare Relative Size",
   "source": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
   "source_sha256": "844d897391cf283b66cebf70ac8ac666f7112e6d4674c8c61807cdcc66d7939e",
   "file": "Multiply_Efficiently_HFAlpha_Narration_Review_1080p.mp4",
@@ -41,7 +41,7 @@
   "inserted_graphic_holds": false,
   "audio_pitch_shift": false,
   "audio_time_stretch": false,
-  "pause_policy": "Original caption/scene/think-time positions retained; no additional reading-time holds. Native utterance ends match existing caption ends within0.1seconds.",
+  "pause_policy": "Original scene/prediction starts retained. Native speech synthesis only. Caption-end corrections are at most0.25seconds and never overlap the next utterance.",
   "punctuation_emphasis_sentences": [
     15,
     26,
@@ -380,8 +380,9 @@
     }
   ],
   "generation_seconds": 114.38639591800165,
-  "technical_status": "VERIFIED_REVIEW_CANDIDATE",
+  "technical_status": "VERIFIED_NARRATION_REPLACEMENT",
   "accent_status": "UNVERIFIED_PER_VIDEO_OWNER_APPROVED_PROFILE",
   "expressiveness_status": "UNVERIFIED_PER_VIDEO_OWNER_APPROVED_PROFILE",
-  "not_published": true
+  "owner_approved_voice_profile": true,
+  "not_published_at_render": true
 }

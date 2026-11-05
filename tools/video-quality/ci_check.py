@@ -39,5 +39,5 @@ if selected:
  scoped=[r for r in selected if r.get('correction') and not r.get('narration_replacement')];full=[r for r in selected if not r.get('correction') and not r.get('narration_replacement')]
  if scoped:assert_scoped_correction_release(scoped)
  if full:assert_release(full)
- print('Verified scoped corrections:',len(scoped),'; full-quality releases:',len(full),'. Scoped corrections do not approve accent or full perceptual quality.')
+ print('Verified owner-authorised narration replacements:',len(narrated),'; scoped corrections:',len(scoped),'; full-quality releases:',len(full),'. Scoped corrections do not approve accent or full perceptual quality.')
 else:print('Source/audit-only changes; production hold remains. No video is declared compliant.')

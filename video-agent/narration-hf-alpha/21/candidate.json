@@ -1,5 +1,5 @@
 {
-  "title": "Multiply Efficiently \u2014 single narration review candidate",
+  "title": "Multiply Efficiently",
   "source": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
   "source_sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
   "file": "Multiply_Efficiently_HFAlpha_Narration_Review_1080p.mp4",
@@ -41,7 +41,7 @@
   "inserted_graphic_holds": false,
   "audio_pitch_shift": false,
   "audio_time_stretch": false,
-  "pause_policy": "Original caption/scene/think-time positions retained; no additional reading-time holds. Native utterance ends match existing caption ends within0.1seconds.",
+  "pause_policy": "Original scene/prediction starts retained. Native speech synthesis only. Caption-end corrections are at most0.25seconds and never overlap the next utterance.",
   "punctuation_emphasis_sentences": [
     15,
     26,
@@ -415,10 +415,9 @@
     }
   ],
   "generation_seconds": 46.072392000001855,
-  "technical_status": "VERIFIED_REVIEW_CANDIDATE",
-  "accent_status": "AWAITING_USER_LISTENING_REVIEW",
-  "expressiveness_status": "AWAITING_USER_LISTENING_REVIEW",
-  "not_published": true,
+  "technical_status": "VERIFIED_NARRATION_REPLACEMENT",
+  "accent_status": "UNVERIFIED_PER_VIDEO_OWNER_APPROVED_PROFILE",
+  "expressiveness_status": "UNVERIFIED_PER_VIDEO_OWNER_APPROVED_PROFILE",
   "video_timestamps_identical": true,
   "worked_example_asr": [
     {
@@ -437,5 +436,7 @@
       "independent_asr": " WHAT IS TWO HUNDRED AND THREE TIMES FOUR TWO HUNDRED TIMES FOUR IS EIGHT HUNDRED AND THREE TIMES FOUR IS TWELVE ADD THEM TO GET EIGHT HUNDRED AND TWELVE"
     }
   ],
-  "asr_note": "Independent recognition aid, not human listening or accent approval"
+  "asr_note": "Independent recognition aid, not human listening or accent approval",
+  "owner_approved_voice_profile": true,
+  "not_published_at_render": true
 }

@@ -1,7 +1,7 @@
 {
   "branch": "narration/hf-alpha-20",
-  "state": "GENERATING",
-  "process_session": 52342,
+  "state": "LOCAL_QA_PASSED_READY_CI",
+  "process_session": null,
   "log": "/workspace/hf-alpha-batch.log",
   "approved_voice": "hf_alpha sid31 Kokoro v1.0",
   "target_numbers": [
@@ -27,6 +27,8 @@
     30
   ],
   "preserve_other15": true,
-  "next": "After batch exits run integrate.py, focused QA, PR CI, merge and live checks",
-  "no_paid_calls": true
+  "next": "PR CI then merge and Pages/live-file verification",
+  "no_paid_calls": true,
+  "completed": 20,
+  "remaining": 0
 }

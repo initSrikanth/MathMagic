@@ -1,4 +1,4 @@
-"""One review-only voice replacement, with original video packets and caption files unchanged."""
+"""Owner-authorised existing20 narration batch; preserve original mathematical video packets and timing."""
 from pathlib import Path
 import json,hashlib,time,sys,subprocess,re
 import numpy as np,soundfile as sf,sherpa_onnx
@@ -9,7 +9,10 @@ from brand_only_candidates import packets
 OUT=Path(__file__).parent;CACHE=Path('/workspace/narration-multiply-review-cache');MODEL=Path('/workspace/voice-calibration/kokoro-multi-lang-v1_0')
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main(index):
- r=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text())['records'][index];active=r.get('active_media') or dict(mp4=r['mp4'],sha256=r['expected_sha256'],captions=r['captions'],transcript=r['transcript'],duration=r['duration']);source=ROOT/active['mp4'];assert sha(source)==active['sha256'];caps=parse_vtt(ROOT/active['captions'])
+ r=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text())['records'][index]
+ if r.get('narration_replacement'):
+  t=r['narration_replacement']['replacement'];assert sha(ROOT/t['mp4'])==t['sha256'];print('Completed canonical replacement preserved',index+1,flush=True);return
+ active=r.get('active_media') or dict(mp4=r['mp4'],sha256=r['expected_sha256'],captions=r['captions'],transcript=r['transcript'],duration=r['duration']);source=ROOT/active['mp4'];assert sha(source)==active['sha256'];caps=parse_vtt(ROOT/active['captions'])
  global OUT,CACHE
  OUT=ROOT/'video-agent/narration-hf-alpha'/str(index+1);OUT.mkdir(parents=True,exist_ok=True);CACHE=Path('/workspace/hf-alpha-batch-cache')/str(index+1);CACHE.mkdir(parents=True,exist_ok=True)
  profile=load()['approved_voice'];assert_generation_allowed('remediation_candidate',[{'topic':'multiplication-division','text':' '.join(' '.join(c['lines']) for c in caps)}],profile)
@@ -38,7 +41,8 @@ def main(index):
    longer=[x for x in candidates if len(x[2])/sr>target];shorter=[x for x in candidates if len(x[2])/sr<target]
    if longer and shorter:
     lo=min(longer,key=lambda x:x[0]);hi=min(shorter,key=lambda x:x[0]);dl,dh=len(lo[2])/sr,len(hi[2])/sr;speed=lo[1]+(hi[1]-lo[1])*(dl-target)/(dl-dh)
-   else:speed=speed*(len(audio)/sr)/target
+   else:
+    probe=max(candidates,key=lambda x:x[1]) if longer else min(candidates,key=lambda x:x[1]);speed=probe[1]*(len(probe[2])/sr)/target
    assert (.65 if len(words.split())<=3 else .75)<=speed<=1.25,(i,'Required native rate outside a natural review bound',speed)
    path=CACHE/(f'{i:02}-fit-{speed:.6f}-'+fingerprint+'.wav')
    if path.exists():audio,rate=sf.read(path,dtype='float32');assert rate==sr
@@ -53,7 +57,7 @@ def main(index):
   assert abs(c['start']+len(audio)/sr-c['end'])<=.101
   start=round(c['start']*sr);stop=start+len(audio);assert stop<=len(timeline);next_start=caps[i+1]['start'] if i+1<len(caps) else active['duration'];assert stop/sr<=next_start,'New utterance overlaps next caption/step'
   timeline[start:stop]=audio;events.append(dict(index=i,text=words,spoken_punctuation=spoken,caption_start=c['start'],caption_end=c['end'],original_caption_end=original_end,native_audio_end=stop/sr,native_speed=speed,end_timing_error=stop/sr-c['end'],attempts=len(candidates),audio_samples=len(audio)))
-  (OUT/'progress.json').write_text(json.dumps({'completed':i+1,'total':30,'events':events},indent=2)+'\n');print('NARRATION',i+1,'/30','native rate',round(speed,3),'end error',round(stop/sr-c['end'],3),flush=True)
+  (OUT/'progress.json').write_text(json.dumps({'completed':i+1,'total':30,'events':events},indent=2)+'\n');print('NARRATION',i+1,'/'+str(len(caps)),'native rate',round(speed,3),'end error',round(stop/sr-c['end'],3),flush=True)
  original=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(source),'-vn','-ac','1','-ar',str(sr),'-f','f32le','-']),np.float32);oldrms=float(np.sqrt(np.mean(original**2)));newrms=float(np.sqrt(np.mean(timeline**2)));gain=min(oldrms/newrms,.96/float(abs(timeline).max()));timeline*=gain
  wav=OUT/'narration.flac';sf.write(wav,timeline,sr,subtype='PCM_16')
  subprocess.run(['ffmpeg','-v','error','-y','-i',str(source),'-i',str(wav),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','160k','-movflags','+faststart',str(final)],check=True)
@@ -69,6 +73,9 @@ if __name__=='__main__':
  failures=[]
  for index in range(10,30):
   if index==20:
+   row=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text())['records'][20]
+   if row.get('narration_replacement'):
+    main(index);continue
    import shutil
    dest=ROOT/'video-agent/narration-hf-alpha/21';dest.mkdir(parents=True,exist_ok=True)
    for name in ['Multiply_Efficiently_HFAlpha_Narration_Review_1080p.mp4','Multiply_Efficiently_HFAlpha_Narration_Review_1080p.vtt','transcript.txt','candidate.json']:shutil.copy2(Path('/workspace/hf-alpha-approved-sample')/name,dest/name)

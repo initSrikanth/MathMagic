@@ -6677,7 +6677,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/decimals-release.json",
       "script": "video-agent/production-v2/scripts/decimals-percentages-place.json",
       "script_key": "decimals-percentages-place",
@@ -6685,7 +6688,7 @@
       "captions": "videos/MathMagic_V2_decimals_percentages_place.vtt",
       "transcript": "videos/MathMagic_V2_decimals_percentages_place_transcript.txt",
       "poster": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/decimals-percentages-place.flac",
+      "source_audio": "video-agent/narration-hf-alpha/11/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/pr46-render",
@@ -7012,7 +7015,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "UNCHANGED_LIVE_VERIFIED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 11,
       "full_quality_status": "UNVERIFIED",
       "accent_status": "UNVERIFIED",
@@ -7081,7 +7084,8 @@
         "evidence": "video-agent/narration-hf-alpha/11/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4"
       },
       "active_media": {
         "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
@@ -7101,7 +7105,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/decimals-percentages-place.flac"
     },
     {
       "number": 12,
@@ -7128,7 +7134,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/decimals-release.json",
       "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
       "script_key": "decimals-percentages-compare",
@@ -7136,7 +7145,7 @@
       "captions": "videos/MathMagic_V2_decimals_percentages_compare.vtt",
       "transcript": "videos/MathMagic_V2_decimals_percentages_compare_transcript.txt",
       "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/decimals-percentages-compare.flac",
+      "source_audio": "video-agent/narration-hf-alpha/12/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/pr46-render",
@@ -7511,7 +7520,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "UNCHANGED_LIVE_VERIFIED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 11,
       "full_quality_status": "UNVERIFIED",
       "accent_status": "UNVERIFIED",
@@ -7580,7 +7589,8 @@
         "evidence": "video-agent/narration-hf-alpha/12/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4"
       },
       "active_media": {
         "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
@@ -7600,7 +7610,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/decimals-percentages-compare.flac"
     },
     {
       "number": 13,
@@ -7627,7 +7639,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/decimals-release.json",
       "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
       "script_key": "decimals-percentages-percent",
@@ -7635,7 +7650,7 @@
       "captions": "videos/MathMagic_V2_decimals_percentages_percent.vtt",
       "transcript": "videos/MathMagic_V2_decimals_percentages_percent_transcript.txt",
       "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/decimals-percentages-percent.flac",
+      "source_audio": "video-agent/narration-hf-alpha/13/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/pr46-render",
@@ -8034,7 +8049,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "UNCHANGED_LIVE_VERIFIED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 11,
       "full_quality_status": "UNVERIFIED",
       "accent_status": "UNVERIFIED",
@@ -8103,7 +8118,8 @@
         "evidence": "video-agent/narration-hf-alpha/13/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4"
       },
       "active_media": {
         "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
@@ -8123,7 +8139,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/decimals-percentages-percent.flac"
     },
     {
       "number": 14,
@@ -8150,7 +8168,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/decimals-release.json",
       "script": "video-agent/production-v2/scripts/decimals-percentages-connect.json",
       "script_key": "decimals-percentages-connect",
@@ -8158,7 +8179,7 @@
       "captions": "videos/MathMagic_V2_decimals_percentages_connect.vtt",
       "transcript": "videos/MathMagic_V2_decimals_percentages_connect_transcript.txt",
       "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/decimals-percentages-connect.flac",
+      "source_audio": "video-agent/narration-hf-alpha/14/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/pr46-render",
@@ -8497,7 +8518,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 11,
       "visual_correction_preview": {
         "number": 14,
@@ -8693,7 +8714,8 @@
         "evidence": "video-agent/narration-hf-alpha/14/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -8703,7 +8725,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/decimals-percentages-connect.flac"
     },
     {
       "number": 15,
@@ -8730,7 +8754,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/decimals-release.json",
       "script": "video-agent/production-v2/scripts/decimals-percentages-apply.json",
       "script_key": "decimals-percentages-apply",
@@ -8738,7 +8765,7 @@
       "captions": "videos/MathMagic_V2_decimals_percentages_apply.vtt",
       "transcript": "videos/MathMagic_V2_decimals_percentages_apply_transcript.txt",
       "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/decimals-percentages-apply.flac",
+      "source_audio": "video-agent/narration-hf-alpha/15/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/pr46-render",
@@ -9089,7 +9116,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 11,
       "visual_correction_preview": {
         "number": 15,
@@ -9286,7 +9313,8 @@
         "evidence": "video-agent/narration-hf-alpha/15/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -9296,7 +9324,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/decimals-percentages-apply.flac"
     },
     {
       "number": 16,
@@ -9323,7 +9353,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
       "script": "video-agent/production-v2/scripts/addition-subtraction-lesson1.json",
       "script_key": "addition-subtraction-lesson1",
@@ -9331,7 +9364,7 @@
       "captions": "videos/MathMagic_V2_addition_subtraction_lesson1.vtt",
       "transcript": "videos/MathMagic_V2_addition_subtraction_lesson1_transcript.txt",
       "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson1.flac",
+      "source_audio": "video-agent/narration-hf-alpha/16/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/addition-render",
@@ -9724,7 +9757,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 16,
@@ -9889,7 +9922,8 @@
         "evidence": "video-agent/narration-hf-alpha/16/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -9899,7 +9933,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson1.flac"
     },
     {
       "number": 17,
@@ -9926,7 +9962,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
       "script": "video-agent/production-v2/scripts/addition-subtraction-lesson2.json",
       "script_key": "addition-subtraction-lesson2",
@@ -9934,7 +9973,7 @@
       "captions": "videos/MathMagic_V2_addition_subtraction_lesson2.vtt",
       "transcript": "videos/MathMagic_V2_addition_subtraction_lesson2_transcript.txt",
       "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson2.flac",
+      "source_audio": "video-agent/narration-hf-alpha/17/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/addition-render",
@@ -10351,7 +10390,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 17,
@@ -10516,7 +10555,8 @@
         "evidence": "video-agent/narration-hf-alpha/17/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -10526,7 +10566,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson2.flac"
     },
     {
       "number": 18,
@@ -10553,7 +10595,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
       "script": "video-agent/production-v2/scripts/addition-subtraction-lesson3.json",
       "script_key": "addition-subtraction-lesson3",
@@ -10561,7 +10606,7 @@
       "captions": "videos/MathMagic_V2_addition_subtraction_lesson3.vtt",
       "transcript": "videos/MathMagic_V2_addition_subtraction_lesson3_transcript.txt",
       "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson3.flac",
+      "source_audio": "video-agent/narration-hf-alpha/18/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/addition-render",
@@ -11002,7 +11047,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 18,
@@ -11167,7 +11212,8 @@
         "evidence": "video-agent/narration-hf-alpha/18/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -11177,7 +11223,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson3.flac"
     },
     {
       "number": 19,
@@ -11204,7 +11252,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
       "script": "video-agent/production-v2/scripts/addition-subtraction-lesson4.json",
       "script_key": "addition-subtraction-lesson4",
@@ -11212,7 +11263,7 @@
       "captions": "videos/MathMagic_V2_addition_subtraction_lesson4.vtt",
       "transcript": "videos/MathMagic_V2_addition_subtraction_lesson4_transcript.txt",
       "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson4.flac",
+      "source_audio": "video-agent/narration-hf-alpha/19/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/addition-render",
@@ -11653,7 +11704,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 19,
@@ -11818,7 +11869,8 @@
         "evidence": "video-agent/narration-hf-alpha/19/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -11828,7 +11880,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson4.flac"
     },
     {
       "number": 20,
@@ -11855,7 +11909,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
       "script": "video-agent/production-v2/scripts/addition-subtraction-lesson5.json",
       "script_key": "addition-subtraction-lesson5",
@@ -11863,7 +11920,7 @@
       "captions": "videos/MathMagic_V2_addition_subtraction_lesson5.vtt",
       "transcript": "videos/MathMagic_V2_addition_subtraction_lesson5_transcript.txt",
       "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson5.flac",
+      "source_audio": "video-agent/narration-hf-alpha/20/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/addition-render",
@@ -12280,7 +12337,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 20,
@@ -12445,7 +12502,8 @@
         "evidence": "video-agent/narration-hf-alpha/20/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -12455,7 +12513,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/addition-subtraction-lesson5.flac"
     },
     {
       "number": 21,
@@ -12482,7 +12542,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
       "script": "video-agent/production-v2/scripts/multiplication-division-lesson1.json",
       "script_key": "multiplication-division-lesson1",
@@ -12490,7 +12553,7 @@
       "captions": "videos/MathMagic_V2_multiplication_division_lesson1.vtt",
       "transcript": "videos/MathMagic_V2_multiplication_division_lesson1_transcript.txt",
       "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/multiplication-division-lesson1.flac",
+      "source_audio": "video-agent/narration-hf-alpha/21/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/multiplication-render",
@@ -12871,7 +12934,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 21,
@@ -13036,7 +13099,8 @@
         "evidence": "video-agent/narration-hf-alpha/21/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -13046,7 +13110,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/multiplication-division-lesson1.flac"
     },
     {
       "number": 22,
@@ -13073,7 +13139,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
       "script": "video-agent/production-v2/scripts/multiplication-division-lesson2.json",
       "script_key": "multiplication-division-lesson2",
@@ -13081,7 +13150,7 @@
       "captions": "videos/MathMagic_V2_multiplication_division_lesson2.vtt",
       "transcript": "videos/MathMagic_V2_multiplication_division_lesson2_transcript.txt",
       "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/multiplication-division-lesson2.flac",
+      "source_audio": "video-agent/narration-hf-alpha/22/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/multiplication-render",
@@ -13510,7 +13579,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 22,
@@ -13675,7 +13744,8 @@
         "evidence": "video-agent/narration-hf-alpha/22/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -13685,7 +13755,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/multiplication-division-lesson2.flac"
     },
     {
       "number": 23,
@@ -13712,7 +13784,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
       "script": "video-agent/production-v2/scripts/multiplication-division-lesson3.json",
       "script_key": "multiplication-division-lesson3",
@@ -13720,7 +13795,7 @@
       "captions": "videos/MathMagic_V2_multiplication_division_lesson3.vtt",
       "transcript": "videos/MathMagic_V2_multiplication_division_lesson3_transcript.txt",
       "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/multiplication-division-lesson3.flac",
+      "source_audio": "video-agent/narration-hf-alpha/23/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/multiplication-render",
@@ -14077,7 +14152,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 23,
@@ -14242,7 +14317,8 @@
         "evidence": "video-agent/narration-hf-alpha/23/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -14252,7 +14328,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/multiplication-division-lesson3.flac"
     },
     {
       "number": 24,
@@ -14279,7 +14357,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
       "script": "video-agent/production-v2/scripts/multiplication-division-lesson4.json",
       "script_key": "multiplication-division-lesson4",
@@ -14287,7 +14368,7 @@
       "captions": "videos/MathMagic_V2_multiplication_division_lesson4.vtt",
       "transcript": "videos/MathMagic_V2_multiplication_division_lesson4_transcript.txt",
       "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/multiplication-division-lesson4.flac",
+      "source_audio": "video-agent/narration-hf-alpha/24/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/multiplication-render",
@@ -14728,7 +14809,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 24,
@@ -14893,7 +14974,8 @@
         "evidence": "video-agent/narration-hf-alpha/24/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -14903,7 +14985,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/multiplication-division-lesson4.flac"
     },
     {
       "number": 25,
@@ -14930,7 +15014,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
       "script": "video-agent/production-v2/scripts/multiplication-division-lesson5.json",
       "script_key": "multiplication-division-lesson5",
@@ -14938,7 +15025,7 @@
       "captions": "videos/MathMagic_V2_multiplication_division_lesson5.vtt",
       "transcript": "videos/MathMagic_V2_multiplication_division_lesson5_transcript.txt",
       "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/multiplication-division-lesson5.flac",
+      "source_audio": "video-agent/narration-hf-alpha/25/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/multiplication-render",
@@ -15379,7 +15466,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 25,
@@ -15544,7 +15631,8 @@
         "evidence": "video-agent/narration-hf-alpha/25/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -15554,7 +15642,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/multiplication-division-lesson5.flac"
     },
     {
       "number": 26,
@@ -15568,15 +15658,23 @@
       "expected_sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
       "duration": 145.649,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
       "script": "video-agent/production-v2/scripts/factors-multiples-lesson1.json",
       "script_key": "factors-multiples-lesson1",
@@ -15584,7 +15682,7 @@
       "captions": "videos/MathMagic_V2_factors_multiples_lesson1.vtt",
       "transcript": "videos/MathMagic_V2_factors_multiples_lesson1_transcript.txt",
       "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/factors-multiples-lesson1.flac",
+      "source_audio": "video-agent/narration-hf-alpha/26/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/factors-render",
@@ -16013,7 +16111,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 26,
@@ -16094,11 +16192,11 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
-        "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
-        "bytes": 2875029,
-        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
-        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+        "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+        "bytes": 2458952,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/26.json",
         "duration": 141.8,
@@ -16146,7 +16244,52 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
-      }
+      },
+      "narration_replacement": {
+        "number": 26,
+        "page": "factors-multiples.html",
+        "section": "lesson1",
+        "previous": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+          "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+          "bytes": 2875029,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/26.json",
+          "duration": 141.8,
+          "caption_cues": 33,
+          "audio_duration": 141.739
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+          "bytes": 2458952,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/26.json",
+          "duration": 141.8,
+          "caption_cues": 33,
+          "audio_duration": 141.739
+        },
+        "evidence": "video-agent/narration-hf-alpha/26/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4"
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/factors-multiples-lesson1.flac"
     },
     {
       "number": 27,
@@ -16173,7 +16316,10 @@
         "legacy_british_profile_allowed": false,
         "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
       "script": "video-agent/production-v2/scripts/factors-multiples-lesson2.json",
       "script_key": "factors-multiples-lesson2",
@@ -16181,7 +16327,7 @@
       "captions": "videos/MathMagic_V2_factors_multiples_lesson2.vtt",
       "transcript": "videos/MathMagic_V2_factors_multiples_lesson2_transcript.txt",
       "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/factors-multiples-lesson2.flac",
+      "source_audio": "video-agent/narration-hf-alpha/27/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/factors-render",
@@ -16617,7 +16763,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 27,
@@ -16782,7 +16928,8 @@
         "evidence": "video-agent/narration-hf-alpha/27/candidate.json",
         "owner_authorised": true,
         "perceptual_status": "UNVERIFIED",
-        "deployed": false
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4"
       },
       "previous_voice": {
         "model": "Kokoro v0.19",
@@ -16792,7 +16939,9 @@
         "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
         "licence": "Apache-2.0",
         "paid_calls": 0
-      }
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/factors-multiples-lesson2.flac"
     },
     {
       "number": 28,
@@ -16806,15 +16955,23 @@
       "expected_sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
       "duration": 150.311,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
       "script": "video-agent/production-v2/scripts/factors-multiples-lesson3.json",
       "script_key": "factors-multiples-lesson3",
@@ -16822,7 +16979,7 @@
       "captions": "videos/MathMagic_V2_factors_multiples_lesson3.vtt",
       "transcript": "videos/MathMagic_V2_factors_multiples_lesson3_transcript.txt",
       "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/factors-multiples-lesson3.flac",
+      "source_audio": "video-agent/narration-hf-alpha/28/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/factors-render",
@@ -17263,7 +17420,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 28,
@@ -17344,14 +17501,14 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
-        "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
-        "bytes": 2878314,
-        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
-        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+        "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+        "bytes": 2459097,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/28.json",
-        "duration": 146.466667,
+        "duration": 146.467,
         "caption_cues": 35,
         "audio_duration": 146.389
       },
@@ -17396,7 +17553,52 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
-      }
+      },
+      "narration_replacement": {
+        "number": 28,
+        "page": "factors-multiples.html",
+        "section": "lesson3",
+        "previous": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+          "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+          "bytes": 2878314,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/28.json",
+          "duration": 146.466667,
+          "caption_cues": 35,
+          "audio_duration": 146.389
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+          "bytes": 2459097,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/28.json",
+          "duration": 146.467,
+          "caption_cues": 35,
+          "audio_duration": 146.389
+        },
+        "evidence": "video-agent/narration-hf-alpha/28/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4"
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/factors-multiples-lesson3.flac"
     },
     {
       "number": 29,
@@ -17410,15 +17612,23 @@
       "expected_sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
       "duration": 154.033333,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
       "script": "video-agent/production-v2/scripts/factors-multiples-lesson4.json",
       "script_key": "factors-multiples-lesson4",
@@ -17426,7 +17636,7 @@
       "captions": "videos/MathMagic_V2_factors_multiples_lesson4.vtt",
       "transcript": "videos/MathMagic_V2_factors_multiples_lesson4_transcript.txt",
       "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/factors-multiples-lesson4.flac",
+      "source_audio": "video-agent/narration-hf-alpha/29/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/factors-render",
@@ -17867,7 +18077,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 29,
@@ -17948,14 +18158,14 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
-        "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
-        "bytes": 3142324,
-        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
-        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+        "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+        "bytes": 2723431,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/29.json",
-        "duration": 150.166667,
+        "duration": 150.167,
         "caption_cues": 36,
         "audio_duration": 150.101
       },
@@ -18000,7 +18210,52 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
-      }
+      },
+      "narration_replacement": {
+        "number": 29,
+        "page": "factors-multiples.html",
+        "section": "lesson4",
+        "previous": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+          "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+          "bytes": 3142324,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/29.json",
+          "duration": 150.166667,
+          "caption_cues": 36,
+          "audio_duration": 150.101
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+          "bytes": 2723431,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/29.json",
+          "duration": 150.167,
+          "caption_cues": 36,
+          "audio_duration": 150.101
+        },
+        "evidence": "video-agent/narration-hf-alpha/29/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4"
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/factors-multiples-lesson4.flac"
     },
     {
       "number": 30,
@@ -18014,15 +18269,23 @@
       "expected_sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
       "duration": 149.766667,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
-      "voice_profile_check": "FAIL_CONFIG",
+      "voice_profile_check": {
+        "configuration": "MATCH_OWNER_APPROVED_HF_ALPHA",
+        "per_video_listening": "UNVERIFIED"
+      },
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
       "script": "video-agent/production-v2/scripts/factors-multiples-lesson5.json",
       "script_key": "factors-multiples-lesson5",
@@ -18030,7 +18293,7 @@
       "captions": "videos/MathMagic_V2_factors_multiples_lesson5.vtt",
       "transcript": "videos/MathMagic_V2_factors_multiples_lesson5_transcript.txt",
       "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
-      "source_audio": "video-agent/production-v2/audio/factors-multiples-lesson5.flac",
+      "source_audio": "video-agent/narration-hf-alpha/30/narration.flac",
       "producer": "video-agent/production-v2/pipeline.py",
       "graphics_source": "video-agent/production-v2/graphics.py",
       "cached_assets_hint": "/workspace/factors-render",
@@ -18495,7 +18758,7 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "SCOPED_CORRECTION_DEPLOYED_FULL_QUALITY_UNVERIFIED",
+      "release_status": "READY_OWNER_AUTHORISED_NARRATION",
       "scene_count": 12,
       "correction": {
         "number": 30,
@@ -18576,11 +18839,11 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
-        "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
-        "bytes": 2965489,
-        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
-        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+        "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+        "bytes": 2553494,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/30.json",
         "duration": 145.9,
@@ -18628,7 +18891,52 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
-      }
+      },
+      "narration_replacement": {
+        "number": 30,
+        "page": "factors-multiples.html",
+        "section": "lesson5",
+        "previous": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+          "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+          "bytes": 2965489,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/30.json",
+          "duration": 145.9,
+          "caption_cues": 33,
+          "audio_duration": 145.835
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+          "bytes": 2553494,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/30.json",
+          "duration": 145.9,
+          "caption_cues": 33,
+          "audio_duration": 145.835
+        },
+        "evidence": "video-agent/narration-hf-alpha/30/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false,
+        "url": "https://initsrikanth.github.io/MathMagic/videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4"
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
+      },
+      "original_voice_profile_check": "FAIL_CONFIG",
+      "original_source_audio": "video-agent/production-v2/audio/factors-multiples-lesson5.flac"
     },
     {
       "number": 31,
@@ -20785,7 +21093,7 @@
     "remaining_known_published_branding_violations": 0,
     "full_quality_status": "UNVERIFIED",
     "new_topic_production": "SUSPENDED",
-    "narration_replacements_ready": 16,
+    "narration_replacements_ready": 20,
     "narration_replacements_deployed": 0
   },
   "repository_file_inventory": {

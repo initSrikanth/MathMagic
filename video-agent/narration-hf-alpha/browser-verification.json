@@ -1,0 +1,21 @@
+{
+  "passed": 20,
+  "failed": 0,
+  "engine": "Chromium",
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "checks": [
+    "exact media bytes and SHA-256",
+    "byte-range playback",
+    "metadata",
+    "captions and transcript",
+    "seeking",
+    "ending",
+    "responsive containment"
+  ],
+  "physical_ios_tested": false,
+  "per_video_listening": "UNVERIFIED"
+}
