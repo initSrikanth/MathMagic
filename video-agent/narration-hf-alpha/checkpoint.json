@@ -1,6 +1,6 @@
 {
   "branch": "narration/hf-alpha-20",
-  "state": "LOCAL_QA_PASSED_READY_CI",
+  "state": "DEPLOYED_LIVE_VERIFIED_COMPLETE",
   "process_session": null,
   "log": "/workspace/hf-alpha-batch.log",
   "approved_voice": "hf_alpha sid31 Kokoro v1.0",
@@ -27,8 +27,14 @@
     30
   ],
   "preserve_other15": true,
-  "next": "PR CI then merge and Pages/live-file verification",
+  "next": "No automatic new topic or video production. Per-video subjective listening remains UNVERIFIED; owner-approved voice profile deployed.",
   "no_paid_calls": true,
   "completed": 20,
-  "remaining": 0
+  "remaining": 0,
+  "deployed": 20,
+  "all_core_videos_live": 35,
+  "merge_commit": "7022b73a5ad64087ed72ea9578b5e4280885443f",
+  "pr": 55,
+  "ci_run": 42035099443,
+  "pages_run": 42036595173
 }
