@@ -9668,7 +9668,7 @@
         "visual_sample_review": {
           "reviewer": "Codex actual-image inspection",
           "scope": "Beginning/middle/ending of every video; additional complete scene contact sheets for records 03 and 13; not full temporal viewing",
-          "note": "Sampled forward jumps 5997\u21926000\u21926004 and 3+4=7."
+          "note": "Sampled forward jumps 5997→6000→6004 and 3+4=7."
         },
         "rapid_reveal_flags": [
           {
@@ -10934,7 +10934,7 @@
         "visual_sample_review": {
           "reviewer": "Codex actual-image inspection",
           "scope": "Beginning/middle/ending of every video; additional complete scene contact sheets for records 03 and 13; not full temporal viewing",
-          "note": "Sampled rounded estimate 8000\u22124000=4000, not asserted as the exact 8032\u22123987 result."
+          "note": "Sampled rounded estimate 8000−4000=4000, not asserted as the exact 8032−3987 result."
         },
         "rapid_reveal_flags": [
           {
@@ -11585,7 +11585,7 @@
         "visual_sample_review": {
           "reviewer": "Codex actual-image inspection",
           "scope": "Beginning/middle/ending of every video; additional complete scene contact sheets for records 03 and 13; not full temporal viewing",
-          "note": "Sampled 800\u2212unknown=345 and the 345/remaining-part bar."
+          "note": "Sampled 800−unknown=345 and the 345/remaining-part bar."
         },
         "rapid_reveal_flags": [
           {
@@ -14266,13 +14266,18 @@
       "expected_sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
       "duration": 148.808,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
@@ -14804,14 +14809,14 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
-        "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
-        "bytes": 2967877,
-        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.vtt",
-        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+        "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+        "bytes": 2570486,
+        "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/24.json",
-        "duration": 144.966667,
+        "duration": 144.967,
         "caption_cues": 34,
         "audio_duration": 144.896
       },
@@ -14856,6 +14861,48 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 24,
+        "page": "multiplication-division.html",
+        "section": "lesson4",
+        "previous": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
+          "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+          "bytes": 2967877,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/24.json",
+          "duration": 144.966667,
+          "caption_cues": 34,
+          "audio_duration": 144.896
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+          "bytes": 2570486,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/24.json",
+          "duration": 144.967,
+          "caption_cues": 34,
+          "audio_duration": 144.896
+        },
+        "evidence": "video-agent/narration-hf-alpha/24/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
@@ -14870,13 +14917,18 @@
       "expected_sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
       "duration": 150.666667,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/multiplication-division-release.json",
@@ -15253,7 +15305,7 @@
         "visual_sample_review": {
           "reviewer": "Codex actual-image inspection",
           "scope": "Beginning/middle/ending of every video; additional complete scene contact sheets for records 03 and 13; not full temporal viewing",
-          "note": "Sampled 70\u00d724=1680 and inverse."
+          "note": "Sampled 70×24=1680 and inverse."
         },
         "rapid_reveal_flags": [
           {
@@ -15408,11 +15460,11 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
-        "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
-        "bytes": 2985219,
-        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.vtt",
-        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+        "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+        "bytes": 2588029,
+        "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/25.json",
         "duration": 146.8,
@@ -15460,6 +15512,48 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 25,
+        "page": "multiplication-division.html",
+        "section": "lesson5",
+        "previous": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+          "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+          "bytes": 2985219,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/25.json",
+          "duration": 146.8,
+          "caption_cues": 30,
+          "audio_duration": 146.731
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "bytes": 2588029,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/25.json",
+          "duration": 146.8,
+          "caption_cues": 30,
+          "audio_duration": 146.731
+        },
+        "evidence": "video-agent/narration-hf-alpha/25/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
@@ -16066,13 +16160,18 @@
       "expected_sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
       "duration": 147.133333,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/factors-multiples-release.json",
@@ -16444,7 +16543,7 @@
         "visual_sample_review": {
           "reviewer": "Codex actual-image inspection",
           "scope": "Beginning/middle/ending of every video; additional complete scene contact sheets for records 03 and 13; not full temporal viewing",
-          "note": "Sampled 4\u00d76=24 and factor/multiple language."
+          "note": "Sampled 4×6=24 and factor/multiple language."
         },
         "rapid_reveal_flags": [
           {
@@ -16599,14 +16698,14 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
-        "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
-        "bytes": 2821623,
-        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.vtt",
-        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+        "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+        "bytes": 2425762,
+        "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/27.json",
-        "duration": 143.266667,
+        "duration": 143.267,
         "caption_cues": 33,
         "audio_duration": 143.189
       },
@@ -16651,6 +16750,48 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 27,
+        "page": "factors-multiples.html",
+        "section": "lesson2",
+        "previous": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+          "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+          "bytes": 2821623,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/27.json",
+          "duration": 143.266667,
+          "caption_cues": 33,
+          "audio_duration": 143.189
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+          "bytes": 2425762,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/27.json",
+          "duration": 143.267,
+          "caption_cues": 33,
+          "audio_duration": 143.189
+        },
+        "evidence": "video-agent/narration-hf-alpha/27/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
@@ -20643,7 +20784,9 @@
     "mathematical_visual_corrections_deployed": 2,
     "remaining_known_published_branding_violations": 0,
     "full_quality_status": "UNVERIFIED",
-    "new_topic_production": "SUSPENDED"
+    "new_topic_production": "SUSPENDED",
+    "narration_replacements_ready": 16,
+    "narration_replacements_deployed": 0
   },
   "repository_file_inventory": {
     "core_placements": [
