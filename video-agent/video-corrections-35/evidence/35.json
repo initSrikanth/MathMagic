@@ -4,8 +4,8 @@
   "source": "videos/MathMagic_V3_measurement_lesson5.mp4",
   "source_sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
   "candidate": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
-  "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
-  "bytes": 3102329,
+  "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+  "bytes": 3102341,
   "cut_seconds": 146.89141666666666,
   "removed_caption": {
     "start": 146.9164571126302,
@@ -64,8 +64,36 @@
   },
   "full_quality_status": "UNVERIFIED",
   "accent_status": "UNVERIFIED",
+  "metadata_timing_correction": {
+    "old_sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+    "new_sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+    "edits": [
+      {
+        "box": "mvhd",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      },
+      {
+        "box": "tkhd",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      },
+      {
+        "box": "elst",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      }
+    ],
+    "all_h264_and_aac_packet_payloads_unchanged": true,
+    "full_decode": true,
+    "target_duration": 146.966667,
+    "reason": "WebKit used movie/edit-list duration while Chromium/ffprobe used frame-count duration. Normalise the movie window without encoding, stretching or changing narration."
+  },
   "scoped_qa": {
-    "mp4_sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+    "mp4_sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
     "captions_sha256": "665a4944a4a3d3c910d89aa45e682bbe1e1cdbb73e25cd70a91b27efe7227e27",
     "transcript_sha256": "84572129354584d41aed894c98f5b43150dfcb807c330c403f97af7fe7ff51d2",
     "script_sha256": "3fcdeb5aab8c6cef886640495873b0e426f9351b3f4662a811520a1da2d7b959",
@@ -114,6 +142,7 @@
       "reviewed_at": "2026-11-05T06:26:44Z",
       "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
       "contact_sheet": "video-agent/video-corrections-35/frames/measurement-actual-outputs.jpg"
-    }
+    },
+    "metadata_only_review_carry_forward": "All encoded payloads and sampled decoded JPEGs are identical to inspected f8f6c18 images; only MP4 duration/edit metadata changed."
   }
 }

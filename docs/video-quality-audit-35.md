@@ -352,7 +352,7 @@ Original 35-video audit evidence is retained in JSON and `video-quality-evidence
 
 - Lesson:[measurement.html#lesson4](../measurement.html#lesson4); voice:`Kokoro v1.0 multilingual ONNX` / `hf_alpha` / speaker31.
 - Preserved original:[MathMagic_V3_measurement_lesson4.mp4](../videos/MathMagic_V3_measurement_lesson4.mp4); SHA-256:`e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e`.
-- Correction:**branding_only**, **READY**; [actual-file evidence](../video-agent/video-corrections-35/evidence/34.json); SHA-256:`37c32b6515609fcf33e902258827175938fb808d4a6cacccd0777bda8ed12d2a`.
+- Correction:**branding_only**, **READY**; [actual-file evidence](../video-agent/video-corrections-35/evidence/34.json); SHA-256:`1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d`.
 - Updated [captions](../videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt), [transcript](../videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt) and [script](../video-agent/video-corrections-35/scripts/34.json). Original voice retained; no pitch/speed change or lesson-narration regeneration.
 - Historical audit:[technical measurements](video-quality-evidence/34/technical.json), [whole-audio ASR](video-quality-evidence/34/full-audio-asr.json), [scene samples](video-quality-evidence/34/scene-contact.jpg). Original defects/timestamps and all mandatory attributes remain in the JSON record.
 - Outstanding:actual accent, enhanced enthusiasm, full temporal teaching/synchronisation quality and any unresolved baseline silence/static flags require capable perceptual evaluation. Physical iOS and live Firebase are not claimed tested.
@@ -361,7 +361,7 @@ Original 35-video audit evidence is retained in JSON and `video-quality-evidence
 
 - Lesson:[measurement.html#lesson5](../measurement.html#lesson5); voice:`Kokoro v1.0 multilingual ONNX` / `hf_alpha` / speaker31.
 - Preserved original:[MathMagic_V3_measurement_lesson5.mp4](../videos/MathMagic_V3_measurement_lesson5.mp4); SHA-256:`d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b`.
-- Correction:**branding_only**, **READY**; [actual-file evidence](../video-agent/video-corrections-35/evidence/35.json); SHA-256:`f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15`.
+- Correction:**branding_only**, **READY**; [actual-file evidence](../video-agent/video-corrections-35/evidence/35.json); SHA-256:`86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb`.
 - Updated [captions](../videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt), [transcript](../videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt) and [script](../video-agent/video-corrections-35/scripts/35.json). Original voice retained; no pitch/speed change or lesson-narration regeneration.
 - Historical audit:[technical measurements](video-quality-evidence/35/technical.json), [whole-audio ASR](video-quality-evidence/35/full-audio-asr.json), [scene samples](video-quality-evidence/35/scene-contact.jpg). Original defects/timestamps and all mandatory attributes remain in the JSON record.
 - Outstanding:actual accent, enhanced enthusiasm, full temporal teaching/synchronisation quality and any unresolved baseline silence/static flags require capable perceptual evaluation. Physical iOS and live Firebase are not claimed tested.
