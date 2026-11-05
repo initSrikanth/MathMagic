@@ -1,12 +1,12 @@
 # Year 5 Measurement — resumable development checkpoint
 
-Updated after dashboard integration commit `8a5b5956dbf532a967febb766107e823e0918803`.
+Updated after dashboard consolidation commit `7c351c3b50eac9b4e53788cee4a3616e40fa573f`.
 
 ## Scope
 Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the completed `measurement.html` / Measuring Our World topic and its approved media. Five pages is a baseline, not a ceiling. No video rendering in this application-development task.
 
 ## Observed repository state
-- Branch dashboard already contains a Time and Angles card and a separate Measuring Our World card. The Time and Angles card was previously not wired to Firebase progress; commit `8a5b595` extends `js/measurement-dashboard.js` to read approved users' `progress/{uid}/topics/time-angles` and render attempts, best score and proficiency. The existing Measurement card remains supported. Two Measurement headings are present in dashboard HTML; consolidation is still pending.
+- Branch dashboard already contains a Time and Angles card and a separate Measuring Our World card. The Time and Angles card was previously not wired to Firebase progress; commit `8a5b595` extends `js/measurement-dashboard.js` to read approved users' `progress/{uid}/topics/time-angles` and render attempts, best score and proficiency. The existing Measurement card remains supported. Dashboard now has one Measurement heading with both cards, each with a proficiency badge; dashboard script cache version bumped to v2. Browser/Firebase validation remains pending.
 - Measuring Our World already has lesson tabs for length, mass/capacity, perimeter, area and design. Its HTML contains a dashboard link, but **functionality is unverified**.
 - Draft PR #56 on branch `year5-time-angles-chatgpt` has a combined Time and Angles learning module, quiz and Firebase progress adapter. It is **not production-ready**.
 - Quiz keyboard submission bug fixed in commit `0851ff0` by attaching Enter handling when each answer input is rendered.
@@ -30,7 +30,12 @@ Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the comple
 - Dashboard navigation failure is user-reported and not yet reproduced.
 - Production Firestore security rules and cross-device persistence remain unverified.
 
-## Latest committed change and next action\n- Code commit: `8a5b5956dbf532a967febb766107e823e0918803` — connect Time and Angles dashboard progress to approved-user Firestore data, preserving the existing Measuring Our World card.\n- Checks: source inspection of dashboard, progress module and Time and Angles auth adapter; automated and browser tests **not run**.\n- Next: consolidate duplicate Measurement sections on dashboard, reproduce and fix reported return navigation failure, and add targeted browser/Firebase tests before merge.\n\n## Standing execution rule
+## Latest committed change and next action
+- Code commit: `7c351c3b50eac9b4e53788cee4a3616e40fa573f` — consolidate two Year 5 Measurement dashboard sections into one, retain both cards and progress selectors, add Time and Angles proficiency badge, and bump Measurement dashboard script cache version.
+- Checks actually performed: static HTML comparison confirmed one Measurement heading, one Time and Angles progress selector, one Measuring Our World selector. Inspected authentication redirect source; root cause of dashboard-return defect not yet reproduced. No browser or Firebase tests run.
+- Next: reproduce navigation failure in authenticated browser, then fix and test; inspect curriculum matrix and validate the Time and Angles quiz before merge.
+
+## Standing execution rule
 Active interactive development must proceed immediately; the hourly automation is a checkpointed fallback, **never a wait gate**. Do not return to user simply to request continuation. Continue implementation in each available execution window and record exact unfinished actions.
 
 ## Credit and session policy
