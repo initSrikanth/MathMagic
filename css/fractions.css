@@ -29,3 +29,6 @@
 
 .practice-feedback.correct{color:var(--ok)}
 .result #saveStatus.incorrect{color:var(--bad)}
+
+/* Topic return remains visible while navigating long lessons or a challenge. */
+.topic-return{padding:12px 5%;margin:0;text-align:left}.topic-return a{display:inline-flex;align-items:center;min-height:44px;padding:10px 15px;border:2px solid var(--primary);border-radius:12px;background:#fff;color:#087f96;font-weight:800;text-decoration:none}.topic-return a:hover,.topic-return a:focus-visible{background:var(--soft);outline-offset:3px}
