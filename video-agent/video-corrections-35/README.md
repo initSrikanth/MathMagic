@@ -16,3 +16,9 @@ Every old MP4, caption file, transcript and poster is retained. [Rollback cards 
 The installed Apache-2.0 Kokoro v1.0 `hf_alpha` profile was tested with Sherpa-ONNX 1.12.26: native English synthesis works locally without paid services or cloning. A new 16.327-second probe took 26.351 seconds on two CPU threads while other verification jobs were running. [Actual configuration, licence hashes and acoustic results](voice/feasibility.json) · [Audio](voice/hf-alpha-feasibility.wav) · [Transcript](voice/transcript.txt).
 
 This is the same installed profile as the owner-praised Measurement baseline. The model label, successful synthesis and measured pitch variation **do not prove perceived Indian-English accent or expressiveness**. Listening remains necessary before an accent-dependent replacement receives full quality approval. No existing lesson narration has been replaced by this probe.
+
+## Verified deployment
+
+PR #54 merged as `63e855b14f5c37f9a2dfdae51c3e2eca37da04c9` after required CI on `7cce878df014f7af7eab2b0e9cf7de036d6ebdc8` passed all 179 browser cases and 21 contract tests. Pages run 41984615635 succeeded. **32 scoped corrections are live: 30 branding and 2 mathematical/visual.** All 35 active MP4 hashes, captions/transcripts and player references were checked against the published site; 35 published-byte Chromium playback checks passed. Browser media testing isolates Firebase and is not physical-device or live-authentication verification.
+
+[Live file hashes and URLs](live-file-verification.json) · [Playback evidence and transport limitations](live-playback-verification.json). Accent/enthusiasm/full-quality status remains UNVERIFIED; no voice replacement was deployed.
