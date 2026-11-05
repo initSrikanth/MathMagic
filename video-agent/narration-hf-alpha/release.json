@@ -1,0 +1,68 @@
+{
+  "owner_authorisation": "Explicit owner directive: approved hf_alpha profile; replace existing20 without another sample approval.",
+  "per_video_perceptual_status": "UNVERIFIED",
+  "replacements": [
+    {
+      "number": 11,
+      "page": "decimals-percentages.html",
+      "section": "place",
+      "previous": {
+        "mp4": "videos/MathMagic_V2_decimals_percentages_place.mp4",
+        "sha256": "d963277765a4326eeb8011308b27e992229d00002f818029628d91a517a03484",
+        "bytes": 2230445,
+        "captions": "videos/MathMagic_V2_decimals_percentages_place.vtt",
+        "transcript": "videos/MathMagic_V2_decimals_percentages_place_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-place.json",
+        "duration": 116.466667
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
+        "sha256": "abad1debaaff32777ca87fb4065cc4d0c1d3b46a6bd1596763a95d9f4f0f83bc",
+        "bytes": 1916227,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-place.json",
+        "duration": 116.467
+      },
+      "evidence": "video-agent/narration-hf-alpha/11/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 21,
+      "page": "multiplication-division.html",
+      "section": "lesson1",
+      "previous": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+        "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+        "bytes": 2666890,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/21.json",
+        "duration": 137.366667,
+        "caption_cues": 30,
+        "audio_duration": 137.301
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4",
+        "sha256": "e52c755593da91587a6fdb23672ffd19781bd3190bc5d759aaa5a18aa2d9dfec",
+        "bytes": 2330791,
+        "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/21.json",
+        "duration": 137.367,
+        "caption_cues": 30,
+        "audio_duration": 137.301
+      },
+      "evidence": "video-agent/narration-hf-alpha/21/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "branch": "narration/hf-alpha-20",
+  "state": "GENERATING",
+  "process_session": 52342,
+  "log": "/workspace/hf-alpha-batch.log",
+  "approved_voice": "hf_alpha sid31 Kokoro v1.0",
+  "target_numbers": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "preserve_other15": true,
+  "next": "After batch exits run integrate.py, focused QA, PR CI, merge and live checks",
+  "no_paid_calls": true
+}
