@@ -35,7 +35,7 @@ assert len(records)==len(seen)==35
 payload=dict(schema=1,baseline_commit='d31afb5dfae6f87564e0aaddc24c7ccb0af4acf3',scope='Exactly 35 core placements across seven Year 5 topics; approved LCM extension recorded separately',new_topic_development='SUSPENDED',new_video_production='SUSPENDED except scoped remediation after audit',perceptual_review_limitation='No available audio-listening/full-video perceptual tool. ASR, OCR, metadata and image samples cannot certify accent, enthusiasm or full teaching quality.',unexpected_or_extra_placements=exceptions,records=records)
 if out.exists():
  previous=json.loads(out.read_text());assert len(previous['records'])==35
- assert {(r['mp4'],r['page'],r['lesson_section']) for r in previous['records']}=={(r['mp4'],r['page'],r['lesson_section']) for r in records}, 'Published placement inventory changed; preserve/review the existing audit before rebasing.'
+ assert {(r.get('active_media',{}).get('mp4',r['mp4']),r['page'],r['lesson_section']) for r in previous['records']}=={(r['mp4'],r['page'],r['lesson_section']) for r in records}, 'Published placement inventory changed; preserve/review the existing audit before rebasing.'
  print('Existing audit retained; all 35 actual source placements match.')
 else:out.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n')
 print('35 placements; brand-script violations',sum(bool(r['attributes']['spoken_branding']['evidence']) for r in records),'British-profile mismatches',sum(r['voice_profile_check']=='FAIL_CONFIG' for r in records),'missing assets',sum(len(r['missing_assets']) for r in records),'extras',exceptions)

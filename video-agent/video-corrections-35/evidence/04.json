@@ -1,0 +1,138 @@
+{
+  "number": 4,
+  "lesson": "Adding and Subtracting Fractions",
+  "source": "videos/fractions-2026/adding-subtracting.mp4",
+  "source_sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+  "candidate": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+  "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+  "bytes": 6624278,
+  "duration": 223.3,
+  "internal_removed_interval": [
+    218.9,
+    222.0
+  ],
+  "natural_quiet_boundaries_pcm_checked": true,
+  "optional_lcm_notice_preserved": true,
+  "video_prefix_exact_original_packets": 6471,
+  "video_tail_reencoded_seconds": 7.600000000000023,
+  "aac_reencoded": true,
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " YOU MOVE THEM THEN SIMPLIFY AND CHECK WHAT WOULD YOU DRAW FIRST FOR YOUR NEXT CALCULATION THE SEPARATE L C M VIDIO IS OPTIONAL EXTENSION WORK",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+    "duration": 223.3,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.15287324786186218,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        65.54,
+        68.78
+      ],
+      [
+        100.22,
+        103.4
+      ],
+      [
+        195.48000000000002,
+        200.66
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 247387
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+    "captions_sha256": "7e72b5829090298cb4d9d3f6ad81b12f9bd52c95a5ff089f622d0f1e84834e8c",
+    "transcript_sha256": "998f117255dbc64c1d4ccb3c05da2583d85110981211e336569429753392cc25",
+    "script_sha256": "c1410c4f20adb554388ca6509196235a4f9b2b2a308b3dd31efb87b754c664a9",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 223,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 6,
+    "audio_rms": 0.15287324786186218,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/04/00.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nA fraction puzzle for you\n\nHalf a cup\n\nPo\n\nA quarter of the same cup\n\nPo\n\n|\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 111.65,
+        "frame": "video-agent/video-corrections-35/frames/04/01.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nRelated denominators\n\n1 _ 2\n\n\u2014\u2014\u2014\n\n\u2014\u2014\n\nZ\n\n4\n\nOne half\n\nPo\n\nTwo quarters\n\nPo\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 223.18,
+        "frame": "video-agent/video-corrections-35/frames/04/02.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nLook what you can do now\n\nAdd and subtract fractions using equal-sized parts\n\nChoose a common size of part\n\nAdd or subtract and simplify\n\nExplain the result with a model\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 218.8,
+        "frame": "video-agent/video-corrections-35/frames/04/03.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nLook what you can do now\n\nAdd and subtract fractions using equal-sized parts\n\nChoose a common size of part\n\nAdd or subtract and simplify\n\nExplain the result with a model\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 218.95,
+        "frame": "video-agent/video-corrections-35/frames/04/04.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nLook what you can do now\n\nAdd and subtract fractions using equal-sized parts\n\nChoose a common size of part\n\nAdd or subtract and simplify\n\nExplain the result with a model\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 219.15,
+        "frame": "video-agent/video-corrections-35/frames/04/05.jpg",
+        "ocr": "Adding and Subtracting Fractions\n\nLook what you can do now\n\nAdd and subtract fractions using equal-sized parts\n\nChoose a common size of part\n\nAdd or subtract and simplify\n\nExplain the result with a model\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/fractions-actual-outputs.jpg"
+    }
+  }
+}

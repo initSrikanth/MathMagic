@@ -58,6 +58,31 @@ def assert_preservation_edit_allowed(record,clean):
  assert hashlib.sha256(source.read_bytes()).hexdigest()==record['expected_sha256'],'Original media changed'
  assert not any(branded(t) for t in rendered_texts(clean)), 'Prohibited branding in edited source'
  return {'review_only':True,'voice_approved':False,'synthesis_allowed':False,'release_allowed':False}
+
+def assert_scoped_correction_release(records):
+ """Owner-authorised objective corrections; never approve an accent or certify the full video."""
+ cfg=load();policy=cfg.get('scoped_correction_release',{});assert policy.get('authorised'), 'Scoped corrections not authorised'
+ for row in records:
+  c=row['correction'];original=c['original'];target=c['replacement']
+  assert c['type'] in policy['allowed_types'], 'Voice/new-topic replacement is not a scoped correction'
+  assert c['number']==row['number'] and original['mp4']==row['mp4'] and original['expected_sha256']==row['expected_sha256']
+  assert c['full_quality_status']=='UNVERIFIED' and c['accent_status']=='UNVERIFIED', 'Scoped evidence must not claim full or accent approval'
+  assert c['narration_regenerated'] is False and c['pitch_speed_changed'] is False, 'Voice changes require listening QA'
+  assert (ROOT/original['mp4']).is_file() and hashlib.sha256((ROOT/original['mp4']).read_bytes()).hexdigest()==original['expected_sha256'], 'Original/rollback bytes changed'
+  assert hashlib.sha256((ROOT/target['mp4']).read_bytes()).hexdigest()==target['sha256'], 'Correction bytes changed'
+  ev=json.loads((ROOT/c['evidence']).read_text());qa=ev.get('scoped_qa',{})
+  assert qa.get('mp4_sha256')==target['sha256'], 'Scoped QA not bound to exact file'
+  for field in ['captions','transcript','script']:
+   assert hashlib.sha256((ROOT/target[field]).read_bytes()).hexdigest()==qa.get(field+'_sha256'), 'Sidecar changed after QA: '+field
+  for key in ['encoding_valid','faststart','full_decode','caption_timing_valid','caption_transcript_match','source_brand_free','rendered_frame_ocr_brand_free','sampled_actual_frame_review','original_voice_preserved']:
+   assert qa.get(key) is True, 'Unverified scoped gate: '+key
+  assert qa.get('audio_rms',0)>=cfg['technical']['audio_rms_min'] and qa.get('clipping_fraction',1)<cfg['technical']['clipping_fraction_max']
+  assert qa.get('sampled_frame_count',0)>=3 and qa.get('narration_pitch_speed_unchanged') is True
+  if c['type']=='branding_only':
+   assert ev.get('packet_copy_proof') or (ev.get('optional_lcm_notice_preserved') and ev.get('natural_quiet_boundaries_pcm_checked'))
+  else:
+   assert ev.get('original_audio_packets_exact') and ev.get('video_outside_scene_packets_exact') and qa.get('mathematical_model_pixel_checks')
+ return True
 if __name__=='__main__':
  c=load()
  if '--release' in sys.argv:assert_release(json.loads(REGISTER.read_text())['records'])

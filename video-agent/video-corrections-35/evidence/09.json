@@ -1,0 +1,133 @@
+{
+  "number": 9,
+  "lesson": "Decimal Place Value",
+  "source": "videos/whole-numbers-2026/lesson4.mp4",
+  "source_sha256": "e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217",
+  "candidate": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+  "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+  "bytes": 6133394,
+  "cut_seconds": 204.404,
+  "removed_caption": {
+    "start": 204.449,
+    "end": 207.63670833333333,
+    "text": "Then try the lesson practice on Math Magic.",
+    "source_sha256": "8e3256f16702541b9b60339c43e6f5367195f536f368fabc5ca7d94870395949"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6135,
+      "original_packets": 6240,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 9583,
+      "original_packets": 9751,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    204.269,
+    204.54899999999998
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+    "duration": 204.5,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.1565130352973938,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        59.0,
+        60.7
+      ],
+      [
+        105.16,
+        106.86
+      ],
+      [
+        161.56,
+        166.76
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 226730
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+    "captions_sha256": "766164bfd402006a11f4f51b6f72330068684a04b4a4a52088c8a0a555365228",
+    "transcript_sha256": "de6d87e8c2bca32e07f2d2b9f146940be3482d0b410fd19908aef2aadf69d2ef",
+    "script_sha256": "c8a8a5b1a0713a80ae851c5fc90d6610e99c45df2ce2b38ad22e1328b73a59aa",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 205,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.1565130352973938,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/09/00.jpg",
+        "ocr": "Decimal Place Value\n\nA whole with tiny parts\n\n| eae\n\nOne whole split into ten equal parts\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 102.25,
+        "frame": "video-agent/video-corrections-35/frames/09/01.jpg",
+        "ocr": "Decimal Place Value\n\nMeasuring example two\n\n0.5 ? 0.05\n\n__ ieee\n\nFive of ten equal parts: 0.5\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 204.38,
+        "frame": "video-agent/video-corrections-35/frames/09/02.jpg",
+        "ocr": "Decimal Place Value\n\nLook what you can do now\n\nExplain decimal place value through thousandths\n\nName parts through thousandths\n\nGive each digit\u2019s value\n\nExplain neighbouring place values\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/whole-numbers-actual-outputs.jpg"
+    }
+  }
+}

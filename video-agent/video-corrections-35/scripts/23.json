@@ -1,0 +1,266 @@
+{
+  "id": "multiplication-division-lesson3",
+  "topic": "multiplication-division",
+  "section": "lesson3",
+  "title": "Divide by a Single-digit Number",
+  "file": "MathMagic_V2_multiplication_division_lesson3",
+  "beats": [
+    {
+      "text": "How can a large sharing problem become two smaller ones? Today we are dividing by a single-digit number. We will choose useful parts, share each part equally, and use multiplication to check that no amount has been lost.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to divide whole numbers by a single-digit number using useful parts.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Divide whole numbers by a single-digit number using useful parts."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can choose parts that divide equally. I can divide every part by the same divisor. I can combine the quotients and multiply back to check.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Choose parts that divide equally.",
+        "2. Divide every part by the same divisor.",
+        "3. Combine the quotients and multiply back to check."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Division can mean sharing into equal groups or finding how many equal groups fit. Choose parts that divide exactly. The parts must add to the original dividend, and their quotients must be combined. Picture twenty-four counters in four equal groups. Each group gets six, and every counter is shared once.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 4,
+        "cols": 6
+      }
+    },
+    {
+      "text": "Divide one thousand five hundred and thirty-six by six. Split it into one thousand five hundred, and a separate thirty-six. One thousand five hundred divided by six is two hundred and fifty.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "1,536 = 1,500 + 36",
+        "1,500 \u00f7 6 = 250"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "\u00f7",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Thirty-six divided by six is six. Add the quotients: two hundred and fifty plus six gives two hundred and fifty-six. Check by multiplying two hundred and fifty-six by six.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "36 \u00f7 6 = 6",
+        "256 \u00d7 6 = 1,536"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "\u00f7",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Divide two thousand one hundred and eighty-four by seven. Two thousand one hundred divides into three hundred groups of seven.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "2,184 = 2,100 + 84",
+        "2,100 \u00f7 7 = 300"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          2100,
+          84
+        ],
+        "other": 7,
+        "original": 2184,
+        "operation": "\u00f7",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Eighty-four divided by seven is twelve. Combine the quotients to get three hundred and twelve. Multiplying back gives two thousand one hundred and eighty-four.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "84 \u00f7 7 = 12",
+        "312 \u00d7 7 = 2,184"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          2100,
+          84
+        ],
+        "other": 7,
+        "original": 2184,
+        "operation": "\u00f7",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "When you split a dividend, divide every part by the same divisor. Sharing only fifteen hundred and ignoring thirty-six loses some of the amount. Combine both quotients, then multiply back to check.",
+      "chapter": "Share every part",
+      "equation": [],
+      "board": [
+        "1,500 \u00f7 6 = 250",
+        "36 \u00f7 6 = 6"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "products",
+        "parts": [
+          1500,
+          36
+        ],
+        "other": 6,
+        "original": 1536,
+        "operation": "\u00f7",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "What is eight hundred and sixteen divided by four?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "816 \u00f7 4 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Eight hundred divided by four is two hundred, and sixteen divided by four is four. The quotient is two hundred and four.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "200 + 4 = 204",
+        "204 \u00d7 4 = 816"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "products",
+        "parts": [
+          800,
+          16
+        ],
+        "other": 4,
+        "original": 816,
+        "operation": "\u00f7",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Partition into useful parts, divide each part by the same divisor, and add the quotients. Check that quotient times divisor returns the dividend when there is no remainder. Choose a model and explain why your strategy works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Useful parts \u2192 divide every part \u2192 combine",
+        "Multiply back to check"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

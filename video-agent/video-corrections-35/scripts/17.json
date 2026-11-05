@@ -1,0 +1,265 @@
+{
+  "id": "addition-subtraction-lesson2",
+  "topic": "addition-subtraction",
+  "section": "lesson2",
+  "title": "Written Addition and Subtraction",
+  "file": "MathMagic_V2_addition_subtraction_lesson2",
+  "beats": [
+    {
+      "text": "How can one little column change an answer by thousands? Today we are using written addition and subtraction. We will line up equal place values and see how regrouping changes the grouping without changing the amount. What happens when a column contains zero?",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "text": "Our learning goal is to add and subtract whole numbers accurately using written methods.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Add and subtract whole numbers accurately using written methods."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can line up matching place values. I can regroup without changing the total. I can check subtraction by adding back.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Line up matching place values.",
+        "2. Regroup without changing the total.",
+        "3. Check subtraction by adding back."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Keep ones under ones and tens under tens. Ten units in any column can be exchanged for one unit in the column to its left. In subtraction we can exchange one larger unit for ten smaller units.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "text": "Add two thousand seven hundred and eighty-six and one thousand four hundred and fifty-seven. Start at the ones: six plus seven makes thirteen, so exchange ten ones for one ten.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "2,786 + 1,457",
+        "6 + 7 = 13 ones"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 2786,
+        "b": 1457,
+        "op": "+",
+        "width": 4,
+        "result": "   3",
+        "carry": [
+          "",
+          "",
+          "1",
+          ""
+        ]
+      }
+    },
+    {
+      "text": "Eight tens plus five tens plus the exchanged ten makes fourteen tens. Continue the regrouping. Seven hundreds plus four hundreds plus one hundred makes twelve hundreds. The final total is four thousand two hundred and forty-three.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "13 ones = 1 ten + 3 ones",
+        "14 tens = 1 hundred + 4 tens"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 2786,
+        "b": 1457,
+        "op": "+",
+        "width": 4,
+        "result": "4243",
+        "carry": [
+          "1",
+          "1",
+          "1",
+          ""
+        ]
+      }
+    },
+    {
+      "text": "Now subtract twenty-seven thousand six hundred and eighty-four from fifty-two thousand. Across the zeros, exchange one thousand for ten hundreds, then exchange one hundred and one ten as needed.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "52,000 \u2212 27,684",
+        "52,000 = 40,000 + 11,000 + 900 + 90 + 10"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "\u2212",
+        "width": 5,
+        "result": "",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "text": "Subtract each place after regrouping: six ones, one ten, three hundreds, four thousands and two ten-thousands. The difference is twenty-four thousand three hundred and sixteen. Add it back to check.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "52,000 \u2212 27,684 = 24,316",
+        "27,684 + 24,316 = 52,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "\u2212",
+        "width": 5,
+        "result": "24316",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "text": "Regrouping does not create extra value. When a zero is involved, exchange from a larger place and adjust that place too. Our regrouped parts must still add to fifty-two thousand. Checking the total keeps every exchange honest.",
+      "chapter": "Exchange, do not invent units",
+      "equation": [],
+      "board": [
+        "40,000 + 11,000 + 900 + 90 + 10 = 52,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "column",
+        "a": 52000,
+        "b": 27684,
+        "op": "\u2212",
+        "width": 5,
+        "result": "",
+        "regroup": [
+          4,
+          11,
+          9,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "text": "What is four hundred and six minus one hundred and seventy-eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "406 \u2212 178 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Regroup across the zero. Sixteen ones minus eight is eight, nine tens minus seven is two, and three hundreds minus one is two. The answer is two hundred and twenty-eight.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "406 = 300 + 90 + 16",
+        "406 \u2212 178 = 228"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "column",
+        "a": 406,
+        "b": 178,
+        "op": "\u2212",
+        "width": 3,
+        "result": "228",
+        "regroup": [
+          3,
+          9,
+          16
+        ]
+      }
+    },
+    {
+      "text": "Align place values, regroup without changing the total, and work systematically. A zero is a placeholder, so exchanges may cross more than one column. Use addition to check subtraction. Now choose a strategy and explain why it works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "number": 22,
+  "lesson": "Multiply by Two-digit Numbers",
+  "source": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+  "source_sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+  "candidate": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+  "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+  "bytes": 2810109,
+  "cut_seconds": 139.19320833333333,
+  "removed_caption": {
+    "start": 139.36320833333335,
+    "end": 142.474875,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4178,
+      "original_packets": 4294,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3264,
+      "original_packets": 3356,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    138.97320833333333,
+    139.42320833333332
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " PARTIAL PRODUCTS WITH THEIR CORRECT PLACE VALUES ADD THEM THEN CHECK WITH A NEAR BY FRIENDLY MULTIPLICATION CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+    "duration": 139.266667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06207273155450821,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        112.14,
+        116.38
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 112655
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+    "captions_sha256": "bc453bdc4fdab36f3394f720d8a4d0d6c82498de07459efc4fa58ff5c2918623",
+    "transcript_sha256": "bfcf92e4ef7aa054e1b80923934c3d46ad89f6a183a84bb5d72b16021b7d1ea6",
+    "script_sha256": "2b20c55044bb0a3eb2d40ac27a481917be30c837c8ee7d417ba48d9b626fec89",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 139,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06207273155450821,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/22/00.jpg",
+        "ocr": "Multiply by Two-digit Numbers\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 69.6333335,
+        "frame": "video-agent/video-corrections-35/frames/22/01.jpg",
+        "ocr": "Multiply by Two-digit Numbers\n\nExample 1: explain\n\n246 x 3 = 738\n\n2,460 + 738 = 3,198\n\nMultiply each useful part\n\n2,460 + 738 = 3,198\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 139.146667,
+        "frame": "video-agent/video-corrections-35/frames/22/02.jpg",
+        "ocr": "Multiply by Two-digit Numbers\n\nWhat to remember\n\nTens and ones => partial products \u2014 total\n\nKeep place values clear\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/multiplication-division-actual-outputs.jpg"
+    }
+  }
+}

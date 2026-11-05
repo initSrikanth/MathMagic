@@ -1,0 +1,267 @@
+{
+  "id": "measurement-lesson4",
+  "topic": "measurement",
+  "section": "lesson4",
+  "title": "Cover and Calculate Area",
+  "file": "MathMagic_V3_measurement_lesson4",
+  "beats": [
+    {
+      "text": "How many equal square tiles would cover a small floor? A long piece of string cannot cover the surface. We need a different measure from perimeter: area tells us how much flat space a shape covers.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Our learning goal is to explain and find area using square units.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Explain and find area using square units."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can cover a surface without gaps or overlaps. I can use rows and columns to count squares. I can distinguish area from perimeter.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Cover a surface without gaps or overlaps.",
+        "2. Use rows and columns to count squares.",
+        "3. Distinguish area from perimeter."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Arrange equal unit squares without gaps or overlaps. Each square covers one square unit. For a rectangle, equal rows let us count efficiently with multiplication. A square centimetre is a square one centimetre along each side, not a one-centimetre length.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "A rectangle has eight columns and five rows of square-centimetre tiles. Predict how many unit squares cover it. Each row contains eight squares, and there are five equal rows.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "8 squares in each row",
+        "5 equal rows"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Five groups of eight make forty unit squares. The area is forty square centimetres. Multiplying eight centimetres by five centimetres counts the same tiled surface, so we write the squared unit.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "8 \u00d7 5 = 40 cm\u00b2"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A play mat is seven metres by four metres. Imagine covering it with one-metre squares. There are seven squares along each row, with four rows altogether. What would the surface measurement be?",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "7 columns \u00d7 4 rows",
+        "Each tile: 1 m\u00b2"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "The area is twenty-eight square metres. The perimeter is a different quantity: seven plus four plus seven plus four is twenty-two metres. Area counts the cover; perimeter measures the border.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Area: 7 \u00d7 4 = 28 m\u00b2",
+        "Perimeter: 7 + 4 + 7 + 4 = 22 m"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 7,
+        "h": 4,
+        "unit": "m",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Adding eight and five does not count the tiles covering an eight-by-five rectangle. It counts only two side lengths. To find area, use all five rows of eight equal squares, with no gaps or overlaps.",
+      "chapter": "Square units are not side lengths",
+      "equation": [],
+      "board": [
+        "5 rows of 8 squares",
+        "Area: 40 cm\u00b2, not 13 cm"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 8,
+        "h": 5,
+        "unit": "cm",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "A rectangle has six columns and four rows of unit squares. What is its area? Look at the model, and keep your prediction in mind.",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "6 columns \u00d7 4 rows",
+        "Area = ? square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4,
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 6,
+        "h": 4,
+        "unit": "",
+        "grid": true,
+        "reveal": false
+      }
+    },
+    {
+      "text": "Four groups of six make twenty-four square units. You can check by counting the tiles or adding six four times. No tile should be counted twice.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "6 \u00d7 4 = 24 square units"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "rectangle",
+        "w": 6,
+        "h": 4,
+        "unit": "",
+        "grid": true,
+        "reveal": true
+      }
+    },
+    {
+      "text": "Area counts equal squares covering a surface. Use rows and columns to count efficiently and always label the square unit. Draw two rectangles with the same area on squared paper. Do they have to have the same perimeter? Explain with a drawing. Reflect on which model helped you and why.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Cover with equal squares, without gaps.",
+        "Rows \u00d7 columns counts area.",
+        "Same area need not mean the same perimeter."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "codes": [
+    "AC9M5M02"
+  ]
+}

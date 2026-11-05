@@ -1,0 +1,124 @@
+{
+  "number": 21,
+  "lesson": "Multiply Efficiently",
+  "source": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+  "source_sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+  "candidate": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+  "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+  "bytes": 2666890,
+  "cut_seconds": 137.29795833333333,
+  "removed_caption": {
+    "start": 137.46795833333334,
+    "end": 140.579625,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4121,
+      "original_packets": 4237,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3219,
+      "original_packets": 3312,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    137.07795833333333,
+    137.52795833333332
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " USUAL PRODUCTS KEEP THE VALUE OF EACH DIGIT CLEAR AND USE AN ESTIMATE TO CHECK THE SCALE OF YOUR ANSWER CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+    "duration": 137.366667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06159384176135063,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        111.84,
+        116.08
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 111118
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+    "captions_sha256": "1f13388cf052ab4d05644b56fcbfb24e79a6443415f1794c273d26c945e24f2f",
+    "transcript_sha256": "7ade8d83aa4655d14389a46476a46b48baf53665b3c9da29a7eb643345cb5c44",
+    "script_sha256": "bb8b7abd001534ae3253d82064cdbf1fd5dff71bfff4c8659a8e0a05336c0601",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 137,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06159384176135063,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/21/00.jpg",
+        "ocr": "Multiply Efficiently\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 68.6833335,
+        "frame": "video-agent/video-corrections-35/frames/21/01.jpg",
+        "ocr": "Multiply Efficiently\n\nExample 1: explain\n\n20 x 8= 160\n\n4 x 8 = 32\n\nMultiply each useful part\n\n4x8\n\n@2\n\n2,400 + 160 + 32 = 2,592\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 137.246667,
+        "frame": "video-agent/video-corrections-35/frames/21/02.jpg",
+        "ocr": "Multiply Efficiently\n\nWhat to remember\n\nPartition > multiply every part ~ combine\n\nEstimate and check\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/multiplication-division-actual-outputs.jpg"
+    }
+  }
+}

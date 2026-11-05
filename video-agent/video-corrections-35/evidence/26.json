@@ -1,0 +1,124 @@
+{
+  "number": 26,
+  "lesson": "Build Numbers from Factors",
+  "source": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+  "source_sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+  "candidate": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+  "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+  "bytes": 2875029,
+  "cut_seconds": 141.71170833333332,
+  "removed_caption": {
+    "start": 141.88670833333333,
+    "end": 144.998375,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4254,
+      "original_packets": 4369,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3323,
+      "original_packets": 3415,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    141.48670833333333,
+    141.94670833333333
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " RECORD BOTH MEMBERS OF EACH FACTOR PAIR REMOVE REPEATED ENTRIES AND EXPLAIN WHY THE SEARCH IS COMPLETE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+    "duration": 141.8,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06114053726196289,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        115.32000000000001,
+        119.56
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 114672
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+    "captions_sha256": "5fe652da892ae4c39023f84440f804c762450d41aa044351f710b78b80e4ab2c",
+    "transcript_sha256": "b12d1bc71451fefb751d668f21941c01be41b58bc9bdfbedda383b0748c2d67e",
+    "script_sha256": "0294c756ba1f6bcd0aebd5131544ab5ca3311837cc2e22c0d2c4dde4ccf24d92",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 142,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06114053726196289,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/26/00.jpg",
+        "ocr": "Build Numbers from Factors\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 70.9,
+        "frame": "video-agent/video-corrections-35/frames/26/01.jpg",
+        "ocr": "Build Numbers from Factors\n\nExample 1: explain\n\n4x6=24\n\nRecord both partners\n\nTest number\n\nPartner / remainder\n\nDecision\n\n1\n\n24\n\nRecord pair\n\n2\n\n17\n\nRecord pair\n\n3}\n\n8\n\nRecord pair\n\n4\n\n6\n\nRecord pair\n\nFactors: 1, 2, 3, 4, 6, 8, 12, 24\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 141.68,
+        "frame": "video-agent/video-corrections-35/frames/26/02.jpg",
+        "ocr": "Build Numbers from Factors\n\nWhat to remember\n\nEqual rows > factor pairs > complete set\n\nExplain why your search is complete\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/factors-multiples-actual-outputs.jpg"
+    }
+  }
+}

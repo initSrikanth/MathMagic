@@ -1,0 +1,124 @@
+{
+  "number": 19,
+  "lesson": "Missing Values and Inverses",
+  "source": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+  "source_sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+  "candidate": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+  "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+  "bytes": 2740503,
+  "cut_seconds": 140.323375,
+  "removed_caption": {
+    "start": 140.49841666666666,
+    "end": 143.64479166666666,
+    "text": "Have a go at the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4212,
+      "original_packets": 4329,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3290,
+      "original_packets": 3383,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    140.108375,
+    140.548375
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " TUT YOUR ANSWER INTO THE ORIGINAL SENTENCE A CHECK TESTS THE RELATIONSHIP NOT JUST THE ARITHMETIC NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+    "duration": 140.4,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06181849166750908,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        108.58,
+        112.84
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 113561
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+    "captions_sha256": "42fc1355109b497f404e314feeb9c6037915de305467e31aa52d79688883706a",
+    "transcript_sha256": "370f62a0155967e70788133009e518e1e9366276a9610aa1eac86183f4946f45",
+    "script_sha256": "440385d92e61021cde9a5445ed27d80b4f5f914e34e54f150099833a2a3be486",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 141,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06181849166750908,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/19/00.jpg",
+        "ocr": "Missing Values and Inverses\n\nLet\u2019s investigate\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00b0 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 70.2,
+        "frame": "video-agent/video-corrections-35/frames/19/01.jpg",
+        "ocr": "Missing Values and Inverses\n\nExample 2: plan\n\n800 \u2014 4 = 345\n\n800 \u2014 345 = 455\n\nTotal: 800\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 140.28,
+        "frame": "video-agent/video-corrections-35/frames/19/02.jpg",
+        "ocr": "Missing Values and Inverses\n\nWhat to remember\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00a2 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/addition-subtraction-actual-outputs.jpg"
+    }
+  }
+}

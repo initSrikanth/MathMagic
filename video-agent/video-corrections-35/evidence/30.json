@@ -1,0 +1,124 @@
+{
+  "number": 30,
+  "lesson": "Connect and Reason",
+  "source": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+  "source_sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+  "candidate": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+  "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+  "bytes": 2965489,
+  "cut_seconds": 145.82045833333333,
+  "removed_caption": {
+    "start": 145.99545833333335,
+    "end": 149.107125,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4377,
+      "original_packets": 4493,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3419,
+      "original_packets": 3511,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    145.59545833333334,
+    146.05545833333332
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " DIVISION TO JUSTIFY YOUR DECISION EXPLAIN THE RELATIONSHIP RATHER THAN GUESSING FROM ONE EXAMPLE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+    "duration": 145.9,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.061863966286182404,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        112.84,
+        117.08
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 117904
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+    "captions_sha256": "f22d8d8ac47057a37ece46876ff96229e576dc22d7e008fa1294a68e3c4582da",
+    "transcript_sha256": "47a49fbb95ba4d78922907fac5af8d8f8fdaf1dcb986cbb2c0a064c20a9b8dde",
+    "script_sha256": "b1c5dc0d96cbd670e9b7f1e8ffbdb1618156dc488ba19a057d2c2a154c594912",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 146,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.061863966286182404,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/30/00.jpg",
+        "ocr": "Connect and Reason\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 72.95,
+        "frame": "video-agent/video-corrections-35/frames/30/01.jpg",
+        "ocr": "Connect and Reason\n\nExample 1: explain\n\nShared factors: 1, 2, 3, 6\n\nFactors of 18\n\n9\n\n18\n\nSs ee\n\nFactors of 30\n\nEseses\n\n5\n\nam \u00a9\n\n15\n\n30\n\nShared: 1, 2, 3, 6\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 145.78,
+        "frame": "video-agent/video-corrections-35/frames/30/02.jpg",
+        "ocr": "Connect and Reason\n\nWhat to remember\n\nCompare = identify shared values \u2014 check both\n\nExplain the relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/factors-multiples-actual-outputs.jpg"
+    }
+  }
+}

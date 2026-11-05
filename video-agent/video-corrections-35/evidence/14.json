@@ -1,0 +1,119 @@
+{
+  "number": 14,
+  "source": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+  "source_sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+  "output": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+  "sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+  "bytes": 2371416,
+  "scene": 5,
+  "corrected_frame_interval": [
+    1878,
+    2146
+  ],
+  "corrected_seconds": [
+    62.6,
+    71.53333333333333
+  ],
+  "original_audio_packets_exact": true,
+  "video_outside_scene_packets_exact": true,
+  "voice_regenerated": false,
+  "pitch_speed_changed": false,
+  "frame_count": 3547,
+  "strict_frame_timestamps": true,
+  "decode_error_output": "",
+  "word_offsets": {
+    "fifty_percent": 1.4399999380111694,
+    "all_three_names": 2.759999990463257,
+    "midpoint": 4.559999942779541,
+    "between_zero_one": 5.119999885559082
+  },
+  "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+  "mathematics": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "caption_transcript_unchanged": true,
+  "accent_status": "UNVERIFIED",
+  "full_quality_status": "UNVERIFIED",
+  "scope": "mathematical_visual_only",
+  "voice_review": "UNVERIFIED",
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "deployed": false,
+  "scoped_qa": {
+    "mp4_sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+    "captions_sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+    "transcript_sha256": "55cf77227b78ad0aae142059567b2de03315dbc76e80e6ceb09fc2c181e53cf1",
+    "script_sha256": "a0e6067e1b8516a9554968a303b39ba9631f962fa6c553fbe19994751ae62ebc",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 118,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 6,
+    "audio_rms": 0.06146407872438431,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": {
+      "left_endpoint": 240,
+      "right_endpoint": 1680,
+      "midpoint_x": 960,
+      "midpoint_is_half": true,
+      "dot_colour_checked": true
+    },
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/14/00.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nLet\u2019s investigate\n\nOne whole divided into one hundred equal parts.\n\n75 hundredths = 0.75 = 75%\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 59.1166665,
+        "frame": "video-agent/video-corrections-35/frames/14/01.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nExample 1: plan\n\n\u2014\n\n1\n\n2\n\n= 50 hundredths\n\n0.50 = 0.5\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 118.113333,
+        "frame": "video-agent/video-corrections-35/frames/14/02.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nWhat to remember\n\nOne whole divided into one hundred equal parts.\n\nP| Tt EE TT |\n\n| | Tt TT TT | I\n\n| | Tt ET TT | Yt\n\n| | Tt ET TT | Tt\n\nP| |\n\n75 hundredths = 0.75 = 75%\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 62.7,
+        "frame": "video-agent/video-corrections-35/frames/14/03.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nExample 1: explain\n\n1\n\n\u2014 ~ 0.5 ~ 50%\n\n2\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 65.1,
+        "frame": "video-agent/video-corrections-35/frames/14/04.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nExample 1: explain\n\n1\n\n\u2014 ~ 0.5 ~ 50%\n\n2\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 71.43333333333334,
+        "frame": "video-agent/video-corrections-35/frames/14/05.jpg",
+        "ocr": "Connect Fractions, Decimals and Percentages\n\nExample 1: explain\n\n1\n\n\u2014 ~ 0.5 ~ 50%\n\n2\n\n0.5 = 50%\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "mathematical_visual_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/decimals-percentages-actual-outputs.jpg"
+    }
+  }
+}

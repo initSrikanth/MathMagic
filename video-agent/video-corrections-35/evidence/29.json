@@ -1,0 +1,124 @@
+{
+  "number": 29,
+  "lesson": "Follow an Algorithm",
+  "source": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+  "source_sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+  "candidate": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+  "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+  "bytes": 3142324,
+  "cut_seconds": 150.09300000000002,
+  "removed_caption": {
+    "start": 150.268,
+    "end": 153.37966666666668,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4505,
+      "original_packets": 4621,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3519,
+      "original_packets": 3612,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    149.868,
+    150.328
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " AND A STOPPING RULE FOLLOW EVERY STEP SO THE SEARCH IS COMPLETE WITHOUT UNNECESSARY REPETITION REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+    "duration": 150.166667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.061587776988744736,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        122.44,
+        126.7
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 121317
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+    "captions_sha256": "7b2cb0ef2519ac9a8d26e875ae57e5f4ec2e77543ddf54b6951e03ca5ae131ec",
+    "transcript_sha256": "eb391d019975f88646406e49c8519966a7d5dfd3692b4319b80e6d7016b3157b",
+    "script_sha256": "2141aaae7c7e4a607ec0001b0e7417984c7360923daea4415e74211c402545a8",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 150,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.061587776988744736,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/29/00.jpg",
+        "ocr": "Follow an Algorithm\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 75.0833335,
+        "frame": "video-agent/video-corrections-35/frames/29/01.jpg",
+        "ocr": "Follow an Algorithm\n\nExample 1: explain\n\n6 xX 6 = 36\n\nNext: 7 is past its partner\n\nTest number\n\nDecision\n\nPartner / remainder\n\n36\n\nRecord pair\n\n18\n\nRecord pair\n\n12\n\nRecord pair\n\nS)\n\nRecord pair\n\nRemainder 1\n\nContinue\n\n6\n\nRecord pair\n\nFactors\u00bb 1; 2, 3, 4; :6,; 9; 12; 18, 36\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 150.04666699999999,
+        "frame": "video-agent/video-corrections-35/frames/29/02.jpg",
+        "ocr": "Follow an Algorithm\n\nWhat to remember\n\nTest \u2014- decide \u2014 record \u2014 increase\n\nStop before pairs repeat\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/factors-multiples-actual-outputs.jpg"
+    }
+  }
+}

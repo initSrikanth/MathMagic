@@ -1,0 +1,133 @@
+{
+  "number": 1,
+  "lesson": "Comparing and Ordering Fractions",
+  "source": "videos/fractions-2026/comparing-ordering.mp4",
+  "source_sha256": "dd552862abd39b1927c9694e0bfacbaefcf595ee7fcde13ddbf4721ca1835aed",
+  "candidate": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+  "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+  "bytes": 6449176,
+  "cut_seconds": 221.7674166666667,
+  "removed_caption": {
+    "start": 221.81741666666667,
+    "end": 224.28458333333333,
+    "text": "Try the practice on Math Magic.",
+    "source_sha256": "4489ad43a3153a0ddc195207cabdd0aa3501f7d0a7b8d1913778cf59e11dd632"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6656,
+      "original_packets": 6789,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 10397,
+      "original_packets": 10609,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    221.62741666666668,
+    221.91741666666667
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " AND ORDER FRACTIONS YOU CAN COMPARE EQUAL PARTS EXPLAIN A FAIR COMPARISON AND READ A NUMBER LINE WHICH MODEL WILL HELP YOU EXPLAIN YOUR NEXT ANSWER",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+    "duration": 221.866667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.15483203530311584,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        87.04,
+        90.26
+      ],
+      [
+        144.96,
+        148.16
+      ],
+      [
+        200.5,
+        205.70000000000002
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 245871
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+    "captions_sha256": "e6d3ab87266e6e330840d25709ff0973bca0e57c1869b18e04bb8a7348a6f34a",
+    "transcript_sha256": "589af7a0785d661854ef06f8174459014d22bf57348066fdba50a6c06bdb6518",
+    "script_sha256": "17962e8f1460ce713aa6373321799d5a9cb0ced2652df96e863ef367e17953a9",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 222,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.15483203530311584,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/01/00.jpg",
+        "ocr": "Comparing and Ordering Fractions\n\nA fraction puzzle for you\n\nA share of a chocolate bar\n\nee ee\n\nAnother share of the same-sized bar\n\nPo\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 110.9333335,
+        "frame": "video-agent/video-corrections-35/frames/01/01.jpg",
+        "ocr": "Comparing and Ordering Fractions\n\nOne piece: compare its size\n\n1\n\n1\n\nEe ee\n\n3\n\n6\n\nOne third\n\nPo\n\n|\n\nOne sixth\n\nal\n\n|\n\n|\n\n|\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 221.746667,
+        "frame": "video-agent/video-corrections-35/frames/01/02.jpg",
+        "ocr": "Comparing and Ordering Fractions\n\nLook what you can do now\n\nCompare and order fractions using models and reasoning\n\nCompare equal-sized parts\n\nExplain comparisons using models\n\nOrder fractions on a number line\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/fractions-actual-outputs.jpg"
+    }
+  }
+}

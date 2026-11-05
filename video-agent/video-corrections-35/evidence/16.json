@@ -1,0 +1,124 @@
+{
+  "number": 16,
+  "lesson": "Efficient Mental Strategies",
+  "source": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+  "source_sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+  "candidate": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+  "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+  "bytes": 2716199,
+  "cut_seconds": 138.34166666666667,
+  "removed_caption": {
+    "start": 138.51666666666668,
+    "end": 141.664375,
+    "text": "Have a go at the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4153,
+      "original_packets": 4269,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3244,
+      "original_packets": 3337,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    138.12666666666667,
+    138.56666666666666
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " SENSATION FOR FRIENDLY TOTALS EXPLAIN THE ADJUSTMENT AND CHECK USING THE INVERSE OPERATION NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+    "duration": 138.433333,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06168036162853241,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        112.26,
+        116.46000000000001
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 111933
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+    "captions_sha256": "d9b49771fb6ad3cc2f42c0fd3404e80c29da8937cf00647155b3ea3dfe7289a8",
+    "transcript_sha256": "30d074291e7dae88ee1643b115b5e93ece480e3b425182e77830d59de5cf4d48",
+    "script_sha256": "7447b5e3891ae1edddf701fb0c006f4e146021255fbf96da04ca63bb19244dcd",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 139,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06168036162853241,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/16/00.jpg",
+        "ocr": "Efficient Mental Strategies\n\nLet\u2019s investigate\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00b0 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 69.2166665,
+        "frame": "video-agent/video-corrections-35/frames/16/01.jpg",
+        "ocr": "Efficient Mental Strategies\n\nExample 1: explain\n\n6,000 + 4 = 6,004\n\n344=7\n\n6,004 \u20145,997 =7\n\n+3\n\n+4\n\n5,997\n\n6,000\n\n6,004\n\n5994\n\n6004\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 138.313333,
+        "frame": "video-agent/video-corrections-35/frames/16/02.jpg",
+        "ocr": "Efficient Mental Strategies\n\nWhat to remember\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00a2 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/addition-subtraction-actual-outputs.jpg"
+    }
+  }
+}

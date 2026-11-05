@@ -21,6 +21,21 @@ class VideoContractTests(unittest.TestCase):
  def test_preservation_edit_cannot_introduce_branding(self):
   row=json.loads(c.REGISTER.read_text())['records'][0]
   with self.assertRaisesRegex(AssertionError,'branding'):c.assert_preservation_edit_allowed(row,{'text':'Visit MathMagic'})
+ def test_scoped_correction_rejects_voice_replacement(self):
+  row=copy.deepcopy(json.loads(c.REGISTER.read_text())['records'][0]);row['correction']['type']='accent_replacement'
+  with self.assertRaisesRegex(AssertionError,'Voice/new-topic'):c.assert_scoped_correction_release([row])
+ def test_scoped_correction_cannot_claim_full_or_accent_approval(self):
+  row=copy.deepcopy(json.loads(c.REGISTER.read_text())['records'][0]);row['correction']['full_quality_status']='PASS'
+  with self.assertRaisesRegex(AssertionError,'must not claim'):c.assert_scoped_correction_release([row])
+ def test_scoped_correction_rejects_narration_regeneration(self):
+  row=copy.deepcopy(json.loads(c.REGISTER.read_text())['records'][0]);row['correction']['narration_regenerated']=True
+  with self.assertRaisesRegex(AssertionError,'Voice changes'):c.assert_scoped_correction_release([row])
+ def test_scoped_correction_is_bound_to_actual_bytes(self):
+  row=copy.deepcopy(json.loads(c.REGISTER.read_text())['records'][0]);row['correction']['replacement']['sha256']='0'*64
+  with self.assertRaisesRegex(AssertionError,'Correction bytes changed'):c.assert_scoped_correction_release([row])
+ def test_verified_scoped_corrections_can_release_without_full_quality_pass(self):
+  rows=[r for r in json.loads(c.REGISTER.read_text())['records'] if r.get('correction')]
+  self.assertEqual(len(rows),32);self.assertTrue(c.assert_scoped_correction_release(rows))
  def test_no_british_fallback_for_candidates(self):
   with self.assertRaisesRegex(AssertionError,'Unapproved voice'):c.assert_generation_allowed('remediation_candidate',[{'topic':'measurement','text':'Predict the length.'}],{'name':'bf_emma','speaker_id':7})
  def test_no_new_topic_in_candidate_mode(self):

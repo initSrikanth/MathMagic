@@ -7,6 +7,8 @@ const crypto=require('crypto');
 // players replace the removed Math Antics embeds. Keep the 14-resource minimum.
 // Five new graphics-only replacements explicitly authorised in this production mission.
 const fractionsBatch=require('../video-agent/fractions-graphics-2026/manifest.json');
+const correctionRelease=require('../video-agent/video-corrections-35/release.json');
+const scopedCorrections=new Map(correctionRelease.replacements.map(c=>[c.replacement.mp4,c]));
 const previousMedia=require('../video-agent/fractions-graphics-2026/previous-integrations.json');
 assert.strictEqual(fractionsBatch.lessons.length,5);
 const newFractions=new Map(fractionsBatch.lessons.map(l=>[l.src,l]));
@@ -85,7 +87,7 @@ for(const file of modules){
     assert(h.includes('href="'+fallback+'"'),file+' video needs a direct MP4 fallback link');
     if(!src.startsWith('https://')){
       const bytes=fs.readFileSync(src);
-      if(newVerified.has(src)){const expected=newVerified.get(src);assert.strictEqual(expected.status,'verified');assert.strictEqual(expected.presenter,false);assert.strictEqual(bytes.length,expected.bytes);assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256);}
+      if(newVerified.has(src)){const expected=newVerified.get(src);if(scopedCorrections.has(src)){const correction=scopedCorrections.get(src);assert.strictEqual(expected.status,'verified_scoped_correction');assert(['branding_only','mathematical_visual_only'].includes(correction.type));assert.strictEqual(correction.full_quality_status,'UNVERIFIED');assert.strictEqual(correction.accent_status,'UNVERIFIED');assert.strictEqual(correction.replacement.sha256,expected.sha256);assert.strictEqual(crypto.createHash('sha256').update(fs.readFileSync(correction.original.mp4)).digest('hex'),correction.original.expected_sha256,'Original correction backup changed');}else assert.strictEqual(expected.status,'verified');assert.strictEqual(expected.presenter,false);assert.strictEqual(bytes.length,expected.bytes);assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),expected.sha256);}
       assert(bytes.length>0&&bytes.subarray(4,8).toString()==='ftyp',src+' must be a real MP4, not a missing file or LFS pointer');
       if(src==='videos/MathMagic_Adding_Subtracting_Fractions_CORRECTED_1080p.mp4'){
         assert.strictEqual(crypto.createHash('sha256').update(bytes).digest('hex'),'48ef9512c531cc6450ee22048152dad4e6d3ab757b74bf88eacc639df27358db','Adding and Subtracting Fractions must preserve the approved corrected MP4 bytes');

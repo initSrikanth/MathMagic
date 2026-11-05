@@ -1,0 +1,272 @@
+{
+  "id": "multiplication-division-lesson1",
+  "topic": "multiplication-division",
+  "section": "lesson1",
+  "title": "Multiply Efficiently",
+  "file": "MathMagic_V2_multiplication_division_lesson1",
+  "beats": [
+    {
+      "text": "Could a large multiplication become three familiar facts? Today we are multiplying efficiently by breaking numbers into place-value parts. We will multiply each part and recombine the results, while keeping track of what each digit is worth.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "hide_labels": true
+      }
+    },
+    {
+      "text": "Our learning goal is to multiply whole numbers efficiently by partitioning place values.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Multiply whole numbers efficiently by partitioning place values."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can split a number into useful place-value parts. I can multiply every part and combine the products. I can use an estimate to check the answer.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Split a number into useful place-value parts.",
+        "2. Multiply every part and combine the products.",
+        "3. Use an estimate to check the answer."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Partitioning uses the distributive property: multiplying a sum gives the same result as multiplying each part and adding the partial products. Hundreds stay hundreds, tens stay tens, and ones stay ones until we regroup. Picture three equal rows with four counters in each. Splitting each row into two and two does not change the twelve counters.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 3,
+        "cols": 4,
+        "split": 2
+      }
+    },
+    {
+      "text": "Calculate three hundred and twenty-four times eight. Split three hundred and twenty-four into three hundred, twenty and four.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "324 \u00d7 8",
+        "300 \u00d7 8 = 2,400"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "\u00d7",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Twenty times eight is one hundred and sixty, and four times eight is thirty-two. Combine all three partial products to get two thousand five hundred and ninety-two.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "20 \u00d7 8 = 160",
+        "4 \u00d7 8 = 32"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "\u00d7",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Try four hundred and twenty-six times seven. Four hundred times seven gives two thousand eight hundred.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "426 \u00d7 7",
+        "400 \u00d7 7 = 2,800"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          400,
+          20,
+          6
+        ],
+        "other": 7,
+        "original": 426,
+        "operation": "\u00d7",
+        "reveal": 1,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Twenty times seven is one hundred and forty; six times seven is forty-two. Their sum is two thousand nine hundred and eighty-two. A result near three thousand fits our estimate.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "20 \u00d7 7 = 140",
+        "6 \u00d7 7 = 42"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "products",
+        "parts": [
+          400,
+          20,
+          6
+        ],
+        "other": 7,
+        "original": 426,
+        "operation": "\u00d7",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Remember to multiply every part, including the ones. Eight groups of four ones make thirty-two, not just four left unchanged. Combine all the partial products so none of the original amount is lost.",
+      "chapter": "Every part must be multiplied",
+      "equation": [],
+      "board": [
+        "300 \u00d7 8 = 2,400",
+        "20 \u00d7 8 = 160; 4 \u00d7 8 = 32"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "products",
+        "parts": [
+          300,
+          20,
+          4
+        ],
+        "other": 8,
+        "original": 324,
+        "operation": "\u00d7",
+        "reveal": 3,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "What is two hundred and three times four?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "203 \u00d7 4 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Two hundred times four is eight hundred, and three times four is twelve. Add them to get eight hundred and twelve.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "800 + 12 = 812",
+        "203 \u00d7 4 = 812"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "products",
+        "parts": [
+          200,
+          3
+        ],
+        "other": 4,
+        "original": 203,
+        "operation": "\u00d7",
+        "reveal": 2,
+        "side": "multiplicand"
+      }
+    },
+    {
+      "text": "Partition by place value, multiply every part, then add the partial products. Keep the value of each digit clear and use an estimate to check the scale of your answer. Choose a model and explain why your strategy works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Partition \u2192 multiply every part \u2192 combine",
+        "Estimate and check"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

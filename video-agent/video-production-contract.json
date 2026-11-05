@@ -1,7 +1,11 @@
 {
   "schema": 1,
   "scope": "All Year 5, Year 6 and Year 7 teaching videos; current remediation inventory is exactly 35 Year 5 core placements",
-  "applicable_year_levels": [5, 6, 7],
+  "applicable_year_levels": [
+    5,
+    6,
+    7
+  ],
   "production_hold": {
     "active": true,
     "reason": "Owner mandated individual 35-video quality audit and correction; no new topics or production batches",
@@ -130,5 +134,21 @@
     "graphics_only": true,
     "no_human_presenters_avatars_or_faces": true,
     "bright_readable_uncluttered": true
+  },
+  "scoped_correction_release": {
+    "authorised": true,
+    "authority": "Founder directive: deploy objectively verified branding-only and independently verified mathematical/visual corrections without waiting for unrelated accent review.",
+    "allowed_types": [
+      "branding_only",
+      "mathematical_visual_only"
+    ],
+    "existing_library_only": true,
+    "preserve_original_files": true,
+    "preserve_voice_no_synthesis_or_pitch_speed_changes": true,
+    "require_exact_bytes_and_scoped_evidence": true,
+    "require_sampled_actual_frame_review": true,
+    "full_quality_status_must_remain": "UNVERIFIED",
+    "accent_status_must_remain": "UNVERIFIED",
+    "perceptual_review_still_required_for_accent_replacements_and_full_quality": true
   }
 }

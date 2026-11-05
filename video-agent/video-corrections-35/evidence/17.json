@@ -1,0 +1,124 @@
+{
+  "number": 17,
+  "lesson": "Written Addition and Subtraction",
+  "source": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+  "source_sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+  "candidate": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+  "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+  "bytes": 3046929,
+  "cut_seconds": 152.37233333333333,
+  "removed_caption": {
+    "start": 152.547375,
+    "end": 155.69529166666666,
+    "text": "Have a go at the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4574,
+      "original_packets": 4690,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3573,
+      "original_packets": 3666,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    152.15733333333333,
+    152.59733333333332
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " ROW IS A PLACE HOLDER SO EXCHANGES MAY CROSS MORE THAN ONE COLUMN USE ADDITION TO CHECK SUBTRACTION NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+    "duration": 152.466667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06157028675079346,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        120.68,
+        124.9
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 123178
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+    "captions_sha256": "5ea07e443ee2229347b8ed47350701964e8d0a30d238b999229ba4563b65676c",
+    "transcript_sha256": "df202b2e7d57d50735f967b43490db0e0c06afec1181389b3f8cca5e37e0c8b6",
+    "script_sha256": "9ea5a84702096b059fb799e9db0c643adc25876dffc8f0a1daef5e1cd44007c5",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 152,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06157028675079346,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/17/00.jpg",
+        "ocr": "Written Addition and Subtraction\n\nLet\u2019s investigate\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00b0 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 76.2333335,
+        "frame": "video-agent/video-corrections-35/frames/17/01.jpg",
+        "ocr": "Written Addition and Subtraction\n\nExample 2: plan\n\n52,000 \u2014 27,684\n\n52,000 = 40,000 + 11,000 + 900 + 90 + 10\n\nae\n\n4\n\nThousands\n\n11\n\nHundreds\n\n9\n\nTens\n\n9\n\nOnes\n\n10\n\n\u2014\n\n3\n\n2\n\nQ.\n\nQ.\n\nQ.\n\nZ\n\nF 4\n\n6\n\n8\n\n4\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 152.346667,
+        "frame": "video-agent/video-corrections-35/frames/17/02.jpg",
+        "ocr": "Written Addition and Subtraction\n\nWhat to remember\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00a2 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/addition-subtraction-actual-outputs.jpg"
+    }
+  }
+}

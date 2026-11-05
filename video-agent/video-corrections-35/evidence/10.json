@@ -1,0 +1,133 @@
+{
+  "number": 10,
+  "lesson": "Compare, Order & Locate Decimals",
+  "source": "videos/whole-numbers-2026/lesson5.mp4",
+  "source_sha256": "5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831",
+  "candidate": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+  "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+  "bytes": 6250898,
+  "cut_seconds": 208.235625,
+  "removed_caption": {
+    "start": 208.290625,
+    "end": 211.478375,
+    "text": "Then try the lesson practice on Math Magic.",
+    "source_sha256": "5d29954460db2fb9424a6de484decadcdcc1d4bb80e071ff20433c7193077a56"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6250,
+      "original_packets": 6355,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 9763,
+      "original_packets": 9931,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    208.090625,
+    208.390625
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+    "duration": 208.333333,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.1583288311958313,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        59.76,
+        61.44
+      ],
+      [
+        104.46000000000001,
+        106.12
+      ],
+      [
+        162.14000000000001,
+        167.32
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 230995
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+    "captions_sha256": "582142eed139f0d1af026be4a3703bfb928e36a5ab0cbfd98365fa02ad48734c",
+    "transcript_sha256": "bb8cdc888078bc93e4e645393e20408c9167be2d2706ece518e494cd7d77fe85",
+    "script_sha256": "48023ae48ae9cb45970923060a32545853ae3678d017837efe0c654afb1efe73",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 208,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.1583288311958313,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/10/00.jpg",
+        "ocr": "Compare, Order & Locate Decimals\n\nThe longer-number trap\n\nDe\n\n1.40\n\n1.42\n\n1.44\n\n1.46\n\n1.48\n\n1.50\n\nEqual step: 0.01\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 104.1666665,
+        "frame": "video-agent/video-corrections-35/frames/10/01.jpg",
+        "ocr": "Compare, Order & Locate Decimals\n\nDisplay example two\n\n1.43 < 1.437 < 1.44\n\n1.437\n\n|\n\na\n\n1.40\n\n1.42\n\n1.44\n\n1.46\n\n1.48\n\n1.50\n\nEqual step: 0.01\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 208.213333,
+        "frame": "video-agent/video-corrections-35/frames/10/02.jpg",
+        "ocr": "Compare, Order & Locate Decimals\n\nLook what you can do now\n\nCompare, order and locate decimals through thousandths\n\nLine up places and use end zeros\n\nCompare and order decimals\n\nLocate decimals on a number line\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/whole-numbers-actual-outputs.jpg"
+    }
+  }
+}

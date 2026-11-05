@@ -1,0 +1,839 @@
+{
+  "slug": "equivalent",
+  "title": "Equivalent Fractions",
+  "section": "equivalent",
+  "goal": "Recognise, create and explain equivalent fractions.",
+  "criteria": [
+    "Spot equal amounts in different models",
+    "Create equivalent fractions",
+    "Simplify without changing the value"
+  ],
+  "hook": "Can a share change its name without getting any bigger? Imagine dividing your half of a ribbon into smaller pieces. Have you somehow gained more ribbon?",
+  "start": [
+    {
+      "n": 1,
+      "d": 2,
+      "label": "A half-length share",
+      "colour": "teal"
+    },
+    {
+      "n": 2,
+      "d": 4,
+      "label": "The same share with more divisions",
+      "colour": "gold"
+    }
+  ],
+  "goal_speech": "Today, we're learning to recognise, create and explain equivalent fractions: different names for exactly the same amount.",
+  "criteria_speech": [
+    "You'll recognise equal amounts, even when the pictures have different numbers of pieces.",
+    "You'll create a new fraction name by changing both numbers fairly.",
+    "You'll also simplify a fraction, and use a model to explain why its value stays the same."
+  ],
+  "closing": "We set out to recognise, create and explain equivalent fractions. You can split or group equal parts, change both numbers together, and check that the amount stays the same. How many names can you find for one half?",
+  "beats": [
+    {
+      "chapter": "A fraction puzzle for you",
+      "text": "Can a share change its name without getting any bigger? Imagine dividing your half of a ribbon into smaller pieces. Have you somehow gained more ribbon?",
+      "role": "hook",
+      "equation": null,
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "A half-length share",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "The same share with more divisions",
+          "colour": "gold"
+        }
+      ],
+      "note": "",
+      "pause": 0.7,
+      "hide_labels": true
+    },
+    {
+      "chapter": "Today\u2019s Learning Goal",
+      "text": "Today, we're learning to recognise, create and explain equivalent fractions: different names for exactly the same amount.",
+      "role": "goal",
+      "equation": null,
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "A half-length share",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "The same share with more divisions",
+          "colour": "gold"
+        }
+      ],
+      "note": "",
+      "pause": 0.6,
+      "display": "Recognise, create and explain equivalent fractions."
+    },
+    {
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You'll recognise equal amounts, even when the pictures have different numbers of pieces.",
+      "role": "criteria",
+      "equation": null,
+      "rows": [],
+      "note": "",
+      "pause": 0.2,
+      "criteria": [
+        "Spot equal amounts in different models",
+        "Create equivalent fractions",
+        "Simplify without changing the value"
+      ],
+      "active": 0
+    },
+    {
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You'll create a new fraction name by changing both numbers fairly.",
+      "role": "criteria",
+      "equation": null,
+      "rows": [],
+      "note": "",
+      "pause": 0.2,
+      "criteria": [
+        "Spot equal amounts in different models",
+        "Create equivalent fractions",
+        "Simplify without changing the value"
+      ],
+      "active": 1
+    },
+    {
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You'll also simplify a fraction, and use a model to explain why its value stays the same.",
+      "role": "criteria",
+      "equation": null,
+      "rows": [],
+      "note": "",
+      "pause": 0.2,
+      "criteria": [
+        "Spot equal amounts in different models",
+        "Create equivalent fractions",
+        "Simplify without changing the value"
+      ],
+      "active": 2
+    },
+    {
+      "chapter": "Start with the whole",
+      "text": "First, choose one whole. Its parts must be equal in size. The outline of the model shows the entire whole, not just the coloured share.",
+      "role": "explanation",
+      "equation": null,
+      "rows": [
+        {
+          "n": 0,
+          "d": 4,
+          "label": "One whole divided into four equal parts",
+          "colour": "teal"
+        }
+      ],
+      "note": "",
+      "pause": 0.5,
+      "hide_labels": true
+    },
+    {
+      "chapter": "Connect the picture to the numbers",
+      "text": "Here, three equal parts are chosen out of four. The top number, the numerator, counts chosen parts. The bottom number, the denominator, tells how many equal parts make the whole.",
+      "role": "explanation",
+      "equation": [
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three of four equal parts",
+          "colour": "teal"
+        }
+      ],
+      "note": "",
+      "pause": 0.6
+    },
+    {
+      "text": "If every half is split into two equal pieces, what will happen to the coloured amount? Predict its new fraction name.",
+      "chapter": "Example 1: rename a half",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "Before",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "After",
+          "colour": "gold"
+        }
+      ],
+      "note": "The whole and shaded amount stay the same.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "prediction",
+      "pause": 3,
+      "source_beat": 1,
+      "hide_equation": true,
+      "hide_labels": true
+    },
+    {
+      "text": "Start with one half. Split every part of the whole into two equal pieces. The shaded half now contains two quarters.",
+      "chapter": "Split every part equally",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "Before",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 4,
+          "label": "After",
+          "colour": "gold"
+        }
+      ],
+      "note": "The whole and shaded amount stay the same.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 1
+    },
+    {
+      "text": "Split every quarter in half again. Now four of eight equal pieces are shaded. One half, two quarters and four eighths are equivalent.",
+      "chapter": "Rename again",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 2,
+          "d": 4,
+          "label": "Two quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Smaller pieces, more pieces, same amount.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 2
+    },
+    {
+      "text": "Notice the coloured length stays fixed while the boundaries change. We aren't adding ribbon; we're choosing a new way to count equal-sized pieces.",
+      "chapter": "Why does that work?",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 2,
+          "d": 4,
+          "label": "Two quarters",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Smaller pieces, more pieces, same amount.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.65,
+      "source_beat": 2
+    },
+    {
+      "text": "The number rule matches the picture. Multiply the numerator and denominator by the same non-zero number.",
+      "chapter": "Scale both numbers",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "\u00d7",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 4,
+          "d": 8,
+          "label": "Four eighths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Multiplying by four over four is multiplying by one.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 3
+    },
+    {
+      "text": "Can you give three fifths a new name with twenty equal parts in the whole? Think about what changes and what must stay unchanged.",
+      "chapter": "Example 2: rename three fifths",
+      "equation": [
+        [
+          3,
+          5
+        ],
+        "\u00d7",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          12,
+          20
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 5,
+          "label": "Three fifths",
+          "colour": "teal"
+        },
+        {
+          "n": 12,
+          "d": 20,
+          "label": "Twelve twentieths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Both numbers change by the same factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "prediction",
+      "pause": 3,
+      "source_beat": 4,
+      "hide_equation": true,
+      "hide_labels": true
+    },
+    {
+      "text": "For three fifths, multiply both numbers by four. Three times four is twelve, and five times four is twenty.",
+      "chapter": "Worked example",
+      "equation": [
+        [
+          3,
+          5
+        ],
+        "\u00d7",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          12,
+          20
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 5,
+          "label": "Three fifths",
+          "colour": "teal"
+        },
+        {
+          "n": 12,
+          "d": 20,
+          "label": "Twelve twentieths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Both numbers change by the same factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 4
+    },
+    {
+      "text": "The whole has four times as many pieces, and the chosen share has four times as many pieces too. Changing both counts together keeps the share unchanged.",
+      "chapter": "Why does that work?",
+      "equation": [
+        [
+          3,
+          5
+        ],
+        "\u00d7",
+        [
+          4,
+          4
+        ],
+        "=",
+        [
+          12,
+          20
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 5,
+          "label": "Three fifths",
+          "colour": "teal"
+        },
+        {
+          "n": 12,
+          "d": 20,
+          "label": "Twelve twentieths",
+          "colour": "gold"
+        }
+      ],
+      "note": "Both numbers change by the same factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.65,
+      "source_beat": 4
+    },
+    {
+      "text": "Equivalent fractions also land at the same point on a number line. They are different names for one number.",
+      "chapter": "One position, many names",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "=",
+        [
+          2,
+          4
+        ],
+        "=",
+        [
+          4,
+          8
+        ]
+      ],
+      "rows": [],
+      "note": "One half, two quarters and four eighths meet here.",
+      "line": {
+        "d": 8,
+        "points": [
+          4
+        ],
+        "maximum": 1,
+        "jump": null
+      },
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 5
+    },
+    {
+      "text": "Simplifying works in reverse. Group equal pieces together instead of splitting them into smaller pieces.",
+      "chapter": "Simplify without changing value",
+      "equation": [
+        [
+          6,
+          8
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Six eighths",
+          "colour": "teal"
+        }
+      ],
+      "note": "Look for a common factor.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 6
+    },
+    {
+      "text": "Group the eighths in pairs. Six eighths becomes three quarters. We divided the numerator and denominator by two.",
+      "chapter": "Group the pieces",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "=",
+        [
+          "6 \u00f7 2",
+          "8 \u00f7 2"
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 6,
+          "d": 8,
+          "label": "Six eighths",
+          "colour": "teal"
+        },
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarters",
+          "colour": "gold"
+        }
+      ],
+      "note": "Three and four have no common factor greater than one.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 7
+    },
+    {
+      "text": "Try twelve eighteenths. Both twelve and eighteen divide by six. Twelve divided by six is two; eighteen divided by six is three.",
+      "chapter": "Another simplification",
+      "equation": [
+        [
+          12,
+          18
+        ],
+        "=",
+        [
+          "12 \u00f7 6",
+          "18 \u00f7 6"
+        ],
+        "=",
+        [
+          2,
+          3
+        ]
+      ],
+      "rows": [
+        {
+          "n": 12,
+          "d": 18,
+          "label": "Twelve eighteenths",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 3,
+          "label": "Two thirds",
+          "colour": "gold"
+        }
+      ],
+      "note": "Two thirds is in simplest form.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 8
+    },
+    {
+      "text": "Be careful: adding the same number to both numbers does not preserve the value. One half and two thirds are different amounts.",
+      "chapter": "Spot the mistake",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "\u2260",
+        [
+          2,
+          3
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 3,
+          "label": "Two thirds",
+          "colour": "gold"
+        }
+      ],
+      "note": "Use multiplication or division, not addition.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "misconception",
+      "pause": 0.35,
+      "source_beat": 9
+    },
+    {
+      "text": "Adding one to the top and bottom gives two thirds, not another name for one half. Compare the equal-length bars: the coloured amounts are different.",
+      "chapter": "A useful mistake to notice",
+      "equation": [
+        [
+          1,
+          2
+        ],
+        "\u2260",
+        [
+          2,
+          3
+        ]
+      ],
+      "rows": [
+        {
+          "n": 1,
+          "d": 2,
+          "label": "One half",
+          "colour": "teal"
+        },
+        {
+          "n": 2,
+          "d": 3,
+          "label": "Two thirds",
+          "colour": "gold"
+        }
+      ],
+      "note": "Use multiplication or division, not addition.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "misconception",
+      "pause": 0.65,
+      "source_beat": 9
+    },
+    {
+      "text": "We can also partition a fraction. Three quarters is three one-quarter pieces added together.",
+      "chapter": "Break an amount into parts",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "=",
+        [
+          1,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Three quarter-pieces",
+          "colour": "teal"
+        }
+      ],
+      "note": "Partitioning keeps the total amount unchanged.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 10
+    },
+    {
+      "text": "Two quarters make one half, so three quarters is also one half plus one quarter. Different partitions can describe the same amount.",
+      "chapter": "Another useful partition",
+      "equation": [
+        [
+          3,
+          4
+        ],
+        "=",
+        [
+          1,
+          2
+        ],
+        "+",
+        [
+          1,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "n": 3,
+          "d": 4,
+          "label": "Two quarters plus one quarter",
+          "colour": "teal"
+        }
+      ],
+      "note": "One amount can be split in different ways.",
+      "line": null,
+      "area": null,
+      "context": null,
+      "role": "explanation",
+      "pause": 0.35,
+      "source_beat": 11
+    },
+    {
+      "chapter": "Your turn: think for five seconds",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "?",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Think for five seconds, then explain your reasoning.",
+      "text": "Is six eighths equivalent to three quarters?",
+      "pause": 5,
+      "role": "question",
+      "source_beat": 12,
+      "hide_equation": false
+    },
+    {
+      "chapter": "Let\u2019s check",
+      "equation": [
+        [
+          6,
+          8
+        ],
+        "=",
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "Explain why your answer makes sense.",
+      "text": "Yes. Dividing both six and eight by two gives three quarters.",
+      "pause": 0.35,
+      "role": "answer",
+      "source_beat": 13
+    },
+    {
+      "chapter": "Look what you can do now",
+      "text": "We set out to recognise, create and explain equivalent fractions. You can split or group equal parts, change both numbers together, and check that the amount stays the same. How many names can you find for one half?",
+      "role": "recap",
+      "equation": null,
+      "rows": [],
+      "note": "",
+      "pause": 2,
+      "display": "Recognise, create and explain equivalent fractions.",
+      "criteria": [
+        "Spot equal amounts in different models",
+        "Create equivalent fractions",
+        "Simplify without changing the value"
+      ]
+    }
+  ],
+  "file": "videos/fractions-2026/equivalent",
+  "topic": "fractions"
+}
