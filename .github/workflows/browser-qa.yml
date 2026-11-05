@@ -21,6 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Provide media inspection dependency
+        run: |
+          command -v ffprobe || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
       - name: Enforce teaching-video production contract
         env:
           VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}

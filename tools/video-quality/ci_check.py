@@ -33,7 +33,7 @@ if selected:
   inspect_math(script)
   for field in ['captions','transcript']:assert not branded((ROOT/target[field]).read_text(),c),r['lesson']+' branded '+field
   if not r.get('correction'):
-   voice=target.get('voice',r['voice']);assert voice.get('name')==c['approved_voice']['voice'] and voice.get('speaker_id')==c['approved_voice']['speaker_id'],r['lesson']+' voice mismatch'
+   voice=target.get('voice',r['voice']);assert voice.get('name',voice.get('voice'))==c['approved_voice']['voice'] and voice.get('speaker_id')==c['approved_voice']['speaker_id'],r['lesson']+' voice mismatch'
  narrated=[r for r in selected if r.get('narration_replacement')]
  if narrated:verify_narration(narrated)
  scoped=[r for r in selected if r.get('correction') and not r.get('narration_replacement')];full=[r for r in selected if not r.get('correction') and not r.get('narration_replacement')]

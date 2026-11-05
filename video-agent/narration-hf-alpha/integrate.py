@@ -14,7 +14,7 @@ def main():
   e=json.loads(evpath.read_text());s=r.get('active_media') or dict(mp4=r['mp4'],sha256=r['expected_sha256'],bytes=r['expected_bytes'],captions=r['captions'],transcript=r['transcript'],poster=r['poster'],script=r['script'],duration=r['duration'])
   assert e['source']==s['mp4'] and e['source_sha256']==s['sha256']
   dest=ROOT/'videos/hf-alpha'/r['topic'];dest.mkdir(parents=True,exist_ok=True);f=dest/(Path(s['mp4']).stem+'-hf-alpha.mp4');source=folder/e['file'];assert sha(source)==e['sha256'];shutil.copy2(source,f)
-  cap=f.with_suffix('.vtt');cap.write_bytes((ROOT/s['captions']).read_bytes());txt=f.with_name(f.stem+'_transcript.txt');txt.write_bytes((ROOT/s['transcript']).read_bytes())
+  cap=f.with_suffix('.vtt');cap.write_bytes((folder/'Multiply_Efficiently_HFAlpha_Narration_Review_1080p.vtt').read_bytes());txt=f.with_name(f.stem+'_transcript.txt');txt.write_bytes((ROOT/s['transcript']).read_bytes())
   t=dict(s,mp4=str(f.relative_to(ROOT)),sha256=sha(f),bytes=f.stat().st_size,captions=str(cap.relative_to(ROOT)),transcript=str(txt.relative_to(ROOT)),duration=e['duration'])
   c=dict(number=r['number'],page=r['page'],section=r['lesson_section'],previous=s,replacement=t,evidence=str(evpath.relative_to(ROOT)),owner_authorised=True,perceptual_status='UNVERIFIED',deployed=False)
   r['narration_replacement']=c;verify([r]);r['active_media']=t;r['previous_voice']=r['voice'];r['voice']=e['voice'];r['accent_status']='UNVERIFIED';r['full_quality_status']='UNVERIFIED';releases.append(c)

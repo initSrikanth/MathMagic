@@ -32,6 +32,64 @@
       "deployed": false
     },
     {
+      "number": 12,
+      "page": "decimals-percentages.html",
+      "section": "compare",
+      "previous": {
+        "mp4": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
+        "sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
+        "bytes": 2488493,
+        "captions": "videos/MathMagic_V2_decimals_percentages_compare.vtt",
+        "transcript": "videos/MathMagic_V2_decimals_percentages_compare_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+        "duration": 130.846
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+        "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+        "bytes": 2124208,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+        "duration": 130.846
+      },
+      "evidence": "video-agent/narration-hf-alpha/12/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 13,
+      "page": "decimals-percentages.html",
+      "section": "percent",
+      "previous": {
+        "mp4": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
+        "sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
+        "bytes": 2376922,
+        "captions": "videos/MathMagic_V2_decimals_percentages_percent.vtt",
+        "transcript": "videos/MathMagic_V2_decimals_percentages_percent_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+        "duration": 121.366667
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+        "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+        "bytes": 2058926,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+        "duration": 121.367
+      },
+      "evidence": "video-agent/narration-hf-alpha/13/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
       "number": 21,
       "page": "multiplication-division.html",
       "section": "lesson1",

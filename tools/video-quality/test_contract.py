@@ -62,4 +62,18 @@ class VideoContractTests(unittest.TestCase):
   files=json.loads((Path(__file__).parent/'guarded-entries.json').read_text())
   self.assertGreaterEqual(len(files),16)
   for name in files:self.assertTrue(any(isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=='_vq_enforce' for n in ast.walk(ast.parse((c.ROOT/name).read_text()))),name)
+class NarrationRemediationTests(unittest.TestCase):
+ def row(self):return copy.deepcopy(next(r for r in json.loads(c.REGISTER.read_text())['records'] if r.get('narration_replacement')))
+ def test_unapproved_voice_replacement_is_rejected(self):
+  from narration_release import verify
+  r=self.row();r['narration_replacement']['owner_authorised']=False
+  with self.assertRaises(AssertionError):verify([r])
+ def test_replacement_cannot_claim_perceptual_pass(self):
+  from narration_release import verify
+  r=self.row();r['narration_replacement']['perceptual_status']='PASS'
+  with self.assertRaises(AssertionError):verify([r])
+ def test_scope_excludes_other_fifteen_narrations(self):
+  from narration_release import verify
+  r=self.row();r['number']=31
+  with self.assertRaises(AssertionError):verify([r])
 if __name__=='__main__':unittest.main()

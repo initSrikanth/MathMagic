@@ -7115,13 +7115,18 @@
       "expected_sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
       "duration": 130.846,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/decimals-release.json",
@@ -7547,6 +7552,54 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 12,
+        "page": "decimals-percentages.html",
+        "section": "compare",
+        "previous": {
+          "mp4": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
+          "sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
+          "bytes": 2488493,
+          "captions": "videos/MathMagic_V2_decimals_percentages_compare.vtt",
+          "transcript": "videos/MathMagic_V2_decimals_percentages_compare_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+          "duration": 130.846
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+          "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+          "bytes": 2124208,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+          "duration": 130.846
+        },
+        "evidence": "video-agent/narration-hf-alpha/12/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "active_media": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+        "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+        "bytes": 2124208,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+        "duration": 130.846
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
@@ -7561,13 +7614,18 @@
       "expected_sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
       "duration": 121.366667,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/decimals-release.json",
@@ -8017,6 +8075,54 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 13,
+        "page": "decimals-percentages.html",
+        "section": "percent",
+        "previous": {
+          "mp4": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
+          "sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
+          "bytes": 2376922,
+          "captions": "videos/MathMagic_V2_decimals_percentages_percent.vtt",
+          "transcript": "videos/MathMagic_V2_decimals_percentages_percent_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+          "duration": 121.366667
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+          "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+          "bytes": 2058926,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+          "duration": 121.367
+        },
+        "evidence": "video-agent/narration-hf-alpha/13/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "active_media": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+        "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+        "bytes": 2058926,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+        "script": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+        "duration": 121.367
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
