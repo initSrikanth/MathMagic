@@ -1,0 +1,133 @@
+{
+  "number": 3,
+  "lesson": "Mixed Numbers and Improper Fractions",
+  "source": "videos/fractions-2026/mixed-improper.mp4",
+  "source_sha256": "10bafdfff315211890bb9dfca478d0ecf1ba31439234ee58bc402f5b3d5db844",
+  "candidate": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+  "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+  "bytes": 7301766,
+  "cut_seconds": 241.31720833333333,
+  "removed_caption": {
+    "start": 241.35720833333335,
+    "end": 244.63779166666666,
+    "text": "Try drawing it, then practise on Math Magic.",
+    "source_sha256": "7eafda4caaa1586b32fe4c14fc8055a79a51c642d8f028e11a53eab7cc7c8c22"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 7242,
+      "original_packets": 7400,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 11313,
+      "original_packets": 11564,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    241.18720833333333,
+    241.4572083333333
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " AND IMPROPER FRACTIONS YOU CAN BUILD HOLES COUNT THE LEFT OVER PARTS AND CONVERT IN EITHER DIRECTION BEFORE CALCULATING WHAT WOULD YOUR AMOUNT LOOK LIKE",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+    "duration": 241.4,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.15560278296470642,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        63.86,
+        67.06
+      ],
+      [
+        125.52,
+        128.68
+      ],
+      [
+        220.64000000000001,
+        225.82
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 267407
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+    "captions_sha256": "939a2219b70e14920f962ee5049c96550720bf0372dc095389b0024714f104ae",
+    "transcript_sha256": "df30c248d3de2d5b5cfc7ddd46896f5e1ee31283f430c2721cf624080ff1d2e2",
+    "script_sha256": "36a6e41a4b8bdd7b19ce41ed7a5d94913737202732a9c8665d395ed847f33cc0",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 241,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.15560278296470642,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/03/00.jpg",
+        "ocr": "Mixed Numbers and Improper Fractions\n\nA fraction puzzle for you\n\nEleven equal quarter-pieces\n\na\n\n|\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 120.7,
+        "frame": "video-agent/video-corrections-35/frames/03/01.jpg",
+        "ocr": "Example 2: count all the parts\n\nOne whole\n\nPi hl a\n\nOne whole\n\na a ee\n\nOne whole\n\nSs |\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 241.28,
+        "frame": "video-agent/video-corrections-35/frames/03/02.jpg",
+        "ocr": "Mixed Numbers and Improper Fractions\n\nLook what you can do now\n\nRepresent and convert mixed numbers and improper fractions\n\nBuild wholes from equal parts\n\nConvert between the two forms\n\nCheck the value with a model\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/fractions-actual-outputs.jpg"
+    }
+  }
+}

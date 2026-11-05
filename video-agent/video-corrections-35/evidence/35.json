@@ -1,0 +1,148 @@
+{
+  "number": 35,
+  "lesson": "Design with Irregular Shapes",
+  "source": "videos/MathMagic_V3_measurement_lesson5.mp4",
+  "source_sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+  "candidate": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+  "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+  "bytes": 3102341,
+  "cut_seconds": 146.89141666666666,
+  "removed_caption": {
+    "start": 146.9164571126302,
+    "end": 150.97525000000002,
+    "text": "Now try the MathMagic practice, and explain your thinking to someone."
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4409,
+      "original_packets": 4529,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3444,
+      "original_packets": 3540,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    146.81641666666667,
+    146.97641666666667
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " ON SQUARED PAPER AND EXPLAIN A PAVING PLAN AND A FENCING PLAN CHECK THAT YOUR ANSWERS DESCRIBE THE ACTUAL DESIGN REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+  "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+  "candidate_automated_evidence": {
+    "sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+    "duration": 146.966667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.13361456990242004,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 118726
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "metadata_timing_correction": {
+    "old_sha256": "f1250f5a408631d398b38d7c8ec65590bff5cb5d55511066d92ba8364c800f15",
+    "new_sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+    "edits": [
+      {
+        "box": "mvhd",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      },
+      {
+        "box": "tkhd",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      },
+      {
+        "box": "elst",
+        "old_ticks": 147067,
+        "new_ticks": 146967,
+        "timescale": 1000
+      }
+    ],
+    "all_h264_and_aac_packet_payloads_unchanged": true,
+    "full_decode": true,
+    "target_duration": 146.966667,
+    "reason": "WebKit used movie/edit-list duration while Chromium/ffprobe used frame-count duration. Normalise the movie window without encoding, stretching or changing narration."
+  },
+  "scoped_qa": {
+    "mp4_sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+    "captions_sha256": "665a4944a4a3d3c910d89aa45e682bbe1e1cdbb73e25cd70a91b27efe7227e27",
+    "transcript_sha256": "84572129354584d41aed894c98f5b43150dfcb807c330c403f97af7fe7ff51d2",
+    "script_sha256": "3fcdeb5aab8c6cef886640495873b0e426f9351b3f4662a811520a1da2d7b959",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 147,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.13361456990242004,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/35/00.jpg",
+        "ocr": "Design with Irregular Shapes\n\nLet\u2019s investigate\n\n8m\n\n6m\n\n3m\n\n2m\n\nee\n\nEqual unit squares; no gaps or overlaps\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 73.4833335,
+        "frame": "video-agent/video-corrections-35/frames/35/01.jpg",
+        "ocr": "Design with Irregular Shapes\n\nExample 2: plan\n\n10m\n\n8m\n\n4m\n\n3m\n\n|\n\nEqual unit squares; no gaps or overlaps\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 146.846667,
+        "frame": "video-agent/video-corrections-35/frames/35/02.jpg",
+        "ocr": "Design with Irregular Shapes\n\nWhat to remember\n\nArea: split or subtract rectangles.\n\nPerimeter: trace the outside boundary.\n\nPlan, calculate and check the real design.\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/measurement-actual-outputs.jpg"
+    },
+    "metadata_only_review_carry_forward": "All encoded payloads and sampled decoded JPEGs are identical to inspected f8f6c18 images; only MP4 duration/edit metadata changed."
+  }
+}

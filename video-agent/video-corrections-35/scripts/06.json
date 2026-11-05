@@ -1,0 +1,370 @@
+{
+  "id": "whole-numbers-lesson1",
+  "topic": "whole-numbers",
+  "section": "lesson1",
+  "title": "Understanding Place Value",
+  "file": "videos/whole-numbers-2026/lesson1",
+  "beats": [
+    {
+      "role": "hook",
+      "chapter": "A digit with two jobs",
+      "text": "Imagine two identical digits applying for different jobs in a giant number. One earns ten times as much as its neighbour! How can the very same digit have such different values? Let\u2019s uncover its place-value secret.",
+      "board": [],
+      "model": {
+        "type": "place",
+        "digits": "055000",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "role": "goal",
+      "chapter": "Today\u2019s Learning Goal",
+      "text": "Today, we\u2019re learning to explain how a digit\u2019s place changes its value in a whole number.",
+      "board": [],
+      "model": null,
+      "display": "Explain how a digit\u2019s place changes its value in a whole number."
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to name a digit\u2019s place and give its value.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name a digit\u2019s place and value",
+        "Explain a number using a chart",
+        "Explain the ten-times relationship"
+      ],
+      "active": 0
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to use a place-value chart to explain a number.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name a digit\u2019s place and value",
+        "Explain a number using a chart",
+        "Explain the ten-times relationship"
+      ],
+      "active": 1
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to explain why the same digit is worth ten times as much one place to the left.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name a digit\u2019s place and value",
+        "Explain a number using a chart",
+        "Explain the ten-times relationship"
+      ],
+      "active": 2
+    },
+    {
+      "text": "What makes the same digit worth ten times as much? Its position does. In our base ten system, ten ones make one ten, and ten tens make one hundred. Each place is ten times the place immediately to its right.",
+      "chapter": "One place changes the value",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "array",
+        "rows": 1,
+        "cols": 10
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Read the place first",
+      "text": "Look at the seven in this number. Before I explain, predict which place it holds. Remember to count from ones at the right.",
+      "board": [
+        "472,631: value of 7 = ?"
+      ],
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Look at four hundred and seventy two thousand, six hundred and thirty one. Put each digit into its own column, from hundred thousands down to ones. The seven is in the ten thousands column. Its value is seventy thousand, not seven thousand.",
+      "chapter": "Read the place, then the value",
+      "equation": [],
+      "board": [
+        "7 \u00d7 10,000 = 70,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "text": "The two stands for two thousand, the six for six hundred, and the three for thirty. Reading the number in groups helps: four hundred and seventy two thousand, then six hundred and thirty one. Every digit has a job.",
+      "chapter": "Every digit has a value",
+      "equation": [],
+      "board": [
+        "2,000 + 600 + 30 + 1",
+        "472,631"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "highlight": 2,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Same digit, new place",
+      "text": "Now look at these two fives. Which one has the greater value? Point to its column before we compare.",
+      "board": [
+        "55,000: compare the two fives"
+      ],
+      "model": {
+        "type": "place",
+        "digits": "055000",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Now compare the two fives in fifty five thousand. The first five represents fifty thousand. The second represents five thousand. Fifty thousand is ten times five thousand, even though the digits look the same.",
+      "chapter": "Same digit, different places",
+      "equation": [],
+      "board": [
+        "50,000 and 5,000",
+        "50,000 = 10 \u00d7 5,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "055000",
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "text": "This relationship helps us multiply and divide whole numbers by ten. Thirty four times ten is three hundred and forty. Each digit takes a place worth ten times as much. Three hundred and forty divided by ten returns thirty four.",
+      "chapter": "Ten times as much",
+      "equation": [],
+      "board": [
+        "34 \u00d7 10 = 340",
+        "340 \u00f7 10 = 34"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "compare",
+        "numbers": [
+          "000034",
+          "000340"
+        ],
+        "highlight": 4,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "The digit is not its value",
+      "text": "A common mix-up is saying that the seven here is just worth seven. Seven names the digit, but its column tells us its value. In the ten-thousands column, it represents seven groups of ten thousand.",
+      "board": [
+        "Digit: 7",
+        "Value: 70,000"
+      ],
+      "model": {
+        "type": "place",
+        "digits": "472631",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "text": "In 583,214, what is the value of the eight?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "583,214: value of 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 5,
+      "model": {
+        "type": "place",
+        "digits": "583214",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "text": "The eight is in the ten-thousands place. Its value is eighty thousand.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "8 \u00d7 10,000 = 80,000"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "place",
+        "digits": "583214",
+        "highlight": 1,
+        "labels": [
+          "Hundred\nthousands",
+          "Ten\nthousands",
+          "Thousands",
+          "Hundreds",
+          "Tens",
+          "Ones"
+        ]
+      }
+    },
+    {
+      "text": "Try the page example: five hundred and eighty three thousand, two hundred and fourteen. The eight is in the ten thousands place, so it represents eighty thousand. Remember: name the place first, then work out the value. One place left means ten times as much.",
+      "chapter": "Recap: place first, value second",
+      "equation": [],
+      "board": [
+        "583,214 \u2192 8 means 80,000",
+        "One place left: \u00d7 10"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "text": "Our goal was to explain how a digit\u2019s place changes its value in a whole number. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby.",
+      "board": [],
+      "model": null,
+      "display": "Explain how a digit\u2019s place changes its value in a whole number.",
+      "criteria": [
+        "Name a digit\u2019s place and value",
+        "Explain a number using a chart",
+        "Explain the ten-times relationship"
+      ]
+    }
+  ],
+  "slug": "lesson1",
+  "default_model": {
+    "type": "place",
+    "digits": "055000",
+    "highlight": 1,
+    "labels": [
+      "Hundred\nthousands",
+      "Ten\nthousands",
+      "Thousands",
+      "Hundreds",
+      "Tens",
+      "Ones"
+    ]
+  }
+}

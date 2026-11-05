@@ -1,0 +1,133 @@
+{
+  "number": 5,
+  "lesson": "Fraction Word Problems",
+  "source": "videos/fractions-2026/word-problems.mp4",
+  "source_sha256": "021eaa0261cb82adb3b5d6faf32e6556cc6691a4da5ab5629a251cb957ad4396",
+  "candidate": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+  "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+  "bytes": 6703094,
+  "cut_seconds": 227.41991666666667,
+  "removed_caption": {
+    "start": 227.47491666666667,
+    "end": 231.157375,
+    "text": "Give it a try, then explore the practice on Math Magic.",
+    "source_sha256": "d51e46f7ff542ee50ab26b622fd0665e63c27ee0ab699598c5d4afc4d70e3c91"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6825,
+      "original_packets": 6995,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 10662,
+      "original_packets": 10931,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    227.27491666666666,
+    227.57491666666667
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " FRACTION PROBLEMS IDENTIFY THE WHOLE MODEL THE RELATIONSHIP CALCULATE AND CHECK THE UNIT COULD YOU INVENT A FRACTION STORY ABOUT YOUR OWN DAY",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+    "duration": 227.5,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.15605224668979645,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        64.14,
+        67.34
+      ],
+      [
+        108.88,
+        112.10000000000001
+      ],
+      [
+        203.62,
+        208.78
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 252029
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+    "captions_sha256": "9f3bd2e98b306530ea0638dfe5326536f81d364f99f40d0891c74954b8149344",
+    "transcript_sha256": "debea2c74fad69fff5ddbdc03dc86a151e15b30b977d8faa6e37a216a0c33d30",
+    "script_sha256": "30ef2973acb23b30393268f0053b809eebf7df1ab9c247bedf025cd4ef2311e6",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 228,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.15605224668979645,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/05/00.jpg",
+        "ocr": "Fraction Word Problems\n\nA fraction puzzle for you\n\nA recipe amount\n\nPo\n\nAnother recipe amount\n\nPo\n\n|\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 113.75,
+        "frame": "video-agent/video-corrections-35/frames/05/01.jpg",
+        "ocr": "Fraction Word Problems\n\nCut a ribbon\n\n_ 3\n\n2\n\n\u2014\u2014\n\n4\n\nFirst metre\n\nee ee\n\nSecond metre\n\nrr rr ee\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 227.38,
+        "frame": "video-agent/video-corrections-35/frames/05/02.jpg",
+        "ocr": "Fraction Word Problems\n\nLook what you can do now\n\nModel everyday fraction problems and explain a suitable\n\nstrategy.\n\nIdentify the whole and the unit\n\nChoose and model a strategy\n\nCalculate, explain and check\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/fractions-actual-outputs.jpg"
+    }
+  }
+}

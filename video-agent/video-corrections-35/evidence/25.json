@@ -1,0 +1,124 @@
+{
+  "number": 25,
+  "lesson": "Unknowns, Estimation and Modelling",
+  "source": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+  "source_sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+  "candidate": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+  "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+  "bytes": 2985219,
+  "cut_seconds": 146.72666666666666,
+  "removed_caption": {
+    "start": 146.89670833333332,
+    "end": 150.008375,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4404,
+      "original_packets": 4520,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3440,
+      "original_packets": 3533,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    146.50666666666666,
+    146.95666666666665
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " AND ESTIMATE BEFORE CALCULATING CHECK BY SUBSTITUTION AND STATE WHAT THE RESULT MEANS IN THE PROBLEM CHOOSE A MODEL AND EXPLAIN WHY YOUR STRATEGY WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+    "duration": 146.8,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06091530993580818,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        122.02,
+        126.22
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 118644
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+    "captions_sha256": "9dc1a11a5284e58727f4b158e159a94a187e8e5738d13d0f8d204e7329f78f15",
+    "transcript_sha256": "241e437219710ab2dcb25440e6e7fab09305a265faf671f29d18eb5108dba4c9",
+    "script_sha256": "584a660dc63beaf45862fc996da4947def32b3878eef9078b685a5ba3d6eb953",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 147,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06091530993580818,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/25/00.jpg",
+        "ocr": "Unknowns, Estimation and Modelling\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 73.4,
+        "frame": "video-agent/video-corrections-35/frames/25/01.jpg",
+        "ocr": "Unknowns, Estimation and Modelling\n\nExample 1: explain\n\n70 x 24 = 1,680\n\n1,680 + 24 = 70\n\nEqual-group relationship\n\nNumber of groups\n\nIn each group\n\nTotal\n\n70\n\n24\n\n1,680\n\n70 x 24 = 1,680\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 146.68,
+        "frame": "video-agent/video-corrections-35/frames/25/02.jpg",
+        "ocr": "Unknowns, Estimation and Modelling\n\nWhat to remember\n\nModel \u2014 estimate \u2014 calculate \u2014 check\n\nUse exact values for an inverse check\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/multiplication-division-actual-outputs.jpg"
+    }
+  }
+}

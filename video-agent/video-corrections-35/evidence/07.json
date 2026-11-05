@@ -1,0 +1,133 @@
+{
+  "number": 7,
+  "lesson": "Expanded Form & Representing Numbers",
+  "source": "videos/whole-numbers-2026/lesson2.mp4",
+  "source_sha256": "e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52",
+  "candidate": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+  "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+  "bytes": 6515176,
+  "cut_seconds": 206.48195833333335,
+  "removed_caption": {
+    "start": 206.53195833333334,
+    "end": 209.71975,
+    "text": "Then try the lesson practice on Math Magic.",
+    "source_sha256": "bd3e5c67a871736d618226bff00bea66256633ab7b5cb23f1df99fed1c7327c5"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6197,
+      "original_packets": 6303,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 9680,
+      "original_packets": 9850,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    206.34195833333334,
+    206.63195833333333
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " YOU YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+    "duration": 206.566667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.15786902606487274,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        58.9,
+        60.58
+      ],
+      [
+        119.36,
+        121.06
+      ],
+      [
+        160.1,
+        165.3
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 229031
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+    "captions_sha256": "6e9da96975a073edcf764532b4c890f26e7f3aeb4f714ee42067b0263031fbde",
+    "transcript_sha256": "dab933ea8afa51721c6638aaacaf86c70a3bc78708ef836554545dc81716762f",
+    "script_sha256": "a76626501f2af9902afd06e14617fb4710f6aad11edbb949c16d2ec2e1eaf8db",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 207,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.15786902606487274,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/07/00.jpg",
+        "ocr": "Expanded Form & Representing Numbers\n\nOne number, many disguises\n\nHundred\n\nThousands\n\nHundreds\n\nTens\n\nOnes\n\nthousands\n\n4\n\n6\n\n2\n\n7\n\n5\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 103.2833335,
+        "frame": "video-agent/video-corrections-35/frames/07/01.jpg",
+        "ocr": "Expanded Form & Representing Numbers\n\nConnect the three forms\n\nFour hundred and six thousand,\n\ntwo hundred and seventy-five\n\nWords \u00a2 406,275 \u00a9 expanded form\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 206.446667,
+        "frame": "video-agent/video-corrections-35/frames/07/02.jpg",
+        "ocr": "Expanded Form & Representing Numbers\n\nLook what you can do now\n\nRead, write and regroup a whole number without changing its\n\nvalue.\n\nConnect digits, words and expanded form\n\nExplain zero as a placeholder\n\nRegroup without changing the value\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/whole-numbers-actual-outputs.jpg"
+    }
+  }
+}

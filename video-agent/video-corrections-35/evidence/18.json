@@ -1,0 +1,124 @@
+{
+  "number": 18,
+  "lesson": "Estimate and Check",
+  "source": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+  "source_sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+  "candidate": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+  "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+  "bytes": 2852265,
+  "cut_seconds": 143.54054166666668,
+  "removed_caption": {
+    "start": 143.71554166666667,
+    "end": 146.86345833333334,
+    "text": "Have a go at the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4309,
+      "original_packets": 4425,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3366,
+      "original_packets": 3459,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    143.32554166666668,
+    143.76554166666665
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " EXACT RESULT DIFFERENT USEFUL ESTIMATES ARE PASSABLE ALWAYS EXPLAIN YOUR ROUNDING CHOICE NOW CHOOSE A STRATEGY AND EXPLAIN WHY IT WORKS",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+    "duration": 143.633333,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06078050658106804,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        113.46000000000001,
+        117.68
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 116124
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+    "captions_sha256": "6438dd3067dc3212e39373199575980cdfc5a9995b0c6f052126937cb798e30a",
+    "transcript_sha256": "d9ee7b5394952a408e47cd48844f04ae1b94073d1ff2eb014df6ad3acd4744fe",
+    "script_sha256": "e913429fc8bf21b68cc947290c5733bc8d15f941481ac7e56cb43c6aa62ca8a7",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 144,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06078050658106804,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/18/00.jpg",
+        "ocr": "Estimate and Check\n\nLet\u2019s investigate\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00b0 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 71.8166665,
+        "frame": "video-agent/video-corrections-35/frames/18/01.jpg",
+        "ocr": "Estimate and Check\n\nExample 2: plan\n\n6,032 \u2014 3,937\n\n8,000 \u2014 4,000 = 4,000\n\n4,000\n\n3900\n\n4100\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 143.513333,
+        "frame": "video-agent/video-corrections-35/frames/18/02.jpg",
+        "ocr": "Estimate and Check\n\nWhat to remember\n\nParts combine to make a total.\n\nKnown part\n\nTotal\n\nAdd parts \u00a2 Find a difference * Check the relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/addition-subtraction-actual-outputs.jpg"
+    }
+  }
+}

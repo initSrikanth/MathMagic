@@ -1,0 +1,124 @@
+{
+  "number": 28,
+  "lesson": "Use Divisibility Rules",
+  "source": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+  "source_sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+  "candidate": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+  "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+  "bytes": 2878314,
+  "cut_seconds": 146.37383333333332,
+  "removed_caption": {
+    "start": 146.54883333333333,
+    "end": 149.6605,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4394,
+      "original_packets": 4509,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3432,
+      "original_packets": 3524,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    146.14883333333333,
+    146.60883333333334
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " VISIBILITY RULES ARE SHORT CUTS FOR EXACT DIVISION DECISIONS AND MULTIPLICATION CAN CONFIRM THE RESULT REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+    "duration": 146.466667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06200956553220749,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        112.7,
+        116.92
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 118372
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+    "captions_sha256": "e8946c7b151edd3110daaf309ddda4604bb8c80e2a8dc8a43b60efabbbba1948",
+    "transcript_sha256": "13a42f42a5ec34e0be3dc7d69b49ca314f51c92bc5141cba3087ec949118cfc1",
+    "script_sha256": "1508bb95b42af5b48c897faaf66fb281d9a25d2c846518ffd317b8973cc9f316",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 147,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06200956553220749,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/28/00.jpg",
+        "ocr": "Use Divisibility Rules\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 73.2333335,
+        "frame": "video-agent/video-corrections-35/frames/28/01.jpg",
+        "ocr": "Use Divisibility Rules\n\nExample 1: explain\n\n7+34+8=18\n\n738 +6 = 123\n\nDivisor\n\nEvidence\n\nPasses?\n\n2\n\nLast digit 8\n\nYes\n\n3}\n\nYes\n\nDigit sum 18\n\n6\n\nBoth 2 and 3\n\nYes\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 146.346667,
+        "frame": "video-agent/video-corrections-35/frames/28/02.jpg",
+        "ocr": "Use Divisibility Rules\n\nWhat to remember\n\nChoose the divisor \u2014 apply its test \u2014 explain\n\nFor 6, check both 2 and 3\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/factors-multiples-actual-outputs.jpg"
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "whole-numbers-lesson4",
+  "topic": "whole-numbers",
+  "section": "lesson4",
+  "title": "Decimal Place Value",
+  "file": "videos/whole-numbers-2026/lesson4",
+  "beats": [
+    {
+      "role": "hook",
+      "chapter": "A whole with tiny parts",
+      "text": "Imagine a measuring strip that keeps zooming in. First we see little parts, then even smaller parts inside those. How can we name an amount precisely? Our place-value pattern has a wonderfully useful answer.",
+      "board": [],
+      "model": {
+        "type": "parts",
+        "n": 1,
+        "den": 10,
+        "label": "One whole split into ten equal parts"
+      }
+    },
+    {
+      "role": "goal",
+      "chapter": "Today\u2019s Learning Goal",
+      "text": "Today, we\u2019re learning to explain decimal place value through thousandths.",
+      "board": [],
+      "model": null,
+      "display": "Explain decimal place value through thousandths."
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to name tenths, hundredths and thousandths.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name parts through thousandths",
+        "Give each digit\u2019s value",
+        "Explain neighbouring place values"
+      ],
+      "active": 0
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to give a decimal digit\u2019s value and write a number in expanded form.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name parts through thousandths",
+        "Give each digit\u2019s value",
+        "Explain neighbouring place values"
+      ],
+      "active": 1
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to explain the ten-times relationship between neighbouring places.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Name parts through thousandths",
+        "Give each digit\u2019s value",
+        "Explain neighbouring place values"
+      ],
+      "active": 2
+    },
+    {
+      "text": "What happens when we split one whole into smaller equal parts? The same base ten pattern continues beyond the decimal point. After ones come tenths, hundredths and thousandths. Each place is one tenth of the value of the place immediately to its left.",
+      "chapter": "Base ten continues past ones",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "parts",
+        "n": 1,
+        "den": 10,
+        "label": "One whole split into ten equal parts"
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Measuring example one",
+      "text": "Before we name each part, predict the value of the seven. Is it seven wholes, seven tenths, or seven hundredths?",
+      "board": [
+        "4.726: value of 7 = ?"
+      ],
+      "model": {
+        "type": "place",
+        "digits": "4726",
+        "highlight": 1,
+        "labels": [
+          "Ones",
+          "Tenths",
+          "Hundredths",
+          "Thousandths"
+        ]
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Read four point seven two six. The four is four ones. The seven is seven tenths, written zero point seven. The two is two hundredths, written zero point zero two. The six is six thousandths, written zero point zero zero six.",
+      "chapter": "Name each decimal place",
+      "equation": [],
+      "board": [
+        "4.726",
+        "7 tenths = 0.7",
+        "2 hundredths = 0.02",
+        "6 thousandths = 0.006"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "Put the parts together. Four point seven two six equals four, plus zero point seven, plus zero point zero two, plus zero point zero zero six. The digits describe different sized parts, so their positions matter just as much as they do in whole numbers.",
+      "chapter": "Expand the decimal",
+      "equation": [],
+      "board": [
+        "4.726 = 4 + 0.7 + 0.02 + 0.006",
+        "Same digits; place determines value"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "place",
+        "digits": "4726",
+        "highlight": 2,
+        "labels": [
+          "Ones",
+          "Tenths",
+          "Hundredths",
+          "Thousandths"
+        ]
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Measuring example two",
+      "text": "The digit five appears in both numbers. Do you think these two amounts are equal? Picture tenths and hundredths before deciding.",
+      "board": [
+        "0.5 ? 0.05"
+      ],
+      "model": {
+        "type": "parts",
+        "n": 5,
+        "den": 10,
+        "label": "Five of ten equal parts: 0.5"
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "A tenth is ten hundredths. A hundredth is ten thousandths. Now compare zero point five with zero point zero five. Five tenths is ten times five hundredths, so zero point five is greater. The same digit does not mean the same value.",
+      "chapter": "Connect neighbouring places",
+      "equation": [],
+      "board": [
+        "0.1 = 10 \u00d7 0.01",
+        "0.01 = 10 \u00d7 0.001",
+        "0.5 = 10 \u00d7 0.05",
+        "0.5 > 0.05"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "Think of a measuring scale marked in equal small steps. Thousandths let us describe positions more precisely than hundredths. This is about understanding place value, not just counting how many digits come after the point. Keep the whole and the size of each part clear.",
+      "chapter": "More precise equal-sized steps",
+      "equation": [],
+      "board": [
+        "1 hundredth = 10 thousandths",
+        "Name the place, not just the digit count"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 0,
+        "end": 0.01,
+        "mark": 0.007,
+        "decimals": 3
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Count places, not just digits",
+      "text": "A five after one decimal place and a five after two decimal places do not have the same value. Five tenths is ten times five hundredths. Keep the same-sized whole in mind when you compare the parts.",
+      "board": [
+        "0.5 = 10 \u00d7 0.05",
+        "0.5 > 0.05"
+      ],
+      "model": {
+        "type": "parts",
+        "n": 5,
+        "den": 10,
+        "label": "Five tenths of the same whole"
+      }
+    },
+    {
+      "text": "What is the value of the eight in 5.218?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "5.218: value of 8 = ?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 5,
+      "model": {
+        "type": "place",
+        "digits": "5218",
+        "highlight": 3,
+        "labels": [
+          "Ones",
+          "Tenths",
+          "Hundredths",
+          "Thousandths"
+        ]
+      }
+    },
+    {
+      "text": "The eight is in the thousandths place, so it represents eight thousandths.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "8 thousandths = 0.008"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "place",
+        "digits": "5218",
+        "highlight": 3,
+        "labels": [
+          "Ones",
+          "Tenths",
+          "Hundredths",
+          "Thousandths"
+        ]
+      }
+    },
+    {
+      "text": "Try the page example: three point four five eight. The five is in the hundredths place, so its value is zero point zero five. Remember: ones, tenths, hundredths, thousandths. Every step right divides the place value by ten; every step left makes it ten times as much.",
+      "chapter": "Recap: read the place",
+      "equation": [],
+      "board": [
+        "3.458",
+        "5 hundredths = 0.05",
+        "Ones \u2192 tenths \u2192 hundredths \u2192 thousandths"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "text": "Our goal was to explain decimal place value through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby.",
+      "board": [],
+      "model": null,
+      "display": "Explain decimal place value through thousandths.",
+      "criteria": [
+        "Name parts through thousandths",
+        "Give each digit\u2019s value",
+        "Explain neighbouring place values"
+      ]
+    }
+  ],
+  "slug": "lesson4",
+  "default_model": {
+    "type": "parts",
+    "n": 1,
+    "den": 10,
+    "label": "One whole split into ten equal parts"
+  }
+}

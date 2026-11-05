@@ -1,0 +1,250 @@
+{
+  "id": "addition-subtraction-lesson4",
+  "topic": "addition-subtraction",
+  "section": "lesson4",
+  "title": "Missing Values and Inverses",
+  "file": "MathMagic_V2_addition_subtraction_lesson4",
+  "beats": [
+    {
+      "text": "A number is hidden, but the relationship is still there. Today we are finding missing values using addition and subtraction. We will think about parts and totals, reverse an operation, and put our answer back into the original sentence to check it.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening"
+    },
+    {
+      "text": "Our learning goal is to find missing values using parts, totals and inverse operations.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Find missing values using parts, totals and inverse operations."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can identify which part or total is missing. I can choose the matching inverse operation. I can put the answer back to check the number sentence.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Identify which part or total is missing.",
+        "2. Choose the matching inverse operation.",
+        "3. Put the answer back to check the number sentence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Addition joins parts into a total. Subtraction can find a missing part. Read the whole number sentence before choosing an operation: the position of the missing value matters.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation"
+    },
+    {
+      "text": "A missing number plus two hundred and seventy-five equals nine hundred. Nine hundred is the total, so subtract the known part.",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "\u25a1 + 275 = 900",
+        "900 \u2212 275 = 625"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          625,
+          275
+        ],
+        "labels": [
+          "?",
+          "275"
+        ],
+        "total": "900"
+      }
+    },
+    {
+      "text": "The missing part is six hundred and twenty-five. Substitute it into the original sentence: six hundred and twenty-five plus two hundred and seventy-five equals nine hundred.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "625 + 275 = 900"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          625,
+          275
+        ],
+        "labels": [
+          "625",
+          "275"
+        ],
+        "total": "900"
+      }
+    },
+    {
+      "text": "Now eight hundred minus a missing number equals three hundred and forty-five. The starting total is eight hundred; the removed part is unknown.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "800 \u2212 \u25a1 = 345",
+        "800 \u2212 345 = 455"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          345,
+          455
+        ],
+        "labels": [
+          "345",
+          "?"
+        ],
+        "total": "800"
+      }
+    },
+    {
+      "text": "The removed part is four hundred and fifty-five. Check by subtracting it from eight hundred. We return to three hundred and forty-five, as required.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "800 \u2212 455 = 345"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "bar",
+        "values": [
+          345,
+          455
+        ],
+        "labels": [
+          "345",
+          "455"
+        ],
+        "total": "800"
+      }
+    },
+    {
+      "text": "It is tempting to subtract just because you see a subtraction sign. But a missing starting total needs the removed part added back. For a blank minus two hundred and fifty equals five hundred, add those two known parts, then check.",
+      "chapter": "Read where the blank belongs",
+      "equation": [],
+      "board": [
+        "\u25a1 \u2212 250 = 500",
+        "500 + 250 = 750"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "bar",
+        "values": [
+          500,
+          250
+        ],
+        "labels": [
+          "500",
+          "250"
+        ],
+        "total": "750"
+      }
+    },
+    {
+      "text": "A missing number minus one hundred and eighty equals four hundred and twenty. What was the starting number?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "\u25a1 \u2212 180 = 420"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4
+    },
+    {
+      "text": "Add the removed part back: four hundred and twenty plus one hundred and eighty is six hundred. Check: six hundred minus one hundred and eighty is four hundred and twenty.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "420 + 180 = 600",
+        "600 \u2212 180 = 420"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "bar",
+        "values": [
+          420,
+          180
+        ],
+        "labels": [
+          "420",
+          "180"
+        ],
+        "total": "600"
+      }
+    },
+    {
+      "text": "Identify the total and the parts. Use inverse operations to find the unknown, then substitute your answer into the original sentence. A check tests the relationship, not just the arithmetic. Now choose a strategy and explain why it works.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ]
+}

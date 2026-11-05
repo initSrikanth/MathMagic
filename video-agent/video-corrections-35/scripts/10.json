@@ -1,0 +1,300 @@
+{
+  "id": "whole-numbers-lesson5",
+  "topic": "whole-numbers",
+  "section": "lesson5",
+  "title": "Compare, Order & Locate Decimals",
+  "file": "videos/whole-numbers-2026/lesson5",
+  "beats": [
+    {
+      "role": "hook",
+      "chapter": "The longer-number trap",
+      "text": "Two measuring displays disagree about who has the bigger amount. One display has more digits, but does that make its amount greater? Let\u2019s use matching places and a zoomable number line to solve the mystery.",
+      "board": [],
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": null,
+        "decimals": 2
+      }
+    },
+    {
+      "role": "goal",
+      "chapter": "Today\u2019s Learning Goal",
+      "text": "Today, we\u2019re learning to compare, order and locate decimals through thousandths.",
+      "board": [],
+      "model": null,
+      "display": "Compare, order and locate decimals through thousandths."
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to line up places and use end zeros without changing a decimal\u2019s value.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Line up places and use end zeros",
+        "Compare and order decimals",
+        "Locate decimals on a number line"
+      ],
+      "active": 0
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to compare and order decimals using place value.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Line up places and use end zeros",
+        "Compare and order decimals",
+        "Locate decimals on a number line"
+      ],
+      "active": 1
+    },
+    {
+      "role": "criteria",
+      "chapter": "By the end of this lesson, you will be able to\u2026",
+      "text": "You\u2019ll be able to explain where a decimal belongs between two number-line marks.",
+      "board": [],
+      "model": null,
+      "criteria": [
+        "Line up places and use end zeros",
+        "Compare and order decimals",
+        "Locate decimals on a number line"
+      ],
+      "active": 2
+    },
+    {
+      "text": "Does a longer decimal always mean a bigger number? No. Compare place values instead. Start with the whole number parts, then tenths, hundredths and thousandths. Adding zeros at the end of a decimal can help line up the places without changing its value.",
+      "chapter": "Compare values, not digit counts",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": null,
+        "decimals": 2
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Display example one",
+      "text": "Which display shows the greater amount? Try matching the decimal places, rather than counting how many digits you see.",
+      "board": [
+        "1.407 ? 1.47"
+      ],
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": 1.407,
+        "decimals": 2
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Compare one point four zero seven and one point four seven. Write the second as one point four seven zero. Ones and tenths match. At the hundredths place, zero is less than seven. So one point four zero seven is less than one point four seven zero.",
+      "chapter": "The hundredths decide",
+      "equation": [],
+      "board": [
+        "1.407     1.470",
+        "Ones: 1 = 1     Tenths: 4 = 4",
+        "Hundredths: 0 < 7",
+        "1.407 < 1.470"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "text": "For ordering, line up two point zero five three, two point three zero five, and two point three five zero. The first is smallest because its tenths digit is zero. The other two match in tenths, but zero hundredths is less than five hundredths.",
+      "chapter": "Order from smallest to largest",
+      "equation": [],
+      "board": [
+        "2.053     2.305     2.350",
+        "2.053 < 2.305 < 2.350"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 2,
+        "end": 2.5,
+        "mark": 2.305,
+        "decimals": 3
+      }
+    },
+    {
+      "role": "prediction",
+      "chapter": "Display example two",
+      "text": "Where might one point four three seven lie? First find its neighbouring hundredths. Then we can zoom in together.",
+      "board": [
+        "1.43 < 1.437 < 1.44"
+      ],
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": 1.437,
+        "decimals": 2
+      },
+      "pause": 1.5
+    },
+    {
+      "text": "Now locate a number on a line. From one point four zero to one point five zero, divide the interval into ten equal steps. Each step is one hundredth. One point four three and one point four four are neighbouring marks on this line.",
+      "chapter": "Hundredths on a number line",
+      "equation": [],
+      "board": [
+        "Step size = 0.01"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": null,
+        "decimals": 2
+      }
+    },
+    {
+      "text": "To locate one point four three seven more precisely, zoom in between one point four three and one point four four. Divide that interval into ten equal steps. Each step is one thousandth. Count seven steps from one point four three zero to reach one point four three seven.",
+      "chapter": "Zoom in to thousandths",
+      "equation": [],
+      "board": [
+        "Step size = 0.001",
+        "1.430 + 0.007 = 1.437"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "line",
+        "start": 1.43,
+        "end": 1.44,
+        "mark": 1.437,
+        "decimals": 3
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "More decimal digits is not more value",
+      "text": "A longer decimal is not automatically larger. One point four zero seven is smaller than one point four seven. Adding an end zero to make one point four seven zero changes its name, but not its value.",
+      "board": [
+        "1.407 < 1.470",
+        "1.47 = 1.470"
+      ],
+      "model": {
+        "type": "line",
+        "start": 1.4,
+        "end": 1.5,
+        "mark": 1.47,
+        "decimals": 2
+      }
+    },
+    {
+      "text": "Which is greater: 2.405 or 2.45?",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "2.405 ? 2.45"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 5,
+      "model": {
+        "type": "line",
+        "start": 2.4,
+        "end": 2.5,
+        "mark": 2.45,
+        "decimals": 3
+      }
+    },
+    {
+      "text": "Write 2.45 as 2.450. At the hundredths place, five hundredths is greater than zero hundredths.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "2.450 > 2.405"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "line",
+        "start": 2.4,
+        "end": 2.5,
+        "mark": 2.45,
+        "decimals": 3
+      }
+    },
+    {
+      "text": "Finally, four point seven equals four point seven zero zero: both represent seven tenths after four wholes. Extra end zeros do not add any value. Remember: line up the places, compare from the left, and check the equal step size before locating a decimal.",
+      "chapter": "Recap: place value gives the order",
+      "equation": [],
+      "board": [
+        "4.7 = 4.700",
+        "Line up \u2192 compare left to right",
+        "Number line: check the step size"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": null
+    },
+    {
+      "role": "recap",
+      "chapter": "Look what you can do now",
+      "text": "Our goal was to compare, order and locate decimals through thousandths. You can now explain your strategy, check the places carefully, and show why your answer makes sense. Choose a number of your own and explain it to someone nearby.",
+      "board": [],
+      "model": null,
+      "display": "Compare, order and locate decimals through thousandths.",
+      "criteria": [
+        "Line up places and use end zeros",
+        "Compare and order decimals",
+        "Locate decimals on a number line"
+      ]
+    }
+  ],
+  "slug": "lesson5",
+  "default_model": {
+    "type": "line",
+    "start": 1.4,
+    "end": 1.5,
+    "mark": null,
+    "decimals": 2
+  }
+}

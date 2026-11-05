@@ -315,7 +315,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 221.81741666666667,
           "end": 224.28458333333333,
-          "detail": "Try the practice on Math Magic."
+          "detail": "Try the practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/01.json"
+          }
         }
       ],
       "required_correction": [
@@ -557,8 +562,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 26
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 26,
+      "correction": {
+        "number": 1,
+        "topic": "fractions",
+        "lesson": "Comparing and Ordering Fractions",
+        "section": "meaning",
+        "page": "fractions.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/fractions-2026/comparing-ordering.mp4",
+          "expected_sha256": "dd552862abd39b1927c9694e0bfacbaefcf595ee7fcde13ddbf4721ca1835aed",
+          "expected_bytes": 6518932,
+          "captions": "videos/fractions-2026/comparing-ordering.vtt",
+          "transcript": "videos/fractions-2026/comparing-ordering_transcript.txt",
+          "poster": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "script": "video-agent/fractions-graphics-2026/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+          "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+          "bytes": 6449176,
+          "captions": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+          "transcript": "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+          "poster": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/01.json",
+          "duration": 221.866667,
+          "caption_cues": 54,
+          "audio_duration": 221.781
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/01.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+        "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+        "bytes": 6449176,
+        "captions": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+        "transcript": "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+        "poster": "videos/fractions-2026/comparing-ordering_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/01.json",
+        "duration": 221.866667,
+        "caption_cues": 54,
+        "audio_duration": 221.781
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 2,
@@ -850,7 +927,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 229.16370833333335,
           "end": 231.81404166666667,
-          "detail": "Explore the practice on Math Magic."
+          "detail": "Explore the practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/02.json"
+          }
         }
       ],
       "required_correction": [
@@ -1080,8 +1162,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 26
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 26,
+      "correction": {
+        "number": 2,
+        "topic": "fractions",
+        "lesson": "Equivalent Fractions",
+        "section": "equivalent",
+        "page": "fractions.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/fractions-2026/equivalent.mp4",
+          "expected_sha256": "cadb6328a2a5ec335f846fe03e830c3c687dede70397e58bb3a9e99386b7729c",
+          "expected_bytes": 6878798,
+          "captions": "videos/fractions-2026/equivalent.vtt",
+          "transcript": "videos/fractions-2026/equivalent_transcript.txt",
+          "poster": "videos/fractions-2026/equivalent_poster.jpg",
+          "script": "video-agent/fractions-graphics-2026/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+          "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+          "bytes": 6752205,
+          "captions": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+          "transcript": "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+          "poster": "videos/fractions-2026/equivalent_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/02.json",
+          "duration": 229.2,
+          "caption_cues": 55,
+          "audio_duration": 229.141
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/02.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/fractions/equivalent-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+        "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+        "bytes": 6752205,
+        "captions": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+        "transcript": "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+        "poster": "videos/fractions-2026/equivalent_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/02.json",
+        "duration": 229.2,
+        "caption_cues": 55,
+        "audio_duration": 229.141
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 3,
@@ -1361,7 +1515,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 241.35720833333335,
           "end": 244.63779166666666,
-          "detail": "Try drawing it, then practise on Math Magic."
+          "detail": "Try drawing it, then practise on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/03.json"
+          }
         }
       ],
       "required_correction": [
@@ -1579,8 +1738,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 28
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 28,
+      "correction": {
+        "number": 3,
+        "topic": "fractions",
+        "lesson": "Mixed Numbers and Improper Fractions",
+        "section": "mixed",
+        "page": "fractions.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/fractions-2026/mixed-improper.mp4",
+          "expected_sha256": "10bafdfff315211890bb9dfca478d0ecf1ba31439234ee58bc402f5b3d5db844",
+          "expected_bytes": 7443453,
+          "captions": "videos/fractions-2026/mixed-improper.vtt",
+          "transcript": "videos/fractions-2026/mixed-improper_transcript.txt",
+          "poster": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "script": "video-agent/fractions-graphics-2026/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+          "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+          "bytes": 7301766,
+          "captions": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+          "transcript": "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+          "poster": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/03.json",
+          "duration": 241.4,
+          "caption_cues": 60,
+          "audio_duration": 241.322
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/03.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/fractions/mixed-improper-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+        "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+        "bytes": 7301766,
+        "captions": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+        "transcript": "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+        "poster": "videos/fractions-2026/mixed-improper_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/03.json",
+        "duration": 241.4,
+        "caption_cues": 60,
+        "audio_duration": 241.322
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 4,
@@ -1860,7 +2091,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 218.95479166666667,
           "end": 221.95483333333334,
-          "detail": "Try the fraction practice on Math Magic."
+          "detail": "Try the fraction practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/04.json"
+          }
         }
       ],
       "required_correction": [
@@ -2078,8 +2314,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 27
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 27,
+      "correction": {
+        "number": 4,
+        "topic": "fractions",
+        "lesson": "Adding and Subtracting Fractions",
+        "section": "addsub",
+        "page": "fractions.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/fractions-2026/adding-subtracting.mp4",
+          "expected_sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+          "expected_bytes": 6776965,
+          "captions": "videos/fractions-2026/adding-subtracting.vtt",
+          "transcript": "videos/fractions-2026/adding-subtracting_transcript.txt",
+          "poster": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "script": "video-agent/fractions-graphics-2026/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+          "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+          "bytes": 6624278,
+          "captions": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+          "transcript": "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+          "poster": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/04.json",
+          "duration": 223.3,
+          "caption_cues": 55,
+          "audio_duration": 223.3
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/04.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+        "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+        "bytes": 6624278,
+        "captions": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+        "transcript": "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+        "poster": "videos/fractions-2026/adding-subtracting_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/04.json",
+        "duration": 223.3,
+        "caption_cues": 55,
+        "audio_duration": 223.3
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 5,
@@ -2359,7 +2667,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 227.47491666666667,
           "end": 231.157375,
-          "detail": "Give it a try, then explore the practice on Math Magic."
+          "detail": "Give it a try, then explore the practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/05.json"
+          }
         }
       ],
       "required_correction": [
@@ -2577,8 +2890,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 27
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 27,
+      "correction": {
+        "number": 5,
+        "topic": "fractions",
+        "lesson": "Fraction Word Problems",
+        "section": "problems",
+        "page": "fractions.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/fractions-2026/word-problems.mp4",
+          "expected_sha256": "021eaa0261cb82adb3b5d6faf32e6556cc6691a4da5ab5629a251cb957ad4396",
+          "expected_bytes": 6856258,
+          "captions": "videos/fractions-2026/word-problems.vtt",
+          "transcript": "videos/fractions-2026/word-problems_transcript.txt",
+          "poster": "videos/fractions-2026/word-problems_poster.jpg",
+          "script": "video-agent/fractions-graphics-2026/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+          "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+          "bytes": 6703094,
+          "captions": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+          "transcript": "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt",
+          "poster": "videos/fractions-2026/word-problems_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/05.json",
+          "duration": 227.5,
+          "caption_cues": 59,
+          "audio_duration": 227.434
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/05.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/fractions/word-problems-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+        "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+        "bytes": 6703094,
+        "captions": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+        "transcript": "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt",
+        "poster": "videos/fractions-2026/word-problems_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/05.json",
+        "duration": 227.5,
+        "caption_cues": 59,
+        "audio_duration": 227.434
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 6,
@@ -2866,7 +3251,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 196.12079166666666,
           "end": 199.30858333333333,
-          "detail": "Then try the lesson practice on Math Magic."
+          "detail": "Then try the lesson practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/06.json"
+          }
         }
       ],
       "required_correction": [
@@ -3097,8 +3487,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 17
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 17,
+      "correction": {
+        "number": 6,
+        "topic": "whole-numbers",
+        "lesson": "Understanding Place Value",
+        "section": "lesson1",
+        "page": "whole-numbers.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/whole-numbers-2026/lesson1.mp4",
+          "expected_sha256": "e8e4b39fadb807d63c534167f8459fa5d3458e1d540a4fa780d3edc1d03c9d04",
+          "expected_bytes": 6122421,
+          "captions": "videos/whole-numbers-2026/lesson1.vtt",
+          "transcript": "videos/whole-numbers-2026/lesson1_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson1_poster.jpg",
+          "script": "video-agent/year5-graphics-2026/whole-numbers/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+          "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+          "bytes": 5991528,
+          "captions": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/06.json",
+          "duration": 196.133333,
+          "caption_cues": 46,
+          "audio_duration": 196.074
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/06.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+        "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+        "bytes": 5991528,
+        "captions": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+        "poster": "videos/whole-numbers-2026/lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/06.json",
+        "duration": 196.133333,
+        "caption_cues": 46,
+        "audio_duration": 196.074
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 7,
@@ -3386,7 +3848,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 206.53195833333334,
           "end": 209.71975,
-          "detail": "Then try the lesson practice on Math Magic."
+          "detail": "Then try the lesson practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/07.json"
+          }
         }
       ],
       "required_correction": [
@@ -3617,8 +4084,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 17
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 17,
+      "correction": {
+        "number": 7,
+        "topic": "whole-numbers",
+        "lesson": "Expanded Form & Representing Numbers",
+        "section": "lesson2",
+        "page": "whole-numbers.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/whole-numbers-2026/lesson2.mp4",
+          "expected_sha256": "e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52",
+          "expected_bytes": 6651776,
+          "captions": "videos/whole-numbers-2026/lesson2.vtt",
+          "transcript": "videos/whole-numbers-2026/lesson2_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson2_poster.jpg",
+          "script": "video-agent/year5-graphics-2026/whole-numbers/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+          "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+          "bytes": 6515176,
+          "captions": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/07.json",
+          "duration": 206.566667,
+          "caption_cues": 44,
+          "audio_duration": 206.485
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/07.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+        "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+        "bytes": 6515176,
+        "captions": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+        "poster": "videos/whole-numbers-2026/lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/07.json",
+        "duration": 206.566667,
+        "caption_cues": 44,
+        "audio_duration": 206.485
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 8,
@@ -3912,7 +4451,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 211.71045833333332,
           "end": 214.898125,
-          "detail": "Then try the lesson practice on Math Magic."
+          "detail": "Then try the lesson practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/08.json"
+          }
         }
       ],
       "required_correction": [
@@ -4149,8 +4693,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 17
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 17,
+      "correction": {
+        "number": 8,
+        "topic": "whole-numbers",
+        "lesson": "Comparing & Ordering Whole Numbers",
+        "section": "lesson3",
+        "page": "whole-numbers.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/whole-numbers-2026/lesson3.mp4",
+          "expected_sha256": "46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51",
+          "expected_bytes": 6815013,
+          "captions": "videos/whole-numbers-2026/lesson3.vtt",
+          "transcript": "videos/whole-numbers-2026/lesson3_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson3_poster.jpg",
+          "script": "video-agent/year5-graphics-2026/whole-numbers/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+          "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+          "bytes": 6684648,
+          "captions": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/08.json",
+          "duration": 211.733333,
+          "caption_cues": 44,
+          "audio_duration": 211.669
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/08.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+        "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+        "bytes": 6684648,
+        "captions": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+        "poster": "videos/whole-numbers-2026/lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/08.json",
+        "duration": 211.733333,
+        "caption_cues": 44,
+        "audio_duration": 211.669
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 9,
@@ -4437,7 +5053,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 204.449,
           "end": 207.63670833333333,
-          "detail": "Then try the lesson practice on Math Magic."
+          "detail": "Then try the lesson practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/09.json"
+          }
         }
       ],
       "required_correction": [
@@ -4662,8 +5283,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 17
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 17,
+      "correction": {
+        "number": 9,
+        "topic": "whole-numbers",
+        "lesson": "Decimal Place Value",
+        "section": "lesson4",
+        "page": "whole-numbers.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/whole-numbers-2026/lesson4.mp4",
+          "expected_sha256": "e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217",
+          "expected_bytes": 6260833,
+          "captions": "videos/whole-numbers-2026/lesson4.vtt",
+          "transcript": "videos/whole-numbers-2026/lesson4_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "script": "video-agent/year5-graphics-2026/whole-numbers/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+          "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+          "bytes": 6133394,
+          "captions": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/09.json",
+          "duration": 204.5,
+          "caption_cues": 46,
+          "audio_duration": 204.416
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/09.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+        "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+        "bytes": 6133394,
+        "captions": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+        "poster": "videos/whole-numbers-2026/lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/09.json",
+        "duration": 204.5,
+        "caption_cues": 46,
+        "audio_duration": 204.416
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 10,
@@ -4962,7 +5655,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 208.290625,
           "end": 211.478375,
-          "detail": "Then try the lesson practice on Math Magic."
+          "detail": "Then try the lesson practice on Math Magic.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/10.json"
+          }
         }
       ],
       "required_correction": [
@@ -5199,8 +5897,80 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 17
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 17,
+      "correction": {
+        "number": 10,
+        "topic": "whole-numbers",
+        "lesson": "Compare, Order & Locate Decimals",
+        "section": "lesson5",
+        "page": "whole-numbers.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/whole-numbers-2026/lesson5.mp4",
+          "expected_sha256": "5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831",
+          "expected_bytes": 6381704,
+          "captions": "videos/whole-numbers-2026/lesson5.vtt",
+          "transcript": "videos/whole-numbers-2026/lesson5_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "script": "video-agent/year5-graphics-2026/whole-numbers/scripts.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+          "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+          "bytes": 6250898,
+          "captions": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+          "poster": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/10.json",
+          "duration": 208.333333,
+          "caption_cues": 45,
+          "audio_duration": 208.256
+        },
+        "voice": {
+          "model": "Kokoro v1.0 / sherpa-onnx 1.12.26",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "note": "Native female Hindi voice embedding with English lexicon. No accent/pitch filters or post-generation speech retiming.",
+          "native_rates": {
+            "hook": 0.94,
+            "goal": 0.91,
+            "criteria": 0.92,
+            "prediction": 0.92,
+            "question": 0.92,
+            "answer": 0.94,
+            "misconception": 0.88,
+            "recap": 0.91,
+            "explanation": 0.9
+          }
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/10.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+        "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+        "bytes": 6250898,
+        "captions": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+        "poster": "videos/whole-numbers-2026/lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/10.json",
+        "duration": 208.333333,
+        "caption_cues": 45,
+        "audio_duration": 208.256
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 11,
@@ -5558,7 +6328,9 @@
       },
       "final_status": "FAIL",
       "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 11
+      "scene_count": 11,
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED"
     },
     {
       "number": 12,
@@ -5964,7 +6736,9 @@
       },
       "final_status": "FAIL",
       "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 11
+      "scene_count": 11,
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED"
     },
     {
       "number": 13,
@@ -6394,7 +7168,9 @@
       },
       "final_status": "FAIL",
       "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 11
+      "scene_count": 11,
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED"
     },
     {
       "number": 14,
@@ -6602,7 +7378,12 @@
           "code": "MISSING_NARRATED_VISUAL_MODEL",
           "start": 62.60308333333333,
           "end": 71.524,
-          "detail": "Narration refers to the midpoint between zero and one, and a criterion promises equivalent representations on a number line, but this worked sequence has no number-line model."
+          "detail": "Narration refers to the midpoint between zero and one, and a criterion promises equivalent representations on a number line, but this worked sequence has no number-line model.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/14.json"
+          }
         }
       ],
       "required_correction": [
@@ -6758,8 +7539,103 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 11
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 11,
+      "visual_correction_preview": {
+        "number": 14,
+        "scene": 5,
+        "source": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+        "source_sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+        "source_interval": [
+          62.60308333333333,
+          71.524
+        ],
+        "preview": "video-agent/remediation-35/model-previews/14-model-original-audio.mp4",
+        "sha256": "ccc9ef251e293d6b8c350245742df44a5b003620bcb8cae6ddeb6c9ccc60e34a",
+        "native_narration": true,
+        "voice_regenerated": false,
+        "pitch_speed_changed": false,
+        "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+        "word_offsets": {
+          "fifty_percent": 1.4399999380111694,
+          "all_three_names": 2.759999990463257,
+          "midpoint": 4.559999942779541,
+          "between_zero_one": 5.119999885559082
+        },
+        "mathematical_models": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+        "prediction_answer_hidden": true,
+        "full_decode": true,
+        "resolution": [
+          854,
+          480
+        ],
+        "status": "UNVERIFIED_SCENE_PREVIEW_ONLY",
+        "deployed": false
+      },
+      "correction": {
+        "number": 14,
+        "topic": "decimals-percentages",
+        "lesson": "Connect Fractions, Decimals and Percentages",
+        "section": "connect",
+        "page": "decimals-percentages.html",
+        "type": "mathematical_visual_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+          "expected_sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+          "expected_bytes": 2352056,
+          "captions": "videos/MathMagic_V2_decimals_percentages_connect.vtt",
+          "transcript": "videos/MathMagic_V2_decimals_percentages_connect_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-connect.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+          "sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+          "bytes": 2371416,
+          "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.vtt",
+          "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/14.json",
+          "duration": 118.233333,
+          "caption_cues": 25,
+          "audio_duration": 118.217
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/14.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+        "sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+        "bytes": 2371416,
+        "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.vtt",
+        "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/14.json",
+        "duration": 118.233333,
+        "caption_cues": 25,
+        "audio_duration": 118.217
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 15,
@@ -6973,7 +7849,12 @@
           "code": "MISSING_NARRATED_VISUAL_MODEL",
           "start": 73.564875,
           "end": 81.92225,
-          "detail": "Narration explicitly asks to compare half-shaded and 0.4-shaded equal bars, but the actual worked scene contains equations only and no bars."
+          "detail": "Narration explicitly asks to compare half-shaded and 0.4-shaded equal bars, but the actual worked scene contains equations only and no bars.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/15.json"
+          }
         }
       ],
       "required_correction": [
@@ -7135,8 +8016,104 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 11
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 11,
+      "visual_correction_preview": {
+        "number": 15,
+        "scene": 6,
+        "source": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+        "source_sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+        "source_interval": [
+          73.564875,
+          81.92225
+        ],
+        "preview": "video-agent/remediation-35/model-previews/15-model-original-audio.mp4",
+        "sha256": "55cba770099a24cf58d20bd3367805a90b9eaa2a8d5f584c5650d7ab75ffcec0",
+        "native_narration": true,
+        "voice_regenerated": false,
+        "pitch_speed_changed": false,
+        "timing_method": "Existing full-audio ASR word starts, approximate rather than forced alignment; conceptual perceptual review required",
+        "word_offsets": {
+          "half": 1.3199999332427979,
+          "half_shaded": 1.5999999046325684,
+          "zero_point_four": 3.0,
+          "four_shaded": 3.7200000286102295,
+          "equal_wholes": 5.359999656677246
+        },
+        "mathematical_models": "14: midpoint 1/2 = 0.5 = 50%; 15: equal ten-cell bars, 5/10 and 4/10",
+        "prediction_answer_hidden": true,
+        "full_decode": true,
+        "resolution": [
+          854,
+          480
+        ],
+        "status": "UNVERIFIED_SCENE_PREVIEW_ONLY",
+        "deployed": false
+      },
+      "correction": {
+        "number": 15,
+        "topic": "decimals-percentages",
+        "lesson": "Compare Relative Size",
+        "section": "apply",
+        "page": "decimals-percentages.html",
+        "type": "mathematical_visual_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+          "expected_sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+          "expected_bytes": 2322968,
+          "captions": "videos/MathMagic_V2_decimals_percentages_apply.vtt",
+          "transcript": "videos/MathMagic_V2_decimals_percentages_apply_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "script": "video-agent/production-v2/scripts/decimals-percentages-apply.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
+          "sha256": "844d897391cf283b66cebf70ac8ac666f7112e6d4674c8c61807cdcc66d7939e",
+          "bytes": 2347507,
+          "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.vtt",
+          "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected_transcript.txt",
+          "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/15.json",
+          "duration": 120.916,
+          "caption_cues": 25,
+          "audio_duration": 120.916
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/15.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
+        "sha256": "844d897391cf283b66cebf70ac8ac666f7112e6d4674c8c61807cdcc66d7939e",
+        "bytes": 2347507,
+        "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.vtt",
+        "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/15.json",
+        "duration": 120.916,
+        "caption_cues": 25,
+        "audio_duration": 120.916
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 16,
@@ -7369,7 +8346,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 138.51666666666668,
           "end": 141.664375,
-          "detail": "Have a go at the lesson practice on MathMagic!"
+          "detail": "Have a go at the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/16.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -7554,8 +8536,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 16,
+        "topic": "addition-subtraction",
+        "lesson": "Efficient Mental Strategies",
+        "section": "lesson1",
+        "page": "addition-subtraction.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+          "expected_sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+          "expected_bytes": 2798501,
+          "captions": "videos/MathMagic_V2_addition_subtraction_lesson1.vtt",
+          "transcript": "videos/MathMagic_V2_addition_subtraction_lesson1_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "script": "video-agent/production-v2/scripts/addition-subtraction-lesson1.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+          "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+          "bytes": 2716199,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/16.json",
+          "duration": 138.433333,
+          "caption_cues": 33,
+          "audio_duration": 138.368
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/16.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+        "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+        "bytes": 2716199,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/16.json",
+        "duration": 138.433333,
+        "caption_cues": 33,
+        "audio_duration": 138.368
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 17,
@@ -7800,7 +8846,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 152.547375,
           "end": 155.69529166666666,
-          "detail": "Have a go at the lesson practice on MathMagic!"
+          "detail": "Have a go at the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/17.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -7997,8 +9048,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 17,
+        "topic": "addition-subtraction",
+        "lesson": "Written Addition and Subtraction",
+        "section": "lesson2",
+        "page": "addition-subtraction.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+          "expected_sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+          "expected_bytes": 3129447,
+          "captions": "videos/MathMagic_V2_addition_subtraction_lesson2.vtt",
+          "transcript": "videos/MathMagic_V2_addition_subtraction_lesson2_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "script": "video-agent/production-v2/scripts/addition-subtraction-lesson2.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+          "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+          "bytes": 3046929,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/17.json",
+          "duration": 152.466667,
+          "caption_cues": 35,
+          "audio_duration": 152.405
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/17.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+        "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+        "bytes": 3046929,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/17.json",
+        "duration": 152.466667,
+        "caption_cues": 35,
+        "audio_duration": 152.405
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 18,
@@ -8255,7 +9370,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 143.71554166666667,
           "end": 146.86345833333334,
-          "detail": "Have a go at the lesson practice on MathMagic!"
+          "detail": "Have a go at the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/18.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -8464,8 +9584,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 18,
+        "topic": "addition-subtraction",
+        "lesson": "Estimate and Check",
+        "section": "lesson3",
+        "page": "addition-subtraction.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+          "expected_sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+          "expected_bytes": 2933419,
+          "captions": "videos/MathMagic_V2_addition_subtraction_lesson3.vtt",
+          "transcript": "videos/MathMagic_V2_addition_subtraction_lesson3_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "script": "video-agent/production-v2/scripts/addition-subtraction-lesson3.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+          "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+          "bytes": 2852265,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/18.json",
+          "duration": 143.633333,
+          "caption_cues": 31,
+          "audio_duration": 143.573
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/18.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+        "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+        "bytes": 2852265,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/18.json",
+        "duration": 143.633333,
+        "caption_cues": 31,
+        "audio_duration": 143.573
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 19,
@@ -8722,7 +9906,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 140.49841666666666,
           "end": 143.64479166666666,
-          "detail": "Have a go at the lesson practice on MathMagic!"
+          "detail": "Have a go at the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/19.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -8931,8 +10120,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 19,
+        "topic": "addition-subtraction",
+        "lesson": "Missing Values and Inverses",
+        "section": "lesson4",
+        "page": "addition-subtraction.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+          "expected_sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+          "expected_bytes": 2822930,
+          "captions": "videos/MathMagic_V2_addition_subtraction_lesson4.vtt",
+          "transcript": "videos/MathMagic_V2_addition_subtraction_lesson4_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "script": "video-agent/production-v2/scripts/addition-subtraction-lesson4.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+          "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+          "bytes": 2740503,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/19.json",
+          "duration": 140.4,
+          "caption_cues": 31,
+          "audio_duration": 140.331
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/19.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+        "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+        "bytes": 2740503,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/19.json",
+        "duration": 140.4,
+        "caption_cues": 31,
+        "audio_duration": 140.331
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 20,
@@ -9177,7 +10430,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 140.31983333333332,
           "end": 143.46775,
-          "detail": "Have a go at the lesson practice on MathMagic!"
+          "detail": "Have a go at the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/20.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -9374,8 +10632,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 20,
+        "topic": "addition-subtraction",
+        "lesson": "Model Practical Problems",
+        "section": "lesson5",
+        "page": "addition-subtraction.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+          "expected_sha256": "1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062",
+          "expected_bytes": 2859633,
+          "captions": "videos/MathMagic_V2_addition_subtraction_lesson5.vtt",
+          "transcript": "videos/MathMagic_V2_addition_subtraction_lesson5_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "script": "video-agent/production-v2/scripts/addition-subtraction-lesson5.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4",
+          "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+          "bytes": 2777550,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/20.json",
+          "duration": 140.233333,
+          "caption_cues": 33,
+          "audio_duration": 140.16
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/20.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4",
+        "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+        "bytes": 2777550,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/20.json",
+        "duration": 140.233333,
+        "caption_cues": 33,
+        "audio_duration": 140.16
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 21,
@@ -9602,7 +10924,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 137.46795833333334,
           "end": 140.579625,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/21.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -9781,8 +11108,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 21,
+        "topic": "multiplication-division",
+        "lesson": "Multiply Efficiently",
+        "section": "lesson1",
+        "page": "multiplication-division.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+          "expected_sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+          "expected_bytes": 2742639,
+          "captions": "videos/MathMagic_V2_multiplication_division_lesson1.vtt",
+          "transcript": "videos/MathMagic_V2_multiplication_division_lesson1_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "script": "video-agent/production-v2/scripts/multiplication-division-lesson1.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+          "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+          "bytes": 2666890,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/21.json",
+          "duration": 137.366667,
+          "caption_cues": 30,
+          "audio_duration": 137.301
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/21.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+        "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+        "bytes": 2666890,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/21.json",
+        "duration": 137.366667,
+        "caption_cues": 30,
+        "audio_duration": 137.301
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 22,
@@ -10033,7 +11424,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 139.36320833333335,
           "end": 142.474875,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/22.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -10236,8 +11632,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 22,
+        "topic": "multiplication-division",
+        "lesson": "Multiply by Two-digit Numbers",
+        "section": "lesson2",
+        "page": "multiplication-division.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+          "expected_sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+          "expected_bytes": 2889349,
+          "captions": "videos/MathMagic_V2_multiplication_division_lesson2.vtt",
+          "transcript": "videos/MathMagic_V2_multiplication_division_lesson2_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "script": "video-agent/production-v2/scripts/multiplication-division-lesson2.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+          "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+          "bytes": 2810109,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/22.json",
+          "duration": 139.266667,
+          "caption_cues": 32,
+          "audio_duration": 139.221
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/22.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+        "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+        "bytes": 2810109,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/22.json",
+        "duration": 139.266667,
+        "caption_cues": 32,
+        "audio_duration": 139.221
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 23,
@@ -10452,7 +11912,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 142.968,
           "end": 146.07966666666667,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/23.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -10619,8 +12084,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 23,
+        "topic": "multiplication-division",
+        "lesson": "Divide by a Single-digit Number",
+        "section": "lesson3",
+        "page": "multiplication-division.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+          "expected_sha256": "cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628",
+          "expected_bytes": 2875304,
+          "captions": "videos/MathMagic_V2_multiplication_division_lesson3.vtt",
+          "transcript": "videos/MathMagic_V2_multiplication_division_lesson3_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "script": "video-agent/production-v2/scripts/multiplication-division-lesson3.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4",
+          "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+          "bytes": 2796345,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/23.json",
+          "duration": 142.866667,
+          "caption_cues": 33,
+          "audio_duration": 142.805
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/23.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4",
+        "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+        "bytes": 2796345,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/23.json",
+        "duration": 142.866667,
+        "caption_cues": 33,
+        "audio_duration": 142.805
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 24,
@@ -10877,7 +12406,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 145.045875,
           "end": 148.15754166666667,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/24.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -11086,8 +12620,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 24,
+        "topic": "multiplication-division",
+        "lesson": "Interpret Remainders",
+        "section": "lesson4",
+        "page": "multiplication-division.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+          "expected_sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
+          "expected_bytes": 3049757,
+          "captions": "videos/MathMagic_V2_multiplication_division_lesson4.vtt",
+          "transcript": "videos/MathMagic_V2_multiplication_division_lesson4_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "script": "video-agent/production-v2/scripts/multiplication-division-lesson4.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
+          "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+          "bytes": 2967877,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/24.json",
+          "duration": 144.966667,
+          "caption_cues": 34,
+          "audio_duration": 144.896
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/24.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
+        "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+        "bytes": 2967877,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/24.json",
+        "duration": 144.966667,
+        "caption_cues": 34,
+        "audio_duration": 144.896
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 25,
@@ -11344,7 +12942,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 146.89670833333332,
           "end": 150.008375,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/25.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -11553,8 +13156,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 25,
+        "topic": "multiplication-division",
+        "lesson": "Unknowns, Estimation and Modelling",
+        "section": "lesson5",
+        "page": "multiplication-division.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+          "expected_sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+          "expected_bytes": 3067130,
+          "captions": "videos/MathMagic_V2_multiplication_division_lesson5.vtt",
+          "transcript": "videos/MathMagic_V2_multiplication_division_lesson5_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "script": "video-agent/production-v2/scripts/multiplication-division-lesson5.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+          "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+          "bytes": 2985219,
+          "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/25.json",
+          "duration": 146.8,
+          "caption_cues": 30,
+          "audio_duration": 146.731
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/25.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+        "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+        "bytes": 2985219,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/25.json",
+        "duration": 146.8,
+        "caption_cues": 30,
+        "audio_duration": 146.731
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 26,
@@ -11805,7 +13472,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 141.88670833333333,
           "end": 144.998375,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/26.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -12008,8 +13680,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 26,
+        "topic": "factors-multiples",
+        "lesson": "Build Numbers from Factors",
+        "section": "lesson1",
+        "page": "factors-multiples.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+          "expected_sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+          "expected_bytes": 2957224,
+          "captions": "videos/MathMagic_V2_factors_multiples_lesson1.vtt",
+          "transcript": "videos/MathMagic_V2_factors_multiples_lesson1_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "script": "video-agent/production-v2/scripts/factors-multiples-lesson1.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+          "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+          "bytes": 2875029,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/26.json",
+          "duration": 141.8,
+          "caption_cues": 33,
+          "audio_duration": 141.739
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/26.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+        "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+        "bytes": 2875029,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/26.json",
+        "duration": 141.8,
+        "caption_cues": 33,
+        "audio_duration": 141.739
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 27,
@@ -12261,7 +13997,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 143.357625,
           "end": 146.46975,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/27.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -12470,8 +14211,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 27,
+        "topic": "factors-multiples",
+        "lesson": "Recognise Multiples",
+        "section": "lesson2",
+        "page": "factors-multiples.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+          "expected_sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+          "expected_bytes": 2903745,
+          "captions": "videos/MathMagic_V2_factors_multiples_lesson2.vtt",
+          "transcript": "videos/MathMagic_V2_factors_multiples_lesson2_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "script": "video-agent/production-v2/scripts/factors-multiples-lesson2.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+          "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+          "bytes": 2821623,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/27.json",
+          "duration": 143.266667,
+          "caption_cues": 33,
+          "audio_duration": 143.189
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/27.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+        "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+        "bytes": 2821623,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/27.json",
+        "duration": 143.266667,
+        "caption_cues": 33,
+        "audio_duration": 143.189
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 28,
@@ -12728,7 +14533,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 146.54883333333333,
           "end": 149.6605,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/28.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -12937,8 +14747,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 28,
+        "topic": "factors-multiples",
+        "lesson": "Use Divisibility Rules",
+        "section": "lesson3",
+        "page": "factors-multiples.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+          "expected_sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+          "expected_bytes": 2934737,
+          "captions": "videos/MathMagic_V2_factors_multiples_lesson3.vtt",
+          "transcript": "videos/MathMagic_V2_factors_multiples_lesson3_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "script": "video-agent/production-v2/scripts/factors-multiples-lesson3.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+          "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+          "bytes": 2878314,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/28.json",
+          "duration": 146.466667,
+          "caption_cues": 35,
+          "audio_duration": 146.389
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/28.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+        "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+        "bytes": 2878314,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/28.json",
+        "duration": 146.466667,
+        "caption_cues": 35,
+        "audio_duration": 146.389
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 29,
@@ -13195,7 +15069,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 150.268,
           "end": 153.37966666666668,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/29.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -13404,8 +15283,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 29,
+        "topic": "factors-multiples",
+        "lesson": "Follow an Algorithm",
+        "section": "lesson4",
+        "page": "factors-multiples.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+          "expected_sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+          "expected_bytes": 3218942,
+          "captions": "videos/MathMagic_V2_factors_multiples_lesson4.vtt",
+          "transcript": "videos/MathMagic_V2_factors_multiples_lesson4_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "script": "video-agent/production-v2/scripts/factors-multiples-lesson4.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+          "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+          "bytes": 3142324,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/29.json",
+          "duration": 150.166667,
+          "caption_cues": 36,
+          "audio_duration": 150.101
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/29.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+        "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+        "bytes": 3142324,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/29.json",
+        "duration": 150.166667,
+        "caption_cues": 36,
+        "audio_duration": 150.101
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 30,
@@ -13674,7 +15617,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 145.99545833333335,
           "end": 149.107125,
-          "detail": "Now try the lesson practice on MathMagic!"
+          "detail": "Now try the lesson practice on MathMagic!",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/30.json"
+          }
         },
         {
           "code": "UNAPPROVED_BRITISH_VOICE_PROFILE",
@@ -13895,8 +15843,72 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 30,
+        "topic": "factors-multiples",
+        "lesson": "Connect and Reason",
+        "section": "lesson5",
+        "page": "factors-multiples.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+          "expected_sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+          "expected_bytes": 3022168,
+          "captions": "videos/MathMagic_V2_factors_multiples_lesson5.vtt",
+          "transcript": "videos/MathMagic_V2_factors_multiples_lesson5_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "script": "video-agent/production-v2/scripts/factors-multiples-lesson5.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+          "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+          "bytes": 2965489,
+          "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/30.json",
+          "duration": 145.9,
+          "caption_cues": 33,
+          "audio_duration": 145.835
+        },
+        "voice": {
+          "model": "Kokoro v0.19",
+          "name": "bf_emma",
+          "speaker_id": 7,
+          "speed": 0.84,
+          "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+          "licence": "Apache-2.0",
+          "paid_calls": 0
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/30.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+        "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+        "bytes": 2965489,
+        "captions": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/30.json",
+        "duration": 145.9,
+        "caption_cues": 33,
+        "audio_duration": 145.835
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 31,
@@ -14065,7 +16077,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 139.50495772298177,
           "end": 143.571875,
-          "detail": "Now try the MathMagic practice, and explain your thinking to someone."
+          "detail": "Now try the MathMagic practice, and explain your thinking to someone.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/31.json"
+          }
         }
       ],
       "required_correction": [
@@ -14183,8 +16200,74 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 31,
+        "topic": "measurement",
+        "lesson": "Choose Units and Measure Length",
+        "section": "lesson1",
+        "page": "measurement.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V3_measurement_lesson1.mp4",
+          "expected_sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+          "expected_bytes": 3152035,
+          "captions": "videos/MathMagic_V3_measurement_lesson1.vtt",
+          "transcript": "videos/MathMagic_V3_measurement_lesson1_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "script": "video-agent/production-v2/scripts/measurement-lesson1-calibrated.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+          "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+          "bytes": 3056211,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+          "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/31.json",
+          "duration": 139.566667,
+          "caption_cues": 36,
+          "audio_duration": 139.52
+        },
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/31.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+        "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+        "bytes": 3056211,
+        "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/31.json",
+        "duration": 139.566667,
+        "caption_cues": 36,
+        "audio_duration": 139.52
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 32,
@@ -14347,7 +16430,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 152.26304086558025,
           "end": 156.35004166666667,
-          "detail": "Now try the MathMagic practice, and explain your thinking to someone."
+          "detail": "Now try the MathMagic practice, and explain your thinking to someone.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/32.json"
+          }
         }
       ],
       "required_correction": [
@@ -14459,8 +16547,74 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 32,
+        "topic": "measurement",
+        "lesson": "Measure Mass and Capacity",
+        "section": "lesson2",
+        "page": "measurement.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V3_measurement_lesson2.mp4",
+          "expected_sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+          "expected_bytes": 3342183,
+          "captions": "videos/MathMagic_V3_measurement_lesson2.vtt",
+          "transcript": "videos/MathMagic_V3_measurement_lesson2_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "script": "video-agent/production-v2/scripts/measurement-lesson2-calibrated.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+          "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+          "bytes": 3246064,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/32.json",
+          "duration": 152.366667,
+          "caption_cues": 41,
+          "audio_duration": 152.277
+        },
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/32.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+        "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+        "bytes": 3246064,
+        "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/32.json",
+        "duration": 152.366667,
+        "caption_cues": 41,
+        "audio_duration": 152.277
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 33,
@@ -14641,7 +16795,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 136.46129113260906,
           "end": 140.565625,
-          "detail": "Now try the MathMagic practice, and explain your thinking to someone."
+          "detail": "Now try the MathMagic practice, and explain your thinking to someone.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/33.json"
+          }
         }
       ],
       "required_correction": [
@@ -14771,8 +16930,74 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 33,
+        "topic": "measurement",
+        "lesson": "Trace and Calculate Perimeter",
+        "section": "lesson3",
+        "page": "measurement.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V3_measurement_lesson3.mp4",
+          "expected_sha256": "a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f",
+          "expected_bytes": 2731690,
+          "captions": "videos/MathMagic_V3_measurement_lesson3.vtt",
+          "transcript": "videos/MathMagic_V3_measurement_lesson3_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "script": "video-agent/production-v2/scripts/measurement-lesson3-calibrated.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+          "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+          "bytes": 2636513,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+          "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/33.json",
+          "duration": 136.566667,
+          "caption_cues": 40,
+          "audio_duration": 136.491
+        },
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/33.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+        "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+        "bytes": 2636513,
+        "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/33.json",
+        "duration": 136.566667,
+        "caption_cues": 40,
+        "audio_duration": 136.491
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 34,
@@ -14935,7 +17160,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 139.28108318074544,
           "end": 143.36325,
-          "detail": "Now try the MathMagic practice, and explain your thinking to someone."
+          "detail": "Now try the MathMagic practice, and explain your thinking to someone.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/34.json"
+          }
         }
       ],
       "required_correction": [
@@ -15047,8 +17277,74 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 34,
+        "topic": "measurement",
+        "lesson": "Cover and Calculate Area",
+        "section": "lesson4",
+        "page": "measurement.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V3_measurement_lesson4.mp4",
+          "expected_sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+          "expected_bytes": 3000512,
+          "captions": "videos/MathMagic_V3_measurement_lesson4.vtt",
+          "transcript": "videos/MathMagic_V3_measurement_lesson4_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "script": "video-agent/production-v2/scripts/measurement-lesson4-calibrated.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+          "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+          "bytes": 2936336,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/34.json",
+          "duration": 139.366667,
+          "caption_cues": 40,
+          "audio_duration": 139.307
+        },
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/34.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+        "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+        "bytes": 2936336,
+        "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+        "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/34.json",
+        "duration": 139.366667,
+        "caption_cues": 40,
+        "audio_duration": 139.307
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     },
     {
       "number": 35,
@@ -15205,7 +17501,12 @@
           "code": "BRAND_IN_NARRATION_CAPTIONS_TRANSCRIPT",
           "start": 146.9164571126302,
           "end": 150.97525000000002,
-          "detail": "Now try the MathMagic practice, and explain your thinking to someone."
+          "detail": "Now try the MathMagic practice, and explain your thinking to someone.",
+          "correction_resolution": {
+            "status": "VERIFIED_SCOPED_CORRECTION_READY",
+            "replacement": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+            "evidence": "video-agent/video-corrections-35/evidence/35.json"
+          }
         }
       ],
       "required_correction": [
@@ -15311,8 +17612,74 @@
         "faststart": true
       },
       "final_status": "FAIL",
-      "release_status": "BLOCKED_PERCEPTUAL_REVIEW",
-      "scene_count": 12
+      "release_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "scene_count": 12,
+      "correction": {
+        "number": 35,
+        "topic": "measurement",
+        "lesson": "Design with Irregular Shapes",
+        "section": "lesson5",
+        "page": "measurement.html",
+        "type": "branding_only",
+        "status": "VERIFIED_SCOPED_CORRECTION",
+        "original": {
+          "mp4": "videos/MathMagic_V3_measurement_lesson5.mp4",
+          "expected_sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+          "expected_bytes": 3168230,
+          "captions": "videos/MathMagic_V3_measurement_lesson5.vtt",
+          "transcript": "videos/MathMagic_V3_measurement_lesson5_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "script": "video-agent/production-v2/scripts/measurement-lesson5-calibrated.json"
+        },
+        "replacement": {
+          "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+          "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+          "bytes": 3102341,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+          "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/35.json",
+          "duration": 146.966667,
+          "caption_cues": 39,
+          "audio_duration": 146.901
+        },
+        "voice": {
+          "model": "Kokoro v1.0 multilingual ONNX",
+          "name": "hf_alpha",
+          "speaker_id": 31,
+          "phonemizer": "en",
+          "licence": "Apache-2.0",
+          "approval": "Founder approved 40.4-second calibration 2ff0ffce",
+          "paid_calls": 0,
+          "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+          "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+        },
+        "narration_regenerated": false,
+        "pitch_speed_changed": false,
+        "accent_status": "UNVERIFIED",
+        "full_quality_status": "UNVERIFIED",
+        "evidence": "video-agent/video-corrections-35/evidence/35.json",
+        "deployment": {
+          "status": "READY",
+          "url": "https://initsrikanth.github.io/MathMagic/videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4"
+        }
+      },
+      "active_media": {
+        "mp4": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+        "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+        "bytes": 3102341,
+        "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/35.json",
+        "duration": 146.966667,
+        "caption_cues": 39,
+        "audio_duration": 146.901
+      },
+      "correction_status": "VERIFIED_SCOPED_CORRECTION_READY",
+      "full_quality_status": "UNVERIFIED",
+      "accent_status": "UNVERIFIED",
+      "perceptual_checks_passed": false
     }
   ],
   "automated_evidence_complete": true,
@@ -15336,10 +17703,28 @@
     "enhanced_voice_and_perceptual_release_blocked": 35,
     "phone_sized_chromium_playback": 35,
     "brandfree_measurement_review_candidates_prepared": 5,
-    "brandfree_review_candidates_prepared": 14,
+    "brandfree_review_candidates_prepared": 30,
     "fully_perceptually_audited": 0,
     "fully_passing": 0,
-    "remediated_and_deployed": 0
+    "remediated_and_deployed": 0,
+    "branding_edits_prepared": 30,
+    "unchanged_packet_prefix_cuts": 29,
+    "lcmsafe_internal_sentence_edits": 1,
+    "published_branding_violations_resolved": 0,
+    "accent_corrections_completed": 0,
+    "full_video_animation_corrections_completed": 0,
+    "original_audio_animated_model_previews": 2,
+    "mathematical_equation_errors_resolved": 0,
+    "candidate_browser_cases_passed": 90,
+    "corrected_teaching_videos_deployed": 0,
+    "perceptual_checks_passed": 0,
+    "scoped_corrections_ready": 32,
+    "scoped_corrections_deployed": 0,
+    "branding_corrections_deployed": 0,
+    "mathematical_visual_corrections_deployed": 0,
+    "remaining_known_published_branding_violations": 30,
+    "full_quality_status": "UNVERIFIED",
+    "new_topic_production": "SUSPENDED"
   },
   "repository_file_inventory": {
     "core_placements": [
@@ -15417,9 +17802,23 @@
     "missing_active_mp4s": [],
     "note": "Archived/review files are not additional core lesson placements; no files deleted or silently treated as approved."
   },
-  "brandfree_review_candidates_prepared": 14,
-  "candidate_specific_blocker": {
-    "number": 4,
-    "reason": "Branded invitation precedes optional LCM notice; prefix-only cut would discard unrelated guidance. Requires a reviewed internal edit, not blind truncation."
-  }
+  "brandfree_review_candidates_prepared": 30,
+  "candidate_specific_blocker": "Accent-dependent replacements and full perceptual approval require genuine listening; independently verified scoped corrections are authorised for deployment.",
+  "remediation_progress": {
+    "branding_edits_prepared": 30,
+    "unchanged_packet_prefix_cuts": 29,
+    "lcmsafe_internal_sentence_edits": 1,
+    "published_branding_violations_resolved": 0,
+    "accent_corrections_completed": 0,
+    "full_video_animation_corrections_completed": 2,
+    "original_audio_animated_model_previews": 2,
+    "mathematical_equation_errors_resolved": 0,
+    "candidate_browser_cases_passed": 90,
+    "corrected_teaching_videos_deployed": 0,
+    "perceptual_checks_passed": 0,
+    "scoped_corrections_verified": 32
+  },
+  "scoped_corrections_authorised": true,
+  "scoped_corrections_ready": 32,
+  "scoped_corrections_deployed": 0
 }

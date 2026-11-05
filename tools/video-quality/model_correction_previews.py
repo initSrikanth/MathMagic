@@ -8,6 +8,41 @@ from graphics import draw,text,fraction,equation,INK,TEAL,GOLD,EMPTY,MUTED
 from PIL import Image,ImageDraw
 OUT=ROOT/'video-agent/remediation-35/model-previews'
 def ramp(t,a,b):return max(0,min(1,(t-a)/(b-a)))
+def render_frame(n,markers,t,imbase,timing,start,burn_captions=True):
+ im=imbase.copy();d=ImageDraw.Draw(im);d.rectangle((120,260,1800,960),fill='white')
+ if n==14:
+  equation(d,[[1,2],'=','0.5','=','50%'],330)
+  y=620;left=240;span=1440;p=ramp(t,0,.6);d.line((left,y,left+span*p,y),fill=MUTED,width=6)
+  for x,label in [(left,'0'),(left+span,'1')]:d.line((x,y-20,x,y+20),fill=INK,width=4);text(d,label,x,y+45,44,INK,True)
+  at=markers['midpoint'];p=ramp(t,at,at+.55)
+  if p>0:
+   x=left+span/2;d.line((left,y-55,left+span/2*p,y-55),fill=GOLD,width=7);d.ellipse((x-14*p,y-14*p,x+14*p,y+14*p),fill=TEAL);fraction(d,[1,2],x-30,y-160,45,TEAL);text(d,'0.5 = 50%',x,y+60,44,TEAL,True)
+  note='Same whole, same midpoint, different names'
+ else:
+  for y,numerator,label,a,b,col in [(440,5,'One half = 0.5 = 50%',markers['half'],markers['half_shaded']+.55,TEAL),(650,4,'0.4 = 40%',markers['zero_point_four'],markers['four_shaded']+.6,GOLD)]:
+   p=ramp(t,a,b);text(d,label,280,y-65,40,col)
+   # Continuous filling, exactly 5/10 and 4/10 of equal wholes at the end.
+   for cell in range(10):
+    x=280+cell*126;d.rectangle((x,y,x+126,y+70),fill=EMPTY)
+    amount=max(0,min(1,numerator*p-cell))
+    if amount:d.rectangle((x,y,x+126*amount,y+70),fill=col)
+    d.rectangle((x,y,x+126,y+70),outline='white',width=3)
+   d.rectangle((280,y,1540,y+70),outline=INK,width=3)
+  if t>=markers['equal_wholes']:text(d,'50% ? 40%',960,815,53,TEAL,True)
+  note='Equal wholes and equal tenths make a fair comparison'
+ # Captions use original narration timing and a separate reserved lower band.
+ cap=next((c['text'] for c in timing['captions'] if c['start']<=start+t<c['end']),None)
+ if cap and burn_captions:
+  words=cap.split();lines=[];line=''
+  for word in words:
+   if len(line)+len(word)>95:lines.append(line);line=word
+   else:line=(line+' '+word).strip()
+  if line:lines.append(line)
+  d.rounded_rectangle((110,890,1810,985),radius=12,fill='#143D3B')
+  for j,s in enumerate(lines[:2]):text(d,s,960,905+34*j,29,'white',True)
+ elif burn_captions:text(d,note,960,915,32,MUTED,True)
+ return im
+
 def preview(n,scene):
  r=json.loads(REGISTER.read_text())['records'][n-1];l=json.loads((ROOT/r['script']).read_text());timing=json.loads((ROOT/r['timing']).read_text());cue=timing['cues'][scene];start,end=cue['start'],cue['end'];duration=end-start
  assert_preservation_edit_allowed(r,l);OUT.mkdir(exist_ok=True);name=f'{n:02}-model-original-audio';video=OUT/(name+'.mp4');ev=OUT/(name+'.json')
@@ -19,39 +54,7 @@ def preview(n,scene):
  audio=OUT/(name+'-audio.m4a');subprocess.run(['ffmpeg','-v','error','-y','-i',str(ROOT/r['mp4']),'-ss',str(start),'-t',str(duration),'-vn','-c:a','aac','-b:a','160k',str(audio)],check=True)
  ff=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','854x480','-r',str(fps),'-i','-','-i',str(audio),'-t',str(duration),'-c:v','libx264','-preset','veryfast','-crf','21','-pix_fmt','yuv420p','-c:a','copy','-movflags','+faststart',str(video)],stdin=subprocess.PIPE)
  for i in range(count):
-  t=i/fps;im=imbase.copy();d=ImageDraw.Draw(im);d.rectangle((120,260,1800,960),fill='white')
-  if n==14:
-   if t<markers['all_three_names']:text(d,'50 hundredths = 50%',960,330,55,TEAL,True)
-   else:equation(d,[[1,2],'=','0.5','=','50%'],330)
-   y=620;left=240;span=1440;p=ramp(t,0,.6);d.line((left,y,left+span*p,y),fill=MUTED,width=6)
-   for x,label in [(left,'0'),(left+span,'1')]:d.line((x,y-20,x,y+20),fill=INK,width=4);text(d,label,x,y+45,44,INK,True)
-   at=markers['midpoint'];p=ramp(t,at,at+.55)
-   if p>0:
-    x=left+span/2;d.line((left,y-55,left+span/2*p,y-55),fill=GOLD,width=7);d.ellipse((x-14*p,y-14*p,x+14*p,y+14*p),fill=TEAL);fraction(d,[1,2],x-30,y-160,45,TEAL);text(d,'0.5 = 50%',x,y+60,44,TEAL,True)
-   note='Same whole, same midpoint, different names'
-  else:
-   for y,numerator,label,a,b,col in [(440,5,'One half = 0.5 = 50%',markers['half'],markers['half_shaded']+.55,TEAL),(650,4,'0.4 = 40%',markers['zero_point_four'],markers['four_shaded']+.6,GOLD)]:
-    p=ramp(t,a,b);text(d,label,280,y-65,40,col)
-    # Continuous filling, exactly 5/10 and 4/10 of equal wholes at the end.
-    for cell in range(10):
-     x=280+cell*126;d.rectangle((x,y,x+126,y+70),fill=EMPTY)
-     amount=max(0,min(1,numerator*p-cell))
-     if amount:d.rectangle((x,y,x+126*amount,y+70),fill=col)
-     d.rectangle((x,y,x+126,y+70),outline='white',width=3)
-    d.rectangle((280,y,1540,y+70),outline=INK,width=3)
-   if t>=markers['equal_wholes']:text(d,'50% ? 40%',960,815,53,TEAL,True)
-   note='Equal wholes and equal tenths make a fair comparison'
-  # Captions use original narration timing and a separate reserved lower band.
-  cap=next((c['text'] for c in timing['captions'] if c['start']<=start+t<c['end']),None)
-  if cap:
-   words=cap.split();lines=[];line=''
-   for word in words:
-    if len(line)+len(word)>95:lines.append(line);line=word
-    else:line=(line+' '+word).strip()
-   if line:lines.append(line)
-   d.rounded_rectangle((110,890,1810,985),radius=12,fill='#143D3B')
-   for j,s in enumerate(lines[:2]):text(d,s,960,905+34*j,29,'white',True)
-  else:text(d,note,960,915,32,MUTED,True)
+  im=render_frame(n,markers,i/fps,imbase,timing,start)
   if i in (0,count//2,count-1):im.save(OUT/(name+f'-frame-{i:03}.png'))
   ff.stdin.write(im.resize((854,480),Image.Resampling.LANCZOS).tobytes())
  ff.stdin.close();assert ff.wait()==0;subprocess.run(['ffmpeg','-v','error','-i',str(video),'-f','null','-'],check=True)

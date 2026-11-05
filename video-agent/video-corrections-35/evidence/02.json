@@ -1,0 +1,133 @@
+{
+  "number": 2,
+  "lesson": "Equivalent Fractions",
+  "source": "videos/fractions-2026/equivalent.mp4",
+  "source_sha256": "cadb6328a2a5ec335f846fe03e830c3c687dede70397e58bb3a9e99386b7729c",
+  "candidate": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+  "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+  "bytes": 6752205,
+  "cut_seconds": 229.12870833333332,
+  "removed_caption": {
+    "start": 229.16370833333335,
+    "end": 231.81404166666667,
+    "text": "Explore the practice on Math Magic.",
+    "source_sha256": "d9fcb9b1bfc719df0b354f391fb20e9202e197c3b18118814fc04fffb6128adc"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6876,
+      "original_packets": 7015,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 10742,
+      "original_packets": 10962,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    229.00370833333332,
+    229.2637083333333
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " ONES YOU CAN SPLIT OR GROUP EQUAL PARTS CHANGE BOTH NUMBERS TOGETHER AND CHECK THAT THE AMOUNT STAYS THE SAME HOW MANY NAMES CAN YOU FIND FOR ONE HALF",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+    "duration": 229.2,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.1552700251340866,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        63.86,
+        67.04
+      ],
+      [
+        111.88,
+        115.08
+      ],
+      [
+        204.88,
+        210.04
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 253955
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+    "captions_sha256": "6c4051387a57482000438c51ac1624a885474cdc4bc65218c6b5a27ee90aba09",
+    "transcript_sha256": "ab55262bbd7ef85e4d9311f83a5d66602711c6d4a51427fb779e8a708108e97f",
+    "script_sha256": "1599f0742663ac025ea772bda9ec4ef5169ff8e4702183d10387cc7e94c2c59a",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 229,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.1552700251340866,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/02/00.jpg",
+        "ocr": "Equivalent Fractions\n\nA fraction puzzle for you\n\nA half-length share\n\nPo\n\nThe same share with more divisions\n\nLe\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 114.6,
+        "frame": "video-agent/video-corrections-35/frames/02/01.jpg",
+        "ocr": "Thinking time - 1 second\n\nEquivalent Fractions\n\nExample 2: rename three fifths\n\nThree fifths\n\n[J\n\n|\n\n|\n\nTwelve twentieths\n\nEEEEEEEEEEES sd\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 229.07999999999998,
+        "frame": "video-agent/video-corrections-35/frames/02/02.jpg",
+        "ocr": "Equivalent Fractions\n\nLook what you can do now\n\nRecognise, create and explain equivalent fractions\n\nSpot equal amounts in different models\n\nCreate equivalent fractions\n\nSimplify without changing the value\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/fractions-actual-outputs.jpg"
+    }
+  }
+}

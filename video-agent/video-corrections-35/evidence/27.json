@@ -1,0 +1,124 @@
+{
+  "number": 27,
+  "lesson": "Recognise Multiples",
+  "source": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+  "source_sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+  "candidate": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+  "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+  "bytes": 2821623,
+  "cut_seconds": 143.182625,
+  "removed_caption": {
+    "start": 143.357625,
+    "end": 146.46975,
+    "text": "Now try the lesson practice on MathMagic!"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4298,
+      "original_packets": 4414,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3357,
+      "original_packets": 3450,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    142.957625,
+    143.417625
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " OR EXACT DIVISION TO CHECK MEMBERSHIP FACTORS BUILD A NUMBER MULTIPLES ARE THE PRODUCTS YOU MAKE REFLECT ON WHICH MARDLE HELPED YOU AND EXPLAIN WHY",
+  "ending_review_note": "Actual ending recognised locally, not listening or proof of accent/enthusiasm.",
+  "candidate_automated_evidence": {
+    "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+    "duration": 143.266667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.06246734783053398,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        116.72,
+        120.94
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 115813
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+    "captions_sha256": "967b28faa1378a992a7e31741db48d87613229295e10143b1d72354183bc7992",
+    "transcript_sha256": "be7c2e0f8766c7b3db794b77a46c051db8ebeaf6d2a19c8873786bda6b423d5b",
+    "script_sha256": "084967c4a164d1c6da33d4c8b1abb77e81e4008bafd5c68fb4a941241b7b39b8",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 143,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.06246734783053398,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/27/00.jpg",
+        "ocr": "Recognise Multiples\n\nLet\u2019s investigate\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 71.6333335,
+        "frame": "video-agent/video-corrections-35/frames/27/01.jpg",
+        "ocr": "Recognise Multiples\n\nExample 1: explain\n\n6x4=24\n\n6 is a factor of 24\n\nEqual-group relationship\n\nNumber of groups\n\nIn each group\n\nTotal\n\n4\n\n6\n\n24\n\n4x6=24\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 143.146667,
+        "frame": "video-agent/video-corrections-35/frames/27/02.jpg",
+        "ocr": "Recognise Multiples\n\nWhat to remember\n\nEqual groups \u2014 repeated addition > multiples\n\nExplain the factor-multiple relationship\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/factors-multiples-actual-outputs.jpg"
+    }
+  }
+}

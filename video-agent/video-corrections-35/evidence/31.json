@@ -1,0 +1,119 @@
+{
+  "number": 31,
+  "lesson": "Choose Units and Measure Length",
+  "source": "videos/MathMagic_V3_measurement_lesson1.mp4",
+  "source_sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+  "candidate": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+  "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+  "bytes": 3056211,
+  "cut_seconds": 139.48991666666666,
+  "removed_caption": {
+    "start": 139.50495772298177,
+    "end": 143.571875,
+    "text": "Now try the MathMagic practice, and explain your thinking to someone."
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 4187,
+      "original_packets": 4307,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 3271,
+      "original_packets": 3366,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    139.41491666666667,
+    139.57491666666667
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " DETICATION MEASURE A PENCIL IN SENTIMETERS AND MILLIMITTIS DISCUSS WHICH READING DESCRIBES ITS LENGTH MORE PRECISELY REFLECT ON WHICH MODEL HELPED YOU AND WHY",
+  "ending_review_note": "ASR of final ten seconds; packet-prefix identity and quiet cut independently verified, actual listening still required.",
+  "candidate_automated_evidence": {
+    "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+    "duration": 139.566667,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.13449686765670776,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 112854
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+    "captions_sha256": "077d664d206f81a52a21131aad77bd7217e89602fa8a9f61ac44f7bb38378461",
+    "transcript_sha256": "586dd09ef0147b6670ae3f449bced087176c79e44a967743011176f5bfa0f909",
+    "script_sha256": "547ed6c89ac89ac30bc0b3bf646b663e5865bd7f0a32bd7122ed3cf675748ac6",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 140,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.13449686765670776,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/31/00.jpg",
+        "ocr": "Choose Units and Measure Length\n\nLet\u2019s investigate\n\nVee mea ee NES Ea hese, )\n\nil\n\n3)\n\n4\n\ni)\n\n6\n\n7\n\n8\n\n8)\n\n10\n\natk\n\n12\n\nCentimetres (each small interval is 1 mm)\n\nLength: count the space between the end marks\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 69.7833335,
+        "frame": "video-agent/video-corrections-35/frames/31/01.jpg",
+        "ocr": "Choose Units and Measure Length\n\nExample 1: explain\n\n9-\u2014-2=7cm\n\nLength is the difference\n\nyen ass aes ee en eye mv\")\n\na\n\n10\n\ndal\n\n12\n\nCentimetres (each small interval is 1 mm)\n\nLength: 7 cm\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 139.446667,
+        "frame": "video-agent/video-corrections-35/frames/31/02.jpg",
+        "ocr": "Choose Units and Measure Length\n\nWhat to remember\n\nChoose the unit > read equal intervals.\n\nLength = end reading \u2014 start reading.\n\nTry measuring a pencil two ways.\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/measurement-actual-outputs.jpg"
+    }
+  }
+}

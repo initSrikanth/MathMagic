@@ -1,0 +1,133 @@
+{
+  "number": 8,
+  "lesson": "Comparing & Ordering Whole Numbers",
+  "source": "videos/whole-numbers-2026/lesson3.mp4",
+  "source_sha256": "46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51",
+  "candidate": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+  "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+  "bytes": 6684648,
+  "cut_seconds": 211.66545833333333,
+  "removed_caption": {
+    "start": 211.71045833333332,
+    "end": 214.898125,
+    "text": "Then try the lesson practice on Math Magic.",
+    "source_sha256": "26363be10e72145c4ab1292c24acfcb919f8de11ae18812261acddc1a1e0de99"
+  },
+  "packet_copy_proof": {
+    "v:0": {
+      "packets_kept": 6352,
+      "original_packets": 6458,
+      "exact_original_prefix": true
+    },
+    "a:0": {
+      "packets_kept": 9923,
+      "original_packets": 10092,
+      "exact_original_prefix": true
+    }
+  },
+  "narration_regenerated": false,
+  "pitch_speed_changed": false,
+  "enthusiasm_changed": false,
+  "natural_silence_cut_interval": [
+    211.53045833333334,
+    211.81045833333332
+  ],
+  "caption_brand_free": true,
+  "transcript_brand_free": true,
+  "deployed": false,
+  "final_status": "VERIFIED_SCOPED_CORRECTION",
+  "release_status": "BLOCKED_FULL_PERCEPTUAL_AND_ENHANCED_ENTHUSIASM_REVIEW",
+  "ending_asr": " YOU YOU CAN NOW EXPLAIN YOUR STRATEGY CHECK THE PLACES CAREFULLY AND SHOW WHY YOUR ANSWER MAKES SENSE CHOOSE A NUMBER OF YOUR OWN AND EXPLAIN IT TO SOME ONE NEAR BY",
+  "ending_review_note": "ASR of final ten seconds; retained packets are exact originals; full perceptual review remains required.",
+  "candidate_automated_evidence": {
+    "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+    "duration": 211.733333,
+    "encoding": {
+      "video": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pixel_format": "yuv420p",
+      "audio": "aac"
+    },
+    "audio_rms": 0.1562366932630539,
+    "clipping_fraction": 0.0,
+    "silence_flags_seconds": [
+      [
+        56.14,
+        57.84
+      ],
+      [
+        101.66,
+        103.36
+      ],
+      [
+        163.1,
+        168.28
+      ]
+    ],
+    "caption_timing_valid": true,
+    "caption_transcript_text_match": true,
+    "sidecars_brand_free": true,
+    "perceptual_review": "UNVERIFIED",
+    "deployed": false,
+    "faststart_atom_positions": {
+      "moov": 32,
+      "mdat": 234737
+    },
+    "faststart": true
+  },
+  "full_quality_status": "UNVERIFIED",
+  "accent_status": "UNVERIFIED",
+  "scoped_qa": {
+    "mp4_sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+    "captions_sha256": "27a66ec8c995bdf7ef58060c86dbcfafa4ed95bd1160d1b8331276feaad3c7e2",
+    "transcript_sha256": "e43a59ad5524365a2afd98db2f8166d7b78725bf1a87876dbfe4d6a3a3e8a541",
+    "script_sha256": "8b472a6a4afc543ce2393cc685244d25a721ac6661a640a2130a8e7b8f19fc64",
+    "encoding_valid": true,
+    "faststart": true,
+    "full_decode": true,
+    "contrast_samples": 212,
+    "blank_frame_candidates": 0,
+    "caption_timing_valid": true,
+    "caption_transcript_match": true,
+    "source_brand_free": true,
+    "rendered_frame_ocr_brand_free": true,
+    "sampled_actual_frame_review": true,
+    "sampled_frame_count": 3,
+    "audio_rms": 0.1562366932630539,
+    "clipping_fraction": 0.0,
+    "original_voice_preserved": true,
+    "narration_pitch_speed_unchanged": true,
+    "mathematical_model_pixel_checks": null,
+    "actual_frame_samples": [
+      {
+        "at": 0,
+        "frame": "video-agent/video-corrections-35/frames/08/00.jpg",
+        "ocr": "Comparing & Ordering Whole Numbers\n\nWhich ticket comes first?\n\nHundred\n\nTen\n\nThousands\n\nHundreds\n\nTens\n\nOnes\n\nthousands\n\nthousands\n\n4\n\n5\n\n6\n\ni\n\nLs\n\n4\n\n5\n\n6\n\n7\n\nZn\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 105.8666665,
+        "frame": "video-agent/video-corrections-35/frames/08/01.jpg",
+        "ocr": "Comparing & Ordering Whole Numbers\n\nAnother comparison\n\n3097950: 3102005\n\nO ten-thousands < 1 ten-thousand\n\nHundred\n\nTen\n\n309,980 < 34.0;005\n\nTens\n\nOnes\n\nthousands\n\nthousands\n\n16)\n\n5)\n\n9\n\n9\n\n5\n\n0\n\n3\n\n0\n\n0\n\n0\n\n5\n\n=a\n",
+        "prohibited_brand_found": false
+      },
+      {
+        "at": 211.61333299999998,
+        "frame": "video-agent/video-corrections-35/frames/08/02.jpg",
+        "ocr": "Comparing & Ordering Whole Numbers\n\nLook what you can do now\n\nCompare and order whole numbers using place value\n\nFind the first different place\n\nUse comparison symbols correctly\n\nOrder and justify using place value\n",
+        "prohibited_brand_found": false
+      }
+    ],
+    "perceptual_audio": "UNVERIFIED",
+    "full_temporal_review": "UNVERIFIED",
+    "accent_status": "UNVERIFIED",
+    "scope": "branding_only",
+    "sampled_visual_review": {
+      "reviewer": "Codex actual-image inspection",
+      "reviewed_at": "2026-11-05T06:26:44Z",
+      "scope": "Beginning/middle/ending contact sheets for all32 final MP4s; actual full-resolution changed-scene beginning/intermediate/final frames for both model corrections. Not full-motion viewing or listening.",
+      "contact_sheet": "video-agent/video-corrections-35/frames/whole-numbers-actual-outputs.jpg"
+    }
+  }
+}

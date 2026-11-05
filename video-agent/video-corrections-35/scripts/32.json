@@ -1,0 +1,262 @@
+{
+  "id": "measurement-lesson2",
+  "topic": "measurement",
+  "section": "lesson2",
+  "title": "Measure Mass and Capacity",
+  "file": "MathMagic_V3_measurement_lesson2",
+  "beats": [
+    {
+      "text": "A lunchbox feels heavy, while a bottle looks full. Are we measuring the same attribute? Imagine packing for a picnic. We need a balance for mass and a marked container for capacity. Let us choose useful units before measuring.",
+      "chapter": "Let\u2019s investigate",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "opening",
+      "model": {
+        "type": "measurement",
+        "kind": "units",
+        "attribute": "mass-capacity",
+        "reveal": false
+      }
+    },
+    {
+      "text": "Our learning goal is to measure mass and capacity using scales and combined units.",
+      "chapter": "Today\u2019s Learning Goal",
+      "equation": [],
+      "board": [
+        "Measure mass and capacity using scales and combined units."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal"
+    },
+    {
+      "text": "Success criteria. I can distinguish mass from capacity. I can read equal scale intervals. I can combine kilograms and grams or litres and millilitres.",
+      "chapter": "Success Criteria: I can\u2026",
+      "equation": [],
+      "board": [
+        "1. Distinguish mass from capacity.",
+        "2. Read equal scale intervals.",
+        "3. Combine kilograms and grams or litres and millilitres."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria"
+    },
+    {
+      "text": "Mass describes how heavy an object is; capacity describes how much a container can hold. Use grams or kilograms for mass, and millilitres or litres for capacity. One kilogram is one thousand grams. One litre is one thousand millilitres. On every scale, count equal intervals before deciding what one interval represents.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "units",
+        "attribute": "mass-capacity",
+        "reveal": false
+      }
+    },
+    {
+      "text": "A bag has a mass of one kilogram and three hundred and fifty grams. Picture one thousand grams as a whole kilogram, with the smaller amount added alongside. What single gram reading would describe the same mass?",
+      "chapter": "Example 1: plan",
+      "equation": [],
+      "board": [
+        "1 kg = 1,000 g",
+        "Add another 350 g"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 1,
+        "part": 350,
+        "factor": 1000,
+        "big": "kg",
+        "small": "g",
+        "reveal": false
+      }
+    },
+    {
+      "text": "One thousand plus three hundred and fifty is one thousand three hundred and fifty grams. The bag has not become heavier because we changed its name. Kilograms and grams are two units for the same attribute.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "1,000 + 350 = 1,350 g",
+        "1 kg 350 g = 1,350 g"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 1,
+        "part": 350,
+        "factor": 1000,
+        "big": "kg",
+        "small": "g",
+        "reveal": true
+      }
+    },
+    {
+      "text": "A jug holds two litres and two hundred and fifty millilitres. Convert the whole litres first. Two groups of one thousand millilitres make two thousand millilitres. Then include the extra marked amount.",
+      "chapter": "Example 2: plan",
+      "equation": [],
+      "board": [
+        "2 L = 2,000 mL",
+        "Add another 250 mL"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "combined",
+        "whole": 2,
+        "part": 250,
+        "factor": 1000,
+        "big": "L",
+        "small": "mL",
+        "reveal": false
+      }
+    },
+    {
+      "text": "The capacity is two thousand two hundred and fifty millilitres. On a scale from zero to one thousand with four equal intervals, each interval would be two hundred and fifty millilitres. Count intervals, not just tick marks.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "2,000 + 250 = 2,250 mL",
+        "4 equal intervals: 250 mL each"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "model": {
+        "type": "measurement",
+        "kind": "scale",
+        "value": 2250,
+        "maximum": 2500,
+        "step": 250,
+        "unit": "mL",
+        "reveal": true
+      }
+    },
+    {
+      "text": "Grams and millilitres are not interchangeable labels. A balance measures mass; a marked jug measures capacity. Equal numerical readings do not make those attributes the same. Read the instrument and include the correct unit.",
+      "chapter": "Match the unit to the attribute",
+      "equation": [],
+      "board": [
+        "Mass: g or kg",
+        "Capacity: mL or L"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "model": {
+        "type": "measurement",
+        "kind": "units",
+        "attribute": "mass-capacity",
+        "reveal": true
+      }
+    },
+    {
+      "text": "A balance points halfway between five hundred and six hundred grams. What mass does it show? Look at the model, and keep your prediction in mind.",
+      "chapter": "Your turn",
+      "equation": [],
+      "board": [
+        "500 g \u2192 halfway \u2192 600 g",
+        "Mass = ? g"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 4,
+      "model": {
+        "type": "measurement",
+        "kind": "scale",
+        "value": 550,
+        "maximum": 1000,
+        "step": 50,
+        "unit": "g",
+        "reveal": false
+      }
+    },
+    {
+      "text": "Halfway is fifty grams beyond five hundred, giving five hundred and fifty grams. The scale is measuring mass, so the answer needs grams, not millilitres.",
+      "chapter": "Let\u2019s check",
+      "equation": [],
+      "board": [
+        "500 + 50 = 550 g"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "model": {
+        "type": "measurement",
+        "kind": "scale",
+        "value": 550,
+        "maximum": 1000,
+        "step": 50,
+        "unit": "g",
+        "reveal": true
+      }
+    },
+    {
+      "text": "Choose the attribute, unit and instrument together. For a practical challenge, use a kitchen balance or marked jug with an adult. Predict a reading, measure carefully, and explain the difference between your estimate and observation. Reflect on which model helped you and why.",
+      "chapter": "What to remember",
+      "equation": [],
+      "board": [
+        "Mass: g and kg | Capacity: mL and L",
+        "Read intervals; combine matching units.",
+        "Predict, measure and explain."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap"
+    }
+  ],
+  "codes": [
+    "AC9M5M01"
+  ]
+}
