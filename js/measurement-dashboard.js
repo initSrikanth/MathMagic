@@ -1,7 +1,41 @@
-// Only the new card is managed here; existing topic cards/auth guard stay unchanged.
+// Update only Measurement cards; preserve the existing dashboard auth guard and other topic cards.
 import {initializeApp,getApps,getApp} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js';
 import {getAuth,onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js';
 import {getFirestore,doc,getDoc} from 'https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js';
 import {firebaseConfig} from './firebase-config.js';
-const app=getApps().length?getApp():initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
-onAuthStateChanged(auth,async user=>{const card=document.querySelector('[data-topic-progress="measurement"]');if(!user||!card)return;try{const access=await getDoc(doc(db,'access',user.uid));if(!(access.exists()&&access.data().approved===true))return;const snap=await getDoc(doc(db,'progress',user.uid,'topics','measurement'));const p=snap.exists()?snap.data():{},attempts=Number(p.attempts||0),best=Number(p.bestScore||0);card.querySelector('.practice-dots').textContent=Array.from({length:5},(_,i)=>i<Math.min(attempts,5)?'●':'○').join(' ');card.querySelector('[data-attempts]').textContent=Math.min(attempts,5)+'/5';card.querySelector('[data-progress-bar]').style.width=Math.min(attempts,5)*20+'%';card.querySelector('[data-best]').textContent=attempts?'Best: '+best+'/30':'Best: —';card.querySelector('[data-proficiency]').textContent=p.proficient?'✓ PROFICIENT':attempts?'IN PROGRESS':'START'}catch(e){console.warn('Measurement progress unavailable; existing dashboard access guard remains active.',e)}});
+
+const app=getApps().length?getApp():initializeApp(firebaseConfig);
+const auth=getAuth(app),db=getFirestore(app);
+const TOPICS=['measurement','time-angles'];
+
+function paint(card,progress={}){
+  const attempts=Math.max(0,Number(progress.attempts)||0);
+  const completed=Math.min(5,Math.floor(attempts));
+  const best=Math.max(0,Math.min(30,Number(progress.bestScore)||0));
+  const dots=card.querySelector('.practice-dots');
+  const count=card.querySelector('[data-attempts]');
+  const bar=card.querySelector('[data-progress-bar]');
+  const score=card.querySelector('[data-best]');
+  const badge=card.querySelector('[data-proficiency]');
+  if(dots)dots.textContent=Array.from({length:5},(_,i)=>i<completed?'●':'○').join(' ');
+  if(count)count.textContent=completed+'/5';
+  if(bar)bar.style.width=completed*20+'%';
+  if(score)score.textContent=attempts?'Best: '+best+'/30':'Best: —';
+  if(badge)badge.textContent=progress.proficient===true?'✓ PROFICIENT':attempts?'IN PROGRESS':'START';
+}
+
+onAuthStateChanged(auth,async user=>{
+  if(!user)return;
+  const cards=TOPICS.map(topic=>({topic,card:document.querySelector('[data-topic-progress="'+topic+'"]')})).filter(item=>item.card);
+  if(!cards.length)return;
+  try{
+    const access=await getDoc(doc(db,'access',user.uid));
+    if(auth.currentUser?.uid!==user.uid||!(access.exists()&&access.data().approved===true))return;
+    await Promise.all(cards.map(async({topic,card})=>{
+      try{
+        const snap=await getDoc(doc(db,'progress',user.uid,'topics',topic));
+        if(auth.currentUser?.uid===user.uid)paint(card,snap.exists()?snap.data():{});
+      }catch(error){console.warn('Measurement progress unavailable for '+topic,error)}
+    }));
+  }catch(error){console.warn('Measurement access check unavailable; dashboard access guard remains authoritative.',error)}
+});
