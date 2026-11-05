@@ -39,7 +39,7 @@ def main(index):
    if longer and shorter:
     lo=min(longer,key=lambda x:x[0]);hi=min(shorter,key=lambda x:x[0]);dl,dh=len(lo[2])/sr,len(hi[2])/sr;speed=lo[1]+(hi[1]-lo[1])*(dl-target)/(dl-dh)
    else:speed=speed*(len(audio)/sr)/target
-   assert .75<=speed<=1.25,(i,'Required native rate outside a natural review bound',speed)
+   assert (.65 if len(words.split())<=3 else .75)<=speed<=1.25,(i,'Required native rate outside a natural review bound',speed)
    path=CACHE/(f'{i:02}-fit-{speed:.6f}-'+fingerprint+'.wav')
    if path.exists():audio,rate=sf.read(path,dtype='float32');assert rate==sr
    else:

@@ -9913,13 +9913,18 @@
       "expected_sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
       "duration": 156.345,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
@@ -10427,14 +10432,14 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
-        "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
-        "bytes": 3046929,
-        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.vtt",
-        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4",
+        "sha256": "24e62377d2aa24f329121e613cda969d4875ed75c1bf17f876e004a7dbb2a1d3",
+        "bytes": 2626106,
+        "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/17.json",
-        "duration": 152.466667,
+        "duration": 152.467,
         "caption_cues": 35,
         "audio_duration": 152.405
       },
@@ -10479,6 +10484,48 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 17,
+        "page": "addition-subtraction.html",
+        "section": "lesson2",
+        "previous": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+          "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+          "bytes": 3046929,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/17.json",
+          "duration": 152.466667,
+          "caption_cues": 35,
+          "audio_duration": 152.405
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "24e62377d2aa24f329121e613cda969d4875ed75c1bf17f876e004a7dbb2a1d3",
+          "bytes": 2626106,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/17.json",
+          "duration": 152.467,
+          "caption_cues": 35,
+          "audio_duration": 152.405
+        },
+        "evidence": "video-agent/narration-hf-alpha/17/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
@@ -11097,13 +11144,18 @@
       "expected_sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
       "duration": 144.3,
       "voice": {
-        "model": "Kokoro v0.19",
-        "name": "bf_emma",
-        "speaker_id": 7,
-        "speed": 0.84,
-        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "model": "Kokoro v1.0 multilingual ONNX",
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "phonemizer": "en",
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
         "licence": "Apache-2.0",
-        "paid_calls": 0
+        "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+        "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+        "enhanced_enthusiasm_approval": null,
+        "legacy_british_profile_allowed": false,
+        "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
       },
       "voice_profile_check": "FAIL_CONFIG",
       "manifest": "video-agent/production-v2/addition-subtraction-release.json",
@@ -11635,11 +11687,11 @@
         }
       },
       "active_media": {
-        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
-        "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
-        "bytes": 2740503,
-        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.vtt",
-        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree_transcript.txt",
+        "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4",
+        "sha256": "b60c509de324cf9dfb611cdfe5ef8cf761d4b615a541f62f768806bf2dc5cbcf",
+        "bytes": 2355703,
+        "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
         "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
         "script": "video-agent/video-corrections-35/scripts/19.json",
         "duration": 140.4,
@@ -11687,6 +11739,48 @@
         "ending": true,
         "captions_loaded": true,
         "containment": true
+      },
+      "narration_replacement": {
+        "number": 19,
+        "page": "addition-subtraction.html",
+        "section": "lesson4",
+        "previous": {
+          "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+          "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+          "bytes": 2740503,
+          "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.vtt",
+          "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/19.json",
+          "duration": 140.4,
+          "caption_cues": 31,
+          "audio_duration": 140.331
+        },
+        "replacement": {
+          "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "b60c509de324cf9dfb611cdfe5ef8cf761d4b615a541f62f768806bf2dc5cbcf",
+          "bytes": 2355703,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+          "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "script": "video-agent/video-corrections-35/scripts/19.json",
+          "duration": 140.4,
+          "caption_cues": 31,
+          "audio_duration": 140.331
+        },
+        "evidence": "video-agent/narration-hf-alpha/19/candidate.json",
+        "owner_authorised": true,
+        "perceptual_status": "UNVERIFIED",
+        "deployed": false
+      },
+      "previous_voice": {
+        "model": "Kokoro v0.19",
+        "name": "bf_emma",
+        "speaker_id": 7,
+        "speed": 0.84,
+        "model_sha256": "10ff414106a038ce7e9e0126c6461e4dc8a86efaa89dc91d2009d69fe635e339",
+        "licence": "Apache-2.0",
+        "paid_calls": 0
       }
     },
     {
