@@ -1,6 +1,6 @@
 # Year 5 Measurement — resumable development checkpoint
 
-Updated after commit `c01742926fff70e84dbecd05b772d19ef256f14d`.
+Updated after commit `bb329d181585998374a660efa91569d24796efac`.
 
 ## Scope
 Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the completed `measurement.html` / Measuring Our World topic and its approved media. Five pages is a baseline, not a ceiling. No video rendering in this application-development task.
@@ -12,6 +12,7 @@ Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the comple
 - Quiz keyboard submission bug fixed in commit `0851ff0` by attaching Enter handling when each answer input is rendered.
 - Added interactive self-checking activities to all five Time and Angles lessons (`js/time-angles-practice.js`, `time-angles.html`, `css/fractions.css`) with accessible inputs, timelines, timetable and SVG angle diagrams.
 - Corrected quiz noon conversion and strict 24-hour input validation in `js/time-angles.js` (commit `c017429`).
+- Quiz now shows six five-question difficulty labels and worked feedback for all answers (commit `a51072f`); validates angle type responses and sets appropriate mobile input modes (commit `bb329d1`).
 - Added prominent dashboard-return links to the Time and Angles lesson and challenge views; root cause of reported navigation issue remains unverified.
 - `AGENTS.md` is canonical. Review curriculum matrix before deciding whether to retain or split Time and Angles; avoid duplicating covered Measurement outcomes.
 
@@ -28,6 +29,9 @@ Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the comple
 - Five lessons now have one self-checking interactive exercise each; further rich manipulatives, lesson depth, curriculum mapping and comprehensive QA remain outstanding.
 - Dashboard navigation failure is user-reported and not yet reproduced.
 - Production Firestore security rules and cross-device persistence remain unverified.
+
+## Standing execution rule
+Active interactive development must proceed immediately; the hourly automation is a checkpointed fallback, **never a wait gate**. Do not return to user simply to request continuation. Continue implementation in each available execution window and record exact unfinished actions.
 
 ## Credit and session policy
 Read this checkpoint and latest commit first. Work on one coherent task per run; do not redo completed audits or spawn duplicate agents. Commit actual changes, update this file, and resume at next authorised run. Do not imply unlimited schedule or credits.
