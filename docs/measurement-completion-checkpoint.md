@@ -1,6 +1,6 @@
 # Year 5 Measurement — resumable development checkpoint
 
-Updated after dashboard consolidation commit `7c351c3b50eac9b4e53788cee4a3616e40fa573f`.
+Updated after Measurement dashboard-return visibility fix commit `63059bef4d2b1d1df1f97eb153dd1522e2858ff9`.
 
 ## Scope
 Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the completed `measurement.html` / Measuring Our World topic and its approved media. Five pages is a baseline, not a ceiling. No video rendering in this application-development task.
@@ -23,6 +23,12 @@ Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the comple
 4. Verify 30 unique valid questions per attempt, worked solutions, input validation, idempotent Firebase progress and dashboard state.
 5. Run targeted and required release tests, then merge/deploy only when verified. Record tested SHA and observed outcomes.
 6. Record missing video production separately; do not render without separate authorisation.
+
+## Current session — dashboard return visibility
+- Added a clearly labelled `Back to Dashboard` anchor at the beginning of `measurement.html` learning content and within the challenge screen. Code commit `63059bef4d2b1d1df1f97eb153dd1522e2858ff9`.
+- Static source inspection confirmed the previous two header links and the two new context-specific anchors, all pointing to `dashboard.html`. This improves discoverability but does **not** reproduce or establish the root cause of the user-reported navigation failure.
+- Browser, mobile and authenticated Firebase navigation tests remain **not run**. Do not merge on the strength of static inspection.
+- Next exact action: run authenticated browser navigation from Measuring Our World and Time and Angles lesson and challenge views; capture any redirect/console failure and fix it. Then validate 30-question generator and curriculum coverage.
 
 ## Validation and blockers
 - Static inspection confirmed the Time and Angles dashboard card and its previously missing progress wiring; `js/measurement-dashboard.js` now handles both Measurement topic IDs. This was a source-level change, **not a passed Firebase/browser test**.\n- Source checks confirmed five lesson sections, five practice activities, a 30-question quiz structure, practice script inclusion, Enter handler, noon conversion and input validation. **No browser test or deployed Firebase check has been performed in this session.**
