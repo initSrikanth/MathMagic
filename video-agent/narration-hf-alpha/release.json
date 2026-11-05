@@ -90,6 +90,105 @@
       "deployed": false
     },
     {
+      "number": 14,
+      "page": "decimals-percentages.html",
+      "section": "connect",
+      "previous": {
+        "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+        "sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+        "bytes": 2371416,
+        "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.vtt",
+        "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/14.json",
+        "duration": 118.233333,
+        "caption_cues": 25,
+        "audio_duration": 118.217
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4",
+        "sha256": "f92d73dd4bb6a217008000b1a2754fef48ad791bfd3e556ea9062e8933156d7e",
+        "bytes": 2042583,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/14.json",
+        "duration": 118.233333,
+        "caption_cues": 25,
+        "audio_duration": 118.217
+      },
+      "evidence": "video-agent/narration-hf-alpha/14/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 15,
+      "page": "decimals-percentages.html",
+      "section": "apply",
+      "previous": {
+        "mp4": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
+        "sha256": "844d897391cf283b66cebf70ac8ac666f7112e6d4674c8c61807cdcc66d7939e",
+        "bytes": 2347507,
+        "captions": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.vtt",
+        "transcript": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/15.json",
+        "duration": 120.916,
+        "caption_cues": 25,
+        "audio_duration": 120.916
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4",
+        "sha256": "86cd011afa8b2bb44e49ad26495b9e50fd5e42747ea5a2cf2dac9366dfaaf0c4",
+        "bytes": 2026612,
+        "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/15.json",
+        "duration": 120.916,
+        "caption_cues": 25,
+        "audio_duration": 120.916
+      },
+      "evidence": "video-agent/narration-hf-alpha/15/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 16,
+      "page": "addition-subtraction.html",
+      "section": "lesson1",
+      "previous": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+        "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+        "bytes": 2716199,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/16.json",
+        "duration": 138.433333,
+        "caption_cues": 33,
+        "audio_duration": 138.368
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4",
+        "sha256": "a15f053ff14c2a14456029b8084b4b41d004477404d333da49a9bbb7a0587627",
+        "bytes": 2340056,
+        "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/16.json",
+        "duration": 138.433333,
+        "caption_cues": 33,
+        "audio_duration": 138.368
+      },
+      "evidence": "video-agent/narration-hf-alpha/16/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
       "number": 21,
       "page": "multiplication-division.html",
       "section": "lesson1",
