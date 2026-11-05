@@ -222,6 +222,39 @@
       "deployed": false
     },
     {
+      "number": 18,
+      "page": "addition-subtraction.html",
+      "section": "lesson3",
+      "previous": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+        "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+        "bytes": 2852265,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/18.json",
+        "duration": 143.633333,
+        "caption_cues": 31,
+        "audio_duration": 143.573
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4",
+        "sha256": "d4b72d473a448d31840272a42b973cbbff158ee9ef7dadb590585e873e05c459",
+        "bytes": 2464110,
+        "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/18.json",
+        "duration": 143.633333,
+        "caption_cues": 31,
+        "audio_duration": 143.573
+      },
+      "evidence": "video-agent/narration-hf-alpha/18/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
       "number": 19,
       "page": "addition-subtraction.html",
       "section": "lesson4",
@@ -255,6 +288,39 @@
       "deployed": false
     },
     {
+      "number": 20,
+      "page": "addition-subtraction.html",
+      "section": "lesson5",
+      "previous": {
+        "mp4": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4",
+        "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+        "bytes": 2777550,
+        "captions": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.vtt",
+        "transcript": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/20.json",
+        "duration": 140.233333,
+        "caption_cues": 33,
+        "audio_duration": 140.16
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+        "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+        "bytes": 2399982,
+        "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/20.json",
+        "duration": 140.233333,
+        "caption_cues": 33,
+        "audio_duration": 140.16
+      },
+      "evidence": "video-agent/narration-hf-alpha/20/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
       "number": 21,
       "page": "multiplication-division.html",
       "section": "lesson1",
@@ -283,6 +349,72 @@
         "audio_duration": 137.301
       },
       "evidence": "video-agent/narration-hf-alpha/21/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 22,
+      "page": "multiplication-division.html",
+      "section": "lesson2",
+      "previous": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+        "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+        "bytes": 2810109,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/22.json",
+        "duration": 139.266667,
+        "caption_cues": 32,
+        "audio_duration": 139.221
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+        "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+        "bytes": 2420058,
+        "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/22.json",
+        "duration": 139.267,
+        "caption_cues": 32,
+        "audio_duration": 139.221
+      },
+      "evidence": "video-agent/narration-hf-alpha/22/candidate.json",
+      "owner_authorised": true,
+      "perceptual_status": "UNVERIFIED",
+      "deployed": false
+    },
+    {
+      "number": 23,
+      "page": "multiplication-division.html",
+      "section": "lesson3",
+      "previous": {
+        "mp4": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4",
+        "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+        "bytes": 2796345,
+        "captions": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.vtt",
+        "transcript": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/23.json",
+        "duration": 142.866667,
+        "caption_cues": 33,
+        "audio_duration": 142.805
+      },
+      "replacement": {
+        "mp4": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+        "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+        "bytes": 2394283,
+        "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+        "transcript": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha_transcript.txt",
+        "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+        "script": "video-agent/video-corrections-35/scripts/23.json",
+        "duration": 142.867,
+        "caption_cues": 33,
+        "audio_duration": 142.805
+      },
+      "evidence": "video-agent/narration-hf-alpha/23/candidate.json",
       "owner_authorised": true,
       "perceptual_status": "UNVERIFIED",
       "deployed": false

@@ -18,7 +18,7 @@ def main():
   t=dict(s,mp4=str(f.relative_to(ROOT)),sha256=sha(f),bytes=f.stat().st_size,captions=str(cap.relative_to(ROOT)),transcript=str(txt.relative_to(ROOT)),duration=e['duration'])
   c=dict(number=r['number'],page=r['page'],section=r['lesson_section'],previous=s,replacement=t,evidence=str(evpath.relative_to(ROOT)),owner_authorised=True,perceptual_status='UNVERIFIED',deployed=False)
   r['narration_replacement']=c;verify([r]);r['active_media']=t;r['previous_voice']=r['voice'];r['voice']=e['voice'];r['accent_status']='UNVERIFIED';r['full_quality_status']='UNVERIFIED';releases.append(c)
-  h=pages.setdefault(r['page'],(ROOT/r['page']).read_text());matches=[(a,b) for section,a,b in cards.Cards(h).cards if section==r['lesson_section']];assert len(matches)==1;a,b=matches[0];card=h[a:b];assert s['mp4'] in card
+  h=pages.setdefault(r['page'],(ROOT/r['page']).read_text());matches=[(a,b) for section,a,b in cards.Cards(h).cards if section==r['lesson_section'] and s['mp4'] in h[a:b]];assert len(matches)==1,(r['number'],matches);a,b=matches[0];card=h[a:b];assert s['mp4'] in card
   newcard=card.replace(s['mp4'],t['mp4']).replace(s['captions'],t['captions']).replace(s['transcript'],t['transcript']);pages[r['page']]=h[:a]+newcard+h[b:]
   manifest=r['manifest'];batch=batches.setdefault(manifest,json.loads((ROOT/manifest).read_text()));entry=next(x for x in batch['lessons'] if x['section']==r['lesson_section']);entry['previous_narration_release']=copy.deepcopy(entry)
   entry.update(src=t['mp4'],captions=t['captions'],transcript=t['transcript'],bytes=t['bytes'],sha256=t['sha256'],duration=t['duration'],status='verified_owner_authorised_narration',perceptual_status='UNVERIFIED',voice=e['voice'])
