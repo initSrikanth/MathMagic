@@ -30,6 +30,11 @@ Finish **only** Year 5 Australian Curriculum v9 Measurement. Preserve the comple
 - Browser, mobile and authenticated Firebase navigation tests remain **not run**. Do not merge on the strength of static inspection.
 - Next exact action: run authenticated browser navigation from Measuring Our World and Time and Angles lesson and challenge views; capture any redirect/console failure and fix it. Then validate 30-question generator and curriculum coverage.
 
+## Current session — 12-hour time assessment coverage
+- Code commit `55276229f6d38bf6aafdcd1e2a016f634b96fcf4`: expanded Time and Angles question kind 6 from PM-only conversion to AM and PM, including 12 am → 00:xx (midnight) and 12 pm → 12:xx (noon), with explanatory feedback.
+- Targeted JavaScript generator check executed against the fetched updated source: 1,000 independently generated 30-question sets; no repeated prompts within a set, and every generated AM/PM conversion matched an independently computed expected 24-hour answer. Both AM and PM cases occurred. This is generator-level validation, **not browser, Firebase, or full mathematical QA**.
+- Next exact action: verify actual authenticated Back to Dashboard navigation and Firebase progress in desktop/mobile browser, then audit other question kinds and curriculum mapping. PR #56 remains draft; do not merge until release checks pass.
+
 ## Validation and blockers
 - Static inspection confirmed the Time and Angles dashboard card and its previously missing progress wiring; `js/measurement-dashboard.js` now handles both Measurement topic IDs. This was a source-level change, **not a passed Firebase/browser test**.\n- Source checks confirmed five lesson sections, five practice activities, a 30-question quiz structure, practice script inclusion, Enter handler, noon conversion and input validation. **No browser test or deployed Firebase check has been performed in this session.**
 - Five lessons now have one self-checking interactive exercise each; further rich manipulatives, lesson depth, curriculum mapping and comprehensive QA remain outstanding.
