@@ -85,3 +85,8 @@ Read this checkpoint and latest commit first. Work on one coherent task per run;
 ## Exact-head browser QA verification — 2026-11-06
 - GitHub Actions run `42171572562` for commit `8133342e3a9a62eb6e528ee2bf28bdaa02d8c564` completed **success**. The `fractions-browser-qa` job reports success, including `Independently validate Year 5 measurement mathematics` and `Run MathMagic browser QA`. This head includes the Time and Angles browser regression file added in `7f1d6e2`.
 - This is a CI pass, not evidence of authenticated production Firebase, real-device iPhone testing, or live deployment. PR #56 remains draft/unmerged. Next: inspect actual browser-test coverage and close approved-user navigation/progress and curriculum-depth gaps before merge.
+
+## Mobile return-navigation and time-input regression — 2026-11-06
+- Code commit `d1372adff74319025c6418e790ae8605e64b3339`: extended `tests/e2e/time-angles.spec.js` with 390px browser navigation from a lesson and challenge back to dashboard, plus additional malformed 24-hour time boundaries that must not advance a question.
+- These are browser tests with Firebase scripts bypassed, **not production authenticated tests**. They have been committed but the exact-head CI result was not yet observed. Previous run `42176997674` passed at earlier SHA `ad89b3c` and does not cover these new tests.
+- Next: check exact-head CI and fix any failures; perform real approved-user Firebase progress/return navigation and real iPhone verification before considering merge. PR #56 remains draft; no video rendering.
