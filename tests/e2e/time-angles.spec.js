@@ -99,3 +99,30 @@ test('Time and Angles: malformed numeric responses do not consume a question',as
     await expect(page.locator('#nextQuestion')).toBeDisabled();
   }
 });
+
+
+test('Time and Angles: failed progress write can retry without counting twice',async({page})=>{
+  await openTopic(page);
+  await page.evaluate(()=>{
+    window.__saveCalls=[];
+    window.MathMagicTimeAnglesProgress={saveAttempt:async(score,id)=>{
+      window.__saveCalls.push({score,id});
+      if(window.__saveCalls.length===1)throw new Error('Temporary connection failure');
+      return {attempts:1,bestScore:score};
+    }};
+  });
+  await page.locator('[data-screen="challenge"]').click();
+  for(let n=0;n<30;n++){
+    const answer=await page.evaluate(()=>quiz[index].answer);
+    await page.locator('#answerInput').fill(answer);
+    await page.locator('#checkAnswer').click();
+    await page.locator('#nextQuestion').click();
+  }
+  await expect(page.locator('#resultCard')).toContainText('Save failed');
+  await page.getByRole('button',{name:'Retry saving'}).click();
+  await expect(page.locator('#resultCard')).toContainText('Attempt saved');
+  const calls=await page.evaluate(()=>window.__saveCalls);
+  expect(calls).toHaveLength(2);
+  expect(calls[0]).toEqual(calls[1]);
+  await expect(page.getByRole('button',{name:'Retry saving'})).toHaveCount(0);
+});
