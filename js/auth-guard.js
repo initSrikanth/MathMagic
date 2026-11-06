@@ -28,6 +28,9 @@ if (!configured) {
         return;
       }
 
+      // Approval gates the dashboard; optional topic-progress reads must not block navigation.
+      document.body.classList.add("authenticated");
+
       const progressPanel = document.querySelector('[data-topic-progress="whole-numbers"]');
       if (progressPanel) {
         try {
@@ -149,7 +152,6 @@ if (!configured) {
       const factorsPanel = document.querySelector('[data-topic-progress="factors-multiples"]');
       if (factorsPanel) { try { const k="mathmagic:"+user.uid+":factors-multiples:progress",r=doc(db,"progress",user.uid,"topics","factors-multiples"),s=await getDoc(r);let p;if(s.exists()){p=s.data();localStorage.setItem(k,JSON.stringify(p))}else{try{p=JSON.parse(localStorage.getItem(k)||"{}")}catch{p={}}}const a=Number(p.attempts||0),best=Number(p.bestScore||0),pro=p.proficient===true;factorsPanel.querySelector(".practice-dots").textContent=Array.from({length:5},(_,i)=>i<Math.min(a,5)?"●":"○").join(" ");factorsPanel.querySelector("[data-attempts]").textContent=Math.min(a,5)+"/5";factorsPanel.querySelector("[data-progress-bar]").style.width=(Math.min(a,5)*20)+"%";factorsPanel.querySelector("[data-best]").textContent=a?"Best: "+best+"/30":"Best: —";factorsPanel.querySelector("[data-proficiency]").textContent=pro?"✓ PROFICIENT":a?"IN PROGRESS":"START"}catch(e){console.warn("Factors & Multiples progress could not be loaded:",e)} }
 
-      document.body.classList.add("authenticated");
       document.querySelectorAll("[data-user-name]").forEach(el => el.textContent = user.displayName || "MathMagic learner");
       document.querySelectorAll("[data-user-email]").forEach(el => el.textContent = user.email || "");
       document.querySelectorAll("[data-user-photo]").forEach(el => {
