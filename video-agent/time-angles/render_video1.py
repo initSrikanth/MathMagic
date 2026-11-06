@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import sherpa_onnx
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/"videos"/"MathMagic_Time_Angles_01_Reading_Time_and_Duration.mp4"
+OUT=ROOT/"videos"/"MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4"
 MODEL=Path(os.environ.get("KOKORO_MODEL","/workspace/fractions-five-work/kokoro-multi-lang-v1_0"))
 W,H=1920,1080
 BG="#FFF9EE";INK="#17354D";TEAL="#008A94";ORANGE="#B85A10";MUTED="#6A8398"
@@ -137,5 +137,10 @@ def main():
   video_list=work/"all.txt";video_list.write_text("".join(f"file '{p}'\n" for p in clips))
   run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",str(video_list),"-i",str(wav),"-map","0:v:0","-map","1:a:0","-c:v","copy","-c:a","aac","-b:a","160k","-ar","48000","-af","loudnorm=I=-17:TP=-2:LRA=9","-movflags","+faststart","-shortest",str(OUT)])
   (OUT.with_suffix(".json")).write_text(json.dumps(cues,indent=2))
- print(f"Rendered: {OUT}")
+ probe=subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(OUT)],text=True)
+ seconds=float(probe.strip())
+ if not 300 <= seconds <= 600:
+  OUT.unlink(missing_ok=True)
+  raise SystemExit(f"Rejecting video: duration {seconds:.1f}s, required 300-600s")
+ print(f"Rendered and duration-verified: {OUT} ({seconds:.1f}s)")
 if __name__=="__main__":main()
