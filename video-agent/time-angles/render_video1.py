@@ -16,7 +16,7 @@ W,H=1920,1080
 BG="#FFF9EE";INK="#17354D";TEAL="#008A94";ORANGE="#B85A10";MUTED="#6A8398"
 FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 BEATS=[
-("hook","A bus leaves at nine fifteen and arrives at ten oh five. How long was the journey? The clock gives us a clue, but we need to think about the minutes between the times.","journey",9,15,10,5),
+("hook","Today we are learning how to read time and work out how long something takes. Imagine a bus leaves at nine fifteen and arrives at ten oh five. How long was the journey? Let us investigate using clocks and timelines.","journey",9,15,10,5),
 ("goal","Our learning goal is to read time accurately, calculate elapsed time, and explain our thinking using clocks and timelines.","clock",9,15),
 ("criteria","By the end, you can read the hour and minute hands, calculate a duration that crosses the hour, and check your answer with a timeline.","clock",9,15),
 ("explanation","Start with the minute hand. Each large step around the clock is five minutes. The minute hand at three means fifteen minutes past the hour.","clock",9,15),
@@ -32,6 +32,24 @@ BEATS=[
 ("explanation","For afternoon times after twelve, add twelve to the hour. Three plus twelve equals fifteen. The minutes do not change.","conversion",3,40,15,40),
 ("question","A movie begins at thirteen twenty and ends at fourteen ten. Before I reveal the answer, estimate: is the duration closer to thirty minutes or one hour?","timeline",13,20,14,10),
 ("answer","From thirteen twenty to fourteen hundred is forty minutes. Another ten minutes takes us to fourteen ten. The total is fifty minutes.","timeline",13,20,14,10),
+("explanation","Here is a useful trick. A clock has sixty minutes, but only twelve large numbers. Each jump between two neighbouring numbers represents five minutes. Start at twelve and count five, ten, fifteen, twenty, twenty-five, and thirty.","clock",6,30),
+("question","Take a look at this clock showing six thirty. Before you hear my answer, point to the minute hand. Why does it point to six instead of thirty? Pause and think about what each large number represents.","clock",6,30),
+("answer","The long minute hand points to six, which represents thirty minutes. The shorter hour hand is halfway between six and seven. Half past six is written six thirty. We never read the number under the minute hand as the minutes directly.","clock",6,30),
+("explanation","We can also use the word quarter. A quarter of sixty minutes is fifteen minutes. When the minute hand points to three, it is quarter past the hour. When it points to nine, it is quarter to the next hour.","clock",9,45),
+("question","This clock shows nine forty-five. Is that quarter past nine, or quarter to ten? Look closely at where the shorter hour hand is moving. Give yourself five seconds to decide.","clock",9,45),
+("answer","It is quarter to ten. Forty-five minutes have already passed since nine o'clock, and fifteen minutes remain until ten. The hour hand is nearly at ten. That is why we say quarter to ten.","clock",9,45),
+("explanation","To calculate a duration, we are not looking for the difference between two clock numbers. We want the amount of time that actually passes. A number line or timeline shows each part of the journey clearly.","timeline",9,15,10,5),
+("explanation","Think of ten o'clock as a friendly stopping point. First travel from nine fifteen to ten o'clock. Then travel from ten o'clock to ten oh five. We can add the two durations because the parts do not overlap.","timeline",9,15,10,5),
+("question","Try another example. A swimming lesson begins at two twenty-five and finishes at three ten. How many minutes until three o'clock? Then how many more minutes until three ten? Work it out before the explanation.","timeline",14,25,15,10),
+("answer","From two twenty-five to three o'clock is thirty-five minutes. From three o'clock to three ten is another ten minutes. Thirty-five plus ten equals forty-five minutes. The swimming lesson lasts forty-five minutes.","timeline",14,25,15,10),
+("misconception","Check the reasonableness of your answer. If an activity begins before three o'clock and finishes just after three o'clock, a duration of five minutes is too short. Estimate first, then calculate to catch mistakes.","timeline",14,25,15,10),
+("explanation","Now let us compare morning and afternoon times. A digital clock may show three forty in the afternoon, while a twenty-four-hour clock shows fifteen forty. Both represent exactly the same moment.","conversion",3,40,15,40),
+("question","Here is a quick check. If a sports match starts at fourteen twenty, what time is that on a twelve-hour clock? Think about subtracting twelve from the hour. The minutes should stay exactly the same.","conversion",14,20,2,20),
+("answer","Fourteen minus twelve equals two, so fourteen twenty is two twenty in the afternoon. Notice that we did not subtract twelve from the minutes. The twenty minutes remain twenty minutes.","conversion",14,20,2,20),
+("explanation","Be careful around midday. Twelve noon is twelve hundred in twenty-four-hour time. Midnight is zero hundred. These two moments are twelve hours apart, even though both may be written as twelve on a twelve-hour clock.","conversion",12,0,0,0),
+("question","Here is our final independent challenge. A train leaves at eleven thirty-five and reaches its destination at twelve twenty. How long does it travel? Draw a timeline with noon as the middle stop and solve each part.","timeline",11,35,12,20),
+("answer","From eleven thirty-five to noon is twenty-five minutes. From noon to twelve twenty is another twenty minutes. Twenty-five plus twenty equals forty-five minutes. The train journey takes forty-five minutes.","timeline",11,35,12,20),
+("recap","To check your understanding, explain the method to someone else. Read the clock hands, choose a helpful hour boundary, count each jump, and add the minutes. If your answer seems surprising, draw the timeline again.","timeline",11,35,12,20),
 ("recap","Today you read clock hands, crossed an hour boundary, and converted between twelve-hour and twenty-four-hour time. Remember: count the time between the two moments, not just the numbers on the clock.","journey",9,15,10,5),
 ("recap","Your challenge: a train departs at eleven thirty-five and arrives at twelve twenty. Draw a timeline, find the duration, and explain each jump. Then try the MathMagic practice.","timeline",11,35,12,20),
 ]
@@ -99,7 +117,7 @@ def main():
    assert speech.sample_rate==24000
    a=np.asarray(speech.samples,dtype=np.float32)
    assert len(a)>24000 and np.sqrt(np.mean(a*a))>.005
-   pause=5.0 if beat[0] in ("question","prediction") else .65
+   pause=5.0 if beat[0] in ("question","prediction") else 1.0
    audio.append(a);audio.append(np.zeros(int(pause*24000),dtype=np.float32))
    duration=len(a)/24000+pause;frames=math.ceil(duration*30)
    cues.append(dict(start=elapsed,end=elapsed+duration,text=beat[1],role=beat[0]));elapsed+=duration
