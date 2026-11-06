@@ -1,8 +1,11 @@
 name: Render Time and Angles Video 1 (Kokoro)
+# Preserve approved cream-background graphics and Kokoro hf_alpha voice.
+# Video 1 only: subsequent lessons require their own verified scripts.
 on:
   push:
     paths:
       - '.github/workflows/render-time-angles-video1.yml'
+      - 'video-agent/time-angles/render_video1.py'
   workflow_dispatch:
 permissions:
   contents: write
