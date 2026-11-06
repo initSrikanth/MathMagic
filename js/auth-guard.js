@@ -28,7 +28,10 @@ if (!configured) {
         return;
       }
 
-      // Approval gates the dashboard; optional topic-progress reads must not block navigation.\n      document.body.classList.add("authenticated");\n\n      const progressPanel = document.querySelector('[data-topic-progress="whole-numbers"]');
+      // Approval gates the dashboard; optional topic-progress reads must not block navigation.
+      document.body.classList.add("authenticated");
+
+      const progressPanel = document.querySelector('[data-topic-progress="whole-numbers"]');
       if (progressPanel) {
         try {
           const localKey = "mathmagic:" + user.uid + ":whole-numbers:progress";
