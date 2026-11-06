@@ -65,3 +65,37 @@ test('Time and Angles: invalid time input does not advance',async({page})=>{
     await expect(page.locator('#nextQuestion')).toBeDisabled();
   }
 });
+
+test('Time and Angles: Back to Dashboard navigates from lessons and challenge on mobile',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.route('**/js/auth-guard.js*',route=>route.abort());
+  await openTopic(page);
+  await page.locator('[data-screen="lesson5"]').click();
+  await page.locator('.topic-return a[href="dashboard.html"]').first().click();
+  await expect(page).toHaveURL(/\/dashboard\.html$/);
+  await page.goto('/time-angles.html');
+  await page.evaluate(()=>{
+    document.body.classList.remove('auth-loading');
+    window.MathMagicTimeAnglesProgress={saveAttempt:async()=>({attempts:1,bestScore:30})};
+  });
+  await page.locator('[data-screen="challenge"]').click();
+  await expect(page.locator('.topic-return a[href="dashboard.html"]').first()).toBeVisible();
+  await page.locator('.topic-return a[href="dashboard.html"]').first().click();
+  await expect(page).toHaveURL(/\/dashboard\.html$/);
+});
+
+test('Time and Angles: malformed numeric responses do not consume a question',async({page})=>{
+  await openTopic(page);
+  await page.locator('[data-screen="challenge"]').click();
+  // The first question is angle classification; answer it to reach a time-format question.
+  await page.locator('#answerInput').fill('acute');
+  await page.locator('#checkAnswer').click();
+  await page.locator('#nextQuestion').click();
+  await expect(page.locator('#qNumber')).toHaveText('2 / 30');
+  for(const invalid of ['24:00','00:60','12:5','-01:00']){
+    await page.locator('#answerInput').fill(invalid);
+    await page.locator('#checkAnswer').click();
+    await expect(page.locator('#qNumber')).toHaveText('2 / 30');
+    await expect(page.locator('#nextQuestion')).toBeDisabled();
+  }
+});
