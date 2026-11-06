@@ -51,3 +51,8 @@ Active interactive development must proceed immediately; the hourly automation i
 
 ## Credit and session policy
 Read this checkpoint and latest commit first. Work on one coherent task per run; do not redo completed audits or spawn duplicate agents. Commit actual changes, update this file, and resume at next authorised run. Do not imply unlimited schedule or credits.
+
+## Current session — authentic timetable question improvement (2026-11-06)
+- Code commit `14e4f9c944e85143315aee5ad6706ffc5e088243`: Time and Angles question kind 7 now supplies actual bus/train departure and arrival times, requires learners to read the timetable and calculate total journey including connection wait, and provides a segmented worked solution. This replaces a question that supplied only three durations and required simple addition.
+- Source-level validation: the generated timetable uses integer minute offsets with strictly positive bus duration (15–65), connection wait (5–25), train duration (15–65), and departure between 07:00 and 15:59. All arrivals remain within the same day, and the expected answer is `trainEnd - start = first + wait + second` by construction. **No automated runtime test, browser, or Firebase check was executed for this change.**
+- Next exact action: run targeted JavaScript generator tests covering all 10 question kinds, then authenticated browser navigation and Firebase checks. Keep PR #56 draft until verified.
