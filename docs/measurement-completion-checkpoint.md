@@ -95,3 +95,10 @@ Read this checkpoint and latest commit first. Work on one coherent task per run;
 - Verified exact-head CI run `42183714973` at `b066bffd3db47f771f0c53084bebcce6736ef916` completed success, including browser QA. This covers the previous mobile dashboard-return and malformed time-input tests; it does not prove real Firebase/iPhone behaviour.
 - Added browser test for transient progress-save failure followed by retry with the same stable challenge attempt ID; verifies successful retry and no extra save call. Test commits `d899bac9337705ae300de498416fb9073a54e1cf` and `5b1e0f0c7930cb199c059eee813a057bb61449c3`. This is simulated progress only, not production Firestore verification. **New test has not yet passed CI at the new head.**
 - Next: inspect exact-head CI for this test and correct failures. Then validate real approved-user Firebase save/restore and desktop/iPhone authenticated dashboard navigation; curriculum-depth audit and full compliance audit remain release gates. PR #56 remains draft/unmerged; no videos rendered.
+
+
+## Current session — incorrect-answer browser regression (2026-11-06 19:52 Brisbane)
+- Verified GitHub Actions run 42191382259 at head ee3588a7c67fe289308aa5c74b57d3df86b91eb0 completed success, including the retry regression committed in the preceding session. Earlier cancelled runs were superseded by this successful run.
+- Code commit 87ef1271fd7c1dceae1491e18a505d5fdfa2a45e: added browser regression asserting an incorrect Time and Angles answer reveals the worked solution and correct answer, leaves score at 0, and permits moving to the next question. This test has **not yet passed exact-head CI**.
+- Production approved-user Firebase authentication/save/restore, real iPhone navigation, and full curriculum-depth compliance remain unverified release gates. PR #56 remains draft and unmerged. No videos rendered.
+- Next: inspect exact-head CI for 87ef1271; resolve failures. Prioritize actual approved-user Firebase and mobile navigation verification rather than accumulating mocked-only tests; complete curriculum audit and release gates before merge.
