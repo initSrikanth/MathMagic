@@ -126,3 +126,20 @@ test('Time and Angles: failed progress write can retry without counting twice',a
   expect(calls[0]).toEqual(calls[1]);
   await expect(page.locator('#resultCard button').filter({hasText:'Retry saving'})).toBeHidden();
 });
+
+
+test('Time and Angles: incorrect response reveals worked feedback without awarding a mark',async({page})=>{
+  await openTopic(page);
+  await page.locator('[data-screen="challenge"]').click();
+  const expected=await page.evaluate(()=>quiz[index].answer);
+  const wrong=expected==='acute'?'reflex':'acute';
+  await page.locator('#answerInput').fill(wrong);
+  await page.locator('#checkAnswer').click();
+  await expect(page.locator('#qFeedback')).toContainText('Not quite');
+  await expect(page.locator('#qSolution')).toContainText('Worked solution:');
+  await expect(page.locator('#qSolution')).toContainText('Correct answer: '+expected);
+  await expect(page.locator('#qScore')).toHaveText('0 / 30');
+  await expect(page.locator('#nextQuestion')).toBeEnabled();
+  await page.locator('#nextQuestion').click();
+  await expect(page.locator('#qNumber')).toHaveText('2 / 30');
+});
