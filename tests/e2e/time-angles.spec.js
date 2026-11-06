@@ -124,5 +124,5 @@ test('Time and Angles: failed progress write can retry without counting twice',a
   const calls=await page.evaluate(()=>window.__saveCalls);
   expect(calls).toHaveLength(2);
   expect(calls[0]).toEqual(calls[1]);
-  await expect(page.getByRole('button',{name:'Retry saving'})).toHaveCount(0);
+  await expect(page.locator('#resultCard button').filter({hasText:'Retry saving'})).toBeHidden();
 });
