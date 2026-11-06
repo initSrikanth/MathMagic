@@ -102,3 +102,9 @@ Read this checkpoint and latest commit first. Work on one coherent task per run;
 - Code commit 87ef1271fd7c1dceae1491e18a505d5fdfa2a45e: added browser regression asserting an incorrect Time and Angles answer reveals the worked solution and correct answer, leaves score at 0, and permits moving to the next question. This test has **not yet passed exact-head CI**.
 - Production approved-user Firebase authentication/save/restore, real iPhone navigation, and full curriculum-depth compliance remain unverified release gates. PR #56 remains draft and unmerged. No videos rendered.
 - Next: inspect exact-head CI for 87ef1271; resolve failures. Prioritize actual approved-user Firebase and mobile navigation verification rather than accumulating mocked-only tests; complete curriculum audit and release gates before merge.
+
+## Current session — prior-knowledge lesson compliance (2026-11-06 20:48 Brisbane)
+- Verified GitHub Actions run `42198297763` at head `17079d0adffa496e9de63efe51dbd789c5206d8a` completed **success**. This covers the previous incorrect-answer worked-feedback regression; it does not cover this session's new content commit.
+- Code commit `fabaa773637658194b22bb6e2ef163fc17ebb011`: added explicit, lesson-specific **Connect to what you know** prior-knowledge prompts to all five Time and Angles lessons. Existing content, challenge, dashboard navigation, and media were preserved. Source-level check counted exactly five new headings, one per lesson. No browser tests run for this change; exact-head CI pending.
+- PR #56 remains open, draft and unmerged. Production approved-user Firebase auth/save/restore, real iPhone navigation, and final curriculum-depth compliance are still unverified release gates. Do not claim production readiness. No video rendering.
+- Next: inspect exact-head CI, then prioritise production-authenticated browser/Firebase verification and full lesson depth before merge; do not keep adding mocked-only tests.
