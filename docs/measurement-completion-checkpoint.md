@@ -72,3 +72,7 @@ Read this checkpoint and latest commit first. Work on one coherent task per run;
 - Code commit `3e17655a66ce635fc22cf145bd5234f95728e60b`: replaced the escaped sequences with actual line breaks, restoring executable authenticated visibility activation and the subsequent dashboard progress code.
 - Verification: exact source substring matched once before the edit; write returned a new commit SHA. Browser execution, Firebase auth and live deployment are **not verified**. PR #56 remains draft; do not merge until release checks pass.
 - Next: run JS syntax checks and actual authenticated desktop/mobile navigation with network delays; validate full challenge and Firebase persistence, then merge/deploy and verify live.
+
+## CI verification — 2026-11-06 14:52 Brisbane
+- GitHub Actions browser QA run `42159085348` for head `f86a49561b12594c4fe2bb91f307f03b70494048` completed **success**. Observed successful steps: independent Year 5 Measurement mathematics, isolated Firestore rules/progress, protected Fractions architecture, WebKit playback prerequisite, and MathMagic browser QA. This is CI evidence, **not** verified approved-user production Firebase, real iPhone, or live deployment.
+- PR #56 remained open, draft, unmerged and mergeable at inspection. Do not merge until required authenticated navigation, full Measurement quiz and live persistence checks are evidenced. Next exact action: inspect browser test coverage for Time and Angles, add missing authenticated dashboard-return/30-question cases, run exact-head CI and resolve failures.
