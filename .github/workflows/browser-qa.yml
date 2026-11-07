@@ -65,6 +65,8 @@ jobs:
         run: npm run test:measurement:emulator
       - name: Check protected Fractions architecture
         run: npm run test:protected
+      - name: Independently verify Year 5 Space assessment mathematics
+        run: node tests/space-question-bank.test.js
       - name: Provide a virtual audio output for unmuted WebKit playback
         run: |
           sudo apt-get update
