@@ -1,0 +1,17 @@
+/* Year 5 Space: deterministic, testable question bank. No client answer is authoritative assessment proof. */
+(function(root){'use strict';
+function rng(seed){let s=(Number(seed)>>>0)||1;return()=>{s=(Math.imul(1664525,s)+1013904223)>>>0;return s/4294967296}}
+function shuffle(a,random){for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function makeQuestion(band,stem,answer,wrong,explanation,descriptor){const options=[String(answer),...wrong.map(String)];if(new Set(options).size!==4)throw Error('Equivalent or duplicate choices: '+stem);return{band,stem,answer:String(answer),options,explanation,descriptor}}
+function generate(seed=1){const random=rng(seed),qs=[],used=new Set();function add(b,stem,answer,wrong,explain,code){const q=makeQuestion(b,stem,answer,wrong,explain,code);if(used.has(stem))throw Error('Duplicate prompt');used.add(stem);q.options=shuffle(q.options,random);qs.push(q)}
+// Six bands, five questions each. Use independent parameters and distinct mathematical tasks.
+for(let i=0;i<5;i++){const n=2+i;add(1,`A triangular prism has two triangular ends and three rectangular side faces. How many faces altogether? (Exhibit ${n})`,5,[4,6,8],'Count two triangular faces and three rectangular faces: 2 + 3 = 5.','AC9M5SP01')}
+for(let i=0;i<5;i++){const x=i+1,y=5-i;add(2,`On a first-quadrant grid, a point is ${x} units right and ${y} units up from (0,0). Which ordered pair locates it?`,`(${x},${y})`,[`(${y},${x})`,`(${x+1},${y})`,`(${x},${y+1})`].filter(v=>v!==`(${x},${y})`).concat([`(${x+2},${y+2})`]).slice(0,3),'The first coordinate counts right; the second counts up.','AC9M5SP02')}
+for(let i=0;i<5;i++){const x=i+1,y=i+2,dx=2+i;add(3,`Translate the point (${x},${y}) ${dx} units to the right. Where does it land?`,`(${x+dx},${y})`,[`(${x},${y+dx})`,`(${x-dx},${y})`,`(${x+dx},${y+dx})`],'A translation to the right adds the movement to the first coordinate only.','AC9M5SP03')}
+for(let i=0;i<5;i++){const mirror=6+i,x=i+1,y=i+2,rx=2*mirror-x;add(4,`Reflect (${x},${y}) in the vertical line x = ${mirror}. Where is its image?`,`(${rx},${y})`,[`(${mirror},${y})`,`(${x},${rx})`,`(${rx+1},${y})`],'A reflected point has the same vertical coordinate. Its horizontal distance from the mirror line is unchanged: x image = 2 × mirror − original x.','AC9M5SP03')}
+const classes=[['triangle',3],['quadrilateral',4],['pentagon',5],['hexagon',6],['heptagon',7]];for(let i=0;i<5;i++){const [name,n]=classes[i];add(5,`A classification algorithm asks: Is the figure a closed polygon with exactly ${n} straight sides? Which named shape should follow the Yes branch?`,name,classes.filter((_,j)=>j!==i).slice(0,3).map(v=>v[0]),`A ${name} is a closed polygon with exactly ${n} straight sides. Branch using a measurable property, not appearance.`,'AC9M5SP04')}
+for(let i=0;i<5;i++){const x=1+i,y=2+i,dx=i+2,dy=1+i;add(6,`A park map starts at (${x},${y}). A robot travels ${dx} right, ${dy} up, then 1 left. What is its final coordinate?`,`(${x+dx-1},${y+dy})`,[`(${x+dx},${y+dy})`,`(${x+dx-1},${y})`,`(${x+dx+1},${y+dy})`],'Add horizontal changes to the first coordinate (right then left), and vertical changes to the second coordinate.','AC9M5SP02')}
+if(qs.length!==30||qs.some((q,i)=>q.band!==Math.floor(i/5)+1))throw Error('Challenge must have six bands of five');return qs}
+root.SpaceQuestionBank={generate};
+if(typeof module!=='undefined'&&module.exports)module.exports={generate};
+})(typeof globalThis!=='undefined'?globalThis:this);
