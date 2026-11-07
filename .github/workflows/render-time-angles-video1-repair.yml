@@ -1,0 +1,61 @@
+name: Repair Time and Angles Video 1 (QA artifact only)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/render-time-angles-video1-repair.yml'
+      - 'video-agent/time-angles/render_video1.py'
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install approved rendering dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'sherpa-onnx==1.12.26' pillow numpy scipy soundfile
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg
+      - uses: actions/cache@v4
+        with:
+          path: work/kokoro-multi-lang-v1_0
+          key: mathmagic-kokoro-multi-lang-v1_0
+      - name: Obtain approved Kokoro voice model
+        run: |
+          if [ ! -s work/kokoro-multi-lang-v1_0/voices.bin ]; then
+            mkdir -p work
+            curl --fail --location --retry 3 --retry-delay 10 'https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2' -o work/kokoro-model.tar.bz2
+            tar -xjf work/kokoro-model.tar.bz2 -C work
+            rm work/kokoro-model.tar.bz2
+          fi
+          test -s work/kokoro-multi-lang-v1_0/model.onnx
+          test -s work/kokoro-multi-lang-v1_0/voices.bin
+      - name: Golden Rules script preflight
+        run: python video-agent/time-angles/verify_golden_rules.py
+      - name: Render corrected Video 1 with approved voice
+        env:
+          KOKORO_MODEL: work/kokoro-multi-lang-v1_0
+        run: python video-agent/time-angles/render_video1.py
+      - name: Verify MP4 structure and minimum duration
+        run: |
+          set -euo pipefail
+          f=videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4
+          test -s "$f"
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 "$f" | grep -q aac
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=noprint_wrappers=1 "$f" | grep -q h264
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$f" | grep -q '1920,1080'
+          ffmpeg -v error -i "$f" -f null -
+          duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$f")
+          awk "BEGIN {exit !($duration >= 300)}"
+      - name: Retain candidate for actual visual and audible QA (do not publish unreviewed)
+        uses: actions/upload-artifact@v4
+        with:
+          name: Time-Angles-Video1-Branding-Repair-QA-Candidate
+          path: videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4
+          retention-days: 30
