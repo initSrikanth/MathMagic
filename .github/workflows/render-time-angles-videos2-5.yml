@@ -1,10 +1,11 @@
-name: Render Time and Angles Videos 2–5 (Kokoro)
+name: Render Time and Angles Videos 1–5 (Kokoro)
 # Preserve approved cream-background graphics and Kokoro hf_alpha voice.
-# Four independent lessons; publish only successfully rendered and verified files.
+# Five independent lessons; publish only successfully rendered and verified files.
 on:
   push:
     paths:
       - '.github/workflows/render-time-angles-videos2-5.yml'
+      - 'video-agent/time-angles/render_video1.py'
       - 'video-agent/time-angles/render_video2.py'
       - 'video-agent/time-angles/render_video3.py'
       - 'video-agent/time-angles/render_video4.py'
@@ -51,15 +52,15 @@ jobs:
           test -s work/kokoro-multi-lang-v1_0/voices.bin
       - name: Golden Rules preflight for all five lessons
         run: python video-agent/time-angles/verify_golden_rules.py
-      - name: Render four lessons using Kokoro hf_alpha (no fallback)
+      - name: Render all five lessons using Kokoro hf_alpha (no fallback)
         env:
           KOKORO_MODEL: work/kokoro-multi-lang-v1_0
         run: |
-          for n in 2 3 4 5; do python video-agent/time-angles/render_video${n}.py; done
+          for n in 1 2 3 4 5; do python video-agent/time-angles/render_video${n}.py; done
       - name: Verify every MP4 before publishing
         run: |
           set -euo pipefail
-          for n in 02 03 04 05; do
+          for n in 01 02 03 04 05; do
             f=$(find videos -maxdepth 1 -name "MathMagic_Time_Angles_${n}_*.mp4" | head -n 1)
             test -s "$f"
             ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 "$f" | grep -q aac
@@ -70,8 +71,8 @@ jobs:
       - name: Upload verified video artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Time-Angles-Videos-2-to-5
-          path: videos/MathMagic_Time_Angles_0[2-5]_*.mp4
+          name: Time-Angles-Videos-1-to-5
+          path: videos/MathMagic_Time_Angles_0[1-5]_*.mp4
           retention-days: 30
       - name: Commit and publish verified videos
         run: |
@@ -79,7 +80,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -f videos/MathMagic_Time_Angles_0[2-5]_*.mp4
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish verified Time and Angles videos 2 to 5'
+            git commit -m 'Publish verified Time and Angles videos 1 to 5'
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
