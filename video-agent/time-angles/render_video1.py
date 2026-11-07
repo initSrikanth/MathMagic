@@ -52,7 +52,7 @@ BEATS=[
 ("answer","From eleven thirty-five to noon is twenty-five minutes. From noon to twelve twenty is another twenty minutes. Twenty-five plus twenty equals forty-five minutes. The train journey takes forty-five minutes.","timeline",11,35,12,20),
 ("recap","To check your understanding, explain the method to someone else. Read the clock hands, choose a helpful hour boundary, count each jump, and add the minutes. If your answer seems surprising, draw the timeline again.","timeline",11,35,12,20),
 ("recap","Today you read clock hands, crossed an hour boundary, and converted between twelve-hour and twenty-four-hour time. Remember: count the time between the two moments, not just the numbers on the clock.","journey",9,15,10,5),
-("recap","Your challenge: a train departs at eleven thirty-five and arrives at twelve twenty. Draw a timeline, find the duration, and explain each jump. Then try the MathMagic practice.","timeline",11,35,12,20),
+("recap","Your challenge: a train departs at eleven thirty-five and arrives at twelve twenty. Draw a timeline, find the duration, and explain each jump. Then try the practice questions.","timeline",11,35,12,20),
 ]
 def font(sz):return ImageFont.truetype(FONT,sz)
 def txt(d,s,x,y,size=50,fill=INK,anchor="mm"):
