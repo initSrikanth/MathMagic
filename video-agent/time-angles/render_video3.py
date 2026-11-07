@@ -35,7 +35,7 @@ def draw(beat,p,path):
  role,spoken,kind,*args=beat
  im=Image.new("RGB",(W,H),BG);d=ImageDraw.Draw(im)
  txt(d,"UNDERSTANDING ANGLES",960,210,45,MUTED)
- title={"hook":"The mystery of the bus journey","introduction":"Today we are learning…","goal":"Today's Learning Goal","criteria":"Success Criteria","explanation":"Let's investigate","question":"Your turn — predict","prediction":"Think before calculating","answer":"Reveal and explain","misconception":"Spot the mistake","conversion":"12-hour and 24-hour time","recap":"What have we learned?"}.get(role,"Explore the mathematics")
+ title={"hook":"How far did the robot turn?","introduction":"Today we are learning…","goal":"Today's Learning Goal","criteria":"Success Criteria","explanation":"Let's investigate","question":"Your turn — predict","prediction":"Think before calculating","answer":"Reveal and explain","misconception":"Spot the mistake","conversion":"12-hour and 24-hour time","recap":"What have we learned?"}.get(role,"Explore the mathematics")
  txt(d,title,960,292,59,INK)
  if kind=="angle":
   deg=args[0];cx,cy=960,690;r=290
