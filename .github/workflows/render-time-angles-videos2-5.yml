@@ -49,6 +49,8 @@ jobs:
           fi
           test -s work/kokoro-multi-lang-v1_0/model.onnx
           test -s work/kokoro-multi-lang-v1_0/voices.bin
+      - name: Golden Rules preflight for all five lessons
+        run: python video-agent/time-angles/verify_golden_rules.py
       - name: Render four lessons using Kokoro hf_alpha (no fallback)
         env:
           KOKORO_MODEL: work/kokoro-multi-lang-v1_0
