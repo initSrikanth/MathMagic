@@ -17,3 +17,9 @@ Branch: feature/year5-space-geometry, PR #57. This is development work, not a re
 6. Add automated desktop/mobile/keyboard tests, resolve CI failures, merge only after gates pass; verify live deployed pages.
 
 Next run: independently test the newly added challenge UI in desktop/mobile browsers, strengthen the generator with mathematical oracles and additional net/rotation problems, then integrate approved-user dashboard navigation. Do not revisit unrelated topics without a release-blocking reason.
+
+## Mathematical oracle test addition — 2026-11-08
+- Added `tests/space-question-bank.test.js` (commits `74e3038`, corrected regex `4bfc1f1`).
+- Executed the fetched generator and independent test source in a JavaScript isolate: **PASS, 30,000 questions across 1,000 seeds**, validating six bands, distinct prompts/options, all four AC9M5SP descriptors, arithmetic of translations/reflections/routes/rotations, polygon properties, solid properties and fixed net/symmetry examples.
+- This is a mathematical/structural generator test, **not** a browser test, Firestore integration test, full distractor pedagogy review, or proof that the bank meets the final diversity requirements. The bank currently uses five repeated coordinate-template variants per band; expand task families and worked distractor feedback before release.
+- Next: browser-test Space challenge on desktop/mobile, inspect CI and repair failures, improve feedback and persistence, then release gates. Video-production hold remains unresolved.
