@@ -10,6 +10,9 @@ on:
       - 'video-agent/time-angles/render_video4.py'
       - 'video-agent/time-angles/render_video5.py'
   workflow_dispatch:
+concurrency:
+  group: time-angles-videos-2-to-5
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
