@@ -17,7 +17,7 @@ BG="#FFF9EE";INK="#17354D";TEAL="#008A94";ORANGE="#B85A10";MUTED="#6A8398"
 FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 BEATS=[
 ("hook","Imagine you are waiting for a bus. It leaves at nine fifteen and reaches your destination at ten oh five. You glance at the clock and wonder, how long did the journey really take? Could it be ten minutes? Or is there something we are missing? Let us find out together.","journey",9,15,10,5),
-("introduction","Today we are learning how to read time and calculate duration. Welcome to MathMagic, where we explore mathematics using everyday puzzles, clear pictures, and smart thinking. By the end, you will be able to solve our bus mystery yourself.","journey",9,15,10,5),
+("introduction","Today we are learning how to read time and calculate duration. By the end of this lesson, you will be able to solve our bus mystery yourself.","journey",9,15,10,5),
 ("goal","Our learning goal is to read time accurately, calculate elapsed time, and explain our thinking using clocks and timelines.","clock",9,15),
 ("criteria","By the end, you can read the hour and minute hands, calculate a duration that crosses the hour, and check your answer with a timeline.","clock",9,15),
 ("explanation","Start with the minute hand. Each large step around the clock is five minutes. The minute hand at three means fifteen minutes past the hour.","clock",9,15),
@@ -72,7 +72,6 @@ def timefmt(h,m):return f"{h:02d}:{m:02d}"
 def draw(beat,p,path):
  role,spoken,kind,*args=beat
  im=Image.new("RGB",(W,H),BG);d=ImageDraw.Draw(im)
- txt(d,"MathMagic",960,98,40,TEAL)
  txt(d,"READING TIME AND DURATION",960,210,45,MUTED)
  title={"hook":"The mystery of the bus journey","introduction":"Today we are learning…","goal":"Today's Learning Goal","criteria":"Success Criteria","explanation":"Let's investigate","question":"Your turn — predict","prediction":"Think before calculating","answer":"Reveal and explain","misconception":"Spot the mistake","conversion":"12-hour and 24-hour time","recap":"What have we learned?"}.get(role,"Explore the mathematics")
  txt(d,title,960,292,59,INK)
