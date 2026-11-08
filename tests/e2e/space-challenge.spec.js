@@ -54,3 +54,22 @@ test('failed progress save retains attempt ID, retries without duplicate and blo
   expect(saves[0].id).toBe(saves[1].id);
   expect(saves[0].score).toBe(saves[1].score);
 });
+
+
+test('keyboard-only question flow exposes selection, explanation and focus',async ({page})=>{
+  await page.getByRole('button',{name:'Start challenge'}).focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#questionText')).toBeFocused();
+  const first=page.locator('#choices button').first();
+  await first.focus();
+  await page.keyboard.press('Space');
+  await expect(first).toHaveAttribute('aria-pressed','true');
+  await expect(page.getByRole('button',{name:'Check answer'})).toBeEnabled();
+  await page.getByRole('button',{name:'Check answer'}).focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#feedback')).toBeVisible();
+  await expect(page.locator('#nextBtn')).toBeFocused();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#questionNumber')).toContainText('Question 2 of 30');
+  await expect(page.locator('#questionText')).toBeFocused();
+});
