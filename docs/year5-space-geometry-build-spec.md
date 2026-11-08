@@ -1,6 +1,6 @@
 # Year 5 Space (Geometry) — implementation specification (draft)
 
-Status: development only; not approved for release. Scope: Australian Curriculum v9 Year 5 Space. Curriculum mapping below cross-checked against ACARA Year 5–6 scope and sequence (https://www.australiancurriculum.edu.au/media/7163/primary_scope_and_sequence_years_5-6.pdf); achievement standard and elaboration audit still required.
+Status: development only; not approved for release. Scope: Australian Curriculum v9 Year 5 Space. Final Year5 alignment verified against https://www.qcaa.qld.edu.au/downloads/aciqv9/mathematics/curriculum/ac9_maths_yr5_as_cd_alignment.pdf. The previously cited ACARA2021 document is explicitly a consultation draft, not final v9. Current Year5 Space has SP01–SP03.
 
 ## Design principles
 - Do not impose a five-lesson ceiling. Teach all relevant Year 5 Space outcomes, but avoid importing Year 6-only outcomes.
@@ -13,7 +13,7 @@ Status: development only; not approved for release. Scope: Australian Curriculum
 - AC9M5SP01: connect 3D objects with nets; construct and reason about valid and invalid nets for prisms/pyramids. Provide interactive folding/unfolding or equivalent geometric net explorer.
 - AC9M5SP02: construct first-quadrant coordinate grid; locate points and describe movement using coordinates and directions. Do not conflate grid cells with grid intersection coordinates.
 - AC9M5SP03: describe and perform translations, reflections, rotations; explain invariants and identify rotational symmetry. Provide accurate direct-manipulation tool, centre of rotation and mirror geometry.
-- AC9M5SP04: computational thinking and branching decision algorithms to classify 2D shapes and 3D objects by properties; test ambiguous and boundary cases.
+- Requested enrichment (AC9M5SP04 was a2021 consultation-draft code, not a final Year5 descriptor): computational thinking and branching decision algorithms to classify 2D shapes and 3D objects by properties; test ambiguous and boundary cases.
 - Do not require Year 6 four-quadrant Cartesian coordinates, tessellations or advanced conjecture as Year 5 outcomes.
 
 ## Revised lesson architecture — ten lessons, subject to detailed elaboration audit
@@ -37,7 +37,7 @@ Status: development only; not approved for release. Scope: Australian Curriculum
 6. Run tests, review PR, merge after green gates, deploy and verify live. Never treat a successful CI or existing MP4 as perceptual playback evidence.
 
 ## Assessment coverage matrix — preliminary
-Five questions per band, 30 total; cover all four curriculum descriptors, including nets and classification algorithms, with unique mathematical instances and contextual variety:
+Five questions per band, 30 total; cover all three final Space descriptors plus requested classification enrichment, including nets and classification algorithms, with unique mathematical instances and contextual variety:
 - Band 1: identify faces/edges/vertices and positions; follow one-step directions.
 - Band 2: interpret map/grid conventions, route descriptions and basic nets.
 - Band 3: recognise valid nets, perform translations and reflections.
