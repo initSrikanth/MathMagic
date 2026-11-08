@@ -17,6 +17,17 @@ def audit():
   if e.get('status')!='TECHNICALLY_VERIFIED':continue
   path=Path(e['output']);prefix=path.with_suffix('');t=json.loads(Path(str(prefix)+'_timing.json').read_text());qa=e['qa']
   assert sha(path)==e['sha256']==qa['sha256']
+  atoms=[]
+  with path.open('rb')as f:
+   offset=0
+   while offset<path.stat().st_size:
+    f.seek(offset);header=f.read(8);assert len(header)==8
+    size=int.from_bytes(header[:4],'big');kind=header[4:].decode('ascii');atoms.append(kind)
+    if size==1:size=int.from_bytes(f.read(8),'big')
+    if size==0:size=path.stat().st_size-offset
+    assert size>=8;offset+=size
+  assert atoms.index('moov')<atoms.index('mdat'), 'MP4 is not faststart'
+
   caps=t['captions'];assert all(0<=c['start']<c['end']<=t['duration']+.001 for c in caps)
   assert all(a['end']<=b['start']+.002 for a,b in zip(caps,caps[1:]))
   transcript=Path(str(prefix)+'_transcript.txt').read_text();assert ' '.join(transcript.split())==' '.join(' '.join(c['text']for c in caps).split())
@@ -47,7 +58,7 @@ def audit():
     start=None
   assert all(g['overlaps_declared_prediction']for g in gaps), 'Unexpected long source silence'
 
-  rec=dict(lesson=lesson,sha256=e['sha256'],output=str(path),duration=t['duration'],technical_status='PASS',caption_intervals_valid=True,caption_transcript_match=True,offline_recognition_brand_scan='PASS',decoded_frame_count=qa['decoded_frames'],encoded_scene_samples=len(frames),encoded_scene_sheet=str(sheet),flags=dict(extended_static_intervals=qa['extended_static_intervals'],short_caption_intervals=short,rapid_board_reveal_flags=rapid,long_silent_intervals=gaps,word_timing='Approximate ASR emissions, not certified forced alignment'),perceptual_status='UNVERIFIED',publication_status='BLOCKED',sidecar_hashes={p.name:sha(p)for p in OUT.glob(path.stem+'_*')if p.suffix in ['.flac','.json','.txt','.vtt','.jpg']})
+  rec=dict(lesson=lesson,sha256=e['sha256'],output=str(path),duration=t['duration'],technical_status='PASS',faststart_atom_order=atoms,caption_intervals_valid=True,caption_transcript_match=True,offline_recognition_brand_scan='PASS',decoded_frame_count=qa['decoded_frames'],encoded_scene_samples=len(frames),encoded_scene_sheet=str(sheet),flags=dict(extended_static_intervals=qa['extended_static_intervals'],short_caption_intervals=short,rapid_board_reveal_flags=rapid,long_silent_intervals=gaps,word_timing='Approximate ASR emissions, not certified forced alignment'),perceptual_status='UNVERIFIED',publication_status='BLOCKED',sidecar_hashes={p.name:sha(p)for p in OUT.glob(path.stem+'_*')if p.suffix in ['.flac','.json','.txt','.vtt','.jpg']})
   records.append(rec)
  report=dict(rendered=len(records),all_nine_rendered=len(records)==9,technical_results=records,perceptual_reviews_completed=0,published=0,paid_calls=0,external_gates=['Full listening and temporal viewing by an audio-capable evaluator of the exact SHA-256 bytes, with reviewer identity/date. Check accent, pronunciation, expressiveness, pace, pedagogy, caption/audio/visual synchronisation and all timing flags.','Real Safari/iOS and real-device mobile legibility/control/caption QA before release.','Live Firebase verification requires authorised network scope and an approved test identity. Inspect deployed rules, Auth/approval isolation, own/cross-UID progress, save/restore across sessions/devices and revocation. Emulator fixture results do not certify deployed services.','Recover and verify the preserved original representative MP4 from its prior external storage; its source/manifest/hash remain unchanged.'])
  (OUT/'final-audit.json').write_text(json.dumps(report,indent=2)+'\n');print('AUDITED',len(records),'rendered outputs; listening remains UNVERIFIED')
