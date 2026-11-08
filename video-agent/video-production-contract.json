@@ -184,11 +184,12 @@
   },
   "space_generation_authorisation": {
     "authorised": true,
-    "authority": "Current explicit Year5 Space execution directive supersedes historical new-topic generation hold for Space only.",
-    "scope": "Existing PR57 ten Space lessons; representative first, then batches only after quality gates.",
+    "authority": "Owner resume directive, 8 November 2026: Finish producing the remaining nine Space instructional videos. Lack of an audio-capable evaluator is a publication blocker, not a production blocker.",
+    "scope": "Existing PR57 ten Space lessons. Current owner directive authorises producing remaining lessons 2\u201310 before listening QA; listening and all mandatory quality gates still block publication.",
     "voice": "hf_alpha",
     "speaker_id": 31,
     "publication_requires_full_perceptual_review": true,
-    "legacy_scheduled_workflows": "disabled"
+    "legacy_scheduled_workflows": "disabled",
+    "batch_generation_before_perceptual_review": true
   }
 }
