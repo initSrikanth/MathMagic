@@ -27,7 +27,7 @@ def main():
  for kind in ['cube','prism','pyramid']:g.mesh(kind)
  q.MODEL=MODEL
  import repair_visuals as visual
- q.picture=lambda l,c,folder,p,elapsed,previous:visual.frame(l,c,folder,p,elapsed) if c['index'] in [23,26,27] else g.picture(l,c,folder,p,elapsed,previous)
+ q.picture=lambda l,c,folder,p,elapsed,previous:visual.frame(l,c,folder,p,elapsed) if c['index'] in [16,23,26,27] else g.picture(l,c,folder,p,elapsed,previous)
  tts=sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=str(MODEL/'model.onnx'),voices=str(MODEL/'voices.bin'),tokens=str(MODEL/'tokens.txt'),data_dir=str(MODEL/'espeak-ng-data'),lang='en'),num_threads=2)))
  rec=sherpa_onnx.OfflineRecognizer.from_transducer(tokens=str(ASR/'tokens.txt'),encoder=str(ASR/'encoder-epoch-99-avg-1.int8.onnx'),decoder=str(ASR/'decoder-epoch-99-avg-1.int8.onnx'),joiner=str(ASR/'joiner-epoch-99-avg-1.int8.onnx'),num_threads=2)
  t=q.synth(l,WORK,tts,rec)

@@ -14,7 +14,9 @@ def cylinder(d,x,y,p):
  d.arc((x-110,y-145,x+110,y-75),-90,-90+360*p,fill=g.GOLD,width=7)
 def frame(l,c,folder,p,elapsed):
  im=g.picture(l,c,folder,p,elapsed,[]);d=ImageDraw.Draw(im);d.rectangle((330,430,1590,1040),fill=g.BG);now=c['start']+elapsed
- if c['index']==23:
+ if c['index']==16:
+  points,faces,edges=g.mesh('cube');points=[(960+(x-960)*1.5,690+(y-650)*.75)for x,y in points];polygon(d,points,faces[-3:],edges);g.text(d,'Non-cube rectangular carton',960,465,42,g.TEAL,True);g.text(d,'Same counts, different edge lengths and face shapes',960,950,34,g.INK,True)
+ elif c['index']==23:
   points,faces,edges=g.mesh('prism');points=[(600+(x-960)*.75,690+(y-650)*.75)for x,y in points];polygon(d,points,faces[-3:],edges)
   points=[(1080,800),(1400,800),(1290,690),(1230,505)];faces=[[0,1,2],[0,1,3],[1,2,3],[2,0,3]];edges=[(0,1),(1,2),(2,0),(0,3),(1,3),(2,3)];polygon(d,points,faces,edges)
   g.text(d,'Triangular prism',600,465,40,g.TEAL,True);g.text(d,'Triangular pyramid',1240,465,40,g.TEAL,True)
@@ -32,8 +34,15 @@ def repair(source,t,l):
   e=json.loads(meta.read_text())
   if e['source_fingerprint']==fingerprint and sha(source)==e['sha256']:return source
  listing=(folder/'clips.txt').read_text().splitlines();assert len(listing)==32
- replacements={};indices=[23,26,27]
+ previous={}
+ if meta.exists():
+  old=json.loads(meta.read_text())
+  if old.get('source_fingerprint')=='df9d052edc4da0d7b1ea0ca974fbabf4aab4757567cc619ad64abe902b734f1d' and sha(source)==old['sha256']:
+   prior=(folder/'corrected-clips.txt').read_text().splitlines();previous={i:prior[i] for i in [23,26,27]}
+ replacements={};indices=[16,23,26,27]
  for idx in indices:
+  if idx in previous:
+   listing[idx]=previous[idx];print('Preserved repaired model scene',idx,flush=True);continue
   c=t['cues'][idx];frames=round(c['end']*30)-round(c['start']*30);n=math.ceil(frames/30*25);clip=folder/f'correct-model-{idx}-{fingerprint[:10]}.mp4'
   if not clip.exists():
    proc=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','25','-i','pipe:0','-an','-vf','fps=30,format=yuv420p','-frames:v',str(frames),'-c:v','libx264','-preset','veryfast','-crf','23','-threads','2',str(clip)],stdin=subprocess.PIPE)
@@ -47,6 +56,8 @@ def repair(source,t,l):
  assert packets(out,'a:0')==packets(source,'a:0');original=packets(source,'v:0');new=packets(out,'v:0');assert len(original)==len(new)
  changed=set()
  for idx in indices:
+  if idx in previous:
+   listing[idx]=previous[idx];print('Preserved repaired model scene',idx,flush=True);continue
   c=t['cues'][idx];changed.update(range(round(c['start']*30),round(c['end']*30)))
  assert all(a==b for i,(a,b)in enumerate(zip(original,new))if i not in changed)
  subprocess.run(['ffmpeg','-v','error','-i',str(out),'-f','null','-'],check=True)
