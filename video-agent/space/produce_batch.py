@@ -1,7 +1,8 @@
 """Resumable review-only batch. Never touches the representative or site players.
 Reuses approved hf_alpha31 synthesis, native speeds and 1080p production encoder.
 """
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
+from multiprocessing import get_context
 from pathlib import Path
 import sys,json,hashlib,copy,shutil,subprocess,math,os,fcntl
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).parent
@@ -48,6 +49,18 @@ def technical(final,folder,t,l):
  qa.update(decoded_frames=len(frames),blank_frame_candidates=0,minimum_frame_std=float(frames.std(axis=1).min()),encoding=dict(video='h264',width=1920,height=1080,pixel_format='yuv420p',fps=30,audio='aac'),faststart=True,caption_cues=len(t['captions']),caption_timing_valid=True,caption_transcript_text_match=True,source_brand_free=True,declared_prediction_pauses=t['pauses'],word_timing_method=t['alignment'],synchronisation='Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.',extended_static_intervals=static,static_threshold_seconds=8,all_flagged_intervals_reviewed=False,perceptual_voice_review='UNVERIFIED',full_audio_listened=False,full_video_viewed=False,perceptual_status='PENDING_AUDIO_CAPABLE_REVIEW',published=False,paid_calls=0)
  return qa
 
+def init_voice():
+ global tts,rec
+ q.MODEL=MODEL
+ tts=sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=str(MODEL/'model.onnx'),voices=str(MODEL/'voices.bin'),tokens=str(MODEL/'tokens.txt'),data_dir=str(MODEL/'espeak-ng-data'),lang='en'),num_threads=2)))
+ rec=sherpa_onnx.OfflineRecognizer.from_transducer(tokens=str(ASR/'tokens.txt'),encoder=str(ASR/'encoder-epoch-99-avg-1.int8.onnx'),decoder=str(ASR/'decoder-epoch-99-avg-1.int8.onnx'),joiner=str(ASR/'joiner-epoch-99-avg-1.int8.onnx'),num_threads=2)
+
+def prepare(original,drawing_sha256):
+ l=copy.deepcopy(original);l['drawing_sha256']=drawing_sha256;folder=WORK/f"lesson{l['number']}";folder.mkdir(exist_ok=True)
+ t=add_pauses(folder,q.synth(l,folder,tts,rec));assert t['duration']>=300
+ return l,folder,t
+
+
 def main():
  OUT.mkdir(parents=True,exist_ok=True);WORK.mkdir(parents=True,exist_ok=True)
  lock=(WORK/'batch.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -59,16 +72,9 @@ def main():
  if state.get('source_fingerprints'):assert state['source_fingerprints']==fingerprints,'Sources changed: revalidate affected outputs before resuming'
  state['source_fingerprints']=fingerprints;q.save(STATE,state)
  q.MODEL=MODEL;q.picture=g.picture
- tts=sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=str(MODEL/'model.onnx'),voices=str(MODEL/'voices.bin'),tokens=str(MODEL/'tokens.txt'),data_dir=str(MODEL/'espeak-ng-data'),lang='en'),num_threads=2)))
- rec=sherpa_onnx.OfflineRecognizer.from_transducer(tokens=str(ASR/'tokens.txt'),encoder=str(ASR/'encoder-epoch-99-avg-1.int8.onnx'),decoder=str(ASR/'decoder-epoch-99-avg-1.int8.onnx'),joiner=str(ASR/'joiner-epoch-99-avg-1.int8.onnx'),num_threads=2)
- def prepare(original):
-  l=copy.deepcopy(original);l['drawing_sha256']=fingerprints['batch_graphics.py'];folder=WORK/f"lesson{l['number']}";folder.mkdir(exist_ok=True)
-  t=add_pauses(folder,q.synth(l,folder,tts,rec));assert t['duration']>=300
-  return l,folder,t
- # One sequential synthesis worker overlaps future narration with current encoding.
- # Each utterance/timeline remains cached; only the main thread writes batch state.
- pool=ThreadPoolExecutor(max_workers=1)
- futures={l['id']:pool.submit(prepare,l)for l in LESSONS if state['lessons'].get(l['id'],{}).get('status')!='TECHNICALLY_VERIFIED'}
+ # A separate local process lets native voice inference and encoding overlap.
+ pool=ProcessPoolExecutor(max_workers=1,mp_context=get_context('spawn'),initializer=init_voice)
+ futures={l['id']:pool.submit(prepare,l,fingerprints['batch_graphics.py'])for l in LESSONS if state['lessons'].get(l['id'],{}).get('status')!='TECHNICALLY_VERIFIED'}
  for original in LESSONS:
   l=copy.deepcopy(original);l['drawing_sha256']=fingerprints['batch_graphics.py'];folder=WORK/f"lesson{l['number']}";folder.mkdir(exist_ok=True)
   e=state['lessons'].setdefault(l['id'],{});target=OUT/f"Space_Lesson{l['number']:02}_{l['title'].replace(' ','_')}_Review_1080p.mp4"
