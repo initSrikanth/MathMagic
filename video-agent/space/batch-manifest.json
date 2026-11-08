@@ -1,0 +1,343 @@
+{
+  "expected_remaining": 9,
+  "rendered_this_batch": 3,
+  "perceptually_verified": 0,
+  "published": 0,
+  "paid_calls": 0,
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "representative": {
+    "sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+    "original_manifest_unchanged": true,
+    "local_mp4_present": false,
+    "status": "Existing outside-git MP4 absent from fresh workspace; no regeneration or replacement attempted."
+  },
+  "lessons": {
+    "space-lesson2": {
+      "status": "TECHNICALLY_VERIFIED",
+      "script_sha256": "f845408d822c0d6f9b78e6f21b1e85a21ca8363a8883e7cc5e1fa25956a9ac18",
+      "output": "/workspace/output/space-review/Space_Lesson02_Explore_Nets_Review_1080p.mp4",
+      "duration": 359.448375,
+      "qa": {
+        "result": "passed",
+        "sha256": "e1d9bd409df5363b5b7151bcc7ef2b36268b42431082f35cb4f6f209a07dd0db",
+        "bytes": 7278191,
+        "duration": 359.448375,
+        "audio_rms": 0.13219261169433594,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999981998677749,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10783,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 10.064989286213734,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 84,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            134.212875,
+            139.212875,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            240.31062500000002,
+            245.31062500000002,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            315.2907916666667,
+            320.2907916666667,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            209.6,
+            222.5
+          ],
+          [
+            222.533,
+            240.3
+          ],
+          [
+            245.7,
+            261.867
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "e1d9bd409df5363b5b7151bcc7ef2b36268b42431082f35cb4f6f209a07dd0db",
+      "bytes": 7278191
+    },
+    "space-lesson3": {
+      "status": "TECHNICALLY_VERIFIED",
+      "script_sha256": "0dd1a2300d6eb625fcea51e2df70c522f7b75f0ecfbf1d1a28b36d0904044af8",
+      "output": "/workspace/output/space-review/Space_Lesson03_Design_and_Test_Nets_Review_1080p.mp4",
+      "duration": 363.1624166666667,
+      "qa": {
+        "result": "passed",
+        "sha256": "453ea91f7f104877bfe993cb7318d3a9e6cabd6e047e40d09eeec3c8e7d13f16",
+        "bytes": 7017093,
+        "duration": 363.1624166666667,
+        "audio_rms": 0.13144336640834808,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999981515185299,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10895,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 10.385713124738956,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 81,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            138.82525,
+            143.82525,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            229.26529166666666,
+            234.26529166666666,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            319.4918333333333,
+            324.4918333333333,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "453ea91f7f104877bfe993cb7318d3a9e6cabd6e047e40d09eeec3c8e7d13f16",
+      "bytes": 7017093
+    },
+    "space-lesson4": {
+      "status": "TECHNICALLY_VERIFIED",
+      "script_sha256": "13911e609101092ad4418f4d0bda2b2c79410763ac7a0bc6482f91cefb5ddc3e",
+      "output": "/workspace/output/space-review/Space_Lesson04_Coordinates_and_Position_Review_1080p.mp4",
+      "duration": 356.1004166666667,
+      "qa": {
+        "result": "passed",
+        "sha256": "9e2d8be07c52d7d824b3bcf997490dd6c9da0f883d6316160e1244bdd34bf36e",
+        "bytes": 6763147,
+        "duration": 356.1004166666667,
+        "audio_rms": 0.13149280846118927,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999814641470878,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10683,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 5.075557280549638,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 84,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            142.2735416666667,
+            147.2735416666667,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            228.56425000000004,
+            233.56425000000004,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            312.63725000000005,
+            317.63725000000005,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            8.333,
+            16.633
+          ],
+          [
+            16.867,
+            25.167
+          ],
+          [
+            25.2,
+            35.7
+          ],
+          [
+            35.733,
+            44.033
+          ],
+          [
+            50.433,
+            58.733
+          ],
+          [
+            58.767,
+            72.733
+          ],
+          [
+            81.1,
+            91.433
+          ],
+          [
+            99.8,
+            108.0
+          ],
+          [
+            116.367,
+            125.667
+          ],
+          [
+            125.7,
+            134.0
+          ],
+          [
+            134.033,
+            142.233
+          ],
+          [
+            162.5,
+            170.633
+          ],
+          [
+            170.667,
+            178.833
+          ],
+          [
+            178.867,
+            187.167
+          ],
+          [
+            187.2,
+            195.4
+          ],
+          [
+            203.767,
+            212.667
+          ],
+          [
+            212.7,
+            221.0
+          ],
+          [
+            256.3,
+            264.6
+          ],
+          [
+            273.1,
+            282.1
+          ],
+          [
+            296.367,
+            304.667
+          ],
+          [
+            325.967,
+            334.633
+          ],
+          [
+            334.667,
+            342.967
+          ],
+          [
+            343.0,
+            356.033
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "9e2d8be07c52d7d824b3bcf997490dd6c9da0f883d6316160e1244bdd34bf36e",
+      "bytes": 6763147
+    },
+    "space-lesson5": {
+      "status": "RENDERING",
+      "script_sha256": "ae575a990e9be4009002f90dfcac3cf859af644fd3fb4b07c85a40c032f7a247",
+      "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+      "duration": 364.80854166666666
+    }
+  },
+  "pre_render_corrections": [
+    "Fixed cube painter depth order and verified closed projection before render.",
+    "Rhombus side vectors (170,0) and (102,136) have exact equal length170; corrected before render."
+  ],
+  "source_fingerprints": {
+    "batch_content.py": "68c065e9ed3e71ccbb855364af706532362d184fb065aa931607932da9ef5135",
+    "batch_graphics.py": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b",
+    "produce_batch.py": "6353751cbe2e8485b02e8805e65b628795c98a26b92c974dc64343a28a90ad96"
+  }
+}

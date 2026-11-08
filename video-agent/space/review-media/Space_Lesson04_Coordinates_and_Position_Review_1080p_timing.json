@@ -1,0 +1,5119 @@
+{
+  "input_hash": "bbd89bfb5272f2211b3918d2b411badf108a04358ccf04e29aa42e5f9c1af2b6",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "A treasure map with a problem",
+      "text": "Two explorers read the same pair of numbers and walk to different places. One travels across first; the other goes upward first. How could a map rule stop the disagreement? Today we will build a shared coordinate system so a short pair of numbers names one exact point.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 0,
+      "start": 0,
+      "end": 16.8545,
+      "words": [
+        {
+          "word": "two",
+          "start": 0.0
+        },
+        {
+          "word": "explorers",
+          "start": 0.23999999463558197
+        },
+        {
+          "word": "read",
+          "start": 1.0399999618530273
+        },
+        {
+          "word": "the",
+          "start": 1.399999976158142
+        },
+        {
+          "word": "same",
+          "start": 1.559999942779541
+        },
+        {
+          "word": "pair",
+          "start": 1.8799999952316284
+        },
+        {
+          "word": "of",
+          "start": 2.119999885559082
+        },
+        {
+          "word": "numbers",
+          "start": 2.2799999713897705
+        },
+        {
+          "word": "and",
+          "start": 2.799999952316284
+        },
+        {
+          "word": "walk",
+          "start": 3.0399999618530273
+        },
+        {
+          "word": "to",
+          "start": 3.2799999713897705
+        },
+        {
+          "word": "different",
+          "start": 3.43999981880188
+        },
+        {
+          "word": "places",
+          "start": 3.8399999141693115
+        },
+        {
+          "word": "one",
+          "start": 4.480000019073486
+        },
+        {
+          "word": "travels",
+          "start": 4.839999675750732
+        },
+        {
+          "word": "across",
+          "start": 5.279999732971191
+        },
+        {
+          "word": "first",
+          "start": 5.759999752044678
+        },
+        {
+          "word": "the",
+          "start": 6.119999885559082
+        },
+        {
+          "word": "other",
+          "start": 6.399999618530273
+        },
+        {
+          "word": "goes",
+          "start": 6.679999828338623
+        },
+        {
+          "word": "upward",
+          "start": 7.0
+        },
+        {
+          "word": "first",
+          "start": 7.440000057220459
+        },
+        {
+          "word": "how",
+          "start": 7.960000038146973
+        },
+        {
+          "word": "could",
+          "start": 8.239999771118164
+        },
+        {
+          "word": "a",
+          "start": 8.4399995803833
+        },
+        {
+          "word": "map",
+          "start": 8.639999389648438
+        },
+        {
+          "word": "rule",
+          "start": 9.039999961853027
+        },
+        {
+          "word": "stop",
+          "start": 9.359999656677246
+        },
+        {
+          "word": "the",
+          "start": 9.679999351501465
+        },
+        {
+          "word": "disagreement",
+          "start": 9.800000190734863
+        },
+        {
+          "word": "to",
+          "start": 10.639999389648438
+        },
+        {
+          "word": "day",
+          "start": 10.880000114440918
+        },
+        {
+          "word": "we",
+          "start": 11.119999885559082
+        },
+        {
+          "word": "will",
+          "start": 11.279999732971191
+        },
+        {
+          "word": "build",
+          "start": 11.4399995803833
+        },
+        {
+          "word": "a",
+          "start": 11.800000190734863
+        },
+        {
+          "word": "shared",
+          "start": 11.960000038146973
+        },
+        {
+          "word": "co",
+          "start": 12.319999694824219
+        },
+        {
+          "word": "ordinate",
+          "start": 12.479999542236328
+        },
+        {
+          "word": "system",
+          "start": 12.920000076293945
+        },
+        {
+          "word": "so",
+          "start": 13.399999618530273
+        },
+        {
+          "word": "a",
+          "start": 13.59999942779541
+        },
+        {
+          "word": "short",
+          "start": 13.75999927520752
+        },
+        {
+          "word": "pair",
+          "start": 14.039999961853027
+        },
+        {
+          "word": "of",
+          "start": 14.319999694824219
+        },
+        {
+          "word": "numbers",
+          "start": 14.479999542236328
+        },
+        {
+          "word": "names",
+          "start": 15.0
+        },
+        {
+          "word": "one",
+          "start": 15.519999504089355
+        },
+        {
+          "word": "exact",
+          "start": 15.799999237060547
+        },
+        {
+          "word": "point",
+          "start": 16.440000534057617
+        }
+      ],
+      "asr_text": " TWO EXPLORERS READ THE SAME PAIR OF NUMBERS AND WALK TO DIFFERENT PLACES ONE TRAVELS ACROSS FIRST THE OTHER GOES UPWARD FIRST HOW COULD A MAP RULE STOP THE DISAGREEMENT TO DAY WE WILL BUILD A SHARED CO ORDINATE SYSTEM SO A SHORT PAIR OF NUMBERS NAMES ONE EXACT POINT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 16.440000534057617,
+      "reveal_at": 16.29000053405762,
+      "speech_end": 16.8545
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to locate and describe points on a first-quadrant grid. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 1,
+      "start": 16.8545,
+      "end": 35.74270833333334,
+      "words": [
+        {
+          "word": "to",
+          "start": 16.8545
+        },
+        {
+          "word": "day",
+          "start": 17.054499988079073
+        },
+        {
+          "word": "we",
+          "start": 17.334499989271166
+        },
+        {
+          "word": "are",
+          "start": 17.494499985694887
+        },
+        {
+          "word": "learning",
+          "start": 17.694499973773958
+        },
+        {
+          "word": "to",
+          "start": 18.054499928474428
+        },
+        {
+          "word": "locate",
+          "start": 18.254499976158144
+        },
+        {
+          "word": "and",
+          "start": 18.73449999523163
+        },
+        {
+          "word": "describe",
+          "start": 18.89449996185303
+        },
+        {
+          "word": "points",
+          "start": 19.494499866485597
+        },
+        {
+          "word": "on",
+          "start": 19.89449996185303
+        },
+        {
+          "word": "a",
+          "start": 20.05449980926514
+        },
+        {
+          "word": "first",
+          "start": 20.214499895095827
+        },
+        {
+          "word": "quadrant",
+          "start": 20.534499828338625
+        },
+        {
+          "word": "grad",
+          "start": 21.05449980926514
+        },
+        {
+          "word": "we",
+          "start": 21.414499942779543
+        },
+        {
+          "word": "will",
+          "start": 21.61449975204468
+        },
+        {
+          "word": "move",
+          "start": 21.814500038146974
+        },
+        {
+          "word": "from",
+          "start": 22.094499771118166
+        },
+        {
+          "word": "objects",
+          "start": 22.29450005722046
+        },
+        {
+          "word": "or",
+          "start": 22.89449996185303
+        },
+        {
+          "word": "hands",
+          "start": 23.094499771118166
+        },
+        {
+          "word": "on",
+          "start": 23.45449990463257
+        },
+        {
+          "word": "actions",
+          "start": 23.654499713897707
+        },
+        {
+          "word": "to",
+          "start": 24.134499732971193
+        },
+        {
+          "word": "drawings",
+          "start": 24.29450005722046
+        },
+        {
+          "word": "then",
+          "start": 24.8545
+        },
+        {
+          "word": "connect",
+          "start": 25.094499771118166
+        },
+        {
+          "word": "those",
+          "start": 25.57450026702881
+        },
+        {
+          "word": "drawings",
+          "start": 25.814500038146974
+        },
+        {
+          "word": "with",
+          "start": 26.414499465942384
+        },
+        {
+          "word": "precise",
+          "start": 26.654500190734865
+        },
+        {
+          "word": "mathematical",
+          "start": 27.254499618530275
+        },
+        {
+          "word": "descriptions",
+          "start": 28.094499771118166
+        },
+        {
+          "word": "keep",
+          "start": 28.974499885559084
+        },
+        {
+          "word": "paper",
+          "start": 29.254499618530275
+        },
+        {
+          "word": "near",
+          "start": 29.65449923706055
+        },
+        {
+          "word": "by",
+          "start": 29.934499923706056
+        },
+        {
+          "word": "if",
+          "start": 30.17449969482422
+        },
+        {
+          "word": "you",
+          "start": 30.33449954223633
+        },
+        {
+          "word": "would",
+          "start": 30.45449942779541
+        },
+        {
+          "word": "like",
+          "start": 30.65449923706055
+        },
+        {
+          "word": "to",
+          "start": 30.814500038146974
+        },
+        {
+          "word": "test",
+          "start": 30.974499885559084
+        },
+        {
+          "word": "an",
+          "start": 31.294499580383302
+        },
+        {
+          "word": "idea",
+          "start": 31.49449938964844
+        },
+        {
+          "word": "for",
+          "start": 31.974499885559084
+        },
+        {
+          "word": "yourself",
+          "start": 32.17449969482422
+        },
+        {
+          "word": "you",
+          "start": 32.8545
+        },
+        {
+          "word": "can",
+          "start": 33.05449885559082
+        },
+        {
+          "word": "pause",
+          "start": 33.29450053405762
+        },
+        {
+          "word": "the",
+          "start": 33.61450022888184
+        },
+        {
+          "word": "player",
+          "start": 33.81449908447266
+        },
+        {
+          "word": "whenever",
+          "start": 34.21449870300293
+        },
+        {
+          "word": "you",
+          "start": 34.61450022888184
+        },
+        {
+          "word": "need",
+          "start": 34.77450007629395
+        },
+        {
+          "word": "more",
+          "start": 35.05449885559082
+        },
+        {
+          "word": "time",
+          "start": 35.33449954223633
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO LOCATE AND DESCRIBE POINTS ON A FIRST QUADRANT GRAD WE WILL MOVE FROM OBJECTS OR HANDS ON ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 16.8545,
+      "motion_end": 35.33449954223633,
+      "reveal_at": 35.18449954223633,
+      "speech_end": 35.74270833333334
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to locate and describe points on a first-quadrant grid. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Locate and describe points on a first-quadrant grid."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 2,
+      "start": 35.74270833333334,
+      "end": 50.44508333333334,
+      "words": [
+        {
+          "word": "our",
+          "start": 35.74270833333334
+        },
+        {
+          "word": "learning",
+          "start": 35.94270832141241
+        },
+        {
+          "word": "goal",
+          "start": 36.34270829757055
+        },
+        {
+          "word": "is",
+          "start": 36.62270832856497
+        },
+        {
+          "word": "to",
+          "start": 36.78270829518637
+        },
+        {
+          "word": "locate",
+          "start": 36.942708261807766
+        },
+        {
+          "word": "and",
+          "start": 37.5027083237966
+        },
+        {
+          "word": "describe",
+          "start": 37.74270833333334
+        },
+        {
+          "word": "points",
+          "start": 38.34270823796591
+        },
+        {
+          "word": "on",
+          "start": 38.74270833333334
+        },
+        {
+          "word": "a",
+          "start": 38.90270818074545
+        },
+        {
+          "word": "first",
+          "start": 39.06270826657614
+        },
+        {
+          "word": "quadrant",
+          "start": 39.382708199818936
+        },
+        {
+          "word": "grad",
+          "start": 39.90270818074545
+        },
+        {
+          "word": "we",
+          "start": 40.222708352406826
+        },
+        {
+          "word": "want",
+          "start": 40.46270812352499
+        },
+        {
+          "word": "to",
+          "start": 40.662708409627285
+        },
+        {
+          "word": "explain",
+          "start": 40.822708257039395
+        },
+        {
+          "word": "why",
+          "start": 41.50270808537802
+        },
+        {
+          "word": "a",
+          "start": 41.78270829518637
+        },
+        {
+          "word": "result",
+          "start": 41.94270814259848
+        },
+        {
+          "word": "is",
+          "start": 42.382708199818936
+        },
+        {
+          "word": "correct",
+          "start": 42.6227079709371
+        },
+        {
+          "word": "as",
+          "start": 43.02270806630453
+        },
+        {
+          "word": "well",
+          "start": 43.222708352406826
+        },
+        {
+          "word": "as",
+          "start": 43.42270816167196
+        },
+        {
+          "word": "obtain",
+          "start": 43.66270793279013
+        },
+        {
+          "word": "the",
+          "start": 44.102707990010586
+        },
+        {
+          "word": "result",
+          "start": 44.262707837422695
+        },
+        {
+          "word": "as",
+          "start": 44.86270821889242
+        },
+        {
+          "word": "you",
+          "start": 45.06270802815756
+        },
+        {
+          "word": "watch",
+          "start": 45.262707837422695
+        },
+        {
+          "word": "look",
+          "start": 45.70270837148031
+        },
+        {
+          "word": "for",
+          "start": 45.982708104451504
+        },
+        {
+          "word": "the",
+          "start": 46.14270795186361
+        },
+        {
+          "word": "evidence",
+          "start": 46.30270779927572
+        },
+        {
+          "word": "that",
+          "start": 46.822708257039395
+        },
+        {
+          "word": "would",
+          "start": 47.02270806630453
+        },
+        {
+          "word": "help",
+          "start": 47.22270787556967
+        },
+        {
+          "word": "you",
+          "start": 47.50270760854086
+        },
+        {
+          "word": "convince",
+          "start": 47.70270837148031
+        },
+        {
+          "word": "a",
+          "start": 48.22270787556967
+        },
+        {
+          "word": "partner",
+          "start": 48.38270772298178
+        },
+        {
+          "word": "who",
+          "start": 48.822708257039395
+        },
+        {
+          "word": "has",
+          "start": 49.02270806630453
+        },
+        {
+          "word": "not",
+          "start": 49.18270791371664
+        },
+        {
+          "word": "seen",
+          "start": 49.422707684834805
+        },
+        {
+          "word": "your",
+          "start": 49.70270837148031
+        },
+        {
+          "word": "working",
+          "start": 49.94270814259848
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO LOCATE AND DESCRIBE POINTS ON A FIRST QUADRANT GRAD WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Locate and describe points on a first-quadrant grid.",
+          "at": 35.74270833333334,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 35.74270833333334,
+      "motion_end": 49.94270814259848,
+      "reveal_at": 49.79270814259848,
+      "speech_end": 50.44508333333334
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can find the origin and axes. I can read horizontal first. I can plot points at intersections. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can find the origin and axes.",
+        "I can read horizontal first.",
+        "I can plot points at intersections."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 3,
+      "start": 50.44508333333334,
+      "end": 72.76158333333335,
+      "words": [
+        {
+          "word": "here",
+          "start": 50.44508333333334
+        },
+        {
+          "word": "are",
+          "start": 50.92508332260451
+        },
+        {
+          "word": "our",
+          "start": 51.2050833237966
+        },
+        {
+          "word": "three",
+          "start": 51.48508329518637
+        },
+        {
+          "word": "success",
+          "start": 51.76508326657614
+        },
+        {
+          "word": "criteria",
+          "start": 52.32508332856497
+        },
+        {
+          "word": "i",
+          "start": 53.08508319981894
+        },
+        {
+          "word": "can",
+          "start": 53.32508320935568
+        },
+        {
+          "word": "find",
+          "start": 53.5250832570394
+        },
+        {
+          "word": "the",
+          "start": 53.88508315213522
+        },
+        {
+          "word": "origin",
+          "start": 54.08508319981894
+        },
+        {
+          "word": "and",
+          "start": 54.64508314259848
+        },
+        {
+          "word": "axes",
+          "start": 54.92508335240683
+        },
+        {
+          "word": "i",
+          "start": 55.60508318074545
+        },
+        {
+          "word": "can",
+          "start": 55.845083428700775
+        },
+        {
+          "word": "read",
+          "start": 56.08508319981894
+        },
+        {
+          "word": "horizontal",
+          "start": 56.5250832570394
+        },
+        {
+          "word": "first",
+          "start": 57.405083371480316
+        },
+        {
+          "word": "i",
+          "start": 57.8850833905538
+        },
+        {
+          "word": "can",
+          "start": 58.12508316167197
+        },
+        {
+          "word": "plot",
+          "start": 58.36508293279013
+        },
+        {
+          "word": "points",
+          "start": 58.76508302815756
+        },
+        {
+          "word": "at",
+          "start": 59.12508268483481
+        },
+        {
+          "word": "intersections",
+          "start": 59.285083485921234
+        },
+        {
+          "word": "we",
+          "start": 60.165082646687836
+        },
+        {
+          "word": "will",
+          "start": 60.36508340962729
+        },
+        {
+          "word": "check",
+          "start": 60.565083218892426
+        },
+        {
+          "word": "these",
+          "start": 60.84508295186362
+        },
+        {
+          "word": "ideas",
+          "start": 61.165082646687836
+        },
+        {
+          "word": "in",
+          "start": 61.725083066304535
+        },
+        {
+          "word": "two",
+          "start": 61.9650828374227
+        },
+        {
+          "word": "worked",
+          "start": 62.24508352406821
+        },
+        {
+          "word": "examples",
+          "start": 62.565083218892426
+        },
+        {
+          "word": "investigate",
+          "start": 63.24508257039389
+        },
+        {
+          "word": "a",
+          "start": 64.04508276112875
+        },
+        {
+          "word": "common",
+          "start": 64.20508260854086
+        },
+        {
+          "word": "mistake",
+          "start": 64.56508321889243
+        },
+        {
+          "word": "and",
+          "start": 65.08508272298178
+        },
+        {
+          "word": "finish",
+          "start": 65.28508253224692
+        },
+        {
+          "word": "with",
+          "start": 65.68508310445151
+        },
+        {
+          "word": "an",
+          "start": 65.84508295186362
+        },
+        {
+          "word": "independent",
+          "start": 66.04508276112875
+        },
+        {
+          "word": "challenge",
+          "start": 66.84508295186362
+        },
+        {
+          "word": "a",
+          "start": 67.48508234151205
+        },
+        {
+          "word": "good",
+          "start": 67.64508218892416
+        },
+        {
+          "word": "explanation",
+          "start": 67.88508386739096
+        },
+        {
+          "word": "links",
+          "start": 68.76508302815756
+        },
+        {
+          "word": "what",
+          "start": 69.16508264668784
+        },
+        {
+          "word": "you",
+          "start": 69.405082417806
+        },
+        {
+          "word": "see",
+          "start": 69.60508318074545
+        },
+        {
+          "word": "in",
+          "start": 69.80508203633627
+        },
+        {
+          "word": "the",
+          "start": 69.92508287556967
+        },
+        {
+          "word": "model",
+          "start": 70.04508371480307
+        },
+        {
+          "word": "with",
+          "start": 70.405082417806
+        },
+        {
+          "word": "the",
+          "start": 70.5250832570394
+        },
+        {
+          "word": "mathematical",
+          "start": 70.68508310445151
+        },
+        {
+          "word": "rule",
+          "start": 71.5250832570394
+        },
+        {
+          "word": "being",
+          "start": 71.88508196004233
+        },
+        {
+          "word": "used",
+          "start": 72.24508257039389
+        }
+      ],
+      "asr_text": " HERE ARE OUR THREE SUCCESS CRITERIA I CAN FIND THE ORIGIN AND AXES I CAN READ HORIZONTAL FIRST I CAN PLOT POINTS AT INTERSECTIONS WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can find the origin and axes.",
+          "at": 50.44508333333334,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can read horizontal first.",
+          "at": 50.44508333333334,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can plot points at intersections.",
+          "at": 50.44508333333334,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 50.44508333333334,
+      "motion_end": 72.24508257039389,
+      "reveal_at": 72.09508257039388,
+      "speech_end": 72.76158333333335
+    },
+    {
+      "role": "explanation",
+      "chapter": "Build the grid on paper",
+      "text": "Draw horizontal and vertical lines at equal intervals on squared paper. Use a ruler if it helps. The lines meet at intersections. Mark a starting point in the lower left, then number the horizontal and vertical directions from zero. Both sets of numbers need a clear, consistent scale.",
+      "board": [
+        "Equal intervals; clear scale"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": []
+      },
+      "index": 4,
+      "start": 72.76158333333335,
+      "end": 91.46091666666668,
+      "words": [
+        {
+          "word": "draw",
+          "start": 72.76158333333335
+        },
+        {
+          "word": "horizontal",
+          "start": 73.16158330949149
+        },
+        {
+          "word": "and",
+          "start": 74.04158330472312
+        },
+        {
+          "word": "vertical",
+          "start": 74.24158335240683
+        },
+        {
+          "word": "lines",
+          "start": 74.8415832570394
+        },
+        {
+          "word": "at",
+          "start": 75.28158331425986
+        },
+        {
+          "word": "equal",
+          "start": 75.48158336194358
+        },
+        {
+          "word": "intervals",
+          "start": 75.88158321889243
+        },
+        {
+          "word": "on",
+          "start": 76.44158316167197
+        },
+        {
+          "word": "squared",
+          "start": 76.60158324750266
+        },
+        {
+          "word": "paper",
+          "start": 77.08158302815757
+        },
+        {
+          "word": "use",
+          "start": 77.64158344777427
+        },
+        {
+          "word": "a",
+          "start": 77.92158318074546
+        },
+        {
+          "word": "ruler",
+          "start": 78.1215829900106
+        },
+        {
+          "word": "if",
+          "start": 78.60158300908408
+        },
+        {
+          "word": "it",
+          "start": 78.80158329518638
+        },
+        {
+          "word": "helps",
+          "start": 79.00158310445151
+        },
+        {
+          "word": "the",
+          "start": 79.481583123525
+        },
+        {
+          "word": "lines",
+          "start": 79.72158337148032
+        },
+        {
+          "word": "meet",
+          "start": 80.24158335240683
+        },
+        {
+          "word": "at",
+          "start": 80.56158304723105
+        },
+        {
+          "word": "intersections",
+          "start": 80.72158337148032
+        },
+        {
+          "word": "mark",
+          "start": 81.72158337148032
+        },
+        {
+          "word": "a",
+          "start": 82.00158310445151
+        },
+        {
+          "word": "starting",
+          "start": 82.20158291371665
+        },
+        {
+          "word": "point",
+          "start": 82.6815834096273
+        },
+        {
+          "word": "in",
+          "start": 83.08158302815757
+        },
+        {
+          "word": "the",
+          "start": 83.24158287556968
+        },
+        {
+          "word": "lower",
+          "start": 83.44158268483481
+        },
+        {
+          "word": "left",
+          "start": 83.80158329518638
+        },
+        {
+          "word": "then",
+          "start": 84.08158302815757
+        },
+        {
+          "word": "number",
+          "start": 84.32158279927573
+        },
+        {
+          "word": "the",
+          "start": 84.64158344777427
+        },
+        {
+          "word": "horizontal",
+          "start": 84.80158329518638
+        },
+        {
+          "word": "and",
+          "start": 85.64158344777427
+        },
+        {
+          "word": "vertical",
+          "start": 85.88158321889243
+        },
+        {
+          "word": "directions",
+          "start": 86.44158268483481
+        },
+        {
+          "word": "from",
+          "start": 87.1215829900106
+        },
+        {
+          "word": "zero",
+          "start": 87.36158276112876
+        },
+        {
+          "word": "both",
+          "start": 87.96158314259849
+        },
+        {
+          "word": "sets",
+          "start": 88.36158276112876
+        },
+        {
+          "word": "of",
+          "start": 88.6815834096273
+        },
+        {
+          "word": "numbers",
+          "start": 88.8415832570394
+        },
+        {
+          "word": "need",
+          "start": 89.44158363850913
+        },
+        {
+          "word": "a",
+          "start": 89.76158333333335
+        },
+        {
+          "word": "clear",
+          "start": 89.88158226521811
+        },
+        {
+          "word": "consistent",
+          "start": 90.32158279927573
+        },
+        {
+          "word": "scale",
+          "start": 90.96158218892417
+        }
+      ],
+      "asr_text": " DRAW HORIZONTAL AND VERTICAL LINES AT EQUAL INTERVALS ON SQUARED PAPER USE A RULER IF IT HELPS THE LINES MEET AT INTERSECTIONS MARK A STARTING POINT IN THE LOWER LEFT THEN NUMBER THE HORIZONTAL AND VERTICAL DIRECTIONS FROM ZERO BOTH SETS OF NUMBERS NEED A CLEAR CONSISTENT SCALE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Equal intervals; clear scale",
+          "at": 75.48158336194358,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 72.76158333333335,
+      "motion_end": 90.96158218892417,
+      "reveal_at": 90.81158218892416,
+      "speech_end": 91.46091666666668
+    },
+    {
+      "role": "explanation",
+      "chapter": "Find the origin",
+      "text": "The point where the two numbered axes meet is the origin. Its coordinates are zero, zero. Zero means no movement from the starting point in that direction. The origin is a real point on the grid, not an empty space between the first two labelled lines.",
+      "board": [
+        "Origin: (0, 0)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            0
+          ]
+        ],
+        "labels": [
+          "O"
+        ]
+      },
+      "index": 5,
+      "start": 91.46091666666668,
+      "end": 108.047875,
+      "words": [
+        {
+          "word": "the",
+          "start": 91.46091666666668
+        },
+        {
+          "word": "point",
+          "start": 91.66091665474575
+        },
+        {
+          "word": "where",
+          "start": 91.98091664759319
+        },
+        {
+          "word": "the",
+          "start": 92.22091665712993
+        },
+        {
+          "word": "two",
+          "start": 92.38091662375133
+        },
+        {
+          "word": "numbered",
+          "start": 92.70091667620342
+        },
+        {
+          "word": "axes",
+          "start": 93.22091665712993
+        },
+        {
+          "word": "meet",
+          "start": 93.78091659990947
+        },
+        {
+          "word": "is",
+          "start": 94.1809166952769
+        },
+        {
+          "word": "the",
+          "start": 94.38091650454204
+        },
+        {
+          "word": "origin",
+          "start": 94.58091655222576
+        },
+        {
+          "word": "its",
+          "start": 95.26091661898296
+        },
+        {
+          "word": "co",
+          "start": 95.58091655222576
+        },
+        {
+          "word": "ordinates",
+          "start": 95.7809163614909
+        },
+        {
+          "word": "a",
+          "start": 96.42091670481365
+        },
+        {
+          "word": "zero",
+          "start": 96.58091655222576
+        },
+        {
+          "word": "zero",
+          "start": 97.1409164950053
+        },
+        {
+          "word": "zero",
+          "start": 97.82091632334392
+        },
+        {
+          "word": "means",
+          "start": 98.42091670481365
+        },
+        {
+          "word": "no",
+          "start": 98.90091672388714
+        },
+        {
+          "word": "movement",
+          "start": 99.22091641871135
+        },
+        {
+          "word": "from",
+          "start": 99.74091639963787
+        },
+        {
+          "word": "the",
+          "start": 99.90091624704998
+        },
+        {
+          "word": "starting",
+          "start": 100.06091609446209
+        },
+        {
+          "word": "point",
+          "start": 100.5009166285197
+        },
+        {
+          "word": "in",
+          "start": 100.82091632334392
+        },
+        {
+          "word": "that",
+          "start": 100.98091617075603
+        },
+        {
+          "word": "direction",
+          "start": 101.22091689554851
+        },
+        {
+          "word": "the",
+          "start": 101.90091624704998
+        },
+        {
+          "word": "origin",
+          "start": 102.14091601816814
+        },
+        {
+          "word": "is",
+          "start": 102.82091632334392
+        },
+        {
+          "word": "a",
+          "start": 103.02091613260906
+        },
+        {
+          "word": "real",
+          "start": 103.18091598002117
+        },
+        {
+          "word": "point",
+          "start": 103.62091651407879
+        },
+        {
+          "word": "on",
+          "start": 103.98091617075603
+        },
+        {
+          "word": "the",
+          "start": 104.14091601816814
+        },
+        {
+          "word": "grid",
+          "start": 104.30091681925457
+        },
+        {
+          "word": "not",
+          "start": 104.66091647593181
+        },
+        {
+          "word": "an",
+          "start": 104.86091628519695
+        },
+        {
+          "word": "empty",
+          "start": 105.06091609446209
+        },
+        {
+          "word": "space",
+          "start": 105.5009166285197
+        },
+        {
+          "word": "between",
+          "start": 105.90091624704998
+        },
+        {
+          "word": "the",
+          "start": 106.26091590372722
+        },
+        {
+          "word": "first",
+          "start": 106.42091670481365
+        },
+        {
+          "word": "two",
+          "start": 106.74091639963787
+        },
+        {
+          "word": "labelled",
+          "start": 107.02091613260906
+        },
+        {
+          "word": "lines",
+          "start": 107.50091567484539
+        }
+      ],
+      "asr_text": " THE POINT WHERE THE TWO NUMBERED AXES MEET IS THE ORIGIN ITS CO ORDINATES A ZERO ZERO ZERO MEANS NO MOVEMENT FROM THE STARTING POINT IN THAT DIRECTION THE ORIGIN IS A REAL POINT ON THE GRID NOT AN EMPTY SPACE BETWEEN THE FIRST TWO LABELLED LINES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Origin: (0, 0)",
+          "at": 96.68091655222575,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 91.46091666666668,
+      "motion_end": 107.50091567484539,
+      "reveal_at": 107.35091567484538,
+      "speech_end": 108.047875
+    },
+    {
+      "role": "explanation",
+      "chapter": "Understand an ordered pair",
+      "text": "An ordered pair gives the horizontal coordinate first and the vertical coordinate second. We write the pair in brackets with a comma between the numbers. The order matters because each position in the pair has a different job. Today every point stays on this first-quadrant map or its boundary.",
+      "board": [
+        "Across first, then up"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 6,
+      "start": 108.047875,
+      "end": 125.7155,
+      "words": [
+        {
+          "word": "an",
+          "start": 108.047875
+        },
+        {
+          "word": "ordered",
+          "start": 108.24787498807908
+        },
+        {
+          "word": "beer",
+          "start": 108.72787500715256
+        },
+        {
+          "word": "gives",
+          "start": 109.047875
+        },
+        {
+          "word": "the",
+          "start": 109.32787497138978
+        },
+        {
+          "word": "horizontal",
+          "start": 109.48787493801117
+        },
+        {
+          "word": "co",
+          "start": 110.20787484741211
+        },
+        {
+          "word": "ordinate",
+          "start": 110.3678749332428
+        },
+        {
+          "word": "first",
+          "start": 110.88787491416932
+        },
+        {
+          "word": "and",
+          "start": 111.24787480926514
+        },
+        {
+          "word": "the",
+          "start": 111.40787489509583
+        },
+        {
+          "word": "vertical",
+          "start": 111.56787498092652
+        },
+        {
+          "word": "co",
+          "start": 112.08787496185303
+        },
+        {
+          "word": "ordinate",
+          "start": 112.28787477111817
+        },
+        {
+          "word": "second",
+          "start": 112.76787479019166
+        },
+        {
+          "word": "we",
+          "start": 113.3278747329712
+        },
+        {
+          "word": "write",
+          "start": 113.56787498092652
+        },
+        {
+          "word": "the",
+          "start": 113.88787467575074
+        },
+        {
+          "word": "pair",
+          "start": 114.12787492370606
+        },
+        {
+          "word": "in",
+          "start": 114.44787461853028
+        },
+        {
+          "word": "brackets",
+          "start": 114.6878748664856
+        },
+        {
+          "word": "with",
+          "start": 115.28787477111817
+        },
+        {
+          "word": "a",
+          "start": 115.40787465667725
+        },
+        {
+          "word": "comma",
+          "start": 115.56787498092652
+        },
+        {
+          "word": "between",
+          "start": 115.92787463760376
+        },
+        {
+          "word": "the",
+          "start": 116.28787477111817
+        },
+        {
+          "word": "numbers",
+          "start": 116.40787465667725
+        },
+        {
+          "word": "the",
+          "start": 116.96787507629395
+        },
+        {
+          "word": "order",
+          "start": 117.20787484741211
+        },
+        {
+          "word": "matters",
+          "start": 117.64787442779541
+        },
+        {
+          "word": "because",
+          "start": 118.28787477111817
+        },
+        {
+          "word": "each",
+          "start": 118.72787435150147
+        },
+        {
+          "word": "position",
+          "start": 119.00787503814698
+        },
+        {
+          "word": "in",
+          "start": 119.56787450408936
+        },
+        {
+          "word": "the",
+          "start": 119.68787438964844
+        },
+        {
+          "word": "pair",
+          "start": 119.8878751525879
+        },
+        {
+          "word": "has",
+          "start": 120.20787484741211
+        },
+        {
+          "word": "a",
+          "start": 120.40787465667725
+        },
+        {
+          "word": "different",
+          "start": 120.56787450408936
+        },
+        {
+          "word": "job",
+          "start": 121.047875
+        },
+        {
+          "word": "to",
+          "start": 121.4878745803833
+        },
+        {
+          "word": "day",
+          "start": 121.72787435150147
+        },
+        {
+          "word": "every",
+          "start": 122.08787496185303
+        },
+        {
+          "word": "point",
+          "start": 122.44787461853028
+        },
+        {
+          "word": "stays",
+          "start": 122.7678743133545
+        },
+        {
+          "word": "on",
+          "start": 123.12787492370606
+        },
+        {
+          "word": "this",
+          "start": 123.24787480926514
+        },
+        {
+          "word": "first",
+          "start": 123.52787454223633
+        },
+        {
+          "word": "quadrant",
+          "start": 123.84787423706055
+        },
+        {
+          "word": "map",
+          "start": 124.32787377929688
+        },
+        {
+          "word": "or",
+          "start": 124.68787438964844
+        },
+        {
+          "word": "its",
+          "start": 124.84787423706055
+        },
+        {
+          "word": "boundary",
+          "start": 125.12787492370606
+        }
+      ],
+      "asr_text": " AN ORDERED BEER GIVES THE HORIZONTAL CO ORDINATE FIRST AND THE VERTICAL CO ORDINATE SECOND WE WRITE THE PAIR IN BRACKETS WITH A COMMA BETWEEN THE NUMBERS THE ORDER MATTERS BECAUSE EACH POSITION IN THE PAIR HAS A DIFFERENT JOB TO DAY EVERY POINT STAYS ON THIS FIRST QUADRANT MAP OR ITS BOUNDARY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Across first, then up",
+          "at": 110.88787491416932,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 108.047875,
+      "motion_end": 125.12787492370606,
+      "reveal_at": 124.97787492370605,
+      "speech_end": 125.7155
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the landmark",
+      "text": "Our first landmark has coordinates two, three. Start at the origin. Which direction should you travel for the two, and which direction for the three? Imagine tracing the journey with your finger. Keep the destination in mind while we apply the horizontal-first convention.",
+      "board": [
+        "Locate (2, 3)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ],
+        "hide": true
+      },
+      "index": 7,
+      "start": 125.7155,
+      "end": 147.2735416666667,
+      "words": [
+        {
+          "word": "our",
+          "start": 125.7155
+        },
+        {
+          "word": "first",
+          "start": 125.9955000011921
+        },
+        {
+          "word": "landmark",
+          "start": 126.39550000715256
+        },
+        {
+          "word": "has",
+          "start": 127.07550001430512
+        },
+        {
+          "word": "co",
+          "start": 127.31549990463257
+        },
+        {
+          "word": "ordinates",
+          "start": 127.47549999046326
+        },
+        {
+          "word": "two",
+          "start": 127.99549997138978
+        },
+        {
+          "word": "three",
+          "start": 128.23549998092653
+        },
+        {
+          "word": "start",
+          "start": 128.75549996185305
+        },
+        {
+          "word": "at",
+          "start": 129.1955000190735
+        },
+        {
+          "word": "the",
+          "start": 129.35549986648562
+        },
+        {
+          "word": "origin",
+          "start": 129.55549991416933
+        },
+        {
+          "word": "which",
+          "start": 130.3154999046326
+        },
+        {
+          "word": "direction",
+          "start": 130.71550000000002
+        },
+        {
+          "word": "should",
+          "start": 131.3154999046326
+        },
+        {
+          "word": "you",
+          "start": 131.55549967575075
+        },
+        {
+          "word": "travel",
+          "start": 131.75549996185305
+        },
+        {
+          "word": "for",
+          "start": 132.1955000190735
+        },
+        {
+          "word": "the",
+          "start": 132.35549986648562
+        },
+        {
+          "word": "two",
+          "start": 132.51549971389773
+        },
+        {
+          "word": "on",
+          "start": 132.79549992370607
+        },
+        {
+          "word": "which",
+          "start": 132.95549977111818
+        },
+        {
+          "word": "direction",
+          "start": 133.23549998092653
+        },
+        {
+          "word": "for",
+          "start": 133.8354998855591
+        },
+        {
+          "word": "the",
+          "start": 133.9954997329712
+        },
+        {
+          "word": "three",
+          "start": 134.15549958038332
+        },
+        {
+          "word": "imagine",
+          "start": 134.59550011444094
+        },
+        {
+          "word": "tracing",
+          "start": 135.39549935150148
+        },
+        {
+          "word": "the",
+          "start": 135.91549980926516
+        },
+        {
+          "word": "journey",
+          "start": 136.15549958038332
+        },
+        {
+          "word": "with",
+          "start": 136.5555001525879
+        },
+        {
+          "word": "your",
+          "start": 136.75549996185305
+        },
+        {
+          "word": "finger",
+          "start": 136.9954997329712
+        },
+        {
+          "word": "keep",
+          "start": 137.5555001525879
+        },
+        {
+          "word": "the",
+          "start": 137.8354998855591
+        },
+        {
+          "word": "destination",
+          "start": 138.03549969482424
+        },
+        {
+          "word": "in",
+          "start": 138.87549984741213
+        },
+        {
+          "word": "mind",
+          "start": 139.07549965667727
+        },
+        {
+          "word": "while",
+          "start": 139.47549927520754
+        },
+        {
+          "word": "we",
+          "start": 139.63550007629397
+        },
+        {
+          "word": "apply",
+          "start": 139.79549992370607
+        },
+        {
+          "word": "the",
+          "start": 140.23549950408938
+        },
+        {
+          "word": "horizontal",
+          "start": 140.35549938964846
+        },
+        {
+          "word": "first",
+          "start": 141.15549958038332
+        },
+        {
+          "word": "convention",
+          "start": 141.47549927520754
+        }
+      ],
+      "asr_text": " OUR FIRST LANDMARK HAS CO ORDINATES TWO THREE START AT THE ORIGIN WHICH DIRECTION SHOULD YOU TRAVEL FOR THE TWO ON WHICH DIRECTION FOR THE THREE IMAGINE TRACING THE JOURNEY WITH YOUR FINGER KEEP THE DESTINATION IN MIND WHILE WE APPLY THE HORIZONTAL FIRST CONVENTION",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Locate (2, 3)",
+          "at": 125.7155,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 125.7155,
+      "motion_end": 141.47549927520754,
+      "reveal_at": 141.32549927520753,
+      "speech_end": 142.2735416666667
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: plot a point",
+      "text": "Travel two units right from the origin, then three units upward. Mark the intersection reached by those movements. The point is two, three. The path helps us locate it, but the ordered pair names the destination, not every step of the path used to arrive there.",
+      "board": [
+        "A = (2, 3)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 8,
+      "start": 147.2735416666667,
+      "end": 162.33858333333336,
+      "words": [
+        {
+          "word": "travel",
+          "start": 147.2735416666667
+        },
+        {
+          "word": "two",
+          "start": 147.67354164282483
+        },
+        {
+          "word": "units",
+          "start": 147.91354165236157
+        },
+        {
+          "word": "right",
+          "start": 148.35354159037274
+        },
+        {
+          "word": "from",
+          "start": 148.67354164282483
+        },
+        {
+          "word": "the",
+          "start": 148.7935416475932
+        },
+        {
+          "word": "origin",
+          "start": 148.9535416142146
+        },
+        {
+          "word": "then",
+          "start": 149.51354167620343
+        },
+        {
+          "word": "three",
+          "start": 149.75354168574017
+        },
+        {
+          "word": "units",
+          "start": 150.03354165712994
+        },
+        {
+          "word": "upward",
+          "start": 150.47354147593182
+        },
+        {
+          "word": "mark",
+          "start": 151.03354165712994
+        },
+        {
+          "word": "the",
+          "start": 151.31354162851972
+        },
+        {
+          "word": "intersection",
+          "start": 151.51354143778485
+        },
+        {
+          "word": "reached",
+          "start": 152.39354155222577
+        },
+        {
+          "word": "by",
+          "start": 152.87354157129926
+        },
+        {
+          "word": "those",
+          "start": 153.0735413805644
+        },
+        {
+          "word": "movements",
+          "start": 153.39354155222577
+        },
+        {
+          "word": "the",
+          "start": 154.0735413805644
+        },
+        {
+          "word": "point",
+          "start": 154.31354162851972
+        },
+        {
+          "word": "is",
+          "start": 154.67354128519696
+        },
+        {
+          "word": "two",
+          "start": 154.91354153315228
+        },
+        {
+          "word": "three",
+          "start": 155.19354126612347
+        },
+        {
+          "word": "the",
+          "start": 155.5935413614909
+        },
+        {
+          "word": "path",
+          "start": 155.83354113260907
+        },
+        {
+          "word": "helps",
+          "start": 156.1535417811076
+        },
+        {
+          "word": "us",
+          "start": 156.47354147593182
+        },
+        {
+          "word": "located",
+          "start": 156.67354128519696
+        },
+        {
+          "word": "but",
+          "start": 157.23354170481366
+        },
+        {
+          "word": "the",
+          "start": 157.39354155222577
+        },
+        {
+          "word": "ordered",
+          "start": 157.55354139963788
+        },
+        {
+          "word": "pair",
+          "start": 157.99354098002118
+        },
+        {
+          "word": "names",
+          "start": 158.31354162851972
+        },
+        {
+          "word": "the",
+          "start": 158.67354128519696
+        },
+        {
+          "word": "destination",
+          "start": 158.79354117075604
+        },
+        {
+          "word": "not",
+          "start": 159.63354132334393
+        },
+        {
+          "word": "every",
+          "start": 159.91354105631513
+        },
+        {
+          "word": "step",
+          "start": 160.23354170481366
+        },
+        {
+          "word": "of",
+          "start": 160.55354139963788
+        },
+        {
+          "word": "the",
+          "start": 160.63354132334393
+        },
+        {
+          "word": "path",
+          "start": 160.75354120890302
+        },
+        {
+          "word": "used",
+          "start": 161.11354181925458
+        },
+        {
+          "word": "to",
+          "start": 161.39354155222577
+        },
+        {
+          "word": "arrive",
+          "start": 161.55354139963788
+        },
+        {
+          "word": "there",
+          "start": 162.0335409418742
+        }
+      ],
+      "asr_text": " TRAVEL TWO UNITS RIGHT FROM THE ORIGIN THEN THREE UNITS UPWARD MARK THE INTERSECTION REACHED BY THOSE MOVEMENTS THE POINT IS TWO THREE THE PATH HELPS US LOCATED BUT THE ORDERED PAIR NAMES THE DESTINATION NOT EVERY STEP OF THE PATH USED TO ARRIVE THERE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A = (2, 3)",
+          "at": 149.85354168574017,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 147.2735416666667,
+      "motion_end": 149.85354168574017,
+      "reveal_at": 149.85354168574017,
+      "speech_end": 162.33858333333336
+    },
+    {
+      "role": "explanation",
+      "chapter": "Read a point from the grid",
+      "text": "To read the same point, look straight down to find its horizontal coordinate. Then look straight across to find its vertical coordinate. Record those numbers in that order. We can check our reading by plotting the pair again and seeing whether it returns to the original intersection.",
+      "board": [
+        "Read across, then up."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 9,
+      "start": 162.33858333333336,
+      "end": 178.87125000000003,
+      "words": [
+        {
+          "word": "to",
+          "start": 162.33858333333336
+        },
+        {
+          "word": "read",
+          "start": 162.49858332975708
+        },
+        {
+          "word": "the",
+          "start": 162.85858331425987
+        },
+        {
+          "word": "same",
+          "start": 163.05858330233895
+        },
+        {
+          "word": "point",
+          "start": 163.41858325703942
+        },
+        {
+          "word": "look",
+          "start": 163.81858335240685
+        },
+        {
+          "word": "straight",
+          "start": 164.0585832427343
+        },
+        {
+          "word": "down",
+          "start": 164.45858321889244
+        },
+        {
+          "word": "to",
+          "start": 164.6985832284292
+        },
+        {
+          "word": "find",
+          "start": 164.93858323796593
+        },
+        {
+          "word": "its",
+          "start": 165.17858324750267
+        },
+        {
+          "word": "horizontal",
+          "start": 165.41858325703942
+        },
+        {
+          "word": "co",
+          "start": 166.09858332379662
+        },
+        {
+          "word": "ordinate",
+          "start": 166.25858317120873
+        },
+        {
+          "word": "then",
+          "start": 166.8985832761129
+        },
+        {
+          "word": "look",
+          "start": 167.1785830090841
+        },
+        {
+          "word": "straight",
+          "start": 167.45858321889244
+        },
+        {
+          "word": "across",
+          "start": 167.85858331425987
+        },
+        {
+          "word": "to",
+          "start": 168.33858333333336
+        },
+        {
+          "word": "find",
+          "start": 168.5385831425985
+        },
+        {
+          "word": "its",
+          "start": 168.81858335240685
+        },
+        {
+          "word": "vertical",
+          "start": 169.058583123525
+        },
+        {
+          "word": "co",
+          "start": 169.57858310445152
+        },
+        {
+          "word": "ordinate",
+          "start": 169.77858339055382
+        },
+        {
+          "word": "record",
+          "start": 170.3785832951864
+        },
+        {
+          "word": "those",
+          "start": 170.9785827229818
+        },
+        {
+          "word": "numbers",
+          "start": 171.33858333333336
+        },
+        {
+          "word": "in",
+          "start": 171.85858283742272
+        },
+        {
+          "word": "that",
+          "start": 172.05858264668785
+        },
+        {
+          "word": "order",
+          "start": 172.2585834096273
+        },
+        {
+          "word": "we",
+          "start": 172.73858295186363
+        },
+        {
+          "word": "can",
+          "start": 172.93858276112877
+        },
+        {
+          "word": "check",
+          "start": 173.0985835622152
+        },
+        {
+          "word": "our",
+          "start": 173.41858325703942
+        },
+        {
+          "word": "reading",
+          "start": 173.57858310445152
+        },
+        {
+          "word": "by",
+          "start": 174.05858264668785
+        },
+        {
+          "word": "plotting",
+          "start": 174.29858337148033
+        },
+        {
+          "word": "the",
+          "start": 174.73858295186363
+        },
+        {
+          "word": "pair",
+          "start": 174.89858279927574
+        },
+        {
+          "word": "again",
+          "start": 175.21858344777428
+        },
+        {
+          "word": "and",
+          "start": 175.57858310445152
+        },
+        {
+          "word": "seeing",
+          "start": 175.73858295186363
+        },
+        {
+          "word": "whether",
+          "start": 176.05858264668785
+        },
+        {
+          "word": "it",
+          "start": 176.3785832951864
+        },
+        {
+          "word": "returns",
+          "start": 176.57858310445152
+        },
+        {
+          "word": "to",
+          "start": 177.1385825703939
+        },
+        {
+          "word": "the",
+          "start": 177.2585834096273
+        },
+        {
+          "word": "original",
+          "start": 177.45858321889244
+        },
+        {
+          "word": "intersection",
+          "start": 178.05858264668785
+        }
+      ],
+      "asr_text": " TO READ THE SAME POINT LOOK STRAIGHT DOWN TO FIND ITS HORIZONTAL CO ORDINATE THEN LOOK STRAIGHT ACROSS TO FIND ITS VERTICAL CO ORDINATE RECORD THOSE NUMBERS IN THAT ORDER WE CAN CHECK OUR READING BY PLOTTING THE PAIR AGAIN AND SEEING WHETHER IT RETURNS TO THE ORIGINAL INTERSECTION",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Read across, then up.",
+          "at": 162.49858332975708,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 162.33858333333336,
+      "motion_end": 178.05858264668785,
+      "reveal_at": 177.90858264668785,
+      "speech_end": 178.87125000000003
+    },
+    {
+      "role": "misconception",
+      "chapter": "Coordinates are not cell names",
+      "text": "A coordinate point sits at the crossing of two grid lines. It does not refer to the centre of a square cell. Count intervals between grid lines rather than counting painted squares at random. A clear dot at the intersection removes doubt about the location being described.",
+      "board": [
+        "Mark the intersection."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 10,
+      "start": 178.87125000000003,
+      "end": 195.4241666666667,
+      "words": [
+        {
+          "word": "a",
+          "start": 178.87125000000003
+        },
+        {
+          "word": "co",
+          "start": 179.0712499880791
+        },
+        {
+          "word": "ordinate",
+          "start": 179.27124997615817
+        },
+        {
+          "word": "point",
+          "start": 179.83124997854236
+        },
+        {
+          "word": "sits",
+          "start": 180.23125001430515
+        },
+        {
+          "word": "at",
+          "start": 180.59124990940097
+        },
+        {
+          "word": "the",
+          "start": 180.71124991416934
+        },
+        {
+          "word": "crossing",
+          "start": 180.83124991893771
+        },
+        {
+          "word": "of",
+          "start": 181.23124989509586
+        },
+        {
+          "word": "two",
+          "start": 181.39124998092655
+        },
+        {
+          "word": "great",
+          "start": 181.67124995231632
+        },
+        {
+          "word": "lines",
+          "start": 181.9512499237061
+        },
+        {
+          "word": "it",
+          "start": 182.51124986648563
+        },
+        {
+          "word": "does",
+          "start": 182.75124987602237
+        },
+        {
+          "word": "not",
+          "start": 183.03124984741214
+        },
+        {
+          "word": "refer",
+          "start": 183.27125009536746
+        },
+        {
+          "word": "to",
+          "start": 183.67124971389774
+        },
+        {
+          "word": "the",
+          "start": 183.831250038147
+        },
+        {
+          "word": "centre",
+          "start": 183.9912498855591
+        },
+        {
+          "word": "of",
+          "start": 184.4712499046326
+        },
+        {
+          "word": "a",
+          "start": 184.6312497520447
+        },
+        {
+          "word": "square",
+          "start": 184.79125007629398
+        },
+        {
+          "word": "cell",
+          "start": 185.15124973297122
+        },
+        {
+          "word": "count",
+          "start": 185.59124979019168
+        },
+        {
+          "word": "intervals",
+          "start": 185.9912498855591
+        },
+        {
+          "word": "between",
+          "start": 186.59124979019168
+        },
+        {
+          "word": "grid",
+          "start": 187.07124980926517
+        },
+        {
+          "word": "lines",
+          "start": 187.35124954223636
+        },
+        {
+          "word": "rather",
+          "start": 187.831250038147
+        },
+        {
+          "word": "than",
+          "start": 188.15124973297122
+        },
+        {
+          "word": "counting",
+          "start": 188.43124946594241
+        },
+        {
+          "word": "painted",
+          "start": 188.91124996185306
+        },
+        {
+          "word": "squares",
+          "start": 189.31124958038333
+        },
+        {
+          "word": "at",
+          "start": 189.75125011444095
+        },
+        {
+          "word": "random",
+          "start": 189.91124996185306
+        },
+        {
+          "word": "a",
+          "start": 190.51124938964847
+        },
+        {
+          "word": "clear",
+          "start": 190.6712501907349
+        },
+        {
+          "word": "dot",
+          "start": 191.1112497711182
+        },
+        {
+          "word": "at",
+          "start": 191.43124946594241
+        },
+        {
+          "word": "the",
+          "start": 191.5512493515015
+        },
+        {
+          "word": "intersection",
+          "start": 191.67124923706058
+        },
+        {
+          "word": "removes",
+          "start": 192.3912495040894
+        },
+        {
+          "word": "doubt",
+          "start": 192.9512499237061
+        },
+        {
+          "word": "about",
+          "start": 193.35124954223636
+        },
+        {
+          "word": "the",
+          "start": 193.59124931335452
+        },
+        {
+          "word": "location",
+          "start": 193.75125011444095
+        },
+        {
+          "word": "being",
+          "start": 194.35124954223636
+        },
+        {
+          "word": "described",
+          "start": 194.63124927520755
+        }
+      ],
+      "asr_text": " A CO ORDINATE POINT SITS AT THE CROSSING OF TWO GREAT LINES IT DOES NOT REFER TO THE CENTRE OF A SQUARE CELL COUNT INTERVALS BETWEEN GRID LINES RATHER THAN COUNTING PAINTED SQUARES AT RANDOM A CLEAR DOT AT THE INTERSECTION REMOVES DOUBT ABOUT THE LOCATION BEING DESCRIBED",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Mark the intersection.",
+          "at": 178.87125000000003,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 178.87125000000003,
+      "motion_end": 194.63124927520755,
+      "reveal_at": 178.87125000000003,
+      "speech_end": 195.4241666666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Swap the numbers carefully",
+      "text": "Now compare two, three with three, two. The first point is two across and three up. The second is three across and two up. Both numbers appear in both pairs, yet the points differ. Swapping numbers usually changes a location because it changes the job of each number.",
+      "board": [
+        "(2, 3) and (3, 2) differ."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "labels": [
+          "A",
+          "B"
+        ]
+      },
+      "index": 11,
+      "start": 195.4241666666667,
+      "end": 212.71175000000005,
+      "words": [
+        {
+          "word": "now",
+          "start": 195.4241666666667
+        },
+        {
+          "word": "compare",
+          "start": 195.7841666511695
+        },
+        {
+          "word": "two",
+          "start": 196.30416666189834
+        },
+        {
+          "word": "three",
+          "start": 196.70416663805648
+        },
+        {
+          "word": "or",
+          "start": 197.02416657129928
+        },
+        {
+          "word": "three",
+          "start": 197.14416657606765
+        },
+        {
+          "word": "two",
+          "start": 197.46416662851973
+        },
+        {
+          "word": "the",
+          "start": 197.82416652361556
+        },
+        {
+          "word": "first",
+          "start": 198.0641665331523
+        },
+        {
+          "word": "point",
+          "start": 198.46416662851973
+        },
+        {
+          "word": "is",
+          "start": 198.78416656176253
+        },
+        {
+          "word": "two",
+          "start": 198.98416660944625
+        },
+        {
+          "word": "across",
+          "start": 199.224166618983
+        },
+        {
+          "word": "and",
+          "start": 199.7841668001811
+        },
+        {
+          "word": "three",
+          "start": 199.98416660944625
+        },
+        {
+          "word": "up",
+          "start": 200.30416678110763
+        },
+        {
+          "word": "the",
+          "start": 200.58416651407882
+        },
+        {
+          "word": "second",
+          "start": 200.82416676203414
+        },
+        {
+          "word": "is",
+          "start": 201.34416674296065
+        },
+        {
+          "word": "three",
+          "start": 201.58416651407882
+        },
+        {
+          "word": "across",
+          "start": 201.9041666857402
+        },
+        {
+          "word": "and",
+          "start": 202.46416662851973
+        },
+        {
+          "word": "two",
+          "start": 202.66416643778487
+        },
+        {
+          "word": "up",
+          "start": 202.94416664759322
+        },
+        {
+          "word": "both",
+          "start": 203.38416670481368
+        },
+        {
+          "word": "numbers",
+          "start": 203.74416636149093
+        },
+        {
+          "word": "appear",
+          "start": 204.2641668192546
+        },
+        {
+          "word": "in",
+          "start": 204.66416643778487
+        },
+        {
+          "word": "both",
+          "start": 204.86416624705
+        },
+        {
+          "word": "pairs",
+          "start": 205.18416689554854
+        },
+        {
+          "word": "yet",
+          "start": 205.62416647593184
+        },
+        {
+          "word": "the",
+          "start": 205.82416628519698
+        },
+        {
+          "word": "points",
+          "start": 206.06416605631514
+        },
+        {
+          "word": "differ",
+          "start": 206.46416662851973
+        },
+        {
+          "word": "swapping",
+          "start": 206.94416617075606
+        },
+        {
+          "word": "numbers",
+          "start": 207.46416662851973
+        },
+        {
+          "word": "usually",
+          "start": 208.1441659800212
+        },
+        {
+          "word": "changes",
+          "start": 208.74416636149093
+        },
+        {
+          "word": "a",
+          "start": 209.22416590372725
+        },
+        {
+          "word": "location",
+          "start": 209.34416674296065
+        },
+        {
+          "word": "because",
+          "start": 210.06416605631514
+        },
+        {
+          "word": "it",
+          "start": 210.38416670481368
+        },
+        {
+          "word": "changes",
+          "start": 210.58416651407882
+        },
+        {
+          "word": "the",
+          "start": 211.1441659800212
+        },
+        {
+          "word": "job",
+          "start": 211.38416670481368
+        },
+        {
+          "word": "of",
+          "start": 211.78416536966964
+        },
+        {
+          "word": "each",
+          "start": 211.94416712443038
+        },
+        {
+          "word": "number",
+          "start": 212.2641668192546
+        }
+      ],
+      "asr_text": " NOW COMPARE TWO THREE OR THREE TWO THE FIRST POINT IS TWO ACROSS AND THREE UP THE SECOND IS THREE ACROSS AND TWO UP BOTH NUMBERS APPEAR IN BOTH PAIRS YET THE POINTS DIFFER SWAPPING NUMBERS USUALLY CHANGES A LOCATION BECAUSE IT CHANGES THE JOB OF EACH NUMBER",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "(2, 3) and (3, 2) differ.",
+          "at": 196.40416666189833,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 195.4241666666667,
+      "motion_end": 212.2641668192546,
+      "reveal_at": 212.1141668192546,
+      "speech_end": 212.71175000000005
+    },
+    {
+      "role": "question",
+      "chapter": "Find the second landmark",
+      "text": "A flag is five units across and one unit above the horizontal axis. Predict its ordered pair before the label appears. Ask yourself which number should be written first. You can check your choice by describing the journey from the origin aloud.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            5,
+            1
+          ]
+        ],
+        "labels": [
+          "Flag"
+        ],
+        "hide": true
+      },
+      "index": 12,
+      "start": 212.71175000000005,
+      "end": 233.56425000000004,
+      "words": [
+        {
+          "word": "a",
+          "start": 212.71175000000005
+        },
+        {
+          "word": "flag",
+          "start": 212.91174998807912
+        },
+        {
+          "word": "is",
+          "start": 213.43174996900564
+        },
+        {
+          "word": "five",
+          "start": 213.71175000000005
+        },
+        {
+          "word": "units",
+          "start": 214.07175001430517
+        },
+        {
+          "word": "across",
+          "start": 214.51174995231634
+        },
+        {
+          "word": "and",
+          "start": 214.99174997138982
+        },
+        {
+          "word": "one",
+          "start": 215.19175001907354
+        },
+        {
+          "word": "unit",
+          "start": 215.4717499904633
+        },
+        {
+          "word": "above",
+          "start": 215.83174988555913
+        },
+        {
+          "word": "the",
+          "start": 216.19175001907354
+        },
+        {
+          "word": "horizontal",
+          "start": 216.31174990463262
+        },
+        {
+          "word": "axis",
+          "start": 217.03174969482427
+        },
+        {
+          "word": "predict",
+          "start": 217.71175000000005
+        },
+        {
+          "word": "its",
+          "start": 218.2717499427796
+        },
+        {
+          "word": "ordered",
+          "start": 218.5917496376038
+        },
+        {
+          "word": "pair",
+          "start": 219.03174969482427
+        },
+        {
+          "word": "before",
+          "start": 219.47174975204473
+        },
+        {
+          "word": "the",
+          "start": 219.75174996185308
+        },
+        {
+          "word": "labor",
+          "start": 219.95174977111822
+        },
+        {
+          "word": "appears",
+          "start": 220.35174986648565
+        },
+        {
+          "word": "ask",
+          "start": 221.11174961853033
+        },
+        {
+          "word": "yourself",
+          "start": 221.51175019073492
+        },
+        {
+          "word": "which",
+          "start": 222.0717496566773
+        },
+        {
+          "word": "number",
+          "start": 222.3517493896485
+        },
+        {
+          "word": "should",
+          "start": 222.75174996185308
+        },
+        {
+          "word": "be",
+          "start": 222.95174977111822
+        },
+        {
+          "word": "written",
+          "start": 223.15174958038335
+        },
+        {
+          "word": "first",
+          "start": 223.55175015258794
+        },
+        {
+          "word": "you",
+          "start": 224.0717496566773
+        },
+        {
+          "word": "can",
+          "start": 224.27174946594243
+        },
+        {
+          "word": "check",
+          "start": 224.51175019073492
+        },
+        {
+          "word": "your",
+          "start": 224.83174988555913
+        },
+        {
+          "word": "choice",
+          "start": 225.03174969482427
+        },
+        {
+          "word": "by",
+          "start": 225.47174927520757
+        },
+        {
+          "word": "describing",
+          "start": 225.67175003814702
+        },
+        {
+          "word": "the",
+          "start": 226.3517493896485
+        },
+        {
+          "word": "journey",
+          "start": 226.55175015258794
+        },
+        {
+          "word": "from",
+          "start": 226.95174977111822
+        },
+        {
+          "word": "the",
+          "start": 227.11174961853033
+        },
+        {
+          "word": "origin",
+          "start": 227.31174942779546
+        },
+        {
+          "word": "allowed",
+          "start": 227.95174977111822
+        }
+      ],
+      "asr_text": " A FLAG IS FIVE UNITS ACROSS AND ONE UNIT ABOVE THE HORIZONTAL AXIS PREDICT ITS ORDERED PAIR BEFORE THE LABOR APPEARS ASK YOURSELF WHICH NUMBER SHOULD BE WRITTEN FIRST YOU CAN CHECK YOUR CHOICE BY DESCRIBING THE JOURNEY FROM THE ORIGIN ALLOWED",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 212.71175000000005,
+      "motion_end": 227.95174977111822,
+      "reveal_at": 227.8017497711182,
+      "speech_end": 228.56425000000004
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: read and check",
+      "text": "The flag is at five, one. Five gives the horizontal position and one gives the vertical position. To check, return to the origin, move five right and one up. The check returns us to the flag, so the words, numbers and drawing agree.",
+      "board": [
+        "Flag = (5, 1)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            5,
+            1
+          ]
+        ],
+        "labels": [
+          "Flag"
+        ]
+      },
+      "index": 13,
+      "start": 233.56425000000004,
+      "end": 247.9739166666667,
+      "words": [
+        {
+          "word": "the",
+          "start": 233.56425000000004
+        },
+        {
+          "word": "flag",
+          "start": 233.80424999463563
+        },
+        {
+          "word": "is",
+          "start": 234.2442500071526
+        },
+        {
+          "word": "at",
+          "start": 234.44424999523167
+        },
+        {
+          "word": "five",
+          "start": 234.68425000476842
+        },
+        {
+          "word": "one",
+          "start": 235.08424998092656
+        },
+        {
+          "word": "five",
+          "start": 235.56425000000004
+        },
+        {
+          "word": "gives",
+          "start": 236.0042500572205
+        },
+        {
+          "word": "the",
+          "start": 236.28425002861027
+        },
+        {
+          "word": "horizontal",
+          "start": 236.44424987602238
+        },
+        {
+          "word": "position",
+          "start": 237.20424986648564
+        },
+        {
+          "word": "and",
+          "start": 237.72424984741215
+        },
+        {
+          "word": "one",
+          "start": 237.92425013351445
+        },
+        {
+          "word": "gives",
+          "start": 238.24424982833867
+        },
+        {
+          "word": "the",
+          "start": 238.56425000000004
+        },
+        {
+          "word": "vertical",
+          "start": 238.76424980926518
+        },
+        {
+          "word": "position",
+          "start": 239.2842497901917
+        },
+        {
+          "word": "the",
+          "start": 239.9242496566773
+        },
+        {
+          "word": "check",
+          "start": 240.1642499046326
+        },
+        {
+          "word": "return",
+          "start": 240.60424996185307
+        },
+        {
+          "word": "to",
+          "start": 241.0042500572205
+        },
+        {
+          "word": "the",
+          "start": 241.1642499046326
+        },
+        {
+          "word": "origin",
+          "start": 241.32424975204472
+        },
+        {
+          "word": "move",
+          "start": 241.9242496566773
+        },
+        {
+          "word": "five",
+          "start": 242.20424938964848
+        },
+        {
+          "word": "right",
+          "start": 242.56425000000004
+        },
+        {
+          "word": "and",
+          "start": 242.84424973297124
+        },
+        {
+          "word": "one",
+          "start": 243.00424958038334
+        },
+        {
+          "word": "up",
+          "start": 243.28424931335454
+        },
+        {
+          "word": "the",
+          "start": 243.56425000000004
+        },
+        {
+          "word": "check",
+          "start": 243.76424980926518
+        },
+        {
+          "word": "returns",
+          "start": 244.16424942779545
+        },
+        {
+          "word": "as",
+          "start": 244.6442499237061
+        },
+        {
+          "word": "to",
+          "start": 244.8042497711182
+        },
+        {
+          "word": "the",
+          "start": 244.88424969482426
+        },
+        {
+          "word": "flag",
+          "start": 245.04424954223637
+        },
+        {
+          "word": "so",
+          "start": 245.40425015258793
+        },
+        {
+          "word": "the",
+          "start": 245.56425000000004
+        },
+        {
+          "word": "words",
+          "start": 245.8042497711182
+        },
+        {
+          "word": "numbers",
+          "start": 246.28424931335454
+        },
+        {
+          "word": "and",
+          "start": 246.84424973297124
+        },
+        {
+          "word": "drawing",
+          "start": 247.00424958038334
+        },
+        {
+          "word": "agree",
+          "start": 247.44425011444096
+        }
+      ],
+      "asr_text": " THE FLAG IS AT FIVE ONE FIVE GIVES THE HORIZONTAL POSITION AND ONE GIVES THE VERTICAL POSITION THE CHECK RETURN TO THE ORIGIN MOVE FIVE RIGHT AND ONE UP THE CHECK RETURNS AS TO THE FLAG SO THE WORDS NUMBERS AND DRAWING AGREE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9705408741870805,
+      "board_events": [
+        {
+          "text": "Flag = (5, 1)",
+          "at": 235.18424998092655,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 233.56425000000004,
+      "motion_end": 235.18424998092655,
+      "reveal_at": 235.18424998092655,
+      "speech_end": 247.9739166666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "A point on an axis",
+      "text": "A point at zero, four needs no horizontal movement and four units upward. It lies on the vertical axis. A point at four, zero lies on the horizontal axis instead. A zero coordinate is useful information, so do not omit it when writing either pair.",
+      "board": [
+        "A zero coordinate still matters."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "C",
+          "D"
+        ]
+      },
+      "index": 14,
+      "start": 247.9739166666667,
+      "end": 264.7508333333334,
+      "words": [
+        {
+          "word": "a",
+          "start": 247.9739166666667
+        },
+        {
+          "word": "point",
+          "start": 248.17391665474577
+        },
+        {
+          "word": "at",
+          "start": 248.4939166475932
+        },
+        {
+          "word": "zero",
+          "start": 248.69391663567228
+        },
+        {
+          "word": "fore",
+          "start": 249.21391667620344
+        },
+        {
+          "word": "needs",
+          "start": 249.45391668574018
+        },
+        {
+          "word": "no",
+          "start": 249.813916580836
+        },
+        {
+          "word": "horizontal",
+          "start": 250.05391659037275
+        },
+        {
+          "word": "movement",
+          "start": 250.73391665712995
+        },
+        {
+          "word": "and",
+          "start": 251.21391667620344
+        },
+        {
+          "word": "four",
+          "start": 251.41391648546858
+        },
+        {
+          "word": "units",
+          "start": 251.69391669527693
+        },
+        {
+          "word": "upward",
+          "start": 252.09391655222578
+        },
+        {
+          "word": "it",
+          "start": 252.57391657129926
+        },
+        {
+          "word": "lies",
+          "start": 252.8539167811076
+        },
+        {
+          "word": "on",
+          "start": 253.33391632334394
+        },
+        {
+          "word": "the",
+          "start": 253.4939166475932
+        },
+        {
+          "word": "vertical",
+          "start": 253.65391649500532
+        },
+        {
+          "word": "axis",
+          "start": 254.21391643778486
+        },
+        {
+          "word": "a",
+          "start": 254.89391674296064
+        },
+        {
+          "word": "point",
+          "start": 255.09391655222578
+        },
+        {
+          "word": "at",
+          "start": 255.41391672388716
+        },
+        {
+          "word": "four",
+          "start": 255.6139165331523
+        },
+        {
+          "word": "zero",
+          "start": 255.9739166666667
+        },
+        {
+          "word": "lies",
+          "start": 256.5339161326091
+        },
+        {
+          "word": "on",
+          "start": 256.9739166666667
+        },
+        {
+          "word": "the",
+          "start": 257.0939165522258
+        },
+        {
+          "word": "horizontal",
+          "start": 257.2539163996379
+        },
+        {
+          "word": "axis",
+          "start": 257.9739166666667
+        },
+        {
+          "word": "instead",
+          "start": 258.453916208903
+        },
+        {
+          "word": "a",
+          "start": 259.1339165140788
+        },
+        {
+          "word": "zero",
+          "start": 259.33391632334394
+        },
+        {
+          "word": "co",
+          "start": 259.8539167811076
+        },
+        {
+          "word": "ordinate",
+          "start": 260.05391659037275
+        },
+        {
+          "word": "is",
+          "start": 260.61391605631513
+        },
+        {
+          "word": "useful",
+          "start": 260.8539167811076
+        },
+        {
+          "word": "information",
+          "start": 261.33391632334394
+        },
+        {
+          "word": "so",
+          "start": 262.05391659037275
+        },
+        {
+          "word": "do",
+          "start": 262.2939163614909
+        },
+        {
+          "word": "not",
+          "start": 262.453916208903
+        },
+        {
+          "word": "omit",
+          "start": 262.6939159800212
+        },
+        {
+          "word": "it",
+          "start": 263.0939165522258
+        },
+        {
+          "word": "when",
+          "start": 263.2539163996379
+        },
+        {
+          "word": "writing",
+          "start": 263.49391617075605
+        },
+        {
+          "word": "either",
+          "start": 263.9739166666667
+        },
+        {
+          "word": "bear",
+          "start": 264.4139172007243
+        }
+      ],
+      "asr_text": " A POINT AT ZERO FORE NEEDS NO HORIZONTAL MOVEMENT AND FOUR UNITS UPWARD IT LIES ON THE VERTICAL AXIS A POINT AT FOUR ZERO LIES ON THE HORIZONTAL AXIS INSTEAD A ZERO CO ORDINATE IS USEFUL INFORMATION SO DO NOT OMIT IT WHEN WRITING EITHER BEAR",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A zero coordinate still matters.",
+          "at": 248.69391663567228,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 247.9739166666667,
+      "motion_end": 264.4139172007243,
+      "reveal_at": 264.26391720072434,
+      "speech_end": 264.7508333333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Read the scale first",
+      "text": "Each gap on our grid represents one unit. On another map, a gap could represent two units or ten metres. Read the labels before interpreting a position. Counting three gaps does not automatically mean the coordinate is three unless the stated scale makes each gap one unit.",
+      "board": [
+        "Our scale: 1 interval = 1 unit"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 15,
+      "start": 264.7508333333334,
+      "end": 282.1427916666667,
+      "words": [
+        {
+          "word": "each",
+          "start": 264.7508333333334
+        },
+        {
+          "word": "gap",
+          "start": 265.15083330949153
+        },
+        {
+          "word": "on",
+          "start": 265.43083334048595
+        },
+        {
+          "word": "our",
+          "start": 265.59083330710735
+        },
+        {
+          "word": "grid",
+          "start": 265.7908332951864
+        },
+        {
+          "word": "represents",
+          "start": 266.2308333524069
+        },
+        {
+          "word": "one",
+          "start": 266.99083334287013
+        },
+        {
+          "word": "unit",
+          "start": 267.2708333142599
+        },
+        {
+          "word": "on",
+          "start": 267.7508333333334
+        },
+        {
+          "word": "another",
+          "start": 267.9508331425985
+        },
+        {
+          "word": "map",
+          "start": 268.390833199819
+        },
+        {
+          "word": "a",
+          "start": 268.83083325703944
+        },
+        {
+          "word": "gap",
+          "start": 268.99083310445155
+        },
+        {
+          "word": "could",
+          "start": 269.31083327611293
+        },
+        {
+          "word": "represent",
+          "start": 269.47083312352504
+        },
+        {
+          "word": "two",
+          "start": 270.0708330281576
+        },
+        {
+          "word": "units",
+          "start": 270.31083327611293
+        },
+        {
+          "word": "or",
+          "start": 270.7508333333334
+        },
+        {
+          "word": "ten",
+          "start": 270.9108331807455
+        },
+        {
+          "word": "meters",
+          "start": 271.19083339055385
+        },
+        {
+          "word": "read",
+          "start": 271.83083325703944
+        },
+        {
+          "word": "the",
+          "start": 272.19083339055385
+        },
+        {
+          "word": "labels",
+          "start": 272.35083323796596
+        },
+        {
+          "word": "before",
+          "start": 272.9108331807455
+        },
+        {
+          "word": "interpreting",
+          "start": 273.43083268483485
+        },
+        {
+          "word": "a",
+          "start": 274.2308328755697
+        },
+        {
+          "word": "position",
+          "start": 274.3508327611288
+        },
+        {
+          "word": "counting",
+          "start": 275.0308330663046
+        },
+        {
+          "word": "three",
+          "start": 275.6308334477743
+        },
+        {
+          "word": "gaps",
+          "start": 275.87083321889247
+        },
+        {
+          "word": "does",
+          "start": 276.3108327992758
+        },
+        {
+          "word": "not",
+          "start": 276.5908334859213
+        },
+        {
+          "word": "automatically",
+          "start": 276.83083325703944
+        },
+        {
+          "word": "mean",
+          "start": 277.6308334477743
+        },
+        {
+          "word": "the",
+          "start": 277.87083321889247
+        },
+        {
+          "word": "co",
+          "start": 277.99083310445155
+        },
+        {
+          "word": "ordinate",
+          "start": 278.11083299001064
+        },
+        {
+          "word": "is",
+          "start": 278.6308334477743
+        },
+        {
+          "word": "three",
+          "start": 278.83083325703944
+        },
+        {
+          "word": "unless",
+          "start": 279.15083295186366
+        },
+        {
+          "word": "the",
+          "start": 279.5108326085409
+        },
+        {
+          "word": "stated",
+          "start": 279.71083337148036
+        },
+        {
+          "word": "scale",
+          "start": 280.11083299001064
+        },
+        {
+          "word": "makes",
+          "start": 280.5108326085409
+        },
+        {
+          "word": "each",
+          "start": 280.83083325703944
+        },
+        {
+          "word": "gap",
+          "start": 281.15083295186366
+        },
+        {
+          "word": "one",
+          "start": 281.4708326466879
+        },
+        {
+          "word": "unit",
+          "start": 281.7508333333334
+        }
+      ],
+      "asr_text": " EACH GAP ON OUR GRID REPRESENTS ONE UNIT ON ANOTHER MAP A GAP COULD REPRESENT TWO UNITS OR TEN METERS READ THE LABELS BEFORE INTERPRETING A POSITION COUNTING THREE GAPS DOES NOT AUTOMATICALLY MEAN THE CO ORDINATE IS THREE UNLESS THE STATED SCALE MAKES EACH GAP ONE UNIT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Our scale: 1 interval = 1 unit",
+          "at": 267.09083334287016,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 264.7508333333334,
+      "motion_end": 281.7508333333334,
+      "reveal_at": 281.6008333333334,
+      "speech_end": 282.1427916666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Communicate a precise location",
+      "text": "A helpful instruction gives a named point and its complete ordered pair. Saying that the treasure is near the top is too vague for another explorer. Saying that it is at two, three lets someone place the same point without seeing your original map.",
+      "board": [
+        "Name + complete ordered pair"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 16,
+      "start": 282.1427916666667,
+      "end": 296.35420833333336,
+      "words": [
+        {
+          "word": "a",
+          "start": 282.1427916666667
+        },
+        {
+          "word": "helpful",
+          "start": 282.30279166309043
+        },
+        {
+          "word": "instruction",
+          "start": 282.82279167381927
+        },
+        {
+          "word": "gives",
+          "start": 283.6227916857402
+        },
+        {
+          "word": "a",
+          "start": 283.942791618983
+        },
+        {
+          "word": "named",
+          "start": 284.1027915856044
+        },
+        {
+          "word": "point",
+          "start": 284.50279156176254
+        },
+        {
+          "word": "and",
+          "start": 284.82279149500533
+        },
+        {
+          "word": "its",
+          "start": 284.982791580836
+        },
+        {
+          "word": "complete",
+          "start": 285.22279159037276
+        },
+        {
+          "word": "ordit",
+          "start": 285.7427915712993
+        },
+        {
+          "word": "pair",
+          "start": 286.1427916666667
+        },
+        {
+          "word": "saying",
+          "start": 286.58279172388717
+        },
+        {
+          "word": "that",
+          "start": 286.9427913805644
+        },
+        {
+          "word": "the",
+          "start": 287.1427916666667
+        },
+        {
+          "word": "treasure",
+          "start": 287.34279147593185
+        },
+        {
+          "word": "is",
+          "start": 287.82279149500533
+        },
+        {
+          "word": "near",
+          "start": 288.1027917048137
+        },
+        {
+          "word": "the",
+          "start": 288.4227913996379
+        },
+        {
+          "word": "top",
+          "start": 288.6227916857402
+        },
+        {
+          "word": "is",
+          "start": 288.9027914187114
+        },
+        {
+          "word": "too",
+          "start": 289.1027917048137
+        },
+        {
+          "word": "vague",
+          "start": 289.34279147593185
+        },
+        {
+          "word": "for",
+          "start": 289.70279160944625
+        },
+        {
+          "word": "another",
+          "start": 289.9427913805644
+        },
+        {
+          "word": "explorer",
+          "start": 290.34279147593185
+        },
+        {
+          "word": "saying",
+          "start": 291.06279174296066
+        },
+        {
+          "word": "that",
+          "start": 291.4227913996379
+        },
+        {
+          "word": "it",
+          "start": 291.66279117075607
+        },
+        {
+          "word": "is",
+          "start": 291.8227910181682
+        },
+        {
+          "word": "at",
+          "start": 291.9827918192546
+        },
+        {
+          "word": "two",
+          "start": 292.18279162851974
+        },
+        {
+          "word": "three",
+          "start": 292.50279132334396
+        },
+        {
+          "word": "lets",
+          "start": 292.7427910944621
+        },
+        {
+          "word": "someone",
+          "start": 293.0227917811076
+        },
+        {
+          "word": "place",
+          "start": 293.4227913996379
+        },
+        {
+          "word": "the",
+          "start": 293.66279117075607
+        },
+        {
+          "word": "same",
+          "start": 293.8227910181682
+        },
+        {
+          "word": "point",
+          "start": 294.1427916666667
+        },
+        {
+          "word": "without",
+          "start": 294.50279132334396
+        },
+        {
+          "word": "seeing",
+          "start": 294.90279094187423
+        },
+        {
+          "word": "your",
+          "start": 295.22279159037276
+        },
+        {
+          "word": "original",
+          "start": 295.46279136149093
+        },
+        {
+          "word": "map",
+          "start": 296.06279174296066
+        }
+      ],
+      "asr_text": " A HELPFUL INSTRUCTION GIVES A NAMED POINT AND ITS COMPLETE ORDIT PAIR SAYING THAT THE TREASURE IS NEAR THE TOP IS TOO VAGUE FOR ANOTHER EXPLORER SAYING THAT IT IS AT TWO THREE LETS SOMEONE PLACE THE SAME POINT WITHOUT SEEING YOUR ORIGINAL MAP",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Name + complete ordered pair",
+          "at": 285.22279159037276,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 282.1427916666667,
+      "motion_end": 296.06279174296066,
+      "reveal_at": 295.9127917429607,
+      "speech_end": 296.35420833333336
+    },
+    {
+      "role": "question",
+      "chapter": "Independent coordinate check",
+      "text": "A student labels a point four, zero but draws it on the vertical axis above the origin. Decide what went wrong. Which direction does the first number describe, and what does the zero require? Explain the correction rather than merely replacing the dot.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "E"
+        ],
+        "hide": true
+      },
+      "index": 17,
+      "start": 296.35420833333336,
+      "end": 317.63725000000005,
+      "words": [
+        {
+          "word": "a",
+          "start": 296.35420833333336
+        },
+        {
+          "word": "student",
+          "start": 296.5142083297571
+        },
+        {
+          "word": "labels",
+          "start": 297.1142083237966
+        },
+        {
+          "word": "a",
+          "start": 297.5542082618078
+        },
+        {
+          "word": "point",
+          "start": 297.7142083476385
+        },
+        {
+          "word": "for",
+          "start": 298.0742082427343
+        },
+        {
+          "word": "zero",
+          "start": 298.4342082570394
+        },
+        {
+          "word": "but",
+          "start": 298.95420823796593
+        },
+        {
+          "word": "draws",
+          "start": 299.1942082475027
+        },
+        {
+          "word": "it",
+          "start": 299.5542081425985
+        },
+        {
+          "word": "on",
+          "start": 299.79420815213524
+        },
+        {
+          "word": "the",
+          "start": 299.95420823796593
+        },
+        {
+          "word": "vertical",
+          "start": 300.1142083237966
+        },
+        {
+          "word": "axis",
+          "start": 300.71420846684777
+        },
+        {
+          "word": "above",
+          "start": 301.2342084477743
+        },
+        {
+          "word": "the",
+          "start": 301.5542081425985
+        },
+        {
+          "word": "origin",
+          "start": 301.7142079900106
+        },
+        {
+          "word": "decide",
+          "start": 302.3942082951864
+        },
+        {
+          "word": "what",
+          "start": 303.074208123525
+        },
+        {
+          "word": "went",
+          "start": 303.31420837148033
+        },
+        {
+          "word": "wrong",
+          "start": 303.63420806630455
+        },
+        {
+          "word": "which",
+          "start": 304.11420808537804
+        },
+        {
+          "word": "direction",
+          "start": 304.47420821889244
+        },
+        {
+          "word": "does",
+          "start": 305.19420848592125
+        },
+        {
+          "word": "the",
+          "start": 305.47420821889244
+        },
+        {
+          "word": "first",
+          "start": 305.6742080281576
+        },
+        {
+          "word": "number",
+          "start": 305.9942077229818
+        },
+        {
+          "word": "describe",
+          "start": 306.3942082951864
+        },
+        {
+          "word": "and",
+          "start": 306.9942077229818
+        },
+        {
+          "word": "what",
+          "start": 307.19420848592125
+        },
+        {
+          "word": "does",
+          "start": 307.3942082951864
+        },
+        {
+          "word": "the",
+          "start": 307.63420806630455
+        },
+        {
+          "word": "zero",
+          "start": 307.79420791371666
+        },
+        {
+          "word": "require",
+          "start": 308.2742084096273
+        },
+        {
+          "word": "explain",
+          "start": 308.95420776112877
+        },
+        {
+          "word": "the",
+          "start": 309.5542081425985
+        },
+        {
+          "word": "correction",
+          "start": 309.7142079900106
+        },
+        {
+          "word": "rather",
+          "start": 310.3942082951864
+        },
+        {
+          "word": "than",
+          "start": 310.75420795186363
+        },
+        {
+          "word": "merely",
+          "start": 311.0342076848348
+        },
+        {
+          "word": "replacing",
+          "start": 311.3942082951864
+        },
+        {
+          "word": "the",
+          "start": 311.9942077229818
+        },
+        {
+          "word": "dot",
+          "start": 312.19420753224693
+        }
+      ],
+      "asr_text": " A STUDENT LABELS A POINT FOR ZERO BUT DRAWS IT ON THE VERTICAL AXIS ABOVE THE ORIGIN DECIDE WHAT WENT WRONG WHICH DIRECTION DOES THE FIRST NUMBER DESCRIBE AND WHAT DOES THE ZERO REQUIRE EXPLAIN THE CORRECTION RATHER THAN MERELY REPLACING THE DOT",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 296.35420833333336,
+      "motion_end": 312.19420753224693,
+      "reveal_at": 312.04420753224696,
+      "speech_end": 312.63725000000005
+    },
+    {
+      "role": "answer",
+      "chapter": "Use the meaning of zero",
+      "text": "The point four, zero belongs four units right along the horizontal axis. Its second coordinate requires no upward movement. The mistake was exchanging the jobs of the two coordinates. Always check both the order and the scale, especially when a point lies on an axis.",
+      "board": [
+        "(4, 0): four right, zero up"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "E"
+        ]
+      },
+      "index": 18,
+      "start": 317.63725000000005,
+      "end": 334.6627500000001,
+      "words": [
+        {
+          "word": "the",
+          "start": 317.63725000000005
+        },
+        {
+          "word": "point",
+          "start": 317.8372499880791
+        },
+        {
+          "word": "four",
+          "start": 318.19725000238424
+        },
+        {
+          "word": "zero",
+          "start": 318.5172499952317
+        },
+        {
+          "word": "belongs",
+          "start": 318.95724993324285
+        },
+        {
+          "word": "four",
+          "start": 319.47724991416936
+        },
+        {
+          "word": "units",
+          "start": 319.75724988555913
+        },
+        {
+          "word": "right",
+          "start": 320.27724986648565
+        },
+        {
+          "word": "along",
+          "start": 320.63725000000005
+        },
+        {
+          "word": "the",
+          "start": 320.95724993324285
+        },
+        {
+          "word": "horizontal",
+          "start": 321.07724981880193
+        },
+        {
+          "word": "axis",
+          "start": 321.79724984741216
+        },
+        {
+          "word": "its",
+          "start": 322.43724971389776
+        },
+        {
+          "word": "second",
+          "start": 322.7172499237061
+        },
+        {
+          "word": "co",
+          "start": 323.1972499427796
+        },
+        {
+          "word": "ordinate",
+          "start": 323.39724975204473
+        },
+        {
+          "word": "requires",
+          "start": 323.91724973297124
+        },
+        {
+          "word": "no",
+          "start": 324.5172496376038
+        },
+        {
+          "word": "upward",
+          "start": 324.79724984741216
+        },
+        {
+          "word": "movement",
+          "start": 325.1972499427796
+        },
+        {
+          "word": "the",
+          "start": 325.79724984741216
+        },
+        {
+          "word": "mistake",
+          "start": 326.0372496185303
+        },
+        {
+          "word": "was",
+          "start": 326.63725000000005
+        },
+        {
+          "word": "exchanging",
+          "start": 326.95724969482427
+        },
+        {
+          "word": "the",
+          "start": 327.79724984741216
+        },
+        {
+          "word": "jobs",
+          "start": 328.07724958038335
+        },
+        {
+          "word": "of",
+          "start": 328.47725015258794
+        },
+        {
+          "word": "the",
+          "start": 328.597250038147
+        },
+        {
+          "word": "two",
+          "start": 328.7172499237061
+        },
+        {
+          "word": "co",
+          "start": 328.95724969482427
+        },
+        {
+          "word": "ordinates",
+          "start": 329.1172495422364
+        },
+        {
+          "word": "always",
+          "start": 329.8372498092652
+        },
+        {
+          "word": "check",
+          "start": 330.23724942779546
+        },
+        {
+          "word": "both",
+          "start": 330.597250038147
+        },
+        {
+          "word": "the",
+          "start": 330.8772497711182
+        },
+        {
+          "word": "order",
+          "start": 331.07724958038335
+        },
+        {
+          "word": "and",
+          "start": 331.47725015258794
+        },
+        {
+          "word": "the",
+          "start": 331.6772499618531
+        },
+        {
+          "word": "scale",
+          "start": 331.79724984741216
+        },
+        {
+          "word": "especially",
+          "start": 332.19724946594243
+        },
+        {
+          "word": "when",
+          "start": 332.79724984741216
+        },
+        {
+          "word": "a",
+          "start": 332.95724969482427
+        },
+        {
+          "word": "point",
+          "start": 333.1172495422364
+        },
+        {
+          "word": "lies",
+          "start": 333.4372492370606
+        },
+        {
+          "word": "on",
+          "start": 333.7572489318848
+        },
+        {
+          "word": "an",
+          "start": 333.8772497711182
+        },
+        {
+          "word": "axis",
+          "start": 334.0372496185303
+        }
+      ],
+      "asr_text": " THE POINT FOUR ZERO BELONGS FOUR UNITS RIGHT ALONG THE HORIZONTAL AXIS ITS SECOND CO ORDINATE REQUIRES NO UPWARD MOVEMENT THE MISTAKE WAS EXCHANGING THE JOBS OF THE TWO CO ORDINATES ALWAYS CHECK BOTH THE ORDER AND THE SCALE ESPECIALLY WHEN A POINT LIES ON AN AXIS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "(4, 0): four right, zero up",
+          "at": 318.6172499952317,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 317.63725000000005,
+      "motion_end": 318.6172499952317,
+      "reveal_at": 318.6172499952317,
+      "speech_end": 334.6627500000001
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Locate and describe points on a first-quadrant grid. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can find the origin and axes.",
+        "I can read horizontal first.",
+        "I can plot points at intersections."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      },
+      "index": 19,
+      "start": 334.6627500000001,
+      "end": 356.1004166666667,
+      "words": [
+        {
+          "word": "return",
+          "start": 334.6627500000001
+        },
+        {
+          "word": "to",
+          "start": 335.22275000238426
+        },
+        {
+          "word": "our",
+          "start": 335.46274995231636
+        },
+        {
+          "word": "learning",
+          "start": 335.6627500000001
+        },
+        {
+          "word": "goal",
+          "start": 336.10274993801124
+        },
+        {
+          "word": "locate",
+          "start": 336.5027499141694
+        },
+        {
+          "word": "and",
+          "start": 337.0627498569489
+        },
+        {
+          "word": "describe",
+          "start": 337.30274986648567
+        },
+        {
+          "word": "points",
+          "start": 337.9027500095368
+        },
+        {
+          "word": "on",
+          "start": 338.3427498283387
+        },
+        {
+          "word": "a",
+          "start": 338.5027499141694
+        },
+        {
+          "word": "first",
+          "start": 338.6627500000001
+        },
+        {
+          "word": "quadrant",
+          "start": 338.9827496948243
+        },
+        {
+          "word": "grad",
+          "start": 339.5027496757508
+        },
+        {
+          "word": "choose",
+          "start": 339.90274977111824
+        },
+        {
+          "word": "one",
+          "start": 340.3427498283387
+        },
+        {
+          "word": "example",
+          "start": 340.582750076294
+        },
+        {
+          "word": "from",
+          "start": 341.1827499809266
+        },
+        {
+          "word": "to",
+          "start": 341.3427498283387
+        },
+        {
+          "word": "day",
+          "start": 341.5027496757508
+        },
+        {
+          "word": "and",
+          "start": 341.78274988555916
+        },
+        {
+          "word": "explain",
+          "start": 341.9827496948243
+        },
+        {
+          "word": "the",
+          "start": 342.42274975204475
+        },
+        {
+          "word": "evidence",
+          "start": 342.58274959945686
+        },
+        {
+          "word": "that",
+          "start": 343.06274961853035
+        },
+        {
+          "word": "made",
+          "start": 343.3027493896485
+        },
+        {
+          "word": "its",
+          "start": 343.542750114441
+        },
+        {
+          "word": "answer",
+          "start": 343.78274988555916
+        },
+        {
+          "word": "convincing",
+          "start": 344.1427495422364
+        },
+        {
+          "word": "which",
+          "start": 344.90274977111824
+        },
+        {
+          "word": "about",
+          "start": 345.18274950408943
+        },
+        {
+          "word": "three",
+          "start": 345.542750114441
+        },
+        {
+          "word": "success",
+          "start": 345.8627498092652
+        },
+        {
+          "word": "criteria",
+          "start": 346.4227492752076
+        },
+        {
+          "word": "feels",
+          "start": 347.1427495422364
+        },
+        {
+          "word": "secure",
+          "start": 347.4627492370606
+        },
+        {
+          "word": "and",
+          "start": 347.94274973297127
+        },
+        {
+          "word": "which",
+          "start": 348.1027495803834
+        },
+        {
+          "word": "needs",
+          "start": 348.3027493896485
+        },
+        {
+          "word": "another",
+          "start": 348.6627500000001
+        },
+        {
+          "word": "try",
+          "start": 349.06274961853035
+        },
+        {
+          "word": "revisit",
+          "start": 349.542750114441
+        },
+        {
+          "word": "a",
+          "start": 350.1027495803834
+        },
+        {
+          "word": "model",
+          "start": 350.22274946594246
+        },
+        {
+          "word": "test",
+          "start": 350.62275003814705
+        },
+        {
+          "word": "your",
+          "start": 350.94274877929695
+        },
+        {
+          "word": "explanation",
+          "start": 351.1427495422364
+        },
+        {
+          "word": "with",
+          "start": 351.90274977111824
+        },
+        {
+          "word": "a",
+          "start": 352.06274961853035
+        },
+        {
+          "word": "partner",
+          "start": 352.2627503814698
+        },
+        {
+          "word": "and",
+          "start": 352.6627500000001
+        },
+        {
+          "word": "describe",
+          "start": 352.8227498474122
+        },
+        {
+          "word": "one",
+          "start": 353.4227502288819
+        },
+        {
+          "word": "mistake",
+          "start": 353.6627500000001
+        },
+        {
+          "word": "you",
+          "start": 354.18275045776375
+        },
+        {
+          "word": "can",
+          "start": 354.38274931335457
+        },
+        {
+          "word": "now",
+          "start": 354.582750076294
+        },
+        {
+          "word": "notice",
+          "start": 354.8627488555909
+        },
+        {
+          "word": "and",
+          "start": 355.34275030517585
+        },
+        {
+          "word": "correct",
+          "start": 355.5427491607667
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL LOCATE AND DESCRIBE POINTS ON A FIRST QUADRANT GRAD CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can find the origin and axes.",
+          "at": 334.6627500000001,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can read horizontal first.",
+          "at": 334.6627500000001,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can plot points at intersections.",
+          "at": 334.6627500000001,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 334.6627500000001,
+      "motion_end": 355.5427491607667,
+      "reveal_at": 355.3927491607667,
+      "speech_end": 356.1004166666667
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 4.480000019073486,
+      "text": "Two explorers read the same pair of numbers and walk to different places."
+    },
+    {
+      "start": 4.480000019073486,
+      "end": 7.960000038146973,
+      "text": "One travels across first; the other goes upward first."
+    },
+    {
+      "start": 7.960000038146973,
+      "end": 10.639999389648438,
+      "text": "How could a map rule stop the disagreement?"
+    },
+    {
+      "start": 10.639999389648438,
+      "end": 16.8545,
+      "text": "Today we will build a shared coordinate system so a short pair of numbers names one exact point."
+    },
+    {
+      "start": 16.8545,
+      "end": 17.334499989271166,
+      "text": "Today we are learning to locate and describe points on a first-quadrant grid."
+    },
+    {
+      "start": 17.334499989271166,
+      "end": 28.974499885559084,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 28.974499885559084,
+      "end": 30.33449954223633,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 30.33449954223633,
+      "end": 35.74270833333334,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 35.74270833333334,
+      "end": 40.222708352406826,
+      "text": "Our learning goal is to locate and describe points on a first-quadrant grid."
+    },
+    {
+      "start": 40.222708352406826,
+      "end": 43.02270806630453,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 43.02270806630453,
+      "end": 50.44508333333334,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 50.44508333333334,
+      "end": 53.08508319981894,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 53.08508319981894,
+      "end": 55.60508318074545,
+      "text": "I can find the origin and axes."
+    },
+    {
+      "start": 55.60508318074545,
+      "end": 57.8850833905538,
+      "text": "I can read horizontal first."
+    },
+    {
+      "start": 57.8850833905538,
+      "end": 60.165082646687836,
+      "text": "I can plot points at intersections."
+    },
+    {
+      "start": 60.165082646687836,
+      "end": 64.04508276112875,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 64.04508276112875,
+      "end": 72.76158333333335,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 72.76158333333335,
+      "end": 77.64158344777427,
+      "text": "Draw horizontal and vertical lines at equal intervals on squared paper."
+    },
+    {
+      "start": 77.64158344777427,
+      "end": 79.481583123525,
+      "text": "Use a ruler if it helps."
+    },
+    {
+      "start": 79.481583123525,
+      "end": 81.72158337148032,
+      "text": "The lines meet at intersections."
+    },
+    {
+      "start": 81.72158337148032,
+      "end": 87.96158314259849,
+      "text": "Mark a starting point in the lower left, then number the horizontal and vertical directions from zero."
+    },
+    {
+      "start": 87.96158314259849,
+      "end": 91.46091666666668,
+      "text": "Both sets of numbers need a clear, consistent scale."
+    },
+    {
+      "start": 91.46091666666668,
+      "end": 95.26091661898296,
+      "text": "The point where the two numbered axes meet is the origin."
+    },
+    {
+      "start": 95.26091661898296,
+      "end": 96.58091655222576,
+      "text": "Its coordinates are zero, zero."
+    },
+    {
+      "start": 96.58091655222576,
+      "end": 99.90091624704998,
+      "text": "Zero means no movement from the starting point in that direction."
+    },
+    {
+      "start": 99.90091624704998,
+      "end": 108.047875,
+      "text": "The origin is a real point on the grid, not an empty space between the first two labelled lines."
+    },
+    {
+      "start": 108.047875,
+      "end": 113.3278747329712,
+      "text": "An ordered pair gives the horizontal coordinate first and the vertical coordinate second."
+    },
+    {
+      "start": 113.3278747329712,
+      "end": 113.88787467575074,
+      "text": "We write the pair in brackets with a comma between the numbers."
+    },
+    {
+      "start": 113.88787467575074,
+      "end": 121.4878745803833,
+      "text": "The order matters because each position in the pair has a different job."
+    },
+    {
+      "start": 121.4878745803833,
+      "end": 125.7155,
+      "text": "Today every point stays on this first-quadrant map or its boundary."
+    },
+    {
+      "start": 125.7155,
+      "end": 128.75549996185305,
+      "text": "Our first landmark has coordinates two, three."
+    },
+    {
+      "start": 128.75549996185305,
+      "end": 130.3154999046326,
+      "text": "Start at the origin."
+    },
+    {
+      "start": 130.3154999046326,
+      "end": 134.59550011444094,
+      "text": "Which direction should you travel for the two, and which direction for the three?"
+    },
+    {
+      "start": 134.59550011444094,
+      "end": 137.5555001525879,
+      "text": "Imagine tracing the journey with your finger."
+    },
+    {
+      "start": 137.5555001525879,
+      "end": 142.2735416666667,
+      "text": "Keep the destination in mind while we apply the horizontal-first convention."
+    },
+    {
+      "start": 147.2735416666667,
+      "end": 151.03354165712994,
+      "text": "Travel two units right from the origin, then three units upward."
+    },
+    {
+      "start": 151.03354165712994,
+      "end": 151.31354162851972,
+      "text": "Mark the intersection reached by those movements."
+    },
+    {
+      "start": 151.31354162851972,
+      "end": 154.0735413805644,
+      "text": "The point is two, three."
+    },
+    {
+      "start": 154.0735413805644,
+      "end": 162.33858333333336,
+      "text": "The path helps us locate it, but the ordered pair names the destination, not every step of the path used to arrive there."
+    },
+    {
+      "start": 162.33858333333336,
+      "end": 166.8985832761129,
+      "text": "To read the same point, look straight down to find its horizontal coordinate."
+    },
+    {
+      "start": 166.8985832761129,
+      "end": 170.3785832951864,
+      "text": "Then look straight across to find its vertical coordinate."
+    },
+    {
+      "start": 170.3785832951864,
+      "end": 172.73858295186363,
+      "text": "Record those numbers in that order."
+    },
+    {
+      "start": 172.73858295186363,
+      "end": 178.87125000000003,
+      "text": "We can check our reading by plotting the pair again and seeing whether it returns to the original intersection."
+    },
+    {
+      "start": 178.87125000000003,
+      "end": 182.51124986648563,
+      "text": "A coordinate point sits at the crossing of two grid lines."
+    },
+    {
+      "start": 182.51124986648563,
+      "end": 185.59124979019168,
+      "text": "It does not refer to the centre of a square cell."
+    },
+    {
+      "start": 185.59124979019168,
+      "end": 190.51124938964847,
+      "text": "Count intervals between grid lines rather than counting painted squares at random."
+    },
+    {
+      "start": 190.51124938964847,
+      "end": 195.4241666666667,
+      "text": "A clear dot at the intersection removes doubt about the location being described."
+    },
+    {
+      "start": 195.4241666666667,
+      "end": 197.82416652361556,
+      "text": "Now compare two, three with three, two."
+    },
+    {
+      "start": 197.82416652361556,
+      "end": 200.58416651407882,
+      "text": "The first point is two across and three up."
+    },
+    {
+      "start": 200.58416651407882,
+      "end": 203.38416670481368,
+      "text": "The second is three across and two up."
+    },
+    {
+      "start": 203.38416670481368,
+      "end": 206.94416617075606,
+      "text": "Both numbers appear in both pairs, yet the points differ."
+    },
+    {
+      "start": 206.94416617075606,
+      "end": 212.71175000000005,
+      "text": "Swapping numbers usually changes a location because it changes the job of each number."
+    },
+    {
+      "start": 212.71175000000005,
+      "end": 217.71175000000005,
+      "text": "A flag is five units across and one unit above the horizontal axis."
+    },
+    {
+      "start": 217.71175000000005,
+      "end": 221.11174961853033,
+      "text": "Predict its ordered pair before the label appears."
+    },
+    {
+      "start": 221.11174961853033,
+      "end": 224.0717496566773,
+      "text": "Ask yourself which number should be written first."
+    },
+    {
+      "start": 224.0717496566773,
+      "end": 228.56425000000004,
+      "text": "You can check your choice by describing the journey from the origin aloud."
+    },
+    {
+      "start": 233.56425000000004,
+      "end": 234.68425000476842,
+      "text": "The flag is at five, one."
+    },
+    {
+      "start": 234.68425000476842,
+      "end": 241.0042500572205,
+      "text": "Five gives the horizontal position and one gives the vertical position."
+    },
+    {
+      "start": 241.0042500572205,
+      "end": 241.1642499046326,
+      "text": "To check, return to the origin, move five right and one up."
+    },
+    {
+      "start": 241.1642499046326,
+      "end": 247.9739166666667,
+      "text": "The check returns us to the flag, so the words, numbers and drawing agree."
+    },
+    {
+      "start": 247.9739166666667,
+      "end": 252.57391657129926,
+      "text": "A point at zero, four needs no horizontal movement and four units upward."
+    },
+    {
+      "start": 252.57391657129926,
+      "end": 254.89391674296064,
+      "text": "It lies on the vertical axis."
+    },
+    {
+      "start": 254.89391674296064,
+      "end": 259.1339165140788,
+      "text": "A point at four, zero lies on the horizontal axis instead."
+    },
+    {
+      "start": 259.1339165140788,
+      "end": 264.7508333333334,
+      "text": "A zero coordinate is useful information, so do not omit it when writing either pair."
+    },
+    {
+      "start": 264.7508333333334,
+      "end": 265.43083334048595,
+      "text": "Each gap on our grid represents one unit."
+    },
+    {
+      "start": 265.43083334048595,
+      "end": 271.83083325703944,
+      "text": "On another map, a gap could represent two units or ten metres."
+    },
+    {
+      "start": 271.83083325703944,
+      "end": 275.0308330663046,
+      "text": "Read the labels before interpreting a position."
+    },
+    {
+      "start": 275.0308330663046,
+      "end": 282.1427916666667,
+      "text": "Counting three gaps does not automatically mean the coordinate is three unless the stated scale makes each gap one unit."
+    },
+    {
+      "start": 282.1427916666667,
+      "end": 286.58279172388717,
+      "text": "A helpful instruction gives a named point and its complete ordered pair."
+    },
+    {
+      "start": 286.58279172388717,
+      "end": 291.06279174296066,
+      "text": "Saying that the treasure is near the top is too vague for another explorer."
+    },
+    {
+      "start": 291.06279174296066,
+      "end": 296.35420833333336,
+      "text": "Saying that it is at two, three lets someone place the same point without seeing your original map."
+    },
+    {
+      "start": 296.35420833333336,
+      "end": 302.3942082951864,
+      "text": "A student labels a point four, zero but draws it on the vertical axis above the origin."
+    },
+    {
+      "start": 302.3942082951864,
+      "end": 304.11420808537804,
+      "text": "Decide what went wrong."
+    },
+    {
+      "start": 304.11420808537804,
+      "end": 308.95420776112877,
+      "text": "Which direction does the first number describe, and what does the zero require?"
+    },
+    {
+      "start": 308.95420776112877,
+      "end": 312.63725000000005,
+      "text": "Explain the correction rather than merely replacing the dot."
+    },
+    {
+      "start": 317.63725000000005,
+      "end": 322.43724971389776,
+      "text": "The point four, zero belongs four units right along the horizontal axis."
+    },
+    {
+      "start": 322.43724971389776,
+      "end": 325.79724984741216,
+      "text": "Its second coordinate requires no upward movement."
+    },
+    {
+      "start": 325.79724984741216,
+      "end": 329.8372498092652,
+      "text": "The mistake was exchanging the jobs of the two coordinates."
+    },
+    {
+      "start": 329.8372498092652,
+      "end": 334.6627500000001,
+      "text": "Always check both the order and the scale, especially when a point lies on an axis."
+    },
+    {
+      "start": 334.6627500000001,
+      "end": 336.5027499141694,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 336.5027499141694,
+      "end": 339.90274977111824,
+      "text": "Locate and describe points on a first-quadrant grid."
+    },
+    {
+      "start": 339.90274977111824,
+      "end": 344.90274977111824,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 344.90274977111824,
+      "end": 349.542750114441,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 349.542750114441,
+      "end": 356.1004166666667,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      142.2735416666667,
+      147.2735416666667,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      228.56425000000004,
+      233.56425000000004,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      312.63725000000005,
+      317.63725000000005,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 356.1004166666667,
+  "narration_sha256": "d280bb29039393c2b39468c08b3444346608227b240418c138c868eef9e5cd8a",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}

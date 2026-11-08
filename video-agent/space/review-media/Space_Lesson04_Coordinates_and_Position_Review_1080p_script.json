@@ -1,0 +1,415 @@
+{
+  "id": "space-lesson4",
+  "number": 4,
+  "topic": "space",
+  "section": "lesson-4",
+  "title": "Coordinates and Position",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "A treasure map with a problem",
+      "text": "Two explorers read the same pair of numbers and walk to different places. One travels across first; the other goes upward first. How could a map rule stop the disagreement? Today we will build a shared coordinate system so a short pair of numbers names one exact point.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to locate and describe points on a first-quadrant grid. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to locate and describe points on a first-quadrant grid. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Locate and describe points on a first-quadrant grid."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can find the origin and axes. I can read horizontal first. I can plot points at intersections. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can find the origin and axes.",
+        "I can read horizontal first.",
+        "I can plot points at intersections."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Build the grid on paper",
+      "text": "Draw horizontal and vertical lines at equal intervals on squared paper. Use a ruler if it helps. The lines meet at intersections. Mark a starting point in the lower left, then number the horizontal and vertical directions from zero. Both sets of numbers need a clear, consistent scale.",
+      "board": [
+        "Equal intervals; clear scale"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": []
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Find the origin",
+      "text": "The point where the two numbered axes meet is the origin. Its coordinates are zero, zero. Zero means no movement from the starting point in that direction. The origin is a real point on the grid, not an empty space between the first two labelled lines.",
+      "board": [
+        "Origin: (0, 0)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            0
+          ]
+        ],
+        "labels": [
+          "O"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Understand an ordered pair",
+      "text": "An ordered pair gives the horizontal coordinate first and the vertical coordinate second. We write the pair in brackets with a comma between the numbers. The order matters because each position in the pair has a different job. Today every point stays on this first-quadrant map or its boundary.",
+      "board": [
+        "Across first, then up"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the landmark",
+      "text": "Our first landmark has coordinates two, three. Start at the origin. Which direction should you travel for the two, and which direction for the three? Imagine tracing the journey with your finger. Keep the destination in mind while we apply the horizontal-first convention.",
+      "board": [
+        "Locate (2, 3)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ],
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: plot a point",
+      "text": "Travel two units right from the origin, then three units upward. Mark the intersection reached by those movements. The point is two, three. The path helps us locate it, but the ordered pair names the destination, not every step of the path used to arrive there.",
+      "board": [
+        "A = (2, 3)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Read a point from the grid",
+      "text": "To read the same point, look straight down to find its horizontal coordinate. Then look straight across to find its vertical coordinate. Record those numbers in that order. We can check our reading by plotting the pair again and seeing whether it returns to the original intersection.",
+      "board": [
+        "Read across, then up."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Coordinates are not cell names",
+      "text": "A coordinate point sits at the crossing of two grid lines. It does not refer to the centre of a square cell. Count intervals between grid lines rather than counting painted squares at random. A clear dot at the intersection removes doubt about the location being described.",
+      "board": [
+        "Mark the intersection."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Swap the numbers carefully",
+      "text": "Now compare two, three with three, two. The first point is two across and three up. The second is three across and two up. Both numbers appear in both pairs, yet the points differ. Swapping numbers usually changes a location because it changes the job of each number.",
+      "board": [
+        "(2, 3) and (3, 2) differ."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "labels": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Find the second landmark",
+      "text": "A flag is five units across and one unit above the horizontal axis. Predict its ordered pair before the label appears. Ask yourself which number should be written first. You can check your choice by describing the journey from the origin aloud.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            5,
+            1
+          ]
+        ],
+        "labels": [
+          "Flag"
+        ],
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: read and check",
+      "text": "The flag is at five, one. Five gives the horizontal position and one gives the vertical position. To check, return to the origin, move five right and one up. The check returns us to the flag, so the words, numbers and drawing agree.",
+      "board": [
+        "Flag = (5, 1)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            5,
+            1
+          ]
+        ],
+        "labels": [
+          "Flag"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "A point on an axis",
+      "text": "A point at zero, four needs no horizontal movement and four units upward. It lies on the vertical axis. A point at four, zero lies on the horizontal axis instead. A zero coordinate is useful information, so do not omit it when writing either pair.",
+      "board": [
+        "A zero coordinate still matters."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Read the scale first",
+      "text": "Each gap on our grid represents one unit. On another map, a gap could represent two units or ten metres. Read the labels before interpreting a position. Counting three gaps does not automatically mean the coordinate is three unless the stated scale makes each gap one unit.",
+      "board": [
+        "Our scale: 1 interval = 1 unit"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Communicate a precise location",
+      "text": "A helpful instruction gives a named point and its complete ordered pair. Saying that the treasure is near the top is too vague for another explorer. Saying that it is at two, three lets someone place the same point without seeing your original map.",
+      "board": [
+        "Name + complete ordered pair"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent coordinate check",
+      "text": "A student labels a point four, zero but draws it on the vertical axis above the origin. Decide what went wrong. Which direction does the first number describe, and what does the zero require? Explain the correction rather than merely replacing the dot.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "E"
+        ],
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Use the meaning of zero",
+      "text": "The point four, zero belongs four units right along the horizontal axis. Its second coordinate requires no upward movement. The mistake was exchanging the jobs of the two coordinates. Always check both the order and the scale, especially when a point lies on an axis.",
+      "board": [
+        "(4, 0): four right, zero up"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            0
+          ]
+        ],
+        "labels": [
+          "E"
+        ]
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Locate and describe points on a first-quadrant grid. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can find the origin and axes.",
+        "I can read horizontal first.",
+        "I can plot points at intersections."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "A"
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP02"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}

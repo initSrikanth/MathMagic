@@ -1,0 +1,152 @@
+{
+  "result": "passed",
+  "sha256": "9e2d8be07c52d7d824b3bcf997490dd6c9da0f883d6316160e1244bdd34bf36e",
+  "bytes": 6763147,
+  "duration": 356.1004166666667,
+  "audio_rms": 0.13149280846118927,
+  "clipping_fraction": 0.0,
+  "audio_correlation": 0.9999814641470878,
+  "full_decode": true,
+  "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+  "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+  "perceptual_voice_review": "UNVERIFIED",
+  "decoded_frames": 10683,
+  "blank_frame_candidates": 0,
+  "minimum_frame_std": 5.075557280549638,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "fps": 30,
+    "audio": "aac"
+  },
+  "faststart": true,
+  "caption_cues": 84,
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "source_brand_free": true,
+  "declared_prediction_pauses": [
+    [
+      142.2735416666667,
+      147.2735416666667,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      228.56425000000004,
+      233.56425000000004,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      312.63725000000005,
+      317.63725000000005,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "extended_static_intervals": [
+    [
+      0.0,
+      8.3
+    ],
+    [
+      8.333,
+      16.633
+    ],
+    [
+      16.867,
+      25.167
+    ],
+    [
+      25.2,
+      35.7
+    ],
+    [
+      35.733,
+      44.033
+    ],
+    [
+      50.433,
+      58.733
+    ],
+    [
+      58.767,
+      72.733
+    ],
+    [
+      81.1,
+      91.433
+    ],
+    [
+      99.8,
+      108.0
+    ],
+    [
+      116.367,
+      125.667
+    ],
+    [
+      125.7,
+      134.0
+    ],
+    [
+      134.033,
+      142.233
+    ],
+    [
+      162.5,
+      170.633
+    ],
+    [
+      170.667,
+      178.833
+    ],
+    [
+      178.867,
+      187.167
+    ],
+    [
+      187.2,
+      195.4
+    ],
+    [
+      203.767,
+      212.667
+    ],
+    [
+      212.7,
+      221.0
+    ],
+    [
+      256.3,
+      264.6
+    ],
+    [
+      273.1,
+      282.1
+    ],
+    [
+      296.367,
+      304.667
+    ],
+    [
+      325.967,
+      334.633
+    ],
+    [
+      334.667,
+      342.967
+    ],
+    [
+      343.0,
+      356.033
+    ]
+  ],
+  "static_threshold_seconds": 8,
+  "all_flagged_intervals_reviewed": false,
+  "full_audio_listened": false,
+  "full_video_viewed": false,
+  "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+  "published": false,
+  "paid_calls": 0
+}
