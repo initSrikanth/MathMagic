@@ -1,0 +1,615 @@
+{
+  "id": "space-lesson2",
+  "number": 2,
+  "topic": "space",
+  "section": "lesson-2",
+  "title": "Explore Nets",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "A parcel in a flat envelope",
+      "text": "A toy maker wants to post a small box without filling an envelope with air. Could the box travel as a flat shape and become a solid later? Today we will investigate that surprising connection. A good net must do more than contain the correct number of faces.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to connect a flat net to the faces of a solid. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to connect a flat net to the faces of a solid. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Connect a flat net to the faces of a solid."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can match faces and edges. I can predict and test a fold. I can explain a gap or overlap. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can match faces and edges.",
+        "I can predict and test a fold.",
+        "I can explain a gap or overlap."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Start with a real carton",
+      "text": "Find a clean empty carton with an adult, or imagine opening one carefully. Separate its glued tab and unfold the faces without tearing them apart. Put the flat card on the table. The folds show which faces were neighbours before the carton was opened.",
+      "board": [
+        "Faces stay connected at fold edges."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "What makes a net?",
+      "text": "A net is a connected flat arrangement of faces that can fold into a solid. The faces must meet along matching whole edges. When folded, they must enclose the object without gaps or overlapping faces. Glue tabs help construction, but tabs are not additional faces.",
+      "board": [
+        "Connected faces • matching edges • no gaps"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Meet our six squares",
+      "text": "Our first net has a column of four squares, with an extra square on either side of the second square. All six squares have equal side lengths. Follow each shared edge with your finger. Those joins act like hinges as the card changes from flat to solid.",
+      "board": [
+        "Six equal square faces"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Will this cross close?",
+      "text": "Predict what will happen when the cross folds. Keep the central square still, bring its four neighbours up, and think about the last square. Will that last square cover the opening, or land on a face already occupied? Explain a prediction before we test it.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: fold the cube",
+      "text": "The central square becomes the base. The squares touching its four sides become four walls. The remaining square continues over the top to close the opening. There are six separate face positions. Each position is filled once, so this cross is a valid cube net.",
+      "board": [
+        "Base + 4 walls + lid = 6 faces"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "fold": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Track opposite faces",
+      "text": "Opposite faces are across the solid from each other. They do not share an edge on the cube. Flat neighbours become neighbours after folding, but two faces far apart on the paper may also meet. Use the folding model instead of deciding from distance on the page alone.",
+      "board": [
+        "Follow each face through the fold."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "fold": true
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Six squares are not enough",
+      "text": "A classmate arranges six squares in a two by three rectangle and calls it a cube net. The face count is correct, so that is a sensible first check. But folding creates conflicting face positions. Some faces would overlap, leaving another position empty. Counting cannot replace testing.",
+      "board": [
+        "A correct count does not prove a net."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "invalid": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Test systematically",
+      "text": "Choose a starting face and label it base. Move from one face to the next across a shared edge. Record where each face would point after folding. If two different faces claim the same position, stop: the arrangement cannot form the intended cube without overlap.",
+      "board": [
+        "One face in each position"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "fold": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "A different solid",
+      "text": "A triangular prism needs two matching triangular ends and three rectangular side faces. Use two card triangles and three strips to imagine the construction. Each rectangle must match one side of each triangle, while the other rectangle dimension gives the length of the prism.",
+      "board": [
+        "2 triangles + 3 rectangles"
+      ],
+      "model": {
+        "kind": "prismnet"
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the prism faces",
+      "text": "Look at the triangular prism net. Imagine the rectangles wrapping around the sides, while the two triangles close the ends. Which faces must have matching shapes? Which edges need to meet? Keep those questions separate from simply asking how many pieces are on the table.",
+      "board": [],
+      "model": {
+        "kind": "prismnet"
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: close a prism",
+      "text": "The two triangles match exactly and face opposite directions at the ends. The three rectangles form a band around them. Each triangle side meets a rectangle of the same width. Five faces now enclose the prism: two triangles and three rectangles, with no open end.",
+      "board": [
+        "Matching triangles close both ends."
+      ],
+      "model": {
+        "kind": "prismnet",
+        "fold": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "A pyramid net",
+      "text": "A square based pyramid has one square base and four triangular faces. A triangle can attach to each side of the square. When the triangles fold inward, their tips meet at the apex. The triangle dimensions must fit that pyramid; arbitrary triangles will not necessarily meet correctly.",
+      "board": [
+        "1 square + 4 matching triangles"
+      ],
+      "model": {
+        "kind": "pyramidnet"
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare prism and pyramid",
+      "text": "Both our triangular prism and square based pyramid have five faces, but their nets have different face shapes and connections. The prism has two triangular ends and three rectangles. The pyramid has one square and four triangles. Describe those differences rather than relying on the shared total.",
+      "board": [
+        "Same face count; different face shapes."
+      ],
+      "model": {
+        "kind": "pyramidnet"
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent net detective",
+      "text": "Imagine a cube net made from only five equal squares. Can folding alone create the missing face? Decide whether the problem is a gap, an overlap, or both. Tell a partner what evidence you would seek before calling any unfamiliar arrangement a valid net.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the missing face",
+      "text": "Five squares cannot supply all six cube faces. One face position must remain uncovered. Folding changes the directions of the faces; it does not create another square. A valid construction needs the correct faces, correct dimensions, and a connection pattern that closes without overlap.",
+      "board": [
+        "Folding cannot create a missing face."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Connect a flat net to the faces of a solid. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can match faces and edges.",
+        "I can predict and test a fold.",
+        "I can explain a gap or overlap."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP01"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}

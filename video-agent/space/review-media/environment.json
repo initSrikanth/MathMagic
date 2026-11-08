@@ -1,0 +1,32 @@
+{
+  "system_python_pkgs": {
+    "numpy": "2.3.5",
+    "Pillow": "13.0.0",
+    "scipy": "1.17.0"
+  },
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "python": "Python 3.12.14",
+  "baseline_source_commit": "7ac9fe747171c7e92d13582c5e235b73bef0bc64",
+  "production_python_pkgs": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "sherpa-onnx": "1.12.26",
+    "scipy": "1.18.1",
+    "soundfile": "0.14.0"
+  },
+  "model_assets": {
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/model.onnx": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/tokens.txt": "6ebb6bb288f20f3ae8d004d3c2ca27697da27c037d75e81a60e2a6a663f95425",
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/lexicon-us-en.txt": "7daaab53a181be9885b853a8582bf1838186317e5dadacbcef9c426d6fa0da14",
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/lexicon-gb-en.txt": "c4cbb37316f62210dff52718a7afcaae24f50c032cc75ab47ae67b831d1049e7",
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/lexicon-zh.txt": "902bc2d20ac7c449c5ecbbbb23c89d12119c03ed5b8ed27f114f0260c9e35229",
+    "/workspace/voice-calibration/kokoro-multi-lang-v1_0/voices.bin": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/joiner-epoch-99-avg-1.int8.onnx": "6b183b6ec656e4d3ca6b86d0aeca992dac14df80aae6b416d7c068d0ff2bd4d7",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/encoder-epoch-99-avg-1.onnx": "6d9e1e0907a950567705304e1c3f9d8e8fb8a16ff6017e4a7ba53493eaddd4aa",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/decoder-epoch-99-avg-1.int8.onnx": "f462ab9189ba6f9b2658774e6bf3d651913de54a3833655dc5e093e2f5e4c2b6",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/tokens.txt": "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/decoder-epoch-99-avg-1.onnx": "1621a13eaa7f6fc52380f025ee2a6a05b56a87754ab5a0f4f580a3928f3467a2",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/joiner-epoch-99-avg-1.onnx": "8d77c92e2ca649e0a5d2b7d27276c65421b90c523d9318b73523276e7f6b3e0f",
+    "/workspace/voice-calibration/sherpa-onnx-zipformer-small-en-2023-06-26/encoder-epoch-99-avg-1.int8.onnx": "3a6ac78a31cc2c60ca8c1e2e2f43c878fbbcaf051ada4900e0a42ef8ba53d375"
+  }
+}

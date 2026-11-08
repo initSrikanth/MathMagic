@@ -1,0 +1,40 @@
+i  emulators: Starting emulators: firestore
+i  emulators: Detected demo project ID "demo-mathmagic-year5", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+i  firestore: downloading cloud-firestore-emulator-v1.19.8.jar...
+
+i  firestore: Firestore Emulator logging to firestore-debug.log
+✔  firestore: Firestore Emulator UI websocket is running on 9150.
+i  Running script: node tests/measurement-emulator.test.cjs && node tests/space-emulator.test.cjs
+[2026-11-08T22:51:08.654Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c24 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'update' @ L7, false for 'update' @ L28
+[2026-11-08T22:51:08.733Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c26 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L10, false for 'create' @ L28, false for 'update' @ L10, false for 'update' @ L28
+[2026-11-08T22:51:08.813Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c28 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L10, false for 'create' @ L28, false for 'update' @ L10, false for 'update' @ L28
+[2026-11-08T22:51:08.871Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c2a error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L10, false for 'create' @ L28, false for 'update' @ L10, false for 'update' @ L28
+[2026-11-08T22:51:08.923Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c2b error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L10, false for 'create' @ L28, false for 'update' @ L10, false for 'update' @ L28
+[2026-11-08T22:51:08.951Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c2c error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:51:08.971Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c2d error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:51:09.015Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x404d1c2e error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+PASS: Firestore emulator approved-user persistence, concurrent transactions, fresh-context restore, owner isolation, denied/anonymous access, approval escalation rejection and private-session denial. Test policy only; deployed rules/live Firebase unverified.
+[2026-11-08T22:51:11.162Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x426bab69 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:51:11.227Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x426bab6b error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:51:11.269Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x426bab6d error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:51:11.281Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x426bab67 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L7, false for 'create' @ L28, false for 'update' @ L7, false for 'update' @ L28
+[2026-11-08T22:51:11.314Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x426bab6f error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+PASS: Space Firestore emulator owner/approval isolation, escalation/private-session rejection, concurrent idempotent progress and fresh-context restoration. Production access/rules remain unverified.
+✔  Script exited successfully (code 0)
+i  emulators: Shutting down emulators.
+i  firestore: Stopping Firestore Emulator
+i  hub: Stopping emulator hub
+i  logging: Stopping Logging Emulator

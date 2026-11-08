@@ -1,0 +1,47 @@
+i  emulators: Starting emulators: firestore
+i  emulators: Detected demo project ID "demo-mathmagic-year5", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+i  firestore: Firestore Emulator logging to firestore-debug.log
+✔  firestore: Firestore Emulator UI websocket is running on 9150.
+i  Running script: node tests/space-emulator-boundaries.test.cjs
+[2026-11-08T22:59:49.928Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a491 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.233Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a493 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L20:20 for 'create' @ L20, false for 'create' @ L28, evaluation error at L20:20 for 'update' @ L20, false for 'update' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.336Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a495 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L7, false for 'create' @ L28, false for 'update' @ L7, false for 'update' @ L28
+[2026-11-08T22:59:50.371Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a496 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.428Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a497 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.469Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a498 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.539Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a499 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.573Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49a error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.643Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49b error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.712Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49c error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.759Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49d error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.827Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49e error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.865Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a49f error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L20, false for 'create' @ L28, false for 'update' @ L20, false for 'update' @ L28
+[2026-11-08T22:59:50.929Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a4a0 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:59:51.028Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a4a2 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:59:51.066Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a4a3 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:59:51.154Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a4a4 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L28, false for 'update' @ L28
+[2026-11-08T22:59:52.613Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Write' stream 0x69a1a4a5 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L20:20 for 'create' @ L20, false for 'create' @ L28, evaluation error at L20:20 for 'update' @ L20, false for 'update' @ L28, false for 'update' @ L20, false for 'update' @ L28
+PASS: Space emulator own-path unapproved/signed-out denial, cross-user approval isolation, 9 invalid payloads, private-session read/write isolation, >100 retained IDs, concurrent lost-ack idempotence, sticky proficiency, fresh-context restoration, approval revocation and intentional reset. Fixture policy only.
+✔  Script exited successfully (code 0)
+i  emulators: Shutting down emulators.
+i  firestore: Stopping Firestore Emulator
+i  hub: Stopping emulator hub
+i  logging: Stopping Logging Emulator

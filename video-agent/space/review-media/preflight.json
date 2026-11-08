@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "lessons": [
+    {
+      "lesson": 2,
+      "words": 958,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "5e461b8fddf396f761af09ae7b106248718b0e3454f2db34d89baff3bee233cd",
+      "storyboard": "/workspace/output/space-review/lesson2-storyboard.jpg"
+    },
+    {
+      "lesson": 3,
+      "words": 974,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "8dde243d655ff1a91d93dc8b47abb4738088eb866c6ae041965e461d866add9d",
+      "storyboard": "/workspace/output/space-review/lesson3-storyboard.jpg"
+    },
+    {
+      "lesson": 4,
+      "words": 951,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "f29b01f330241a867787e126c098d994169a68ce89b6f777b61f02d80fc1e62f",
+      "storyboard": "/workspace/output/space-review/lesson4-storyboard.jpg"
+    },
+    {
+      "lesson": 5,
+      "words": 952,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "9da2059022cce6e367b8f1f8c12f91f69179adadc687aa42cf2a90fd85c9ca27",
+      "storyboard": "/workspace/output/space-review/lesson5-storyboard.jpg"
+    },
+    {
+      "lesson": 6,
+      "words": 955,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "9089249567d4c2d0c23cf9e9ee33c446e49b1398c62443ff6058b198898de018",
+      "storyboard": "/workspace/output/space-review/lesson6-storyboard.jpg"
+    },
+    {
+      "lesson": 7,
+      "words": 975,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "50851c4792dec83d9f53be1a7674ff4f574e5ce0db7f0d6d55eb702ba1bb1873",
+      "storyboard": "/workspace/output/space-review/lesson7-storyboard.jpg"
+    },
+    {
+      "lesson": 8,
+      "words": 961,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "e44266d50ceebe4156171788dfa80409a5c7e298edee71772764f96e6ae86337",
+      "storyboard": "/workspace/output/space-review/lesson8-storyboard.jpg"
+    },
+    {
+      "lesson": 9,
+      "words": 975,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "6a0b9d4272ba4f35507912d863168d1ed2699d36731e1e93421117e2d373c82c",
+      "storyboard": "/workspace/output/space-review/lesson9-storyboard.jpg"
+    },
+    {
+      "lesson": 10,
+      "words": 977,
+      "scenes": 20,
+      "prediction_scenes": 3,
+      "script_sha256": "3baa37ff1d03bb519fd6256f1066b706d2b887a286bf74fc916f6f054d9da19c",
+      "storyboard": "/workspace/output/space-review/lesson10-storyboard.jpg"
+    }
+  ],
+  "checks": [
+    "Source branding/curriculum metadata exclusion",
+    "20 scenes and 3 success criteria per lesson",
+    "Two guided examples plus independent check",
+    "Exact route/translation/reflection/order arithmetic",
+    "Exact rotation point oracle",
+    "Cube hinge length preservation at five fold stages; 6 normals, 8 vertices, 12 edges",
+    "Independent square and non-square rectangle symmetry oracles",
+    "Prism/pyramid face inventories and net dimensions",
+    "360 generated start/end model frames"
+  ],
+  "limitations": [
+    "Sample frames do not certify complete temporal viewing or audio.",
+    "Word timing uses offline ASR; not certified forced alignment."
+  ],
+  "sources": {
+    "batch_content.py": "68c065e9ed3e71ccbb855364af706532362d184fb065aa931607932da9ef5135",
+    "batch_graphics.py": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+  }
+}
