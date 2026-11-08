@@ -1,6 +1,6 @@
 {
   "expected_remaining": 9,
-  "rendered_this_batch": 3,
+  "rendered_this_batch": 4,
   "perceptually_verified": 0,
   "published": 0,
   "paid_calls": 0,
@@ -325,10 +325,170 @@
       "bytes": 6763147
     },
     "space-lesson5": {
-      "status": "RENDERING",
+      "status": "TECHNICALLY_VERIFIED",
       "script_sha256": "ae575a990e9be4009002f90dfcac3cf859af644fd3fb4b07c85a40c032f7a247",
       "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
-      "duration": 364.80854166666666
+      "duration": 364.80854166666666,
+      "qa": {
+        "result": "passed",
+        "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+        "bytes": 7082525,
+        "duration": 364.80854166666666,
+        "audio_rms": 0.13216783106327057,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999824002165976,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10944,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 5.229786546094241,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 84,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            141.1945,
+            146.1945,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            232.29883333333333,
+            237.29883333333333,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            323.1245833333333,
+            328.1245833333333,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            16.2,
+            24.5
+          ],
+          [
+            24.533,
+            35.467
+          ],
+          [
+            35.5,
+            43.8
+          ],
+          [
+            50.567,
+            58.867
+          ],
+          [
+            58.9,
+            72.933
+          ],
+          [
+            96.867,
+            105.167
+          ],
+          [
+            113.767,
+            124.6
+          ],
+          [
+            124.633,
+            132.933
+          ],
+          [
+            132.967,
+            141.167
+          ],
+          [
+            154.533,
+            163.933
+          ],
+          [
+            179.167,
+            187.467
+          ],
+          [
+            187.5,
+            196.3
+          ],
+          [
+            204.667,
+            214.033
+          ],
+          [
+            214.067,
+            222.367
+          ],
+          [
+            222.4,
+            232.267
+          ],
+          [
+            253.233,
+            261.333
+          ],
+          [
+            261.367,
+            271.367
+          ],
+          [
+            279.733,
+            289.1
+          ],
+          [
+            297.467,
+            306.133
+          ],
+          [
+            306.167,
+            314.467
+          ],
+          [
+            314.5,
+            323.133
+          ],
+          [
+            342.967,
+            351.267
+          ],
+          [
+            351.3,
+            364.733
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+      "bytes": 7082525
+    },
+    "space-lesson6": {
+      "status": "RENDERING",
+      "script_sha256": "574286b72d4c5d82ca2b2d0f6ffbde27179bbf92f4c5f343b894cfa50af268a1",
+      "output": "/workspace/output/space-review/Space_Lesson06_Translations_Review_1080p.mp4",
+      "duration": 359.6859583333334
     }
   },
   "pre_render_corrections": [

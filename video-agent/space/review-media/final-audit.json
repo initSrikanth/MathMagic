@@ -1,5 +1,5 @@
 {
-  "rendered": 3,
+  "rendered": 4,
   "all_nine_rendered": false,
   "technical_results": [
     {
@@ -317,6 +317,177 @@
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_transcript.txt": "1463d0917de43c8c1bad120cbe9b8a675820bb887faf3eacab3dcbe44cb3a52e",
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_timing.json": "fde103e71add59839a50c365a857b364de3bcb87cdb50a6345e73fea3bb9160c",
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_poster.jpg": "3cc8951208ae9ff99d671c995b908287f4de3aec86258320f03a76f8b86a8fef"
+      }
+    },
+    {
+      "lesson": "space-lesson5",
+      "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+      "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+      "duration": 364.80854166666666,
+      "technical_status": "PASS",
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10944,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            16.2,
+            24.5
+          ],
+          [
+            24.533,
+            35.467
+          ],
+          [
+            35.5,
+            43.8
+          ],
+          [
+            50.567,
+            58.867
+          ],
+          [
+            58.9,
+            72.933
+          ],
+          [
+            96.867,
+            105.167
+          ],
+          [
+            113.767,
+            124.6
+          ],
+          [
+            124.633,
+            132.933
+          ],
+          [
+            132.967,
+            141.167
+          ],
+          [
+            154.533,
+            163.933
+          ],
+          [
+            179.167,
+            187.467
+          ],
+          [
+            187.5,
+            196.3
+          ],
+          [
+            204.667,
+            214.033
+          ],
+          [
+            214.067,
+            222.367
+          ],
+          [
+            222.4,
+            232.267
+          ],
+          [
+            253.233,
+            261.333
+          ],
+          [
+            261.367,
+            271.367
+          ],
+          [
+            279.733,
+            289.1
+          ],
+          [
+            297.467,
+            306.133
+          ],
+          [
+            306.167,
+            314.467
+          ],
+          [
+            314.5,
+            323.133
+          ],
+          [
+            342.967,
+            351.267
+          ],
+          [
+            351.3,
+            364.733
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 3.0,
+            "end": 3.3999998569488525,
+            "text": "Knowing the final location is useful, but the courier also needs a route that avoids confusion at every turn."
+          },
+          {
+            "start": 16.205208333333335,
+            "end": 16.605208309491477,
+            "text": "Today we are learning to follow and describe routes using coordinates and direction."
+          },
+          {
+            "start": 163.963875,
+            "end": 164.16387498807907,
+            "text": "From the kiosk at six, five, travel two units left."
+          },
+          {
+            "start": 240.77883335240682,
+            "end": 241.13883324750265,
+            "text": "Move two units left from four, five to two, five."
+          },
+          {
+            "start": 255.65883319981893,
+            "end": 256.4988333524068,
+            "text": "A route is a sequence of movements leading there."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 141.2,
+            "end": 146.2,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 232.3,
+            "end": 237.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 323.1,
+            "end": 328.2,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_recognition.json": "0dac517800b6fbffec4b49a18b865da00291acfecdd9fb9e295761185a8b5fe9",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes.jpg": "ae6ea5e6579d51235bb661c3e4431d9f7241ccfde624e1405b3bd5f508254aa4",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_script.json": "1b6af5e1d5fe51c9971da84263ef26e37700a01fd1aef0558ca9f774168187c3",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_transcript.txt": "fd3e4b33f57b3fbd4cfa68dab1453959a8a4ae932882fab35a0a2bed9147328b",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_qa.json": "4a32a916db5b1ead7c11d6bdceee8f50324fb4cdd1451e70028203ea0cbe3c11",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_poster.jpg": "4f774436acf4f93c0a692728fdedc200bdb5d05d2df05d9d15a53762190bdbb4",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_narration.flac": "4458c9c585929071ad2e30eb161f19aee951fbecb22d310df5e96773f6308e42",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_timing.json": "b8f7d13d16ef897875d63f4f144aadabf12917c294c85b305a4c152c216e1b8d"
       }
     }
   ],

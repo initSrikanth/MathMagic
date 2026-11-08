@@ -1,0 +1,5217 @@
+{
+  "input_hash": "19fb79642a77e8c66a3f7cbe74a70cc3c9a852de1c0887ce9461e3b2d2711b09",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "Deliveries around a park",
+      "text": "A courier must visit a kiosk and then a garden. Knowing the final location is useful, but the courier also needs a route that avoids confusion at every turn. Today we will track positions step by step and distinguish the destination from the distance actually travelled.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 0,
+      "start": 0,
+      "end": 16.205208333333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "courier",
+          "start": 0.23999999463558197
+        },
+        {
+          "word": "must",
+          "start": 0.7199999690055847
+        },
+        {
+          "word": "visit",
+          "start": 0.9599999785423279
+        },
+        {
+          "word": "a",
+          "start": 1.3199999332427979
+        },
+        {
+          "word": "kiosque",
+          "start": 1.4800000190734863
+        },
+        {
+          "word": "and",
+          "start": 2.0
+        },
+        {
+          "word": "then",
+          "start": 2.1599998474121094
+        },
+        {
+          "word": "a",
+          "start": 2.319999933242798
+        },
+        {
+          "word": "garden",
+          "start": 2.4800000190734863
+        },
+        {
+          "word": "knowing",
+          "start": 3.0
+        },
+        {
+          "word": "the",
+          "start": 3.3999998569488525
+        },
+        {
+          "word": "final",
+          "start": 3.5999999046325684
+        },
+        {
+          "word": "location",
+          "start": 4.039999961853027
+        },
+        {
+          "word": "is",
+          "start": 4.639999866485596
+        },
+        {
+          "word": "useful",
+          "start": 4.880000114440918
+        },
+        {
+          "word": "but",
+          "start": 5.319999694824219
+        },
+        {
+          "word": "the",
+          "start": 5.519999980926514
+        },
+        {
+          "word": "courier",
+          "start": 5.679999828338623
+        },
+        {
+          "word": "also",
+          "start": 6.239999771118164
+        },
+        {
+          "word": "needs",
+          "start": 6.599999904632568
+        },
+        {
+          "word": "a",
+          "start": 6.920000076293945
+        },
+        {
+          "word": "root",
+          "start": 7.079999923706055
+        },
+        {
+          "word": "that",
+          "start": 7.440000057220459
+        },
+        {
+          "word": "avoids",
+          "start": 7.599999904632568
+        },
+        {
+          "word": "confusion",
+          "start": 8.15999984741211
+        },
+        {
+          "word": "at",
+          "start": 8.880000114440918
+        },
+        {
+          "word": "every",
+          "start": 9.079999923706055
+        },
+        {
+          "word": "turn",
+          "start": 9.4399995803833
+        },
+        {
+          "word": "today",
+          "start": 9.84000015258789
+        },
+        {
+          "word": "we",
+          "start": 10.319999694824219
+        },
+        {
+          "word": "will",
+          "start": 10.559999465942383
+        },
+        {
+          "word": "track",
+          "start": 10.719999313354492
+        },
+        {
+          "word": "positions",
+          "start": 11.079999923706055
+        },
+        {
+          "word": "step",
+          "start": 11.679999351501465
+        },
+        {
+          "word": "by",
+          "start": 12.0
+        },
+        {
+          "word": "step",
+          "start": 12.15999984741211
+        },
+        {
+          "word": "and",
+          "start": 12.559999465942383
+        },
+        {
+          "word": "distinguish",
+          "start": 12.719999313354492
+        },
+        {
+          "word": "the",
+          "start": 13.319999694824219
+        },
+        {
+          "word": "destination",
+          "start": 13.479999542236328
+        },
+        {
+          "word": "from",
+          "start": 14.199999809265137
+        },
+        {
+          "word": "the",
+          "start": 14.359999656677246
+        },
+        {
+          "word": "distance",
+          "start": 14.519999504089355
+        },
+        {
+          "word": "actually",
+          "start": 15.119999885559082
+        },
+        {
+          "word": "travelled",
+          "start": 15.639999389648438
+        }
+      ],
+      "asr_text": " A COURIER MUST VISIT A KIOSQUE AND THEN A GARDEN KNOWING THE FINAL LOCATION IS USEFUL BUT THE COURIER ALSO NEEDS A ROOT THAT AVOIDS CONFUSION AT EVERY TURN TODAY WE WILL TRACK POSITIONS STEP BY STEP AND DISTINGUISH THE DESTINATION FROM THE DISTANCE ACTUALLY TRAVELLED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 15.639999389648438,
+      "reveal_at": 15.489999389648437,
+      "speech_end": 16.205208333333335
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to follow and describe routes using coordinates and direction. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 1,
+      "start": 16.205208333333335,
+      "end": 35.500375000000005,
+      "words": [
+        {
+          "word": "to",
+          "start": 16.205208333333335
+        },
+        {
+          "word": "day",
+          "start": 16.365208329757056
+        },
+        {
+          "word": "we",
+          "start": 16.605208309491477
+        },
+        {
+          "word": "are",
+          "start": 16.76520833571752
+        },
+        {
+          "word": "learning",
+          "start": 16.965208323796592
+        },
+        {
+          "word": "to",
+          "start": 17.325208338101707
+        },
+        {
+          "word": "follow",
+          "start": 17.525208266576133
+        },
+        {
+          "word": "and",
+          "start": 17.885208280881248
+        },
+        {
+          "word": "describe",
+          "start": 18.045208247502647
+        },
+        {
+          "word": "roots",
+          "start": 18.605208190282188
+        },
+        {
+          "word": "using",
+          "start": 19.085208209355674
+        },
+        {
+          "word": "co",
+          "start": 19.485208304723105
+        },
+        {
+          "word": "ordinates",
+          "start": 19.68520835240682
+        },
+        {
+          "word": "and",
+          "start": 20.245208295186362
+        },
+        {
+          "word": "direction",
+          "start": 20.4452081044515
+        },
+        {
+          "word": "we",
+          "start": 21.165208371480308
+        },
+        {
+          "word": "will",
+          "start": 21.365208180745444
+        },
+        {
+          "word": "move",
+          "start": 21.56520799001058
+        },
+        {
+          "word": "from",
+          "start": 21.84520819981893
+        },
+        {
+          "word": "objects",
+          "start": 22.045208009084067
+        },
+        {
+          "word": "or",
+          "start": 22.645208390553794
+        },
+        {
+          "word": "hands",
+          "start": 22.84520819981893
+        },
+        {
+          "word": "on",
+          "start": 23.205208333333335
+        },
+        {
+          "word": "actions",
+          "start": 23.40520814259847
+        },
+        {
+          "word": "to",
+          "start": 23.885208161671958
+        },
+        {
+          "word": "drawings",
+          "start": 24.045208009084067
+        },
+        {
+          "word": "then",
+          "start": 24.60520795186361
+        },
+        {
+          "word": "connect",
+          "start": 24.845207722981772
+        },
+        {
+          "word": "those",
+          "start": 25.325208218892417
+        },
+        {
+          "word": "drawings",
+          "start": 25.56520799001058
+        },
+        {
+          "word": "with",
+          "start": 26.205208333333335
+        },
+        {
+          "word": "precise",
+          "start": 26.4452081044515
+        },
+        {
+          "word": "mathematical",
+          "start": 27.0052085240682
+        },
+        {
+          "word": "descriptions",
+          "start": 27.845207722981772
+        },
+        {
+          "word": "keep",
+          "start": 28.72520783742269
+        },
+        {
+          "word": "paper",
+          "start": 29.005207570393882
+        },
+        {
+          "word": "near",
+          "start": 29.40520814259847
+        },
+        {
+          "word": "by",
+          "start": 29.72520783742269
+        },
+        {
+          "word": "if",
+          "start": 29.925207646687827
+        },
+        {
+          "word": "you",
+          "start": 30.085208447774253
+        },
+        {
+          "word": "would",
+          "start": 30.245208295186362
+        },
+        {
+          "word": "like",
+          "start": 30.40520814259847
+        },
+        {
+          "word": "to",
+          "start": 30.60520795186361
+        },
+        {
+          "word": "test",
+          "start": 30.765207799275718
+        },
+        {
+          "word": "an",
+          "start": 31.04520753224691
+        },
+        {
+          "word": "idea",
+          "start": 31.245208295186362
+        },
+        {
+          "word": "for",
+          "start": 31.72520783742269
+        },
+        {
+          "word": "yourself",
+          "start": 31.925207646687827
+        },
+        {
+          "word": "you",
+          "start": 32.605207951863605
+        },
+        {
+          "word": "can",
+          "start": 32.80520871480306
+        },
+        {
+          "word": "pause",
+          "start": 33.04520848592122
+        },
+        {
+          "word": "the",
+          "start": 33.36520818074544
+        },
+        {
+          "word": "player",
+          "start": 33.56520703633626
+        },
+        {
+          "word": "whenever",
+          "start": 33.96520856221517
+        },
+        {
+          "word": "you",
+          "start": 34.36520818074544
+        },
+        {
+          "word": "need",
+          "start": 34.52520802815755
+        },
+        {
+          "word": "more",
+          "start": 34.80520871480306
+        },
+        {
+          "word": "time",
+          "start": 35.08520749409993
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO FOLLOW AND DESCRIBE ROOTS USING CO ORDINATES AND DIRECTION WE WILL MOVE FROM OBJECTS OR HANDS ON ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 16.205208333333335,
+      "motion_end": 35.08520749409993,
+      "reveal_at": 34.935207494099934,
+      "speech_end": 35.500375000000005
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to follow and describe routes using coordinates and direction. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Follow and describe routes using coordinates and direction."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 2,
+      "start": 35.500375000000005,
+      "end": 50.57079166666667,
+      "words": [
+        {
+          "word": "our",
+          "start": 35.500375000000005
+        },
+        {
+          "word": "learning",
+          "start": 35.700374988079076
+        },
+        {
+          "word": "goal",
+          "start": 36.10037496423722
+        },
+        {
+          "word": "is",
+          "start": 36.380374995231634
+        },
+        {
+          "word": "to",
+          "start": 36.54037496185303
+        },
+        {
+          "word": "follow",
+          "start": 36.74037500953675
+        },
+        {
+          "word": "and",
+          "start": 37.100374904632574
+        },
+        {
+          "word": "describe",
+          "start": 37.30037495231629
+        },
+        {
+          "word": "roots",
+          "start": 37.90037485694886
+        },
+        {
+          "word": "using",
+          "start": 38.380374876022344
+        },
+        {
+          "word": "co",
+          "start": 38.74037500953675
+        },
+        {
+          "word": "ordinates",
+          "start": 38.940374818801885
+        },
+        {
+          "word": "and",
+          "start": 39.500375000000005
+        },
+        {
+          "word": "directions",
+          "start": 39.70037480926514
+        },
+        {
+          "word": "we",
+          "start": 40.38037511444092
+        },
+        {
+          "word": "want",
+          "start": 40.62037488555909
+        },
+        {
+          "word": "to",
+          "start": 40.820374694824224
+        },
+        {
+          "word": "explain",
+          "start": 40.940375057220464
+        },
+        {
+          "word": "why",
+          "start": 41.62037488555909
+        },
+        {
+          "word": "a",
+          "start": 41.940375057220464
+        },
+        {
+          "word": "result",
+          "start": 42.060374942779546
+        },
+        {
+          "word": "is",
+          "start": 42.54037496185303
+        },
+        {
+          "word": "correct",
+          "start": 42.74037477111817
+        },
+        {
+          "word": "as",
+          "start": 43.18037482833863
+        },
+        {
+          "word": "well",
+          "start": 43.34037467575074
+        },
+        {
+          "word": "as",
+          "start": 43.54037496185303
+        },
+        {
+          "word": "obtain",
+          "start": 43.7803747329712
+        },
+        {
+          "word": "the",
+          "start": 44.220375267028814
+        },
+        {
+          "word": "result",
+          "start": 44.38037511444092
+        },
+        {
+          "word": "as",
+          "start": 44.98037454223633
+        },
+        {
+          "word": "you",
+          "start": 45.18037435150147
+        },
+        {
+          "word": "watch",
+          "start": 45.38037511444092
+        },
+        {
+          "word": "look",
+          "start": 45.820374694824224
+        },
+        {
+          "word": "for",
+          "start": 46.100374427795415
+        },
+        {
+          "word": "the",
+          "start": 46.26037522888184
+        },
+        {
+          "word": "evidence",
+          "start": 46.46037503814698
+        },
+        {
+          "word": "that",
+          "start": 46.98037454223633
+        },
+        {
+          "word": "would",
+          "start": 47.14037438964844
+        },
+        {
+          "word": "help",
+          "start": 47.340375152587896
+        },
+        {
+          "word": "you",
+          "start": 47.660374847412115
+        },
+        {
+          "word": "convince",
+          "start": 47.820374694824224
+        },
+        {
+          "word": "a",
+          "start": 48.340375152587896
+        },
+        {
+          "word": "partner",
+          "start": 48.54037496185303
+        },
+        {
+          "word": "who",
+          "start": 48.98037454223633
+        },
+        {
+          "word": "has",
+          "start": 49.100374427795415
+        },
+        {
+          "word": "not",
+          "start": 49.30037423706055
+        },
+        {
+          "word": "seen",
+          "start": 49.54037496185303
+        },
+        {
+          "word": "your",
+          "start": 49.820374694824224
+        },
+        {
+          "word": "working",
+          "start": 50.06037446594239
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO FOLLOW AND DESCRIBE ROOTS USING CO ORDINATES AND DIRECTIONS WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Follow and describe routes using coordinates and direction.",
+          "at": 35.500375000000005,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 35.500375000000005,
+      "motion_end": 50.06037446594239,
+      "reveal_at": 49.91037446594239,
+      "speech_end": 50.57079166666667
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can track each route step. I can update the correct coordinate. I can check a destination and distance. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can track each route step.",
+        "I can update the correct coordinate.",
+        "I can check a destination and distance."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 3,
+      "start": 50.57079166666667,
+      "end": 72.9525,
+      "words": [
+        {
+          "word": "here",
+          "start": 50.57079166666667
+        },
+        {
+          "word": "are",
+          "start": 51.050791655937836
+        },
+        {
+          "word": "out",
+          "start": 51.33079165712993
+        },
+        {
+          "word": "three",
+          "start": 51.6107916285197
+        },
+        {
+          "word": "success",
+          "start": 51.89079159990947
+        },
+        {
+          "word": "criteria",
+          "start": 52.4507916618983
+        },
+        {
+          "word": "i",
+          "start": 53.250791495005295
+        },
+        {
+          "word": "can",
+          "start": 53.49079150454204
+        },
+        {
+          "word": "drag",
+          "start": 53.690791552225754
+        },
+        {
+          "word": "each",
+          "start": 54.090791647593186
+        },
+        {
+          "word": "root",
+          "start": 54.41079158083598
+        },
+        {
+          "word": "step",
+          "start": 54.73079151407878
+        },
+        {
+          "word": "i",
+          "start": 55.21079153315227
+        },
+        {
+          "word": "can",
+          "start": 55.45079178110759
+        },
+        {
+          "word": "obdate",
+          "start": 55.690791552225754
+        },
+        {
+          "word": "the",
+          "start": 56.17079157129924
+        },
+        {
+          "word": "correct",
+          "start": 56.37079138056438
+        },
+        {
+          "word": "co",
+          "start": 56.810791437784836
+        },
+        {
+          "word": "ordinate",
+          "start": 56.970791285196945
+        },
+        {
+          "word": "i",
+          "start": 57.6107916285197
+        },
+        {
+          "word": "can",
+          "start": 57.85079139963786
+        },
+        {
+          "word": "check",
+          "start": 58.05079168574016
+        },
+        {
+          "word": "a",
+          "start": 58.45079130427043
+        },
+        {
+          "word": "destination",
+          "start": 58.65079159037273
+        },
+        {
+          "word": "and",
+          "start": 59.49079174296062
+        },
+        {
+          "word": "distance",
+          "start": 59.73079151407878
+        },
+        {
+          "word": "we",
+          "start": 60.370791857401535
+        },
+        {
+          "word": "will",
+          "start": 60.57079166666667
+        },
+        {
+          "word": "check",
+          "start": 60.73079151407878
+        },
+        {
+          "word": "these",
+          "start": 61.050791208903
+        },
+        {
+          "word": "ideas",
+          "start": 61.370791857401535
+        },
+        {
+          "word": "in",
+          "start": 61.93079132334392
+        },
+        {
+          "word": "two",
+          "start": 62.17079109446208
+        },
+        {
+          "word": "worked",
+          "start": 62.45079178110759
+        },
+        {
+          "word": "examples",
+          "start": 62.73079151407878
+        },
+        {
+          "word": "investigate",
+          "start": 63.45079178110759
+        },
+        {
+          "word": "a",
+          "start": 64.25079101816814
+        },
+        {
+          "word": "common",
+          "start": 64.37079090372723
+        },
+        {
+          "word": "mistake",
+          "start": 64.73079151407879
+        },
+        {
+          "word": "and",
+          "start": 65.29079098002117
+        },
+        {
+          "word": "finish",
+          "start": 65.4507917811076
+        },
+        {
+          "word": "with",
+          "start": 65.85079139963787
+        },
+        {
+          "word": "an",
+          "start": 66.05079120890301
+        },
+        {
+          "word": "independent",
+          "start": 66.25079101816814
+        },
+        {
+          "word": "challenge",
+          "start": 67.05079120890301
+        },
+        {
+          "word": "a",
+          "start": 67.65079159037273
+        },
+        {
+          "word": "good",
+          "start": 67.85079044596355
+        },
+        {
+          "word": "explanation",
+          "start": 68.09079212443035
+        },
+        {
+          "word": "links",
+          "start": 68.93079036966961
+        },
+        {
+          "word": "what",
+          "start": 69.37079090372723
+        },
+        {
+          "word": "you",
+          "start": 69.61079067484539
+        },
+        {
+          "word": "see",
+          "start": 69.7707905222575
+        },
+        {
+          "word": "in",
+          "start": 69.97079128519695
+        },
+        {
+          "word": "the",
+          "start": 70.09079212443035
+        },
+        {
+          "word": "model",
+          "start": 70.25079197184246
+        },
+        {
+          "word": "with",
+          "start": 70.61079067484539
+        },
+        {
+          "word": "the",
+          "start": 70.73079151407879
+        },
+        {
+          "word": "mathematical",
+          "start": 70.8907913614909
+        },
+        {
+          "word": "rule",
+          "start": 71.69079059855144
+        },
+        {
+          "word": "being",
+          "start": 72.05079120890301
+        },
+        {
+          "word": "used",
+          "start": 72.45079082743328
+        }
+      ],
+      "asr_text": " HERE ARE OUT THREE SUCCESS CRITERIA I CAN DRAG EACH ROOT STEP I CAN OBDATE THE CORRECT CO ORDINATE I CAN CHECK A DESTINATION AND DISTANCE WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can track each route step.",
+          "at": 50.57079166666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can update the correct coordinate.",
+          "at": 50.57079166666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can check a destination and distance.",
+          "at": 50.57079166666667,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 50.57079166666667,
+      "motion_end": 72.45079082743328,
+      "reveal_at": 72.30079082743327,
+      "speech_end": 72.9525
+    },
+    {
+      "role": "explanation",
+      "chapter": "Make a route with a counter",
+      "text": "Put a counter at an intersection on squared paper. Move it along grid lines, one interval at a time. Say right, left, up or down as you move. Record a new ordered pair after each part of the journey, instead of waiting until the very end.",
+      "board": [
+        "Move → record → check"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 4,
+      "start": 72.9525,
+      "end": 88.54791666666667,
+      "words": [
+        {
+          "word": "put",
+          "start": 72.9525
+        },
+        {
+          "word": "a",
+          "start": 73.15249998807907
+        },
+        {
+          "word": "counter",
+          "start": 73.35249997615814
+        },
+        {
+          "word": "at",
+          "start": 73.99249996185303
+        },
+        {
+          "word": "an",
+          "start": 74.15249992847443
+        },
+        {
+          "word": "intersection",
+          "start": 74.35249997615814
+        },
+        {
+          "word": "on",
+          "start": 75.19250000953674
+        },
+        {
+          "word": "squared",
+          "start": 75.39250005722046
+        },
+        {
+          "word": "paper",
+          "start": 75.91250003814697
+        },
+        {
+          "word": "move",
+          "start": 76.47249998092651
+        },
+        {
+          "word": "it",
+          "start": 76.75249995231628
+        },
+        {
+          "word": "along",
+          "start": 76.9525
+        },
+        {
+          "word": "great",
+          "start": 77.43250001907349
+        },
+        {
+          "word": "lines",
+          "start": 77.67249979019165
+        },
+        {
+          "word": "one",
+          "start": 78.23249973297119
+        },
+        {
+          "word": "interval",
+          "start": 78.43250001907349
+        },
+        {
+          "word": "at",
+          "start": 78.9525
+        },
+        {
+          "word": "a",
+          "start": 79.11249984741211
+        },
+        {
+          "word": "time",
+          "start": 79.27249969482422
+        },
+        {
+          "word": "say",
+          "start": 79.71249975204468
+        },
+        {
+          "word": "right",
+          "start": 80.03249992370606
+        },
+        {
+          "word": "left",
+          "start": 80.55249990463257
+        },
+        {
+          "word": "up",
+          "start": 81.03249992370606
+        },
+        {
+          "word": "or",
+          "start": 81.23249973297119
+        },
+        {
+          "word": "down",
+          "start": 81.43249954223633
+        },
+        {
+          "word": "as",
+          "start": 81.71250022888184
+        },
+        {
+          "word": "you",
+          "start": 81.91250003814697
+        },
+        {
+          "word": "move",
+          "start": 82.11249984741211
+        },
+        {
+          "word": "record",
+          "start": 82.59249938964844
+        },
+        {
+          "word": "a",
+          "start": 83.19249977111816
+        },
+        {
+          "word": "new",
+          "start": 83.35249961853027
+        },
+        {
+          "word": "ordered",
+          "start": 83.63249935150147
+        },
+        {
+          "word": "pair",
+          "start": 84.11249984741211
+        },
+        {
+          "word": "after",
+          "start": 84.55249942779541
+        },
+        {
+          "word": "each",
+          "start": 84.87250007629395
+        },
+        {
+          "word": "part",
+          "start": 85.19249977111816
+        },
+        {
+          "word": "of",
+          "start": 85.47249950408936
+        },
+        {
+          "word": "the",
+          "start": 85.55249942779541
+        },
+        {
+          "word": "journey",
+          "start": 85.71249927520752
+        },
+        {
+          "word": "instead",
+          "start": 86.11249984741211
+        },
+        {
+          "word": "of",
+          "start": 86.47249950408936
+        },
+        {
+          "word": "waiting",
+          "start": 86.63249935150147
+        },
+        {
+          "word": "until",
+          "start": 87.15249980926514
+        },
+        {
+          "word": "the",
+          "start": 87.51249946594238
+        },
+        {
+          "word": "very",
+          "start": 87.75249923706055
+        },
+        {
+          "word": "end",
+          "start": 88.11249984741211
+        }
+      ],
+      "asr_text": " PUT A COUNTER AT AN INTERSECTION ON SQUARED PAPER MOVE IT ALONG GREAT LINES ONE INTERVAL AT A TIME SAY RIGHT LEFT UP OR DOWN AS YOU MOVE RECORD A NEW ORDERED PAIR AFTER EACH PART OF THE JOURNEY INSTEAD OF WAITING UNTIL THE VERY END",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Move → record → check",
+          "at": 76.47249998092651,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 72.9525,
+      "motion_end": 88.11249984741211,
+      "reveal_at": 87.9624998474121,
+      "speech_end": 88.54791666666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Horizontal movement",
+      "text": "A move right increases the first coordinate. A move left decreases it. The second coordinate stays unchanged because the counter has not moved up or down. Point to the row before and after moving. Both positions lie on the same horizontal line of the map.",
+      "board": [
+        "Right or left changes the first number."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn"
+        ],
+        "path": true
+      },
+      "index": 5,
+      "start": 88.54791666666667,
+      "end": 105.43058333333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 88.54791666666667
+        },
+        {
+          "word": "move",
+          "start": 88.78791666130225
+        },
+        {
+          "word": "right",
+          "start": 89.26791663567225
+        },
+        {
+          "word": "increases",
+          "start": 89.74791659514109
+        },
+        {
+          "word": "the",
+          "start": 90.4279166618983
+        },
+        {
+          "word": "first",
+          "start": 90.62791659037272
+        },
+        {
+          "word": "co",
+          "start": 90.94791652361552
+        },
+        {
+          "word": "ordinate",
+          "start": 91.1079166094462
+        },
+        {
+          "word": "a",
+          "start": 91.70791651407878
+        },
+        {
+          "word": "move",
+          "start": 91.94791652361552
+        },
+        {
+          "word": "left",
+          "start": 92.30791665712992
+        },
+        {
+          "word": "decreases",
+          "start": 92.66791655222575
+        },
+        {
+          "word": "it",
+          "start": 93.30791641871134
+        },
+        {
+          "word": "the",
+          "start": 93.5879166285197
+        },
+        {
+          "word": "second",
+          "start": 93.78791643778483
+        },
+        {
+          "word": "co",
+          "start": 94.26791645685832
+        },
+        {
+          "word": "ordinate",
+          "start": 94.42791630427043
+        },
+        {
+          "word": "state",
+          "start": 94.94791628519694
+        },
+        {
+          "word": "is",
+          "start": 95.18791653315226
+        },
+        {
+          "word": "unchanged",
+          "start": 95.34791638056437
+        },
+        {
+          "word": "because",
+          "start": 96.14791657129923
+        },
+        {
+          "word": "the",
+          "start": 96.46791626612345
+        },
+        {
+          "word": "counter",
+          "start": 96.66791655222575
+        },
+        {
+          "word": "has",
+          "start": 97.10791613260905
+        },
+        {
+          "word": "not",
+          "start": 97.34791685740153
+        },
+        {
+          "word": "moved",
+          "start": 97.54791666666667
+        },
+        {
+          "word": "up",
+          "start": 97.90791632334391
+        },
+        {
+          "word": "or",
+          "start": 98.10791613260905
+        },
+        {
+          "word": "down",
+          "start": 98.3079168955485
+        },
+        {
+          "word": "point",
+          "start": 98.7479164759318
+        },
+        {
+          "word": "to",
+          "start": 99.10791613260905
+        },
+        {
+          "word": "the",
+          "start": 99.26791598002116
+        },
+        {
+          "word": "row",
+          "start": 99.42791678110758
+        },
+        {
+          "word": "before",
+          "start": 99.78791643778483
+        },
+        {
+          "word": "and",
+          "start": 100.22791601816813
+        },
+        {
+          "word": "after",
+          "start": 100.46791674296061
+        },
+        {
+          "word": "moving",
+          "start": 100.70791651407878
+        },
+        {
+          "word": "both",
+          "start": 101.34791590372721
+        },
+        {
+          "word": "positions",
+          "start": 101.70791651407878
+        },
+        {
+          "word": "lie",
+          "start": 102.42791678110758
+        },
+        {
+          "word": "on",
+          "start": 102.86791636149088
+        },
+        {
+          "word": "the",
+          "start": 103.06791617075602
+        },
+        {
+          "word": "same",
+          "start": 103.26791598002116
+        },
+        {
+          "word": "horizontal",
+          "start": 103.66791655222575
+        },
+        {
+          "word": "line",
+          "start": 104.46791674296061
+        },
+        {
+          "word": "of",
+          "start": 104.78791643778483
+        },
+        {
+          "word": "the",
+          "start": 104.94791628519694
+        },
+        {
+          "word": "map",
+          "start": 105.06791712443034
+        }
+      ],
+      "asr_text": " A MOVE RIGHT INCREASES THE FIRST CO ORDINATE A MOVE LEFT DECREASES IT THE SECOND CO ORDINATE STATE IS UNCHANGED BECAUSE THE COUNTER HAS NOT MOVED UP OR DOWN POINT TO THE ROW BEFORE AND AFTER MOVING BOTH POSITIONS LIE ON THE SAME HORIZONTAL LINE OF THE MAP",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Right or left changes the first number.",
+          "at": 89.26791663567225,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 88.54791666666667,
+      "motion_end": 105.06791712443034,
+      "reveal_at": 104.91791712443033,
+      "speech_end": 105.43058333333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Vertical movement",
+      "text": "A move upward increases the second coordinate. A move downward decreases it. The first coordinate stays unchanged. Check the column containing both points to see why. These rules describe our map directions; a rotated map would need its directions clarified before someone followed your instructions.",
+      "board": [
+        "Up or down changes the second number."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Turn",
+          "Kiosk"
+        ],
+        "path": true
+      },
+      "index": 6,
+      "start": 105.43058333333333,
+      "end": 124.64320833333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 105.43058333333333
+        },
+        {
+          "word": "move",
+          "start": 105.6305833214124
+        },
+        {
+          "word": "upward",
+          "start": 106.07058331902822
+        },
+        {
+          "word": "increases",
+          "start": 106.59058329995473
+        },
+        {
+          "word": "the",
+          "start": 107.31058332856496
+        },
+        {
+          "word": "second",
+          "start": 107.47058329518636
+        },
+        {
+          "word": "co",
+          "start": 107.91058335240682
+        },
+        {
+          "word": "ordinate",
+          "start": 108.07058319981893
+        },
+        {
+          "word": "a",
+          "start": 108.7105833047231
+        },
+        {
+          "word": "move",
+          "start": 108.91058335240682
+        },
+        {
+          "word": "downward",
+          "start": 109.31058320935567
+        },
+        {
+          "word": "decreases",
+          "start": 109.87058339055379
+        },
+        {
+          "word": "it",
+          "start": 110.59058318074544
+        },
+        {
+          "word": "the",
+          "start": 110.87058339055379
+        },
+        {
+          "word": "first",
+          "start": 111.11058316167195
+        },
+        {
+          "word": "co",
+          "start": 111.47058329518636
+        },
+        {
+          "word": "ordinate",
+          "start": 111.6705831044515
+        },
+        {
+          "word": "states",
+          "start": 112.11058316167195
+        },
+        {
+          "word": "unchanged",
+          "start": 112.51058325703939
+        },
+        {
+          "word": "check",
+          "start": 113.43058333333333
+        },
+        {
+          "word": "the",
+          "start": 113.79058299001058
+        },
+        {
+          "word": "column",
+          "start": 113.99058279927571
+        },
+        {
+          "word": "containing",
+          "start": 114.47058329518636
+        },
+        {
+          "word": "both",
+          "start": 115.07058272298177
+        },
+        {
+          "word": "points",
+          "start": 115.43058333333333
+        },
+        {
+          "word": "to",
+          "start": 115.79058299001058
+        },
+        {
+          "word": "see",
+          "start": 115.95058283742269
+        },
+        {
+          "word": "why",
+          "start": 116.19058356221517
+        },
+        {
+          "word": "these",
+          "start": 116.51058325703939
+        },
+        {
+          "word": "rules",
+          "start": 116.99058279927571
+        },
+        {
+          "word": "describe",
+          "start": 117.43058333333333
+        },
+        {
+          "word": "our",
+          "start": 117.99058279927571
+        },
+        {
+          "word": "map",
+          "start": 118.23058257039388
+        },
+        {
+          "word": "directions",
+          "start": 118.51058325703939
+        },
+        {
+          "word": "a",
+          "start": 119.27058348592122
+        },
+        {
+          "word": "rotated",
+          "start": 119.43058333333333
+        },
+        {
+          "word": "map",
+          "start": 120.15058264668782
+        },
+        {
+          "word": "would",
+          "start": 120.43058333333333
+        },
+        {
+          "word": "need",
+          "start": 120.63058314259847
+        },
+        {
+          "word": "its",
+          "start": 120.87058291371663
+        },
+        {
+          "word": "directions",
+          "start": 121.1105826848348
+        },
+        {
+          "word": "clarified",
+          "start": 121.79058203633626
+        },
+        {
+          "word": "before",
+          "start": 122.47058234151204
+        },
+        {
+          "word": "some",
+          "start": 122.79058203633626
+        },
+        {
+          "word": "one",
+          "start": 122.99058279927571
+        },
+        {
+          "word": "followed",
+          "start": 123.19058356221517
+        },
+        {
+          "word": "your",
+          "start": 123.5505822652181
+        },
+        {
+          "word": "instructions",
+          "start": 123.79058203633626
+        }
+      ],
+      "asr_text": " A MOVE UPWARD INCREASES THE SECOND CO ORDINATE A MOVE DOWNWARD DECREASES IT THE FIRST CO ORDINATE STATES UNCHANGED CHECK THE COLUMN CONTAINING BOTH POINTS TO SEE WHY THESE RULES DESCRIBE OUR MAP DIRECTIONS A ROTATED MAP WOULD NEED ITS DIRECTIONS CLARIFIED BEFORE SOME ONE FOLLOWED YOUR INSTRUCTIONS",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Up or down changes the second number.",
+          "at": 107.47058329518636,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 105.43058333333333,
+      "motion_end": 123.79058203633626,
+      "reveal_at": 123.64058203633626,
+      "speech_end": 124.64320833333333
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a two-part route",
+      "text": "Start at two, two. Move four units right and then three units up. Predict the destination. Keep an intermediate position for the end of the rightward move. That extra record will help you discover which step needs fixing if your answer differs from your partner’s.",
+      "board": [
+        "Start (2, 2): right 4, up 3"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 7,
+      "start": 124.64320833333333,
+      "end": 146.1945,
+      "words": [
+        {
+          "word": "start",
+          "start": 124.64320833333333
+        },
+        {
+          "word": "at",
+          "start": 125.1232083226045
+        },
+        {
+          "word": "two",
+          "start": 125.24320829757055
+        },
+        {
+          "word": "move",
+          "start": 126.0832082713445
+        },
+        {
+          "word": "four",
+          "start": 126.44320828564962
+        },
+        {
+          "word": "units",
+          "start": 126.76320821889242
+        },
+        {
+          "word": "right",
+          "start": 127.20320827611287
+        },
+        {
+          "word": "and",
+          "start": 127.52320820935567
+        },
+        {
+          "word": "then",
+          "start": 127.72320825703939
+        },
+        {
+          "word": "three",
+          "start": 128.00320822842917
+        },
+        {
+          "word": "units",
+          "start": 128.32320816167197
+        },
+        {
+          "word": "up",
+          "start": 128.80320818074546
+        },
+        {
+          "word": "predict",
+          "start": 129.16320831425986
+        },
+        {
+          "word": "the",
+          "start": 129.7232082570394
+        },
+        {
+          "word": "destination",
+          "start": 129.8832081044515
+        },
+        {
+          "word": "keep",
+          "start": 130.96320802815757
+        },
+        {
+          "word": "an",
+          "start": 131.32320816167197
+        },
+        {
+          "word": "intermediate",
+          "start": 131.5632084096273
+        },
+        {
+          "word": "position",
+          "start": 132.40320808537803
+        },
+        {
+          "word": "for",
+          "start": 132.96320802815757
+        },
+        {
+          "word": "the",
+          "start": 133.12320787556968
+        },
+        {
+          "word": "end",
+          "start": 133.36320860036216
+        },
+        {
+          "word": "of",
+          "start": 133.64320833333335
+        },
+        {
+          "word": "the",
+          "start": 133.76320821889243
+        },
+        {
+          "word": "right",
+          "start": 133.96320802815757
+        },
+        {
+          "word": "would",
+          "start": 134.24320776112876
+        },
+        {
+          "word": "move",
+          "start": 134.48320848592124
+        },
+        {
+          "word": "that",
+          "start": 134.96320802815757
+        },
+        {
+          "word": "extra",
+          "start": 135.28320772298179
+        },
+        {
+          "word": "record",
+          "start": 135.76320821889243
+        },
+        {
+          "word": "will",
+          "start": 136.28320772298179
+        },
+        {
+          "word": "help",
+          "start": 136.48320848592124
+        },
+        {
+          "word": "you",
+          "start": 136.7232082570394
+        },
+        {
+          "word": "discover",
+          "start": 136.8832081044515
+        },
+        {
+          "word": "which",
+          "start": 137.48320848592124
+        },
+        {
+          "word": "step",
+          "start": 137.7232082570394
+        },
+        {
+          "word": "needs",
+          "start": 138.0032079900106
+        },
+        {
+          "word": "fixing",
+          "start": 138.36320764668784
+        },
+        {
+          "word": "if",
+          "start": 138.84320814259848
+        },
+        {
+          "word": "your",
+          "start": 139.04320795186362
+        },
+        {
+          "word": "answer",
+          "start": 139.28320772298179
+        },
+        {
+          "word": "differs",
+          "start": 139.64320833333335
+        },
+        {
+          "word": "from",
+          "start": 140.12320787556968
+        },
+        {
+          "word": "your",
+          "start": 140.3232076848348
+        },
+        {
+          "word": "partners",
+          "start": 140.5632084096273
+        }
+      ],
+      "asr_text": " START AT TWO MOVE FOUR UNITS RIGHT AND THEN THREE UNITS UP PREDICT THE DESTINATION KEEP AN INTERMEDIATE POSITION FOR THE END OF THE RIGHT WOULD MOVE THAT EXTRA RECORD WILL HELP YOU DISCOVER WHICH STEP NEEDS FIXING IF YOUR ANSWER DIFFERS FROM YOUR PARTNERS",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Start (2, 2): right 4, up 3",
+          "at": 124.64320833333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 124.64320833333333,
+      "motion_end": 140.5632084096273,
+      "reveal_at": 140.4132084096273,
+      "speech_end": 141.1945
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: find the kiosk",
+      "text": "Moving four right changes two, two to six, two. Moving three up then changes six, two to six, five. The kiosk is at six, five. The first part affected only the horizontal coordinate, and the second affected only the vertical coordinate. Each step agrees with the grid.",
+      "board": [
+        "(2, 2) → (6, 2) → (6, 5)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk"
+        ],
+        "path": true
+      },
+      "index": 8,
+      "start": 146.1945,
+      "end": 163.963875,
+      "words": [
+        {
+          "word": "moving",
+          "start": 146.1945
+        },
+        {
+          "word": "four",
+          "start": 146.71449998092652
+        },
+        {
+          "word": "right",
+          "start": 147.15449997854233
+        },
+        {
+          "word": "changes",
+          "start": 147.47449997138978
+        },
+        {
+          "word": "two",
+          "start": 148.07449999523163
+        },
+        {
+          "word": "two",
+          "start": 148.43450000953675
+        },
+        {
+          "word": "to",
+          "start": 148.59449985694886
+        },
+        {
+          "word": "six",
+          "start": 148.8344998664856
+        },
+        {
+          "word": "two",
+          "start": 149.15450003814698
+        },
+        {
+          "word": "moving",
+          "start": 149.55449989509583
+        },
+        {
+          "word": "three",
+          "start": 150.03449991416932
+        },
+        {
+          "word": "up",
+          "start": 150.3144998855591
+        },
+        {
+          "word": "then",
+          "start": 150.5545001335144
+        },
+        {
+          "word": "changes",
+          "start": 150.8344998664856
+        },
+        {
+          "word": "six",
+          "start": 151.43449977111817
+        },
+        {
+          "word": "two",
+          "start": 151.79449990463257
+        },
+        {
+          "word": "to",
+          "start": 151.9944997138977
+        },
+        {
+          "word": "six",
+          "start": 152.1945
+        },
+        {
+          "word": "five",
+          "start": 152.55449965667725
+        },
+        {
+          "word": "the",
+          "start": 153.03449967575074
+        },
+        {
+          "word": "kiosk",
+          "start": 153.27449992370606
+        },
+        {
+          "word": "is",
+          "start": 153.79449990463257
+        },
+        {
+          "word": "at",
+          "start": 153.95449975204468
+        },
+        {
+          "word": "six",
+          "start": 154.1945
+        },
+        {
+          "word": "five",
+          "start": 154.51449969482422
+        },
+        {
+          "word": "the",
+          "start": 154.99450019073487
+        },
+        {
+          "word": "first",
+          "start": 155.23449996185303
+        },
+        {
+          "word": "part",
+          "start": 155.6344995803833
+        },
+        {
+          "word": "affected",
+          "start": 155.95450022888184
+        },
+        {
+          "word": "only",
+          "start": 156.6344995803833
+        },
+        {
+          "word": "the",
+          "start": 156.99450019073487
+        },
+        {
+          "word": "horizontal",
+          "start": 157.15450003814698
+        },
+        {
+          "word": "co",
+          "start": 157.87449935150147
+        },
+        {
+          "word": "ordinate",
+          "start": 158.0345001525879
+        },
+        {
+          "word": "and",
+          "start": 158.51449969482422
+        },
+        {
+          "word": "the",
+          "start": 158.6344995803833
+        },
+        {
+          "word": "second",
+          "start": 158.7544994659424
+        },
+        {
+          "word": "affected",
+          "start": 159.3144998855591
+        },
+        {
+          "word": "only",
+          "start": 160.0345001525879
+        },
+        {
+          "word": "the",
+          "start": 160.39449980926514
+        },
+        {
+          "word": "vertical",
+          "start": 160.6344995803833
+        },
+        {
+          "word": "co",
+          "start": 161.11450007629395
+        },
+        {
+          "word": "ordinate",
+          "start": 161.3144998855591
+        },
+        {
+          "word": "each",
+          "start": 161.9144993133545
+        },
+        {
+          "word": "step",
+          "start": 162.27449992370606
+        },
+        {
+          "word": "agrees",
+          "start": 162.67449954223633
+        },
+        {
+          "word": "with",
+          "start": 163.23449900817872
+        },
+        {
+          "word": "the",
+          "start": 163.39449885559083
+        },
+        {
+          "word": "grid",
+          "start": 163.55449870300293
+        }
+      ],
+      "asr_text": " MOVING FOUR RIGHT CHANGES TWO TWO TO SIX TWO MOVING THREE UP THEN CHANGES SIX TWO TO SIX FIVE THE KIOSK IS AT SIX FIVE THE FIRST PART AFFECTED ONLY THE HORIZONTAL CO ORDINATE AND THE SECOND AFFECTED ONLY THE VERTICAL CO ORDINATE EACH STEP AGREES WITH THE GRID",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "(2, 2) → (6, 2) → (6, 5)",
+          "at": 152.65449965667725,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 146.1945,
+      "motion_end": 152.65449965667725,
+      "reveal_at": 152.65449965667725,
+      "speech_end": 163.963875
+    },
+    {
+      "role": "explanation",
+      "chapter": "Continue to another landmark",
+      "text": "From the kiosk at six, five, travel two units left. The first coordinate decreases from six to four while the second stays five. The garden is at four, five. Starting this new step from the original starting point would describe a different journey.",
+      "board": [
+        "(6, 5) → (4, 5)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      },
+      "index": 9,
+      "start": 163.963875,
+      "end": 179.16425,
+      "words": [
+        {
+          "word": "from",
+          "start": 163.963875
+        },
+        {
+          "word": "the",
+          "start": 164.16387498807907
+        },
+        {
+          "word": "khiozk",
+          "start": 164.3238749845028
+        },
+        {
+          "word": "at",
+          "start": 164.84387499523163
+        },
+        {
+          "word": "six",
+          "start": 165.08387500476837
+        },
+        {
+          "word": "five",
+          "start": 165.48387498092652
+        },
+        {
+          "word": "travel",
+          "start": 166.04387492370606
+        },
+        {
+          "word": "two",
+          "start": 166.4438750190735
+        },
+        {
+          "word": "units",
+          "start": 166.68387502861023
+        },
+        {
+          "word": "left",
+          "start": 167.16387480926514
+        },
+        {
+          "word": "the",
+          "start": 167.56387490463257
+        },
+        {
+          "word": "first",
+          "start": 167.8038749141693
+        },
+        {
+          "word": "co",
+          "start": 168.16387480926514
+        },
+        {
+          "word": "ordinate",
+          "start": 168.3238751335144
+        },
+        {
+          "word": "decreases",
+          "start": 168.84387511444092
+        },
+        {
+          "word": "from",
+          "start": 169.48387498092652
+        },
+        {
+          "word": "six",
+          "start": 169.72387475204468
+        },
+        {
+          "word": "to",
+          "start": 169.963875
+        },
+        {
+          "word": "four",
+          "start": 170.20387477111817
+        },
+        {
+          "word": "while",
+          "start": 170.40387505722046
+        },
+        {
+          "word": "the",
+          "start": 170.6038748664856
+        },
+        {
+          "word": "second",
+          "start": 170.7638747138977
+        },
+        {
+          "word": "stays",
+          "start": 171.16387480926514
+        },
+        {
+          "word": "five",
+          "start": 171.56387490463257
+        },
+        {
+          "word": "the",
+          "start": 172.04387492370606
+        },
+        {
+          "word": "garden",
+          "start": 172.28387469482422
+        },
+        {
+          "word": "is",
+          "start": 172.72387522888184
+        },
+        {
+          "word": "at",
+          "start": 172.92387503814697
+        },
+        {
+          "word": "four",
+          "start": 173.1238748474121
+        },
+        {
+          "word": "five",
+          "start": 173.44387454223633
+        },
+        {
+          "word": "starting",
+          "start": 174.04387492370606
+        },
+        {
+          "word": "this",
+          "start": 174.60387438964844
+        },
+        {
+          "word": "new",
+          "start": 174.92387503814697
+        },
+        {
+          "word": "step",
+          "start": 175.20387477111817
+        },
+        {
+          "word": "from",
+          "start": 175.5638744277954
+        },
+        {
+          "word": "the",
+          "start": 175.72387427520752
+        },
+        {
+          "word": "original",
+          "start": 175.963875
+        },
+        {
+          "word": "starting",
+          "start": 176.52387446594238
+        },
+        {
+          "word": "point",
+          "start": 176.963875
+        },
+        {
+          "word": "would",
+          "start": 177.32387465667725
+        },
+        {
+          "word": "describe",
+          "start": 177.5638744277954
+        },
+        {
+          "word": "a",
+          "start": 178.1238748474121
+        },
+        {
+          "word": "different",
+          "start": 178.28387469482422
+        },
+        {
+          "word": "journey",
+          "start": 178.72387427520752
+        }
+      ],
+      "asr_text": " FROM THE KHIOZK AT SIX FIVE TRAVEL TWO UNITS LEFT THE FIRST CO ORDINATE DECREASES FROM SIX TO FOUR WHILE THE SECOND STAYS FIVE THE GARDEN IS AT FOUR FIVE STARTING THIS NEW STEP FROM THE ORIGINAL STARTING POINT WOULD DESCRIBE A DIFFERENT JOURNEY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 0.9605273055652029,
+      "board_events": [
+        {
+          "text": "(6, 5) → (4, 5)",
+          "at": 165.5838749809265,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 163.963875,
+      "motion_end": 178.72387427520752,
+      "reveal_at": 178.57387427520752,
+      "speech_end": 179.16425
+    },
+    {
+      "role": "misconception",
+      "chapter": "Do not reset after each turn",
+      "text": "A learner starts every instruction from the origin. That can find several separate points, but it does not follow one continuous route. Each new movement starts where the previous movement ended. Draw connected arrows and keep the most recent ordered pair visible to avoid this mistake.",
+      "board": [
+        "Continue from the latest position."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      },
+      "index": 10,
+      "start": 179.16425,
+      "end": 196.32816666666668,
+      "words": [
+        {
+          "word": "a",
+          "start": 179.16425
+        },
+        {
+          "word": "learner",
+          "start": 179.36424998807908
+        },
+        {
+          "word": "starts",
+          "start": 179.84425000715257
+        },
+        {
+          "word": "every",
+          "start": 180.36424992847444
+        },
+        {
+          "word": "instruction",
+          "start": 180.68424998092652
+        },
+        {
+          "word": "from",
+          "start": 181.36425004768373
+        },
+        {
+          "word": "the",
+          "start": 181.52424989509583
+        },
+        {
+          "word": "origin",
+          "start": 181.72424994277955
+        },
+        {
+          "word": "that",
+          "start": 182.40425000953675
+        },
+        {
+          "word": "confined",
+          "start": 182.68424998092652
+        },
+        {
+          "word": "several",
+          "start": 183.2842498855591
+        },
+        {
+          "word": "separate",
+          "start": 183.72424994277955
+        },
+        {
+          "word": "points",
+          "start": 184.20424996185304
+        },
+        {
+          "word": "but",
+          "start": 184.56425009536744
+        },
+        {
+          "word": "it",
+          "start": 184.72424994277955
+        },
+        {
+          "word": "does",
+          "start": 184.88424979019166
+        },
+        {
+          "word": "not",
+          "start": 185.08425007629396
+        },
+        {
+          "word": "follow",
+          "start": 185.32424984741212
+        },
+        {
+          "word": "one",
+          "start": 185.76424990463258
+        },
+        {
+          "word": "continuous",
+          "start": 186.00424967575074
+        },
+        {
+          "word": "route",
+          "start": 186.76424990463258
+        },
+        {
+          "word": "each",
+          "start": 187.24424992370606
+        },
+        {
+          "word": "new",
+          "start": 187.64424954223634
+        },
+        {
+          "word": "movement",
+          "start": 187.92425022888185
+        },
+        {
+          "word": "starts",
+          "start": 188.4442497329712
+        },
+        {
+          "word": "where",
+          "start": 188.8842493133545
+        },
+        {
+          "word": "the",
+          "start": 189.04425011444093
+        },
+        {
+          "word": "previous",
+          "start": 189.20424996185304
+        },
+        {
+          "word": "movement",
+          "start": 189.7242494659424
+        },
+        {
+          "word": "ended",
+          "start": 190.24424992370606
+        },
+        {
+          "word": "draw",
+          "start": 190.80424938964845
+        },
+        {
+          "word": "connected",
+          "start": 191.16425
+        },
+        {
+          "word": "arrows",
+          "start": 191.76424942779542
+        },
+        {
+          "word": "and",
+          "start": 192.24424992370606
+        },
+        {
+          "word": "keep",
+          "start": 192.4442497329712
+        },
+        {
+          "word": "the",
+          "start": 192.7242494659424
+        },
+        {
+          "word": "most",
+          "start": 192.8842493133545
+        },
+        {
+          "word": "recent",
+          "start": 193.20424996185304
+        },
+        {
+          "word": "ordered",
+          "start": 193.7242494659424
+        },
+        {
+          "word": "pair",
+          "start": 194.12425003814698
+        },
+        {
+          "word": "visible",
+          "start": 194.4442497329712
+        },
+        {
+          "word": "to",
+          "start": 194.84424935150147
+        },
+        {
+          "word": "avoid",
+          "start": 195.00424919891358
+        },
+        {
+          "word": "this",
+          "start": 195.48424969482423
+        },
+        {
+          "word": "mistake",
+          "start": 195.68425045776368
+        }
+      ],
+      "asr_text": " A LEARNER STARTS EVERY INSTRUCTION FROM THE ORIGIN THAT CONFINED SEVERAL SEPARATE POINTS BUT IT DOES NOT FOLLOW ONE CONTINUOUS ROUTE EACH NEW MOVEMENT STARTS WHERE THE PREVIOUS MOVEMENT ENDED DRAW CONNECTED ARROWS AND KEEP THE MOST RECENT ORDERED PAIR VISIBLE TO AVOID THIS MISTAKE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Continue from the latest position.",
+          "at": 179.16425,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 179.16425,
+      "motion_end": 195.68425045776368,
+      "reveal_at": 179.16425,
+      "speech_end": 196.32816666666668
+    },
+    {
+      "role": "explanation",
+      "chapter": "Count the route length",
+      "text": "The courier travelled four units right, three units up and two units left. Add those distances to obtain nine units travelled. The destination alone does not show that total. Returning partway along a direction still adds distance to the route, even when it reduces the first coordinate.",
+      "board": [
+        "4 + 3 + 2 = 9 units travelled"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      },
+      "index": 11,
+      "start": 196.32816666666668,
+      "end": 214.07833333333335,
+      "words": [
+        {
+          "word": "the",
+          "start": 196.32816666666668
+        },
+        {
+          "word": "courier",
+          "start": 196.52816665474575
+        },
+        {
+          "word": "travelled",
+          "start": 197.00816667381923
+        },
+        {
+          "word": "four",
+          "start": 197.48816663328807
+        },
+        {
+          "word": "units",
+          "start": 197.76816660467784
+        },
+        {
+          "word": "right",
+          "start": 198.168166580836
+        },
+        {
+          "word": "three",
+          "start": 198.44816655222576
+        },
+        {
+          "word": "units",
+          "start": 198.64816659990947
+        },
+        {
+          "word": "up",
+          "start": 199.08816665712993
+        },
+        {
+          "word": "and",
+          "start": 199.28816670481365
+        },
+        {
+          "word": "two",
+          "start": 199.44816655222576
+        },
+        {
+          "word": "units",
+          "start": 199.64816659990947
+        },
+        {
+          "word": "left",
+          "start": 200.12816661898296
+        },
+        {
+          "word": "add",
+          "start": 200.56816643778484
+        },
+        {
+          "word": "those",
+          "start": 200.88816660944622
+        },
+        {
+          "word": "distances",
+          "start": 201.2081667811076
+        },
+        {
+          "word": "to",
+          "start": 201.88816660944622
+        },
+        {
+          "word": "obtain",
+          "start": 202.08816641871135
+        },
+        {
+          "word": "nine",
+          "start": 202.6481663614909
+        },
+        {
+          "word": "units",
+          "start": 202.96816653315227
+        },
+        {
+          "word": "travelled",
+          "start": 203.40816659037273
+        },
+        {
+          "word": "the",
+          "start": 203.96816653315227
+        },
+        {
+          "word": "destination",
+          "start": 204.1681663424174
+        },
+        {
+          "word": "alone",
+          "start": 205.0881668955485
+        },
+        {
+          "word": "does",
+          "start": 205.6481663614909
+        },
+        {
+          "word": "not",
+          "start": 205.92816609446209
+        },
+        {
+          "word": "show",
+          "start": 206.16816681925457
+        },
+        {
+          "word": "that",
+          "start": 206.44816655222576
+        },
+        {
+          "word": "total",
+          "start": 206.68816632334392
+        },
+        {
+          "word": "returning",
+          "start": 207.28816670481365
+        },
+        {
+          "word": "pathway",
+          "start": 207.92816609446209
+        },
+        {
+          "word": "along",
+          "start": 208.5281664759318
+        },
+        {
+          "word": "a",
+          "start": 208.84816617075603
+        },
+        {
+          "word": "direction",
+          "start": 209.00816601816814
+        },
+        {
+          "word": "still",
+          "start": 209.68816632334392
+        },
+        {
+          "word": "adds",
+          "start": 210.00816601816814
+        },
+        {
+          "word": "distance",
+          "start": 210.40816659037273
+        },
+        {
+          "word": "to",
+          "start": 210.88816613260906
+        },
+        {
+          "word": "the",
+          "start": 211.00816601816814
+        },
+        {
+          "word": "route",
+          "start": 211.12816590372722
+        },
+        {
+          "word": "even",
+          "start": 211.5281664759318
+        },
+        {
+          "word": "when",
+          "start": 211.808166208903
+        },
+        {
+          "word": "it",
+          "start": 212.00816601816814
+        },
+        {
+          "word": "reduces",
+          "start": 212.16816586558025
+        },
+        {
+          "word": "the",
+          "start": 212.808166208903
+        },
+        {
+          "word": "first",
+          "start": 213.00816697184246
+        },
+        {
+          "word": "co",
+          "start": 213.32816666666668
+        },
+        {
+          "word": "ordinate",
+          "start": 213.5281655222575
+        }
+      ],
+      "asr_text": " THE COURIER TRAVELLED FOUR UNITS RIGHT THREE UNITS UP AND TWO UNITS LEFT ADD THOSE DISTANCES TO OBTAIN NINE UNITS TRAVELLED THE DESTINATION ALONE DOES NOT SHOW THAT TOTAL RETURNING PATHWAY ALONG A DIRECTION STILL ADDS DISTANCE TO THE ROUTE EVEN WHEN IT REDUCES THE FIRST CO ORDINATE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "4 + 3 + 2 = 9 units travelled",
+          "at": 202.7481663614909,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 196.32816666666668,
+      "motion_end": 213.5281655222575,
+      "reveal_at": 213.3781655222575,
+      "speech_end": 214.07833333333335
+    },
+    {
+      "role": "question",
+      "chapter": "Plan a return route",
+      "text": "The courier is at four, five and wants to return to two, two. Predict one route using only horizontal and vertical moves. Decide how much each coordinate must decrease. More than one order of instructions may work, so prepare to justify yours using the actual starting point.",
+      "board": [
+        "From (4, 5) to (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Garden",
+          "Home"
+        ]
+      },
+      "index": 12,
+      "start": 214.07833333333335,
+      "end": 237.29883333333333,
+      "words": [
+        {
+          "word": "the",
+          "start": 214.07833333333335
+        },
+        {
+          "word": "courier",
+          "start": 214.31833332796893
+        },
+        {
+          "word": "is",
+          "start": 214.79833330233893
+        },
+        {
+          "word": "at",
+          "start": 214.998333290418
+        },
+        {
+          "word": "four",
+          "start": 215.19833333810172
+        },
+        {
+          "word": "five",
+          "start": 215.59833331425986
+        },
+        {
+          "word": "and",
+          "start": 216.03833325227103
+        },
+        {
+          "word": "wants",
+          "start": 216.23833318074546
+        },
+        {
+          "word": "to",
+          "start": 216.4783331902822
+        },
+        {
+          "word": "return",
+          "start": 216.6383332761129
+        },
+        {
+          "word": "to",
+          "start": 216.9983331712087
+        },
+        {
+          "word": "two",
+          "start": 217.19833321889243
+        },
+        {
+          "word": "predict",
+          "start": 217.8383333237966
+        },
+        {
+          "word": "one",
+          "start": 218.43833346684775
+        },
+        {
+          "word": "root",
+          "start": 218.71833319981894
+        },
+        {
+          "word": "using",
+          "start": 219.11833329518637
+        },
+        {
+          "word": "only",
+          "start": 219.5183333905538
+        },
+        {
+          "word": "horizontal",
+          "start": 219.87833304723105
+        },
+        {
+          "word": "and",
+          "start": 220.67833323796592
+        },
+        {
+          "word": "vertical",
+          "start": 220.91833300908408
+        },
+        {
+          "word": "moves",
+          "start": 221.5183333905538
+        },
+        {
+          "word": "decide",
+          "start": 222.07833333333335
+        },
+        {
+          "word": "how",
+          "start": 222.71833272298178
+        },
+        {
+          "word": "much",
+          "start": 222.95833344777427
+        },
+        {
+          "word": "each",
+          "start": 223.47833295186362
+        },
+        {
+          "word": "co",
+          "start": 223.79833264668784
+        },
+        {
+          "word": "ordinate",
+          "start": 223.95833344777427
+        },
+        {
+          "word": "must",
+          "start": 224.4383329900106
+        },
+        {
+          "word": "decrease",
+          "start": 224.71833272298178
+        },
+        {
+          "word": "more",
+          "start": 225.47833295186362
+        },
+        {
+          "word": "than",
+          "start": 225.7583326848348
+        },
+        {
+          "word": "one",
+          "start": 225.9983334096273
+        },
+        {
+          "word": "order",
+          "start": 226.35833306630454
+        },
+        {
+          "word": "of",
+          "start": 226.71833272298178
+        },
+        {
+          "word": "instructions",
+          "start": 226.8783325703939
+        },
+        {
+          "word": "may",
+          "start": 227.63833279927573
+        },
+        {
+          "word": "work",
+          "start": 227.91833348592124
+        },
+        {
+          "word": "so",
+          "start": 228.19833321889243
+        },
+        {
+          "word": "prepare",
+          "start": 228.47833295186362
+        },
+        {
+          "word": "to",
+          "start": 228.95833344777427
+        },
+        {
+          "word": "justify",
+          "start": 229.19833321889243
+        },
+        {
+          "word": "yours",
+          "start": 229.83833260854087
+        },
+        {
+          "word": "using",
+          "start": 230.3183331044515
+        },
+        {
+          "word": "the",
+          "start": 230.67833371480307
+        },
+        {
+          "word": "actual",
+          "start": 230.8783325703939
+        },
+        {
+          "word": "starting",
+          "start": 231.35833211263022
+        },
+        {
+          "word": "point",
+          "start": 231.83833356221518
+        }
+      ],
+      "asr_text": " THE COURIER IS AT FOUR FIVE AND WANTS TO RETURN TO TWO PREDICT ONE ROOT USING ONLY HORIZONTAL AND VERTICAL MOVES DECIDE HOW MUCH EACH CO ORDINATE MUST DECREASE MORE THAN ONE ORDER OF INSTRUCTIONS MAY WORK SO PREPARE TO JUSTIFY YOURS USING THE ACTUAL STARTING POINT",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "From (4, 5) to (2, 2)",
+          "at": 214.07833333333335,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 214.07833333333335,
+      "motion_end": 231.83833356221518,
+      "reveal_at": 231.68833356221518,
+      "speech_end": 232.29883333333333
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: return home",
+      "text": "Move two units left from four, five to two, five. Then move three units down to two, two. This return route has length five units. Moving down first and left second would also reach home on this unobstructed grid, but the intermediate point would be different.",
+      "board": [
+        "(4, 5) → (2, 5) → (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Garden",
+          "Turn",
+          "Home"
+        ],
+        "path": true
+      },
+      "index": 13,
+      "start": 237.29883333333333,
+      "end": 253.01883333333333,
+      "words": [
+        {
+          "word": "moved",
+          "start": 237.29883333333333
+        },
+        {
+          "word": "two",
+          "start": 237.69883330949148
+        },
+        {
+          "word": "units",
+          "start": 237.89883329757055
+        },
+        {
+          "word": "left",
+          "start": 238.33883329518636
+        },
+        {
+          "word": "from",
+          "start": 238.61883326657613
+        },
+        {
+          "word": "four",
+          "start": 238.85883327611288
+        },
+        {
+          "word": "five",
+          "start": 239.13883324750265
+        },
+        {
+          "word": "to",
+          "start": 239.45883318074544
+        },
+        {
+          "word": "two",
+          "start": 239.61883326657613
+        },
+        {
+          "word": "five",
+          "start": 239.8988332379659
+        },
+        {
+          "word": "then",
+          "start": 240.41883321889242
+        },
+        {
+          "word": "move",
+          "start": 240.77883335240682
+        },
+        {
+          "word": "three",
+          "start": 241.13883324750265
+        },
+        {
+          "word": "units",
+          "start": 241.41883321889242
+        },
+        {
+          "word": "down",
+          "start": 241.81883331425985
+        },
+        {
+          "word": "to",
+          "start": 242.058833085378
+        },
+        {
+          "word": "two",
+          "start": 242.2588333714803
+        },
+        {
+          "word": "this",
+          "start": 242.81883331425985
+        },
+        {
+          "word": "return",
+          "start": 243.1788329709371
+        },
+        {
+          "word": "route",
+          "start": 243.65883299001058
+        },
+        {
+          "word": "has",
+          "start": 244.058833085378
+        },
+        {
+          "word": "length",
+          "start": 244.33883329518636
+        },
+        {
+          "word": "five",
+          "start": 244.6988329518636
+        },
+        {
+          "word": "units",
+          "start": 244.97883316167196
+        },
+        {
+          "word": "moving",
+          "start": 245.61883302815755
+        },
+        {
+          "word": "down",
+          "start": 246.0988335240682
+        },
+        {
+          "word": "first",
+          "start": 246.41883321889242
+        },
+        {
+          "word": "and",
+          "start": 246.85883279927572
+        },
+        {
+          "word": "left",
+          "start": 247.05883356221517
+        },
+        {
+          "word": "second",
+          "start": 247.33883329518636
+        },
+        {
+          "word": "would",
+          "start": 247.8188328374227
+        },
+        {
+          "word": "also",
+          "start": 248.05883356221517
+        },
+        {
+          "word": "reach",
+          "start": 248.3788332570394
+        },
+        {
+          "word": "home",
+          "start": 248.77883287556966
+        },
+        {
+          "word": "on",
+          "start": 249.05883260854085
+        },
+        {
+          "word": "this",
+          "start": 249.21883340962728
+        },
+        {
+          "word": "unobstructed",
+          "start": 249.45883318074544
+        },
+        {
+          "word": "grad",
+          "start": 250.33883329518636
+        },
+        {
+          "word": "but",
+          "start": 250.65883299001058
+        },
+        {
+          "word": "the",
+          "start": 250.77883287556966
+        },
+        {
+          "word": "intermediate",
+          "start": 250.9788326848348
+        },
+        {
+          "word": "point",
+          "start": 251.77883287556966
+        },
+        {
+          "word": "would",
+          "start": 252.09883257039388
+        },
+        {
+          "word": "be",
+          "start": 252.29883333333333
+        },
+        {
+          "word": "different",
+          "start": 252.49883314259847
+        }
+      ],
+      "asr_text": " MOVED TWO UNITS LEFT FROM FOUR FIVE TO TWO FIVE THEN MOVE THREE UNITS DOWN TO TWO THIS RETURN ROUTE HAS LENGTH FIVE UNITS MOVING DOWN FIRST AND LEFT SECOND WOULD ALSO REACH HOME ON THIS UNOBSTRUCTED GRAD BUT THE INTERMEDIATE POINT WOULD BE DIFFERENT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "(4, 5) → (2, 5) → (2, 2)",
+          "at": 237.79883330949147,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 237.29883333333333,
+      "motion_end": 238.09883333333335,
+      "reveal_at": 238.09883333333335,
+      "speech_end": 253.01883333333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Routes and destinations differ",
+      "text": "A destination is one location. A route is a sequence of movements leading there. A detour can increase the total distance without changing the destination. When comparing two plans, check both the ordered pairs and the distances rather than assuming every path to the same point is equally long.",
+      "board": [
+        "Same destination can have different routes."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      },
+      "index": 14,
+      "start": 253.01883333333333,
+      "end": 271.4062916666667,
+      "words": [
+        {
+          "word": "a",
+          "start": 253.01883333333333
+        },
+        {
+          "word": "destination",
+          "start": 253.2188333214124
+        },
+        {
+          "word": "is",
+          "start": 254.21883326180776
+        },
+        {
+          "word": "one",
+          "start": 254.53883331425985
+        },
+        {
+          "word": "location",
+          "start": 254.81883328564962
+        },
+        {
+          "word": "a",
+          "start": 255.65883319981893
+        },
+        {
+          "word": "root",
+          "start": 255.85883324750264
+        },
+        {
+          "word": "is",
+          "start": 256.25883334287005
+        },
+        {
+          "word": "a",
+          "start": 256.4988333524068
+        },
+        {
+          "word": "sequence",
+          "start": 256.6588331998189
+        },
+        {
+          "word": "of",
+          "start": 257.1788331807454
+        },
+        {
+          "word": "movements",
+          "start": 257.3388330281575
+        },
+        {
+          "word": "leading",
+          "start": 257.8988334477742
+        },
+        {
+          "word": "there",
+          "start": 258.3388330281575
+        },
+        {
+          "word": "a",
+          "start": 258.6188332379659
+        },
+        {
+          "word": "detour",
+          "start": 258.85883300908404
+        },
+        {
+          "word": "can",
+          "start": 259.37883299001055
+        },
+        {
+          "word": "increase",
+          "start": 259.6188332379659
+        },
+        {
+          "word": "the",
+          "start": 260.09883325703936
+        },
+        {
+          "word": "total",
+          "start": 260.2988330663045
+        },
+        {
+          "word": "distance",
+          "start": 260.6988331616719
+        },
+        {
+          "word": "without",
+          "start": 261.25883310445147
+        },
+        {
+          "word": "changing",
+          "start": 261.65883272298174
+        },
+        {
+          "word": "the",
+          "start": 262.1388332188924
+        },
+        {
+          "word": "destination",
+          "start": 262.2988330663045
+        },
+        {
+          "word": "when",
+          "start": 263.1788331807454
+        },
+        {
+          "word": "comparing",
+          "start": 263.4188329518636
+        },
+        {
+          "word": "two",
+          "start": 264.0188333333333
+        },
+        {
+          "word": "plans",
+          "start": 264.2988330663045
+        },
+        {
+          "word": "check",
+          "start": 264.7788326085408
+        },
+        {
+          "word": "both",
+          "start": 265.1388332188924
+        },
+        {
+          "word": "the",
+          "start": 265.37883299001055
+        },
+        {
+          "word": "ordered",
+          "start": 265.6188327611287
+        },
+        {
+          "word": "pairs",
+          "start": 266.05883329518633
+        },
+        {
+          "word": "and",
+          "start": 266.49883287556963
+        },
+        {
+          "word": "the",
+          "start": 266.65883272298174
+        },
+        {
+          "word": "distances",
+          "start": 266.7788326085408
+        },
+        {
+          "word": "rather",
+          "start": 267.49883287556963
+        },
+        {
+          "word": "than",
+          "start": 267.81883257039385
+        },
+        {
+          "word": "assuming",
+          "start": 268.05883329518633
+        },
+        {
+          "word": "every",
+          "start": 268.65883272298174
+        },
+        {
+          "word": "path",
+          "start": 269.0188333333333
+        },
+        {
+          "word": "to",
+          "start": 269.2988321126302
+        },
+        {
+          "word": "the",
+          "start": 269.4588338673909
+        },
+        {
+          "word": "same",
+          "start": 269.5788327992757
+        },
+        {
+          "word": "point",
+          "start": 269.93883340962725
+        },
+        {
+          "word": "is",
+          "start": 270.25883310445147
+        },
+        {
+          "word": "equally",
+          "start": 270.538833791097
+        },
+        {
+          "word": "long",
+          "start": 271.058832341512
+        }
+      ],
+      "asr_text": " A DESTINATION IS ONE LOCATION A ROOT IS A SEQUENCE OF MOVEMENTS LEADING THERE A DETOUR CAN INCREASE THE TOTAL DISTANCE WITHOUT CHANGING THE DESTINATION WHEN COMPARING TWO PLANS CHECK BOTH THE ORDERED PAIRS AND THE DISTANCES RATHER THAN ASSUMING EVERY PATH TO THE SAME POINT IS EQUALLY LONG",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Same destination can have different routes.",
+          "at": 253.2188333214124,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 253.01883333333333,
+      "motion_end": 271.058832341512,
+      "reveal_at": 270.90883234151204,
+      "speech_end": 271.4062916666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Stay inside the map",
+      "text": "Our first-quadrant map does not show positions left of the vertical axis or below the horizontal axis. Check a planned move before taking it. If it would leave the displayed region, revise the instructions or explain the limitation. Do not silently wrap a counter to the opposite side.",
+      "board": [
+        "Check map boundaries."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            2
+          ]
+        ],
+        "labels": [
+          "Boundary"
+        ]
+      },
+      "index": 15,
+      "start": 271.4062916666667,
+      "end": 289.14141666666666,
+      "words": [
+        {
+          "word": "our",
+          "start": 271.4062916666667
+        },
+        {
+          "word": "first",
+          "start": 271.68629166785877
+        },
+        {
+          "word": "quadrant",
+          "start": 272.04629165236156
+        },
+        {
+          "word": "map",
+          "start": 272.5662916332881
+        },
+        {
+          "word": "does",
+          "start": 272.84629160467784
+        },
+        {
+          "word": "not",
+          "start": 273.0862916142146
+        },
+        {
+          "word": "show",
+          "start": 273.32629162375133
+        },
+        {
+          "word": "positions",
+          "start": 273.5662915140788
+        },
+        {
+          "word": "left",
+          "start": 274.32629150454204
+        },
+        {
+          "word": "of",
+          "start": 274.6062914759318
+        },
+        {
+          "word": "the",
+          "start": 274.68629163805645
+        },
+        {
+          "word": "vertical",
+          "start": 274.88629168574016
+        },
+        {
+          "word": "axis",
+          "start": 275.4062916666667
+        },
+        {
+          "word": "or",
+          "start": 275.9262916475932
+        },
+        {
+          "word": "below",
+          "start": 276.0862914950053
+        },
+        {
+          "word": "the",
+          "start": 276.4462916285197
+        },
+        {
+          "word": "horizontal",
+          "start": 276.5662915140788
+        },
+        {
+          "word": "axis",
+          "start": 277.3262917429606
+        },
+        {
+          "word": "check",
+          "start": 277.9662916094462
+        },
+        {
+          "word": "a",
+          "start": 278.28629130427043
+        },
+        {
+          "word": "plan",
+          "start": 278.4462916285197
+        },
+        {
+          "word": "move",
+          "start": 278.84629172388713
+        },
+        {
+          "word": "before",
+          "start": 279.2062913805644
+        },
+        {
+          "word": "taking",
+          "start": 279.52629155222576
+        },
+        {
+          "word": "it",
+          "start": 279.96629113260906
+        },
+        {
+          "word": "if",
+          "start": 280.24629181925457
+        },
+        {
+          "word": "it",
+          "start": 280.4462916285197
+        },
+        {
+          "word": "would",
+          "start": 280.6062914759318
+        },
+        {
+          "word": "leave",
+          "start": 280.84629124705
+        },
+        {
+          "word": "the",
+          "start": 281.12629098002117
+        },
+        {
+          "word": "displayed",
+          "start": 281.2862917811076
+        },
+        {
+          "word": "region",
+          "start": 281.84629124705
+        },
+        {
+          "word": "revise",
+          "start": 282.36629170481365
+        },
+        {
+          "word": "the",
+          "start": 282.84629124705
+        },
+        {
+          "word": "instructions",
+          "start": 283.0462910563151
+        },
+        {
+          "word": "or",
+          "start": 283.84629124705
+        },
+        {
+          "word": "explain",
+          "start": 284.08629101816814
+        },
+        {
+          "word": "the",
+          "start": 284.5662915140788
+        },
+        {
+          "word": "limitation",
+          "start": 284.7262913614909
+        },
+        {
+          "word": "do",
+          "start": 285.5662915140788
+        },
+        {
+          "word": "not",
+          "start": 285.7662913233439
+        },
+        {
+          "word": "silently",
+          "start": 286.0462910563151
+        },
+        {
+          "word": "wrap",
+          "start": 286.92629117075603
+        },
+        {
+          "word": "a",
+          "start": 287.24629086558025
+        },
+        {
+          "word": "counter",
+          "start": 287.4062916666667
+        },
+        {
+          "word": "to",
+          "start": 287.8462922007243
+        },
+        {
+          "word": "the",
+          "start": 287.96629113260906
+        },
+        {
+          "word": "opposite",
+          "start": 288.08629197184246
+        },
+        {
+          "word": "side",
+          "start": 288.68629044596355
+        }
+      ],
+      "asr_text": " OUR FIRST QUADRANT MAP DOES NOT SHOW POSITIONS LEFT OF THE VERTICAL AXIS OR BELOW THE HORIZONTAL AXIS CHECK A PLAN MOVE BEFORE TAKING IT IF IT WOULD LEAVE THE DISPLAYED REGION REVISE THE INSTRUCTIONS OR EXPLAIN THE LIMITATION DO NOT SILENTLY WRAP A COUNTER TO THE OPPOSITE SIDE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Check map boundaries.",
+          "at": 277.9662916094462,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 271.4062916666667,
+      "motion_end": 288.68629044596355,
+      "reveal_at": 288.5362904459636,
+      "speech_end": 289.14141666666666
+    },
+    {
+      "role": "explanation",
+      "chapter": "Give complete instructions",
+      "text": "Tell your partner the starting pair, each direction and distance, and the intended destination. Ask the partner to draw the route without seeing your version. Comparing the two drawings is a useful test of communication. If they differ, identify the first instruction where the paths separate.",
+      "board": [
+        "Start • direction • distance • destination"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Finish"
+        ],
+        "path": true
+      },
+      "index": 16,
+      "start": 289.14141666666666,
+      "end": 306.15049999999997,
+      "words": [
+        {
+          "word": "tell",
+          "start": 289.14141666666666
+        },
+        {
+          "word": "your",
+          "start": 289.38141666130224
+        },
+        {
+          "word": "partner",
+          "start": 289.66141664759317
+        },
+        {
+          "word": "the",
+          "start": 290.101416645209
+        },
+        {
+          "word": "starting",
+          "start": 290.26141667143503
+        },
+        {
+          "word": "pair",
+          "start": 290.7414165712992
+        },
+        {
+          "word": "each",
+          "start": 291.10141658560434
+        },
+        {
+          "word": "direction",
+          "start": 291.4214166380564
+        },
+        {
+          "word": "and",
+          "start": 292.021416542689
+        },
+        {
+          "word": "distance",
+          "start": 292.2214165903727
+        },
+        {
+          "word": "on",
+          "start": 292.78141653315225
+        },
+        {
+          "word": "the",
+          "start": 292.8614166952769
+        },
+        {
+          "word": "intended",
+          "start": 293.021416542689
+        },
+        {
+          "word": "destination",
+          "start": 293.62141668574014
+        },
+        {
+          "word": "ask",
+          "start": 294.5814167238871
+        },
+        {
+          "word": "the",
+          "start": 294.90141641871134
+        },
+        {
+          "word": "partner",
+          "start": 295.14141666666666
+        },
+        {
+          "word": "to",
+          "start": 295.5814167238871
+        },
+        {
+          "word": "draw",
+          "start": 295.7414165712992
+        },
+        {
+          "word": "the",
+          "start": 296.0214163042704
+        },
+        {
+          "word": "route",
+          "start": 296.14141666666666
+        },
+        {
+          "word": "without",
+          "start": 296.5014163233439
+        },
+        {
+          "word": "seeing",
+          "start": 296.8614164568583
+        },
+        {
+          "word": "your",
+          "start": 297.2214165903727
+        },
+        {
+          "word": "version",
+          "start": 297.4614163614909
+        },
+        {
+          "word": "comparing",
+          "start": 298.0214167811076
+        },
+        {
+          "word": "the",
+          "start": 298.661416170756
+        },
+        {
+          "word": "two",
+          "start": 298.8214160181681
+        },
+        {
+          "word": "drawings",
+          "start": 299.10141670481363
+        },
+        {
+          "word": "is",
+          "start": 299.661416170756
+        },
+        {
+          "word": "a",
+          "start": 299.8214160181681
+        },
+        {
+          "word": "useful",
+          "start": 300.0214167811076
+        },
+        {
+          "word": "test",
+          "start": 300.5014163233439
+        },
+        {
+          "word": "of",
+          "start": 300.8214160181681
+        },
+        {
+          "word": "communication",
+          "start": 301.0214167811076
+        },
+        {
+          "word": "if",
+          "start": 302.0214167811076
+        },
+        {
+          "word": "they",
+          "start": 302.26141655222574
+        },
+        {
+          "word": "differ",
+          "start": 302.5014163233439
+        },
+        {
+          "word": "identify",
+          "start": 302.9414159037272
+        },
+        {
+          "word": "the",
+          "start": 303.70141613260904
+        },
+        {
+          "word": "first",
+          "start": 303.9014159418742
+        },
+        {
+          "word": "instruction",
+          "start": 304.2214165903727
+        },
+        {
+          "word": "where",
+          "start": 304.98141586558023
+        },
+        {
+          "word": "the",
+          "start": 305.10141670481363
+        },
+        {
+          "word": "paths",
+          "start": 305.30141651407877
+        },
+        {
+          "word": "separate",
+          "start": 305.66141712443033
+        }
+      ],
+      "asr_text": " TELL YOUR PARTNER THE STARTING PAIR EACH DIRECTION AND DISTANCE ON THE INTENDED DESTINATION ASK THE PARTNER TO DRAW THE ROUTE WITHOUT SEEING YOUR VERSION COMPARING THE TWO DRAWINGS IS A USEFUL TEST OF COMMUNICATION IF THEY DIFFER IDENTIFY THE FIRST INSTRUCTION WHERE THE PATHS SEPARATE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Start • direction • distance • destination",
+          "at": 291.4214166380564,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 289.14141666666666,
+      "motion_end": 305.66141712443033,
+      "reveal_at": 305.51141712443035,
+      "speech_end": 306.15049999999997
+    },
+    {
+      "role": "question",
+      "chapter": "Independent route detective",
+      "text": "A route goes three right and then three left from two, two. A student says nothing happened because the destination is unchanged. Is that a complete description? Decide the destination and total distance separately, and explain what the counter actually did during the journey.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 17,
+      "start": 306.15049999999997,
+      "end": 328.1245833333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 306.15049999999997
+        },
+        {
+          "word": "route",
+          "start": 306.3104999964237
+        },
+        {
+          "word": "goes",
+          "start": 306.71050000238415
+        },
+        {
+          "word": "three",
+          "start": 307.0304999952316
+        },
+        {
+          "word": "right",
+          "start": 307.27050000476834
+        },
+        {
+          "word": "and",
+          "start": 307.59049993801113
+        },
+        {
+          "word": "then",
+          "start": 307.79049998569485
+        },
+        {
+          "word": "three",
+          "start": 307.9904999141693
+        },
+        {
+          "word": "left",
+          "start": 308.27049988555905
+        },
+        {
+          "word": "from",
+          "start": 308.5504998569488
+        },
+        {
+          "word": "two",
+          "start": 308.79049986648556
+        },
+        {
+          "word": "too",
+          "start": 309.11050003814694
+        },
+        {
+          "word": "a",
+          "start": 309.5104998950958
+        },
+        {
+          "word": "student",
+          "start": 309.6704999809265
+        },
+        {
+          "word": "says",
+          "start": 310.3104998474121
+        },
+        {
+          "word": "nothing",
+          "start": 310.6704999809265
+        },
+        {
+          "word": "happened",
+          "start": 311.0705000762939
+        },
+        {
+          "word": "because",
+          "start": 311.5505000953674
+        },
+        {
+          "word": "the",
+          "start": 311.8704997901916
+        },
+        {
+          "word": "destination",
+          "start": 312.0304996376037
+        },
+        {
+          "word": "is",
+          "start": 312.8704997901916
+        },
+        {
+          "word": "unchanged",
+          "start": 313.15049999999997
+        },
+        {
+          "word": "is",
+          "start": 314.07049959945675
+        },
+        {
+          "word": "that",
+          "start": 314.3504998092651
+        },
+        {
+          "word": "a",
+          "start": 314.6304995422363
+        },
+        {
+          "word": "complete",
+          "start": 314.7904993896484
+        },
+        {
+          "word": "description",
+          "start": 315.3504998092651
+        },
+        {
+          "word": "decide",
+          "start": 316.230499923706
+        },
+        {
+          "word": "the",
+          "start": 316.7904993896484
+        },
+        {
+          "word": "destination",
+          "start": 316.99050015258786
+        },
+        {
+          "word": "and",
+          "start": 317.9104992752075
+        },
+        {
+          "word": "total",
+          "start": 318.15049999999997
+        },
+        {
+          "word": "distance",
+          "start": 318.55049961853024
+        },
+        {
+          "word": "separately",
+          "start": 319.0705000762939
+        },
+        {
+          "word": "and",
+          "start": 319.6304995422363
+        },
+        {
+          "word": "explain",
+          "start": 319.83049935150143
+        },
+        {
+          "word": "what",
+          "start": 320.39049977111813
+        },
+        {
+          "word": "the",
+          "start": 320.59049958038327
+        },
+        {
+          "word": "counter",
+          "start": 320.7904993896484
+        },
+        {
+          "word": "actually",
+          "start": 321.27049988555905
+        },
+        {
+          "word": "did",
+          "start": 321.83049935150143
+        },
+        {
+          "word": "during",
+          "start": 322.1904990081787
+        },
+        {
+          "word": "the",
+          "start": 322.4704996948242
+        },
+        {
+          "word": "journey",
+          "start": 322.67050045776364
+        }
+      ],
+      "asr_text": " A ROUTE GOES THREE RIGHT AND THEN THREE LEFT FROM TWO TOO A STUDENT SAYS NOTHING HAPPENED BECAUSE THE DESTINATION IS UNCHANGED IS THAT A COMPLETE DESCRIPTION DECIDE THE DESTINATION AND TOTAL DISTANCE SEPARATELY AND EXPLAIN WHAT THE COUNTER ACTUALLY DID DURING THE JOURNEY",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 306.15049999999997,
+      "motion_end": 322.67050045776364,
+      "reveal_at": 322.52050045776366,
+      "speech_end": 323.1245833333333
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the round trip",
+      "text": "The counter returns to two, two, but it travelled six units altogether: three out and three back. Zero change in position does not mean zero distance travelled. Recording the intermediate point five, two makes the movement visible and supports the explanation.",
+      "board": [
+        "3 + 3 = 6 units; back at (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Return"
+        ],
+        "path": true
+      },
+      "index": 18,
+      "start": 328.1245833333333,
+      "end": 342.95116666666667,
+      "words": [
+        {
+          "word": "the",
+          "start": 328.1245833333333
+        },
+        {
+          "word": "counter",
+          "start": 328.284583329757
+        },
+        {
+          "word": "returns",
+          "start": 328.7245832975705
+        },
+        {
+          "word": "to",
+          "start": 329.16458329518633
+        },
+        {
+          "word": "two",
+          "start": 329.36458334287005
+        },
+        {
+          "word": "but",
+          "start": 329.84458324273425
+        },
+        {
+          "word": "it",
+          "start": 330.00458332856493
+        },
+        {
+          "word": "travels",
+          "start": 330.16458329518633
+        },
+        {
+          "word": "six",
+          "start": 330.6045833524068
+        },
+        {
+          "word": "units",
+          "start": 330.84458336194353
+        },
+        {
+          "word": "altogether",
+          "start": 331.20458325703936
+        },
+        {
+          "word": "three",
+          "start": 331.84458336194353
+        },
+        {
+          "word": "out",
+          "start": 332.1245833333333
+        },
+        {
+          "word": "and",
+          "start": 332.4045830663045
+        },
+        {
+          "word": "three",
+          "start": 332.6045833524068
+        },
+        {
+          "word": "back",
+          "start": 332.884583085378
+        },
+        {
+          "word": "zero",
+          "start": 333.32458314259844
+        },
+        {
+          "word": "change",
+          "start": 333.8045831616719
+        },
+        {
+          "word": "in",
+          "start": 334.20458325703936
+        },
+        {
+          "word": "position",
+          "start": 334.36458310445147
+        },
+        {
+          "word": "does",
+          "start": 334.924583047231
+        },
+        {
+          "word": "not",
+          "start": 335.16458329518633
+        },
+        {
+          "word": "mean",
+          "start": 335.4045830663045
+        },
+        {
+          "word": "zero",
+          "start": 335.8045831616719
+        },
+        {
+          "word": "distance",
+          "start": 336.2445832188924
+        },
+        {
+          "word": "travel",
+          "start": 336.76458272298174
+        },
+        {
+          "word": "recording",
+          "start": 337.36458310445147
+        },
+        {
+          "word": "the",
+          "start": 337.92458352406817
+        },
+        {
+          "word": "intermediate",
+          "start": 338.0845833714803
+        },
+        {
+          "word": "point",
+          "start": 338.88458356221514
+        },
+        {
+          "word": "five",
+          "start": 339.2445832188924
+        },
+        {
+          "word": "two",
+          "start": 339.64458283742266
+        },
+        {
+          "word": "makes",
+          "start": 339.8845826085408
+        },
+        {
+          "word": "the",
+          "start": 340.16458329518633
+        },
+        {
+          "word": "movement",
+          "start": 340.2845831807454
+        },
+        {
+          "word": "visible",
+          "start": 340.6845827992757
+        },
+        {
+          "word": "and",
+          "start": 341.16458329518633
+        },
+        {
+          "word": "supports",
+          "start": 341.36458310445147
+        },
+        {
+          "word": "the",
+          "start": 341.8845826085408
+        },
+        {
+          "word": "explanation",
+          "start": 342.04458340962725
+        }
+      ],
+      "asr_text": " THE COUNTER RETURNS TO TWO BUT IT TRAVELS SIX UNITS ALTOGETHER THREE OUT AND THREE BACK ZERO CHANGE IN POSITION DOES NOT MEAN ZERO DISTANCE TRAVEL RECORDING THE INTERMEDIATE POINT FIVE TWO MAKES THE MOVEMENT VISIBLE AND SUPPORTS THE EXPLANATION",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "3 + 3 = 6 units; back at (2, 2)",
+          "at": 329.46458334287007,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 328.1245833333333,
+      "motion_end": 329.46458334287007,
+      "reveal_at": 329.46458334287007,
+      "speech_end": 342.95116666666667
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Follow and describe routes using coordinates and direction. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can track each route step.",
+        "I can update the correct coordinate.",
+        "I can check a destination and distance."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      },
+      "index": 19,
+      "start": 342.95116666666667,
+      "end": 364.80854166666666,
+      "words": [
+        {
+          "word": "return",
+          "start": 342.95116666666667
+        },
+        {
+          "word": "to",
+          "start": 343.51116666905085
+        },
+        {
+          "word": "our",
+          "start": 343.75116661898295
+        },
+        {
+          "word": "learning",
+          "start": 343.95116666666667
+        },
+        {
+          "word": "goal",
+          "start": 344.39116660467784
+        },
+        {
+          "word": "follow",
+          "start": 344.75116661898295
+        },
+        {
+          "word": "and",
+          "start": 345.1511667143504
+        },
+        {
+          "word": "describe",
+          "start": 345.3511665236155
+        },
+        {
+          "word": "roots",
+          "start": 345.95116666666667
+        },
+        {
+          "word": "using",
+          "start": 346.5111666094462
+        },
+        {
+          "word": "co",
+          "start": 346.91116646639506
+        },
+        {
+          "word": "ordinates",
+          "start": 347.1111665140788
+        },
+        {
+          "word": "and",
+          "start": 347.6711664568583
+        },
+        {
+          "word": "direction",
+          "start": 347.91116670481364
+        },
+        {
+          "word": "choose",
+          "start": 348.6311664950053
+        },
+        {
+          "word": "one",
+          "start": 349.07116655222575
+        },
+        {
+          "word": "example",
+          "start": 349.2711663614909
+        },
+        {
+          "word": "from",
+          "start": 349.8711667429606
+        },
+        {
+          "word": "to",
+          "start": 350.07116655222575
+        },
+        {
+          "word": "day",
+          "start": 350.23116639963786
+        },
+        {
+          "word": "and",
+          "start": 350.4711666475932
+        },
+        {
+          "word": "explain",
+          "start": 350.6711664568583
+        },
+        {
+          "word": "the",
+          "start": 351.1111665140788
+        },
+        {
+          "word": "evidence",
+          "start": 351.2711663614909
+        },
+        {
+          "word": "that",
+          "start": 351.79116681925456
+        },
+        {
+          "word": "made",
+          "start": 351.9911666285197
+        },
+        {
+          "word": "its",
+          "start": 352.23116639963786
+        },
+        {
+          "word": "answer",
+          "start": 352.471166170756
+        },
+        {
+          "word": "convincing",
+          "start": 352.8711667429606
+        },
+        {
+          "word": "which",
+          "start": 353.63116601816813
+        },
+        {
+          "word": "about",
+          "start": 353.8711667429606
+        },
+        {
+          "word": "three",
+          "start": 354.2711663614909
+        },
+        {
+          "word": "success",
+          "start": 354.5511660944621
+        },
+        {
+          "word": "criteria",
+          "start": 355.1111665140788
+        },
+        {
+          "word": "feels",
+          "start": 355.8311667811076
+        },
+        {
+          "word": "secure",
+          "start": 356.19116643778483
+        },
+        {
+          "word": "and",
+          "start": 356.63116601816813
+        },
+        {
+          "word": "which",
+          "start": 356.79116681925456
+        },
+        {
+          "word": "needs",
+          "start": 356.9911666285197
+        },
+        {
+          "word": "another",
+          "start": 357.39116624704997
+        },
+        {
+          "word": "try",
+          "start": 357.79116586558024
+        },
+        {
+          "word": "revisit",
+          "start": 358.2711663614909
+        },
+        {
+          "word": "a",
+          "start": 358.79116586558024
+        },
+        {
+          "word": "model",
+          "start": 358.91116670481364
+        },
+        {
+          "word": "test",
+          "start": 359.3111653696696
+        },
+        {
+          "word": "your",
+          "start": 359.63116697184245
+        },
+        {
+          "word": "explanation",
+          "start": 359.83116582743327
+        },
+        {
+          "word": "with",
+          "start": 360.63116697184245
+        },
+        {
+          "word": "a",
+          "start": 360.7511659037272
+        },
+        {
+          "word": "partner",
+          "start": 360.95116666666667
+        },
+        {
+          "word": "and",
+          "start": 361.35116628519694
+        },
+        {
+          "word": "describe",
+          "start": 361.5511670481364
+        },
+        {
+          "word": "one",
+          "start": 362.1511655222575
+        },
+        {
+          "word": "mistake",
+          "start": 362.35116628519694
+        },
+        {
+          "word": "you",
+          "start": 362.8711667429606
+        },
+        {
+          "word": "can",
+          "start": 363.07116559855143
+        },
+        {
+          "word": "now",
+          "start": 363.3111653696696
+        },
+        {
+          "word": "notice",
+          "start": 363.5511670481364
+        },
+        {
+          "word": "and",
+          "start": 364.07116559855143
+        },
+        {
+          "word": "correct",
+          "start": 364.2711663614909
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL FOLLOW AND DESCRIBE ROOTS USING CO ORDINATES AND DIRECTION CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9944051265189795,
+      "board_events": [
+        {
+          "text": "I can track each route step.",
+          "at": 342.95116666666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can update the correct coordinate.",
+          "at": 342.95116666666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can check a destination and distance.",
+          "at": 342.95116666666667,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 342.95116666666667,
+      "motion_end": 364.2711663614909,
+      "reveal_at": 364.1211663614909,
+      "speech_end": 364.80854166666666
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.0,
+      "text": "A courier must visit a kiosk and then a garden."
+    },
+    {
+      "start": 3.0,
+      "end": 3.3999998569488525,
+      "text": "Knowing the final location is useful, but the courier also needs a route that avoids confusion at every turn."
+    },
+    {
+      "start": 3.3999998569488525,
+      "end": 16.205208333333335,
+      "text": "Today we will track positions step by step and distinguish the destination from the distance actually travelled."
+    },
+    {
+      "start": 16.205208333333335,
+      "end": 16.605208309491477,
+      "text": "Today we are learning to follow and describe routes using coordinates and direction."
+    },
+    {
+      "start": 16.605208309491477,
+      "end": 28.72520783742269,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 28.72520783742269,
+      "end": 30.085208447774253,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 30.085208447774253,
+      "end": 35.500375000000005,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 35.500375000000005,
+      "end": 40.38037511444092,
+      "text": "Our learning goal is to follow and describe routes using coordinates and direction."
+    },
+    {
+      "start": 40.38037511444092,
+      "end": 43.18037482833863,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 43.18037482833863,
+      "end": 50.57079166666667,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 50.57079166666667,
+      "end": 53.250791495005295,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 53.250791495005295,
+      "end": 55.21079153315227,
+      "text": "I can track each route step."
+    },
+    {
+      "start": 55.21079153315227,
+      "end": 57.6107916285197,
+      "text": "I can update the correct coordinate."
+    },
+    {
+      "start": 57.6107916285197,
+      "end": 60.370791857401535,
+      "text": "I can check a destination and distance."
+    },
+    {
+      "start": 60.370791857401535,
+      "end": 64.25079101816814,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 64.25079101816814,
+      "end": 72.9525,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 72.9525,
+      "end": 76.47249998092651,
+      "text": "Put a counter at an intersection on squared paper."
+    },
+    {
+      "start": 76.47249998092651,
+      "end": 79.71249975204468,
+      "text": "Move it along grid lines, one interval at a time."
+    },
+    {
+      "start": 79.71249975204468,
+      "end": 82.59249938964844,
+      "text": "Say right, left, up or down as you move."
+    },
+    {
+      "start": 82.59249938964844,
+      "end": 88.54791666666667,
+      "text": "Record a new ordered pair after each part of the journey, instead of waiting until the very end."
+    },
+    {
+      "start": 88.54791666666667,
+      "end": 91.70791651407878,
+      "text": "A move right increases the first coordinate."
+    },
+    {
+      "start": 91.70791651407878,
+      "end": 93.5879166285197,
+      "text": "A move left decreases it."
+    },
+    {
+      "start": 93.5879166285197,
+      "end": 98.7479164759318,
+      "text": "The second coordinate stays unchanged because the counter has not moved up or down."
+    },
+    {
+      "start": 98.7479164759318,
+      "end": 101.34791590372721,
+      "text": "Point to the row before and after moving."
+    },
+    {
+      "start": 101.34791590372721,
+      "end": 105.43058333333333,
+      "text": "Both positions lie on the same horizontal line of the map."
+    },
+    {
+      "start": 105.43058333333333,
+      "end": 108.7105833047231,
+      "text": "A move upward increases the second coordinate."
+    },
+    {
+      "start": 108.7105833047231,
+      "end": 110.87058339055379,
+      "text": "A move downward decreases it."
+    },
+    {
+      "start": 110.87058339055379,
+      "end": 113.43058333333333,
+      "text": "The first coordinate stays unchanged."
+    },
+    {
+      "start": 113.43058333333333,
+      "end": 116.51058325703939,
+      "text": "Check the column containing both points to see why."
+    },
+    {
+      "start": 116.51058325703939,
+      "end": 124.64320833333333,
+      "text": "These rules describe our map directions; a rotated map would need its directions clarified before someone followed your instructions."
+    },
+    {
+      "start": 124.64320833333333,
+      "end": 126.0832082713445,
+      "text": "Start at two, two."
+    },
+    {
+      "start": 126.0832082713445,
+      "end": 129.16320831425986,
+      "text": "Move four units right and then three units up."
+    },
+    {
+      "start": 129.16320831425986,
+      "end": 130.96320802815757,
+      "text": "Predict the destination."
+    },
+    {
+      "start": 130.96320802815757,
+      "end": 134.96320802815757,
+      "text": "Keep an intermediate position for the end of the rightward move."
+    },
+    {
+      "start": 134.96320802815757,
+      "end": 141.1945,
+      "text": "That extra record will help you discover which step needs fixing if your answer differs from your partner’s."
+    },
+    {
+      "start": 146.1945,
+      "end": 149.55449989509583,
+      "text": "Moving four right changes two, two to six, two."
+    },
+    {
+      "start": 149.55449989509583,
+      "end": 153.03449967575074,
+      "text": "Moving three up then changes six, two to six, five."
+    },
+    {
+      "start": 153.03449967575074,
+      "end": 154.99450019073487,
+      "text": "The kiosk is at six, five."
+    },
+    {
+      "start": 154.99450019073487,
+      "end": 161.9144993133545,
+      "text": "The first part affected only the horizontal coordinate, and the second affected only the vertical coordinate."
+    },
+    {
+      "start": 161.9144993133545,
+      "end": 163.963875,
+      "text": "Each step agrees with the grid."
+    },
+    {
+      "start": 163.963875,
+      "end": 164.16387498807907,
+      "text": "From the kiosk at six, five, travel two units left."
+    },
+    {
+      "start": 164.16387498807907,
+      "end": 167.56387490463257,
+      "text": "The first coordinate decreases from six to four while the second stays five."
+    },
+    {
+      "start": 167.56387490463257,
+      "end": 174.04387492370606,
+      "text": "The garden is at four, five."
+    },
+    {
+      "start": 174.04387492370606,
+      "end": 179.16425,
+      "text": "Starting this new step from the original starting point would describe a different journey."
+    },
+    {
+      "start": 179.16425,
+      "end": 182.40425000953675,
+      "text": "A learner starts every instruction from the origin."
+    },
+    {
+      "start": 182.40425000953675,
+      "end": 187.24424992370606,
+      "text": "That can find several separate points, but it does not follow one continuous route."
+    },
+    {
+      "start": 187.24424992370606,
+      "end": 190.80424938964845,
+      "text": "Each new movement starts where the previous movement ended."
+    },
+    {
+      "start": 190.80424938964845,
+      "end": 196.32816666666668,
+      "text": "Draw connected arrows and keep the most recent ordered pair visible to avoid this mistake."
+    },
+    {
+      "start": 196.32816666666668,
+      "end": 200.56816643778484,
+      "text": "The courier travelled four units right, three units up and two units left."
+    },
+    {
+      "start": 200.56816643778484,
+      "end": 203.96816653315227,
+      "text": "Add those distances to obtain nine units travelled."
+    },
+    {
+      "start": 203.96816653315227,
+      "end": 207.28816670481365,
+      "text": "The destination alone does not show that total."
+    },
+    {
+      "start": 207.28816670481365,
+      "end": 214.07833333333335,
+      "text": "Returning partway along a direction still adds distance to the route, even when it reduces the first coordinate."
+    },
+    {
+      "start": 214.07833333333335,
+      "end": 217.8383333237966,
+      "text": "The courier is at four, five and wants to return to two, two."
+    },
+    {
+      "start": 217.8383333237966,
+      "end": 222.07833333333335,
+      "text": "Predict one route using only horizontal and vertical moves."
+    },
+    {
+      "start": 222.07833333333335,
+      "end": 225.47833295186362,
+      "text": "Decide how much each coordinate must decrease."
+    },
+    {
+      "start": 225.47833295186362,
+      "end": 232.29883333333333,
+      "text": "More than one order of instructions may work, so prepare to justify yours using the actual starting point."
+    },
+    {
+      "start": 240.77883335240682,
+      "end": 241.13883324750265,
+      "text": "Move two units left from four, five to two, five."
+    },
+    {
+      "start": 241.13883324750265,
+      "end": 242.81883331425985,
+      "text": "Then move three units down to two, two."
+    },
+    {
+      "start": 242.81883331425985,
+      "end": 245.61883302815755,
+      "text": "This return route has length five units."
+    },
+    {
+      "start": 245.61883302815755,
+      "end": 253.01883333333333,
+      "text": "Moving down first and left second would also reach home on this unobstructed grid, but the intermediate point would be different."
+    },
+    {
+      "start": 253.01883333333333,
+      "end": 255.65883319981893,
+      "text": "A destination is one location."
+    },
+    {
+      "start": 255.65883319981893,
+      "end": 256.4988333524068,
+      "text": "A route is a sequence of movements leading there."
+    },
+    {
+      "start": 256.4988333524068,
+      "end": 263.1788331807454,
+      "text": "A detour can increase the total distance without changing the destination."
+    },
+    {
+      "start": 263.1788331807454,
+      "end": 271.4062916666667,
+      "text": "When comparing two plans, check both the ordered pairs and the distances rather than assuming every path to the same point is equally long."
+    },
+    {
+      "start": 271.4062916666667,
+      "end": 277.9662916094462,
+      "text": "Our first-quadrant map does not show positions left of the vertical axis or below the horizontal axis."
+    },
+    {
+      "start": 277.9662916094462,
+      "end": 280.24629181925457,
+      "text": "Check a planned move before taking it."
+    },
+    {
+      "start": 280.24629181925457,
+      "end": 285.5662915140788,
+      "text": "If it would leave the displayed region, revise the instructions or explain the limitation."
+    },
+    {
+      "start": 285.5662915140788,
+      "end": 289.14141666666666,
+      "text": "Do not silently wrap a counter to the opposite side."
+    },
+    {
+      "start": 289.14141666666666,
+      "end": 294.5814167238871,
+      "text": "Tell your partner the starting pair, each direction and distance, and the intended destination."
+    },
+    {
+      "start": 294.5814167238871,
+      "end": 298.0214167811076,
+      "text": "Ask the partner to draw the route without seeing your version."
+    },
+    {
+      "start": 298.0214167811076,
+      "end": 302.0214167811076,
+      "text": "Comparing the two drawings is a useful test of communication."
+    },
+    {
+      "start": 302.0214167811076,
+      "end": 306.15049999999997,
+      "text": "If they differ, identify the first instruction where the paths separate."
+    },
+    {
+      "start": 306.15049999999997,
+      "end": 309.5104998950958,
+      "text": "A route goes three right and then three left from two, two."
+    },
+    {
+      "start": 309.5104998950958,
+      "end": 312.8704997901916,
+      "text": "A student says nothing happened because the destination is unchanged."
+    },
+    {
+      "start": 312.8704997901916,
+      "end": 316.230499923706,
+      "text": "Is that a complete description?"
+    },
+    {
+      "start": 316.230499923706,
+      "end": 323.1245833333333,
+      "text": "Decide the destination and total distance separately, and explain what the counter actually did during the journey."
+    },
+    {
+      "start": 328.1245833333333,
+      "end": 333.32458314259844,
+      "text": "The counter returns to two, two, but it travelled six units altogether: three out and three back."
+    },
+    {
+      "start": 333.32458314259844,
+      "end": 337.36458310445147,
+      "text": "Zero change in position does not mean zero distance travelled."
+    },
+    {
+      "start": 337.36458310445147,
+      "end": 342.95116666666667,
+      "text": "Recording the intermediate point five, two makes the movement visible and supports the explanation."
+    },
+    {
+      "start": 342.95116666666667,
+      "end": 344.75116661898295,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 344.75116661898295,
+      "end": 348.6311664950053,
+      "text": "Follow and describe routes using coordinates and direction."
+    },
+    {
+      "start": 348.6311664950053,
+      "end": 353.63116601816813,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 353.63116601816813,
+      "end": 358.2711663614909,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 358.2711663614909,
+      "end": 364.80854166666666,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      141.1945,
+      146.1945,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      232.29883333333333,
+      237.29883333333333,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      323.1245833333333,
+      328.1245833333333,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 364.80854166666666,
+  "narration_sha256": "14781c8e2f145c985ec9f337a4ae86d0b632b7ae98f9355bc5f2c2649d84ec3b",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}
