@@ -1,0 +1,55 @@
+{
+  "result": "passed",
+  "sha256": "453ea91f7f104877bfe993cb7318d3a9e6cabd6e047e40d09eeec3c8e7d13f16",
+  "bytes": 7017093,
+  "duration": 363.1624166666667,
+  "audio_rms": 0.13144336640834808,
+  "clipping_fraction": 0.0,
+  "audio_correlation": 0.999981515185299,
+  "full_decode": true,
+  "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+  "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+  "perceptual_voice_review": "UNVERIFIED",
+  "decoded_frames": 10895,
+  "blank_frame_candidates": 0,
+  "minimum_frame_std": 10.385713124738956,
+  "encoding": {
+    "video": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "fps": 30,
+    "audio": "aac"
+  },
+  "faststart": true,
+  "caption_cues": 81,
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "source_brand_free": true,
+  "declared_prediction_pauses": [
+    [
+      138.82525,
+      143.82525,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      229.26529166666666,
+      234.26529166666666,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      319.4918333333333,
+      324.4918333333333,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "extended_static_intervals": [],
+  "static_threshold_seconds": 8,
+  "all_flagged_intervals_reviewed": false,
+  "full_audio_listened": false,
+  "full_video_viewed": false,
+  "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+  "published": false,
+  "paid_calls": 0
+}

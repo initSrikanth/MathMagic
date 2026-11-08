@@ -1,0 +1,5275 @@
+{
+  "input_hash": "c56eae31077ba79695f1d6f8ca92632a66df0627673083821c740f6247d786fa",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "The package that will not close",
+      "text": "A designer draws six panels for a gift box, but the lid will not close. Is the problem the number of faces, their dimensions, or their arrangement? We will use evidence to repair a design. A drawing can look convincing while still hiding a real construction problem.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 0,
+      "start": 0,
+      "end": 15.758833333333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "designer",
+          "start": 0.1599999964237213
+        },
+        {
+          "word": "draws",
+          "start": 0.7599999904632568
+        },
+        {
+          "word": "six",
+          "start": 1.159999966621399
+        },
+        {
+          "word": "panels",
+          "start": 1.4399999380111694
+        },
+        {
+          "word": "for",
+          "start": 1.9199999570846558
+        },
+        {
+          "word": "a",
+          "start": 2.0399999618530273
+        },
+        {
+          "word": "gift",
+          "start": 2.1599998474121094
+        },
+        {
+          "word": "box",
+          "start": 2.4800000190734863
+        },
+        {
+          "word": "but",
+          "start": 2.799999952316284
+        },
+        {
+          "word": "the",
+          "start": 2.9600000381469727
+        },
+        {
+          "word": "lid",
+          "start": 3.119999885559082
+        },
+        {
+          "word": "will",
+          "start": 3.359999895095825
+        },
+        {
+          "word": "not",
+          "start": 3.559999942779541
+        },
+        {
+          "word": "close",
+          "start": 3.8399999141693115
+        },
+        {
+          "word": "is",
+          "start": 4.319999694824219
+        },
+        {
+          "word": "the",
+          "start": 4.559999942779541
+        },
+        {
+          "word": "problem",
+          "start": 4.71999979019165
+        },
+        {
+          "word": "the",
+          "start": 5.159999847412109
+        },
+        {
+          "word": "number",
+          "start": 5.359999656677246
+        },
+        {
+          "word": "of",
+          "start": 5.679999828338623
+        },
+        {
+          "word": "faces",
+          "start": 5.87999963760376
+        },
+        {
+          "word": "their",
+          "start": 6.399999618530273
+        },
+        {
+          "word": "dimensions",
+          "start": 6.639999866485596
+        },
+        {
+          "word": "or",
+          "start": 7.440000057220459
+        },
+        {
+          "word": "their",
+          "start": 7.639999866485596
+        },
+        {
+          "word": "arrangement",
+          "start": 7.919999599456787
+        },
+        {
+          "word": "we",
+          "start": 8.720000267028809
+        },
+        {
+          "word": "will",
+          "start": 8.880000114440918
+        },
+        {
+          "word": "use",
+          "start": 9.079999923706055
+        },
+        {
+          "word": "evidence",
+          "start": 9.399999618530273
+        },
+        {
+          "word": "to",
+          "start": 9.920000076293945
+        },
+        {
+          "word": "repair",
+          "start": 10.079999923706055
+        },
+        {
+          "word": "a",
+          "start": 10.559999465942383
+        },
+        {
+          "word": "design",
+          "start": 10.719999313354492
+        },
+        {
+          "word": "a",
+          "start": 11.319999694824219
+        },
+        {
+          "word": "drawing",
+          "start": 11.519999504089355
+        },
+        {
+          "word": "can",
+          "start": 11.960000038146973
+        },
+        {
+          "word": "look",
+          "start": 12.15999984741211
+        },
+        {
+          "word": "convincing",
+          "start": 12.359999656677246
+        },
+        {
+          "word": "while",
+          "start": 13.039999961853027
+        },
+        {
+          "word": "still",
+          "start": 13.279999732971191
+        },
+        {
+          "word": "hiding",
+          "start": 13.559999465942383
+        },
+        {
+          "word": "a",
+          "start": 14.0
+        },
+        {
+          "word": "real",
+          "start": 14.15999984741211
+        },
+        {
+          "word": "construction",
+          "start": 14.519999504089355
+        },
+        {
+          "word": "problem",
+          "start": 15.239999771118164
+        }
+      ],
+      "asr_text": " A DESIGNER DRAWS SIX PANELS FOR A GIFT BOX BUT THE LID WILL NOT CLOSE IS THE PROBLEM THE NUMBER OF FACES THEIR DIMENSIONS OR THEIR ARRANGEMENT WE WILL USE EVIDENCE TO REPAIR A DESIGN A DRAWING CAN LOOK CONVINCING WHILE STILL HIDING A REAL CONSTRUCTION PROBLEM",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 15.239999771118164,
+      "reveal_at": 15.089999771118164,
+      "speech_end": 15.758833333333333
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to design, test and improve a net for packaging. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 1,
+      "start": 15.758833333333333,
+      "end": 34.117958333333334,
+      "words": [
+        {
+          "word": "to",
+          "start": 15.758833333333333
+        },
+        {
+          "word": "day",
+          "start": 15.918833329757055
+        },
+        {
+          "word": "we",
+          "start": 16.158833309491477
+        },
+        {
+          "word": "are",
+          "start": 16.31883333571752
+        },
+        {
+          "word": "learning",
+          "start": 16.47883330233892
+        },
+        {
+          "word": "to",
+          "start": 16.83883325703939
+        },
+        {
+          "word": "design",
+          "start": 16.99883334287008
+        },
+        {
+          "word": "test",
+          "start": 17.518833323796592
+        },
+        {
+          "word": "and",
+          "start": 17.918833180745445
+        },
+        {
+          "word": "improve",
+          "start": 18.11883322842916
+        },
+        {
+          "word": "a",
+          "start": 18.638833209355674
+        },
+        {
+          "word": "neck",
+          "start": 18.758833333333335
+        },
+        {
+          "word": "for",
+          "start": 18.99883334287008
+        },
+        {
+          "word": "packaging",
+          "start": 19.158833190282188
+        },
+        {
+          "word": "we",
+          "start": 19.798833295186363
+        },
+        {
+          "word": "will",
+          "start": 19.958833142598472
+        },
+        {
+          "word": "move",
+          "start": 20.158833428700767
+        },
+        {
+          "word": "from",
+          "start": 20.43883316167196
+        },
+        {
+          "word": "objects",
+          "start": 20.67883340962728
+        },
+        {
+          "word": "or",
+          "start": 21.27883331425985
+        },
+        {
+          "word": "hands",
+          "start": 21.478833123524986
+        },
+        {
+          "word": "on",
+          "start": 21.83883325703939
+        },
+        {
+          "word": "actions",
+          "start": 21.9988331044515
+        },
+        {
+          "word": "to",
+          "start": 22.518833085378013
+        },
+        {
+          "word": "drawings",
+          "start": 22.67883340962728
+        },
+        {
+          "word": "then",
+          "start": 23.23883335240682
+        },
+        {
+          "word": "connect",
+          "start": 23.478833123524986
+        },
+        {
+          "word": "those",
+          "start": 23.958833142598472
+        },
+        {
+          "word": "drawings",
+          "start": 24.198832913716636
+        },
+        {
+          "word": "with",
+          "start": 24.798833295186363
+        },
+        {
+          "word": "precise",
+          "start": 25.038833066304527
+        },
+        {
+          "word": "mathematical",
+          "start": 25.598833485921226
+        },
+        {
+          "word": "descriptions",
+          "start": 26.478832646687827
+        },
+        {
+          "word": "keep",
+          "start": 27.358832761128745
+        },
+        {
+          "word": "paper",
+          "start": 27.638833447774253
+        },
+        {
+          "word": "near",
+          "start": 27.9988331044515
+        },
+        {
+          "word": "by",
+          "start": 28.318832799275718
+        },
+        {
+          "word": "if",
+          "start": 28.558832570393882
+        },
+        {
+          "word": "you",
+          "start": 28.718833371480308
+        },
+        {
+          "word": "would",
+          "start": 28.83883325703939
+        },
+        {
+          "word": "like",
+          "start": 29.038833066304527
+        },
+        {
+          "word": "to",
+          "start": 29.198832913716636
+        },
+        {
+          "word": "test",
+          "start": 29.358832761128745
+        },
+        {
+          "word": "an",
+          "start": 29.67883340962728
+        },
+        {
+          "word": "idea",
+          "start": 29.878833218892417
+        },
+        {
+          "word": "for",
+          "start": 30.318832799275718
+        },
+        {
+          "word": "yourself",
+          "start": 30.558832570393882
+        },
+        {
+          "word": "you",
+          "start": 31.198832913716636
+        },
+        {
+          "word": "can",
+          "start": 31.4388326848348
+        },
+        {
+          "word": "pause",
+          "start": 31.67883340962728
+        },
+        {
+          "word": "the",
+          "start": 31.9988331044515
+        },
+        {
+          "word": "player",
+          "start": 32.15883295186361
+        },
+        {
+          "word": "whenever",
+          "start": 32.55883257039388
+        },
+        {
+          "word": "you",
+          "start": 32.958832188924156
+        },
+        {
+          "word": "need",
+          "start": 33.118832036336265
+        },
+        {
+          "word": "more",
+          "start": 33.43883363850912
+        },
+        {
+          "word": "time",
+          "start": 33.71883241780599
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO DESIGN TEST AND IMPROVE A NECK FOR PACKAGING WE WILL MOVE FROM OBJECTS OR HANDS ON ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 15.758833333333333,
+      "motion_end": 33.71883241780599,
+      "reveal_at": 33.56883241780599,
+      "speech_end": 34.117958333333334
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to design, test and improve a net for packaging. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Design, test and improve a net for packaging."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 2,
+      "start": 34.117958333333334,
+      "end": 48.43020833333333,
+      "words": [
+        {
+          "word": "our",
+          "start": 34.117958333333334
+        },
+        {
+          "word": "learning",
+          "start": 34.317958321412405
+        },
+        {
+          "word": "goal",
+          "start": 34.75795831902822
+        },
+        {
+          "word": "is",
+          "start": 35.07795831187566
+        },
+        {
+          "word": "to",
+          "start": 35.27795829995473
+        },
+        {
+          "word": "design",
+          "start": 35.43795826657613
+        },
+        {
+          "word": "test",
+          "start": 35.99795832856496
+        },
+        {
+          "word": "and",
+          "start": 36.397958304723105
+        },
+        {
+          "word": "improve",
+          "start": 36.59795835240682
+        },
+        {
+          "word": "a",
+          "start": 37.07795837148031
+        },
+        {
+          "word": "net",
+          "start": 37.19795825703939
+        },
+        {
+          "word": "for",
+          "start": 37.43795826657613
+        },
+        {
+          "word": "packaging",
+          "start": 37.59795835240682
+        },
+        {
+          "word": "we",
+          "start": 38.237958218892416
+        },
+        {
+          "word": "want",
+          "start": 38.43795802815755
+        },
+        {
+          "word": "to",
+          "start": 38.677958276112875
+        },
+        {
+          "word": "explain",
+          "start": 38.79795816167196
+        },
+        {
+          "word": "why",
+          "start": 39.47795799001058
+        },
+        {
+          "word": "a",
+          "start": 39.79795816167196
+        },
+        {
+          "word": "result",
+          "start": 39.91795804723104
+        },
+        {
+          "word": "is",
+          "start": 40.3579581044515
+        },
+        {
+          "word": "correct",
+          "start": 40.59795835240682
+        },
+        {
+          "word": "as",
+          "start": 41.03795840962728
+        },
+        {
+          "word": "well",
+          "start": 41.19795825703939
+        },
+        {
+          "word": "as",
+          "start": 41.397958066304525
+        },
+        {
+          "word": "obtain",
+          "start": 41.63795831425985
+        },
+        {
+          "word": "the",
+          "start": 42.07795837148031
+        },
+        {
+          "word": "result",
+          "start": 42.237958218892416
+        },
+        {
+          "word": "as",
+          "start": 42.83795860036214
+        },
+        {
+          "word": "you",
+          "start": 43.03795840962728
+        },
+        {
+          "word": "watch",
+          "start": 43.237958218892416
+        },
+        {
+          "word": "look",
+          "start": 43.67795779927572
+        },
+        {
+          "word": "for",
+          "start": 43.957958485921225
+        },
+        {
+          "word": "the",
+          "start": 44.117958333333334
+        },
+        {
+          "word": "evidence",
+          "start": 44.27795818074544
+        },
+        {
+          "word": "that",
+          "start": 44.837957646687826
+        },
+        {
+          "word": "would",
+          "start": 44.99795844777425
+        },
+        {
+          "word": "help",
+          "start": 45.19795825703939
+        },
+        {
+          "word": "you",
+          "start": 45.51795795186361
+        },
+        {
+          "word": "convince",
+          "start": 45.67795779927572
+        },
+        {
+          "word": "a",
+          "start": 46.19795825703939
+        },
+        {
+          "word": "partner",
+          "start": 46.397958066304525
+        },
+        {
+          "word": "who",
+          "start": 46.837957646687826
+        },
+        {
+          "word": "has",
+          "start": 46.99795844777425
+        },
+        {
+          "word": "not",
+          "start": 47.15795829518636
+        },
+        {
+          "word": "seen",
+          "start": 47.397958066304525
+        },
+        {
+          "word": "your",
+          "start": 47.67795779927572
+        },
+        {
+          "word": "working",
+          "start": 47.91795757039388
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO DESIGN TEST AND IMPROVE A NET FOR PACKAGING WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Design, test and improve a net for packaging.",
+          "at": 34.117958333333334,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 34.117958333333334,
+      "motion_end": 47.91795757039388,
+      "reveal_at": 47.76795757039388,
+      "speech_end": 48.43020833333333
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can plan the required faces. I can check dimensions and joins. I can explain a useful repair. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can plan the required faces.",
+        "I can check dimensions and joins.",
+        "I can explain a useful repair."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 3,
+      "start": 48.43020833333333,
+      "end": 70.803,
+      "words": [
+        {
+          "word": "here",
+          "start": 48.43020833333333
+        },
+        {
+          "word": "are",
+          "start": 48.9102083226045
+        },
+        {
+          "word": "our",
+          "start": 49.19020832379659
+        },
+        {
+          "word": "three",
+          "start": 49.47020829518636
+        },
+        {
+          "word": "success",
+          "start": 49.79020834763845
+        },
+        {
+          "word": "criteria",
+          "start": 50.31020832856496
+        },
+        {
+          "word": "i",
+          "start": 51.110208161671956
+        },
+        {
+          "word": "can",
+          "start": 51.31020820935567
+        },
+        {
+          "word": "plan",
+          "start": 51.59020818074544
+        },
+        {
+          "word": "the",
+          "start": 51.95020831425985
+        },
+        {
+          "word": "required",
+          "start": 52.15020836194356
+        },
+        {
+          "word": "faces",
+          "start": 52.75020802815755
+        },
+        {
+          "word": "i",
+          "start": 53.390208371480306
+        },
+        {
+          "word": "can",
+          "start": 53.63020814259847
+        },
+        {
+          "word": "check",
+          "start": 53.830208428700765
+        },
+        {
+          "word": "dimensions",
+          "start": 54.19020808537801
+        },
+        {
+          "word": "and",
+          "start": 55.0302082379659
+        },
+        {
+          "word": "joints",
+          "start": 55.270208009084065
+        },
+        {
+          "word": "i",
+          "start": 55.91020835240682
+        },
+        {
+          "word": "can",
+          "start": 56.110208161671956
+        },
+        {
+          "word": "explain",
+          "start": 56.35020793279012
+        },
+        {
+          "word": "a",
+          "start": 56.95020783742269
+        },
+        {
+          "word": "useful",
+          "start": 57.15020860036214
+        },
+        {
+          "word": "repair",
+          "start": 57.63020814259847
+        },
+        {
+          "word": "we",
+          "start": 58.230208524068196
+        },
+        {
+          "word": "will",
+          "start": 58.390208371480306
+        },
+        {
+          "word": "check",
+          "start": 58.59020818074544
+        },
+        {
+          "word": "these",
+          "start": 58.91020787556966
+        },
+        {
+          "word": "ideas",
+          "start": 59.19020856221517
+        },
+        {
+          "word": "in",
+          "start": 59.79020799001058
+        },
+        {
+          "word": "two",
+          "start": 59.990207799275716
+        },
+        {
+          "word": "worked",
+          "start": 60.27020848592122
+        },
+        {
+          "word": "examples",
+          "start": 60.59020818074544
+        },
+        {
+          "word": "investigate",
+          "start": 61.31020844777425
+        },
+        {
+          "word": "a",
+          "start": 62.07020772298177
+        },
+        {
+          "word": "common",
+          "start": 62.23020757039388
+        },
+        {
+          "word": "mistake",
+          "start": 62.59020818074544
+        },
+        {
+          "word": "and",
+          "start": 63.150207646687825
+        },
+        {
+          "word": "finish",
+          "start": 63.31020844777425
+        },
+        {
+          "word": "with",
+          "start": 63.710208066304524
+        },
+        {
+          "word": "an",
+          "start": 63.91020787556966
+        },
+        {
+          "word": "independent",
+          "start": 64.11020768483479
+        },
+        {
+          "word": "challenge",
+          "start": 64.87020886739094
+        },
+        {
+          "word": "a",
+          "start": 65.51020825703938
+        },
+        {
+          "word": "good",
+          "start": 65.67020810445149
+        },
+        {
+          "word": "explanation",
+          "start": 65.950208791097
+        },
+        {
+          "word": "links",
+          "start": 66.79020703633626
+        },
+        {
+          "word": "what",
+          "start": 67.23020757039387
+        },
+        {
+          "word": "you",
+          "start": 67.43020833333333
+        },
+        {
+          "word": "see",
+          "start": 67.63020718892415
+        },
+        {
+          "word": "in",
+          "start": 67.8302079518636
+        },
+        {
+          "word": "the",
+          "start": 67.950208791097
+        },
+        {
+          "word": "model",
+          "start": 68.1102086385091
+        },
+        {
+          "word": "with",
+          "start": 68.43020833333333
+        },
+        {
+          "word": "the",
+          "start": 68.59020818074544
+        },
+        {
+          "word": "mathematical",
+          "start": 68.75020802815754
+        },
+        {
+          "word": "rule",
+          "start": 69.55020726521809
+        },
+        {
+          "word": "being",
+          "start": 69.91020787556965
+        },
+        {
+          "word": "used",
+          "start": 70.27020848592122
+        }
+      ],
+      "asr_text": " HERE ARE OUR THREE SUCCESS CRITERIA I CAN PLAN THE REQUIRED FACES I CAN CHECK DIMENSIONS AND JOINTS I CAN EXPLAIN A USEFUL REPAIR WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can plan the required faces.",
+          "at": 48.43020833333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can check dimensions and joins.",
+          "at": 48.43020833333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can explain a useful repair.",
+          "at": 48.43020833333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 48.43020833333333,
+      "motion_end": 70.27020848592122,
+      "reveal_at": 70.12020848592121,
+      "speech_end": 70.803
+    },
+    {
+      "role": "explanation",
+      "chapter": "Make a physical prototype",
+      "text": "Use scrap paper before cutting expensive card. Draw fold lines, label each panel and mark the intended base. Cut only around the outside with adult help when needed. Gently fold along shared edges. Testing a small prototype helps you find errors while changes are still easy.",
+      "board": [
+        "Plan → fold → inspect → revise"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 4,
+      "start": 70.803,
+      "end": 89.59683333333334,
+      "words": [
+        {
+          "word": "use",
+          "start": 70.803
+        },
+        {
+          "word": "scrap",
+          "start": 71.20299997615814
+        },
+        {
+          "word": "paper",
+          "start": 71.60299995231628
+        },
+        {
+          "word": "before",
+          "start": 72.1229999332428
+        },
+        {
+          "word": "cutting",
+          "start": 72.44299998569488
+        },
+        {
+          "word": "expensive",
+          "start": 72.88299992370605
+        },
+        {
+          "word": "guard",
+          "start": 73.56299999046325
+        },
+        {
+          "word": "draw",
+          "start": 74.08299997138977
+        },
+        {
+          "word": "fold",
+          "start": 74.48299982833862
+        },
+        {
+          "word": "lines",
+          "start": 74.84299996185302
+        },
+        {
+          "word": "label",
+          "start": 75.36299994277954
+        },
+        {
+          "word": "each",
+          "start": 75.76300003814697
+        },
+        {
+          "word": "panel",
+          "start": 76.08299973297119
+        },
+        {
+          "word": "and",
+          "start": 76.56299975204468
+        },
+        {
+          "word": "mark",
+          "start": 76.76300003814697
+        },
+        {
+          "word": "the",
+          "start": 77.04299977111816
+        },
+        {
+          "word": "intended",
+          "start": 77.24300005722046
+        },
+        {
+          "word": "bass",
+          "start": 77.84299996185302
+        },
+        {
+          "word": "cut",
+          "start": 78.32299998092651
+        },
+        {
+          "word": "only",
+          "start": 78.72299959945678
+        },
+        {
+          "word": "around",
+          "start": 79.04299977111816
+        },
+        {
+          "word": "the",
+          "start": 79.36299946594238
+        },
+        {
+          "word": "outside",
+          "start": 79.56300022888183
+        },
+        {
+          "word": "with",
+          "start": 80.20299961853027
+        },
+        {
+          "word": "adult",
+          "start": 80.40299942779541
+        },
+        {
+          "word": "help",
+          "start": 80.88299992370605
+        },
+        {
+          "word": "when",
+          "start": 81.16299965667724
+        },
+        {
+          "word": "needed",
+          "start": 81.40299942779541
+        },
+        {
+          "word": "gently",
+          "start": 82.00299980926513
+        },
+        {
+          "word": "fold",
+          "start": 82.52299931335449
+        },
+        {
+          "word": "along",
+          "start": 83.08299973297119
+        },
+        {
+          "word": "shared",
+          "start": 83.52299931335449
+        },
+        {
+          "word": "edges",
+          "start": 83.92299988555908
+        },
+        {
+          "word": "testing",
+          "start": 84.56299927520752
+        },
+        {
+          "word": "a",
+          "start": 85.08299973297119
+        },
+        {
+          "word": "small",
+          "start": 85.28299954223633
+        },
+        {
+          "word": "prototype",
+          "start": 85.64299919891357
+        },
+        {
+          "word": "help",
+          "start": 86.40299942779541
+        },
+        {
+          "word": "you",
+          "start": 86.68300011444092
+        },
+        {
+          "word": "find",
+          "start": 86.88299992370605
+        },
+        {
+          "word": "errors",
+          "start": 87.24300053405761
+        },
+        {
+          "word": "while",
+          "start": 87.72300007629394
+        },
+        {
+          "word": "changes",
+          "start": 88.00299885559082
+        },
+        {
+          "word": "are",
+          "start": 88.56300022888183
+        },
+        {
+          "word": "still",
+          "start": 88.72300007629394
+        },
+        {
+          "word": "easy",
+          "start": 89.04299977111816
+        }
+      ],
+      "asr_text": " USE SCRAP PAPER BEFORE CUTTING EXPENSIVE GUARD DRAW FOLD LINES LABEL EACH PANEL AND MARK THE INTENDED BASS CUT ONLY AROUND THE OUTSIDE WITH ADULT HELP WHEN NEEDED GENTLY FOLD ALONG SHARED EDGES TESTING A SMALL PROTOTYPE HELP YOU FIND ERRORS WHILE CHANGES ARE STILL EASY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Plan → fold → inspect → revise",
+          "at": 74.48299982833862,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 70.803,
+      "motion_end": 89.04299977111816,
+      "reveal_at": 88.89299977111816,
+      "speech_end": 89.59683333333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Start from the solid",
+      "text": "Imagine a rectangular box two units long, one unit wide and one unit high. It needs two long horizontal faces, two long side faces, and two square end faces. Opposite faces match. Listing the required faces gives us a useful check before we choose an arrangement.",
+      "board": [
+        "Box dimensions: 2 by 1 by 1"
+      ],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 5,
+      "start": 89.59683333333334,
+      "end": 106.84458333333333,
+      "words": [
+        {
+          "word": "imagine",
+          "start": 89.59683333333334
+        },
+        {
+          "word": "a",
+          "start": 90.31683330233892
+        },
+        {
+          "word": "rectangular",
+          "start": 90.47683332856496
+        },
+        {
+          "word": "box",
+          "start": 91.27683328088125
+        },
+        {
+          "word": "two",
+          "start": 91.63683329518636
+        },
+        {
+          "word": "units",
+          "start": 91.83683334287008
+        },
+        {
+          "word": "long",
+          "start": 92.23683319981893
+        },
+        {
+          "word": "one",
+          "start": 92.55683337148031
+        },
+        {
+          "word": "unit",
+          "start": 92.79683314259847
+        },
+        {
+          "word": "wide",
+          "start": 93.15683327611288
+        },
+        {
+          "word": "and",
+          "start": 93.59683333333334
+        },
+        {
+          "word": "one",
+          "start": 93.79683314259847
+        },
+        {
+          "word": "unit",
+          "start": 94.07683335240682
+        },
+        {
+          "word": "high",
+          "start": 94.47683344777425
+        },
+        {
+          "word": "it",
+          "start": 94.75683318074545
+        },
+        {
+          "word": "needs",
+          "start": 94.95683299001058
+        },
+        {
+          "word": "two",
+          "start": 95.31683312352499
+        },
+        {
+          "word": "long",
+          "start": 95.59683333333334
+        },
+        {
+          "word": "horizontal",
+          "start": 95.8368331044515
+        },
+        {
+          "word": "faces",
+          "start": 96.55683337148031
+        },
+        {
+          "word": "two",
+          "start": 97.0368333905538
+        },
+        {
+          "word": "long",
+          "start": 97.27683316167196
+        },
+        {
+          "word": "side",
+          "start": 97.59683333333334
+        },
+        {
+          "word": "faces",
+          "start": 97.95683299001058
+        },
+        {
+          "word": "and",
+          "start": 98.3968335240682
+        },
+        {
+          "word": "two",
+          "start": 98.59683333333334
+        },
+        {
+          "word": "square",
+          "start": 98.8368331044515
+        },
+        {
+          "word": "end",
+          "start": 99.2768326848348
+        },
+        {
+          "word": "faces",
+          "start": 99.55683337148031
+        },
+        {
+          "word": "opposite",
+          "start": 100.15683279927572
+        },
+        {
+          "word": "faces",
+          "start": 100.8368331044515
+        },
+        {
+          "word": "match",
+          "start": 101.35683260854086
+        },
+        {
+          "word": "listing",
+          "start": 101.87683306630453
+        },
+        {
+          "word": "the",
+          "start": 102.39683257039388
+        },
+        {
+          "word": "required",
+          "start": 102.59683333333334
+        },
+        {
+          "word": "faces",
+          "start": 103.19683276112875
+        },
+        {
+          "word": "gives",
+          "start": 103.71683321889242
+        },
+        {
+          "word": "us",
+          "start": 103.99683295186361
+        },
+        {
+          "word": "a",
+          "start": 104.19683276112875
+        },
+        {
+          "word": "useful",
+          "start": 104.35683260854086
+        },
+        {
+          "word": "check",
+          "start": 104.79683314259847
+        },
+        {
+          "word": "before",
+          "start": 105.15683279927572
+        },
+        {
+          "word": "we",
+          "start": 105.43683253224691
+        },
+        {
+          "word": "choose",
+          "start": 105.59683333333334
+        },
+        {
+          "word": "an",
+          "start": 105.91683302815755
+        },
+        {
+          "word": "arrangement",
+          "start": 106.07683287556966
+        }
+      ],
+      "asr_text": " IMAGINE A RECTANGULAR BOX TWO UNITS LONG ONE UNIT WIDE AND ONE UNIT HIGH IT NEEDS TWO LONG HORIZONTAL FACES TWO LONG SIDE FACES AND TWO SQUARE END FACES OPPOSITE FACES MATCH LISTING THE REQUIRED FACES GIVES US A USEFUL CHECK BEFORE WE CHOOSE AN ARRANGEMENT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Box dimensions: 2 by 1 by 1",
+          "at": 92.6568333714803,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 89.59683333333334,
+      "motion_end": 106.07683287556966,
+      "reveal_at": 105.92683287556966,
+      "speech_end": 106.84458333333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use matching dimensions",
+      "text": "Our box needs four rectangles measuring two units by one unit and two squares measuring one by one. A shared fold edge must have the same length on both panels. Equal numbers of panels do not help if one intended join is longer on one side than the other.",
+      "board": [
+        "4 rectangles, 2 squares"
+      ],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 6,
+      "start": 106.84458333333333,
+      "end": 122.93375,
+      "words": [
+        {
+          "word": "our",
+          "start": 106.84458333333333
+        },
+        {
+          "word": "box",
+          "start": 107.12458333452543
+        },
+        {
+          "word": "needs",
+          "start": 107.48458331902822
+        },
+        {
+          "word": "four",
+          "start": 107.92458325703939
+        },
+        {
+          "word": "rectangles",
+          "start": 108.16458326657613
+        },
+        {
+          "word": "measuring",
+          "start": 108.96458321889241
+        },
+        {
+          "word": "two",
+          "start": 109.4445832379659
+        },
+        {
+          "word": "units",
+          "start": 109.68458324750264
+        },
+        {
+          "word": "by",
+          "start": 110.08458334287008
+        },
+        {
+          "word": "one",
+          "start": 110.28458315213521
+        },
+        {
+          "word": "unit",
+          "start": 110.48458319981893
+        },
+        {
+          "word": "and",
+          "start": 110.84458333333333
+        },
+        {
+          "word": "two",
+          "start": 111.00458318074544
+        },
+        {
+          "word": "squares",
+          "start": 111.20458346684774
+        },
+        {
+          "word": "measuring",
+          "start": 111.76458340962728
+        },
+        {
+          "word": "one",
+          "start": 112.28458339055379
+        },
+        {
+          "word": "by",
+          "start": 112.60458308537801
+        },
+        {
+          "word": "one",
+          "start": 112.84458333333333
+        },
+        {
+          "word": "a",
+          "start": 113.20458299001058
+        },
+        {
+          "word": "shared",
+          "start": 113.4445832379659
+        },
+        {
+          "word": "fold",
+          "start": 113.92458325703939
+        },
+        {
+          "word": "edge",
+          "start": 114.36458331425985
+        },
+        {
+          "word": "must",
+          "start": 114.76458293279012
+        },
+        {
+          "word": "have",
+          "start": 115.04458314259847
+        },
+        {
+          "word": "the",
+          "start": 115.2445829518636
+        },
+        {
+          "word": "same",
+          "start": 115.36458283742269
+        },
+        {
+          "word": "length",
+          "start": 115.6445835240682
+        },
+        {
+          "word": "on",
+          "start": 116.00458318074544
+        },
+        {
+          "word": "both",
+          "start": 116.16458302815755
+        },
+        {
+          "word": "panels",
+          "start": 116.5245826848348
+        },
+        {
+          "word": "equal",
+          "start": 117.0845831044515
+        },
+        {
+          "word": "numbers",
+          "start": 117.5245826848348
+        },
+        {
+          "word": "of",
+          "start": 117.96458321889241
+        },
+        {
+          "word": "panels",
+          "start": 118.12458306630452
+        },
+        {
+          "word": "do",
+          "start": 118.56458264668782
+        },
+        {
+          "word": "not",
+          "start": 118.72458344777425
+        },
+        {
+          "word": "help",
+          "start": 118.96458321889241
+        },
+        {
+          "word": "if",
+          "start": 119.2445829518636
+        },
+        {
+          "word": "one",
+          "start": 119.44458276112874
+        },
+        {
+          "word": "intended",
+          "start": 119.72458344777425
+        },
+        {
+          "word": "join",
+          "start": 120.40458279927572
+        },
+        {
+          "word": "is",
+          "start": 120.76458340962728
+        },
+        {
+          "word": "longer",
+          "start": 121.00458318074544
+        },
+        {
+          "word": "on",
+          "start": 121.40458279927572
+        },
+        {
+          "word": "one",
+          "start": 121.56458264668782
+        },
+        {
+          "word": "side",
+          "start": 121.84458333333333
+        },
+        {
+          "word": "than",
+          "start": 122.20458299001058
+        },
+        {
+          "word": "the",
+          "start": 122.40458279927572
+        },
+        {
+          "word": "other",
+          "start": 122.56458264668782
+        }
+      ],
+      "asr_text": " OUR BOX NEEDS FOUR RECTANGLES MEASURING TWO UNITS BY ONE UNIT AND TWO SQUARES MEASURING ONE BY ONE A SHARED FOLD EDGE MUST HAVE THE SAME LENGTH ON BOTH PANELS EQUAL NUMBERS OF PANELS DO NOT HELP IF ONE INTENDED JOIN IS LONGER ON ONE SIDE THAN THE OTHER",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "4 rectangles, 2 squares",
+          "at": 109.5445832379659,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 106.84458333333333,
+      "motion_end": 122.56458264668782,
+      "reveal_at": 122.41458264668782,
+      "speech_end": 122.93375
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a useful placement",
+      "text": "Look at the band of four rectangles. The two square end faces must close opposite openings when the band wraps around. Should both squares try to cover the same end? Predict where to place them, then explain which opening each square is meant to close.",
+      "board": [],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 7,
+      "start": 122.93375,
+      "end": 143.82525,
+      "words": [
+        {
+          "word": "look",
+          "start": 122.93375
+        },
+        {
+          "word": "at",
+          "start": 123.2937499845028
+        },
+        {
+          "word": "the",
+          "start": 123.45374998092652
+        },
+        {
+          "word": "band",
+          "start": 123.65374996900559
+        },
+        {
+          "word": "of",
+          "start": 124.05375000476837
+        },
+        {
+          "word": "four",
+          "start": 124.29375001430512
+        },
+        {
+          "word": "rectangles",
+          "start": 124.57374998569489
+        },
+        {
+          "word": "the",
+          "start": 125.53374990463257
+        },
+        {
+          "word": "two",
+          "start": 125.73374995231629
+        },
+        {
+          "word": "square",
+          "start": 126.01374992370606
+        },
+        {
+          "word": "end",
+          "start": 126.45374998092652
+        },
+        {
+          "word": "faces",
+          "start": 126.73374995231629
+        },
+        {
+          "word": "must",
+          "start": 127.33375009536744
+        },
+        {
+          "word": "close",
+          "start": 127.65374979019165
+        },
+        {
+          "word": "opposite",
+          "start": 128.05374988555909
+        },
+        {
+          "word": "openings",
+          "start": 128.61374982833863
+        },
+        {
+          "word": "when",
+          "start": 129.2137497329712
+        },
+        {
+          "word": "the",
+          "start": 129.37375005722046
+        },
+        {
+          "word": "band",
+          "start": 129.5737498664856
+        },
+        {
+          "word": "wraps",
+          "start": 129.89375003814698
+        },
+        {
+          "word": "around",
+          "start": 130.29374965667725
+        },
+        {
+          "word": "should",
+          "start": 130.8537495994568
+        },
+        {
+          "word": "both",
+          "start": 131.13374980926514
+        },
+        {
+          "word": "squares",
+          "start": 131.4937494659424
+        },
+        {
+          "word": "try",
+          "start": 131.97374996185303
+        },
+        {
+          "word": "to",
+          "start": 132.2137497329712
+        },
+        {
+          "word": "cover",
+          "start": 132.3737495803833
+        },
+        {
+          "word": "the",
+          "start": 132.69375022888184
+        },
+        {
+          "word": "same",
+          "start": 132.85375007629395
+        },
+        {
+          "word": "end",
+          "start": 133.17374977111817
+        },
+        {
+          "word": "predict",
+          "start": 133.6537493133545
+        },
+        {
+          "word": "where",
+          "start": 134.13374980926514
+        },
+        {
+          "word": "to",
+          "start": 134.3737495803833
+        },
+        {
+          "word": "place",
+          "start": 134.57374938964844
+        },
+        {
+          "word": "them",
+          "start": 134.89375003814698
+        },
+        {
+          "word": "then",
+          "start": 135.17374977111817
+        },
+        {
+          "word": "explain",
+          "start": 135.45374950408936
+        },
+        {
+          "word": "which",
+          "start": 136.01374992370606
+        },
+        {
+          "word": "opening",
+          "start": 136.29374965667725
+        },
+        {
+          "word": "each",
+          "start": 136.85375007629395
+        },
+        {
+          "word": "square",
+          "start": 137.13374980926514
+        },
+        {
+          "word": "is",
+          "start": 137.57374938964844
+        },
+        {
+          "word": "meant",
+          "start": 137.81375011444092
+        },
+        {
+          "word": "to",
+          "start": 138.05374988555909
+        },
+        {
+          "word": "close",
+          "start": 138.29374965667725
+        }
+      ],
+      "asr_text": " LOOK AT THE BAND OF FOUR RECTANGLES THE TWO SQUARE END FACES MUST CLOSE OPPOSITE OPENINGS WHEN THE BAND WRAPS AROUND SHOULD BOTH SQUARES TRY TO COVER THE SAME END PREDICT WHERE TO PLACE THEM THEN EXPLAIN WHICH OPENING EACH SQUARE IS MEANT TO CLOSE",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 122.93375,
+      "motion_end": 138.29374965667725,
+      "reveal_at": 138.14374965667724,
+      "speech_end": 138.82525
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: a box net",
+      "text": "The four rectangles wrap into the four long faces of the box. Attach one square to each side of the band so they close opposite ends. The short edges match the square sides. We have accounted for every face and assigned each panel a different place on the solid.",
+      "board": [
+        "Close opposite ends with the squares."
+      ],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 8,
+      "start": 143.82525,
+      "end": 159.96304166666667,
+      "words": [
+        {
+          "word": "the",
+          "start": 143.82525
+        },
+        {
+          "word": "four",
+          "start": 144.0652499946356
+        },
+        {
+          "word": "rectangles",
+          "start": 144.30524998927118
+        },
+        {
+          "word": "wrap",
+          "start": 145.26524993801118
+        },
+        {
+          "word": "into",
+          "start": 145.66524991416932
+        },
+        {
+          "word": "the",
+          "start": 145.90524992370607
+        },
+        {
+          "word": "four",
+          "start": 146.1452499332428
+        },
+        {
+          "word": "long",
+          "start": 146.42524990463258
+        },
+        {
+          "word": "faces",
+          "start": 146.74524983787538
+        },
+        {
+          "word": "of",
+          "start": 147.22524985694886
+        },
+        {
+          "word": "the",
+          "start": 147.3052500190735
+        },
+        {
+          "word": "box",
+          "start": 147.50524982833863
+        },
+        {
+          "word": "attach",
+          "start": 147.98524984741212
+        },
+        {
+          "word": "one",
+          "start": 148.50524982833863
+        },
+        {
+          "word": "square",
+          "start": 148.74525007629396
+        },
+        {
+          "word": "to",
+          "start": 149.1052497329712
+        },
+        {
+          "word": "each",
+          "start": 149.3052500190735
+        },
+        {
+          "word": "side",
+          "start": 149.62524971389772
+        },
+        {
+          "word": "of",
+          "start": 149.86524996185304
+        },
+        {
+          "word": "the",
+          "start": 149.9452498855591
+        },
+        {
+          "word": "band",
+          "start": 150.1052497329712
+        },
+        {
+          "word": "so",
+          "start": 150.42524990463258
+        },
+        {
+          "word": "they",
+          "start": 150.62524971389772
+        },
+        {
+          "word": "close",
+          "start": 150.82525
+        },
+        {
+          "word": "opposite",
+          "start": 151.18524965667726
+        },
+        {
+          "word": "ends",
+          "start": 151.7452495994568
+        },
+        {
+          "word": "the",
+          "start": 152.18524965667726
+        },
+        {
+          "word": "short",
+          "start": 152.42524942779542
+        },
+        {
+          "word": "edges",
+          "start": 152.78525003814698
+        },
+        {
+          "word": "match",
+          "start": 153.34524950408937
+        },
+        {
+          "word": "the",
+          "start": 153.6652501525879
+        },
+        {
+          "word": "square",
+          "start": 153.82525
+        },
+        {
+          "word": "sides",
+          "start": 154.22524961853028
+        },
+        {
+          "word": "we",
+          "start": 154.78525003814698
+        },
+        {
+          "word": "have",
+          "start": 154.98524984741212
+        },
+        {
+          "word": "accounted",
+          "start": 155.14524969482423
+        },
+        {
+          "word": "for",
+          "start": 155.74525007629396
+        },
+        {
+          "word": "every",
+          "start": 155.98524984741212
+        },
+        {
+          "word": "face",
+          "start": 156.34524950408937
+        },
+        {
+          "word": "and",
+          "start": 156.6652501525879
+        },
+        {
+          "word": "assigned",
+          "start": 156.86524996185304
+        },
+        {
+          "word": "each",
+          "start": 157.42524942779542
+        },
+        {
+          "word": "panel",
+          "start": 157.70525011444093
+        },
+        {
+          "word": "a",
+          "start": 158.18524965667726
+        },
+        {
+          "word": "different",
+          "start": 158.34524950408937
+        },
+        {
+          "word": "place",
+          "start": 158.78525003814698
+        },
+        {
+          "word": "on",
+          "start": 159.14524969482423
+        },
+        {
+          "word": "the",
+          "start": 159.30524954223634
+        },
+        {
+          "word": "solid",
+          "start": 159.46524938964845
+        }
+      ],
+      "asr_text": " THE FOUR RECTANGLES WRAP INTO THE FOUR LONG FACES OF THE BOX ATTACH ONE SQUARE TO EACH SIDE OF THE BAND SO THEY CLOSE OPPOSITE ENDS THE SHORT EDGES MATCH THE SQUARE SIDES WE HAVE ACCOUNTED FOR EVERY FACE AND ASSIGNED EACH PANEL A DIFFERENT PLACE ON THE SOLID",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Close opposite ends with the squares.",
+          "at": 150.82525,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 143.82525,
+      "motion_end": 159.46524938964845,
+      "reveal_at": 159.31524938964844,
+      "speech_end": 159.96304166666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Separate folds from cuts",
+      "text": "A fold line joins two faces that remain connected in the flat design. A cut separates edges that will meet later when the package closes. Marking these differently helps someone else build your design. A glue tab lies outside a face and supports a join; it does not change the face count.",
+      "board": [
+        "Shared edge: fold. Outside edge: cut."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 9,
+      "start": 159.96304166666667,
+      "end": 178.21666666666667,
+      "words": [
+        {
+          "word": "a",
+          "start": 159.96304166666667
+        },
+        {
+          "word": "fold",
+          "start": 160.16304165474574
+        },
+        {
+          "word": "line",
+          "start": 160.60304165236155
+        },
+        {
+          "word": "joins",
+          "start": 161.08304167143504
+        },
+        {
+          "word": "two",
+          "start": 161.64304161421458
+        },
+        {
+          "word": "faces",
+          "start": 161.92304158560435
+        },
+        {
+          "word": "that",
+          "start": 162.44304168574016
+        },
+        {
+          "word": "remain",
+          "start": 162.60304153315226
+        },
+        {
+          "word": "connected",
+          "start": 163.0030416285197
+        },
+        {
+          "word": "in",
+          "start": 163.60304153315226
+        },
+        {
+          "word": "the",
+          "start": 163.76304161898295
+        },
+        {
+          "word": "flat",
+          "start": 163.92304146639506
+        },
+        {
+          "word": "design",
+          "start": 164.24304139963786
+        },
+        {
+          "word": "a",
+          "start": 164.8430417811076
+        },
+        {
+          "word": "cut",
+          "start": 165.08304155222575
+        },
+        {
+          "word": "separates",
+          "start": 165.40304172388713
+        },
+        {
+          "word": "edges",
+          "start": 166.0030416285197
+        },
+        {
+          "word": "that",
+          "start": 166.5230416094462
+        },
+        {
+          "word": "will",
+          "start": 166.68304145685832
+        },
+        {
+          "word": "meet",
+          "start": 166.84304130427043
+        },
+        {
+          "word": "later",
+          "start": 167.1630414759318
+        },
+        {
+          "word": "when",
+          "start": 167.56304157129924
+        },
+        {
+          "word": "the",
+          "start": 167.72304141871135
+        },
+        {
+          "word": "package",
+          "start": 167.88304126612346
+        },
+        {
+          "word": "closes",
+          "start": 168.36304128519694
+        },
+        {
+          "word": "marking",
+          "start": 169.12304151407878
+        },
+        {
+          "word": "these",
+          "start": 169.6030410563151
+        },
+        {
+          "word": "differently",
+          "start": 169.96304166666667
+        },
+        {
+          "word": "help",
+          "start": 170.64304101816813
+        },
+        {
+          "word": "someone",
+          "start": 170.96304166666667
+        },
+        {
+          "word": "else",
+          "start": 171.32304132334392
+        },
+        {
+          "word": "build",
+          "start": 171.6030410563151
+        },
+        {
+          "word": "your",
+          "start": 171.88304174296061
+        },
+        {
+          "word": "design",
+          "start": 172.12304151407878
+        },
+        {
+          "word": "a",
+          "start": 172.7230409418742
+        },
+        {
+          "word": "glue",
+          "start": 172.88304174296061
+        },
+        {
+          "word": "tab",
+          "start": 173.24304139963786
+        },
+        {
+          "word": "lies",
+          "start": 173.7230409418742
+        },
+        {
+          "word": "outside",
+          "start": 174.12304151407878
+        },
+        {
+          "word": "a",
+          "start": 174.6030410563151
+        },
+        {
+          "word": "face",
+          "start": 174.76304090372722
+        },
+        {
+          "word": "and",
+          "start": 175.08304155222575
+        },
+        {
+          "word": "supports",
+          "start": 175.24304139963786
+        },
+        {
+          "word": "a",
+          "start": 175.76304090372722
+        },
+        {
+          "word": "join",
+          "start": 175.92304170481364
+        },
+        {
+          "word": "it",
+          "start": 176.3230403696696
+        },
+        {
+          "word": "does",
+          "start": 176.48304212443034
+        },
+        {
+          "word": "not",
+          "start": 176.7230418955485
+        },
+        {
+          "word": "change",
+          "start": 176.92304075113933
+        },
+        {
+          "word": "the",
+          "start": 177.2830413614909
+        },
+        {
+          "word": "face",
+          "start": 177.48304212443034
+        },
+        {
+          "word": "count",
+          "start": 177.80304181925456
+        }
+      ],
+      "asr_text": " A FOLD LINE JOINS TWO FACES THAT REMAIN CONNECTED IN THE FLAT DESIGN A CUT SEPARATES EDGES THAT WILL MEET LATER WHEN THE PACKAGE CLOSES MARKING THESE DIFFERENTLY HELP SOMEONE ELSE BUILD YOUR DESIGN A GLUE TAB LIES OUTSIDE A FACE AND SUPPORTS A JOIN IT DOES NOT CHANGE THE FACE COUNT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Shared edge: fold. Outside edge: cut.",
+          "at": 160.16304165474574,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 159.96304166666667,
+      "motion_end": 177.80304181925456,
+      "reveal_at": 177.65304181925455,
+      "speech_end": 178.21666666666667
+    },
+    {
+      "role": "misconception",
+      "chapter": "Repair an overlapping plan",
+      "text": "A two by three rectangle of six squares contains enough square material for a cube, but it does not fold into one correctly. Do not repair it by stretching a face. Keep equal squares and change the connection pattern. The geometry of the intended cube must remain unchanged.",
+      "board": [
+        "Change the arrangement, not the squares."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "invalid": true
+      },
+      "index": 10,
+      "start": 178.21666666666667,
+      "end": 195.42029166666666,
+      "words": [
+        {
+          "word": "a",
+          "start": 178.21666666666667
+        },
+        {
+          "word": "two",
+          "start": 178.41666665474574
+        },
+        {
+          "word": "by",
+          "start": 178.73666664759318
+        },
+        {
+          "word": "three",
+          "start": 178.97666665712993
+        },
+        {
+          "word": "rectangle",
+          "start": 179.2566666285197
+        },
+        {
+          "word": "of",
+          "start": 179.9366665760676
+        },
+        {
+          "word": "six",
+          "start": 180.0966666618983
+        },
+        {
+          "word": "squares",
+          "start": 180.37666651407878
+        },
+        {
+          "word": "contains",
+          "start": 180.85666653315226
+        },
+        {
+          "word": "enough",
+          "start": 181.37666651407878
+        },
+        {
+          "word": "square",
+          "start": 181.69666668574015
+        },
+        {
+          "word": "material",
+          "start": 182.05666658083598
+        },
+        {
+          "word": "for",
+          "start": 182.69666668574015
+        },
+        {
+          "word": "a",
+          "start": 182.85666653315226
+        },
+        {
+          "word": "cube",
+          "start": 183.01666638056437
+        },
+        {
+          "word": "but",
+          "start": 183.33666655222575
+        },
+        {
+          "word": "it",
+          "start": 183.49666639963786
+        },
+        {
+          "word": "does",
+          "start": 183.65666672388713
+        },
+        {
+          "word": "not",
+          "start": 183.85666653315226
+        },
+        {
+          "word": "fold",
+          "start": 184.0566663424174
+        },
+        {
+          "word": "into",
+          "start": 184.37666651407878
+        },
+        {
+          "word": "one",
+          "start": 184.65666672388713
+        },
+        {
+          "word": "correctly",
+          "start": 184.85666653315226
+        },
+        {
+          "word": "do",
+          "start": 185.57666632334391
+        },
+        {
+          "word": "not",
+          "start": 185.7766666094462
+        },
+        {
+          "word": "repair",
+          "start": 186.01666638056437
+        },
+        {
+          "word": "it",
+          "start": 186.5366663614909
+        },
+        {
+          "word": "by",
+          "start": 186.696666208903
+        },
+        {
+          "word": "stretching",
+          "start": 186.8566660563151
+        },
+        {
+          "word": "a",
+          "start": 187.4166664759318
+        },
+        {
+          "word": "face",
+          "start": 187.61666628519694
+        },
+        {
+          "word": "keep",
+          "start": 188.0966667811076
+        },
+        {
+          "word": "equal",
+          "start": 188.37666651407878
+        },
+        {
+          "word": "squares",
+          "start": 188.89666601816813
+        },
+        {
+          "word": "and",
+          "start": 189.5366663614909
+        },
+        {
+          "word": "change",
+          "start": 189.77666613260905
+        },
+        {
+          "word": "the",
+          "start": 190.1366667429606
+        },
+        {
+          "word": "connection",
+          "start": 190.29666659037272
+        },
+        {
+          "word": "button",
+          "start": 190.8566660563151
+        },
+        {
+          "word": "the",
+          "start": 191.33666655222575
+        },
+        {
+          "word": "geometry",
+          "start": 191.5366663614909
+        },
+        {
+          "word": "of",
+          "start": 192.37666651407878
+        },
+        {
+          "word": "the",
+          "start": 192.49666639963786
+        },
+        {
+          "word": "intended",
+          "start": 192.696666208903
+        },
+        {
+          "word": "cube",
+          "start": 193.29666659037272
+        },
+        {
+          "word": "must",
+          "start": 193.73666617075602
+        },
+        {
+          "word": "remain",
+          "start": 193.9766659418742
+        },
+        {
+          "word": "unchanged",
+          "start": 194.49666544596354
+        }
+      ],
+      "asr_text": " A TWO BY THREE RECTANGLE OF SIX SQUARES CONTAINS ENOUGH SQUARE MATERIAL FOR A CUBE BUT IT DOES NOT FOLD INTO ONE CORRECTLY DO NOT REPAIR IT BY STRETCHING A FACE KEEP EQUAL SQUARES AND CHANGE THE CONNECTION BUTTON THE GEOMETRY OF THE INTENDED CUBE MUST REMAIN UNCHANGED",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Change the arrangement, not the squares.",
+          "at": 178.21666666666667,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 178.21666666666667,
+      "motion_end": 194.49666544596354,
+      "reveal_at": 178.21666666666667,
+      "speech_end": 195.42029166666666
+    },
+    {
+      "role": "explanation",
+      "chapter": "Try a connected cross",
+      "text": "Place four equal squares in a straight column. Attach one square on each side of the second square. Check that every square can be reached across a shared whole edge. This connected cross gives the base four immediate neighbours and leaves the final square available as a lid.",
+      "board": [
+        "A connected six-square cross"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 11,
+      "start": 195.42029166666666,
+      "end": 211.79091666666665,
+      "words": [
+        {
+          "word": "place",
+          "start": 195.42029166666666
+        },
+        {
+          "word": "four",
+          "start": 195.8202916428248
+        },
+        {
+          "word": "equal",
+          "start": 196.14029163567224
+        },
+        {
+          "word": "squares",
+          "start": 196.62029159514108
+        },
+        {
+          "word": "in",
+          "start": 197.06029165236154
+        },
+        {
+          "word": "a",
+          "start": 197.22029161898294
+        },
+        {
+          "word": "straight",
+          "start": 197.3402916237513
+        },
+        {
+          "word": "column",
+          "start": 197.70029163805643
+        },
+        {
+          "word": "attach",
+          "start": 198.22029161898294
+        },
+        {
+          "word": "one",
+          "start": 198.86029148546854
+        },
+        {
+          "word": "square",
+          "start": 199.10029149500528
+        },
+        {
+          "word": "on",
+          "start": 199.58029151407877
+        },
+        {
+          "word": "each",
+          "start": 199.8202917620341
+        },
+        {
+          "word": "side",
+          "start": 200.1402914568583
+        },
+        {
+          "word": "of",
+          "start": 200.42029166666666
+        },
+        {
+          "word": "the",
+          "start": 200.54029155222574
+        },
+        {
+          "word": "second",
+          "start": 200.66029143778482
+        },
+        {
+          "word": "square",
+          "start": 201.06029153315225
+        },
+        {
+          "word": "check",
+          "start": 201.54029155222574
+        },
+        {
+          "word": "that",
+          "start": 201.86029172388712
+        },
+        {
+          "word": "every",
+          "start": 202.1402914568583
+        },
+        {
+          "word": "square",
+          "start": 202.46029162851968
+        },
+        {
+          "word": "can",
+          "start": 202.86029172388712
+        },
+        {
+          "word": "be",
+          "start": 203.02029157129923
+        },
+        {
+          "word": "reached",
+          "start": 203.18029141871133
+        },
+        {
+          "word": "across",
+          "start": 203.54029155222574
+        },
+        {
+          "word": "a",
+          "start": 203.90029120890298
+        },
+        {
+          "word": "shared",
+          "start": 204.0602910563151
+        },
+        {
+          "word": "whole",
+          "start": 204.46029162851968
+        },
+        {
+          "word": "edge",
+          "start": 204.82029128519693
+        },
+        {
+          "word": "this",
+          "start": 205.26029181925455
+        },
+        {
+          "word": "connected",
+          "start": 205.58029151407877
+        },
+        {
+          "word": "cross",
+          "start": 206.1802918955485
+        },
+        {
+          "word": "gives",
+          "start": 206.6202914759318
+        },
+        {
+          "word": "the",
+          "start": 206.86029124704996
+        },
+        {
+          "word": "base",
+          "start": 207.02029109446207
+        },
+        {
+          "word": "four",
+          "start": 207.42029166666666
+        },
+        {
+          "word": "immediate",
+          "start": 207.74029136149088
+        },
+        {
+          "word": "neighbors",
+          "start": 208.26029181925455
+        },
+        {
+          "word": "and",
+          "start": 208.7802913233439
+        },
+        {
+          "word": "leaves",
+          "start": 208.940291170756
+        },
+        {
+          "word": "the",
+          "start": 209.26029181925455
+        },
+        {
+          "word": "final",
+          "start": 209.42029166666666
+        },
+        {
+          "word": "square",
+          "start": 209.86029124704996
+        },
+        {
+          "word": "available",
+          "start": 210.30029178110757
+        },
+        {
+          "word": "as",
+          "start": 211.0602910563151
+        },
+        {
+          "word": "a",
+          "start": 211.26029086558023
+        },
+        {
+          "word": "lid",
+          "start": 211.38029170481363
+        }
+      ],
+      "asr_text": " PLACE FOUR EQUAL SQUARES IN A STRAIGHT COLUMN ATTACH ONE SQUARE ON EACH SIDE OF THE SECOND SQUARE CHECK THAT EVERY SQUARE CAN BE REACHED ACROSS A SHARED WHOLE EDGE THIS CONNECTED CROSS GIVES THE BASE FOUR IMMEDIATE NEIGHBORS AND LEAVES THE FINAL SQUARE AVAILABLE AS A LID",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A connected six-square cross",
+          "at": 199.10029149500528,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 195.42029166666666,
+      "motion_end": 211.38029170481363,
+      "reveal_at": 211.23029170481362,
+      "speech_end": 211.79091666666665
+    },
+    {
+      "role": "question",
+      "chapter": "Will moving a panel help?",
+      "text": "Compare the invalid rectangle with the cross. Can you explain why moving panels changes the result even though the total number of squares stays six? Predict the role of the last square in the cross. Use face positions rather than saying that one drawing just looks better.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 12,
+      "start": 211.79091666666665,
+      "end": 234.26529166666666,
+      "words": [
+        {
+          "word": "compare",
+          "start": 211.79091666666665
+        },
+        {
+          "word": "the",
+          "start": 212.39091663090386
+        },
+        {
+          "word": "invalid",
+          "start": 212.6309166404406
+        },
+        {
+          "word": "rectangle",
+          "start": 213.3509166094462
+        },
+        {
+          "word": "with",
+          "start": 214.07091663805642
+        },
+        {
+          "word": "the",
+          "start": 214.2309167238871
+        },
+        {
+          "word": "cross",
+          "start": 214.39091657129921
+        },
+        {
+          "word": "can",
+          "start": 214.95091651407876
+        },
+        {
+          "word": "you",
+          "start": 215.1909165236155
+        },
+        {
+          "word": "explain",
+          "start": 215.39091657129921
+        },
+        {
+          "word": "why",
+          "start": 216.0309164377848
+        },
+        {
+          "word": "moving",
+          "start": 216.3509166094462
+        },
+        {
+          "word": "panels",
+          "start": 216.83091662851967
+        },
+        {
+          "word": "changes",
+          "start": 217.3509166094462
+        },
+        {
+          "word": "the",
+          "start": 217.91091655222573
+        },
+        {
+          "word": "result",
+          "start": 218.07091639963784
+        },
+        {
+          "word": "even",
+          "start": 218.55091641871132
+        },
+        {
+          "word": "though",
+          "start": 218.83091662851967
+        },
+        {
+          "word": "the",
+          "start": 219.07091639963784
+        },
+        {
+          "word": "total",
+          "start": 219.2309167238871
+        },
+        {
+          "word": "number",
+          "start": 219.6709163042704
+        },
+        {
+          "word": "of",
+          "start": 220.0309164377848
+        },
+        {
+          "word": "square",
+          "start": 220.19091628519692
+        },
+        {
+          "word": "stays",
+          "start": 220.5909168574015
+        },
+        {
+          "word": "six",
+          "start": 221.07091639963784
+        },
+        {
+          "word": "predict",
+          "start": 221.55091689554848
+        },
+        {
+          "word": "the",
+          "start": 222.1509163233439
+        },
+        {
+          "word": "roll",
+          "start": 222.310916170756
+        },
+        {
+          "word": "of",
+          "start": 222.67091678110756
+        },
+        {
+          "word": "the",
+          "start": 222.83091662851967
+        },
+        {
+          "word": "last",
+          "start": 222.99091647593178
+        },
+        {
+          "word": "square",
+          "start": 223.310916170756
+        },
+        {
+          "word": "in",
+          "start": 223.75091670481362
+        },
+        {
+          "word": "the",
+          "start": 223.8709165903727
+        },
+        {
+          "word": "cross",
+          "start": 224.0309164377848
+        },
+        {
+          "word": "use",
+          "start": 224.67091678110756
+        },
+        {
+          "word": "face",
+          "start": 224.99091647593178
+        },
+        {
+          "word": "positions",
+          "start": 225.35091613260903
+        },
+        {
+          "word": "rather",
+          "start": 226.11091636149087
+        },
+        {
+          "word": "than",
+          "start": 226.4709160181681
+        },
+        {
+          "word": "saying",
+          "start": 226.75091670481362
+        },
+        {
+          "word": "that",
+          "start": 227.1509163233439
+        },
+        {
+          "word": "one",
+          "start": 227.39091609446206
+        },
+        {
+          "word": "drawing",
+          "start": 227.63091586558022
+        },
+        {
+          "word": "just",
+          "start": 228.19091628519692
+        },
+        {
+          "word": "looks",
+          "start": 228.47091697184243
+        },
+        {
+          "word": "better",
+          "start": 228.83091567484536
+        }
+      ],
+      "asr_text": " COMPARE THE INVALID RECTANGLE WITH THE CROSS CAN YOU EXPLAIN WHY MOVING PANELS CHANGES THE RESULT EVEN THOUGH THE TOTAL NUMBER OF SQUARE STAYS SIX PREDICT THE ROLL OF THE LAST SQUARE IN THE CROSS USE FACE POSITIONS RATHER THAN SAYING THAT ONE DRAWING JUST LOOKS BETTER",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 211.79091666666665,
+      "motion_end": 228.83091567484536,
+      "reveal_at": 228.68091567484535,
+      "speech_end": 229.26529166666666
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: test the repair",
+      "text": "Fold the cross mentally or with paper. The base stays still, four neighbouring squares form walls, and the last square closes the top. The repair works because the six panels occupy six different face positions. A successful test explains the change; it is more than a neat final drawing.",
+      "board": [
+        "Six panels → six distinct face positions"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "fold": true
+      },
+      "index": 13,
+      "start": 234.26529166666666,
+      "end": 251.54695833333332,
+      "words": [
+        {
+          "word": "fold",
+          "start": 234.26529166666666
+        },
+        {
+          "word": "across",
+          "start": 234.62529165116945
+        },
+        {
+          "word": "mentally",
+          "start": 235.14529166189828
+        },
+        {
+          "word": "or",
+          "start": 235.78529164759317
+        },
+        {
+          "word": "with",
+          "start": 235.94529161421457
+        },
+        {
+          "word": "paper",
+          "start": 236.22529158560434
+        },
+        {
+          "word": "the",
+          "start": 236.70529172388711
+        },
+        {
+          "word": "base",
+          "start": 236.90529153315225
+        },
+        {
+          "word": "stays",
+          "start": 237.26529166666666
+        },
+        {
+          "word": "still",
+          "start": 237.62529156176248
+        },
+        {
+          "word": "four",
+          "start": 237.94529149500528
+        },
+        {
+          "word": "neighboring",
+          "start": 238.18529150454202
+        },
+        {
+          "word": "squares",
+          "start": 238.70529172388711
+        },
+        {
+          "word": "form",
+          "start": 239.14529178110757
+        },
+        {
+          "word": "walls",
+          "start": 239.50529143778482
+        },
+        {
+          "word": "and",
+          "start": 239.90529153315225
+        },
+        {
+          "word": "the",
+          "start": 240.06529138056436
+        },
+        {
+          "word": "last",
+          "start": 240.1852917429606
+        },
+        {
+          "word": "square",
+          "start": 240.50529143778482
+        },
+        {
+          "word": "closes",
+          "start": 240.8252916094462
+        },
+        {
+          "word": "the",
+          "start": 241.3452915903727
+        },
+        {
+          "word": "top",
+          "start": 241.54529139963785
+        },
+        {
+          "word": "the",
+          "start": 241.90529153315225
+        },
+        {
+          "word": "repair",
+          "start": 242.1052913424174
+        },
+        {
+          "word": "works",
+          "start": 242.66529128519693
+        },
+        {
+          "word": "because",
+          "start": 243.14529178110757
+        },
+        {
+          "word": "the",
+          "start": 243.4652914759318
+        },
+        {
+          "word": "sixth",
+          "start": 243.6252913233439
+        },
+        {
+          "word": "panel",
+          "start": 243.98529098002115
+        },
+        {
+          "word": "occupies",
+          "start": 244.38529155222574
+        },
+        {
+          "word": "six",
+          "start": 245.06529185740152
+        },
+        {
+          "word": "different",
+          "start": 245.3452915903727
+        },
+        {
+          "word": "face",
+          "start": 245.74529120890298
+        },
+        {
+          "word": "positions",
+          "start": 246.02529094187418
+        },
+        {
+          "word": "a",
+          "start": 246.74529120890298
+        },
+        {
+          "word": "successful",
+          "start": 246.94529101816812
+        },
+        {
+          "word": "test",
+          "start": 247.70529124704996
+        },
+        {
+          "word": "explains",
+          "start": 248.10529181925455
+        },
+        {
+          "word": "the",
+          "start": 248.66529128519693
+        },
+        {
+          "word": "change",
+          "start": 248.86529109446207
+        },
+        {
+          "word": "it",
+          "start": 249.30529162851968
+        },
+        {
+          "word": "is",
+          "start": 249.4652914759318
+        },
+        {
+          "word": "more",
+          "start": 249.66529128519693
+        },
+        {
+          "word": "than",
+          "start": 249.86529109446207
+        },
+        {
+          "word": "a",
+          "start": 250.02529094187418
+        },
+        {
+          "word": "neat",
+          "start": 250.1852917429606
+        },
+        {
+          "word": "final",
+          "start": 250.54529044596353
+        },
+        {
+          "word": "drawing",
+          "start": 250.98529098002115
+        }
+      ],
+      "asr_text": " FOLD ACROSS MENTALLY OR WITH PAPER THE BASE STAYS STILL FOUR NEIGHBORING SQUARES FORM WALLS AND THE LAST SQUARE CLOSES THE TOP THE REPAIR WORKS BECAUSE THE SIXTH PANEL OCCUPIES SIX DIFFERENT FACE POSITIONS A SUCCESSFUL TEST EXPLAINS THE CHANGE IT IS MORE THAN A NEAT FINAL DRAWING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Six panels → six distinct face positions",
+          "at": 245.74529120890298,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 234.26529166666666,
+      "motion_end": 250.98529098002115,
+      "reveal_at": 250.83529098002114,
+      "speech_end": 251.54695833333332
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check the edges that meet",
+      "text": "Label an outside edge before folding and find the edge that meets it after folding. Their lengths must match. Repeat around the opening. This catches a wrongly sized lid even when the overall arrangement is sensible. A gap can come from a missing face or from an incorrect dimension.",
+      "board": [
+        "Meeting edges must have equal lengths."
+      ],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 14,
+      "start": 251.54695833333332,
+      "end": 269.671,
+      "words": [
+        {
+          "word": "label",
+          "start": 251.54695833333332
+        },
+        {
+          "word": "an",
+          "start": 251.98695833094914
+        },
+        {
+          "word": "outside",
+          "start": 252.22695834048588
+        },
+        {
+          "word": "edge",
+          "start": 252.8269583047231
+        },
+        {
+          "word": "before",
+          "start": 253.22695828088123
+        },
+        {
+          "word": "folding",
+          "start": 253.58695829518635
+        },
+        {
+          "word": "and",
+          "start": 254.10695827611286
+        },
+        {
+          "word": "find",
+          "start": 254.30695832379658
+        },
+        {
+          "word": "the",
+          "start": 254.58695829518635
+        },
+        {
+          "word": "edge",
+          "start": 254.78695834287007
+        },
+        {
+          "word": "that",
+          "start": 255.1469582379659
+        },
+        {
+          "word": "meets",
+          "start": 255.38695824750263
+        },
+        {
+          "word": "it",
+          "start": 255.70695818074543
+        },
+        {
+          "word": "after",
+          "start": 255.94695842870075
+        },
+        {
+          "word": "folding",
+          "start": 256.226958161672
+        },
+        {
+          "word": "their",
+          "start": 256.82695806630454
+        },
+        {
+          "word": "lengths",
+          "start": 257.1069582761129
+        },
+        {
+          "word": "must",
+          "start": 257.54695833333335
+        },
+        {
+          "word": "march",
+          "start": 257.9069579900106
+        },
+        {
+          "word": "repeat",
+          "start": 258.5069583714803
+        },
+        {
+          "word": "around",
+          "start": 259.18695819981895
+        },
+        {
+          "word": "the",
+          "start": 259.54695833333335
+        },
+        {
+          "word": "opening",
+          "start": 259.7869581044515
+        },
+        {
+          "word": "this",
+          "start": 260.3469585240682
+        },
+        {
+          "word": "catches",
+          "start": 260.66695821889243
+        },
+        {
+          "word": "a",
+          "start": 261.26695764668784
+        },
+        {
+          "word": "wrongly",
+          "start": 261.4669584096273
+        },
+        {
+          "word": "sized",
+          "start": 262.0269578755697
+        },
+        {
+          "word": "lid",
+          "start": 262.5069583714803
+        },
+        {
+          "word": "even",
+          "start": 262.9069579900106
+        },
+        {
+          "word": "when",
+          "start": 263.14695776112876
+        },
+        {
+          "word": "the",
+          "start": 263.30695760854087
+        },
+        {
+          "word": "overall",
+          "start": 263.5069583714803
+        },
+        {
+          "word": "arrangement",
+          "start": 264.10695779927573
+        },
+        {
+          "word": "is",
+          "start": 264.70695818074546
+        },
+        {
+          "word": "sensible",
+          "start": 264.9069579900106
+        },
+        {
+          "word": "a",
+          "start": 265.5869582951864
+        },
+        {
+          "word": "gap",
+          "start": 265.7869581044515
+        },
+        {
+          "word": "can",
+          "start": 266.10695779927573
+        },
+        {
+          "word": "come",
+          "start": 266.3469575703939
+        },
+        {
+          "word": "from",
+          "start": 266.54695833333335
+        },
+        {
+          "word": "a",
+          "start": 266.66695821889243
+        },
+        {
+          "word": "missing",
+          "start": 266.82695806630454
+        },
+        {
+          "word": "face",
+          "start": 267.2269576848348
+        },
+        {
+          "word": "or",
+          "start": 267.6669572652181
+        },
+        {
+          "word": "from",
+          "start": 267.9069570363363
+        },
+        {
+          "word": "an",
+          "start": 268.066958791097
+        },
+        {
+          "word": "incorrect",
+          "start": 268.26695764668784
+        },
+        {
+          "word": "dimension",
+          "start": 268.86695802815757
+        }
+      ],
+      "asr_text": " LABEL AN OUTSIDE EDGE BEFORE FOLDING AND FIND THE EDGE THAT MEETS IT AFTER FOLDING THEIR LENGTHS MUST MARCH REPEAT AROUND THE OPENING THIS CATCHES A WRONGLY SIZED LID EVEN WHEN THE OVERALL ARRANGEMENT IS SENSIBLE A GAP CAN COME FROM A MISSING FACE OR FROM AN INCORRECT DIMENSION",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Meeting edges must have equal lengths.",
+          "at": 257.1069582761129,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 251.54695833333332,
+      "motion_end": 268.86695802815757,
+      "reveal_at": 268.7169580281576,
+      "speech_end": 269.671
+    },
+    {
+      "role": "explanation",
+      "chapter": "Record the reason for a revision",
+      "text": "A useful design record says what failed, what changed and why the change should help. For example, two panels competed for the same face position, so we moved one to cover the empty top. This explanation lets another designer reproduce and evaluate your repair.",
+      "board": [
+        "Problem → change → mathematical reason"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 15,
+      "start": 269.671,
+      "end": 285.18075,
+      "words": [
+        {
+          "word": "a",
+          "start": 269.671
+        },
+        {
+          "word": "useful",
+          "start": 269.8309999964237
+        },
+        {
+          "word": "design",
+          "start": 270.35100000715255
+        },
+        {
+          "word": "record",
+          "start": 270.79100000476836
+        },
+        {
+          "word": "says",
+          "start": 271.23099994277953
+        },
+        {
+          "word": "what",
+          "start": 271.5109999141693
+        },
+        {
+          "word": "failed",
+          "start": 271.75099992370605
+        },
+        {
+          "word": "what",
+          "start": 272.23099994277953
+        },
+        {
+          "word": "changed",
+          "start": 272.4709999523163
+        },
+        {
+          "word": "and",
+          "start": 273.0309998950958
+        },
+        {
+          "word": "why",
+          "start": 273.27099990463256
+        },
+        {
+          "word": "the",
+          "start": 273.4709999523163
+        },
+        {
+          "word": "change",
+          "start": 273.671
+        },
+        {
+          "word": "should",
+          "start": 274.0310001335144
+        },
+        {
+          "word": "help",
+          "start": 274.23099994277953
+        },
+        {
+          "word": "for",
+          "start": 274.63100003814696
+        },
+        {
+          "word": "example",
+          "start": 274.8309998474121
+        },
+        {
+          "word": "two",
+          "start": 275.4709997138977
+        },
+        {
+          "word": "panels",
+          "start": 275.710999961853
+        },
+        {
+          "word": "competed",
+          "start": 276.1909999809265
+        },
+        {
+          "word": "for",
+          "start": 276.710999961853
+        },
+        {
+          "word": "the",
+          "start": 276.87099980926513
+        },
+        {
+          "word": "same",
+          "start": 277.03099965667724
+        },
+        {
+          "word": "face",
+          "start": 277.3109998664856
+        },
+        {
+          "word": "position",
+          "start": 277.63100003814696
+        },
+        {
+          "word": "so",
+          "start": 278.1509995422363
+        },
+        {
+          "word": "we",
+          "start": 278.31099938964843
+        },
+        {
+          "word": "moved",
+          "start": 278.47100019073486
+        },
+        {
+          "word": "one",
+          "start": 278.7909998855591
+        },
+        {
+          "word": "to",
+          "start": 278.9909996948242
+        },
+        {
+          "word": "cover",
+          "start": 279.1509995422363
+        },
+        {
+          "word": "the",
+          "start": 279.47100019073486
+        },
+        {
+          "word": "empty",
+          "start": 279.63100003814696
+        },
+        {
+          "word": "top",
+          "start": 280.1109995803833
+        },
+        {
+          "word": "this",
+          "start": 280.5510001144409
+        },
+        {
+          "word": "explanation",
+          "start": 280.8309998474121
+        },
+        {
+          "word": "lets",
+          "start": 281.7909998855591
+        },
+        {
+          "word": "another",
+          "start": 282.1109995803833
+        },
+        {
+          "word": "design",
+          "start": 282.47099923706054
+        },
+        {
+          "word": "or",
+          "start": 282.91099977111816
+        },
+        {
+          "word": "reproduce",
+          "start": 283.03099965667724
+        },
+        {
+          "word": "and",
+          "start": 283.63100003814696
+        },
+        {
+          "word": "evaluate",
+          "start": 283.7909998855591
+        },
+        {
+          "word": "your",
+          "start": 284.4309992752075
+        },
+        {
+          "word": "repair",
+          "start": 284.63100003814696
+        }
+      ],
+      "asr_text": " A USEFUL DESIGN RECORD SAYS WHAT FAILED WHAT CHANGED AND WHY THE CHANGE SHOULD HELP FOR EXAMPLE TWO PANELS COMPETED FOR THE SAME FACE POSITION SO WE MOVED ONE TO COVER THE EMPTY TOP THIS EXPLANATION LETS ANOTHER DESIGN OR REPRODUCE AND EVALUATE YOUR REPAIR",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Problem → change → mathematical reason",
+          "at": 273.671,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 269.671,
+      "motion_end": 284.63100003814696,
+      "reveal_at": 284.481000038147,
+      "speech_end": 285.18075
+    },
+    {
+      "role": "explanation",
+      "chapter": "Packaging is more than appearance",
+      "text": "Colouring or rotating the whole net does not fix its fold relationships. Those changes affect the page view, but do not change which faces share edges. A genuine geometric repair changes a dimension or connection responsible for the failure while preserving the intended solid.",
+      "board": [
+        "Test connections as well as appearance."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 16,
+      "start": 285.18075,
+      "end": 302.5810833333333,
+      "words": [
+        {
+          "word": "colouring",
+          "start": 285.18075
+        },
+        {
+          "word": "or",
+          "start": 285.7407500023842
+        },
+        {
+          "word": "rotating",
+          "start": 285.9807499523163
+        },
+        {
+          "word": "the",
+          "start": 286.6607500190735
+        },
+        {
+          "word": "whole",
+          "start": 286.8607499475479
+        },
+        {
+          "word": "net",
+          "start": 287.1407499189377
+        },
+        {
+          "word": "does",
+          "start": 287.3807500476837
+        },
+        {
+          "word": "not",
+          "start": 287.62075005722045
+        },
+        {
+          "word": "fix",
+          "start": 287.8207498664856
+        },
+        {
+          "word": "its",
+          "start": 288.10074983787536
+        },
+        {
+          "word": "fold",
+          "start": 288.3807498092651
+        },
+        {
+          "word": "relationships",
+          "start": 288.62074981880187
+        },
+        {
+          "word": "those",
+          "start": 289.74074994277953
+        },
+        {
+          "word": "changes",
+          "start": 290.0607501144409
+        },
+        {
+          "word": "affect",
+          "start": 290.7007499809265
+        },
+        {
+          "word": "the",
+          "start": 291.14075003814696
+        },
+        {
+          "word": "page",
+          "start": 291.30074988555907
+        },
+        {
+          "word": "view",
+          "start": 291.62075005722045
+        },
+        {
+          "word": "but",
+          "start": 291.90074979019164
+        },
+        {
+          "word": "do",
+          "start": 292.14075003814696
+        },
+        {
+          "word": "not",
+          "start": 292.30074988555907
+        },
+        {
+          "word": "change",
+          "start": 292.5007496948242
+        },
+        {
+          "word": "which",
+          "start": 292.8607498283386
+        },
+        {
+          "word": "faces",
+          "start": 293.1007495994568
+        },
+        {
+          "word": "share",
+          "start": 293.58074961853026
+        },
+        {
+          "word": "edges",
+          "start": 293.9407502288818
+        },
+        {
+          "word": "a",
+          "start": 294.58074961853026
+        },
+        {
+          "word": "genuine",
+          "start": 294.8207493896484
+        },
+        {
+          "word": "geometric",
+          "start": 295.42074977111815
+        },
+        {
+          "word": "repair",
+          "start": 296.26074992370604
+        },
+        {
+          "word": "changes",
+          "start": 296.7807494277954
+        },
+        {
+          "word": "a",
+          "start": 297.30074988555907
+        },
+        {
+          "word": "dimension",
+          "start": 297.4607497329712
+        },
+        {
+          "word": "or",
+          "start": 298.18075
+        },
+        {
+          "word": "connection",
+          "start": 298.42074977111815
+        },
+        {
+          "word": "responsible",
+          "start": 298.98074923706054
+        },
+        {
+          "word": "for",
+          "start": 299.7407494659424
+        },
+        {
+          "word": "the",
+          "start": 299.9007493133545
+        },
+        {
+          "word": "failure",
+          "start": 300.02074919891356
+        },
+        {
+          "word": "while",
+          "start": 300.5007496948242
+        },
+        {
+          "word": "preserving",
+          "start": 300.7407494659424
+        },
+        {
+          "word": "the",
+          "start": 301.30074893188475
+        },
+        {
+          "word": "intended",
+          "start": 301.5007496948242
+        },
+        {
+          "word": "solid",
+          "start": 302.10075007629393
+        }
+      ],
+      "asr_text": " COLOURING OR ROTATING THE WHOLE NET DOES NOT FIX ITS FOLD RELATIONSHIPS THOSE CHANGES AFFECT THE PAGE VIEW BUT DO NOT CHANGE WHICH FACES SHARE EDGES A GENUINE GEOMETRIC REPAIR CHANGES A DIMENSION OR CONNECTION RESPONSIBLE FOR THE FAILURE WHILE PRESERVING THE INTENDED SOLID",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Test connections as well as appearance.",
+          "at": 285.18075,
+          "reason": "scene context"
+        }
+      ],
+      "motion_start": 285.18075,
+      "motion_end": 302.10075007629393,
+      "reveal_at": 301.95075007629396,
+      "speech_end": 302.5810833333333
+    },
+    {
+      "role": "question",
+      "chapter": "Independent design review",
+      "text": "Your partner says a box net is correct because opposite faces have matching dimensions. Is that enough evidence? Think about what else a flat design must do when it folds. Prepare a short checklist a younger designer could use without already knowing the answer.",
+      "board": [],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 17,
+      "start": 302.5810833333333,
+      "end": 324.4918333333333,
+      "words": [
+        {
+          "word": "your",
+          "start": 302.5810833333333
+        },
+        {
+          "word": "partner",
+          "start": 302.9410833178361
+        },
+        {
+          "word": "says",
+          "start": 303.3810832856496
+        },
+        {
+          "word": "a",
+          "start": 303.66108325703937
+        },
+        {
+          "word": "box",
+          "start": 303.82108334287005
+        },
+        {
+          "word": "net",
+          "start": 304.14108327611285
+        },
+        {
+          "word": "is",
+          "start": 304.4210832475026
+        },
+        {
+          "word": "correct",
+          "start": 304.62108329518634
+        },
+        {
+          "word": "because",
+          "start": 305.1010833142598
+        },
+        {
+          "word": "opposite",
+          "start": 305.3810832856496
+        },
+        {
+          "word": "faces",
+          "start": 305.98108319028216
+        },
+        {
+          "word": "have",
+          "start": 306.46108320935565
+        },
+        {
+          "word": "matching",
+          "start": 306.7410831807454
+        },
+        {
+          "word": "dimensions",
+          "start": 307.2210831998189
+        },
+        {
+          "word": "is",
+          "start": 308.1810832379659
+        },
+        {
+          "word": "that",
+          "start": 308.50108340962726
+        },
+        {
+          "word": "enough",
+          "start": 308.8210831044515
+        },
+        {
+          "word": "evidence",
+          "start": 309.30108312352496
+        },
+        {
+          "word": "think",
+          "start": 310.14108327611285
+        },
+        {
+          "word": "about",
+          "start": 310.5010829327901
+        },
+        {
+          "word": "what",
+          "start": 310.94108299001056
+        },
+        {
+          "word": "else",
+          "start": 311.22108272298175
+        },
+        {
+          "word": "a",
+          "start": 311.46108344777423
+        },
+        {
+          "word": "flat",
+          "start": 311.62108329518634
+        },
+        {
+          "word": "design",
+          "start": 311.9810829518636
+        },
+        {
+          "word": "must",
+          "start": 312.62108329518634
+        },
+        {
+          "word": "do",
+          "start": 312.90108302815753
+        },
+        {
+          "word": "when",
+          "start": 313.10108283742267
+        },
+        {
+          "word": "it",
+          "start": 313.3010826466878
+        },
+        {
+          "word": "folds",
+          "start": 313.46108344777423
+        },
+        {
+          "word": "prepare",
+          "start": 314.10108283742267
+        },
+        {
+          "word": "a",
+          "start": 314.7010832188924
+        },
+        {
+          "word": "short",
+          "start": 314.90108302815753
+        },
+        {
+          "word": "check",
+          "start": 315.2610826848348
+        },
+        {
+          "word": "list",
+          "start": 315.5810833333333
+        },
+        {
+          "word": "a",
+          "start": 315.8610830663045
+        },
+        {
+          "word": "younger",
+          "start": 316.0210829137166
+        },
+        {
+          "word": "designer",
+          "start": 316.46108344777423
+        },
+        {
+          "word": "could",
+          "start": 317.0210829137166
+        },
+        {
+          "word": "use",
+          "start": 317.22108272298175
+        },
+        {
+          "word": "without",
+          "start": 317.62108329518634
+        },
+        {
+          "word": "already",
+          "start": 317.94108299001056
+        },
+        {
+          "word": "knowing",
+          "start": 318.4210825322469
+        },
+        {
+          "word": "the",
+          "start": 318.78108218892413
+        },
+        {
+          "word": "answer",
+          "start": 318.9810829518636
+        }
+      ],
+      "asr_text": " YOUR PARTNER SAYS A BOX NET IS CORRECT BECAUSE OPPOSITE FACES HAVE MATCHING DIMENSIONS IS THAT ENOUGH EVIDENCE THINK ABOUT WHAT ELSE A FLAT DESIGN MUST DO WHEN IT FOLDS PREPARE A SHORT CHECK LIST A YOUNGER DESIGNER COULD USE WITHOUT ALREADY KNOWING THE ANSWER",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 302.5810833333333,
+      "motion_end": 318.9810829518636,
+      "reveal_at": 318.8310829518636,
+      "speech_end": 319.4918333333333
+    },
+    {
+      "role": "answer",
+      "chapter": "Use three checks together",
+      "text": "Check the required faces, the lengths of meeting edges, and the folded positions. All three matter. A net can have the right shapes and dimensions but still overlap. A prototype that closes correctly, together with a clear explanation, gives much stronger evidence than any single check alone.",
+      "board": [
+        "Faces • dimensions • folded positions"
+      ],
+      "model": {
+        "kind": "boxnet"
+      },
+      "index": 18,
+      "start": 324.4918333333333,
+      "end": 342.099,
+      "words": [
+        {
+          "word": "check",
+          "start": 324.4918333333333
+        },
+        {
+          "word": "the",
+          "start": 324.81183332618076
+        },
+        {
+          "word": "required",
+          "start": 325.01183331425983
+        },
+        {
+          "word": "faces",
+          "start": 325.6118333381017
+        },
+        {
+          "word": "the",
+          "start": 326.0918332379659
+        },
+        {
+          "word": "lengths",
+          "start": 326.2918332856496
+        },
+        {
+          "word": "of",
+          "start": 326.6518331807454
+        },
+        {
+          "word": "meeting",
+          "start": 326.8118332665761
+        },
+        {
+          "word": "edges",
+          "start": 327.21183336194355
+        },
+        {
+          "word": "and",
+          "start": 327.69183314259845
+        },
+        {
+          "word": "the",
+          "start": 327.85183322842914
+        },
+        {
+          "word": "folded",
+          "start": 327.9718333524068
+        },
+        {
+          "word": "positions",
+          "start": 328.4518331330617
+        },
+        {
+          "word": "all",
+          "start": 329.291833047231
+        },
+        {
+          "word": "three",
+          "start": 329.5718332570394
+        },
+        {
+          "word": "matter",
+          "start": 329.9718333524068
+        },
+        {
+          "word": "a",
+          "start": 330.53183329518635
+        },
+        {
+          "word": "net",
+          "start": 330.69183314259845
+        },
+        {
+          "word": "can",
+          "start": 331.05183327611286
+        },
+        {
+          "word": "have",
+          "start": 331.291833047231
+        },
+        {
+          "word": "the",
+          "start": 331.4518333714803
+        },
+        {
+          "word": "right",
+          "start": 331.6518331807454
+        },
+        {
+          "word": "shapes",
+          "start": 331.9718333524068
+        },
+        {
+          "word": "and",
+          "start": 332.4118329327901
+        },
+        {
+          "word": "dimensions",
+          "start": 332.6118332188924
+        },
+        {
+          "word": "but",
+          "start": 333.3318334859212
+        },
+        {
+          "word": "still",
+          "start": 333.53183329518635
+        },
+        {
+          "word": "overlap",
+          "start": 333.9318329137166
+        },
+        {
+          "word": "a",
+          "start": 334.6118332188924
+        },
+        {
+          "word": "prototype",
+          "start": 334.7718330663045
+        },
+        {
+          "word": "that",
+          "start": 335.53183329518635
+        },
+        {
+          "word": "closes",
+          "start": 335.7318331044515
+        },
+        {
+          "word": "correctly",
+          "start": 336.2118326466878
+        },
+        {
+          "word": "together",
+          "start": 336.7718330663045
+        },
+        {
+          "word": "with",
+          "start": 337.25183260854084
+        },
+        {
+          "word": "a",
+          "start": 337.37183344777424
+        },
+        {
+          "word": "clear",
+          "start": 337.53183329518635
+        },
+        {
+          "word": "explanation",
+          "start": 337.85183299001056
+        },
+        {
+          "word": "gives",
+          "start": 338.69183314259845
+        },
+        {
+          "word": "much",
+          "start": 339.0118328374227
+        },
+        {
+          "word": "stronger",
+          "start": 339.3318325322469
+        },
+        {
+          "word": "evidence",
+          "start": 339.81183302815754
+        },
+        {
+          "word": "than",
+          "start": 340.37183344777424
+        },
+        {
+          "word": "any",
+          "start": 340.5718332570394
+        },
+        {
+          "word": "single",
+          "start": 340.8918329518636
+        },
+        {
+          "word": "check",
+          "start": 341.29183257039386
+        },
+        {
+          "word": "alone",
+          "start": 341.6118322652181
+        }
+      ],
+      "asr_text": " CHECK THE REQUIRED FACES THE LENGTHS OF MEETING EDGES AND THE FOLDED POSITIONS ALL THREE MATTER A NET CAN HAVE THE RIGHT SHAPES AND DIMENSIONS BUT STILL OVERLAP A PROTOTYPE THAT CLOSES CORRECTLY TOGETHER WITH A CLEAR EXPLANATION GIVES MUCH STRONGER EVIDENCE THAN ANY SINGLE CHECK ALONE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Faces • dimensions • folded positions",
+          "at": 325.6118333381017,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 324.4918333333333,
+      "motion_end": 341.6118322652181,
+      "reveal_at": 341.4618322652181,
+      "speech_end": 342.099
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Design, test and improve a net for packaging. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can plan the required faces.",
+        "I can check dimensions and joins.",
+        "I can explain a useful repair."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "index": 19,
+      "start": 342.099,
+      "end": 363.1624166666667,
+      "words": [
+        {
+          "word": "return",
+          "start": 342.099
+        },
+        {
+          "word": "to",
+          "start": 342.6590000023842
+        },
+        {
+          "word": "our",
+          "start": 342.8989999523163
+        },
+        {
+          "word": "learning",
+          "start": 343.099
+        },
+        {
+          "word": "goal",
+          "start": 343.53899993801116
+        },
+        {
+          "word": "design",
+          "start": 343.9389999141693
+        },
+        {
+          "word": "test",
+          "start": 344.5790000190735
+        },
+        {
+          "word": "and",
+          "start": 345.099
+        },
+        {
+          "word": "improve",
+          "start": 345.2989998092651
+        },
+        {
+          "word": "a",
+          "start": 345.7789998283386
+        },
+        {
+          "word": "net",
+          "start": 345.8989999523163
+        },
+        {
+          "word": "for",
+          "start": 346.138999961853
+        },
+        {
+          "word": "packaging",
+          "start": 346.2989998092651
+        },
+        {
+          "word": "choose",
+          "start": 346.9790001144409
+        },
+        {
+          "word": "one",
+          "start": 347.4189996948242
+        },
+        {
+          "word": "example",
+          "start": 347.65899994277953
+        },
+        {
+          "word": "from",
+          "start": 348.21899988555907
+        },
+        {
+          "word": "to",
+          "start": 348.4189996948242
+        },
+        {
+          "word": "day",
+          "start": 348.5790000190735
+        },
+        {
+          "word": "and",
+          "start": 348.81899979019164
+        },
+        {
+          "word": "explain",
+          "start": 349.01900007629393
+        },
+        {
+          "word": "the",
+          "start": 349.49899961853026
+        },
+        {
+          "word": "evidence",
+          "start": 349.6189999809265
+        },
+        {
+          "word": "that",
+          "start": 350.138999961853
+        },
+        {
+          "word": "made",
+          "start": 350.33899977111815
+        },
+        {
+          "word": "its",
+          "start": 350.5789995422363
+        },
+        {
+          "word": "answer",
+          "start": 350.8190002670288
+        },
+        {
+          "word": "convincing",
+          "start": 351.21899988555907
+        },
+        {
+          "word": "which",
+          "start": 351.9790001144409
+        },
+        {
+          "word": "about",
+          "start": 352.21899988555907
+        },
+        {
+          "word": "three",
+          "start": 352.61899950408935
+        },
+        {
+          "word": "success",
+          "start": 352.89900019073485
+        },
+        {
+          "word": "criteria",
+          "start": 353.45899965667724
+        },
+        {
+          "word": "feels",
+          "start": 354.17899992370604
+        },
+        {
+          "word": "secure",
+          "start": 354.5389995803833
+        },
+        {
+          "word": "and",
+          "start": 354.9790001144409
+        },
+        {
+          "word": "which",
+          "start": 355.138999961853
+        },
+        {
+          "word": "needs",
+          "start": 355.3789997329712
+        },
+        {
+          "word": "another",
+          "start": 355.7389993896484
+        },
+        {
+          "word": "try",
+          "start": 356.138999961853
+        },
+        {
+          "word": "revisit",
+          "start": 356.61899950408935
+        },
+        {
+          "word": "a",
+          "start": 357.138999961853
+        },
+        {
+          "word": "model",
+          "start": 357.2989998092651
+        },
+        {
+          "word": "test",
+          "start": 357.6589994659424
+        },
+        {
+          "word": "your",
+          "start": 358.01900007629393
+        },
+        {
+          "word": "explanation",
+          "start": 358.17899992370604
+        },
+        {
+          "word": "with",
+          "start": 358.9789991607666
+        },
+        {
+          "word": "a",
+          "start": 359.1389990081787
+        },
+        {
+          "word": "partner",
+          "start": 359.2989988555908
+        },
+        {
+          "word": "and",
+          "start": 359.6990003814697
+        },
+        {
+          "word": "describe",
+          "start": 359.89899923706054
+        },
+        {
+          "word": "one",
+          "start": 360.49899961853026
+        },
+        {
+          "word": "mistake",
+          "start": 360.6990003814697
+        },
+        {
+          "word": "you",
+          "start": 361.2589998474121
+        },
+        {
+          "word": "can",
+          "start": 361.4189996948242
+        },
+        {
+          "word": "now",
+          "start": 361.6589994659424
+        },
+        {
+          "word": "notice",
+          "start": 361.9390001525879
+        },
+        {
+          "word": "and",
+          "start": 362.4189996948242
+        },
+        {
+          "word": "correct",
+          "start": 362.61900045776366
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL DESIGN TEST AND IMPROVE A NET FOR PACKAGING CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can plan the required faces.",
+          "at": 342.099,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can check dimensions and joins.",
+          "at": 342.099,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can explain a useful repair.",
+          "at": 342.099,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 342.099,
+      "motion_end": 362.61900045776366,
+      "reveal_at": 362.4690004577637,
+      "speech_end": 363.1624166666667
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 4.319999694824219,
+      "text": "A designer draws six panels for a gift box, but the lid will not close."
+    },
+    {
+      "start": 4.319999694824219,
+      "end": 8.720000267028809,
+      "text": "Is the problem the number of faces, their dimensions, or their arrangement?"
+    },
+    {
+      "start": 8.720000267028809,
+      "end": 10.559999465942383,
+      "text": "We will use evidence to repair a design."
+    },
+    {
+      "start": 10.559999465942383,
+      "end": 15.758833333333333,
+      "text": "A drawing can look convincing while still hiding a real construction problem."
+    },
+    {
+      "start": 15.758833333333333,
+      "end": 16.158833309491477,
+      "text": "Today we are learning to design, test and improve a net for packaging."
+    },
+    {
+      "start": 16.158833309491477,
+      "end": 27.358832761128745,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 27.358832761128745,
+      "end": 28.718833371480308,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 28.718833371480308,
+      "end": 34.117958333333334,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 34.117958333333334,
+      "end": 38.237958218892416,
+      "text": "Our learning goal is to design, test and improve a net for packaging."
+    },
+    {
+      "start": 38.237958218892416,
+      "end": 41.03795840962728,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 41.03795840962728,
+      "end": 48.43020833333333,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 48.43020833333333,
+      "end": 51.110208161671956,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 51.110208161671956,
+      "end": 53.390208371480306,
+      "text": "I can plan the required faces."
+    },
+    {
+      "start": 53.390208371480306,
+      "end": 55.91020835240682,
+      "text": "I can check dimensions and joins."
+    },
+    {
+      "start": 55.91020835240682,
+      "end": 58.230208524068196,
+      "text": "I can explain a useful repair."
+    },
+    {
+      "start": 58.230208524068196,
+      "end": 62.07020772298177,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 62.07020772298177,
+      "end": 70.803,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 70.803,
+      "end": 74.08299997138977,
+      "text": "Use scrap paper before cutting expensive card."
+    },
+    {
+      "start": 74.08299997138977,
+      "end": 78.32299998092651,
+      "text": "Draw fold lines, label each panel and mark the intended base."
+    },
+    {
+      "start": 78.32299998092651,
+      "end": 82.00299980926513,
+      "text": "Cut only around the outside with adult help when needed."
+    },
+    {
+      "start": 82.00299980926513,
+      "end": 84.56299927520752,
+      "text": "Gently fold along shared edges."
+    },
+    {
+      "start": 84.56299927520752,
+      "end": 89.59683333333334,
+      "text": "Testing a small prototype helps you find errors while changes are still easy."
+    },
+    {
+      "start": 89.59683333333334,
+      "end": 94.75683318074545,
+      "text": "Imagine a rectangular box two units long, one unit wide and one unit high."
+    },
+    {
+      "start": 94.75683318074545,
+      "end": 100.15683279927572,
+      "text": "It needs two long horizontal faces, two long side faces, and two square end faces."
+    },
+    {
+      "start": 100.15683279927572,
+      "end": 101.87683306630453,
+      "text": "Opposite faces match."
+    },
+    {
+      "start": 101.87683306630453,
+      "end": 106.84458333333333,
+      "text": "Listing the required faces gives us a useful check before we choose an arrangement."
+    },
+    {
+      "start": 106.84458333333333,
+      "end": 113.20458299001058,
+      "text": "Our box needs four rectangles measuring two units by one unit and two squares measuring one by one."
+    },
+    {
+      "start": 113.20458299001058,
+      "end": 117.0845831044515,
+      "text": "A shared fold edge must have the same length on both panels."
+    },
+    {
+      "start": 117.0845831044515,
+      "end": 122.93375,
+      "text": "Equal numbers of panels do not help if one intended join is longer on one side than the other."
+    },
+    {
+      "start": 122.93375,
+      "end": 123.45374998092652,
+      "text": "Look at the band of four rectangles."
+    },
+    {
+      "start": 123.45374998092652,
+      "end": 130.8537495994568,
+      "text": "The two square end faces must close opposite openings when the band wraps around."
+    },
+    {
+      "start": 130.8537495994568,
+      "end": 133.6537493133545,
+      "text": "Should both squares try to cover the same end?"
+    },
+    {
+      "start": 133.6537493133545,
+      "end": 138.82525,
+      "text": "Predict where to place them, then explain which opening each square is meant to close."
+    },
+    {
+      "start": 143.82525,
+      "end": 147.98524984741212,
+      "text": "The four rectangles wrap into the four long faces of the box."
+    },
+    {
+      "start": 147.98524984741212,
+      "end": 149.9452498855591,
+      "text": "Attach one square to each side of the band so they close opposite ends."
+    },
+    {
+      "start": 149.9452498855591,
+      "end": 154.78525003814698,
+      "text": "The short edges match the square sides."
+    },
+    {
+      "start": 154.78525003814698,
+      "end": 159.96304166666667,
+      "text": "We have accounted for every face and assigned each panel a different place on the solid."
+    },
+    {
+      "start": 159.96304166666667,
+      "end": 164.8430417811076,
+      "text": "A fold line joins two faces that remain connected in the flat design."
+    },
+    {
+      "start": 164.8430417811076,
+      "end": 169.12304151407878,
+      "text": "A cut separates edges that will meet later when the package closes."
+    },
+    {
+      "start": 169.12304151407878,
+      "end": 172.7230409418742,
+      "text": "Marking these differently helps someone else build your design."
+    },
+    {
+      "start": 172.7230409418742,
+      "end": 178.21666666666667,
+      "text": "A glue tab lies outside a face and supports a join; it does not change the face count."
+    },
+    {
+      "start": 178.21666666666667,
+      "end": 185.57666632334391,
+      "text": "A two by three rectangle of six squares contains enough square material for a cube, but it does not fold into one correctly."
+    },
+    {
+      "start": 185.57666632334391,
+      "end": 188.0966667811076,
+      "text": "Do not repair it by stretching a face."
+    },
+    {
+      "start": 188.0966667811076,
+      "end": 190.1366667429606,
+      "text": "Keep equal squares and change the connection pattern."
+    },
+    {
+      "start": 190.1366667429606,
+      "end": 195.42029166666666,
+      "text": "The geometry of the intended cube must remain unchanged."
+    },
+    {
+      "start": 195.42029166666666,
+      "end": 198.22029161898294,
+      "text": "Place four equal squares in a straight column."
+    },
+    {
+      "start": 198.22029161898294,
+      "end": 201.54029155222574,
+      "text": "Attach one square on each side of the second square."
+    },
+    {
+      "start": 201.54029155222574,
+      "end": 205.26029181925455,
+      "text": "Check that every square can be reached across a shared whole edge."
+    },
+    {
+      "start": 205.26029181925455,
+      "end": 211.79091666666665,
+      "text": "This connected cross gives the base four immediate neighbours and leaves the final square available as a lid."
+    },
+    {
+      "start": 211.79091666666665,
+      "end": 214.95091651407876,
+      "text": "Compare the invalid rectangle with the cross."
+    },
+    {
+      "start": 214.95091651407876,
+      "end": 221.55091689554848,
+      "text": "Can you explain why moving panels changes the result even though the total number of squares stays six?"
+    },
+    {
+      "start": 221.55091689554848,
+      "end": 224.67091678110756,
+      "text": "Predict the role of the last square in the cross."
+    },
+    {
+      "start": 224.67091678110756,
+      "end": 229.26529166666666,
+      "text": "Use face positions rather than saying that one drawing just looks better."
+    },
+    {
+      "start": 234.26529166666666,
+      "end": 236.70529172388711,
+      "text": "Fold the cross mentally or with paper."
+    },
+    {
+      "start": 236.70529172388711,
+      "end": 240.06529138056436,
+      "text": "The base stays still, four neighbouring squares form walls, and the last square closes the top."
+    },
+    {
+      "start": 240.06529138056436,
+      "end": 246.74529120890298,
+      "text": "The repair works because the six panels occupy six different face positions."
+    },
+    {
+      "start": 246.74529120890298,
+      "end": 251.54695833333332,
+      "text": "A successful test explains the change; it is more than a neat final drawing."
+    },
+    {
+      "start": 251.54695833333332,
+      "end": 256.82695806630454,
+      "text": "Label an outside edge before folding and find the edge that meets it after folding."
+    },
+    {
+      "start": 256.82695806630454,
+      "end": 258.5069583714803,
+      "text": "Their lengths must match."
+    },
+    {
+      "start": 258.5069583714803,
+      "end": 260.3469585240682,
+      "text": "Repeat around the opening."
+    },
+    {
+      "start": 260.3469585240682,
+      "end": 261.26695764668784,
+      "text": "This catches a wrongly sized lid even when the overall arrangement is sensible."
+    },
+    {
+      "start": 261.26695764668784,
+      "end": 269.671,
+      "text": "A gap can come from a missing face or from an incorrect dimension."
+    },
+    {
+      "start": 269.671,
+      "end": 274.63100003814696,
+      "text": "A useful design record says what failed, what changed and why the change should help."
+    },
+    {
+      "start": 274.63100003814696,
+      "end": 280.5510001144409,
+      "text": "For example, two panels competed for the same face position, so we moved one to cover the empty top."
+    },
+    {
+      "start": 280.5510001144409,
+      "end": 285.18075,
+      "text": "This explanation lets another designer reproduce and evaluate your repair."
+    },
+    {
+      "start": 285.18075,
+      "end": 289.74074994277953,
+      "text": "Colouring or rotating the whole net does not fix its fold relationships."
+    },
+    {
+      "start": 289.74074994277953,
+      "end": 294.58074961853026,
+      "text": "Those changes affect the page view, but do not change which faces share edges."
+    },
+    {
+      "start": 294.58074961853026,
+      "end": 302.5810833333333,
+      "text": "A genuine geometric repair changes a dimension or connection responsible for the failure while preserving the intended solid."
+    },
+    {
+      "start": 302.5810833333333,
+      "end": 304.4210832475026,
+      "text": "Your partner says a box net is correct because opposite faces have matching dimensions."
+    },
+    {
+      "start": 304.4210832475026,
+      "end": 310.14108327611285,
+      "text": "Is that enough evidence?"
+    },
+    {
+      "start": 310.14108327611285,
+      "end": 314.10108283742267,
+      "text": "Think about what else a flat design must do when it folds."
+    },
+    {
+      "start": 314.10108283742267,
+      "end": 319.4918333333333,
+      "text": "Prepare a short checklist a younger designer could use without already knowing the answer."
+    },
+    {
+      "start": 324.4918333333333,
+      "end": 329.291833047231,
+      "text": "Check the required faces, the lengths of meeting edges, and the folded positions."
+    },
+    {
+      "start": 329.291833047231,
+      "end": 330.53183329518635,
+      "text": "All three matter."
+    },
+    {
+      "start": 330.53183329518635,
+      "end": 334.6118332188924,
+      "text": "A net can have the right shapes and dimensions but still overlap."
+    },
+    {
+      "start": 334.6118332188924,
+      "end": 342.099,
+      "text": "A prototype that closes correctly, together with a clear explanation, gives much stronger evidence than any single check alone."
+    },
+    {
+      "start": 342.099,
+      "end": 343.9389999141693,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 343.9389999141693,
+      "end": 346.9790001144409,
+      "text": "Design, test and improve a net for packaging."
+    },
+    {
+      "start": 346.9790001144409,
+      "end": 351.9790001144409,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 351.9790001144409,
+      "end": 356.61899950408935,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 356.61899950408935,
+      "end": 363.1624166666667,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      138.82525,
+      143.82525,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      229.26529166666666,
+      234.26529166666666,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      319.4918333333333,
+      324.4918333333333,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 363.1624166666667,
+  "narration_sha256": "d7ff944ce7535a7c06df03e7e6b61ce5c8d2d326f3c44df55fc16d81cf9888a5",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}

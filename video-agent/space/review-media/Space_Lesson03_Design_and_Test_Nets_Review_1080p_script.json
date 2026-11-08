@@ -1,0 +1,568 @@
+{
+  "id": "space-lesson3",
+  "number": 3,
+  "topic": "space",
+  "section": "lesson-3",
+  "title": "Design and Test Nets",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "The package that will not close",
+      "text": "A designer draws six panels for a gift box, but the lid will not close. Is the problem the number of faces, their dimensions, or their arrangement? We will use evidence to repair a design. A drawing can look convincing while still hiding a real construction problem.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to design, test and improve a net for packaging. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to design, test and improve a net for packaging. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Design, test and improve a net for packaging."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can plan the required faces. I can check dimensions and joins. I can explain a useful repair. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can plan the required faces.",
+        "I can check dimensions and joins.",
+        "I can explain a useful repair."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Make a physical prototype",
+      "text": "Use scrap paper before cutting expensive card. Draw fold lines, label each panel and mark the intended base. Cut only around the outside with adult help when needed. Gently fold along shared edges. Testing a small prototype helps you find errors while changes are still easy.",
+      "board": [
+        "Plan → fold → inspect → revise"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Start from the solid",
+      "text": "Imagine a rectangular box two units long, one unit wide and one unit high. It needs two long horizontal faces, two long side faces, and two square end faces. Opposite faces match. Listing the required faces gives us a useful check before we choose an arrangement.",
+      "board": [
+        "Box dimensions: 2 by 1 by 1"
+      ],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use matching dimensions",
+      "text": "Our box needs four rectangles measuring two units by one unit and two squares measuring one by one. A shared fold edge must have the same length on both panels. Equal numbers of panels do not help if one intended join is longer on one side than the other.",
+      "board": [
+        "4 rectangles, 2 squares"
+      ],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a useful placement",
+      "text": "Look at the band of four rectangles. The two square end faces must close opposite openings when the band wraps around. Should both squares try to cover the same end? Predict where to place them, then explain which opening each square is meant to close.",
+      "board": [],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: a box net",
+      "text": "The four rectangles wrap into the four long faces of the box. Attach one square to each side of the band so they close opposite ends. The short edges match the square sides. We have accounted for every face and assigned each panel a different place on the solid.",
+      "board": [
+        "Close opposite ends with the squares."
+      ],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Separate folds from cuts",
+      "text": "A fold line joins two faces that remain connected in the flat design. A cut separates edges that will meet later when the package closes. Marking these differently helps someone else build your design. A glue tab lies outside a face and supports a join; it does not change the face count.",
+      "board": [
+        "Shared edge: fold. Outside edge: cut."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Repair an overlapping plan",
+      "text": "A two by three rectangle of six squares contains enough square material for a cube, but it does not fold into one correctly. Do not repair it by stretching a face. Keep equal squares and change the connection pattern. The geometry of the intended cube must remain unchanged.",
+      "board": [
+        "Change the arrangement, not the squares."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "invalid": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Try a connected cross",
+      "text": "Place four equal squares in a straight column. Attach one square on each side of the second square. Check that every square can be reached across a shared whole edge. This connected cross gives the base four immediate neighbours and leaves the final square available as a lid.",
+      "board": [
+        "A connected six-square cross"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Will moving a panel help?",
+      "text": "Compare the invalid rectangle with the cross. Can you explain why moving panels changes the result even though the total number of squares stays six? Predict the role of the last square in the cross. Use face positions rather than saying that one drawing just looks better.",
+      "board": [],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: test the repair",
+      "text": "Fold the cross mentally or with paper. The base stays still, four neighbouring squares form walls, and the last square closes the top. The repair works because the six panels occupy six different face positions. A successful test explains the change; it is more than a neat final drawing.",
+      "board": [
+        "Six panels → six distinct face positions"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "fold": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check the edges that meet",
+      "text": "Label an outside edge before folding and find the edge that meets it after folding. Their lengths must match. Repeat around the opening. This catches a wrongly sized lid even when the overall arrangement is sensible. A gap can come from a missing face or from an incorrect dimension.",
+      "board": [
+        "Meeting edges must have equal lengths."
+      ],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Record the reason for a revision",
+      "text": "A useful design record says what failed, what changed and why the change should help. For example, two panels competed for the same face position, so we moved one to cover the empty top. This explanation lets another designer reproduce and evaluate your repair.",
+      "board": [
+        "Problem → change → mathematical reason"
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Packaging is more than appearance",
+      "text": "Colouring or rotating the whole net does not fix its fold relationships. Those changes affect the page view, but do not change which faces share edges. A genuine geometric repair changes a dimension or connection responsible for the failure while preserving the intended solid.",
+      "board": [
+        "Test connections as well as appearance."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent design review",
+      "text": "Your partner says a box net is correct because opposite faces have matching dimensions. Is that enough evidence? Think about what else a flat design must do when it folds. Prepare a short checklist a younger designer could use without already knowing the answer.",
+      "board": [],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Use three checks together",
+      "text": "Check the required faces, the lengths of meeting edges, and the folded positions. All three matter. A net can have the right shapes and dimensions but still overlap. A prototype that closes correctly, together with a clear explanation, gives much stronger evidence than any single check alone.",
+      "board": [
+        "Faces • dimensions • folded positions"
+      ],
+      "model": {
+        "kind": "boxnet"
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Design, test and improve a net for packaging. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can plan the required faces.",
+        "I can check dimensions and joins.",
+        "I can explain a useful repair."
+      ],
+      "model": {
+        "kind": "net",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP01"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}

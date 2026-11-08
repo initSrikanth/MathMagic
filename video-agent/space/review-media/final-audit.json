@@ -1,0 +1,161 @@
+{
+  "rendered": 2,
+  "all_nine_rendered": false,
+  "technical_results": [
+    {
+      "lesson": "space-lesson2",
+      "sha256": "e1d9bd409df5363b5b7151bcc7ef2b36268b42431082f35cb4f6f209a07dd0db",
+      "output": "/workspace/output/space-review/Space_Lesson02_Explore_Nets_Review_1080p.mp4",
+      "duration": 359.448375,
+      "technical_status": "PASS",
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10783,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson02_Explore_Nets_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            209.6,
+            222.5
+          ],
+          [
+            222.533,
+            240.3
+          ],
+          [
+            245.7,
+            261.867
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.072,
+            "end": 16.551999989271163,
+            "text": "Today we are learning to connect a flat net to the faces of a solid."
+          },
+          {
+            "start": 80.39524946594238,
+            "end": 80.63525019073487,
+            "text": "Put the flat card on the table."
+          },
+          {
+            "start": 140.77287494277954,
+            "end": 141.4128750476837,
+            "text": "The squares touching its four sides become four walls."
+          },
+          {
+            "start": 269.5234165331523,
+            "end": 269.6834163805644,
+            "text": "When the triangles fold inward, their tips meet at the apex."
+          },
+          {
+            "start": 298.28645833333337,
+            "end": 299.00645830233896,
+            "text": "Imagine a cube net made from only five equal squares."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 134.2,
+            "end": 139.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 240.3,
+            "end": 245.4,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 315.3,
+            "end": 320.3,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson02_Explore_Nets_Review_1080p_transcript.txt": "724efb9de862ef059ae47d0d5f930760b2f11a67e5fdd67b19476a4fc7c39840",
+        "Space_Lesson02_Explore_Nets_Review_1080p_encoded_scenes.jpg": "510cea11a331923a4eab824ed567291a3e8df83f3df6037d57bfdfd443ee22c1",
+        "Space_Lesson02_Explore_Nets_Review_1080p_poster.jpg": "217ce5cfc38ff533d1287e29155e4c5b5785e5960e715c8eee3d64886d930916",
+        "Space_Lesson02_Explore_Nets_Review_1080p_script.json": "eceb36c504fccd9fa4e62f002dfd57a2e99d281599a39055804d612e3b14497d",
+        "Space_Lesson02_Explore_Nets_Review_1080p_recognition.json": "261a8755181bc42cd966e93b54fa1264be5af03969bd568b06b1c66800fb017e",
+        "Space_Lesson02_Explore_Nets_Review_1080p_narration.flac": "7bc155541e53bdbaa416d4f924663938ededcc2748949a2eb586bab4908ffe7f",
+        "Space_Lesson02_Explore_Nets_Review_1080p_timing.json": "2657e0133fec2a42d535c2701be0c56a98bcfb480c295492b39d78f754e5c2db",
+        "Space_Lesson02_Explore_Nets_Review_1080p_qa.json": "05ab499e63d9310730734cbef312541f75478b5f5dd08e61e4bb70a2f6f18807"
+      }
+    },
+    {
+      "lesson": "space-lesson3",
+      "sha256": "453ea91f7f104877bfe993cb7318d3a9e6cabd6e047e40d09eeec3c8e7d13f16",
+      "output": "/workspace/output/space-review/Space_Lesson03_Design_and_Test_Nets_Review_1080p.mp4",
+      "duration": 363.1624166666667,
+      "technical_status": "PASS",
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10895,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson03_Design_and_Test_Nets_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [],
+        "short_caption_intervals": [
+          {
+            "start": 15.758833333333333,
+            "end": 16.158833309491477,
+            "text": "Today we are learning to design, test and improve a net for packaging."
+          },
+          {
+            "start": 122.93375,
+            "end": 123.45374998092652,
+            "text": "Look at the band of four rectangles."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 138.8,
+            "end": 143.9,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 229.2,
+            "end": 234.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 319.5,
+            "end": 324.5,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_transcript.txt": "2495017ef1829acb349218ddf94a674039183a209952bf0e6853950152f4f061",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_encoded_scenes.jpg": "46c99a7037de5afd95306a0988c5a235d046c2fef7cf1cf4492694ac85b931a8",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_qa.json": "35288732754e7ae8b496c5504a75a123fd6a9dbbffb18838c2a3caad485ff050",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_narration.flac": "a0a0a407253f45f3026c50718c02a99071fa95a158b6027b5687a112ebd63b36",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_recognition.json": "5314f52e4021d00fa8306e5bc4128fb801cc22822f649ea21e4aa095033849f5",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_poster.jpg": "d163792d18b5a238f9ff328a9ebe54a563eeec66ea5b3601cc53615a279714c3",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_script.json": "3ec04a4e499ad00af23caf4cb7a2dca2a676fa98a087d42ad80749e15d83aa76",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_timing.json": "3c79b96c6af97f049ec0b5f97901bc16f34170555fe99be23565fdf4b29bdd30"
+      }
+    }
+  ],
+  "perceptual_reviews_completed": 0,
+  "published": 0,
+  "paid_calls": 0,
+  "external_gates": [
+    "Full listening and temporal viewing by an audio-capable evaluator of the exact SHA-256 bytes, with reviewer identity/date. Check accent, pronunciation, expressiveness, pace, pedagogy, caption/audio/visual synchronisation and all timing flags.",
+    "Real Safari/iOS and real-device mobile legibility/control/caption QA before release.",
+    "Live Firebase verification requires authorised network scope and an approved test identity. Inspect deployed rules, Auth/approval isolation, own/cross-UID progress, save/restore across sessions/devices and revocation. Emulator fixture results do not certify deployed services.",
+    "Recover and verify the preserved original representative MP4 from its prior external storage; its source/manifest/hash remain unchanged."
+  ]
+}
