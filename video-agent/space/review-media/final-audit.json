@@ -1,5 +1,5 @@
 {
-  "rendered": 4,
+  "rendered": 5,
   "all_nine_rendered": false,
   "technical_results": [
     {
@@ -8,6 +8,12 @@
       "output": "/workspace/output/space-review/Space_Lesson02_Explore_Nets_Review_1080p.mp4",
       "duration": 359.448375,
       "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
       "caption_intervals_valid": true,
       "caption_transcript_match": true,
       "offline_recognition_brand_scan": "PASS",
@@ -95,6 +101,12 @@
       "output": "/workspace/output/space-review/Space_Lesson03_Design_and_Test_Nets_Review_1080p.mp4",
       "duration": 363.1624166666667,
       "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
       "caption_intervals_valid": true,
       "caption_transcript_match": true,
       "offline_recognition_brand_scan": "PASS",
@@ -154,6 +166,12 @@
       "output": "/workspace/output/space-review/Space_Lesson04_Coordinates_and_Position_Review_1080p.mp4",
       "duration": 356.1004166666667,
       "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
       "caption_intervals_valid": true,
       "caption_transcript_match": true,
       "offline_recognition_brand_scan": "PASS",
@@ -325,6 +343,12 @@
       "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
       "duration": 364.80854166666666,
       "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
       "caption_intervals_valid": true,
       "caption_transcript_match": true,
       "offline_recognition_brand_scan": "PASS",
@@ -488,6 +512,132 @@
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_poster.jpg": "4f774436acf4f93c0a692728fdedc200bdb5d05d2df05d9d15a53762190bdbb4",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_narration.flac": "4458c9c585929071ad2e30eb161f19aee951fbecb22d310df5e96773f6308e42",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_timing.json": "b8f7d13d16ef897875d63f4f144aadabf12917c294c85b305a4c152c216e1b8d"
+      }
+    },
+    {
+      "lesson": "space-lesson6",
+      "sha256": "c20d5ab078a2b0e6324356eddd424556f0f61b82fc06502eb79bbd368d72ac23",
+      "output": "/workspace/output/space-review/Space_Lesson06_Translations_Review_1080p.mp4",
+      "duration": 359.6859583333334,
+      "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10791,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson06_Translations_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            16.5,
+            24.8
+          ],
+          [
+            24.833,
+            32.933
+          ],
+          [
+            57.7,
+            69.3
+          ],
+          [
+            123.233,
+            131.533
+          ],
+          [
+            131.567,
+            139.633
+          ],
+          [
+            153.0,
+            161.133
+          ],
+          [
+            212.767,
+            221.067
+          ],
+          [
+            241.067,
+            249.7
+          ],
+          [
+            299.733,
+            308.033
+          ],
+          [
+            329.1,
+            338.6
+          ],
+          [
+            338.633,
+            346.933
+          ],
+          [
+            346.967,
+            357.233
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.49170833333333,
+            "end": 16.931708330949146,
+            "text": "Today we are learning to translate a shape using one shared movement."
+          },
+          {
+            "start": 303.7327083333334,
+            "end": 304.0527080281576,
+            "text": "The second moved three right and one up."
+          }
+        ],
+        "rapid_board_reveal_flags": [
+          {
+            "scene": 15,
+            "at": 283.7165832570394,
+            "visible_seconds": 0.679041742960635,
+            "text": "Check every matching pair.",
+            "timing_reason": "keyword"
+          }
+        ],
+        "long_silent_intervals": [
+          {
+            "start": 139.6,
+            "end": 144.7,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 227.7,
+            "end": 232.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 315.7,
+            "end": 320.8,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson06_Translations_Review_1080p_recognition.json": "39da5bea0edce08484e6dc96ed9b7eb9147325fe037e80ce7796865c9f109228",
+        "Space_Lesson06_Translations_Review_1080p_poster.jpg": "f412baf36e3d4afadf6ab371fccb7cc24b3c0cac1e047c242e5adc5d15f48554",
+        "Space_Lesson06_Translations_Review_1080p_narration.flac": "06e6e4315e11a4f01462903a65e1833e23c083c2b2464ccae6fc5487a495507c",
+        "Space_Lesson06_Translations_Review_1080p_timing.json": "f4f60ec4f75a62323f7a140d61e2cd99d3637bbbda81b2ca9a2054f5eec87417",
+        "Space_Lesson06_Translations_Review_1080p_script.json": "2139df225c997f73274af69ff0ebde9d78857c5dd05c7bca1b8b8a5ced76d27c",
+        "Space_Lesson06_Translations_Review_1080p_transcript.txt": "441a0ac314ba5bcc2a586cd8928c26406fb961b669f0811305b8fb30afd82f7b",
+        "Space_Lesson06_Translations_Review_1080p_encoded_scenes.jpg": "f378eefd0510122b432a25bad1b7d3256d13c8012f0549b539f420f4ffc38e72",
+        "Space_Lesson06_Translations_Review_1080p_qa.json": "346894664c94a6c30b35314986480171e2f3a07a7d4d9fba820bdc6aea4114dc"
       }
     }
   ],

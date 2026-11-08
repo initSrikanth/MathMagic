@@ -1,0 +1,4972 @@
+{
+  "input_hash": "2469576994bab520f8dceb50c261dc913699bf4d4960dcab6881316e0dfa0f3c",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "A pattern that keeps its shape",
+      "text": "A park designer wants to copy a triangular flowerbed farther along a path without turning or resizing it. How can every corner arrive in the right place? Today we will investigate translations: movements that slide a whole shape while keeping its size, shape and orientation.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 0,
+      "start": 0,
+      "end": 16.49170833333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "park",
+          "start": 0.1599999964237213
+        },
+        {
+          "word": "designer",
+          "start": 0.47999998927116394
+        },
+        {
+          "word": "wants",
+          "start": 1.159999966621399
+        },
+        {
+          "word": "to",
+          "start": 1.399999976158142
+        },
+        {
+          "word": "copy",
+          "start": 1.559999942779541
+        },
+        {
+          "word": "a",
+          "start": 1.8799999952316284
+        },
+        {
+          "word": "triangular",
+          "start": 2.0
+        },
+        {
+          "word": "flower",
+          "start": 2.7200000286102295
+        },
+        {
+          "word": "bed",
+          "start": 3.0399999618530273
+        },
+        {
+          "word": "father",
+          "start": 3.359999895095825
+        },
+        {
+          "word": "along",
+          "start": 3.7200000286102295
+        },
+        {
+          "word": "a",
+          "start": 4.039999961853027
+        },
+        {
+          "word": "path",
+          "start": 4.199999809265137
+        },
+        {
+          "word": "without",
+          "start": 4.559999942779541
+        },
+        {
+          "word": "turning",
+          "start": 5.0
+        },
+        {
+          "word": "or",
+          "start": 5.519999980926514
+        },
+        {
+          "word": "recising",
+          "start": 5.679999828338623
+        },
+        {
+          "word": "it",
+          "start": 6.319999694824219
+        },
+        {
+          "word": "how",
+          "start": 6.599999904632568
+        },
+        {
+          "word": "can",
+          "start": 6.839999675750732
+        },
+        {
+          "word": "every",
+          "start": 7.119999885559082
+        },
+        {
+          "word": "corner",
+          "start": 7.440000057220459
+        },
+        {
+          "word": "arrive",
+          "start": 8.0
+        },
+        {
+          "word": "in",
+          "start": 8.4399995803833
+        },
+        {
+          "word": "the",
+          "start": 8.559999465942383
+        },
+        {
+          "word": "right",
+          "start": 8.720000267028809
+        },
+        {
+          "word": "place",
+          "start": 9.039999961853027
+        },
+        {
+          "word": "to",
+          "start": 9.479999542236328
+        },
+        {
+          "word": "day",
+          "start": 9.679999351501465
+        },
+        {
+          "word": "we",
+          "start": 9.920000076293945
+        },
+        {
+          "word": "will",
+          "start": 10.119999885559082
+        },
+        {
+          "word": "investigate",
+          "start": 10.279999732971191
+        },
+        {
+          "word": "translations",
+          "start": 11.039999961853027
+        },
+        {
+          "word": "movements",
+          "start": 11.920000076293945
+        },
+        {
+          "word": "that",
+          "start": 12.4399995803833
+        },
+        {
+          "word": "slide",
+          "start": 12.639999389648438
+        },
+        {
+          "word": "a",
+          "start": 13.0
+        },
+        {
+          "word": "whole",
+          "start": 13.119999885559082
+        },
+        {
+          "word": "shape",
+          "start": 13.359999656677246
+        },
+        {
+          "word": "while",
+          "start": 13.639999389648438
+        },
+        {
+          "word": "keeping",
+          "start": 13.84000015258789
+        },
+        {
+          "word": "its",
+          "start": 14.199999809265137
+        },
+        {
+          "word": "size",
+          "start": 14.479999542236328
+        },
+        {
+          "word": "shape",
+          "start": 14.960000038146973
+        },
+        {
+          "word": "and",
+          "start": 15.319999694824219
+        },
+        {
+          "word": "orientation",
+          "start": 15.519999504089355
+        }
+      ],
+      "asr_text": " A PARK DESIGNER WANTS TO COPY A TRIANGULAR FLOWER BED FATHER ALONG A PATH WITHOUT TURNING OR RECISING IT HOW CAN EVERY CORNER ARRIVE IN THE RIGHT PLACE TO DAY WE WILL INVESTIGATE TRANSLATIONS MOVEMENTS THAT SLIDE A WHOLE SHAPE WHILE KEEPING ITS SIZE SHAPE AND ORIENTATION",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 15.519999504089355,
+      "reveal_at": 15.369999504089355,
+      "speech_end": 16.49170833333333
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to translate a shape using one shared movement. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 1,
+      "start": 16.49170833333333,
+      "end": 34.96579166666666,
+      "words": [
+        {
+          "word": "to",
+          "start": 16.49170833333333
+        },
+        {
+          "word": "day",
+          "start": 16.651708329757053
+        },
+        {
+          "word": "we",
+          "start": 16.931708330949146
+        },
+        {
+          "word": "are",
+          "start": 17.051708335717517
+        },
+        {
+          "word": "learning",
+          "start": 17.25170832379659
+        },
+        {
+          "word": "to",
+          "start": 17.611708338101703
+        },
+        {
+          "word": "translate",
+          "start": 17.771708304723102
+        },
+        {
+          "word": "a",
+          "start": 18.331708247502643
+        },
+        {
+          "word": "shape",
+          "start": 18.49170833333333
+        },
+        {
+          "word": "using",
+          "start": 18.81170826657613
+        },
+        {
+          "word": "one",
+          "start": 19.21170836194356
+        },
+        {
+          "word": "shared",
+          "start": 19.49170833333333
+        },
+        {
+          "word": "movement",
+          "start": 19.891708190282184
+        },
+        {
+          "word": "we",
+          "start": 20.49170833333333
+        },
+        {
+          "word": "will",
+          "start": 20.65170818074544
+        },
+        {
+          "word": "move",
+          "start": 20.851708466847736
+        },
+        {
+          "word": "from",
+          "start": 21.131708199818927
+        },
+        {
+          "word": "objects",
+          "start": 21.37170844777425
+        },
+        {
+          "word": "or",
+          "start": 21.93170839055379
+        },
+        {
+          "word": "hands",
+          "start": 22.171708161671955
+        },
+        {
+          "word": "or",
+          "start": 22.49170833333333
+        },
+        {
+          "word": "actions",
+          "start": 22.731708104451496
+        },
+        {
+          "word": "to",
+          "start": 23.171708161671955
+        },
+        {
+          "word": "drawings",
+          "start": 23.331708009084064
+        },
+        {
+          "word": "then",
+          "start": 23.93170839055379
+        },
+        {
+          "word": "connect",
+          "start": 24.171708161671955
+        },
+        {
+          "word": "those",
+          "start": 24.611708218892414
+        },
+        {
+          "word": "drawings",
+          "start": 24.891707951863605
+        },
+        {
+          "word": "with",
+          "start": 25.49170833333333
+        },
+        {
+          "word": "precise",
+          "start": 25.731708104451496
+        },
+        {
+          "word": "mathematical",
+          "start": 26.291708524068195
+        },
+        {
+          "word": "descriptions",
+          "start": 27.13170772298177
+        },
+        {
+          "word": "keep",
+          "start": 28.011707837422687
+        },
+        {
+          "word": "paper",
+          "start": 28.331708485921222
+        },
+        {
+          "word": "near",
+          "start": 28.69170814259847
+        },
+        {
+          "word": "by",
+          "start": 29.011707837422687
+        },
+        {
+          "word": "if",
+          "start": 29.211707646687824
+        },
+        {
+          "word": "you",
+          "start": 29.37170844777425
+        },
+        {
+          "word": "would",
+          "start": 29.53170829518636
+        },
+        {
+          "word": "like",
+          "start": 29.69170814259847
+        },
+        {
+          "word": "to",
+          "start": 29.891707951863605
+        },
+        {
+          "word": "test",
+          "start": 30.051707799275714
+        },
+        {
+          "word": "an",
+          "start": 30.331708485921222
+        },
+        {
+          "word": "idea",
+          "start": 30.571708257039386
+        },
+        {
+          "word": "for",
+          "start": 31.011707837422687
+        },
+        {
+          "word": "yourself",
+          "start": 31.211707646687824
+        },
+        {
+          "word": "you",
+          "start": 31.891707951863605
+        },
+        {
+          "word": "can",
+          "start": 32.091707761128745
+        },
+        {
+          "word": "pause",
+          "start": 32.33170753224691
+        },
+        {
+          "word": "the",
+          "start": 32.691707188924156
+        },
+        {
+          "word": "player",
+          "start": 32.89170795186361
+        },
+        {
+          "word": "whenever",
+          "start": 33.37170749409994
+        },
+        {
+          "word": "you",
+          "start": 33.811708028157554
+        },
+        {
+          "word": "need",
+          "start": 33.97170787556966
+        },
+        {
+          "word": "more",
+          "start": 34.29170757039388
+        },
+        {
+          "word": "time",
+          "start": 34.57170825703939
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO TRANSLATE A SHAPE USING ONE SHARED MOVEMENT WE WILL MOVE FROM OBJECTS OR HANDS OR ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 16.49170833333333,
+      "motion_end": 34.57170825703939,
+      "reveal_at": 34.42170825703939,
+      "speech_end": 34.96579166666666
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to translate a shape using one shared movement. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Translate a shape using one shared movement."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 2,
+      "start": 34.96579166666666,
+      "end": 49.35683333333333,
+      "words": [
+        {
+          "word": "our",
+          "start": 34.96579166666666
+        },
+        {
+          "word": "learning",
+          "start": 35.16579165474573
+        },
+        {
+          "word": "goal",
+          "start": 35.605791652361546
+        },
+        {
+          "word": "is",
+          "start": 35.96579166666666
+        },
+        {
+          "word": "to",
+          "start": 36.12579163328806
+        },
+        {
+          "word": "translate",
+          "start": 36.325791680971776
+        },
+        {
+          "word": "a",
+          "start": 36.88579162375132
+        },
+        {
+          "word": "shape",
+          "start": 37.045791590372716
+        },
+        {
+          "word": "using",
+          "start": 37.485791647593175
+        },
+        {
+          "word": "one",
+          "start": 37.92579170481363
+        },
+        {
+          "word": "shared",
+          "start": 38.205791676203404
+        },
+        {
+          "word": "movement",
+          "start": 38.60579153315226
+        },
+        {
+          "word": "we",
+          "start": 39.12579151407877
+        },
+        {
+          "word": "want",
+          "start": 39.36579176203409
+        },
+        {
+          "word": "to",
+          "start": 39.60579153315226
+        },
+        {
+          "word": "explain",
+          "start": 39.72579141871134
+        },
+        {
+          "word": "why",
+          "start": 40.40579172388712
+        },
+        {
+          "word": "a",
+          "start": 40.72579141871134
+        },
+        {
+          "word": "result",
+          "start": 40.84579130427042
+        },
+        {
+          "word": "is",
+          "start": 41.28579136149088
+        },
+        {
+          "word": "correct",
+          "start": 41.5257916094462
+        },
+        {
+          "word": "as",
+          "start": 41.92579170481363
+        },
+        {
+          "word": "well",
+          "start": 42.12579151407877
+        },
+        {
+          "word": "as",
+          "start": 42.32579132334391
+        },
+        {
+          "word": "obtain",
+          "start": 42.56579157129923
+        },
+        {
+          "word": "the",
+          "start": 43.00579162851969
+        },
+        {
+          "word": "result",
+          "start": 43.1657914759318
+        },
+        {
+          "word": "as",
+          "start": 43.765791857401524
+        },
+        {
+          "word": "you",
+          "start": 43.96579166666666
+        },
+        {
+          "word": "watch",
+          "start": 44.1657914759318
+        },
+        {
+          "word": "look",
+          "start": 44.6057910563151
+        },
+        {
+          "word": "for",
+          "start": 44.885791742960606
+        },
+        {
+          "word": "the",
+          "start": 45.045791590372716
+        },
+        {
+          "word": "evidence",
+          "start": 45.205791437784825
+        },
+        {
+          "word": "that",
+          "start": 45.765791857401524
+        },
+        {
+          "word": "would",
+          "start": 45.92579170481363
+        },
+        {
+          "word": "help",
+          "start": 46.12579151407877
+        },
+        {
+          "word": "you",
+          "start": 46.40579124704996
+        },
+        {
+          "word": "convince",
+          "start": 46.6057910563151
+        },
+        {
+          "word": "a",
+          "start": 47.12579151407877
+        },
+        {
+          "word": "partner",
+          "start": 47.28579136149088
+        },
+        {
+          "word": "who",
+          "start": 47.76579090372721
+        },
+        {
+          "word": "has",
+          "start": 47.92579170481363
+        },
+        {
+          "word": "not",
+          "start": 48.08579155222574
+        },
+        {
+          "word": "seen",
+          "start": 48.32579132334391
+        },
+        {
+          "word": "your",
+          "start": 48.6057910563151
+        },
+        {
+          "word": "working",
+          "start": 48.84579178110758
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO TRANSLATE A SHAPE USING ONE SHARED MOVEMENT WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Translate a shape using one shared movement.",
+          "at": 34.96579166666666,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 34.96579166666666,
+      "motion_end": 48.84579178110758,
+      "reveal_at": 48.69579178110758,
+      "speech_end": 49.35683333333333
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can describe direction and distance. I can move every vertex equally. I can explain what stays the same. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can describe direction and distance.",
+        "I can move every vertex equally.",
+        "I can explain what stays the same."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 3,
+      "start": 49.35683333333333,
+      "end": 71.77283333333332,
+      "words": [
+        {
+          "word": "here",
+          "start": 49.35683333333333
+        },
+        {
+          "word": "are",
+          "start": 49.83683332260449
+        },
+        {
+          "word": "out",
+          "start": 50.116833323796584
+        },
+        {
+          "word": "three",
+          "start": 50.396833295186354
+        },
+        {
+          "word": "success",
+          "start": 50.676833266576125
+        },
+        {
+          "word": "criteria",
+          "start": 51.236833328564956
+        },
+        {
+          "word": "i",
+          "start": 52.03683316167195
+        },
+        {
+          "word": "can",
+          "start": 52.236833209355666
+        },
+        {
+          "word": "describe",
+          "start": 52.43683325703938
+        },
+        {
+          "word": "direction",
+          "start": 53.116833323796584
+        },
+        {
+          "word": "and",
+          "start": 53.796833390553786
+        },
+        {
+          "word": "distance",
+          "start": 53.99683319981892
+        },
+        {
+          "word": "i",
+          "start": 54.63683306630452
+        },
+        {
+          "word": "can",
+          "start": 54.87683331425984
+        },
+        {
+          "word": "move",
+          "start": 55.116833085378005
+        },
+        {
+          "word": "every",
+          "start": 55.51683318074544
+        },
+        {
+          "word": "vertex",
+          "start": 55.83683335240681
+        },
+        {
+          "word": "equally",
+          "start": 56.396833295186354
+        },
+        {
+          "word": "i",
+          "start": 56.99683319981892
+        },
+        {
+          "word": "can",
+          "start": 57.19683300908406
+        },
+        {
+          "word": "explain",
+          "start": 57.43683325703938
+        },
+        {
+          "word": "what",
+          "start": 57.95683276112874
+        },
+        {
+          "word": "stays",
+          "start": 58.19683348592122
+        },
+        {
+          "word": "the",
+          "start": 58.59683310445149
+        },
+        {
+          "word": "same",
+          "start": 58.79683291371663
+        },
+        {
+          "word": "we",
+          "start": 59.19683348592122
+        },
+        {
+          "word": "will",
+          "start": 59.35683333333333
+        },
+        {
+          "word": "check",
+          "start": 59.556833142598464
+        },
+        {
+          "word": "these",
+          "start": 59.87683283742268
+        },
+        {
+          "word": "ideas",
+          "start": 60.15683352406819
+        },
+        {
+          "word": "in",
+          "start": 60.7568329518636
+        },
+        {
+          "word": "two",
+          "start": 60.996832722981765
+        },
+        {
+          "word": "worked",
+          "start": 61.236833447774245
+        },
+        {
+          "word": "examples",
+          "start": 61.556833142598464
+        },
+        {
+          "word": "investigate",
+          "start": 62.27683340962727
+        },
+        {
+          "word": "a",
+          "start": 63.03683268483479
+        },
+        {
+          "word": "common",
+          "start": 63.19683348592122
+        },
+        {
+          "word": "mistake",
+          "start": 63.556833142598464
+        },
+        {
+          "word": "and",
+          "start": 64.11683260854085
+        },
+        {
+          "word": "finish",
+          "start": 64.27683340962727
+        },
+        {
+          "word": "with",
+          "start": 64.67683302815755
+        },
+        {
+          "word": "an",
+          "start": 64.87683283742268
+        },
+        {
+          "word": "independent",
+          "start": 65.03683268483479
+        },
+        {
+          "word": "challenge",
+          "start": 65.83683287556966
+        },
+        {
+          "word": "a",
+          "start": 66.47683226521809
+        },
+        {
+          "word": "good",
+          "start": 66.6368321126302
+        },
+        {
+          "word": "explanation",
+          "start": 66.91683279927571
+        },
+        {
+          "word": "links",
+          "start": 67.7568329518636
+        },
+        {
+          "word": "what",
+          "start": 68.19683348592122
+        },
+        {
+          "word": "you",
+          "start": 68.39683234151204
+        },
+        {
+          "word": "see",
+          "start": 68.59683310445149
+        },
+        {
+          "word": "in",
+          "start": 68.79683196004231
+        },
+        {
+          "word": "the",
+          "start": 68.91683279927571
+        },
+        {
+          "word": "model",
+          "start": 69.07683264668782
+        },
+        {
+          "word": "with",
+          "start": 69.43683325703938
+        },
+        {
+          "word": "the",
+          "start": 69.55683218892415
+        },
+        {
+          "word": "mathematical",
+          "start": 69.71683203633626
+        },
+        {
+          "word": "rule",
+          "start": 70.51683318074544
+        },
+        {
+          "word": "being",
+          "start": 70.876833791097
+        },
+        {
+          "word": "used",
+          "start": 71.27683340962727
+        }
+      ],
+      "asr_text": " HERE ARE OUT THREE SUCCESS CRITERIA I CAN DESCRIBE DIRECTION AND DISTANCE I CAN MOVE EVERY VERTEX EQUALLY I CAN EXPLAIN WHAT STAYS THE SAME WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can describe direction and distance.",
+          "at": 49.35683333333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can move every vertex equally.",
+          "at": 49.35683333333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can explain what stays the same.",
+          "at": 49.35683333333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 49.35683333333333,
+      "motion_end": 71.27683340962727,
+      "reveal_at": 71.12683340962727,
+      "speech_end": 71.77283333333332
+    },
+    {
+      "role": "explanation",
+      "chapter": "Slide a paper shape",
+      "text": "Cut or trace a triangle on paper and place it on a grid. Mark its starting corners. Slide the triangle gently to a new place without rotating the paper. Compare each original corner with its matching new corner. They should all have travelled the same distance in the same direction.",
+      "board": [
+        "Same movement for every point"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 4,
+      "start": 71.77283333333332,
+      "end": 89.57249999999999,
+      "words": [
+        {
+          "word": "cut",
+          "start": 71.77283333333332
+        },
+        {
+          "word": "or",
+          "start": 72.17283330949147
+        },
+        {
+          "word": "trace",
+          "start": 72.37283329757054
+        },
+        {
+          "word": "a",
+          "start": 72.77283333333332
+        },
+        {
+          "word": "triangle",
+          "start": 72.97283326180775
+        },
+        {
+          "word": "on",
+          "start": 73.61283324750264
+        },
+        {
+          "word": "paper",
+          "start": 73.81283329518635
+        },
+        {
+          "word": "and",
+          "start": 74.21283339055378
+        },
+        {
+          "word": "place",
+          "start": 74.41283319981892
+        },
+        {
+          "word": "it",
+          "start": 74.7328333714803
+        },
+        {
+          "word": "on",
+          "start": 74.8928332188924
+        },
+        {
+          "word": "a",
+          "start": 75.0528333047231
+        },
+        {
+          "word": "grid",
+          "start": 75.17283319028218
+        },
+        {
+          "word": "mark",
+          "start": 75.69283317120869
+        },
+        {
+          "word": "its",
+          "start": 76.05283306630452
+        },
+        {
+          "word": "starting",
+          "start": 76.33283327611286
+        },
+        {
+          "word": "corners",
+          "start": 76.77283333333332
+        },
+        {
+          "word": "slide",
+          "start": 77.45283316167195
+        },
+        {
+          "word": "the",
+          "start": 77.8928332188924
+        },
+        {
+          "word": "triangle",
+          "start": 78.05283306630452
+        },
+        {
+          "word": "gently",
+          "start": 78.77283333333332
+        },
+        {
+          "word": "to",
+          "start": 79.25283335240681
+        },
+        {
+          "word": "a",
+          "start": 79.41283319981892
+        },
+        {
+          "word": "new",
+          "start": 79.57283304723103
+        },
+        {
+          "word": "place",
+          "start": 79.85283325703938
+        },
+        {
+          "word": "without",
+          "start": 80.21283291371662
+        },
+        {
+          "word": "rotating",
+          "start": 80.61283348592121
+        },
+        {
+          "word": "the",
+          "start": 81.25283287556965
+        },
+        {
+          "word": "paper",
+          "start": 81.41283272298176
+        },
+        {
+          "word": "compare",
+          "start": 81.8928332188924
+        },
+        {
+          "word": "each",
+          "start": 82.57283352406819
+        },
+        {
+          "word": "original",
+          "start": 83.01283310445149
+        },
+        {
+          "word": "corner",
+          "start": 83.61283348592121
+        },
+        {
+          "word": "with",
+          "start": 84.05283306630452
+        },
+        {
+          "word": "its",
+          "start": 84.21283291371662
+        },
+        {
+          "word": "matching",
+          "start": 84.45283268483479
+        },
+        {
+          "word": "new",
+          "start": 84.93283318074543
+        },
+        {
+          "word": "corner",
+          "start": 85.1728329518636
+        },
+        {
+          "word": "they",
+          "start": 85.69283340962727
+        },
+        {
+          "word": "should",
+          "start": 85.85283325703938
+        },
+        {
+          "word": "all",
+          "start": 86.1728329518636
+        },
+        {
+          "word": "have",
+          "start": 86.37283276112873
+        },
+        {
+          "word": "travelled",
+          "start": 86.65283344777424
+        },
+        {
+          "word": "the",
+          "start": 87.13283299001057
+        },
+        {
+          "word": "same",
+          "start": 87.29283283742268
+        },
+        {
+          "word": "distance",
+          "start": 87.57283257039387
+        },
+        {
+          "word": "in",
+          "start": 88.1728329518636
+        },
+        {
+          "word": "the",
+          "start": 88.3328327992757
+        },
+        {
+          "word": "same",
+          "start": 88.4528336385091
+        },
+        {
+          "word": "direction",
+          "start": 88.81283234151203
+        }
+      ],
+      "asr_text": " CUT OR TRACE A TRIANGLE ON PAPER AND PLACE IT ON A GRID MARK ITS STARTING CORNERS SLIDE THE TRIANGLE GENTLY TO A NEW PLACE WITHOUT ROTATING THE PAPER COMPARE EACH ORIGINAL CORNER WITH ITS MATCHING NEW CORNER THEY SHOULD ALL HAVE TRAVELLED THE SAME DISTANCE IN THE SAME DIRECTION",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Same movement for every point",
+          "at": 71.77283333333332,
+          "reason": "scene context"
+        }
+      ],
+      "motion_start": 71.77283333333332,
+      "motion_end": 88.81283234151203,
+      "reveal_at": 88.66283234151203,
+      "speech_end": 89.57249999999999
+    },
+    {
+      "role": "explanation",
+      "chapter": "Describe the movement precisely",
+      "text": "Saying slide it over there is not enough to reproduce a translation. Give a direction and distance for the horizontal move, then for any vertical move. The instruction three right and two up tells a partner exactly how to move every point on our unit grid.",
+      "board": [
+        "Translate: 3 right, 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 5,
+      "start": 89.57249999999999,
+      "end": 105.04187499999999,
+      "words": [
+        {
+          "word": "saying",
+          "start": 89.57249999999999
+        },
+        {
+          "word": "slide",
+          "start": 90.05249998927115
+        },
+        {
+          "word": "it",
+          "start": 90.45249999523162
+        },
+        {
+          "word": "over",
+          "start": 90.65249992370605
+        },
+        {
+          "word": "there",
+          "start": 90.9325000143051
+        },
+        {
+          "word": "is",
+          "start": 91.17249990463256
+        },
+        {
+          "word": "not",
+          "start": 91.4124999141693
+        },
+        {
+          "word": "enough",
+          "start": 91.65249992370605
+        },
+        {
+          "word": "to",
+          "start": 91.89249993324279
+        },
+        {
+          "word": "reproduce",
+          "start": 92.05250001907348
+        },
+        {
+          "word": "a",
+          "start": 92.65249992370605
+        },
+        {
+          "word": "translation",
+          "start": 92.77249980926513
+        },
+        {
+          "word": "give",
+          "start": 93.65249992370605
+        },
+        {
+          "word": "a",
+          "start": 93.89249969482421
+        },
+        {
+          "word": "direction",
+          "start": 94.05250001907348
+        },
+        {
+          "word": "and",
+          "start": 94.7324998474121
+        },
+        {
+          "word": "distance",
+          "start": 94.97250009536742
+        },
+        {
+          "word": "for",
+          "start": 95.49250007629394
+        },
+        {
+          "word": "the",
+          "start": 95.61249996185302
+        },
+        {
+          "word": "horizontal",
+          "start": 95.7324998474121
+        },
+        {
+          "word": "move",
+          "start": 96.49250007629394
+        },
+        {
+          "word": "then",
+          "start": 96.85249973297118
+        },
+        {
+          "word": "for",
+          "start": 97.0924999809265
+        },
+        {
+          "word": "any",
+          "start": 97.3724997138977
+        },
+        {
+          "word": "vertical",
+          "start": 97.7324998474121
+        },
+        {
+          "word": "move",
+          "start": 98.2925002670288
+        },
+        {
+          "word": "the",
+          "start": 98.65249992370605
+        },
+        {
+          "word": "instruction",
+          "start": 98.85249973297118
+        },
+        {
+          "word": "three",
+          "start": 99.57249999999999
+        },
+        {
+          "word": "right",
+          "start": 99.85249973297118
+        },
+        {
+          "word": "and",
+          "start": 100.1724994277954
+        },
+        {
+          "word": "two",
+          "start": 100.33250022888183
+        },
+        {
+          "word": "up",
+          "start": 100.61249996185302
+        },
+        {
+          "word": "tells",
+          "start": 100.85249973297118
+        },
+        {
+          "word": "a",
+          "start": 101.1724994277954
+        },
+        {
+          "word": "partner",
+          "start": 101.29249931335448
+        },
+        {
+          "word": "exactly",
+          "start": 101.85249973297118
+        },
+        {
+          "word": "how",
+          "start": 102.53250003814696
+        },
+        {
+          "word": "to",
+          "start": 102.7324998474121
+        },
+        {
+          "word": "move",
+          "start": 102.93249965667724
+        },
+        {
+          "word": "every",
+          "start": 103.29249931335448
+        },
+        {
+          "word": "point",
+          "start": 103.65249992370605
+        },
+        {
+          "word": "on",
+          "start": 103.97249961853026
+        },
+        {
+          "word": "our",
+          "start": 104.13249946594237
+        },
+        {
+          "word": "unic",
+          "start": 104.29249931335448
+        }
+      ],
+      "asr_text": " SAYING SLIDE IT OVER THERE IS NOT ENOUGH TO REPRODUCE A TRANSLATION GIVE A DIRECTION AND DISTANCE FOR THE HORIZONTAL MOVE THEN FOR ANY VERTICAL MOVE THE INSTRUCTION THREE RIGHT AND TWO UP TELLS A PARTNER EXACTLY HOW TO MOVE EVERY POINT ON OUR UNIC",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Translate: 3 right, 2 up",
+          "at": 100.43250022888182,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 89.57249999999999,
+      "motion_end": 104.29249931335448,
+      "reveal_at": 104.14249931335448,
+      "speech_end": 105.04187499999999
+    },
+    {
+      "role": "explanation",
+      "chapter": "Choose corresponding vertices",
+      "text": "Label the original triangle corners A, B and C. Their images are the matching corners after the translation. Keep the labels paired so that A is compared with its own image, rather than whichever new corner happens to be closest. Matching points give reliable evidence about the movement.",
+      "board": [
+        "Pair each point with its own image."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 6,
+      "start": 105.04187499999999,
+      "end": 123.24120833333332,
+      "words": [
+        {
+          "word": "label",
+          "start": 105.04187499999999
+        },
+        {
+          "word": "the",
+          "start": 105.52187498927115
+        },
+        {
+          "word": "original",
+          "start": 105.76187496900558
+        },
+        {
+          "word": "triangle",
+          "start": 106.4018750143051
+        },
+        {
+          "word": "corners",
+          "start": 107.04187499999999
+        },
+        {
+          "word": "a",
+          "start": 107.60187494277953
+        },
+        {
+          "word": "b",
+          "start": 107.92187487602233
+        },
+        {
+          "word": "and",
+          "start": 108.12187492370605
+        },
+        {
+          "word": "c",
+          "start": 108.40187489509582
+        },
+        {
+          "word": "their",
+          "start": 108.72187482833861
+        },
+        {
+          "word": "images",
+          "start": 109.04187499999999
+        },
+        {
+          "word": "are",
+          "start": 109.80187475204467
+        },
+        {
+          "word": "the",
+          "start": 109.96187507629394
+        },
+        {
+          "word": "matching",
+          "start": 110.16187488555907
+        },
+        {
+          "word": "corners",
+          "start": 110.72187482833861
+        },
+        {
+          "word": "after",
+          "start": 111.28187477111815
+        },
+        {
+          "word": "the",
+          "start": 111.60187494277953
+        },
+        {
+          "word": "translation",
+          "start": 111.76187479019164
+        },
+        {
+          "word": "keep",
+          "start": 112.64187490463256
+        },
+        {
+          "word": "the",
+          "start": 112.92187463760375
+        },
+        {
+          "word": "label",
+          "start": 113.08187496185302
+        },
+        {
+          "word": "spared",
+          "start": 113.44187461853026
+        },
+        {
+          "word": "so",
+          "start": 113.96187507629394
+        },
+        {
+          "word": "that",
+          "start": 114.24187480926513
+        },
+        {
+          "word": "are",
+          "start": 114.44187461853026
+        },
+        {
+          "word": "is",
+          "start": 114.6418744277954
+        },
+        {
+          "word": "compared",
+          "start": 114.80187522888183
+        },
+        {
+          "word": "with",
+          "start": 115.28187477111815
+        },
+        {
+          "word": "its",
+          "start": 115.48187458038329
+        },
+        {
+          "word": "own",
+          "start": 115.68187438964843
+        },
+        {
+          "word": "image",
+          "start": 115.96187507629394
+        },
+        {
+          "word": "rather",
+          "start": 116.44187461853026
+        },
+        {
+          "word": "than",
+          "start": 116.76187431335448
+        },
+        {
+          "word": "whichever",
+          "start": 117.00187503814696
+        },
+        {
+          "word": "new",
+          "start": 117.52187454223632
+        },
+        {
+          "word": "corner",
+          "start": 117.84187423706054
+        },
+        {
+          "word": "happens",
+          "start": 118.28187477111815
+        },
+        {
+          "word": "to",
+          "start": 118.72187435150146
+        },
+        {
+          "word": "be",
+          "start": 118.84187423706054
+        },
+        {
+          "word": "closest",
+          "start": 119.00187503814696
+        },
+        {
+          "word": "matching",
+          "start": 119.72187435150146
+        },
+        {
+          "word": "points",
+          "start": 120.24187480926513
+        },
+        {
+          "word": "give",
+          "start": 120.72187435150146
+        },
+        {
+          "word": "reliable",
+          "start": 120.96187507629394
+        },
+        {
+          "word": "evidence",
+          "start": 121.64187538146972
+        },
+        {
+          "word": "about",
+          "start": 122.24187385559081
+        },
+        {
+          "word": "the",
+          "start": 122.48187553405761
+        },
+        {
+          "word": "movement",
+          "start": 122.64187538146972
+        }
+      ],
+      "asr_text": " LABEL THE ORIGINAL TRIANGLE CORNERS A B AND C THEIR IMAGES ARE THE MATCHING CORNERS AFTER THE TRANSLATION KEEP THE LABEL SPARED SO THAT ARE IS COMPARED WITH ITS OWN IMAGE RATHER THAN WHICHEVER NEW CORNER HAPPENS TO BE CLOSEST MATCHING POINTS GIVE RELIABLE EVIDENCE ABOUT THE MOVEMENT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Pair each point with its own image.",
+          "at": 115.96187507629394,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 105.04187499999999,
+      "motion_end": 122.64187538146972,
+      "reveal_at": 122.49187538146971,
+      "speech_end": 123.24120833333332
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the image of A",
+      "text": "Vertex A starts at one, one. Translate the shape three units right and two units up. Predict the new coordinates of A. Think about which coordinate changes at each stage. Keep the other corners hidden for a moment so one checked point leads the method.",
+      "board": [
+        "A starts at (1, 1)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2,
+        "hide": true
+      },
+      "index": 7,
+      "start": 123.24120833333332,
+      "end": 144.66833333333332,
+      "words": [
+        {
+          "word": "vertics",
+          "start": 123.24120833333332
+        },
+        {
+          "word": "a",
+          "start": 123.9612083023389
+        },
+        {
+          "word": "starts",
+          "start": 124.12120832856495
+        },
+        {
+          "word": "at",
+          "start": 124.52120830472309
+        },
+        {
+          "word": "one",
+          "start": 124.76120831425983
+        },
+        {
+          "word": "one",
+          "start": 125.12120832856495
+        },
+        {
+          "word": "translate",
+          "start": 125.56120826657612
+        },
+        {
+          "word": "the",
+          "start": 126.24120833333332
+        },
+        {
+          "word": "shape",
+          "start": 126.44120814259846
+        },
+        {
+          "word": "three",
+          "start": 126.84120823796589
+        },
+        {
+          "word": "units",
+          "start": 127.08120824750263
+        },
+        {
+          "word": "right",
+          "start": 127.56120802815754
+        },
+        {
+          "word": "and",
+          "start": 127.88120819981891
+        },
+        {
+          "word": "two",
+          "start": 128.08120800908404
+        },
+        {
+          "word": "units",
+          "start": 128.28120829518633
+        },
+        {
+          "word": "up",
+          "start": 128.76120831425982
+        },
+        {
+          "word": "predict",
+          "start": 129.08120800908404
+        },
+        {
+          "word": "the",
+          "start": 129.68120839055376
+        },
+        {
+          "word": "new",
+          "start": 129.8812081998189
+        },
+        {
+          "word": "co",
+          "start": 130.20120837148028
+        },
+        {
+          "word": "ordinates",
+          "start": 130.44120814259844
+        },
+        {
+          "word": "of",
+          "start": 130.96120812352495
+        },
+        {
+          "word": "her",
+          "start": 131.12120797093706
+        },
+        {
+          "word": "think",
+          "start": 131.3612082188924
+        },
+        {
+          "word": "about",
+          "start": 131.72120787556963
+        },
+        {
+          "word": "which",
+          "start": 132.0812084859212
+        },
+        {
+          "word": "co",
+          "start": 132.3612082188924
+        },
+        {
+          "word": "ordinate",
+          "start": 132.56120802815752
+        },
+        {
+          "word": "changes",
+          "start": 133.16120840962725
+        },
+        {
+          "word": "at",
+          "start": 133.76120783742266
+        },
+        {
+          "word": "each",
+          "start": 133.9612076466878
+        },
+        {
+          "word": "stage",
+          "start": 134.28120829518633
+        },
+        {
+          "word": "keep",
+          "start": 134.92120768483477
+        },
+        {
+          "word": "the",
+          "start": 135.16120840962725
+        },
+        {
+          "word": "other",
+          "start": 135.4012081807454
+        },
+        {
+          "word": "corners",
+          "start": 135.72120787556963
+        },
+        {
+          "word": "hidden",
+          "start": 136.2412083333333
+        },
+        {
+          "word": "for",
+          "start": 136.60120799001055
+        },
+        {
+          "word": "a",
+          "start": 136.72120787556963
+        },
+        {
+          "word": "moment",
+          "start": 136.88120772298174
+        },
+        {
+          "word": "so",
+          "start": 137.28120829518633
+        },
+        {
+          "word": "one",
+          "start": 137.5212080663045
+        },
+        {
+          "word": "checked",
+          "start": 137.8012077992757
+        },
+        {
+          "word": "point",
+          "start": 138.20120837148028
+        },
+        {
+          "word": "leads",
+          "start": 138.60120799001055
+        },
+        {
+          "word": "the",
+          "start": 138.9612076466878
+        },
+        {
+          "word": "method",
+          "start": 139.12120844777422
+        }
+      ],
+      "asr_text": " VERTICS A STARTS AT ONE ONE TRANSLATE THE SHAPE THREE UNITS RIGHT AND TWO UNITS UP PREDICT THE NEW CO ORDINATES OF HER THINK ABOUT WHICH CO ORDINATE CHANGES AT EACH STAGE KEEP THE OTHER CORNERS HIDDEN FOR A MOMENT SO ONE CHECKED POINT LEADS THE METHOD",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A starts at (1, 1)",
+          "at": 123.24120833333332,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 123.24120833333332,
+      "motion_end": 139.12120844777422,
+      "reveal_at": 138.97120844777422,
+      "speech_end": 139.66833333333332
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: move one point",
+      "text": "Three right changes one, one to four, one. Two up then gives four, three. The image of A is four, three. This coordinate calculation records the slide shown on the grid. It does not rotate the point around the origin or exchange the two coordinate positions.",
+      "board": [
+        "A: (1, 1) → (4, 3)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 8,
+      "start": 144.66833333333332,
+      "end": 161.17841666666666,
+      "words": [
+        {
+          "word": "three",
+          "start": 144.66833333333332
+        },
+        {
+          "word": "right",
+          "start": 145.06833330949146
+        },
+        {
+          "word": "changes",
+          "start": 145.3883333023389
+        },
+        {
+          "word": "one",
+          "start": 145.98833326657612
+        },
+        {
+          "word": "one",
+          "start": 146.42833332379658
+        },
+        {
+          "word": "to",
+          "start": 146.628333252271
+        },
+        {
+          "word": "four",
+          "start": 146.86833338101704
+        },
+        {
+          "word": "one",
+          "start": 147.1483333524068
+        },
+        {
+          "word": "two",
+          "start": 147.54833320935566
+        },
+        {
+          "word": "up",
+          "start": 147.7883332188924
+        },
+        {
+          "word": "then",
+          "start": 147.98833326657612
+        },
+        {
+          "word": "gives",
+          "start": 148.2683332379659
+        },
+        {
+          "word": "four",
+          "start": 148.62833313306172
+        },
+        {
+          "word": "three",
+          "start": 148.9083331044515
+        },
+        {
+          "word": "the",
+          "start": 149.30833319981892
+        },
+        {
+          "word": "image",
+          "start": 149.6283333714803
+        },
+        {
+          "word": "of",
+          "start": 150.02833299001057
+        },
+        {
+          "word": "her",
+          "start": 150.18833331425984
+        },
+        {
+          "word": "is",
+          "start": 150.428333085378
+        },
+        {
+          "word": "four",
+          "start": 150.66833333333332
+        },
+        {
+          "word": "three",
+          "start": 151.02833299001057
+        },
+        {
+          "word": "this",
+          "start": 151.46833304723103
+        },
+        {
+          "word": "co",
+          "start": 151.7883332188924
+        },
+        {
+          "word": "ordinate",
+          "start": 151.98833302815754
+        },
+        {
+          "word": "calculation",
+          "start": 152.46833304723103
+        },
+        {
+          "word": "records",
+          "start": 153.30833272298176
+        },
+        {
+          "word": "the",
+          "start": 153.86833314259846
+        },
+        {
+          "word": "slide",
+          "start": 154.02833299001057
+        },
+        {
+          "word": "shown",
+          "start": 154.46833352406819
+        },
+        {
+          "word": "on",
+          "start": 154.86833314259846
+        },
+        {
+          "word": "the",
+          "start": 154.98833302815754
+        },
+        {
+          "word": "grid",
+          "start": 155.14833287556965
+        },
+        {
+          "word": "it",
+          "start": 155.54833344777424
+        },
+        {
+          "word": "does",
+          "start": 155.7883332188924
+        },
+        {
+          "word": "not",
+          "start": 156.02833299001057
+        },
+        {
+          "word": "rotate",
+          "start": 156.26833276112873
+        },
+        {
+          "word": "the",
+          "start": 156.7883332188924
+        },
+        {
+          "word": "point",
+          "start": 156.98833302815754
+        },
+        {
+          "word": "around",
+          "start": 157.30833272298176
+        },
+        {
+          "word": "the",
+          "start": 157.6283333714803
+        },
+        {
+          "word": "origin",
+          "start": 157.82833318074543
+        },
+        {
+          "word": "or",
+          "start": 158.3483326848348
+        },
+        {
+          "word": "exchange",
+          "start": 158.54833344777424
+        },
+        {
+          "word": "the",
+          "start": 159.2283327992757
+        },
+        {
+          "word": "two",
+          "start": 159.42833260854084
+        },
+        {
+          "word": "co",
+          "start": 159.70833329518635
+        },
+        {
+          "word": "ordinate",
+          "start": 159.9083331044515
+        },
+        {
+          "word": "positions",
+          "start": 160.38833264668781
+        }
+      ],
+      "asr_text": " THREE RIGHT CHANGES ONE ONE TO FOUR ONE TWO UP THEN GIVES FOUR THREE THE IMAGE OF HER IS FOUR THREE THIS CO ORDINATE CALCULATION RECORDS THE SLIDE SHOWN ON THE GRID IT DOES NOT ROTATE THE POINT AROUND THE ORIGIN OR EXCHANGE THE TWO CO ORDINATE POSITIONS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A: (1, 1) → (4, 3)",
+          "at": 144.76833333333332,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 144.66833333333332,
+      "motion_end": 145.46833333333333,
+      "reveal_at": 145.46833333333333,
+      "speech_end": 161.17841666666666
+    },
+    {
+      "role": "explanation",
+      "chapter": "Complete the triangle",
+      "text": "B begins at three, one and moves to six, three. C begins at one, three and moves to four, five. Each first coordinate increased by three, and each second coordinate increased by two. Join the image vertices in the same order to obtain the translated triangle.",
+      "board": [
+        "B → (6, 3); C → (4, 5)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 9,
+      "start": 161.17841666666666,
+      "end": 177.90470833333333,
+      "words": [
+        {
+          "word": "b",
+          "start": 161.25841666487852
+        },
+        {
+          "word": "begins",
+          "start": 161.4984166595141
+        },
+        {
+          "word": "at",
+          "start": 161.97841661898295
+        },
+        {
+          "word": "three",
+          "start": 162.2184166285197
+        },
+        {
+          "word": "one",
+          "start": 162.5784166428248
+        },
+        {
+          "word": "and",
+          "start": 162.81841665236155
+        },
+        {
+          "word": "moves",
+          "start": 163.01841658083598
+        },
+        {
+          "word": "to",
+          "start": 163.29841655222575
+        },
+        {
+          "word": "six",
+          "start": 163.49841659990946
+        },
+        {
+          "word": "three",
+          "start": 163.81841653315226
+        },
+        {
+          "word": "c",
+          "start": 164.29841655222575
+        },
+        {
+          "word": "begins",
+          "start": 164.49841659990946
+        },
+        {
+          "word": "at",
+          "start": 165.01841658083598
+        },
+        {
+          "word": "one",
+          "start": 165.25841659037272
+        },
+        {
+          "word": "three",
+          "start": 165.5784167620341
+        },
+        {
+          "word": "and",
+          "start": 165.97841638056437
+        },
+        {
+          "word": "moves",
+          "start": 166.17841666666666
+        },
+        {
+          "word": "to",
+          "start": 166.49841636149088
+        },
+        {
+          "word": "four",
+          "start": 166.7384166094462
+        },
+        {
+          "word": "five",
+          "start": 167.0184163424174
+        },
+        {
+          "word": "each",
+          "start": 167.61841672388712
+        },
+        {
+          "word": "first",
+          "start": 168.0184163424174
+        },
+        {
+          "word": "co",
+          "start": 168.41841643778483
+        },
+        {
+          "word": "ordinate",
+          "start": 168.5384163233439
+        },
+        {
+          "word": "increased",
+          "start": 169.05841630427042
+        },
+        {
+          "word": "by",
+          "start": 169.57841628519694
+        },
+        {
+          "word": "three",
+          "start": 169.8184160563151
+        },
+        {
+          "word": "and",
+          "start": 170.13841670481364
+        },
+        {
+          "word": "each",
+          "start": 170.33841651407877
+        },
+        {
+          "word": "second",
+          "start": 170.57841628519694
+        },
+        {
+          "word": "co",
+          "start": 171.01841681925455
+        },
+        {
+          "word": "ordinate",
+          "start": 171.17841666666666
+        },
+        {
+          "word": "increased",
+          "start": 171.658416208903
+        },
+        {
+          "word": "by",
+          "start": 172.17841666666666
+        },
+        {
+          "word": "two",
+          "start": 172.41841643778483
+        },
+        {
+          "word": "join",
+          "start": 172.89841598002116
+        },
+        {
+          "word": "the",
+          "start": 173.25841659037272
+        },
+        {
+          "word": "image",
+          "start": 173.49841636149088
+        },
+        {
+          "word": "vertesies",
+          "start": 173.9784159037272
+        },
+        {
+          "word": "in",
+          "start": 174.73841613260905
+        },
+        {
+          "word": "the",
+          "start": 174.89841598002116
+        },
+        {
+          "word": "same",
+          "start": 175.01841681925455
+        },
+        {
+          "word": "order",
+          "start": 175.3784164759318
+        },
+        {
+          "word": "to",
+          "start": 175.73841613260905
+        },
+        {
+          "word": "obtain",
+          "start": 175.89841598002116
+        },
+        {
+          "word": "the",
+          "start": 176.3784164759318
+        },
+        {
+          "word": "translated",
+          "start": 176.5384163233439
+        },
+        {
+          "word": "triangle",
+          "start": 177.21841567484537
+        }
+      ],
+      "asr_text": " B BEGINS AT THREE ONE AND MOVES TO SIX THREE C BEGINS AT ONE THREE AND MOVES TO FOUR FIVE EACH FIRST CO ORDINATE INCREASED BY THREE AND EACH SECOND CO ORDINATE INCREASED BY TWO JOIN THE IMAGE VERTESIES IN THE SAME ORDER TO OBTAIN THE TRANSLATED TRIANGLE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "B → (6, 3); C → (4, 5)",
+          "at": 167.1184163424174,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 161.25841666487852,
+      "motion_end": 177.21841567484537,
+      "reveal_at": 177.06841567484537,
+      "speech_end": 177.90470833333333
+    },
+    {
+      "role": "misconception",
+      "chapter": "Do not move just one corner",
+      "text": "If A moves three right but B and C stay still, the triangle changes shape. That is not a translation of the whole triangle. Repair the model by applying the same instruction to every vertex. Then compare the side lengths and corner angles with those of the original triangle.",
+      "board": [
+        "All vertices follow the same instruction."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 10,
+      "start": 177.90470833333333,
+      "end": 195.217125,
+      "words": [
+        {
+          "word": "if",
+          "start": 177.90470833333333
+        },
+        {
+          "word": "a",
+          "start": 178.1047083214124
+        },
+        {
+          "word": "moves",
+          "start": 178.26470831783612
+        },
+        {
+          "word": "three",
+          "start": 178.62470830233892
+        },
+        {
+          "word": "right",
+          "start": 178.90470833333333
+        },
+        {
+          "word": "but",
+          "start": 179.1847083047231
+        },
+        {
+          "word": "b",
+          "start": 179.5047082379659
+        },
+        {
+          "word": "and",
+          "start": 179.70470828564962
+        },
+        {
+          "word": "c",
+          "start": 179.90470833333333
+        },
+        {
+          "word": "stay",
+          "start": 180.14470834287008
+        },
+        {
+          "word": "still",
+          "start": 180.42470831425985
+        },
+        {
+          "word": "the",
+          "start": 180.74470824750264
+        },
+        {
+          "word": "triangle",
+          "start": 180.90470833333333
+        },
+        {
+          "word": "changes",
+          "start": 181.54470819981893
+        },
+        {
+          "word": "shape",
+          "start": 182.1447081044515
+        },
+        {
+          "word": "that",
+          "start": 182.62470812352498
+        },
+        {
+          "word": "is",
+          "start": 182.8647083714803
+        },
+        {
+          "word": "not",
+          "start": 183.1447081044515
+        },
+        {
+          "word": "a",
+          "start": 183.38470835240682
+        },
+        {
+          "word": "translation",
+          "start": 183.54470819981893
+        },
+        {
+          "word": "of",
+          "start": 184.5047082379659
+        },
+        {
+          "word": "the",
+          "start": 184.664708085378
+        },
+        {
+          "word": "whole",
+          "start": 184.90470833333333
+        },
+        {
+          "word": "triangle",
+          "start": 185.18470806630452
+        },
+        {
+          "word": "repair",
+          "start": 185.94470829518636
+        },
+        {
+          "word": "the",
+          "start": 186.4247078374227
+        },
+        {
+          "word": "model",
+          "start": 186.5847076848348
+        },
+        {
+          "word": "by",
+          "start": 186.9847082570394
+        },
+        {
+          "word": "applying",
+          "start": 187.1447081044515
+        },
+        {
+          "word": "the",
+          "start": 187.7047085240682
+        },
+        {
+          "word": "same",
+          "start": 187.8647083714803
+        },
+        {
+          "word": "instruction",
+          "start": 188.18470806630452
+        },
+        {
+          "word": "to",
+          "start": 188.8647083714803
+        },
+        {
+          "word": "every",
+          "start": 189.06470818074544
+        },
+        {
+          "word": "vertex",
+          "start": 189.4247078374227
+        },
+        {
+          "word": "then",
+          "start": 190.1447081044515
+        },
+        {
+          "word": "compare",
+          "start": 190.46470779927571
+        },
+        {
+          "word": "the",
+          "start": 190.90470833333333
+        },
+        {
+          "word": "side",
+          "start": 191.1447081044515
+        },
+        {
+          "word": "lengths",
+          "start": 191.46470779927571
+        },
+        {
+          "word": "and",
+          "start": 191.90470833333333
+        },
+        {
+          "word": "corner",
+          "start": 192.10470814259847
+        },
+        {
+          "word": "angles",
+          "start": 192.54470772298177
+        },
+        {
+          "word": "with",
+          "start": 193.06470818074544
+        },
+        {
+          "word": "those",
+          "start": 193.26470799001058
+        },
+        {
+          "word": "of",
+          "start": 193.5847076848348
+        },
+        {
+          "word": "the",
+          "start": 193.70470757039388
+        },
+        {
+          "word": "original",
+          "start": 193.90470833333333
+        },
+        {
+          "word": "triangle",
+          "start": 194.50470871480306
+        }
+      ],
+      "asr_text": " IF A MOVES THREE RIGHT BUT B AND C STAY STILL THE TRIANGLE CHANGES SHAPE THAT IS NOT A TRANSLATION OF THE WHOLE TRIANGLE REPAIR THE MODEL BY APPLYING THE SAME INSTRUCTION TO EVERY VERTEX THEN COMPARE THE SIDE LENGTHS AND CORNER ANGLES WITH THOSE OF THE ORIGINAL TRIANGLE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "All vertices follow the same instruction.",
+          "at": 177.90470833333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 177.90470833333333,
+      "motion_end": 194.50470871480306,
+      "reveal_at": 177.90470833333333,
+      "speech_end": 195.217125
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check the invariants",
+      "text": "An invariant is something that stays the same during a transformation. In a translation, side lengths, angles and orientation stay the same. Position changes. The triangle can point the same way in a new location, so pointing direction alone does not tell us where it has moved.",
+      "board": [
+        "Same lengths • angles • orientation"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 11,
+      "start": 195.217125,
+      "end": 212.76791666666668,
+      "words": [
+        {
+          "word": "an",
+          "start": 195.217125
+        },
+        {
+          "word": "invarient",
+          "start": 195.41712498807908
+        },
+        {
+          "word": "is",
+          "start": 196.25712496185304
+        },
+        {
+          "word": "something",
+          "start": 196.5371249332428
+        },
+        {
+          "word": "that",
+          "start": 196.97712499046327
+        },
+        {
+          "word": "stays",
+          "start": 197.217125
+        },
+        {
+          "word": "the",
+          "start": 197.61712485694886
+        },
+        {
+          "word": "same",
+          "start": 197.81712490463258
+        },
+        {
+          "word": "during",
+          "start": 198.17712503814698
+        },
+        {
+          "word": "a",
+          "start": 198.5371249332428
+        },
+        {
+          "word": "transformation",
+          "start": 198.6571248188019
+        },
+        {
+          "word": "in",
+          "start": 199.73712498092652
+        },
+        {
+          "word": "a",
+          "start": 199.89712482833863
+        },
+        {
+          "word": "translation",
+          "start": 200.05712467575074
+        },
+        {
+          "word": "side",
+          "start": 200.9771247520447
+        },
+        {
+          "word": "lengths",
+          "start": 201.37712484741212
+        },
+        {
+          "word": "angles",
+          "start": 201.81712490463258
+        },
+        {
+          "word": "and",
+          "start": 202.3371248855591
+        },
+        {
+          "word": "orientations",
+          "start": 202.4971247329712
+        },
+        {
+          "word": "stay",
+          "start": 203.41712480926515
+        },
+        {
+          "word": "the",
+          "start": 203.6571245803833
+        },
+        {
+          "word": "same",
+          "start": 203.81712442779542
+        },
+        {
+          "word": "position",
+          "start": 204.17712503814698
+        },
+        {
+          "word": "changes",
+          "start": 204.85712438964845
+        },
+        {
+          "word": "the",
+          "start": 205.61712461853028
+        },
+        {
+          "word": "triangle",
+          "start": 205.85712438964845
+        },
+        {
+          "word": "can",
+          "start": 206.4971247329712
+        },
+        {
+          "word": "point",
+          "start": 206.73712450408937
+        },
+        {
+          "word": "the",
+          "start": 207.0571251525879
+        },
+        {
+          "word": "same",
+          "start": 207.217125
+        },
+        {
+          "word": "way",
+          "start": 207.53712469482423
+        },
+        {
+          "word": "in",
+          "start": 207.7771244659424
+        },
+        {
+          "word": "a",
+          "start": 207.9371243133545
+        },
+        {
+          "word": "new",
+          "start": 208.0571251525879
+        },
+        {
+          "word": "location",
+          "start": 208.29712492370606
+        },
+        {
+          "word": "so",
+          "start": 208.97712427520753
+        },
+        {
+          "word": "pointing",
+          "start": 209.217125
+        },
+        {
+          "word": "direction",
+          "start": 209.73712450408937
+        },
+        {
+          "word": "alone",
+          "start": 210.37712484741212
+        },
+        {
+          "word": "does",
+          "start": 210.85712438964845
+        },
+        {
+          "word": "not",
+          "start": 211.09712511444093
+        },
+        {
+          "word": "tell",
+          "start": 211.33712393188478
+        },
+        {
+          "word": "us",
+          "start": 211.49712377929689
+        },
+        {
+          "word": "where",
+          "start": 211.73712545776368
+        },
+        {
+          "word": "it",
+          "start": 211.8971253051758
+        },
+        {
+          "word": "has",
+          "start": 212.01712423706056
+        },
+        {
+          "word": "moved",
+          "start": 212.25712400817872
+        }
+      ],
+      "asr_text": " AN INVARIENT IS SOMETHING THAT STAYS THE SAME DURING A TRANSFORMATION IN A TRANSLATION SIDE LENGTHS ANGLES AND ORIENTATIONS STAY THE SAME POSITION CHANGES THE TRIANGLE CAN POINT THE SAME WAY IN A NEW LOCATION SO POINTING DIRECTION ALONE DOES NOT TELL US WHERE IT HAS MOVED",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Same lengths • angles • orientation",
+          "at": 201.37712484741212,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 195.217125,
+      "motion_end": 212.25712400817872,
+      "reveal_at": 212.10712400817872,
+      "speech_end": 212.76791666666668
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a leftward slide",
+      "text": "Now start again with A at one, one, B at three, one and C at one, three. Slide every vertex one unit left and two units up. Predict the image of B. Check that the new shape will stay within the displayed first-quadrant grid.",
+      "board": [
+        "Translate: 1 left, 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2,
+        "hide": true
+      },
+      "index": 12,
+      "start": 212.76791666666668,
+      "end": 232.72500000000002,
+      "words": [
+        {
+          "word": "now",
+          "start": 212.76791666666668
+        },
+        {
+          "word": "start",
+          "start": 213.12791665116947
+        },
+        {
+          "word": "again",
+          "start": 213.48791663567226
+        },
+        {
+          "word": "with",
+          "start": 213.76791666666668
+        },
+        {
+          "word": "it",
+          "start": 213.9679165951411
+        },
+        {
+          "word": "at",
+          "start": 214.08791659990948
+        },
+        {
+          "word": "one",
+          "start": 214.2879166475932
+        },
+        {
+          "word": "one",
+          "start": 214.6479166618983
+        },
+        {
+          "word": "b",
+          "start": 214.9679167143504
+        },
+        {
+          "word": "at",
+          "start": 215.16791652361553
+        },
+        {
+          "word": "three",
+          "start": 215.36791657129925
+        },
+        {
+          "word": "one",
+          "start": 215.72791670481365
+        },
+        {
+          "word": "and",
+          "start": 215.96791647593182
+        },
+        {
+          "word": "c",
+          "start": 216.20791648546856
+        },
+        {
+          "word": "at",
+          "start": 216.36791657129925
+        },
+        {
+          "word": "one",
+          "start": 216.56791661898296
+        },
+        {
+          "word": "three",
+          "start": 216.84791659037273
+        },
+        {
+          "word": "slide",
+          "start": 217.2879166475932
+        },
+        {
+          "word": "every",
+          "start": 217.84791659037273
+        },
+        {
+          "word": "vertex",
+          "start": 218.20791672388714
+        },
+        {
+          "word": "one",
+          "start": 218.88791655222576
+        },
+        {
+          "word": "unit",
+          "start": 219.16791628519695
+        },
+        {
+          "word": "left",
+          "start": 219.56791638056438
+        },
+        {
+          "word": "and",
+          "start": 219.88791655222576
+        },
+        {
+          "word": "two",
+          "start": 220.12791632334392
+        },
+        {
+          "word": "units",
+          "start": 220.32791660944622
+        },
+        {
+          "word": "up",
+          "start": 220.8079166285197
+        },
+        {
+          "word": "predict",
+          "start": 221.12791632334392
+        },
+        {
+          "word": "the",
+          "start": 221.68791674296062
+        },
+        {
+          "word": "image",
+          "start": 221.88791655222576
+        },
+        {
+          "word": "of",
+          "start": 222.44791601816814
+        },
+        {
+          "word": "b",
+          "start": 222.84791659037273
+        },
+        {
+          "word": "c",
+          "start": 223.00791643778484
+        },
+        {
+          "word": "check",
+          "start": 223.20791624704998
+        },
+        {
+          "word": "that",
+          "start": 223.56791685740154
+        },
+        {
+          "word": "the",
+          "start": 223.76791666666668
+        },
+        {
+          "word": "new",
+          "start": 223.96791647593182
+        },
+        {
+          "word": "shape",
+          "start": 224.20791624704998
+        },
+        {
+          "word": "will",
+          "start": 224.60791681925457
+        },
+        {
+          "word": "stay",
+          "start": 224.8079166285197
+        },
+        {
+          "word": "within",
+          "start": 225.12791632334392
+        },
+        {
+          "word": "the",
+          "start": 225.48791598002117
+        },
+        {
+          "word": "displayed",
+          "start": 225.6479167811076
+        },
+        {
+          "word": "first",
+          "start": 226.32791613260906
+        },
+        {
+          "word": "quadrant",
+          "start": 226.68791674296062
+        },
+        {
+          "word": "grid",
+          "start": 227.28791617075603
+        }
+      ],
+      "asr_text": " NOW START AGAIN WITH IT AT ONE ONE B AT THREE ONE AND C AT ONE THREE SLIDE EVERY VERTEX ONE UNIT LEFT AND TWO UNITS UP PREDICT THE IMAGE OF B C CHECK THAT THE NEW SHAPE WILL STAY WITHIN THE DISPLAYED FIRST QUADRANT GRID",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Translate: 1 left, 2 up",
+          "at": 212.76791666666668,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 212.76791666666668,
+      "motion_end": 227.28791617075603,
+      "reveal_at": 227.13791617075603,
+      "speech_end": 227.72500000000002
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: left and up",
+      "text": "B moves from three, one to two, three. A moves to zero, three, and C moves to zero, five. Decreasing each first coordinate by one shifts the triangle left. Increasing each second coordinate by two shifts it up. The axis points are valid positions on our grid.",
+      "board": [
+        "A → (0, 3); B → (2, 3); C → (0, 5)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2
+      },
+      "index": 13,
+      "start": 232.72500000000002,
+      "end": 249.74641666666668,
+      "words": [
+        {
+          "word": "b",
+          "start": 232.80499999821188
+        },
+        {
+          "word": "moves",
+          "start": 233.00500000119212
+        },
+        {
+          "word": "from",
+          "start": 233.4449999690056
+        },
+        {
+          "word": "three",
+          "start": 233.68499997854235
+        },
+        {
+          "word": "one",
+          "start": 234.1649999380112
+        },
+        {
+          "word": "to",
+          "start": 234.40499994754794
+        },
+        {
+          "word": "two",
+          "start": 234.60499999523165
+        },
+        {
+          "word": "three",
+          "start": 234.8449998855591
+        },
+        {
+          "word": "a",
+          "start": 235.24499998092654
+        },
+        {
+          "word": "moves",
+          "start": 235.40499982833865
+        },
+        {
+          "word": "to",
+          "start": 235.76499996185305
+        },
+        {
+          "word": "zero",
+          "start": 235.92499980926516
+        },
+        {
+          "word": "three",
+          "start": 236.44500002861025
+        },
+        {
+          "word": "and",
+          "start": 236.76499996185305
+        },
+        {
+          "word": "c",
+          "start": 236.9649997711182
+        },
+        {
+          "word": "moves",
+          "start": 237.12500009536745
+        },
+        {
+          "word": "to",
+          "start": 237.44499979019167
+        },
+        {
+          "word": "zero",
+          "start": 237.60500011444094
+        },
+        {
+          "word": "five",
+          "start": 238.08499965667727
+        },
+        {
+          "word": "decreasing",
+          "start": 238.64500007629397
+        },
+        {
+          "word": "each",
+          "start": 239.4849997520447
+        },
+        {
+          "word": "first",
+          "start": 239.8449998855591
+        },
+        {
+          "word": "co",
+          "start": 240.16500005722048
+        },
+        {
+          "word": "ordinate",
+          "start": 240.3249999046326
+        },
+        {
+          "word": "by",
+          "start": 240.8449998855591
+        },
+        {
+          "word": "one",
+          "start": 241.04499969482424
+        },
+        {
+          "word": "shift",
+          "start": 241.32499942779543
+        },
+        {
+          "word": "the",
+          "start": 241.685000038147
+        },
+        {
+          "word": "triangle",
+          "start": 241.8449998855591
+        },
+        {
+          "word": "left",
+          "start": 242.5250001907349
+        },
+        {
+          "word": "increasing",
+          "start": 243.0049997329712
+        },
+        {
+          "word": "each",
+          "start": 243.8449998855591
+        },
+        {
+          "word": "second",
+          "start": 244.1249996185303
+        },
+        {
+          "word": "co",
+          "start": 244.60500011444094
+        },
+        {
+          "word": "ordinate",
+          "start": 244.76499996185305
+        },
+        {
+          "word": "by",
+          "start": 245.20499954223635
+        },
+        {
+          "word": "two",
+          "start": 245.4049993515015
+        },
+        {
+          "word": "shifts",
+          "start": 245.64500007629397
+        },
+        {
+          "word": "it",
+          "start": 246.0049997329712
+        },
+        {
+          "word": "up",
+          "start": 246.16499958038332
+        },
+        {
+          "word": "the",
+          "start": 246.44499931335451
+        },
+        {
+          "word": "axis",
+          "start": 246.685000038147
+        },
+        {
+          "word": "points",
+          "start": 247.24499950408938
+        },
+        {
+          "word": "are",
+          "start": 247.72500000000002
+        },
+        {
+          "word": "valid",
+          "start": 247.9649997711182
+        },
+        {
+          "word": "positions",
+          "start": 248.4049993515015
+        },
+        {
+          "word": "on",
+          "start": 249.0049987792969
+        },
+        {
+          "word": "our",
+          "start": 249.16500053405764
+        },
+        {
+          "word": "grid",
+          "start": 249.36499938964846
+        }
+      ],
+      "asr_text": " B MOVES FROM THREE ONE TO TWO THREE A MOVES TO ZERO THREE AND C MOVES TO ZERO FIVE DECREASING EACH FIRST CO ORDINATE BY ONE SHIFT THE TRIANGLE LEFT INCREASING EACH SECOND CO ORDINATE BY TWO SHIFTS IT UP THE AXIS POINTS ARE VALID POSITIONS ON OUR GRID",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A → (0, 3); B → (2, 3); C → (0, 5)",
+          "at": 238.18499965667726,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 232.80499999821188,
+      "motion_end": 238.18499965667726,
+      "reveal_at": 238.18499965667726,
+      "speech_end": 249.74641666666668
+    },
+    {
+      "role": "explanation",
+      "chapter": "Reverse a translation",
+      "text": "To return the second image to its starting position, slide one unit right and two units down. These reverse movements undo the original changes. Check one pair of coordinates, then check all vertices. A successful reverse operation provides another way to test a translation.",
+      "board": [
+        "Undo: 1 right, 2 down"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2
+      },
+      "index": 14,
+      "start": 249.74641666666668,
+      "end": 267.63658333333336,
+      "words": [
+        {
+          "word": "to",
+          "start": 249.74641666666668
+        },
+        {
+          "word": "return",
+          "start": 249.9064166630904
+        },
+        {
+          "word": "the",
+          "start": 250.3464166309039
+        },
+        {
+          "word": "second",
+          "start": 250.50641665712993
+        },
+        {
+          "word": "image",
+          "start": 250.9464165951411
+        },
+        {
+          "word": "to",
+          "start": 251.34641657129924
+        },
+        {
+          "word": "its",
+          "start": 251.50641665712993
+        },
+        {
+          "word": "starting",
+          "start": 251.70641658560436
+        },
+        {
+          "word": "position",
+          "start": 252.14641652361553
+        },
+        {
+          "word": "slide",
+          "start": 252.70641670481365
+        },
+        {
+          "word": "one",
+          "start": 253.18641648546856
+        },
+        {
+          "word": "unit",
+          "start": 253.4664166952769
+        },
+        {
+          "word": "rye",
+          "start": 253.7864166285197
+        },
+        {
+          "word": "and",
+          "start": 254.10641680018108
+        },
+        {
+          "word": "two",
+          "start": 254.2664166475932
+        },
+        {
+          "word": "units",
+          "start": 254.46641645685833
+        },
+        {
+          "word": "down",
+          "start": 254.90641651407878
+        },
+        {
+          "word": "these",
+          "start": 255.34641657129924
+        },
+        {
+          "word": "reverse",
+          "start": 255.74641666666668
+        },
+        {
+          "word": "movements",
+          "start": 256.3064166094462
+        },
+        {
+          "word": "undo",
+          "start": 256.9464164759318
+        },
+        {
+          "word": "the",
+          "start": 257.34641657129924
+        },
+        {
+          "word": "original",
+          "start": 257.5464163805644
+        },
+        {
+          "word": "changes",
+          "start": 258.1064163233439
+        },
+        {
+          "word": "check",
+          "start": 258.86641655222576
+        },
+        {
+          "word": "one",
+          "start": 259.26641617075603
+        },
+        {
+          "word": "pair",
+          "start": 259.5064168955485
+        },
+        {
+          "word": "of",
+          "start": 259.82641659037273
+        },
+        {
+          "word": "co",
+          "start": 260.02641639963787
+        },
+        {
+          "word": "ordinates",
+          "start": 260.226416208903
+        },
+        {
+          "word": "then",
+          "start": 260.86641655222576
+        },
+        {
+          "word": "check",
+          "start": 261.1064163233439
+        },
+        {
+          "word": "all",
+          "start": 261.5064159418742
+        },
+        {
+          "word": "wortesies",
+          "start": 261.7464166666667
+        },
+        {
+          "word": "a",
+          "start": 262.5464159037272
+        },
+        {
+          "word": "successful",
+          "start": 262.7864166285197
+        },
+        {
+          "word": "reverse",
+          "start": 263.6264167811076
+        },
+        {
+          "word": "operation",
+          "start": 264.14641628519695
+        },
+        {
+          "word": "provides",
+          "start": 264.86641655222576
+        },
+        {
+          "word": "another",
+          "start": 265.46641598002117
+        },
+        {
+          "word": "way",
+          "start": 265.7864156748454
+        },
+        {
+          "word": "to",
+          "start": 265.98641643778484
+        },
+        {
+          "word": "test",
+          "start": 266.1864172007243
+        },
+        {
+          "word": "a",
+          "start": 266.5464159037272
+        },
+        {
+          "word": "translation",
+          "start": 266.70641575113933
+        }
+      ],
+      "asr_text": " TO RETURN THE SECOND IMAGE TO ITS STARTING POSITION SLIDE ONE UNIT RYE AND TWO UNITS DOWN THESE REVERSE MOVEMENTS UNDO THE ORIGINAL CHANGES CHECK ONE PAIR OF CO ORDINATES THEN CHECK ALL WORTESIES A SUCCESSFUL REVERSE OPERATION PROVIDES ANOTHER WAY TO TEST A TRANSLATION",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Undo: 1 right, 2 down",
+          "at": 254.36641664759318,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 249.74641666666668,
+      "motion_end": 266.70641575113933,
+      "reveal_at": 266.55641575113935,
+      "speech_end": 267.63658333333336
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare two possible images",
+      "text": "Two triangles may be the same size and shape without being related by the translation you were given. One might have been turned or reflected. To identify this particular slide, compare corresponding vertices and verify the same horizontal and vertical changes for every pair.",
+      "board": [
+        "Check every matching pair."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 15,
+      "start": 267.63658333333336,
+      "end": 284.39562500000005,
+      "words": [
+        {
+          "word": "two",
+          "start": 267.63658333333336
+        },
+        {
+          "word": "triangles",
+          "start": 267.87658332796894
+        },
+        {
+          "word": "may",
+          "start": 268.63658333333336
+        },
+        {
+          "word": "be",
+          "start": 268.79658329995476
+        },
+        {
+          "word": "the",
+          "start": 269.0365833094915
+        },
+        {
+          "word": "same",
+          "start": 269.1565833142599
+        },
+        {
+          "word": "size",
+          "start": 269.516583328565
+        },
+        {
+          "word": "and",
+          "start": 269.91658330472313
+        },
+        {
+          "word": "shape",
+          "start": 270.1565833142599
+        },
+        {
+          "word": "without",
+          "start": 270.4765832475027
+        },
+        {
+          "word": "being",
+          "start": 270.7965831807455
+        },
+        {
+          "word": "related",
+          "start": 271.11658335240685
+        },
+        {
+          "word": "by",
+          "start": 271.6765832951864
+        },
+        {
+          "word": "the",
+          "start": 271.8365831425985
+        },
+        {
+          "word": "translation",
+          "start": 271.9565830281576
+        },
+        {
+          "word": "you",
+          "start": 272.6765832951864
+        },
+        {
+          "word": "were",
+          "start": 272.8365831425985
+        },
+        {
+          "word": "given",
+          "start": 272.9965829900106
+        },
+        {
+          "word": "one",
+          "start": 273.4765830090841
+        },
+        {
+          "word": "might",
+          "start": 273.8365831425985
+        },
+        {
+          "word": "have",
+          "start": 274.11658335240685
+        },
+        {
+          "word": "been",
+          "start": 274.27658319981896
+        },
+        {
+          "word": "turned",
+          "start": 274.59658337148034
+        },
+        {
+          "word": "or",
+          "start": 275.0765833905538
+        },
+        {
+          "word": "reflected",
+          "start": 275.23658323796593
+        },
+        {
+          "word": "to",
+          "start": 276.03658295186364
+        },
+        {
+          "word": "identify",
+          "start": 276.2365827611288
+        },
+        {
+          "word": "this",
+          "start": 276.9565830281576
+        },
+        {
+          "word": "particular",
+          "start": 277.2365827611288
+        },
+        {
+          "word": "slide",
+          "start": 277.7965831807455
+        },
+        {
+          "word": "compare",
+          "start": 278.19658279927575
+        },
+        {
+          "word": "corresponding",
+          "start": 278.6765832951864
+        },
+        {
+          "word": "vertesies",
+          "start": 279.4365835240682
+        },
+        {
+          "word": "and",
+          "start": 280.19658279927575
+        },
+        {
+          "word": "verify",
+          "start": 280.3965826085409
+        },
+        {
+          "word": "the",
+          "start": 280.9565830281576
+        },
+        {
+          "word": "same",
+          "start": 281.1165828755697
+        },
+        {
+          "word": "horizontal",
+          "start": 281.3965826085409
+        },
+        {
+          "word": "and",
+          "start": 282.1565828374227
+        },
+        {
+          "word": "vertical",
+          "start": 282.35658264668785
+        },
+        {
+          "word": "changes",
+          "start": 282.8765831044515
+        },
+        {
+          "word": "for",
+          "start": 283.47658253224694
+        },
+        {
+          "word": "every",
+          "start": 283.7165832570394
+        },
+        {
+          "word": "pair",
+          "start": 284.03658295186364
+        }
+      ],
+      "asr_text": " TWO TRIANGLES MAY BE THE SAME SIZE AND SHAPE WITHOUT BEING RELATED BY THE TRANSLATION YOU WERE GIVEN ONE MIGHT HAVE BEEN TURNED OR REFLECTED TO IDENTIFY THIS PARTICULAR SLIDE COMPARE CORRESPONDING VERTESIES AND VERIFY THE SAME HORIZONTAL AND VERTICAL CHANGES FOR EVERY PAIR",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Check every matching pair.",
+          "at": 283.7165832570394,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 267.63658333333336,
+      "motion_end": 284.03658295186364,
+      "reveal_at": 283.88658295186366,
+      "speech_end": 284.39562500000005
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use translations in a design",
+      "text": "A repeated motif can be created by translating a single shape by the same step several times. Keep a record of each step so the copies line up predictably. The step controls the spacing; it does not change the size of the original motif.",
+      "board": [
+        "Repeat a shared slide to make a pattern."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 16,
+      "start": 284.39562500000005,
+      "end": 299.7327083333334,
+      "words": [
+        {
+          "word": "a",
+          "start": 284.39562500000005
+        },
+        {
+          "word": "repeated",
+          "start": 284.5556249964238
+        },
+        {
+          "word": "motif",
+          "start": 285.1556249904633
+        },
+        {
+          "word": "can",
+          "start": 285.7956249761582
+        },
+        {
+          "word": "be",
+          "start": 285.9556249427796
+        },
+        {
+          "word": "created",
+          "start": 286.1556249904633
+        },
+        {
+          "word": "by",
+          "start": 286.6356250095368
+        },
+        {
+          "word": "translating",
+          "start": 286.8356250572205
+        },
+        {
+          "word": "a",
+          "start": 287.55562484741216
+        },
+        {
+          "word": "single",
+          "start": 287.6756249713898
+        },
+        {
+          "word": "shape",
+          "start": 288.1556249904633
+        },
+        {
+          "word": "by",
+          "start": 288.51562488555913
+        },
+        {
+          "word": "the",
+          "start": 288.6356247711182
+        },
+        {
+          "word": "same",
+          "start": 288.7956250953675
+        },
+        {
+          "word": "step",
+          "start": 289.0756248283387
+        },
+        {
+          "word": "several",
+          "start": 289.4756249237061
+        },
+        {
+          "word": "times",
+          "start": 289.9956249046326
+        },
+        {
+          "word": "keep",
+          "start": 290.55562484741216
+        },
+        {
+          "word": "a",
+          "start": 290.8356250572205
+        },
+        {
+          "word": "record",
+          "start": 290.9956249046326
+        },
+        {
+          "word": "of",
+          "start": 291.55562484741216
+        },
+        {
+          "word": "each",
+          "start": 291.7556246566773
+        },
+        {
+          "word": "step",
+          "start": 292.03562486648565
+        },
+        {
+          "word": "so",
+          "start": 292.4756249237061
+        },
+        {
+          "word": "the",
+          "start": 292.67562473297124
+        },
+        {
+          "word": "copy",
+          "start": 292.83562458038335
+        },
+        {
+          "word": "is",
+          "start": 293.1556252288819
+        },
+        {
+          "word": "lin",
+          "start": 293.27562511444097
+        },
+        {
+          "word": "up",
+          "start": 293.55562484741216
+        },
+        {
+          "word": "predictably",
+          "start": 293.7556246566773
+        },
+        {
+          "word": "the",
+          "start": 294.51562488555913
+        },
+        {
+          "word": "step",
+          "start": 294.71562469482427
+        },
+        {
+          "word": "controls",
+          "start": 295.11562431335454
+        },
+        {
+          "word": "the",
+          "start": 295.7556246566773
+        },
+        {
+          "word": "spacing",
+          "start": 295.9156245040894
+        },
+        {
+          "word": "it",
+          "start": 296.4356249618531
+        },
+        {
+          "word": "does",
+          "start": 296.6356247711182
+        },
+        {
+          "word": "not",
+          "start": 296.8756245422364
+        },
+        {
+          "word": "change",
+          "start": 297.11562431335454
+        },
+        {
+          "word": "the",
+          "start": 297.4756249237061
+        },
+        {
+          "word": "size",
+          "start": 297.71562469482427
+        },
+        {
+          "word": "of",
+          "start": 298.11562431335454
+        },
+        {
+          "word": "the",
+          "start": 298.23562515258794
+        },
+        {
+          "word": "original",
+          "start": 298.4356249618531
+        },
+        {
+          "word": "motif",
+          "start": 299.0756243515015
+        }
+      ],
+      "asr_text": " A REPEATED MOTIF CAN BE CREATED BY TRANSLATING A SINGLE SHAPE BY THE SAME STEP SEVERAL TIMES KEEP A RECORD OF EACH STEP SO THE COPY IS LIN UP PREDICTABLY THE STEP CONTROLS THE SPACING IT DOES NOT CHANGE THE SIZE OF THE ORIGINAL MOTIF",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Repeat a shared slide to make a pattern.",
+          "at": 284.39562500000005,
+          "reason": "scene context"
+        }
+      ],
+      "motion_start": 284.39562500000005,
+      "motion_end": 299.0756243515015,
+      "reveal_at": 298.92562435150154,
+      "speech_end": 299.7327083333334
+    },
+    {
+      "role": "question",
+      "chapter": "Independent error check",
+      "text": "A student claims two points were translated by the same movement. The first moved three right and two up. The second moved three right and one up. Can these both belong to one translated shape? Decide which part of the shared movement rule has failed.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2,
+        "hide": true
+      },
+      "index": 17,
+      "start": 299.7327083333334,
+      "end": 320.76904166666674,
+      "words": [
+        {
+          "word": "as",
+          "start": 299.7327083333334
+        },
+        {
+          "word": "student",
+          "start": 299.93270832141246
+        },
+        {
+          "word": "claims",
+          "start": 300.452708302339
+        },
+        {
+          "word": "two",
+          "start": 300.8927082999548
+        },
+        {
+          "word": "points",
+          "start": 301.17270827134456
+        },
+        {
+          "word": "were",
+          "start": 301.65270829041805
+        },
+        {
+          "word": "translated",
+          "start": 301.81270825703945
+        },
+        {
+          "word": "by",
+          "start": 302.5327082856497
+        },
+        {
+          "word": "the",
+          "start": 302.69270837148036
+        },
+        {
+          "word": "same",
+          "start": 302.81270825703945
+        },
+        {
+          "word": "movement",
+          "start": 303.13270819028224
+        },
+        {
+          "word": "the",
+          "start": 303.7327083333334
+        },
+        {
+          "word": "first",
+          "start": 304.0527080281576
+        },
+        {
+          "word": "moved",
+          "start": 304.45270812352504
+        },
+        {
+          "word": "three",
+          "start": 304.8527082188925
+        },
+        {
+          "word": "right",
+          "start": 305.1327084287008
+        },
+        {
+          "word": "and",
+          "start": 305.45270812352504
+        },
+        {
+          "word": "two",
+          "start": 305.61270797093715
+        },
+        {
+          "word": "up",
+          "start": 305.8927081807455
+        },
+        {
+          "word": "the",
+          "start": 306.2527083142599
+        },
+        {
+          "word": "second",
+          "start": 306.45270812352504
+        },
+        {
+          "word": "moved",
+          "start": 307.0127080663046
+        },
+        {
+          "word": "three",
+          "start": 307.412708161672
+        },
+        {
+          "word": "right",
+          "start": 307.7327083333334
+        },
+        {
+          "word": "and",
+          "start": 308.0527080281576
+        },
+        {
+          "word": "one",
+          "start": 308.25270783742275
+        },
+        {
+          "word": "up",
+          "start": 308.53270852406825
+        },
+        {
+          "word": "candies",
+          "start": 308.9327081425985
+        },
+        {
+          "word": "both",
+          "start": 309.5727084859213
+        },
+        {
+          "word": "belong",
+          "start": 309.9327081425985
+        },
+        {
+          "word": "to",
+          "start": 310.37270772298183
+        },
+        {
+          "word": "one",
+          "start": 310.6127084477743
+        },
+        {
+          "word": "translated",
+          "start": 310.8527082188925
+        },
+        {
+          "word": "shape",
+          "start": 311.65270840962734
+        },
+        {
+          "word": "decide",
+          "start": 312.1727079137167
+        },
+        {
+          "word": "which",
+          "start": 312.81270825703945
+        },
+        {
+          "word": "part",
+          "start": 313.13270795186367
+        },
+        {
+          "word": "of",
+          "start": 313.4527076466879
+        },
+        {
+          "word": "the",
+          "start": 313.5727084859213
+        },
+        {
+          "word": "shared",
+          "start": 313.7727082951864
+        },
+        {
+          "word": "movement",
+          "start": 314.1727079137167
+        },
+        {
+          "word": "rule",
+          "start": 314.6127084477743
+        },
+        {
+          "word": "has",
+          "start": 314.97270810445156
+        },
+        {
+          "word": "failed",
+          "start": 315.2127078755697
+        }
+      ],
+      "asr_text": " AS STUDENT CLAIMS TWO POINTS WERE TRANSLATED BY THE SAME MOVEMENT THE FIRST MOVED THREE RIGHT AND TWO UP THE SECOND MOVED THREE RIGHT AND ONE UP CANDIES BOTH BELONG TO ONE TRANSLATED SHAPE DECIDE WHICH PART OF THE SHARED MOVEMENT RULE HAS FAILED",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 299.7327083333334,
+      "motion_end": 315.2127078755697,
+      "reveal_at": 315.06270787556974,
+      "speech_end": 315.76904166666674
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the shared rule",
+      "text": "The vertical changes differ, so the two point movements do not follow one translation. Every point must move by the same horizontal and vertical amounts. Correct the second movement to two up, then check any remaining vertices. Equal changes are stronger evidence than a rough visual resemblance.",
+      "board": [
+        "Every point: 3 right AND 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 18,
+      "start": 320.76904166666674,
+      "end": 338.6483333333334,
+      "words": [
+        {
+          "word": "the",
+          "start": 320.76904166666674
+        },
+        {
+          "word": "vertical",
+          "start": 320.92904166309046
+        },
+        {
+          "word": "changes",
+          "start": 321.4490416738193
+        },
+        {
+          "word": "differ",
+          "start": 322.0090416762035
+        },
+        {
+          "word": "so",
+          "start": 322.4090416523616
+        },
+        {
+          "word": "the",
+          "start": 322.569041618983
+        },
+        {
+          "word": "two",
+          "start": 322.7290415856044
+        },
+        {
+          "word": "point",
+          "start": 323.0090416762035
+        },
+        {
+          "word": "movements",
+          "start": 323.3290416094463
+        },
+        {
+          "word": "do",
+          "start": 323.8890415522258
+        },
+        {
+          "word": "not",
+          "start": 324.0490416380565
+        },
+        {
+          "word": "follow",
+          "start": 324.28904164759325
+        },
+        {
+          "word": "one",
+          "start": 324.6890415045421
+        },
+        {
+          "word": "translation",
+          "start": 324.92904151407885
+        },
+        {
+          "word": "every",
+          "start": 325.80904162851976
+        },
+        {
+          "word": "point",
+          "start": 326.2090417238872
+        },
+        {
+          "word": "must",
+          "start": 326.6490413042705
+        },
+        {
+          "word": "move",
+          "start": 326.9690414759319
+        },
+        {
+          "word": "by",
+          "start": 327.3290416094463
+        },
+        {
+          "word": "the",
+          "start": 327.4890414568584
+        },
+        {
+          "word": "same",
+          "start": 327.6490413042705
+        },
+        {
+          "word": "horizontal",
+          "start": 327.92904151407885
+        },
+        {
+          "word": "and",
+          "start": 328.76904166666674
+        },
+        {
+          "word": "vertical",
+          "start": 328.9690414759319
+        },
+        {
+          "word": "amounts",
+          "start": 329.5290418955486
+        },
+        {
+          "word": "correct",
+          "start": 330.20904124705004
+        },
+        {
+          "word": "the",
+          "start": 330.64904178110766
+        },
+        {
+          "word": "second",
+          "start": 330.76904166666674
+        },
+        {
+          "word": "movement",
+          "start": 331.169041285197
+        },
+        {
+          "word": "to",
+          "start": 331.5690418574016
+        },
+        {
+          "word": "two",
+          "start": 331.76904166666674
+        },
+        {
+          "word": "up",
+          "start": 331.9690414759319
+        },
+        {
+          "word": "then",
+          "start": 332.169041285197
+        },
+        {
+          "word": "check",
+          "start": 332.4090410563152
+        },
+        {
+          "word": "any",
+          "start": 332.6890417429607
+        },
+        {
+          "word": "remaining",
+          "start": 332.92904151407885
+        },
+        {
+          "word": "vertesies",
+          "start": 333.4490410181682
+        },
+        {
+          "word": "equal",
+          "start": 334.2890411707561
+        },
+        {
+          "word": "changes",
+          "start": 334.7290417048137
+        },
+        {
+          "word": "are",
+          "start": 335.4090410563152
+        },
+        {
+          "word": "stronger",
+          "start": 335.64904178110766
+        },
+        {
+          "word": "evidence",
+          "start": 336.169041285197
+        },
+        {
+          "word": "than",
+          "start": 336.7290417048137
+        },
+        {
+          "word": "a",
+          "start": 336.8890405985515
+        },
+        {
+          "word": "rough",
+          "start": 337.0090414377849
+        },
+        {
+          "word": "visual",
+          "start": 337.3290411326091
+        },
+        {
+          "word": "resemblance",
+          "start": 337.80904067484545
+        }
+      ],
+      "asr_text": " THE VERTICAL CHANGES DIFFER SO THE TWO POINT MOVEMENTS DO NOT FOLLOW ONE TRANSLATION EVERY POINT MUST MOVE BY THE SAME HORIZONTAL AND VERTICAL AMOUNTS CORRECT THE SECOND MOVEMENT TO TWO UP THEN CHECK ANY REMAINING VERTESIES EQUAL CHANGES ARE STRONGER EVIDENCE THAN A ROUGH VISUAL RESEMBLANCE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Every point: 3 right AND 2 up",
+          "at": 322.82904158560444,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 320.76904166666674,
+      "motion_end": 322.82904158560444,
+      "reveal_at": 322.82904158560444,
+      "speech_end": 338.6483333333334
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Translate a shape using one shared movement. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can describe direction and distance.",
+        "I can move every vertex equally.",
+        "I can explain what stays the same."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      },
+      "index": 19,
+      "start": 338.6483333333334,
+      "end": 359.6859583333334,
+      "words": [
+        {
+          "word": "return",
+          "start": 338.6483333333334
+        },
+        {
+          "word": "to",
+          "start": 339.2083333357176
+        },
+        {
+          "word": "our",
+          "start": 339.4483332856497
+        },
+        {
+          "word": "learning",
+          "start": 339.6483333333334
+        },
+        {
+          "word": "goal",
+          "start": 340.0883332713446
+        },
+        {
+          "word": "translate",
+          "start": 340.4083333237967
+        },
+        {
+          "word": "a",
+          "start": 341.0883333905539
+        },
+        {
+          "word": "shape",
+          "start": 341.288333199819
+        },
+        {
+          "word": "using",
+          "start": 341.7683332188925
+        },
+        {
+          "word": "one",
+          "start": 342.20833327611297
+        },
+        {
+          "word": "shared",
+          "start": 342.48833324750274
+        },
+        {
+          "word": "movement",
+          "start": 342.8883331044516
+        },
+        {
+          "word": "choose",
+          "start": 343.52833344777434
+        },
+        {
+          "word": "one",
+          "start": 343.9283330663046
+        },
+        {
+          "word": "example",
+          "start": 344.16833331425994
+        },
+        {
+          "word": "from",
+          "start": 344.7683332188925
+        },
+        {
+          "word": "to",
+          "start": 344.9283330663046
+        },
+        {
+          "word": "day",
+          "start": 345.0883333905539
+        },
+        {
+          "word": "and",
+          "start": 345.3683331235251
+        },
+        {
+          "word": "explain",
+          "start": 345.56833340962737
+        },
+        {
+          "word": "the",
+          "start": 346.0083329900107
+        },
+        {
+          "word": "evidence",
+          "start": 346.16833331425994
+        },
+        {
+          "word": "that",
+          "start": 346.6483333333334
+        },
+        {
+          "word": "made",
+          "start": 346.8883331044516
+        },
+        {
+          "word": "its",
+          "start": 347.12833287556975
+        },
+        {
+          "word": "answer",
+          "start": 347.36833360036223
+        },
+        {
+          "word": "convincing",
+          "start": 347.7283332570395
+        },
+        {
+          "word": "which",
+          "start": 348.4883334859213
+        },
+        {
+          "word": "about",
+          "start": 348.7683332188925
+        },
+        {
+          "word": "three",
+          "start": 349.12833287556975
+        },
+        {
+          "word": "success",
+          "start": 349.4483335240683
+        },
+        {
+          "word": "criteria",
+          "start": 349.96833302815764
+        },
+        {
+          "word": "feels",
+          "start": 350.7283332570395
+        },
+        {
+          "word": "secure",
+          "start": 351.0483329518637
+        },
+        {
+          "word": "and",
+          "start": 351.52833344777434
+        },
+        {
+          "word": "which",
+          "start": 351.68833329518645
+        },
+        {
+          "word": "needs",
+          "start": 351.8883331044516
+        },
+        {
+          "word": "another",
+          "start": 352.24833276112884
+        },
+        {
+          "word": "try",
+          "start": 352.6483333333334
+        },
+        {
+          "word": "revisit",
+          "start": 353.12833287556975
+        },
+        {
+          "word": "a",
+          "start": 353.68833329518645
+        },
+        {
+          "word": "model",
+          "start": 353.80833318074554
+        },
+        {
+          "word": "test",
+          "start": 354.2083327992758
+        },
+        {
+          "word": "your",
+          "start": 354.52833344777434
+        },
+        {
+          "word": "explanation",
+          "start": 354.7283332570395
+        },
+        {
+          "word": "with",
+          "start": 355.4883334859213
+        },
+        {
+          "word": "a",
+          "start": 355.6483333333334
+        },
+        {
+          "word": "partner",
+          "start": 355.84833218892425
+        },
+        {
+          "word": "and",
+          "start": 356.24833371480315
+        },
+        {
+          "word": "describe",
+          "start": 356.40833356221526
+        },
+        {
+          "word": "one",
+          "start": 357.00833203633636
+        },
+        {
+          "word": "mistake",
+          "start": 357.24833371480315
+        },
+        {
+          "word": "you",
+          "start": 357.7683322652182
+        },
+        {
+          "word": "can",
+          "start": 357.96833302815764
+        },
+        {
+          "word": "now",
+          "start": 358.1683337910971
+        },
+        {
+          "word": "notice",
+          "start": 358.448332570394
+        },
+        {
+          "word": "and",
+          "start": 358.9283321126303
+        },
+        {
+          "word": "correct",
+          "start": 359.12833287556975
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL TRANSLATE A SHAPE USING ONE SHARED MOVEMENT CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can describe direction and distance.",
+          "at": 338.6483333333334,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can move every vertex equally.",
+          "at": 338.6483333333334,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can explain what stays the same.",
+          "at": 338.6483333333334,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 338.6483333333334,
+      "motion_end": 359.12833287556975,
+      "reveal_at": 358.9783328755698,
+      "speech_end": 359.6859583333334
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 6.599999904632568,
+      "text": "A park designer wants to copy a triangular flowerbed farther along a path without turning or resizing it."
+    },
+    {
+      "start": 6.599999904632568,
+      "end": 9.479999542236328,
+      "text": "How can every corner arrive in the right place?"
+    },
+    {
+      "start": 9.479999542236328,
+      "end": 16.49170833333333,
+      "text": "Today we will investigate translations: movements that slide a whole shape while keeping its size, shape and orientation."
+    },
+    {
+      "start": 16.49170833333333,
+      "end": 16.931708330949146,
+      "text": "Today we are learning to translate a shape using one shared movement."
+    },
+    {
+      "start": 16.931708330949146,
+      "end": 28.011707837422687,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 28.011707837422687,
+      "end": 29.37170844777425,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 29.37170844777425,
+      "end": 34.96579166666666,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 34.96579166666666,
+      "end": 39.12579151407877,
+      "text": "Our learning goal is to translate a shape using one shared movement."
+    },
+    {
+      "start": 39.12579151407877,
+      "end": 41.92579170481363,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 41.92579170481363,
+      "end": 49.35683333333333,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 49.35683333333333,
+      "end": 52.03683316167195,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 52.03683316167195,
+      "end": 54.63683306630452,
+      "text": "I can describe direction and distance."
+    },
+    {
+      "start": 54.63683306630452,
+      "end": 56.99683319981892,
+      "text": "I can move every vertex equally."
+    },
+    {
+      "start": 56.99683319981892,
+      "end": 59.19683348592122,
+      "text": "I can explain what stays the same."
+    },
+    {
+      "start": 59.19683348592122,
+      "end": 63.03683268483479,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 63.03683268483479,
+      "end": 71.77283333333332,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 71.77283333333332,
+      "end": 75.69283317120869,
+      "text": "Cut or trace a triangle on paper and place it on a grid."
+    },
+    {
+      "start": 75.69283317120869,
+      "end": 77.45283316167195,
+      "text": "Mark its starting corners."
+    },
+    {
+      "start": 77.45283316167195,
+      "end": 81.8928332188924,
+      "text": "Slide the triangle gently to a new place without rotating the paper."
+    },
+    {
+      "start": 81.8928332188924,
+      "end": 85.69283340962727,
+      "text": "Compare each original corner with its matching new corner."
+    },
+    {
+      "start": 85.69283340962727,
+      "end": 89.57249999999999,
+      "text": "They should all have travelled the same distance in the same direction."
+    },
+    {
+      "start": 89.57249999999999,
+      "end": 93.65249992370605,
+      "text": "Saying slide it over there is not enough to reproduce a translation."
+    },
+    {
+      "start": 93.65249992370605,
+      "end": 95.61249996185302,
+      "text": "Give a direction and distance for the horizontal move, then for any vertical move."
+    },
+    {
+      "start": 95.61249996185302,
+      "end": 105.04187499999999,
+      "text": "The instruction three right and two up tells a partner exactly how to move every point on our unit grid."
+    },
+    {
+      "start": 105.04187499999999,
+      "end": 108.72187482833861,
+      "text": "Label the original triangle corners A, B and C."
+    },
+    {
+      "start": 108.72187482833861,
+      "end": 112.64187490463256,
+      "text": "Their images are the matching corners after the translation."
+    },
+    {
+      "start": 112.64187490463256,
+      "end": 119.72187435150146,
+      "text": "Keep the labels paired so that A is compared with its own image, rather than whichever new corner happens to be closest."
+    },
+    {
+      "start": 119.72187435150146,
+      "end": 123.24120833333332,
+      "text": "Matching points give reliable evidence about the movement."
+    },
+    {
+      "start": 123.24120833333332,
+      "end": 125.56120826657612,
+      "text": "Vertex A starts at one, one."
+    },
+    {
+      "start": 125.56120826657612,
+      "end": 129.08120800908404,
+      "text": "Translate the shape three units right and two units up."
+    },
+    {
+      "start": 129.08120800908404,
+      "end": 131.3612082188924,
+      "text": "Predict the new coordinates of A."
+    },
+    {
+      "start": 131.3612082188924,
+      "end": 134.92120768483477,
+      "text": "Think about which coordinate changes at each stage."
+    },
+    {
+      "start": 134.92120768483477,
+      "end": 139.66833333333332,
+      "text": "Keep the other corners hidden for a moment so one checked point leads the method."
+    },
+    {
+      "start": 144.66833333333332,
+      "end": 147.54833320935566,
+      "text": "Three right changes one, one to four, one."
+    },
+    {
+      "start": 147.54833320935566,
+      "end": 149.30833319981892,
+      "text": "Two up then gives four, three."
+    },
+    {
+      "start": 149.30833319981892,
+      "end": 151.46833304723103,
+      "text": "The image of A is four, three."
+    },
+    {
+      "start": 151.46833304723103,
+      "end": 155.54833344777424,
+      "text": "This coordinate calculation records the slide shown on the grid."
+    },
+    {
+      "start": 155.54833344777424,
+      "end": 161.17841666666666,
+      "text": "It does not rotate the point around the origin or exchange the two coordinate positions."
+    },
+    {
+      "start": 161.25841666487852,
+      "end": 164.29841655222575,
+      "text": "B begins at three, one and moves to six, three."
+    },
+    {
+      "start": 164.29841655222575,
+      "end": 167.61841672388712,
+      "text": "C begins at one, three and moves to four, five."
+    },
+    {
+      "start": 167.61841672388712,
+      "end": 172.89841598002116,
+      "text": "Each first coordinate increased by three, and each second coordinate increased by two."
+    },
+    {
+      "start": 172.89841598002116,
+      "end": 177.90470833333333,
+      "text": "Join the image vertices in the same order to obtain the translated triangle."
+    },
+    {
+      "start": 177.90470833333333,
+      "end": 182.62470812352498,
+      "text": "If A moves three right but B and C stay still, the triangle changes shape."
+    },
+    {
+      "start": 182.62470812352498,
+      "end": 185.94470829518636,
+      "text": "That is not a translation of the whole triangle."
+    },
+    {
+      "start": 185.94470829518636,
+      "end": 190.1447081044515,
+      "text": "Repair the model by applying the same instruction to every vertex."
+    },
+    {
+      "start": 190.1447081044515,
+      "end": 195.217125,
+      "text": "Then compare the side lengths and corner angles with those of the original triangle."
+    },
+    {
+      "start": 195.217125,
+      "end": 199.73712498092652,
+      "text": "An invariant is something that stays the same during a transformation."
+    },
+    {
+      "start": 199.73712498092652,
+      "end": 204.17712503814698,
+      "text": "In a translation, side lengths, angles and orientation stay the same."
+    },
+    {
+      "start": 204.17712503814698,
+      "end": 205.61712461853028,
+      "text": "Position changes."
+    },
+    {
+      "start": 205.61712461853028,
+      "end": 212.76791666666668,
+      "text": "The triangle can point the same way in a new location, so pointing direction alone does not tell us where it has moved."
+    },
+    {
+      "start": 212.76791666666668,
+      "end": 217.2879166475932,
+      "text": "Now start again with A at one, one, B at three, one and C at one, three."
+    },
+    {
+      "start": 217.2879166475932,
+      "end": 221.12791632334392,
+      "text": "Slide every vertex one unit left and two units up."
+    },
+    {
+      "start": 221.12791632334392,
+      "end": 223.20791624704998,
+      "text": "Predict the image of B."
+    },
+    {
+      "start": 223.20791624704998,
+      "end": 227.72500000000002,
+      "text": "Check that the new shape will stay within the displayed first-quadrant grid."
+    },
+    {
+      "start": 232.80499999821188,
+      "end": 235.24499998092654,
+      "text": "B moves from three, one to two, three."
+    },
+    {
+      "start": 235.24499998092654,
+      "end": 238.64500007629397,
+      "text": "A moves to zero, three, and C moves to zero, five."
+    },
+    {
+      "start": 238.64500007629397,
+      "end": 243.0049997329712,
+      "text": "Decreasing each first coordinate by one shifts the triangle left."
+    },
+    {
+      "start": 243.0049997329712,
+      "end": 246.44499931335451,
+      "text": "Increasing each second coordinate by two shifts it up."
+    },
+    {
+      "start": 246.44499931335451,
+      "end": 249.74641666666668,
+      "text": "The axis points are valid positions on our grid."
+    },
+    {
+      "start": 249.74641666666668,
+      "end": 255.34641657129924,
+      "text": "To return the second image to its starting position, slide one unit right and two units down."
+    },
+    {
+      "start": 255.34641657129924,
+      "end": 258.86641655222576,
+      "text": "These reverse movements undo the original changes."
+    },
+    {
+      "start": 258.86641655222576,
+      "end": 262.5464159037272,
+      "text": "Check one pair of coordinates, then check all vertices."
+    },
+    {
+      "start": 262.5464159037272,
+      "end": 267.63658333333336,
+      "text": "A successful reverse operation provides another way to test a translation."
+    },
+    {
+      "start": 267.63658333333336,
+      "end": 273.4765830090841,
+      "text": "Two triangles may be the same size and shape without being related by the translation you were given."
+    },
+    {
+      "start": 273.4765830090841,
+      "end": 276.03658295186364,
+      "text": "One might have been turned or reflected."
+    },
+    {
+      "start": 276.03658295186364,
+      "end": 284.39562500000005,
+      "text": "To identify this particular slide, compare corresponding vertices and verify the same horizontal and vertical changes for every pair."
+    },
+    {
+      "start": 284.39562500000005,
+      "end": 290.55562484741216,
+      "text": "A repeated motif can be created by translating a single shape by the same step several times."
+    },
+    {
+      "start": 290.55562484741216,
+      "end": 292.67562473297124,
+      "text": "Keep a record of each step so the copies line up predictably."
+    },
+    {
+      "start": 292.67562473297124,
+      "end": 299.7327083333334,
+      "text": "The step controls the spacing; it does not change the size of the original motif."
+    },
+    {
+      "start": 299.7327083333334,
+      "end": 302.69270837148036,
+      "text": "A student claims two points were translated by the same movement."
+    },
+    {
+      "start": 302.69270837148036,
+      "end": 303.7327083333334,
+      "text": "The first moved three right and two up."
+    },
+    {
+      "start": 303.7327083333334,
+      "end": 304.0527080281576,
+      "text": "The second moved three right and one up."
+    },
+    {
+      "start": 304.0527080281576,
+      "end": 312.1727079137167,
+      "text": "Can these both belong to one translated shape?"
+    },
+    {
+      "start": 312.1727079137167,
+      "end": 315.76904166666674,
+      "text": "Decide which part of the shared movement rule has failed."
+    },
+    {
+      "start": 320.76904166666674,
+      "end": 325.80904162851976,
+      "text": "The vertical changes differ, so the two point movements do not follow one translation."
+    },
+    {
+      "start": 325.80904162851976,
+      "end": 330.20904124705004,
+      "text": "Every point must move by the same horizontal and vertical amounts."
+    },
+    {
+      "start": 330.20904124705004,
+      "end": 334.2890411707561,
+      "text": "Correct the second movement to two up, then check any remaining vertices."
+    },
+    {
+      "start": 334.2890411707561,
+      "end": 338.6483333333334,
+      "text": "Equal changes are stronger evidence than a rough visual resemblance."
+    },
+    {
+      "start": 338.6483333333334,
+      "end": 340.4083333237967,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 340.4083333237967,
+      "end": 343.52833344777434,
+      "text": "Translate a shape using one shared movement."
+    },
+    {
+      "start": 343.52833344777434,
+      "end": 348.4883334859213,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 348.4883334859213,
+      "end": 353.12833287556975,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 353.12833287556975,
+      "end": 359.6859583333334,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      139.66833333333332,
+      144.66833333333332,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      227.72500000000002,
+      232.72500000000002,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      315.76904166666674,
+      320.76904166666674,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 359.6859583333334,
+  "narration_sha256": "0a8e4aad1544471923f4ff30a94cdb01f254427cfd994df863552e7b8c4d2df8",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}

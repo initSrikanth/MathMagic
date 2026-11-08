@@ -1,0 +1,275 @@
+{
+  "id": "space-lesson6",
+  "number": 6,
+  "topic": "space",
+  "section": "lesson-6",
+  "title": "Translations",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "A pattern that keeps its shape",
+      "text": "A park designer wants to copy a triangular flowerbed farther along a path without turning or resizing it. How can every corner arrive in the right place? Today we will investigate translations: movements that slide a whole shape while keeping its size, shape and orientation.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to translate a shape using one shared movement. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to translate a shape using one shared movement. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Translate a shape using one shared movement."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can describe direction and distance. I can move every vertex equally. I can explain what stays the same. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can describe direction and distance.",
+        "I can move every vertex equally.",
+        "I can explain what stays the same."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Slide a paper shape",
+      "text": "Cut or trace a triangle on paper and place it on a grid. Mark its starting corners. Slide the triangle gently to a new place without rotating the paper. Compare each original corner with its matching new corner. They should all have travelled the same distance in the same direction.",
+      "board": [
+        "Same movement for every point"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Describe the movement precisely",
+      "text": "Saying slide it over there is not enough to reproduce a translation. Give a direction and distance for the horizontal move, then for any vertical move. The instruction three right and two up tells a partner exactly how to move every point on our unit grid.",
+      "board": [
+        "Translate: 3 right, 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Choose corresponding vertices",
+      "text": "Label the original triangle corners A, B and C. Their images are the matching corners after the translation. Keep the labels paired so that A is compared with its own image, rather than whichever new corner happens to be closest. Matching points give reliable evidence about the movement.",
+      "board": [
+        "Pair each point with its own image."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the image of A",
+      "text": "Vertex A starts at one, one. Translate the shape three units right and two units up. Predict the new coordinates of A. Think about which coordinate changes at each stage. Keep the other corners hidden for a moment so one checked point leads the method.",
+      "board": [
+        "A starts at (1, 1)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2,
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: move one point",
+      "text": "Three right changes one, one to four, one. Two up then gives four, three. The image of A is four, three. This coordinate calculation records the slide shown on the grid. It does not rotate the point around the origin or exchange the two coordinate positions.",
+      "board": [
+        "A: (1, 1) → (4, 3)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Complete the triangle",
+      "text": "B begins at three, one and moves to six, three. C begins at one, three and moves to four, five. Each first coordinate increased by three, and each second coordinate increased by two. Join the image vertices in the same order to obtain the translated triangle.",
+      "board": [
+        "B → (6, 3); C → (4, 5)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Do not move just one corner",
+      "text": "If A moves three right but B and C stay still, the triangle changes shape. That is not a translation of the whole triangle. Repair the model by applying the same instruction to every vertex. Then compare the side lengths and corner angles with those of the original triangle.",
+      "board": [
+        "All vertices follow the same instruction."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check the invariants",
+      "text": "An invariant is something that stays the same during a transformation. In a translation, side lengths, angles and orientation stay the same. Position changes. The triangle can point the same way in a new location, so pointing direction alone does not tell us where it has moved.",
+      "board": [
+        "Same lengths • angles • orientation"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a leftward slide",
+      "text": "Now start again with A at one, one, B at three, one and C at one, three. Slide every vertex one unit left and two units up. Predict the image of B. Check that the new shape will stay within the displayed first-quadrant grid.",
+      "board": [
+        "Translate: 1 left, 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2,
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: left and up",
+      "text": "B moves from three, one to two, three. A moves to zero, three, and C moves to zero, five. Decreasing each first coordinate by one shifts the triangle left. Increasing each second coordinate by two shifts it up. The axis points are valid positions on our grid.",
+      "board": [
+        "A → (0, 3); B → (2, 3); C → (0, 5)"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Reverse a translation",
+      "text": "To return the second image to its starting position, slide one unit right and two units down. These reverse movements undo the original changes. Check one pair of coordinates, then check all vertices. A successful reverse operation provides another way to test a translation.",
+      "board": [
+        "Undo: 1 right, 2 down"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": -1,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare two possible images",
+      "text": "Two triangles may be the same size and shape without being related by the translation you were given. One might have been turned or reflected. To identify this particular slide, compare corresponding vertices and verify the same horizontal and vertical changes for every pair.",
+      "board": [
+        "Check every matching pair."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use translations in a design",
+      "text": "A repeated motif can be created by translating a single shape by the same step several times. Keep a record of each step so the copies line up predictably. The step controls the spacing; it does not change the size of the original motif.",
+      "board": [
+        "Repeat a shared slide to make a pattern."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent error check",
+      "text": "A student claims two points were translated by the same movement. The first moved three right and two up. The second moved three right and one up. Can these both belong to one translated shape? Decide which part of the shared movement rule has failed.",
+      "board": [],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2,
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the shared rule",
+      "text": "The vertical changes differ, so the two point movements do not follow one translation. Every point must move by the same horizontal and vertical amounts. Correct the second movement to two up, then check any remaining vertices. Equal changes are stronger evidence than a rough visual resemblance.",
+      "board": [
+        "Every point: 3 right AND 2 up"
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Translate a shape using one shared movement. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can describe direction and distance.",
+        "I can move every vertex equally.",
+        "I can explain what stays the same."
+      ],
+      "model": {
+        "kind": "translate",
+        "dx": 3,
+        "dy": 2
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP03"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}
