@@ -7,6 +7,7 @@ Production uses the existing `measurement_quality` pipeline: Kokoro v1.0 `hf_alp
 - `batch_content.py`: original scripts and explicit scene models for existing lessons2–10. Lesson9 remains labelled enrichment; codes stay internal.
 - `batch_graphics.py`: exact cube edge-hinge geometry, dimension-matched prism/pyramid/box nets, intersection grids, coordinate paths, translations, equal-distance mirror constructions, fixed-centre turns, symmetry and property decisions.
 - `validate_batch.py`: pre-render source, mathematical, storyboard and sample-frame checks. Start/end frames for every scene are preserved for review. A cube face-depth order error and a non-square rhombus dimension error were corrected before any completed render.
+- `restore_review_assets.py`: restores checksum-verified archived review bundles after a fresh checkout, without regenerating media or overwriting different files.
 - `produce_batch.py`: guarded, cached synthesis and rendering. Updates `batch-manifest.json` after every completed video and verifies the exact bytes before copying to the output directory.
 - `audit_batch_outputs.py`: independent final-hash, native-voice ID, caption timing, caption/transcript, ASR-brand and mathematical-scene sample checks. It records static/short-caption flags without approving them.
 - `check_batch_playback.cjs`: actual local Chromium playback at1280px and390px, caption track, advancing playback, three seeks and ending. Muted browser playback is not listening or real-device/Safari evidence.
@@ -14,6 +15,7 @@ Production uses the existing `measurement_quality` pipeline: Kokoro v1.0 `hf_alp
 Commands from the repository root after restoring the approved models and dependencies:
 
 ```sh
+python video-agent/space/restore_review_assets.py
 PYTHONPATH=/workspace/video-python OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=2 python -u video-agent/space/produce_batch.py
 PYTHONPATH=/workspace/video-python python video-agent/space/audit_batch_outputs.py
 node video-agent/space/check_batch_playback.cjs
