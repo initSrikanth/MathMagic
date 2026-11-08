@@ -6,10 +6,13 @@ const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app),t
 const key=uid=>"mathmagic:"+uid+":"+topicId+":progress",ref=uid=>doc(db,"progress",uid,"topics",topicId);
 const count=value=>Number.isSafeInteger(Number(value))&&Number(value)>=0?Number(value):0;
 const mark=value=>Math.min(30,count(value));
-function clean(d={}){return{attempts:count(d.attempts),bestScore:mark(d.bestScore),lastScore:mark(d.lastScore),proficient:d.proficient===true,lastCompletedAt:d.lastCompletedAt||null,completedAttemptIds:Array.isArray(d.completedAttemptIds)?d.completedAttemptIds.filter(id=>typeof id==='string').slice(-100):[]}}
+function clean(d={}){return{attempts:count(d.attempts),bestScore:mark(d.bestScore),lastScore:mark(d.lastScore),proficient:d.proficient===true,lastCompletedAt:d.lastCompletedAt||null,completedAttemptIds:Array.isArray(d.completedAttemptIds)?[...new Set(d.completedAttemptIds.filter(id=>typeof id==='string'&&/^[A-Za-z0-9_-]{8,100}$/.test(id)))]:[]}}
 function localRead(uid){try{return clean(JSON.parse(localStorage.getItem(key(uid))||"{}"))}catch{return clean()}}
 // The cache must never turn a successful remote write into a failed attempt.
 function localSave(uid,d){try{localStorage.setItem(key(uid),JSON.stringify(d))}catch(e){console.warn("MathMagic progress cache unavailable:",e)}}
+function pendingRead(uid){try{const p=JSON.parse(localStorage.getItem(key(uid)+":pending")||"null");return p&&Number.isInteger(p.score)&&p.score>=0&&p.score<=30&&/^[A-Za-z0-9_-]{8,100}$/.test(p.id)?p:null}catch{return null}}
+function pendingSave(uid,score,id){try{localStorage.setItem(key(uid)+":pending",JSON.stringify({score,id}))}catch(e){console.warn("Unsaved attempt remains on this page; persistent cache unavailable.",e)}}
+function pendingClear(uid,id){try{if(pendingRead(uid)?.id===id)localStorage.removeItem(key(uid)+":pending")}catch(e){console.warn("Saved attempt pending-cache cleanup unavailable.",e)}}
 function paint(d={}){const p=clean(d),a=p.attempts;const dots=document.getElementById("attemptDots"),at=document.getElementById("attemptText"),best=document.getElementById("bestText"),prof=document.getElementById("proficiencyText");if(dots)dots.textContent=Array.from({length:5},(_,i)=>i<Math.min(a,5)?"●":"○").join(" ");if(at)at.textContent=a<5?a+" of 5 completed":"5 of 5 minimum completed • "+a+" total attempts";if(best)best.textContent=a?"Best: "+p.bestScore+"/30":"Best: —";if(prof){prof.textContent=p.proficient?"✓ PROFICIENT":a>0?"Proficiency: In progress":"Proficiency: Start";prof.classList.toggle("proficient",p.proficient)}}
 async function load(uid){
  const s=await getDoc(ref(uid));
@@ -34,20 +37,21 @@ onAuthStateChanged(auth,async user=>{
   const progress=await load(user.uid);
   if(auth.currentUser?.uid!==user.uid)return;
   paint(progress);
-  window.MathMagicSpaceProgress={async saveAttempt(score,attemptId){
+  window.MathMagicSpaceProgress={getPendingAttempt:()=>pendingRead(user.uid),async saveAttempt(score,attemptId){
    if(!Number.isInteger(score)||score<0||score>30)throw new RangeError("Score must be a whole number from 0 to 30.");
    if(typeof attemptId!=="string"||!/^[A-Za-z0-9_-]{8,100}$/.test(attemptId))throw new TypeError("A stable challenge attempt ID is required.");
    if(auth.currentUser?.uid!==user.uid)throw new Error("Please sign in again before saving progress.");
+   pendingSave(user.uid,score,attemptId);
    const approved=await getDoc(doc(db,"access",user.uid));
    if(!(approved.exists()&&approved.data().approved===true))throw new Error("Your access could not be verified.");
    const data=await runTransaction(db,async transaction=>{
     if(auth.currentUser?.uid!==user.uid)throw new Error("Your sign-in changed before the attempt could be saved.");
     const snapshot=await transaction.get(ref(user.uid)),old=snapshot.exists()?clean(snapshot.data()):clean();
     if(old.completedAttemptIds.includes(attemptId))return old;
-    const next={attempts:old.attempts+1,bestScore:Math.max(old.bestScore,score),lastScore:score,proficient:old.proficient||score===30,lastCompletedAt:new Date().toISOString(),completedAttemptIds:[...old.completedAttemptIds,attemptId].slice(-100)};
+    const next={attempts:old.attempts+1,bestScore:Math.max(old.bestScore,score),lastScore:score,proficient:old.proficient||score===30,lastCompletedAt:new Date().toISOString(),completedAttemptIds:[...old.completedAttemptIds,attemptId]};
     transaction.set(ref(user.uid),next);return next;
    });
-   localSave(user.uid,data);
+   localSave(user.uid,data);pendingClear(user.uid,attemptId);
    if(auth.currentUser?.uid===user.uid)paint(data);
    return data;
   }};

@@ -1,30 +1,6 @@
-/* Independent Year 5 Space assessment mathematical checks. Run: node tests/space-question-bank.test.js */
-'use strict';
-const assert=require('node:assert/strict');
-const {generate}=require('../js/space-question-bank.js');
-const curriculum=new Set(['AC9M5SP01','AC9M5SP02','AC9M5SP03','AC9M5SP04']);
-const parsePair=s=>{const m=/^\((-?\d+),(-?\d+)\)$/.exec(s);return m&&m.slice(1).map(Number)};
-let inspected=0;
-for(let seed=1;seed<=1000;seed++){
- const questions=generate(seed);assert.equal(questions.length,30);assert.equal(new Set(questions.map(q=>q.stem)).size,30);
- const descriptors=new Set();
- for(const [i,q] of questions.entries()){
-  assert.equal(q.band,Math.floor(i/5)+1);assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);
-  assert(q.options.includes(q.answer));assert(q.explanation.length>20);assert(curriculum.has(q.descriptor));descriptors.add(q.descriptor);
-  let m;
-  if((m=/point is (\d+) units right and (\d+) units up/.exec(q.stem))){assert.equal(q.answer,`(${m[1]},${m[2]})`)}
-  else if((m=/Translate the point \((\d+),(\d+)\) (\d+) units to the right/.exec(q.stem))){assert.deepEqual(parsePair(q.answer),[+m[1]+ +m[3],+m[2]])}
-  else if((m=/Reflect \((\d+),(\d+)\) in the vertical line x = (\d+)/.exec(q.stem))){assert.deepEqual(parsePair(q.answer),[2* +m[3]- +m[1],+m[2]])}
-  else if((m=/closed polygon with exactly (\d+) straight sides/.exec(q.stem))){assert.equal(q.answer,({3:'triangle',4:'quadrilateral',5:'pentagon',6:'hexagon',7:'heptagon'})[m[1]])}
-  else if(q.stem.includes('rotated 90° anticlockwise')){assert.deepEqual(parsePair(q.answer),[3,2])}
-  else if(q.stem.includes('robot starts at (3,2)')){assert.deepEqual(parsePair(q.answer),[5,5])}
-  else if(q.stem.includes('square logo')){assert.equal(q.answer,'90°')}
-  else if(q.stem.includes('2-by-3 rectangle')){assert(q.answer.startsWith('No,'))}
-  else if(q.stem.includes('sorting algorithm first asks')){assert(q.answer.includes('edges equal'))}
-  else if(q.stem.startsWith('How many ')){const oracle={'cube|faces':6,'triangular prism|vertices':6,'square-based pyramid|faces':5,'rectangular prism|edges':12,'triangular prism|faces':5};const parts=/How many (faces|edges|vertices) does a (.*?) have/.exec(q.stem);assert(parts);assert.equal(Number(q.answer),oracle[parts[2]+'|'+parts[1]])}
-  else throw Error('Unvalidated question family: '+q.stem);
-  inspected++;
- }
- assert.deepEqual([...descriptors].sort(),[...curriculum].sort());
-}
-console.log('PASS: '+inspected+' questions across 1,000 seeds; 30 unique per seed; four descriptors; independent arithmetic and classification checks.');
+/* Independent exact oracles; no production geometry helpers are used to mark questions. */
+'use strict';const assert=require('node:assert/strict'),{generate}=require('../js/space-question-bank.js');
+const solids={'cube':[6,12,8],'rectangular prism':[6,12,8],'triangular prism':[5,9,6],'square-based pyramid':[5,8,5],'triangular pyramid':[4,6,4],'pentagonal prism':[7,15,10]},orders={'square':4,'non-square rectangle':2,'equilateral triangle':3,'regular pentagon':5};const pair=p=>'('+p.join(',')+')';
+const fixed={'property-test':m=>`Does it have exactly ${m.n} straight sides?`,'square-rectangle':()=> 'Yes, because it has four right angles.','square-test':()=> 'Four equal sides AND four right angles.','net-invariance':()=> 'It is still a valid cube net.','adjacent':()=> 'No, they become adjacent faces.','counterexample':()=> 'A non-cube rectangular prism.','rigid':()=> 'Corresponding side lengths and angle sizes stay equal.'};
+function oracle(m){if(fixed[m.op])return fixed[m.op](m);switch(m.op){case'solid':return String(solids[m.solid][{faces:0,edges:1,vertices:2}[m.property]]);case'locate':return pair([m.x,m.y]);case'translate':return pair([m.p[0]+m.dx,m.p[1]+m.dy]);case'reflect':return pair(m.axis==='x'?[2*m.k-m.p[0],m.p[1]]:[m.p[0],2*m.k-m.p[1]]);case'symmetry':return m.property==='turn'?360/orders[m.shape]+'°':String(orders[m.shape]);case'face-pairs':return `${m.a}×${m.b}, ${m.a}×${m.c}, ${m.b}×${m.c}`;case'net':return m.cells.some(p=>p[1]===3)?'Yes: six distinct faces.':'No: faces overlap.';case'rotate':{const [x,y]=m.p,[a,b]=m.c;return pair(m.turn===1?[a+b-y,b+x-a]:m.turn===2?[2*a-x,2*b-y]:[a+y-b,b+a-x])}case'movement':return `${m.q[0]-m.p[0]} right, ${m.q[1]-m.p[1]} up`;case'mirror':return 'x = '+(m.x1+m.x2)/2;case'opposite':{const crossPairs={0:4,4:0,1:3,3:1,2:5,5:2};return 'ABCDEF'[crossPairs[m.face]]}case'route':return pair(m.moves.reduce((p,z)=>[p[0]+z[0],p[1]+z[1]],m.p));case'prism-panels':return String(m.n);case'separation':return String(2*m.d);case'compose':return pair([2*m.k-m.p[0]-m.dx,m.p[1]]);case'full-turn':return pair(m.p);default:throw Error('Missing independent oracle '+m.op)}}
+let inspected=0;const variation=new Map();for(let seed=1;seed<=1000;seed++){const q=generate(seed);assert.equal(q.length,30);assert.equal(new Set(q.map(x=>x.stem)).size,30);assert.equal(new Set(q.map(x=>x.family)).size,30);assert.deepEqual([...new Set(q.map(x=>x.descriptor))].sort(),['AC9M5SP01','AC9M5SP02','AC9M5SP03','ENRICHMENT-CLASSIFICATION']);q.forEach((x,i)=>{assert.equal(x.band,Math.floor(i/5)+1);assert(Number.isInteger(x.lesson)&&x.lesson>=1&&x.lesson<=10);assert.equal(x.options.length,4);assert.equal(new Set(x.options).size,4);assert(x.options.includes(x.answer));assert.equal(x.answer,oracle(x.math),x.family+' seed '+seed);assert(x.explanation.length>35);if(!variation.has(x.family))variation.set(x.family,new Set());variation.get(x.family).add(JSON.stringify(x.math));inspected++})}assert([...variation.values()].filter(s=>s.size>1).length>=20);console.log('PASS:',inspected,'independently marked questions;30 distinct families; six bands; seeded mathematical variation; final SP01–SP03 plus labelled classification enrichment.');

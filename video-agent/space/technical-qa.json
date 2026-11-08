@@ -1,0 +1,76 @@
+{
+  "result": "passed",
+  "sha256": "f5a9c6a7fd1deff3b7af2adab86d6968bc31d4e72456d00d33c72ff0f9a1dd61",
+  "bytes": 10942143,
+  "duration": 528.5909583333333,
+  "audio_rms": 0.13195985555648804,
+  "clipping_fraction": 0.0,
+  "audio_correlation": 0.9999830145530062,
+  "full_decode": true,
+  "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+  "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "perceptual_voice_review": "Not human-certified",
+  "perceptual_status": "BLOCKED_NO_AUDIO_INPUT",
+  "published": false,
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "minimum_five_minutes": true,
+  "declared_prediction_pauses": [
+    [
+      144.77920833333334,
+      149.77920833333334,
+      "authorised five-second prediction"
+    ],
+    [
+      344.7049583333333,
+      349.7049583333333,
+      "authorised five-second prediction"
+    ],
+    [
+      472.6406666666667,
+      477.6406666666667,
+      "authorised five-second prediction"
+    ]
+  ],
+  "graphics_source_sha256": "e832a96c94049dd7be5f090cc4a799c451dbd5309e71e80ca39a36f39c1bce74",
+  "captions_checked": 122,
+  "caption_transcript_exact": true,
+  "caption_timing_valid": true,
+  "source_and_full_asr_brand_free": true,
+  "prediction_pauses_exactly_five_seconds": true,
+  "all_frames_blank_checked": 15858,
+  "minimum_frame_luma_std": 7.337563883878627,
+  "script_sha256": "94299a62e853df7f065789171b51946f96757cb57a98e669311f17b98276ddd8",
+  "visual_repairs": {
+    "source_fingerprint": "df9d052edc4da0d7b1ea0ca974fbabf4aab4757567cc619ad64abe902b734f1d",
+    "sha256": "f5a9c6a7fd1deff3b7af2adab86d6968bc31d4e72456d00d33c72ff0f9a1dd61",
+    "repaired_scenes": [
+      23,
+      26,
+      27
+    ],
+    "encoded_scene_frames": 1584,
+    "all_narration_packets_preserved": true,
+    "all_other_video_packets_preserved": true,
+    "caption_and_transcript_unchanged": true,
+    "perceptual_status": "UNVERIFIED"
+  },
+  "repair_source_sha256": "df9d052edc4da0d7b1ea0ca974fbabf4aab4757567cc619ad64abe902b734f1d",
+  "repaired_frame_ocr": {
+    "23": "3D Objects and Their Properties\n\nCheck the name, not a guess\n\nTwo matching ends identify the prism structure.\n\nTriangular prism\n\nTriangular pyramid\n\nL LB\n\nTwo matching ends\n\nFour triangular faces\n",
+    "26": "3D Objects and Their Properties\n\nRecognise curved surfaces\n\nDistinguish flat faces and curved surfaces.\n\nCylinder\n\nSphere\n\nJ \u00a9\n\nFlat circular faces + curved surface\n\nOne curved surface\n",
+    "27": "3D Objects and Their Properties\n\nAvoid invented corners\n\nA curved boundary is not a set of vertices.\n\nA curved boundary is not a row of vertices.\n"
+  }
+}

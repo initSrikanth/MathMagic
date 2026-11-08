@@ -62,11 +62,14 @@ jobs:
           node tests/export-measurement.cjs /tmp/measurement-variants.json
           python tests/validate-measurement.py /tmp/measurement-variants.json
       - name: Test isolated Year 5 Firestore rules and progress
-        run: npm run test:measurement:emulator
+        run: npx firebase emulators:exec --project demo-mathmagic-year5 --only firestore --config tests/emulator/firebase.json "node tests/measurement-emulator.test.cjs && node tests/space-emulator.test.cjs"
       - name: Check protected Fractions architecture
         run: npm run test:protected
       - name: Independently verify Year 5 Space assessment mathematics
-        run: node tests/space-question-bank.test.js
+        run: |
+          node tests/space-question-bank.test.js
+          node tests/space-geometry.test.js
+          node tests/space-progress.test.js
       - name: Provide a virtual audio output for unmuted WebKit playback
         run: |
           sudo apt-get update

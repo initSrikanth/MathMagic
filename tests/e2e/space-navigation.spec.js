@@ -10,6 +10,7 @@ test('Year 5 Space dashboard card leads to ten lessons and interactive labs',asy
  await expect(card).toHaveAttribute('href','space-lessons.html');
  // Navigation guard is deliberately fail-closed without a real approved user.
  // Assert the real dashboard link, then inspect the lesson destination directly.
+ await page.route('**/js/space-auth.js',r=>r.fulfill({contentType:'application/javascript',body:"document.body.classList.remove('auth-loading');"}));
  await page.goto('/space-lessons.html');
  await expect(page).toHaveURL(/space-lessons\.html$/);
  await expect(page.getByRole('link',{name:/challenge/i}).first()).toBeVisible();

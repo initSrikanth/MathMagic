@@ -1,0 +1,54 @@
+{
+  "expected_lessons": 10,
+  "rendered_local": 1,
+  "perceptually_verified": 0,
+  "published": 0,
+  "status": "BLOCKED_MANDATORY_LISTENING",
+  "output": "/workspace/output/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+  "sha256": "f5a9c6a7fd1deff3b7af2adab86d6968bc31d4e72456d00d33c72ff0f9a1dd61",
+  "duration": 528.5909583333333,
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "qa": "video-agent/space/technical-qa.json",
+  "caption_file": "/workspace/space-video-work/lesson1/captions.vtt",
+  "transcript": "/workspace/space-video-work/lesson1/transcript.txt",
+  "remaining_lessons": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "next": "Use a genuinely audio-capable evaluator to complete the representative quality gate before producing the remaining batch. Do not infer perception from ASR, metadata or images.",
+  "bytes": 10942143,
+  "visual_repairs": {
+    "source_fingerprint": "df9d052edc4da0d7b1ea0ca974fbabf4aab4757567cc619ad64abe902b734f1d",
+    "sha256": "f5a9c6a7fd1deff3b7af2adab86d6968bc31d4e72456d00d33c72ff0f9a1dd61",
+    "repaired_scenes": [
+      23,
+      26,
+      27
+    ],
+    "encoded_scene_frames": 1584,
+    "all_narration_packets_preserved": true,
+    "all_other_video_packets_preserved": true,
+    "caption_and_transcript_unchanged": true,
+    "perceptual_status": "UNVERIFIED"
+  }
+}

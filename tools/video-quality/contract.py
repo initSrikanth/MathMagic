@@ -16,7 +16,10 @@ def rendered_texts(value,key=None):
 
 def assert_generation_allowed(purpose='production',lessons=None,voice=None):
  c=load()
- if c['production_hold']['active'] and purpose!='remediation_candidate':raise RuntimeError('VIDEO PRODUCTION SUSPENDED: '+c['production_hold']['reason']+'. Only explicitly scoped review candidates may be prepared; no publication.')
+ if purpose=='space_production':
+  assert c.get('space_generation_authorisation',{}).get('authorised') and lessons and voice
+  assert all(l.get('topic')=='space' and l.get('id') in ['space-lesson'+str(i) for i in range(1,11)] and ((l.get('codes') and all(code in ['AC9M5SP01','AC9M5SP02','AC9M5SP03'] for code in l['codes'])) or (l.get('id')=='space-lesson9' and l.get('enrichment') is True and l.get('codes')==[])) for l in lessons),'Only explicitly authorised Year5 Space lessons'
+ if c['production_hold']['active'] and purpose not in ['remediation_candidate','space_production']:raise RuntimeError('VIDEO PRODUCTION SUSPENDED: '+c['production_hold']['reason']+'. Only explicitly scoped review candidates may be prepared; no publication.')
  if purpose=='production' and c['approved_voice']['enhanced_enthusiasm_approval'] is None:raise RuntimeError('Enhanced expressive voice profile is not perceptually approved')
  if purpose in ['production','remediation_candidate']:assert lessons and voice, 'Generation requires explicit script and voice provenance'
  if purpose=='remediation_candidate':

@@ -31,12 +31,12 @@ Status: development only; not approved for release. Scope: Australian Curriculum
 ## Implementation order and concrete deliverables
 1. Complete descriptor/elaboration/achievement-standard audit and correct any scope gaps; commit coverage matrix.
 2. Implement 10 substantive lessons with story, goal, 3 success criteria, manipulatives, examples, misconception, prediction and reflection; integrate dashboard and auth.
-3. Build four independently testable interactive tools: nets folding, coordinate explorer, transformation lab, branching classifier; mouse/touch/keyboard and feedback.
+3. Build five independently testable interactive experiences: net/folded-object explorer, coordinate explorer, transformation lab, symmetry explorer and branching classifier; mouse/touch/keyboard and feedback.
 4. Implement 30-question six-band seeded quiz, unique mathematical instances, full worked explanations, robust validation, Firebase-compatible approved-user progress and repeatable oracle tests.
 5. Produce graphics-only narrated videos per lesson or justified grouping, each at least five minutes, no visible/spoken branding, Kokoro hf_alpha 31, 1080p, full perceptual QA before publication.
 6. Run tests, review PR, merge after green gates, deploy and verify live. Never treat a successful CI or existing MP4 as perceptual playback evidence.
 
-## Assessment coverage matrix — preliminary
+## Assessment coverage matrix — implemented families
 Five questions per band, 30 total; cover all three final Space descriptors plus requested classification enrichment, including nets and classification algorithms, with unique mathematical instances and contextual variety:
 - Band 1: identify faces/edges/vertices and positions; follow one-step directions.
 - Band 2: interpret map/grid conventions, route descriptions and basic nets.
@@ -56,3 +56,13 @@ All assessed families must have explicit teaching coverage. Include multiple-cho
 6. Review PR and merge only when all gates pass. Verify live GitHub Pages separately.
 
 No production status is implied by this planning file.
+
+## Verified implementation scope —8 November2026
+
+Ten existing lesson sections now include30 success criteria,20 guided worked examples,10 concrete/pictorial models,10 immediately checked practice questions, independent reasoning, support, extension and reflections. Each of30 assessment families maps to a lesson in question metadata. Seeded mathematical inputs vary across attempts. Final official descriptors are SP01–SP03; the requested classification work is included and assessed as explicitly labelled enrichment, not falsely attributed to a current SP04.
+
+External-resource pass:original Math Is Fun creator pages on cuboids and rotational symmetry were inspected; links only, no copying/hosting. The optional surface-area/volume sections are excluded from this lesson scope. Original owned videos are the intended embedded instruction; no third-party video was added merely to fill missing production.
+
+Current video authorisation supersedes the older general generation hold for Space only. The scoped exception does not waive full perceptual release checks or reactivate legacy automation. One representative is rendered at528.59seconds, with original hf_alpha31 narration, three exact5-second prediction pauses,122 captions and matching transcript. Three confirmed visual mismatches were repaired by changing1,584 scene frames only; every original AAC packet and all other H.264 packets were preserved. No video is perceptually approved or published.
+
+Actual audio-input probing returned omitted audio to this model. A genuinely audio-capable evaluator must complete listening and full temporal viewing against the exact final SHA-256 before further batch production/publication. This is a release blocker; tests and ASR must not be relabelled as perception. Live Firebase/student sessions and deployed rules are not available in this environment. Emulator and mocked checks are distinguished from live verification.

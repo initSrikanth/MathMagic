@@ -76,4 +76,11 @@ class NarrationRemediationTests(unittest.TestCase):
   from narration_release import verify
   r=self.row();r['number']=31
   with self.assertRaises(AssertionError):verify([r])
+class SpaceAuthorisationTests(unittest.TestCase):
+ def test_current_space_generation_is_authorised(self):
+  self.assertTrue(c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M5SP01'],'text':'Today we are learning about solids.'}],c.load()['approved_voice']))
+ def test_space_authorisation_rejects_year6_scope(self):
+  with self.assertRaises(AssertionError):c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M6SP01']}],c.load()['approved_voice'])
+ def test_space_authorisation_does_not_accept_a_substitute_voice(self):
+  with self.assertRaises(AssertionError):c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M5SP01']}],{'name':'bf_emma','speaker_id':7})
 if __name__=='__main__':unittest.main()
