@@ -1,0 +1,305 @@
+{
+  "id": "space-lesson7",
+  "number": 7,
+  "topic": "space",
+  "section": "lesson-7",
+  "title": "Reflections",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "A sign beside a mirror",
+      "text": "A park sign must have a matching design on the opposite side of a mirror line. Sliding a copy across does not always produce the right result. How can we place each matching point exactly? Today we will use the mirror line and equal distances to construct reflections.",
+      "board": [],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to reflect points and shapes using a mirror line. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to reflect points and shapes using a mirror line. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Reflect points and shapes using a mirror line."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can locate the mirror line. I can match equal perpendicular distances. I can check the reflected shape. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can locate the mirror line.",
+        "I can match equal perpendicular distances.",
+        "I can check the reflected shape."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Fold to explore a reflection",
+      "text": "Draw a simple shape on paper, fold the page along a straight line and imagine transferring the marks to the other half. When opened, matching points lie on opposite sides of the fold. The fold gives the mirror line, which controls the position of every reflected point.",
+      "board": [
+        "The fold acts as a mirror line."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Identify the mirror line first",
+      "text": "Our first mirror is vertical, passing through horizontal coordinate five. We can describe it as the line x equals five. Every point on that line has first coordinate five. The mirror is a whole line, not a single point to rotate around or a boundary that moves with the shape.",
+      "board": [
+        "Vertical mirror: x = 5"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Measure across the mirror",
+      "text": "For a vertical mirror, measure horizontally from the point to the line. That direction is perpendicular to the mirror. Place the image the same distance on the opposite side. The height stays unchanged. Measuring diagonally would give the wrong matching position even if the diagonal lengths happened to agree.",
+      "board": [
+        "Equal distances, straight across"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the reflected point",
+      "text": "Point A is at two, three. The mirror is the vertical line through five. How many units separate A from the mirror? Predict the image coordinates by placing its partner the same distance on the other side, at the same height. Do not simply swap the coordinate numbers.",
+      "board": [
+        "A = (2, 3); mirror x = 5"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5,
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: vertical mirror",
+      "text": "A is three units left of the mirror. Its image must be three units right of the mirror, at eight, three. The two points share the same height. Their joining segment crosses the mirror at a right angle, and the mirror cuts that segment into two equal lengths.",
+      "board": [
+        "(2, 3) → (8, 3)"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Reflect every triangle corner",
+      "text": "Our triangle also has B at four, three and C at two, five. B lies one unit left of the mirror, so its image is six, three. C lies three units left, so its image is eight, five. Join the reflected corners in matching order to complete the image.",
+      "board": [
+        "B → (6, 3); C → (8, 5)"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "A reflection is not a fixed slide",
+      "text": "A and B do not travel the same horizontal distance between original and image. A crosses six units, while B crosses two. Their distances depend on how far they start from the mirror. Applying one shared slide would be a translation, and would not produce this reflected triangle.",
+      "board": [
+        "Use distance from the mirror for each point."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Points on the mirror stay put",
+      "text": "A point on the mirror line is zero units away from it. Its reflected position is therefore the same point. This is a useful check when a shape touches or crosses the mirror. A reflection does not force every point to move to a different location.",
+      "board": [
+        "On the mirror: zero distance, no change."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5,
+        "points": [
+          [
+            5,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a horizontal reflection",
+      "text": "Now use a horizontal mirror at height four. Point A is at two, one. Predict its image by measuring straight upward to the mirror and the same distance beyond it. Which coordinate should stay unchanged this time, and which one must change?",
+      "board": [
+        "A = (2, 1); mirror y = 4"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "y",
+        "mirror": 4,
+        "points": [
+          [
+            2,
+            1
+          ]
+        ],
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: horizontal mirror",
+      "text": "The point is three units below the mirror, so its image is three units above, at two, seven. The first coordinate stays two. The vertical distances to height four are equal. The same distance rule works for either orientation of mirror; only the perpendicular direction changes.",
+      "board": [
+        "(2, 1) → (2, 7)"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "y",
+        "mirror": 4,
+        "points": [
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check lengths and angles",
+      "text": "A reflection preserves side lengths and angles, so the image is the same size and shape. Its orientation is reversed, like writing seen in a mirror. Compare matching corners rather than deciding only from the outline. Symmetric shapes can conceal the reversal, making point checks especially useful.",
+      "board": [
+        "Same lengths and angles; mirrored orientation"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Reflect back to check",
+      "text": "Reflect the image across the same mirror a second time. Each point returns to its original location because the same equal distance rule acts in reverse. This provides a practical way to check your construction. If a point does not return, inspect the mirror position and its distance first.",
+      "board": [
+        "The same reflection twice returns the original."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Keep the mirror fixed",
+      "text": "When comparing the original and image, keep the mirror line in the same place. Moving the line halfway through creates a different transformation. Label the line clearly and draw the matching point pairs. That makes your reasoning visible to someone who did not watch you construct the image.",
+      "board": [
+        "One fixed mirror for the whole reflection"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent mirror check",
+      "text": "A point at four, three reflects in the vertical line through five. A student puts its image at seven, three. Is the new point the correct distance from the mirror? Compare the original and proposed distances before deciding where the image really belongs.",
+      "board": [],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5,
+        "points": [
+          [
+            4,
+            3
+          ]
+        ],
+        "hide": true
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Repair the distance error",
+      "text": "The original point is one unit left of the mirror. Seven, three is two units right, so the distances do not match. The correct image is six, three, one unit right. A clear distance check explains exactly why the first proposal failed and why the repair works.",
+      "board": [
+        "(4, 3) → (6, 3)"
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5,
+        "points": [
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Reflect points and shapes using a mirror line. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can locate the mirror line.",
+        "I can match equal perpendicular distances.",
+        "I can check the reflected shape."
+      ],
+      "model": {
+        "kind": "reflect",
+        "axis": "x",
+        "mirror": 5
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP03"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}

@@ -1,6 +1,6 @@
 {
   "expected_remaining": 9,
-  "rendered_this_batch": 5,
+  "rendered_this_batch": 6,
   "perceptually_verified": 0,
   "published": 0,
   "paid_calls": 0,
@@ -601,10 +601,142 @@
       "bytes": 8593714
     },
     "space-lesson7": {
-      "status": "RENDERING",
+      "status": "TECHNICALLY_VERIFIED",
       "script_sha256": "f17bc62750248b2bac88c8551a2e39f7d2c152d634e409b35c7db8df71150454",
       "output": "/workspace/output/space-review/Space_Lesson07_Reflections_Review_1080p.mp4",
-      "duration": 356.6445833333333
+      "duration": 356.6445833333333,
+      "qa": {
+        "result": "passed",
+        "sha256": "42193104191780c6e82c439fe3eee797b2d9d4a340fa0de1aa1505fb7d6a315b",
+        "bytes": 7018624,
+        "duration": 356.6445833333333,
+        "audio_rms": 0.1317690759897232,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999819494102136,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10699,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 4.937099530563604,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 83,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            140.43116666666666,
+            145.43116666666666,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            223.378,
+            228.378,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            314.73541666666665,
+            319.73541666666665,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            0.0,
+            14.633
+          ],
+          [
+            17.0,
+            25.3
+          ],
+          [
+            25.333,
+            33.6
+          ],
+          [
+            35.7,
+            44.0
+          ],
+          [
+            49.733,
+            58.033
+          ],
+          [
+            58.067,
+            69.533
+          ],
+          [
+            105.267,
+            113.567
+          ],
+          [
+            123.667,
+            131.967
+          ],
+          [
+            132.0,
+            140.4
+          ],
+          [
+            175.8,
+            184.1
+          ],
+          [
+            208.867,
+            217.167
+          ],
+          [
+            233.167,
+            244.967
+          ],
+          [
+            253.333,
+            261.5
+          ],
+          [
+            272.0,
+            280.033
+          ],
+          [
+            298.8,
+            307.1
+          ],
+          [
+            335.667,
+            343.967
+          ],
+          [
+            344.0,
+            354.233
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "42193104191780c6e82c439fe3eee797b2d9d4a340fa0de1aa1505fb7d6a315b",
+      "bytes": 7018624
+    },
+    "space-lesson8": {
+      "status": "RENDERING",
+      "script_sha256": "f5f7cd4348f3e369ef82f4e08525edc329c7b03101dcdacee0501c7ae4feab24",
+      "output": "/workspace/output/space-review/Space_Lesson08_Rotations_and_Symmetry_Review_1080p.mp4",
+      "duration": 363.9015833333333
     }
   },
   "pre_render_corrections": [

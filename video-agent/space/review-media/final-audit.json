@@ -1,5 +1,5 @@
 {
-  "rendered": 5,
+  "rendered": 6,
   "all_nine_rendered": false,
   "technical_results": [
     {
@@ -92,6 +92,7 @@
         "Space_Lesson02_Explore_Nets_Review_1080p_recognition.json": "261a8755181bc42cd966e93b54fa1264be5af03969bd568b06b1c66800fb017e",
         "Space_Lesson02_Explore_Nets_Review_1080p_narration.flac": "7bc155541e53bdbaa416d4f924663938ededcc2748949a2eb586bab4908ffe7f",
         "Space_Lesson02_Explore_Nets_Review_1080p_timing.json": "2657e0133fec2a42d535c2701be0c56a98bcfb480c295492b39d78f754e5c2db",
+        "Space_Lesson02_Explore_Nets_Review_1080p_encoded_scenes_examples.jpg": "e989131c5a9f84f7ef7fcae8b113b9d50babb3089170d685c26d27b08a040ec4",
         "Space_Lesson02_Explore_Nets_Review_1080p_qa.json": "05ab499e63d9310730734cbef312541f75478b5f5dd08e61e4bb70a2f6f18807"
       }
     },
@@ -156,6 +157,7 @@
         "Space_Lesson03_Design_and_Test_Nets_Review_1080p_narration.flac": "a0a0a407253f45f3026c50718c02a99071fa95a158b6027b5687a112ebd63b36",
         "Space_Lesson03_Design_and_Test_Nets_Review_1080p_recognition.json": "5314f52e4021d00fa8306e5bc4128fb801cc22822f649ea21e4aa095033849f5",
         "Space_Lesson03_Design_and_Test_Nets_Review_1080p_poster.jpg": "d163792d18b5a238f9ff328a9ebe54a563eeec66ea5b3601cc53615a279714c3",
+        "Space_Lesson03_Design_and_Test_Nets_Review_1080p_encoded_scenes_examples.jpg": "6d464a95a184b070f93366a3100e4bb007619e877b2a588f12d6a48cd7749de8",
         "Space_Lesson03_Design_and_Test_Nets_Review_1080p_script.json": "3ec04a4e499ad00af23caf4cb7a2dca2a676fa98a087d42ad80749e15d83aa76",
         "Space_Lesson03_Design_and_Test_Nets_Review_1080p_timing.json": "3c79b96c6af97f049ec0b5f97901bc16f34170555fe99be23565fdf4b29bdd30"
       }
@@ -327,6 +329,7 @@
       "perceptual_status": "UNVERIFIED",
       "publication_status": "BLOCKED",
       "sidecar_hashes": {
+        "Space_Lesson04_Coordinates_and_Position_Review_1080p_encoded_scenes_examples.jpg": "4ac187cfa7db814030da14d1956daf53ec16e8e9702dc5e2c9f1918f3a06475c",
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_qa.json": "253ace136faa4ed3aa5509c67e06bdc5af488e8dcc3adf61cb8824b5ad977215",
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_encoded_scenes.jpg": "3e4a0d362770ac79fe6355686d0846dd0c4fc0b0279e8ef59579185f2735a7db",
         "Space_Lesson04_Coordinates_and_Position_Review_1080p_recognition.json": "843a7a4f1be889bb849daf29026813dd7771c396d5b75991075cc74d5f81c2ac",
@@ -505,6 +508,7 @@
       "publication_status": "BLOCKED",
       "sidecar_hashes": {
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_recognition.json": "0dac517800b6fbffec4b49a18b865da00291acfecdd9fb9e295761185a8b5fe9",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes_examples.jpg": "946748a6c07513871222a78fadc32d304d6ed33b55280e75f8ffe215b8401e7c",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes.jpg": "ae6ea5e6579d51235bb661c3e4431d9f7241ccfde624e1405b3bd5f508254aa4",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_script.json": "1b6af5e1d5fe51c9971da84263ef26e37700a01fd1aef0558ca9f774168187c3",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_transcript.txt": "fd3e4b33f57b3fbd4cfa68dab1453959a8a4ae932882fab35a0a2bed9147328b",
@@ -632,12 +636,172 @@
       "sidecar_hashes": {
         "Space_Lesson06_Translations_Review_1080p_recognition.json": "39da5bea0edce08484e6dc96ed9b7eb9147325fe037e80ce7796865c9f109228",
         "Space_Lesson06_Translations_Review_1080p_poster.jpg": "f412baf36e3d4afadf6ab371fccb7cc24b3c0cac1e047c242e5adc5d15f48554",
+        "Space_Lesson06_Translations_Review_1080p_encoded_scenes_examples.jpg": "ecd9ec9590a5c23d58f4126bced0b9a82f7bcfd6e16117157fd407e61ec8abb0",
         "Space_Lesson06_Translations_Review_1080p_narration.flac": "06e6e4315e11a4f01462903a65e1833e23c083c2b2464ccae6fc5487a495507c",
         "Space_Lesson06_Translations_Review_1080p_timing.json": "f4f60ec4f75a62323f7a140d61e2cd99d3637bbbda81b2ca9a2054f5eec87417",
         "Space_Lesson06_Translations_Review_1080p_script.json": "2139df225c997f73274af69ff0ebde9d78857c5dd05c7bca1b8b8a5ced76d27c",
         "Space_Lesson06_Translations_Review_1080p_transcript.txt": "441a0ac314ba5bcc2a586cd8928c26406fb961b669f0811305b8fb30afd82f7b",
         "Space_Lesson06_Translations_Review_1080p_encoded_scenes.jpg": "f378eefd0510122b432a25bad1b7d3256d13c8012f0549b539f420f4ffc38e72",
         "Space_Lesson06_Translations_Review_1080p_qa.json": "346894664c94a6c30b35314986480171e2f3a07a7d4d9fba820bdc6aea4114dc"
+      }
+    },
+    {
+      "lesson": "space-lesson7",
+      "sha256": "42193104191780c6e82c439fe3eee797b2d9d4a340fa0de1aa1505fb7d6a315b",
+      "output": "/workspace/output/space-review/Space_Lesson07_Reflections_Review_1080p.mp4",
+      "duration": 356.6445833333333,
+      "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10699,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson07_Reflections_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            14.633
+          ],
+          [
+            17.0,
+            25.3
+          ],
+          [
+            25.333,
+            33.6
+          ],
+          [
+            35.7,
+            44.0
+          ],
+          [
+            49.733,
+            58.033
+          ],
+          [
+            58.067,
+            69.533
+          ],
+          [
+            105.267,
+            113.567
+          ],
+          [
+            123.667,
+            131.967
+          ],
+          [
+            132.0,
+            140.4
+          ],
+          [
+            175.8,
+            184.1
+          ],
+          [
+            208.867,
+            217.167
+          ],
+          [
+            233.167,
+            244.967
+          ],
+          [
+            253.333,
+            261.5
+          ],
+          [
+            272.0,
+            280.033
+          ],
+          [
+            298.8,
+            307.1
+          ],
+          [
+            335.667,
+            343.967
+          ],
+          [
+            344.0,
+            354.233
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.994958333333333,
+            "end": 17.474958322604497,
+            "text": "Today we are learning to reflect points and shapes using a mirror line."
+          },
+          {
+            "start": 112.08099971389771,
+            "end": 112.40099988555909,
+            "text": "Place the image the same distance on the opposite side."
+          },
+          {
+            "start": 149.9911666094462,
+            "end": 150.11116649500528,
+            "text": "The two points share the same height."
+          },
+          {
+            "start": 189.9290832188924,
+            "end": 190.04908310445148,
+            "text": "A and B do not travel the same horizontal distance between original and image."
+          },
+          {
+            "start": 190.04908310445148,
+            "end": 190.84908329518635,
+            "text": "A crosses six units, while B crosses two."
+          },
+          {
+            "start": 190.84908329518635,
+            "end": 191.04908310445148,
+            "text": "Their distances depend on how far they start from the mirror."
+          },
+          {
+            "start": 200.23637479019163,
+            "end": 200.8363746948242,
+            "text": "This is a useful check when a shape touches or crosses the mirror."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 140.4,
+            "end": 145.5,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 223.4,
+            "end": 228.4,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 314.7,
+            "end": 319.8,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson07_Reflections_Review_1080p_encoded_scenes.jpg": "8f48987c7849e5433899739309e91b0995d31aa89d8e3e0c05351c710f80ab46",
+        "Space_Lesson07_Reflections_Review_1080p_qa.json": "db0130cf7ab5459992db54467177f1e8aa3628d5e10e448b19db70c2e7e0a2e8",
+        "Space_Lesson07_Reflections_Review_1080p_script.json": "d43f8836d766fc735c88b25797fa7fbaefe6420dcd9b10cf26f0d07ae7bc1a06",
+        "Space_Lesson07_Reflections_Review_1080p_transcript.txt": "cac665b3ce86c80cd347c1dd7ff319c35227d8a144e3b0d306906b9f076908da",
+        "Space_Lesson07_Reflections_Review_1080p_recognition.json": "8580134cc5ea7dc8ce9b76ea07629a7935734e79014aed69b886ba943e8d3c5e",
+        "Space_Lesson07_Reflections_Review_1080p_narration.flac": "10e12a54427860d6b8fe499faefa40fdc6c3ec54f986aa6fd0130edb574e054a",
+        "Space_Lesson07_Reflections_Review_1080p_poster.jpg": "86a23c91de7b3b358fe20ee4967301c8cfba92804c83df40e2f11ec61f6e8d22",
+        "Space_Lesson07_Reflections_Review_1080p_timing.json": "5f10f21e80e6b946c2059f15398781821ab400dbf06a1d279fe13a96e4cfc3a3"
       }
     }
   ],

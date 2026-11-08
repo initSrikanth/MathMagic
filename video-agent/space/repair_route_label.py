@@ -17,6 +17,8 @@ def main():
  state=json.loads(b.STATE.read_text());assert state['rendered_this_batch']==9,'Finish all nine renders first'
  entry=state['lessons']['space-lesson5'];target=Path(entry['output']);folder=WORK/'lesson5';repair=WORK/'lesson5-label-repair';repair.mkdir(exist_ok=True)
  receipt=repair/'receipt.json'
+ if entry.get('label_repair'):
+  assert sha(target)==entry['label_repair']['new_sha256']==entry['sha256'];print('Verified archived label repair preserved');return
  if receipt.exists():
   proof=json.loads(receipt.read_text());assert sha(target)==proof['new_sha256']==entry['sha256'];print('Existing verified label repair preserved');return
  assert sha(target)==entry['sha256']==EXPECTED
