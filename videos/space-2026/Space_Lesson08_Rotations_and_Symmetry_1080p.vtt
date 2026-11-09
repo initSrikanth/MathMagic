@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.720 line:0% position:50% align:center size:96%
+A playground designer turns a square tile and notices that
+it sometimes looks exactly as it did before.
+
+00:00:01.720 --> 00:00:09.360 line:0% position:50% align:center size:96%
+A long rectangular tile behaves differently.
+
+00:00:09.360 --> 00:00:14.560 line:0% position:50% align:center size:96%
+Why do some shapes match their original outline several
+times during one full turn?
+
+00:00:14.560 --> 00:00:19.362 line:0% position:50% align:center size:96%
+Let us investigate turns that move a shape and turns that
+reveal its symmetry.
+
+00:00:19.362 --> 00:00:19.842 line:0% position:50% align:center size:96%
+Today we are learning to rotate shapes about a pivot and
+investigate rotational symmetry.
+
+00:00:19.842 --> 00:00:30.665 line:0% position:50% align:center size:96%
+We will build an explanation using models, rather than
+memorising a rule without understanding it.
+
+00:00:30.665 --> 00:00:36.025 line:0% position:50% align:center size:96%
+Our learning goal is to rotate shapes about a pivot and
+investigate rotational symmetry.
+
+00:00:36.025 --> 00:00:41.660 line:0% position:50% align:center size:96%
+As you investigate, connect what you can see, what you can
+make, and the mathematical language you use.
+
+00:00:41.660 --> 00:00:44.420 line:0% position:50% align:center size:96%
+First, I can describe a turn precisely.
+
+00:00:44.420 --> 00:00:47.740 line:0% position:50% align:center size:96%
+Second, I can check a rotation using its pivot.
+
+00:00:47.740 --> 00:00:51.340 line:0% position:50% align:center size:96%
+Third, I can find an order of rotational symmetry.
+
+00:00:51.340 --> 00:00:54.806 line:0% position:50% align:center size:96%
+Keep these goals in mind as you explain each discovery.
+
+00:00:54.806 --> 00:00:55.366 line:0% position:50% align:center size:96%
+Think about a door turning on a hinge or a clock hand moving
+around its centre.
+
+00:00:55.366 --> 00:01:02.206 line:0% position:50% align:center size:96%
+A rotation needs a fixed pivot.
+
+00:01:02.206 --> 00:01:03.606 line:0% position:50% align:center size:96%
+Every point turns through the same angle about that pivot.
+
+00:01:03.606 --> 00:01:11.968 line:0% position:50% align:center size:96%
+The shape changes its direction and often its position,
+while the pivot remains fixed throughout the movement.
+
+00:01:11.968 --> 00:01:12.328 line:0% position:50% align:center size:96%
+To give a complete rotation instruction, state the pivot,
+angle and direction.
+
+00:01:12.328 --> 00:01:16.688 line:0% position:50% align:center size:96%
+A quarter turn means ninety degrees.
+
+00:01:16.688 --> 00:01:22.848 line:0% position:50% align:center size:96%
+A half turn means one hundred and eighty degrees.
+
+00:01:22.848 --> 00:01:28.088 line:0% position:50% align:center size:96%
+Clockwise follows the direction of clock hands, while
+anticlockwise goes the other way.
+
+00:01:28.088 --> 00:01:32.569 line:0% position:50% align:center size:96%
+Leaving out one of these details can make an instruction
+ambiguous.
+
+00:01:32.569 --> 00:01:34.449 line:0% position:50% align:center size:96%
+Our pivot is at four, four.
+
+00:01:34.449 --> 00:01:36.969 line:0% position:50% align:center size:96%
+The outlined shape sits to its right.
+
+00:01:36.969 --> 00:01:41.009 line:0% position:50% align:center size:96%
+Choose a marked point on the shape and notice its distance
+from the pivot.
+
+00:01:41.009 --> 00:01:48.190 line:0% position:50% align:center size:96%
+During the turn that point follows a circular path, keeping
+the same distance from the pivot instead of sliding along a
+straight route.
+
+00:02:00.990 --> 00:02:01.470 line:0% position:50% align:center size:96%
+Turn the shape ninety degrees anticlockwise around four,
+four.
+
+00:02:01.470 --> 00:02:01.630 line:0% position:50% align:center size:96%
+The part that began to the right of the pivot swings
+upwards.
+
+00:02:01.630 --> 00:02:02.230 line:0% position:50% align:center size:96%
+Keep the original outline as a reference.
+
+00:02:02.230 --> 00:02:06.226 line:0% position:50% align:center size:96%
+Every vertex makes the same quarter turn, so the connecting
+sides and corner angles preserve the original shape’s
+geometry.
+
+00:02:06.226 --> 00:02:09.866 line:0% position:50% align:center size:96%
+Imagine a point at six, four, two units right of the pivot.
+
+00:02:09.866 --> 00:02:14.866 line:0% position:50% align:center size:96%
+After the quarter turn anticlockwise, it is two units above
+the pivot, at four, six.
+
+00:02:14.866 --> 00:02:18.626 line:0% position:50% align:center size:96%
+This check uses the pivot’s position as well as the turn.
+
+00:02:18.626 --> 00:02:23.427 line:0% position:50% align:center size:96%
+Rotating around the origin would be a different instruction
+and give a different result.
+
+00:02:23.427 --> 00:02:27.267 line:0% position:50% align:center size:96%
+Return to the original shape and keep the pivot at four,
+four.
+
+00:02:27.267 --> 00:02:32.027 line:0% position:50% align:center size:96%
+Where would the point at six, four finish after a
+ninety-degree clockwise turn?
+
+00:02:32.027 --> 00:02:36.827 line:0% position:50% align:center size:96%
+Think of moving from the right-hand direction towards the
+downward direction.
+
+00:02:36.827 --> 00:02:41.043 line:0% position:50% align:center size:96%
+Predict the full coordinates and justify the distance from
+the pivot.
+
+00:02:46.043 --> 00:02:48.043 line:0% position:50% align:center size:96%
+The point finishes at four, two.
+
+00:02:48.043 --> 00:02:51.803 line:0% position:50% align:center size:96%
+It is still two units from the pivot, but now directly below
+it.
+
+00:02:51.803 --> 00:02:55.323 line:0% position:50% align:center size:96%
+Compare this with the anticlockwise result four, six.
+
+00:02:55.323 --> 00:03:01.586 line:0% position:50% align:center size:96%
+Both turns have the same angle, yet their different
+directions place the point on opposite sides of the pivot.
+
+00:03:01.586 --> 00:03:06.146 line:0% position:50% align:center size:96%
+A learner moves every vertex three squares right and calls
+it a quarter turn.
+
+00:03:06.146 --> 00:03:06.626 line:0% position:50% align:center size:96%
+That is a translation, not a rotation.
+
+00:03:06.626 --> 00:03:14.586 line:0% position:50% align:center size:96%
+A rotation keeps the pivot fixed and changes the directions
+from it to the vertices.
+
+00:03:14.586 --> 00:03:19.991 line:0% position:50% align:center size:96%
+Use the point’s circular path and the changed orientation to
+explain the difference positively.
+
+00:03:19.991 --> 00:03:22.151 line:0% position:50% align:center size:96%
+Return to the original shape and make a half turn about the
+same pivot.
+
+00:03:22.151 --> 00:03:27.951 line:0% position:50% align:center size:96%
+A point two units right of the pivot moves two units left of
+it.
+
+00:03:27.951 --> 00:03:35.901 line:0% position:50% align:center size:96%
+For a half turn, clockwise and anticlockwise reach the same
+final position, although the paths travel around different
+sides along the way.
+
+00:03:35.901 --> 00:03:41.101 line:0% position:50% align:center size:96%
+Any shape can be rotated, but not every turn makes it match
+its original outline.
+
+00:03:41.101 --> 00:03:47.661 line:0% position:50% align:center size:96%
+Rotational symmetry asks about the special turns where the
+whole shape fits exactly onto its starting position.
+
+00:03:47.661 --> 00:03:54.371 line:0% position:50% align:center size:96%
+Compare every side and corner, rather than accepting a rough
+resemblance or matching only one particular point.
+
+00:03:54.371 --> 00:03:58.371 line:0% position:50% align:center size:96%
+Place the pivot at the square’s centre and rotate through
+one full turn.
+
+00:03:58.371 --> 00:04:04.411 line:0% position:50% align:center size:96%
+It matches at ninety, one hundred and eighty, two hundred
+and seventy, and three hundred and sixty degrees.
+
+00:04:04.411 --> 00:04:06.531 line:0% position:50% align:center size:96%
+These four matching positions give the square rotational
+symmetry of order four.
+
+00:04:06.531 --> 00:04:12.892 line:0% position:50% align:center size:96%
+The starting position is not counted a second time.
+
+00:04:12.892 --> 00:04:16.411 line:0% position:50% align:center size:96%
+Now try a non-square rectangle about its centre.
+
+00:04:16.411 --> 00:04:20.691 line:0% position:50% align:center size:96%
+Will a quarter turn match, or do its unequal side lengths
+prevent that?
+
+00:04:20.691 --> 00:04:26.971 line:0% position:50% align:center size:96%
+Predict how many matching positions occur in one full turn,
+including the final full-turn match.
+
+00:04:26.971 --> 00:04:30.953 line:0% position:50% align:center size:96%
+Explain what happens to the long and short sides as it
+turns.
+
+00:04:35.953 --> 00:04:38.473 line:0% position:50% align:center size:96%
+A non-square rectangle matches after a half turn and again
+after a full turn.
+
+00:04:38.473 --> 00:04:47.113 line:0% position:50% align:center size:96%
+A quarter turn exchanges its long-side and short-side
+directions, so its outline does not fit.
+
+00:04:47.113 --> 00:04:49.713 line:0% position:50% align:center size:96%
+It has order two, rather than order four.
+
+00:04:49.713 --> 00:04:55.364 line:0% position:50% align:center size:96%
+The requirement is an exact whole-outline match, not simply
+another rectangular picture.
+
+00:04:55.364 --> 00:05:00.204 line:0% position:50% align:center size:96%
+An equilateral triangle has three equal sides and three
+equal angles.
+
+00:05:00.204 --> 00:05:07.444 line:0% position:50% align:center size:96%
+About its centre, it matches after turns of one hundred and
+twenty, two hundred and forty, and three hundred and sixty
+degrees.
+
+00:05:07.444 --> 00:05:09.004 line:0% position:50% align:center size:96%
+That gives order three.
+
+00:05:09.004 --> 00:05:13.462 line:0% position:50% align:center size:96%
+The spacing between matching positions is equal throughout
+the full turn.
+
+00:05:13.462 --> 00:05:16.782 line:0% position:50% align:center size:96%
+A scalene triangle has unequal side lengths.
+
+00:05:16.782 --> 00:05:25.382 line:0% position:50% align:center size:96%
+It does not match its starting outline under a smaller
+positive turn about its centre, but it does match after a
+complete three-hundred-and-sixty-degree turn.
+
+00:05:25.382 --> 00:05:31.883 line:0% position:50% align:center size:96%
+We describe this as order one: there is no non-trivial
+rotational symmetry to discover before the full turn.
+
+00:05:31.883 --> 00:05:36.843 line:0% position:50% align:center size:96%
+Lines of symmetry and rotational symmetry describe different
+transformations.
+
+00:05:36.843 --> 00:05:44.523 line:0% position:50% align:center size:96%
+A non-square rectangle has mirror lines through the
+midpoints of opposite sides, and it also has order-two
+rotational symmetry.
+
+00:05:44.523 --> 00:05:49.643 line:0% position:50% align:center size:96%
+Do not assume that seeing a mirror line automatically tells
+you every matching turn.
+
+00:05:49.643 --> 00:05:53.112 line:0% position:50% align:center size:96%
+Test the particular transformation you are asked about.
+
+00:05:53.112 --> 00:05:57.472 line:0% position:50% align:center size:96%
+Choose a paper shape, mark a pivot and trace its original
+outline.
+
+00:05:57.472 --> 00:06:03.872 line:0% position:50% align:center size:96%
+Turn it carefully through one full revolution, recording
+every exact match after the starting position.
+
+00:06:03.872 --> 00:06:08.552 line:0% position:50% align:center size:96%
+State your evidence with an angle or fraction-of-a-turn
+description in words.
+
+00:06:08.552 --> 00:06:11.610 line:0% position:50% align:center size:96%
+Check that the pivot did not drift while you were turning.
+
+00:06:11.610 --> 00:06:17.170 line:0% position:50% align:center size:96%
+A shape’s rotational-symmetry investigation normally uses
+its appropriate centre.
+
+00:06:17.170 --> 00:06:23.930 line:0% position:50% align:center size:96%
+A different pivot can move the shape away from the starting
+outline, even when the angle is a familiar symmetry turn.
+
+00:06:23.930 --> 00:06:30.831 line:0% position:50% align:center size:96%
+This is another reason that a complete rotation instruction
+must name the pivot as well as angle and direction.
+
+00:06:30.831 --> 00:06:37.311 line:0% position:50% align:center size:96%
+You can now describe rotations, check a point’s distance
+from a pivot and investigate exact matching turns.
+
+00:06:37.311 --> 00:06:44.671 line:0% position:50% align:center size:96%
+The square, non-square rectangle and equilateral triangle
+have different rotational orders for mathematical reasons.
+
+00:06:44.671 --> 00:06:50.725 line:0% position:50% align:center size:96%
+Choose a new tile shape and predict its order, then test the
+whole outline before accepting your prediction.

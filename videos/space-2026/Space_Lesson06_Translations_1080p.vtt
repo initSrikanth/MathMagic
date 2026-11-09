@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.400 line:0% position:50% align:center size:96%
+A theatre crew needs to slide a painted triangle across the
+stage without turning it.
+
+00:00:05.400 --> 00:00:10.920 line:0% position:50% align:center size:96%
+One person moves the top corner further than the others, and
+suddenly the triangle looks stretched!
+
+00:00:10.920 --> 00:00:16.484 line:0% position:50% align:center size:96%
+How could the whole team follow one instruction that keeps
+the scenery exactly the same shape?
+
+00:00:16.484 --> 00:00:16.884 line:0% position:50% align:center size:96%
+Today we are learning to translate a shape while preserving
+its size and orientation.
+
+00:00:16.884 --> 00:00:27.165 line:0% position:50% align:center size:96%
+We will build an explanation using models, rather than
+memorising a rule without understanding it.
+
+00:00:27.165 --> 00:00:32.125 line:0% position:50% align:center size:96%
+Our learning goal is to translate a shape while preserving
+its size and orientation.
+
+00:00:32.125 --> 00:00:37.787 line:0% position:50% align:center size:96%
+As you investigate, connect what you can see, what you can
+make, and the mathematical language you use.
+
+00:00:37.787 --> 00:00:40.587 line:0% position:50% align:center size:96%
+First, I can describe a slide precisely.
+
+00:00:40.587 --> 00:00:44.027 line:0% position:50% align:center size:96%
+Second, I can move every vertex by the same amount.
+
+00:00:44.027 --> 00:00:46.707 line:0% position:50% align:center size:96%
+Third, I can check what stays unchanged.
+
+00:00:46.707 --> 00:00:50.172 line:0% position:50% align:center size:96%
+Keep these goals in mind as you explain each discovery.
+
+00:00:50.172 --> 00:00:54.412 line:0% position:50% align:center size:96%
+Imagine sliding a book across a table while keeping its
+cover facing the same direction.
+
+00:00:54.412 --> 00:00:59.692 line:0% position:50% align:center size:96%
+The book changes position, but you do not turn it over or
+rotate it.
+
+00:00:59.692 --> 00:01:03.692 line:0% position:50% align:center size:96%
+In geometry, a movement of this kind is called a
+translation.
+
+00:01:03.692 --> 00:01:07.141 line:0% position:50% align:center size:96%
+We will describe it precisely on a coordinate grid.
+
+00:01:07.141 --> 00:01:10.981 line:0% position:50% align:center size:96%
+A shape consists of more than its most noticeable corner.
+
+00:01:10.981 --> 00:01:15.421 line:0% position:50% align:center size:96%
+Mark each vertex of our triangle and keep the original
+outline visible.
+
+00:01:15.421 --> 00:01:16.261 line:0% position:50% align:center size:96%
+To translate the whole triangle, every vertex must move the
+same distance in the same direction.
+
+00:01:16.261 --> 00:01:26.185 line:0% position:50% align:center size:96%
+The sides connecting those vertices then preserve their
+lengths and relationships.
+
+00:01:26.185 --> 00:01:30.265 line:0% position:50% align:center size:96%
+Our triangle has vertices at one, one; three, one; and two,
+three.
+
+00:01:30.265 --> 00:01:33.585 line:0% position:50% align:center size:96%
+Read each pair horizontally first, then vertically.
+
+00:01:33.585 --> 00:01:37.705 line:0% position:50% align:center size:96%
+These coordinates provide a record of the original position.
+
+00:01:37.705 --> 00:01:44.944 line:0% position:50% align:center size:96%
+Before moving anything, point to the base and the upper
+vertex so you can check whether the final orientation stays
+the same.
+
+00:01:44.944 --> 00:01:49.264 line:0% position:50% align:center size:96%
+The stage manager asks for a slide three units right and two
+units up.
+
+00:01:49.264 --> 00:01:52.864 line:0% position:50% align:center size:96%
+This instruction applies to every point of the triangle.
+
+00:01:52.864 --> 00:01:56.064 line:0% position:50% align:center size:96%
+It describes the change in position, rather than naming a
+final coordinate.
+
+00:01:56.064 --> 00:02:01.919 line:0% position:50% align:center size:96%
+A point that starts further right will also finish further
+right than its neighbours.
+
+00:02:01.919 --> 00:02:04.399 line:0% position:50% align:center size:96%
+Begin with the vertex at one, one.
+
+00:02:04.399 --> 00:02:07.879 line:0% position:50% align:center size:96%
+Three units right takes its horizontal coordinate to four.
+
+00:02:07.879 --> 00:02:09.159 line:0% position:50% align:center size:96%
+Two units up takes its vertical coordinate to three.
+
+00:02:09.159 --> 00:02:13.399 line:0% position:50% align:center size:96%
+Its new position is four, three.
+
+00:02:13.399 --> 00:02:18.955 line:0% position:50% align:center size:96%
+Mark the corresponding new vertex, and keep the original
+marker so the movement can be checked.
+
+00:02:18.955 --> 00:02:22.715 line:0% position:50% align:center size:96%
+Apply the identical instruction to the other vertices.
+
+00:02:22.715 --> 00:02:24.715 line:0% position:50% align:center size:96%
+Three, one becomes six, three.
+
+00:02:24.715 --> 00:02:26.875 line:0% position:50% align:center size:96%
+Two, three becomes five, five.
+
+00:02:26.875 --> 00:02:31.115 line:0% position:50% align:center size:96%
+Join the new vertices in the same order as the original
+shape.
+
+00:02:31.115 --> 00:02:37.213 line:0% position:50% align:center size:96%
+We now have a translated triangle, not three unrelated dots
+that happened to move somewhere on the grid.
+
+00:02:37.213 --> 00:02:39.853 line:0% position:50% align:center size:96%
+Return to the original triangle.
+
+00:02:39.853 --> 00:02:43.853 line:0% position:50% align:center size:96%
+This time the instruction is two units right and three units
+up.
+
+00:02:43.853 --> 00:02:46.653 line:0% position:50% align:center size:96%
+Where will the vertex at one, one finish?
+
+00:02:46.653 --> 00:02:50.013 line:0% position:50% align:center size:96%
+Predict its ordered pair and explain both changes.
+
+00:02:50.013 --> 00:02:56.402 line:0% position:50% align:center size:96%
+The original shape remains visible while you think; the
+translated result has not yet been revealed.
+
+00:03:01.402 --> 00:03:04.282 line:0% position:50% align:center size:96%
+The vertex moves from one, one to three, four.
+
+00:03:04.282 --> 00:03:07.362 line:0% position:50% align:center size:96%
+The horizontal coordinate increases by two and the vertical
+coordinate increases by three.
+
+00:03:07.362 --> 00:03:14.002 line:0% position:50% align:center size:96%
+The other original vertices move to five, four and four,
+six.
+
+00:03:14.002 --> 00:03:19.258 line:0% position:50% align:center size:96%
+Check the triangle’s base: it remains horizontal, with the
+same length as before the slide.
+
+00:03:19.258 --> 00:03:23.258 line:0% position:50% align:center size:96%
+A translation preserves side lengths, angles and
+orientation.
+
+00:03:23.258 --> 00:03:27.018 line:0% position:50% align:center size:96%
+The triangle still points the same way and has the same
+size.
+
+00:03:27.018 --> 00:03:29.018 line:0% position:50% align:center size:96%
+Its location has changed.
+
+00:03:29.018 --> 00:03:33.898 line:0% position:50% align:center size:96%
+Compare a pair of corresponding sides, then a pair of
+corresponding vertices.
+
+00:03:33.898 --> 00:03:38.958 line:0% position:50% align:center size:96%
+This is stronger evidence than simply saying the two
+triangles look rather similar.
+
+00:03:38.958 --> 00:03:43.678 line:0% position:50% align:center size:96%
+Suppose a helper moves one corner four units right while the
+others move three.
+
+00:03:43.678 --> 00:03:46.838 line:0% position:50% align:center size:96%
+That is not the same translation for the whole shape.
+
+00:03:46.838 --> 00:03:50.198 line:0% position:50% align:center size:96%
+A connecting side can change length or direction.
+
+00:03:50.198 --> 00:03:57.231 line:0% position:50% align:center size:96%
+Correct the corner by applying the same displacement as the
+other vertices, rather than stretching the outline to make
+it fit.
+
+00:03:57.231 --> 00:04:02.471 line:0% position:50% align:center size:96%
+For a second worked example, start with vertices four, two;
+six, two; and five, four.
+
+00:04:02.471 --> 00:04:06.111 line:0% position:50% align:center size:96%
+Slide the triangle two units left and one unit up.
+
+00:04:06.111 --> 00:04:12.311 line:0% position:50% align:center size:96%
+Moving left reduces the horizontal coordinates, while moving
+up increases the vertical coordinates.
+
+00:04:12.311 --> 00:04:15.568 line:0% position:50% align:center size:96%
+We remain within the first quadrant throughout this example.
+
+00:04:15.568 --> 00:04:17.488 line:0% position:50% align:center size:96%
+Four, two becomes two, three.
+
+00:04:17.488 --> 00:04:19.368 line:0% position:50% align:center size:96%
+Six, two becomes four, three.
+
+00:04:19.368 --> 00:04:21.488 line:0% position:50% align:center size:96%
+Five, four becomes three, five.
+
+00:04:21.488 --> 00:04:27.288 line:0% position:50% align:center size:96%
+Each horizontal value has decreased by two and each vertical
+value has increased by one.
+
+00:04:27.288 --> 00:04:34.453 line:0% position:50% align:center size:96%
+The consistent changes confirm that every vertex followed
+the same translation instruction, including the upper
+corner.
+
+00:04:34.453 --> 00:04:39.533 line:0% position:50% align:center size:96%
+Draw an arrow from each original vertex to its matching
+translated vertex.
+
+00:04:39.533 --> 00:04:42.373 line:0% position:50% align:center size:96%
+The arrows have the same direction and length.
+
+00:04:42.373 --> 00:04:46.973 line:0% position:50% align:center size:96%
+A single clear arrow can then represent the translation of
+the whole shape.
+
+00:04:46.973 --> 00:04:53.595 line:0% position:50% align:center size:96%
+Explain its horizontal and vertical components so another
+learner can reproduce the slide without guessing.
+
+00:04:53.595 --> 00:04:59.995 line:0% position:50% align:center size:96%
+A classmate says that sliding our triangle across the grid
+could make its horizontal base become vertical.
+
+00:04:59.995 --> 00:05:03.235 line:0% position:50% align:center size:96%
+Is that possible under a translation alone?
+
+00:05:03.235 --> 00:05:08.475 line:0% position:50% align:center size:96%
+Predict your answer and give a reason about what happens to
+the direction of a side.
+
+00:05:08.475 --> 00:05:12.207 line:0% position:50% align:center size:96%
+Do not rely only on the triangle’s final location.
+
+00:05:17.207 --> 00:05:21.327 line:0% position:50% align:center size:96%
+A translation alone cannot turn the horizontal base
+vertical.
+
+00:05:21.327 --> 00:05:28.327 line:0% position:50% align:center size:96%
+Every point moves by the same displacement, so the direction
+between two corresponding vertices remains unchanged.
+
+00:05:28.327 --> 00:05:33.247 line:0% position:50% align:center size:96%
+Making the base vertical would require a rotation or another
+transformation.
+
+00:05:33.247 --> 00:05:37.954 line:0% position:50% align:center size:96%
+Our precise vocabulary helps us distinguish these different
+kinds of movement.
+
+00:05:37.954 --> 00:05:41.714 line:0% position:50% align:center size:96%
+Imagine one vertex moved from one, one to four, three.
+
+00:05:41.714 --> 00:05:47.314 line:0% position:50% align:center size:96%
+Compare the coordinates: the horizontal change is three
+right and the vertical change is two up.
+
+00:05:47.314 --> 00:05:52.394 line:0% position:50% align:center size:96%
+Check another corresponding vertex before applying that
+description to the whole shape.
+
+00:05:52.394 --> 00:05:57.207 line:0% position:50% align:center size:96%
+One matching point alone does not prove that all the others
+moved consistently.
+
+00:05:57.207 --> 00:06:00.847 line:0% position:50% align:center size:96%
+Draw a small shape with three or four vertices on a grid.
+
+00:06:00.847 --> 00:06:04.887 line:0% position:50% align:center size:96%
+Choose a translation that keeps every new vertex within the
+grid.
+
+00:06:04.887 --> 00:06:09.087 line:0% position:50% align:center size:96%
+Record the starting coordinates, instruction and final
+coordinates.
+
+00:06:09.087 --> 00:06:16.179 line:0% position:50% align:center size:96%
+Ask a partner to identify one property that changed and two
+properties that remained unchanged during your movement.
+
+00:06:16.179 --> 00:06:23.179 line:0% position:50% align:center size:96%
+Useful evidence includes equal corresponding side lengths,
+unchanged angles and identical displacement arrows.
+
+00:06:23.179 --> 00:06:27.699 line:0% position:50% align:center size:96%
+A translation changes the position while preserving the
+shape’s geometry.
+
+00:06:27.699 --> 00:06:33.339 line:0% position:50% align:center size:96%
+If your new picture looks larger, tilted or reversed,
+investigate which vertex did not follow the instruction.
+
+00:06:33.339 --> 00:06:37.572 line:0% position:50% align:center size:96%
+The checking strategy can reveal the specific error.
+
+00:06:37.572 --> 00:06:42.532 line:0% position:50% align:center size:96%
+Our scenery team can now move every marked point by one
+shared instruction.
+
+00:06:42.532 --> 00:06:49.332 line:0% position:50% align:center size:96%
+You can describe a translation, plot corresponding vertices
+and explain why size and orientation stay the same.
+
+00:06:49.332 --> 00:06:56.736 line:0% position:50% align:center size:96%
+Finish by giving someone a slide instruction and asking them
+to justify the result using coordinates and matching arrows.

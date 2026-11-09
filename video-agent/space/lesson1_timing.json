@@ -1,0 +1,7167 @@
+{
+  "input_hash": "77dd344e64f22a49f73935da47be446dee978230c1fd30f030667eee0f0970e6",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "The museum mystery",
+      "text": "A museum receives three parcels with their labels missing. One contains a game die, one is a long cereal carton, and one is a triangular tent model. Could you identify each object without relying on its colour or the direction it faces? Let us become geometry detectives.",
+      "board": [],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 0,
+      "start": 0,
+      "end": 17.675625,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "museum",
+          "start": 0.1599999964237213
+        },
+        {
+          "word": "receives",
+          "start": 0.8799999952316284
+        },
+        {
+          "word": "three",
+          "start": 1.5199999809265137
+        },
+        {
+          "word": "parcels",
+          "start": 1.7999999523162842
+        },
+        {
+          "word": "with",
+          "start": 2.4800000190734863
+        },
+        {
+          "word": "their",
+          "start": 2.679999828338623
+        },
+        {
+          "word": "labels",
+          "start": 2.879999876022339
+        },
+        {
+          "word": "missing",
+          "start": 3.319999933242798
+        },
+        {
+          "word": "one",
+          "start": 3.8399999141693115
+        },
+        {
+          "word": "contains",
+          "start": 4.119999885559082
+        },
+        {
+          "word": "a",
+          "start": 4.679999828338623
+        },
+        {
+          "word": "game",
+          "start": 4.839999675750732
+        },
+        {
+          "word": "dye",
+          "start": 5.119999885559082
+        },
+        {
+          "word": "one",
+          "start": 5.480000019073486
+        },
+        {
+          "word": "is",
+          "start": 5.679999828338623
+        },
+        {
+          "word": "a",
+          "start": 5.87999963760376
+        },
+        {
+          "word": "long",
+          "start": 6.039999961853027
+        },
+        {
+          "word": "serial",
+          "start": 6.359999656677246
+        },
+        {
+          "word": "cotton",
+          "start": 6.87999963760376
+        },
+        {
+          "word": "and",
+          "start": 7.319999694824219
+        },
+        {
+          "word": "one",
+          "start": 7.519999980926514
+        },
+        {
+          "word": "is",
+          "start": 7.759999752044678
+        },
+        {
+          "word": "a",
+          "start": 7.960000038146973
+        },
+        {
+          "word": "triangular",
+          "start": 8.119999885559082
+        },
+        {
+          "word": "tent",
+          "start": 8.880000114440918
+        },
+        {
+          "word": "model",
+          "start": 9.15999984741211
+        },
+        {
+          "word": "could",
+          "start": 9.59999942779541
+        },
+        {
+          "word": "you",
+          "start": 9.800000190734863
+        },
+        {
+          "word": "identify",
+          "start": 10.0
+        },
+        {
+          "word": "each",
+          "start": 10.880000114440918
+        },
+        {
+          "word": "object",
+          "start": 11.239999771118164
+        },
+        {
+          "word": "without",
+          "start": 11.75999927520752
+        },
+        {
+          "word": "relying",
+          "start": 12.119999885559082
+        },
+        {
+          "word": "on",
+          "start": 12.59999942779541
+        },
+        {
+          "word": "its",
+          "start": 12.75999927520752
+        },
+        {
+          "word": "color",
+          "start": 13.0
+        },
+        {
+          "word": "or",
+          "start": 13.319999694824219
+        },
+        {
+          "word": "the",
+          "start": 13.4399995803833
+        },
+        {
+          "word": "direction",
+          "start": 13.639999389648438
+        },
+        {
+          "word": "it",
+          "start": 14.199999809265137
+        },
+        {
+          "word": "faces",
+          "start": 14.399999618530273
+        },
+        {
+          "word": "let",
+          "start": 15.119999885559082
+        },
+        {
+          "word": "us",
+          "start": 15.319999694824219
+        },
+        {
+          "word": "become",
+          "start": 15.559999465942383
+        },
+        {
+          "word": "geometry",
+          "start": 16.119998931884766
+        },
+        {
+          "word": "detectives",
+          "start": 16.84000015258789
+        }
+      ],
+      "asr_text": " A MUSEUM RECEIVES THREE PARCELS WITH THEIR LABELS MISSING ONE CONTAINS A GAME DYE ONE IS A LONG SERIAL COTTON AND ONE IS A TRIANGULAR TENT MODEL COULD YOU IDENTIFY EACH OBJECT WITHOUT RELYING ON ITS COLOR OR THE DIRECTION IT FACES LET US BECOME GEOMETRY DETECTIVES",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 16.84000015258789,
+      "reveal_at": 16.690000152587892,
+      "speech_end": 17.675625
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning how to recognise three-dimensional objects using their faces, edges and vertices. We will investigate actual models, connect them to drawings, and explain why a collection of properties is more reliable than a quick glance.",
+      "board": [],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 1,
+      "start": 17.675625,
+      "end": 32.1475,
+      "words": [
+        {
+          "word": "to",
+          "start": 17.675625
+        },
+        {
+          "word": "day",
+          "start": 17.83562499642372
+        },
+        {
+          "word": "we",
+          "start": 18.075624976158142
+        },
+        {
+          "word": "are",
+          "start": 18.235625002384186
+        },
+        {
+          "word": "learning",
+          "start": 18.395624969005585
+        },
+        {
+          "word": "how",
+          "start": 18.875624928474426
+        },
+        {
+          "word": "to",
+          "start": 19.11562493801117
+        },
+        {
+          "word": "recognize",
+          "start": 19.315624985694885
+        },
+        {
+          "word": "three",
+          "start": 20.075624856948853
+        },
+        {
+          "word": "dimensional",
+          "start": 20.355624828338623
+        },
+        {
+          "word": "objects",
+          "start": 21.075624856948853
+        },
+        {
+          "word": "using",
+          "start": 21.635624799728394
+        },
+        {
+          "word": "their",
+          "start": 22.035625133514404
+        },
+        {
+          "word": "faces",
+          "start": 22.315624866485596
+        },
+        {
+          "word": "edges",
+          "start": 22.83562484741211
+        },
+        {
+          "word": "and",
+          "start": 23.315624866485596
+        },
+        {
+          "word": "vertesies",
+          "start": 23.475624713897705
+        },
+        {
+          "word": "we",
+          "start": 24.315624866485596
+        },
+        {
+          "word": "will",
+          "start": 24.475624713897705
+        },
+        {
+          "word": "investigate",
+          "start": 24.675625
+        },
+        {
+          "word": "actual",
+          "start": 25.55562463760376
+        },
+        {
+          "word": "models",
+          "start": 25.99562469482422
+        },
+        {
+          "word": "connect",
+          "start": 26.475625190734863
+        },
+        {
+          "word": "them",
+          "start": 26.875624809265137
+        },
+        {
+          "word": "to",
+          "start": 27.035624656677246
+        },
+        {
+          "word": "drawings",
+          "start": 27.195624504089356
+        },
+        {
+          "word": "and",
+          "start": 27.715624961853027
+        },
+        {
+          "word": "explain",
+          "start": 27.875624809265137
+        },
+        {
+          "word": "why",
+          "start": 28.475625190734863
+        },
+        {
+          "word": "a",
+          "start": 28.715624961853027
+        },
+        {
+          "word": "collection",
+          "start": 28.83562484741211
+        },
+        {
+          "word": "of",
+          "start": 29.315624389648438
+        },
+        {
+          "word": "properties",
+          "start": 29.475625190734863
+        },
+        {
+          "word": "is",
+          "start": 30.035624656677246
+        },
+        {
+          "word": "more",
+          "start": 30.27562442779541
+        },
+        {
+          "word": "reliable",
+          "start": 30.475624237060547
+        },
+        {
+          "word": "than",
+          "start": 31.035624656677246
+        },
+        {
+          "word": "a",
+          "start": 31.235624465942383
+        },
+        {
+          "word": "quick",
+          "start": 31.395624313354492
+        },
+        {
+          "word": "glance",
+          "start": 31.675625
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING HOW TO RECOGNIZE THREE DIMENSIONAL OBJECTS USING THEIR FACES EDGES AND VERTESIES WE WILL INVESTIGATE ACTUAL MODELS CONNECT THEM TO DRAWINGS AND EXPLAIN WHY A COLLECTION OF PROPERTIES IS MORE RELIABLE THAN A QUICK GLANCE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 17.675625,
+      "motion_end": 31.675625,
+      "reveal_at": 31.525625,
+      "speech_end": 32.1475
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Today’s Learning Goal",
+      "text": "Our learning goal is to identify and describe a solid using evidence about its faces, edges and vertices. By the end, you should be able to defend an object label, rather than simply guess its name.",
+      "board": [
+        "Identify a solid using its properties."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 2,
+      "start": 32.1475,
+      "end": 44.3555,
+      "words": [
+        {
+          "word": "our",
+          "start": 32.1475
+        },
+        {
+          "word": "learning",
+          "start": 32.34749998807907
+        },
+        {
+          "word": "goal",
+          "start": 32.787499985694886
+        },
+        {
+          "word": "is",
+          "start": 33.10749997854233
+        },
+        {
+          "word": "to",
+          "start": 33.3074999666214
+        },
+        {
+          "word": "identify",
+          "start": 33.507500014305116
+        },
+        {
+          "word": "and",
+          "start": 34.26749988555908
+        },
+        {
+          "word": "describe",
+          "start": 34.4674999332428
+        },
+        {
+          "word": "a",
+          "start": 34.98749991416931
+        },
+        {
+          "word": "solid",
+          "start": 35.1475
+        },
+        {
+          "word": "using",
+          "start": 35.58749981880188
+        },
+        {
+          "word": "evidence",
+          "start": 35.947499952316285
+        },
+        {
+          "word": "about",
+          "start": 36.507500133514405
+        },
+        {
+          "word": "its",
+          "start": 36.74749990463257
+        },
+        {
+          "word": "faces",
+          "start": 36.98749967575073
+        },
+        {
+          "word": "edges",
+          "start": 37.50749965667725
+        },
+        {
+          "word": "and",
+          "start": 37.98749967575073
+        },
+        {
+          "word": "verteses",
+          "start": 38.18749996185303
+        },
+        {
+          "word": "by",
+          "start": 39.02749963760376
+        },
+        {
+          "word": "the",
+          "start": 39.18749996185303
+        },
+        {
+          "word": "end",
+          "start": 39.46749969482422
+        },
+        {
+          "word": "you",
+          "start": 39.86749979019165
+        },
+        {
+          "word": "should",
+          "start": 40.06749959945679
+        },
+        {
+          "word": "be",
+          "start": 40.30749984741211
+        },
+        {
+          "word": "able",
+          "start": 40.46749969482422
+        },
+        {
+          "word": "to",
+          "start": 40.74749942779541
+        },
+        {
+          "word": "defend",
+          "start": 40.90750022888184
+        },
+        {
+          "word": "an",
+          "start": 41.34749980926514
+        },
+        {
+          "word": "object",
+          "start": 41.5874995803833
+        },
+        {
+          "word": "label",
+          "start": 42.02750011444092
+        },
+        {
+          "word": "rather",
+          "start": 42.42749973297119
+        },
+        {
+          "word": "than",
+          "start": 42.78749938964844
+        },
+        {
+          "word": "simply",
+          "start": 42.98750015258789
+        },
+        {
+          "word": "guess",
+          "start": 43.42749973297119
+        },
+        {
+          "word": "its",
+          "start": 43.74749942779541
+        },
+        {
+          "word": "name",
+          "start": 43.98750015258789
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO IDENTIFY AND DESCRIBE A SOLID USING EVIDENCE ABOUT ITS FACES EDGES AND VERTESES BY THE END YOU SHOULD BE ABLE TO DEFEND AN OBJECT LABEL RATHER THAN SIMPLY GUESS ITS NAME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Identify a solid using its properties.",
+          "at": 32.1475,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 32.1475,
+      "motion_end": 43.98750015258789,
+      "reveal_at": 43.83750015258789,
+      "speech_end": 44.3555
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "First, I can distinguish a face, an edge and a vertex. Second, I can count these features systematically, including hidden ones. Third, I can compare two solids and explain which properties actually distinguish them.",
+      "board": [
+        "I can identify faces, edges and vertices.",
+        "I can count visible and hidden features.",
+        "I can justify and compare object labels."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "vertices"
+      },
+      "index": 3,
+      "start": 44.3555,
+      "end": 57.762708333333336,
+      "words": [
+        {
+          "word": "first",
+          "start": 44.3555
+        },
+        {
+          "word": "i",
+          "start": 44.79549999761581
+        },
+        {
+          "word": "can",
+          "start": 44.995499985694885
+        },
+        {
+          "word": "distinguish",
+          "start": 45.23549999523163
+        },
+        {
+          "word": "a",
+          "start": 45.91549994277954
+        },
+        {
+          "word": "face",
+          "start": 46.07549990940094
+        },
+        {
+          "word": "an",
+          "start": 46.51549984741211
+        },
+        {
+          "word": "edge",
+          "start": 46.75549985694885
+        },
+        {
+          "word": "and",
+          "start": 47.07550002861023
+        },
+        {
+          "word": "a",
+          "start": 47.23549987602234
+        },
+        {
+          "word": "vertex",
+          "start": 47.3555
+        },
+        {
+          "word": "second",
+          "start": 48.07550002861023
+        },
+        {
+          "word": "i",
+          "start": 48.67549969482422
+        },
+        {
+          "word": "can",
+          "start": 48.87549998092651
+        },
+        {
+          "word": "count",
+          "start": 49.11549975204468
+        },
+        {
+          "word": "these",
+          "start": 49.435499923706054
+        },
+        {
+          "word": "features",
+          "start": 49.715499656677245
+        },
+        {
+          "word": "systematically",
+          "start": 50.19549967575073
+        },
+        {
+          "word": "including",
+          "start": 51.11549975204468
+        },
+        {
+          "word": "hidden",
+          "start": 51.715499656677245
+        },
+        {
+          "word": "ones",
+          "start": 52.11549975204468
+        },
+        {
+          "word": "third",
+          "start": 52.51549984741211
+        },
+        {
+          "word": "i",
+          "start": 52.99549938964844
+        },
+        {
+          "word": "can",
+          "start": 53.19550015258789
+        },
+        {
+          "word": "compare",
+          "start": 53.39549996185303
+        },
+        {
+          "word": "two",
+          "start": 53.91549946594238
+        },
+        {
+          "word": "solids",
+          "start": 54.19550015258789
+        },
+        {
+          "word": "and",
+          "start": 54.67549969482422
+        },
+        {
+          "word": "explain",
+          "start": 54.83549954223633
+        },
+        {
+          "word": "which",
+          "start": 55.3555
+        },
+        {
+          "word": "properties",
+          "start": 55.59549977111816
+        },
+        {
+          "word": "actually",
+          "start": 56.23550011444092
+        },
+        {
+          "word": "distinguish",
+          "start": 56.7954995803833
+        },
+        {
+          "word": "them",
+          "start": 57.47549988555908
+        }
+      ],
+      "asr_text": " FIRST I CAN DISTINGUISH A FACE AN EDGE AND A VERTEX SECOND I CAN COUNT THESE FEATURES SYSTEMATICALLY INCLUDING HIDDEN ONES THIRD I CAN COMPARE TWO SOLIDS AND EXPLAIN WHICH PROPERTIES ACTUALLY DISTINGUISH THEM",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can identify faces, edges and vertices.",
+          "at": 44.3555,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can count visible and hidden features.",
+          "at": 44.3555,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can justify and compare object labels.",
+          "at": 44.3555,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 44.3555,
+      "motion_end": 57.47549988555908,
+      "reveal_at": 57.32549988555908,
+      "speech_end": 57.762708333333336
+    },
+    {
+      "role": "explanation",
+      "chapter": "Connect to familiar objects",
+      "text": "Think about a square drawn on paper and a box you can pick up. A square is a flat shape. A box is a three-dimensional object: it has length, width and height. Its outside is made from surfaces that surround a space.",
+      "board": [],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 4,
+      "start": 57.762708333333336,
+      "end": 71.57941666666667,
+      "words": [
+        {
+          "word": "think",
+          "start": 57.762708333333336
+        },
+        {
+          "word": "about",
+          "start": 58.00270832796892
+        },
+        {
+          "word": "a",
+          "start": 58.28270831425985
+        },
+        {
+          "word": "square",
+          "start": 58.44270834048589
+        },
+        {
+          "word": "drawn",
+          "start": 58.96270826180776
+        },
+        {
+          "word": "on",
+          "start": 59.40270831902822
+        },
+        {
+          "word": "paper",
+          "start": 59.642708328564964
+        },
+        {
+          "word": "and",
+          "start": 60.00270834287008
+        },
+        {
+          "word": "a",
+          "start": 60.202708390553795
+        },
+        {
+          "word": "box",
+          "start": 60.32270827611288
+        },
+        {
+          "word": "you",
+          "start": 60.642708209355675
+        },
+        {
+          "word": "can",
+          "start": 60.80270829518636
+        },
+        {
+          "word": "pick",
+          "start": 61.00270834287008
+        },
+        {
+          "word": "up",
+          "start": 61.28270831425985
+        },
+        {
+          "word": "a",
+          "start": 61.60270824750265
+        },
+        {
+          "word": "square",
+          "start": 61.80270829518636
+        },
+        {
+          "word": "is",
+          "start": 62.24270835240682
+        },
+        {
+          "word": "a",
+          "start": 62.44270816167196
+        },
+        {
+          "word": "flat",
+          "start": 62.60270800908407
+        },
+        {
+          "word": "sheep",
+          "start": 62.96270814259847
+        },
+        {
+          "word": "a",
+          "start": 63.44270816167196
+        },
+        {
+          "word": "box",
+          "start": 63.642707970937096
+        },
+        {
+          "word": "is",
+          "start": 64.04270806630453
+        },
+        {
+          "word": "a",
+          "start": 64.24270835240682
+        },
+        {
+          "word": "three",
+          "start": 64.40270819981893
+        },
+        {
+          "word": "dimensional",
+          "start": 64.68270840962728
+        },
+        {
+          "word": "object",
+          "start": 65.44270816167196
+        },
+        {
+          "word": "it",
+          "start": 65.96270814259847
+        },
+        {
+          "word": "has",
+          "start": 66.12270799001058
+        },
+        {
+          "word": "length",
+          "start": 66.36270776112875
+        },
+        {
+          "word": "with",
+          "start": 66.88270821889242
+        },
+        {
+          "word": "them",
+          "start": 67.16270795186361
+        },
+        {
+          "word": "height",
+          "start": 67.40270772298177
+        },
+        {
+          "word": "its",
+          "start": 67.84270825703939
+        },
+        {
+          "word": "outside",
+          "start": 68.16270795186361
+        },
+        {
+          "word": "is",
+          "start": 68.88270821889242
+        },
+        {
+          "word": "made",
+          "start": 69.16270795186361
+        },
+        {
+          "word": "from",
+          "start": 69.40270772298177
+        },
+        {
+          "word": "surfaces",
+          "start": 69.60270848592123
+        },
+        {
+          "word": "that",
+          "start": 70.24270787556966
+        },
+        {
+          "word": "surround",
+          "start": 70.48270764668783
+        },
+        {
+          "word": "a",
+          "start": 70.92270818074545
+        },
+        {
+          "word": "space",
+          "start": 71.04270806630453
+        }
+      ],
+      "asr_text": " THINK ABOUT A SQUARE DRAWN ON PAPER AND A BOX YOU CAN PICK UP A SQUARE IS A FLAT SHEEP A BOX IS A THREE DIMENSIONAL OBJECT IT HAS LENGTH WITH THEM HEIGHT ITS OUTSIDE IS MADE FROM SURFACES THAT SURROUND A SPACE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 57.762708333333336,
+      "motion_end": 71.04270806630453,
+      "reveal_at": 70.89270806630452,
+      "speech_end": 71.57941666666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use a real model",
+      "text": "Find an empty carton or imagine holding one. Slowly turn it in your hands. A drawing only shows one viewpoint, while the object continues behind the visible parts. We must account for the whole object, including surfaces and corners we cannot currently see.",
+      "board": [],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 5,
+      "start": 71.57941666666667,
+      "end": 87.57104166666667,
+      "words": [
+        {
+          "word": "find",
+          "start": 71.57941666666667
+        },
+        {
+          "word": "an",
+          "start": 71.93941665116947
+        },
+        {
+          "word": "empty",
+          "start": 72.13941666905086
+        },
+        {
+          "word": "cotton",
+          "start": 72.69941667143505
+        },
+        {
+          "word": "or",
+          "start": 73.17941657129924
+        },
+        {
+          "word": "imagine",
+          "start": 73.33941665712993
+        },
+        {
+          "word": "holding",
+          "start": 73.97941652361553
+        },
+        {
+          "word": "one",
+          "start": 74.45941654268901
+        },
+        {
+          "word": "slowly",
+          "start": 74.81941667620342
+        },
+        {
+          "word": "turn",
+          "start": 75.45941654268901
+        },
+        {
+          "word": "it",
+          "start": 75.73941651407878
+        },
+        {
+          "word": "in",
+          "start": 75.93941680018108
+        },
+        {
+          "word": "your",
+          "start": 76.09941664759319
+        },
+        {
+          "word": "hands",
+          "start": 76.29941645685832
+        },
+        {
+          "word": "a",
+          "start": 76.85941639963787
+        },
+        {
+          "word": "drawing",
+          "start": 77.05941668574016
+        },
+        {
+          "word": "only",
+          "start": 77.6194166285197
+        },
+        {
+          "word": "shows",
+          "start": 77.93941632334392
+        },
+        {
+          "word": "one",
+          "start": 78.33941641871135
+        },
+        {
+          "word": "viewpoint",
+          "start": 78.53941670481365
+        },
+        {
+          "word": "while",
+          "start": 79.09941664759319
+        },
+        {
+          "word": "the",
+          "start": 79.2594164950053
+        },
+        {
+          "word": "object",
+          "start": 79.4194163424174
+        },
+        {
+          "word": "continues",
+          "start": 79.97941628519695
+        },
+        {
+          "word": "behind",
+          "start": 80.6194166285197
+        },
+        {
+          "word": "the",
+          "start": 80.93941632334392
+        },
+        {
+          "word": "visible",
+          "start": 81.09941617075603
+        },
+        {
+          "word": "parts",
+          "start": 81.57941666666667
+        },
+        {
+          "word": "we",
+          "start": 82.059416208903
+        },
+        {
+          "word": "must",
+          "start": 82.29941598002117
+        },
+        {
+          "word": "account",
+          "start": 82.53941670481365
+        },
+        {
+          "word": "for",
+          "start": 83.059416208903
+        },
+        {
+          "word": "the",
+          "start": 83.17941609446208
+        },
+        {
+          "word": "whole",
+          "start": 83.3394159418742
+        },
+        {
+          "word": "object",
+          "start": 83.57941666666667
+        },
+        {
+          "word": "including",
+          "start": 84.13941613260906
+        },
+        {
+          "word": "surfaces",
+          "start": 84.73941651407878
+        },
+        {
+          "word": "and",
+          "start": 85.37941590372722
+        },
+        {
+          "word": "corners",
+          "start": 85.53941670481365
+        },
+        {
+          "word": "we",
+          "start": 86.01941624704997
+        },
+        {
+          "word": "cannot",
+          "start": 86.21941605631511
+        },
+        {
+          "word": "currently",
+          "start": 86.6194166285197
+        },
+        {
+          "word": "see",
+          "start": 87.21941605631511
+        }
+      ],
+      "asr_text": " FIND AN EMPTY COTTON OR IMAGINE HOLDING ONE SLOWLY TURN IT IN YOUR HANDS A DRAWING ONLY SHOWS ONE VIEWPOINT WHILE THE OBJECT CONTINUES BEHIND THE VISIBLE PARTS WE MUST ACCOUNT FOR THE WHOLE OBJECT INCLUDING SURFACES AND CORNERS WE CANNOT CURRENTLY SEE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 71.57941666666667,
+      "motion_end": 87.21941605631511,
+      "reveal_at": 87.0694160563151,
+      "speech_end": 87.57104166666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "What is a face?",
+      "text": "A flat face is one flat region on the surface. Place a paper square against a game die: the square matches one face. Turn the die and another face comes into view. Each face belongs to the same solid, even when it is hidden.",
+      "board": [
+        "Face: one flat surface region."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 6,
+      "start": 87.57104166666667,
+      "end": 101.63062500000001,
+      "words": [
+        {
+          "word": "a",
+          "start": 87.57104166666667
+        },
+        {
+          "word": "flat",
+          "start": 87.77104165474574
+        },
+        {
+          "word": "face",
+          "start": 88.13104166905086
+        },
+        {
+          "word": "is",
+          "start": 88.531041645209
+        },
+        {
+          "word": "one",
+          "start": 88.89104159990947
+        },
+        {
+          "word": "flat",
+          "start": 89.21104165236156
+        },
+        {
+          "word": "region",
+          "start": 89.57104166666667
+        },
+        {
+          "word": "on",
+          "start": 90.09104164759319
+        },
+        {
+          "word": "the",
+          "start": 90.2510414950053
+        },
+        {
+          "word": "surface",
+          "start": 90.37104161898296
+        },
+        {
+          "word": "place",
+          "start": 91.09104164759319
+        },
+        {
+          "word": "a",
+          "start": 91.37104161898296
+        },
+        {
+          "word": "paper",
+          "start": 91.53104146639507
+        },
+        {
+          "word": "square",
+          "start": 91.89104136149089
+        },
+        {
+          "word": "against",
+          "start": 92.33104141871135
+        },
+        {
+          "word": "a",
+          "start": 92.65104159037273
+        },
+        {
+          "word": "game",
+          "start": 92.81104143778484
+        },
+        {
+          "word": "dye",
+          "start": 93.09104164759319
+        },
+        {
+          "word": "the",
+          "start": 93.37104138056438
+        },
+        {
+          "word": "square",
+          "start": 93.53104170481365
+        },
+        {
+          "word": "matches",
+          "start": 93.89104136149089
+        },
+        {
+          "word": "one",
+          "start": 94.4110413424174
+        },
+        {
+          "word": "face",
+          "start": 94.69104155222576
+        },
+        {
+          "word": "turn",
+          "start": 95.17104157129924
+        },
+        {
+          "word": "the",
+          "start": 95.53104170481365
+        },
+        {
+          "word": "dye",
+          "start": 95.73104151407878
+        },
+        {
+          "word": "and",
+          "start": 96.17104109446208
+        },
+        {
+          "word": "another",
+          "start": 96.37104185740154
+        },
+        {
+          "word": "face",
+          "start": 96.81104143778484
+        },
+        {
+          "word": "comes",
+          "start": 97.17104109446208
+        },
+        {
+          "word": "into",
+          "start": 97.49104174296062
+        },
+        {
+          "word": "view",
+          "start": 97.73104151407878
+        },
+        {
+          "word": "each",
+          "start": 98.13104113260906
+        },
+        {
+          "word": "face",
+          "start": 98.49104174296062
+        },
+        {
+          "word": "belongs",
+          "start": 98.77104147593181
+        },
+        {
+          "word": "to",
+          "start": 99.29104098002117
+        },
+        {
+          "word": "the",
+          "start": 99.41104181925456
+        },
+        {
+          "word": "same",
+          "start": 99.57104166666667
+        },
+        {
+          "word": "solid",
+          "start": 99.89104136149089
+        },
+        {
+          "word": "even",
+          "start": 100.33104094187419
+        },
+        {
+          "word": "when",
+          "start": 100.6110416285197
+        },
+        {
+          "word": "it",
+          "start": 100.81104143778484
+        },
+        {
+          "word": "is",
+          "start": 100.97104128519695
+        },
+        {
+          "word": "hidden",
+          "start": 101.17104109446208
+        }
+      ],
+      "asr_text": " A FLAT FACE IS ONE FLAT REGION ON THE SURFACE PLACE A PAPER SQUARE AGAINST A GAME DYE THE SQUARE MATCHES ONE FACE TURN THE DYE AND ANOTHER FACE COMES INTO VIEW EACH FACE BELONGS TO THE SAME SOLID EVEN WHEN IT IS HIDDEN",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Face: one flat surface region.",
+          "at": 87.77104165474574,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 87.57104166666667,
+      "motion_end": 101.17104109446208,
+      "reveal_at": 101.02104109446208,
+      "speech_end": 101.63062500000001
+    },
+    {
+      "role": "explanation",
+      "chapter": "What is an edge?",
+      "text": "An edge is a line where two flat faces meet. Trace one join on the carton with a finger. The edge is shared by the two faces. Counting it once for each face would count the same edge twice, so we need a careful method.",
+      "board": [
+        "Edge: where two flat faces meet."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "edges"
+      },
+      "index": 7,
+      "start": 101.63062500000001,
+      "end": 115.64916666666667,
+      "words": [
+        {
+          "word": "an",
+          "start": 101.63062500000001
+        },
+        {
+          "word": "edge",
+          "start": 101.9106250011921
+        },
+        {
+          "word": "is",
+          "start": 102.2706249856949
+        },
+        {
+          "word": "a",
+          "start": 102.47062497377397
+        },
+        {
+          "word": "line",
+          "start": 102.67062496185304
+        },
+        {
+          "word": "where",
+          "start": 103.1106250190735
+        },
+        {
+          "word": "two",
+          "start": 103.39062499046327
+        },
+        {
+          "word": "flat",
+          "start": 103.63062500000001
+        },
+        {
+          "word": "faces",
+          "start": 103.99062489509583
+        },
+        {
+          "word": "meet",
+          "start": 104.4306249523163
+        },
+        {
+          "word": "trace",
+          "start": 104.87062500953675
+        },
+        {
+          "word": "one",
+          "start": 105.35062502861024
+        },
+        {
+          "word": "joint",
+          "start": 105.75062488555909
+        },
+        {
+          "word": "on",
+          "start": 106.19062494277955
+        },
+        {
+          "word": "the",
+          "start": 106.35062479019166
+        },
+        {
+          "word": "cotton",
+          "start": 106.55062507629395
+        },
+        {
+          "word": "with",
+          "start": 106.95062469482423
+        },
+        {
+          "word": "a",
+          "start": 107.1106250190735
+        },
+        {
+          "word": "finger",
+          "start": 107.2706248664856
+        },
+        {
+          "word": "the",
+          "start": 107.75062488555909
+        },
+        {
+          "word": "edge",
+          "start": 108.03062461853028
+        },
+        {
+          "word": "is",
+          "start": 108.35062479019166
+        },
+        {
+          "word": "shared",
+          "start": 108.63062500000001
+        },
+        {
+          "word": "by",
+          "start": 109.07062505722047
+        },
+        {
+          "word": "the",
+          "start": 109.19062494277955
+        },
+        {
+          "word": "two",
+          "start": 109.35062479019166
+        },
+        {
+          "word": "faces",
+          "start": 109.63062500000001
+        },
+        {
+          "word": "counting",
+          "start": 110.31062435150147
+        },
+        {
+          "word": "it",
+          "start": 110.79062484741212
+        },
+        {
+          "word": "once",
+          "start": 111.03062461853028
+        },
+        {
+          "word": "for",
+          "start": 111.31062435150147
+        },
+        {
+          "word": "each",
+          "start": 111.55062507629395
+        },
+        {
+          "word": "face",
+          "start": 111.83062480926515
+        },
+        {
+          "word": "would",
+          "start": 112.15062450408936
+        },
+        {
+          "word": "count",
+          "start": 112.3506243133545
+        },
+        {
+          "word": "the",
+          "start": 112.71062492370606
+        },
+        {
+          "word": "same",
+          "start": 112.87062477111817
+        },
+        {
+          "word": "edge",
+          "start": 113.19062446594239
+        },
+        {
+          "word": "twice",
+          "start": 113.55062507629395
+        },
+        {
+          "word": "so",
+          "start": 113.99062465667726
+        },
+        {
+          "word": "we",
+          "start": 114.19062446594239
+        },
+        {
+          "word": "need",
+          "start": 114.31062435150147
+        },
+        {
+          "word": "a",
+          "start": 114.55062507629395
+        },
+        {
+          "word": "careful",
+          "start": 114.67062496185304
+        },
+        {
+          "word": "method",
+          "start": 115.11062454223634
+        }
+      ],
+      "asr_text": " AN EDGE IS A LINE WHERE TWO FLAT FACES MEET TRACE ONE JOINT ON THE COTTON WITH A FINGER THE EDGE IS SHARED BY THE TWO FACES COUNTING IT ONCE FOR EACH FACE WOULD COUNT THE SAME EDGE TWICE SO WE NEED A CAREFUL METHOD",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Edge: where two flat faces meet.",
+          "at": 101.9106250011921,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 101.63062500000001,
+      "motion_end": 115.11062454223634,
+      "reveal_at": 114.96062454223633,
+      "speech_end": 115.64916666666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "What is a vertex?",
+      "text": "A vertex is a corner point where edges meet. Touch a corner of your carton with a sticky dot. The dot marks a position, rather than a length or an area. The plural of vertex is vertices: one vertex, several vertices.",
+      "board": [
+        "Vertex: a corner point."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "vertices"
+      },
+      "index": 8,
+      "start": 115.64916666666667,
+      "end": 129.75595833333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 115.64916666666667
+        },
+        {
+          "word": "vertex",
+          "start": 115.84916665474574
+        },
+        {
+          "word": "is",
+          "start": 116.5291666618983
+        },
+        {
+          "word": "a",
+          "start": 116.72916659037273
+        },
+        {
+          "word": "corner",
+          "start": 116.88916667620342
+        },
+        {
+          "word": "point",
+          "start": 117.32916661421459
+        },
+        {
+          "word": "where",
+          "start": 117.60916658560436
+        },
+        {
+          "word": "edges",
+          "start": 117.88916667620342
+        },
+        {
+          "word": "meet",
+          "start": 118.3291664950053
+        },
+        {
+          "word": "touch",
+          "start": 118.76916655222576
+        },
+        {
+          "word": "a",
+          "start": 119.08916648546855
+        },
+        {
+          "word": "corner",
+          "start": 119.20916660944621
+        },
+        {
+          "word": "of",
+          "start": 119.64916666666667
+        },
+        {
+          "word": "your",
+          "start": 119.80916651407878
+        },
+        {
+          "word": "carton",
+          "start": 120.08916672388713
+        },
+        {
+          "word": "with",
+          "start": 120.52916678110759
+        },
+        {
+          "word": "a",
+          "start": 120.6891666285197
+        },
+        {
+          "word": "sticky",
+          "start": 120.76916655222576
+        },
+        {
+          "word": "dot",
+          "start": 121.20916660944621
+        },
+        {
+          "word": "the",
+          "start": 121.64916666666667
+        },
+        {
+          "word": "dot",
+          "start": 121.92916639963786
+        },
+        {
+          "word": "marks",
+          "start": 122.28916653315227
+        },
+        {
+          "word": "a",
+          "start": 122.60916670481365
+        },
+        {
+          "word": "position",
+          "start": 122.72916659037273
+        },
+        {
+          "word": "rather",
+          "start": 123.28916653315227
+        },
+        {
+          "word": "than",
+          "start": 123.64916666666667
+        },
+        {
+          "word": "a",
+          "start": 123.88916643778484
+        },
+        {
+          "word": "length",
+          "start": 124.00916632334392
+        },
+        {
+          "word": "or",
+          "start": 124.36916693369548
+        },
+        {
+          "word": "an",
+          "start": 124.56916674296062
+        },
+        {
+          "word": "area",
+          "start": 124.76916655222576
+        },
+        {
+          "word": "the",
+          "start": 125.24916609446208
+        },
+        {
+          "word": "plural",
+          "start": 125.44916685740154
+        },
+        {
+          "word": "of",
+          "start": 125.88916643778484
+        },
+        {
+          "word": "vertex",
+          "start": 126.08916624704997
+        },
+        {
+          "word": "is",
+          "start": 126.60916670481365
+        },
+        {
+          "word": "vertesies",
+          "start": 126.80916651407878
+        },
+        {
+          "word": "one",
+          "start": 127.60916670481365
+        },
+        {
+          "word": "vertex",
+          "start": 127.84916647593181
+        },
+        {
+          "word": "several",
+          "start": 128.48916681925456
+        },
+        {
+          "word": "vertesies",
+          "start": 128.92916639963786
+        }
+      ],
+      "asr_text": " A VERTEX IS A CORNER POINT WHERE EDGES MEET TOUCH A CORNER OF YOUR CARTON WITH A STICKY DOT THE DOT MARKS A POSITION RATHER THAN A LENGTH OR AN AREA THE PLURAL OF VERTEX IS VERTESIES ONE VERTEX SEVERAL VERTESIES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Vertex: a corner point.",
+          "at": 115.84916665474574,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 115.64916666666667,
+      "motion_end": 128.92916639963786,
+      "reveal_at": 128.77916639963786,
+      "speech_end": 129.75595833333335
+    },
+    {
+      "role": "question",
+      "chapter": "Predict before counting",
+      "text": "Look at the cube model. You can see only some of its faces in this drawing. How many faces does the complete cube have? Think about the face resting on the table and those at the back. Make your prediction before the answer appears.",
+      "board": [],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 9,
+      "start": 129.75595833333335,
+      "end": 149.77920833333334,
+      "words": [
+        {
+          "word": "look",
+          "start": 129.75595833333335
+        },
+        {
+          "word": "at",
+          "start": 130.1559583094915
+        },
+        {
+          "word": "the",
+          "start": 130.35595829757057
+        },
+        {
+          "word": "cube",
+          "start": 130.5159583237966
+        },
+        {
+          "word": "model",
+          "start": 130.87595833810173
+        },
+        {
+          "word": "you",
+          "start": 131.35595823796592
+        },
+        {
+          "word": "can",
+          "start": 131.63595832856498
+        },
+        {
+          "word": "see",
+          "start": 131.8359582570394
+        },
+        {
+          "word": "only",
+          "start": 132.1559581902822
+        },
+        {
+          "word": "some",
+          "start": 132.55595828564964
+        },
+        {
+          "word": "of",
+          "start": 132.75595833333335
+        },
+        {
+          "word": "its",
+          "start": 132.91595818074546
+        },
+        {
+          "word": "faces",
+          "start": 133.1559581902822
+        },
+        {
+          "word": "in",
+          "start": 133.59595824750267
+        },
+        {
+          "word": "this",
+          "start": 133.75595833333335
+        },
+        {
+          "word": "drawing",
+          "start": 133.9559581425985
+        },
+        {
+          "word": "how",
+          "start": 134.55595804723106
+        },
+        {
+          "word": "many",
+          "start": 134.75595833333335
+        },
+        {
+          "word": "faces",
+          "start": 135.1159579900106
+        },
+        {
+          "word": "does",
+          "start": 135.71595837148033
+        },
+        {
+          "word": "the",
+          "start": 135.9559581425985
+        },
+        {
+          "word": "complete",
+          "start": 136.1159579900106
+        },
+        {
+          "word": "cube",
+          "start": 136.5959580090841
+        },
+        {
+          "word": "have",
+          "start": 137.07595802815757
+        },
+        {
+          "word": "think",
+          "start": 137.475958123525
+        },
+        {
+          "word": "about",
+          "start": 137.8359582570394
+        },
+        {
+          "word": "the",
+          "start": 138.15595795186363
+        },
+        {
+          "word": "face",
+          "start": 138.43595768483482
+        },
+        {
+          "word": "resting",
+          "start": 138.87595821889244
+        },
+        {
+          "word": "on",
+          "start": 139.43595768483482
+        },
+        {
+          "word": "the",
+          "start": 139.59595848592124
+        },
+        {
+          "word": "table",
+          "start": 139.79595829518638
+        },
+        {
+          "word": "and",
+          "start": 140.31595779927574
+        },
+        {
+          "word": "those",
+          "start": 140.5159585622152
+        },
+        {
+          "word": "at",
+          "start": 140.87595821889244
+        },
+        {
+          "word": "the",
+          "start": 141.03595806630454
+        },
+        {
+          "word": "back",
+          "start": 141.23595787556968
+        },
+        {
+          "word": "make",
+          "start": 141.71595837148033
+        },
+        {
+          "word": "your",
+          "start": 142.03595806630454
+        },
+        {
+          "word": "prediction",
+          "start": 142.31595779927574
+        },
+        {
+          "word": "before",
+          "start": 143.07595802815757
+        },
+        {
+          "word": "the",
+          "start": 143.3959577229818
+        },
+        {
+          "word": "answer",
+          "start": 143.63595844777427
+        },
+        {
+          "word": "appears",
+          "start": 144.07595802815757
+        }
+      ],
+      "asr_text": " LOOK AT THE CUBE MODEL YOU CAN SEE ONLY SOME OF ITS FACES IN THIS DRAWING HOW MANY FACES DOES THE COMPLETE CUBE HAVE THINK ABOUT THE FACE RESTING ON THE TABLE AND THOSE AT THE BACK MAKE YOUR PREDICTION BEFORE THE ANSWER APPEARS",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 129.75595833333335,
+      "motion_end": 144.07595802815757,
+      "reveal_at": 143.92595802815757,
+      "speech_end": 144.77920833333334
+    },
+    {
+      "role": "answer",
+      "chapter": "Reason about all six faces",
+      "text": "A cube has six square faces. Imagine top and bottom, front and back, left and right. These three opposite pairs account for every face. Seeing only three regions in a drawing does not mean that the actual cube has only three faces.",
+      "board": [
+        "Cube: 6 square faces."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 10,
+      "start": 149.77920833333334,
+      "end": 164.74045833333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 149.77920833333334
+        },
+        {
+          "word": "cube",
+          "start": 149.97920832141241
+        },
+        {
+          "word": "has",
+          "start": 150.37920829757056
+        },
+        {
+          "word": "six",
+          "start": 150.6192083071073
+        },
+        {
+          "word": "square",
+          "start": 150.89920833810172
+        },
+        {
+          "word": "faces",
+          "start": 151.25920835240683
+        },
+        {
+          "word": "imagine",
+          "start": 151.89920821889243
+        },
+        {
+          "word": "top",
+          "start": 152.5392083237966
+        },
+        {
+          "word": "and",
+          "start": 152.8592082570394
+        },
+        {
+          "word": "bottom",
+          "start": 153.0192083428701
+        },
+        {
+          "word": "front",
+          "start": 153.5392083237966
+        },
+        {
+          "word": "and",
+          "start": 153.89920821889243
+        },
+        {
+          "word": "back",
+          "start": 154.09920802815756
+        },
+        {
+          "word": "left",
+          "start": 154.499208123525
+        },
+        {
+          "word": "and",
+          "start": 154.81920829518637
+        },
+        {
+          "word": "right",
+          "start": 155.0192081044515
+        },
+        {
+          "word": "these",
+          "start": 155.41920819981894
+        },
+        {
+          "word": "three",
+          "start": 155.8592082570394
+        },
+        {
+          "word": "opposite",
+          "start": 156.17920795186362
+        },
+        {
+          "word": "pairs",
+          "start": 156.73920837148032
+        },
+        {
+          "word": "account",
+          "start": 157.2192083905538
+        },
+        {
+          "word": "for",
+          "start": 157.69920793279013
+        },
+        {
+          "word": "every",
+          "start": 157.93920818074545
+        },
+        {
+          "word": "face",
+          "start": 158.33920779927573
+        },
+        {
+          "word": "seeing",
+          "start": 158.77920833333334
+        },
+        {
+          "word": "only",
+          "start": 159.21920791371664
+        },
+        {
+          "word": "three",
+          "start": 159.5792085240682
+        },
+        {
+          "word": "regions",
+          "start": 159.89920821889243
+        },
+        {
+          "word": "in",
+          "start": 160.49920764668784
+        },
+        {
+          "word": "a",
+          "start": 160.61920848592123
+        },
+        {
+          "word": "drawing",
+          "start": 160.73920837148032
+        },
+        {
+          "word": "does",
+          "start": 161.17920795186362
+        },
+        {
+          "word": "not",
+          "start": 161.41920772298178
+        },
+        {
+          "word": "mean",
+          "start": 161.65920844777426
+        },
+        {
+          "word": "that",
+          "start": 161.93920818074545
+        },
+        {
+          "word": "the",
+          "start": 162.09920802815756
+        },
+        {
+          "word": "actual",
+          "start": 162.2992078374227
+        },
+        {
+          "word": "cube",
+          "start": 162.77920833333334
+        },
+        {
+          "word": "has",
+          "start": 163.17920795186362
+        },
+        {
+          "word": "only",
+          "start": 163.4592076848348
+        },
+        {
+          "word": "three",
+          "start": 163.77920833333334
+        },
+        {
+          "word": "faces",
+          "start": 164.1392079900106
+        }
+      ],
+      "asr_text": " A CUBE HAS SIX SQUARE FACES IMAGINE TOP AND BOTTOM FRONT AND BACK LEFT AND RIGHT THESE THREE OPPOSITE PAIRS ACCOUNT FOR EVERY FACE SEEING ONLY THREE REGIONS IN A DRAWING DOES NOT MEAN THAT THE ACTUAL CUBE HAS ONLY THREE FACES",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Cube: 6 square faces.",
+          "at": 150.7192083071073,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 149.77920833333334,
+      "motion_end": 150.7192083071073,
+      "reveal_at": 150.7192083071073,
+      "speech_end": 164.74045833333335
+    },
+    {
+      "role": "explanation",
+      "chapter": "Count edges in groups",
+      "text": "Now organise the cube edges. There are four around the top square and four around the bottom square. Four more edges join corresponding top and bottom corners. These are different groups, so no edge has been counted twice.",
+      "board": [
+        "Top: 4",
+        "Bottom: 4",
+        "Joining: 4"
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "edges"
+      },
+      "index": 11,
+      "start": 164.74045833333335,
+      "end": 178.47833333333335,
+      "words": [
+        {
+          "word": "now",
+          "start": 164.74045833333335
+        },
+        {
+          "word": "organize",
+          "start": 165.22045832260451
+        },
+        {
+          "word": "the",
+          "start": 165.90045829995475
+        },
+        {
+          "word": "cube",
+          "start": 166.06045826657615
+        },
+        {
+          "word": "edges",
+          "start": 166.42045828088126
+        },
+        {
+          "word": "there",
+          "start": 167.06045826657615
+        },
+        {
+          "word": "are",
+          "start": 167.38045819981895
+        },
+        {
+          "word": "four",
+          "start": 167.6204582093557
+        },
+        {
+          "word": "around",
+          "start": 167.90045818074546
+        },
+        {
+          "word": "the",
+          "start": 168.22045835240684
+        },
+        {
+          "word": "top",
+          "start": 168.38045819981895
+        },
+        {
+          "word": "square",
+          "start": 168.6204582093557
+        },
+        {
+          "word": "and",
+          "start": 169.02045806630454
+        },
+        {
+          "word": "full",
+          "start": 169.26045831425986
+        },
+        {
+          "word": "around",
+          "start": 169.50045808537803
+        },
+        {
+          "word": "the",
+          "start": 169.8204582570394
+        },
+        {
+          "word": "bottom",
+          "start": 169.9404581425985
+        },
+        {
+          "word": "square",
+          "start": 170.3004582761129
+        },
+        {
+          "word": "four",
+          "start": 170.74045833333335
+        },
+        {
+          "word": "more",
+          "start": 171.02045806630454
+        },
+        {
+          "word": "edges",
+          "start": 171.3004582761129
+        },
+        {
+          "word": "join",
+          "start": 171.9404581425985
+        },
+        {
+          "word": "corresponding",
+          "start": 172.34045823796592
+        },
+        {
+          "word": "top",
+          "start": 173.14045795186362
+        },
+        {
+          "word": "and",
+          "start": 173.46045860036216
+        },
+        {
+          "word": "bottom",
+          "start": 173.6604584096273
+        },
+        {
+          "word": "corners",
+          "start": 174.02045806630454
+        },
+        {
+          "word": "these",
+          "start": 174.58045848592124
+        },
+        {
+          "word": "are",
+          "start": 174.9404581425985
+        },
+        {
+          "word": "different",
+          "start": 175.14045795186362
+        },
+        {
+          "word": "groups",
+          "start": 175.5404585240682
+        },
+        {
+          "word": "so",
+          "start": 176.06045802815757
+        },
+        {
+          "word": "no",
+          "start": 176.2604578374227
+        },
+        {
+          "word": "edge",
+          "start": 176.58045848592124
+        },
+        {
+          "word": "has",
+          "start": 176.90045818074546
+        },
+        {
+          "word": "been",
+          "start": 177.1004579900106
+        },
+        {
+          "word": "counted",
+          "start": 177.3804577229818
+        },
+        {
+          "word": "twice",
+          "start": 177.90045818074546
+        }
+      ],
+      "asr_text": " NOW ORGANIZE THE CUBE EDGES THERE ARE FOUR AROUND THE TOP SQUARE AND FULL AROUND THE BOTTOM SQUARE FOUR MORE EDGES JOIN CORRESPONDING TOP AND BOTTOM CORNERS THESE ARE DIFFERENT GROUPS SO NO EDGE HAS BEEN COUNTED TWICE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Top: 4",
+          "at": 167.72045820935568,
+          "reason": "number phrase"
+        },
+        {
+          "text": "Bottom: 4",
+          "at": 167.72045820935568,
+          "reason": "number phrase"
+        },
+        {
+          "text": "Joining: 4",
+          "at": 167.72045820935568,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 164.74045833333335,
+      "motion_end": 177.90045818074546,
+      "reveal_at": 177.75045818074545,
+      "speech_end": 178.47833333333335
+    },
+    {
+      "role": "answer",
+      "chapter": "Connect the model to a calculation",
+      "text": "Four plus four plus four equals twelve edges. The calculation records our grouping, rather than replacing the model. Point to an edge in each group and explain why every cube edge belongs to exactly one group. That is how a systematic count becomes convincing.",
+      "board": [
+        "4 + 4 + 4 = 12 edges"
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "edges"
+      },
+      "index": 12,
+      "start": 178.47833333333335,
+      "end": 195.11745833333336,
+      "words": [
+        {
+          "word": "four",
+          "start": 178.47833333333335
+        },
+        {
+          "word": "plus",
+          "start": 178.75833333452545
+        },
+        {
+          "word": "four",
+          "start": 179.07833329757057
+        },
+        {
+          "word": "plus",
+          "start": 179.35833332856498
+        },
+        {
+          "word": "four",
+          "start": 179.7183333428701
+        },
+        {
+          "word": "equals",
+          "start": 180.15833328088127
+        },
+        {
+          "word": "twelve",
+          "start": 180.67833338101707
+        },
+        {
+          "word": "edges",
+          "start": 181.0383332761129
+        },
+        {
+          "word": "the",
+          "start": 181.63833318074546
+        },
+        {
+          "word": "calculation",
+          "start": 181.83833322842918
+        },
+        {
+          "word": "records",
+          "start": 182.79833302815757
+        },
+        {
+          "word": "are",
+          "start": 183.35833344777427
+        },
+        {
+          "word": "grouping",
+          "start": 183.51833329518638
+        },
+        {
+          "word": "rather",
+          "start": 184.0383332761129
+        },
+        {
+          "word": "than",
+          "start": 184.3583329709371
+        },
+        {
+          "word": "replacing",
+          "start": 184.59833321889244
+        },
+        {
+          "word": "the",
+          "start": 185.198333123525
+        },
+        {
+          "word": "model",
+          "start": 185.3583329709371
+        },
+        {
+          "word": "point",
+          "start": 185.75833306630454
+        },
+        {
+          "word": "to",
+          "start": 186.11833319981895
+        },
+        {
+          "word": "an",
+          "start": 186.27833304723106
+        },
+        {
+          "word": "edge",
+          "start": 186.47833333333335
+        },
+        {
+          "word": "in",
+          "start": 186.79833302815757
+        },
+        {
+          "word": "each",
+          "start": 186.9983328374227
+        },
+        {
+          "word": "group",
+          "start": 187.27833352406822
+        },
+        {
+          "word": "and",
+          "start": 187.59833321889244
+        },
+        {
+          "word": "explain",
+          "start": 187.75833306630454
+        },
+        {
+          "word": "why",
+          "start": 188.31833348592124
+        },
+        {
+          "word": "every",
+          "start": 188.6783331425985
+        },
+        {
+          "word": "cube",
+          "start": 189.03833279927574
+        },
+        {
+          "word": "edge",
+          "start": 189.3983334096273
+        },
+        {
+          "word": "belongs",
+          "start": 189.71833310445152
+        },
+        {
+          "word": "to",
+          "start": 190.19833264668785
+        },
+        {
+          "word": "exactly",
+          "start": 190.35833344777427
+        },
+        {
+          "word": "one",
+          "start": 190.95833287556968
+        },
+        {
+          "word": "group",
+          "start": 191.19833264668785
+        },
+        {
+          "word": "that",
+          "start": 191.6783331425985
+        },
+        {
+          "word": "is",
+          "start": 191.91833291371665
+        },
+        {
+          "word": "how",
+          "start": 192.19833264668785
+        },
+        {
+          "word": "a",
+          "start": 192.47833333333335
+        },
+        {
+          "word": "systematic",
+          "start": 192.6783331425985
+        },
+        {
+          "word": "count",
+          "start": 193.51833329518638
+        },
+        {
+          "word": "becomes",
+          "start": 193.87833295186363
+        },
+        {
+          "word": "convincing",
+          "start": 194.35833344777427
+        }
+      ],
+      "asr_text": " FOUR PLUS FOUR PLUS FOUR EQUALS TWELVE EDGES THE CALCULATION RECORDS ARE GROUPING RATHER THAN REPLACING THE MODEL POINT TO AN EDGE IN EACH GROUP AND EXPLAIN WHY EVERY CUBE EDGE BELONGS TO EXACTLY ONE GROUP THAT IS HOW A SYSTEMATIC COUNT BECOMES CONVINCING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "4 + 4 + 4 = 12 edges",
+          "at": 180.77833338101706,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 178.47833333333335,
+      "motion_end": 180.77833338101706,
+      "reveal_at": 180.77833338101706,
+      "speech_end": 195.11745833333336
+    },
+    {
+      "role": "explanation",
+      "chapter": "Count cube vertices",
+      "text": "For vertices, mark the four corners around the top face. Then turn the model and mark four different corners around the bottom. The joining edges do not introduce any new corners halfway along them. Four plus four gives eight vertices.",
+      "board": [
+        "4 + 4 = 8 vertices"
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "vertices"
+      },
+      "index": 13,
+      "start": 195.11745833333336,
+      "end": 209.52616666666668,
+      "words": [
+        {
+          "word": "pervertises",
+          "start": 195.1574583324393
+        },
+        {
+          "word": "mark",
+          "start": 196.11745833333336
+        },
+        {
+          "word": "the",
+          "start": 196.39745830472313
+        },
+        {
+          "word": "four",
+          "start": 196.63745831425987
+        },
+        {
+          "word": "corners",
+          "start": 196.87745832379662
+        },
+        {
+          "word": "around",
+          "start": 197.3574583428701
+        },
+        {
+          "word": "the",
+          "start": 197.6774582761129
+        },
+        {
+          "word": "top",
+          "start": 197.8374583619436
+        },
+        {
+          "word": "face",
+          "start": 198.11745833333336
+        },
+        {
+          "word": "then",
+          "start": 198.55745815213524
+        },
+        {
+          "word": "turn",
+          "start": 198.87745832379662
+        },
+        {
+          "word": "the",
+          "start": 199.11745833333336
+        },
+        {
+          "word": "muddle",
+          "start": 199.27745818074547
+        },
+        {
+          "word": "and",
+          "start": 199.6774582761129
+        },
+        {
+          "word": "mark",
+          "start": 199.87745808537804
+        },
+        {
+          "word": "four",
+          "start": 200.23745821889244
+        },
+        {
+          "word": "different",
+          "start": 200.4774579900106
+        },
+        {
+          "word": "corners",
+          "start": 200.87745808537804
+        },
+        {
+          "word": "around",
+          "start": 201.35745810445152
+        },
+        {
+          "word": "the",
+          "start": 201.6774582761129
+        },
+        {
+          "word": "bottom",
+          "start": 201.79745816167198
+        },
+        {
+          "word": "the",
+          "start": 202.23745821889244
+        },
+        {
+          "word": "joining",
+          "start": 202.4774579900106
+        },
+        {
+          "word": "edges",
+          "start": 202.9574580090841
+        },
+        {
+          "word": "do",
+          "start": 203.43745802815758
+        },
+        {
+          "word": "not",
+          "start": 203.63745783742272
+        },
+        {
+          "word": "introduce",
+          "start": 203.91745852406822
+        },
+        {
+          "word": "any",
+          "start": 204.5974578755697
+        },
+        {
+          "word": "new",
+          "start": 204.91745852406822
+        },
+        {
+          "word": "corners",
+          "start": 205.1574582951864
+        },
+        {
+          "word": "half",
+          "start": 205.71745776112877
+        },
+        {
+          "word": "way",
+          "start": 205.95745848592125
+        },
+        {
+          "word": "along",
+          "start": 206.23745821889244
+        },
+        {
+          "word": "them",
+          "start": 206.63745783742272
+        },
+        {
+          "word": "four",
+          "start": 206.99745844777428
+        },
+        {
+          "word": "plus",
+          "start": 207.27745818074547
+        },
+        {
+          "word": "four",
+          "start": 207.63745783742272
+        },
+        {
+          "word": "gives",
+          "start": 207.99745844777428
+        },
+        {
+          "word": "eight",
+          "start": 208.35745810445152
+        },
+        {
+          "word": "verteses",
+          "start": 208.67745779927574
+        }
+      ],
+      "asr_text": " PERVERTISES MARK THE FOUR CORNERS AROUND THE TOP FACE THEN TURN THE MUDDLE AND MARK FOUR DIFFERENT CORNERS AROUND THE BOTTOM THE JOINING EDGES DO NOT INTRODUCE ANY NEW CORNERS HALF WAY ALONG THEM FOUR PLUS FOUR GIVES EIGHT VERTESES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "4 + 4 = 8 vertices",
+          "at": 208.45745810445152,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 195.1574583324393,
+      "motion_end": 208.67745779927574,
+      "reveal_at": 208.52745779927574,
+      "speech_end": 209.52616666666668
+    },
+    {
+      "role": "explanation",
+      "chapter": "Keep the features separate",
+      "text": "Our cube record now says six faces, twelve edges and eight vertices. Each number answers a different question. A face is a flat region, an edge is a shared boundary, and a vertex is a corner point. Explain the difference using the same object.",
+      "board": [
+        "6 faces • 12 edges • 8 vertices"
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 14,
+      "start": 209.52616666666668,
+      "end": 225.27979166666668,
+      "words": [
+        {
+          "word": "our",
+          "start": 209.52616666666668
+        },
+        {
+          "word": "cube",
+          "start": 209.76616666130226
+        },
+        {
+          "word": "record",
+          "start": 210.1261666309039
+        },
+        {
+          "word": "now",
+          "start": 210.64616667143505
+        },
+        {
+          "word": "says",
+          "start": 210.8861666809718
+        },
+        {
+          "word": "six",
+          "start": 211.24616657606762
+        },
+        {
+          "word": "faces",
+          "start": 211.52616666666668
+        },
+        {
+          "word": "twelve",
+          "start": 212.00616668574017
+        },
+        {
+          "word": "edges",
+          "start": 212.366166580836
+        },
+        {
+          "word": "and",
+          "start": 212.84616659990948
+        },
+        {
+          "word": "eight",
+          "start": 213.0461666475932
+        },
+        {
+          "word": "vertesies",
+          "start": 213.32616661898297
+        },
+        {
+          "word": "each",
+          "start": 214.2061664950053
+        },
+        {
+          "word": "number",
+          "start": 214.60616659037274
+        },
+        {
+          "word": "answers",
+          "start": 215.12616657129925
+        },
+        {
+          "word": "a",
+          "start": 215.64616655222576
+        },
+        {
+          "word": "different",
+          "start": 215.80616639963787
+        },
+        {
+          "word": "question",
+          "start": 216.2061664950053
+        },
+        {
+          "word": "a",
+          "start": 216.80616639963787
+        },
+        {
+          "word": "face",
+          "start": 217.00616668574017
+        },
+        {
+          "word": "is",
+          "start": 217.36616634241742
+        },
+        {
+          "word": "a",
+          "start": 217.5661666285197
+        },
+        {
+          "word": "flat",
+          "start": 217.6861665140788
+        },
+        {
+          "word": "region",
+          "start": 218.04616617075604
+        },
+        {
+          "word": "an",
+          "start": 218.5661666285197
+        },
+        {
+          "word": "edge",
+          "start": 218.80616639963787
+        },
+        {
+          "word": "is",
+          "start": 219.1261660944621
+        },
+        {
+          "word": "a",
+          "start": 219.32616685740155
+        },
+        {
+          "word": "shared",
+          "start": 219.52616666666668
+        },
+        {
+          "word": "boundary",
+          "start": 219.88616632334393
+        },
+        {
+          "word": "and",
+          "start": 220.36616681925457
+        },
+        {
+          "word": "a",
+          "start": 220.52616666666668
+        },
+        {
+          "word": "vertex",
+          "start": 220.64616655222576
+        },
+        {
+          "word": "is",
+          "start": 221.1261660944621
+        },
+        {
+          "word": "a",
+          "start": 221.2861659418742
+        },
+        {
+          "word": "corner",
+          "start": 221.4061667811076
+        },
+        {
+          "word": "point",
+          "start": 221.8461663614909
+        },
+        {
+          "word": "explain",
+          "start": 222.32616590372723
+        },
+        {
+          "word": "the",
+          "start": 222.8461663614909
+        },
+        {
+          "word": "difference",
+          "start": 223.04616617075604
+        },
+        {
+          "word": "using",
+          "start": 223.6861665140788
+        },
+        {
+          "word": "the",
+          "start": 224.1261660944621
+        },
+        {
+          "word": "same",
+          "start": 224.2861659418742
+        },
+        {
+          "word": "object",
+          "start": 224.60616659037274
+        }
+      ],
+      "asr_text": " OUR CUBE RECORD NOW SAYS SIX FACES TWELVE EDGES AND EIGHT VERTESIES EACH NUMBER ANSWERS A DIFFERENT QUESTION A FACE IS A FLAT REGION AN EDGE IS A SHARED BOUNDARY AND A VERTEX IS A CORNER POINT EXPLAIN THE DIFFERENCE USING THE SAME OBJECT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "6 faces • 12 edges • 8 vertices",
+          "at": 213.1461666475932,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 209.52616666666668,
+      "motion_end": 224.60616659037274,
+      "reveal_at": 224.45616659037273,
+      "speech_end": 225.27979166666668
+    },
+    {
+      "role": "misconception",
+      "chapter": "Correct a double count",
+      "text": "A classmate counts four edges around each of six faces and announces twenty-four cube edges. The multiplication counted every shared edge twice. Twelve actual edges each belong to two faces. We should record twelve, because we are counting distinct edges, not appearances around faces.",
+      "board": [
+        "Count each shared edge once."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "edges"
+      },
+      "index": 15,
+      "start": 225.27979166666668,
+      "end": 243.76358333333334,
+      "words": [
+        {
+          "word": "a",
+          "start": 225.27979166666668
+        },
+        {
+          "word": "classmate",
+          "start": 225.4397916630904
+        },
+        {
+          "word": "counts",
+          "start": 226.07979161898297
+        },
+        {
+          "word": "four",
+          "start": 226.51979167620343
+        },
+        {
+          "word": "edges",
+          "start": 226.83979160944622
+        },
+        {
+          "word": "around",
+          "start": 227.27979166666668
+        },
+        {
+          "word": "each",
+          "start": 227.67979152361553
+        },
+        {
+          "word": "of",
+          "start": 227.91979153315228
+        },
+        {
+          "word": "six",
+          "start": 228.07979161898297
+        },
+        {
+          "word": "faces",
+          "start": 228.39979155222576
+        },
+        {
+          "word": "and",
+          "start": 228.83979160944622
+        },
+        {
+          "word": "announces",
+          "start": 229.03979165712994
+        },
+        {
+          "word": "twenty",
+          "start": 229.6397918001811
+        },
+        {
+          "word": "four",
+          "start": 230.03979141871136
+        },
+        {
+          "word": "cube",
+          "start": 230.27979166666668
+        },
+        {
+          "word": "edges",
+          "start": 230.63979132334393
+        },
+        {
+          "word": "the",
+          "start": 231.15979130427044
+        },
+        {
+          "word": "multiplication",
+          "start": 231.35979159037274
+        },
+        {
+          "word": "counted",
+          "start": 232.4397915140788
+        },
+        {
+          "word": "every",
+          "start": 232.99979145685833
+        },
+        {
+          "word": "shared",
+          "start": 233.39979155222576
+        },
+        {
+          "word": "edge",
+          "start": 233.79979117075604
+        },
+        {
+          "word": "twice",
+          "start": 234.11979181925457
+        },
+        {
+          "word": "twelve",
+          "start": 234.71979124704998
+        },
+        {
+          "word": "actual",
+          "start": 235.23979170481365
+        },
+        {
+          "word": "edges",
+          "start": 235.71979124704998
+        },
+        {
+          "word": "each",
+          "start": 236.3197916285197
+        },
+        {
+          "word": "belong",
+          "start": 236.63979132334393
+        },
+        {
+          "word": "to",
+          "start": 236.99979098002117
+        },
+        {
+          "word": "two",
+          "start": 237.23979170481365
+        },
+        {
+          "word": "faces",
+          "start": 237.47979147593182
+        },
+        {
+          "word": "we",
+          "start": 238.11979181925457
+        },
+        {
+          "word": "should",
+          "start": 238.3197916285197
+        },
+        {
+          "word": "record",
+          "start": 238.55979139963787
+        },
+        {
+          "word": "twelve",
+          "start": 239.07979090372723
+        },
+        {
+          "word": "because",
+          "start": 239.5997913614909
+        },
+        {
+          "word": "we",
+          "start": 239.91979105631512
+        },
+        {
+          "word": "are",
+          "start": 240.07979090372723
+        },
+        {
+          "word": "counting",
+          "start": 240.23979170481365
+        },
+        {
+          "word": "distinct",
+          "start": 240.759791208903
+        },
+        {
+          "word": "edges",
+          "start": 241.3197906748454
+        },
+        {
+          "word": "not",
+          "start": 241.83979113260907
+        },
+        {
+          "word": "appearances",
+          "start": 242.07979090372723
+        },
+        {
+          "word": "around",
+          "start": 242.79979212443035
+        },
+        {
+          "word": "faces",
+          "start": 243.15979082743328
+        }
+      ],
+      "asr_text": " A CLASSMATE COUNTS FOUR EDGES AROUND EACH OF SIX FACES AND ANNOUNCES TWENTY FOUR CUBE EDGES THE MULTIPLICATION COUNTED EVERY SHARED EDGE TWICE TWELVE ACTUAL EDGES EACH BELONG TO TWO FACES WE SHOULD RECORD TWELVE BECAUSE WE ARE COUNTING DISTINCT EDGES NOT APPEARANCES AROUND FACES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Count each shared edge once.",
+          "at": 225.27979166666668,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 225.27979166666668,
+      "motion_end": 243.15979082743328,
+      "reveal_at": 225.27979166666668,
+      "speech_end": 243.76358333333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare a carton with a die",
+      "text": "Consider a long rectangular carton. It also has six faces, twelve edges and eight vertices. Those counts alone do not separate it from a cube. Look at the face shapes and actual edge lengths: a cube has six squares and all its edges are equal.",
+      "board": [
+        "Counts alone do not identify a cube."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 16,
+      "start": 243.76358333333334,
+      "end": 259.25083333333333,
+      "words": [
+        {
+          "word": "consider",
+          "start": 243.76358333333334
+        },
+        {
+          "word": "a",
+          "start": 244.4435833404859
+        },
+        {
+          "word": "long",
+          "start": 244.72358331187567
+        },
+        {
+          "word": "rectangular",
+          "start": 245.12358334763846
+        },
+        {
+          "word": "cotton",
+          "start": 245.96358338101706
+        },
+        {
+          "word": "it",
+          "start": 246.48358336194357
+        },
+        {
+          "word": "also",
+          "start": 246.6835831712087
+        },
+        {
+          "word": "has",
+          "start": 247.08358326657614
+        },
+        {
+          "word": "six",
+          "start": 247.40358319981894
+        },
+        {
+          "word": "faces",
+          "start": 247.72358313306174
+        },
+        {
+          "word": "twelve",
+          "start": 248.2035833905538
+        },
+        {
+          "word": "edges",
+          "start": 248.56358304723105
+        },
+        {
+          "word": "and",
+          "start": 249.04358306630454
+        },
+        {
+          "word": "eight",
+          "start": 249.24358335240683
+        },
+        {
+          "word": "vertesies",
+          "start": 249.52358308537802
+        },
+        {
+          "word": "those",
+          "start": 250.40358319981894
+        },
+        {
+          "word": "counts",
+          "start": 250.76358333333334
+        },
+        {
+          "word": "alone",
+          "start": 251.24358335240683
+        },
+        {
+          "word": "do",
+          "start": 251.68358293279013
+        },
+        {
+          "word": "not",
+          "start": 251.8435832570394
+        },
+        {
+          "word": "separate",
+          "start": 252.08358302815756
+        },
+        {
+          "word": "it",
+          "start": 252.5635835240682
+        },
+        {
+          "word": "from",
+          "start": 252.72358337148032
+        },
+        {
+          "word": "a",
+          "start": 252.8435832570394
+        },
+        {
+          "word": "cube",
+          "start": 253.0035831044515
+        },
+        {
+          "word": "look",
+          "start": 253.48358264668784
+        },
+        {
+          "word": "at",
+          "start": 253.72358337148032
+        },
+        {
+          "word": "the",
+          "start": 253.88358321889243
+        },
+        {
+          "word": "face",
+          "start": 254.04358306630454
+        },
+        {
+          "word": "shapes",
+          "start": 254.36358276112875
+        },
+        {
+          "word": "and",
+          "start": 254.76358333333334
+        },
+        {
+          "word": "actual",
+          "start": 254.96358314259848
+        },
+        {
+          "word": "edge",
+          "start": 255.4435826848348
+        },
+        {
+          "word": "lengths",
+          "start": 255.72358337148032
+        },
+        {
+          "word": "a",
+          "start": 256.0835830281576
+        },
+        {
+          "word": "cube",
+          "start": 256.2035829137167
+        },
+        {
+          "word": "has",
+          "start": 256.5635825703939
+        },
+        {
+          "word": "six",
+          "start": 256.8035832951864
+        },
+        {
+          "word": "squares",
+          "start": 257.0835830281576
+        },
+        {
+          "word": "and",
+          "start": 257.48358264668786
+        },
+        {
+          "word": "all",
+          "start": 257.6835834096273
+        },
+        {
+          "word": "its",
+          "start": 257.8435832570394
+        },
+        {
+          "word": "edges",
+          "start": 258.0835830281576
+        },
+        {
+          "word": "are",
+          "start": 258.5235826085409
+        },
+        {
+          "word": "equal",
+          "start": 258.72358337148034
+        }
+      ],
+      "asr_text": " CONSIDER A LONG RECTANGULAR COTTON IT ALSO HAS SIX FACES TWELVE EDGES AND EIGHT VERTESIES THOSE COUNTS ALONE DO NOT SEPARATE IT FROM A CUBE LOOK AT THE FACE SHAPES AND ACTUAL EDGE LENGTHS A CUBE HAS SIX SQUARES AND ALL ITS EDGES ARE EQUAL",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Counts alone do not identify a cube.",
+          "at": 250.76358333333334,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 243.76358333333334,
+      "motion_end": 258.72358337148034,
+      "reveal_at": 258.5735833714803,
+      "speech_end": 259.25083333333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use precise categories",
+      "text": "A cube is a special rectangular prism. Every square face is also a rectangle, because it has four right angles. A non-cube rectangular prism has some unequal edge lengths. Avoid saying that cubes and rectangular prisms can never belong to the same mathematical family.",
+      "board": [
+        "A cube is a special rectangular prism."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 17,
+      "start": 259.25083333333333,
+      "end": 277.10925,
+      "words": [
+        {
+          "word": "a",
+          "start": 259.25083333333333
+        },
+        {
+          "word": "cube",
+          "start": 259.4908333279689
+        },
+        {
+          "word": "is",
+          "start": 259.9708333023389
+        },
+        {
+          "word": "a",
+          "start": 260.170833290418
+        },
+        {
+          "word": "special",
+          "start": 260.3308332570394
+        },
+        {
+          "word": "rectangular",
+          "start": 260.93083328088125
+        },
+        {
+          "word": "prism",
+          "start": 261.77083331425985
+        },
+        {
+          "word": "every",
+          "start": 262.29083329518636
+        },
+        {
+          "word": "square",
+          "start": 262.6508331902822
+        },
+        {
+          "word": "face",
+          "start": 263.09083324750264
+        },
+        {
+          "word": "is",
+          "start": 263.4908331044515
+        },
+        {
+          "word": "also",
+          "start": 263.7308333524068
+        },
+        {
+          "word": "a",
+          "start": 264.05083304723104
+        },
+        {
+          "word": "rectangle",
+          "start": 264.2108333714803
+        },
+        {
+          "word": "because",
+          "start": 264.93083316167196
+        },
+        {
+          "word": "it",
+          "start": 265.2108333714803
+        },
+        {
+          "word": "has",
+          "start": 265.3708332188924
+        },
+        {
+          "word": "four",
+          "start": 265.6508329518636
+        },
+        {
+          "word": "right",
+          "start": 265.93083316167196
+        },
+        {
+          "word": "angles",
+          "start": 266.29083329518636
+        },
+        {
+          "word": "a",
+          "start": 266.970833123525
+        },
+        {
+          "word": "non",
+          "start": 267.1308329709371
+        },
+        {
+          "word": "cube",
+          "start": 267.4908331044515
+        },
+        {
+          "word": "rectangular",
+          "start": 267.89083272298177
+        },
+        {
+          "word": "prism",
+          "start": 268.6108329900106
+        },
+        {
+          "word": "has",
+          "start": 269.0508335240682
+        },
+        {
+          "word": "some",
+          "start": 269.29083329518636
+        },
+        {
+          "word": "unequal",
+          "start": 269.5308330663045
+        },
+        {
+          "word": "edge",
+          "start": 270.2108333714803
+        },
+        {
+          "word": "lengths",
+          "start": 270.5308330663045
+        },
+        {
+          "word": "avoid",
+          "start": 271.0908334859212
+        },
+        {
+          "word": "saying",
+          "start": 271.6508329518636
+        },
+        {
+          "word": "that",
+          "start": 272.01083260854085
+        },
+        {
+          "word": "cubes",
+          "start": 272.25083333333333
+        },
+        {
+          "word": "and",
+          "start": 272.73083287556966
+        },
+        {
+          "word": "rectangular",
+          "start": 272.9308326848348
+        },
+        {
+          "word": "prisms",
+          "start": 273.6508329518636
+        },
+        {
+          "word": "can",
+          "start": 274.1708334096273
+        },
+        {
+          "word": "never",
+          "start": 274.41083318074544
+        },
+        {
+          "word": "belong",
+          "start": 274.6508329518636
+        },
+        {
+          "word": "to",
+          "start": 275.0508325703939
+        },
+        {
+          "word": "the",
+          "start": 275.25083333333333
+        },
+        {
+          "word": "same",
+          "start": 275.41083318074544
+        },
+        {
+          "word": "mathematical",
+          "start": 275.770833791097
+        },
+        {
+          "word": "family",
+          "start": 276.61083203633626
+        }
+      ],
+      "asr_text": " A CUBE IS A SPECIAL RECTANGULAR PRISM EVERY SQUARE FACE IS ALSO A RECTANGLE BECAUSE IT HAS FOUR RIGHT ANGLES A NON CUBE RECTANGULAR PRISM HAS SOME UNEQUAL EDGE LENGTHS AVOID SAYING THAT CUBES AND RECTANGULAR PRISMS CAN NEVER BELONG TO THE SAME MATHEMATICAL FAMILY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A cube is a special rectangular prism.",
+          "at": 259.4908333279689,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 259.25083333333333,
+      "motion_end": 276.61083203633626,
+      "reveal_at": 276.4608320363363,
+      "speech_end": 277.10925
+    },
+    {
+      "role": "explanation",
+      "chapter": "Build a triangular prism",
+      "text": "Let us investigate a different package: a triangular prism. Make two matching card triangles and join their corresponding edges using three rectangular strips. The triangular ends stay parallel. The rectangles connect them into one closed solid. Predict which features will differ from the cube.",
+      "board": [],
+      "model": {
+        "kind": "prism",
+        "stage": "faces"
+      },
+      "index": 18,
+      "start": 277.10925,
+      "end": 295.996875,
+      "words": [
+        {
+          "word": "let",
+          "start": 277.10925
+        },
+        {
+          "word": "us",
+          "start": 277.38925000119207
+        },
+        {
+          "word": "investigate",
+          "start": 277.6292499809265
+        },
+        {
+          "word": "a",
+          "start": 278.4692500143051
+        },
+        {
+          "word": "different",
+          "start": 278.6292499809265
+        },
+        {
+          "word": "package",
+          "start": 279.06924991893766
+        },
+        {
+          "word": "a",
+          "start": 279.58925001907346
+        },
+        {
+          "word": "triangular",
+          "start": 279.74924986648557
+        },
+        {
+          "word": "prism",
+          "start": 280.54924981880185
+        },
+        {
+          "word": "make",
+          "start": 281.149249961853
+        },
+        {
+          "word": "two",
+          "start": 281.4692501335144
+        },
+        {
+          "word": "matching",
+          "start": 281.74924986648557
+        },
+        {
+          "word": "card",
+          "start": 282.2692498474121
+        },
+        {
+          "word": "triangles",
+          "start": 282.54925005722043
+        },
+        {
+          "word": "and",
+          "start": 283.3092498092651
+        },
+        {
+          "word": "join",
+          "start": 283.50924961853025
+        },
+        {
+          "word": "their",
+          "start": 283.86924975204465
+        },
+        {
+          "word": "corresponding",
+          "start": 284.06925003814695
+        },
+        {
+          "word": "edges",
+          "start": 284.8292497901916
+        },
+        {
+          "word": "using",
+          "start": 285.34924977111814
+        },
+        {
+          "word": "three",
+          "start": 285.7492493896484
+        },
+        {
+          "word": "rectangular",
+          "start": 286.0292500762939
+        },
+        {
+          "word": "strips",
+          "start": 286.78924935150144
+        },
+        {
+          "word": "the",
+          "start": 287.34924977111814
+        },
+        {
+          "word": "triangular",
+          "start": 287.5892495422363
+        },
+        {
+          "word": "n",
+          "start": 288.50924961853025
+        },
+        {
+          "word": "stay",
+          "start": 288.78924935150144
+        },
+        {
+          "word": "parallel",
+          "start": 289.149249961853
+        },
+        {
+          "word": "the",
+          "start": 289.7492493896484
+        },
+        {
+          "word": "rectangles",
+          "start": 289.94925015258787
+        },
+        {
+          "word": "connect",
+          "start": 290.82924931335447
+        },
+        {
+          "word": "them",
+          "start": 291.3092498092651
+        },
+        {
+          "word": "into",
+          "start": 291.50924961853025
+        },
+        {
+          "word": "one",
+          "start": 291.8692492752075
+        },
+        {
+          "word": "close",
+          "start": 292.10925
+        },
+        {
+          "word": "solid",
+          "start": 292.50924961853025
+        },
+        {
+          "word": "predict",
+          "start": 293.06925003814695
+        },
+        {
+          "word": "which",
+          "start": 293.66924946594236
+        },
+        {
+          "word": "features",
+          "start": 293.9092492370605
+        },
+        {
+          "word": "will",
+          "start": 294.4692487030029
+        },
+        {
+          "word": "differ",
+          "start": 294.7092503814697
+        },
+        {
+          "word": "from",
+          "start": 295.10925
+        },
+        {
+          "word": "the",
+          "start": 295.3092488555908
+        },
+        {
+          "word": "cube",
+          "start": 295.50924961853025
+        }
+      ],
+      "asr_text": " LET US INVESTIGATE A DIFFERENT PACKAGE A TRIANGULAR PRISM MAKE TWO MATCHING CARD TRIANGLES AND JOIN THEIR CORRESPONDING EDGES USING THREE RECTANGULAR STRIPS THE TRIANGULAR N STAY PARALLEL THE RECTANGLES CONNECT THEM INTO ONE CLOSE SOLID PREDICT WHICH FEATURES WILL DIFFER FROM THE CUBE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 277.10925,
+      "motion_end": 295.50924961853025,
+      "reveal_at": 295.35924961853027,
+      "speech_end": 295.996875
+    },
+    {
+      "role": "explanation",
+      "chapter": "Find its faces",
+      "text": "There are two triangular end faces. Each of the three sides of a triangular end connects to one rectangular face. Two triangles and three rectangles give five faces altogether. Notice that the word triangular describes the end faces, not every face on the prism.",
+      "board": [
+        "2 triangular ends + 3 rectangles = 5 faces"
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "faces"
+      },
+      "index": 19,
+      "start": 295.996875,
+      "end": 313.819625,
+      "words": [
+        {
+          "word": "there",
+          "start": 295.996875
+        },
+        {
+          "word": "are",
+          "start": 296.23687499463557
+        },
+        {
+          "word": "two",
+          "start": 296.5168749809265
+        },
+        {
+          "word": "triangular",
+          "start": 296.83687497377394
+        },
+        {
+          "word": "end",
+          "start": 297.6768749475479
+        },
+        {
+          "word": "faces",
+          "start": 297.996875
+        },
+        {
+          "word": "each",
+          "start": 298.6368748664856
+        },
+        {
+          "word": "of",
+          "start": 298.996875
+        },
+        {
+          "word": "the",
+          "start": 299.11687488555907
+        },
+        {
+          "word": "three",
+          "start": 299.3168749332428
+        },
+        {
+          "word": "sides",
+          "start": 299.6368748664856
+        },
+        {
+          "word": "of",
+          "start": 300.1968748092651
+        },
+        {
+          "word": "a",
+          "start": 300.3168746948242
+        },
+        {
+          "word": "triangular",
+          "start": 300.4768750190735
+        },
+        {
+          "word": "end",
+          "start": 301.2768747329712
+        },
+        {
+          "word": "connects",
+          "start": 301.59687490463256
+        },
+        {
+          "word": "to",
+          "start": 302.07687492370604
+        },
+        {
+          "word": "one",
+          "start": 302.2768747329712
+        },
+        {
+          "word": "rectangular",
+          "start": 302.5168749809265
+        },
+        {
+          "word": "face",
+          "start": 303.35687465667723
+        },
+        {
+          "word": "two",
+          "start": 303.7968747138977
+        },
+        {
+          "word": "triangles",
+          "start": 304.07687492370604
+        },
+        {
+          "word": "and",
+          "start": 304.91687507629393
+        },
+        {
+          "word": "three",
+          "start": 305.1568748474121
+        },
+        {
+          "word": "rectangles",
+          "start": 305.4368745803833
+        },
+        {
+          "word": "give",
+          "start": 306.23687477111815
+        },
+        {
+          "word": "five",
+          "start": 306.51687450408934
+        },
+        {
+          "word": "faces",
+          "start": 306.8768751144409
+        },
+        {
+          "word": "altogether",
+          "start": 307.3168746948242
+        },
+        {
+          "word": "notice",
+          "start": 308.1968748092651
+        },
+        {
+          "word": "that",
+          "start": 308.7168743133545
+        },
+        {
+          "word": "the",
+          "start": 308.8768751144409
+        },
+        {
+          "word": "word",
+          "start": 309.11687488555907
+        },
+        {
+          "word": "triangular",
+          "start": 309.4368745803833
+        },
+        {
+          "word": "describes",
+          "start": 310.3168746948242
+        },
+        {
+          "word": "the",
+          "start": 310.95687503814696
+        },
+        {
+          "word": "end",
+          "start": 311.1968748092651
+        },
+        {
+          "word": "faces",
+          "start": 311.51687450408934
+        },
+        {
+          "word": "not",
+          "start": 312.07687492370604
+        },
+        {
+          "word": "every",
+          "start": 312.3168746948242
+        },
+        {
+          "word": "face",
+          "start": 312.67687530517577
+        },
+        {
+          "word": "on",
+          "start": 312.996875
+        },
+        {
+          "word": "the",
+          "start": 313.1568748474121
+        },
+        {
+          "word": "prism",
+          "start": 313.27687377929686
+        }
+      ],
+      "asr_text": " THERE ARE TWO TRIANGULAR END FACES EACH OF THE THREE SIDES OF A TRIANGULAR END CONNECTS TO ONE RECTANGULAR FACE TWO TRIANGLES AND THREE RECTANGLES GIVE FIVE FACES ALTOGETHER NOTICE THAT THE WORD TRIANGULAR DESCRIBES THE END FACES NOT EVERY FACE ON THE PRISM",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "2 triangular ends + 3 rectangles = 5 faces",
+          "at": 306.61687450408937,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 295.996875,
+      "motion_end": 313.27687377929686,
+      "reveal_at": 313.1268737792969,
+      "speech_end": 313.819625
+    },
+    {
+      "role": "explanation",
+      "chapter": "Find its vertices",
+      "text": "Mark three corners on the front triangle. Mark three matching corners on the back triangle. These six positions are all the vertices of the prism. A line joining a front corner to a back corner adds an edge, not another vertex.",
+      "board": [
+        "3 + 3 = 6 vertices"
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "vertices"
+      },
+      "index": 20,
+      "start": 313.819625,
+      "end": 328.3550833333333,
+      "words": [
+        {
+          "word": "mark",
+          "start": 313.819625
+        },
+        {
+          "word": "three",
+          "start": 314.29962498927114
+        },
+        {
+          "word": "corners",
+          "start": 314.53962496900556
+        },
+        {
+          "word": "on",
+          "start": 315.1796250143051
+        },
+        {
+          "word": "the",
+          "start": 315.29962501907346
+        },
+        {
+          "word": "front",
+          "start": 315.45962498569486
+        },
+        {
+          "word": "triangle",
+          "start": 315.77962491893766
+        },
+        {
+          "word": "mark",
+          "start": 316.57962499046323
+        },
+        {
+          "word": "three",
+          "start": 316.93962488555906
+        },
+        {
+          "word": "matching",
+          "start": 317.3796249427795
+        },
+        {
+          "word": "corners",
+          "start": 317.93962488555906
+        },
+        {
+          "word": "on",
+          "start": 318.4996248283386
+        },
+        {
+          "word": "the",
+          "start": 318.6196247138977
+        },
+        {
+          "word": "back",
+          "start": 318.77962503814695
+        },
+        {
+          "word": "triangle",
+          "start": 319.0196248092651
+        },
+        {
+          "word": "these",
+          "start": 319.7396250762939
+        },
+        {
+          "word": "six",
+          "start": 320.09962473297117
+        },
+        {
+          "word": "positions",
+          "start": 320.41962490463254
+        },
+        {
+          "word": "are",
+          "start": 321.1396246948242
+        },
+        {
+          "word": "all",
+          "start": 321.3796249427795
+        },
+        {
+          "word": "the",
+          "start": 321.6196247138977
+        },
+        {
+          "word": "vertesies",
+          "start": 321.819625
+        },
+        {
+          "word": "of",
+          "start": 322.4596243896484
+        },
+        {
+          "word": "the",
+          "start": 322.5796252288818
+        },
+        {
+          "word": "prism",
+          "start": 322.7396250762939
+        },
+        {
+          "word": "a",
+          "start": 323.2596245803833
+        },
+        {
+          "word": "line",
+          "start": 323.4596243896484
+        },
+        {
+          "word": "joining",
+          "start": 323.899624923706
+        },
+        {
+          "word": "a",
+          "start": 324.37962446594236
+        },
+        {
+          "word": "front",
+          "start": 324.49962435150144
+        },
+        {
+          "word": "corner",
+          "start": 324.859624961853
+        },
+        {
+          "word": "to",
+          "start": 325.2596245803833
+        },
+        {
+          "word": "a",
+          "start": 325.4196244277954
+        },
+        {
+          "word": "back",
+          "start": 325.5796242752075
+        },
+        {
+          "word": "corner",
+          "start": 325.819625
+        },
+        {
+          "word": "adds",
+          "start": 326.21962461853025
+        },
+        {
+          "word": "an",
+          "start": 326.49962435150144
+        },
+        {
+          "word": "edge",
+          "start": 326.6996251144409
+        },
+        {
+          "word": "not",
+          "start": 327.05962477111814
+        },
+        {
+          "word": "another",
+          "start": 327.2996245422363
+        },
+        {
+          "word": "vertex",
+          "start": 327.65962515258786
+        }
+      ],
+      "asr_text": " MARK THREE CORNERS ON THE FRONT TRIANGLE MARK THREE MATCHING CORNERS ON THE BACK TRIANGLE THESE SIX POSITIONS ARE ALL THE VERTESIES OF THE PRISM A LINE JOINING A FRONT CORNER TO A BACK CORNER ADDS AN EDGE NOT ANOTHER VERTEX",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "3 + 3 = 6 vertices",
+          "at": 320.1996247329712,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 313.819625,
+      "motion_end": 327.65962515258786,
+      "reveal_at": 327.5096251525879,
+      "speech_end": 328.3550833333333
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the prism’s edges",
+      "text": "Before counting along with me, predict the number of edges on the triangular prism. Organise your thinking into the front triangle, the back triangle, and the joins between corresponding corners. Keep a total in mind, and check that you have not counted any join twice.",
+      "board": [],
+      "model": {
+        "kind": "prism",
+        "stage": "edges"
+      },
+      "index": 21,
+      "start": 328.3550833333333,
+      "end": 349.7049583333333,
+      "words": [
+        {
+          "word": "before",
+          "start": 328.3550833333333
+        },
+        {
+          "word": "counting",
+          "start": 328.8350833226045
+        },
+        {
+          "word": "along",
+          "start": 329.3550833333333
+        },
+        {
+          "word": "with",
+          "start": 329.7150833476384
+        },
+        {
+          "word": "me",
+          "start": 329.8750833142598
+        },
+        {
+          "word": "predict",
+          "start": 330.11508332379657
+        },
+        {
+          "word": "the",
+          "start": 330.555083381017
+        },
+        {
+          "word": "number",
+          "start": 330.71508322842914
+        },
+        {
+          "word": "of",
+          "start": 331.07508336194354
+        },
+        {
+          "word": "edges",
+          "start": 331.2750831712087
+        },
+        {
+          "word": "on",
+          "start": 331.8350833524068
+        },
+        {
+          "word": "the",
+          "start": 331.9950831998189
+        },
+        {
+          "word": "triangular",
+          "start": 332.1950832475026
+        },
+        {
+          "word": "prism",
+          "start": 332.9950831998189
+        },
+        {
+          "word": "organize",
+          "start": 333.55508314259845
+        },
+        {
+          "word": "your",
+          "start": 334.27508340962726
+        },
+        {
+          "word": "thinking",
+          "start": 334.5150831807454
+        },
+        {
+          "word": "into",
+          "start": 334.9950831998189
+        },
+        {
+          "word": "the",
+          "start": 335.23508297093707
+        },
+        {
+          "word": "front",
+          "start": 335.39508329518634
+        },
+        {
+          "word": "triangle",
+          "start": 335.7550829518636
+        },
+        {
+          "word": "the",
+          "start": 336.39508329518634
+        },
+        {
+          "word": "back",
+          "start": 336.5950831044515
+        },
+        {
+          "word": "triangle",
+          "start": 336.83508287556964
+        },
+        {
+          "word": "and",
+          "start": 337.4750832188924
+        },
+        {
+          "word": "the",
+          "start": 337.6350830663045
+        },
+        {
+          "word": "joints",
+          "start": 337.7950829137166
+        },
+        {
+          "word": "between",
+          "start": 338.27508340962726
+        },
+        {
+          "word": "corresponding",
+          "start": 338.71508299001056
+        },
+        {
+          "word": "corners",
+          "start": 339.5150831807454
+        },
+        {
+          "word": "keep",
+          "start": 340.1950834859212
+        },
+        {
+          "word": "a",
+          "start": 340.4750832188924
+        },
+        {
+          "word": "total",
+          "start": 340.6350830663045
+        },
+        {
+          "word": "in",
+          "start": 341.11508260854083
+        },
+        {
+          "word": "mind",
+          "start": 341.3150833714803
+        },
+        {
+          "word": "and",
+          "start": 341.71508299001056
+        },
+        {
+          "word": "check",
+          "start": 341.9150827992757
+        },
+        {
+          "word": "that",
+          "start": 342.27508340962726
+        },
+        {
+          "word": "you",
+          "start": 342.43508325703937
+        },
+        {
+          "word": "have",
+          "start": 342.6350830663045
+        },
+        {
+          "word": "not",
+          "start": 342.7950829137166
+        },
+        {
+          "word": "counted",
+          "start": 343.0750826466878
+        },
+        {
+          "word": "any",
+          "start": 343.4750832188924
+        },
+        {
+          "word": "join",
+          "start": 343.7550829518636
+        },
+        {
+          "word": "twice",
+          "start": 344.11508260854083
+        }
+      ],
+      "asr_text": " BEFORE COUNTING ALONG WITH ME PREDICT THE NUMBER OF EDGES ON THE TRIANGULAR PRISM ORGANIZE YOUR THINKING INTO THE FRONT TRIANGLE THE BACK TRIANGLE AND THE JOINTS BETWEEN CORRESPONDING CORNERS KEEP A TOTAL IN MIND AND CHECK THAT YOU HAVE NOT COUNTED ANY JOIN TWICE",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 328.3550833333333,
+      "motion_end": 344.11508260854083,
+      "reveal_at": 343.96508260854085,
+      "speech_end": 344.7049583333333
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the prism’s nine edges",
+      "text": "The front triangle has three edges. The back triangle has three more. Three joining edges connect the matching corners. Three plus three plus three equals nine. The complete record is five faces, nine edges and six vertices. Each count is supported by a visible grouping.",
+      "board": [
+        "3 + 3 + 3 = 9 edges"
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "edges"
+      },
+      "index": 22,
+      "start": 349.7049583333333,
+      "end": 367.63079166666665,
+      "words": [
+        {
+          "word": "the",
+          "start": 349.7049583333333
+        },
+        {
+          "word": "front",
+          "start": 349.9449583279689
+        },
+        {
+          "word": "triangle",
+          "start": 350.3049582975705
+        },
+        {
+          "word": "has",
+          "start": 351.0249582665761
+        },
+        {
+          "word": "three",
+          "start": 351.26495827611285
+        },
+        {
+          "word": "edges",
+          "start": 351.5449582475026
+        },
+        {
+          "word": "the",
+          "start": 352.1849583524068
+        },
+        {
+          "word": "back",
+          "start": 352.42495836194354
+        },
+        {
+          "word": "triangle",
+          "start": 352.7049583333333
+        },
+        {
+          "word": "has",
+          "start": 353.38495816167193
+        },
+        {
+          "word": "three",
+          "start": 353.6249581712087
+        },
+        {
+          "word": "more",
+          "start": 353.9449581044515
+        },
+        {
+          "word": "three",
+          "start": 354.3449581998189
+        },
+        {
+          "word": "joining",
+          "start": 354.6649583714803
+        },
+        {
+          "word": "edges",
+          "start": 355.1849583524068
+        },
+        {
+          "word": "connect",
+          "start": 355.74495829518634
+        },
+        {
+          "word": "the",
+          "start": 356.1849583524068
+        },
+        {
+          "word": "matching",
+          "start": 356.3449581998189
+        },
+        {
+          "word": "corners",
+          "start": 356.8249582188924
+        },
+        {
+          "word": "three",
+          "start": 357.42495812352496
+        },
+        {
+          "word": "plus",
+          "start": 357.74495829518634
+        },
+        {
+          "word": "three",
+          "start": 358.1049579518636
+        },
+        {
+          "word": "plus",
+          "start": 358.5049585240682
+        },
+        {
+          "word": "three",
+          "start": 358.90495814259845
+        },
+        {
+          "word": "equals",
+          "start": 359.1449579137166
+        },
+        {
+          "word": "nine",
+          "start": 359.62495840962725
+        },
+        {
+          "word": "the",
+          "start": 360.0249580281575
+        },
+        {
+          "word": "complete",
+          "start": 360.22495783742266
+        },
+        {
+          "word": "record",
+          "start": 360.74495829518634
+        },
+        {
+          "word": "is",
+          "start": 361.3049577611287
+        },
+        {
+          "word": "five",
+          "start": 361.5849584477742
+        },
+        {
+          "word": "faces",
+          "start": 361.9849580663045
+        },
+        {
+          "word": "nine",
+          "start": 362.50495757039386
+        },
+        {
+          "word": "edges",
+          "start": 362.90495814259845
+        },
+        {
+          "word": "and",
+          "start": 363.34495772298175
+        },
+        {
+          "word": "six",
+          "start": 363.5449584859212
+        },
+        {
+          "word": "vertesies",
+          "start": 363.8649581807454
+        },
+        {
+          "word": "each",
+          "start": 364.74495829518634
+        },
+        {
+          "word": "count",
+          "start": 365.1449579137166
+        },
+        {
+          "word": "is",
+          "start": 365.50495757039386
+        },
+        {
+          "word": "supported",
+          "start": 365.744957341512
+        },
+        {
+          "word": "by",
+          "start": 366.30495871480304
+        },
+        {
+          "word": "a",
+          "start": 366.46495856221514
+        },
+        {
+          "word": "visible",
+          "start": 366.62495840962725
+        },
+        {
+          "word": "grouping",
+          "start": 367.06495703633624
+        }
+      ],
+      "asr_text": " THE FRONT TRIANGLE HAS THREE EDGES THE BACK TRIANGLE HAS THREE MORE THREE JOINING EDGES CONNECT THE MATCHING CORNERS THREE PLUS THREE PLUS THREE EQUALS NINE THE COMPLETE RECORD IS FIVE FACES NINE EDGES AND SIX VERTESIES EACH COUNT IS SUPPORTED BY A VISIBLE GROUPING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9513703026392029,
+      "board_events": [
+        {
+          "text": "3 + 3 + 3 = 9 edges",
+          "at": 359.7249584096273,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 349.7049583333333,
+      "motion_end": 359.7249584096273,
+      "reveal_at": 359.7249584096273,
+      "speech_end": 367.63079166666665
+    },
+    {
+      "role": "misconception",
+      "chapter": "Check the name, not a guess",
+      "text": "A triangular prism is not a triangular pyramid. A prism has two matching parallel ends joined by side faces. A triangular pyramid has four triangular faces meeting around four vertices. Saying that an object contains triangles is not enough to distinguish the two structures.",
+      "board": [
+        "Two matching ends identify the prism structure."
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "faces"
+      },
+      "index": 23,
+      "start": 367.63079166666665,
+      "end": 386.05195833333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 367.63079166666665
+        },
+        {
+          "word": "triangular",
+          "start": 367.8307916547457
+        },
+        {
+          "word": "prism",
+          "start": 368.63079166666665
+        },
+        {
+          "word": "is",
+          "start": 369.0707916046778
+        },
+        {
+          "word": "not",
+          "start": 369.31079161421457
+        },
+        {
+          "word": "a",
+          "start": 369.5507916237513
+        },
+        {
+          "word": "triangular",
+          "start": 369.6707916285197
+        },
+        {
+          "word": "pyramid",
+          "start": 370.43079161898294
+        },
+        {
+          "word": "a",
+          "start": 371.15079164759317
+        },
+        {
+          "word": "prism",
+          "start": 371.3107914950053
+        },
+        {
+          "word": "has",
+          "start": 371.79079151407876
+        },
+        {
+          "word": "two",
+          "start": 372.0307917620341
+        },
+        {
+          "word": "matching",
+          "start": 372.3507914568583
+        },
+        {
+          "word": "parallel",
+          "start": 372.8307914759318
+        },
+        {
+          "word": "ends",
+          "start": 373.39079141871133
+        },
+        {
+          "word": "joined",
+          "start": 373.79079151407876
+        },
+        {
+          "word": "by",
+          "start": 374.15079164759317
+        },
+        {
+          "word": "side",
+          "start": 374.43079138056436
+        },
+        {
+          "word": "faces",
+          "start": 374.79079151407876
+        },
+        {
+          "word": "a",
+          "start": 375.39079141871133
+        },
+        {
+          "word": "triangular",
+          "start": 375.55079126612344
+        },
+        {
+          "word": "pyramid",
+          "start": 376.35079193369546
+        },
+        {
+          "word": "has",
+          "start": 376.9507913614909
+        },
+        {
+          "word": "four",
+          "start": 377.23079109446206
+        },
+        {
+          "word": "triangular",
+          "start": 377.51079178110757
+        },
+        {
+          "word": "faces",
+          "start": 378.3107910181681
+        },
+        {
+          "word": "meeting",
+          "start": 378.8307914759318
+        },
+        {
+          "word": "around",
+          "start": 379.2707910563151
+        },
+        {
+          "word": "four",
+          "start": 379.5907917048136
+        },
+        {
+          "word": "vertesies",
+          "start": 379.91079139963784
+        },
+        {
+          "word": "saying",
+          "start": 380.79079151407876
+        },
+        {
+          "word": "that",
+          "start": 381.150791170756
+        },
+        {
+          "word": "an",
+          "start": 381.35079098002115
+        },
+        {
+          "word": "object",
+          "start": 381.5907917048136
+        },
+        {
+          "word": "contains",
+          "start": 382.07079124704995
+        },
+        {
+          "word": "triangles",
+          "start": 382.6707916285197
+        },
+        {
+          "word": "is",
+          "start": 383.3907909418742
+        },
+        {
+          "word": "not",
+          "start": 383.5907917048136
+        },
+        {
+          "word": "enough",
+          "start": 383.8307905222575
+        },
+        {
+          "word": "to",
+          "start": 384.110791208903
+        },
+        {
+          "word": "distinguish",
+          "start": 384.2707910563151
+        },
+        {
+          "word": "the",
+          "start": 384.8707914377848
+        },
+        {
+          "word": "two",
+          "start": 385.07079220072427
+        },
+        {
+          "word": "structures",
+          "start": 385.31079197184243
+        }
+      ],
+      "asr_text": " A TRIANGULAR PRISM IS NOT A TRIANGULAR PYRAMID A PRISM HAS TWO MATCHING PARALLEL ENDS JOINED BY SIDE FACES A TRIANGULAR PYRAMID HAS FOUR TRIANGULAR FACES MEETING AROUND FOUR VERTESIES SAYING THAT AN OBJECT CONTAINS TRIANGLES IS NOT ENOUGH TO DISTINGUISH THE TWO STRUCTURES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Two matching ends identify the prism structure.",
+          "at": 367.63079166666665,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 367.63079166666665,
+      "motion_end": 385.31079197184243,
+      "reveal_at": 367.63079166666665,
+      "speech_end": 386.05195833333335
+    },
+    {
+      "role": "explanation",
+      "chapter": "Explore a square-based pyramid",
+      "text": "A square-based pyramid provides another useful comparison. Start with one square base. Join a triangular face to each of its four sides, bringing the triangle tips to one apex. One square and four triangles give five faces, just like the triangular prism’s face count.",
+      "board": [
+        "1 square + 4 triangles = 5 faces"
+      ],
+      "model": {
+        "kind": "pyramid",
+        "stage": "faces"
+      },
+      "index": 24,
+      "start": 386.05195833333335,
+      "end": 403.2094166666667,
+      "words": [
+        {
+          "word": "a",
+          "start": 386.05195833333335
+        },
+        {
+          "word": "square",
+          "start": 386.21195832975707
+        },
+        {
+          "word": "based",
+          "start": 386.57195831425986
+        },
+        {
+          "word": "pyramid",
+          "start": 386.931958328565
+        },
+        {
+          "word": "provides",
+          "start": 387.53195835240683
+        },
+        {
+          "word": "another",
+          "start": 388.05195833333335
+        },
+        {
+          "word": "useful",
+          "start": 388.4519581902822
+        },
+        {
+          "word": "comparison",
+          "start": 388.9319582093557
+        },
+        {
+          "word": "start",
+          "start": 389.8119583237966
+        },
+        {
+          "word": "with",
+          "start": 390.2519581425985
+        },
+        {
+          "word": "one",
+          "start": 390.4919583905538
+        },
+        {
+          "word": "square",
+          "start": 390.73195816167197
+        },
+        {
+          "word": "bass",
+          "start": 391.1319582570394
+        },
+        {
+          "word": "join",
+          "start": 391.69195819981894
+        },
+        {
+          "word": "a",
+          "start": 392.0919582951864
+        },
+        {
+          "word": "triangular",
+          "start": 392.2519581425985
+        },
+        {
+          "word": "face",
+          "start": 393.0119583714803
+        },
+        {
+          "word": "to",
+          "start": 393.2919581044515
+        },
+        {
+          "word": "each",
+          "start": 393.4919583905538
+        },
+        {
+          "word": "of",
+          "start": 393.73195816167197
+        },
+        {
+          "word": "its",
+          "start": 393.85195804723105
+        },
+        {
+          "word": "four",
+          "start": 394.0919582951864
+        },
+        {
+          "word": "sides",
+          "start": 394.33195806630454
+        },
+        {
+          "word": "bringing",
+          "start": 394.77195860036215
+        },
+        {
+          "word": "the",
+          "start": 395.1319582570394
+        },
+        {
+          "word": "triangled",
+          "start": 395.2919581044515
+        },
+        {
+          "word": "tips",
+          "start": 395.93195844777426
+        },
+        {
+          "word": "to",
+          "start": 396.21195818074546
+        },
+        {
+          "word": "one",
+          "start": 396.37195802815756
+        },
+        {
+          "word": "apex",
+          "start": 396.61195779927573
+        },
+        {
+          "word": "one",
+          "start": 397.33195806630454
+        },
+        {
+          "word": "square",
+          "start": 397.65195776112876
+        },
+        {
+          "word": "and",
+          "start": 398.0919582951864
+        },
+        {
+          "word": "four",
+          "start": 398.37195802815756
+        },
+        {
+          "word": "triangles",
+          "start": 398.61195779927573
+        },
+        {
+          "word": "give",
+          "start": 399.4119579900106
+        },
+        {
+          "word": "five",
+          "start": 399.6919577229818
+        },
+        {
+          "word": "faces",
+          "start": 400.0919582951864
+        },
+        {
+          "word": "just",
+          "start": 400.61195779927573
+        },
+        {
+          "word": "like",
+          "start": 400.8519575703939
+        },
+        {
+          "word": "the",
+          "start": 401.0919582951864
+        },
+        {
+          "word": "triangular",
+          "start": 401.2519581425985
+        },
+        {
+          "word": "prism's",
+          "start": 401.9719584096273
+        },
+        {
+          "word": "face",
+          "start": 402.49195886739096
+        },
+        {
+          "word": "count",
+          "start": 402.8119585622152
+        }
+      ],
+      "asr_text": " A SQUARE BASED PYRAMID PROVIDES ANOTHER USEFUL COMPARISON START WITH ONE SQUARE BASS JOIN A TRIANGULAR FACE TO EACH OF ITS FOUR SIDES BRINGING THE TRIANGLED TIPS TO ONE APEX ONE SQUARE AND FOUR TRIANGLES GIVE FIVE FACES JUST LIKE THE TRIANGULAR PRISM'S FACE COUNT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "1 square + 4 triangles = 5 faces",
+          "at": 399.7919577229818,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 386.05195833333335,
+      "motion_end": 402.8119585622152,
+      "reveal_at": 402.6619585622152,
+      "speech_end": 403.2094166666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare equal counts carefully",
+      "text": "The square-based pyramid has four base corners and one apex, so it has five vertices. Four base edges and four rising edges give eight edges. It shares the triangular prism’s five-face count, but the face shapes, edge count and vertex count reveal different objects.",
+      "board": [
+        "5 faces • 8 edges • 5 vertices"
+      ],
+      "model": {
+        "kind": "pyramid",
+        "stage": "vertices"
+      },
+      "index": 25,
+      "start": 403.2094166666667,
+      "end": 420.5185416666667,
+      "words": [
+        {
+          "word": "the",
+          "start": 403.2094166666667
+        },
+        {
+          "word": "square",
+          "start": 403.3694166630904
+        },
+        {
+          "word": "based",
+          "start": 403.7294166475932
+        },
+        {
+          "word": "pyramid",
+          "start": 404.0894166618983
+        },
+        {
+          "word": "has",
+          "start": 404.6894166857402
+        },
+        {
+          "word": "four",
+          "start": 404.96941665712995
+        },
+        {
+          "word": "base",
+          "start": 405.28941659037275
+        },
+        {
+          "word": "corners",
+          "start": 405.60941652361555
+        },
+        {
+          "word": "and",
+          "start": 406.12941650454206
+        },
+        {
+          "word": "one",
+          "start": 406.28941659037275
+        },
+        {
+          "word": "apex",
+          "start": 406.5294165999095
+        },
+        {
+          "word": "so",
+          "start": 407.12941650454206
+        },
+        {
+          "word": "it",
+          "start": 407.3694165140788
+        },
+        {
+          "word": "has",
+          "start": 407.5294163614909
+        },
+        {
+          "word": "five",
+          "start": 407.80941657129927
+        },
+        {
+          "word": "vertesies",
+          "start": 408.16941670481367
+        },
+        {
+          "word": "four",
+          "start": 409.0094163805644
+        },
+        {
+          "word": "base",
+          "start": 409.3294165522258
+        },
+        {
+          "word": "edges",
+          "start": 409.64941672388716
+        },
+        {
+          "word": "and",
+          "start": 410.2494166285197
+        },
+        {
+          "word": "four",
+          "start": 410.4894163996379
+        },
+        {
+          "word": "rising",
+          "start": 410.80941657129927
+        },
+        {
+          "word": "edges",
+          "start": 411.28941659037275
+        },
+        {
+          "word": "give",
+          "start": 411.88941601816816
+        },
+        {
+          "word": "eight",
+          "start": 412.16941670481367
+        },
+        {
+          "word": "edges",
+          "start": 412.44941643778486
+        },
+        {
+          "word": "it",
+          "start": 413.0494168192546
+        },
+        {
+          "word": "shares",
+          "start": 413.3294165522258
+        },
+        {
+          "word": "the",
+          "start": 413.689416208903
+        },
+        {
+          "word": "triangular",
+          "start": 413.88941601816816
+        },
+        {
+          "word": "prisms",
+          "start": 414.64941624705
+        },
+        {
+          "word": "five",
+          "start": 415.2094166666667
+        },
+        {
+          "word": "face",
+          "start": 415.5294163614909
+        },
+        {
+          "word": "count",
+          "start": 415.84941605631514
+        },
+        {
+          "word": "but",
+          "start": 416.16941670481367
+        },
+        {
+          "word": "the",
+          "start": 416.3294165522258
+        },
+        {
+          "word": "face",
+          "start": 416.4894163996379
+        },
+        {
+          "word": "shapes",
+          "start": 416.7694161326091
+        },
+        {
+          "word": "edge",
+          "start": 417.2494166285197
+        },
+        {
+          "word": "count",
+          "start": 417.60941628519697
+        },
+        {
+          "word": "and",
+          "start": 417.9294159800212
+        },
+        {
+          "word": "vertex",
+          "start": 418.0894167811076
+        },
+        {
+          "word": "count",
+          "start": 418.689416208903
+        },
+        {
+          "word": "reveal",
+          "start": 418.9694159418742
+        },
+        {
+          "word": "different",
+          "start": 419.44941643778486
+        },
+        {
+          "word": "objects",
+          "start": 419.84941605631514
+        }
+      ],
+      "asr_text": " THE SQUARE BASED PYRAMID HAS FOUR BASE CORNERS AND ONE APEX SO IT HAS FIVE VERTESIES FOUR BASE EDGES AND FOUR RISING EDGES GIVE EIGHT EDGES IT SHARES THE TRIANGULAR PRISMS FIVE FACE COUNT BUT THE FACE SHAPES EDGE COUNT AND VERTEX COUNT REVEAL DIFFERENT OBJECTS",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "5 faces • 8 edges • 5 vertices",
+          "at": 407.9094165712993,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 403.2094166666667,
+      "motion_end": 419.84941605631514,
+      "reveal_at": 419.69941605631516,
+      "speech_end": 420.5185416666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Recognise curved surfaces",
+      "text": "Not every familiar solid is made entirely of flat polygon faces. A cylinder has two flat circular faces and a curved surface connecting them. A sphere has one continuous curved surface. Use these properties when a museum object does not resemble a prism or a pyramid.",
+      "board": [
+        "Distinguish flat faces and curved surfaces."
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "faces"
+      },
+      "index": 26,
+      "start": 420.5185416666667,
+      "end": 438.341625,
+      "words": [
+        {
+          "word": "not",
+          "start": 420.5185416666667
+        },
+        {
+          "word": "every",
+          "start": 420.83854165951414
+        },
+        {
+          "word": "familiar",
+          "start": 421.1585416523616
+        },
+        {
+          "word": "solid",
+          "start": 421.7185415951411
+        },
+        {
+          "word": "is",
+          "start": 422.1585416523616
+        },
+        {
+          "word": "made",
+          "start": 422.358541580836
+        },
+        {
+          "word": "entirely",
+          "start": 422.6385415522258
+        },
+        {
+          "word": "of",
+          "start": 423.358541580836
+        },
+        {
+          "word": "flat",
+          "start": 423.5585416285197
+        },
+        {
+          "word": "polygon",
+          "start": 423.8785415617625
+        },
+        {
+          "word": "faces",
+          "start": 424.43854150454206
+        },
+        {
+          "word": "a",
+          "start": 424.9985416857402
+        },
+        {
+          "word": "cylinder",
+          "start": 425.1985414950053
+        },
+        {
+          "word": "has",
+          "start": 425.7985413996379
+        },
+        {
+          "word": "two",
+          "start": 426.0385416475932
+        },
+        {
+          "word": "flat",
+          "start": 426.3585413424174
+        },
+        {
+          "word": "circular",
+          "start": 426.6785415140788
+        },
+        {
+          "word": "faces",
+          "start": 427.23854145685834
+        },
+        {
+          "word": "and",
+          "start": 427.71854147593183
+        },
+        {
+          "word": "a",
+          "start": 427.8385413614909
+        },
+        {
+          "word": "curved",
+          "start": 427.95854172388715
+        },
+        {
+          "word": "surface",
+          "start": 428.3185413805644
+        },
+        {
+          "word": "connecting",
+          "start": 428.7985413996379
+        },
+        {
+          "word": "them",
+          "start": 429.3585418192546
+        },
+        {
+          "word": "a",
+          "start": 429.6785415140788
+        },
+        {
+          "word": "sphere",
+          "start": 429.8385413614909
+        },
+        {
+          "word": "has",
+          "start": 430.3585418192546
+        },
+        {
+          "word": "one",
+          "start": 430.6785415140788
+        },
+        {
+          "word": "continuous",
+          "start": 430.998541208903
+        },
+        {
+          "word": "curved",
+          "start": 431.75854143778486
+        },
+        {
+          "word": "surface",
+          "start": 432.1185410944621
+        },
+        {
+          "word": "used",
+          "start": 432.8385413614909
+        },
+        {
+          "word": "these",
+          "start": 433.19854101816816
+        },
+        {
+          "word": "properties",
+          "start": 433.47854170481367
+        },
+        {
+          "word": "when",
+          "start": 434.1185410944621
+        },
+        {
+          "word": "a",
+          "start": 434.2785409418742
+        },
+        {
+          "word": "museum",
+          "start": 434.43854174296064
+        },
+        {
+          "word": "object",
+          "start": 434.95854124705
+        },
+        {
+          "word": "does",
+          "start": 435.5585416285197
+        },
+        {
+          "word": "not",
+          "start": 435.7985413996379
+        },
+        {
+          "word": "resemble",
+          "start": 435.998541208903
+        },
+        {
+          "word": "a",
+          "start": 436.5585406748454
+        },
+        {
+          "word": "prism",
+          "start": 436.7185405222575
+        },
+        {
+          "word": "or",
+          "start": 437.2385409800212
+        },
+        {
+          "word": "a",
+          "start": 437.47854075113935
+        },
+        {
+          "word": "pyramid",
+          "start": 437.63854059855146
+        }
+      ],
+      "asr_text": " NOT EVERY FAMILIAR SOLID IS MADE ENTIRELY OF FLAT POLYGON FACES A CYLINDER HAS TWO FLAT CIRCULAR FACES AND A CURVED SURFACE CONNECTING THEM A SPHERE HAS ONE CONTINUOUS CURVED SURFACE USED THESE PROPERTIES WHEN A MUSEUM OBJECT DOES NOT RESEMBLE A PRISM OR A PYRAMID",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Distinguish flat faces and curved surfaces.",
+          "at": 423.5585416285197,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 420.5185416666667,
+      "motion_end": 437.63854059855146,
+      "reveal_at": 437.4885405985515,
+      "speech_end": 438.341625
+    },
+    {
+      "role": "misconception",
+      "chapter": "Avoid invented corners",
+      "text": "A circular boundary is not a row of tiny vertices. A cylinder has no corners where straight edges meet. Be clear about the object you are describing and the convention you are using: today our edge counts for prisms and pyramids refer to their straight shared face boundaries.",
+      "board": [
+        "A curved boundary is not a set of vertices."
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "edges"
+      },
+      "index": 27,
+      "start": 438.341625,
+      "end": 454.90158333333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 438.341625
+        },
+        {
+          "word": "circular",
+          "start": 438.50162499642374
+        },
+        {
+          "word": "boundary",
+          "start": 439.0616249690056
+        },
+        {
+          "word": "is",
+          "start": 439.6216249713898
+        },
+        {
+          "word": "not",
+          "start": 439.8216250190735
+        },
+        {
+          "word": "a",
+          "start": 440.02162494754793
+        },
+        {
+          "word": "row",
+          "start": 440.18162491416933
+        },
+        {
+          "word": "of",
+          "start": 440.54162504768374
+        },
+        {
+          "word": "tiny",
+          "start": 440.7416248569489
+        },
+        {
+          "word": "vertesies",
+          "start": 441.1416249523163
+        },
+        {
+          "word": "a",
+          "start": 441.9816248664856
+        },
+        {
+          "word": "cylinder",
+          "start": 442.18162491416933
+        },
+        {
+          "word": "has",
+          "start": 442.86162498092654
+        },
+        {
+          "word": "no",
+          "start": 443.1416247138977
+        },
+        {
+          "word": "corners",
+          "start": 443.38162496185305
+        },
+        {
+          "word": "where",
+          "start": 443.90162494277956
+        },
+        {
+          "word": "straight",
+          "start": 444.1016247520447
+        },
+        {
+          "word": "edges",
+          "start": 444.4616248855591
+        },
+        {
+          "word": "meet",
+          "start": 444.9416249046326
+        },
+        {
+          "word": "be",
+          "start": 445.341625
+        },
+        {
+          "word": "clear",
+          "start": 445.5816247711182
+        },
+        {
+          "word": "about",
+          "start": 445.9416249046326
+        },
+        {
+          "word": "the",
+          "start": 446.18162467575075
+        },
+        {
+          "word": "object",
+          "start": 446.341625
+        },
+        {
+          "word": "you",
+          "start": 446.82162454223635
+        },
+        {
+          "word": "are",
+          "start": 446.98162438964846
+        },
+        {
+          "word": "describing",
+          "start": 447.1416251907349
+        },
+        {
+          "word": "and",
+          "start": 447.82162454223635
+        },
+        {
+          "word": "the",
+          "start": 447.94162442779543
+        },
+        {
+          "word": "convention",
+          "start": 448.10162522888186
+        },
+        {
+          "word": "you",
+          "start": 448.7416246185303
+        },
+        {
+          "word": "are",
+          "start": 448.9016244659424
+        },
+        {
+          "word": "using",
+          "start": 449.10162522888186
+        },
+        {
+          "word": "to",
+          "start": 449.5816247711182
+        },
+        {
+          "word": "day",
+          "start": 449.7416246185303
+        },
+        {
+          "word": "our",
+          "start": 449.98162438964846
+        },
+        {
+          "word": "edge",
+          "start": 450.26162507629397
+        },
+        {
+          "word": "counts",
+          "start": 450.5816247711182
+        },
+        {
+          "word": "for",
+          "start": 450.98162438964846
+        },
+        {
+          "word": "prisms",
+          "start": 451.14162423706057
+        },
+        {
+          "word": "and",
+          "start": 451.6216247329712
+        },
+        {
+          "word": "pyramids",
+          "start": 451.7416246185303
+        },
+        {
+          "word": "refer",
+          "start": 452.4216249237061
+        },
+        {
+          "word": "to",
+          "start": 452.7416246185303
+        },
+        {
+          "word": "their",
+          "start": 452.9016244659424
+        },
+        {
+          "word": "straight",
+          "start": 453.14162423706057
+        },
+        {
+          "word": "shared",
+          "start": 453.50162484741213
+        },
+        {
+          "word": "face",
+          "start": 453.9016244659424
+        },
+        {
+          "word": "boundaries",
+          "start": 454.1816241989136
+        }
+      ],
+      "asr_text": " A CIRCULAR BOUNDARY IS NOT A ROW OF TINY VERTESIES A CYLINDER HAS NO CORNERS WHERE STRAIGHT EDGES MEET BE CLEAR ABOUT THE OBJECT YOU ARE DESCRIBING AND THE CONVENTION YOU ARE USING TO DAY OUR EDGE COUNTS FOR PRISMS AND PYRAMIDS REFER TO THEIR STRAIGHT SHARED FACE BOUNDARIES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "A curved boundary is not a set of vertices.",
+          "at": 438.341625,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 438.341625,
+      "motion_end": 454.1816241989136,
+      "reveal_at": 438.341625,
+      "speech_end": 454.90158333333335
+    },
+    {
+      "role": "question",
+      "chapter": "Independent museum challenge",
+      "text": "The museum finds an object with five faces. One label says triangular prism and another says square-based pyramid. Can the face count alone settle the choice? Decide what extra evidence you would inspect, and prepare a reason that uses more than just the object’s appearance.",
+      "board": [],
+      "model": {
+        "kind": "pyramid",
+        "stage": "faces"
+      },
+      "index": 28,
+      "start": 454.90158333333335,
+      "end": 477.6406666666667,
+      "words": [
+        {
+          "word": "the",
+          "start": 454.90158333333335
+        },
+        {
+          "word": "museum",
+          "start": 455.1015833214124
+        },
+        {
+          "word": "finds",
+          "start": 455.781583328565
+        },
+        {
+          "word": "an",
+          "start": 456.1815833047231
+        },
+        {
+          "word": "object",
+          "start": 456.38158335240684
+        },
+        {
+          "word": "with",
+          "start": 456.90158333333335
+        },
+        {
+          "word": "five",
+          "start": 457.1415833428701
+        },
+        {
+          "word": "faces",
+          "start": 457.54158319981894
+        },
+        {
+          "word": "one",
+          "start": 458.22158326657615
+        },
+        {
+          "word": "label",
+          "start": 458.54158319981894
+        },
+        {
+          "word": "says",
+          "start": 458.90158333333335
+        },
+        {
+          "word": "triangular",
+          "start": 459.26158346684775
+        },
+        {
+          "word": "prism",
+          "start": 460.02158321889243
+        },
+        {
+          "word": "and",
+          "start": 460.4615832761129
+        },
+        {
+          "word": "another",
+          "start": 460.661583085378
+        },
+        {
+          "word": "says",
+          "start": 461.02158321889243
+        },
+        {
+          "word": "square",
+          "start": 461.3415833905538
+        },
+        {
+          "word": "based",
+          "start": 461.661583085378
+        },
+        {
+          "word": "pyramid",
+          "start": 462.02158321889243
+        },
+        {
+          "word": "can",
+          "start": 462.7415830090841
+        },
+        {
+          "word": "the",
+          "start": 462.9415832951864
+        },
+        {
+          "word": "face",
+          "start": 463.1415831044515
+        },
+        {
+          "word": "count",
+          "start": 463.5815826848348
+        },
+        {
+          "word": "alone",
+          "start": 463.9815832570394
+        },
+        {
+          "word": "settle",
+          "start": 464.46158279927573
+        },
+        {
+          "word": "the",
+          "start": 464.90158333333335
+        },
+        {
+          "word": "choice",
+          "start": 465.1015831425985
+        },
+        {
+          "word": "decide",
+          "start": 465.7015835240682
+        },
+        {
+          "word": "what",
+          "start": 466.3015829518636
+        },
+        {
+          "word": "extra",
+          "start": 466.5815826848348
+        },
+        {
+          "word": "evidence",
+          "start": 467.1015831425985
+        },
+        {
+          "word": "you",
+          "start": 467.62158264668784
+        },
+        {
+          "word": "would",
+          "start": 467.78158344777427
+        },
+        {
+          "word": "inspect",
+          "start": 467.9815832570394
+        },
+        {
+          "word": "and",
+          "start": 468.5415827229818
+        },
+        {
+          "word": "prepare",
+          "start": 468.74158348592124
+        },
+        {
+          "word": "a",
+          "start": 469.18158306630454
+        },
+        {
+          "word": "reason",
+          "start": 469.34158291371665
+        },
+        {
+          "word": "that",
+          "start": 469.78158344777427
+        },
+        {
+          "word": "uses",
+          "start": 470.02158321889243
+        },
+        {
+          "word": "more",
+          "start": 470.46158279927573
+        },
+        {
+          "word": "than",
+          "start": 470.66158260854087
+        },
+        {
+          "word": "just",
+          "start": 470.94158234151206
+        },
+        {
+          "word": "the",
+          "start": 471.1815821126302
+        },
+        {
+          "word": "object's",
+          "start": 471.3815828755697
+        },
+        {
+          "word": "appearance",
+          "start": 471.94158234151206
+        }
+      ],
+      "asr_text": " THE MUSEUM FINDS AN OBJECT WITH FIVE FACES ONE LABEL SAYS TRIANGULAR PRISM AND ANOTHER SAYS SQUARE BASED PYRAMID CAN THE FACE COUNT ALONE SETTLE THE CHOICE DECIDE WHAT EXTRA EVIDENCE YOU WOULD INSPECT AND PREPARE A REASON THAT USES MORE THAN JUST THE OBJECT'S APPEARANCE",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 454.90158333333335,
+      "motion_end": 471.94158234151206,
+      "reveal_at": 471.7915823415121,
+      "speech_end": 472.6406666666667
+    },
+    {
+      "role": "answer",
+      "chapter": "Choose useful evidence",
+      "text": "Five faces alone cannot settle the label. Look for two matching triangular ends and three rectangles to identify a triangular prism. Look for a square base and four triangles meeting at an apex to identify a square-based pyramid. Edge and vertex counts provide additional checks.",
+      "board": [
+        "Use face shapes and their connections."
+      ],
+      "model": {
+        "kind": "pyramid",
+        "stage": "faces"
+      },
+      "index": 29,
+      "start": 477.6406666666667,
+      "end": 496.32675,
+      "words": [
+        {
+          "word": "five",
+          "start": 477.6406666666667
+        },
+        {
+          "word": "faces",
+          "start": 478.12066665593784
+        },
+        {
+          "word": "alone",
+          "start": 478.76066667143505
+        },
+        {
+          "word": "cannot",
+          "start": 479.28066665236156
+        },
+        {
+          "word": "settle",
+          "start": 479.72066659037273
+        },
+        {
+          "word": "the",
+          "start": 480.12066668574016
+        },
+        {
+          "word": "label",
+          "start": 480.24066657129924
+        },
+        {
+          "word": "look",
+          "start": 480.76066655222576
+        },
+        {
+          "word": "for",
+          "start": 481.0006665617625
+        },
+        {
+          "word": "two",
+          "start": 481.24066657129924
+        },
+        {
+          "word": "matching",
+          "start": 481.480666580836
+        },
+        {
+          "word": "triangular",
+          "start": 481.9606663614909
+        },
+        {
+          "word": "ends",
+          "start": 482.76066655222576
+        },
+        {
+          "word": "and",
+          "start": 483.1606666475932
+        },
+        {
+          "word": "three",
+          "start": 483.3206664950053
+        },
+        {
+          "word": "rectangles",
+          "start": 483.60066670481365
+        },
+        {
+          "word": "to",
+          "start": 484.40066641871135
+        },
+        {
+          "word": "identify",
+          "start": 484.5606667429606
+        },
+        {
+          "word": "a",
+          "start": 485.40066641871135
+        },
+        {
+          "word": "triangular",
+          "start": 485.56066626612346
+        },
+        {
+          "word": "prism",
+          "start": 486.32066601816814
+        },
+        {
+          "word": "look",
+          "start": 486.88066643778484
+        },
+        {
+          "word": "for",
+          "start": 487.120666208903
+        },
+        {
+          "word": "a",
+          "start": 487.2806660563151
+        },
+        {
+          "word": "square",
+          "start": 487.4006668955485
+        },
+        {
+          "word": "bass",
+          "start": 487.76066655222576
+        },
+        {
+          "word": "and",
+          "start": 488.120666208903
+        },
+        {
+          "word": "four",
+          "start": 488.36066598002117
+        },
+        {
+          "word": "triangles",
+          "start": 488.60066670481365
+        },
+        {
+          "word": "meeting",
+          "start": 489.44066685740154
+        },
+        {
+          "word": "an",
+          "start": 489.88066643778484
+        },
+        {
+          "word": "apex",
+          "start": 490.120666208903
+        },
+        {
+          "word": "to",
+          "start": 490.72066659037273
+        },
+        {
+          "word": "identify",
+          "start": 490.92066639963787
+        },
+        {
+          "word": "a",
+          "start": 491.6406666666667
+        },
+        {
+          "word": "square",
+          "start": 491.8006665140788
+        },
+        {
+          "word": "based",
+          "start": 492.120666208903
+        },
+        {
+          "word": "pyramid",
+          "start": 492.48066586558025
+        },
+        {
+          "word": "edge",
+          "start": 493.16066617075603
+        },
+        {
+          "word": "and",
+          "start": 493.5206667811076
+        },
+        {
+          "word": "vertexcounts",
+          "start": 493.76066559855144
+        },
+        {
+          "word": "provide",
+          "start": 494.76066559855144
+        },
+        {
+          "word": "additional",
+          "start": 495.20066613260906
+        },
+        {
+          "word": "checks",
+          "start": 495.8006665140788
+        }
+      ],
+      "asr_text": " FIVE FACES ALONE CANNOT SETTLE THE LABEL LOOK FOR TWO MATCHING TRIANGULAR ENDS AND THREE RECTANGLES TO IDENTIFY A TRIANGULAR PRISM LOOK FOR A SQUARE BASS AND FOUR TRIANGLES MEETING AN APEX TO IDENTIFY A SQUARE BASED PYRAMID EDGE AND VERTEXCOUNTS PROVIDE ADDITIONAL CHECKS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9760689134123443,
+      "board_events": [
+        {
+          "text": "Use face shapes and their connections.",
+          "at": 477.6406666666667,
+          "reason": "scene context"
+        }
+      ],
+      "motion_start": 477.6406666666667,
+      "motion_end": 495.8006665140788,
+      "reveal_at": 495.6506665140788,
+      "speech_end": 496.32675
+    },
+    {
+      "role": "explanation",
+      "chapter": "Make your own property record",
+      "text": "Create a small table with columns for object name, face shapes, number of faces, edges and vertices. Draw a quick model beside each row. If two rows have the same number in one column, compare the other properties before claiming that the objects are identical.",
+      "board": [
+        "Name • faces • edges • vertices"
+      ],
+      "model": {
+        "kind": "cube",
+        "stage": "vertices"
+      },
+      "index": 30,
+      "start": 496.32675,
+      "end": 511.821125,
+      "words": [
+        {
+          "word": "create",
+          "start": 496.32675
+        },
+        {
+          "word": "a",
+          "start": 496.7667499976158
+        },
+        {
+          "word": "small",
+          "start": 496.9667499856949
+        },
+        {
+          "word": "table",
+          "start": 497.28674997854233
+        },
+        {
+          "word": "with",
+          "start": 497.6867500143051
+        },
+        {
+          "word": "columns",
+          "start": 497.88674994277955
+        },
+        {
+          "word": "for",
+          "start": 498.32675
+        },
+        {
+          "word": "object",
+          "start": 498.4867498474121
+        },
+        {
+          "word": "name",
+          "start": 498.9667498664856
+        },
+        {
+          "word": "face",
+          "start": 499.286750038147
+        },
+        {
+          "word": "shapes",
+          "start": 499.56675000953675
+        },
+        {
+          "word": "number",
+          "start": 500.0067498283386
+        },
+        {
+          "word": "of",
+          "start": 500.32675
+        },
+        {
+          "word": "faces",
+          "start": 500.4867498474121
+        },
+        {
+          "word": "edges",
+          "start": 500.9667498664856
+        },
+        {
+          "word": "and",
+          "start": 501.40674992370606
+        },
+        {
+          "word": "vertesies",
+          "start": 501.56674977111817
+        },
+        {
+          "word": "draw",
+          "start": 502.40674992370606
+        },
+        {
+          "word": "a",
+          "start": 502.7267496185303
+        },
+        {
+          "word": "quick",
+          "start": 502.88674994277955
+        },
+        {
+          "word": "model",
+          "start": 503.20674963760376
+        },
+        {
+          "word": "beside",
+          "start": 503.6067497329712
+        },
+        {
+          "word": "each",
+          "start": 504.04674979019165
+        },
+        {
+          "word": "row",
+          "start": 504.36674996185303
+        },
+        {
+          "word": "if",
+          "start": 504.7667495803833
+        },
+        {
+          "word": "two",
+          "start": 505.00674935150147
+        },
+        {
+          "word": "rows",
+          "start": 505.286750038147
+        },
+        {
+          "word": "have",
+          "start": 505.7267496185303
+        },
+        {
+          "word": "the",
+          "start": 505.96674938964844
+        },
+        {
+          "word": "same",
+          "start": 506.12675019073487
+        },
+        {
+          "word": "number",
+          "start": 506.4467498855591
+        },
+        {
+          "word": "in",
+          "start": 506.84674950408936
+        },
+        {
+          "word": "one",
+          "start": 507.00674935150147
+        },
+        {
+          "word": "column",
+          "start": 507.24675007629395
+        },
+        {
+          "word": "compare",
+          "start": 507.6467496948242
+        },
+        {
+          "word": "the",
+          "start": 508.0867492752075
+        },
+        {
+          "word": "other",
+          "start": 508.286750038147
+        },
+        {
+          "word": "properties",
+          "start": 508.52674980926514
+        },
+        {
+          "word": "before",
+          "start": 509.1667501525879
+        },
+        {
+          "word": "claiming",
+          "start": 509.4467498855591
+        },
+        {
+          "word": "that",
+          "start": 509.9267494277954
+        },
+        {
+          "word": "the",
+          "start": 510.0867492752075
+        },
+        {
+          "word": "objects",
+          "start": 510.286750038147
+        },
+        {
+          "word": "are",
+          "start": 510.84674950408936
+        },
+        {
+          "word": "identical",
+          "start": 511.0467493133545
+        }
+      ],
+      "asr_text": " CREATE A SMALL TABLE WITH COLUMNS FOR OBJECT NAME FACE SHAPES NUMBER OF FACES EDGES AND VERTESIES DRAW A QUICK MODEL BESIDE EACH ROW IF TWO ROWS HAVE THE SAME NUMBER IN ONE COLUMN COMPARE THE OTHER PROPERTIES BEFORE CLAIMING THAT THE OBJECTS ARE IDENTICAL",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Name • faces • edges • vertices",
+          "at": 498.9667498664856,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 496.32675,
+      "motion_end": 511.0467493133545,
+      "reveal_at": 510.8967493133545,
+      "speech_end": 511.821125
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and consolidate",
+      "text": "Return to our learning goal: identify a solid using evidence about its features. You can now locate a face, trace an edge, mark a vertex and explain a count that includes hidden parts. Choose one object near you, describe it precisely, and tell a partner which property was most useful.",
+      "board": [
+        "Identify • count systematically • justify"
+      ],
+      "model": {
+        "kind": "prism",
+        "stage": "faces"
+      },
+      "index": 31,
+      "start": 511.821125,
+      "end": 528.5909583333333,
+      "words": [
+        {
+          "word": "return",
+          "start": 511.821125
+        },
+        {
+          "word": "to",
+          "start": 512.3011249892711
+        },
+        {
+          "word": "our",
+          "start": 512.4611249856948
+        },
+        {
+          "word": "learning",
+          "start": 512.6211249523162
+        },
+        {
+          "word": "goal",
+          "start": 513.0211249284744
+        },
+        {
+          "word": "identify",
+          "start": 513.3011250190734
+        },
+        {
+          "word": "a",
+          "start": 514.0211250476837
+        },
+        {
+          "word": "solid",
+          "start": 514.1811248950958
+        },
+        {
+          "word": "using",
+          "start": 514.6211249523162
+        },
+        {
+          "word": "evidence",
+          "start": 515.0211248092651
+        },
+        {
+          "word": "about",
+          "start": 515.5411250286102
+        },
+        {
+          "word": "its",
+          "start": 515.7811247997283
+        },
+        {
+          "word": "features",
+          "start": 516.0211248092651
+        },
+        {
+          "word": "you",
+          "start": 516.6211247138976
+        },
+        {
+          "word": "can",
+          "start": 516.861124961853
+        },
+        {
+          "word": "now",
+          "start": 517.0611247711181
+        },
+        {
+          "word": "locate",
+          "start": 517.3011250190734
+        },
+        {
+          "word": "a",
+          "start": 517.7811250381469
+        },
+        {
+          "word": "face",
+          "start": 517.941124885559
+        },
+        {
+          "word": "trace",
+          "start": 518.2611250572204
+        },
+        {
+          "word": "an",
+          "start": 518.6211247138976
+        },
+        {
+          "word": "edge",
+          "start": 518.8211249999999
+        },
+        {
+          "word": "mark",
+          "start": 519.2211246185302
+        },
+        {
+          "word": "a",
+          "start": 519.5011248283386
+        },
+        {
+          "word": "vertex",
+          "start": 519.6211247138976
+        },
+        {
+          "word": "and",
+          "start": 520.1811246566772
+        },
+        {
+          "word": "explain",
+          "start": 520.3811244659423
+        },
+        {
+          "word": "account",
+          "start": 520.861124961853
+        },
+        {
+          "word": "that",
+          "start": 521.2611245803832
+        },
+        {
+          "word": "includes",
+          "start": 521.4211244277953
+        },
+        {
+          "word": "hidden",
+          "start": 521.981124847412
+        },
+        {
+          "word": "parts",
+          "start": 522.3411245040893
+        },
+        {
+          "word": "choose",
+          "start": 522.861124961853
+        },
+        {
+          "word": "one",
+          "start": 523.2611245803832
+        },
+        {
+          "word": "object",
+          "start": 523.5011243515014
+        },
+        {
+          "word": "near",
+          "start": 523.981124847412
+        },
+        {
+          "word": "you",
+          "start": 524.3011245422363
+        },
+        {
+          "word": "describe",
+          "start": 524.5411243133544
+        },
+        {
+          "word": "it",
+          "start": 525.0611247711181
+        },
+        {
+          "word": "precisely",
+          "start": 525.2211246185302
+        },
+        {
+          "word": "and",
+          "start": 525.8211249999999
+        },
+        {
+          "word": "tell",
+          "start": 526.0211248092651
+        },
+        {
+          "word": "a",
+          "start": 526.2211246185302
+        },
+        {
+          "word": "partner",
+          "start": 526.4211244277953
+        },
+        {
+          "word": "which",
+          "start": 526.8211249999999
+        },
+        {
+          "word": "property",
+          "start": 527.0611247711181
+        },
+        {
+          "word": "was",
+          "start": 527.5411243133544
+        },
+        {
+          "word": "most",
+          "start": 527.7811250381469
+        },
+        {
+          "word": "useful",
+          "start": 528.0611247711181
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL IDENTIFY A SOLID USING EVIDENCE ABOUT ITS FEATURES YOU CAN NOW LOCATE A FACE TRACE AN EDGE MARK A VERTEX AND EXPLAIN ACCOUNT THAT INCLUDES HIDDEN PARTS CHOOSE ONE OBJECT NEAR YOU DESCRIBE IT PRECISELY AND TELL A PARTNER WHICH PROPERTY WAS MOST USEFUL",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Identify • count systematically • justify",
+          "at": 511.821125,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 511.821125,
+      "motion_end": 528.0611247711181,
+      "reveal_at": 527.9111247711181,
+      "speech_end": 528.5909583333333
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.8399999141693115,
+      "text": "A museum receives three parcels with their labels missing."
+    },
+    {
+      "start": 3.8399999141693115,
+      "end": 9.59999942779541,
+      "text": "One contains a game die, one is a long cereal carton, and one is a triangular tent model."
+    },
+    {
+      "start": 9.59999942779541,
+      "end": 15.119999885559082,
+      "text": "Could you identify each object without relying on its colour or the direction it faces?"
+    },
+    {
+      "start": 15.119999885559082,
+      "end": 17.675625,
+      "text": "Let us become geometry detectives."
+    },
+    {
+      "start": 17.675625,
+      "end": 18.075624976158142,
+      "text": "Today we are learning how to recognise three-dimensional objects using their faces, edges and vertices."
+    },
+    {
+      "start": 18.075624976158142,
+      "end": 32.1475,
+      "text": "We will investigate actual models, connect them to drawings, and explain why a collection of properties is more reliable than a quick glance."
+    },
+    {
+      "start": 32.1475,
+      "end": 39.02749963760376,
+      "text": "Our learning goal is to identify and describe a solid using evidence about its faces, edges and vertices."
+    },
+    {
+      "start": 39.02749963760376,
+      "end": 44.3555,
+      "text": "By the end, you should be able to defend an object label, rather than simply guess its name."
+    },
+    {
+      "start": 44.3555,
+      "end": 48.07550002861023,
+      "text": "First, I can distinguish a face, an edge and a vertex."
+    },
+    {
+      "start": 48.07550002861023,
+      "end": 52.51549984741211,
+      "text": "Second, I can count these features systematically, including hidden ones."
+    },
+    {
+      "start": 52.51549984741211,
+      "end": 57.762708333333336,
+      "text": "Third, I can compare two solids and explain which properties actually distinguish them."
+    },
+    {
+      "start": 57.762708333333336,
+      "end": 58.28270831425985,
+      "text": "Think about a square drawn on paper and a box you can pick up."
+    },
+    {
+      "start": 58.28270831425985,
+      "end": 60.202708390553795,
+      "text": "A square is a flat shape."
+    },
+    {
+      "start": 60.202708390553795,
+      "end": 67.84270825703939,
+      "text": "A box is a three-dimensional object: it has length, width and height."
+    },
+    {
+      "start": 67.84270825703939,
+      "end": 71.57941666666667,
+      "text": "Its outside is made from surfaces that surround a space."
+    },
+    {
+      "start": 71.57941666666667,
+      "end": 74.81941667620342,
+      "text": "Find an empty carton or imagine holding one."
+    },
+    {
+      "start": 74.81941667620342,
+      "end": 76.85941639963787,
+      "text": "Slowly turn it in your hands."
+    },
+    {
+      "start": 76.85941639963787,
+      "end": 82.059416208903,
+      "text": "A drawing only shows one viewpoint, while the object continues behind the visible parts."
+    },
+    {
+      "start": 82.059416208903,
+      "end": 87.57104166666667,
+      "text": "We must account for the whole object, including surfaces and corners we cannot currently see."
+    },
+    {
+      "start": 87.57104166666667,
+      "end": 91.09104164759319,
+      "text": "A flat face is one flat region on the surface."
+    },
+    {
+      "start": 91.09104164759319,
+      "end": 95.17104157129924,
+      "text": "Place a paper square against a game die: the square matches one face."
+    },
+    {
+      "start": 95.17104157129924,
+      "end": 98.13104113260906,
+      "text": "Turn the die and another face comes into view."
+    },
+    {
+      "start": 98.13104113260906,
+      "end": 101.63062500000001,
+      "text": "Each face belongs to the same solid, even when it is hidden."
+    },
+    {
+      "start": 101.63062500000001,
+      "end": 104.87062500953675,
+      "text": "An edge is a line where two flat faces meet."
+    },
+    {
+      "start": 104.87062500953675,
+      "end": 106.35062479019166,
+      "text": "Trace one join on the carton with a finger."
+    },
+    {
+      "start": 106.35062479019166,
+      "end": 110.31062435150147,
+      "text": "The edge is shared by the two faces."
+    },
+    {
+      "start": 110.31062435150147,
+      "end": 115.64916666666667,
+      "text": "Counting it once for each face would count the same edge twice, so we need a careful method."
+    },
+    {
+      "start": 115.64916666666667,
+      "end": 118.76916655222576,
+      "text": "A vertex is a corner point where edges meet."
+    },
+    {
+      "start": 118.76916655222576,
+      "end": 121.64916666666667,
+      "text": "Touch a corner of your carton with a sticky dot."
+    },
+    {
+      "start": 121.64916666666667,
+      "end": 125.24916609446208,
+      "text": "The dot marks a position, rather than a length or an area."
+    },
+    {
+      "start": 125.24916609446208,
+      "end": 129.75595833333335,
+      "text": "The plural of vertex is vertices: one vertex, several vertices."
+    },
+    {
+      "start": 129.75595833333335,
+      "end": 131.35595823796592,
+      "text": "Look at the cube model."
+    },
+    {
+      "start": 131.35595823796592,
+      "end": 134.55595804723106,
+      "text": "You can see only some of its faces in this drawing."
+    },
+    {
+      "start": 134.55595804723106,
+      "end": 137.475958123525,
+      "text": "How many faces does the complete cube have?"
+    },
+    {
+      "start": 137.475958123525,
+      "end": 141.71595837148033,
+      "text": "Think about the face resting on the table and those at the back."
+    },
+    {
+      "start": 141.71595837148033,
+      "end": 144.77920833333334,
+      "text": "Make your prediction before the answer appears."
+    },
+    {
+      "start": 149.77920833333334,
+      "end": 151.89920821889243,
+      "text": "A cube has six square faces."
+    },
+    {
+      "start": 151.89920821889243,
+      "end": 155.41920819981894,
+      "text": "Imagine top and bottom, front and back, left and right."
+    },
+    {
+      "start": 155.41920819981894,
+      "end": 158.77920833333334,
+      "text": "These three opposite pairs account for every face."
+    },
+    {
+      "start": 158.77920833333334,
+      "end": 164.74045833333335,
+      "text": "Seeing only three regions in a drawing does not mean that the actual cube has only three faces."
+    },
+    {
+      "start": 164.74045833333335,
+      "end": 167.06045826657615,
+      "text": "Now organise the cube edges."
+    },
+    {
+      "start": 167.06045826657615,
+      "end": 167.6204582093557,
+      "text": "There are four around the top square and four around the bottom square."
+    },
+    {
+      "start": 167.6204582093557,
+      "end": 174.58045848592124,
+      "text": "Four more edges join corresponding top and bottom corners."
+    },
+    {
+      "start": 174.58045848592124,
+      "end": 178.47833333333335,
+      "text": "These are different groups, so no edge has been counted twice."
+    },
+    {
+      "start": 178.47833333333335,
+      "end": 181.63833318074546,
+      "text": "Four plus four plus four equals twelve edges."
+    },
+    {
+      "start": 181.63833318074546,
+      "end": 185.75833306630454,
+      "text": "The calculation records our grouping, rather than replacing the model."
+    },
+    {
+      "start": 185.75833306630454,
+      "end": 191.6783331425985,
+      "text": "Point to an edge in each group and explain why every cube edge belongs to exactly one group."
+    },
+    {
+      "start": 191.6783331425985,
+      "end": 195.11745833333336,
+      "text": "That is how a systematic count becomes convincing."
+    },
+    {
+      "start": 195.1574583324393,
+      "end": 198.55745815213524,
+      "text": "For vertices, mark the four corners around the top face."
+    },
+    {
+      "start": 198.55745815213524,
+      "end": 199.11745833333336,
+      "text": "Then turn the model and mark four different corners around the bottom."
+    },
+    {
+      "start": 199.11745833333336,
+      "end": 200.23745821889244,
+      "text": "The joining edges do not introduce any new corners halfway along them."
+    },
+    {
+      "start": 200.23745821889244,
+      "end": 209.52616666666668,
+      "text": "Four plus four gives eight vertices."
+    },
+    {
+      "start": 209.52616666666668,
+      "end": 214.2061664950053,
+      "text": "Our cube record now says six faces, twelve edges and eight vertices."
+    },
+    {
+      "start": 214.2061664950053,
+      "end": 215.64616655222576,
+      "text": "Each number answers a different question."
+    },
+    {
+      "start": 215.64616655222576,
+      "end": 222.32616590372723,
+      "text": "A face is a flat region, an edge is a shared boundary, and a vertex is a corner point."
+    },
+    {
+      "start": 222.32616590372723,
+      "end": 225.27979166666668,
+      "text": "Explain the difference using the same object."
+    },
+    {
+      "start": 225.27979166666668,
+      "end": 231.15979130427044,
+      "text": "A classmate counts four edges around each of six faces and announces twenty-four cube edges."
+    },
+    {
+      "start": 231.15979130427044,
+      "end": 234.71979124704998,
+      "text": "The multiplication counted every shared edge twice."
+    },
+    {
+      "start": 234.71979124704998,
+      "end": 238.11979181925457,
+      "text": "Twelve actual edges each belong to two faces."
+    },
+    {
+      "start": 238.11979181925457,
+      "end": 243.76358333333334,
+      "text": "We should record twelve, because we are counting distinct edges, not appearances around faces."
+    },
+    {
+      "start": 243.76358333333334,
+      "end": 246.48358336194357,
+      "text": "Consider a long rectangular carton."
+    },
+    {
+      "start": 246.48358336194357,
+      "end": 250.40358319981894,
+      "text": "It also has six faces, twelve edges and eight vertices."
+    },
+    {
+      "start": 250.40358319981894,
+      "end": 253.48358264668784,
+      "text": "Those counts alone do not separate it from a cube."
+    },
+    {
+      "start": 253.48358264668784,
+      "end": 259.25083333333333,
+      "text": "Look at the face shapes and actual edge lengths: a cube has six squares and all its edges are equal."
+    },
+    {
+      "start": 259.25083333333333,
+      "end": 262.29083329518636,
+      "text": "A cube is a special rectangular prism."
+    },
+    {
+      "start": 262.29083329518636,
+      "end": 264.05083304723104,
+      "text": "Every square face is also a rectangle, because it has four right angles."
+    },
+    {
+      "start": 264.05083304723104,
+      "end": 271.0908334859212,
+      "text": "A non-cube rectangular prism has some unequal edge lengths."
+    },
+    {
+      "start": 271.0908334859212,
+      "end": 277.10925,
+      "text": "Avoid saying that cubes and rectangular prisms can never belong to the same mathematical family."
+    },
+    {
+      "start": 277.10925,
+      "end": 281.149249961853,
+      "text": "Let us investigate a different package: a triangular prism."
+    },
+    {
+      "start": 281.149249961853,
+      "end": 287.34924977111814,
+      "text": "Make two matching card triangles and join their corresponding edges using three rectangular strips."
+    },
+    {
+      "start": 287.34924977111814,
+      "end": 289.7492493896484,
+      "text": "The triangular ends stay parallel."
+    },
+    {
+      "start": 289.7492493896484,
+      "end": 293.06925003814695,
+      "text": "The rectangles connect them into one closed solid."
+    },
+    {
+      "start": 293.06925003814695,
+      "end": 295.996875,
+      "text": "Predict which features will differ from the cube."
+    },
+    {
+      "start": 295.996875,
+      "end": 298.6368748664856,
+      "text": "There are two triangular end faces."
+    },
+    {
+      "start": 298.6368748664856,
+      "end": 303.7968747138977,
+      "text": "Each of the three sides of a triangular end connects to one rectangular face."
+    },
+    {
+      "start": 303.7968747138977,
+      "end": 308.1968748092651,
+      "text": "Two triangles and three rectangles give five faces altogether."
+    },
+    {
+      "start": 308.1968748092651,
+      "end": 313.819625,
+      "text": "Notice that the word triangular describes the end faces, not every face on the prism."
+    },
+    {
+      "start": 313.819625,
+      "end": 316.57962499046323,
+      "text": "Mark three corners on the front triangle."
+    },
+    {
+      "start": 316.57962499046323,
+      "end": 319.7396250762939,
+      "text": "Mark three matching corners on the back triangle."
+    },
+    {
+      "start": 319.7396250762939,
+      "end": 323.2596245803833,
+      "text": "These six positions are all the vertices of the prism."
+    },
+    {
+      "start": 323.2596245803833,
+      "end": 328.3550833333333,
+      "text": "A line joining a front corner to a back corner adds an edge, not another vertex."
+    },
+    {
+      "start": 328.3550833333333,
+      "end": 328.8350833226045,
+      "text": "Before counting along with me, predict the number of edges on the triangular prism."
+    },
+    {
+      "start": 328.8350833226045,
+      "end": 340.1950834859212,
+      "text": "Organise your thinking into the front triangle, the back triangle, and the joins between corresponding corners."
+    },
+    {
+      "start": 340.1950834859212,
+      "end": 344.7049583333333,
+      "text": "Keep a total in mind, and check that you have not counted any join twice."
+    },
+    {
+      "start": 349.7049583333333,
+      "end": 352.1849583524068,
+      "text": "The front triangle has three edges."
+    },
+    {
+      "start": 352.1849583524068,
+      "end": 353.6249581712087,
+      "text": "The back triangle has three more."
+    },
+    {
+      "start": 353.6249581712087,
+      "end": 354.3449581998189,
+      "text": "Three joining edges connect the matching corners."
+    },
+    {
+      "start": 354.3449581998189,
+      "end": 356.1849583524068,
+      "text": "Three plus three plus three equals nine."
+    },
+    {
+      "start": 356.1849583524068,
+      "end": 364.74495829518634,
+      "text": "The complete record is five faces, nine edges and six vertices."
+    },
+    {
+      "start": 364.74495829518634,
+      "end": 367.63079166666665,
+      "text": "Each count is supported by a visible grouping."
+    },
+    {
+      "start": 367.63079166666665,
+      "end": 369.5507916237513,
+      "text": "A triangular prism is not a triangular pyramid."
+    },
+    {
+      "start": 369.5507916237513,
+      "end": 371.15079164759317,
+      "text": "A prism has two matching parallel ends joined by side faces."
+    },
+    {
+      "start": 371.15079164759317,
+      "end": 380.79079151407876,
+      "text": "A triangular pyramid has four triangular faces meeting around four vertices."
+    },
+    {
+      "start": 380.79079151407876,
+      "end": 386.05195833333335,
+      "text": "Saying that an object contains triangles is not enough to distinguish the two structures."
+    },
+    {
+      "start": 386.05195833333335,
+      "end": 389.8119583237966,
+      "text": "A square-based pyramid provides another useful comparison."
+    },
+    {
+      "start": 389.8119583237966,
+      "end": 391.69195819981894,
+      "text": "Start with one square base."
+    },
+    {
+      "start": 391.69195819981894,
+      "end": 396.37195802815756,
+      "text": "Join a triangular face to each of its four sides, bringing the triangle tips to one apex."
+    },
+    {
+      "start": 396.37195802815756,
+      "end": 403.2094166666667,
+      "text": "One square and four triangles give five faces, just like the triangular prism’s face count."
+    },
+    {
+      "start": 403.2094166666667,
+      "end": 404.96941665712995,
+      "text": "The square-based pyramid has four base corners and one apex, so it has five vertices."
+    },
+    {
+      "start": 404.96941665712995,
+      "end": 407.3694165140788,
+      "text": "Four base edges and four rising edges give eight edges."
+    },
+    {
+      "start": 407.3694165140788,
+      "end": 420.5185416666667,
+      "text": "It shares the triangular prism’s five-face count, but the face shapes, edge count and vertex count reveal different objects."
+    },
+    {
+      "start": 420.5185416666667,
+      "end": 424.9985416857402,
+      "text": "Not every familiar solid is made entirely of flat polygon faces."
+    },
+    {
+      "start": 424.9985416857402,
+      "end": 427.8385413614909,
+      "text": "A cylinder has two flat circular faces and a curved surface connecting them."
+    },
+    {
+      "start": 427.8385413614909,
+      "end": 427.95854172388715,
+      "text": "A sphere has one continuous curved surface."
+    },
+    {
+      "start": 427.95854172388715,
+      "end": 438.341625,
+      "text": "Use these properties when a museum object does not resemble a prism or a pyramid."
+    },
+    {
+      "start": 438.341625,
+      "end": 440.02162494754793,
+      "text": "A circular boundary is not a row of tiny vertices."
+    },
+    {
+      "start": 440.02162494754793,
+      "end": 445.341625,
+      "text": "A cylinder has no corners where straight edges meet."
+    },
+    {
+      "start": 445.341625,
+      "end": 454.90158333333335,
+      "text": "Be clear about the object you are describing and the convention you are using: today our edge counts for prisms and pyramids refer to their straight shared face boundaries."
+    },
+    {
+      "start": 454.90158333333335,
+      "end": 458.22158326657615,
+      "text": "The museum finds an object with five faces."
+    },
+    {
+      "start": 458.22158326657615,
+      "end": 462.7415830090841,
+      "text": "One label says triangular prism and another says square-based pyramid."
+    },
+    {
+      "start": 462.7415830090841,
+      "end": 465.7015835240682,
+      "text": "Can the face count alone settle the choice?"
+    },
+    {
+      "start": 465.7015835240682,
+      "end": 472.6406666666667,
+      "text": "Decide what extra evidence you would inspect, and prepare a reason that uses more than just the object’s appearance."
+    },
+    {
+      "start": 477.6406666666667,
+      "end": 480.76066655222576,
+      "text": "Five faces alone cannot settle the label."
+    },
+    {
+      "start": 480.76066655222576,
+      "end": 486.88066643778484,
+      "text": "Look for two matching triangular ends and three rectangles to identify a triangular prism."
+    },
+    {
+      "start": 486.88066643778484,
+      "end": 493.16066617075603,
+      "text": "Look for a square base and four triangles meeting at an apex to identify a square-based pyramid."
+    },
+    {
+      "start": 493.16066617075603,
+      "end": 496.32675,
+      "text": "Edge and vertex counts provide additional checks."
+    },
+    {
+      "start": 496.32675,
+      "end": 502.40674992370606,
+      "text": "Create a small table with columns for object name, face shapes, number of faces, edges and vertices."
+    },
+    {
+      "start": 502.40674992370606,
+      "end": 504.7667495803833,
+      "text": "Draw a quick model beside each row."
+    },
+    {
+      "start": 504.7667495803833,
+      "end": 511.821125,
+      "text": "If two rows have the same number in one column, compare the other properties before claiming that the objects are identical."
+    },
+    {
+      "start": 511.821125,
+      "end": 516.6211247138976,
+      "text": "Return to our learning goal: identify a solid using evidence about its features."
+    },
+    {
+      "start": 516.6211247138976,
+      "end": 522.861124961853,
+      "text": "You can now locate a face, trace an edge, mark a vertex and explain a count that includes hidden parts."
+    },
+    {
+      "start": 522.861124961853,
+      "end": 528.5909583333333,
+      "text": "Choose one object near you, describe it precisely, and tell a partner which property was most useful."
+    }
+  ],
+  "pauses": [
+    [
+      144.77920833333334,
+      149.77920833333334,
+      "authorised five-second prediction"
+    ],
+    [
+      344.7049583333333,
+      349.7049583333333,
+      "authorised five-second prediction"
+    ],
+    [
+      472.6406666666667,
+      477.6406666666667,
+      "authorised five-second prediction"
+    ]
+  ],
+  "duration": 528.5909583333333,
+  "narration_sha256": "4bf6fda2d9952eabd74f0264416d666ac4a0521821a98a1fb5b0a1f0238a3d75",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 0,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true
+}

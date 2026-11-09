@@ -143,3 +143,24 @@ test('Time and Angles: incorrect response reveals worked feedback without awardi
   await page.locator('#nextQuestion').click();
   await expect(page.locator('#qNumber')).toHaveText('2 / 30');
 });
+
+
+test('Time and Angles: 12-hour pm answer passes both format and numeric validation',async({page})=>{
+  await openTopic(page);
+  await page.locator('[data-screen="challenge"]').click();
+  const target=await page.evaluate(()=>quiz.findIndex(q=>q.kind===11));
+  expect(target).toBeGreaterThanOrEqual(0);
+  for(let n=0;n<target;n++){
+    const answer=await page.evaluate(()=>quiz[index].answer);
+    await page.locator('#answerInput').fill(answer);
+    await page.locator('#checkAnswer').click();
+    await expect(page.locator('#nextQuestion')).toBeEnabled();
+    await page.locator('#nextQuestion').click();
+  }
+  const answer=await page.evaluate(()=>quiz[index].answer);
+  expect(answer).toMatch(/^(?:[1-9]|1[0-2]):[0-5]\d pm$/);
+  await page.locator('#answerInput').fill(answer);
+  await page.locator('#checkAnswer').click();
+  await expect(page.locator('#qFeedback')).toHaveText('Correct!');
+  await expect(page.locator('#nextQuestion')).toBeEnabled();
+});

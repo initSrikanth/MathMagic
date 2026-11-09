@@ -1,0 +1,49 @@
+{
+  "result": "passed",
+  "sha256": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+  "bytes": 12397725,
+  "duration": 410.72450000000003,
+  "audio_rms": 0.13156594336032867,
+  "clipping_fraction": 0.0,
+  "audio_correlation": 0.9999817710587471,
+  "full_decode": true,
+  "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+  "synchronisation": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "perceptual_voice_review": "Not human-certified",
+  "decoded_frames": 12322,
+  "minimum_frame_luma_std": 7.345482012864248,
+  "blank_frames": 0,
+  "captions": 84,
+  "caption_transcript_match": true,
+  "caption_timing_valid": true,
+  "pauses": [
+    [
+      161.04295833333333,
+      166.04295833333333,
+      "authorised five-second prediction"
+    ],
+    [
+      270.9533333333333,
+      275.9533333333333,
+      "authorised five-second prediction"
+    ]
+  ],
+  "voice": {
+    "model": "Kokoro v1.0 multilingual ONNX",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "licence": "Apache-2.0",
+    "baseline_approval": "Owner approved calibration 2ff0ffce and reports all five current Measurement videos have excellent audio delivery",
+    "accent": "Natural slight Indian-English; perception must be verified, not inferred from an identifier",
+    "enhanced_enthusiasm_approval": null,
+    "legacy_british_profile_allowed": false,
+    "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
+  },
+  "perceptual_status": "UNVERIFIED_NO_AUDIO_EVALUATOR",
+  "published": false,
+  "mathematics": "Validated source/diagrams before rendering",
+  "source_sha256": "e6a3270ffcfca59eabb4e97a0752c2014623387149aef8f125881ff779be459b"
+}

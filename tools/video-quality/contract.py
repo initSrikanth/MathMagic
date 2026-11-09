@@ -16,7 +16,10 @@ def rendered_texts(value,key=None):
 
 def assert_generation_allowed(purpose='production',lessons=None,voice=None):
  c=load()
- if c['production_hold']['active'] and purpose!='remediation_candidate':raise RuntimeError('VIDEO PRODUCTION SUSPENDED: '+c['production_hold']['reason']+'. Only explicitly scoped review candidates may be prepared; no publication.')
+ if purpose=='space_production':
+  assert c.get('space_generation_authorisation',{}).get('authorised') and lessons and voice
+  assert all(l.get('topic')=='space' and l.get('id') in ['space-lesson'+str(i) for i in range(1,11)] and ((l.get('codes') and all(code in ['AC9M5SP01','AC9M5SP02','AC9M5SP03'] for code in l['codes'])) or (l.get('id')=='space-lesson9' and l.get('enrichment') is True and l.get('codes')==[])) for l in lessons),'Only explicitly authorised Year5 Space lessons'
+ if c['production_hold']['active'] and purpose not in ['remediation_candidate','space_production']:raise RuntimeError('VIDEO PRODUCTION SUSPENDED: '+c['production_hold']['reason']+'. Only explicitly scoped review candidates may be prepared; no publication.')
  if purpose=='production' and c['approved_voice']['enhanced_enthusiasm_approval'] is None:raise RuntimeError('Enhanced expressive voice profile is not perceptually approved')
  if purpose in ['production','remediation_candidate']:assert lessons and voice, 'Generation requires explicit script and voice provenance'
  if purpose=='remediation_candidate':
@@ -50,6 +53,53 @@ def assert_release(records):
   if review.get('video_sha256')!=r.get('expected_sha256'):errors.append(f"{r['number']:02}: review not bound to exact video bytes")
  if errors:raise RuntimeError('VIDEO RELEASE BLOCKED:\n'+'\n'.join(errors))
  return True
+
+def assert_owner_approved_space_release():
+ """Current owner's explicit attestation, scoped to the ten immutable Space files.
+
+ This is not an independent Codex listening, Safari or live-Firebase certificate.
+ The existing35-video and all unrelated release gates remain unchanged.
+ """
+ import subprocess
+ from narration_release import parse_vtt
+ cfg=load();policy=cfg.get('space_release_authorisation',{})
+ assert policy.get('authorised')is True,'Space owner approval required'
+ assert policy.get('manifest')=='video-agent/space/release.json','Only the Space manifest is authorised'
+ path=ROOT/policy['manifest'];raw=path.read_bytes()
+ assert hashlib.sha256(raw).hexdigest()==policy.get('manifest_sha256'),'Space manifest changed after approval'
+ release=json.loads(raw);approval=release['owner_approval'];rows=release['lessons']
+ assert release['topic']=='space'and release['page']=='space-lessons.html'
+ assert approval.get('approved')is True and approval.get('statement')and approval.get('reviewer')and approval.get('recorded_on')
+ assert approval['record']==policy['owner_approval_record'],'Owner attestation provenance changed'
+ assert approval['independent_audiovisual_review']=='NOT_PERFORMED_BY_CODEX'
+ assert approval['safari_ios']=='UNVERIFIED'and approval['live_firebase_and_deployed_rules']=='UNVERIFIED'
+ assert len(rows)==10 and {r['id']for r in rows}=={'space-lesson'+str(i)for i in range(1,11)}
+ assert {r['src']:r['sha256']for r in rows}==policy['approved_video_sha256'],'Space reviewed hashes changed'
+ page=(ROOT/release['page']).read_text();assert len(re.findall(r'<video\b',page))==10
+ for n,row in enumerate(rows,1):
+  assert row['section']=='lesson-'+str(n)and row['id']=='space-lesson'+str(n)
+  for key in ['src','captions','transcript','poster']:
+   asset=ROOT/row[key];assert asset.resolve().is_relative_to((ROOT/'videos/space-2026').resolve()),'Space asset escaped approved directory'
+   expected=row['sha256']if key=='src'else row['sidecar_sha256'][key]
+   assert hashlib.sha256(asset.read_bytes()).hexdigest()==expected,'Space approved asset changed: '+row[key]
+  assert (ROOT/row['src']).stat().st_size==row['bytes']and row['duration']>=300 and row['presenter']is False
+  qa=json.loads((ROOT/row['qa']).read_text());assert qa['sha256']==row['sha256']and qa['result']=='passed'and qa['full_decode']is True
+  assert qa['audio_rms']>=cfg['technical']['audio_rms_min']and qa['clipping_fraction']<cfg['technical']['clipping_fraction_max']and qa['audio_correlation']>.98
+  assert qa.get('decoded_frames',qa.get('all_frames_blank_checked',0))>0 and qa['minimum_frame_luma_std']>2
+  voice=row['voice'];assert voice['voice']=='hf_alpha'and voice['speaker_id']==31
+  for field in ['model_sha256','voices_sha256']:assert voice[field]==cfg['approved_voice'][field]
+  captions=parse_vtt(ROOT/row['captions']);assert len(captions)==row['caption_cues']
+  assert all(0<=c['start']<c['end']<=row['duration']+.1 for c in captions)
+  normal=lambda text:re.sub(r'\s+',' ',text).strip()
+  assert normal(' '.join(' '.join(c['lines'])for c in captions))==normal((ROOT/row['transcript']).read_text())
+  assert not branded((ROOT/row['captions']).read_text())and not branded((ROOT/row['transcript']).read_text())
+  section=re.search(r'<section id="'+row['section']+r'".*?</section>',page,re.S);assert section
+  assert len(re.findall(r'<video\b',section[0]))==1 and 'src="'+row['src']+'"'in section[0]
+  assert all(token in section[0]for token in ['controls playsinline preload="metadata"','type="video/mp4"','src="'+row['captions']+'"','href="'+row['src']+'"','<summary>Read the video transcript</summary>'])
+  info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',str(ROOT/row['src'])]))
+  video=next(s for s in info['streams']if s['codec_type']=='video');audio=next(s for s in info['streams']if s['codec_type']=='audio')
+  assert(video['codec_name'],video['width'],video['height'],video['pix_fmt'],video['r_frame_rate'],audio['codec_name'])==('h264',1920,1080,'yuv420p','30/1','aac')
+ return release
 
 def assert_preservation_edit_allowed(record,clean):
  """Allow review-only branding cuts, including bad voices, without approving synthesis or release."""

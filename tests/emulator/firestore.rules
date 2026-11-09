@@ -14,6 +14,17 @@ service cloud.firestore {
     && request.resource.data.lastScore is int && request.resource.data.lastScore >= 0 && request.resource.data.lastScore <= request.resource.data.bestScore
     && request.resource.data.proficient is bool;
   }
+  // Space policy fixture only; never deploy this file to the production project.
+  match /progress/{uid}/topics/space {
+   allow read: if approved() && request.auth.uid == uid;
+   allow write: if approved() && request.auth.uid == uid
+    && request.resource.data.keys().hasOnly(['attempts','bestScore','lastScore','proficient','lastCompletedAt','completedAttemptIds'])
+    && request.resource.data.attempts is int && request.resource.data.attempts >= 0
+    && request.resource.data.bestScore is int && request.resource.data.bestScore >= 0 && request.resource.data.bestScore <=30
+    && request.resource.data.lastScore is int && request.resource.data.lastScore >=0 && request.resource.data.lastScore <= request.resource.data.bestScore
+    && request.resource.data.proficient is bool && request.resource.data.completedAttemptIds is list
+    && request.resource.data.completedAttemptIds.toSet().size() == request.resource.data.completedAttemptIds.size();
+  }
   match /{document=**}{allow read,write:if false;}
  }
 }

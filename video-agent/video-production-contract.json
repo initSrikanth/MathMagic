@@ -181,5 +181,34 @@
     "per_video_perceptual_status": "UNVERIFIED",
     "preserve_other15": true,
     "new_topic_production": "SUSPENDED"
+  },
+  "space_generation_authorisation": {
+    "authorised": true,
+    "authority": "Current explicit Year5 Space execution directive supersedes historical new-topic generation hold for Space only.",
+    "scope": "Current explicit authorisation: render remaining nine Space review candidates before listening; mandatory listening/viewing remains a publication gate. No merge or deployment before all release gates pass.",
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "publication_requires_full_perceptual_review": true,
+    "legacy_scheduled_workflows": "disabled"
+  },
+  "space_release_authorisation": {
+    "authorised": true,
+    "scope": "Only the10 owner-approved Year5 Space videos and their checksum-bound captions/transcripts/posters. Other production/release holds remain unchanged.",
+    "owner_approval_record": "https://github.com/initSrikanth/MathMagic/pull/57#issuecomment-6747399610",
+    "manifest": "video-agent/space/release.json",
+    "manifest_sha256": "b9b0eaaf11472524f55c3cb67dc35f2fd77ea378e93a82351713734037df2be3",
+    "review_basis": "Project-owner attestation in the current explicit release instruction. No independent Codex listening, Safari/iOS or live Firebase pass is asserted.",
+    "approved_video_sha256": {
+      "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+      "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4": "e178d158cb8a8df25606f358732b9d8b10f7495e888207d36c28eb53ef048ab1",
+      "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4": "5b24243e27023c483712714ce931f642a6d2ce12ed7cd3ecc2625a6cc7ef974e",
+      "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4": "bc11c36751627984581a80cf597a4da61b3e8ef2744cbbc66c5ec92a085f729d",
+      "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4": "fa7803fd5b1feb0b183f5e5df7c36587f57acbe7466f88efaab6412f79d6ec9d",
+      "videos/space-2026/Space_Lesson06_Translations_1080p.mp4": "53ff64844782c40026cc7282a6aedb3a0bc4b5935e78afa64cff0b77b2845af6",
+      "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4": "bc2552c8e823b9251802d6136d15e31061a4ceeb0a5f46b291f15d3d8d71068e",
+      "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+      "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
+      "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f"
+    }
   }
 }

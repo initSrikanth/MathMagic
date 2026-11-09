@@ -1,0 +1,45 @@
+A playground designer turns a square tile and notices that it sometimes looks exactly as it did before. A long rectangular tile behaves differently. Why do some shapes match their original outline several times during one full turn? Let us investigate turns that move a shape and turns that reveal its symmetry.
+
+Today we are learning to rotate shapes about a pivot and investigate rotational symmetry. We will build an explanation using models, rather than memorising a rule without understanding it.
+
+Our learning goal is to rotate shapes about a pivot and investigate rotational symmetry. As you investigate, connect what you can see, what you can make, and the mathematical language you use.
+
+First, I can describe a turn precisely. Second, I can check a rotation using its pivot. Third, I can find an order of rotational symmetry. Keep these goals in mind as you explain each discovery.
+
+Think about a door turning on a hinge or a clock hand moving around its centre. A rotation needs a fixed pivot. Every point turns through the same angle about that pivot. The shape changes its direction and often its position, while the pivot remains fixed throughout the movement.
+
+To give a complete rotation instruction, state the pivot, angle and direction. A quarter turn means ninety degrees. A half turn means one hundred and eighty degrees. Clockwise follows the direction of clock hands, while anticlockwise goes the other way. Leaving out one of these details can make an instruction ambiguous.
+
+Our pivot is at four, four. The outlined shape sits to its right. Choose a marked point on the shape and notice its distance from the pivot. During the turn that point follows a circular path, keeping the same distance from the pivot instead of sliding along a straight route.
+
+Turn the shape ninety degrees anticlockwise around four, four. The part that began to the right of the pivot swings upwards. Keep the original outline as a reference. Every vertex makes the same quarter turn, so the connecting sides and corner angles preserve the original shape’s geometry.
+
+Imagine a point at six, four, two units right of the pivot. After the quarter turn anticlockwise, it is two units above the pivot, at four, six. This check uses the pivot’s position as well as the turn. Rotating around the origin would be a different instruction and give a different result.
+
+Return to the original shape and keep the pivot at four, four. Where would the point at six, four finish after a ninety-degree clockwise turn? Think of moving from the right-hand direction towards the downward direction. Predict the full coordinates and justify the distance from the pivot.
+
+The point finishes at four, two. It is still two units from the pivot, but now directly below it. Compare this with the anticlockwise result four, six. Both turns have the same angle, yet their different directions place the point on opposite sides of the pivot.
+
+A learner moves every vertex three squares right and calls it a quarter turn. That is a translation, not a rotation. A rotation keeps the pivot fixed and changes the directions from it to the vertices. Use the point’s circular path and the changed orientation to explain the difference positively.
+
+Return to the original shape and make a half turn about the same pivot. A point two units right of the pivot moves two units left of it. For a half turn, clockwise and anticlockwise reach the same final position, although the paths travel around different sides along the way.
+
+Any shape can be rotated, but not every turn makes it match its original outline. Rotational symmetry asks about the special turns where the whole shape fits exactly onto its starting position. Compare every side and corner, rather than accepting a rough resemblance or matching only one particular point.
+
+Place the pivot at the square’s centre and rotate through one full turn. It matches at ninety, one hundred and eighty, two hundred and seventy, and three hundred and sixty degrees. These four matching positions give the square rotational symmetry of order four. The starting position is not counted a second time.
+
+Now try a non-square rectangle about its centre. Will a quarter turn match, or do its unequal side lengths prevent that? Predict how many matching positions occur in one full turn, including the final full-turn match. Explain what happens to the long and short sides as it turns.
+
+A non-square rectangle matches after a half turn and again after a full turn. A quarter turn exchanges its long-side and short-side directions, so its outline does not fit. It has order two, rather than order four. The requirement is an exact whole-outline match, not simply another rectangular picture.
+
+An equilateral triangle has three equal sides and three equal angles. About its centre, it matches after turns of one hundred and twenty, two hundred and forty, and three hundred and sixty degrees. That gives order three. The spacing between matching positions is equal throughout the full turn.
+
+A scalene triangle has unequal side lengths. It does not match its starting outline under a smaller positive turn about its centre, but it does match after a complete three-hundred-and-sixty-degree turn. We describe this as order one: there is no non-trivial rotational symmetry to discover before the full turn.
+
+Lines of symmetry and rotational symmetry describe different transformations. A non-square rectangle has mirror lines through the midpoints of opposite sides, and it also has order-two rotational symmetry. Do not assume that seeing a mirror line automatically tells you every matching turn. Test the particular transformation you are asked about.
+
+Choose a paper shape, mark a pivot and trace its original outline. Turn it carefully through one full revolution, recording every exact match after the starting position. State your evidence with an angle or fraction-of-a-turn description in words. Check that the pivot did not drift while you were turning.
+
+A shape’s rotational-symmetry investigation normally uses its appropriate centre. A different pivot can move the shape away from the starting outline, even when the angle is a familiar symmetry turn. This is another reason that a complete rotation instruction must name the pivot as well as angle and direction.
+
+You can now describe rotations, check a point’s distance from a pivot and investigate exact matching turns. The square, non-square rectangle and equilateral triangle have different rotational orders for mathematical reasons. Choose a new tile shape and predict its order, then test the whole outline before accepting your prediction.
