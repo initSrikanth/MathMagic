@@ -1,6 +1,6 @@
 {
   "expected_remaining": 9,
-  "rendered_this_batch": 6,
+  "rendered_this_batch": 7,
   "perceptually_verified": 0,
   "published": 0,
   "paid_calls": 0,
@@ -733,10 +733,130 @@
       "bytes": 7018624
     },
     "space-lesson8": {
-      "status": "RENDERING",
+      "status": "TECHNICALLY_VERIFIED",
       "script_sha256": "f5f7cd4348f3e369ef82f4e08525edc329c7b03101dcdacee0501c7ae4feab24",
       "output": "/workspace/output/space-review/Space_Lesson08_Rotations_and_Symmetry_Review_1080p.mp4",
-      "duration": 363.9015833333333
+      "duration": 363.9015833333333,
+      "qa": {
+        "result": "passed",
+        "sha256": "77a66662f92659f1ccb80aa6618da248f871a6258373a2d490c25b60d3f4b980",
+        "bytes": 11473869,
+        "duration": 363.9015833333333,
+        "audio_rms": 0.13049231469631195,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999822746319824,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 10917,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 5.425051103029916,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 77,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            140.17333333333335,
+            145.17333333333335,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            230.596375,
+            235.596375,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            321.3798333333333,
+            326.3798333333333,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            18.467,
+            26.767
+          ],
+          [
+            26.8,
+            35.233
+          ],
+          [
+            37.3,
+            50.133
+          ],
+          [
+            51.933,
+            60.233
+          ],
+          [
+            60.267,
+            71.367
+          ],
+          [
+            124.433,
+            132.733
+          ],
+          [
+            160.567,
+            168.867
+          ],
+          [
+            178.767,
+            187.067
+          ],
+          [
+            211.767,
+            220.067
+          ],
+          [
+            220.1,
+            230.6
+          ],
+          [
+            245.0,
+            253.567
+          ],
+          [
+            305.2,
+            313.5
+          ],
+          [
+            342.8,
+            351.1
+          ],
+          [
+            351.133,
+            361.5
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "77a66662f92659f1ccb80aa6618da248f871a6258373a2d490c25b60d3f4b980",
+      "bytes": 11473869
+    },
+    "space-lesson9": {
+      "status": "RENDERING",
+      "script_sha256": "78b1aed8c9cd7fc427a68b70fdd9dea104ce9b52ee20b5a5c236cfe8ddd457f1",
+      "output": "/workspace/output/space-review/Space_Lesson09_Classification_Algorithms_Review_1080p.mp4",
+      "duration": 381.089125
     }
   },
   "pre_render_corrections": [

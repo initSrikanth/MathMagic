@@ -1,5 +1,5 @@
 {
-  "rendered": 6,
+  "rendered": 7,
   "all_nine_rendered": false,
   "technical_results": [
     {
@@ -802,6 +802,141 @@
         "Space_Lesson07_Reflections_Review_1080p_narration.flac": "10e12a54427860d6b8fe499faefa40fdc6c3ec54f986aa6fd0130edb574e054a",
         "Space_Lesson07_Reflections_Review_1080p_poster.jpg": "86a23c91de7b3b358fe20ee4967301c8cfba92804c83df40e2f11ec61f6e8d22",
         "Space_Lesson07_Reflections_Review_1080p_timing.json": "5f10f21e80e6b946c2059f15398781821ab400dbf06a1d279fe13a96e4cfc3a3"
+      }
+    },
+    {
+      "lesson": "space-lesson8",
+      "sha256": "77a66662f92659f1ccb80aa6618da248f871a6258373a2d490c25b60d3f4b980",
+      "output": "/workspace/output/space-review/Space_Lesson08_Rotations_and_Symmetry_Review_1080p.mp4",
+      "duration": 363.9015833333333,
+      "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 10917,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson08_Rotations_and_Symmetry_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            18.467,
+            26.767
+          ],
+          [
+            26.8,
+            35.233
+          ],
+          [
+            37.3,
+            50.133
+          ],
+          [
+            51.933,
+            60.233
+          ],
+          [
+            60.267,
+            71.367
+          ],
+          [
+            124.433,
+            132.733
+          ],
+          [
+            160.567,
+            168.867
+          ],
+          [
+            178.767,
+            187.067
+          ],
+          [
+            211.767,
+            220.067
+          ],
+          [
+            220.1,
+            230.6
+          ],
+          [
+            245.0,
+            253.567
+          ],
+          [
+            305.2,
+            313.5
+          ],
+          [
+            342.8,
+            351.1
+          ],
+          [
+            351.133,
+            361.5
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 18.469916666666666,
+            "end": 18.94991665593783,
+            "text": "Today we are learning to describe turns and test rotational symmetry."
+          },
+          {
+            "start": 124.42083333333333,
+            "end": 124.70083333452543,
+            "text": "The centre is four, four."
+          },
+          {
+            "start": 305.2009583333333,
+            "end": 305.360958329757,
+            "text": "A student says a non-square rectangle has order four because it has four sides."
+          }
+        ],
+        "rapid_board_reveal_flags": [
+          {
+            "scene": 9,
+            "at": 178.42370833333334,
+            "visible_seconds": 0.3499999999999943,
+            "text": "Clockwise: (6, 4) \u2192 (4, 2)",
+            "timing_reason": "late-safe ASR fallback"
+          }
+        ],
+        "long_silent_intervals": [
+          {
+            "start": 140.2,
+            "end": 145.2,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 230.6,
+            "end": 235.7,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 321.4,
+            "end": 326.4,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_transcript.txt": "17e9087486ca859c6e808f28c539ea136d9c451f70167cf3e2545157d7105ace",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_narration.flac": "c96bddaefe343729cde04697264baab2163673bb3bdfc79e647151317327bd34",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_recognition.json": "e08c315aeddaea6e62aef857871007899984f8bfcf964cb22c205ad5398480eb",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_poster.jpg": "f3b5c6b639b375056cc3285be55ba89df72b95a7add8fd3cca0fb972a3da5606",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_encoded_scenes.jpg": "895c3982536c222cbb3149ea2c77a4827882997a1fdcc332675fa8e6b999e9c1",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_timing.json": "149bedebfd3c2a8ec75a57fd7f490840a5272c285f8e4fedbf241cad51260157",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_qa.json": "33df93cc97b63fc29bdac73909129a24b77bc8158136f3cc2de223d2be38cbdf",
+        "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_script.json": "009a49ff205fff815c5e26e01b714651a1e63786011d8ba14e1f57964522d585"
       }
     }
   ],

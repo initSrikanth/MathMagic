@@ -1,0 +1,4910 @@
+{
+  "input_hash": "da3ce22f725c15d0dac91f17944f1e5f39b166edad0c0e725e1dc6ee215b97d3",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "A logo that matches after turning",
+      "text": "A designer spins a square logo and notices that it can look unchanged before completing a full turn. Would every rectangle behave the same way? Today we will investigate rotations and rotational symmetry, using a fixed centre and clear turn directions instead of judging a shape only at rest.",
+      "board": [],
+      "model": {
+        "kind": "symmetry",
+        "shape": "square"
+      },
+      "index": 0,
+      "start": 0,
+      "end": 18.469916666666666,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "designer",
+          "start": 0.11999999731779099
+        },
+        {
+          "word": "spins",
+          "start": 0.7199999690055847
+        },
+        {
+          "word": "a",
+          "start": 1.1200000047683716
+        },
+        {
+          "word": "square",
+          "start": 1.2799999713897705
+        },
+        {
+          "word": "logo",
+          "start": 1.6799999475479126
+        },
+        {
+          "word": "and",
+          "start": 2.240000009536743
+        },
+        {
+          "word": "notices",
+          "start": 2.440000057220459
+        },
+        {
+          "word": "that",
+          "start": 3.0799999237060547
+        },
+        {
+          "word": "it",
+          "start": 3.240000009536743
+        },
+        {
+          "word": "can",
+          "start": 3.359999895095825
+        },
+        {
+          "word": "look",
+          "start": 3.559999942779541
+        },
+        {
+          "word": "unchanged",
+          "start": 3.799999952316284
+        },
+        {
+          "word": "before",
+          "start": 4.519999980926514
+        },
+        {
+          "word": "completing",
+          "start": 4.799999713897705
+        },
+        {
+          "word": "a",
+          "start": 5.400000095367432
+        },
+        {
+          "word": "full",
+          "start": 5.599999904632568
+        },
+        {
+          "word": "turn",
+          "start": 5.87999963760376
+        },
+        {
+          "word": "would",
+          "start": 6.319999694824219
+        },
+        {
+          "word": "every",
+          "start": 6.599999904632568
+        },
+        {
+          "word": "rectangle",
+          "start": 7.119999885559082
+        },
+        {
+          "word": "behave",
+          "start": 7.919999599456787
+        },
+        {
+          "word": "the",
+          "start": 8.359999656677246
+        },
+        {
+          "word": "same",
+          "start": 8.559999465942383
+        },
+        {
+          "word": "way",
+          "start": 8.84000015258789
+        },
+        {
+          "word": "to",
+          "start": 9.15999984741211
+        },
+        {
+          "word": "day",
+          "start": 9.359999656677246
+        },
+        {
+          "word": "we",
+          "start": 9.639999389648438
+        },
+        {
+          "word": "will",
+          "start": 9.84000015258789
+        },
+        {
+          "word": "investigate",
+          "start": 10.039999961853027
+        },
+        {
+          "word": "rotations",
+          "start": 10.84000015258789
+        },
+        {
+          "word": "and",
+          "start": 11.75999927520752
+        },
+        {
+          "word": "rotational",
+          "start": 11.960000038146973
+        },
+        {
+          "word": "symmetry",
+          "start": 12.679999351501465
+        },
+        {
+          "word": "using",
+          "start": 13.279999732971191
+        },
+        {
+          "word": "a",
+          "start": 13.639999389648438
+        },
+        {
+          "word": "fixed",
+          "start": 13.799999237060547
+        },
+        {
+          "word": "centre",
+          "start": 14.119999885559082
+        },
+        {
+          "word": "and",
+          "start": 14.559999465942383
+        },
+        {
+          "word": "clear",
+          "start": 14.75999927520752
+        },
+        {
+          "word": "turned",
+          "start": 15.079999923706055
+        },
+        {
+          "word": "directions",
+          "start": 15.399999618530273
+        },
+        {
+          "word": "instead",
+          "start": 16.03999900817871
+        },
+        {
+          "word": "of",
+          "start": 16.440000534057617
+        },
+        {
+          "word": "judging",
+          "start": 16.559999465942383
+        },
+        {
+          "word": "a",
+          "start": 16.959999084472656
+        },
+        {
+          "word": "shape",
+          "start": 17.119998931884766
+        },
+        {
+          "word": "only",
+          "start": 17.520000457763672
+        },
+        {
+          "word": "at",
+          "start": 17.84000015258789
+        },
+        {
+          "word": "rest",
+          "start": 18.03999900817871
+        }
+      ],
+      "asr_text": " A DESIGNER SPINS A SQUARE LOGO AND NOTICES THAT IT CAN LOOK UNCHANGED BEFORE COMPLETING A FULL TURN WOULD EVERY RECTANGLE BEHAVE THE SAME WAY TO DAY WE WILL INVESTIGATE ROTATIONS AND ROTATIONAL SYMMETRY USING A FIXED CENTRE AND CLEAR TURNED DIRECTIONS INSTEAD OF JUDGING A SHAPE ONLY AT REST",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 0.9542196817642313,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 18.03999900817871,
+      "reveal_at": 17.889999008178712,
+      "speech_end": 18.469916666666666
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to describe turns and test rotational symmetry. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 1,
+      "start": 18.469916666666666,
+      "end": 37.31008333333333,
+      "words": [
+        {
+          "word": "to",
+          "start": 18.469916666666666
+        },
+        {
+          "word": "day",
+          "start": 18.629916663090388
+        },
+        {
+          "word": "we",
+          "start": 18.94991665593783
+        },
+        {
+          "word": "are",
+          "start": 19.10991665236155
+        },
+        {
+          "word": "learning",
+          "start": 19.26991661898295
+        },
+        {
+          "word": "to",
+          "start": 19.70991667620341
+        },
+        {
+          "word": "describe",
+          "start": 19.86991664282481
+        },
+        {
+          "word": "turns",
+          "start": 20.469916666666666
+        },
+        {
+          "word": "and",
+          "start": 20.949916685740153
+        },
+        {
+          "word": "test",
+          "start": 21.14991649500529
+        },
+        {
+          "word": "rotational",
+          "start": 21.469916666666666
+        },
+        {
+          "word": "symmetry",
+          "start": 22.14991649500529
+        },
+        {
+          "word": "we",
+          "start": 22.789916361490885
+        },
+        {
+          "word": "will",
+          "start": 22.98991664759318
+        },
+        {
+          "word": "move",
+          "start": 23.189916456858317
+        },
+        {
+          "word": "from",
+          "start": 23.469916666666666
+        },
+        {
+          "word": "objects",
+          "start": 23.669916475931803
+        },
+        {
+          "word": "or",
+          "start": 24.3099163424174
+        },
+        {
+          "word": "hands",
+          "start": 24.509916628519694
+        },
+        {
+          "word": "on",
+          "start": 24.829916323343912
+        },
+        {
+          "word": "actions",
+          "start": 25.029916609446207
+        },
+        {
+          "word": "to",
+          "start": 25.54991659037272
+        },
+        {
+          "word": "drawings",
+          "start": 25.669916475931803
+        },
+        {
+          "word": "then",
+          "start": 26.26991638056437
+        },
+        {
+          "word": "connect",
+          "start": 26.509916628519694
+        },
+        {
+          "word": "those",
+          "start": 26.949916208902994
+        },
+        {
+          "word": "drawings",
+          "start": 27.229916895548502
+        },
+        {
+          "word": "with",
+          "start": 27.829916323343912
+        },
+        {
+          "word": "precise",
+          "start": 28.069916094462076
+        },
+        {
+          "word": "mathematical",
+          "start": 28.629916514078776
+        },
+        {
+          "word": "descriptions",
+          "start": 29.469916666666666
+        },
+        {
+          "word": "keep",
+          "start": 30.349916781107584
+        },
+        {
+          "word": "paper",
+          "start": 30.669916475931803
+        },
+        {
+          "word": "near",
+          "start": 31.02991613260905
+        },
+        {
+          "word": "by",
+          "start": 31.349916781107584
+        },
+        {
+          "word": "if",
+          "start": 31.58991655222575
+        },
+        {
+          "word": "you",
+          "start": 31.749916399637858
+        },
+        {
+          "word": "would",
+          "start": 31.86991628519694
+        },
+        {
+          "word": "like",
+          "start": 32.029916132609046
+        },
+        {
+          "word": "to",
+          "start": 32.22991594187418
+        },
+        {
+          "word": "test",
+          "start": 32.38991674296061
+        },
+        {
+          "word": "an",
+          "start": 32.70991643778483
+        },
+        {
+          "word": "idea",
+          "start": 32.90991624704996
+        },
+        {
+          "word": "for",
+          "start": 33.34991678110758
+        },
+        {
+          "word": "yourself",
+          "start": 33.589916552225745
+        },
+        {
+          "word": "you",
+          "start": 34.22991594187418
+        },
+        {
+          "word": "can",
+          "start": 34.46991666666666
+        },
+        {
+          "word": "pause",
+          "start": 34.70991643778483
+        },
+        {
+          "word": "the",
+          "start": 35.029916132609046
+        },
+        {
+          "word": "player",
+          "start": 35.2299168955485
+        },
+        {
+          "word": "whenever",
+          "start": 35.70991643778483
+        },
+        {
+          "word": "you",
+          "start": 36.149916971842444
+        },
+        {
+          "word": "need",
+          "start": 36.30991681925455
+        },
+        {
+          "word": "more",
+          "start": 36.62991651407877
+        },
+        {
+          "word": "time",
+          "start": 36.90991720072428
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO DESCRIBE TURNS AND TEST ROTATIONAL SYMMETRY WE WILL MOVE FROM OBJECTS OR HANDS ON ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 18.469916666666666,
+      "motion_end": 36.90991720072428,
+      "reveal_at": 36.75991720072428,
+      "speech_end": 37.31008333333333
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to describe turns and test rotational symmetry. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Describe turns and test rotational symmetry."
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 2,
+      "start": 37.31008333333333,
+      "end": 51.942875,
+      "words": [
+        {
+          "word": "our",
+          "start": 37.31008333333333
+        },
+        {
+          "word": "learning",
+          "start": 37.55008332796891
+        },
+        {
+          "word": "goal",
+          "start": 37.99008334048589
+        },
+        {
+          "word": "is",
+          "start": 38.31008333333333
+        },
+        {
+          "word": "to",
+          "start": 38.51008326180776
+        },
+        {
+          "word": "describe",
+          "start": 38.670083347638446
+        },
+        {
+          "word": "turns",
+          "start": 39.31008333333333
+        },
+        {
+          "word": "and",
+          "start": 39.830083314259845
+        },
+        {
+          "word": "test",
+          "start": 40.07008332379659
+        },
+        {
+          "word": "rotational",
+          "start": 40.43008321889241
+        },
+        {
+          "word": "symmetry",
+          "start": 41.110083285649615
+        },
+        {
+          "word": "we",
+          "start": 41.71008342870076
+        },
+        {
+          "word": "want",
+          "start": 41.95008319981893
+        },
+        {
+          "word": "to",
+          "start": 42.19008344777425
+        },
+        {
+          "word": "explain",
+          "start": 42.31008333333333
+        },
+        {
+          "word": "why",
+          "start": 42.990083161671954
+        },
+        {
+          "word": "a",
+          "start": 43.31008333333333
+        },
+        {
+          "word": "result",
+          "start": 43.43008321889241
+        },
+        {
+          "word": "is",
+          "start": 43.87008327611287
+        },
+        {
+          "word": "correct",
+          "start": 44.110083047231036
+        },
+        {
+          "word": "as",
+          "start": 44.550083104451495
+        },
+        {
+          "word": "well",
+          "start": 44.710082951863605
+        },
+        {
+          "word": "as",
+          "start": 44.9100832379659
+        },
+        {
+          "word": "obtain",
+          "start": 45.150083009084064
+        },
+        {
+          "word": "the",
+          "start": 45.59008306630452
+        },
+        {
+          "word": "result",
+          "start": 45.75008291371663
+        },
+        {
+          "word": "as",
+          "start": 46.35008329518636
+        },
+        {
+          "word": "you",
+          "start": 46.550083104451495
+        },
+        {
+          "word": "watch",
+          "start": 46.75008291371663
+        },
+        {
+          "word": "look",
+          "start": 47.19008344777425
+        },
+        {
+          "word": "for",
+          "start": 47.47008318074544
+        },
+        {
+          "word": "the",
+          "start": 47.63008302815755
+        },
+        {
+          "word": "evidence",
+          "start": 47.79008287556966
+        },
+        {
+          "word": "that",
+          "start": 48.35008329518636
+        },
+        {
+          "word": "would",
+          "start": 48.51008314259847
+        },
+        {
+          "word": "help",
+          "start": 48.710082951863605
+        },
+        {
+          "word": "you",
+          "start": 49.03008264668782
+        },
+        {
+          "word": "convince",
+          "start": 49.19008344777425
+        },
+        {
+          "word": "a",
+          "start": 49.710082951863605
+        },
+        {
+          "word": "partner",
+          "start": 49.91008276112874
+        },
+        {
+          "word": "who",
+          "start": 50.35008329518636
+        },
+        {
+          "word": "has",
+          "start": 50.51008314259847
+        },
+        {
+          "word": "not",
+          "start": 50.67008299001058
+        },
+        {
+          "word": "seen",
+          "start": 50.91008276112874
+        },
+        {
+          "word": "your",
+          "start": 51.19008344777425
+        },
+        {
+          "word": "working",
+          "start": 51.43008321889241
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO DESCRIBE TURNS AND TEST ROTATIONAL SYMMETRY WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Describe turns and test rotational symmetry.",
+          "at": 37.31008333333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 37.31008333333333,
+      "motion_end": 51.43008321889241,
+      "reveal_at": 51.280083218892415,
+      "speech_end": 51.942875
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can name the centre and turn. I can track corresponding points. I can count matching positions. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can name the centre and turn.",
+        "I can track corresponding points.",
+        "I can count matching positions."
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 3,
+      "start": 51.942875,
+      "end": 73.86820833333334,
+      "words": [
+        {
+          "word": "here",
+          "start": 51.942875
+        },
+        {
+          "word": "are",
+          "start": 52.422874989271165
+        },
+        {
+          "word": "our",
+          "start": 52.70287499046326
+        },
+        {
+          "word": "three",
+          "start": 52.98287496185303
+        },
+        {
+          "word": "success",
+          "start": 53.302875014305116
+        },
+        {
+          "word": "criteria",
+          "start": 53.82287499523163
+        },
+        {
+          "word": "i",
+          "start": 54.622874828338624
+        },
+        {
+          "word": "can",
+          "start": 54.82287487602234
+        },
+        {
+          "word": "name",
+          "start": 55.022874923706055
+        },
+        {
+          "word": "the",
+          "start": 55.2628749332428
+        },
+        {
+          "word": "centre",
+          "start": 55.50287494277954
+        },
+        {
+          "word": "and",
+          "start": 56.022874923706055
+        },
+        {
+          "word": "turn",
+          "start": 56.302875133514405
+        },
+        {
+          "word": "i",
+          "start": 56.742874713897706
+        },
+        {
+          "word": "can",
+          "start": 57.022874923706055
+        },
+        {
+          "word": "track",
+          "start": 57.22287473297119
+        },
+        {
+          "word": "corresponding",
+          "start": 57.622874828338624
+        },
+        {
+          "word": "points",
+          "start": 58.462874980926514
+        },
+        {
+          "word": "i",
+          "start": 59.022874923706055
+        },
+        {
+          "word": "can",
+          "start": 59.26287469482422
+        },
+        {
+          "word": "count",
+          "start": 59.54287490463257
+        },
+        {
+          "word": "matching",
+          "start": 59.942875
+        },
+        {
+          "word": "positions",
+          "start": 60.462874504089356
+        },
+        {
+          "word": "we",
+          "start": 61.30287465667725
+        },
+        {
+          "word": "will",
+          "start": 61.462874504089356
+        },
+        {
+          "word": "check",
+          "start": 61.66287431335449
+        },
+        {
+          "word": "these",
+          "start": 61.98287496185303
+        },
+        {
+          "word": "ideas",
+          "start": 62.26287469482422
+        },
+        {
+          "word": "in",
+          "start": 62.82287511444092
+        },
+        {
+          "word": "two",
+          "start": 63.06287488555908
+        },
+        {
+          "word": "worked",
+          "start": 63.342874618530274
+        },
+        {
+          "word": "examples",
+          "start": 63.66287431335449
+        },
+        {
+          "word": "investigate",
+          "start": 64.34287461853027
+        },
+        {
+          "word": "a",
+          "start": 65.14287480926514
+        },
+        {
+          "word": "common",
+          "start": 65.30287465667725
+        },
+        {
+          "word": "mistake",
+          "start": 65.6628743133545
+        },
+        {
+          "word": "and",
+          "start": 66.22287473297119
+        },
+        {
+          "word": "finish",
+          "start": 66.3828745803833
+        },
+        {
+          "word": "with",
+          "start": 66.78287419891358
+        },
+        {
+          "word": "an",
+          "start": 66.942875
+        },
+        {
+          "word": "independent",
+          "start": 67.14287480926514
+        },
+        {
+          "word": "challenge",
+          "start": 67.942875
+        },
+        {
+          "word": "a",
+          "start": 68.58287438964844
+        },
+        {
+          "word": "good",
+          "start": 68.74287423706055
+        },
+        {
+          "word": "explanation",
+          "start": 68.98287400817871
+        },
+        {
+          "word": "links",
+          "start": 69.86287507629395
+        },
+        {
+          "word": "what",
+          "start": 70.30287370300293
+        },
+        {
+          "word": "you",
+          "start": 70.50287446594238
+        },
+        {
+          "word": "see",
+          "start": 70.70287522888184
+        },
+        {
+          "word": "in",
+          "start": 70.90287408447266
+        },
+        {
+          "word": "the",
+          "start": 71.02287492370606
+        },
+        {
+          "word": "model",
+          "start": 71.14287385559082
+        },
+        {
+          "word": "with",
+          "start": 71.50287446594238
+        },
+        {
+          "word": "the",
+          "start": 71.6628743133545
+        },
+        {
+          "word": "mathematical",
+          "start": 71.8228741607666
+        },
+        {
+          "word": "rule",
+          "start": 72.62287530517578
+        },
+        {
+          "word": "being",
+          "start": 72.98287400817871
+        },
+        {
+          "word": "used",
+          "start": 73.34287461853027
+        }
+      ],
+      "asr_text": " HERE ARE OUR THREE SUCCESS CRITERIA I CAN NAME THE CENTRE AND TURN I CAN TRACK CORRESPONDING POINTS I CAN COUNT MATCHING POSITIONS WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can name the centre and turn.",
+          "at": 51.942875,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can track corresponding points.",
+          "at": 51.942875,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can count matching positions.",
+          "at": 51.942875,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 51.942875,
+      "motion_end": 73.34287461853027,
+      "reveal_at": 73.19287461853027,
+      "speech_end": 73.86820833333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Use tracing paper and a pin",
+      "text": "Trace a simple shape, mark a centre and hold that point still with a pencil tip. Turn the tracing around the centre without sliding it. Every point follows a circular path around the same fixed position. The original outline remains as a reference for comparing the new position.",
+      "board": [
+        "Keep one centre fixed."
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 4,
+      "start": 73.86820833333334,
+      "end": 90.54504166666668,
+      "words": [
+        {
+          "word": "trace",
+          "start": 73.86820833333334
+        },
+        {
+          "word": "a",
+          "start": 74.22820831783613
+        },
+        {
+          "word": "simple",
+          "start": 74.38820831425986
+        },
+        {
+          "word": "shape",
+          "start": 74.86820833333334
+        },
+        {
+          "word": "mark",
+          "start": 75.30820827134451
+        },
+        {
+          "word": "a",
+          "start": 75.6282083237966
+        },
+        {
+          "word": "centre",
+          "start": 75.74820832856497
+        },
+        {
+          "word": "and",
+          "start": 76.18820826657614
+        },
+        {
+          "word": "hold",
+          "start": 76.38820831425986
+        },
+        {
+          "word": "that",
+          "start": 76.70820824750265
+        },
+        {
+          "word": "point",
+          "start": 76.90820829518637
+        },
+        {
+          "word": "still",
+          "start": 77.22820822842917
+        },
+        {
+          "word": "with",
+          "start": 77.50820819981894
+        },
+        {
+          "word": "a",
+          "start": 77.66820828564963
+        },
+        {
+          "word": "pencil",
+          "start": 77.78820817120871
+        },
+        {
+          "word": "tip",
+          "start": 78.22820846684775
+        },
+        {
+          "word": "turn",
+          "start": 78.66820804723105
+        },
+        {
+          "word": "the",
+          "start": 78.9482082570394
+        },
+        {
+          "word": "tracing",
+          "start": 79.1082081044515
+        },
+        {
+          "word": "around",
+          "start": 79.54820816167197
+        },
+        {
+          "word": "the",
+          "start": 79.86820833333334
+        },
+        {
+          "word": "centre",
+          "start": 80.02820818074545
+        },
+        {
+          "word": "without",
+          "start": 80.58820812352499
+        },
+        {
+          "word": "sliding",
+          "start": 80.98820821889242
+        },
+        {
+          "word": "it",
+          "start": 81.54820816167197
+        },
+        {
+          "word": "every",
+          "start": 81.86820833333334
+        },
+        {
+          "word": "point",
+          "start": 82.22820799001059
+        },
+        {
+          "word": "follows",
+          "start": 82.62820856221518
+        },
+        {
+          "word": "a",
+          "start": 83.1082081044515
+        },
+        {
+          "word": "circular",
+          "start": 83.26820795186362
+        },
+        {
+          "word": "path",
+          "start": 83.78820840962729
+        },
+        {
+          "word": "around",
+          "start": 84.06820814259848
+        },
+        {
+          "word": "the",
+          "start": 84.3882078374227
+        },
+        {
+          "word": "same",
+          "start": 84.54820768483481
+        },
+        {
+          "word": "fixed",
+          "start": 84.86820833333334
+        },
+        {
+          "word": "position",
+          "start": 85.26820795186362
+        },
+        {
+          "word": "the",
+          "start": 85.86820833333334
+        },
+        {
+          "word": "original",
+          "start": 86.14820806630453
+        },
+        {
+          "word": "outline",
+          "start": 86.86820833333334
+        },
+        {
+          "word": "remains",
+          "start": 87.46820776112875
+        },
+        {
+          "word": "as",
+          "start": 88.02820818074545
+        },
+        {
+          "word": "a",
+          "start": 88.18820802815756
+        },
+        {
+          "word": "reference",
+          "start": 88.30820791371664
+        },
+        {
+          "word": "for",
+          "start": 88.86820833333334
+        },
+        {
+          "word": "comparing",
+          "start": 89.02820818074545
+        },
+        {
+          "word": "the",
+          "start": 89.54820768483481
+        },
+        {
+          "word": "new",
+          "start": 89.70820753224692
+        },
+        {
+          "word": "position",
+          "start": 89.90820734151205
+        }
+      ],
+      "asr_text": " TRACE A SIMPLE SHAPE MARK A CENTRE AND HOLD THAT POINT STILL WITH A PENCIL TIP TURN THE TRACING AROUND THE CENTRE WITHOUT SLIDING IT EVERY POINT FOLLOWS A CIRCULAR PATH AROUND THE SAME FIXED POSITION THE ORIGINAL OUTLINE REMAINS AS A REFERENCE FOR COMPARING THE NEW POSITION",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Keep one centre fixed.",
+          "at": 75.74820832856497,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 73.86820833333334,
+      "motion_end": 89.90820734151205,
+      "reveal_at": 89.75820734151205,
+      "speech_end": 90.54504166666668
+    },
+    {
+      "role": "explanation",
+      "chapter": "Describe a complete rotation",
+      "text": "A useful rotation instruction names the centre, the size of the turn and its direction. A quarter turn is ninety degrees, a half turn is one hundred and eighty degrees, and a full turn is three hundred and sixty degrees. Clockwise follows the direction of clock hands.",
+      "board": [
+        "Centre • angle • direction"
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 5,
+      "start": 90.54504166666668,
+      "end": 107.29633333333334,
+      "words": [
+        {
+          "word": "a",
+          "start": 90.54504166666668
+        },
+        {
+          "word": "useful",
+          "start": 90.7050416630904
+        },
+        {
+          "word": "rotation",
+          "start": 91.22504167381923
+        },
+        {
+          "word": "instruction",
+          "start": 91.94504164282482
+        },
+        {
+          "word": "names",
+          "start": 92.66504155222576
+        },
+        {
+          "word": "the",
+          "start": 93.02504168574016
+        },
+        {
+          "word": "centre",
+          "start": 93.18504153315227
+        },
+        {
+          "word": "the",
+          "start": 93.66504155222576
+        },
+        {
+          "word": "size",
+          "start": 93.86504159990947
+        },
+        {
+          "word": "of",
+          "start": 94.2250414950053
+        },
+        {
+          "word": "the",
+          "start": 94.34504161898296
+        },
+        {
+          "word": "turn",
+          "start": 94.5850416285197
+        },
+        {
+          "word": "and",
+          "start": 94.98504172388714
+        },
+        {
+          "word": "its",
+          "start": 95.18504153315227
+        },
+        {
+          "word": "direction",
+          "start": 95.4250417811076
+        },
+        {
+          "word": "a",
+          "start": 96.18504153315227
+        },
+        {
+          "word": "quarter",
+          "start": 96.34504138056438
+        },
+        {
+          "word": "turn",
+          "start": 96.82504139963787
+        },
+        {
+          "word": "is",
+          "start": 97.14504157129925
+        },
+        {
+          "word": "ninety",
+          "start": 97.34504138056438
+        },
+        {
+          "word": "degrees",
+          "start": 97.82504139963787
+        },
+        {
+          "word": "a",
+          "start": 98.38504134241741
+        },
+        {
+          "word": "half",
+          "start": 98.5850416285197
+        },
+        {
+          "word": "turn",
+          "start": 98.8650413614909
+        },
+        {
+          "word": "is",
+          "start": 99.18504105631511
+        },
+        {
+          "word": "one",
+          "start": 99.4250417811076
+        },
+        {
+          "word": "hundred",
+          "start": 99.66504155222576
+        },
+        {
+          "word": "and",
+          "start": 100.025041208903
+        },
+        {
+          "word": "eighty",
+          "start": 100.22504101816814
+        },
+        {
+          "word": "degrees",
+          "start": 100.54504166666668
+        },
+        {
+          "word": "and",
+          "start": 101.06504117075603
+        },
+        {
+          "word": "a",
+          "start": 101.22504101816814
+        },
+        {
+          "word": "full",
+          "start": 101.34504185740154
+        },
+        {
+          "word": "turn",
+          "start": 101.66504155222576
+        },
+        {
+          "word": "is",
+          "start": 102.025041208903
+        },
+        {
+          "word": "three",
+          "start": 102.22504101816814
+        },
+        {
+          "word": "hundred",
+          "start": 102.50504170481365
+        },
+        {
+          "word": "and",
+          "start": 102.90504132334392
+        },
+        {
+          "word": "sixty",
+          "start": 103.06504117075603
+        },
+        {
+          "word": "degrees",
+          "start": 103.50504170481365
+        },
+        {
+          "word": "clockwise",
+          "start": 104.14504109446209
+        },
+        {
+          "word": "follows",
+          "start": 104.82504139963787
+        },
+        {
+          "word": "the",
+          "start": 105.26504098002117
+        },
+        {
+          "word": "direction",
+          "start": 105.50504170481365
+        },
+        {
+          "word": "of",
+          "start": 106.18504105631511
+        },
+        {
+          "word": "clock",
+          "start": 106.38504086558025
+        },
+        {
+          "word": "hands",
+          "start": 106.78504143778484
+        }
+      ],
+      "asr_text": " A USEFUL ROTATION INSTRUCTION NAMES THE CENTRE THE SIZE OF THE TURN AND ITS DIRECTION A QUARTER TURN IS NINETY DEGREES A HALF TURN IS ONE HUNDRED AND EIGHTY DEGREES AND A FULL TURN IS THREE HUNDRED AND SIXTY DEGREES CLOCKWISE FOLLOWS THE DIRECTION OF CLOCK HANDS",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Centre • angle • direction",
+          "at": 93.18504153315227,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 90.54504166666668,
+      "motion_end": 106.78504143778484,
+      "reveal_at": 106.63504143778484,
+      "speech_end": 107.29633333333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Distance from the centre",
+      "text": "During a rotation, each point keeps its own distance from the centre. Different points may have different distances, but every point turns through the same angle. This distinguishes a turn from moving corners independently. Side lengths and angles of the whole shape remain unchanged.",
+      "board": [
+        "Same distance from the centre"
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 6,
+      "start": 107.29633333333334,
+      "end": 124.42083333333333,
+      "words": [
+        {
+          "word": "during",
+          "start": 107.29633333333334
+        },
+        {
+          "word": "a",
+          "start": 107.65633331783613
+        },
+        {
+          "word": "rotation",
+          "start": 107.81633331425985
+        },
+        {
+          "word": "each",
+          "start": 108.57633330472311
+        },
+        {
+          "word": "point",
+          "start": 108.8963332379659
+        },
+        {
+          "word": "keeps",
+          "start": 109.29633333333334
+        },
+        {
+          "word": "its",
+          "start": 109.61633326657613
+        },
+        {
+          "word": "own",
+          "start": 109.85633327611288
+        },
+        {
+          "word": "distance",
+          "start": 110.09633328564962
+        },
+        {
+          "word": "from",
+          "start": 110.61633326657613
+        },
+        {
+          "word": "the",
+          "start": 110.77633335240682
+        },
+        {
+          "word": "centre",
+          "start": 110.93633319981893
+        },
+        {
+          "word": "different",
+          "start": 111.49633314259847
+        },
+        {
+          "word": "points",
+          "start": 111.97633316167196
+        },
+        {
+          "word": "may",
+          "start": 112.45633318074545
+        },
+        {
+          "word": "have",
+          "start": 112.65633299001058
+        },
+        {
+          "word": "different",
+          "start": 112.8963332379659
+        },
+        {
+          "word": "distances",
+          "start": 113.29633333333334
+        },
+        {
+          "word": "but",
+          "start": 113.97633316167196
+        },
+        {
+          "word": "every",
+          "start": 114.1763329709371
+        },
+        {
+          "word": "point",
+          "start": 114.57633306630453
+        },
+        {
+          "word": "turns",
+          "start": 114.93633319981893
+        },
+        {
+          "word": "through",
+          "start": 115.29633333333334
+        },
+        {
+          "word": "the",
+          "start": 115.45633318074545
+        },
+        {
+          "word": "same",
+          "start": 115.61633302815756
+        },
+        {
+          "word": "angle",
+          "start": 115.9763326848348
+        },
+        {
+          "word": "this",
+          "start": 116.5363331044515
+        },
+        {
+          "word": "distinguishes",
+          "start": 116.85633279927572
+        },
+        {
+          "word": "a",
+          "start": 117.73633291371664
+        },
+        {
+          "word": "turn",
+          "start": 117.93633272298177
+        },
+        {
+          "word": "from",
+          "start": 118.37633325703939
+        },
+        {
+          "word": "moving",
+          "start": 118.65633299001058
+        },
+        {
+          "word": "corners",
+          "start": 119.05633260854086
+        },
+        {
+          "word": "independently",
+          "start": 119.57633306630453
+        },
+        {
+          "word": "side",
+          "start": 120.69633295186361
+        },
+        {
+          "word": "lengths",
+          "start": 121.09633257039388
+        },
+        {
+          "word": "and",
+          "start": 121.57633306630453
+        },
+        {
+          "word": "angles",
+          "start": 121.77633287556966
+        },
+        {
+          "word": "of",
+          "start": 122.29633333333334
+        },
+        {
+          "word": "the",
+          "start": 122.41633321889242
+        },
+        {
+          "word": "whole",
+          "start": 122.57633306630453
+        },
+        {
+          "word": "shape",
+          "start": 122.81633283742269
+        },
+        {
+          "word": "remain",
+          "start": 123.13633253224691
+        },
+        {
+          "word": "unchanged",
+          "start": 123.5363331044515
+        }
+      ],
+      "asr_text": " DURING A ROTATION EACH POINT KEEPS ITS OWN DISTANCE FROM THE CENTRE DIFFERENT POINTS MAY HAVE DIFFERENT DISTANCES BUT EVERY POINT TURNS THROUGH THE SAME ANGLE THIS DISTINGUISHES A TURN FROM MOVING CORNERS INDEPENDENTLY SIDE LENGTHS AND ANGLES OF THE WHOLE SHAPE REMAIN UNCHANGED",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Same distance from the centre",
+          "at": 110.09633328564962,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 107.29633333333334,
+      "motion_end": 123.5363331044515,
+      "reveal_at": 123.3863331044515,
+      "speech_end": 124.42083333333333
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a quarter turn",
+      "text": "The centre is four, four. Point A is at six, four, directly two units to its right. Predict where A lands after a quarter turn anticlockwise. Imagine the radius turning from pointing right to pointing up, while keeping the same two-unit length.",
+      "board": [
+        "Centre (4, 4); A = (6, 4)"
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90,
+        "hide": true
+      },
+      "index": 7,
+      "start": 124.42083333333333,
+      "end": 145.17333333333335,
+      "words": [
+        {
+          "word": "the",
+          "start": 124.42083333333333
+        },
+        {
+          "word": "centre",
+          "start": 124.70083333452543
+        },
+        {
+          "word": "is",
+          "start": 125.18083332379659
+        },
+        {
+          "word": "four",
+          "start": 125.50083325703939
+        },
+        {
+          "word": "four",
+          "start": 125.8608332713445
+        },
+        {
+          "word": "pointer",
+          "start": 126.34083329041799
+        },
+        {
+          "word": "is",
+          "start": 126.90083335240682
+        },
+        {
+          "word": "at",
+          "start": 127.14083336194356
+        },
+        {
+          "word": "six",
+          "start": 127.3408331712087
+        },
+        {
+          "word": "four",
+          "start": 127.82083319028219
+        },
+        {
+          "word": "directly",
+          "start": 128.1808333237966
+        },
+        {
+          "word": "two",
+          "start": 128.8608333905538
+        },
+        {
+          "word": "units",
+          "start": 129.06083319981894
+        },
+        {
+          "word": "to",
+          "start": 129.46083329518638
+        },
+        {
+          "word": "its",
+          "start": 129.62083314259849
+        },
+        {
+          "word": "right",
+          "start": 129.90083335240683
+        },
+        {
+          "word": "predict",
+          "start": 130.38083337148032
+        },
+        {
+          "word": "where",
+          "start": 130.9808332761129
+        },
+        {
+          "word": "a",
+          "start": 131.26083300908408
+        },
+        {
+          "word": "lance",
+          "start": 131.46083329518638
+        },
+        {
+          "word": "after",
+          "start": 131.9808332761129
+        },
+        {
+          "word": "a",
+          "start": 132.26083300908408
+        },
+        {
+          "word": "quarter",
+          "start": 132.42083333333335
+        },
+        {
+          "word": "turn",
+          "start": 132.82083295186362
+        },
+        {
+          "word": "anticloic",
+          "start": 133.2208335240682
+        },
+        {
+          "word": "imagine",
+          "start": 134.42083333333335
+        },
+        {
+          "word": "the",
+          "start": 135.0608327229818
+        },
+        {
+          "word": "radius",
+          "start": 135.26083348592124
+        },
+        {
+          "word": "turning",
+          "start": 135.86083291371665
+        },
+        {
+          "word": "from",
+          "start": 136.26083348592124
+        },
+        {
+          "word": "pointing",
+          "start": 136.5008332570394
+        },
+        {
+          "word": "right",
+          "start": 136.98083279927573
+        },
+        {
+          "word": "to",
+          "start": 137.30083344777427
+        },
+        {
+          "word": "pointing",
+          "start": 137.46083329518638
+        },
+        {
+          "word": "up",
+          "start": 137.90083287556968
+        },
+        {
+          "word": "while",
+          "start": 138.0608327229818
+        },
+        {
+          "word": "keeping",
+          "start": 138.30083344777427
+        },
+        {
+          "word": "the",
+          "start": 138.70083306630454
+        },
+        {
+          "word": "same",
+          "start": 138.86083291371665
+        },
+        {
+          "word": "two",
+          "start": 139.2208325703939
+        },
+        {
+          "word": "unit",
+          "start": 139.46083329518638
+        },
+        {
+          "word": "length",
+          "start": 139.82083295186362
+        }
+      ],
+      "asr_text": " THE CENTRE IS FOUR FOUR POINTER IS AT SIX FOUR DIRECTLY TWO UNITS TO ITS RIGHT PREDICT WHERE A LANCE AFTER A QUARTER TURN ANTICLOIC IMAGINE THE RADIUS TURNING FROM POINTING RIGHT TO POINTING UP WHILE KEEPING THE SAME TWO UNIT LENGTH",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Centre (4, 4); A = (6, 4)",
+          "at": 124.42083333333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 124.42083333333333,
+      "motion_end": 139.82083295186362,
+      "reveal_at": 139.67083295186362,
+      "speech_end": 140.17333333333335
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: a quarter turn",
+      "text": "The radius turns upward, so A lands at four, six. It remains two units from the centre. The centre itself stays at four, four. Turning the whole shape means using that same quarter turn for every corner, rather than treating A as the new centre for the next point.",
+      "board": [
+        "(6, 4) → (4, 6), anticlockwise"
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 8,
+      "start": 145.17333333333335,
+      "end": 160.579125,
+      "words": [
+        {
+          "word": "the",
+          "start": 145.17333333333335
+        },
+        {
+          "word": "radius",
+          "start": 145.33333332975707
+        },
+        {
+          "word": "turns",
+          "start": 145.89333330233893
+        },
+        {
+          "word": "upward",
+          "start": 146.29333333810172
+        },
+        {
+          "word": "so",
+          "start": 146.7333332761129
+        },
+        {
+          "word": "it",
+          "start": 146.9333333237966
+        },
+        {
+          "word": "lands",
+          "start": 147.093333290418
+        },
+        {
+          "word": "at",
+          "start": 147.37333338101706
+        },
+        {
+          "word": "four",
+          "start": 147.5733331902822
+        },
+        {
+          "word": "six",
+          "start": 147.85333316167197
+        },
+        {
+          "word": "it",
+          "start": 148.33333318074546
+        },
+        {
+          "word": "remains",
+          "start": 148.5733331902822
+        },
+        {
+          "word": "two",
+          "start": 149.17333333333335
+        },
+        {
+          "word": "units",
+          "start": 149.4133331044515
+        },
+        {
+          "word": "from",
+          "start": 149.81333319981894
+        },
+        {
+          "word": "the",
+          "start": 149.97333304723105
+        },
+        {
+          "word": "centre",
+          "start": 150.13333337148032
+        },
+        {
+          "word": "the",
+          "start": 150.6133333905538
+        },
+        {
+          "word": "centre",
+          "start": 150.85333316167197
+        },
+        {
+          "word": "itself",
+          "start": 151.29333321889243
+        },
+        {
+          "word": "stays",
+          "start": 151.77333323796591
+        },
+        {
+          "word": "at",
+          "start": 152.17333333333335
+        },
+        {
+          "word": "four",
+          "start": 152.37333314259848
+        },
+        {
+          "word": "for",
+          "start": 152.69333331425986
+        },
+        {
+          "word": "turning",
+          "start": 153.09333293279013
+        },
+        {
+          "word": "the",
+          "start": 153.45333306630454
+        },
+        {
+          "word": "whole",
+          "start": 153.65333287556967
+        },
+        {
+          "word": "shape",
+          "start": 153.93333356221518
+        },
+        {
+          "word": "means",
+          "start": 154.2533332570394
+        },
+        {
+          "word": "using",
+          "start": 154.61333291371665
+        },
+        {
+          "word": "that",
+          "start": 154.9733335240682
+        },
+        {
+          "word": "same",
+          "start": 155.21333329518637
+        },
+        {
+          "word": "quarter",
+          "start": 155.5333329900106
+        },
+        {
+          "word": "turn",
+          "start": 155.93333356221518
+        },
+        {
+          "word": "for",
+          "start": 156.2533332570394
+        },
+        {
+          "word": "every",
+          "start": 156.5333329900106
+        },
+        {
+          "word": "corner",
+          "start": 156.8533326848348
+        },
+        {
+          "word": "rather",
+          "start": 157.33333318074546
+        },
+        {
+          "word": "than",
+          "start": 157.65333287556967
+        },
+        {
+          "word": "treating",
+          "start": 157.89333264668784
+        },
+        {
+          "word": "as",
+          "start": 158.57333295186362
+        },
+        {
+          "word": "the",
+          "start": 158.77333276112876
+        },
+        {
+          "word": "new",
+          "start": 158.93333260854087
+        },
+        {
+          "word": "center",
+          "start": 159.13333337148032
+        },
+        {
+          "word": "for",
+          "start": 159.57333295186362
+        },
+        {
+          "word": "the",
+          "start": 159.6933328374227
+        },
+        {
+          "word": "next",
+          "start": 159.81333272298178
+        },
+        {
+          "word": "point",
+          "start": 160.17333333333335
+        }
+      ],
+      "asr_text": " THE RADIUS TURNS UPWARD SO IT LANDS AT FOUR SIX IT REMAINS TWO UNITS FROM THE CENTRE THE CENTRE ITSELF STAYS AT FOUR FOR TURNING THE WHOLE SHAPE MEANS USING THAT SAME QUARTER TURN FOR EVERY CORNER RATHER THAN TREATING AS THE NEW CENTER FOR THE NEXT POINT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "(6, 4) → (4, 6), anticlockwise",
+          "at": 147.95333316167196,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 145.17333333333335,
+      "motion_end": 147.95333316167196,
+      "reveal_at": 147.95333316167196,
+      "speech_end": 160.579125
+    },
+    {
+      "role": "explanation",
+      "chapter": "Clockwise gives another image",
+      "text": "Starting again from six, four, a clockwise quarter turn points the radius downward. The image is four, two. Both images are the same distance from the centre, but their positions differ because the turn directions differ. Always include direction when a quarter turn could be interpreted either way.",
+      "board": [
+        "Clockwise: (6, 4) → (4, 2)"
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": -90
+      },
+      "index": 9,
+      "start": 160.579125,
+      "end": 178.77370833333333,
+      "words": [
+        {
+          "word": "starting",
+          "start": 160.579125
+        },
+        {
+          "word": "again",
+          "start": 161.1391250023842
+        },
+        {
+          "word": "from",
+          "start": 161.45912499523163
+        },
+        {
+          "word": "six",
+          "start": 161.7391249666214
+        },
+        {
+          "word": "four",
+          "start": 162.09912498092652
+        },
+        {
+          "word": "a",
+          "start": 162.41912491416932
+        },
+        {
+          "word": "clockwise",
+          "start": 162.5391249189377
+        },
+        {
+          "word": "quarter",
+          "start": 163.13912494277955
+        },
+        {
+          "word": "turn",
+          "start": 163.53912503814698
+        },
+        {
+          "word": "points",
+          "start": 163.93912489509583
+        },
+        {
+          "word": "the",
+          "start": 164.29912502861023
+        },
+        {
+          "word": "radius",
+          "start": 164.45912487602234
+        },
+        {
+          "word": "downward",
+          "start": 165.01912505722046
+        },
+        {
+          "word": "the",
+          "start": 165.61912496185303
+        },
+        {
+          "word": "image",
+          "start": 165.89912469482422
+        },
+        {
+          "word": "is",
+          "start": 166.3791247138977
+        },
+        {
+          "word": "far",
+          "start": 166.65912492370606
+        },
+        {
+          "word": "too",
+          "start": 166.97912461853028
+        },
+        {
+          "word": "both",
+          "start": 167.45912463760376
+        },
+        {
+          "word": "images",
+          "start": 167.89912469482422
+        },
+        {
+          "word": "are",
+          "start": 168.579125
+        },
+        {
+          "word": "the",
+          "start": 168.7391248474121
+        },
+        {
+          "word": "same",
+          "start": 168.89912469482422
+        },
+        {
+          "word": "distance",
+          "start": 169.25912435150147
+        },
+        {
+          "word": "from",
+          "start": 169.7391248474121
+        },
+        {
+          "word": "the",
+          "start": 169.89912469482422
+        },
+        {
+          "word": "center",
+          "start": 170.05912454223633
+        },
+        {
+          "word": "but",
+          "start": 170.49912507629395
+        },
+        {
+          "word": "their",
+          "start": 170.6991248855591
+        },
+        {
+          "word": "positions",
+          "start": 170.89912469482422
+        },
+        {
+          "word": "differ",
+          "start": 171.53912503814698
+        },
+        {
+          "word": "because",
+          "start": 171.97912461853028
+        },
+        {
+          "word": "the",
+          "start": 172.2991243133545
+        },
+        {
+          "word": "turn",
+          "start": 172.49912507629395
+        },
+        {
+          "word": "directions",
+          "start": 172.81912477111817
+        },
+        {
+          "word": "differ",
+          "start": 173.53912503814698
+        },
+        {
+          "word": "always",
+          "start": 174.0191245803833
+        },
+        {
+          "word": "include",
+          "start": 174.53912503814698
+        },
+        {
+          "word": "direction",
+          "start": 175.05912454223633
+        },
+        {
+          "word": "when",
+          "start": 175.77912480926514
+        },
+        {
+          "word": "a",
+          "start": 175.93912465667725
+        },
+        {
+          "word": "quarter",
+          "start": 176.05912454223633
+        },
+        {
+          "word": "turn",
+          "start": 176.49912507629395
+        },
+        {
+          "word": "could",
+          "start": 176.81912477111817
+        },
+        {
+          "word": "be",
+          "start": 177.05912454223633
+        },
+        {
+          "word": "interpreted",
+          "start": 177.21912438964844
+        },
+        {
+          "word": "either",
+          "start": 178.01912553405762
+        },
+        {
+          "word": "way",
+          "start": 178.4191251525879
+        }
+      ],
+      "asr_text": " STARTING AGAIN FROM SIX FOUR A CLOCKWISE QUARTER TURN POINTS THE RADIUS DOWNWARD THE IMAGE IS FAR TOO BOTH IMAGES ARE THE SAME DISTANCE FROM THE CENTER BUT THEIR POSITIONS DIFFER BECAUSE THE TURN DIRECTIONS DIFFER ALWAYS INCLUDE DIRECTION WHEN A QUARTER TURN COULD BE INTERPRETED EITHER WAY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Clockwise: (6, 4) → (4, 2)",
+          "at": 178.42370833333334,
+          "reason": "late-safe ASR fallback"
+        }
+      ],
+      "motion_start": 160.579125,
+      "motion_end": 178.4191251525879,
+      "reveal_at": 178.2691251525879,
+      "speech_end": 178.77370833333333
+    },
+    {
+      "role": "misconception",
+      "chapter": "Do not turn around the wrong point",
+      "text": "A student turns the tracing around one corner after being given the centre of the grid. The new shape may still have the same side lengths, but it is not the requested rotation. Put the pencil back on the named centre and repeat the turn. Location matters as well as angle.",
+      "board": [
+        "Use the named centre throughout."
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 10,
+      "start": 178.77370833333333,
+      "end": 195.560125,
+      "words": [
+        {
+          "word": "a",
+          "start": 178.77370833333333
+        },
+        {
+          "word": "student",
+          "start": 178.93370832975705
+        },
+        {
+          "word": "turns",
+          "start": 179.57370828564962
+        },
+        {
+          "word": "the",
+          "start": 179.8937083381017
+        },
+        {
+          "word": "tracing",
+          "start": 180.0537083047231
+        },
+        {
+          "word": "around",
+          "start": 180.61370824750264
+        },
+        {
+          "word": "one",
+          "start": 181.01370834287007
+        },
+        {
+          "word": "corner",
+          "start": 181.29370831425985
+        },
+        {
+          "word": "after",
+          "start": 181.77370833333333
+        },
+        {
+          "word": "being",
+          "start": 182.0537083047231
+        },
+        {
+          "word": "given",
+          "start": 182.3737082379659
+        },
+        {
+          "word": "the",
+          "start": 182.65370820935567
+        },
+        {
+          "word": "centre",
+          "start": 182.81370829518636
+        },
+        {
+          "word": "of",
+          "start": 183.25370835240682
+        },
+        {
+          "word": "the",
+          "start": 183.3737082379659
+        },
+        {
+          "word": "grid",
+          "start": 183.533708085378
+        },
+        {
+          "word": "the",
+          "start": 183.93370818074544
+        },
+        {
+          "word": "new",
+          "start": 184.17370842870076
+        },
+        {
+          "word": "shape",
+          "start": 184.41370819981893
+        },
+        {
+          "word": "may",
+          "start": 184.81370829518636
+        },
+        {
+          "word": "still",
+          "start": 185.0137081044515
+        },
+        {
+          "word": "have",
+          "start": 185.3737082379659
+        },
+        {
+          "word": "the",
+          "start": 185.61370800908406
+        },
+        {
+          "word": "same",
+          "start": 185.77370833333333
+        },
+        {
+          "word": "side",
+          "start": 186.13370799001058
+        },
+        {
+          "word": "length",
+          "start": 186.45370816167195
+        },
+        {
+          "word": "but",
+          "start": 186.81370829518636
+        },
+        {
+          "word": "it",
+          "start": 186.97370814259847
+        },
+        {
+          "word": "is",
+          "start": 187.13370799001058
+        },
+        {
+          "word": "not",
+          "start": 187.2937078374227
+        },
+        {
+          "word": "the",
+          "start": 187.49370860036214
+        },
+        {
+          "word": "requested",
+          "start": 187.65370844777425
+        },
+        {
+          "word": "rotation",
+          "start": 188.25370787556966
+        },
+        {
+          "word": "put",
+          "start": 189.05370806630452
+        },
+        {
+          "word": "the",
+          "start": 189.2937078374227
+        },
+        {
+          "word": "pencil",
+          "start": 189.49370764668782
+        },
+        {
+          "word": "back",
+          "start": 190.0137081044515
+        },
+        {
+          "word": "on",
+          "start": 190.2937078374227
+        },
+        {
+          "word": "the",
+          "start": 190.4537076848348
+        },
+        {
+          "word": "name",
+          "start": 190.61370848592122
+        },
+        {
+          "word": "centre",
+          "start": 190.8937082188924
+        },
+        {
+          "word": "and",
+          "start": 191.41370772298177
+        },
+        {
+          "word": "repeat",
+          "start": 191.61370848592122
+        },
+        {
+          "word": "the",
+          "start": 192.05370806630452
+        },
+        {
+          "word": "turn",
+          "start": 192.2937078374227
+        },
+        {
+          "word": "location",
+          "start": 192.81370829518636
+        },
+        {
+          "word": "matters",
+          "start": 193.81370829518636
+        },
+        {
+          "word": "as",
+          "start": 194.37370776112874
+        },
+        {
+          "word": "well",
+          "start": 194.57370757039388
+        },
+        {
+          "word": "as",
+          "start": 194.81370734151204
+        },
+        {
+          "word": "angle",
+          "start": 195.0137081044515
+        }
+      ],
+      "asr_text": " A STUDENT TURNS THE TRACING AROUND ONE CORNER AFTER BEING GIVEN THE CENTRE OF THE GRID THE NEW SHAPE MAY STILL HAVE THE SAME SIDE LENGTH BUT IT IS NOT THE REQUESTED ROTATION PUT THE PENCIL BACK ON THE NAME CENTRE AND REPEAT THE TURN LOCATION MATTERS AS WELL AS ANGLE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Use the named centre throughout.",
+          "at": 178.77370833333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 178.77370833333333,
+      "motion_end": 195.0137081044515,
+      "reveal_at": 178.77370833333333,
+      "speech_end": 195.560125
+    },
+    {
+      "role": "explanation",
+      "chapter": "What is rotational symmetry?",
+      "text": "A shape has a matching position when turning it around its centre makes it cover its original outline exactly. We count distinct matches during one full turn, including the final full-turn match. Our convention calls a shape with only that final match order one.",
+      "board": [
+        "Order = matching positions in one full turn"
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "square"
+      },
+      "index": 11,
+      "start": 195.560125,
+      "end": 211.755,
+      "words": [
+        {
+          "word": "a",
+          "start": 195.560125
+        },
+        {
+          "word": "shape",
+          "start": 195.80012499463558
+        },
+        {
+          "word": "has",
+          "start": 196.1601249642372
+        },
+        {
+          "word": "a",
+          "start": 196.32012499046326
+        },
+        {
+          "word": "matching",
+          "start": 196.44012499523163
+        },
+        {
+          "word": "position",
+          "start": 196.9201250143051
+        },
+        {
+          "word": "when",
+          "start": 197.48012495708466
+        },
+        {
+          "word": "turning",
+          "start": 197.68012488555908
+        },
+        {
+          "word": "it",
+          "start": 198.00012505722046
+        },
+        {
+          "word": "around",
+          "start": 198.16012490463257
+        },
+        {
+          "word": "its",
+          "start": 198.44012487602234
+        },
+        {
+          "word": "centre",
+          "start": 198.64012492370605
+        },
+        {
+          "word": "makes",
+          "start": 199.04012501907349
+        },
+        {
+          "word": "it",
+          "start": 199.28012502861023
+        },
+        {
+          "word": "cover",
+          "start": 199.48012483787537
+        },
+        {
+          "word": "its",
+          "start": 199.80012477111816
+        },
+        {
+          "word": "original",
+          "start": 200.12012494277954
+        },
+        {
+          "word": "outline",
+          "start": 200.76012480926514
+        },
+        {
+          "word": "exactly",
+          "start": 201.32012475204468
+        },
+        {
+          "word": "we",
+          "start": 202.04012501907349
+        },
+        {
+          "word": "count",
+          "start": 202.28012479019165
+        },
+        {
+          "word": "distinct",
+          "start": 202.68012488555908
+        },
+        {
+          "word": "matches",
+          "start": 203.28012479019165
+        },
+        {
+          "word": "during",
+          "start": 203.92012465667725
+        },
+        {
+          "word": "one",
+          "start": 204.2801252670288
+        },
+        {
+          "word": "full",
+          "start": 204.60012496185303
+        },
+        {
+          "word": "turn",
+          "start": 204.8401247329712
+        },
+        {
+          "word": "including",
+          "start": 205.20012438964844
+        },
+        {
+          "word": "the",
+          "start": 205.76012480926514
+        },
+        {
+          "word": "final",
+          "start": 205.96012461853027
+        },
+        {
+          "word": "fultern",
+          "start": 206.44012511444092
+        },
+        {
+          "word": "match",
+          "start": 207.0001245803833
+        },
+        {
+          "word": "our",
+          "start": 207.48012507629394
+        },
+        {
+          "word": "convention",
+          "start": 207.7201248474121
+        },
+        {
+          "word": "cools",
+          "start": 208.44012511444092
+        },
+        {
+          "word": "a",
+          "start": 208.8401247329712
+        },
+        {
+          "word": "shape",
+          "start": 209.0001245803833
+        },
+        {
+          "word": "with",
+          "start": 209.48012507629394
+        },
+        {
+          "word": "only",
+          "start": 209.68012488555908
+        },
+        {
+          "word": "that",
+          "start": 209.96012461853027
+        },
+        {
+          "word": "final",
+          "start": 210.24012435150146
+        },
+        {
+          "word": "match",
+          "start": 210.7201248474121
+        },
+        {
+          "word": "or",
+          "start": 211.12012446594238
+        },
+        {
+          "word": "the",
+          "start": 211.24012435150146
+        },
+        {
+          "word": "one",
+          "start": 211.44012511444092
+        }
+      ],
+      "asr_text": " A SHAPE HAS A MATCHING POSITION WHEN TURNING IT AROUND ITS CENTRE MAKES IT COVER ITS ORIGINAL OUTLINE EXACTLY WE COUNT DISTINCT MATCHES DURING ONE FULL TURN INCLUDING THE FINAL FULTERN MATCH OUR CONVENTION COOLS A SHAPE WITH ONLY THAT FINAL MATCH OR THE ONE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Order = matching positions in one full turn",
+          "at": 196.44012499523163,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 195.560125,
+      "motion_end": 211.44012511444092,
+      "reveal_at": 211.2901251144409,
+      "speech_end": 211.755
+    },
+    {
+      "role": "question",
+      "chapter": "Predict the square matches",
+      "text": "Imagine turning an unmarked square around its centre. At which quarter-turn stages will the outline cover the original? Count the matching positions during one full turn, but do not count the starting position as an extra match. Prepare to explain each position rather than guess from the number of sides.",
+      "board": [],
+      "model": {
+        "kind": "symmetry",
+        "shape": "square",
+        "hide": true
+      },
+      "index": 12,
+      "start": 211.755,
+      "end": 235.596375,
+      "words": [
+        {
+          "word": "imagine",
+          "start": 211.755
+        },
+        {
+          "word": "turning",
+          "start": 212.55499995231628
+        },
+        {
+          "word": "an",
+          "start": 212.99500000953674
+        },
+        {
+          "word": "unmarked",
+          "start": 213.23500001907348
+        },
+        {
+          "word": "square",
+          "start": 213.87499988555908
+        },
+        {
+          "word": "around",
+          "start": 214.31499994277954
+        },
+        {
+          "word": "its",
+          "start": 214.67499983787536
+        },
+        {
+          "word": "centre",
+          "start": 214.9149998474121
+        },
+        {
+          "word": "at",
+          "start": 215.43499982833862
+        },
+        {
+          "word": "which",
+          "start": 215.67499983787536
+        },
+        {
+          "word": "quarter",
+          "start": 215.95499980926513
+        },
+        {
+          "word": "turned",
+          "start": 216.3949998664856
+        },
+        {
+          "word": "stages",
+          "start": 216.71500003814697
+        },
+        {
+          "word": "will",
+          "start": 217.3949998664856
+        },
+        {
+          "word": "the",
+          "start": 217.5549997138977
+        },
+        {
+          "word": "outline",
+          "start": 217.755
+        },
+        {
+          "word": "cover",
+          "start": 218.31499994277954
+        },
+        {
+          "word": "the",
+          "start": 218.63499963760376
+        },
+        {
+          "word": "original",
+          "start": 218.83499992370605
+        },
+        {
+          "word": "count",
+          "start": 219.59499967575073
+        },
+        {
+          "word": "the",
+          "start": 219.95499980926513
+        },
+        {
+          "word": "matching",
+          "start": 220.11499965667724
+        },
+        {
+          "word": "positions",
+          "start": 220.55500019073486
+        },
+        {
+          "word": "during",
+          "start": 221.1949995803833
+        },
+        {
+          "word": "one",
+          "start": 221.5950001525879
+        },
+        {
+          "word": "full",
+          "start": 221.87499988555908
+        },
+        {
+          "word": "turn",
+          "start": 222.1949995803833
+        },
+        {
+          "word": "but",
+          "start": 222.51500022888183
+        },
+        {
+          "word": "do",
+          "start": 222.71500003814697
+        },
+        {
+          "word": "not",
+          "start": 222.87499988555908
+        },
+        {
+          "word": "count",
+          "start": 223.11499965667724
+        },
+        {
+          "word": "the",
+          "start": 223.39499938964843
+        },
+        {
+          "word": "starting",
+          "start": 223.51499927520751
+        },
+        {
+          "word": "position",
+          "start": 223.99499977111816
+        },
+        {
+          "word": "as",
+          "start": 224.5950001525879
+        },
+        {
+          "word": "an",
+          "start": 224.79499996185302
+        },
+        {
+          "word": "extra",
+          "start": 224.95499980926513
+        },
+        {
+          "word": "match",
+          "start": 225.39499938964843
+        },
+        {
+          "word": "prepare",
+          "start": 225.83499992370605
+        },
+        {
+          "word": "to",
+          "start": 226.43499935150146
+        },
+        {
+          "word": "explain",
+          "start": 226.6350001144409
+        },
+        {
+          "word": "each",
+          "start": 227.31499946594238
+        },
+        {
+          "word": "position",
+          "start": 227.6350001144409
+        },
+        {
+          "word": "rather",
+          "start": 228.27500045776367
+        },
+        {
+          "word": "than",
+          "start": 228.6349991607666
+        },
+        {
+          "word": "guess",
+          "start": 228.87499893188476
+        },
+        {
+          "word": "from",
+          "start": 229.1950005340576
+        },
+        {
+          "word": "the",
+          "start": 229.35500038146972
+        },
+        {
+          "word": "number",
+          "start": 229.4749993133545
+        },
+        {
+          "word": "of",
+          "start": 229.7949990081787
+        },
+        {
+          "word": "sides",
+          "start": 229.99499977111816
+        }
+      ],
+      "asr_text": " IMAGINE TURNING AN UNMARKED SQUARE AROUND ITS CENTRE AT WHICH QUARTER TURNED STAGES WILL THE OUTLINE COVER THE ORIGINAL COUNT THE MATCHING POSITIONS DURING ONE FULL TURN BUT DO NOT COUNT THE STARTING POSITION AS AN EXTRA MATCH PREPARE TO EXPLAIN EACH POSITION RATHER THAN GUESS FROM THE NUMBER OF SIDES",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 211.755,
+      "motion_end": 229.99499977111816,
+      "reveal_at": 229.84499977111815,
+      "speech_end": 230.596375
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: square symmetry",
+      "text": "The square matches after ninety, one hundred and eighty, two hundred and seventy, and three hundred and sixty degrees. That gives rotational symmetry of order four. We count the full-turn match once. Counting both zero degrees and the full turn as separate end positions would incorrectly give five.",
+      "board": [
+        "Square: 4 matches, order 4"
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "square"
+      },
+      "index": 13,
+      "start": 235.596375,
+      "end": 253.59945833333333,
+      "words": [
+        {
+          "word": "the",
+          "start": 235.596375
+        },
+        {
+          "word": "square",
+          "start": 235.75637499642372
+        },
+        {
+          "word": "matches",
+          "start": 236.15637500238418
+        },
+        {
+          "word": "after",
+          "start": 236.7563749666214
+        },
+        {
+          "word": "ninety",
+          "start": 237.07637501907348
+        },
+        {
+          "word": "one",
+          "start": 237.63637496185302
+        },
+        {
+          "word": "hundred",
+          "start": 237.87637497138977
+        },
+        {
+          "word": "and",
+          "start": 238.27637482833862
+        },
+        {
+          "word": "eighty",
+          "start": 238.4363749141693
+        },
+        {
+          "word": "two",
+          "start": 238.83637500953674
+        },
+        {
+          "word": "hundred",
+          "start": 239.07637501907348
+        },
+        {
+          "word": "and",
+          "start": 239.39637495231628
+        },
+        {
+          "word": "seventy",
+          "start": 239.5563747997284
+        },
+        {
+          "word": "and",
+          "start": 240.07637501907348
+        },
+        {
+          "word": "three",
+          "start": 240.2363748664856
+        },
+        {
+          "word": "hundred",
+          "start": 240.4763751144409
+        },
+        {
+          "word": "and",
+          "start": 240.8763747329712
+        },
+        {
+          "word": "sixty",
+          "start": 241.03637505722045
+        },
+        {
+          "word": "degrees",
+          "start": 241.43637467575073
+        },
+        {
+          "word": "that",
+          "start": 242.15637494277954
+        },
+        {
+          "word": "gives",
+          "start": 242.3963747138977
+        },
+        {
+          "word": "rotational",
+          "start": 242.83637477111816
+        },
+        {
+          "word": "symmetry",
+          "start": 243.67637492370605
+        },
+        {
+          "word": "of",
+          "start": 244.35637522888183
+        },
+        {
+          "word": "audu",
+          "start": 244.55637503814697
+        },
+        {
+          "word": "four",
+          "start": 244.8763747329712
+        },
+        {
+          "word": "we",
+          "start": 245.3163743133545
+        },
+        {
+          "word": "count",
+          "start": 245.55637503814697
+        },
+        {
+          "word": "the",
+          "start": 245.8763747329712
+        },
+        {
+          "word": "full",
+          "start": 246.11637450408935
+        },
+        {
+          "word": "turned",
+          "start": 246.3163743133545
+        },
+        {
+          "word": "match",
+          "start": 246.63637496185302
+        },
+        {
+          "word": "once",
+          "start": 247.0363745803833
+        },
+        {
+          "word": "counting",
+          "start": 247.51637507629394
+        },
+        {
+          "word": "both",
+          "start": 248.0363745803833
+        },
+        {
+          "word": "zero",
+          "start": 248.39637423706054
+        },
+        {
+          "word": "degrees",
+          "start": 248.83637477111816
+        },
+        {
+          "word": "and",
+          "start": 249.39637423706054
+        },
+        {
+          "word": "the",
+          "start": 249.55637503814697
+        },
+        {
+          "word": "full",
+          "start": 249.7563748474121
+        },
+        {
+          "word": "turn",
+          "start": 250.0363745803833
+        },
+        {
+          "word": "as",
+          "start": 250.43637419891357
+        },
+        {
+          "word": "separate",
+          "start": 250.67637492370605
+        },
+        {
+          "word": "end",
+          "start": 251.11637450408935
+        },
+        {
+          "word": "positions",
+          "start": 251.3163743133545
+        },
+        {
+          "word": "would",
+          "start": 251.95637370300292
+        },
+        {
+          "word": "incorrectly",
+          "start": 252.15637446594238
+        },
+        {
+          "word": "give",
+          "start": 252.87637377929687
+        },
+        {
+          "word": "five",
+          "start": 253.15637446594238
+        }
+      ],
+      "asr_text": " THE SQUARE MATCHES AFTER NINETY ONE HUNDRED AND EIGHTY TWO HUNDRED AND SEVENTY AND THREE HUNDRED AND SIXTY DEGREES THAT GIVES ROTATIONAL SYMMETRY OF AUDU FOUR WE COUNT THE FULL TURNED MATCH ONCE COUNTING BOTH ZERO DEGREES AND THE FULL TURN AS SEPARATE END POSITIONS WOULD INCORRECTLY GIVE FIVE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Square: 4 matches, order 4",
+          "at": 244.97637473297118,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 235.596375,
+      "motion_end": 244.97637473297118,
+      "reveal_at": 244.97637473297118,
+      "speech_end": 253.59945833333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Compare a non-square rectangle",
+      "text": "A non-square rectangle fails to match after a quarter turn because its long direction has become its short direction. It matches after a half turn and after a full turn. There are two matching positions in one full turn, so its rotational symmetry has order two.",
+      "board": [
+        "Non-square rectangle: order 2"
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "rectangle"
+      },
+      "index": 14,
+      "start": 253.59945833333333,
+      "end": 269.962,
+      "words": [
+        {
+          "word": "a",
+          "start": 253.59945833333333
+        },
+        {
+          "word": "non",
+          "start": 253.75945832975705
+        },
+        {
+          "word": "square",
+          "start": 254.03945833094915
+        },
+        {
+          "word": "rectangle",
+          "start": 254.47945832856496
+        },
+        {
+          "word": "fails",
+          "start": 255.1994582379659
+        },
+        {
+          "word": "to",
+          "start": 255.559458252271
+        },
+        {
+          "word": "march",
+          "start": 255.75945818074544
+        },
+        {
+          "word": "after",
+          "start": 256.1594582761129
+        },
+        {
+          "word": "a",
+          "start": 256.39945828564964
+        },
+        {
+          "word": "quarter",
+          "start": 256.5194581712087
+        },
+        {
+          "word": "turn",
+          "start": 256.91945826657616
+        },
+        {
+          "word": "because",
+          "start": 257.279458161672
+        },
+        {
+          "word": "its",
+          "start": 257.55945813306175
+        },
+        {
+          "word": "long",
+          "start": 257.8394581044515
+        },
+        {
+          "word": "direction",
+          "start": 258.1594582761129
+        },
+        {
+          "word": "has",
+          "start": 258.7994581425985
+        },
+        {
+          "word": "become",
+          "start": 259.0394583905538
+        },
+        {
+          "word": "its",
+          "start": 259.39945804723106
+        },
+        {
+          "word": "short",
+          "start": 259.6394582951864
+        },
+        {
+          "word": "direction",
+          "start": 259.99945795186363
+        },
+        {
+          "word": "it",
+          "start": 260.71945821889244
+        },
+        {
+          "word": "matches",
+          "start": 260.9594579900106
+        },
+        {
+          "word": "after",
+          "start": 261.59945833333336
+        },
+        {
+          "word": "a",
+          "start": 261.9194580281576
+        },
+        {
+          "word": "half",
+          "start": 262.1194578374227
+        },
+        {
+          "word": "turn",
+          "start": 262.43945848592125
+        },
+        {
+          "word": "and",
+          "start": 262.87945806630455
+        },
+        {
+          "word": "after",
+          "start": 263.1194578374227
+        },
+        {
+          "word": "a",
+          "start": 263.3994585240682
+        },
+        {
+          "word": "full",
+          "start": 263.59945833333336
+        },
+        {
+          "word": "turn",
+          "start": 263.87945806630455
+        },
+        {
+          "word": "there",
+          "start": 264.31945764668785
+        },
+        {
+          "word": "are",
+          "start": 264.55945837148033
+        },
+        {
+          "word": "two",
+          "start": 264.75945818074547
+        },
+        {
+          "word": "matching",
+          "start": 265.03945791371666
+        },
+        {
+          "word": "positions",
+          "start": 265.5194584096273
+        },
+        {
+          "word": "in",
+          "start": 266.15945779927574
+        },
+        {
+          "word": "one",
+          "start": 266.31945764668785
+        },
+        {
+          "word": "full",
+          "start": 266.59945833333336
+        },
+        {
+          "word": "turn",
+          "start": 266.8394581044515
+        },
+        {
+          "word": "so",
+          "start": 267.15945779927574
+        },
+        {
+          "word": "its",
+          "start": 267.3594576085409
+        },
+        {
+          "word": "rotational",
+          "start": 267.59945833333336
+        },
+        {
+          "word": "symmetry",
+          "start": 268.3594576085409
+        },
+        {
+          "word": "has",
+          "start": 268.99945795186363
+        },
+        {
+          "word": "order",
+          "start": 269.2394577229818
+        },
+        {
+          "word": "to",
+          "start": 269.59945833333336
+        }
+      ],
+      "asr_text": " A NON SQUARE RECTANGLE FAILS TO MARCH AFTER A QUARTER TURN BECAUSE ITS LONG DIRECTION HAS BECOME ITS SHORT DIRECTION IT MATCHES AFTER A HALF TURN AND AFTER A FULL TURN THERE ARE TWO MATCHING POSITIONS IN ONE FULL TURN SO ITS ROTATIONAL SYMMETRY HAS ORDER TO",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Non-square rectangle: order 2",
+          "at": 264.85945818074543,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 253.59945833333333,
+      "motion_end": 269.59945833333336,
+      "reveal_at": 269.4494583333334,
+      "speech_end": 269.962
+    },
+    {
+      "role": "explanation",
+      "chapter": "Rotation and reflection differ",
+      "text": "A reflection uses a mirror line and reverses orientation. A rotation uses a centre and a turn direction. A shape may have both kinds of symmetry, but a line of reflection is not a centre of rotation. Name the transformation before explaining what stays the same.",
+      "board": [
+        "Reflection: line. Rotation: centre."
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "rectangle"
+      },
+      "index": 15,
+      "start": 269.962,
+      "end": 287.304,
+      "words": [
+        {
+          "word": "a",
+          "start": 269.962
+        },
+        {
+          "word": "reflection",
+          "start": 270.1219999964237
+        },
+        {
+          "word": "uses",
+          "start": 270.962
+        },
+        {
+          "word": "a",
+          "start": 271.40199993801116
+        },
+        {
+          "word": "mirror",
+          "start": 271.56199990463256
+        },
+        {
+          "word": "line",
+          "start": 271.9219999189377
+        },
+        {
+          "word": "and",
+          "start": 272.2819999332428
+        },
+        {
+          "word": "reverses",
+          "start": 272.4420000190735
+        },
+        {
+          "word": "orientation",
+          "start": 273.1219998474121
+        },
+        {
+          "word": "a",
+          "start": 274.1219998474121
+        },
+        {
+          "word": "rotation",
+          "start": 274.2819996948242
+        },
+        {
+          "word": "uses",
+          "start": 275.1219998474121
+        },
+        {
+          "word": "a",
+          "start": 275.6019998664856
+        },
+        {
+          "word": "centre",
+          "start": 275.7619997138977
+        },
+        {
+          "word": "and",
+          "start": 276.32199965667724
+        },
+        {
+          "word": "a",
+          "start": 276.4819999809265
+        },
+        {
+          "word": "turn",
+          "start": 276.6419998283386
+        },
+        {
+          "word": "direction",
+          "start": 277.001999961853
+        },
+        {
+          "word": "a",
+          "start": 277.7619997138977
+        },
+        {
+          "word": "shape",
+          "start": 278.001999961853
+        },
+        {
+          "word": "may",
+          "start": 278.4019995803833
+        },
+        {
+          "word": "have",
+          "start": 278.6019993896484
+        },
+        {
+          "word": "both",
+          "start": 278.8420001144409
+        },
+        {
+          "word": "kinds",
+          "start": 279.1619998092651
+        },
+        {
+          "word": "of",
+          "start": 279.4419995422363
+        },
+        {
+          "word": "symmetry",
+          "start": 279.5619994277954
+        },
+        {
+          "word": "but",
+          "start": 280.08199988555907
+        },
+        {
+          "word": "a",
+          "start": 280.2419997329712
+        },
+        {
+          "word": "line",
+          "start": 280.36199961853026
+        },
+        {
+          "word": "of",
+          "start": 280.6019993896484
+        },
+        {
+          "word": "reflection",
+          "start": 280.7220002288818
+        },
+        {
+          "word": "is",
+          "start": 281.4419995422363
+        },
+        {
+          "word": "not",
+          "start": 281.64199935150145
+        },
+        {
+          "word": "a",
+          "start": 281.88200007629393
+        },
+        {
+          "word": "centre",
+          "start": 282.001999961853
+        },
+        {
+          "word": "of",
+          "start": 282.4419995422363
+        },
+        {
+          "word": "rotation",
+          "start": 282.6019993896484
+        },
+        {
+          "word": "name",
+          "start": 283.5219994659424
+        },
+        {
+          "word": "the",
+          "start": 283.8420001144409
+        },
+        {
+          "word": "transformation",
+          "start": 284.04199992370604
+        },
+        {
+          "word": "before",
+          "start": 285.08199988555907
+        },
+        {
+          "word": "explaining",
+          "start": 285.4019995803833
+        },
+        {
+          "word": "what",
+          "start": 286.1219998474121
+        },
+        {
+          "word": "stays",
+          "start": 286.3219987030029
+        },
+        {
+          "word": "the",
+          "start": 286.7220002288818
+        },
+        {
+          "word": "same",
+          "start": 286.92199908447265
+        }
+      ],
+      "asr_text": " A REFLECTION USES A MIRROR LINE AND REVERSES ORIENTATION A ROTATION USES A CENTRE AND A TURN DIRECTION A SHAPE MAY HAVE BOTH KINDS OF SYMMETRY BUT A LINE OF REFLECTION IS NOT A CENTRE OF ROTATION NAME THE TRANSFORMATION BEFORE EXPLAINING WHAT STAYS THE SAME",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Reflection: line. Rotation: centre.",
+          "at": 270.1219999964237,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 269.962,
+      "motion_end": 286.92199908447265,
+      "reveal_at": 286.77199908447267,
+      "speech_end": 287.304
+    },
+    {
+      "role": "explanation",
+      "chapter": "Test an asymmetric shape",
+      "text": "An ordinary uneven shape may only match after one full turn. Under our convention that is order one. Do not assume every shape has a useful smaller matching turn. Tracing the outline and testing a complete revolution gives evidence, while looking at one corner usually does not.",
+      "board": [
+        "Only a full-turn match: order 1"
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "asymmetric"
+      },
+      "index": 16,
+      "start": 287.304,
+      "end": 305.2009583333333,
+      "words": [
+        {
+          "word": "an",
+          "start": 287.304
+        },
+        {
+          "word": "ordinary",
+          "start": 287.54399999463556
+        },
+        {
+          "word": "uneven",
+          "start": 288.304
+        },
+        {
+          "word": "shape",
+          "start": 288.8639999427795
+        },
+        {
+          "word": "may",
+          "start": 289.343999961853
+        },
+        {
+          "word": "only",
+          "start": 289.58399997138974
+        },
+        {
+          "word": "match",
+          "start": 289.90399990463254
+        },
+        {
+          "word": "after",
+          "start": 290.304
+        },
+        {
+          "word": "one",
+          "start": 290.58399997138974
+        },
+        {
+          "word": "full",
+          "start": 290.8639999427795
+        },
+        {
+          "word": "turn",
+          "start": 291.1439999141693
+        },
+        {
+          "word": "under",
+          "start": 291.58399973297117
+        },
+        {
+          "word": "our",
+          "start": 291.94399986648557
+        },
+        {
+          "word": "convention",
+          "start": 292.1439996757507
+        },
+        {
+          "word": "that",
+          "start": 292.8639999427795
+        },
+        {
+          "word": "is",
+          "start": 293.06399975204465
+        },
+        {
+          "word": "order",
+          "start": 293.383999923706
+        },
+        {
+          "word": "one",
+          "start": 293.70399961853025
+        },
+        {
+          "word": "do",
+          "start": 294.06399975204465
+        },
+        {
+          "word": "not",
+          "start": 294.26400003814695
+        },
+        {
+          "word": "assume",
+          "start": 294.54399977111814
+        },
+        {
+          "word": "every",
+          "start": 295.1039997138977
+        },
+        {
+          "word": "shape",
+          "start": 295.42399988555906
+        },
+        {
+          "word": "has",
+          "start": 295.7839995422363
+        },
+        {
+          "word": "a",
+          "start": 295.98399935150144
+        },
+        {
+          "word": "useful",
+          "start": 296.14400015258786
+        },
+        {
+          "word": "smaller",
+          "start": 296.70399961853025
+        },
+        {
+          "word": "matching",
+          "start": 297.10400019073484
+        },
+        {
+          "word": "turn",
+          "start": 297.58399973297117
+        },
+        {
+          "word": "tracing",
+          "start": 298.02399931335447
+        },
+        {
+          "word": "the",
+          "start": 298.5039998092651
+        },
+        {
+          "word": "outline",
+          "start": 298.7439995803833
+        },
+        {
+          "word": "and",
+          "start": 299.383999923706
+        },
+        {
+          "word": "testing",
+          "start": 299.6239996948242
+        },
+        {
+          "word": "a",
+          "start": 300.1840001144409
+        },
+        {
+          "word": "complete",
+          "start": 300.343999961853
+        },
+        {
+          "word": "revolution",
+          "start": 300.86399946594236
+        },
+        {
+          "word": "gives",
+          "start": 301.6239996948242
+        },
+        {
+          "word": "evidence",
+          "start": 301.98399935150144
+        },
+        {
+          "word": "while",
+          "start": 302.5039998092651
+        },
+        {
+          "word": "looking",
+          "start": 302.7439995803833
+        },
+        {
+          "word": "at",
+          "start": 303.1039992370605
+        },
+        {
+          "word": "one",
+          "start": 303.26400003814695
+        },
+        {
+          "word": "corner",
+          "start": 303.54399977111814
+        },
+        {
+          "word": "usually",
+          "start": 304.1039992370605
+        },
+        {
+          "word": "does",
+          "start": 304.6639987030029
+        },
+        {
+          "word": "not",
+          "start": 304.9040003814697
+        }
+      ],
+      "asr_text": " AN ORDINARY UNEVEN SHAPE MAY ONLY MATCH AFTER ONE FULL TURN UNDER OUR CONVENTION THAT IS ORDER ONE DO NOT ASSUME EVERY SHAPE HAS A USEFUL SMALLER MATCHING TURN TRACING THE OUTLINE AND TESTING A COMPLETE REVOLUTION GIVES EVIDENCE WHILE LOOKING AT ONE CORNER USUALLY DOES NOT",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Only a full-turn match: order 1",
+          "at": 290.68399997138977,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 287.304,
+      "motion_end": 304.9040003814697,
+      "reveal_at": 304.7540003814697,
+      "speech_end": 305.2009583333333
+    },
+    {
+      "role": "question",
+      "chapter": "Independent symmetry check",
+      "text": "A student says a non-square rectangle has order four because it has four sides. Test that claim with a quarter turn. Will a long horizontal edge cover a short vertical edge? Decide which matching turns are actually supported by the whole outline.",
+      "board": [],
+      "model": {
+        "kind": "symmetry",
+        "shape": "rectangle",
+        "hide": true
+      },
+      "index": 17,
+      "start": 305.2009583333333,
+      "end": 326.3798333333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 305.2009583333333
+        },
+        {
+          "word": "student",
+          "start": 305.360958329757
+        },
+        {
+          "word": "says",
+          "start": 305.96095832379655
+        },
+        {
+          "word": "a",
+          "start": 306.32095833810166
+        },
+        {
+          "word": "non",
+          "start": 306.5209582665761
+        },
+        {
+          "word": "square",
+          "start": 306.80095823796586
+        },
+        {
+          "word": "rectangle",
+          "start": 307.2009583333333
+        },
+        {
+          "word": "has",
+          "start": 307.9209583619435
+        },
+        {
+          "word": "order",
+          "start": 308.2009583333333
+        },
+        {
+          "word": "four",
+          "start": 308.5209582665761
+        },
+        {
+          "word": "because",
+          "start": 308.8809581616719
+        },
+        {
+          "word": "it",
+          "start": 309.2009583333333
+        },
+        {
+          "word": "has",
+          "start": 309.3609581807454
+        },
+        {
+          "word": "four",
+          "start": 309.64095839055375
+        },
+        {
+          "word": "sides",
+          "start": 309.96095808537797
+        },
+        {
+          "word": "dest",
+          "start": 310.6809583524068
+        },
+        {
+          "word": "that",
+          "start": 311.08095797093705
+        },
+        {
+          "word": "claim",
+          "start": 311.3209582188924
+        },
+        {
+          "word": "with",
+          "start": 311.6809583524068
+        },
+        {
+          "word": "a",
+          "start": 311.80095823796586
+        },
+        {
+          "word": "quarter",
+          "start": 311.96095808537797
+        },
+        {
+          "word": "turn",
+          "start": 312.4009581425984
+        },
+        {
+          "word": "will",
+          "start": 312.92095812352494
+        },
+        {
+          "word": "a",
+          "start": 313.16095837148026
+        },
+        {
+          "word": "long",
+          "start": 313.3609581807454
+        },
+        {
+          "word": "horizontal",
+          "start": 313.72095783742265
+        },
+        {
+          "word": "edge",
+          "start": 314.4809580663045
+        },
+        {
+          "word": "cover",
+          "start": 314.8409577229817
+        },
+        {
+          "word": "a",
+          "start": 315.2009583333333
+        },
+        {
+          "word": "short",
+          "start": 315.3609581807454
+        },
+        {
+          "word": "vertical",
+          "start": 315.72095783742265
+        },
+        {
+          "word": "edge",
+          "start": 316.3209582188924
+        },
+        {
+          "word": "decide",
+          "start": 316.88095768483475
+        },
+        {
+          "word": "which",
+          "start": 317.4809580663045
+        },
+        {
+          "word": "matching",
+          "start": 317.7609577992757
+        },
+        {
+          "word": "turns",
+          "start": 318.3209582188924
+        },
+        {
+          "word": "are",
+          "start": 318.8009577611287
+        },
+        {
+          "word": "actually",
+          "start": 319.00095757039384
+        },
+        {
+          "word": "supported",
+          "start": 319.56095799001054
+        },
+        {
+          "word": "by",
+          "start": 320.0809584477742
+        },
+        {
+          "word": "the",
+          "start": 320.2409582951863
+        },
+        {
+          "word": "whole",
+          "start": 320.44095810445145
+        },
+        {
+          "word": "outline",
+          "start": 320.72095783742265
+        }
+      ],
+      "asr_text": " A STUDENT SAYS A NON SQUARE RECTANGLE HAS ORDER FOUR BECAUSE IT HAS FOUR SIDES DEST THAT CLAIM WITH A QUARTER TURN WILL A LONG HORIZONTAL EDGE COVER A SHORT VERTICAL EDGE DECIDE WHICH MATCHING TURNS ARE ACTUALLY SUPPORTED BY THE WHOLE OUTLINE",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 305.2009583333333,
+      "motion_end": 320.72095783742265,
+      "reveal_at": 320.57095783742267,
+      "speech_end": 321.3798333333333
+    },
+    {
+      "role": "answer",
+      "chapter": "Use matching outlines as evidence",
+      "text": "The rectangle does not match after a quarter turn, so four sides do not prove order four. The half-turn and full-turn positions do match, giving order two. The order is determined by exact covering positions around a centre, not simply by a count of sides or corners.",
+      "board": [
+        "Non-square rectangle: half turn and full turn"
+      ],
+      "model": {
+        "kind": "symmetry",
+        "shape": "rectangle"
+      },
+      "index": 18,
+      "start": 326.3798333333333,
+      "end": 342.8148333333333,
+      "words": [
+        {
+          "word": "the",
+          "start": 326.3798333333333
+        },
+        {
+          "word": "rectangle",
+          "start": 326.539833329757
+        },
+        {
+          "word": "does",
+          "start": 327.2598333285649
+        },
+        {
+          "word": "not",
+          "start": 327.49983333810167
+        },
+        {
+          "word": "match",
+          "start": 327.77983330949144
+        },
+        {
+          "word": "after",
+          "start": 328.1798332856496
+        },
+        {
+          "word": "a",
+          "start": 328.4198332951863
+        },
+        {
+          "word": "quarter",
+          "start": 328.579833381017
+        },
+        {
+          "word": "turn",
+          "start": 328.97983323796586
+        },
+        {
+          "word": "so",
+          "start": 329.33983337148027
+        },
+        {
+          "word": "four",
+          "start": 329.57983314259843
+        },
+        {
+          "word": "sides",
+          "start": 329.8998333142598
+        },
+        {
+          "word": "do",
+          "start": 330.3398331330617
+        },
+        {
+          "word": "not",
+          "start": 330.5398331807454
+        },
+        {
+          "word": "prove",
+          "start": 330.7398334668477
+        },
+        {
+          "word": "orderful",
+          "start": 331.0598331616719
+        },
+        {
+          "word": "the",
+          "start": 331.73983299001054
+        },
+        {
+          "word": "half",
+          "start": 331.97983323796586
+        },
+        {
+          "word": "turn",
+          "start": 332.29983340962724
+        },
+        {
+          "word": "and",
+          "start": 332.6598330663045
+        },
+        {
+          "word": "full",
+          "start": 332.8998333142598
+        },
+        {
+          "word": "turned",
+          "start": 333.139833085378
+        },
+        {
+          "word": "positions",
+          "start": 333.45983325703935
+        },
+        {
+          "word": "too",
+          "start": 334.09983312352495
+        },
+        {
+          "word": "much",
+          "start": 334.33983337148027
+        },
+        {
+          "word": "giving",
+          "start": 334.77983295186357
+        },
+        {
+          "word": "order",
+          "start": 335.13983356221513
+        },
+        {
+          "word": "two",
+          "start": 335.4998332188924
+        },
+        {
+          "word": "the",
+          "start": 335.8198329137166
+        },
+        {
+          "word": "order",
+          "start": 336.01983272298173
+        },
+        {
+          "word": "is",
+          "start": 336.3798333333333
+        },
+        {
+          "word": "determined",
+          "start": 336.57983314259843
+        },
+        {
+          "word": "by",
+          "start": 337.2198334859212
+        },
+        {
+          "word": "exact",
+          "start": 337.45983325703935
+        },
+        {
+          "word": "covering",
+          "start": 338.05983268483476
+        },
+        {
+          "word": "positions",
+          "start": 338.45983325703935
+        },
+        {
+          "word": "around",
+          "start": 339.0998326466878
+        },
+        {
+          "word": "the",
+          "start": 339.3798333333333
+        },
+        {
+          "word": "centre",
+          "start": 339.5398331807454
+        },
+        {
+          "word": "not",
+          "start": 339.9798327611287
+        },
+        {
+          "word": "simply",
+          "start": 340.2198334859212
+        },
+        {
+          "word": "by",
+          "start": 340.6598330663045
+        },
+        {
+          "word": "account",
+          "start": 340.8598328755696
+        },
+        {
+          "word": "of",
+          "start": 341.29983340962724
+        },
+        {
+          "word": "sides",
+          "start": 341.4998332188924
+        },
+        {
+          "word": "or",
+          "start": 341.9798327611287
+        },
+        {
+          "word": "corners",
+          "start": 342.17983257039384
+        }
+      ],
+      "asr_text": " THE RECTANGLE DOES NOT MATCH AFTER A QUARTER TURN SO FOUR SIDES DO NOT PROVE ORDERFUL THE HALF TURN AND FULL TURNED POSITIONS TOO MUCH GIVING ORDER TWO THE ORDER IS DETERMINED BY EXACT COVERING POSITIONS AROUND THE CENTRE NOT SIMPLY BY ACCOUNT OF SIDES OR CORNERS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Non-square rectangle: half turn and full turn",
+          "at": 326.539833329757,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 326.3798333333333,
+      "motion_end": 342.17983257039384,
+      "reveal_at": 342.02983257039386,
+      "speech_end": 342.8148333333333
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Describe turns and test rotational symmetry. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can name the centre and turn.",
+        "I can track corresponding points.",
+        "I can count matching positions."
+      ],
+      "model": {
+        "kind": "rotate",
+        "angle": 90
+      },
+      "index": 19,
+      "start": 342.8148333333333,
+      "end": 363.9015833333333,
+      "words": [
+        {
+          "word": "return",
+          "start": 342.8148333333333
+        },
+        {
+          "word": "to",
+          "start": 343.3748333357175
+        },
+        {
+          "word": "our",
+          "start": 343.6148332856496
+        },
+        {
+          "word": "learning",
+          "start": 343.8148333333333
+        },
+        {
+          "word": "goal",
+          "start": 344.25483327134447
+        },
+        {
+          "word": "describe",
+          "start": 344.6148332856496
+        },
+        {
+          "word": "turns",
+          "start": 345.3348333142598
+        },
+        {
+          "word": "and",
+          "start": 345.8148333333333
+        },
+        {
+          "word": "test",
+          "start": 346.01483314259843
+        },
+        {
+          "word": "rotational",
+          "start": 346.3348333142598
+        },
+        {
+          "word": "symmetry",
+          "start": 347.05483310445146
+        },
+        {
+          "word": "choose",
+          "start": 347.6948334477742
+        },
+        {
+          "word": "one",
+          "start": 348.17483299001054
+        },
+        {
+          "word": "example",
+          "start": 348.41483323796587
+        },
+        {
+          "word": "from",
+          "start": 348.9748331807454
+        },
+        {
+          "word": "to",
+          "start": 349.1348330281575
+        },
+        {
+          "word": "day",
+          "start": 349.3348333142598
+        },
+        {
+          "word": "and",
+          "start": 349.574833085378
+        },
+        {
+          "word": "explain",
+          "start": 349.77483337148027
+        },
+        {
+          "word": "the",
+          "start": 350.21483295186357
+        },
+        {
+          "word": "evidence",
+          "start": 350.37483327611284
+        },
+        {
+          "word": "that",
+          "start": 350.89483325703935
+        },
+        {
+          "word": "made",
+          "start": 351.0948330663045
+        },
+        {
+          "word": "its",
+          "start": 351.33483283742265
+        },
+        {
+          "word": "answer",
+          "start": 351.57483356221513
+        },
+        {
+          "word": "convincing",
+          "start": 351.9348332188924
+        },
+        {
+          "word": "which",
+          "start": 352.73483340962724
+        },
+        {
+          "word": "about",
+          "start": 352.9748331807454
+        },
+        {
+          "word": "three",
+          "start": 353.3748327992757
+        },
+        {
+          "word": "success",
+          "start": 353.6548334859212
+        },
+        {
+          "word": "criteria",
+          "start": 354.21483295186357
+        },
+        {
+          "word": "feels",
+          "start": 354.9348332188924
+        },
+        {
+          "word": "secure",
+          "start": 355.2948328755696
+        },
+        {
+          "word": "and",
+          "start": 355.73483340962724
+        },
+        {
+          "word": "which",
+          "start": 355.89483325703935
+        },
+        {
+          "word": "needs",
+          "start": 356.0948330663045
+        },
+        {
+          "word": "another",
+          "start": 356.45483272298173
+        },
+        {
+          "word": "try",
+          "start": 356.89483325703935
+        },
+        {
+          "word": "revisit",
+          "start": 357.3748327992757
+        },
+        {
+          "word": "a",
+          "start": 357.89483325703935
+        },
+        {
+          "word": "model",
+          "start": 358.01483314259843
+        },
+        {
+          "word": "test",
+          "start": 358.4148327611287
+        },
+        {
+          "word": "your",
+          "start": 358.73483340962724
+        },
+        {
+          "word": "explanation",
+          "start": 358.93483226521806
+        },
+        {
+          "word": "with",
+          "start": 359.6948324940999
+        },
+        {
+          "word": "a",
+          "start": 359.854832341512
+        },
+        {
+          "word": "partner",
+          "start": 360.05483310445146
+        },
+        {
+          "word": "and",
+          "start": 360.45483272298173
+        },
+        {
+          "word": "describe",
+          "start": 360.6548334859212
+        },
+        {
+          "word": "one",
+          "start": 361.21483295186357
+        },
+        {
+          "word": "mistake",
+          "start": 361.45483272298173
+        },
+        {
+          "word": "you",
+          "start": 361.9748331807454
+        },
+        {
+          "word": "can",
+          "start": 362.1748320363362
+        },
+        {
+          "word": "now",
+          "start": 362.3748327992757
+        },
+        {
+          "word": "notice",
+          "start": 362.6548334859212
+        },
+        {
+          "word": "and",
+          "start": 363.1348330281575
+        },
+        {
+          "word": "correct",
+          "start": 363.3748327992757
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL DESCRIBE TURNS AND TEST ROTATIONAL SYMMETRY CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can name the centre and turn.",
+          "at": 342.8148333333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can track corresponding points.",
+          "at": 342.8148333333333,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can count matching positions.",
+          "at": 342.8148333333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 342.8148333333333,
+      "motion_end": 363.3748327992757,
+      "reveal_at": 363.2248327992757,
+      "speech_end": 363.9015833333333
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 6.319999694824219,
+      "text": "A designer spins a square logo and notices that it can look unchanged before completing a full turn."
+    },
+    {
+      "start": 6.319999694824219,
+      "end": 9.15999984741211,
+      "text": "Would every rectangle behave the same way?"
+    },
+    {
+      "start": 9.15999984741211,
+      "end": 18.469916666666666,
+      "text": "Today we will investigate rotations and rotational symmetry, using a fixed centre and clear turn directions instead of judging a shape only at rest."
+    },
+    {
+      "start": 18.469916666666666,
+      "end": 18.94991665593783,
+      "text": "Today we are learning to describe turns and test rotational symmetry."
+    },
+    {
+      "start": 18.94991665593783,
+      "end": 30.349916781107584,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 30.349916781107584,
+      "end": 31.749916399637858,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 31.749916399637858,
+      "end": 37.31008333333333,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 37.31008333333333,
+      "end": 41.71008342870076,
+      "text": "Our learning goal is to describe turns and test rotational symmetry."
+    },
+    {
+      "start": 41.71008342870076,
+      "end": 44.550083104451495,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 44.550083104451495,
+      "end": 51.942875,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 51.942875,
+      "end": 54.622874828338624,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 54.622874828338624,
+      "end": 56.742874713897706,
+      "text": "I can name the centre and turn."
+    },
+    {
+      "start": 56.742874713897706,
+      "end": 59.022874923706055,
+      "text": "I can track corresponding points."
+    },
+    {
+      "start": 59.022874923706055,
+      "end": 61.30287465667725,
+      "text": "I can count matching positions."
+    },
+    {
+      "start": 61.30287465667725,
+      "end": 65.14287480926514,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 65.14287480926514,
+      "end": 73.86820833333334,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 73.86820833333334,
+      "end": 78.66820804723105,
+      "text": "Trace a simple shape, mark a centre and hold that point still with a pencil tip."
+    },
+    {
+      "start": 78.66820804723105,
+      "end": 81.86820833333334,
+      "text": "Turn the tracing around the centre without sliding it."
+    },
+    {
+      "start": 81.86820833333334,
+      "end": 84.3882078374227,
+      "text": "Every point follows a circular path around the same fixed position."
+    },
+    {
+      "start": 84.3882078374227,
+      "end": 90.54504166666668,
+      "text": "The original outline remains as a reference for comparing the new position."
+    },
+    {
+      "start": 90.54504166666668,
+      "end": 96.18504153315227,
+      "text": "A useful rotation instruction names the centre, the size of the turn and its direction."
+    },
+    {
+      "start": 96.18504153315227,
+      "end": 104.14504109446209,
+      "text": "A quarter turn is ninety degrees, a half turn is one hundred and eighty degrees, and a full turn is three hundred and sixty degrees."
+    },
+    {
+      "start": 104.14504109446209,
+      "end": 107.29633333333334,
+      "text": "Clockwise follows the direction of clock hands."
+    },
+    {
+      "start": 107.29633333333334,
+      "end": 111.49633314259847,
+      "text": "During a rotation, each point keeps its own distance from the centre."
+    },
+    {
+      "start": 111.49633314259847,
+      "end": 116.5363331044515,
+      "text": "Different points may have different distances, but every point turns through the same angle."
+    },
+    {
+      "start": 116.5363331044515,
+      "end": 120.69633295186361,
+      "text": "This distinguishes a turn from moving corners independently."
+    },
+    {
+      "start": 120.69633295186361,
+      "end": 124.42083333333333,
+      "text": "Side lengths and angles of the whole shape remain unchanged."
+    },
+    {
+      "start": 124.42083333333333,
+      "end": 124.70083333452543,
+      "text": "The centre is four, four."
+    },
+    {
+      "start": 124.70083333452543,
+      "end": 130.38083337148032,
+      "text": "Point A is at six, four, directly two units to its right."
+    },
+    {
+      "start": 130.38083337148032,
+      "end": 134.42083333333335,
+      "text": "Predict where A lands after a quarter turn anticlockwise."
+    },
+    {
+      "start": 134.42083333333335,
+      "end": 140.17333333333335,
+      "text": "Imagine the radius turning from pointing right to pointing up, while keeping the same two-unit length."
+    },
+    {
+      "start": 145.17333333333335,
+      "end": 146.9333333237966,
+      "text": "The radius turns upward, so A lands at four, six."
+    },
+    {
+      "start": 146.9333333237966,
+      "end": 149.97333304723105,
+      "text": "It remains two units from the centre."
+    },
+    {
+      "start": 149.97333304723105,
+      "end": 153.09333293279013,
+      "text": "The centre itself stays at four, four."
+    },
+    {
+      "start": 153.09333293279013,
+      "end": 160.579125,
+      "text": "Turning the whole shape means using that same quarter turn for every corner, rather than treating A as the new centre for the next point."
+    },
+    {
+      "start": 160.579125,
+      "end": 164.29912502861023,
+      "text": "Starting again from six, four, a clockwise quarter turn points the radius downward."
+    },
+    {
+      "start": 164.29912502861023,
+      "end": 167.45912463760376,
+      "text": "The image is four, two."
+    },
+    {
+      "start": 167.45912463760376,
+      "end": 174.0191245803833,
+      "text": "Both images are the same distance from the centre, but their positions differ because the turn directions differ."
+    },
+    {
+      "start": 174.0191245803833,
+      "end": 178.77370833333333,
+      "text": "Always include direction when a quarter turn could be interpreted either way."
+    },
+    {
+      "start": 178.77370833333333,
+      "end": 179.8937083381017,
+      "text": "A student turns the tracing around one corner after being given the centre of the grid."
+    },
+    {
+      "start": 179.8937083381017,
+      "end": 189.05370806630452,
+      "text": "The new shape may still have the same side lengths, but it is not the requested rotation."
+    },
+    {
+      "start": 189.05370806630452,
+      "end": 192.81370829518636,
+      "text": "Put the pencil back on the named centre and repeat the turn."
+    },
+    {
+      "start": 192.81370829518636,
+      "end": 195.560125,
+      "text": "Location matters as well as angle."
+    },
+    {
+      "start": 195.560125,
+      "end": 202.04012501907349,
+      "text": "A shape has a matching position when turning it around its centre makes it cover its original outline exactly."
+    },
+    {
+      "start": 202.04012501907349,
+      "end": 207.48012507629394,
+      "text": "We count distinct matches during one full turn, including the final full-turn match."
+    },
+    {
+      "start": 207.48012507629394,
+      "end": 211.755,
+      "text": "Our convention calls a shape with only that final match order one."
+    },
+    {
+      "start": 211.755,
+      "end": 215.43499982833862,
+      "text": "Imagine turning an unmarked square around its centre."
+    },
+    {
+      "start": 215.43499982833862,
+      "end": 219.59499967575073,
+      "text": "At which quarter-turn stages will the outline cover the original?"
+    },
+    {
+      "start": 219.59499967575073,
+      "end": 225.83499992370605,
+      "text": "Count the matching positions during one full turn, but do not count the starting position as an extra match."
+    },
+    {
+      "start": 225.83499992370605,
+      "end": 230.596375,
+      "text": "Prepare to explain each position rather than guess from the number of sides."
+    },
+    {
+      "start": 235.596375,
+      "end": 242.15637494277954,
+      "text": "The square matches after ninety, one hundred and eighty, two hundred and seventy, and three hundred and sixty degrees."
+    },
+    {
+      "start": 242.15637494277954,
+      "end": 245.3163743133545,
+      "text": "That gives rotational symmetry of order four."
+    },
+    {
+      "start": 245.3163743133545,
+      "end": 247.51637507629394,
+      "text": "We count the full-turn match once."
+    },
+    {
+      "start": 247.51637507629394,
+      "end": 253.59945833333333,
+      "text": "Counting both zero degrees and the full turn as separate end positions would incorrectly give five."
+    },
+    {
+      "start": 253.59945833333333,
+      "end": 260.71945821889244,
+      "text": "A non-square rectangle fails to match after a quarter turn because its long direction has become its short direction."
+    },
+    {
+      "start": 260.71945821889244,
+      "end": 264.31945764668785,
+      "text": "It matches after a half turn and after a full turn."
+    },
+    {
+      "start": 264.31945764668785,
+      "end": 269.962,
+      "text": "There are two matching positions in one full turn, so its rotational symmetry has order two."
+    },
+    {
+      "start": 269.962,
+      "end": 271.40199993801116,
+      "text": "A reflection uses a mirror line and reverses orientation."
+    },
+    {
+      "start": 271.40199993801116,
+      "end": 274.1219998474121,
+      "text": "A rotation uses a centre and a turn direction."
+    },
+    {
+      "start": 274.1219998474121,
+      "end": 283.5219994659424,
+      "text": "A shape may have both kinds of symmetry, but a line of reflection is not a centre of rotation."
+    },
+    {
+      "start": 283.5219994659424,
+      "end": 287.304,
+      "text": "Name the transformation before explaining what stays the same."
+    },
+    {
+      "start": 287.304,
+      "end": 291.58399973297117,
+      "text": "An ordinary uneven shape may only match after one full turn."
+    },
+    {
+      "start": 291.58399973297117,
+      "end": 294.06399975204465,
+      "text": "Under our convention that is order one."
+    },
+    {
+      "start": 294.06399975204465,
+      "end": 298.02399931335447,
+      "text": "Do not assume every shape has a useful smaller matching turn."
+    },
+    {
+      "start": 298.02399931335447,
+      "end": 305.2009583333333,
+      "text": "Tracing the outline and testing a complete revolution gives evidence, while looking at one corner usually does not."
+    },
+    {
+      "start": 305.2009583333333,
+      "end": 305.360958329757,
+      "text": "A student says a non-square rectangle has order four because it has four sides."
+    },
+    {
+      "start": 305.360958329757,
+      "end": 312.92095812352494,
+      "text": "Test that claim with a quarter turn."
+    },
+    {
+      "start": 312.92095812352494,
+      "end": 316.88095768483475,
+      "text": "Will a long horizontal edge cover a short vertical edge?"
+    },
+    {
+      "start": 316.88095768483475,
+      "end": 321.3798333333333,
+      "text": "Decide which matching turns are actually supported by the whole outline."
+    },
+    {
+      "start": 326.3798333333333,
+      "end": 331.73983299001054,
+      "text": "The rectangle does not match after a quarter turn, so four sides do not prove order four."
+    },
+    {
+      "start": 331.73983299001054,
+      "end": 335.8198329137166,
+      "text": "The half-turn and full-turn positions do match, giving order two."
+    },
+    {
+      "start": 335.8198329137166,
+      "end": 342.8148333333333,
+      "text": "The order is determined by exact covering positions around a centre, not simply by a count of sides or corners."
+    },
+    {
+      "start": 342.8148333333333,
+      "end": 344.6148332856496,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 344.6148332856496,
+      "end": 347.6948334477742,
+      "text": "Describe turns and test rotational symmetry."
+    },
+    {
+      "start": 347.6948334477742,
+      "end": 352.73483340962724,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 352.73483340962724,
+      "end": 357.3748327992757,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 357.3748327992757,
+      "end": 363.9015833333333,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      140.17333333333335,
+      145.17333333333335,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      230.596375,
+      235.596375,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      321.3798333333333,
+      326.3798333333333,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 363.9015833333333,
+  "narration_sha256": "7489d22735e7a18751388a0e850656a34f2f1bff93f69b17b073e20a3fbc7307",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}
