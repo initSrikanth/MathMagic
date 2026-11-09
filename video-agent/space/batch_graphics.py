@@ -40,6 +40,29 @@ SCENES={
  'exit_route':dict(kind='route',path=[(2,2),(5,2),(5,4)])}
 DEFAULT={2:'net_cross',3:'prism_net',4:'point32',5:'route7',6:'translate',7:'reflect_v',8:'rotate_ccw',9:'class_square',10:'route7'}
 BASE={}
+def angle_events(c,m):
+ """Native ASR word times for the explicitly narrated symmetry matches."""
+ tokens=[(w['word'].lower(),w['start'])for w in c.get('words',[])if w['word'].lower()!='and'];events=[];cursor=0
+ number_phrases={90:['ninety'],120:['one','hundred','twenty'],180:['one','hundred','eighty'],240:['two','hundred','forty'],270:['two','hundred','seventy'],360:['three','hundred','sixty']}
+ targets=([90,180,270,360]if m['shape']=='square'else[180,360]if m['shape']=='rectangle'else[120,240,360]if m['shape']=='triangle'else[360])
+ for target in targets:
+  phrase=number_phrases[target];found=None
+  for i in range(cursor,len(tokens)):
+   if tokens[i][0]==str(target):found=(i,tokens[i][1]);break
+   if [x[0]for x in tokens[i:i+len(phrase)]]==phrase:found=(i+len(phrase)-1,tokens[i+len(phrase)-1][1]);break
+   if target in [180,360]and tokens[i][0]==('half'if target==180 else'full')and i+1<len(tokens)and tokens[i+1][0]=='turn':found=(i+1,tokens[i+1][1]);break
+  if found:cursor=found[0]+1;events.append((min(c['speech_end'],found[1]+.12),target))
+ return events
+def spoken_angle(c,m,now,fallback):
+ if '_angle_events'not in c:c['_angle_events']=angle_events(c,m)
+ events=c['_angle_events']
+ if not events:return fallback*360
+ at,angle=c['motion_start'],0
+ for target_at,target in events:
+  if now<=target_at:
+   move_at=min(target_at,max(at,at+.3 if angle else at));fraction=max(0,min(1,(now-move_at)/max(.05,target_at-move_at)));return angle+(target-angle)*fraction
+  at,angle=target_at,target
+ return angle
 def txt(d,s,x,y,size=32,fill=INK):g.text(d,s,x,y,size,fill,True)
 def project(p):return (510+p[0]*60,920-p[1]*60)
 def dot(d,p,label='',fill=GOLD):
@@ -130,7 +153,8 @@ def picture(l,c,folder,progress,elapsed,previous):
   shape=m['shape'];pts=[(-125,-125),(125,-125),(125,125),(-125,125)]if shape=='square'else[(-195,-100),(195,-100),(195,100),(-195,100)]if shape=='rectangle'else[(190*math.cos(a),190*math.sin(a))for a in [-math.pi/2,math.pi/6,5*math.pi/6]]if shape=='triangle'else[(-130,290/3),(170,290/3),(-40,-580/3)]
   center=(940,690);d.polygon([(center[0]+x,center[1]+y)for x,y in pts],outline=TEAL,width=5)
   if not question:
-   a=p*2*math.pi;co,si=math.cos(a),math.sin(a);d.polygon([(center[0]+x*co-y*si,center[1]+x*si+y*co)for x,y in pts],outline=GOLD,width=5)
+   degrees=spoken_angle(c,m,now,p);a=math.radians(degrees);co,si=math.cos(a),math.sin(a);d.polygon([(center[0]+x*co-y*si,center[1]+x*si+y*co)for x,y in pts],outline=GOLD,width=5)
+   txt(d,str(round(degrees))+'° turn',1380,620,36,TEAL)
   d.ellipse((934,684,946,696),fill=INK);txt(d,'Compare the turning shape with its original outline',960,985,29,TEAL)
  elif kind=='classify':
   case=m['case'];is3=case=='cube';nodes=[(960,470,'3D object?'if is3 else 'Four right angles?'),(610,625,'Six square faces?'if is3 else 'Four equal sides?'),(1310,625,'Examine flat shapes'if is3 else 'Four equal sides?'),(400,825,'Cube'if is3 else 'Square'),(800,825,'Other 3D object'if is3 else 'Non-square rectangle'),(1200,825,'Other group'if is3 else 'Non-square rhombus'),(1600,825,'Other group'if is3 else 'Other quadrilateral')]
