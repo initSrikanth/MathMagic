@@ -10,6 +10,7 @@ test('Space: all ten owner-approved players, captions, transcripts and responsiv
  await expect(page.locator('section.lesson')).toHaveCount(10);
  await expect(page.locator('video')).toHaveCount(10);
  for(const l of release.lessons){
+  await page.locator('[data-screen="'+l.section+'"]').click();
   const bytes=fs.readFileSync(path.join(root,l.src));expect(bytes.length).toBe(l.bytes);expect(crypto.createHash('sha256').update(bytes).digest('hex')).toBe(l.sha256);
   const first=await page.request.get('/'+l.src,{headers:{Range:'bytes=0-1023'}});expect(first.status()).toBe(206);expect(first.headers()['content-type']).toBe('video/mp4');expect(Buffer.compare(await first.body(),bytes.subarray(0,1024))).toBe(0);
   const section=page.locator('#'+l.section),card=section.locator('[data-space-video="'+l.id+'"]'),v=card.locator('video');await v.scrollIntoViewIfNeeded();await expect(v).toBeVisible();
