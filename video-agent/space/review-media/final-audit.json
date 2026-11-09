@@ -1,6 +1,6 @@
 {
-  "rendered": 8,
-  "all_nine_rendered": false,
+  "rendered": 9,
+  "all_nine_rendered": true,
   "technical_results": [
     {
       "lesson": "space-lesson2",
@@ -342,7 +342,7 @@
     },
     {
       "lesson": "space-lesson5",
-      "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+      "sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
       "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
       "duration": 364.80854166666666,
       "technical_status": "PASS",
@@ -508,14 +508,13 @@
       "publication_status": "BLOCKED",
       "sidecar_hashes": {
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_recognition.json": "0dac517800b6fbffec4b49a18b865da00291acfecdd9fb9e295761185a8b5fe9",
-        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes_examples.jpg": "946748a6c07513871222a78fadc32d304d6ed33b55280e75f8ffe215b8401e7c",
-        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes.jpg": "ae6ea5e6579d51235bb661c3e4431d9f7241ccfde624e1405b3bd5f508254aa4",
-        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_script.json": "1b6af5e1d5fe51c9971da84263ef26e37700a01fd1aef0558ca9f774168187c3",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_encoded_scenes.jpg": "34b0868e1905236bdef7070d247d03c055ce7c9bc7d354fcbea913b3e31e34be",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_script.json": "21b95dc7271be047250ce387bdd83f581e0d867283416f6a6489e8df7dfade7a",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_transcript.txt": "fd3e4b33f57b3fbd4cfa68dab1453959a8a4ae932882fab35a0a2bed9147328b",
-        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_qa.json": "4a32a916db5b1ead7c11d6bdceee8f50324fb4cdd1451e70028203ea0cbe3c11",
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_qa.json": "aea61118c7f9b8090570ab7869ea19efb8996712ba8f505085b92dabf06d352b",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_poster.jpg": "4f774436acf4f93c0a692728fdedc200bdb5d05d2df05d9d15a53762190bdbb4",
         "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_narration.flac": "4458c9c585929071ad2e30eb161f19aee951fbecb22d310df5e96773f6308e42",
-        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_timing.json": "b8f7d13d16ef897875d63f4f144aadabf12917c294c85b305a4c152c216e1b8d"
+        "Space_Lesson05_Map_Routes_and_Directions_Review_1080p_timing.json": "6a06657bd4d59d4d66c2c2e7d1dab3fcb28dca331e25437041aabe92afe02179"
       }
     },
     {
@@ -1125,6 +1124,183 @@
         "Space_Lesson09_Classification_Algorithms_Review_1080p_script.json": "b6fc77268972189ddcf66c07d258c637dac2125777cf3475a74230d940475bd8",
         "Space_Lesson09_Classification_Algorithms_Review_1080p_timing.json": "c6bfdc523f45c33c8eda0b4e3f54f4905ed71968aa3b0bee5b1262bd18986182",
         "Space_Lesson09_Classification_Algorithms_Review_1080p_qa.json": "deb4c97e2da3ce67f8ca20b7fa051fe033de281a82b83709fefa9f01d39e465b"
+      }
+    },
+    {
+      "lesson": "space-lesson10",
+      "sha256": "19f1e990c332bba1c629b817d7ab79ac6414b85effb00f7764ba5853bcd57fa2",
+      "output": "/workspace/output/space-review/Space_Lesson10_Integrated_Spatial_Design_Review_1080p.mp4",
+      "duration": 380.77054166666665,
+      "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 11423,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson10_Integrated_Spatial_Design_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            8.333,
+            17.133
+          ],
+          [
+            17.167,
+            25.467
+          ],
+          [
+            25.5,
+            36.6
+          ],
+          [
+            36.633,
+            44.933
+          ],
+          [
+            52.0,
+            60.3
+          ],
+          [
+            60.333,
+            74.833
+          ],
+          [
+            120.267,
+            128.367
+          ],
+          [
+            128.4,
+            136.7
+          ],
+          [
+            136.733,
+            145.233
+          ],
+          [
+            158.6,
+            167.967
+          ],
+          [
+            176.333,
+            184.733
+          ],
+          [
+            195.433,
+            203.8
+          ],
+          [
+            214.233,
+            222.533
+          ],
+          [
+            222.867,
+            231.167
+          ],
+          [
+            252.1,
+            260.933
+          ],
+          [
+            269.3,
+            278.933
+          ],
+          [
+            278.967,
+            287.267
+          ],
+          [
+            304.533,
+            316.433
+          ],
+          [
+            316.467,
+            333.3
+          ],
+          [
+            338.333,
+            346.633
+          ],
+          [
+            347.7,
+            358.833
+          ],
+          [
+            358.867,
+            367.167
+          ],
+          [
+            367.2,
+            380.7
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 8.15999984741211,
+            "end": 8.679999351501465,
+            "text": "Today we will combine our spatial reasoning skills."
+          },
+          {
+            "start": 17.166,
+            "end": 17.565999976158142,
+            "text": "Today we are learning to combine checked nets, routes and transformations in one design."
+          },
+          {
+            "start": 133.04245819981892,
+            "end": 133.60245814259846,
+            "text": "Predict the final coordinates."
+          },
+          {
+            "start": 178.035999961853,
+            "end": 178.35599965667723,
+            "text": "Check the other vertices too."
+          },
+          {
+            "start": 299.1309581712087,
+            "end": 299.4109581425985,
+            "text": "Does the kiosk close?"
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 145.2,
+            "end": 150.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 238.7,
+            "end": 243.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 333.3,
+            "end": 338.4,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_narration.flac": "1ca94b4317d272a6bbcae22acb6761fe7516af2720486f9bd6fb1fe902d03b85",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_transcript.txt": "d90f95fc68d11c41ec5681510d0d50825a0cb00fb25bba85772d6f48eff44ed5",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_timing.json": "d55771913b0517576c0bfd3be1539f85b96381e8cc369ca2a194e37e79ab22d5",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_encoded_scenes.jpg": "af1cacef9949d66fb2f410ef3d50ff1c539864aefb0f1922bea1d3cc83de4284",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_recognition.json": "28f8139e49dfe73c378d5e8841bdf937c3cc6bfc8bf971cdcc33cefa93928c11",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_poster.jpg": "6a26e742e1ecbdeb45db3d938cc2fc226011bd6126e378ec4c335195c739a45c",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_qa.json": "f04809fd0299ef4e54ff2abe1cf8ce0c7a0f892dfda36799449dbd3e38be06fa",
+        "Space_Lesson10_Integrated_Spatial_Design_Review_1080p_script.json": "b87c5f308e45c5ea629032a26d4107bb56e7731f25ec5d0fbc9bc2f55d48a6e7"
       }
     }
   ],

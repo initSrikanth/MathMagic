@@ -1,0 +1,62 @@
+{
+  "rendered": 9,
+  "technical_verified": 9,
+  "technical_checks": [
+    "1920x1080 H.264/yuv420p 30fps + AAC",
+    "moov before mdat: faststart",
+    "Full decode; every frame checked for blanks",
+    "Audio RMS/clipping/source correlation and speech-window checks",
+    "Only declared prediction long-silence intervals",
+    "Caption intervals/transcript/source-brand and offline recognition brand scans",
+    "18 exact-current-byte local Chromium viewport checks: advancing playback, seeks, ending, caption cue loading, HTTP200/206/416 and MIME"
+  ],
+  "total_seconds": 3285.6115416666667,
+  "decoded_frames": 98568,
+  "blank_frames": 0,
+  "paid_generation_calls": 0,
+  "perceptual_reviews_completed": 0,
+  "published": 0,
+  "merged": false,
+  "deployed": false,
+  "application_baseline": "7ac9fe747171c7e92d13582c5e235b73bef0bc64",
+  "application_and_existing_videos_unchanged": true,
+  "ci_workflow_reruns": 0,
+  "firebase": {
+    "existing_measurement_emulator_suite": "PASS",
+    "existing_space_emulator_suite": "PASS",
+    "additional_space_boundaries_suite": "PASS",
+    "mocked_space_progress": "PASS",
+    "scope": "Demo-project policy fixture and mocks only",
+    "live_verification": "PENDING_AUTHORISED_LIVE_SCOPE_AND_APPROVED_TEST_IDENTITY"
+  },
+  "external_qa": [
+    "Full listening and temporal viewing by an audio-capable evaluator of the exact SHA-256 bytes, with reviewer identity/date. Check accent, pronunciation, expressiveness, pace, pedagogy, caption/audio/visual synchronisation and all timing flags.",
+    "Real Safari/iOS and real-device mobile legibility/control/caption QA before release.",
+    "Live Firebase verification requires authorised network scope and an approved test identity. Inspect deployed rules, Auth/approval isolation, own/cross-UID progress, save/restore across sessions/devices and revocation. Emulator fixture results do not certify deployed services.",
+    "Recover and verify the preserved original representative MP4 from its prior external storage; its source/manifest/hash remain unchanged."
+  ],
+  "label_repair": {
+    "old_sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+    "new_sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+    "cue_index": 18,
+    "old_labels": [
+      "Start",
+      "Turn",
+      "Return"
+    ],
+    "new_labels": [
+      "Home",
+      "Turn",
+      ""
+    ],
+    "newly_encoded_frames": 445,
+    "total_video_frames": 10944,
+    "aac_packet_count": 8552,
+    "all_audio_packets_preserved": true,
+    "all_other_video_packets_preserved": true,
+    "caption_transcript_unchanged": true,
+    "original_preserved": "video-agent/space/review-media/history/lesson5-before-label-repair/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+    "repair_source_sha256": "3a07eecccf6fe37881e37ce81b3b6d36f9fbd932e869475b0bb4044b1be14e2a",
+    "perceptual_status": "UNVERIFIED"
+  }
+}

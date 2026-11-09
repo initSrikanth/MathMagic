@@ -1,0 +1,527 @@
+{
+  "id": "space-lesson5",
+  "number": 5,
+  "topic": "space",
+  "section": "lesson-5",
+  "title": "Map Routes and Directions",
+  "beats": [
+    {
+      "role": "opening",
+      "chapter": "Deliveries around a park",
+      "text": "A courier must visit a kiosk and then a garden. Knowing the final location is useful, but the courier also needs a route that avoids confusion at every turn. Today we will track positions step by step and distinguish the destination from the distance actually travelled.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to follow and describe routes using coordinates and direction. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to follow and describe routes using coordinates and direction. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Follow and describe routes using coordinates and direction."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can track each route step. I can update the correct coordinate. I can check a destination and distance. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can track each route step.",
+        "I can update the correct coordinate.",
+        "I can check a destination and distance."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Make a route with a counter",
+      "text": "Put a counter at an intersection on squared paper. Move it along grid lines, one interval at a time. Say right, left, up or down as you move. Record a new ordered pair after each part of the journey, instead of waiting until the very end.",
+      "board": [
+        "Move → record → check"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Horizontal movement",
+      "text": "A move right increases the first coordinate. A move left decreases it. The second coordinate stays unchanged because the counter has not moved up or down. Point to the row before and after moving. Both positions lie on the same horizontal line of the map.",
+      "board": [
+        "Right or left changes the first number."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Vertical movement",
+      "text": "A move upward increases the second coordinate. A move downward decreases it. The first coordinate stays unchanged. Check the column containing both points to see why. These rules describe our map directions; a rotated map would need its directions clarified before someone followed your instructions.",
+      "board": [
+        "Up or down changes the second number."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Turn",
+          "Kiosk"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Predict a two-part route",
+      "text": "Start at two, two. Move four units right and then three units up. Predict the destination. Keep an intermediate position for the end of the rightward move. That extra record will help you discover which step needs fixing if your answer differs from your partner’s.",
+      "board": [
+        "Start (2, 2): right 4, up 3"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: find the kiosk",
+      "text": "Moving four right changes two, two to six, two. Moving three up then changes six, two to six, five. The kiosk is at six, five. The first part affected only the horizontal coordinate, and the second affected only the vertical coordinate. Each step agrees with the grid.",
+      "board": [
+        "(2, 2) → (6, 2) → (6, 5)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Continue to another landmark",
+      "text": "From the kiosk at six, five, travel two units left. The first coordinate decreases from six to four while the second stays five. The garden is at four, five. Starting this new step from the original starting point would describe a different journey.",
+      "board": [
+        "(6, 5) → (4, 5)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "misconception",
+      "chapter": "Do not reset after each turn",
+      "text": "A learner starts every instruction from the origin. That can find several separate points, but it does not follow one continuous route. Each new movement starts where the previous movement ended. Draw connected arrows and keep the most recent ordered pair visible to avoid this mistake.",
+      "board": [
+        "Continue from the latest position."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Count the route length",
+      "text": "The courier travelled four units right, three units up and two units left. Add those distances to obtain nine units travelled. The destination alone does not show that total. Returning partway along a direction still adds distance to the route, even when it reduces the first coordinate.",
+      "board": [
+        "4 + 3 + 2 = 9 units travelled"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Plan a return route",
+      "text": "The courier is at four, five and wants to return to two, two. Predict one route using only horizontal and vertical moves. Decide how much each coordinate must decrease. More than one order of instructions may work, so prepare to justify yours using the actual starting point.",
+      "board": [
+        "From (4, 5) to (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Garden",
+          "Home"
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: return home",
+      "text": "Move two units left from four, five to two, five. Then move three units down to two, two. This return route has length five units. Moving down first and left second would also reach home on this unobstructed grid, but the intermediate point would be different.",
+      "board": [
+        "(4, 5) → (2, 5) → (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Garden",
+          "Turn",
+          "Home"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Routes and destinations differ",
+      "text": "A destination is one location. A route is a sequence of movements leading there. A detour can increase the total distance without changing the destination. When comparing two plans, check both the ordered pairs and the distances rather than assuming every path to the same point is equally long.",
+      "board": [
+        "Same destination can have different routes."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Kiosk",
+          "Garden"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Stay inside the map",
+      "text": "Our first-quadrant map does not show positions left of the vertical axis or below the horizontal axis. Check a planned move before taking it. If it would leave the displayed region, revise the instructions or explain the limitation. Do not silently wrap a counter to the opposite side.",
+      "board": [
+        "Check map boundaries."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            0,
+            2
+          ]
+        ],
+        "labels": [
+          "Boundary"
+        ]
+      }
+    },
+    {
+      "role": "explanation",
+      "chapter": "Give complete instructions",
+      "text": "Tell your partner the starting pair, each direction and distance, and the intended destination. Ask the partner to draw the route without seeing your version. Comparing the two drawings is a useful test of communication. If they differ, identify the first instruction where the paths separate.",
+      "board": [
+        "Start • direction • distance • destination"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Finish"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "question",
+      "chapter": "Independent route detective",
+      "text": "A route goes three right and then three left from two, two. A student says nothing happened because the destination is unchanged. Is that a complete description? Decide the destination and total distance separately, and explain what the counter actually did during the journey.",
+      "board": [],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    },
+    {
+      "role": "answer",
+      "chapter": "Explain the round trip",
+      "text": "The counter returns to two, two, but it travelled six units altogether: three out and three back. Zero change in position does not mean zero distance travelled. Recording the intermediate point five, two makes the movement visible and supports the explanation.",
+      "board": [
+        "3 + 3 = 6 units; back at (2, 2)"
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start",
+          "Turn",
+          "Return"
+        ],
+        "path": true
+      }
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Follow and describe routes using coordinates and direction. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can track each route step.",
+        "I can update the correct coordinate.",
+        "I can check a destination and distance."
+      ],
+      "model": {
+        "kind": "grid",
+        "points": [
+          [
+            2,
+            2
+          ]
+        ],
+        "labels": [
+          "Start"
+        ]
+      }
+    }
+  ],
+  "codes": [
+    "AC9M5SP02"
+  ],
+  "enrichment": false,
+  "drawing_sha256": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b"
+}

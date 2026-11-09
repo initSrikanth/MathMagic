@@ -1,6 +1,6 @@
 {
   "expected_remaining": 9,
-  "rendered_this_batch": 8,
+  "rendered_this_batch": 9,
   "perceptually_verified": 0,
   "published": 0,
   "paid_calls": 0,
@@ -326,13 +326,13 @@
     },
     "space-lesson5": {
       "status": "TECHNICALLY_VERIFIED",
-      "script_sha256": "ae575a990e9be4009002f90dfcac3cf859af644fd3fb4b07c85a40c032f7a247",
+      "script_sha256": "80c61b739ee942c4fec25067bac78a529cafff8ec521598e4e3a79992e592537",
       "output": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
       "duration": 364.80854166666666,
       "qa": {
         "result": "passed",
-        "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
-        "bytes": 7082525,
+        "sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+        "bytes": 7081992,
         "duration": 364.80854166666666,
         "audio_rms": 0.13216783106327057,
         "clipping_fraction": 0.0,
@@ -479,10 +479,58 @@
         "full_video_viewed": false,
         "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
         "published": false,
-        "paid_calls": 0
+        "paid_calls": 0,
+        "label_repair": {
+          "old_sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+          "new_sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+          "cue_index": 18,
+          "old_labels": [
+            "Start",
+            "Turn",
+            "Return"
+          ],
+          "new_labels": [
+            "Home",
+            "Turn",
+            ""
+          ],
+          "newly_encoded_frames": 445,
+          "total_video_frames": 10944,
+          "aac_packet_count": 8552,
+          "all_audio_packets_preserved": true,
+          "all_other_video_packets_preserved": true,
+          "caption_transcript_unchanged": true,
+          "original_preserved": "video-agent/space/review-media/history/lesson5-before-label-repair/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+          "repair_source_sha256": "3a07eecccf6fe37881e37ce81b3b6d36f9fbd932e869475b0bb4044b1be14e2a",
+          "perceptual_status": "UNVERIFIED"
+        }
       },
-      "sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
-      "bytes": 7082525
+      "sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+      "bytes": 7081992,
+      "label_repair": {
+        "old_sha256": "e8b14d7557d8e9bea7c2f8aa96b8183d2bb463a96b058a555de04b75e5543f04",
+        "new_sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+        "cue_index": 18,
+        "old_labels": [
+          "Start",
+          "Turn",
+          "Return"
+        ],
+        "new_labels": [
+          "Home",
+          "Turn",
+          ""
+        ],
+        "newly_encoded_frames": 445,
+        "total_video_frames": 10944,
+        "aac_packet_count": 8552,
+        "all_audio_packets_preserved": true,
+        "all_other_video_packets_preserved": true,
+        "caption_transcript_unchanged": true,
+        "original_preserved": "video-agent/space/review-media/history/lesson5-before-label-repair/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+        "repair_source_sha256": "3a07eecccf6fe37881e37ce81b3b6d36f9fbd932e869475b0bb4044b1be14e2a",
+        "perceptual_status": "UNVERIFIED"
+      }
     },
     "space-lesson6": {
       "status": "TECHNICALLY_VERIFIED",
@@ -1009,10 +1057,164 @@
       "bytes": 8280605
     },
     "space-lesson10": {
-      "status": "RENDERING",
+      "status": "TECHNICALLY_VERIFIED",
       "script_sha256": "5f7e979a428dd8f0ed3d87e886f43feb7b0cb5e25b34df5fffd460c2ff001eca",
       "output": "/workspace/output/space-review/Space_Lesson10_Integrated_Spatial_Design_Review_1080p.mp4",
-      "duration": 380.77054166666665
+      "duration": 380.77054166666665,
+      "qa": {
+        "result": "passed",
+        "sha256": "19f1e990c332bba1c629b817d7ab79ac6414b85effb00f7764ba5853bcd57fa2",
+        "bytes": 8104837,
+        "duration": 380.77054166666665,
+        "audio_rms": 0.13213792443275452,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.999982455030738,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 11423,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 5.302582143366831,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 91,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            145.25245833333332,
+            150.25245833333332,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            238.7695,
+            243.7695,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            333.331875,
+            338.331875,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            8.333,
+            17.133
+          ],
+          [
+            17.167,
+            25.467
+          ],
+          [
+            25.5,
+            36.6
+          ],
+          [
+            36.633,
+            44.933
+          ],
+          [
+            52.0,
+            60.3
+          ],
+          [
+            60.333,
+            74.833
+          ],
+          [
+            120.267,
+            128.367
+          ],
+          [
+            128.4,
+            136.7
+          ],
+          [
+            136.733,
+            145.233
+          ],
+          [
+            158.6,
+            167.967
+          ],
+          [
+            176.333,
+            184.733
+          ],
+          [
+            195.433,
+            203.8
+          ],
+          [
+            214.233,
+            222.533
+          ],
+          [
+            222.867,
+            231.167
+          ],
+          [
+            252.1,
+            260.933
+          ],
+          [
+            269.3,
+            278.933
+          ],
+          [
+            278.967,
+            287.267
+          ],
+          [
+            304.533,
+            316.433
+          ],
+          [
+            316.467,
+            333.3
+          ],
+          [
+            338.333,
+            346.633
+          ],
+          [
+            347.7,
+            358.833
+          ],
+          [
+            358.867,
+            367.167
+          ],
+          [
+            367.2,
+            380.7
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "19f1e990c332bba1c629b817d7ab79ac6414b85effb00f7764ba5853bcd57fa2",
+      "bytes": 8104837
     }
   },
   "pre_render_corrections": [
@@ -1023,5 +1225,6 @@
     "batch_content.py": "68c065e9ed3e71ccbb855364af706532362d184fb065aa931607932da9ef5135",
     "batch_graphics.py": "4358aaff8766e7528dd5292dbac5fb1a01b1e530f46bd5ffc4450c086dca959b",
     "produce_batch.py": "6353751cbe2e8485b02e8805e65b628795c98a26b92c974dc64343a28a90ad96"
-  }
+  },
+  "status": "NINE_RENDERED_PUBLICATION_BLOCKED"
 }

@@ -1,0 +1,1234 @@
+{
+  "instruction": "For a genuinely audio-capable evaluator. Listen to and view the full exact-byte video; bind evidence to reviewer, date and SHA-256. Do not infer perception from these technical results.",
+  "records": [
+    {
+      "lesson": 1,
+      "video_sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+      "video": "/workspace/output/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": "Use preserved representative technical-qa.json; recover exact original MP4 first.",
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 2,
+      "video_sha256": "e1d9bd409df5363b5b7151bcc7ef2b36268b42431082f35cb4f6f209a07dd0db",
+      "video": "/workspace/output/space-review/Space_Lesson02_Explore_Nets_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            209.6,
+            222.5
+          ],
+          [
+            222.533,
+            240.3
+          ],
+          [
+            245.7,
+            261.867
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.072,
+            "end": 16.551999989271163,
+            "text": "Today we are learning to connect a flat net to the faces of a solid."
+          },
+          {
+            "start": 80.39524946594238,
+            "end": 80.63525019073487,
+            "text": "Put the flat card on the table."
+          },
+          {
+            "start": 140.77287494277954,
+            "end": 141.4128750476837,
+            "text": "The squares touching its four sides become four walls."
+          },
+          {
+            "start": 269.5234165331523,
+            "end": 269.6834163805644,
+            "text": "When the triangles fold inward, their tips meet at the apex."
+          },
+          {
+            "start": 298.28645833333337,
+            "end": 299.00645830233896,
+            "text": "Imagine a cube net made from only five equal squares."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 134.2,
+            "end": 139.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 240.3,
+            "end": 245.4,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 315.3,
+            "end": 320.3,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 3,
+      "video_sha256": "453ea91f7f104877bfe993cb7318d3a9e6cabd6e047e40d09eeec3c8e7d13f16",
+      "video": "/workspace/output/space-review/Space_Lesson03_Design_and_Test_Nets_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [],
+        "short_caption_intervals": [
+          {
+            "start": 15.758833333333333,
+            "end": 16.158833309491477,
+            "text": "Today we are learning to design, test and improve a net for packaging."
+          },
+          {
+            "start": 122.93375,
+            "end": 123.45374998092652,
+            "text": "Look at the band of four rectangles."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 138.8,
+            "end": 143.9,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 229.2,
+            "end": 234.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 319.5,
+            "end": 324.5,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 4,
+      "video_sha256": "9e2d8be07c52d7d824b3bcf997490dd6c9da0f883d6316160e1244bdd34bf36e",
+      "video": "/workspace/output/space-review/Space_Lesson04_Coordinates_and_Position_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            8.333,
+            16.633
+          ],
+          [
+            16.867,
+            25.167
+          ],
+          [
+            25.2,
+            35.7
+          ],
+          [
+            35.733,
+            44.033
+          ],
+          [
+            50.433,
+            58.733
+          ],
+          [
+            58.767,
+            72.733
+          ],
+          [
+            81.1,
+            91.433
+          ],
+          [
+            99.8,
+            108.0
+          ],
+          [
+            116.367,
+            125.667
+          ],
+          [
+            125.7,
+            134.0
+          ],
+          [
+            134.033,
+            142.233
+          ],
+          [
+            162.5,
+            170.633
+          ],
+          [
+            170.667,
+            178.833
+          ],
+          [
+            178.867,
+            187.167
+          ],
+          [
+            187.2,
+            195.4
+          ],
+          [
+            203.767,
+            212.667
+          ],
+          [
+            212.7,
+            221.0
+          ],
+          [
+            256.3,
+            264.6
+          ],
+          [
+            273.1,
+            282.1
+          ],
+          [
+            296.367,
+            304.667
+          ],
+          [
+            325.967,
+            334.633
+          ],
+          [
+            334.667,
+            342.967
+          ],
+          [
+            343.0,
+            356.033
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.8545,
+            "end": 17.334499989271166,
+            "text": "Today we are learning to locate and describe points on a first-quadrant grid."
+          },
+          {
+            "start": 113.3278747329712,
+            "end": 113.88787467575074,
+            "text": "We write the pair in brackets with a comma between the numbers."
+          },
+          {
+            "start": 151.03354165712994,
+            "end": 151.31354162851972,
+            "text": "Mark the intersection reached by those movements."
+          },
+          {
+            "start": 241.0042500572205,
+            "end": 241.1642499046326,
+            "text": "To check, return to the origin, move five right and one up."
+          },
+          {
+            "start": 264.7508333333334,
+            "end": 265.43083334048595,
+            "text": "Each gap on our grid represents one unit."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 142.3,
+            "end": 147.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 228.5,
+            "end": 233.6,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 312.6,
+            "end": 317.7,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 5,
+      "video_sha256": "08b72480b2e9a55edd3d5114a2a93d47e28b7b1b7c3b4b5b425f254c57dc9a6d",
+      "video": "/workspace/output/space-review/Space_Lesson05_Map_Routes_and_Directions_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            16.2,
+            24.5
+          ],
+          [
+            24.533,
+            35.467
+          ],
+          [
+            35.5,
+            43.8
+          ],
+          [
+            50.567,
+            58.867
+          ],
+          [
+            58.9,
+            72.933
+          ],
+          [
+            96.867,
+            105.167
+          ],
+          [
+            113.767,
+            124.6
+          ],
+          [
+            124.633,
+            132.933
+          ],
+          [
+            132.967,
+            141.167
+          ],
+          [
+            154.533,
+            163.933
+          ],
+          [
+            179.167,
+            187.467
+          ],
+          [
+            187.5,
+            196.3
+          ],
+          [
+            204.667,
+            214.033
+          ],
+          [
+            214.067,
+            222.367
+          ],
+          [
+            222.4,
+            232.267
+          ],
+          [
+            253.233,
+            261.333
+          ],
+          [
+            261.367,
+            271.367
+          ],
+          [
+            279.733,
+            289.1
+          ],
+          [
+            297.467,
+            306.133
+          ],
+          [
+            306.167,
+            314.467
+          ],
+          [
+            314.5,
+            323.133
+          ],
+          [
+            342.967,
+            351.267
+          ],
+          [
+            351.3,
+            364.733
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 3.0,
+            "end": 3.3999998569488525,
+            "text": "Knowing the final location is useful, but the courier also needs a route that avoids confusion at every turn."
+          },
+          {
+            "start": 16.205208333333335,
+            "end": 16.605208309491477,
+            "text": "Today we are learning to follow and describe routes using coordinates and direction."
+          },
+          {
+            "start": 163.963875,
+            "end": 164.16387498807907,
+            "text": "From the kiosk at six, five, travel two units left."
+          },
+          {
+            "start": 240.77883335240682,
+            "end": 241.13883324750265,
+            "text": "Move two units left from four, five to two, five."
+          },
+          {
+            "start": 255.65883319981893,
+            "end": 256.4988333524068,
+            "text": "A route is a sequence of movements leading there."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 141.2,
+            "end": 146.2,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 232.3,
+            "end": 237.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 323.1,
+            "end": 328.2,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 6,
+      "video_sha256": "c20d5ab078a2b0e6324356eddd424556f0f61b82fc06502eb79bbd368d72ac23",
+      "video": "/workspace/output/space-review/Space_Lesson06_Translations_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            16.5,
+            24.8
+          ],
+          [
+            24.833,
+            32.933
+          ],
+          [
+            57.7,
+            69.3
+          ],
+          [
+            123.233,
+            131.533
+          ],
+          [
+            131.567,
+            139.633
+          ],
+          [
+            153.0,
+            161.133
+          ],
+          [
+            212.767,
+            221.067
+          ],
+          [
+            241.067,
+            249.7
+          ],
+          [
+            299.733,
+            308.033
+          ],
+          [
+            329.1,
+            338.6
+          ],
+          [
+            338.633,
+            346.933
+          ],
+          [
+            346.967,
+            357.233
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.49170833333333,
+            "end": 16.931708330949146,
+            "text": "Today we are learning to translate a shape using one shared movement."
+          },
+          {
+            "start": 303.7327083333334,
+            "end": 304.0527080281576,
+            "text": "The second moved three right and one up."
+          }
+        ],
+        "rapid_board_reveal_flags": [
+          {
+            "scene": 15,
+            "at": 283.7165832570394,
+            "visible_seconds": 0.679041742960635,
+            "text": "Check every matching pair.",
+            "timing_reason": "keyword"
+          }
+        ],
+        "long_silent_intervals": [
+          {
+            "start": 139.6,
+            "end": 144.7,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 227.7,
+            "end": 232.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 315.7,
+            "end": 320.8,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 7,
+      "video_sha256": "42193104191780c6e82c439fe3eee797b2d9d4a340fa0de1aa1505fb7d6a315b",
+      "video": "/workspace/output/space-review/Space_Lesson07_Reflections_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            14.633
+          ],
+          [
+            17.0,
+            25.3
+          ],
+          [
+            25.333,
+            33.6
+          ],
+          [
+            35.7,
+            44.0
+          ],
+          [
+            49.733,
+            58.033
+          ],
+          [
+            58.067,
+            69.533
+          ],
+          [
+            105.267,
+            113.567
+          ],
+          [
+            123.667,
+            131.967
+          ],
+          [
+            132.0,
+            140.4
+          ],
+          [
+            175.8,
+            184.1
+          ],
+          [
+            208.867,
+            217.167
+          ],
+          [
+            233.167,
+            244.967
+          ],
+          [
+            253.333,
+            261.5
+          ],
+          [
+            272.0,
+            280.033
+          ],
+          [
+            298.8,
+            307.1
+          ],
+          [
+            335.667,
+            343.967
+          ],
+          [
+            344.0,
+            354.233
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 16.994958333333333,
+            "end": 17.474958322604497,
+            "text": "Today we are learning to reflect points and shapes using a mirror line."
+          },
+          {
+            "start": 112.08099971389771,
+            "end": 112.40099988555909,
+            "text": "Place the image the same distance on the opposite side."
+          },
+          {
+            "start": 149.9911666094462,
+            "end": 150.11116649500528,
+            "text": "The two points share the same height."
+          },
+          {
+            "start": 189.9290832188924,
+            "end": 190.04908310445148,
+            "text": "A and B do not travel the same horizontal distance between original and image."
+          },
+          {
+            "start": 190.04908310445148,
+            "end": 190.84908329518635,
+            "text": "A crosses six units, while B crosses two."
+          },
+          {
+            "start": 190.84908329518635,
+            "end": 191.04908310445148,
+            "text": "Their distances depend on how far they start from the mirror."
+          },
+          {
+            "start": 200.23637479019163,
+            "end": 200.8363746948242,
+            "text": "This is a useful check when a shape touches or crosses the mirror."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 140.4,
+            "end": 145.5,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 223.4,
+            "end": 228.4,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 314.7,
+            "end": 319.8,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 8,
+      "video_sha256": "77a66662f92659f1ccb80aa6618da248f871a6258373a2d490c25b60d3f4b980",
+      "video": "/workspace/output/space-review/Space_Lesson08_Rotations_and_Symmetry_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            18.467,
+            26.767
+          ],
+          [
+            26.8,
+            35.233
+          ],
+          [
+            37.3,
+            50.133
+          ],
+          [
+            51.933,
+            60.233
+          ],
+          [
+            60.267,
+            71.367
+          ],
+          [
+            124.433,
+            132.733
+          ],
+          [
+            160.567,
+            168.867
+          ],
+          [
+            178.767,
+            187.067
+          ],
+          [
+            211.767,
+            220.067
+          ],
+          [
+            220.1,
+            230.6
+          ],
+          [
+            245.0,
+            253.567
+          ],
+          [
+            305.2,
+            313.5
+          ],
+          [
+            342.8,
+            351.1
+          ],
+          [
+            351.133,
+            361.5
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 18.469916666666666,
+            "end": 18.94991665593783,
+            "text": "Today we are learning to describe turns and test rotational symmetry."
+          },
+          {
+            "start": 124.42083333333333,
+            "end": 124.70083333452543,
+            "text": "The centre is four, four."
+          },
+          {
+            "start": 305.2009583333333,
+            "end": 305.360958329757,
+            "text": "A student says a non-square rectangle has order four because it has four sides."
+          }
+        ],
+        "rapid_board_reveal_flags": [
+          {
+            "scene": 9,
+            "at": 178.42370833333334,
+            "visible_seconds": 0.3499999999999943,
+            "text": "Clockwise: (6, 4) \u2192 (4, 2)",
+            "timing_reason": "late-safe ASR fallback"
+          }
+        ],
+        "long_silent_intervals": [
+          {
+            "start": 140.2,
+            "end": 145.2,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 230.6,
+            "end": 235.7,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 321.4,
+            "end": 326.4,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 9,
+      "video_sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+      "video": "/workspace/output/space-review/Space_Lesson09_Classification_Algorithms_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            19.167
+          ],
+          [
+            19.2,
+            38.433
+          ],
+          [
+            38.467,
+            53.367
+          ],
+          [
+            53.4,
+            61.7
+          ],
+          [
+            61.733,
+            75.033
+          ],
+          [
+            75.067,
+            93.5
+          ],
+          [
+            100.533,
+            111.3
+          ],
+          [
+            115.2,
+            130.633
+          ],
+          [
+            130.667,
+            146.8
+          ],
+          [
+            153.933,
+            169.0
+          ],
+          [
+            169.2,
+            186.067
+          ],
+          [
+            186.1,
+            204.167
+          ],
+          [
+            212.533,
+            221.567
+          ],
+          [
+            221.6,
+            229.9
+          ],
+          [
+            229.933,
+            239.967
+          ],
+          [
+            253.3,
+            261.933
+          ],
+          [
+            270.3,
+            280.8
+          ],
+          [
+            289.167,
+            299.1
+          ],
+          [
+            301.167,
+            319.5
+          ],
+          [
+            319.533,
+            336.433
+          ],
+          [
+            345.967,
+            359.433
+          ],
+          [
+            359.467,
+            367.767
+          ],
+          [
+            367.8,
+            381.033
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 19.197625,
+            "end": 19.677624989271163,
+            "text": "Today we are learning to test yes-or-no rules that classify shapes and solids."
+          },
+          {
+            "start": 93.53166666666665,
+            "end": 93.77166666130223,
+            "text": "An algorithm is an ordered set of instructions for carrying out a task."
+          },
+          {
+            "start": 166.49912431335449,
+            "end": 166.61912419891357,
+            "text": "A non-square rhombus also has four equal sides, so the first test is insufficient."
+          },
+          {
+            "start": 166.61912419891357,
+            "end": 167.13912465667724,
+            "text": "Add another question: are all four angles right angles?"
+          },
+          {
+            "start": 167.13912465667724,
+            "end": 167.5391242752075,
+            "text": "Within our quadrilateral collection, four equal sides together with four right angles identify a square."
+          },
+          {
+            "start": 253.1312498474121,
+            "end": 253.45124954223633,
+            "text": "Check the face shapes and their connections."
+          },
+          {
+            "start": 299.14091666666667,
+            "end": 299.94091661898295,
+            "text": "When you repair a question, retest examples that previously worked as well as the troublesome counterexample."
+          },
+          {
+            "start": 347.6197081425985,
+            "end": 347.9797082761129,
+            "text": "Turning the paper does not change those properties."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 146.8,
+            "end": 151.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 239.9,
+            "end": 245.0,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 336.4,
+            "end": 341.5,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    },
+    {
+      "lesson": 10,
+      "video_sha256": "19f1e990c332bba1c629b817d7ab79ac6414b85effb00f7764ba5853bcd57fa2",
+      "video": "/workspace/output/space-review/Space_Lesson10_Integrated_Spatial_Design_Review_1080p.mp4",
+      "reviewer": null,
+      "reviewed_at": null,
+      "full_audio_listened": false,
+      "full_video_viewed": false,
+      "attributes": {
+        "accent_and_natural_voice": "UNVERIFIED",
+        "warmth_and_modest_expressiveness": "UNVERIFIED",
+        "pronunciation_and_pacing": "UNVERIFIED",
+        "complete_teaching_quality": "UNVERIFIED",
+        "actual_caption_speech_match": "UNVERIFIED",
+        "audio_visual_step_synchronisation": "UNVERIFIED",
+        "mathematics_in_actual_temporal_sequence": "UNVERIFIED",
+        "prediction_answers_hidden_and_thinking_time_appropriate": "UNVERIFIED",
+        "all_static_silence_short_caption_and_rapid_reveal_flags_reviewed": "UNVERIFIED"
+      },
+      "flagged_intervals": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            8.3
+          ],
+          [
+            8.333,
+            17.133
+          ],
+          [
+            17.167,
+            25.467
+          ],
+          [
+            25.5,
+            36.6
+          ],
+          [
+            36.633,
+            44.933
+          ],
+          [
+            52.0,
+            60.3
+          ],
+          [
+            60.333,
+            74.833
+          ],
+          [
+            120.267,
+            128.367
+          ],
+          [
+            128.4,
+            136.7
+          ],
+          [
+            136.733,
+            145.233
+          ],
+          [
+            158.6,
+            167.967
+          ],
+          [
+            176.333,
+            184.733
+          ],
+          [
+            195.433,
+            203.8
+          ],
+          [
+            214.233,
+            222.533
+          ],
+          [
+            222.867,
+            231.167
+          ],
+          [
+            252.1,
+            260.933
+          ],
+          [
+            269.3,
+            278.933
+          ],
+          [
+            278.967,
+            287.267
+          ],
+          [
+            304.533,
+            316.433
+          ],
+          [
+            316.467,
+            333.3
+          ],
+          [
+            338.333,
+            346.633
+          ],
+          [
+            347.7,
+            358.833
+          ],
+          [
+            358.867,
+            367.167
+          ],
+          [
+            367.2,
+            380.7
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 8.15999984741211,
+            "end": 8.679999351501465,
+            "text": "Today we will combine our spatial reasoning skills."
+          },
+          {
+            "start": 17.166,
+            "end": 17.565999976158142,
+            "text": "Today we are learning to combine checked nets, routes and transformations in one design."
+          },
+          {
+            "start": 133.04245819981892,
+            "end": 133.60245814259846,
+            "text": "Predict the final coordinates."
+          },
+          {
+            "start": 178.035999961853,
+            "end": 178.35599965667723,
+            "text": "Check the other vertices too."
+          },
+          {
+            "start": 299.1309581712087,
+            "end": 299.4109581425985,
+            "text": "Does the kiosk close?"
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 145.2,
+            "end": 150.3,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 238.7,
+            "end": 243.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 333.3,
+            "end": 338.4,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "overall": "UNVERIFIED"
+    }
+  ]
+}
