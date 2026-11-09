@@ -1,0 +1,92 @@
+/* Space uses the shared course design; these rules scope its ten-stage navigation and models. */
+body.space-course{max-width:none;margin:0;padding:0;font:1rem/1.6 "Trebuchet MS",Arial,sans-serif;background:#f7fcfd;color:var(--text)}
+.space-course [hidden]{display:none!important}
+.space-course a{color:#086473}
+.space-course h2,.space-course h3,.space-course h4{color:var(--dark)}
+.space-course .course-header h1,.space-course .course-header p{color:#fff}
+.space-course .brand{color:var(--dark);text-decoration:none}
+.space-course .brand span{color:#086c7d}
+.space-course .mathmagic-nav>div :is(a,button){color:#086473;border-color:#086c7d}
+.space-course .dashboard-return{margin:0 0 14px}
+.space-course :is(button,a,input,select,summary,[tabindex]):focus-visible{outline:3px solid #9e4f00;outline-offset:3px}
+.space-course .page-tag{color:#086473}
+.space-course .space-lesson-navigation{display:grid;grid-template-columns:minmax(0,1fr) 130px;gap:10px;margin:18px 0}
+.space-course .lesson-tabs{grid-template-columns:repeat(5,minmax(0,1fr));margin:0;position:relative}
+.space-course .tab{font-family:inherit;line-height:1.3;min-height:66px;cursor:pointer;min-width:0;margin:0;text-decoration:none;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.space-course .tab span{display:block;font-size:12px;line-height:1.35;overflow-wrap:anywhere}
+.space-course .tab.active{background:#086c7d;border-color:#086c7d;color:white}
+.space-course .challenge-tab{background:#fff8e6;border:2px solid #a96a09;color:#704000}
+.space-course .challenge-tab[aria-current=page]{background:#704000;color:white}
+.space-course .lesson-heading h2{scroll-margin-top:16px}
+.space-course .rule-card h3{margin:8px 0}
+.space-course .rule-card ol{padding-left:24px}
+.space-course .rule-card li{padding:3px 0}
+.space-course .rule-card p{font-size:18px}
+.space-course .story{font-size:18px}
+.space-course .worked{border-left:5px solid #087f7a}
+.space-course figure{margin:18px 0}
+.space-course figure svg{display:block;width:100%;height:auto;max-width:600px;max-height:340px;margin:auto}
+.space-course figcaption{margin-top:12px}
+.space-course .practice label{display:block;font-weight:700}
+.space-course .practice input{display:block;width:100%;max-width:280px;min-width:0;margin:10px 0}
+.space-course .practice button{margin:6px 0}
+.space-course .practice-feedback{padding:12px;border-radius:10px}
+.space-course .practice-feedback:empty{display:none}
+.space-course .practice-feedback.correct{color:#166534;background:#dcfce7}
+.space-course .practice-feedback.incorrect{color:#991b1b;background:#fee2e2}
+.space-course .video-resource video{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:12px;background:#111}
+.space-course .video-resource details{margin-top:12px}
+.space-course .video-resource summary{cursor:pointer;font-weight:700}
+.space-course .video-resource details p{overflow-wrap:anywhere}
+.space-course .lesson-nav :is(button,a),.space-course .space-tool-nav a,.space-course .tool-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 16px;border:2px solid #086c7d;border-radius:10px;background:white;color:#086473;font-family:inherit;font-weight:800;font-size:1rem;line-height:1.4;text-decoration:none;cursor:pointer;text-align:center}
+.space-course .lesson-nav .primary,.space-course button.primary{background:#086c7d!important;color:white!important}
+.space-course .space-tool-nav{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.space-course .screen{line-height:1.65;min-width:0}
+.space-course .space-resources{margin-top:20px}
+.space-course .space-resources h2{font-size:24px}
+.space-course footer{margin:20px 0}
+.space-course .space-tool :is(button,input,select),.space-course .space-assessment button{font:inherit;min-height:44px;max-width:100%;border:2px solid #086c7d;border-radius:10px;padding:9px 13px;background:white;color:var(--dark)}
+.space-course .space-tool button,.space-course .space-assessment button{cursor:pointer;font-weight:700;margin:5px 4px 5px 0}
+.space-course :is(button,input,select):disabled{cursor:default;opacity:.65}
+.space-course .space-tool :is(input[type=number],input[inputmode=numeric]){width:110px}
+.space-course .space-tool input[type=range]{padding:0;vertical-align:middle}
+.space-course .space-tool label{display:inline-block;max-width:100%;margin:6px 8px 6px 0}
+.space-course .space-tool :is(.hint,.card){background:var(--sky);border-radius:12px;padding:16px;margin:18px 0}
+.space-course .space-tool section{background:white;border:1px solid var(--border);border-radius:16px;padding:20px;margin:18px 0}
+.space-course .space-tool>svg{display:block;margin:20px auto;max-width:100%;height:auto}
+.space-course .space-tool #board{width:100%;max-width:342px;grid-template-columns:repeat(6,minmax(0,1fr));gap:3px}
+.space-course .space-tool #board button{width:100%;height:auto;min-height:0;aspect-ratio:1;padding:0;margin:0;border-radius:4px}
+.space-course .space-tool fieldset{min-width:0;border:1px solid var(--border);border-radius:12px;padding:16px}
+.space-course .space-tool legend{font-weight:800;padding:0 8px}
+.space-course .space-tool :is(#feedback,#result,#ruleFeedback){overflow-wrap:anywhere}
+.space-course .space-assessment .space-card{border:1px solid var(--border);border-radius:16px;padding:20px;margin:18px 0}
+.space-course .space-assessment .attempt-summary{display:block;max-width:none}
+.space-course .space-assessment .attempt-summary p{margin:4px 0}
+.space-course .choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.space-course .choices button{margin:0;min-height:52px;text-align:left;background:#f7fcfd}
+.space-course .choices button[aria-pressed=true]{border-color:#086473;background:#d8f3ee;box-shadow:inset 0 0 0 1px #086473}
+.space-course #questionDiagram svg{display:block;width:100%;max-width:500px;height:auto;max-height:340px;margin:18px auto}
+.space-course #feedback{white-space:pre-wrap}
+.space-course #feedback.correct{color:#166534;background:#dcfce7;padding:16px;border-radius:12px}
+.space-course #feedback.incorrect{color:#991b1b;background:#fee2e2;padding:16px;border-radius:12px}
+@media(max-width:900px){
+ .space-course .space-lesson-navigation{grid-template-columns:1fr}
+ .space-course .challenge-tab{min-height:48px;flex-direction:row;gap:8px}
+ .space-course .challenge-tab span{margin:0;font-size:14px}
+}
+@media(max-width:600px){
+ .space-course .course-header{padding:22px}
+ .space-course .course-header h1{font-size:30px;line-height:1.2}
+ .space-course .course-shell{margin-top:18px}
+ .space-course .lesson-tabs{display:flex;overflow-x:auto;gap:8px;padding:5px 4px 10px;scrollbar-width:thin;scrollbar-color:#086c7d #e9f8fb;scroll-snap-type:x proximity}
+ .space-course .lesson-tabs .tab{flex:0 0 112px;scroll-snap-align:start;min-height:76px}
+ .space-course .lesson-tabs .tab span{display:block}
+ .space-course .lesson-nav :is(button,a){width:100%}
+ .space-course .choices{grid-template-columns:1fr}
+ .space-course .space-tool section,.space-course .space-assessment .space-card{padding:14px}
+ .space-course .rule-card,.space-course .example-card,.space-course .reason-card,.space-course .practice,.space-course .video-resource{padding:16px}
+ .space-course .space-tool-nav a{flex:1 1 140px}
+}
+
+.space-course .skip-link{position:absolute;left:12px;top:-100px;z-index:10;background:white;padding:12px;border:2px solid #086473;border-radius:8px}
+.space-course .skip-link:focus{top:8px}
