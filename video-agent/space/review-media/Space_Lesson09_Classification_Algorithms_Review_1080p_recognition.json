@@ -1,0 +1,102 @@
+[
+  {
+    "scene": 0,
+    "reference": "A museum sorting machine puts every four-sided shape in the square tray. A long rectangle arrives, and the machine makes a mistake. How can we improve its instructions? This extra investigation uses yes-or-no decisions to classify shapes, then tests the rules with examples that challenge our first ideas.",
+    "recognised": " A MUSEUM SORTING MACHINE PUTS EVERY FAR SIDED SHAPE IN THE SQUARE TRAY A LONG RECTANGLE ARRIVES AND THE MACHINE MAKES A MISTAKE HOW CAN WE IMPROVE ITS INSTRUCTIONS THIS EXTRA INVESTIGATION USES YES OR NO DECISIONS TO CLASSIFY SHAPES THEN TESTS THE RULES WITH EXAMPLES THAT CHALLENGE OUR FIRST IDEAS"
+  },
+  {
+    "scene": 1,
+    "reference": "Today we are learning to test yes-or-no rules that classify shapes and solids. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+    "recognised": " TO DAY WE ARE LEARNING TO TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS WE WILL MOVE FROM OBJECTS OR HANDS OR ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME"
+  },
+  {
+    "scene": 2,
+    "reference": "Our learning goal is to test yes-or-no rules that classify shapes and solids. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+    "recognised": " OUR LEARNING GOAL IS TO TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING"
+  },
+  {
+    "scene": 3,
+    "reference": "Here are our three success criteria. I can choose precise properties. I can follow a decision path. I can test and repair a rule. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+    "recognised": " HERE ARE OUT THREE SUCCESS CRITERIA I CAN CHOOSE PRECISE PROPERTIES I CAN FOLLOW A DECISION PATH I CAN TEST AND REPAIR A RULE WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED"
+  },
+  {
+    "scene": 4,
+    "reference": "Make cards showing squares, non-square rectangles and slanted rhombuses. Turn the cards in different directions without changing their shapes. Ask a partner to sort them using a rule you state aloud. If the rule depends on which way a card faces, it may be describing appearance rather than geometry.",
+    "recognised": " MAKE CARDS SHOWING SQUARES NON SQUARE RECTANGLES AND SLANTED ROMBUSES TURN THE CARDS IN DIFFERENT DIRECTIONS WITHOUT CHANGING THEIR SHAPES ASK A PARTNER TO SORT THEM USING A RULE YOU STATE ALOUD IF THE RULE DEPENDS ON WHICH WAY A CARD FACES IT MAY BE DESCRIBING APPEARANCE RATHER THAN GEOMETRY"
+  },
+  {
+    "scene": 5,
+    "reference": "An algorithm is an ordered set of instructions for carrying out a task. Our sorting algorithm asks one clear question at a time. Each answer chooses the next branch. A useful question has a reliable yes-or-no answer based on an observable property, such as the number of sides.",
+    "recognised": " AN ALGARTHM IS AN ORDERED SET OF INSTRUCTIONS FOR CARRYING OUT A TASK AUSORTING ALGARTHEM ASKS ONE CLEAR QUESTION AT A TIME EACH ANSWER CHOOSES THE NEXT BRANCH A USEFUL QUESTION HAS A RELIABLE YES OR NO ANSWER BASED ON AN OBSERVABLE PROPERTY SUCH AS THE NUMBER OF SIDES"
+  },
+  {
+    "scene": 6,
+    "reference": "Before asking whether a shape is square, restrict our collection to four-sided polygons. Curved outlines and triangles need other branches. Knowing the starting collection prevents a rule from making claims about objects it was never designed to handle. Always say what kinds of objects your algorithm is sorting.",
+    "recognised": " BEFORE ASKING WHETHER A SHAPE IS SQUARE RESTRICT OUR COLLECTION TO FOUR SIDED POLYGONS CURVED OUTLINES AND TRIANGLES NEED OTHER BRANCHES KNOWING THE STARTING COLLECTION PREVENTS A RULE FROM MAKING CLAIMS ABOUT OBJECTS IT WAS NEVER DESIGNED TO HANDLE ALWAYS SAY WHAT KINDS OF OBJECTS YOUR ALGARTHUM IS SOUGHTING"
+  },
+  {
+    "scene": 7,
+    "reference": "A proposed rule asks only whether all four sides are equal. Predict whether every shape that answers yes must be a square. Compare an ordinary square with a slanted rhombus. Check the corners as well as the side lengths before accepting the rule.",
+    "recognised": " A PROPOSED RULE ASKS ONLY WHETHER ALL FOUR SIDES ARE EQUAL PREDICT WHETHER EVERY SHAPE THAT ANSWERS YES MUST BE A SQUARE COMPARE AN ORDINARY SQUARE WITH A SLANTED RUMBUS CHECK THE CORNERS AS WELL AS THE SIDE LENGTHS BEFORE ACCEPTING THE RULE"
+  },
+  {
+    "scene": 8,
+    "reference": "A non-square rhombus also has four equal sides, so the first test is insufficient. Add another question: are all four angles right angles? Within our quadrilateral collection, four equal sides together with four right angles identify a square. Both conditions are needed.",
+    "recognised": " AND NON SQUARE ROMBERS ALSO HAS FOUR EQUAL SIDES SO THE FIRST TEST IS INSUFFICIENT ADD ANOTHER QUESTION ARE ALL FOUR ANGLES RIGHT ANGLES WITHIN OUR QUADRILATURAL COLLECTION FOUR EQUAL SIDES TOGETHER WITH FOUR RIGHT ANGLES IDENTIFY A SQUARE BOTH CONDITIONS ARE NEEDED"
+  },
+  {
+    "scene": 9,
+    "reference": "A square answers yes to both questions. A non-square rhombus answers yes to equal sides but no to four right angles. A non-square rectangle answers no to all sides equal, even though its angles are right. Read each branch in order instead of skipping to a familiar name.",
+    "recognised": " A SQUARE ANSWER YES TO BOTH QUESTIONS A NON SQUARE ROMBUS ANSWERS YES TO EQUAL SIDES BUT NOTE TO FOUR RIGHT ANGLES A NON SQUARE RECTANGLE ANSWERS NO TO ALL SIDES EQUAL EVEN THOUGH ITS ANGLES ARE RIGHT READ EACH BRANCH IN OTHER INSTEAD OF SKIPPING TO A FAMILIAR NAME"
+  },
+  {
+    "scene": 10,
+    "reference": "A square is also a rectangle because it has four right angles. It is also a rhombus because all four sides are equal. A sorting machine may choose a specific final label, but that does not erase the other true categories. Be careful when a question asks for every category that applies.",
+    "recognised": " A SQUARE IS ALSO A RECTANGLE BECAUSE IT HAS FOUR RIGHT ANGLES IT IS ALSO A RHEMUS BECAUSE ALL FOUR SIDES ARE EQUAL A SOUGHTING MACHINE MAY CHOOSE A SPECIFIC FINAL LABEL BUT THAT DOES NOT ERASE THE OTHER TRUE CATEGORIES BE CAREFUL WHEN A QUESTION ASKS FOR EVERY CATEGORY THAT APPLIES"
+  },
+  {
+    "scene": 11,
+    "reference": "A counterexample is one valid case that shows a proposed always-rule is false. A non-square rectangle disproves the claim that four right angles alone identify a square. One counterexample is enough to reject that claim, even if many squares happened to pass the test correctly.",
+    "recognised": " A COUNTER EXAMPLE IS ONE VALID CASE THAT SHOWS A PROPOSED ALWAYS RULE IS FALSE A NON SQUARE RECTANGLE DISPROVES THE CLAIM THAT FOUR RIGHT ANGLES ALONE IDENTIFY A SQUARE ONE COUNTER EXAMPLE IS ENOUGH TO REJECT THAT CLAIM EVEN IF MANY SQUARES HAPPEN TO PASS THE TEST CORRECTLY"
+  },
+  {
+    "scene": 12,
+    "reference": "Now sort solids instead of flat shapes. A proposed rule calls every object with six faces a cube. Predict whether a long rectangular carton would pass this test. What extra property would separate a cube from that carton without relying on colour or the direction of the drawing?",
+    "recognised": " NOW SOUGHT SOLID INSTEAD OF FLAT SHAPES A PROPOSED RULE CALLS EVERY OBJECT WITH SIX FACES A CUBE PREDICT WHETHER A LONG RECTANGULAR COTTON WOULD PASS THIS TEST WHAT EXTRA PROPERTY WOULD SEPARATE A CUBE FROM THAT COTTON WITHOUT RELYING ON COLOR OR THE DIRECTION OF THE DRAWING"
+  },
+  {
+    "scene": 13,
+    "reference": "The long rectangular prism also has six faces, so the count alone fails. A cube has six square faces and equal edge lengths. Check the face shapes and their connections. The long carton has unequal edge lengths, so it is a counterexample to the original six-face rule.",
+    "recognised": " THE LONG RECTANGULAR PRISM ALSO HAS SIX FACES TILL THE COUNT ALONE FAILS A CUBE HAS SIX SQUARE FACES AND EQUAL EDGE LENGTHS CHECK THE FACE SHAPES ON THEIR CONNECTIONS THE LONG COTTON HAS UNEQUAL EDGE LENGTHS SO IT IS A COUNTER EXAMPLE TO THE ORIGINAL SIX FACE RULE"
+  },
+  {
+    "scene": 14,
+    "reference": "A square is a flat shape, while a cube is a three-dimensional object. Asking whether a solid has four sides confuses different kinds of features. For polygons ask about sides and angles. For solids ask about faces, edges, vertices and curved surfaces, using the relevant mathematical language.",
+    "recognised": " A SQUARE IS A FLAT SHAPE WHILE A CUBE IS A THREE DIMENSIONAL OBJECT ASKING WHETHER A SOLID HAS FOUR SIDES CONFUSES DIFFERENT KINDS OF FEATURES FOR POLYGONS ASK ABOUT SIDES AND ANGLES FOR SOLIDS ASK ABOUT FACES EDGES VERTESIES AND CURVED SURFACES USING THE RELEVANT MATHEMATICAL LANGUAGE"
+  },
+  {
+    "scene": 15,
+    "reference": "An algorithm needs a next instruction for both yes and no outcomes. A missing branch leaves some objects unsorted. Walk through the diagram with several different cards. Record the question, answer and next location each time so you can discover exactly where a path becomes unclear.",
+    "recognised": " AN ALGARTHM NEEDS A NEXT INSTRUCTION FOR BOTH YES AND NO OUTCOMES A MISSING BRANCH LEAVE SOME OBJECTS UNSOTED WALK THROUGH THE DIAGRAM WITH SEVERAL DIFFERENT CARDS RECORD THE QUESTION ANSWER AND NEXT LOCATION EACH TIME SO YOU CAN DISCOVER EXACTLY WHERE A PATH BECOMES UNCLEAR"
+  },
+  {
+    "scene": 16,
+    "reference": "When you repair a question, retest examples that previously worked as well as the troublesome counterexample. A new condition might accidentally reject genuine squares. Good improvement keeps valid cases and removes invalid ones. Explain why the revised rule works for the whole stated collection, not just one favourite shape.",
+    "recognised": " WHEN YOU REPAIR A QUESTION RETEST EXAMPLES THAT PREVIOUSLY WORKED AS WELL AS THE TROUBLESOME COUNTER EXAMPLE A NEW CONDITION MIGHT ACCIDENTALLY REJECT GENUINE SQUARES GOOD IMPROVEMENT KEEPS VALID CASES AND REMOVES INVALID ONES EXPLAIN WHY THE REVISED RULE WORKS FOR THE WHOLE STATED COLLECTION NOT JUST ONE FAVORITE SHAPE"
+  },
+  {
+    "scene": 17,
+    "reference": "A learner writes, does it look like a square? Decide why that question is hard for a machine or partner to follow reliably. Replace it with precise yes-or-no tests. Remember a square turned onto one corner is still a square, and categories may share members.",
+    "recognised": " A LEARNER WRITES DOES IT LOOK LIKE A SQUARE DECIDE WHY THAT QUESTION IS HARD FOR A MACHINE OR PARTNER TO FOLLOW RELIABLY REPLACE IT WITH PRECISE YES ON OUR TESTS REMEMBER A SQUARE TURNED ON TO ONE CORNER IS STILL A SQUARE AND CATEGORIES MAY SHARE MEMBERS"
+  },
+  {
+    "scene": 18,
+    "reference": "For a four-sided polygon, test whether all four sides are equal and all four angles are right angles. Turning the paper does not change those properties. The revised rule gives evidence for the square label and can be checked with non-square rectangles and rhombuses. That is more reliable than appearance.",
+    "recognised": " FOR A FOUR SIDED POLYGON TEST WHETHER ALL FOUR SIDES ARE EQUAL AND ALL FOUR ANGLES ARE RIGHT ANGLES TURNING THE PAPER DOES NOT CHANGE THOSE PROPERTIES THE REVISED RULE GIVES EVIDENCE FOR THE SQUARE LABEL AND CAN BE CHECKED WITH NON SQUARE RECTANGLES AND ROMBUSES THAT IS MORE RELIABLE THAN APPEARANCE"
+  },
+  {
+    "scene": 19,
+    "reference": "Return to our learning goal. Test yes-or-no rules that classify shapes and solids. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+    "recognised": " RETURN TO OUR LEARNING GOAL TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT"
+  }
+]

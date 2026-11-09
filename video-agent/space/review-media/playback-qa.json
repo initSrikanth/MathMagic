@@ -672,5 +672,67 @@
     "mime": "video/mp4",
     "passed": true,
     "scope": "Local Chromium, muted playback; not actual listening, real Safari/iOS or deployed playback"
+  },
+  {
+    "lesson": "space-lesson9",
+    "sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "metadata": {
+      "duration": 381.1,
+      "width": 1920,
+      "height": 1080,
+      "rectWidth": 1280,
+      "tracks": 1
+    },
+    "captionCueCount": 81,
+    "advancingPlayback": true,
+    "seeks": [
+      19.055,
+      190.55,
+      342.99
+    ],
+    "ended": true,
+    "httpStatusChecks": [
+      200,
+      206,
+      416
+    ],
+    "mime": "video/mp4",
+    "passed": true,
+    "scope": "Local Chromium, muted playback; not actual listening, real Safari/iOS or deployed playback"
+  },
+  {
+    "lesson": "space-lesson9",
+    "sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "metadata": {
+      "duration": 381.1,
+      "width": 1920,
+      "height": 1080,
+      "rectWidth": 390,
+      "tracks": 1
+    },
+    "captionCueCount": 81,
+    "advancingPlayback": true,
+    "seeks": [
+      19.055,
+      190.55,
+      342.99
+    ],
+    "ended": true,
+    "httpStatusChecks": [
+      200,
+      206,
+      416
+    ],
+    "mime": "video/mp4",
+    "passed": true,
+    "scope": "Local Chromium, muted playback; not actual listening, real Safari/iOS or deployed playback"
   }
 ]

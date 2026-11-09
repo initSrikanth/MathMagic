@@ -1,5 +1,5 @@
 {
-  "rendered": 7,
+  "rendered": 8,
   "all_nine_rendered": false,
   "technical_results": [
     {
@@ -937,6 +937,194 @@
         "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_timing.json": "149bedebfd3c2a8ec75a57fd7f490840a5272c285f8e4fedbf241cad51260157",
         "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_qa.json": "33df93cc97b63fc29bdac73909129a24b77bc8158136f3cc2de223d2be38cbdf",
         "Space_Lesson08_Rotations_and_Symmetry_Review_1080p_script.json": "009a49ff205fff815c5e26e01b714651a1e63786011d8ba14e1f57964522d585"
+      }
+    },
+    {
+      "lesson": "space-lesson9",
+      "sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+      "output": "/workspace/output/space-review/Space_Lesson09_Classification_Algorithms_Review_1080p.mp4",
+      "duration": 381.089125,
+      "technical_status": "PASS",
+      "faststart_atom_order": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ],
+      "caption_intervals_valid": true,
+      "caption_transcript_match": true,
+      "offline_recognition_brand_scan": "PASS",
+      "decoded_frame_count": 11433,
+      "encoded_scene_samples": 40,
+      "encoded_scene_sheet": "/workspace/output/space-review/Space_Lesson09_Classification_Algorithms_Review_1080p_encoded_scenes.jpg",
+      "flags": {
+        "extended_static_intervals": [
+          [
+            0.0,
+            19.167
+          ],
+          [
+            19.2,
+            38.433
+          ],
+          [
+            38.467,
+            53.367
+          ],
+          [
+            53.4,
+            61.7
+          ],
+          [
+            61.733,
+            75.033
+          ],
+          [
+            75.067,
+            93.5
+          ],
+          [
+            100.533,
+            111.3
+          ],
+          [
+            115.2,
+            130.633
+          ],
+          [
+            130.667,
+            146.8
+          ],
+          [
+            153.933,
+            169.0
+          ],
+          [
+            169.2,
+            186.067
+          ],
+          [
+            186.1,
+            204.167
+          ],
+          [
+            212.533,
+            221.567
+          ],
+          [
+            221.6,
+            229.9
+          ],
+          [
+            229.933,
+            239.967
+          ],
+          [
+            253.3,
+            261.933
+          ],
+          [
+            270.3,
+            280.8
+          ],
+          [
+            289.167,
+            299.1
+          ],
+          [
+            301.167,
+            319.5
+          ],
+          [
+            319.533,
+            336.433
+          ],
+          [
+            345.967,
+            359.433
+          ],
+          [
+            359.467,
+            367.767
+          ],
+          [
+            367.8,
+            381.033
+          ]
+        ],
+        "short_caption_intervals": [
+          {
+            "start": 19.197625,
+            "end": 19.677624989271163,
+            "text": "Today we are learning to test yes-or-no rules that classify shapes and solids."
+          },
+          {
+            "start": 93.53166666666665,
+            "end": 93.77166666130223,
+            "text": "An algorithm is an ordered set of instructions for carrying out a task."
+          },
+          {
+            "start": 166.49912431335449,
+            "end": 166.61912419891357,
+            "text": "A non-square rhombus also has four equal sides, so the first test is insufficient."
+          },
+          {
+            "start": 166.61912419891357,
+            "end": 167.13912465667724,
+            "text": "Add another question: are all four angles right angles?"
+          },
+          {
+            "start": 167.13912465667724,
+            "end": 167.5391242752075,
+            "text": "Within our quadrilateral collection, four equal sides together with four right angles identify a square."
+          },
+          {
+            "start": 253.1312498474121,
+            "end": 253.45124954223633,
+            "text": "Check the face shapes and their connections."
+          },
+          {
+            "start": 299.14091666666667,
+            "end": 299.94091661898295,
+            "text": "When you repair a question, retest examples that previously worked as well as the troublesome counterexample."
+          },
+          {
+            "start": 347.6197081425985,
+            "end": 347.9797082761129,
+            "text": "Turning the paper does not change those properties."
+          }
+        ],
+        "rapid_board_reveal_flags": [],
+        "long_silent_intervals": [
+          {
+            "start": 146.8,
+            "end": 151.8,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 239.9,
+            "end": 245.0,
+            "overlaps_declared_prediction": true
+          },
+          {
+            "start": 336.4,
+            "end": 341.5,
+            "overlaps_declared_prediction": true
+          }
+        ],
+        "word_timing": "Approximate ASR emissions, not certified forced alignment"
+      },
+      "perceptual_status": "UNVERIFIED",
+      "publication_status": "BLOCKED",
+      "sidecar_hashes": {
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_transcript.txt": "6846e6d93614250be32f3934fce04ed81d69972e0d08490cf9ad5c78e8cf555b",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_encoded_scenes.jpg": "d0a7feef61cb0f55ecb4b0664b6223750d74fc2be8d9770d0168c5b00f7929f9",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_recognition.json": "fcf7cd38321fcff404c06df5d0906919ffe2694db440d91cd0d2a646c2887da5",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_poster.jpg": "2e7bea546ab190d24f2d518de89134846d430f897d7f4ed2a91f7fe0897e6348",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_narration.flac": "9edaca1dbc8050efcfc81eeef513c6b9c88b1a79012a307a5634475022c39bae",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_script.json": "b6fc77268972189ddcf66c07d258c637dac2125777cf3475a74230d940475bd8",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_timing.json": "c6bfdc523f45c33c8eda0b4e3f54f4905ed71968aa3b0bee5b1262bd18986182",
+        "Space_Lesson09_Classification_Algorithms_Review_1080p_qa.json": "deb4c97e2da3ce67f8ca20b7fa051fe033de281a82b83709fefa9f01d39e465b"
       }
     }
   ],

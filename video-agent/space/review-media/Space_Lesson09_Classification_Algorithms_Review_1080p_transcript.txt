@@ -1,0 +1,39 @@
+A museum sorting machine puts every four-sided shape in the square tray. A long rectangle arrives, and the machine makes a mistake. How can we improve its instructions? This extra investigation uses yes-or-no decisions to classify shapes, then tests the rules with examples that challenge our first ideas.
+
+Today we are learning to test yes-or-no rules that classify shapes and solids. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.
+
+Our learning goal is to test yes-or-no rules that classify shapes and solids. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.
+
+Here are our three success criteria. I can choose precise properties. I can follow a decision path. I can test and repair a rule. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.
+
+Make cards showing squares, non-square rectangles and slanted rhombuses. Turn the cards in different directions without changing their shapes. Ask a partner to sort them using a rule you state aloud. If the rule depends on which way a card faces, it may be describing appearance rather than geometry.
+
+An algorithm is an ordered set of instructions for carrying out a task. Our sorting algorithm asks one clear question at a time. Each answer chooses the next branch. A useful question has a reliable yes-or-no answer based on an observable property, such as the number of sides.
+
+Before asking whether a shape is square, restrict our collection to four-sided polygons. Curved outlines and triangles need other branches. Knowing the starting collection prevents a rule from making claims about objects it was never designed to handle. Always say what kinds of objects your algorithm is sorting.
+
+A proposed rule asks only whether all four sides are equal. Predict whether every shape that answers yes must be a square. Compare an ordinary square with a slanted rhombus. Check the corners as well as the side lengths before accepting the rule.
+
+A non-square rhombus also has four equal sides, so the first test is insufficient. Add another question: are all four angles right angles? Within our quadrilateral collection, four equal sides together with four right angles identify a square. Both conditions are needed.
+
+A square answers yes to both questions. A non-square rhombus answers yes to equal sides but no to four right angles. A non-square rectangle answers no to all sides equal, even though its angles are right. Read each branch in order instead of skipping to a familiar name.
+
+A square is also a rectangle because it has four right angles. It is also a rhombus because all four sides are equal. A sorting machine may choose a specific final label, but that does not erase the other true categories. Be careful when a question asks for every category that applies.
+
+A counterexample is one valid case that shows a proposed always-rule is false. A non-square rectangle disproves the claim that four right angles alone identify a square. One counterexample is enough to reject that claim, even if many squares happened to pass the test correctly.
+
+Now sort solids instead of flat shapes. A proposed rule calls every object with six faces a cube. Predict whether a long rectangular carton would pass this test. What extra property would separate a cube from that carton without relying on colour or the direction of the drawing?
+
+The long rectangular prism also has six faces, so the count alone fails. A cube has six square faces and equal edge lengths. Check the face shapes and their connections. The long carton has unequal edge lengths, so it is a counterexample to the original six-face rule.
+
+A square is a flat shape, while a cube is a three-dimensional object. Asking whether a solid has four sides confuses different kinds of features. For polygons ask about sides and angles. For solids ask about faces, edges, vertices and curved surfaces, using the relevant mathematical language.
+
+An algorithm needs a next instruction for both yes and no outcomes. A missing branch leaves some objects unsorted. Walk through the diagram with several different cards. Record the question, answer and next location each time so you can discover exactly where a path becomes unclear.
+
+When you repair a question, retest examples that previously worked as well as the troublesome counterexample. A new condition might accidentally reject genuine squares. Good improvement keeps valid cases and removes invalid ones. Explain why the revised rule works for the whole stated collection, not just one favourite shape.
+
+A learner writes, does it look like a square? Decide why that question is hard for a machine or partner to follow reliably. Replace it with precise yes-or-no tests. Remember a square turned onto one corner is still a square, and categories may share members.
+
+For a four-sided polygon, test whether all four sides are equal and all four angles are right angles. Turning the paper does not change those properties. The revised rule gives evidence for the square label and can be checked with non-square rectangles and rhombuses. That is more reliable than appearance.
+
+Return to our learning goal. Test yes-or-no rules that classify shapes and solids. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.

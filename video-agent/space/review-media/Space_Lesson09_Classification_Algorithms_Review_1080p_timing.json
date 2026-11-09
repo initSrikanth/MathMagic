@@ -1,0 +1,5066 @@
+{
+  "input_hash": "2d2386e02197b98f89f53b0fa45a82d450076b98b2dd7a7f04d2c57e6b5fe34d",
+  "cues": [
+    {
+      "role": "opening",
+      "chapter": "The sorting machine makes a mistake",
+      "text": "A museum sorting machine puts every four-sided shape in the square tray. A long rectangle arrives, and the machine makes a mistake. How can we improve its instructions? This extra investigation uses yes-or-no decisions to classify shapes, then tests the rules with examples that challenge our first ideas.",
+      "board": [],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 0,
+      "start": 0,
+      "end": 19.197625,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.0
+        },
+        {
+          "word": "museum",
+          "start": 0.1599999964237213
+        },
+        {
+          "word": "sorting",
+          "start": 0.7599999904632568
+        },
+        {
+          "word": "machine",
+          "start": 1.1999999284744263
+        },
+        {
+          "word": "puts",
+          "start": 1.71999990940094
+        },
+        {
+          "word": "every",
+          "start": 2.0799999237060547
+        },
+        {
+          "word": "far",
+          "start": 2.440000057220459
+        },
+        {
+          "word": "sided",
+          "start": 2.7200000286102295
+        },
+        {
+          "word": "shape",
+          "start": 3.1999998092651367
+        },
+        {
+          "word": "in",
+          "start": 3.5199999809265137
+        },
+        {
+          "word": "the",
+          "start": 3.5999999046325684
+        },
+        {
+          "word": "square",
+          "start": 3.759999990463257
+        },
+        {
+          "word": "tray",
+          "start": 4.119999885559082
+        },
+        {
+          "word": "a",
+          "start": 4.519999980926514
+        },
+        {
+          "word": "long",
+          "start": 4.759999752044678
+        },
+        {
+          "word": "rectangle",
+          "start": 5.079999923706055
+        },
+        {
+          "word": "arrives",
+          "start": 5.839999675750732
+        },
+        {
+          "word": "and",
+          "start": 6.359999656677246
+        },
+        {
+          "word": "the",
+          "start": 6.480000019073486
+        },
+        {
+          "word": "machine",
+          "start": 6.639999866485596
+        },
+        {
+          "word": "makes",
+          "start": 7.119999885559082
+        },
+        {
+          "word": "a",
+          "start": 7.319999694824219
+        },
+        {
+          "word": "mistake",
+          "start": 7.440000057220459
+        },
+        {
+          "word": "how",
+          "start": 8.119999885559082
+        },
+        {
+          "word": "can",
+          "start": 8.399999618530273
+        },
+        {
+          "word": "we",
+          "start": 8.639999389648438
+        },
+        {
+          "word": "improve",
+          "start": 8.880000114440918
+        },
+        {
+          "word": "its",
+          "start": 9.399999618530273
+        },
+        {
+          "word": "instructions",
+          "start": 9.639999389648438
+        },
+        {
+          "word": "this",
+          "start": 10.559999465942383
+        },
+        {
+          "word": "extra",
+          "start": 10.880000114440918
+        },
+        {
+          "word": "investigation",
+          "start": 11.359999656677246
+        },
+        {
+          "word": "uses",
+          "start": 12.399999618530273
+        },
+        {
+          "word": "yes",
+          "start": 12.920000076293945
+        },
+        {
+          "word": "or",
+          "start": 13.199999809265137
+        },
+        {
+          "word": "no",
+          "start": 13.319999694824219
+        },
+        {
+          "word": "decisions",
+          "start": 13.559999465942383
+        },
+        {
+          "word": "to",
+          "start": 14.15999984741211
+        },
+        {
+          "word": "classify",
+          "start": 14.319999694824219
+        },
+        {
+          "word": "shapes",
+          "start": 14.960000038146973
+        },
+        {
+          "word": "then",
+          "start": 15.359999656677246
+        },
+        {
+          "word": "tests",
+          "start": 15.59999942779541
+        },
+        {
+          "word": "the",
+          "start": 15.960000038146973
+        },
+        {
+          "word": "rules",
+          "start": 16.15999984741211
+        },
+        {
+          "word": "with",
+          "start": 16.559999465942383
+        },
+        {
+          "word": "examples",
+          "start": 16.719999313354492
+        },
+        {
+          "word": "that",
+          "start": 17.35999870300293
+        },
+        {
+          "word": "challenge",
+          "start": 17.559999465942383
+        },
+        {
+          "word": "our",
+          "start": 18.0
+        },
+        {
+          "word": "first",
+          "start": 18.19999885559082
+        },
+        {
+          "word": "ideas",
+          "start": 18.559999465942383
+        }
+      ],
+      "asr_text": " A MUSEUM SORTING MACHINE PUTS EVERY FAR SIDED SHAPE IN THE SQUARE TRAY A LONG RECTANGLE ARRIVES AND THE MACHINE MAKES A MISTAKE HOW CAN WE IMPROVE ITS INSTRUCTIONS THIS EXTRA INVESTIGATION USES YES OR NO DECISIONS TO CLASSIFY SHAPES THEN TESTS THE RULES WITH EXAMPLES THAT CHALLENGE OUR FIRST IDEAS",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 0.0,
+      "motion_end": 18.559999465942383,
+      "reveal_at": 18.409999465942384,
+      "speech_end": 19.197625
+    },
+    {
+      "role": "introduction",
+      "chapter": "Today we are learning",
+      "text": "Today we are learning to test yes-or-no rules that classify shapes and solids. We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions. Keep paper nearby if you would like to test an idea for yourself. You can pause the player whenever you need more time.",
+      "board": [],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 1,
+      "start": 19.197625,
+      "end": 38.464124999999996,
+      "words": [
+        {
+          "word": "to",
+          "start": 19.197625
+        },
+        {
+          "word": "day",
+          "start": 19.35762499642372
+        },
+        {
+          "word": "we",
+          "start": 19.677624989271163
+        },
+        {
+          "word": "are",
+          "start": 19.837624985694884
+        },
+        {
+          "word": "learning",
+          "start": 19.997624952316283
+        },
+        {
+          "word": "to",
+          "start": 20.357624966621398
+        },
+        {
+          "word": "test",
+          "start": 20.557625014305113
+        },
+        {
+          "word": "yes",
+          "start": 20.957624990463255
+        },
+        {
+          "word": "or",
+          "start": 21.277624923706053
+        },
+        {
+          "word": "no",
+          "start": 21.397625047683714
+        },
+        {
+          "word": "rules",
+          "start": 21.677625019073485
+        },
+        {
+          "word": "that",
+          "start": 22.077624876022337
+        },
+        {
+          "word": "classify",
+          "start": 22.277624923706053
+        },
+        {
+          "word": "shapes",
+          "start": 22.957624990463255
+        },
+        {
+          "word": "and",
+          "start": 23.357624847412108
+        },
+        {
+          "word": "solids",
+          "start": 23.517624694824217
+        },
+        {
+          "word": "we",
+          "start": 24.15762503814697
+        },
+        {
+          "word": "will",
+          "start": 24.31762488555908
+        },
+        {
+          "word": "move",
+          "start": 24.517624694824217
+        },
+        {
+          "word": "from",
+          "start": 24.797624904632567
+        },
+        {
+          "word": "objects",
+          "start": 24.997624713897704
+        },
+        {
+          "word": "or",
+          "start": 25.597624618530272
+        },
+        {
+          "word": "hands",
+          "start": 25.837624866485594
+        },
+        {
+          "word": "or",
+          "start": 26.15762503814697
+        },
+        {
+          "word": "actions",
+          "start": 26.397624809265135
+        },
+        {
+          "word": "to",
+          "start": 26.87762482833862
+        },
+        {
+          "word": "drawings",
+          "start": 26.997624713897704
+        },
+        {
+          "word": "then",
+          "start": 27.597624618530272
+        },
+        {
+          "word": "connect",
+          "start": 27.837624389648436
+        },
+        {
+          "word": "those",
+          "start": 28.277624923706053
+        },
+        {
+          "word": "drawings",
+          "start": 28.557624656677245
+        },
+        {
+          "word": "with",
+          "start": 29.15762503814697
+        },
+        {
+          "word": "precise",
+          "start": 29.397624809265135
+        },
+        {
+          "word": "mathematical",
+          "start": 29.957625228881835
+        },
+        {
+          "word": "descriptions",
+          "start": 30.79762442779541
+        },
+        {
+          "word": "keep",
+          "start": 31.677624542236327
+        },
+        {
+          "word": "paper",
+          "start": 31.997624237060545
+        },
+        {
+          "word": "near",
+          "start": 32.35762484741211
+        },
+        {
+          "word": "by",
+          "start": 32.67762454223633
+        },
+        {
+          "word": "if",
+          "start": 32.87762435150147
+        },
+        {
+          "word": "you",
+          "start": 33.03762515258789
+        },
+        {
+          "word": "would",
+          "start": 33.197625
+        },
+        {
+          "word": "like",
+          "start": 33.35762484741211
+        },
+        {
+          "word": "to",
+          "start": 33.55762465667725
+        },
+        {
+          "word": "test",
+          "start": 33.71762450408936
+        },
+        {
+          "word": "an",
+          "start": 33.99762423706055
+        },
+        {
+          "word": "idea",
+          "start": 34.23762496185303
+        },
+        {
+          "word": "for",
+          "start": 34.67762454223633
+        },
+        {
+          "word": "yourself",
+          "start": 34.87762435150147
+        },
+        {
+          "word": "you",
+          "start": 35.55762370300293
+        },
+        {
+          "word": "can",
+          "start": 35.757624465942385
+        },
+        {
+          "word": "pause",
+          "start": 35.99762423706055
+        },
+        {
+          "word": "the",
+          "start": 36.31762393188477
+        },
+        {
+          "word": "player",
+          "start": 36.51762469482422
+        },
+        {
+          "word": "whenever",
+          "start": 36.917624313354494
+        },
+        {
+          "word": "you",
+          "start": 37.31762393188477
+        },
+        {
+          "word": "need",
+          "start": 37.47762377929688
+        },
+        {
+          "word": "more",
+          "start": 37.757624465942385
+        },
+        {
+          "word": "time",
+          "start": 38.077624160766604
+        }
+      ],
+      "asr_text": " TO DAY WE ARE LEARNING TO TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS WE WILL MOVE FROM OBJECTS OR HANDS OR ACTIONS TO DRAWINGS THEN CONNECT THOSE DRAWINGS WITH PRECISE MATHEMATICAL DESCRIPTIONS KEEP PAPER NEAR BY IF YOU WOULD LIKE TO TEST AN IDEA FOR YOURSELF YOU CAN PAUSE THE PLAYER WHENEVER YOU NEED MORE TIME",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 19.197625,
+      "motion_end": 38.077624160766604,
+      "reveal_at": 37.927624160766605,
+      "speech_end": 38.464124999999996
+    },
+    {
+      "role": "learning_goal",
+      "chapter": "Our learning goal",
+      "text": "Our learning goal is to test yes-or-no rules that classify shapes and solids. We want to explain why a result is correct, as well as obtain the result. As you watch, look for the evidence that would help you convince a partner who has not seen your working.",
+      "board": [
+        "Test yes-or-no rules that classify shapes and solids."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 2,
+      "start": 38.464124999999996,
+      "end": 53.38737499999999,
+      "words": [
+        {
+          "word": "our",
+          "start": 38.464124999999996
+        },
+        {
+          "word": "learning",
+          "start": 38.66412498807907
+        },
+        {
+          "word": "goal",
+          "start": 39.06412496423721
+        },
+        {
+          "word": "is",
+          "start": 39.344124995231624
+        },
+        {
+          "word": "to",
+          "start": 39.50412496185302
+        },
+        {
+          "word": "test",
+          "start": 39.70412500953674
+        },
+        {
+          "word": "yes",
+          "start": 40.10412498569488
+        },
+        {
+          "word": "or",
+          "start": 40.42412491893768
+        },
+        {
+          "word": "no",
+          "start": 40.58412488555908
+        },
+        {
+          "word": "rules",
+          "start": 40.82412489509582
+        },
+        {
+          "word": "that",
+          "start": 41.184125028610225
+        },
+        {
+          "word": "classify",
+          "start": 41.344124876022335
+        },
+        {
+          "word": "shapes",
+          "start": 42.02412494277954
+        },
+        {
+          "word": "and",
+          "start": 42.42412479972839
+        },
+        {
+          "word": "solids",
+          "start": 42.624124847412105
+        },
+        {
+          "word": "we",
+          "start": 43.184124790191646
+        },
+        {
+          "word": "want",
+          "start": 43.42412503814697
+        },
+        {
+          "word": "to",
+          "start": 43.624124847412105
+        },
+        {
+          "word": "explain",
+          "start": 43.74412473297119
+        },
+        {
+          "word": "why",
+          "start": 44.42412503814697
+        },
+        {
+          "word": "a",
+          "start": 44.74412473297119
+        },
+        {
+          "word": "result",
+          "start": 44.86412461853027
+        },
+        {
+          "word": "is",
+          "start": 45.344124637603755
+        },
+        {
+          "word": "correct",
+          "start": 45.54412492370605
+        },
+        {
+          "word": "as",
+          "start": 45.98412498092651
+        },
+        {
+          "word": "well",
+          "start": 46.14412482833862
+        },
+        {
+          "word": "as",
+          "start": 46.344124637603755
+        },
+        {
+          "word": "obtain",
+          "start": 46.58412488555908
+        },
+        {
+          "word": "the",
+          "start": 47.02412446594238
+        },
+        {
+          "word": "result",
+          "start": 47.184125267028804
+        },
+        {
+          "word": "as",
+          "start": 47.784124694824214
+        },
+        {
+          "word": "you",
+          "start": 47.98412450408935
+        },
+        {
+          "word": "watch",
+          "start": 48.18412431335449
+        },
+        {
+          "word": "look",
+          "start": 48.66412480926513
+        },
+        {
+          "word": "for",
+          "start": 48.9041245803833
+        },
+        {
+          "word": "the",
+          "start": 49.10412438964843
+        },
+        {
+          "word": "evidence",
+          "start": 49.26412519073486
+        },
+        {
+          "word": "that",
+          "start": 49.784124694824214
+        },
+        {
+          "word": "would",
+          "start": 49.944124542236324
+        },
+        {
+          "word": "help",
+          "start": 50.14412435150146
+        },
+        {
+          "word": "you",
+          "start": 50.464124999999996
+        },
+        {
+          "word": "convince",
+          "start": 50.624124847412105
+        },
+        {
+          "word": "a",
+          "start": 51.14412435150146
+        },
+        {
+          "word": "partner",
+          "start": 51.344125114440914
+        },
+        {
+          "word": "who",
+          "start": 51.784124694824214
+        },
+        {
+          "word": "has",
+          "start": 51.944124542236324
+        },
+        {
+          "word": "not",
+          "start": 52.14412435150146
+        },
+        {
+          "word": "seen",
+          "start": 52.344125114440914
+        },
+        {
+          "word": "your",
+          "start": 52.66412480926513
+        },
+        {
+          "word": "working",
+          "start": 52.9041245803833
+        }
+      ],
+      "asr_text": " OUR LEARNING GOAL IS TO TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS WE WANT TO EXPLAIN WHY A RESULT IS CORRECT AS WELL AS OBTAIN THE RESULT AS YOU WATCH LOOK FOR THE EVIDENCE THAT WOULD HELP YOU CONVINCE A PARTNER WHO HAS NOT SEEN YOUR WORKING",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Test yes-or-no rules that classify shapes and solids.",
+          "at": 38.464124999999996,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 38.464124999999996,
+      "motion_end": 52.9041245803833,
+      "reveal_at": 52.7541245803833,
+      "speech_end": 53.38737499999999
+    },
+    {
+      "role": "success_criteria",
+      "chapter": "Three success criteria",
+      "text": "Here are our three success criteria. I can choose precise properties. I can follow a decision path. I can test and repair a rule. We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge. A good explanation links what you see in the model with the mathematical rule being used.",
+      "board": [
+        "I can choose precise properties.",
+        "I can follow a decision path.",
+        "I can test and repair a rule."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 3,
+      "start": 53.38737499999999,
+      "end": 75.06041666666665,
+      "words": [
+        {
+          "word": "here",
+          "start": 53.38737499999999
+        },
+        {
+          "word": "are",
+          "start": 53.867374989271156
+        },
+        {
+          "word": "out",
+          "start": 54.14737499046325
+        },
+        {
+          "word": "three",
+          "start": 54.42737496185302
+        },
+        {
+          "word": "success",
+          "start": 54.70737493324279
+        },
+        {
+          "word": "criteria",
+          "start": 55.26737499523162
+        },
+        {
+          "word": "i",
+          "start": 56.067374828338615
+        },
+        {
+          "word": "can",
+          "start": 56.26737487602233
+        },
+        {
+          "word": "choose",
+          "start": 56.507374885559074
+        },
+        {
+          "word": "precise",
+          "start": 56.907374980926505
+        },
+        {
+          "word": "properties",
+          "start": 57.467374923706046
+        },
+        {
+          "word": "i",
+          "start": 58.227374675750724
+        },
+        {
+          "word": "can",
+          "start": 58.507374885559074
+        },
+        {
+          "word": "follow",
+          "start": 58.74737465667724
+        },
+        {
+          "word": "a",
+          "start": 59.14737475204467
+        },
+        {
+          "word": "decision",
+          "start": 59.30737507629394
+        },
+        {
+          "word": "path",
+          "start": 59.907374980926505
+        },
+        {
+          "word": "i",
+          "start": 60.30737507629394
+        },
+        {
+          "word": "can",
+          "start": 60.5473748474121
+        },
+        {
+          "word": "test",
+          "start": 60.74737465667724
+        },
+        {
+          "word": "and",
+          "start": 61.227374675750724
+        },
+        {
+          "word": "repair",
+          "start": 61.42737496185302
+        },
+        {
+          "word": "a",
+          "start": 61.90737450408935
+        },
+        {
+          "word": "rule",
+          "start": 62.067374351501456
+        },
+        {
+          "word": "we",
+          "start": 62.507374885559074
+        },
+        {
+          "word": "will",
+          "start": 62.66737473297118
+        },
+        {
+          "word": "check",
+          "start": 62.82737458038329
+        },
+        {
+          "word": "these",
+          "start": 63.14737522888183
+        },
+        {
+          "word": "ideas",
+          "start": 63.467374923706046
+        },
+        {
+          "word": "in",
+          "start": 64.02737438964843
+        },
+        {
+          "word": "two",
+          "start": 64.26737511444091
+        },
+        {
+          "word": "worked",
+          "start": 64.5473748474121
+        },
+        {
+          "word": "examples",
+          "start": 64.86737454223632
+        },
+        {
+          "word": "investigate",
+          "start": 65.5473748474121
+        },
+        {
+          "word": "a",
+          "start": 66.34737503814696
+        },
+        {
+          "word": "common",
+          "start": 66.50737488555907
+        },
+        {
+          "word": "mistake",
+          "start": 66.86737454223632
+        },
+        {
+          "word": "and",
+          "start": 67.38737499999999
+        },
+        {
+          "word": "finish",
+          "start": 67.58737480926513
+        },
+        {
+          "word": "with",
+          "start": 67.9873744277954
+        },
+        {
+          "word": "an",
+          "start": 68.14737427520751
+        },
+        {
+          "word": "independent",
+          "start": 68.34737503814696
+        },
+        {
+          "word": "challenge",
+          "start": 69.14737427520751
+        },
+        {
+          "word": "a",
+          "start": 69.74737370300292
+        },
+        {
+          "word": "good",
+          "start": 69.94737446594237
+        },
+        {
+          "word": "explanation",
+          "start": 70.18737423706054
+        },
+        {
+          "word": "links",
+          "start": 71.06737530517577
+        },
+        {
+          "word": "what",
+          "start": 71.46737492370605
+        },
+        {
+          "word": "you",
+          "start": 71.70737469482421
+        },
+        {
+          "word": "see",
+          "start": 71.90737545776366
+        },
+        {
+          "word": "in",
+          "start": 72.10737431335448
+        },
+        {
+          "word": "the",
+          "start": 72.22737515258788
+        },
+        {
+          "word": "model",
+          "start": 72.34737408447265
+        },
+        {
+          "word": "with",
+          "start": 72.70737469482421
+        },
+        {
+          "word": "the",
+          "start": 72.82737362670898
+        },
+        {
+          "word": "mathematical",
+          "start": 72.98737538146972
+        },
+        {
+          "word": "rule",
+          "start": 73.82737362670898
+        },
+        {
+          "word": "being",
+          "start": 74.14737522888183
+        },
+        {
+          "word": "used",
+          "start": 74.5473748474121
+        }
+      ],
+      "asr_text": " HERE ARE OUT THREE SUCCESS CRITERIA I CAN CHOOSE PRECISE PROPERTIES I CAN FOLLOW A DECISION PATH I CAN TEST AND REPAIR A RULE WE WILL CHECK THESE IDEAS IN TWO WORKED EXAMPLES INVESTIGATE A COMMON MISTAKE AND FINISH WITH AN INDEPENDENT CHALLENGE A GOOD EXPLANATION LINKS WHAT YOU SEE IN THE MODEL WITH THE MATHEMATICAL RULE BEING USED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can choose precise properties.",
+          "at": 53.38737499999999,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can follow a decision path.",
+          "at": 53.38737499999999,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can test and repair a rule.",
+          "at": 53.38737499999999,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 53.38737499999999,
+      "motion_end": 74.5473748474121,
+      "reveal_at": 74.3973748474121,
+      "speech_end": 75.06041666666665
+    },
+    {
+      "role": "explanation",
+      "chapter": "Sort a real card collection",
+      "text": "Make cards showing squares, non-square rectangles and slanted rhombuses. Turn the cards in different directions without changing their shapes. Ask a partner to sort them using a rule you state aloud. If the rule depends on which way a card faces, it may be describing appearance rather than geometry.",
+      "board": [
+        "Use properties, not page direction."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 4,
+      "start": 75.06041666666665,
+      "end": 93.53166666666665,
+      "words": [
+        {
+          "word": "make",
+          "start": 75.06041666666665
+        },
+        {
+          "word": "cards",
+          "start": 75.4604166428248
+        },
+        {
+          "word": "showing",
+          "start": 75.86041661898294
+        },
+        {
+          "word": "squares",
+          "start": 76.3004166762034
+        },
+        {
+          "word": "non",
+          "start": 76.86041661898294
+        },
+        {
+          "word": "square",
+          "start": 77.14041659037271
+        },
+        {
+          "word": "rectangles",
+          "start": 77.50041672388711
+        },
+        {
+          "word": "and",
+          "start": 78.26041647593179
+        },
+        {
+          "word": "slanted",
+          "start": 78.42041656176248
+        },
+        {
+          "word": "rombuses",
+          "start": 78.98041650454202
+        },
+        {
+          "word": "turn",
+          "start": 79.7804164568583
+        },
+        {
+          "word": "the",
+          "start": 80.02041670481363
+        },
+        {
+          "word": "cards",
+          "start": 80.26041647593179
+        },
+        {
+          "word": "in",
+          "start": 80.66041657129922
+        },
+        {
+          "word": "different",
+          "start": 80.82041641871133
+        },
+        {
+          "word": "directions",
+          "start": 81.22041651407876
+        },
+        {
+          "word": "without",
+          "start": 81.94041630427041
+        },
+        {
+          "word": "changing",
+          "start": 82.34041639963785
+        },
+        {
+          "word": "their",
+          "start": 82.86041638056436
+        },
+        {
+          "word": "shapes",
+          "start": 83.14041659037271
+        },
+        {
+          "word": "ask",
+          "start": 83.74041601816812
+        },
+        {
+          "word": "a",
+          "start": 84.06041666666665
+        },
+        {
+          "word": "partner",
+          "start": 84.26041647593179
+        },
+        {
+          "word": "to",
+          "start": 84.70041605631509
+        },
+        {
+          "word": "sort",
+          "start": 84.90041681925454
+        },
+        {
+          "word": "them",
+          "start": 85.22041651407876
+        },
+        {
+          "word": "using",
+          "start": 85.50041624704996
+        },
+        {
+          "word": "a",
+          "start": 85.86041685740152
+        },
+        {
+          "word": "rule",
+          "start": 86.02041670481363
+        },
+        {
+          "word": "you",
+          "start": 86.34041639963785
+        },
+        {
+          "word": "state",
+          "start": 86.54041620890298
+        },
+        {
+          "word": "aloud",
+          "start": 86.90041681925454
+        },
+        {
+          "word": "if",
+          "start": 87.4204163233439
+        },
+        {
+          "word": "the",
+          "start": 87.62041613260904
+        },
+        {
+          "word": "rule",
+          "start": 87.82041594187417
+        },
+        {
+          "word": "depends",
+          "start": 88.14041659037271
+        },
+        {
+          "word": "on",
+          "start": 88.62041613260904
+        },
+        {
+          "word": "which",
+          "start": 88.82041594187417
+        },
+        {
+          "word": "way",
+          "start": 89.06041666666665
+        },
+        {
+          "word": "a",
+          "start": 89.26041647593179
+        },
+        {
+          "word": "card",
+          "start": 89.46041628519693
+        },
+        {
+          "word": "faces",
+          "start": 89.78041598002115
+        },
+        {
+          "word": "it",
+          "start": 90.30041643778482
+        },
+        {
+          "word": "may",
+          "start": 90.50041624704996
+        },
+        {
+          "word": "be",
+          "start": 90.66041609446206
+        },
+        {
+          "word": "describing",
+          "start": 90.82041594187417
+        },
+        {
+          "word": "appearance",
+          "start": 91.50041720072427
+        },
+        {
+          "word": "rather",
+          "start": 92.14041659037271
+        },
+        {
+          "word": "than",
+          "start": 92.50041720072427
+        },
+        {
+          "word": "geometry",
+          "start": 92.74041697184244
+        }
+      ],
+      "asr_text": " MAKE CARDS SHOWING SQUARES NON SQUARE RECTANGLES AND SLANTED ROMBUSES TURN THE CARDS IN DIFFERENT DIRECTIONS WITHOUT CHANGING THEIR SHAPES ASK A PARTNER TO SORT THEM USING A RULE YOU STATE ALOUD IF THE RULE DEPENDS ON WHICH WAY A CARD FACES IT MAY BE DESCRIBING APPEARANCE RATHER THAN GEOMETRY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Use properties, not page direction.",
+          "at": 75.06041666666665,
+          "reason": "scene context"
+        }
+      ],
+      "motion_start": 75.06041666666665,
+      "motion_end": 92.74041697184244,
+      "reveal_at": 92.59041697184243,
+      "speech_end": 93.53166666666665
+    },
+    {
+      "role": "explanation",
+      "chapter": "What is an algorithm?",
+      "text": "An algorithm is an ordered set of instructions for carrying out a task. Our sorting algorithm asks one clear question at a time. Each answer chooses the next branch. A useful question has a reliable yes-or-no answer based on an observable property, such as the number of sides.",
+      "board": [
+        "Clear question → yes or no → next step"
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 5,
+      "start": 93.53166666666665,
+      "end": 111.33812499999999,
+      "words": [
+        {
+          "word": "an",
+          "start": 93.53166666666665
+        },
+        {
+          "word": "algarthm",
+          "start": 93.77166666130223
+        },
+        {
+          "word": "is",
+          "start": 94.57166662851968
+        },
+        {
+          "word": "an",
+          "start": 94.7716666762034
+        },
+        {
+          "word": "ordered",
+          "start": 94.97166660467782
+        },
+        {
+          "word": "set",
+          "start": 95.41166666189828
+        },
+        {
+          "word": "of",
+          "start": 95.65166655222573
+        },
+        {
+          "word": "instructions",
+          "start": 95.81166663805642
+        },
+        {
+          "word": "for",
+          "start": 96.69166651407876
+        },
+        {
+          "word": "carrying",
+          "start": 96.89166656176248
+        },
+        {
+          "word": "out",
+          "start": 97.33166661898294
+        },
+        {
+          "word": "a",
+          "start": 97.53166666666665
+        },
+        {
+          "word": "task",
+          "start": 97.69166651407876
+        },
+        {
+          "word": "ausorting",
+          "start": 98.2516664568583
+        },
+        {
+          "word": "algarthem",
+          "start": 98.97166672388711
+        },
+        {
+          "word": "asks",
+          "start": 99.81166639963784
+        },
+        {
+          "word": "one",
+          "start": 100.2516664568583
+        },
+        {
+          "word": "clear",
+          "start": 100.49166670481362
+        },
+        {
+          "word": "question",
+          "start": 100.85166636149087
+        },
+        {
+          "word": "at",
+          "start": 101.33166638056436
+        },
+        {
+          "word": "a",
+          "start": 101.49166670481362
+        },
+        {
+          "word": "time",
+          "start": 101.65166655222573
+        },
+        {
+          "word": "each",
+          "start": 102.09166613260903
+        },
+        {
+          "word": "answer",
+          "start": 102.49166670481362
+        },
+        {
+          "word": "chooses",
+          "start": 102.97166624704995
+        },
+        {
+          "word": "the",
+          "start": 103.49166670481362
+        },
+        {
+          "word": "next",
+          "start": 103.6116665903727
+        },
+        {
+          "word": "branch",
+          "start": 103.97166624704995
+        },
+        {
+          "word": "a",
+          "start": 104.49166670481362
+        },
+        {
+          "word": "useful",
+          "start": 104.69166651407876
+        },
+        {
+          "word": "question",
+          "start": 105.21166601816812
+        },
+        {
+          "word": "has",
+          "start": 105.77166643778482
+        },
+        {
+          "word": "a",
+          "start": 105.97166624704995
+        },
+        {
+          "word": "reliable",
+          "start": 106.13166609446206
+        },
+        {
+          "word": "yes",
+          "start": 106.77166643778482
+        },
+        {
+          "word": "or",
+          "start": 107.05166617075601
+        },
+        {
+          "word": "no",
+          "start": 107.21166601816812
+        },
+        {
+          "word": "answer",
+          "start": 107.49166670481362
+        },
+        {
+          "word": "based",
+          "start": 107.8916663233439
+        },
+        {
+          "word": "on",
+          "start": 108.25166598002114
+        },
+        {
+          "word": "an",
+          "start": 108.41166678110757
+        },
+        {
+          "word": "observable",
+          "start": 108.57166662851968
+        },
+        {
+          "word": "property",
+          "start": 109.25166598002114
+        },
+        {
+          "word": "such",
+          "start": 109.77166643778482
+        },
+        {
+          "word": "as",
+          "start": 110.01166620890298
+        },
+        {
+          "word": "the",
+          "start": 110.17166605631509
+        },
+        {
+          "word": "number",
+          "start": 110.3316659037272
+        },
+        {
+          "word": "of",
+          "start": 110.6116665903727
+        },
+        {
+          "word": "sides",
+          "start": 110.77166643778482
+        }
+      ],
+      "asr_text": " AN ALGARTHM IS AN ORDERED SET OF INSTRUCTIONS FOR CARRYING OUT A TASK AUSORTING ALGARTHEM ASKS ONE CLEAR QUESTION AT A TIME EACH ANSWER CHOOSES THE NEXT BRANCH A USEFUL QUESTION HAS A RELIABLE YES OR NO ANSWER BASED ON AN OBSERVABLE PROPERTY SUCH AS THE NUMBER OF SIDES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Clear question → yes or no → next step",
+          "at": 100.49166670481362,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 93.53166666666665,
+      "motion_end": 110.77166643778482,
+      "reveal_at": 110.62166643778481,
+      "speech_end": 111.33812499999999
+    },
+    {
+      "role": "explanation",
+      "chapter": "Start with the right collection",
+      "text": "Before asking whether a shape is square, restrict our collection to four-sided polygons. Curved outlines and triangles need other branches. Knowing the starting collection prevents a rule from making claims about objects it was never designed to handle. Always say what kinds of objects your algorithm is sorting.",
+      "board": [
+        "Start: four-sided polygons"
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 6,
+      "start": 111.33812499999999,
+      "end": 130.651375,
+      "words": [
+        {
+          "word": "before",
+          "start": 111.33812499999999
+        },
+        {
+          "word": "asking",
+          "start": 111.7781249976158
+        },
+        {
+          "word": "whether",
+          "start": 112.25812495708465
+        },
+        {
+          "word": "a",
+          "start": 112.57812500953673
+        },
+        {
+          "word": "shape",
+          "start": 112.73812497615813
+        },
+        {
+          "word": "is",
+          "start": 113.05812490940093
+        },
+        {
+          "word": "square",
+          "start": 113.25812495708465
+        },
+        {
+          "word": "restrict",
+          "start": 113.69812489509582
+        },
+        {
+          "word": "our",
+          "start": 114.25812483787536
+        },
+        {
+          "word": "collection",
+          "start": 114.45812488555907
+        },
+        {
+          "word": "to",
+          "start": 114.97812486648559
+        },
+        {
+          "word": "four",
+          "start": 115.21812487602233
+        },
+        {
+          "word": "sided",
+          "start": 115.45812488555907
+        },
+        {
+          "word": "polygons",
+          "start": 115.89812494277953
+        },
+        {
+          "word": "curved",
+          "start": 116.61812473297118
+        },
+        {
+          "word": "outlines",
+          "start": 117.17812467575072
+        },
+        {
+          "word": "and",
+          "start": 117.89812494277953
+        },
+        {
+          "word": "triangles",
+          "start": 118.09812475204467
+        },
+        {
+          "word": "need",
+          "start": 118.89812494277953
+        },
+        {
+          "word": "other",
+          "start": 119.25812459945678
+        },
+        {
+          "word": "branches",
+          "start": 119.53812480926513
+        },
+        {
+          "word": "knowing",
+          "start": 120.29812503814696
+        },
+        {
+          "word": "the",
+          "start": 120.73812461853026
+        },
+        {
+          "word": "starting",
+          "start": 120.9381244277954
+        },
+        {
+          "word": "collection",
+          "start": 121.45812488555907
+        },
+        {
+          "word": "prevents",
+          "start": 121.97812438964843
+        },
+        {
+          "word": "a",
+          "start": 122.45812488555907
+        },
+        {
+          "word": "rule",
+          "start": 122.61812473297118
+        },
+        {
+          "word": "from",
+          "start": 122.97812438964843
+        },
+        {
+          "word": "making",
+          "start": 123.17812515258788
+        },
+        {
+          "word": "claims",
+          "start": 123.57812477111815
+        },
+        {
+          "word": "about",
+          "start": 124.13812423706054
+        },
+        {
+          "word": "objects",
+          "start": 124.45812488555907
+        },
+        {
+          "word": "it",
+          "start": 125.01812435150146
+        },
+        {
+          "word": "was",
+          "start": 125.17812515258788
+        },
+        {
+          "word": "never",
+          "start": 125.33812499999999
+        },
+        {
+          "word": "designed",
+          "start": 125.61812473297118
+        },
+        {
+          "word": "to",
+          "start": 126.09812427520751
+        },
+        {
+          "word": "handle",
+          "start": 126.25812507629394
+        },
+        {
+          "word": "always",
+          "start": 126.77812458038329
+        },
+        {
+          "word": "say",
+          "start": 127.29812503814696
+        },
+        {
+          "word": "what",
+          "start": 127.65812469482421
+        },
+        {
+          "word": "kinds",
+          "start": 127.93812538146972
+        },
+        {
+          "word": "of",
+          "start": 128.25812507629394
+        },
+        {
+          "word": "objects",
+          "start": 128.45812393188476
+        },
+        {
+          "word": "your",
+          "start": 128.93812538146972
+        },
+        {
+          "word": "algarthum",
+          "start": 129.2181241607666
+        },
+        {
+          "word": "is",
+          "start": 129.89812446594237
+        },
+        {
+          "word": "soughting",
+          "start": 130.09812522888183
+        }
+      ],
+      "asr_text": " BEFORE ASKING WHETHER A SHAPE IS SQUARE RESTRICT OUR COLLECTION TO FOUR SIDED POLYGONS CURVED OUTLINES AND TRIANGLES NEED OTHER BRANCHES KNOWING THE STARTING COLLECTION PREVENTS A RULE FROM MAKING CLAIMS ABOUT OBJECTS IT WAS NEVER DESIGNED TO HANDLE ALWAYS SAY WHAT KINDS OF OBJECTS YOUR ALGARTHUM IS SOUGHTING",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Start: four-sided polygons",
+          "at": 115.21812487602233,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 111.33812499999999,
+      "motion_end": 130.09812522888183,
+      "reveal_at": 129.94812522888182,
+      "speech_end": 130.651375
+    },
+    {
+      "role": "question",
+      "chapter": "Will equal sides identify a square?",
+      "text": "A proposed rule asks only whether all four sides are equal. Predict whether every shape that answers yes must be a square. Compare an ordinary square with a slanted rhombus. Check the corners as well as the side lengths before accepting the rule.",
+      "board": [
+        "Are all four sides equal?"
+      ],
+      "model": {
+        "kind": "classify",
+        "hide": true
+      },
+      "index": 7,
+      "start": 130.651375,
+      "end": 151.779125,
+      "words": [
+        {
+          "word": "a",
+          "start": 130.651375
+        },
+        {
+          "word": "proposed",
+          "start": 130.81137499642372
+        },
+        {
+          "word": "rule",
+          "start": 131.45137495231629
+        },
+        {
+          "word": "asks",
+          "start": 131.85137492847443
+        },
+        {
+          "word": "only",
+          "start": 132.3313749475479
+        },
+        {
+          "word": "whether",
+          "start": 132.651375
+        },
+        {
+          "word": "all",
+          "start": 133.01137489509583
+        },
+        {
+          "word": "four",
+          "start": 133.25137490463257
+        },
+        {
+          "word": "sides",
+          "start": 133.61137503814697
+        },
+        {
+          "word": "are",
+          "start": 134.05137485694885
+        },
+        {
+          "word": "equal",
+          "start": 134.21137494277954
+        },
+        {
+          "word": "predict",
+          "start": 134.8113748474121
+        },
+        {
+          "word": "whether",
+          "start": 135.37137479019165
+        },
+        {
+          "word": "every",
+          "start": 135.8113748474121
+        },
+        {
+          "word": "shape",
+          "start": 136.21137494277954
+        },
+        {
+          "word": "that",
+          "start": 136.57137507629395
+        },
+        {
+          "word": "answers",
+          "start": 136.8113748474121
+        },
+        {
+          "word": "yes",
+          "start": 137.2913748664856
+        },
+        {
+          "word": "must",
+          "start": 137.69137496185303
+        },
+        {
+          "word": "be",
+          "start": 137.9313747329712
+        },
+        {
+          "word": "a",
+          "start": 138.09137505722046
+        },
+        {
+          "word": "square",
+          "start": 138.25137490463257
+        },
+        {
+          "word": "compare",
+          "start": 138.8113748474121
+        },
+        {
+          "word": "an",
+          "start": 139.41137522888184
+        },
+        {
+          "word": "ordinary",
+          "start": 139.651375
+        },
+        {
+          "word": "square",
+          "start": 140.2513744277954
+        },
+        {
+          "word": "with",
+          "start": 140.77137488555908
+        },
+        {
+          "word": "a",
+          "start": 140.97137469482422
+        },
+        {
+          "word": "slanted",
+          "start": 141.05137461853028
+        },
+        {
+          "word": "rumbus",
+          "start": 141.69137496185303
+        },
+        {
+          "word": "check",
+          "start": 142.29137438964844
+        },
+        {
+          "word": "the",
+          "start": 142.69137496185303
+        },
+        {
+          "word": "corners",
+          "start": 142.85137480926514
+        },
+        {
+          "word": "as",
+          "start": 143.4913751525879
+        },
+        {
+          "word": "well",
+          "start": 143.69137496185303
+        },
+        {
+          "word": "as",
+          "start": 143.97137469482422
+        },
+        {
+          "word": "the",
+          "start": 144.21137446594238
+        },
+        {
+          "word": "side",
+          "start": 144.41137427520752
+        },
+        {
+          "word": "lengths",
+          "start": 144.73137492370606
+        },
+        {
+          "word": "before",
+          "start": 145.21137446594238
+        },
+        {
+          "word": "accepting",
+          "start": 145.57137507629395
+        },
+        {
+          "word": "the",
+          "start": 146.17137450408936
+        },
+        {
+          "word": "rule",
+          "start": 146.3713743133545
+        }
+      ],
+      "asr_text": " A PROPOSED RULE ASKS ONLY WHETHER ALL FOUR SIDES ARE EQUAL PREDICT WHETHER EVERY SHAPE THAT ANSWERS YES MUST BE A SQUARE COMPARE AN ORDINARY SQUARE WITH A SLANTED RUMBUS CHECK THE CORNERS AS WELL AS THE SIDE LENGTHS BEFORE ACCEPTING THE RULE",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Are all four sides equal?",
+          "at": 130.651375,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 130.651375,
+      "motion_end": 146.3713743133545,
+      "reveal_at": 146.2213743133545,
+      "speech_end": 146.779125
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example one: repair the square rule",
+      "text": "A non-square rhombus also has four equal sides, so the first test is insufficient. Add another question: are all four angles right angles? Within our quadrilateral collection, four equal sides together with four right angles identify a square. Both conditions are needed.",
+      "board": [
+        "Equal sides AND four right angles"
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 8,
+      "start": 151.779125,
+      "end": 169.01783333333333,
+      "words": [
+        {
+          "word": "and",
+          "start": 151.779125
+        },
+        {
+          "word": "non",
+          "start": 151.97912498807906
+        },
+        {
+          "word": "square",
+          "start": 152.2191249976158
+        },
+        {
+          "word": "rombers",
+          "start": 152.65912499523162
+        },
+        {
+          "word": "also",
+          "start": 153.25912501907348
+        },
+        {
+          "word": "has",
+          "start": 153.6191249141693
+        },
+        {
+          "word": "four",
+          "start": 153.9391248474121
+        },
+        {
+          "word": "equal",
+          "start": 154.21912505722045
+        },
+        {
+          "word": "sides",
+          "start": 154.69912483787536
+        },
+        {
+          "word": "so",
+          "start": 155.0991249332428
+        },
+        {
+          "word": "the",
+          "start": 155.25912501907348
+        },
+        {
+          "word": "first",
+          "start": 155.45912482833862
+        },
+        {
+          "word": "test",
+          "start": 155.779125
+        },
+        {
+          "word": "is",
+          "start": 156.1391251335144
+        },
+        {
+          "word": "insufficient",
+          "start": 156.37912490463256
+        },
+        {
+          "word": "add",
+          "start": 157.2991249809265
+        },
+        {
+          "word": "another",
+          "start": 157.61912467575073
+        },
+        {
+          "word": "question",
+          "start": 157.97912480926513
+        },
+        {
+          "word": "are",
+          "start": 158.5791247138977
+        },
+        {
+          "word": "all",
+          "start": 158.779125
+        },
+        {
+          "word": "four",
+          "start": 159.05912473297118
+        },
+        {
+          "word": "angles",
+          "start": 159.37912490463256
+        },
+        {
+          "word": "right",
+          "start": 159.89912488555908
+        },
+        {
+          "word": "angles",
+          "start": 160.17912461853027
+        },
+        {
+          "word": "within",
+          "start": 160.81912496185302
+        },
+        {
+          "word": "our",
+          "start": 161.17912461853027
+        },
+        {
+          "word": "quadrilatural",
+          "start": 161.3791244277954
+        },
+        {
+          "word": "collection",
+          "start": 162.13912465667724
+        },
+        {
+          "word": "four",
+          "start": 162.69912507629394
+        },
+        {
+          "word": "equal",
+          "start": 162.97912480926513
+        },
+        {
+          "word": "sides",
+          "start": 163.45912435150146
+        },
+        {
+          "word": "together",
+          "start": 163.85912492370605
+        },
+        {
+          "word": "with",
+          "start": 164.33912446594238
+        },
+        {
+          "word": "four",
+          "start": 164.57912423706054
+        },
+        {
+          "word": "right",
+          "start": 164.85912492370605
+        },
+        {
+          "word": "angles",
+          "start": 165.17912461853027
+        },
+        {
+          "word": "identify",
+          "start": 165.73912503814697
+        },
+        {
+          "word": "a",
+          "start": 166.49912431335449
+        },
+        {
+          "word": "square",
+          "start": 166.61912419891357
+        },
+        {
+          "word": "both",
+          "start": 167.13912465667724
+        },
+        {
+          "word": "conditions",
+          "start": 167.5391242752075
+        },
+        {
+          "word": "are",
+          "start": 168.25912454223632
+        },
+        {
+          "word": "needed",
+          "start": 168.41912438964843
+        }
+      ],
+      "asr_text": " AND NON SQUARE ROMBERS ALSO HAS FOUR EQUAL SIDES SO THE FIRST TEST IS INSUFFICIENT ADD ANOTHER QUESTION ARE ALL FOUR ANGLES RIGHT ANGLES WITHIN OUR QUADRILATURAL COLLECTION FOUR EQUAL SIDES TOGETHER WITH FOUR RIGHT ANGLES IDENTIFY A SQUARE BOTH CONDITIONS ARE NEEDED",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Equal sides AND four right angles",
+          "at": 153.9391248474121,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 151.779125,
+      "motion_end": 168.41912438964843,
+      "reveal_at": 168.26912438964843,
+      "speech_end": 169.01783333333333
+    },
+    {
+      "role": "explanation",
+      "chapter": "Follow the branches",
+      "text": "A square answers yes to both questions. A non-square rhombus answers yes to equal sides but no to four right angles. A non-square rectangle answers no to all sides equal, even though its angles are right. Read each branch in order instead of skipping to a familiar name.",
+      "board": [
+        "Square: yes, yes. Rhombus: yes, no."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 9,
+      "start": 169.01783333333333,
+      "end": 186.09329166666666,
+      "words": [
+        {
+          "word": "a",
+          "start": 169.01783333333333
+        },
+        {
+          "word": "square",
+          "start": 169.17783332975705
+        },
+        {
+          "word": "answer",
+          "start": 169.6978333404859
+        },
+        {
+          "word": "yes",
+          "start": 170.21783326180775
+        },
+        {
+          "word": "to",
+          "start": 170.57783327611287
+        },
+        {
+          "word": "both",
+          "start": 170.77783332379659
+        },
+        {
+          "word": "questions",
+          "start": 171.05783329518636
+        },
+        {
+          "word": "a",
+          "start": 171.8178332856496
+        },
+        {
+          "word": "non",
+          "start": 171.9778333714803
+        },
+        {
+          "word": "square",
+          "start": 172.25783334287007
+        },
+        {
+          "word": "rombus",
+          "start": 172.73783336194356
+        },
+        {
+          "word": "answers",
+          "start": 173.33783302815755
+        },
+        {
+          "word": "yes",
+          "start": 173.81783304723103
+        },
+        {
+          "word": "to",
+          "start": 174.05783329518636
+        },
+        {
+          "word": "equal",
+          "start": 174.21783314259847
+        },
+        {
+          "word": "sides",
+          "start": 174.6178332379659
+        },
+        {
+          "word": "but",
+          "start": 175.05783329518636
+        },
+        {
+          "word": "note",
+          "start": 175.2578331044515
+        },
+        {
+          "word": "to",
+          "start": 175.4578333905538
+        },
+        {
+          "word": "four",
+          "start": 175.6178332379659
+        },
+        {
+          "word": "right",
+          "start": 175.85783300908406
+        },
+        {
+          "word": "angles",
+          "start": 176.1378332188924
+        },
+        {
+          "word": "a",
+          "start": 176.777833085378
+        },
+        {
+          "word": "non",
+          "start": 176.93783293279012
+        },
+        {
+          "word": "square",
+          "start": 177.21783314259847
+        },
+        {
+          "word": "rectangle",
+          "start": 177.61783276112874
+        },
+        {
+          "word": "answers",
+          "start": 178.37783299001057
+        },
+        {
+          "word": "no",
+          "start": 178.77783356221516
+        },
+        {
+          "word": "to",
+          "start": 179.01783333333333
+        },
+        {
+          "word": "all",
+          "start": 179.2578331044515
+        },
+        {
+          "word": "sides",
+          "start": 179.53783283742268
+        },
+        {
+          "word": "equal",
+          "start": 179.9778333714803
+        },
+        {
+          "word": "even",
+          "start": 180.45783291371663
+        },
+        {
+          "word": "though",
+          "start": 180.73783264668782
+        },
+        {
+          "word": "its",
+          "start": 180.9778333714803
+        },
+        {
+          "word": "angles",
+          "start": 181.21783314259847
+        },
+        {
+          "word": "are",
+          "start": 181.65783272298177
+        },
+        {
+          "word": "right",
+          "start": 181.85783348592122
+        },
+        {
+          "word": "read",
+          "start": 182.29783306630452
+        },
+        {
+          "word": "each",
+          "start": 182.6978326848348
+        },
+        {
+          "word": "branch",
+          "start": 183.01783333333333
+        },
+        {
+          "word": "in",
+          "start": 183.45783291371663
+        },
+        {
+          "word": "other",
+          "start": 183.65783272298177
+        },
+        {
+          "word": "instead",
+          "start": 184.01783333333333
+        },
+        {
+          "word": "of",
+          "start": 184.37783299001057
+        },
+        {
+          "word": "skipping",
+          "start": 184.45783291371663
+        },
+        {
+          "word": "to",
+          "start": 184.89783344777425
+        },
+        {
+          "word": "a",
+          "start": 185.01783333333333
+        },
+        {
+          "word": "familiar",
+          "start": 185.17783318074544
+        },
+        {
+          "word": "name",
+          "start": 185.73783264668782
+        }
+      ],
+      "asr_text": " A SQUARE ANSWER YES TO BOTH QUESTIONS A NON SQUARE ROMBUS ANSWERS YES TO EQUAL SIDES BUT NOTE TO FOUR RIGHT ANGLES A NON SQUARE RECTANGLE ANSWERS NO TO ALL SIDES EQUAL EVEN THOUGH ITS ANGLES ARE RIGHT READ EACH BRANCH IN OTHER INSTEAD OF SKIPPING TO A FAMILIAR NAME",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Square: yes, yes. Rhombus: yes, no.",
+          "at": 169.17783332975705,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 169.01783333333333,
+      "motion_end": 185.73783264668782,
+      "reveal_at": 185.58783264668781,
+      "speech_end": 186.09329166666666
+    },
+    {
+      "role": "misconception",
+      "chapter": "Categories can overlap",
+      "text": "A square is also a rectangle because it has four right angles. It is also a rhombus because all four sides are equal. A sorting machine may choose a specific final label, but that does not erase the other true categories. Be careful when a question asks for every category that applies.",
+      "board": [
+        "Every square is also a rectangle."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 10,
+      "start": 186.09329166666666,
+      "end": 204.19466666666665,
+      "words": [
+        {
+          "word": "a",
+          "start": 186.09329166666666
+        },
+        {
+          "word": "square",
+          "start": 186.25329166309038
+        },
+        {
+          "word": "is",
+          "start": 186.69329163090387
+        },
+        {
+          "word": "also",
+          "start": 186.93329164044061
+        },
+        {
+          "word": "a",
+          "start": 187.29329159514108
+        },
+        {
+          "word": "rectangle",
+          "start": 187.45329168097177
+        },
+        {
+          "word": "because",
+          "start": 188.1732915903727
+        },
+        {
+          "word": "it",
+          "start": 188.45329156176248
+        },
+        {
+          "word": "has",
+          "start": 188.6532916094462
+        },
+        {
+          "word": "four",
+          "start": 188.93329158083597
+        },
+        {
+          "word": "right",
+          "start": 189.21329155222574
+        },
+        {
+          "word": "angles",
+          "start": 189.53329148546854
+        },
+        {
+          "word": "it",
+          "start": 190.21329155222574
+        },
+        {
+          "word": "is",
+          "start": 190.37329139963785
+        },
+        {
+          "word": "also",
+          "start": 190.61329164759317
+        },
+        {
+          "word": "a",
+          "start": 190.97329178110758
+        },
+        {
+          "word": "rhemus",
+          "start": 191.1732915903727
+        },
+        {
+          "word": "because",
+          "start": 191.77329149500528
+        },
+        {
+          "word": "all",
+          "start": 192.1732915903727
+        },
+        {
+          "word": "four",
+          "start": 192.4532913233439
+        },
+        {
+          "word": "sides",
+          "start": 192.77329149500528
+        },
+        {
+          "word": "are",
+          "start": 193.21329155222574
+        },
+        {
+          "word": "equal",
+          "start": 193.37329139963785
+        },
+        {
+          "word": "a",
+          "start": 193.9332913424174
+        },
+        {
+          "word": "soughting",
+          "start": 194.1332916285197
+        },
+        {
+          "word": "machine",
+          "start": 194.573291208903
+        },
+        {
+          "word": "may",
+          "start": 195.09329166666666
+        },
+        {
+          "word": "choose",
+          "start": 195.2932914759318
+        },
+        {
+          "word": "a",
+          "start": 195.613291170756
+        },
+        {
+          "word": "specific",
+          "start": 195.77329101816812
+        },
+        {
+          "word": "final",
+          "start": 196.41329136149088
+        },
+        {
+          "word": "label",
+          "start": 196.81329098002115
+        },
+        {
+          "word": "but",
+          "start": 197.21329155222574
+        },
+        {
+          "word": "that",
+          "start": 197.37329139963785
+        },
+        {
+          "word": "does",
+          "start": 197.613291170756
+        },
+        {
+          "word": "not",
+          "start": 197.85329094187418
+        },
+        {
+          "word": "erase",
+          "start": 198.1332916285197
+        },
+        {
+          "word": "the",
+          "start": 198.573291208903
+        },
+        {
+          "word": "other",
+          "start": 198.7332910563151
+        },
+        {
+          "word": "true",
+          "start": 198.97329178110758
+        },
+        {
+          "word": "categories",
+          "start": 199.25329151407877
+        },
+        {
+          "word": "be",
+          "start": 200.05329170481363
+        },
+        {
+          "word": "careful",
+          "start": 200.2932914759318
+        },
+        {
+          "word": "when",
+          "start": 200.8932909037272
+        },
+        {
+          "word": "a",
+          "start": 201.05329170481363
+        },
+        {
+          "word": "question",
+          "start": 201.21329155222574
+        },
+        {
+          "word": "asks",
+          "start": 201.7332910563151
+        },
+        {
+          "word": "for",
+          "start": 202.13329067484537
+        },
+        {
+          "word": "every",
+          "start": 202.37329044596353
+        },
+        {
+          "word": "category",
+          "start": 202.69329204813639
+        },
+        {
+          "word": "that",
+          "start": 203.29329052225748
+        },
+        {
+          "word": "applies",
+          "start": 203.49329128519693
+        }
+      ],
+      "asr_text": " A SQUARE IS ALSO A RECTANGLE BECAUSE IT HAS FOUR RIGHT ANGLES IT IS ALSO A RHEMUS BECAUSE ALL FOUR SIDES ARE EQUAL A SOUGHTING MACHINE MAY CHOOSE A SPECIFIC FINAL LABEL BUT THAT DOES NOT ERASE THE OTHER TRUE CATEGORIES BE CAREFUL WHEN A QUESTION ASKS FOR EVERY CATEGORY THAT APPLIES",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Every square is also a rectangle.",
+          "at": 186.09329166666666,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 186.09329166666666,
+      "motion_end": 203.49329128519693,
+      "reveal_at": 186.09329166666666,
+      "speech_end": 204.19466666666665
+    },
+    {
+      "role": "explanation",
+      "chapter": "Look for counterexamples",
+      "text": "A counterexample is one valid case that shows a proposed always-rule is false. A non-square rectangle disproves the claim that four right angles alone identify a square. One counterexample is enough to reject that claim, even if many squares happened to pass the test correctly.",
+      "board": [
+        "One counterexample can reject a rule."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 11,
+      "start": 204.19466666666665,
+      "end": 221.58883333333333,
+      "words": [
+        {
+          "word": "a",
+          "start": 204.19466666666665
+        },
+        {
+          "word": "counter",
+          "start": 204.43466666130223
+        },
+        {
+          "word": "example",
+          "start": 204.91466663567223
+        },
+        {
+          "word": "is",
+          "start": 205.47466663805642
+        },
+        {
+          "word": "one",
+          "start": 205.7546666094462
+        },
+        {
+          "word": "valid",
+          "start": 206.03466658083596
+        },
+        {
+          "word": "case",
+          "start": 206.47466663805642
+        },
+        {
+          "word": "that",
+          "start": 206.83466653315224
+        },
+        {
+          "word": "shows",
+          "start": 206.99466661898293
+        },
+        {
+          "word": "a",
+          "start": 207.31466655222573
+        },
+        {
+          "word": "proposed",
+          "start": 207.47466663805642
+        },
+        {
+          "word": "always",
+          "start": 208.03466658083596
+        },
+        {
+          "word": "rule",
+          "start": 208.55466680018105
+        },
+        {
+          "word": "is",
+          "start": 208.83466653315224
+        },
+        {
+          "word": "false",
+          "start": 209.07466678110757
+        },
+        {
+          "word": "a",
+          "start": 209.5546663233439
+        },
+        {
+          "word": "non",
+          "start": 209.7546666094462
+        },
+        {
+          "word": "square",
+          "start": 210.03466634241738
+        },
+        {
+          "word": "rectangle",
+          "start": 210.4346664377848
+        },
+        {
+          "word": "disproves",
+          "start": 211.1146667429606
+        },
+        {
+          "word": "the",
+          "start": 211.6346667238871
+        },
+        {
+          "word": "claim",
+          "start": 211.79466657129922
+        },
+        {
+          "word": "that",
+          "start": 212.11466626612344
+        },
+        {
+          "word": "four",
+          "start": 212.39466647593179
+        },
+        {
+          "word": "right",
+          "start": 212.67466620890298
+        },
+        {
+          "word": "angles",
+          "start": 213.03466681925454
+        },
+        {
+          "word": "alone",
+          "start": 213.5546663233439
+        },
+        {
+          "word": "identify",
+          "start": 213.9946668574015
+        },
+        {
+          "word": "a",
+          "start": 214.714666170756
+        },
+        {
+          "word": "square",
+          "start": 214.8346660563151
+        },
+        {
+          "word": "one",
+          "start": 215.4346664377848
+        },
+        {
+          "word": "counter",
+          "start": 215.79466609446206
+        },
+        {
+          "word": "example",
+          "start": 216.2746665903727
+        },
+        {
+          "word": "is",
+          "start": 216.8346660563151
+        },
+        {
+          "word": "enough",
+          "start": 217.07466678110757
+        },
+        {
+          "word": "to",
+          "start": 217.31466655222573
+        },
+        {
+          "word": "reject",
+          "start": 217.47466639963784
+        },
+        {
+          "word": "that",
+          "start": 217.9946659037272
+        },
+        {
+          "word": "claim",
+          "start": 218.19466666666665
+        },
+        {
+          "word": "even",
+          "start": 218.5546663233439
+        },
+        {
+          "word": "if",
+          "start": 218.8346660563151
+        },
+        {
+          "word": "many",
+          "start": 219.03466586558022
+        },
+        {
+          "word": "squares",
+          "start": 219.2746665903727
+        },
+        {
+          "word": "happen",
+          "start": 219.714666170756
+        },
+        {
+          "word": "to",
+          "start": 220.03466586558022
+        },
+        {
+          "word": "pass",
+          "start": 220.23466567484536
+        },
+        {
+          "word": "the",
+          "start": 220.4346664377848
+        },
+        {
+          "word": "test",
+          "start": 220.63466720072427
+        },
+        {
+          "word": "correctly",
+          "start": 220.91466598002114
+        }
+      ],
+      "asr_text": " A COUNTER EXAMPLE IS ONE VALID CASE THAT SHOWS A PROPOSED ALWAYS RULE IS FALSE A NON SQUARE RECTANGLE DISPROVES THE CLAIM THAT FOUR RIGHT ANGLES ALONE IDENTIFY A SQUARE ONE COUNTER EXAMPLE IS ENOUGH TO REJECT THAT CLAIM EVEN IF MANY SQUARES HAPPEN TO PASS THE TEST CORRECTLY",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "One counterexample can reject a rule.",
+          "at": 208.55466680018105,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 204.19466666666665,
+      "motion_end": 220.91466598002114,
+      "reveal_at": 220.76466598002114,
+      "speech_end": 221.58883333333333
+    },
+    {
+      "role": "question",
+      "chapter": "Do six faces prove a cube?",
+      "text": "Now sort solids instead of flat shapes. A proposed rule calls every object with six faces a cube. Predict whether a long rectangular carton would pass this test. What extra property would separate a cube from that carton without relying on colour or the direction of the drawing?",
+      "board": [
+        "Six faces: is that enough?"
+      ],
+      "model": {
+        "kind": "solidclass",
+        "hide": true
+      },
+      "index": 12,
+      "start": 221.58883333333333,
+      "end": 244.97125,
+      "words": [
+        {
+          "word": "now",
+          "start": 221.58883333333333
+        },
+        {
+          "word": "sought",
+          "start": 221.94883331783612
+        },
+        {
+          "word": "solid",
+          "start": 222.3088333023389
+        },
+        {
+          "word": "instead",
+          "start": 222.82883334287007
+        },
+        {
+          "word": "of",
+          "start": 223.26883328088124
+        },
+        {
+          "word": "flat",
+          "start": 223.42883324750264
+        },
+        {
+          "word": "shapes",
+          "start": 223.74883318074544
+        },
+        {
+          "word": "a",
+          "start": 224.26883316167195
+        },
+        {
+          "word": "proposed",
+          "start": 224.46883320935567
+        },
+        {
+          "word": "rule",
+          "start": 225.10883331425984
+        },
+        {
+          "word": "calls",
+          "start": 225.5088331712087
+        },
+        {
+          "word": "every",
+          "start": 225.94883346684773
+        },
+        {
+          "word": "object",
+          "start": 226.30883312352498
+        },
+        {
+          "word": "with",
+          "start": 226.8288331044515
+        },
+        {
+          "word": "six",
+          "start": 227.02883339055379
+        },
+        {
+          "word": "faces",
+          "start": 227.38883304723103
+        },
+        {
+          "word": "a",
+          "start": 227.86883306630452
+        },
+        {
+          "word": "cube",
+          "start": 228.02883339055379
+        },
+        {
+          "word": "predict",
+          "start": 228.58883333333333
+        },
+        {
+          "word": "whether",
+          "start": 229.14883327611287
+        },
+        {
+          "word": "a",
+          "start": 229.58883333333333
+        },
+        {
+          "word": "long",
+          "start": 229.8288331044515
+        },
+        {
+          "word": "rectangular",
+          "start": 230.30883360036214
+        },
+        {
+          "word": "cotton",
+          "start": 231.1488327992757
+        },
+        {
+          "word": "would",
+          "start": 231.58883333333333
+        },
+        {
+          "word": "pass",
+          "start": 231.8288331044515
+        },
+        {
+          "word": "this",
+          "start": 232.1488327992757
+        },
+        {
+          "word": "test",
+          "start": 232.42883348592122
+        },
+        {
+          "word": "what",
+          "start": 232.94883299001057
+        },
+        {
+          "word": "extra",
+          "start": 233.2688326848348
+        },
+        {
+          "word": "property",
+          "start": 233.78883314259846
+        },
+        {
+          "word": "would",
+          "start": 234.42883348592122
+        },
+        {
+          "word": "separate",
+          "start": 234.66883325703938
+        },
+        {
+          "word": "a",
+          "start": 235.18883276112874
+        },
+        {
+          "word": "cube",
+          "start": 235.34883260854085
+        },
+        {
+          "word": "from",
+          "start": 235.7088332188924
+        },
+        {
+          "word": "that",
+          "start": 235.90883302815755
+        },
+        {
+          "word": "cotton",
+          "start": 236.1488327992757
+        },
+        {
+          "word": "without",
+          "start": 236.62883329518635
+        },
+        {
+          "word": "relying",
+          "start": 237.02883291371663
+        },
+        {
+          "word": "on",
+          "start": 237.5488333714803
+        },
+        {
+          "word": "color",
+          "start": 237.78883218892415
+        },
+        {
+          "word": "or",
+          "start": 238.1488327992757
+        },
+        {
+          "word": "the",
+          "start": 238.30883264668782
+        },
+        {
+          "word": "direction",
+          "start": 238.50883340962727
+        },
+        {
+          "word": "of",
+          "start": 239.1488327992757
+        },
+        {
+          "word": "the",
+          "start": 239.2688336385091
+        },
+        {
+          "word": "drawing",
+          "start": 239.42883348592122
+        }
+      ],
+      "asr_text": " NOW SOUGHT SOLID INSTEAD OF FLAT SHAPES A PROPOSED RULE CALLS EVERY OBJECT WITH SIX FACES A CUBE PREDICT WHETHER A LONG RECTANGULAR COTTON WOULD PASS THIS TEST WHAT EXTRA PROPERTY WOULD SEPARATE A CUBE FROM THAT COTTON WITHOUT RELYING ON COLOR OR THE DIRECTION OF THE DRAWING",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Six faces: is that enough?",
+          "at": 221.58883333333333,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 221.58883333333333,
+      "motion_end": 239.42883348592122,
+      "reveal_at": 239.2788334859212,
+      "speech_end": 239.97125
+    },
+    {
+      "role": "answer",
+      "chapter": "Worked example two: improve the solid rule",
+      "text": "The long rectangular prism also has six faces, so the count alone fails. A cube has six square faces and equal edge lengths. Check the face shapes and their connections. The long carton has unequal edge lengths, so it is a counterexample to the original six-face rule.",
+      "board": [
+        "Cube: 6 square faces, equal edges"
+      ],
+      "model": {
+        "kind": "solidclass"
+      },
+      "index": 13,
+      "start": 244.97125,
+      "end": 261.958375,
+      "words": [
+        {
+          "word": "the",
+          "start": 244.97125
+        },
+        {
+          "word": "long",
+          "start": 245.21124999463558
+        },
+        {
+          "word": "rectangular",
+          "start": 245.45124998927116
+        },
+        {
+          "word": "prism",
+          "start": 246.25124997138977
+        },
+        {
+          "word": "also",
+          "start": 246.69124990940094
+        },
+        {
+          "word": "has",
+          "start": 247.05124992370605
+        },
+        {
+          "word": "six",
+          "start": 247.33124989509582
+        },
+        {
+          "word": "faces",
+          "start": 247.65124982833862
+        },
+        {
+          "word": "till",
+          "start": 248.1312498474121
+        },
+        {
+          "word": "the",
+          "start": 248.2912499332428
+        },
+        {
+          "word": "count",
+          "start": 248.4912499809265
+        },
+        {
+          "word": "alone",
+          "start": 248.8112499141693
+        },
+        {
+          "word": "fails",
+          "start": 249.29124969482422
+        },
+        {
+          "word": "a",
+          "start": 249.85125011444092
+        },
+        {
+          "word": "cube",
+          "start": 250.01124996185303
+        },
+        {
+          "word": "has",
+          "start": 250.41125005722046
+        },
+        {
+          "word": "six",
+          "start": 250.65124982833862
+        },
+        {
+          "word": "square",
+          "start": 250.89125007629394
+        },
+        {
+          "word": "faces",
+          "start": 251.29124969482422
+        },
+        {
+          "word": "and",
+          "start": 251.73124975204468
+        },
+        {
+          "word": "equal",
+          "start": 251.93125003814697
+        },
+        {
+          "word": "edge",
+          "start": 252.33124965667724
+        },
+        {
+          "word": "lengths",
+          "start": 252.6112498664856
+        },
+        {
+          "word": "check",
+          "start": 253.1312498474121
+        },
+        {
+          "word": "the",
+          "start": 253.45124954223633
+        },
+        {
+          "word": "face",
+          "start": 253.65124935150146
+        },
+        {
+          "word": "shapes",
+          "start": 253.97125
+        },
+        {
+          "word": "on",
+          "start": 254.45124954223633
+        },
+        {
+          "word": "their",
+          "start": 254.61124938964844
+        },
+        {
+          "word": "connections",
+          "start": 254.85125011444092
+        },
+        {
+          "word": "the",
+          "start": 255.61124938964844
+        },
+        {
+          "word": "long",
+          "start": 255.89125007629394
+        },
+        {
+          "word": "cotton",
+          "start": 256.2512497329712
+        },
+        {
+          "word": "has",
+          "start": 256.77125019073486
+        },
+        {
+          "word": "unequal",
+          "start": 257.05124992370605
+        },
+        {
+          "word": "edge",
+          "start": 257.6912493133545
+        },
+        {
+          "word": "lengths",
+          "start": 258.05124992370605
+        },
+        {
+          "word": "so",
+          "start": 258.4512495422363
+        },
+        {
+          "word": "it",
+          "start": 258.6912493133545
+        },
+        {
+          "word": "is",
+          "start": 258.89125007629394
+        },
+        {
+          "word": "a",
+          "start": 259.05124992370605
+        },
+        {
+          "word": "counter",
+          "start": 259.2512497329712
+        },
+        {
+          "word": "example",
+          "start": 259.65124935150146
+        },
+        {
+          "word": "to",
+          "start": 260.17124980926513
+        },
+        {
+          "word": "the",
+          "start": 260.2912496948242
+        },
+        {
+          "word": "original",
+          "start": 260.4512495422363
+        },
+        {
+          "word": "six",
+          "start": 261.05124992370605
+        },
+        {
+          "word": "face",
+          "start": 261.3312487030029
+        },
+        {
+          "word": "rule",
+          "start": 261.6512503051758
+        }
+      ],
+      "asr_text": " THE LONG RECTANGULAR PRISM ALSO HAS SIX FACES TILL THE COUNT ALONE FAILS A CUBE HAS SIX SQUARE FACES AND EQUAL EDGE LENGTHS CHECK THE FACE SHAPES ON THEIR CONNECTIONS THE LONG COTTON HAS UNEQUAL EDGE LENGTHS SO IT IS A COUNTER EXAMPLE TO THE ORIGINAL SIX FACE RULE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Cube: 6 square faces, equal edges",
+          "at": 247.43124989509582,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 244.97125,
+      "motion_end": 247.43124989509582,
+      "reveal_at": 247.43124989509582,
+      "speech_end": 261.958375
+    },
+    {
+      "role": "explanation",
+      "chapter": "Keep dimensions separate",
+      "text": "A square is a flat shape, while a cube is a three-dimensional object. Asking whether a solid has four sides confuses different kinds of features. For polygons ask about sides and angles. For solids ask about faces, edges, vertices and curved surfaces, using the relevant mathematical language.",
+      "board": [
+        "2D: sides and angles. 3D: faces and edges."
+      ],
+      "model": {
+        "kind": "solidclass"
+      },
+      "index": 14,
+      "start": 261.958375,
+      "end": 280.84795833333334,
+      "words": [
+        {
+          "word": "a",
+          "start": 261.958375
+        },
+        {
+          "word": "square",
+          "start": 262.1183749964237
+        },
+        {
+          "word": "is",
+          "start": 262.5183750023842
+        },
+        {
+          "word": "a",
+          "start": 262.6783749690056
+        },
+        {
+          "word": "flat",
+          "start": 262.79837497377395
+        },
+        {
+          "word": "shape",
+          "start": 263.1183749666214
+        },
+        {
+          "word": "while",
+          "start": 263.39837493801116
+        },
+        {
+          "word": "a",
+          "start": 263.5983749856949
+        },
+        {
+          "word": "cube",
+          "start": 263.71837499046325
+        },
+        {
+          "word": "is",
+          "start": 264.1583750476837
+        },
+        {
+          "word": "a",
+          "start": 264.35837485694884
+        },
+        {
+          "word": "three",
+          "start": 264.51837494277953
+        },
+        {
+          "word": "dimensional",
+          "start": 264.7583749523163
+        },
+        {
+          "word": "object",
+          "start": 265.51837494277953
+        },
+        {
+          "word": "asking",
+          "start": 266.1583748092651
+        },
+        {
+          "word": "whether",
+          "start": 266.71837475204467
+        },
+        {
+          "word": "a",
+          "start": 267.03837492370604
+        },
+        {
+          "word": "solid",
+          "start": 267.1583748092651
+        },
+        {
+          "word": "has",
+          "start": 267.5983748664856
+        },
+        {
+          "word": "four",
+          "start": 267.83837463760375
+        },
+        {
+          "word": "sides",
+          "start": 268.1183748474121
+        },
+        {
+          "word": "confuses",
+          "start": 268.5983748664856
+        },
+        {
+          "word": "different",
+          "start": 269.19837477111815
+        },
+        {
+          "word": "kinds",
+          "start": 269.5983748664856
+        },
+        {
+          "word": "of",
+          "start": 269.8783745994568
+        },
+        {
+          "word": "features",
+          "start": 270.03837492370604
+        },
+        {
+          "word": "for",
+          "start": 270.5983743896484
+        },
+        {
+          "word": "polygons",
+          "start": 270.7983751525879
+        },
+        {
+          "word": "ask",
+          "start": 271.5183744659424
+        },
+        {
+          "word": "about",
+          "start": 271.87837507629393
+        },
+        {
+          "word": "sides",
+          "start": 272.31837465667724
+        },
+        {
+          "word": "and",
+          "start": 272.7983751525879
+        },
+        {
+          "word": "angles",
+          "start": 272.998374961853
+        },
+        {
+          "word": "for",
+          "start": 273.63837435150145
+        },
+        {
+          "word": "solids",
+          "start": 273.8383751144409
+        },
+        {
+          "word": "ask",
+          "start": 274.35837461853026
+        },
+        {
+          "word": "about",
+          "start": 274.6783743133545
+        },
+        {
+          "word": "faces",
+          "start": 275.07837488555907
+        },
+        {
+          "word": "edges",
+          "start": 275.6783743133545
+        },
+        {
+          "word": "vertesies",
+          "start": 276.31837465667724
+        },
+        {
+          "word": "and",
+          "start": 277.1183748474121
+        },
+        {
+          "word": "curved",
+          "start": 277.31837465667724
+        },
+        {
+          "word": "surfaces",
+          "start": 277.7183742752075
+        },
+        {
+          "word": "using",
+          "start": 278.3983755340576
+        },
+        {
+          "word": "the",
+          "start": 278.75837423706054
+        },
+        {
+          "word": "relevant",
+          "start": 278.91837408447265
+        },
+        {
+          "word": "mathematical",
+          "start": 279.4383745422363
+        },
+        {
+          "word": "language",
+          "start": 280.2783746948242
+        }
+      ],
+      "asr_text": " A SQUARE IS A FLAT SHAPE WHILE A CUBE IS A THREE DIMENSIONAL OBJECT ASKING WHETHER A SOLID HAS FOUR SIDES CONFUSES DIFFERENT KINDS OF FEATURES FOR POLYGONS ASK ABOUT SIDES AND ANGLES FOR SOLIDS ASK ABOUT FACES EDGES VERTESIES AND CURVED SURFACES USING THE RELEVANT MATHEMATICAL LANGUAGE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "2D: sides and angles. 3D: faces and edges.",
+          "at": 264.6183749427795,
+          "reason": "number phrase"
+        }
+      ],
+      "motion_start": 261.958375,
+      "motion_end": 280.2783746948242,
+      "reveal_at": 280.12837469482423,
+      "speech_end": 280.84795833333334
+    },
+    {
+      "role": "explanation",
+      "chapter": "Check every possible path",
+      "text": "An algorithm needs a next instruction for both yes and no outcomes. A missing branch leaves some objects unsorted. Walk through the diagram with several different cards. Record the question, answer and next location each time so you can discover exactly where a path becomes unclear.",
+      "board": [
+        "Test both the yes and no branches."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 15,
+      "start": 280.84795833333334,
+      "end": 299.14091666666667,
+      "words": [
+        {
+          "word": "an",
+          "start": 280.84795833333334
+        },
+        {
+          "word": "algarthm",
+          "start": 281.0879583279689
+        },
+        {
+          "word": "needs",
+          "start": 281.84795833333334
+        },
+        {
+          "word": "a",
+          "start": 282.20795834763845
+        },
+        {
+          "word": "next",
+          "start": 282.3279583524068
+        },
+        {
+          "word": "instruction",
+          "start": 282.68795824750265
+        },
+        {
+          "word": "for",
+          "start": 283.4479582379659
+        },
+        {
+          "word": "both",
+          "start": 283.6479582856496
+        },
+        {
+          "word": "yes",
+          "start": 283.9679582188924
+        },
+        {
+          "word": "and",
+          "start": 284.36795831425985
+        },
+        {
+          "word": "no",
+          "start": 284.56795836194357
+        },
+        {
+          "word": "outcomes",
+          "start": 284.84795833333334
+        },
+        {
+          "word": "a",
+          "start": 285.607958085378
+        },
+        {
+          "word": "missing",
+          "start": 285.7679584096273
+        },
+        {
+          "word": "branch",
+          "start": 286.2079579900106
+        },
+        {
+          "word": "leave",
+          "start": 286.8079583714803
+        },
+        {
+          "word": "some",
+          "start": 287.16795802815756
+        },
+        {
+          "word": "objects",
+          "start": 287.4479582379659
+        },
+        {
+          "word": "unsoted",
+          "start": 288.00795818074545
+        },
+        {
+          "word": "walk",
+          "start": 288.9279582570394
+        },
+        {
+          "word": "through",
+          "start": 289.28795791371664
+        },
+        {
+          "word": "the",
+          "start": 289.4879577229818
+        },
+        {
+          "word": "diagram",
+          "start": 289.68795848592123
+        },
+        {
+          "word": "with",
+          "start": 290.3679578374227
+        },
+        {
+          "word": "several",
+          "start": 290.6079585622152
+        },
+        {
+          "word": "different",
+          "start": 291.00795818074545
+        },
+        {
+          "word": "cards",
+          "start": 291.44795776112875
+        },
+        {
+          "word": "record",
+          "start": 292.00795818074545
+        },
+        {
+          "word": "the",
+          "start": 292.4879577229818
+        },
+        {
+          "word": "question",
+          "start": 292.68795848592123
+        },
+        {
+          "word": "answer",
+          "start": 293.28795791371664
+        },
+        {
+          "word": "and",
+          "start": 293.72795844777426
+        },
+        {
+          "word": "next",
+          "start": 293.88795829518637
+        },
+        {
+          "word": "location",
+          "start": 294.2079579900106
+        },
+        {
+          "word": "each",
+          "start": 294.88795829518637
+        },
+        {
+          "word": "time",
+          "start": 295.16795802815756
+        },
+        {
+          "word": "so",
+          "start": 295.5279576848348
+        },
+        {
+          "word": "you",
+          "start": 295.7679584096273
+        },
+        {
+          "word": "can",
+          "start": 295.9279582570394
+        },
+        {
+          "word": "discover",
+          "start": 296.12795806630453
+        },
+        {
+          "word": "exactly",
+          "start": 296.72795844777426
+        },
+        {
+          "word": "where",
+          "start": 297.4079577992757
+        },
+        {
+          "word": "a",
+          "start": 297.56795764668783
+        },
+        {
+          "word": "path",
+          "start": 297.68795848592123
+        },
+        {
+          "word": "becomes",
+          "start": 298.04795718892416
+        },
+        {
+          "word": "unclear",
+          "start": 298.5279586385091
+        }
+      ],
+      "asr_text": " AN ALGARTHM NEEDS A NEXT INSTRUCTION FOR BOTH YES AND NO OUTCOMES A MISSING BRANCH LEAVE SOME OBJECTS UNSOTED WALK THROUGH THE DIAGRAM WITH SEVERAL DIFFERENT CARDS RECORD THE QUESTION ANSWER AND NEXT LOCATION EACH TIME SO YOU CAN DISCOVER EXACTLY WHERE A PATH BECOMES UNCLEAR",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Test both the yes and no branches.",
+          "at": 283.6479582856496,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 280.84795833333334,
+      "motion_end": 298.5279586385091,
+      "reveal_at": 298.37795863850914,
+      "speech_end": 299.14091666666667
+    },
+    {
+      "role": "explanation",
+      "chapter": "Revise and test again",
+      "text": "When you repair a question, retest examples that previously worked as well as the troublesome counterexample. A new condition might accidentally reject genuine squares. Good improvement keeps valid cases and removes invalid ones. Explain why the revised rule works for the whole stated collection, not just one favourite shape.",
+      "board": [
+        "Keep valid examples; reject counterexamples."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 16,
+      "start": 299.14091666666667,
+      "end": 319.5228333333333,
+      "words": [
+        {
+          "word": "when",
+          "start": 299.14091666666667
+        },
+        {
+          "word": "you",
+          "start": 299.34091665474574
+        },
+        {
+          "word": "repair",
+          "start": 299.4609166595141
+        },
+        {
+          "word": "a",
+          "start": 299.94091661898295
+        },
+        {
+          "word": "question",
+          "start": 300.100916645209
+        },
+        {
+          "word": "retest",
+          "start": 300.6609166475932
+        },
+        {
+          "word": "examples",
+          "start": 301.1809166285197
+        },
+        {
+          "word": "that",
+          "start": 301.8209164950053
+        },
+        {
+          "word": "previously",
+          "start": 302.06091650454204
+        },
+        {
+          "word": "worked",
+          "start": 302.74091657129924
+        },
+        {
+          "word": "as",
+          "start": 303.10091646639506
+        },
+        {
+          "word": "well",
+          "start": 303.3009165140788
+        },
+        {
+          "word": "as",
+          "start": 303.5009168001811
+        },
+        {
+          "word": "the",
+          "start": 303.7009166094462
+        },
+        {
+          "word": "troublesome",
+          "start": 303.8609164568583
+        },
+        {
+          "word": "counter",
+          "start": 304.5409167620341
+        },
+        {
+          "word": "example",
+          "start": 304.9809163424174
+        },
+        {
+          "word": "a",
+          "start": 305.54091628519694
+        },
+        {
+          "word": "new",
+          "start": 305.74091657129924
+        },
+        {
+          "word": "condition",
+          "start": 305.9809163424174
+        },
+        {
+          "word": "might",
+          "start": 306.7009166094462
+        },
+        {
+          "word": "accidentally",
+          "start": 307.02091630427043
+        },
+        {
+          "word": "reject",
+          "start": 307.8609169336955
+        },
+        {
+          "word": "genuine",
+          "start": 308.42091639963786
+        },
+        {
+          "word": "squares",
+          "start": 308.94091685740153
+        },
+        {
+          "word": "good",
+          "start": 309.620916208903
+        },
+        {
+          "word": "improvement",
+          "start": 309.86091598002116
+        },
+        {
+          "word": "keeps",
+          "start": 310.620916208903
+        },
+        {
+          "word": "valid",
+          "start": 311.0209167811076
+        },
+        {
+          "word": "cases",
+          "start": 311.42091639963786
+        },
+        {
+          "word": "and",
+          "start": 311.9409159037272
+        },
+        {
+          "word": "removes",
+          "start": 312.14091666666667
+        },
+        {
+          "word": "invalid",
+          "start": 312.620916208903
+        },
+        {
+          "word": "ones",
+          "start": 313.26091655222575
+        },
+        {
+          "word": "explain",
+          "start": 313.70091613260905
+        },
+        {
+          "word": "why",
+          "start": 314.3409164759318
+        },
+        {
+          "word": "the",
+          "start": 314.58091624704997
+        },
+        {
+          "word": "revised",
+          "start": 314.7809160563151
+        },
+        {
+          "word": "rule",
+          "start": 315.38091643778483
+        },
+        {
+          "word": "works",
+          "start": 315.7809160563151
+        },
+        {
+          "word": "for",
+          "start": 316.1009157511393
+        },
+        {
+          "word": "the",
+          "start": 316.26091559855143
+        },
+        {
+          "word": "whole",
+          "start": 316.42091544596354
+        },
+        {
+          "word": "stated",
+          "start": 316.70091613260905
+        },
+        {
+          "word": "collection",
+          "start": 317.14091666666667
+        },
+        {
+          "word": "not",
+          "start": 317.7409170481364
+        },
+        {
+          "word": "just",
+          "start": 318.02091582743327
+        },
+        {
+          "word": "one",
+          "start": 318.26091559855143
+        },
+        {
+          "word": "favorite",
+          "start": 318.58091529337565
+        },
+        {
+          "word": "shape",
+          "start": 319.14091666666667
+        }
+      ],
+      "asr_text": " WHEN YOU REPAIR A QUESTION RETEST EXAMPLES THAT PREVIOUSLY WORKED AS WELL AS THE TROUBLESOME COUNTER EXAMPLE A NEW CONDITION MIGHT ACCIDENTALLY REJECT GENUINE SQUARES GOOD IMPROVEMENT KEEPS VALID CASES AND REMOVES INVALID ONES EXPLAIN WHY THE REVISED RULE WORKS FOR THE WHOLE STATED COLLECTION NOT JUST ONE FAVORITE SHAPE",
+      "native_synthesis_speed": 0.98,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Keep valid examples; reject counterexamples.",
+          "at": 301.1809166285197,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 299.14091666666667,
+      "motion_end": 319.14091666666667,
+      "reveal_at": 318.9909166666667,
+      "speech_end": 319.5228333333333
+    },
+    {
+      "role": "question",
+      "chapter": "Independent rule review",
+      "text": "A learner writes, does it look like a square? Decide why that question is hard for a machine or partner to follow reliably. Replace it with precise yes-or-no tests. Remember a square turned onto one corner is still a square, and categories may share members.",
+      "board": [],
+      "model": {
+        "kind": "classify",
+        "hide": true
+      },
+      "index": 17,
+      "start": 319.5228333333333,
+      "end": 341.41970833333335,
+      "words": [
+        {
+          "word": "a",
+          "start": 319.5228333333333
+        },
+        {
+          "word": "learner",
+          "start": 319.7228333214124
+        },
+        {
+          "word": "writes",
+          "start": 320.2028333404859
+        },
+        {
+          "word": "does",
+          "start": 320.6428333381017
+        },
+        {
+          "word": "it",
+          "start": 320.88283334763844
+        },
+        {
+          "word": "look",
+          "start": 321.04283331425984
+        },
+        {
+          "word": "like",
+          "start": 321.3228332856496
+        },
+        {
+          "word": "a",
+          "start": 321.482833252271
+        },
+        {
+          "word": "square",
+          "start": 321.6428332188924
+        },
+        {
+          "word": "decide",
+          "start": 322.24283336194355
+        },
+        {
+          "word": "why",
+          "start": 322.9228331902822
+        },
+        {
+          "word": "that",
+          "start": 323.24283336194355
+        },
+        {
+          "word": "question",
+          "start": 323.5228333333333
+        },
+        {
+          "word": "is",
+          "start": 324.1628331998189
+        },
+        {
+          "word": "hard",
+          "start": 324.40283344777424
+        },
+        {
+          "word": "for",
+          "start": 324.72283314259846
+        },
+        {
+          "word": "a",
+          "start": 324.88283299001057
+        },
+        {
+          "word": "machine",
+          "start": 325.04283331425984
+        },
+        {
+          "word": "or",
+          "start": 325.68283318074543
+        },
+        {
+          "word": "partner",
+          "start": 325.9628333905538
+        },
+        {
+          "word": "to",
+          "start": 326.4828333714803
+        },
+        {
+          "word": "follow",
+          "start": 326.72283314259846
+        },
+        {
+          "word": "reliably",
+          "start": 327.08283327611286
+        },
+        {
+          "word": "replace",
+          "start": 327.9228329518636
+        },
+        {
+          "word": "it",
+          "start": 328.44283340962727
+        },
+        {
+          "word": "with",
+          "start": 328.6428332188924
+        },
+        {
+          "word": "precise",
+          "start": 328.88283299001057
+        },
+        {
+          "word": "yes",
+          "start": 329.6028332570394
+        },
+        {
+          "word": "on",
+          "start": 329.9228329518636
+        },
+        {
+          "word": "our",
+          "start": 330.12283276112873
+        },
+        {
+          "word": "tests",
+          "start": 330.3628334859212
+        },
+        {
+          "word": "remember",
+          "start": 330.88283299001057
+        },
+        {
+          "word": "a",
+          "start": 331.5228333333333
+        },
+        {
+          "word": "square",
+          "start": 331.72283314259846
+        },
+        {
+          "word": "turned",
+          "start": 332.16283272298176
+        },
+        {
+          "word": "on",
+          "start": 332.44283340962727
+        },
+        {
+          "word": "to",
+          "start": 332.56283329518635
+        },
+        {
+          "word": "one",
+          "start": 332.72283314259846
+        },
+        {
+          "word": "corner",
+          "start": 332.9628329137166
+        },
+        {
+          "word": "is",
+          "start": 333.40283344777424
+        },
+        {
+          "word": "still",
+          "start": 333.6028332570394
+        },
+        {
+          "word": "a",
+          "start": 333.84283302815754
+        },
+        {
+          "word": "square",
+          "start": 334.00283287556965
+        },
+        {
+          "word": "and",
+          "start": 334.40283344777424
+        },
+        {
+          "word": "categories",
+          "start": 334.6028332570394
+        },
+        {
+          "word": "may",
+          "start": 335.28283260854084
+        },
+        {
+          "word": "share",
+          "start": 335.4828333714803
+        },
+        {
+          "word": "members",
+          "start": 335.8028321126302
+        }
+      ],
+      "asr_text": " A LEARNER WRITES DOES IT LOOK LIKE A SQUARE DECIDE WHY THAT QUESTION IS HARD FOR A MACHINE OR PARTNER TO FOLLOW RELIABLY REPLACE IT WITH PRECISE YES ON OUR TESTS REMEMBER A SQUARE TURNED ON TO ONE CORNER IS STILL A SQUARE AND CATEGORIES MAY SHARE MEMBERS",
+      "native_synthesis_speed": 0.94,
+      "peak_headroom_gain": 1.0,
+      "board_events": [],
+      "motion_start": 319.5228333333333,
+      "motion_end": 335.8028321126302,
+      "reveal_at": 335.6528321126302,
+      "speech_end": 336.41970833333335
+    },
+    {
+      "role": "answer",
+      "chapter": "Choose properties you can check",
+      "text": "For a four-sided polygon, test whether all four sides are equal and all four angles are right angles. Turning the paper does not change those properties. The revised rule gives evidence for the square label and can be checked with non-square rectangles and rhombuses. That is more reliable than appearance.",
+      "board": [
+        "Check side lengths AND angles."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 18,
+      "start": 341.41970833333335,
+      "end": 359.4769166666667,
+      "words": [
+        {
+          "word": "for",
+          "start": 341.41970833333335
+        },
+        {
+          "word": "a",
+          "start": 341.6197083214124
+        },
+        {
+          "word": "four",
+          "start": 341.77970831783614
+        },
+        {
+          "word": "sided",
+          "start": 342.05970831902823
+        },
+        {
+          "word": "polygon",
+          "start": 342.4997082570394
+        },
+        {
+          "word": "test",
+          "start": 343.0197082379659
+        },
+        {
+          "word": "whether",
+          "start": 343.339708290418
+        },
+        {
+          "word": "all",
+          "start": 343.6997083047231
+        },
+        {
+          "word": "four",
+          "start": 343.93970831425986
+        },
+        {
+          "word": "sides",
+          "start": 344.21970828564963
+        },
+        {
+          "word": "are",
+          "start": 344.6197081425985
+        },
+        {
+          "word": "equal",
+          "start": 344.7797082284292
+        },
+        {
+          "word": "and",
+          "start": 345.21970828564963
+        },
+        {
+          "word": "all",
+          "start": 345.41970833333335
+        },
+        {
+          "word": "four",
+          "start": 345.6597081044515
+        },
+        {
+          "word": "angles",
+          "start": 345.93970831425986
+        },
+        {
+          "word": "are",
+          "start": 346.41970833333335
+        },
+        {
+          "word": "right",
+          "start": 346.6597081044515
+        },
+        {
+          "word": "angles",
+          "start": 346.93970831425986
+        },
+        {
+          "word": "turning",
+          "start": 347.6197081425985
+        },
+        {
+          "word": "the",
+          "start": 347.9797082761129
+        },
+        {
+          "word": "paper",
+          "start": 348.179708085378
+        },
+        {
+          "word": "does",
+          "start": 348.6597081044515
+        },
+        {
+          "word": "not",
+          "start": 348.93970831425986
+        },
+        {
+          "word": "change",
+          "start": 349.179708085378
+        },
+        {
+          "word": "those",
+          "start": 349.57970818074546
+        },
+        {
+          "word": "properties",
+          "start": 349.8997078755697
+        },
+        {
+          "word": "the",
+          "start": 350.57970818074546
+        },
+        {
+          "word": "revised",
+          "start": 350.7797079900106
+        },
+        {
+          "word": "rule",
+          "start": 351.3397084096273
+        },
+        {
+          "word": "gives",
+          "start": 351.69970806630454
+        },
+        {
+          "word": "evidence",
+          "start": 351.97970779927573
+        },
+        {
+          "word": "for",
+          "start": 352.4597082951864
+        },
+        {
+          "word": "the",
+          "start": 352.6197081425985
+        },
+        {
+          "word": "square",
+          "start": 352.73970802815757
+        },
+        {
+          "word": "label",
+          "start": 353.0997076848348
+        },
+        {
+          "word": "and",
+          "start": 353.4997082570394
+        },
+        {
+          "word": "can",
+          "start": 353.6597081044515
+        },
+        {
+          "word": "be",
+          "start": 353.8197079518636
+        },
+        {
+          "word": "checked",
+          "start": 354.01970776112876
+        },
+        {
+          "word": "with",
+          "start": 354.4597082951864
+        },
+        {
+          "word": "non",
+          "start": 354.6197081425985
+        },
+        {
+          "word": "square",
+          "start": 354.8997078755697
+        },
+        {
+          "word": "rectangles",
+          "start": 355.25970848592124
+        },
+        {
+          "word": "and",
+          "start": 355.97970779927573
+        },
+        {
+          "word": "rombuses",
+          "start": 356.13970764668784
+        },
+        {
+          "word": "that",
+          "start": 356.97970779927573
+        },
+        {
+          "word": "is",
+          "start": 357.2597075322469
+        },
+        {
+          "word": "more",
+          "start": 357.5397072652181
+        },
+        {
+          "word": "reliable",
+          "start": 357.85970886739096
+        },
+        {
+          "word": "than",
+          "start": 358.4997082570394
+        },
+        {
+          "word": "appearance",
+          "start": 358.6997071126302
+        }
+      ],
+      "asr_text": " FOR A FOUR SIDED POLYGON TEST WHETHER ALL FOUR SIDES ARE EQUAL AND ALL FOUR ANGLES ARE RIGHT ANGLES TURNING THE PAPER DOES NOT CHANGE THOSE PROPERTIES THE REVISED RULE GIVES EVIDENCE FOR THE SQUARE LABEL AND CAN BE CHECKED WITH NON SQUARE RECTANGLES AND ROMBUSES THAT IS MORE RELIABLE THAN APPEARANCE",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "Check side lengths AND angles.",
+          "at": 345.93970831425986,
+          "reason": "keyword"
+        }
+      ],
+      "motion_start": 341.41970833333335,
+      "motion_end": 358.6997071126302,
+      "reveal_at": 358.54970711263024,
+      "speech_end": 359.4769166666667
+    },
+    {
+      "role": "recap",
+      "chapter": "Reflect and explain",
+      "text": "Return to our learning goal. Test yes-or-no rules that classify shapes and solids. Choose one example from today and explain the evidence that made its answer convincing. Which of our three success criteria feels secure, and which needs another try? Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct.",
+      "board": [
+        "I can choose precise properties.",
+        "I can follow a decision path.",
+        "I can test and repair a rule."
+      ],
+      "model": {
+        "kind": "classify"
+      },
+      "index": 19,
+      "start": 359.4769166666667,
+      "end": 381.089125,
+      "words": [
+        {
+          "word": "return",
+          "start": 359.4769166666667
+        },
+        {
+          "word": "to",
+          "start": 360.03691666905087
+        },
+        {
+          "word": "our",
+          "start": 360.27691661898297
+        },
+        {
+          "word": "learning",
+          "start": 360.4769166666667
+        },
+        {
+          "word": "goal",
+          "start": 360.91691660467785
+        },
+        {
+          "word": "test",
+          "start": 361.27691661898297
+        },
+        {
+          "word": "yes",
+          "start": 361.6769167143504
+        },
+        {
+          "word": "or",
+          "start": 362.0369166094462
+        },
+        {
+          "word": "no",
+          "start": 362.1969166952769
+        },
+        {
+          "word": "rules",
+          "start": 362.4769166666667
+        },
+        {
+          "word": "that",
+          "start": 362.91691648546856
+        },
+        {
+          "word": "classify",
+          "start": 363.1169165331523
+        },
+        {
+          "word": "shapes",
+          "start": 363.7569163996379
+        },
+        {
+          "word": "and",
+          "start": 364.1169165331523
+        },
+        {
+          "word": "solids",
+          "start": 364.3169163424174
+        },
+        {
+          "word": "choose",
+          "start": 364.91691672388714
+        },
+        {
+          "word": "one",
+          "start": 365.35691630427044
+        },
+        {
+          "word": "example",
+          "start": 365.55691659037274
+        },
+        {
+          "word": "from",
+          "start": 366.1569164950053
+        },
+        {
+          "word": "to",
+          "start": 366.35691630427044
+        },
+        {
+          "word": "day",
+          "start": 366.5169166285197
+        },
+        {
+          "word": "and",
+          "start": 366.7569163996379
+        },
+        {
+          "word": "explain",
+          "start": 366.95691668574017
+        },
+        {
+          "word": "the",
+          "start": 367.39691626612347
+        },
+        {
+          "word": "evidence",
+          "start": 367.55691659037274
+        },
+        {
+          "word": "that",
+          "start": 368.0769160944621
+        },
+        {
+          "word": "made",
+          "start": 368.27691685740155
+        },
+        {
+          "word": "its",
+          "start": 368.5169166285197
+        },
+        {
+          "word": "answer",
+          "start": 368.7569163996379
+        },
+        {
+          "word": "convincing",
+          "start": 369.15691601816815
+        },
+        {
+          "word": "which",
+          "start": 369.87691628519696
+        },
+        {
+          "word": "about",
+          "start": 370.15691601816815
+        },
+        {
+          "word": "three",
+          "start": 370.55691659037274
+        },
+        {
+          "word": "success",
+          "start": 370.8369163233439
+        },
+        {
+          "word": "criteria",
+          "start": 371.3969167429606
+        },
+        {
+          "word": "feels",
+          "start": 372.1169160563151
+        },
+        {
+          "word": "secure",
+          "start": 372.4769166666667
+        },
+        {
+          "word": "and",
+          "start": 372.91691624705
+        },
+        {
+          "word": "which",
+          "start": 373.0769160944621
+        },
+        {
+          "word": "needs",
+          "start": 373.27691590372723
+        },
+        {
+          "word": "another",
+          "start": 373.6769164759318
+        },
+        {
+          "word": "try",
+          "start": 374.0769160944621
+        },
+        {
+          "word": "revisit",
+          "start": 374.55691659037274
+        },
+        {
+          "word": "a",
+          "start": 375.0769160944621
+        },
+        {
+          "word": "model",
+          "start": 375.1969159800212
+        },
+        {
+          "word": "test",
+          "start": 375.59691559855145
+        },
+        {
+          "word": "your",
+          "start": 375.9169172007243
+        },
+        {
+          "word": "explanation",
+          "start": 376.1169160563151
+        },
+        {
+          "word": "with",
+          "start": 376.9169172007243
+        },
+        {
+          "word": "a",
+          "start": 377.03691613260906
+        },
+        {
+          "word": "partner",
+          "start": 377.2369168955485
+        },
+        {
+          "word": "and",
+          "start": 377.6369165140788
+        },
+        {
+          "word": "describe",
+          "start": 377.8369153696696
+        },
+        {
+          "word": "one",
+          "start": 378.43691575113934
+        },
+        {
+          "word": "mistake",
+          "start": 378.6369165140788
+        },
+        {
+          "word": "you",
+          "start": 379.15691697184246
+        },
+        {
+          "word": "can",
+          "start": 379.3569158274333
+        },
+        {
+          "word": "now",
+          "start": 379.59691559855145
+        },
+        {
+          "word": "notice",
+          "start": 379.8369153696696
+        },
+        {
+          "word": "and",
+          "start": 380.3569158274333
+        },
+        {
+          "word": "correct",
+          "start": 380.55691659037274
+        }
+      ],
+      "asr_text": " RETURN TO OUR LEARNING GOAL TEST YES OR NO RULES THAT CLASSIFY SHAPES AND SOLIDS CHOOSE ONE EXAMPLE FROM TO DAY AND EXPLAIN THE EVIDENCE THAT MADE ITS ANSWER CONVINCING WHICH ABOUT THREE SUCCESS CRITERIA FEELS SECURE AND WHICH NEEDS ANOTHER TRY REVISIT A MODEL TEST YOUR EXPLANATION WITH A PARTNER AND DESCRIBE ONE MISTAKE YOU CAN NOW NOTICE AND CORRECT",
+      "native_synthesis_speed": 1.0,
+      "peak_headroom_gain": 1.0,
+      "board_events": [
+        {
+          "text": "I can choose precise properties.",
+          "at": 359.4769166666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can follow a decision path.",
+          "at": 359.4769166666667,
+          "reason": "persistent teaching context"
+        },
+        {
+          "text": "I can test and repair a rule.",
+          "at": 359.4769166666667,
+          "reason": "persistent teaching context"
+        }
+      ],
+      "motion_start": 359.4769166666667,
+      "motion_end": 380.55691659037274,
+      "reveal_at": 380.40691659037276,
+      "speech_end": 381.089125
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 4.519999980926514,
+      "text": "A museum sorting machine puts every four-sided shape in the square tray."
+    },
+    {
+      "start": 4.519999980926514,
+      "end": 8.119999885559082,
+      "text": "A long rectangle arrives, and the machine makes a mistake."
+    },
+    {
+      "start": 8.119999885559082,
+      "end": 10.559999465942383,
+      "text": "How can we improve its instructions?"
+    },
+    {
+      "start": 10.559999465942383,
+      "end": 19.197625,
+      "text": "This extra investigation uses yes-or-no decisions to classify shapes, then tests the rules with examples that challenge our first ideas."
+    },
+    {
+      "start": 19.197625,
+      "end": 19.677624989271163,
+      "text": "Today we are learning to test yes-or-no rules that classify shapes and solids."
+    },
+    {
+      "start": 19.677624989271163,
+      "end": 31.677624542236327,
+      "text": "We will move from objects or hands-on actions to drawings, then connect those drawings with precise mathematical descriptions."
+    },
+    {
+      "start": 31.677624542236327,
+      "end": 33.03762515258789,
+      "text": "Keep paper nearby if you would like to test an idea for yourself."
+    },
+    {
+      "start": 33.03762515258789,
+      "end": 38.464124999999996,
+      "text": "You can pause the player whenever you need more time."
+    },
+    {
+      "start": 38.464124999999996,
+      "end": 43.184124790191646,
+      "text": "Our learning goal is to test yes-or-no rules that classify shapes and solids."
+    },
+    {
+      "start": 43.184124790191646,
+      "end": 45.98412498092651,
+      "text": "We want to explain why a result is correct, as well as obtain the result."
+    },
+    {
+      "start": 45.98412498092651,
+      "end": 53.38737499999999,
+      "text": "As you watch, look for the evidence that would help you convince a partner who has not seen your working."
+    },
+    {
+      "start": 53.38737499999999,
+      "end": 56.067374828338615,
+      "text": "Here are our three success criteria."
+    },
+    {
+      "start": 56.067374828338615,
+      "end": 58.227374675750724,
+      "text": "I can choose precise properties."
+    },
+    {
+      "start": 58.227374675750724,
+      "end": 60.30737507629394,
+      "text": "I can follow a decision path."
+    },
+    {
+      "start": 60.30737507629394,
+      "end": 62.507374885559074,
+      "text": "I can test and repair a rule."
+    },
+    {
+      "start": 62.507374885559074,
+      "end": 66.34737503814696,
+      "text": "We will check these ideas in two worked examples, investigate a common mistake and finish with an independent challenge."
+    },
+    {
+      "start": 66.34737503814696,
+      "end": 75.06041666666665,
+      "text": "A good explanation links what you see in the model with the mathematical rule being used."
+    },
+    {
+      "start": 75.06041666666665,
+      "end": 79.7804164568583,
+      "text": "Make cards showing squares, non-square rectangles and slanted rhombuses."
+    },
+    {
+      "start": 79.7804164568583,
+      "end": 83.74041601816812,
+      "text": "Turn the cards in different directions without changing their shapes."
+    },
+    {
+      "start": 83.74041601816812,
+      "end": 87.4204163233439,
+      "text": "Ask a partner to sort them using a rule you state aloud."
+    },
+    {
+      "start": 87.4204163233439,
+      "end": 93.53166666666665,
+      "text": "If the rule depends on which way a card faces, it may be describing appearance rather than geometry."
+    },
+    {
+      "start": 93.53166666666665,
+      "end": 93.77166666130223,
+      "text": "An algorithm is an ordered set of instructions for carrying out a task."
+    },
+    {
+      "start": 93.77166666130223,
+      "end": 102.09166613260903,
+      "text": "Our sorting algorithm asks one clear question at a time."
+    },
+    {
+      "start": 102.09166613260903,
+      "end": 104.49166670481362,
+      "text": "Each answer chooses the next branch."
+    },
+    {
+      "start": 104.49166670481362,
+      "end": 111.33812499999999,
+      "text": "A useful question has a reliable yes-or-no answer based on an observable property, such as the number of sides."
+    },
+    {
+      "start": 111.33812499999999,
+      "end": 116.61812473297118,
+      "text": "Before asking whether a shape is square, restrict our collection to four-sided polygons."
+    },
+    {
+      "start": 116.61812473297118,
+      "end": 120.29812503814696,
+      "text": "Curved outlines and triangles need other branches."
+    },
+    {
+      "start": 120.29812503814696,
+      "end": 126.77812458038329,
+      "text": "Knowing the starting collection prevents a rule from making claims about objects it was never designed to handle."
+    },
+    {
+      "start": 126.77812458038329,
+      "end": 130.651375,
+      "text": "Always say what kinds of objects your algorithm is sorting."
+    },
+    {
+      "start": 130.651375,
+      "end": 134.8113748474121,
+      "text": "A proposed rule asks only whether all four sides are equal."
+    },
+    {
+      "start": 134.8113748474121,
+      "end": 138.8113748474121,
+      "text": "Predict whether every shape that answers yes must be a square."
+    },
+    {
+      "start": 138.8113748474121,
+      "end": 142.29137438964844,
+      "text": "Compare an ordinary square with a slanted rhombus."
+    },
+    {
+      "start": 142.29137438964844,
+      "end": 146.779125,
+      "text": "Check the corners as well as the side lengths before accepting the rule."
+    },
+    {
+      "start": 166.49912431335449,
+      "end": 166.61912419891357,
+      "text": "A non-square rhombus also has four equal sides, so the first test is insufficient."
+    },
+    {
+      "start": 166.61912419891357,
+      "end": 167.13912465667724,
+      "text": "Add another question: are all four angles right angles?"
+    },
+    {
+      "start": 167.13912465667724,
+      "end": 167.5391242752075,
+      "text": "Within our quadrilateral collection, four equal sides together with four right angles identify a square."
+    },
+    {
+      "start": 167.5391242752075,
+      "end": 169.01783333333333,
+      "text": "Both conditions are needed."
+    },
+    {
+      "start": 169.01783333333333,
+      "end": 171.8178332856496,
+      "text": "A square answers yes to both questions."
+    },
+    {
+      "start": 171.8178332856496,
+      "end": 176.777833085378,
+      "text": "A non-square rhombus answers yes to equal sides but no to four right angles."
+    },
+    {
+      "start": 176.777833085378,
+      "end": 182.29783306630452,
+      "text": "A non-square rectangle answers no to all sides equal, even though its angles are right."
+    },
+    {
+      "start": 182.29783306630452,
+      "end": 186.09329166666666,
+      "text": "Read each branch in order instead of skipping to a familiar name."
+    },
+    {
+      "start": 186.09329166666666,
+      "end": 188.45329156176248,
+      "text": "A square is also a rectangle because it has four right angles."
+    },
+    {
+      "start": 188.45329156176248,
+      "end": 190.97329178110758,
+      "text": "It is also a rhombus because all four sides are equal."
+    },
+    {
+      "start": 190.97329178110758,
+      "end": 200.05329170481363,
+      "text": "A sorting machine may choose a specific final label, but that does not erase the other true categories."
+    },
+    {
+      "start": 200.05329170481363,
+      "end": 204.19466666666665,
+      "text": "Be careful when a question asks for every category that applies."
+    },
+    {
+      "start": 204.19466666666665,
+      "end": 207.31466655222573,
+      "text": "A counterexample is one valid case that shows a proposed always-rule is false."
+    },
+    {
+      "start": 207.31466655222573,
+      "end": 215.4346664377848,
+      "text": "A non-square rectangle disproves the claim that four right angles alone identify a square."
+    },
+    {
+      "start": 215.4346664377848,
+      "end": 221.58883333333333,
+      "text": "One counterexample is enough to reject that claim, even if many squares happened to pass the test correctly."
+    },
+    {
+      "start": 221.58883333333333,
+      "end": 224.26883316167195,
+      "text": "Now sort solids instead of flat shapes."
+    },
+    {
+      "start": 224.26883316167195,
+      "end": 228.58883333333333,
+      "text": "A proposed rule calls every object with six faces a cube."
+    },
+    {
+      "start": 228.58883333333333,
+      "end": 232.94883299001057,
+      "text": "Predict whether a long rectangular carton would pass this test."
+    },
+    {
+      "start": 232.94883299001057,
+      "end": 239.97125,
+      "text": "What extra property would separate a cube from that carton without relying on colour or the direction of the drawing?"
+    },
+    {
+      "start": 244.97125,
+      "end": 249.85125011444092,
+      "text": "The long rectangular prism also has six faces, so the count alone fails."
+    },
+    {
+      "start": 249.85125011444092,
+      "end": 253.1312498474121,
+      "text": "A cube has six square faces and equal edge lengths."
+    },
+    {
+      "start": 253.1312498474121,
+      "end": 253.45124954223633,
+      "text": "Check the face shapes and their connections."
+    },
+    {
+      "start": 253.45124954223633,
+      "end": 261.958375,
+      "text": "The long carton has unequal edge lengths, so it is a counterexample to the original six-face rule."
+    },
+    {
+      "start": 261.958375,
+      "end": 266.1583748092651,
+      "text": "A square is a flat shape, while a cube is a three-dimensional object."
+    },
+    {
+      "start": 266.1583748092651,
+      "end": 270.5983743896484,
+      "text": "Asking whether a solid has four sides confuses different kinds of features."
+    },
+    {
+      "start": 270.5983743896484,
+      "end": 273.63837435150145,
+      "text": "For polygons ask about sides and angles."
+    },
+    {
+      "start": 273.63837435150145,
+      "end": 280.84795833333334,
+      "text": "For solids ask about faces, edges, vertices and curved surfaces, using the relevant mathematical language."
+    },
+    {
+      "start": 280.84795833333334,
+      "end": 282.20795834763845,
+      "text": "An algorithm needs a next instruction for both yes and no outcomes."
+    },
+    {
+      "start": 282.20795834763845,
+      "end": 288.9279582570394,
+      "text": "A missing branch leaves some objects unsorted."
+    },
+    {
+      "start": 288.9279582570394,
+      "end": 292.00795818074545,
+      "text": "Walk through the diagram with several different cards."
+    },
+    {
+      "start": 292.00795818074545,
+      "end": 299.14091666666667,
+      "text": "Record the question, answer and next location each time so you can discover exactly where a path becomes unclear."
+    },
+    {
+      "start": 299.14091666666667,
+      "end": 299.94091661898295,
+      "text": "When you repair a question, retest examples that previously worked as well as the troublesome counterexample."
+    },
+    {
+      "start": 299.94091661898295,
+      "end": 309.620916208903,
+      "text": "A new condition might accidentally reject genuine squares."
+    },
+    {
+      "start": 309.620916208903,
+      "end": 313.70091613260905,
+      "text": "Good improvement keeps valid cases and removes invalid ones."
+    },
+    {
+      "start": 313.70091613260905,
+      "end": 319.5228333333333,
+      "text": "Explain why the revised rule works for the whole stated collection, not just one favourite shape."
+    },
+    {
+      "start": 319.5228333333333,
+      "end": 322.24283336194355,
+      "text": "A learner writes, does it look like a square?"
+    },
+    {
+      "start": 322.24283336194355,
+      "end": 327.9228329518636,
+      "text": "Decide why that question is hard for a machine or partner to follow reliably."
+    },
+    {
+      "start": 327.9228329518636,
+      "end": 330.88283299001057,
+      "text": "Replace it with precise yes-or-no tests."
+    },
+    {
+      "start": 330.88283299001057,
+      "end": 336.41970833333335,
+      "text": "Remember a square turned onto one corner is still a square, and categories may share members."
+    },
+    {
+      "start": 341.41970833333335,
+      "end": 347.6197081425985,
+      "text": "For a four-sided polygon, test whether all four sides are equal and all four angles are right angles."
+    },
+    {
+      "start": 347.6197081425985,
+      "end": 347.9797082761129,
+      "text": "Turning the paper does not change those properties."
+    },
+    {
+      "start": 347.9797082761129,
+      "end": 356.97970779927573,
+      "text": "The revised rule gives evidence for the square label and can be checked with non-square rectangles and rhombuses."
+    },
+    {
+      "start": 356.97970779927573,
+      "end": 359.4769166666667,
+      "text": "That is more reliable than appearance."
+    },
+    {
+      "start": 359.4769166666667,
+      "end": 361.27691661898297,
+      "text": "Return to our learning goal."
+    },
+    {
+      "start": 361.27691661898297,
+      "end": 364.91691672388714,
+      "text": "Test yes-or-no rules that classify shapes and solids."
+    },
+    {
+      "start": 364.91691672388714,
+      "end": 369.87691628519696,
+      "text": "Choose one example from today and explain the evidence that made its answer convincing."
+    },
+    {
+      "start": 369.87691628519696,
+      "end": 374.55691659037274,
+      "text": "Which of our three success criteria feels secure, and which needs another try?"
+    },
+    {
+      "start": 374.55691659037274,
+      "end": 381.089125,
+      "text": "Revisit a model, test your explanation with a partner, and describe one mistake you can now notice and correct."
+    }
+  ],
+  "pauses": [
+    [
+      146.779125,
+      151.779125,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      239.97125,
+      244.97125,
+      "five-second prediction thinking time; never graphics padding"
+    ],
+    [
+      336.41970833333335,
+      341.41970833333335,
+      "five-second prediction thinking time; never graphics padding"
+    ]
+  ],
+  "duration": 381.089125,
+  "narration_sha256": "41ed8f20ddc8859b34f0750e609340d8e28ea7219d252233d27b95ffb5da5f6c",
+  "voice": "Kokoro v1.0 multilingual ONNX hf_alpha",
+  "voice_id": 31,
+  "sample_rate": 24000,
+  "inserted_silence_samples": 360000,
+  "audio_postprocessing": false,
+  "alignment": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+  "declared_prediction_pauses": true,
+  "inserted_silence_purpose": "Three explicit five-second prediction pauses, as in approved representative configuration; no graphics-fit padding."
+}

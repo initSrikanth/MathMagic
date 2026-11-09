@@ -1,6 +1,6 @@
 {
   "expected_remaining": 9,
-  "rendered_this_batch": 7,
+  "rendered_this_batch": 8,
   "perceptually_verified": 0,
   "published": 0,
   "paid_calls": 0,
@@ -853,10 +853,166 @@
       "bytes": 11473869
     },
     "space-lesson9": {
-      "status": "RENDERING",
+      "status": "TECHNICALLY_VERIFIED",
       "script_sha256": "78b1aed8c9cd7fc427a68b70fdd9dea104ce9b52ee20b5a5c236cfe8ddd457f1",
       "output": "/workspace/output/space-review/Space_Lesson09_Classification_Algorithms_Review_1080p.mp4",
-      "duration": 381.089125
+      "duration": 381.089125,
+      "qa": {
+        "result": "passed",
+        "sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+        "bytes": 8280605,
+        "duration": 381.089125,
+        "audio_rms": 0.13080644607543945,
+        "clipping_fraction": 0.0,
+        "audio_correlation": 0.9999826212383572,
+        "full_decode": true,
+        "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+        "synchronisation": "Native utterance PCM boundaries; approximate offline ASR word emissions drive board timing. Not certified perceptual synchronisation.",
+        "perceptual_voice_review": "UNVERIFIED",
+        "decoded_frames": 11433,
+        "blank_frame_candidates": 0,
+        "minimum_frame_std": 7.017764846266936,
+        "encoding": {
+          "video": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pixel_format": "yuv420p",
+          "fps": 30,
+          "audio": "aac"
+        },
+        "faststart": true,
+        "caption_cues": 81,
+        "caption_timing_valid": true,
+        "caption_transcript_text_match": true,
+        "source_brand_free": true,
+        "declared_prediction_pauses": [
+          [
+            146.779125,
+            151.779125,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            239.97125,
+            244.97125,
+            "five-second prediction thinking time; never graphics padding"
+          ],
+          [
+            336.41970833333335,
+            341.41970833333335,
+            "five-second prediction thinking time; never graphics padding"
+          ]
+        ],
+        "word_timing_method": "Native utterance PCM boundaries and independent offline ASR token emission timestamps; approximate word timing, not certified forced alignment",
+        "extended_static_intervals": [
+          [
+            0.0,
+            19.167
+          ],
+          [
+            19.2,
+            38.433
+          ],
+          [
+            38.467,
+            53.367
+          ],
+          [
+            53.4,
+            61.7
+          ],
+          [
+            61.733,
+            75.033
+          ],
+          [
+            75.067,
+            93.5
+          ],
+          [
+            100.533,
+            111.3
+          ],
+          [
+            115.2,
+            130.633
+          ],
+          [
+            130.667,
+            146.8
+          ],
+          [
+            153.933,
+            169.0
+          ],
+          [
+            169.2,
+            186.067
+          ],
+          [
+            186.1,
+            204.167
+          ],
+          [
+            212.533,
+            221.567
+          ],
+          [
+            221.6,
+            229.9
+          ],
+          [
+            229.933,
+            239.967
+          ],
+          [
+            253.3,
+            261.933
+          ],
+          [
+            270.3,
+            280.8
+          ],
+          [
+            289.167,
+            299.1
+          ],
+          [
+            301.167,
+            319.5
+          ],
+          [
+            319.533,
+            336.433
+          ],
+          [
+            345.967,
+            359.433
+          ],
+          [
+            359.467,
+            367.767
+          ],
+          [
+            367.8,
+            381.033
+          ]
+        ],
+        "static_threshold_seconds": 8,
+        "all_flagged_intervals_reviewed": false,
+        "full_audio_listened": false,
+        "full_video_viewed": false,
+        "perceptual_status": "PENDING_AUDIO_CAPABLE_REVIEW",
+        "published": false,
+        "paid_calls": 0
+      },
+      "sha256": "de7d5fea72a14512cf12bb2aab443d59d2440d85c205a0fb4e02f4b4ee9e4677",
+      "bytes": 8280605
+    },
+    "space-lesson10": {
+      "status": "RENDERING",
+      "script_sha256": "5f7e979a428dd8f0ed3d87e886f43feb7b0cb5e25b34df5fffd460c2ff001eca",
+      "output": "/workspace/output/space-review/Space_Lesson10_Integrated_Spatial_Design_Review_1080p.mp4",
+      "duration": 380.77054166666665
     }
   },
   "pre_render_corrections": [

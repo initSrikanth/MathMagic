@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.520 line:0% position:50% align:center size:96%
+A museum sorting machine puts every four-sided shape in the
+square tray.
+
+00:00:04.520 --> 00:00:08.120 line:0% position:50% align:center size:96%
+A long rectangle arrives, and the machine makes a mistake.
+
+00:00:08.120 --> 00:00:10.560 line:0% position:50% align:center size:96%
+How can we improve its instructions?
+
+00:00:10.560 --> 00:00:19.198 line:0% position:50% align:center size:96%
+This extra investigation uses yes-or-no decisions to
+classify shapes, then tests the rules with examples that
+challenge our first ideas.
+
+00:00:19.198 --> 00:00:19.678 line:0% position:50% align:center size:96%
+Today we are learning to test yes-or-no rules that classify
+shapes and solids.
+
+00:00:19.678 --> 00:00:31.678 line:0% position:50% align:center size:96%
+We will move from objects or hands-on actions to drawings,
+then connect those drawings with precise mathematical
+descriptions.
+
+00:00:31.678 --> 00:00:33.038 line:0% position:50% align:center size:96%
+Keep paper nearby if you would like to test an idea for
+yourself.
+
+00:00:33.038 --> 00:00:38.464 line:0% position:50% align:center size:96%
+You can pause the player whenever you need more time.
+
+00:00:38.464 --> 00:00:43.184 line:0% position:50% align:center size:96%
+Our learning goal is to test yes-or-no rules that classify
+shapes and solids.
+
+00:00:43.184 --> 00:00:45.984 line:0% position:50% align:center size:96%
+We want to explain why a result is correct, as well as
+obtain the result.
+
+00:00:45.984 --> 00:00:53.387 line:0% position:50% align:center size:96%
+As you watch, look for the evidence that would help you
+convince a partner who has not seen your working.
+
+00:00:53.387 --> 00:00:56.067 line:0% position:50% align:center size:96%
+Here are our three success criteria.
+
+00:00:56.067 --> 00:00:58.227 line:0% position:50% align:center size:96%
+I can choose precise properties.
+
+00:00:58.227 --> 00:01:00.307 line:0% position:50% align:center size:96%
+I can follow a decision path.
+
+00:01:00.307 --> 00:01:02.507 line:0% position:50% align:center size:96%
+I can test and repair a rule.
+
+00:01:02.507 --> 00:01:06.347 line:0% position:50% align:center size:96%
+We will check these ideas in two worked examples,
+investigate a common mistake and finish with an independent
+challenge.
+
+00:01:06.347 --> 00:01:15.060 line:0% position:50% align:center size:96%
+A good explanation links what you see in the model with the
+mathematical rule being used.
+
+00:01:15.060 --> 00:01:19.780 line:0% position:50% align:center size:96%
+Make cards showing squares, non-square rectangles and
+slanted rhombuses.
+
+00:01:19.780 --> 00:01:23.740 line:0% position:50% align:center size:96%
+Turn the cards in different directions without changing
+their shapes.
+
+00:01:23.740 --> 00:01:27.420 line:0% position:50% align:center size:96%
+Ask a partner to sort them using a rule you state aloud.
+
+00:01:27.420 --> 00:01:33.532 line:0% position:50% align:center size:96%
+If the rule depends on which way a card faces, it may be
+describing appearance rather than geometry.
+
+00:01:33.532 --> 00:01:33.772 line:0% position:50% align:center size:96%
+An algorithm is an ordered set of instructions for carrying
+out a task.
+
+00:01:33.772 --> 00:01:42.092 line:0% position:50% align:center size:96%
+Our sorting algorithm asks one clear question at a time.
+
+00:01:42.092 --> 00:01:44.492 line:0% position:50% align:center size:96%
+Each answer chooses the next branch.
+
+00:01:44.492 --> 00:01:51.338 line:0% position:50% align:center size:96%
+A useful question has a reliable yes-or-no answer based on
+an observable property, such as the number of sides.
+
+00:01:51.338 --> 00:01:56.618 line:0% position:50% align:center size:96%
+Before asking whether a shape is square, restrict our
+collection to four-sided polygons.
+
+00:01:56.618 --> 00:02:00.298 line:0% position:50% align:center size:96%
+Curved outlines and triangles need other branches.
+
+00:02:00.298 --> 00:02:06.778 line:0% position:50% align:center size:96%
+Knowing the starting collection prevents a rule from making
+claims about objects it was never designed to handle.
+
+00:02:06.778 --> 00:02:10.651 line:0% position:50% align:center size:96%
+Always say what kinds of objects your algorithm is sorting.
+
+00:02:10.651 --> 00:02:14.811 line:0% position:50% align:center size:96%
+A proposed rule asks only whether all four sides are equal.
+
+00:02:14.811 --> 00:02:18.811 line:0% position:50% align:center size:96%
+Predict whether every shape that answers yes must be a
+square.
+
+00:02:18.811 --> 00:02:22.291 line:0% position:50% align:center size:96%
+Compare an ordinary square with a slanted rhombus.
+
+00:02:22.291 --> 00:02:26.779 line:0% position:50% align:center size:96%
+Check the corners as well as the side lengths before
+accepting the rule.
+
+00:02:46.499 --> 00:02:46.619 line:0% position:50% align:center size:96%
+A non-square rhombus also has four equal sides, so the first
+test is insufficient.
+
+00:02:46.619 --> 00:02:47.139 line:0% position:50% align:center size:96%
+Add another question: are all four angles right angles?
+
+00:02:47.139 --> 00:02:47.539 line:0% position:50% align:center size:96%
+Within our quadrilateral collection, four equal sides
+together with four right angles identify a square.
+
+00:02:47.539 --> 00:02:49.018 line:0% position:50% align:center size:96%
+Both conditions are needed.
+
+00:02:49.018 --> 00:02:51.818 line:0% position:50% align:center size:96%
+A square answers yes to both questions.
+
+00:02:51.818 --> 00:02:56.778 line:0% position:50% align:center size:96%
+A non-square rhombus answers yes to equal sides but no to
+four right angles.
+
+00:02:56.778 --> 00:03:02.298 line:0% position:50% align:center size:96%
+A non-square rectangle answers no to all sides equal, even
+though its angles are right.
+
+00:03:02.298 --> 00:03:06.093 line:0% position:50% align:center size:96%
+Read each branch in order instead of skipping to a familiar
+name.
+
+00:03:06.093 --> 00:03:08.453 line:0% position:50% align:center size:96%
+A square is also a rectangle because it has four right
+angles.
+
+00:03:08.453 --> 00:03:10.973 line:0% position:50% align:center size:96%
+It is also a rhombus because all four sides are equal.
+
+00:03:10.973 --> 00:03:20.053 line:0% position:50% align:center size:96%
+A sorting machine may choose a specific final label, but
+that does not erase the other true categories.
+
+00:03:20.053 --> 00:03:24.195 line:0% position:50% align:center size:96%
+Be careful when a question asks for every category that
+applies.
+
+00:03:24.195 --> 00:03:27.315 line:0% position:50% align:center size:96%
+A counterexample is one valid case that shows a proposed
+always-rule is false.
+
+00:03:27.315 --> 00:03:35.435 line:0% position:50% align:center size:96%
+A non-square rectangle disproves the claim that four right
+angles alone identify a square.
+
+00:03:35.435 --> 00:03:41.589 line:0% position:50% align:center size:96%
+One counterexample is enough to reject that claim, even if
+many squares happened to pass the test correctly.
+
+00:03:41.589 --> 00:03:44.269 line:0% position:50% align:center size:96%
+Now sort solids instead of flat shapes.
+
+00:03:44.269 --> 00:03:48.589 line:0% position:50% align:center size:96%
+A proposed rule calls every object with six faces a cube.
+
+00:03:48.589 --> 00:03:52.949 line:0% position:50% align:center size:96%
+Predict whether a long rectangular carton would pass this
+test.
+
+00:03:52.949 --> 00:03:59.971 line:0% position:50% align:center size:96%
+What extra property would separate a cube from that carton
+without relying on colour or the direction of the drawing?
+
+00:04:04.971 --> 00:04:09.851 line:0% position:50% align:center size:96%
+The long rectangular prism also has six faces, so the count
+alone fails.
+
+00:04:09.851 --> 00:04:13.131 line:0% position:50% align:center size:96%
+A cube has six square faces and equal edge lengths.
+
+00:04:13.131 --> 00:04:13.451 line:0% position:50% align:center size:96%
+Check the face shapes and their connections.
+
+00:04:13.451 --> 00:04:21.958 line:0% position:50% align:center size:96%
+The long carton has unequal edge lengths, so it is a
+counterexample to the original six-face rule.
+
+00:04:21.958 --> 00:04:26.158 line:0% position:50% align:center size:96%
+A square is a flat shape, while a cube is a
+three-dimensional object.
+
+00:04:26.158 --> 00:04:30.598 line:0% position:50% align:center size:96%
+Asking whether a solid has four sides confuses different
+kinds of features.
+
+00:04:30.598 --> 00:04:33.638 line:0% position:50% align:center size:96%
+For polygons ask about sides and angles.
+
+00:04:33.638 --> 00:04:40.848 line:0% position:50% align:center size:96%
+For solids ask about faces, edges, vertices and curved
+surfaces, using the relevant mathematical language.
+
+00:04:40.848 --> 00:04:42.208 line:0% position:50% align:center size:96%
+An algorithm needs a next instruction for both yes and no
+outcomes.
+
+00:04:42.208 --> 00:04:48.928 line:0% position:50% align:center size:96%
+A missing branch leaves some objects unsorted.
+
+00:04:48.928 --> 00:04:52.008 line:0% position:50% align:center size:96%
+Walk through the diagram with several different cards.
+
+00:04:52.008 --> 00:04:59.141 line:0% position:50% align:center size:96%
+Record the question, answer and next location each time so
+you can discover exactly where a path becomes unclear.
+
+00:04:59.141 --> 00:04:59.941 line:0% position:50% align:center size:96%
+When you repair a question, retest examples that previously
+worked as well as the troublesome counterexample.
+
+00:04:59.941 --> 00:05:09.621 line:0% position:50% align:center size:96%
+A new condition might accidentally reject genuine squares.
+
+00:05:09.621 --> 00:05:13.701 line:0% position:50% align:center size:96%
+Good improvement keeps valid cases and removes invalid ones.
+
+00:05:13.701 --> 00:05:19.523 line:0% position:50% align:center size:96%
+Explain why the revised rule works for the whole stated
+collection, not just one favourite shape.
+
+00:05:19.523 --> 00:05:22.243 line:0% position:50% align:center size:96%
+A learner writes, does it look like a square?
+
+00:05:22.243 --> 00:05:27.923 line:0% position:50% align:center size:96%
+Decide why that question is hard for a machine or partner to
+follow reliably.
+
+00:05:27.923 --> 00:05:30.883 line:0% position:50% align:center size:96%
+Replace it with precise yes-or-no tests.
+
+00:05:30.883 --> 00:05:36.420 line:0% position:50% align:center size:96%
+Remember a square turned onto one corner is still a square,
+and categories may share members.
+
+00:05:41.420 --> 00:05:47.620 line:0% position:50% align:center size:96%
+For a four-sided polygon, test whether all four sides are
+equal and all four angles are right angles.
+
+00:05:47.620 --> 00:05:47.980 line:0% position:50% align:center size:96%
+Turning the paper does not change those properties.
+
+00:05:47.980 --> 00:05:56.980 line:0% position:50% align:center size:96%
+The revised rule gives evidence for the square label and can
+be checked with non-square rectangles and rhombuses.
+
+00:05:56.980 --> 00:05:59.477 line:0% position:50% align:center size:96%
+That is more reliable than appearance.
+
+00:05:59.477 --> 00:06:01.277 line:0% position:50% align:center size:96%
+Return to our learning goal.
+
+00:06:01.277 --> 00:06:04.917 line:0% position:50% align:center size:96%
+Test yes-or-no rules that classify shapes and solids.
+
+00:06:04.917 --> 00:06:09.877 line:0% position:50% align:center size:96%
+Choose one example from today and explain the evidence that
+made its answer convincing.
+
+00:06:09.877 --> 00:06:14.557 line:0% position:50% align:center size:96%
+Which of our three success criteria feels secure, and which
+needs another try?
+
+00:06:14.557 --> 00:06:21.089 line:0% position:50% align:center size:96%
+Revisit a model, test your explanation with a partner, and
+describe one mistake you can now notice and correct.
