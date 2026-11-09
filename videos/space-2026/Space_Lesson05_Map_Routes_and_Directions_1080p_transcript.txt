@@ -1,0 +1,43 @@
+A delivery bicycle must travel from the library to a community garden. One rider turns early and another turns later, but both insist they used the shortest grid route. Can different-looking journeys have the same length? Let us become route planners and check their claims with a map.
+
+Today we are learning to describe and compare routes on a coordinate grid. We will build an explanation using models, rather than memorising a rule without understanding it.
+
+Our learning goal is to describe and compare routes on a coordinate grid. As you investigate, connect what you can see, what you can make, and the mathematical language you use.
+
+First, I can follow horizontal and vertical movements. Second, I can connect movements to coordinates. Third, I can compare routes and explain my reasoning. Keep these goals in mind as you explain each discovery.
+
+A coordinate pair names a position. A route describes how to travel between positions. These ideas are connected, but they answer different questions. First identify the starting point and destination, then describe each movement clearly enough for another person to follow without watching your finger.
+
+On this map, right means east and up means north. Left means west and down means south. The grid axes still describe horizontal and vertical position. Before using these directions on a real map, check its orientation rather than assuming the top of every page must represent north.
+
+The library is at one, one and the garden is at five, four. To compare the positions, look at each coordinate separately. The horizontal value must increase from one to five. The vertical value must increase from one to four. We can describe these two required changes before choosing turns.
+
+From one, one, move four spaces right. The new position is five, one. The vertical coordinate stays one because we have not moved up or down. Then move three spaces up to reach five, four. Each intermediate position gives us a useful check on the directions.
+
+This journey uses four horizontal spaces and three vertical spaces, giving seven grid units altogether. We are counting travelled spaces, not the labels at their ends. The turn does not add an extra unit: it changes the direction of the next part of the journey.
+
+What if the second rider goes three spaces north before moving four spaces east? Predict the final position and total grid distance. Think about which coordinate changes during each part. Does changing the order of these two movements change the destination in this particular situation?
+
+The second rider reaches one, four after moving north, then five, four after moving east. The distance is three plus four, also seven grid units. The routes use different intermediate positions but have the same destination and distance. This conclusion follows from the particular movements, not from their appearance.
+
+Now the bicycle must continue from the garden at five, four to a gate at seven, four. That adds two spaces east with no vertical change. The complete route uses four right, three up and two right. Keeping a running record helps us avoid forgetting an earlier section.
+
+Record the start, each instruction and the new position. After four right, write five, one. After three up, write five, four. After two right, write seven, four. The travelled distance is four plus three plus two, which equals nine grid units for this complete journey.
+
+A learner adds seven and four and says the journey was eleven units. Those values describe the final position relative to the origin, not the distance travelled from our library. To measure the journey, use the movements along the actual route, including any sections that retrace earlier steps.
+
+Suppose a closed path makes the rider travel one extra space east and then one space back west before continuing. The final destination can remain unchanged, but the rider has travelled two additional grid units. Returning to the same position does not erase the distance already travelled along a detour.
+
+Among routes restricted to horizontal and vertical grid lines, seven units is a shortest distance from one, one to five, four. Every successful route must cover four units of eastward change and three northward. Different orders can achieve this without backtracking, so shortest does not mean there is only one possible route.
+
+A walker starts at two, two and ends at six, five. The first instruction is four spaces right. What vertical movement completes the trip? Predict the instruction and explain why it changes only one coordinate. Check the starting height instead of reading the destination’s height as the distance.
+
+After moving right, the walker is at six, two. To reach six, five, move three spaces up. Five minus two gives the required vertical change. Moving five spaces up would reach height seven, because the starting point was already two units above the horizontal axis.
+
+Imagine that each grid unit represents ten metres. Our seven-unit library-to-garden route then represents seventy metres along the grid paths. State the scale and units in your answer. A distance of seven grid units is not automatically seven metres unless the map explicitly uses that scale.
+
+Write a new route using at least three instructions and include its start position. Ask a partner to follow it, recording each intermediate coordinate. If the final location is unexpected, compare one instruction at a time. This pinpoints the first disagreement instead of rewriting the whole route by guesswork.
+
+Plan two different shortest grid routes from two, two to six, five. Both need four units of eastward change and three northward, so each can use seven units without backtracking. Explain how their turns differ while the total changes remain the same. Include a labelled sketch as evidence.
+
+You can now connect positions, movements and travelled distance. Two riders can take different turns yet share a shortest grid distance, while a detour can change distance without changing the destination. Make one final route clue and explain how a coordinate record would help someone check every stage.

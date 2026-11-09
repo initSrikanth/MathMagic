@@ -1,0 +1,286 @@
+{
+  "topic": "space",
+  "page": "space-lessons.html",
+  "owner_approval": {
+    "approved": true,
+    "recorded_on": "2026-11-09",
+    "reviewer": "Project owner, via explicit user attestation",
+    "statement": "The project owner has reviewed the completed Year 5 Space materials and confirms they are satisfactory. You are authorised to proceed with final integration, merging and deployment.",
+    "record": "https://github.com/initSrikanth/MathMagic/pull/57#issuecomment-6747399610",
+    "independent_audiovisual_review": "NOT_PERFORMED_BY_CODEX",
+    "safari_ios": "UNVERIFIED",
+    "live_firebase_and_deployed_rules": "UNVERIFIED"
+  },
+  "lessons": [
+    {
+      "id": "space-lesson1",
+      "section": "lesson-1",
+      "title": "3D Objects and Their Properties",
+      "src": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+      "sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+      "bytes": 10935021,
+      "duration": 528.5909583333333,
+      "caption_cues": 122,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson1.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "b7f2ae5fe7a312316e51db59c35e548971f3d91dd833c3ec98e2068e8e6a4319",
+        "transcript": "5f9c2681c5484bd1b66c42d95db86b83db687bdcd96f5d3b97789f2adebc4de5",
+        "poster": "373410cbee73b03ee8cd14f0dbf967049d4eef78b2cce9a231ec6130d2af7542"
+      }
+    },
+    {
+      "id": "space-lesson2",
+      "section": "lesson-2",
+      "title": "Explore Nets",
+      "src": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+      "sha256": "e178d158cb8a8df25606f358732b9d8b10f7495e888207d36c28eb53ef048ab1",
+      "bytes": 6821143,
+      "duration": 367.79920833333335,
+      "caption_cues": 86,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson2.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "872fceb609e417ea22cc3cdf42462feb2a0da751ebd8e31e9c95e428d0b3e9ee",
+        "transcript": "19a03b112e9ebaa540704bbf744f72fb220ea2836791b30c1625eee65429e82c",
+        "poster": "051736416e90ecbcec9331d38d054e81ab42bbfa221f2e624aa6b70f50951a22"
+      }
+    },
+    {
+      "id": "space-lesson3",
+      "section": "lesson-3",
+      "title": "Design and Test Nets",
+      "src": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+      "sha256": "5b24243e27023c483712714ce931f642a6d2ce12ed7cd3ecc2625a6cc7ef974e",
+      "bytes": 7542128,
+      "duration": 402.74233333333336,
+      "caption_cues": 86,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson3.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "604d93008fb20794d240df1e38ee503e554313a5bd2ef7cdbf888964c272ba5c",
+        "transcript": "3a3c384cdaaaadfd9f383ec3ff0045fd1ccea5e9e85e8abab57258d0023fe751",
+        "poster": "1f69b96d8d57ae1a54dad20fb80c0d44c68a54165d01e0432d7642d531ca40ac"
+      }
+    },
+    {
+      "id": "space-lesson4",
+      "section": "lesson-4",
+      "title": "Coordinates and Position",
+      "src": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+      "sha256": "bc11c36751627984581a80cf597a4da61b3e8ef2744cbbc66c5ec92a085f729d",
+      "bytes": 7115511,
+      "duration": 367.73029166666663,
+      "caption_cues": 82,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson4.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "9e1b08ff4518fe2c74592686f2ab3d35702b0f255bb433403c72087d82c408af",
+        "transcript": "ca99d10f5e7c7205a2344781cd1ba389f956a56b95138731cecdce530be5103b",
+        "poster": "82302cddd07d75e04699cf30a9a41f188c4129fdb2e3b820aae4577af1bfc970"
+      }
+    },
+    {
+      "id": "space-lesson5",
+      "section": "lesson-5",
+      "title": "Map Routes and Directions",
+      "src": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+      "sha256": "fa7803fd5b1feb0b183f5e5df7c36587f57acbe7466f88efaab6412f79d6ec9d",
+      "bytes": 7654026,
+      "duration": 382.77912499999996,
+      "caption_cues": 83,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson5.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "0ad029053badb81443cbdfadd19734b4f19560c264fc1cef427e716a59ef4665",
+        "transcript": "91076b1629fb3922fbb8f5ad89e94618663424bacc2eb8b8ed9a836be96d7caf",
+        "poster": "1221f6a7023d99e77dfe3c9568010bf009a597db08a16a27e665d8662b6bd15a"
+      }
+    },
+    {
+      "id": "space-lesson6",
+      "section": "lesson-6",
+      "title": "Translations",
+      "src": "videos/space-2026/Space_Lesson06_Translations_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson06_Translations_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+      "sha256": "53ff64844782c40026cc7282a6aedb3a0bc4b5935e78afa64cff0b77b2845af6",
+      "bytes": 9280734,
+      "duration": 416.7361666666666,
+      "caption_cues": 91,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson6.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "0890b2e79fa9750844c8a6ac6b9f3909629d2e65f008e2ed5622ee50dc8dd05b",
+        "transcript": "b8b2bf1ae5d7d1b43dcf0451f62f2af54c753c0e77876f55355ada34f9f63d17",
+        "poster": "70fd9f0ec0d4cab7e76856772e4ad15f8ce7200fe6b8c7b85189416a5a28379b"
+      }
+    },
+    {
+      "id": "space-lesson7",
+      "section": "lesson-7",
+      "title": "Reflections",
+      "src": "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson07_Reflections_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+      "sha256": "bc2552c8e823b9251802d6136d15e31061a4ceeb0a5f46b291f15d3d8d71068e",
+      "bytes": 7615032,
+      "duration": 396.51183333333336,
+      "caption_cues": 83,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson7.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "d9efc6aa01a4b6cba71450c25ebc4bc6a893df2f7219e24449e2402dc375e979",
+        "transcript": "c50058741fc4a9d4d586b1ed62bed3f8401853eb08932105f076e3b7033adeea",
+        "poster": "db9cada55632d1bb2e1e61829fe5e503224e499307ea449f7a1ef6c4799c7832"
+      }
+    },
+    {
+      "id": "space-lesson8",
+      "section": "lesson-8",
+      "title": "Rotations and Symmetry",
+      "src": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+      "sha256": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+      "bytes": 12397725,
+      "duration": 410.72450000000003,
+      "caption_cues": 84,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson8.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "cd0d63191352e4340165606a5d42ef2bd61817ee8d09769a8ee55970fb53b7d3",
+        "transcript": "392aba910029c3e101357de5320de055f91df8f9e0ecdd81072cdd6639907ff0",
+        "poster": "cc7fd5a9a23eec48cd785857a071cd5d53fc58e27d28fdb74e15ef03ceaa74a9"
+      }
+    },
+    {
+      "id": "space-lesson9",
+      "section": "lesson-9",
+      "title": "Classification Algorithms",
+      "src": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_poster.jpg",
+      "sha256": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
+      "bytes": 8977948,
+      "duration": 411.5718333333333,
+      "caption_cues": 81,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson9.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "4d0ad08b3908c8d49c28b39b4c8b3ac51c7dfde2b3e10724d15404977586bdae",
+        "transcript": "b9912cbd97fef20ddfd141281e7a581a95a1747a1391bb19408358c2288ea08e",
+        "poster": "95cab7ad09ae702bfe890dae59f718ccecce4b69786d31504380f582f3d60509"
+      }
+    },
+    {
+      "id": "space-lesson10",
+      "section": "lesson-10",
+      "title": "Integrated Spatial Design Challenge",
+      "src": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+      "captions": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+      "transcript": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_transcript.txt",
+      "poster": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+      "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+      "bytes": 8885316,
+      "duration": 432.296625,
+      "caption_cues": 91,
+      "voice": {
+        "voice": "hf_alpha",
+        "speaker_id": 31,
+        "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+        "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29"
+      },
+      "qa": "video-agent/space/release-qa/lesson10.json",
+      "presenter": false,
+      "status": "technically_verified_owner_approved",
+      "sidecar_sha256": {
+        "captions": "09f565df38149bcb1963bb15a8ac30a6d13e5251543c2fc752a9839b62f5c488",
+        "transcript": "90e4f1d6a59abf04ebaf914946323603f7e1d73d90b7559d40fa9e919b0234ba",
+        "poster": "139022a24ecc1fc7e3058866ddc78d8823299ab2659e252e2b3354d43a207901"
+      }
+    }
+  ]
+}

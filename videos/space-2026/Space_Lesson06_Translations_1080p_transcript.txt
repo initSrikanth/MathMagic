@@ -1,0 +1,45 @@
+A theatre crew needs to slide a painted triangle across the stage without turning it. One person moves the top corner further than the others, and suddenly the triangle looks stretched! How could the whole team follow one instruction that keeps the scenery exactly the same shape?
+
+Today we are learning to translate a shape while preserving its size and orientation. We will build an explanation using models, rather than memorising a rule without understanding it.
+
+Our learning goal is to translate a shape while preserving its size and orientation. As you investigate, connect what you can see, what you can make, and the mathematical language you use.
+
+First, I can describe a slide precisely. Second, I can move every vertex by the same amount. Third, I can check what stays unchanged. Keep these goals in mind as you explain each discovery.
+
+Imagine sliding a book across a table while keeping its cover facing the same direction. The book changes position, but you do not turn it over or rotate it. In geometry, a movement of this kind is called a translation. We will describe it precisely on a coordinate grid.
+
+A shape consists of more than its most noticeable corner. Mark each vertex of our triangle and keep the original outline visible. To translate the whole triangle, every vertex must move the same distance in the same direction. The sides connecting those vertices then preserve their lengths and relationships.
+
+Our triangle has vertices at one, one; three, one; and two, three. Read each pair horizontally first, then vertically. These coordinates provide a record of the original position. Before moving anything, point to the base and the upper vertex so you can check whether the final orientation stays the same.
+
+The stage manager asks for a slide three units right and two units up. This instruction applies to every point of the triangle. It describes the change in position, rather than naming a final coordinate. A point that starts further right will also finish further right than its neighbours.
+
+Begin with the vertex at one, one. Three units right takes its horizontal coordinate to four. Two units up takes its vertical coordinate to three. Its new position is four, three. Mark the corresponding new vertex, and keep the original marker so the movement can be checked.
+
+Apply the identical instruction to the other vertices. Three, one becomes six, three. Two, three becomes five, five. Join the new vertices in the same order as the original shape. We now have a translated triangle, not three unrelated dots that happened to move somewhere on the grid.
+
+Return to the original triangle. This time the instruction is two units right and three units up. Where will the vertex at one, one finish? Predict its ordered pair and explain both changes. The original shape remains visible while you think; the translated result has not yet been revealed.
+
+The vertex moves from one, one to three, four. The horizontal coordinate increases by two and the vertical coordinate increases by three. The other original vertices move to five, four and four, six. Check the triangle’s base: it remains horizontal, with the same length as before the slide.
+
+A translation preserves side lengths, angles and orientation. The triangle still points the same way and has the same size. Its location has changed. Compare a pair of corresponding sides, then a pair of corresponding vertices. This is stronger evidence than simply saying the two triangles look rather similar.
+
+Suppose a helper moves one corner four units right while the others move three. That is not the same translation for the whole shape. A connecting side can change length or direction. Correct the corner by applying the same displacement as the other vertices, rather than stretching the outline to make it fit.
+
+For a second worked example, start with vertices four, two; six, two; and five, four. Slide the triangle two units left and one unit up. Moving left reduces the horizontal coordinates, while moving up increases the vertical coordinates. We remain within the first quadrant throughout this example.
+
+Four, two becomes two, three. Six, two becomes four, three. Five, four becomes three, five. Each horizontal value has decreased by two and each vertical value has increased by one. The consistent changes confirm that every vertex followed the same translation instruction, including the upper corner.
+
+Draw an arrow from each original vertex to its matching translated vertex. The arrows have the same direction and length. A single clear arrow can then represent the translation of the whole shape. Explain its horizontal and vertical components so another learner can reproduce the slide without guessing.
+
+A classmate says that sliding our triangle across the grid could make its horizontal base become vertical. Is that possible under a translation alone? Predict your answer and give a reason about what happens to the direction of a side. Do not rely only on the triangle’s final location.
+
+A translation alone cannot turn the horizontal base vertical. Every point moves by the same displacement, so the direction between two corresponding vertices remains unchanged. Making the base vertical would require a rotation or another transformation. Our precise vocabulary helps us distinguish these different kinds of movement.
+
+Imagine one vertex moved from one, one to four, three. Compare the coordinates: the horizontal change is three right and the vertical change is two up. Check another corresponding vertex before applying that description to the whole shape. One matching point alone does not prove that all the others moved consistently.
+
+Draw a small shape with three or four vertices on a grid. Choose a translation that keeps every new vertex within the grid. Record the starting coordinates, instruction and final coordinates. Ask a partner to identify one property that changed and two properties that remained unchanged during your movement.
+
+Useful evidence includes equal corresponding side lengths, unchanged angles and identical displacement arrows. A translation changes the position while preserving the shape’s geometry. If your new picture looks larger, tilted or reversed, investigate which vertex did not follow the instruction. The checking strategy can reveal the specific error.
+
+Our scenery team can now move every marked point by one shared instruction. You can describe a translation, plot corresponding vertices and explain why size and orientation stay the same. Finish by giving someone a slide instruction and asking them to justify the result using coordinates and matching arrows.

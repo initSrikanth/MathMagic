@@ -77,6 +77,20 @@ class NarrationRemediationTests(unittest.TestCase):
   r=self.row();r['number']=31
   with self.assertRaises(AssertionError):verify([r])
 class SpaceAuthorisationTests(unittest.TestCase):
+ def test_space_release_rejects_missing_owner_authorisation(self):
+  cfg=copy.deepcopy(c.load());cfg['space_release_authorisation']['authorised']=False
+  with patch.object(c,'load',return_value=cfg):
+   with self.assertRaisesRegex(AssertionError,'owner approval'):c.assert_owner_approved_space_release()
+ def test_space_release_rejects_changed_manifest(self):
+  cfg=copy.deepcopy(c.load());cfg['space_release_authorisation']['manifest_sha256']='0'*64
+  with patch.object(c,'load',return_value=cfg):
+   with self.assertRaisesRegex(AssertionError,'manifest changed'):c.assert_owner_approved_space_release()
+ def test_space_release_rejects_changed_reviewed_video_hash(self):
+  cfg=copy.deepcopy(c.load());key=next(iter(cfg['space_release_authorisation']['approved_video_sha256']));cfg['space_release_authorisation']['approved_video_sha256'][key]='0'*64
+  with patch.object(c,'load',return_value=cfg):
+   with self.assertRaisesRegex(AssertionError,'reviewed hashes'):c.assert_owner_approved_space_release()
+ def test_space_release_is_bound_to_approved_assets_and_players(self):
+  self.assertEqual(len(c.assert_owner_approved_space_release()['lessons']),10)
  def test_current_space_generation_is_authorised(self):
   self.assertTrue(c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M5SP01'],'text':'Today we are learning about solids.'}],c.load()['approved_voice']))
  def test_space_authorisation_rejects_year6_scope(self):

@@ -1,0 +1,43 @@
+Imagine a tiny delivery robot that can carry only flat parcels. You need to send it a box for a present. Could you flatten the box, send the pieces still joined, and let the robot rebuild it? Today we will investigate which flat arrangements can become closed objects.
+
+Today we are learning to connect flat nets to three-dimensional objects. We will build an explanation using models, rather than memorising a rule without understanding it.
+
+Our learning goal is to connect flat nets to three-dimensional objects. As you investigate, connect what you can see, what you can make, and the mathematical language you use.
+
+First, I can match faces and their joins. Second, I can explain a valid cube net. Third, I can explain why a net fails. Keep these goals in mind as you explain each discovery.
+
+Think about an empty cardboard box. Open its flaps carefully, then cut along selected edges while keeping the faces connected. When you lay the cardboard flat, you can see regions that used to face different directions. This connected arrangement of faces is called a net.
+
+The flat drawing tells us more than the number of faces. It shows the shapes of the faces and which edges remain joined. A fold changes the direction a face points, but does not change its shape or size. Imagine folding along a shared edge like a hinge.
+
+Use six equal paper squares or imagine six tiles. Put four squares in a vertical row. Attach one square on each side of the second square. Every join is a whole edge. This cross-shaped arrangement is one possible starting point for a cube net.
+
+Choose the square where the side arms meet as the base. Imagine the neighbouring squares lifting around it. Will all six squares cover six different faces, or will two squares try to occupy the same place? Make a prediction and prepare a reason before we reveal the result.
+
+This cross does fold into a cube. The four neighbours around the base become four sides. The remaining square closes the opposite face. The six squares cover six different positions without leaving a missing face. Folding is about where the faces finish, not just how the drawing looks.
+
+Label the middle square as the base. The square two steps along the long arm becomes the opposite face. Squares touching the base become its neighbours. Opposite faces do not share an edge on the finished cube, even when a flat net makes their relationship hard to imagine.
+
+Each face remains the same square during folding. Its four side lengths stay equal and its corners remain right angles. The paper changes direction in space. This is why drawing a smaller square or stretching a face cannot rescue an incorrect arrangement: that would change the intended cube.
+
+Now put four equal squares in a horizontal row. Attach one square above the second square and one below that same square. Picture the row wrapping around the four side faces, while the extra squares close the top and bottom. Turning a net on the page does not create a different solid.
+
+Our two drawings can look different because the page has been turned. To decide whether they really have different structures, match their whole-edge joins. A rotation or reflection of a working net still folds to a cube. The relationships between the faces matter more than its direction on the table.
+
+Here is another arrangement: two rows of three equal squares, making a rectangle. It has six squares, just like the cross. Is the correct face count enough to guarantee a cube? Imagine the folds, and look for faces that would collide or joins that would prevent a proper corner.
+
+The rectangle does not fold into a cube. At an interior meeting point, four squares surround the same flat corner. A cube vertex needs three square faces, not four. Trying to fold all these joins cannot produce the required cube corners without cutting an additional join or causing overlap.
+
+A common mistake is saying, six squares means a cube net. Six equal squares are necessary, but they must also be arranged with the right connections. Count the faces first, then test where they fold. A useful explanation identifies the obstruction instead of simply calling the picture wrong.
+
+Mark one base square and imagine its neighbours lifting. Keep track of the direction of every new face. If two faces would occupy the same cube position, the arrangement fails. If all six different positions are filled and the joins agree, the arrangement can close into the intended cube.
+
+A drawing of the finished cube usually shows only three faces from one viewpoint. The net shows all six. These representations describe the same object in different ways. Use the net to account for hidden faces, rather than assuming an unseen face has disappeared from the solid.
+
+Consider a long rectangular carton. Its faces come in three matching opposite pairs. They need not all be squares. A suitable net uses rectangles whose joining edges have matching lengths. Six equal squares would make a cube, so they would not preserve the dimensions of this longer carton.
+
+Before folding, compare the two edges that need to meet. Their lengths must agree. Also check that a closing face has the right shape to fill the opening. A face count alone cannot check dimensions, just as it could not check the square arrangement in our earlier example.
+
+Draw or assemble six equal squares in a connected arrangement. Predict whether it will fold before testing a paper model. Record your prediction, the actual result and one reason. If your arrangement fails, change a connection and explain how that change might remove the problem you discovered.
+
+Our robot can rebuild a box when the flat net preserves the correct faces and joins. You can now connect a net to its solid, test a cube net and explain why some arrangements fail. Choose one valid and one invalid example, and convince a partner using folding evidence.

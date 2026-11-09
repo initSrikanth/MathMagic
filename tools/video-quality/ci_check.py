@@ -1,7 +1,7 @@
 """Enforce video release rules when a PR changes active media, not documentation candidates."""
 import json,re,subprocess,sys,ast,importlib.util
 from pathlib import Path
-from contract import ROOT,load,assert_release,assert_scoped_correction_release,branded,rendered_texts,overlay_brand_literals
+from contract import ROOT,load,assert_release,assert_scoped_correction_release,assert_owner_approved_space_release,branded,rendered_texts,overlay_brand_literals
 from math_check import inspect as inspect_math
 from narration_release import verify as verify_narration
 c=load();db=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text());records=db['records'];assert len(records)==35 and len({r['mp4'] for r in records})==35
@@ -23,6 +23,11 @@ for r in records:
 known={r[k] for r in records for k in ['mp4','captions','transcript','poster']};known.update(v for r in records for k,v in r.get('candidate',{}).items() if k in ['mp4','captions','transcript','poster'])
 known.update(v for r in records for k,v in r.get('correction',{}).get('replacement',{}).items() if k in ['mp4','captions','transcript','poster'])
 known.update(v for r in records for k,v in r.get('narration_replacement',{}).get('replacement',{}).items() if k in ['mp4','captions','transcript','poster'])
+space=None
+if (ROOT/'video-agent/space/release.json').exists():
+ space=assert_owner_approved_space_release()
+ known.update(r[k]for r in space['lessons']for k in ['src','captions','transcript','poster'])
+ print('Verified10 checksum-bound Space assets with the recorded owner attestation; independent audiovisual, Safari and live Firebase verification is not claimed.')
 unknown=[f for f in changed if f.lower().endswith('.mp4') and f not in known]
 assert not unknown,'Unaudited new/replacement media under production hold: '+repr(unknown)
 if selected:
@@ -40,4 +45,5 @@ if selected:
  if scoped:assert_scoped_correction_release(scoped)
  if full:assert_release(full)
  print('Verified owner-authorised narration replacements:',len(narrated),'; scoped corrections:',len(scoped),'; full-quality releases:',len(full),'. Scoped corrections do not approve accent or full perceptual quality.')
+elif space:print('Owner-approved Space release verified. Independent audiovisual/Safari/live Firebase checks remain unverified; all unrelated production holds remain.')
 else:print('Source/audit-only changes; production hold remains. No video is declared compliant.')

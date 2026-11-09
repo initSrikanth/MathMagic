@@ -1,0 +1,303 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.120 line:0% position:50% align:center size:96%
+A museum robot has mixed up the shape labels.
+
+00:00:03.120 --> 00:00:08.720 line:0% position:50% align:center size:96%
+It calls every four-sided figure a square and every object
+with a square face a square too!
+
+00:00:08.720 --> 00:00:11.400 line:0% position:50% align:center size:96%
+Could you teach it to ask better questions?
+
+00:00:11.400 --> 00:00:17.141 line:0% position:50% align:center size:96%
+We will design decisions that use evidence, then test them
+on shapes that challenge a tempting rule.
+
+00:00:17.141 --> 00:00:17.621 line:0% position:50% align:center size:96%
+Today we are learning to build and test branching decisions
+that classify shapes.
+
+00:00:17.621 --> 00:00:28.030 line:0% position:50% align:center size:96%
+We will build an explanation using models, rather than
+memorising a rule without understanding it.
+
+00:00:28.030 --> 00:00:32.670 line:0% position:50% align:center size:96%
+Our learning goal is to build and test branching decisions
+that classify shapes.
+
+00:00:32.670 --> 00:00:38.288 line:0% position:50% align:center size:96%
+As you investigate, connect what you can see, what you can
+make, and the mathematical language you use.
+
+00:00:38.288 --> 00:00:41.008 line:0% position:50% align:center size:96%
+First, I can choose defining properties.
+
+00:00:41.008 --> 00:00:44.328 line:0% position:50% align:center size:96%
+Second, I can follow a yes-or-no decision path.
+
+00:00:44.328 --> 00:00:47.968 line:0% position:50% align:center size:96%
+Third, I can repair a rule using a counterexample.
+
+00:00:47.968 --> 00:00:51.430 line:0% position:50% align:center size:96%
+Keep these goals in mind as you explain each discovery.
+
+00:00:51.430 --> 00:00:56.910 line:0% position:50% align:center size:96%
+You use decisions when sorting objects: is it flat, does it
+roll, or does it have straight sides?
+
+00:00:56.910 --> 00:01:03.270 line:0% position:50% align:center size:96%
+A classification algorithm makes the questions explicit so
+another person can follow the same process.
+
+00:01:03.270 --> 00:01:09.358 line:0% position:50% align:center size:96%
+Each answer sends the object along a branch towards an
+appropriately justified group or label.
+
+00:01:09.358 --> 00:01:10.918 line:0% position:50% align:center size:96%
+Colour and direction on a page do not define a square.
+
+00:01:10.918 --> 00:01:16.638 line:0% position:50% align:center size:96%
+A square has four equal sides and four right angles.
+
+00:01:16.638 --> 00:01:19.558 line:0% position:50% align:center size:96%
+These properties remain true when it is turned.
+
+00:01:19.558 --> 00:01:27.431 line:0% position:50% align:center size:96%
+Begin with features that matter mathematically, rather than
+choosing a question that works only because of how one
+example was drawn.
+
+00:01:27.431 --> 00:01:32.391 line:0% position:50% align:center size:96%
+Our first decision tree is for quadrilaterals: flat shapes
+with four straight sides.
+
+00:01:32.391 --> 00:01:34.431 line:0% position:50% align:center size:96%
+State that starting group clearly.
+
+00:01:34.431 --> 00:01:39.951 line:0% position:50% align:center size:96%
+A test designed for these shapes should not silently be
+applied to cylinders or triangles.
+
+00:01:39.951 --> 00:01:45.939 line:0% position:50% align:center size:96%
+Knowing the input group helps us decide whether a sequence
+of questions is complete and meaningful.
+
+00:01:45.939 --> 00:01:50.179 line:0% position:50% align:center size:96%
+The first question is, does the quadrilateral have four
+right angles?
+
+00:01:50.179 --> 00:01:55.619 line:0% position:50% align:center size:96%
+A yes answer sends it towards the rectangle family.
+
+00:01:55.619 --> 00:01:56.779 line:0% position:50% align:center size:96%
+A no answer sends it down a different branch.
+
+00:01:56.779 --> 00:02:03.746 line:0% position:50% align:center size:96%
+This first decision does not yet distinguish a square from a
+non-square rectangle, because both have four right angles.
+
+00:02:03.746 --> 00:02:07.906 line:0% position:50% align:center size:96%
+For a shape on the yes branch, ask whether all four sides
+are equal.
+
+00:02:07.906 --> 00:02:09.986 line:0% position:50% align:center size:96%
+If yes, the shape is a square.
+
+00:02:09.986 --> 00:02:12.866 line:0% position:50% align:center size:96%
+If no, it is a non-square rectangle.
+
+00:02:12.866 --> 00:02:21.175 line:0% position:50% align:center size:96%
+Each extra question should separate cases that the earlier
+question could not distinguish, instead of repeating
+information we already know.
+
+00:02:21.175 --> 00:02:25.455 line:0% position:50% align:center size:96%
+A quadrilateral has four right angles and four equal sides.
+
+00:02:25.455 --> 00:02:29.415 line:0% position:50% align:center size:96%
+Follow the two questions silently before its final group is
+shown.
+
+00:02:29.415 --> 00:02:32.135 line:0% position:50% align:center size:96%
+Which branch should it take at each decision?
+
+00:02:32.135 --> 00:02:39.540 line:0% position:50% align:center size:96%
+Prepare a complete explanation, including why the first
+answer alone would not identify its most specific label.
+
+00:02:44.540 --> 00:02:51.540 line:0% position:50% align:center size:96%
+It answers yes to four right angles and yes to four equal
+sides, so the most specific label on our tree is square.
+
+00:02:51.540 --> 00:02:54.220 line:0% position:50% align:center size:96%
+It also belongs to the rectangle family.
+
+00:02:54.220 --> 00:03:00.351 line:0% position:50% align:center size:96%
+Giving a more specific label does not erase the broader
+family properties that helped us reach the decision.
+
+00:03:00.351 --> 00:03:02.231 line:0% position:50% align:center size:96%
+A rectangle that is longer than it is wide still has four
+right angles.
+
+00:03:02.231 --> 00:03:07.071 line:0% position:50% align:center size:96%
+It follows the first yes branch.
+
+00:03:07.071 --> 00:03:09.551 line:0% position:50% align:center size:96%
+Its four sides are not all equal, so the next answer is no.
+
+00:03:09.551 --> 00:03:18.462 line:0% position:50% align:center size:96%
+The tree identifies a non-square rectangle while keeping its
+relationship with squares clear and mathematically accurate.
+
+00:03:18.462 --> 00:03:23.982 line:0% position:50% align:center size:96%
+The museum robot’s tempting rule says that four equal sides
+always mean square.
+
+00:03:23.982 --> 00:03:30.422 line:0% position:50% align:center size:96%
+A non-square rhombus is a counterexample: it has four equal
+sides but does not have four right angles.
+
+00:03:30.422 --> 00:03:37.721 line:0% position:50% align:center size:96%
+One genuine counterexample is enough to disprove an always
+claim, even if many earlier examples seemed to support it.
+
+00:03:37.721 --> 00:03:43.761 line:0% position:50% align:center size:96%
+For a quadrilateral without four right angles, we can still
+ask whether all four sides are equal.
+
+00:03:43.761 --> 00:03:47.521 line:0% position:50% align:center size:96%
+If yes, the most specific group here is a non-square
+rhombus.
+
+00:03:47.521 --> 00:03:50.881 line:0% position:50% align:center size:96%
+If no, we need other quadrilateral descriptions.
+
+00:03:50.881 --> 00:03:55.766 line:0% position:50% align:center size:96%
+The meaning of an answer depends on the earlier decisions
+along that particular path.
+
+00:03:55.766 --> 00:04:01.125 line:0% position:50% align:center size:96%
+A square is also a rectangle and a rhombus: it has the
+defining properties of both.
+
+00:04:01.125 --> 00:04:07.525 line:0% position:50% align:center size:96%
+Our decision tree can give one most-specific label for a
+task while explaining these overlapping families.
+
+00:04:07.525 --> 00:04:13.519 line:0% position:50% align:center size:96%
+Avoid a rule claiming that a square can never be a rectangle
+simply because the words are different.
+
+00:04:13.519 --> 00:04:19.439 line:0% position:50% align:center size:96%
+The robot asks only whether all four sides are equal, then
+labels every yes answer square.
+
+00:04:19.439 --> 00:04:21.919 line:0% position:50% align:center size:96%
+Which additional property should it check?
+
+00:04:21.919 --> 00:04:26.879 line:0% position:50% align:center size:96%
+Predict a repair that correctly handles both a square and a
+non-square rhombus.
+
+00:04:26.879 --> 00:04:32.567 line:0% position:50% align:center size:96%
+Choose evidence about the shape, rather than changing its
+colour or orientation on the screen.
+
+00:04:37.567 --> 00:04:40.847 line:0% position:50% align:center size:96%
+The robot must also check for four right angles.
+
+00:04:40.847 --> 00:04:43.807 line:0% position:50% align:center size:96%
+Together with four equal sides, this identifies a square.
+
+00:04:43.807 --> 00:04:43.967 line:0% position:50% align:center size:96%
+A four-equal-sided shape without four right angles belongs
+to a different most-specific group.
+
+00:04:43.967 --> 00:04:56.600 line:0% position:50% align:center size:96%
+Test the repaired rule on both examples to show that the
+added decision solves the original problem.
+
+00:04:56.600 --> 00:05:00.400 line:0% position:50% align:center size:96%
+Now change the input group to three-dimensional objects.
+
+00:05:00.400 --> 00:05:04.320 line:0% position:50% align:center size:96%
+A cube is not a square, even though each of its faces is
+square.
+
+00:05:04.320 --> 00:05:08.680 line:0% position:50% align:center size:96%
+Ask first whether the exhibit is a solid object or a flat
+shape.
+
+00:05:08.680 --> 00:05:14.859 line:0% position:50% align:center size:96%
+Words such as faces and edges describe different features
+from the sides of a flat quadrilateral.
+
+00:05:14.859 --> 00:05:18.819 line:0% position:50% align:center size:96%
+Within our familiar solid objects, six square faces arranged
+as a closed cube identify a cube.
+
+00:05:18.819 --> 00:05:26.219 line:0% position:50% align:center size:96%
+A non-cube rectangular prism also has six faces, but they
+are not all squares.
+
+00:05:26.219 --> 00:05:29.579 line:0% position:50% align:center size:96%
+Face count alone cannot distinguish these examples.
+
+00:05:29.579 --> 00:05:34.349 line:0% position:50% align:center size:96%
+The algorithm needs both the relevant shapes of faces and
+their connections.
+
+00:05:34.349 --> 00:05:40.389 line:0% position:50% align:center size:96%
+Make a test set containing a square, a long rectangle, a
+non-square rhombus and another quadrilateral.
+
+00:05:40.389 --> 00:05:40.669 line:0% position:50% align:center size:96%
+Turn the drawings and change their sizes.
+
+00:05:40.669 --> 00:05:48.589 line:0% position:50% align:center size:96%
+The classification should remain stable because those
+changes preserve the defining properties.
+
+00:05:48.589 --> 00:05:54.033 line:0% position:50% align:center size:96%
+If a label changes only because the picture was tilted, the
+decision rule needs repair.
+
+00:05:54.033 --> 00:05:59.833 line:0% position:50% align:center size:96%
+Write a short yes-or-no pathway for a small collection of
+objects you can describe accurately.
+
+00:05:59.833 --> 00:06:04.193 line:0% position:50% align:center size:96%
+Include at least one pair that shares a property but needs
+different labels.
+
+00:06:04.193 --> 00:06:12.422 line:0% position:50% align:center size:96%
+Ask a partner to follow your decisions exactly, then use any
+unexpected outcome to identify a missing or ambiguous
+question.
+
+00:06:12.422 --> 00:06:18.622 line:0% position:50% align:center size:96%
+A useful justification describes the input group, every
+decision and the evidence for each answer.
+
+00:06:18.622 --> 00:06:21.222 line:0% position:50% align:center size:96%
+It also explains what a label means.
+
+00:06:21.222 --> 00:06:32.029 line:0% position:50% align:center size:96%
+An algorithm is more than a decorative diagram with arrows:
+its questions must lead suitable objects to defensible
+groups, including the difficult examples chosen to challenge
+it.
+
+00:06:32.029 --> 00:06:38.629 line:0% position:50% align:center size:96%
+You can now choose defining properties, follow branching
+decisions and improve a rule using a counterexample.
+
+00:06:38.629 --> 00:06:44.589 line:0% position:50% align:center size:96%
+This investigation extends our shape reasoning and careful
+use of mathematical vocabulary.
+
+00:06:44.589 --> 00:06:51.572 line:0% position:50% align:center size:96%
+Give the museum robot one final test case, predict its full
+path, and explain why every decision is justified.
