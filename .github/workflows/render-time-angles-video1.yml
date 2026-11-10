@@ -1,16 +1,14 @@
 name: Render Time and Angles Video 1 (Kokoro)
 # Preserve approved cream-background graphics and Kokoro hf_alpha voice.
 # Video 1 only: subsequent lessons require their own verified scripts.
+# Legacy renderer frozen: the Measurement pilot verifies existing files only.
 on:
-  push:
-    paths:
-      - '.github/workflows/render-time-angles-video1.yml'
-      - 'video-agent/time-angles/render_video1.py'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   render-video1:
+    if: ${{ false }} # Preserve sources; no automatic generation or publication.
     runs-on: ubuntu-24.04
     timeout-minutes: 300
     steps:

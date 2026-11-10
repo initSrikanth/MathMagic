@@ -18,10 +18,10 @@ Authority: [QCAA v9 Year 5 alignment](https://www.qcaa.qld.edu.au/downloads/aciq
 | AC9M5N10 | Learner-created algorithms | Partial | factors-multiples.html#lesson4 | Execution and a digital divisibility explorer exist; learner-authored branching algorithms and testing need evidence. |
 | AC9M5A01 | Inverse fact families | Covered | multiplication-division.html#lesson3; #lesson5 | — |
 | AC9M5A02 | Unknown values | Covered | multiplication-division.html#lesson5 | — |
-| AC9M5M01 | Metric measurement | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
-| AC9M5M02 | Perimeter and area | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
-| AC9M5M03 | 12/24-hour time | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
-| AC9M5M04 | Angles | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
+| AC9M5M01 | Metric measurement | Covered | measurement.html#lesson1–#lesson2; exact Python/SymPy assessment oracle; released media manifest. | Perceptual/live-service checks are separate. |
+| AC9M5M02 | Perimeter and area | Covered | measurement.html#lesson3–#lesson5; exact Python/SymPy geometry; released media manifest. | Perceptual/live-service checks are separate. |
+| AC9M5M03 | 12/24-hour time | Partial | time-angles.html#lesson1–#lesson2; 13-family independent assessment oracle. | Five Time and Angles videos lack captions/transcripts; audiovisual review unverified. |
+| AC9M5M04 | Angles | Partial | time-angles.html#lesson3–#lesson5; draggable construction tool and protractor diagrams. | Same five-video accessibility and review blockers; practical construction is not certified by quiz scores. |
 | AC9M5SP01 | Objects and nets | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
 | AC9M5SP02 | Grid coordinates | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
 | AC9M5SP03 | Transformations and symmetry | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
@@ -47,3 +47,5 @@ Each grouping supports five substantive lessons. No other topic starts until fou
 ## First topic candidate evidence
 
 M01: `measurement.html#lesson1` and `#lesson2` (unit choice, instruments, equal graduations, finer/combined readings). M02: `#lesson3`–`#lesson5` (regular/equal-sided boundaries, tiled surfaces, irregular decomposition and practical designs). The 30-question challenge has independent Python/SymPy validation at `docs/year5/measurement-maths-qa.json`; five exact-byte media records are in `video-agent/production-v2/measurement-release.json`. These two descriptions are covered instructionally by this candidate; publication is certified only by the release PR/deployment evidence. The baseline matrix deliberately remains unchanged.
+
+Measurement-only update (10 November 2026): M01–M04 checked against the [government-supported Scootle curriculum records](https://www.scootle.edu.au/ec/search?accContentId=AC9M5M01). Other rows retain the historical baseline; this update does not assert whole-Year-5 completion. The [production pilot](../../tools/production/README.md) distinguishes implementation coverage, automated QA, perception and deployment.

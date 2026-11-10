@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "topic": "measurement",
+  "title": "Measuring Our World",
+  "page": "measurement.html",
+  "release": "video-agent/production-v2/measurement-release.json",
+  "lesson_count": 5,
+  "audit_pages": [
+    "measurement.html",
+    "time-angles.html"
+  ],
+  "curriculum": [
+    {
+      "code": "AC9M5M01",
+      "description": "choose appropriate metric units when measuring the length, mass and capacity of objects; use smaller units or a combination of units to obtain a more accurate measure",
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M01",
+      "sections": [
+        "lesson1",
+        "lesson2"
+      ],
+      "evidence": [
+        "combined",
+        "ruler",
+        "capacity"
+      ],
+      "assessment": "tests/validate-measurement.py"
+    },
+    {
+      "code": "AC9M5M02",
+      "description": "solve practical problems involving the perimeter and area of regular and irregular shapes using appropriate metric units",
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M02",
+      "sections": [
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "evidence": [
+        "perimeter",
+        "area",
+        "irregular"
+      ],
+      "assessment": "tests/validate-measurement.py"
+    }
+  ],
+  "rules": [
+    "AGENTS.md",
+    "video-agent/VIDEO_PRODUCTION_RULES.md",
+    "video-agent/video-production-contract.json",
+    "video-agent/time-angles/GOLDEN_VIDEO_RULES.md"
+  ],
+  "inputs": {
+    "inventory": [
+      "measurement.html",
+      "time-angles.html",
+      "video-agent/production-v2/measurement-release.json",
+      "videos/MathMagic_Time_Angles_*.mp4"
+    ],
+    "curriculum": [
+      "measurement.html",
+      "docs/year5/measurement.md",
+      "js/measurement.js",
+      "tests/validate-measurement.py"
+    ],
+    "mathematics": [
+      "js/measurement.js",
+      "js/time-angles.js",
+      "tests/export-measurement.cjs",
+      "tests/validate-measurement.py",
+      "tests/time-angles-maths.test.cjs",
+      "video-agent/production-v2/measurement_content.py"
+    ],
+    "media": [
+      "measurement.html",
+      "docs/video-quality-audit-35.json",
+      "video-agent/video-corrections-35/evidence/*.json",
+      "tools/video-quality/contract.py"
+    ],
+    "progress": [
+      "js/measurement-auth.js",
+      "tests/measurement-progress.test.js",
+      "tests/measurement-emulator.test.cjs",
+      "tests/emulator/*",
+      "package*.json"
+    ],
+    "browser": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js",
+      "tests/e2e/measurement*.spec.js",
+      "tests/serve.py",
+      "playwright.config.js",
+      "package*.json"
+    ],
+    "accessibility": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js",
+      "tests/e2e/measurement-accessibility.spec.js",
+      "playwright.config.js",
+      "package*.json"
+    ],
+    "deployment": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js"
+    ]
+  },
+  "commands": {
+    "mathematics": [
+      [
+        "node",
+        "tests/export-measurement.cjs",
+        "{work}/scratch/measurement-variants.json"
+      ],
+      [
+        "python",
+        "tests/validate-measurement.py",
+        "{work}/scratch/measurement-variants.json"
+      ],
+      [
+        "node",
+        "tests/time-angles-maths.test.cjs"
+      ]
+    ],
+    "progress": [
+      [
+        "node",
+        "tests/measurement-progress.test.js"
+      ],
+      [
+        "npx",
+        "--no-install",
+        "firebase",
+        "emulators:exec",
+        "--project",
+        "demo-mathmagic-year5",
+        "--only",
+        "firestore",
+        "--config",
+        "tests/emulator/firebase.json",
+        "node tests/measurement-emulator.test.cjs"
+      ]
+    ],
+    "browser": [
+      [
+        "npx",
+        "--no-install",
+        "playwright",
+        "test",
+        "tests/e2e/measurement.spec.js",
+        "tests/e2e/measurement-videos.spec.js",
+        "--retries=0"
+      ]
+    ],
+    "accessibility": [
+      [
+        "npx",
+        "--no-install",
+        "playwright",
+        "test",
+        "tests/e2e/measurement-accessibility.spec.js",
+        "--retries=0"
+      ]
+    ]
+  },
+  "site": "https://initsrikanth.github.io/MathMagic/",
+  "manual_evidence": "docs/year5/measurement-human-verification.json",
+  "manual_requirements": [
+    "exact_video_listening_and_viewing",
+    "live_firebase_approved_and_denied_access",
+    "live_firestore_save_restore_and_uid_isolation",
+    "deployed_firestore_rules",
+    "physical_safari_ios"
+  ],
+  "legacy_media_policy": "Preserve checksum-bound, owner-approved Measuring Our World files. The five-minute Golden Rule applies to new production, not retroactive regeneration. Scoped corrections do not certify accent or full perceptual quality.",
+  "production": "VERIFY_EXISTING_ONLY",
+  "site_assets": [
+    "measurement.html",
+    "css/addition-subtraction.css",
+    "css/measurement.css",
+    "js/measurement.js",
+    "js/measurement-auth.js"
+  ]
+}

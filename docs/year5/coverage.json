@@ -90,30 +90,34 @@
     {
       "code": "AC9M5M01",
       "focus": "Metric measurement",
-      "status": "Missing",
-      "evidence": "No dedicated lesson/assessment implementation in baseline 9420db7.",
-      "remaining": "\u2014"
+      "status": "Covered",
+      "evidence": "measurement.html#lesson1\u2013#lesson5; tests/validate-measurement.py; video-agent/production-v2/measurement-release.json",
+      "remaining": "Full perceptual and live Firebase/device verification remain separate release gates.",
+      "checked": "2026-11-10"
     },
     {
       "code": "AC9M5M02",
       "focus": "Perimeter and area",
-      "status": "Missing",
-      "evidence": "No dedicated lesson/assessment implementation in baseline 9420db7.",
-      "remaining": "\u2014"
+      "status": "Covered",
+      "evidence": "measurement.html#lesson1\u2013#lesson5; tests/validate-measurement.py; video-agent/production-v2/measurement-release.json",
+      "remaining": "Full perceptual and live Firebase/device verification remain separate release gates.",
+      "checked": "2026-11-10"
     },
     {
       "code": "AC9M5M03",
       "focus": "12/24-hour time",
-      "status": "Missing",
-      "evidence": "No dedicated lesson/assessment implementation in baseline 9420db7.",
-      "remaining": "\u2014"
+      "status": "Partial",
+      "evidence": "time-angles.html#lesson1\u2013#lesson5; interactive angle construction; tests/time-angles-maths.test.cjs",
+      "remaining": "Five existing videos have no captions/transcripts or saved utterance-timing sidecars; Golden Rules audiovisual review remains unverified. No verified assets regenerated.",
+      "checked": "2026-11-10"
     },
     {
       "code": "AC9M5M04",
       "focus": "Angles",
-      "status": "Missing",
-      "evidence": "No dedicated lesson/assessment implementation in baseline 9420db7.",
-      "remaining": "\u2014"
+      "status": "Partial",
+      "evidence": "time-angles.html#lesson1\u2013#lesson5; interactive angle construction; tests/time-angles-maths.test.cjs",
+      "remaining": "Five existing videos have no captions/transcripts or saved utterance-timing sidecars; Golden Rules audiovisual review remains unverified. No verified assets regenerated.",
+      "checked": "2026-11-10"
     },
     {
       "code": "AC9M5SP01",
@@ -171,5 +175,16 @@
       "evidence": "No dedicated lesson/assessment implementation in baseline 9420db7.",
       "remaining": "\u2014"
     }
-  ]
+  ],
+  "measurement_review": {
+    "checked": "2026-11-10",
+    "source_commit": "047666034299b6e6726e1e7a1d56eee8374aa74a",
+    "scope": "AC9M5M01\u2013AC9M5M04 only; other rows retain the historical baseline.",
+    "sources": [
+      "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M01",
+      "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M02",
+      "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M03",
+      "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M04"
+    ]
+  }
 }

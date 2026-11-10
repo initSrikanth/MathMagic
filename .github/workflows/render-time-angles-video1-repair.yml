@@ -1,14 +1,12 @@
 name: Repair Time and Angles Video 1 (QA artifact only)
+# Legacy renderer frozen: the Measurement pilot verifies existing files only.
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/render-time-angles-video1-repair.yml'
-      - 'video-agent/time-angles/render_video1.py'
 permissions:
   contents: read
 jobs:
   render:
+    if: ${{ false }} # Preserve sources; no automatic generation or publication.
     runs-on: ubuntu-24.04
     timeout-minutes: 120
     steps:

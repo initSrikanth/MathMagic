@@ -1,2 +1,7 @@
 .measurement-model svg{display:block;width:100%;max-width:680px;height:auto;margin:1rem auto}.measurement-model text{font-family:system-ui,sans-serif;fill:#173f35}.screen figure{margin:1rem 0}.screen figcaption{text-align:center;font-size:1rem}.measurement-model{overflow:hidden}figure svg:focus{outline:3px solid #087f75}
 #qDisplay svg{display:block;width:100%;max-width:680px;height:auto;margin:1rem auto}
+
+/* Scope the AA contrast correction to Measurement; preserve the shared course palette. */
+body{--primary:#087584}
+:focus-visible{outline:3px solid #9e4f00;outline-offset:3px}
+.quiz-status small{color:#475569}

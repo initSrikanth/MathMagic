@@ -1,3 +1,15 @@
+# Current production-pipeline pilot — 10 November 2026
+
+- Base: deployed `047666034299b6e6726e1e7a1d56eee8374aa74a`; branch `feature/measurement-production-pilot`.
+- Scope: reusable read-only QA for Measuring Our World; inventory audits both Measurement topics (ten placements). Existing MP4 bytes/content/auth/progress preserved.
+- Implemented: source/rule fingerprints, atomic RUNNING/PASS/FAIL receipts, local resume/log verification/locking and retry cap; independent maths; real-browser/WCAG; isolated emulator; byte-level production-baseline verification; strict separate human/release readiness. GitHub jobs resume through Re-run failed jobs with dependency caches and preserved evidence.
+- Confirmed fixes: Measurement-only contrast correction and cache-busted stylesheet; legacy Time and Angles renderers frozen to prevent unreviewed automatic regeneration/direct publishing.
+- Confirmed gaps: five Time and Angles players have no captions/transcripts or retained cue sidecars. Preserve all five videos; recover genuine timing/alignment before caption work. Existing rendering timing/pedagogy needs audiovisual review.
+- Tests/evidence: canonical exact-byte scoped media gate passes; independent Time and Angles oracle validates30,000 positions/13 families; checkpoint unit tests. Final browser/CI evidence is retained in the pilot's PR and GitHub artifacts, with exact source SHA in each receipt.
+- Next executable action: `python tools/production/pilot.py run --resume`, then `python tools/production/pilot.py report --require-ready`. The latter remains BLOCKED until actual required external evidence and publication checks exist. Do not deploy unverified content or re-enable frozen renderers.
+
+---
+
 # Year 5 Measurement — resumable development checkpoint
 
 Updated after Measurement dashboard-return visibility fix commit `63059bef4d2b1d1df1f97eb153dd1522e2858ff9`.
