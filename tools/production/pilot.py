@@ -61,7 +61,7 @@ def media_paths(p):
     return paths
 
 def fingerprint(p, stage):
-    paths = set(p['rules']) | {'tools/production/requirements.txt', 'tools/production/pilot.py', 'tools/production/profiles/' + p['topic'] + '.json'}
+    paths = set(p['rules']) | {'.gitignore', 'tools/production/requirements.txt', 'tools/production/pilot.py', 'tools/production/profiles/' + p['topic'] + '.json'}
     for pattern in p['inputs'][stage]:
         paths.update(str(f.relative_to(ROOT)) for f in ROOT.glob(pattern) if f.is_file())
         if not any(x in pattern for x in '*?['):

@@ -4,6 +4,7 @@ import os
 import io
 import fnmatch
 import re
+import subprocess
 from pathlib import Path
 import tempfile
 import unittest
@@ -64,11 +65,15 @@ class PilotTest(unittest.TestCase):
         with patch.object(pilot,'fingerprint',return_value='key'),patch.object(pilot,'runtime',return_value={}),patch.object(pilot,'curriculum',side_effect=ValueError('temporary failure')):
             r=pilot.run_stage({},'curriculum',self.root,resume=True)
         self.assertEqual(r['status'],'FAIL');self.assertEqual(r['consecutive_failures'],1)
+    def test_browser_diagnostics_are_ignored_but_test_sources_remain_tracked(self):
+        for path in ['playwright-report/index.html','test-results/.last-run.json']:
+            self.assertEqual(subprocess.run(['git','check-ignore','--quiet','--no-index',path],cwd=pilot.ROOT).returncode,0,path)
+        self.assertEqual(subprocess.run(['git','check-ignore','--quiet','--no-index','tests/e2e/measurement-accessibility.spec.js'],cwd=pilot.ROOT).returncode,1)
     def test_all_declared_inputs_and_media_have_pr_workflow_triggers(self):
         profile=pilot.load_profile('measurement')
         workflow=(pilot.ROOT/'.github/workflows/measurement-production-pilot.yml').read_text().split('  workflow_dispatch:')[0]
         patterns=re.findall(r"^      - '([^']+)'$",workflow,re.M)
-        files=set(profile['rules'])|pilot.media_paths(profile)|{'tools/production/pilot.py','tools/production/requirements.txt'}
+        files=set(profile['rules'])|pilot.media_paths(profile)|{'.gitignore','tools/production/pilot.py','tools/production/requirements.txt'}
         for declarations in profile['inputs'].values():
             for pattern in declarations:
                 files.update(str(f.relative_to(pilot.ROOT)) for f in pilot.ROOT.glob(pattern) if f.is_file())

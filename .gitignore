@@ -7,3 +7,7 @@ __pycache__/
 node_modules/
 .firebase/
 *-debug.log
+
+# Generated Playwright diagnostics are retained as CI artifacts, not source changes.
+/playwright-report/
+/test-results/

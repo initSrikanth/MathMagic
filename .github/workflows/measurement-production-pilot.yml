@@ -18,6 +18,7 @@ on:
       - 'video-agent/production-v2/measurement*.json'
       - 'video-agent/video-production-contract.json'
       - 'package*.json'
+      - '.gitignore'
       - 'AGENTS.md'
       - 'video-agent/VIDEO_PRODUCTION_RULES.md'
       - 'video-agent/time-angles/GOLDEN_VIDEO_RULES.md'
