@@ -43,3 +43,5 @@ A future verification profile declares its lesson count, existing release manife
 ## Current confirmed gaps
 
 Time and Angles has five existing 1080p MP4s (505.2,347.8,339.1,334.4,348.1seconds) and five teaching pages, but none of its players has captions or a transcript. Renderers write utterance cue JSON into temporary production output, while the old workflows retained only MP4s. Recover trustworthy cue/audio-alignment evidence before generating caption sidecars; scripts alone do not prove actual speech timing. Existing scripts also need actual audiovisual review of their 0.6-second initial reveals and static holds. Preserve the MP4s; this pilot does not falsely certify their pedagogy.
+
+The Time and Angles core sequence also includes unknown-angle straight-line/point questions (kinds2/3), which belong to [AC9M6M04](https://www.scootle.edu.au/ec/search?accContentId=AC9M6M04). The inventory records this separate scope blocker. Existing material is preserved; it must be labelled as extension or removed from the Year5 core assessment in a verified content correction before claiming full coverage.

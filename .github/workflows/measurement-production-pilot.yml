@@ -18,6 +18,23 @@ on:
       - 'video-agent/production-v2/measurement*.json'
       - 'video-agent/video-production-contract.json'
       - 'package*.json'
+      - 'AGENTS.md'
+      - 'video-agent/VIDEO_PRODUCTION_RULES.md'
+      - 'video-agent/time-angles/GOLDEN_VIDEO_RULES.md'
+      - 'tools/video-quality/contract.py'
+      - 'docs/video-quality-audit-35.json'
+      - 'docs/year5/measurement*'
+      - 'docs/year5/coverage.*'
+      - 'video-agent/video-corrections-35/evidence/**'
+      - 'video-agent/video-corrections-35/scripts/**'
+      - 'video-agent/production-v2/measurement*'
+      - 'videos/quality-corrections/measurement/**'
+      - 'videos/MathMagic_V3_measurement_*'
+      - 'videos/MathMagic_Time_Angles_*.mp4'
+      - 'css/addition-subtraction.css'
+      - 'playwright.config.js'
+      - 'tests/serve.py'
+      - 'tests/emulator/**'
   workflow_dispatch:
     inputs:
       profile:

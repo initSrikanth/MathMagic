@@ -110,9 +110,16 @@ class LessonHTML(HTMLParser):
 
 def inventory(p):
     """Audit both Measurement topics without converting unrelated gaps into pilot approval."""
-    result = []
+    result = []; scope_blockers = []
     for page in p['audit_pages']:
         text = (ROOT / page).read_text()
+        scope_rule = p.get('audit_scope_rules', {}).get(page)
+        if scope_rule:
+            source = (ROOT / scope_rule['assessment']).read_text()
+            sequence = re.search(r'const sequence=\[([\d,\s]+)\]', source)
+            assert sequence, 'Core assessment sequence requires an explicit scope review'
+            included = set(map(int, re.findall(r'\d+', sequence[1]))) & set(scope_rule['extension_kinds'])
+            if included: scope_blockers.append({'page': page, **scope_rule, 'core_extension_kinds': sorted(included), 'status': 'BLOCKED'})
         sections = LessonHTML(text).sections
         for section, body in sections.items():
             src = body['video'][0] if len(body['video']) == 1 else None
@@ -134,7 +141,7 @@ def inventory(p):
                            'issues': issues, 'scope': 'PILOT' if page == p['page'] else 'AUDIT_ONLY'})
     scoped = [r for r in result if r['scope'] == 'PILOT']
     assert len(scoped) == p['lesson_count'] and all(not r['issues'] for r in scoped), 'Pilot asset inventory incomplete'
-    return {'placements': result, 'audit_only_defects': sum(bool(r['issues']) for r in result if r['scope'] == 'AUDIT_ONLY')}
+    return {'placements': result, 'curriculum_scope_blockers': scope_blockers, 'audit_only_defects': sum(bool(r['issues']) for r in result if r['scope'] == 'AUDIT_ONLY')}
 
 def curriculum(p):
     text = (ROOT / p['page']).read_text()
@@ -278,6 +285,7 @@ def report(p, work):
     lines += ['| ' + s + ' | ' + r['status'] + ' |' for s, r in rows.items()]
     lines += ['', '**Release: ' + ('READY' if ready else 'BLOCKED') + '**', '', 'External checks unverified: ' + ', '.join(blocked),
               '', 'Time and Angles placements with missing accessibility assets (audit only): ' + str(rows['inventory'].get('evidence', {}).get('audit_only_defects', 'UNVERIFIED')) + '. See inventory.json.',
+              '', 'Audit-only curriculum scope blockers: ' + str(len(rows['inventory'].get('evidence', {}).get('curriculum_scope_blockers', []))),
               '', 'Unpublished candidate files: ' + ', '.join(pending_deployment),
               '', 'No content or video generation/deployment is performed by this workflow.']
     (work / 'report.md').write_text('\n'.join(lines) + '\n')

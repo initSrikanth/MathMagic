@@ -53,7 +53,8 @@
       "measurement.html",
       "time-angles.html",
       "video-agent/production-v2/measurement-release.json",
-      "videos/MathMagic_Time_Angles_*.mp4"
+      "videos/MathMagic_Time_Angles_*.mp4",
+      "js/time-angles.js"
     ],
     "curriculum": [
       "measurement.html",
@@ -183,5 +184,16 @@
     "css/measurement.css",
     "js/measurement.js",
     "js/measurement-auth.js"
-  ]
+  ],
+  "audit_scope_rules": {
+    "time-angles.html": {
+      "assessment": "js/time-angles.js",
+      "extension_kinds": [
+        2,
+        3
+      ],
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M6M04",
+      "reason": "Unknown angles using straight-line/point relationships are AC9M6M04 Year 6 content, not an unlabelled Year 5 core assessment requirement."
+    }
+  }
 }

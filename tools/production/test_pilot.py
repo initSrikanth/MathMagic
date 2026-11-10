@@ -2,6 +2,8 @@
 import json
 import os
 import io
+import fnmatch
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -62,6 +64,16 @@ class PilotTest(unittest.TestCase):
         with patch.object(pilot,'fingerprint',return_value='key'),patch.object(pilot,'runtime',return_value={}),patch.object(pilot,'curriculum',side_effect=ValueError('temporary failure')):
             r=pilot.run_stage({},'curriculum',self.root,resume=True)
         self.assertEqual(r['status'],'FAIL');self.assertEqual(r['consecutive_failures'],1)
+    def test_all_declared_inputs_and_media_have_pr_workflow_triggers(self):
+        profile=pilot.load_profile('measurement')
+        workflow=(pilot.ROOT/'.github/workflows/measurement-production-pilot.yml').read_text().split('  workflow_dispatch:')[0]
+        patterns=re.findall(r"^      - '([^']+)'$",workflow,re.M)
+        files=set(profile['rules'])|pilot.media_paths(profile)|{'tools/production/pilot.py','tools/production/requirements.txt'}
+        for declarations in profile['inputs'].values():
+            for pattern in declarations:
+                files.update(str(f.relative_to(pilot.ROOT)) for f in pilot.ROOT.glob(pattern) if f.is_file())
+        missing=[f for f in sorted(files) if not any(fnmatch.fnmatchcase(f,p) for p in patterns)]
+        self.assertEqual(missing,[], 'An input can change without triggering the pilot')
     def test_pr_deployment_checks_production_baseline_and_lists_unpublished_candidate(self):
         batch={'lessons':[{'src':'videos/a.mp4','captions':'videos/a.vtt','transcript':'videos/a.txt','poster':'videos/a.jpg'}]}
         files={f:b'production bytes' for f in ['page.html','css/topic.css','videos/a.mp4','videos/a.vtt','videos/a.txt','videos/a.jpg']}
