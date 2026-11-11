@@ -1,6 +1,6 @@
 # Time and Angles — Year 5 learning content
 
-Status: instructional content draft; integration, 30-question quiz and video production outstanding.
+Status: historical instructional plan, implemented with an existing 30-question quiz and five videos. The [11 November correction map](year5/time-angles-assessment.md) supersedes its assessment scope. Media/perceptual release remains BLOCKED; this document does not certify full coverage.
 Reference: Fractions learning sequence. Verify exact AC v9 content-description mappings against the repository's saved curriculum matrix before release.
 
 ## Page 1 — Reading time and duration
@@ -15,7 +15,7 @@ Reference: Fractions learning sequence. Verify exact AC v9 content-description m
 **Practice:** A bus leaves at 8:47 am and arrives at 9:26 am. Explain the 39-minute duration.
 **Reflection:** Why is counting to the next hour often easier than subtracting clock numerals?
 
-## Page 2 — Timetables and multi-step time problems
+## Page 2 — Timetables and multi-step time problems (optional Year 6 extension)
 **Learning goal:** Interpret timetables and plan journeys using durations.
 **Success criteria:** (1) Locate departure and arrival times. (2) Calculate waiting and travel times. (3) Justify a feasible schedule.
 **Prior knowledge:** Find elapsed time across an hour boundary.
@@ -51,7 +51,7 @@ Reference: Fractions learning sequence. Verify exact AC v9 content-description m
 **Practice:** Draw and label 30°, 75° and 125°. Estimate first, then measure.
 **Reflection:** How could you detect a mistaken 115° reading for a 65° angle?
 
-## Page 5 — Angles and time in real situations
+## Page 5 — Angles and time in real situations (unknown-angle work is optional Year 6 extension)
 **Learning goal:** Solve practical problems involving angle relationships and elapsed time.
 **Success criteria:** (1) Select an appropriate representation. (2) Calculate an unknown angle or duration. (3) Check the result against a benchmark.
 **Prior knowledge:** Straight angles total 180°, full turns total 360°, elapsed time can be split into intervals.
@@ -67,5 +67,5 @@ Reference: Fractions learning sequence. Verify exact AC v9 content-description m
 - Five substantive lessons must be integrated into the existing topic layout.
 - Quiz: 30 mathematically checked, nonrepeating questions per attempt with worked feedback, using the existing engine.
 - Preserve dashboard, auth, Firebase and existing topics.
-- Video rendering is explicitly delegated; do not publish broken video links.
+- Preserve existing video bytes. No synthesis or rendering is needed for caption recovery; later media remediation requires exact-source quality evidence.
 - This draft alone is **not** a completed topic or verified curriculum coverage.

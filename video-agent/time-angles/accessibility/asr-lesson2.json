@@ -1,0 +1,235 @@
+{
+  "model": "sherpa-onnx-whisper-tiny.en int8 (free offline)",
+  "runtime": "sherpa-onnx 1.12.26",
+  "scope": "Independent recognition of ORIGINAL preserved audio; errors and numbers need human listening; never perceptual approval",
+  "segments": [
+    {
+      "utterance": 0,
+      "start": 0,
+      "end": 8.618104,
+      "text": " A family is planning a trip to the wildlife park. Three buses leave at different times, which one arrives before the gates open."
+    },
+    {
+      "utterance": 1,
+      "start": 9.812125,
+      "end": 14.516957999999999,
+      "text": " Today we are learning to read time tables and calculate travel durations."
+    },
+    {
+      "utterance": 2,
+      "start": 15.718708,
+      "end": 20.26977,
+      "text": " Our learning goal is to read time tables and calculate travel duration."
+    },
+    {
+      "utterance": 3,
+      "start": 21.462187,
+      "end": 27.496667000000002,
+      "text": " Success criteria, read the part-time, calculate elapsed time and choose a suitable journey."
+    },
+    {
+      "utterance": 4,
+      "start": 28.70625,
+      "end": 36.485333000000004,
+      "text": " Read the departure and arrival times from the same service on the timetable. Different rows can refer to different journeys."
+    },
+    {
+      "utterance": 5,
+      "start": 37.686458,
+      "end": 44.927896,
+      "text": " A timeline makes the journey visible. Begin at 8.25, move to 9.00 and then move to 9.10."
+    },
+    {
+      "utterance": 6,
+      "start": 46.113625,
+      "end": 52.401,
+      "text": " How many minutes pass between 825 and 910?"
+    },
+    {
+      "utterance": 7,
+      "start": 57.602958,
+      "end": 63.216542,
+      "text": " 35 minutes to 9, a clock plus 10 minutes to 9, 10, makes 45 minutes."
+    },
+    {
+      "utterance": 8,
+      "start": 64.41,
+      "end": 72.506625,
+      "text": " 24-hour time removes confusion between morning and afternoon. 13-15 means 1-15 in the afternoon."
+    },
+    {
+      "utterance": 9,
+      "start": 73.712708,
+      "end": 80.250334,
+      "text": " A train departs at 1315 and arrives at 1405. How long is the journey?"
+    },
+    {
+      "utterance": 10,
+      "start": 85.415667,
+      "end": 91.397521,
+      "text": " 45 minutes to 14 hundred and five more minutes. The journey lasts 50 minutes."
+    },
+    {
+      "utterance": 11,
+      "start": 92.593875,
+      "end": 99.466084,
+      "text": " Subtracting the minute numbers alone is a mistake when you cross an hour. Use the full timeline instead."
+    },
+    {
+      "utterance": 12,
+      "start": 100.666938,
+      "end": 108.394354,
+      "text": " For a deadline, consider arrival time, not just departure time. Arriving after an event begins, maybe too late."
+    },
+    {
+      "utterance": 13,
+      "start": 109.593208,
+      "end": 116.604792,
+      "text": " You must arrive before 10. A service arrives at 935. Does it meet the deadline?"
+    },
+    {
+      "utterance": 14,
+      "start": 121.760917,
+      "end": 127.98618800000001,
+      "text": " Yes 935 is 25 minutes before 10 so the service meets the deadline."
+    },
+    {
+      "utterance": 15,
+      "start": 129.194375,
+      "end": 136.296229,
+      "text": " Remember to include walking and waiting time. Reaching the station exactly when the bus leaves is risky."
+    },
+    {
+      "utterance": 16,
+      "start": 137.5095,
+      "end": 143.619083,
+      "text": " A bus departs at 920 and arrives at 10.05. How many minutes does the trip take?"
+    },
+    {
+      "utterance": 17,
+      "start": 148.796979,
+      "end": 154.606229,
+      "text": " 40 minutes to 10 o'clock then 5 more minutes. The trip lasts 45 minutes."
+    },
+    {
+      "utterance": 18,
+      "start": 155.802083,
+      "end": 163.02677100000002,
+      "text": " Check that your answer is sensible. A journey crossing an hour can be longer than the difference between the minute digits."
+    },
+    {
+      "utterance": 19,
+      "start": 164.220625,
+      "end": 171.214875,
+      "text": " A train leaves at 1135 and arrives at 1220. Calculate the duration using noon."
+    },
+    {
+      "utterance": 20,
+      "start": 176.430375,
+      "end": 181.12268799999998,
+      "text": " 25 minutes to noon plus 20 minutes afterwards makes 45 minutes."
+    },
+    {
+      "utterance": 21,
+      "start": 182.31025,
+      "end": 188.144979,
+      "text": " Read the correct time table entry. Draw a timeline. Cross the hour boundary and add the intervals."
+    },
+    {
+      "utterance": 22,
+      "start": 189.345208,
+      "end": 198.366625,
+      "text": " Think about a school bus timetable. The departure time tells us when to be at the stop while the arrival time tells us when we can reach our destination."
+    },
+    {
+      "utterance": 23,
+      "start": 199.578542,
+      "end": 208.442542,
+      "text": " If the bus is delayed, our original plan may no longer work. A good traveler checks whether there is enough time before an important appointment."
+    },
+    {
+      "utterance": 24,
+      "start": 209.64575,
+      "end": 217.662063,
+      "text": " Try a different strategy. Instead of counting every minute, split the journey at the nearest whole hour and add the two intervals."
+    },
+    {
+      "utterance": 25,
+      "start": 218.869542,
+      "end": 227.742583,
+      "text": " A journey from 935 to 10 o'clock takes 25 minutes. We know this because 60 minus 35 equals 25."
+    },
+    {
+      "utterance": 26,
+      "start": 228.933625,
+      "end": 236.39014600000002,
+      "text": " Check your answer by counting forward. Start at 935 at 25 minutes and you should reach 10 o'clock."
+    },
+    {
+      "utterance": 27,
+      "start": 237.574417,
+      "end": 246.313417,
+      "text": " If you have to change buses, calculate the waiting time between the first arrival and the second departure. That way is part of the whole trip."
+    },
+    {
+      "utterance": 28,
+      "start": 247.511542,
+      "end": 256.244854,
+      "text": " A timetable is a promise about plan times but it is not the same as a clock. We use the timetable to predict when the journey should happen."
+    },
+    {
+      "utterance": 29,
+      "start": 257.448333,
+      "end": 266.887312,
+      "text": " Suppose you need 10 minutes to walk from the bus stop to the wildlife park. A bus arriving at 955 would not get you through the gate by 10."
+    },
+    {
+      "utterance": 30,
+      "start": 268.089083,
+      "end": 277.342291,
+      "text": " When comparing two routes, the shortest ride is not always the earliest arrival. A little departure may still arrive sooner if it travels more directly."
+    },
+    {
+      "utterance": 31,
+      "start": 278.552208,
+      "end": 286.581584,
+      "text": " Imagine a service that leaves at 840 and arrives at 920. Count 20 minutes to 9, then 20 more to 920."
+    },
+    {
+      "utterance": 32,
+      "start": 287.775417,
+      "end": 297.086021,
+      "text": " A transfer means leaving one service and boarding another. Calculate the gap between the first arrival and the second departure before choosing the route."
+    },
+    {
+      "utterance": 33,
+      "start": 298.282417,
+      "end": 307.176771,
+      "text": " If your connection arrives at 9/10 and the next bus leaves at 9/12, you have only 2 minutes to change. Is that a sensible plan?"
+    },
+    {
+      "utterance": 34,
+      "start": 308.37525,
+      "end": 316.474562,
+      "text": " The answer depends on how far apart the platforms are. Good planning includes a safety margin, not only the arithmetic."
+    },
+    {
+      "utterance": 35,
+      "start": 317.664083,
+      "end": 326.977604,
+      "text": " Now create a small timetable with two departure options, give each and arrival time and decide which service is better for a morning appointment."
+    },
+    {
+      "utterance": 36,
+      "start": 328.185208,
+      "end": 338.045958,
+      "text": " estimate before you calculate a journey from 1135 to 1220 must be shorter than an hour because 1235 would be one hour later."
+    },
+    {
+      "utterance": 37,
+      "start": 339.26225,
+      "end": 346.701208,
+      "text": " You can explain your thinking with words, numbers or a timeline. The strongest answer shows where each interval comes from."
+    }
+  ]
+}

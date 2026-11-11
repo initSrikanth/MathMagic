@@ -53,6 +53,16 @@ class PilotTest(unittest.TestCase):
             pilot.write_json(self.root/'manual.json',{'listening':{'status':'PASS','reviewer':'owner','date':'2026-11-10','evidence_url':'https://github.com/owner/repo/issues/1'}})
             (self.root/'media.log').write_text('modified')
             r=pilot.report(p,self.root);self.assertFalse(r['release_ready']);self.assertEqual(r['stages']['media']['status'],'INVALID_EVIDENCE')
+    def test_audited_content_blocker_cannot_release_even_with_all_automated_passes(self):
+        p={'topic':'demo','manual_evidence':'none.json','manual_requirements':[]}
+        for stage in pilot.STAGES:
+            log=self.root/(stage+'.log');log.write_text('verified')
+            row={'input_sha256':'key','status':'PASS','log_sha256':pilot.digest(log),'run_id':os.environ.get('GITHUB_RUN_ID'),'source_commit':os.environ.get('GITHUB_SHA'),'worktree_dirty':False}
+            if stage=='inventory':row['evidence']={'accessibility_recovery':{'blocked_lessons':[1]},'audit_only_defects':0}
+            pilot.write_json(self.root/(stage+'.json'),row)
+        with patch.object(pilot,'ROOT',self.root),patch.object(pilot,'fingerprint',return_value='key'),patch.object(pilot,'release',return_value={'lessons':[]}):
+            r=pilot.report(p,self.root)
+        self.assertTrue(r['audit_content_blocked']);self.assertFalse(r['release_ready'])
     def test_inventory_reports_other_topic_gaps_without_passing_them(self):
         (self.root/'video.mp4').write_bytes(b'fixture');(self.root/'captions.vtt').write_text('WEBVTT')
         good='<section id="lesson1"><video><source src="video.mp4"><track src="captions.vtt"></video><details>Transcript</details></section>'

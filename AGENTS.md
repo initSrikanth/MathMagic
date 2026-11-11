@@ -248,3 +248,6 @@ The browser-QA workflow `.github/workflows/browser-qa.yml` runs on PRs to main o
 Before release, inspect the final diff for unrelated changes, secrets, broken links, notation leaks and accidental global styling. Fix introduced issues and retest. Keep existing failures distinct from regressions; do not claim every rule passed unless individually checked. Report exact changed paths/behaviour; checks passed, failed and not run; tested SHA and commit/merge SHA/branch or PR; deployment URL/status separately; and unresolved conflicts/blockers. Preserve functioning sign-in/approval, cross-device progress, asset paths, video playback and cache/version handling; previously reported bugs are regression risks, not proof of verification.
 
 For the consolidation decisions and separately recorded baseline failures, see [instruction consolidation review](docs/agent-instructions-review.md). This is evidence, not a second instruction authority.
+
+## Recovering an interrupted PR session
+For a user-requested resume, recover current refs, commits, checks and retained checkpoints directly from GitHub before continuing. See [GitHub recovery procedure](docs/codex-github-recovery.md) and, for PR59, its [durable checkpoint](docs/pr59-recovery-checkpoint.md). Preserve completed assets and never convert stale receipts or conversation claims into current quality approval.

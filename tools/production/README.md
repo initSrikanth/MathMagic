@@ -1,6 +1,6 @@
 # Measurement production pilot
 
-A read-only, resumable verification workflow around existing MathMagic tools. It does not render, replace media, modify Firebase, merge, schedule production or deploy. Canonical instructions and video Golden Rules remain authoritative. First pilot: **Measuring Our World**, five existing owner-approved videos and M01/M02. Inventory also audits the five Time and Angles placements; its missing captions/transcripts remain explicitly blocked, not included in the pilot's PASS.
+A read-only, resumable verification workflow around existing MathMagic tools. It does not render, replace media, modify Firebase, merge, schedule production or deploy. Canonical instructions and video Golden Rules remain authoritative. First pilot: **Measuring Our World**, five existing owner-approved videos and M01/M02. Inventory also audits the five Time and Angles placements; its accessibility and curriculum defects remain separate release blockers, never included silently in the pilot's PASS.
 
 ## One local command
 
@@ -40,8 +40,12 @@ Mandatory external evidence goes in the profile's `manual_evidence` path, only a
 
 A future verification profile declares its lesson count, existing release manifest, curriculum mappings, bounded inputs, existing test commands and public assets. Canonical rules are read directly, not duplicated. Extend approved scoped media handlers only with actual release evidence; never create an exception merely to turn a failing gate green.
 
-## Current confirmed gaps
+## Current recovery checkpoint (11 November 2026)
 
-Time and Angles has five existing 1080p MP4s (505.2,347.8,339.1,334.4,348.1seconds) and five teaching pages, but none of its players has captions or a transcript. Renderers write utterance cue JSON into temporary production output, while the old workflows retained only MP4s. Recover trustworthy cue/audio-alignment evidence before generating caption sidecars; scripts alone do not prove actual speech timing. Existing scripts also need actual audiovisual review of their 0.6-second initial reveals and static holds. Preserve the MP4s; this pilot does not falsely certify their pedagogy.
+See [GitHub recovery](../../docs/codex-github-recovery.md) and [PR59 checkpoint](../../docs/pr59-recovery-checkpoint.md) before running work. They identify preserved stages, current evidence and remaining actions without conversation history.
 
-The Time and Angles core sequence also includes unknown-angle straight-line/point questions (kinds2/3), which belong to [AC9M6M04](https://www.scootle.edu.au/ec/search?accContentId=AC9M6M04). The inventory records this separate scope blocker. Existing material is preserved; it must be labelled as extension or removed from the Year5 core assessment in a verified content correction before claiming full coverage.
+All five Time and Angles MP4s remain byte-for-byte unchanged. Actual audio boundaries and free local acoustic forced alignment recovered five caption/transcript records, with independent offline Whisper recognition retained for comparison. Four brand-free sets are integrated with native tracks, posters, transcript disclosure and downloads. Sixty-one readability/timing flags across the five records need human review; forced alignment and ASR do not certify speech fidelity. No paid credits were used.
+
+**Lesson1 remains BLOCKED.** Independent recognisers and actual source frames show branding in the opening, closing and throughout the image. Its published MP4 does not match the current renderer script. Faithful historical wording/timings are retained only as explicitly blocked historical source evidence; they are never referenced by the player. An attempted ending-only trim was discarded after frame review showed it would leave other branding. No candidate MP4 is added. Do not substitute the current script, omit spoken words from captions or declare this repaired without exact-source remediation and the canonical quality gate.
+
+The core quiz now excludes unknown angles, full-turn arithmetic, signed differences and multi-service timetable planning. Preserved later-year teaching is labelled optional extension. Core questions develop practical 12/24-hour comparison/conversion and protractor measurement/error analysis; see the [scope and teaching map](../../docs/year5/time-angles-assessment.md). M03/M04 remain Partial pending the remaining media, practical learner and real-service checks.

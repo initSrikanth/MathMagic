@@ -54,13 +54,21 @@
       "time-angles.html",
       "video-agent/production-v2/measurement-release.json",
       "videos/MathMagic_Time_Angles_*.mp4",
-      "js/time-angles.js"
+      "js/time-angles.js",
+      "videos/MathMagic_Time_Angles_*",
+      "video-agent/time-angles/accessibility/*",
+      "video-agent/time-angles/recover_captions.py",
+      "tools/video-quality/time_angles_accessibility.py"
     ],
     "curriculum": [
       "measurement.html",
       "docs/year5/measurement.md",
       "js/measurement.js",
-      "tests/validate-measurement.py"
+      "tests/validate-measurement.py",
+      "time-angles.html",
+      "js/time-angles.js",
+      "docs/year5/time-angles-assessment.md",
+      "docs/time-angles-year5-content.md"
     ],
     "mathematics": [
       "js/measurement.js",
@@ -68,7 +76,11 @@
       "tests/export-measurement.cjs",
       "tests/validate-measurement.py",
       "tests/time-angles-maths.test.cjs",
-      "video-agent/production-v2/measurement_content.py"
+      "video-agent/production-v2/measurement_content.py",
+      "tests/time-angles-accessibility.py",
+      "tools/video-quality/time_angles_accessibility.py",
+      "video-agent/time-angles/accessibility/*",
+      "time-angles.html"
     ],
     "media": [
       "measurement.html",
@@ -91,7 +103,14 @@
       "tests/e2e/measurement*.spec.js",
       "tests/serve.py",
       "playwright.config.js",
-      "package*.json"
+      "package*.json",
+      "time-angles.html",
+      "js/time-angles*.js",
+      "tests/e2e/time-angles.spec.js",
+      "videos/MathMagic_Time_Angles_*.vtt",
+      "videos/MathMagic_Time_Angles_*transcript.txt",
+      "videos/MathMagic_Time_Angles_*.jpg",
+      "video-agent/time-angles/accessibility/*"
     ],
     "accessibility": [
       "measurement.html",
@@ -100,7 +119,14 @@
       "js/measurement*.js",
       "tests/e2e/measurement-accessibility.spec.js",
       "playwright.config.js",
-      "package*.json"
+      "package*.json",
+      "time-angles.html",
+      "js/time-angles*.js",
+      "tests/e2e/time-angles.spec.js",
+      "videos/MathMagic_Time_Angles_*.vtt",
+      "videos/MathMagic_Time_Angles_*transcript.txt",
+      "videos/MathMagic_Time_Angles_*.jpg",
+      "video-agent/time-angles/accessibility/*"
     ],
     "deployment": [
       "measurement.html",
@@ -124,6 +150,10 @@
       [
         "node",
         "tests/time-angles-maths.test.cjs"
+      ],
+      [
+        "python",
+        "tests/time-angles-accessibility.py"
       ]
     ],
     "progress": [
@@ -152,6 +182,7 @@
         "playwright",
         "test",
         "tests/e2e/measurement.spec.js",
+        "tests/e2e/time-angles.spec.js",
         "tests/e2e/measurement-videos.spec.js",
         "--retries=0"
       ]
@@ -174,7 +205,8 @@
     "live_firebase_approved_and_denied_access",
     "live_firestore_save_restore_and_uid_isolation",
     "deployed_firestore_rules",
-    "physical_safari_ios"
+    "physical_safari_ios",
+    "time_angles_exact_video_caption_listening_and_viewing"
   ],
   "legacy_media_policy": "Preserve checksum-bound, owner-approved Measuring Our World files. The five-minute Golden Rule applies to new production, not retroactive regeneration. Scoped corrections do not certify accent or full perceptual quality.",
   "production": "VERIFY_EXISTING_ONLY",
@@ -190,10 +222,14 @@
       "assessment": "js/time-angles.js",
       "extension_kinds": [
         2,
-        3
+        3,
+        4,
+        8,
+        9
       ],
       "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M6M04",
-      "reason": "Unknown angles using straight-line/point relationships are AC9M6M04 Year 6 content, not an unlabelled Year 5 core assessment requirement."
+      "reason": "Year 6 unknown-angle/full-turn relationships and signed angle differences are excluded from the Year 5 core. Timetable planning is also extension (AC9M6M03); the core uses practical time-system comparison/conversion."
     }
-  }
+  },
+  "audit_accessibility_manifest": "video-agent/time-angles/accessibility/manifest.json"
 }

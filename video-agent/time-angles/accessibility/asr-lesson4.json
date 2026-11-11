@@ -1,0 +1,241 @@
+{
+  "model": "sherpa-onnx-whisper-tiny.en int8 (free offline)",
+  "runtime": "sherpa-onnx 1.12.26",
+  "scope": "Independent recognition of ORIGINAL preserved audio; errors and numbers need human listening; never perceptual approval",
+  "segments": [
+    {
+      "utterance": 0,
+      "start": 0,
+      "end": 6.9982500000000005,
+      "text": " Two students draw different looking angles and both say there is bigger. How could we settle their argument fairly?"
+    },
+    {
+      "utterance": 1,
+      "start": 8.18975,
+      "end": 12.231625,
+      "text": " Today we are learning to measure and draw angles with a protractor."
+    },
+    {
+      "utterance": 2,
+      "start": 13.44525,
+      "end": 17.201458,
+      "text": " Our learning goal is to measure and draw angles with a protractor."
+    },
+    {
+      "utterance": 3,
+      "start": 18.398687,
+      "end": 24.452229,
+      "text": " Success Criteria, align the vertex, find the zero baseline and read the correct degree scale."
+    },
+    {
+      "utterance": 4,
+      "start": 25.660833,
+      "end": 33.669458000000006,
+      "text": " An angle is the amount of turning between two rays meeting at a vertex. The length of the rays does not change the angle."
+    },
+    {
+      "utterance": 5,
+      "start": 34.871208,
+      "end": 41.795958,
+      "text": " A full turn is 360 degrees. A half turn is 180 and a quarter turn is 90."
+    },
+    {
+      "utterance": 6,
+      "start": 42.976458,
+      "end": 49.971771000000004,
+      "text": " Look at this angle. Is it acute? Right up to us or straight. Bose for 5 seconds and decide."
+    },
+    {
+      "utterance": 7,
+      "start": 55.154625,
+      "end": 60.041041,
+      "text": " 60 degrees is smaller than 90 degrees. So this is an acute angle."
+    },
+    {
+      "utterance": 8,
+      "start": 61.235458,
+      "end": 65.907646,
+      "text": " A right angle is 90 degrees. It looks like the corner of a square."
+    },
+    {
+      "utterance": 9,
+      "start": 67.112125,
+      "end": 75.032042,
+      "text": " An angle is 120 degrees. Is it acute or obduce? Compare it with 90 degrees."
+    },
+    {
+      "utterance": 10,
+      "start": 80.234042,
+      "end": 86.705187,
+      "text": " 120 is greater than 90 and less than 180. So the angle is up to."
+    },
+    {
+      "utterance": 11,
+      "start": 87.916208,
+      "end": 95.5715,
+      "text": " An angle with longer arms is not necessarily larger. We measure the amount of turning, not the length of the lines."
+    },
+    {
+      "utterance": 12,
+      "start": 96.771375,
+      "end": 103.338708,
+      "text": " When measuring with a protractor, place the center at the vertex and align one arm with the zero degree baseline."
+    },
+    {
+      "utterance": 13,
+      "start": 104.536583,
+      "end": 111.305709,
+      "text": " If the angle looks narrower than a right angle, should you read 75 or 105 degrees?"
+    },
+    {
+      "utterance": 14,
+      "start": 116.513646,
+      "end": 121.99098,
+      "text": " 75 degrees is the sensible measurement because it is less than 90 degrees."
+    },
+    {
+      "utterance": 15,
+      "start": 123.204917,
+      "end": 130.896521,
+      "text": " Always check which protractors scale begins at zero along your starting arm. The two scales count in opposite directions."
+    },
+    {
+      "utterance": 16,
+      "start": 132.106917,
+      "end": 139.078104,
+      "text": " two adjacent angles lie on a straight line. One is 40 degrees. What is the other angle?"
+    },
+    {
+      "utterance": 17,
+      "start": 144.241396,
+      "end": 151.472125,
+      "text": " A straight angle is 180 degrees. Subtract 40 to get 140 degrees."
+    },
+    {
+      "utterance": 18,
+      "start": 152.670458,
+      "end": 159.548,
+      "text": " To draw an angle, draw the first ray, mark the required number of degrees from 0 and connect the mark to the vertex."
+    },
+    {
+      "utterance": 19,
+      "start": 160.749917,
+      "end": 167.392167,
+      "text": " A robot makes two quarter turns in the same direction. How many degrees has it turned altogether?"
+    },
+    {
+      "utterance": 20,
+      "start": 172.588417,
+      "end": 177.624625,
+      "text": " 90 plus 90 equals 180 degrees which is a half turn."
+    },
+    {
+      "utterance": 21,
+      "start": 178.815292,
+      "end": 186.517438,
+      "text": " Angles are measured in degrees, not centimeters. A small drawing and a large drawing can show exactly the same turn."
+    },
+    {
+      "utterance": 22,
+      "start": 187.701542,
+      "end": 195.754896,
+      "text": " Imagine a door opening. A small opening makes an acute angle. While a door opens square to the wall makes a right angle."
+    },
+    {
+      "utterance": 23,
+      "start": 196.972,
+      "end": 204.04502100000002,
+      "text": " A turn of 30 degrees is one third of a right angle. Three such turns add up to 90 degrees."
+    },
+    {
+      "utterance": 24,
+      "start": 205.25425,
+      "end": 212.23514600000001,
+      "text": " A turn of 150 degrees is close to a straight angle, but 30 degrees short of 180."
+    },
+    {
+      "utterance": 25,
+      "start": 213.420125,
+      "end": 219.955396,
+      "text": " Use benchmarks to estimate, compare the angle with 90 degrees before reading a protractor scale."
+    },
+    {
+      "utterance": 26,
+      "start": 221.171375,
+      "end": 227.86362499999998,
+      "text": " If your measurement says 40 degrees, but the drawing looks wider than a right angle, check whether you used the wrong scale."
+    },
+    {
+      "utterance": 27,
+      "start": 229.080167,
+      "end": 234.569771,
+      "text": " When drawing an angle, keep the ruler steady and make sure both rays begin at the same vertex."
+    },
+    {
+      "utterance": 28,
+      "start": 235.759125,
+      "end": 242.642,
+      "text": " Explain your answer using the size of the turn. This is stronger than simply saying the angle looks big."
+    },
+    {
+      "utterance": 29,
+      "start": 243.847375,
+      "end": 253.111166,
+      "text": " Before using a protractor, predict whether the angle is less than or greater than 90 degrees. Your prediction can catch a wrong scale reading."
+    },
+    {
+      "utterance": 30,
+      "start": 254.309958,
+      "end": 263.070792,
+      "text": " The center mark must sit exactly on the vertex. If it is moved away, the protractor markings no longer measure the intended angle."
+    },
+    {
+      "utterance": 31,
+      "start": 264.284646,
+      "end": 273.068355,
+      "text": " Some protractors, number clockwise and anticlockwise at once. Find the zero aligned with the starting ray before following the numbers."
+    },
+    {
+      "utterance": 32,
+      "start": 274.265042,
+      "end": 282.313583,
+      "text": " Suppose your first ray points left, begin with the zero on the left rather than automatically reading from the right hand scale."
+    },
+    {
+      "utterance": 33,
+      "start": 283.5255,
+      "end": 290.582041,
+      "text": " An angle of 30 degrees is much smaller than a right angle. Use this comparison when checking your drawing."
+    },
+    {
+      "utterance": 34,
+      "start": 291.787354,
+      "end": 299.17402100000004,
+      "text": " An angle of 160 degrees is almost straight. It is 20 degrees away from a straight angle."
+    },
+    {
+      "utterance": 35,
+      "start": 300.381792,
+      "end": 308.678312,
+      "text": " If you draw a 60 degree angle and measure it again, your answer should be close to 60 degrees. Small pencil errors may matter."
+    },
+    {
+      "utterance": 36,
+      "start": 309.883479,
+      "end": 318.023229,
+      "text": " Foreign independent check draw an angle measuring 110 degrees. Verdict its type before touching the protractor."
+    },
+    {
+      "utterance": 37,
+      "start": 319.224375,
+      "end": 326.37064599999997,
+      "text": " Explain the steps to someone else. Estimate the angle, align the baseline, read the correct scale and check the angle type."
+    },
+    {
+      "utterance": 38,
+      "start": 327.569917,
+      "end": 333.298771,
+      "text": " Your challenge is to find three angles in your classroom, classify them and explain your reasoning."
+    }
+  ]
+}

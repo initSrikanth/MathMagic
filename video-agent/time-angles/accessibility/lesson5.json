@@ -1,0 +1,4875 @@
+{
+  "schema": 1,
+  "video": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4",
+  "video_sha256": "f1287a8a81e8489b9b08b279b7defc36929bb7c02e7c538f85e2406c62eb17ba",
+  "script": "video-agent/time-angles/render_video5.py",
+  "script_sha256": "d5f90086bbab42904b9f025b99d36ce70608458aa0eee1c33607a8b2c280a4e3",
+  "captions": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.vtt",
+  "captions_sha256": "af6bf29af0eaac6c20419cdea21d75ad2093cfdedfab96b5010be3f8a36d3ab7",
+  "transcript": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems_transcript.txt",
+  "transcript_sha256": "0638978cf171337980ad38285b45c1fd09f08a2eb1e2f71f06dd0bc228a835ee",
+  "method": "Actual decoded audio silence boundaries plus PocketSphinx 5.0.4 CMU-en-US acoustic forced word alignment of saved renderer wording; 10ms frame resolution.",
+  "limitations": "Forced alignment does not independently transcribe or prove words were spoken. Accent, speech fidelity and ambiguous spans require exact-video listening. No synthesis or video modification.",
+  "listening_review": "not_performed",
+  "status": "ALIGNED_REVIEW_REQUIRED",
+  "duration": 348.096,
+  "utterances": [
+    {
+      "role": "hook",
+      "text": "A school excursion has a strict timetable and a robot guide must turn through precise angles. Can we solve both challenges?",
+      "start": 0.0,
+      "speech_end": 8.187,
+      "words": [
+        {
+          "word": "a",
+          "start": 0.11,
+          "end": 0.19
+        },
+        {
+          "word": "school",
+          "start": 0.19,
+          "end": 0.49
+        },
+        {
+          "word": "excursion",
+          "start": 0.49,
+          "end": 1.27
+        },
+        {
+          "word": "has",
+          "start": 1.27,
+          "end": 1.53
+        },
+        {
+          "word": "a",
+          "start": 1.53,
+          "end": 1.58
+        },
+        {
+          "word": "strict",
+          "start": 1.58,
+          "end": 1.99
+        },
+        {
+          "word": "timetable",
+          "start": 1.99,
+          "end": 2.55
+        },
+        {
+          "word": "and",
+          "start": 2.55,
+          "end": 2.79
+        },
+        {
+          "word": "a",
+          "start": 2.79,
+          "end": 2.88
+        },
+        {
+          "word": "robot",
+          "start": 2.88,
+          "end": 3.35
+        },
+        {
+          "word": "guide",
+          "start": 3.35,
+          "end": 3.93
+        },
+        {
+          "word": "must",
+          "start": 3.93,
+          "end": 4.17
+        },
+        {
+          "word": "turn",
+          "start": 4.17,
+          "end": 4.49
+        },
+        {
+          "word": "through",
+          "start": 4.49,
+          "end": 4.71
+        },
+        {
+          "word": "precise",
+          "start": 4.71,
+          "end": 5.28
+        },
+        {
+          "word": "angles",
+          "start": 5.28,
+          "end": 5.91
+        },
+        {
+          "word": "can",
+          "start": 6.09,
+          "end": 6.3
+        },
+        {
+          "word": "we",
+          "start": 6.3,
+          "end": 6.47
+        },
+        {
+          "word": "solve",
+          "start": 6.47,
+          "end": 6.97
+        },
+        {
+          "word": "both",
+          "start": 6.97,
+          "end": 7.36
+        },
+        {
+          "word": "challenges",
+          "start": 7.36,
+          "end": 8.21
+        }
+      ]
+    },
+    {
+      "role": "introduction",
+      "text": "Today we are learning to solve multi-step time and angle problems.",
+      "start": 9.386,
+      "speech_end": 13.921,
+      "words": [
+        {
+          "word": "today",
+          "start": 9.386,
+          "end": 9.816
+        },
+        {
+          "word": "we",
+          "start": 9.816,
+          "end": 10.016
+        },
+        {
+          "word": "are",
+          "start": 10.016,
+          "end": 10.116
+        },
+        {
+          "word": "learning",
+          "start": 10.116,
+          "end": 10.566
+        },
+        {
+          "word": "to",
+          "start": 10.566,
+          "end": 10.656
+        },
+        {
+          "word": "solve",
+          "start": 10.656,
+          "end": 11.136
+        },
+        {
+          "word": "multi",
+          "start": 11.316,
+          "end": 11.856
+        },
+        {
+          "word": "step",
+          "start": 11.856,
+          "end": 12.236
+        },
+        {
+          "word": "time",
+          "start": 12.236,
+          "end": 12.646
+        },
+        {
+          "word": "and",
+          "start": 12.646,
+          "end": 12.816
+        },
+        {
+          "word": "angle",
+          "start": 12.816,
+          "end": 13.236
+        },
+        {
+          "word": "problems",
+          "start": 13.236,
+          "end": 13.936
+        }
+      ]
+    },
+    {
+      "role": "goal",
+      "text": "Our learning goal is to solve multi-step time and angle problems.",
+      "start": 15.128,
+      "speech_end": 19.475,
+      "words": [
+        {
+          "word": "our",
+          "start": 15.128,
+          "end": 15.288
+        },
+        {
+          "word": "learning",
+          "start": 15.288,
+          "end": 15.678
+        },
+        {
+          "word": "goal",
+          "start": 15.678,
+          "end": 15.908
+        },
+        {
+          "word": "is",
+          "start": 15.908,
+          "end": 16.228
+        },
+        {
+          "word": "to",
+          "start": 16.228,
+          "end": 16.348
+        },
+        {
+          "word": "solve",
+          "start": 16.348,
+          "end": 16.848
+        },
+        {
+          "word": "multi",
+          "start": 16.848,
+          "end": 17.408
+        },
+        {
+          "word": "step",
+          "start": 17.408,
+          "end": 17.788
+        },
+        {
+          "word": "time",
+          "start": 17.788,
+          "end": 18.198
+        },
+        {
+          "word": "and",
+          "start": 18.198,
+          "end": 18.368
+        },
+        {
+          "word": "angle",
+          "start": 18.368,
+          "end": 18.798
+        },
+        {
+          "word": "problems",
+          "start": 18.798,
+          "end": 19.498
+        }
+      ]
+    },
+    {
+      "role": "criteria",
+      "text": "Success criteria: choose a useful model, calculate accurately and explain each answer.",
+      "start": 20.68,
+      "speech_end": 26.368,
+      "words": [
+        {
+          "word": "success",
+          "start": 20.68,
+          "end": 21.19
+        },
+        {
+          "word": "criteria",
+          "start": 21.19,
+          "end": 21.98
+        },
+        {
+          "word": "choose",
+          "start": 21.98,
+          "end": 22.34
+        },
+        {
+          "word": "a",
+          "start": 22.34,
+          "end": 22.44
+        },
+        {
+          "word": "useful",
+          "start": 22.44,
+          "end": 22.92
+        },
+        {
+          "word": "model",
+          "start": 22.92,
+          "end": 23.37
+        },
+        {
+          "word": "calculate",
+          "start": 23.37,
+          "end": 24.02
+        },
+        {
+          "word": "accurately",
+          "start": 24.02,
+          "end": 24.84
+        },
+        {
+          "word": "and",
+          "start": 24.84,
+          "end": 25.01
+        },
+        {
+          "word": "explain",
+          "start": 25.01,
+          "end": 25.51
+        },
+        {
+          "word": "each",
+          "start": 25.51,
+          "end": 25.85
+        },
+        {
+          "word": "answer",
+          "start": 25.85,
+          "end": 26.36
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Read the departure and arrival times from the same service on the timetable. Different rows can refer to different journeys.",
+      "start": 27.579,
+      "speech_end": 35.355,
+      "words": [
+        {
+          "word": "read",
+          "start": 27.579,
+          "end": 27.919
+        },
+        {
+          "word": "the",
+          "start": 27.919,
+          "end": 28.049
+        },
+        {
+          "word": "departure",
+          "start": 28.049,
+          "end": 28.719
+        },
+        {
+          "word": "and",
+          "start": 28.719,
+          "end": 29.189
+        },
+        {
+          "word": "arrival",
+          "start": 29.189,
+          "end": 29.649
+        },
+        {
+          "word": "times",
+          "start": 29.649,
+          "end": 30.229
+        },
+        {
+          "word": "from",
+          "start": 30.229,
+          "end": 30.439
+        },
+        {
+          "word": "the",
+          "start": 30.439,
+          "end": 30.529
+        },
+        {
+          "word": "same",
+          "start": 30.529,
+          "end": 30.859
+        },
+        {
+          "word": "service",
+          "start": 30.859,
+          "end": 31.389
+        },
+        {
+          "word": "on",
+          "start": 31.389,
+          "end": 31.579
+        },
+        {
+          "word": "the",
+          "start": 31.579,
+          "end": 31.659
+        },
+        {
+          "word": "timetable",
+          "start": 31.659,
+          "end": 32.359
+        },
+        {
+          "word": "different",
+          "start": 32.609,
+          "end": 33.119
+        },
+        {
+          "word": "rows",
+          "start": 33.119,
+          "end": 33.669
+        },
+        {
+          "word": "can",
+          "start": 33.669,
+          "end": 33.919
+        },
+        {
+          "word": "refer",
+          "start": 33.919,
+          "end": 34.299
+        },
+        {
+          "word": "to",
+          "start": 34.299,
+          "end": 34.419
+        },
+        {
+          "word": "different",
+          "start": 34.419,
+          "end": 34.779
+        },
+        {
+          "word": "journeys",
+          "start": 34.779,
+          "end": 35.369
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A timeline makes the journey visible. Begin at eight twenty-five, move to nine o'clock and then move to nine ten.",
+      "start": 36.557,
+      "speech_end": 43.798,
+      "words": [
+        {
+          "word": "a",
+          "start": 36.557,
+          "end": 36.767
+        },
+        {
+          "word": "timeline",
+          "start": 36.767,
+          "end": 37.557
+        },
+        {
+          "word": "makes",
+          "start": 37.557,
+          "end": 37.847
+        },
+        {
+          "word": "the",
+          "start": 37.847,
+          "end": 37.967
+        },
+        {
+          "word": "journey",
+          "start": 37.967,
+          "end": 38.367
+        },
+        {
+          "word": "visible",
+          "start": 38.367,
+          "end": 38.777
+        },
+        {
+          "word": "begin",
+          "start": 39.077,
+          "end": 39.427
+        },
+        {
+          "word": "at",
+          "start": 39.427,
+          "end": 39.767
+        },
+        {
+          "word": "eight",
+          "start": 39.767,
+          "end": 40.017
+        },
+        {
+          "word": "twenty",
+          "start": 40.017,
+          "end": 40.367
+        },
+        {
+          "word": "five",
+          "start": 40.367,
+          "end": 40.837
+        },
+        {
+          "word": "move",
+          "start": 40.837,
+          "end": 41.167
+        },
+        {
+          "word": "to",
+          "start": 41.167,
+          "end": 41.297
+        },
+        {
+          "word": "nine",
+          "start": 41.297,
+          "end": 41.627
+        },
+        {
+          "word": "o'clock",
+          "start": 41.627,
+          "end": 42.167
+        },
+        {
+          "word": "and",
+          "start": 42.167,
+          "end": 42.457
+        },
+        {
+          "word": "then",
+          "start": 42.457,
+          "end": 42.677
+        },
+        {
+          "word": "move",
+          "start": 42.677,
+          "end": 42.947
+        },
+        {
+          "word": "to",
+          "start": 42.947,
+          "end": 43.067
+        },
+        {
+          "word": "nine",
+          "start": 43.067,
+          "end": 43.407
+        },
+        {
+          "word": "ten",
+          "start": 43.407,
+          "end": 43.777
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "How many minutes pass between eight twenty-five and nine ten? Estimate first, then calculate.",
+      "start": 44.983,
+      "speech_end": 51.27,
+      "words": [
+        {
+          "word": "how",
+          "start": 44.983,
+          "end": 45.143
+        },
+        {
+          "word": "many",
+          "start": 45.143,
+          "end": 45.403
+        },
+        {
+          "word": "minutes",
+          "start": 45.403,
+          "end": 45.743
+        },
+        {
+          "word": "pass",
+          "start": 45.743,
+          "end": 46.173
+        },
+        {
+          "word": "between",
+          "start": 46.173,
+          "end": 46.613
+        },
+        {
+          "word": "eight",
+          "start": 46.773,
+          "end": 47.023
+        },
+        {
+          "word": "twenty",
+          "start": 47.023,
+          "end": 47.373
+        },
+        {
+          "word": "five",
+          "start": 47.373,
+          "end": 47.893
+        },
+        {
+          "word": "and",
+          "start": 47.893,
+          "end": 48.093
+        },
+        {
+          "word": "nine",
+          "start": 48.093,
+          "end": 48.433
+        },
+        {
+          "word": "ten",
+          "start": 48.433,
+          "end": 48.823
+        },
+        {
+          "word": "estimate",
+          "start": 49.043,
+          "end": 49.493
+        },
+        {
+          "word": "first",
+          "start": 49.493,
+          "end": 50.073
+        },
+        {
+          "word": "then",
+          "start": 50.073,
+          "end": 50.453
+        },
+        {
+          "word": "calculate",
+          "start": 50.453,
+          "end": 51.233
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Thirty-five minutes to nine o'clock plus ten minutes to nine ten makes forty-five minutes.",
+      "start": 56.472,
+      "speech_end": 62.072,
+      "words": [
+        {
+          "word": "thirty",
+          "start": 56.472,
+          "end": 56.762
+        },
+        {
+          "word": "five",
+          "start": 56.762,
+          "end": 57.152
+        },
+        {
+          "word": "minutes",
+          "start": 57.152,
+          "end": 57.482
+        },
+        {
+          "word": "to",
+          "start": 57.482,
+          "end": 57.592
+        },
+        {
+          "word": "nine",
+          "start": 57.592,
+          "end": 58.022
+        },
+        {
+          "word": "o'clock",
+          "start": 58.172,
+          "end": 58.752
+        },
+        {
+          "word": "plus",
+          "start": 58.752,
+          "end": 59.052
+        },
+        {
+          "word": "ten",
+          "start": 59.052,
+          "end": 59.332
+        },
+        {
+          "word": "minutes",
+          "start": 59.332,
+          "end": 59.652
+        },
+        {
+          "word": "to",
+          "start": 59.652,
+          "end": 59.772
+        },
+        {
+          "word": "nine",
+          "start": 59.772,
+          "end": 60.142
+        },
+        {
+          "word": "ten",
+          "start": 60.142,
+          "end": 60.552
+        },
+        {
+          "word": "makes",
+          "start": 60.552,
+          "end": 60.842
+        },
+        {
+          "word": "forty",
+          "start": 60.842,
+          "end": 61.232
+        },
+        {
+          "word": "five",
+          "start": 61.232,
+          "end": 61.592
+        },
+        {
+          "word": "minutes",
+          "start": 61.592,
+          "end": 62.092
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Twenty-four-hour time removes confusion between morning and afternoon. Thirteen fifteen means one fifteen in the afternoon.",
+      "start": 63.279,
+      "speech_end": 71.392,
+      "words": [
+        {
+          "word": "twenty",
+          "start": 63.279,
+          "end": 63.599
+        },
+        {
+          "word": "four",
+          "start": 63.599,
+          "end": 63.849
+        },
+        {
+          "word": "hour",
+          "start": 63.849,
+          "end": 64.119
+        },
+        {
+          "word": "time",
+          "start": 64.119,
+          "end": 64.699
+        },
+        {
+          "word": "removes",
+          "start": 64.699,
+          "end": 65.169
+        },
+        {
+          "word": "confusion",
+          "start": 65.169,
+          "end": 65.909
+        },
+        {
+          "word": "between",
+          "start": 65.909,
+          "end": 66.339
+        },
+        {
+          "word": "morning",
+          "start": 66.339,
+          "end": 66.819
+        },
+        {
+          "word": "and",
+          "start": 66.819,
+          "end": 67.049
+        },
+        {
+          "word": "afternoon",
+          "start": 67.049,
+          "end": 67.749
+        },
+        {
+          "word": "thirteen",
+          "start": 67.979,
+          "end": 68.449
+        },
+        {
+          "word": "fifteen",
+          "start": 68.449,
+          "end": 69.129
+        },
+        {
+          "word": "means",
+          "start": 69.129,
+          "end": 69.489
+        },
+        {
+          "word": "one",
+          "start": 69.489,
+          "end": 69.759
+        },
+        {
+          "word": "fifteen",
+          "start": 69.759,
+          "end": 70.329
+        },
+        {
+          "word": "in",
+          "start": 70.329,
+          "end": 70.529
+        },
+        {
+          "word": "the",
+          "start": 70.529,
+          "end": 70.629
+        },
+        {
+          "word": "afternoon",
+          "start": 70.629,
+          "end": 71.389
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "A train departs at thirteen fifteen and arrives at fourteen oh five. How long is the journey?",
+      "start": 72.598,
+      "speech_end": 79.135,
+      "words": [
+        {
+          "word": "a",
+          "start": 72.598,
+          "end": 72.688
+        },
+        {
+          "word": "train",
+          "start": 72.688,
+          "end": 73.208
+        },
+        {
+          "word": "departs",
+          "start": 73.208,
+          "end": 73.748
+        },
+        {
+          "word": "at",
+          "start": 73.748,
+          "end": 73.968
+        },
+        {
+          "word": "thirteen",
+          "start": 73.968,
+          "end": 74.428
+        },
+        {
+          "word": "fifteen",
+          "start": 74.428,
+          "end": 75.028
+        },
+        {
+          "word": "and",
+          "start": 75.028,
+          "end": 75.248
+        },
+        {
+          "word": "arrives",
+          "start": 75.248,
+          "end": 75.708
+        },
+        {
+          "word": "at",
+          "start": 75.708,
+          "end": 75.828
+        },
+        {
+          "word": "fourteen",
+          "start": 75.828,
+          "end": 76.398
+        },
+        {
+          "word": "oh",
+          "start": 76.398,
+          "end": 76.568
+        },
+        {
+          "word": "five",
+          "start": 76.568,
+          "end": 77.138
+        },
+        {
+          "word": "how",
+          "start": 77.348,
+          "end": 77.698
+        },
+        {
+          "word": "long",
+          "start": 77.698,
+          "end": 78.188
+        },
+        {
+          "word": "is",
+          "start": 78.188,
+          "end": 78.398
+        },
+        {
+          "word": "the",
+          "start": 78.398,
+          "end": 78.528
+        },
+        {
+          "word": "journey",
+          "start": 78.528,
+          "end": 79.128
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Forty-five minutes to fourteen hundred, then five more minutes. The journey lasts fifty minutes.",
+      "start": 84.301,
+      "speech_end": 90.283,
+      "words": [
+        {
+          "word": "forty",
+          "start": 84.301,
+          "end": 84.611
+        },
+        {
+          "word": "five",
+          "start": 84.611,
+          "end": 85.031
+        },
+        {
+          "word": "minutes",
+          "start": 85.031,
+          "end": 85.391
+        },
+        {
+          "word": "to",
+          "start": 85.391,
+          "end": 85.501
+        },
+        {
+          "word": "fourteen",
+          "start": 85.501,
+          "end": 86.011
+        },
+        {
+          "word": "hundred",
+          "start": 86.011,
+          "end": 86.541
+        },
+        {
+          "word": "then",
+          "start": 86.541,
+          "end": 86.751
+        },
+        {
+          "word": "five",
+          "start": 86.751,
+          "end": 87.221
+        },
+        {
+          "word": "more",
+          "start": 87.221,
+          "end": 87.431
+        },
+        {
+          "word": "minutes",
+          "start": 87.431,
+          "end": 87.991
+        },
+        {
+          "word": "the",
+          "start": 88.211,
+          "end": 88.341
+        },
+        {
+          "word": "journey",
+          "start": 88.341,
+          "end": 88.841
+        },
+        {
+          "word": "lasts",
+          "start": 88.841,
+          "end": 89.291
+        },
+        {
+          "word": "fifty",
+          "start": 89.291,
+          "end": 89.721
+        },
+        {
+          "word": "minutes",
+          "start": 89.721,
+          "end": 90.251
+        }
+      ]
+    },
+    {
+      "role": "misconception",
+      "text": "Subtracting the minute numbers alone is a mistake when you cross an hour. Use the full timeline instead.",
+      "start": 91.479,
+      "speech_end": 98.352,
+      "words": [
+        {
+          "word": "subtracting",
+          "start": 91.479,
+          "end": 92.359
+        },
+        {
+          "word": "the",
+          "start": 92.359,
+          "end": 92.449
+        },
+        {
+          "word": "minute",
+          "start": 92.449,
+          "end": 92.859
+        },
+        {
+          "word": "numbers",
+          "start": 92.859,
+          "end": 93.379
+        },
+        {
+          "word": "alone",
+          "start": 93.379,
+          "end": 93.859
+        },
+        {
+          "word": "is",
+          "start": 93.859,
+          "end": 94.059
+        },
+        {
+          "word": "a",
+          "start": 94.059,
+          "end": 94.119
+        },
+        {
+          "word": "mistake",
+          "start": 94.119,
+          "end": 94.769
+        },
+        {
+          "word": "when",
+          "start": 94.769,
+          "end": 94.899
+        },
+        {
+          "word": "you",
+          "start": 94.899,
+          "end": 95.019
+        },
+        {
+          "word": "cross",
+          "start": 95.019,
+          "end": 95.399
+        },
+        {
+          "word": "an",
+          "start": 95.399,
+          "end": 95.589
+        },
+        {
+          "word": "hour",
+          "start": 95.589,
+          "end": 95.949
+        },
+        {
+          "word": "use",
+          "start": 96.159,
+          "end": 96.479
+        },
+        {
+          "word": "the",
+          "start": 96.479,
+          "end": 96.599
+        },
+        {
+          "word": "full",
+          "start": 96.599,
+          "end": 96.979
+        },
+        {
+          "word": "timeline",
+          "start": 96.979,
+          "end": 97.639
+        },
+        {
+          "word": "instead",
+          "start": 97.639,
+          "end": 98.309
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "For a deadline, consider arrival time, not just departure time. Arriving after an event begins may be too late.",
+      "start": 99.553,
+      "speech_end": 107.28,
+      "words": [
+        {
+          "word": "for",
+          "start": 99.553,
+          "end": 99.703
+        },
+        {
+          "word": "a",
+          "start": 99.703,
+          "end": 99.783
+        },
+        {
+          "word": "deadline",
+          "start": 99.783,
+          "end": 100.483
+        },
+        {
+          "word": "consider",
+          "start": 100.613,
+          "end": 101.123
+        },
+        {
+          "word": "arrival",
+          "start": 101.243,
+          "end": 101.683
+        },
+        {
+          "word": "time",
+          "start": 101.683,
+          "end": 102.223
+        },
+        {
+          "word": "not",
+          "start": 102.223,
+          "end": 102.573
+        },
+        {
+          "word": "just",
+          "start": 102.573,
+          "end": 102.883
+        },
+        {
+          "word": "departure",
+          "start": 102.883,
+          "end": 103.393
+        },
+        {
+          "word": "time",
+          "start": 103.393,
+          "end": 103.813
+        },
+        {
+          "word": "arriving",
+          "start": 104.113,
+          "end": 104.673
+        },
+        {
+          "word": "after",
+          "start": 104.673,
+          "end": 105.153
+        },
+        {
+          "word": "an",
+          "start": 105.153,
+          "end": 105.313
+        },
+        {
+          "word": "event",
+          "start": 105.313,
+          "end": 105.663
+        },
+        {
+          "word": "begins",
+          "start": 105.663,
+          "end": 106.343
+        },
+        {
+          "word": "may",
+          "start": 106.343,
+          "end": 106.503
+        },
+        {
+          "word": "be",
+          "start": 106.503,
+          "end": 106.653
+        },
+        {
+          "word": "too",
+          "start": 106.653,
+          "end": 106.863
+        },
+        {
+          "word": "late",
+          "start": 106.863,
+          "end": 107.303
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "You must arrive before ten. A service arrives at nine thirty-five. Does it meet the deadline?",
+      "start": 108.479,
+      "speech_end": 115.471,
+      "words": [
+        {
+          "word": "you",
+          "start": 108.479,
+          "end": 108.679
+        },
+        {
+          "word": "must",
+          "start": 108.679,
+          "end": 109.159
+        },
+        {
+          "word": "arrive",
+          "start": 109.159,
+          "end": 109.659
+        },
+        {
+          "word": "before",
+          "start": 109.659,
+          "end": 110.069
+        },
+        {
+          "word": "ten",
+          "start": 110.069,
+          "end": 110.549
+        },
+        {
+          "word": "a",
+          "start": 110.759,
+          "end": 110.839
+        },
+        {
+          "word": "service",
+          "start": 110.839,
+          "end": 111.439
+        },
+        {
+          "word": "arrives",
+          "start": 111.579,
+          "end": 112.079
+        },
+        {
+          "word": "at",
+          "start": 112.079,
+          "end": 112.279
+        },
+        {
+          "word": "nine",
+          "start": 112.279,
+          "end": 112.729
+        },
+        {
+          "word": "thirty",
+          "start": 112.729,
+          "end": 113.049
+        },
+        {
+          "word": "five",
+          "start": 113.049,
+          "end": 113.599
+        },
+        {
+          "word": "does",
+          "start": 113.819,
+          "end": 114.089
+        },
+        {
+          "word": "it",
+          "start": 114.089,
+          "end": 114.229
+        },
+        {
+          "word": "meet",
+          "start": 114.229,
+          "end": 114.569
+        },
+        {
+          "word": "the",
+          "start": 114.569,
+          "end": 114.699
+        },
+        {
+          "word": "deadline",
+          "start": 114.699,
+          "end": 115.439
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Yes. Nine thirty-five is twenty-five minutes before ten, so the service meets the deadline.",
+      "start": 120.627,
+      "speech_end": 126.85,
+      "words": [
+        {
+          "word": "yes",
+          "start": 120.627,
+          "end": 121.237
+        },
+        {
+          "word": "nine",
+          "start": 121.487,
+          "end": 121.987
+        },
+        {
+          "word": "thirty",
+          "start": 121.987,
+          "end": 122.377
+        },
+        {
+          "word": "five",
+          "start": 122.377,
+          "end": 122.857
+        },
+        {
+          "word": "is",
+          "start": 122.977,
+          "end": 123.167
+        },
+        {
+          "word": "twenty",
+          "start": 123.167,
+          "end": 123.527
+        },
+        {
+          "word": "five",
+          "start": 123.527,
+          "end": 123.857
+        },
+        {
+          "word": "minutes",
+          "start": 123.857,
+          "end": 124.187
+        },
+        {
+          "word": "before",
+          "start": 124.187,
+          "end": 124.577
+        },
+        {
+          "word": "ten",
+          "start": 124.577,
+          "end": 125.047
+        },
+        {
+          "word": "so",
+          "start": 125.047,
+          "end": 125.187
+        },
+        {
+          "word": "the",
+          "start": 125.187,
+          "end": 125.297
+        },
+        {
+          "word": "service",
+          "start": 125.297,
+          "end": 125.817
+        },
+        {
+          "word": "meets",
+          "start": 125.817,
+          "end": 126.177
+        },
+        {
+          "word": "the",
+          "start": 126.177,
+          "end": 126.287
+        },
+        {
+          "word": "deadline",
+          "start": 126.287,
+          "end": 126.857
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Remember to include walking and waiting time. Reaching the station exactly when the bus leaves is risky.",
+      "start": 128.059,
+      "speech_end": 135.161,
+      "words": [
+        {
+          "word": "remember",
+          "start": 128.059,
+          "end": 128.569
+        },
+        {
+          "word": "to",
+          "start": 128.569,
+          "end": 128.759
+        },
+        {
+          "word": "include",
+          "start": 128.759,
+          "end": 129.439
+        },
+        {
+          "word": "walking",
+          "start": 129.579,
+          "end": 130.159
+        },
+        {
+          "word": "and",
+          "start": 130.159,
+          "end": 130.419
+        },
+        {
+          "word": "waiting",
+          "start": 130.419,
+          "end": 130.809
+        },
+        {
+          "word": "time",
+          "start": 130.809,
+          "end": 131.229
+        },
+        {
+          "word": "reaching",
+          "start": 131.449,
+          "end": 131.909
+        },
+        {
+          "word": "the",
+          "start": 131.909,
+          "end": 132.059
+        },
+        {
+          "word": "station",
+          "start": 132.059,
+          "end": 132.699
+        },
+        {
+          "word": "exactly",
+          "start": 132.779,
+          "end": 133.469
+        },
+        {
+          "word": "when",
+          "start": 133.469,
+          "end": 133.629
+        },
+        {
+          "word": "the",
+          "start": 133.629,
+          "end": 133.709
+        },
+        {
+          "word": "bus",
+          "start": 133.709,
+          "end": 134.049
+        },
+        {
+          "word": "leaves",
+          "start": 134.049,
+          "end": 134.409
+        },
+        {
+          "word": "is",
+          "start": 134.409,
+          "end": 134.619
+        },
+        {
+          "word": "risky",
+          "start": 134.619,
+          "end": 135.159
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "A bus departs at nine twenty and arrives at ten oh five. How many minutes does the trip take?",
+      "start": 136.374,
+      "speech_end": 142.475,
+      "words": [
+        {
+          "word": "a",
+          "start": 136.374,
+          "end": 136.464
+        },
+        {
+          "word": "bus",
+          "start": 136.464,
+          "end": 136.874
+        },
+        {
+          "word": "departs",
+          "start": 136.874,
+          "end": 137.444
+        },
+        {
+          "word": "at",
+          "start": 137.444,
+          "end": 137.624
+        },
+        {
+          "word": "nine",
+          "start": 137.624,
+          "end": 137.984
+        },
+        {
+          "word": "twenty",
+          "start": 137.984,
+          "end": 138.494
+        },
+        {
+          "word": "and",
+          "start": 138.494,
+          "end": 138.684
+        },
+        {
+          "word": "arrives",
+          "start": 138.684,
+          "end": 139.164
+        },
+        {
+          "word": "at",
+          "start": 139.164,
+          "end": 139.334
+        },
+        {
+          "word": "ten",
+          "start": 139.334,
+          "end": 139.584
+        },
+        {
+          "word": "oh",
+          "start": 139.584,
+          "end": 139.694
+        },
+        {
+          "word": "five",
+          "start": 139.694,
+          "end": 140.264
+        },
+        {
+          "word": "how",
+          "start": 140.464,
+          "end": 140.704
+        },
+        {
+          "word": "many",
+          "start": 140.704,
+          "end": 140.964
+        },
+        {
+          "word": "minutes",
+          "start": 140.964,
+          "end": 141.364
+        },
+        {
+          "word": "does",
+          "start": 141.364,
+          "end": 141.584
+        },
+        {
+          "word": "the",
+          "start": 141.584,
+          "end": 141.704
+        },
+        {
+          "word": "trip",
+          "start": 141.704,
+          "end": 142.024
+        },
+        {
+          "word": "take",
+          "start": 142.024,
+          "end": 142.464
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Forty minutes to ten o'clock, then five more minutes. The trip lasts forty-five minutes.",
+      "start": 147.662,
+      "speech_end": 153.462,
+      "words": [
+        {
+          "word": "forty",
+          "start": 147.662,
+          "end": 148.072
+        },
+        {
+          "word": "minutes",
+          "start": 148.072,
+          "end": 148.452
+        },
+        {
+          "word": "to",
+          "start": 148.452,
+          "end": 148.582
+        },
+        {
+          "word": "ten",
+          "start": 148.582,
+          "end": 148.902
+        },
+        {
+          "word": "o'clock",
+          "start": 148.902,
+          "end": 149.482
+        },
+        {
+          "word": "then",
+          "start": 149.482,
+          "end": 149.692
+        },
+        {
+          "word": "five",
+          "start": 149.692,
+          "end": 150.142
+        },
+        {
+          "word": "more",
+          "start": 150.142,
+          "end": 150.352
+        },
+        {
+          "word": "minutes",
+          "start": 150.352,
+          "end": 150.922
+        },
+        {
+          "word": "the",
+          "start": 151.152,
+          "end": 151.272
+        },
+        {
+          "word": "trip",
+          "start": 151.272,
+          "end": 151.682
+        },
+        {
+          "word": "lasts",
+          "start": 151.682,
+          "end": 152.142
+        },
+        {
+          "word": "forty",
+          "start": 152.142,
+          "end": 152.582
+        },
+        {
+          "word": "five",
+          "start": 152.582,
+          "end": 152.942
+        },
+        {
+          "word": "minutes",
+          "start": 152.942,
+          "end": 153.442
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Check that your answer is sensible. A journey crossing an hour can be longer than the difference between the minute digits.",
+      "start": 154.661,
+      "speech_end": 161.886,
+      "words": [
+        {
+          "word": "check",
+          "start": 154.661,
+          "end": 154.931
+        },
+        {
+          "word": "that",
+          "start": 154.931,
+          "end": 155.151
+        },
+        {
+          "word": "your",
+          "start": 155.151,
+          "end": 155.391
+        },
+        {
+          "word": "answer",
+          "start": 155.391,
+          "end": 155.941
+        },
+        {
+          "word": "is",
+          "start": 155.941,
+          "end": 156.181
+        },
+        {
+          "word": "sensible",
+          "start": 156.181,
+          "end": 156.811
+        },
+        {
+          "word": "a",
+          "start": 157.081,
+          "end": 157.151
+        },
+        {
+          "word": "journey",
+          "start": 157.151,
+          "end": 157.641
+        },
+        {
+          "word": "crossing",
+          "start": 157.641,
+          "end": 158.171
+        },
+        {
+          "word": "an",
+          "start": 158.171,
+          "end": 158.361
+        },
+        {
+          "word": "hour",
+          "start": 158.361,
+          "end": 158.731
+        },
+        {
+          "word": "can",
+          "start": 158.731,
+          "end": 158.951
+        },
+        {
+          "word": "be",
+          "start": 158.951,
+          "end": 159.101
+        },
+        {
+          "word": "longer",
+          "start": 159.101,
+          "end": 159.631
+        },
+        {
+          "word": "than",
+          "start": 159.631,
+          "end": 159.811
+        },
+        {
+          "word": "the",
+          "start": 159.811,
+          "end": 159.871
+        },
+        {
+          "word": "difference",
+          "start": 159.871,
+          "end": 160.421
+        },
+        {
+          "word": "between",
+          "start": 160.421,
+          "end": 160.851
+        },
+        {
+          "word": "the",
+          "start": 160.851,
+          "end": 160.921
+        },
+        {
+          "word": "minute",
+          "start": 160.921,
+          "end": 161.241
+        },
+        {
+          "word": "digits",
+          "start": 161.241,
+          "end": 161.891
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "A train leaves at eleven thirty-five and arrives at twelve twenty. Calculate the duration using noon.",
+      "start": 163.079,
+      "speech_end": 170.073,
+      "words": [
+        {
+          "word": "a",
+          "start": 163.079,
+          "end": 163.169
+        },
+        {
+          "word": "train",
+          "start": 163.169,
+          "end": 163.629
+        },
+        {
+          "word": "leaves",
+          "start": 163.629,
+          "end": 164.079
+        },
+        {
+          "word": "at",
+          "start": 164.079,
+          "end": 164.369
+        },
+        {
+          "word": "eleven",
+          "start": 164.369,
+          "end": 164.829
+        },
+        {
+          "word": "thirty",
+          "start": 164.829,
+          "end": 165.139
+        },
+        {
+          "word": "five",
+          "start": 165.139,
+          "end": 165.669
+        },
+        {
+          "word": "and",
+          "start": 165.669,
+          "end": 165.879
+        },
+        {
+          "word": "arrives",
+          "start": 165.879,
+          "end": 166.359
+        },
+        {
+          "word": "at",
+          "start": 166.359,
+          "end": 166.469
+        },
+        {
+          "word": "twelve",
+          "start": 166.469,
+          "end": 166.769
+        },
+        {
+          "word": "twenty",
+          "start": 166.769,
+          "end": 167.239
+        },
+        {
+          "word": "calculate",
+          "start": 167.419,
+          "end": 168.109
+        },
+        {
+          "word": "the",
+          "start": 168.109,
+          "end": 168.219
+        },
+        {
+          "word": "duration",
+          "start": 168.219,
+          "end": 169.049
+        },
+        {
+          "word": "using",
+          "start": 169.219,
+          "end": 169.659
+        },
+        {
+          "word": "noon",
+          "start": 169.659,
+          "end": 170.049
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Twenty-five minutes to noon plus twenty minutes afterwards makes forty-five minutes.",
+      "start": 175.288,
+      "speech_end": 179.98,
+      "words": [
+        {
+          "word": "twenty",
+          "start": 175.288,
+          "end": 175.588
+        },
+        {
+          "word": "five",
+          "start": 175.588,
+          "end": 175.928
+        },
+        {
+          "word": "minutes",
+          "start": 175.928,
+          "end": 176.268
+        },
+        {
+          "word": "to",
+          "start": 176.268,
+          "end": 176.378
+        },
+        {
+          "word": "noon",
+          "start": 176.378,
+          "end": 176.818
+        },
+        {
+          "word": "plus",
+          "start": 176.818,
+          "end": 177.088
+        },
+        {
+          "word": "twenty",
+          "start": 177.088,
+          "end": 177.378
+        },
+        {
+          "word": "minutes",
+          "start": 177.378,
+          "end": 177.678
+        },
+        {
+          "word": "afterwards",
+          "start": 177.678,
+          "end": 178.448
+        },
+        {
+          "word": "makes",
+          "start": 178.448,
+          "end": 178.758
+        },
+        {
+          "word": "forty",
+          "start": 178.758,
+          "end": 179.158
+        },
+        {
+          "word": "five",
+          "start": 179.158,
+          "end": 179.488
+        },
+        {
+          "word": "minutes",
+          "start": 179.488,
+          "end": 179.988
+        }
+      ]
+    },
+    {
+      "role": "recap",
+      "text": "Read the correct timetable entry, draw a timeline, cross the hour boundary and add the intervals.",
+      "start": 181.167,
+      "speech_end": 186.997,
+      "words": [
+        {
+          "word": "read",
+          "start": 181.167,
+          "end": 181.477
+        },
+        {
+          "word": "the",
+          "start": 181.477,
+          "end": 181.607
+        },
+        {
+          "word": "correct",
+          "start": 181.607,
+          "end": 182.127
+        },
+        {
+          "word": "timetable",
+          "start": 182.127,
+          "end": 182.727
+        },
+        {
+          "word": "entry",
+          "start": 182.727,
+          "end": 183.307
+        },
+        {
+          "word": "draw",
+          "start": 183.307,
+          "end": 183.537
+        },
+        {
+          "word": "a",
+          "start": 183.537,
+          "end": 183.597
+        },
+        {
+          "word": "timeline",
+          "start": 183.597,
+          "end": 184.307
+        },
+        {
+          "word": "cross",
+          "start": 184.307,
+          "end": 184.727
+        },
+        {
+          "word": "the",
+          "start": 184.727,
+          "end": 184.897
+        },
+        {
+          "word": "hour",
+          "start": 184.897,
+          "end": 185.177
+        },
+        {
+          "word": "boundary",
+          "start": 185.177,
+          "end": 185.737
+        },
+        {
+          "word": "and",
+          "start": 185.737,
+          "end": 185.887
+        },
+        {
+          "word": "add",
+          "start": 185.887,
+          "end": 186.207
+        },
+        {
+          "word": "the",
+          "start": 186.207,
+          "end": 186.367
+        },
+        {
+          "word": "intervals",
+          "start": 186.367,
+          "end": 187.017
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Think about a school bus timetable. The departure time tells us when to be at the stop, while the arrival time tells us when we can reach our destination.",
+      "start": 188.197,
+      "speech_end": 197.219,
+      "words": [
+        {
+          "word": "think",
+          "start": 188.197,
+          "end": 188.517
+        },
+        {
+          "word": "about",
+          "start": 188.517,
+          "end": 188.867
+        },
+        {
+          "word": "a",
+          "start": 188.867,
+          "end": 188.917
+        },
+        {
+          "word": "school",
+          "start": 188.917,
+          "end": 189.377
+        },
+        {
+          "word": "bus",
+          "start": 189.377,
+          "end": 189.617
+        },
+        {
+          "word": "timetable",
+          "start": 189.617,
+          "end": 190.257
+        },
+        {
+          "word": "the",
+          "start": 190.567,
+          "end": 190.657
+        },
+        {
+          "word": "departure",
+          "start": 190.657,
+          "end": 191.287
+        },
+        {
+          "word": "time",
+          "start": 191.287,
+          "end": 191.707
+        },
+        {
+          "word": "tells",
+          "start": 191.707,
+          "end": 192.037
+        },
+        {
+          "word": "us",
+          "start": 192.037,
+          "end": 192.227
+        },
+        {
+          "word": "when",
+          "start": 192.227,
+          "end": 192.437
+        },
+        {
+          "word": "to",
+          "start": 192.437,
+          "end": 192.537
+        },
+        {
+          "word": "be",
+          "start": 192.537,
+          "end": 192.757
+        },
+        {
+          "word": "at",
+          "start": 192.757,
+          "end": 192.917
+        },
+        {
+          "word": "the",
+          "start": 192.917,
+          "end": 192.997
+        },
+        {
+          "word": "stop",
+          "start": 192.997,
+          "end": 193.527
+        },
+        {
+          "word": "while",
+          "start": 193.527,
+          "end": 193.687
+        },
+        {
+          "word": "the",
+          "start": 193.687,
+          "end": 193.847
+        },
+        {
+          "word": "arrival",
+          "start": 193.847,
+          "end": 194.347
+        },
+        {
+          "word": "time",
+          "start": 194.347,
+          "end": 194.777
+        },
+        {
+          "word": "tells",
+          "start": 194.777,
+          "end": 195.187
+        },
+        {
+          "word": "us",
+          "start": 195.187,
+          "end": 195.417
+        },
+        {
+          "word": "when",
+          "start": 195.417,
+          "end": 195.647
+        },
+        {
+          "word": "we",
+          "start": 195.647,
+          "end": 195.787
+        },
+        {
+          "word": "can",
+          "start": 195.787,
+          "end": 196.027
+        },
+        {
+          "word": "reach",
+          "start": 196.027,
+          "end": 196.297
+        },
+        {
+          "word": "our",
+          "start": 196.297,
+          "end": 196.397
+        },
+        {
+          "word": "destination",
+          "start": 196.397,
+          "end": 197.237
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "If the bus is delayed, our original plan may no longer work. A good traveller checks whether there is enough time before an important appointment.",
+      "start": 198.43,
+      "speech_end": 207.313,
+      "words": [
+        {
+          "word": "if",
+          "start": 198.43,
+          "end": 198.59
+        },
+        {
+          "word": "the",
+          "start": 198.59,
+          "end": 198.72
+        },
+        {
+          "word": "bus",
+          "start": 198.72,
+          "end": 199.07
+        },
+        {
+          "word": "is",
+          "start": 199.07,
+          "end": 199.28
+        },
+        {
+          "word": "delayed",
+          "start": 199.28,
+          "end": 199.83
+        },
+        {
+          "word": "our",
+          "start": 199.83,
+          "end": 200.21
+        },
+        {
+          "word": "original",
+          "start": 200.21,
+          "end": 200.64
+        },
+        {
+          "word": "plan",
+          "start": 200.64,
+          "end": 201.07
+        },
+        {
+          "word": "may",
+          "start": 201.07,
+          "end": 201.23
+        },
+        {
+          "word": "no",
+          "start": 201.23,
+          "end": 201.49
+        },
+        {
+          "word": "longer",
+          "start": 201.49,
+          "end": 201.85
+        },
+        {
+          "word": "work",
+          "start": 201.85,
+          "end": 202.27
+        },
+        {
+          "word": "a",
+          "start": 202.47,
+          "end": 202.54
+        },
+        {
+          "word": "good",
+          "start": 202.54,
+          "end": 202.82
+        },
+        {
+          "word": "traveller",
+          "start": 202.82,
+          "end": 203.38
+        },
+        {
+          "word": "checks",
+          "start": 203.38,
+          "end": 203.94
+        },
+        {
+          "word": "whether",
+          "start": 203.94,
+          "end": 204.31
+        },
+        {
+          "word": "there",
+          "start": 204.31,
+          "end": 204.48
+        },
+        {
+          "word": "is",
+          "start": 204.48,
+          "end": 204.76
+        },
+        {
+          "word": "enough",
+          "start": 204.76,
+          "end": 205.11
+        },
+        {
+          "word": "time",
+          "start": 205.11,
+          "end": 205.6
+        },
+        {
+          "word": "before",
+          "start": 205.6,
+          "end": 205.95
+        },
+        {
+          "word": "an",
+          "start": 205.95,
+          "end": 206.06
+        },
+        {
+          "word": "important",
+          "start": 206.06,
+          "end": 206.62
+        },
+        {
+          "word": "appointment",
+          "start": 206.62,
+          "end": 207.31
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Try a different strategy. Instead of counting every minute, split the journey at the nearest whole hour and add the two intervals.",
+      "start": 208.509,
+      "speech_end": 216.548,
+      "words": [
+        {
+          "word": "try",
+          "start": 208.509,
+          "end": 208.999
+        },
+        {
+          "word": "a",
+          "start": 208.999,
+          "end": 209.079
+        },
+        {
+          "word": "different",
+          "start": 209.079,
+          "end": 209.579
+        },
+        {
+          "word": "strategy",
+          "start": 209.579,
+          "end": 210.329
+        },
+        {
+          "word": "instead",
+          "start": 210.529,
+          "end": 210.979
+        },
+        {
+          "word": "of",
+          "start": 210.979,
+          "end": 211.099
+        },
+        {
+          "word": "counting",
+          "start": 211.099,
+          "end": 211.729
+        },
+        {
+          "word": "every",
+          "start": 211.729,
+          "end": 212.039
+        },
+        {
+          "word": "minute",
+          "start": 212.039,
+          "end": 212.489
+        },
+        {
+          "word": "split",
+          "start": 212.489,
+          "end": 212.829
+        },
+        {
+          "word": "the",
+          "start": 212.829,
+          "end": 212.989
+        },
+        {
+          "word": "journey",
+          "start": 212.989,
+          "end": 213.469
+        },
+        {
+          "word": "at",
+          "start": 213.469,
+          "end": 213.629
+        },
+        {
+          "word": "the",
+          "start": 213.629,
+          "end": 213.719
+        },
+        {
+          "word": "nearest",
+          "start": 213.719,
+          "end": 214.189
+        },
+        {
+          "word": "whole",
+          "start": 214.189,
+          "end": 214.529
+        },
+        {
+          "word": "hour",
+          "start": 214.529,
+          "end": 214.959
+        },
+        {
+          "word": "and",
+          "start": 214.959,
+          "end": 215.139
+        },
+        {
+          "word": "add",
+          "start": 215.139,
+          "end": 215.509
+        },
+        {
+          "word": "the",
+          "start": 215.509,
+          "end": 215.619
+        },
+        {
+          "word": "two",
+          "start": 215.619,
+          "end": 215.889
+        },
+        {
+          "word": "intervals",
+          "start": 215.889,
+          "end": 216.569
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A journey from nine thirty-five to ten o'clock takes twenty-five minutes. We know this because sixty minus thirty-five equals twenty-five.",
+      "start": 217.757,
+      "speech_end": 226.634,
+      "words": [
+        {
+          "word": "a",
+          "start": 217.757,
+          "end": 217.857
+        },
+        {
+          "word": "journey",
+          "start": 217.857,
+          "end": 218.287
+        },
+        {
+          "word": "from",
+          "start": 218.287,
+          "end": 218.507
+        },
+        {
+          "word": "nine",
+          "start": 218.507,
+          "end": 219.077
+        },
+        {
+          "word": "thirty",
+          "start": 219.077,
+          "end": 219.427
+        },
+        {
+          "word": "five",
+          "start": 219.427,
+          "end": 219.867
+        },
+        {
+          "word": "to",
+          "start": 219.867,
+          "end": 220.047
+        },
+        {
+          "word": "ten",
+          "start": 220.047,
+          "end": 220.337
+        },
+        {
+          "word": "o'clock",
+          "start": 220.337,
+          "end": 220.867
+        },
+        {
+          "word": "takes",
+          "start": 220.867,
+          "end": 221.177
+        },
+        {
+          "word": "twenty",
+          "start": 221.177,
+          "end": 221.487
+        },
+        {
+          "word": "five",
+          "start": 221.487,
+          "end": 221.817
+        },
+        {
+          "word": "minutes",
+          "start": 221.817,
+          "end": 222.337
+        },
+        {
+          "word": "we",
+          "start": 222.517,
+          "end": 222.657
+        },
+        {
+          "word": "know",
+          "start": 222.657,
+          "end": 222.887
+        },
+        {
+          "word": "this",
+          "start": 222.887,
+          "end": 223.197
+        },
+        {
+          "word": "because",
+          "start": 223.197,
+          "end": 223.657
+        },
+        {
+          "word": "sixty",
+          "start": 223.657,
+          "end": 224.117
+        },
+        {
+          "word": "minus",
+          "start": 224.117,
+          "end": 224.497
+        },
+        {
+          "word": "thirty",
+          "start": 224.497,
+          "end": 224.877
+        },
+        {
+          "word": "five",
+          "start": 224.877,
+          "end": 225.347
+        },
+        {
+          "word": "equals",
+          "start": 225.347,
+          "end": 225.767
+        },
+        {
+          "word": "twenty",
+          "start": 225.767,
+          "end": 226.087
+        },
+        {
+          "word": "five",
+          "start": 226.087,
+          "end": 226.597
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Check your answer by counting forward. Start at nine thirty-five, add twenty-five minutes, and you should reach ten o'clock.",
+      "start": 227.821,
+      "speech_end": 235.442,
+      "words": [
+        {
+          "word": "check",
+          "start": 227.821,
+          "end": 228.121
+        },
+        {
+          "word": "your",
+          "start": 228.121,
+          "end": 228.251
+        },
+        {
+          "word": "answer",
+          "start": 228.251,
+          "end": 228.981
+        },
+        {
+          "word": "by",
+          "start": 228.981,
+          "end": 229.141
+        },
+        {
+          "word": "counting",
+          "start": 229.141,
+          "end": 229.621
+        },
+        {
+          "word": "forward",
+          "start": 229.621,
+          "end": 230.221
+        },
+        {
+          "word": "start",
+          "start": 230.431,
+          "end": 230.861
+        },
+        {
+          "word": "at",
+          "start": 230.861,
+          "end": 231.021
+        },
+        {
+          "word": "nine",
+          "start": 231.021,
+          "end": 231.401
+        },
+        {
+          "word": "thirty",
+          "start": 231.401,
+          "end": 231.721
+        },
+        {
+          "word": "five",
+          "start": 231.721,
+          "end": 232.221
+        },
+        {
+          "word": "add",
+          "start": 232.221,
+          "end": 232.551
+        },
+        {
+          "word": "twenty",
+          "start": 232.551,
+          "end": 232.871
+        },
+        {
+          "word": "five",
+          "start": 232.871,
+          "end": 233.191
+        },
+        {
+          "word": "minutes",
+          "start": 233.191,
+          "end": 233.681
+        },
+        {
+          "word": "and",
+          "start": 233.821,
+          "end": 233.961
+        },
+        {
+          "word": "you",
+          "start": 233.961,
+          "end": 234.061
+        },
+        {
+          "word": "should",
+          "start": 234.061,
+          "end": 234.311
+        },
+        {
+          "word": "reach",
+          "start": 234.311,
+          "end": 234.581
+        },
+        {
+          "word": "ten",
+          "start": 234.581,
+          "end": 234.851
+        },
+        {
+          "word": "o'clock",
+          "start": 234.851,
+          "end": 235.451
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "If you have to change buses, calculate the waiting time between the first arrival and the second departure. That wait is part of the whole trip.",
+      "start": 236.629,
+      "speech_end": 245.371,
+      "words": [
+        {
+          "word": "if",
+          "start": 236.629,
+          "end": 236.779
+        },
+        {
+          "word": "you",
+          "start": 236.779,
+          "end": 236.909
+        },
+        {
+          "word": "have",
+          "start": 236.909,
+          "end": 237.139
+        },
+        {
+          "word": "to",
+          "start": 237.139,
+          "end": 237.279
+        },
+        {
+          "word": "change",
+          "start": 237.279,
+          "end": 237.779
+        },
+        {
+          "word": "buses",
+          "start": 237.779,
+          "end": 238.369
+        },
+        {
+          "word": "calculate",
+          "start": 238.369,
+          "end": 239.069
+        },
+        {
+          "word": "the",
+          "start": 239.069,
+          "end": 239.189
+        },
+        {
+          "word": "waiting",
+          "start": 239.189,
+          "end": 239.639
+        },
+        {
+          "word": "time",
+          "start": 239.639,
+          "end": 240.049
+        },
+        {
+          "word": "between",
+          "start": 240.049,
+          "end": 240.389
+        },
+        {
+          "word": "the",
+          "start": 240.389,
+          "end": 240.469
+        },
+        {
+          "word": "first",
+          "start": 240.469,
+          "end": 240.909
+        },
+        {
+          "word": "arrival",
+          "start": 240.909,
+          "end": 241.409
+        },
+        {
+          "word": "and",
+          "start": 241.409,
+          "end": 241.679
+        },
+        {
+          "word": "the",
+          "start": 241.679,
+          "end": 241.739
+        },
+        {
+          "word": "second",
+          "start": 241.739,
+          "end": 242.149
+        },
+        {
+          "word": "departure",
+          "start": 242.149,
+          "end": 242.769
+        },
+        {
+          "word": "that",
+          "start": 242.969,
+          "end": 243.289
+        },
+        {
+          "word": "wait",
+          "start": 243.289,
+          "end": 243.709
+        },
+        {
+          "word": "is",
+          "start": 243.709,
+          "end": 243.939
+        },
+        {
+          "word": "part",
+          "start": 243.939,
+          "end": 244.309
+        },
+        {
+          "word": "of",
+          "start": 244.309,
+          "end": 244.439
+        },
+        {
+          "word": "the",
+          "start": 244.439,
+          "end": 244.559
+        },
+        {
+          "word": "whole",
+          "start": 244.559,
+          "end": 244.859
+        },
+        {
+          "word": "trip",
+          "start": 244.859,
+          "end": 245.319
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "The most useful first step in a word problem is deciding what is being asked. Do you need a duration, a finishing time or an angle size?",
+      "start": 246.565,
+      "speech_end": 255.581,
+      "words": [
+        {
+          "word": "the",
+          "start": 246.565,
+          "end": 246.655
+        },
+        {
+          "word": "most",
+          "start": 246.655,
+          "end": 246.995
+        },
+        {
+          "word": "useful",
+          "start": 246.995,
+          "end": 247.485
+        },
+        {
+          "word": "first",
+          "start": 247.485,
+          "end": 247.915
+        },
+        {
+          "word": "step",
+          "start": 247.915,
+          "end": 248.305
+        },
+        {
+          "word": "in",
+          "start": 248.305,
+          "end": 248.395
+        },
+        {
+          "word": "a",
+          "start": 248.395,
+          "end": 248.455
+        },
+        {
+          "word": "word",
+          "start": 248.455,
+          "end": 248.725
+        },
+        {
+          "word": "problem",
+          "start": 248.725,
+          "end": 249.255
+        },
+        {
+          "word": "is",
+          "start": 249.255,
+          "end": 249.475
+        },
+        {
+          "word": "deciding",
+          "start": 249.475,
+          "end": 250.075
+        },
+        {
+          "word": "what",
+          "start": 250.075,
+          "end": 250.365
+        },
+        {
+          "word": "is",
+          "start": 250.365,
+          "end": 250.535
+        },
+        {
+          "word": "being",
+          "start": 250.535,
+          "end": 250.775
+        },
+        {
+          "word": "asked",
+          "start": 250.775,
+          "end": 251.355
+        },
+        {
+          "word": "do",
+          "start": 251.565,
+          "end": 251.695
+        },
+        {
+          "word": "you",
+          "start": 251.695,
+          "end": 251.805
+        },
+        {
+          "word": "need",
+          "start": 251.805,
+          "end": 252.095
+        },
+        {
+          "word": "a",
+          "start": 252.095,
+          "end": 252.145
+        },
+        {
+          "word": "duration",
+          "start": 252.145,
+          "end": 253.005
+        },
+        {
+          "word": "a",
+          "start": 253.005,
+          "end": 253.065
+        },
+        {
+          "word": "finishing",
+          "start": 253.065,
+          "end": 253.695
+        },
+        {
+          "word": "time",
+          "start": 253.695,
+          "end": 254.185
+        },
+        {
+          "word": "or",
+          "start": 254.285,
+          "end": 254.435
+        },
+        {
+          "word": "an",
+          "start": 254.435,
+          "end": 254.535
+        },
+        {
+          "word": "angle",
+          "start": 254.535,
+          "end": 254.965
+        },
+        {
+          "word": "size",
+          "start": 254.965,
+          "end": 255.605
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Imagine a workshop starting at nine forty-five and lasting thirty minutes. Fifteen minutes takes you to ten, and another fifteen to ten fifteen.",
+      "start": 256.789,
+      "speech_end": 265.862,
+      "words": [
+        {
+          "word": "imagine",
+          "start": 256.789,
+          "end": 257.429
+        },
+        {
+          "word": "a",
+          "start": 257.429,
+          "end": 257.499
+        },
+        {
+          "word": "workshop",
+          "start": 257.499,
+          "end": 258.129
+        },
+        {
+          "word": "starting",
+          "start": 258.129,
+          "end": 258.609
+        },
+        {
+          "word": "at",
+          "start": 258.609,
+          "end": 258.729
+        },
+        {
+          "word": "nine",
+          "start": 258.729,
+          "end": 259.059
+        },
+        {
+          "word": "forty",
+          "start": 259.059,
+          "end": 259.379
+        },
+        {
+          "word": "five",
+          "start": 259.379,
+          "end": 259.859
+        },
+        {
+          "word": "and",
+          "start": 259.859,
+          "end": 260.049
+        },
+        {
+          "word": "lasting",
+          "start": 260.049,
+          "end": 260.439
+        },
+        {
+          "word": "thirty",
+          "start": 260.439,
+          "end": 260.829
+        },
+        {
+          "word": "minutes",
+          "start": 260.829,
+          "end": 261.359
+        },
+        {
+          "word": "fifteen",
+          "start": 261.549,
+          "end": 262.039
+        },
+        {
+          "word": "minutes",
+          "start": 262.039,
+          "end": 262.439
+        },
+        {
+          "word": "takes",
+          "start": 262.439,
+          "end": 262.799
+        },
+        {
+          "word": "you",
+          "start": 262.799,
+          "end": 262.939
+        },
+        {
+          "word": "to",
+          "start": 262.939,
+          "end": 263.079
+        },
+        {
+          "word": "ten",
+          "start": 263.079,
+          "end": 263.519
+        },
+        {
+          "word": "and",
+          "start": 263.519,
+          "end": 263.699
+        },
+        {
+          "word": "another",
+          "start": 263.699,
+          "end": 264.089
+        },
+        {
+          "word": "fifteen",
+          "start": 264.089,
+          "end": 264.729
+        },
+        {
+          "word": "to",
+          "start": 264.729,
+          "end": 264.849
+        },
+        {
+          "word": "ten",
+          "start": 264.849,
+          "end": 265.189
+        },
+        {
+          "word": "fifteen",
+          "start": 265.189,
+          "end": 265.849
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A full rotation is three hundred and sixty degrees. If a robot turns through ninety degrees four times, it returns to its starting direction.",
+      "start": 267.067,
+      "speech_end": 276.308,
+      "words": [
+        {
+          "word": "a",
+          "start": 267.067,
+          "end": 267.147
+        },
+        {
+          "word": "full",
+          "start": 267.147,
+          "end": 267.487
+        },
+        {
+          "word": "rotation",
+          "start": 267.487,
+          "end": 268.347
+        },
+        {
+          "word": "is",
+          "start": 268.347,
+          "end": 268.617
+        },
+        {
+          "word": "three",
+          "start": 268.617,
+          "end": 268.927
+        },
+        {
+          "word": "hundred",
+          "start": 268.927,
+          "end": 269.407
+        },
+        {
+          "word": "and",
+          "start": 269.407,
+          "end": 269.637
+        },
+        {
+          "word": "sixty",
+          "start": 269.637,
+          "end": 270.027
+        },
+        {
+          "word": "degrees",
+          "start": 270.027,
+          "end": 270.717
+        },
+        {
+          "word": "if",
+          "start": 270.907,
+          "end": 271.067
+        },
+        {
+          "word": "a",
+          "start": 271.067,
+          "end": 271.187
+        },
+        {
+          "word": "robot",
+          "start": 271.187,
+          "end": 271.777
+        },
+        {
+          "word": "turns",
+          "start": 271.777,
+          "end": 272.167
+        },
+        {
+          "word": "through",
+          "start": 272.167,
+          "end": 272.387
+        },
+        {
+          "word": "ninety",
+          "start": 272.387,
+          "end": 272.877
+        },
+        {
+          "word": "degrees",
+          "start": 272.877,
+          "end": 273.347
+        },
+        {
+          "word": "four",
+          "start": 273.347,
+          "end": 273.617
+        },
+        {
+          "word": "times",
+          "start": 273.617,
+          "end": 274.237
+        },
+        {
+          "word": "it",
+          "start": 274.237,
+          "end": 274.407
+        },
+        {
+          "word": "returns",
+          "start": 274.407,
+          "end": 274.907
+        },
+        {
+          "word": "to",
+          "start": 274.907,
+          "end": 275.047
+        },
+        {
+          "word": "its",
+          "start": 275.047,
+          "end": 275.257
+        },
+        {
+          "word": "starting",
+          "start": 275.257,
+          "end": 275.697
+        },
+        {
+          "word": "direction",
+          "start": 275.697,
+          "end": 276.317
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "When two angles form a straight line, their measures total one hundred and eighty degrees. This fact lets us find a missing angle.",
+      "start": 277.516,
+      "speech_end": 285.757,
+      "words": [
+        {
+          "word": "when",
+          "start": 277.516,
+          "end": 277.716
+        },
+        {
+          "word": "two",
+          "start": 277.716,
+          "end": 277.946
+        },
+        {
+          "word": "angles",
+          "start": 277.946,
+          "end": 278.486
+        },
+        {
+          "word": "form",
+          "start": 278.486,
+          "end": 278.786
+        },
+        {
+          "word": "a",
+          "start": 278.786,
+          "end": 278.826
+        },
+        {
+          "word": "straight",
+          "start": 278.826,
+          "end": 279.256
+        },
+        {
+          "word": "line",
+          "start": 279.256,
+          "end": 279.656
+        },
+        {
+          "word": "their",
+          "start": 279.656,
+          "end": 279.846
+        },
+        {
+          "word": "measures",
+          "start": 279.846,
+          "end": 280.336
+        },
+        {
+          "word": "total",
+          "start": 280.336,
+          "end": 280.736
+        },
+        {
+          "word": "one",
+          "start": 280.886,
+          "end": 281.096
+        },
+        {
+          "word": "hundred",
+          "start": 281.096,
+          "end": 281.576
+        },
+        {
+          "word": "and",
+          "start": 281.576,
+          "end": 281.776
+        },
+        {
+          "word": "eighty",
+          "start": 281.776,
+          "end": 282.136
+        },
+        {
+          "word": "degrees",
+          "start": 282.136,
+          "end": 282.826
+        },
+        {
+          "word": "this",
+          "start": 282.996,
+          "end": 283.316
+        },
+        {
+          "word": "fact",
+          "start": 283.316,
+          "end": 283.686
+        },
+        {
+          "word": "lets",
+          "start": 283.686,
+          "end": 283.966
+        },
+        {
+          "word": "us",
+          "start": 283.966,
+          "end": 284.136
+        },
+        {
+          "word": "find",
+          "start": 284.136,
+          "end": 284.626
+        },
+        {
+          "word": "a",
+          "start": 284.626,
+          "end": 284.696
+        },
+        {
+          "word": "missing",
+          "start": 284.696,
+          "end": 285.176
+        },
+        {
+          "word": "angle",
+          "start": 285.176,
+          "end": 285.726
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Suppose one angle is seventy degrees. The adjacent angle on a straight line is one hundred and ten degrees, because the sum is one hundred and eighty.",
+      "start": 286.949,
+      "speech_end": 297.029,
+      "words": [
+        {
+          "word": "suppose",
+          "start": 286.949,
+          "end": 287.519
+        },
+        {
+          "word": "one",
+          "start": 287.519,
+          "end": 287.789
+        },
+        {
+          "word": "angle",
+          "start": 287.789,
+          "end": 288.379
+        },
+        {
+          "word": "is",
+          "start": 288.529,
+          "end": 288.679
+        },
+        {
+          "word": "seventy",
+          "start": 288.679,
+          "end": 289.219
+        },
+        {
+          "word": "degrees",
+          "start": 289.219,
+          "end": 289.909
+        },
+        {
+          "word": "the",
+          "start": 290.079,
+          "end": 290.249
+        },
+        {
+          "word": "adjacent",
+          "start": 290.249,
+          "end": 290.909
+        },
+        {
+          "word": "angle",
+          "start": 290.909,
+          "end": 291.359
+        },
+        {
+          "word": "on",
+          "start": 291.359,
+          "end": 291.539
+        },
+        {
+          "word": "a",
+          "start": 291.539,
+          "end": 291.579
+        },
+        {
+          "word": "straight",
+          "start": 291.579,
+          "end": 292.029
+        },
+        {
+          "word": "line",
+          "start": 292.029,
+          "end": 292.449
+        },
+        {
+          "word": "is",
+          "start": 292.449,
+          "end": 292.679
+        },
+        {
+          "word": "one",
+          "start": 292.679,
+          "end": 292.919
+        },
+        {
+          "word": "hundred",
+          "start": 292.919,
+          "end": 293.409
+        },
+        {
+          "word": "and",
+          "start": 293.409,
+          "end": 293.679
+        },
+        {
+          "word": "ten",
+          "start": 293.679,
+          "end": 293.899
+        },
+        {
+          "word": "degrees",
+          "start": 293.899,
+          "end": 294.499
+        },
+        {
+          "word": "because",
+          "start": 294.499,
+          "end": 294.839
+        },
+        {
+          "word": "the",
+          "start": 294.839,
+          "end": 294.949
+        },
+        {
+          "word": "sum",
+          "start": 294.949,
+          "end": 295.319
+        },
+        {
+          "word": "is",
+          "start": 295.319,
+          "end": 295.579
+        },
+        {
+          "word": "one",
+          "start": 295.579,
+          "end": 295.859
+        },
+        {
+          "word": "hundred",
+          "start": 295.859,
+          "end": 296.379
+        },
+        {
+          "word": "and",
+          "start": 296.379,
+          "end": 296.609
+        },
+        {
+          "word": "eighty",
+          "start": 296.609,
+          "end": 297.029
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "If an event finishes at eleven twenty and lasts forty-five minutes, work backwards: twenty minutes to eleven, then twenty-five more to ten thirty-five.",
+      "start": 298.227,
+      "speech_end": 307.4,
+      "words": [
+        {
+          "word": "if",
+          "start": 298.227,
+          "end": 298.377
+        },
+        {
+          "word": "an",
+          "start": 298.377,
+          "end": 298.537
+        },
+        {
+          "word": "event",
+          "start": 298.537,
+          "end": 298.917
+        },
+        {
+          "word": "finishes",
+          "start": 298.917,
+          "end": 299.477
+        },
+        {
+          "word": "at",
+          "start": 299.477,
+          "end": 299.707
+        },
+        {
+          "word": "eleven",
+          "start": 299.707,
+          "end": 300.157
+        },
+        {
+          "word": "twenty",
+          "start": 300.157,
+          "end": 300.747
+        },
+        {
+          "word": "and",
+          "start": 300.747,
+          "end": 300.887
+        },
+        {
+          "word": "lasts",
+          "start": 300.887,
+          "end": 301.307
+        },
+        {
+          "word": "forty",
+          "start": 301.307,
+          "end": 301.637
+        },
+        {
+          "word": "five",
+          "start": 301.637,
+          "end": 301.967
+        },
+        {
+          "word": "minutes",
+          "start": 301.967,
+          "end": 302.437
+        },
+        {
+          "word": "work",
+          "start": 302.437,
+          "end": 302.717
+        },
+        {
+          "word": "backwards",
+          "start": 302.717,
+          "end": 303.427
+        },
+        {
+          "word": "twenty",
+          "start": 303.427,
+          "end": 303.757
+        },
+        {
+          "word": "minutes",
+          "start": 303.757,
+          "end": 304.097
+        },
+        {
+          "word": "to",
+          "start": 304.097,
+          "end": 304.247
+        },
+        {
+          "word": "eleven",
+          "start": 304.247,
+          "end": 304.727
+        },
+        {
+          "word": "then",
+          "start": 304.727,
+          "end": 304.987
+        },
+        {
+          "word": "twenty",
+          "start": 304.987,
+          "end": 305.277
+        },
+        {
+          "word": "five",
+          "start": 305.277,
+          "end": 305.717
+        },
+        {
+          "word": "more",
+          "start": 305.717,
+          "end": 306.007
+        },
+        {
+          "word": "to",
+          "start": 306.007,
+          "end": 306.147
+        },
+        {
+          "word": "ten",
+          "start": 306.147,
+          "end": 306.517
+        },
+        {
+          "word": "thirty",
+          "start": 306.517,
+          "end": 306.887
+        },
+        {
+          "word": "five",
+          "start": 306.887,
+          "end": 307.367
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A useful check is to reverse the calculation. Add forty-five minutes to ten thirty-five and confirm that you reach eleven twenty.",
+      "start": 308.565,
+      "speech_end": 317.132,
+      "words": [
+        {
+          "word": "a",
+          "start": 308.565,
+          "end": 308.675
+        },
+        {
+          "word": "useful",
+          "start": 308.675,
+          "end": 309.205
+        },
+        {
+          "word": "check",
+          "start": 309.205,
+          "end": 309.845
+        },
+        {
+          "word": "is",
+          "start": 309.845,
+          "end": 310.025
+        },
+        {
+          "word": "to",
+          "start": 310.025,
+          "end": 310.165
+        },
+        {
+          "word": "reverse",
+          "start": 310.165,
+          "end": 310.655
+        },
+        {
+          "word": "the",
+          "start": 310.655,
+          "end": 310.755
+        },
+        {
+          "word": "calculation",
+          "start": 310.755,
+          "end": 311.705
+        },
+        {
+          "word": "add",
+          "start": 311.915,
+          "end": 312.175
+        },
+        {
+          "word": "forty",
+          "start": 312.175,
+          "end": 312.665
+        },
+        {
+          "word": "five",
+          "start": 312.665,
+          "end": 313.085
+        },
+        {
+          "word": "minutes",
+          "start": 313.085,
+          "end": 313.465
+        },
+        {
+          "word": "to",
+          "start": 313.465,
+          "end": 313.585
+        },
+        {
+          "word": "ten",
+          "start": 313.585,
+          "end": 313.945
+        },
+        {
+          "word": "thirty",
+          "start": 313.945,
+          "end": 314.275
+        },
+        {
+          "word": "five",
+          "start": 314.275,
+          "end": 314.725
+        },
+        {
+          "word": "and",
+          "start": 314.725,
+          "end": 314.925
+        },
+        {
+          "word": "confirm",
+          "start": 314.925,
+          "end": 315.465
+        },
+        {
+          "word": "that",
+          "start": 315.465,
+          "end": 315.655
+        },
+        {
+          "word": "you",
+          "start": 315.655,
+          "end": 315.845
+        },
+        {
+          "word": "reach",
+          "start": 315.845,
+          "end": 316.195
+        },
+        {
+          "word": "eleven",
+          "start": 316.195,
+          "end": 316.715
+        },
+        {
+          "word": "twenty",
+          "start": 316.715,
+          "end": 317.155
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Now invent a problem that combines a travel duration with a turn. Explain which part needs a timeline and which needs an angle diagram.",
+      "start": 318.341,
+      "speech_end": 327.367,
+      "words": [
+        {
+          "word": "now",
+          "start": 318.341,
+          "end": 318.741
+        },
+        {
+          "word": "invent",
+          "start": 318.741,
+          "end": 319.341
+        },
+        {
+          "word": "a",
+          "start": 319.341,
+          "end": 319.381
+        },
+        {
+          "word": "problem",
+          "start": 319.381,
+          "end": 319.911
+        },
+        {
+          "word": "that",
+          "start": 319.911,
+          "end": 320.101
+        },
+        {
+          "word": "combines",
+          "start": 320.101,
+          "end": 320.691
+        },
+        {
+          "word": "a",
+          "start": 320.691,
+          "end": 320.761
+        },
+        {
+          "word": "travel",
+          "start": 320.761,
+          "end": 321.271
+        },
+        {
+          "word": "duration",
+          "start": 321.271,
+          "end": 321.931
+        },
+        {
+          "word": "with",
+          "start": 321.931,
+          "end": 322.161
+        },
+        {
+          "word": "a",
+          "start": 322.161,
+          "end": 322.211
+        },
+        {
+          "word": "turn",
+          "start": 322.211,
+          "end": 322.701
+        },
+        {
+          "word": "explain",
+          "start": 322.921,
+          "end": 323.531
+        },
+        {
+          "word": "which",
+          "start": 323.531,
+          "end": 323.801
+        },
+        {
+          "word": "part",
+          "start": 323.801,
+          "end": 324.231
+        },
+        {
+          "word": "needs",
+          "start": 324.231,
+          "end": 324.531
+        },
+        {
+          "word": "a",
+          "start": 324.531,
+          "end": 324.591
+        },
+        {
+          "word": "timeline",
+          "start": 324.591,
+          "end": 325.371
+        },
+        {
+          "word": "and",
+          "start": 325.371,
+          "end": 325.541
+        },
+        {
+          "word": "which",
+          "start": 325.541,
+          "end": 325.771
+        },
+        {
+          "word": "needs",
+          "start": 325.771,
+          "end": 326.111
+        },
+        {
+          "word": "an",
+          "start": 326.111,
+          "end": 326.241
+        },
+        {
+          "word": "angle",
+          "start": 326.241,
+          "end": 326.711
+        },
+        {
+          "word": "diagram",
+          "start": 326.711,
+          "end": 327.361
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Estimate before you calculate. A journey from eleven thirty-five to twelve twenty must be shorter than an hour, because twelve thirty-five would be one hour later.",
+      "start": 328.56,
+      "speech_end": 338.417,
+      "words": [
+        {
+          "word": "estimate",
+          "start": 328.56,
+          "end": 329.13
+        },
+        {
+          "word": "before",
+          "start": 329.13,
+          "end": 329.55
+        },
+        {
+          "word": "you",
+          "start": 329.55,
+          "end": 329.77
+        },
+        {
+          "word": "calculate",
+          "start": 329.77,
+          "end": 330.61
+        },
+        {
+          "word": "a",
+          "start": 330.82,
+          "end": 330.9
+        },
+        {
+          "word": "journey",
+          "start": 330.9,
+          "end": 331.33
+        },
+        {
+          "word": "from",
+          "start": 331.33,
+          "end": 331.61
+        },
+        {
+          "word": "eleven",
+          "start": 331.61,
+          "end": 332.15
+        },
+        {
+          "word": "thirty",
+          "start": 332.15,
+          "end": 332.48
+        },
+        {
+          "word": "five",
+          "start": 332.48,
+          "end": 332.95
+        },
+        {
+          "word": "to",
+          "start": 332.95,
+          "end": 333.06
+        },
+        {
+          "word": "twelve",
+          "start": 333.06,
+          "end": 333.39
+        },
+        {
+          "word": "twenty",
+          "start": 333.39,
+          "end": 333.93
+        },
+        {
+          "word": "must",
+          "start": 333.93,
+          "end": 334.2
+        },
+        {
+          "word": "be",
+          "start": 334.2,
+          "end": 334.34
+        },
+        {
+          "word": "shorter",
+          "start": 334.34,
+          "end": 334.8
+        },
+        {
+          "word": "than",
+          "start": 334.8,
+          "end": 335.02
+        },
+        {
+          "word": "an",
+          "start": 335.02,
+          "end": 335.18
+        },
+        {
+          "word": "hour",
+          "start": 335.18,
+          "end": 335.49
+        },
+        {
+          "word": "because",
+          "start": 335.49,
+          "end": 335.93
+        },
+        {
+          "word": "twelve",
+          "start": 335.93,
+          "end": 336.29
+        },
+        {
+          "word": "thirty",
+          "start": 336.29,
+          "end": 336.64
+        },
+        {
+          "word": "five",
+          "start": 336.64,
+          "end": 337.11
+        },
+        {
+          "word": "would",
+          "start": 337.11,
+          "end": 337.26
+        },
+        {
+          "word": "be",
+          "start": 337.26,
+          "end": 337.46
+        },
+        {
+          "word": "one",
+          "start": 337.46,
+          "end": 337.81
+        },
+        {
+          "word": "hour",
+          "start": 337.81,
+          "end": 338.06
+        },
+        {
+          "word": "later",
+          "start": 338.06,
+          "end": 338.42
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "You can explain your thinking with words, numbers or a timeline. The strongest answer shows where each interval comes from.",
+      "start": 339.633,
+      "speech_end": 347.001,
+      "words": [
+        {
+          "word": "you",
+          "start": 339.633,
+          "end": 339.783
+        },
+        {
+          "word": "can",
+          "start": 339.783,
+          "end": 339.973
+        },
+        {
+          "word": "explain",
+          "start": 339.973,
+          "end": 340.483
+        },
+        {
+          "word": "your",
+          "start": 340.483,
+          "end": 340.633
+        },
+        {
+          "word": "thinking",
+          "start": 340.633,
+          "end": 341.143
+        },
+        {
+          "word": "with",
+          "start": 341.143,
+          "end": 341.333
+        },
+        {
+          "word": "words",
+          "start": 341.333,
+          "end": 341.823
+        },
+        {
+          "word": "numbers",
+          "start": 341.823,
+          "end": 342.433
+        },
+        {
+          "word": "or",
+          "start": 342.433,
+          "end": 342.583
+        },
+        {
+          "word": "a",
+          "start": 342.583,
+          "end": 342.643
+        },
+        {
+          "word": "timeline",
+          "start": 342.643,
+          "end": 343.373
+        },
+        {
+          "word": "the",
+          "start": 343.583,
+          "end": 343.703
+        },
+        {
+          "word": "strongest",
+          "start": 343.703,
+          "end": 344.383
+        },
+        {
+          "word": "answer",
+          "start": 344.383,
+          "end": 344.893
+        },
+        {
+          "word": "shows",
+          "start": 344.893,
+          "end": 345.323
+        },
+        {
+          "word": "where",
+          "start": 345.323,
+          "end": 345.583
+        },
+        {
+          "word": "each",
+          "start": 345.723,
+          "end": 345.983
+        },
+        {
+          "word": "interval",
+          "start": 345.983,
+          "end": 346.373
+        },
+        {
+          "word": "comes",
+          "start": 346.373,
+          "end": 346.723
+        },
+        {
+          "word": "from",
+          "start": 346.723,
+          "end": 346.993
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.11,
+      "end": 4.49,
+      "text": "A school excursion has a strict timetable and a robot guide must turn",
+      "utterance": 0,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 4.49,
+      "end": 8.39,
+      "text": "through precise angles. Can we solve both challenges?",
+      "utterance": 0,
+      "first_word": 13,
+      "last_word": 20
+    },
+    {
+      "start": 9.386,
+      "end": 14.116,
+      "text": "Today we are learning to solve multi-step time and angle problems.",
+      "utterance": 1,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 15.128,
+      "end": 19.678,
+      "text": "Our learning goal is to solve multi-step time and angle problems.",
+      "utterance": 2,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 20.68,
+      "end": 25.51,
+      "text": "Success criteria: choose a useful model, calculate accurately and explain",
+      "utterance": 3,
+      "first_word": 0,
+      "last_word": 9
+    },
+    {
+      "start": 25.51,
+      "end": 26.54,
+      "text": "each answer.",
+      "utterance": 3,
+      "first_word": 10,
+      "last_word": 11
+    },
+    {
+      "start": 27.579,
+      "end": 32.539,
+      "text": "Read the departure and arrival times from the same service on the timetable.",
+      "utterance": 4,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 32.609,
+      "end": 35.549,
+      "text": "Different rows can refer to different journeys.",
+      "utterance": 4,
+      "first_word": 13,
+      "last_word": 19
+    },
+    {
+      "start": 36.557,
+      "end": 38.957,
+      "text": "A timeline makes the journey visible.",
+      "utterance": 5,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 39.077,
+      "end": 43.957,
+      "text": "Begin at eight twenty-five, move to nine o'clock and then move to nine ten.",
+      "utterance": 5,
+      "first_word": 6,
+      "last_word": 20
+    },
+    {
+      "start": 44.983,
+      "end": 49.003,
+      "text": "How many minutes pass between eight twenty-five and nine ten?",
+      "utterance": 6,
+      "first_word": 0,
+      "last_word": 10
+    },
+    {
+      "start": 49.043,
+      "end": 51.413,
+      "text": "Estimate first, then calculate.",
+      "utterance": 6,
+      "first_word": 11,
+      "last_word": 14
+    },
+    {
+      "start": 56.472,
+      "end": 61.232,
+      "text": "Thirty-five minutes to nine o'clock plus ten minutes to nine ten makes forty-",
+      "utterance": 7,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 61.232,
+      "end": 62.272,
+      "text": "five minutes.",
+      "utterance": 7,
+      "first_word": 14,
+      "last_word": 15
+    },
+    {
+      "start": 63.279,
+      "end": 67.929,
+      "text": "Twenty-four-hour time removes confusion between morning and afternoon.",
+      "utterance": 8,
+      "first_word": 0,
+      "last_word": 9
+    },
+    {
+      "start": 67.979,
+      "end": 71.569,
+      "text": "Thirteen fifteen means one fifteen in the afternoon.",
+      "utterance": 8,
+      "first_word": 10,
+      "last_word": 17
+    },
+    {
+      "start": 72.598,
+      "end": 77.318,
+      "text": "A train departs at thirteen fifteen and arrives at fourteen oh five.",
+      "utterance": 9,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 77.348,
+      "end": 79.308,
+      "text": "How long is the journey?",
+      "utterance": 9,
+      "first_word": 12,
+      "last_word": 16
+    },
+    {
+      "start": 84.301,
+      "end": 88.171,
+      "text": "Forty-five minutes to fourteen hundred, then five more minutes.",
+      "utterance": 10,
+      "first_word": 0,
+      "last_word": 9
+    },
+    {
+      "start": 88.211,
+      "end": 90.431,
+      "text": "The journey lasts fifty minutes.",
+      "utterance": 10,
+      "first_word": 10,
+      "last_word": 14
+    },
+    {
+      "start": 91.479,
+      "end": 96.129,
+      "text": "Subtracting the minute numbers alone is a mistake when you cross an hour.",
+      "utterance": 11,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 96.159,
+      "end": 98.489,
+      "text": "Use the full timeline instead.",
+      "utterance": 11,
+      "first_word": 13,
+      "last_word": 17
+    },
+    {
+      "start": 99.553,
+      "end": 103.993,
+      "text": "For a deadline, consider arrival time, not just departure time.",
+      "utterance": 12,
+      "first_word": 0,
+      "last_word": 9
+    },
+    {
+      "start": 104.113,
+      "end": 107.483,
+      "text": "Arriving after an event begins may be too late.",
+      "utterance": 12,
+      "first_word": 10,
+      "last_word": 18
+    },
+    {
+      "start": 108.479,
+      "end": 110.729,
+      "text": "You must arrive before ten.",
+      "utterance": 13,
+      "first_word": 0,
+      "last_word": 4
+    },
+    {
+      "start": 110.759,
+      "end": 113.779,
+      "text": "A service arrives at nine thirty-five.",
+      "utterance": 13,
+      "first_word": 5,
+      "last_word": 11
+    },
+    {
+      "start": 113.819,
+      "end": 115.619,
+      "text": "Does it meet the deadline?",
+      "utterance": 13,
+      "first_word": 12,
+      "last_word": 16
+    },
+    {
+      "start": 120.627,
+      "end": 125.187,
+      "text": "Yes. Nine thirty-five is twenty-five minutes before ten, so",
+      "utterance": 14,
+      "first_word": 0,
+      "last_word": 10
+    },
+    {
+      "start": 125.187,
+      "end": 127.037,
+      "text": "the service meets the deadline.",
+      "utterance": 14,
+      "first_word": 11,
+      "last_word": 15
+    },
+    {
+      "start": 128.059,
+      "end": 131.409,
+      "text": "Remember to include walking and waiting time.",
+      "utterance": 15,
+      "first_word": 0,
+      "last_word": 6
+    },
+    {
+      "start": 131.449,
+      "end": 135.339,
+      "text": "Reaching the station exactly when the bus leaves is risky.",
+      "utterance": 15,
+      "first_word": 7,
+      "last_word": 16
+    },
+    {
+      "start": 136.374,
+      "end": 140.444,
+      "text": "A bus departs at nine twenty and arrives at ten oh five.",
+      "utterance": 16,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 140.464,
+      "end": 142.644,
+      "text": "How many minutes does the trip take?",
+      "utterance": 16,
+      "first_word": 12,
+      "last_word": 18
+    },
+    {
+      "start": 147.662,
+      "end": 151.102,
+      "text": "Forty minutes to ten o'clock, then five more minutes.",
+      "utterance": 17,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 151.152,
+      "end": 153.622,
+      "text": "The trip lasts forty-five minutes.",
+      "utterance": 17,
+      "first_word": 9,
+      "last_word": 14
+    },
+    {
+      "start": 154.661,
+      "end": 156.991,
+      "text": "Check that your answer is sensible.",
+      "utterance": 18,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 157.081,
+      "end": 160.921,
+      "text": "A journey crossing an hour can be longer than the difference between the",
+      "utterance": 18,
+      "first_word": 6,
+      "last_word": 18
+    },
+    {
+      "start": 160.921,
+      "end": 162.071,
+      "text": "minute digits.",
+      "utterance": 18,
+      "first_word": 19,
+      "last_word": 20
+    },
+    {
+      "start": 163.079,
+      "end": 167.419,
+      "text": "A train leaves at eleven thirty-five and arrives at twelve twenty.",
+      "utterance": 19,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 167.419,
+      "end": 170.229,
+      "text": "Calculate the duration using noon.",
+      "utterance": 19,
+      "first_word": 12,
+      "last_word": 16
+    },
+    {
+      "start": 175.288,
+      "end": 179.488,
+      "text": "Twenty-five minutes to noon plus twenty minutes afterwards makes forty-five",
+      "utterance": 20,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 179.488,
+      "end": 180.168,
+      "text": "minutes.",
+      "utterance": 20,
+      "first_word": 12,
+      "last_word": 12
+    },
+    {
+      "start": 181.167,
+      "end": 185.737,
+      "text": "Read the correct timetable entry, draw a timeline, cross the hour boundary",
+      "utterance": 21,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 185.737,
+      "end": 187.197,
+      "text": "and add the intervals.",
+      "utterance": 21,
+      "first_word": 12,
+      "last_word": 15
+    },
+    {
+      "start": 188.197,
+      "end": 190.437,
+      "text": "Think about a school bus timetable.",
+      "utterance": 22,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 190.567,
+      "end": 194.777,
+      "text": "The departure time tells us when to be at the stop, while the arrival time",
+      "utterance": 22,
+      "first_word": 6,
+      "last_word": 20
+    },
+    {
+      "start": 194.777,
+      "end": 197.417,
+      "text": "tells us when we can reach our destination.",
+      "utterance": 22,
+      "first_word": 21,
+      "last_word": 28
+    },
+    {
+      "start": 198.43,
+      "end": 202.45,
+      "text": "If the bus is delayed, our original plan may no longer work.",
+      "utterance": 23,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 202.47,
+      "end": 206.62,
+      "text": "A good traveller checks whether there is enough time before an important",
+      "utterance": 23,
+      "first_word": 12,
+      "last_word": 23
+    },
+    {
+      "start": 206.62,
+      "end": 207.49,
+      "text": "appointment.",
+      "utterance": 23,
+      "first_word": 24,
+      "last_word": 24
+    },
+    {
+      "start": 208.509,
+      "end": 210.509,
+      "text": "Try a different strategy.",
+      "utterance": 24,
+      "first_word": 0,
+      "last_word": 3
+    },
+    {
+      "start": 210.529,
+      "end": 214.529,
+      "text": "Instead of counting every minute, split the journey at the nearest whole",
+      "utterance": 24,
+      "first_word": 4,
+      "last_word": 15
+    },
+    {
+      "start": 214.529,
+      "end": 216.749,
+      "text": "hour and add the two intervals.",
+      "utterance": 24,
+      "first_word": 16,
+      "last_word": 21
+    },
+    {
+      "start": 217.757,
+      "end": 222.517,
+      "text": "A journey from nine thirty-five to ten o'clock takes twenty-five minutes.",
+      "utterance": 25,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 222.517,
+      "end": 226.777,
+      "text": "We know this because sixty minus thirty-five equals twenty-five.",
+      "utterance": 25,
+      "first_word": 13,
+      "last_word": 23
+    },
+    {
+      "start": 227.821,
+      "end": 230.401,
+      "text": "Check your answer by counting forward.",
+      "utterance": 26,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 230.431,
+      "end": 234.851,
+      "text": "Start at nine thirty-five, add twenty-five minutes, and you should reach ten",
+      "utterance": 26,
+      "first_word": 6,
+      "last_word": 19
+    },
+    {
+      "start": 234.851,
+      "end": 235.631,
+      "text": "o'clock.",
+      "utterance": 26,
+      "first_word": 20,
+      "last_word": 20
+    },
+    {
+      "start": 236.629,
+      "end": 240.909,
+      "text": "If you have to change buses, calculate the waiting time between the first",
+      "utterance": 27,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 240.909,
+      "end": 242.949,
+      "text": "arrival and the second departure.",
+      "utterance": 27,
+      "first_word": 13,
+      "last_word": 17
+    },
+    {
+      "start": 242.969,
+      "end": 245.499,
+      "text": "That wait is part of the whole trip.",
+      "utterance": 27,
+      "first_word": 18,
+      "last_word": 25
+    },
+    {
+      "start": 246.565,
+      "end": 250.775,
+      "text": "The most useful first step in a word problem is deciding what is being",
+      "utterance": 28,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 250.775,
+      "end": 255.785,
+      "text": "asked. Do you need a duration, a finishing time or an angle size?",
+      "utterance": 28,
+      "first_word": 14,
+      "last_word": 26
+    },
+    {
+      "start": 256.789,
+      "end": 261.539,
+      "text": "Imagine a workshop starting at nine forty-five and lasting thirty minutes.",
+      "utterance": 29,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 261.549,
+      "end": 266.029,
+      "text": "Fifteen minutes takes you to ten, and another fifteen to ten fifteen.",
+      "utterance": 29,
+      "first_word": 12,
+      "last_word": 23
+    },
+    {
+      "start": 267.067,
+      "end": 270.897,
+      "text": "A full rotation is three hundred and sixty degrees.",
+      "utterance": 30,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 270.907,
+      "end": 275.257,
+      "text": "If a robot turns through ninety degrees four times, it returns to its",
+      "utterance": 30,
+      "first_word": 9,
+      "last_word": 21
+    },
+    {
+      "start": 275.257,
+      "end": 276.497,
+      "text": "starting direction.",
+      "utterance": 30,
+      "first_word": 22,
+      "last_word": 23
+    },
+    {
+      "start": 277.516,
+      "end": 281.776,
+      "text": "When two angles form a straight line, their measures total one hundred and",
+      "utterance": 31,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 281.776,
+      "end": 285.906,
+      "text": "eighty degrees. This fact lets us find a missing angle.",
+      "utterance": 31,
+      "first_word": 13,
+      "last_word": 22
+    },
+    {
+      "start": 286.949,
+      "end": 290.079,
+      "text": "Suppose one angle is seventy degrees.",
+      "utterance": 32,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 290.079,
+      "end": 294.499,
+      "text": "The adjacent angle on a straight line is one hundred and ten degrees,",
+      "utterance": 32,
+      "first_word": 6,
+      "last_word": 18
+    },
+    {
+      "start": 294.499,
+      "end": 297.209,
+      "text": "because the sum is one hundred and eighty.",
+      "utterance": 32,
+      "first_word": 19,
+      "last_word": 26
+    },
+    {
+      "start": 298.227,
+      "end": 302.717,
+      "text": "If an event finishes at eleven twenty and lasts forty-five minutes, work",
+      "utterance": 33,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 302.717,
+      "end": 306.887,
+      "text": "backwards: twenty minutes to eleven, then twenty-five more to ten thirty-",
+      "utterance": 33,
+      "first_word": 13,
+      "last_word": 24
+    },
+    {
+      "start": 306.887,
+      "end": 307.547,
+      "text": "five.",
+      "utterance": 33,
+      "first_word": 25,
+      "last_word": 25
+    },
+    {
+      "start": 308.565,
+      "end": 311.885,
+      "text": "A useful check is to reverse the calculation.",
+      "utterance": 34,
+      "first_word": 0,
+      "last_word": 7
+    },
+    {
+      "start": 311.915,
+      "end": 316.715,
+      "text": "Add forty-five minutes to ten thirty-five and confirm that you reach eleven",
+      "utterance": 34,
+      "first_word": 8,
+      "last_word": 21
+    },
+    {
+      "start": 316.715,
+      "end": 317.335,
+      "text": "twenty.",
+      "utterance": 34,
+      "first_word": 22,
+      "last_word": 22
+    },
+    {
+      "start": 318.341,
+      "end": 322.881,
+      "text": "Now invent a problem that combines a travel duration with a turn.",
+      "utterance": 35,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 322.921,
+      "end": 327.541,
+      "text": "Explain which part needs a timeline and which needs an angle diagram.",
+      "utterance": 35,
+      "first_word": 12,
+      "last_word": 23
+    },
+    {
+      "start": 328.56,
+      "end": 330.79,
+      "text": "Estimate before you calculate.",
+      "utterance": 36,
+      "first_word": 0,
+      "last_word": 3
+    },
+    {
+      "start": 330.82,
+      "end": 335.18,
+      "text": "A journey from eleven thirty-five to twelve twenty must be shorter than an",
+      "utterance": 36,
+      "first_word": 4,
+      "last_word": 17
+    },
+    {
+      "start": 335.18,
+      "end": 338.6,
+      "text": "hour, because twelve thirty-five would be one hour later.",
+      "utterance": 36,
+      "first_word": 18,
+      "last_word": 27
+    },
+    {
+      "start": 339.633,
+      "end": 343.553,
+      "text": "You can explain your thinking with words, numbers or a timeline.",
+      "utterance": 37,
+      "first_word": 0,
+      "last_word": 10
+    },
+    {
+      "start": 343.583,
+      "end": 347.173,
+      "text": "The strongest answer shows where each interval comes from.",
+      "utterance": 37,
+      "first_word": 11,
+      "last_word": 19
+    }
+  ],
+  "review_flags": [
+    {
+      "cue": 37,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 18.7
+    },
+    {
+      "cue": 41,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.9
+    },
+    {
+      "cue": 42,
+      "flag": "under_0.8_seconds"
+    },
+    {
+      "cue": 46,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.6
+    },
+    {
+      "cue": 49,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.3
+    },
+    {
+      "cue": 52,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 18.0
+    },
+    {
+      "cue": 57,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.2
+    },
+    {
+      "cue": 58,
+      "flag": "under_0.8_seconds"
+    },
+    {
+      "cue": 59,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.1
+    },
+    {
+      "cue": 69,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.4
+    },
+    {
+      "cue": 75,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.5
+    },
+    {
+      "cue": 76,
+      "flag": "under_0.8_seconds"
+    },
+    {
+      "cue": 79,
+      "flag": "under_0.8_seconds"
+    }
+  ]
+}

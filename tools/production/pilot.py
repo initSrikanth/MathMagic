@@ -139,9 +139,14 @@ def inventory(p):
             result.append({'page': page, 'lesson': section, 'src': src, 'metadata': metadata,
                            'sha256': digest(ROOT / src) if src and (ROOT / src).is_file() else None,
                            'issues': issues, 'scope': 'PILOT' if page == p['page'] else 'AUDIT_ONLY'})
+    accessibility = {}
+    if p.get('audit_accessibility_manifest'):
+        sys.path.insert(0, str(ROOT / 'tools/video-quality'))
+        from time_angles_accessibility import verify
+        accessibility = verify()
     scoped = [r for r in result if r['scope'] == 'PILOT']
     assert len(scoped) == p['lesson_count'] and all(not r['issues'] for r in scoped), 'Pilot asset inventory incomplete'
-    return {'placements': result, 'curriculum_scope_blockers': scope_blockers, 'audit_only_defects': sum(bool(r['issues']) for r in result if r['scope'] == 'AUDIT_ONLY')}
+    return {'accessibility_recovery': accessibility, 'placements': result, 'curriculum_scope_blockers': scope_blockers, 'audit_only_defects': sum(bool(r['issues']) for r in result if r['scope'] == 'AUDIT_ONLY')}
 
 def curriculum(p):
     text = (ROOT / p['page']).read_text()
@@ -272,19 +277,26 @@ def report(p, work):
         e = manual.get(requirement, {})
         valid = e.get('status') == 'PASS' and all(e.get(k) for k in ('reviewer', 'date', 'evidence_url')) and e.get('evidence_url', '').startswith('https://')
         if requirement == 'exact_video_listening_and_viewing': valid = valid and e.get('video_sha256') == hashes
+        elif requirement == 'time_angles_exact_video_caption_listening_and_viewing':
+            audit = json.loads((ROOT / p['audit_accessibility_manifest']).read_text())
+            expected = {r['video']: r['assets'][r['video']] for r in audit['lessons']}
+            valid = valid and e.get('video_sha256') == expected and e.get('input_sha256') == fingerprint(p, 'inventory')
         elif requirement.startswith(('live_firebase', 'live_firestore', 'deployed_firestore')):
             valid = valid and e.get('input_sha256') == fingerprint(p, 'progress')
         elif requirement == 'physical_safari_ios': valid = valid and e.get('input_sha256') == fingerprint(p, 'browser')
         if not valid: blocked.append(requirement)
     pending_deployment = rows['deployment'].get('evidence', {}).get('unpublished_candidate_files', [])
-    ready = all(r.get('status') == 'PASS' for r in rows.values()) and not blocked and not pending_deployment
-    value = {'topic': p['topic'], 'stages': rows, 'manual_checks_unverified': blocked, 'unpublished_candidate_files': pending_deployment, 'release_ready': ready,
+    audit = rows['inventory'].get('evidence', {})
+    audit_blocked = bool(audit.get('audit_only_defects') or audit.get('curriculum_scope_blockers') or audit.get('accessibility_recovery', {}).get('blocked_lessons'))
+    ready = not audit_blocked and all(r.get('status') == 'PASS' for r in rows.values()) and not blocked and not pending_deployment
+    value = {'topic': p['topic'], 'stages': rows, 'manual_checks_unverified': blocked, 'unpublished_candidate_files': pending_deployment, 'audit_content_blocked': audit_blocked, 'time_angles_accessibility': audit.get('accessibility_recovery', {}), 'release_ready': ready,
              'scope': 'Verification pilot only; no render, publish, merge, security-rule deployment or recurring automation.'}
     write_json(work / 'report.json', value)
     lines = ['# Measurement production pilot', '', '| Gate | Result |', '|---|---|']
     lines += ['| ' + s + ' | ' + r['status'] + ' |' for s, r in rows.items()]
     lines += ['', '**Release: ' + ('READY' if ready else 'BLOCKED') + '**', '', 'External checks unverified: ' + ', '.join(blocked),
               '', 'Time and Angles placements with missing accessibility assets (audit only): ' + str(rows['inventory'].get('evidence', {}).get('audit_only_defects', 'UNVERIFIED')) + '. See inventory.json.',
+              '', 'Time and Angles recovered caption sets integrated: ' + str(audit.get('accessibility_recovery', {}).get('integrated_caption_sets', 'UNVERIFIED')) + '/5; blocked lessons: ' + str(audit.get('accessibility_recovery', {}).get('blocked_lessons', 'UNVERIFIED')),
               '', 'Audit-only curriculum scope blockers: ' + str(len(rows['inventory'].get('evidence', {}).get('curriculum_scope_blockers', []))),
               '', 'Unpublished candidate files: ' + ', '.join(pending_deployment),
               '', 'No content or video generation/deployment is performed by this workflow.']

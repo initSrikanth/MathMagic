@@ -1,0 +1,235 @@
+{
+  "model": "sherpa-onnx-whisper-tiny.en int8 (free offline)",
+  "runtime": "sherpa-onnx 1.12.26",
+  "scope": "Independent recognition of ORIGINAL preserved audio; errors and numbers need human listening; never perceptual approval",
+  "segments": [
+    {
+      "utterance": 0,
+      "start": 0,
+      "end": 8.186916,
+      "text": " A school excursion has a strict timetable and a robot guide must turn through precise angles. Can we solve both challenges?"
+    },
+    {
+      "utterance": 1,
+      "start": 9.385833,
+      "end": 13.920646,
+      "text": " Today we are learning to solve multi-step time and angle problems."
+    },
+    {
+      "utterance": 2,
+      "start": 15.127625,
+      "end": 19.475375,
+      "text": " Our learning goal is to solve multi-step time and angle problems."
+    },
+    {
+      "utterance": 3,
+      "start": 20.679813,
+      "end": 26.36775,
+      "text": " Success criteria. Choose a useful model, calculate accurately and explain each answer."
+    },
+    {
+      "utterance": 4,
+      "start": 27.579083,
+      "end": 35.355,
+      "text": " Read the departure and arrival times from the same service on the timetable. Different rows can refer to different journeys."
+    },
+    {
+      "utterance": 5,
+      "start": 36.556542,
+      "end": 43.797813000000005,
+      "text": " A timeline makes the journey visible. Begin at 8.25, move to 9.00 and then move to 9.10."
+    },
+    {
+      "utterance": 6,
+      "start": 44.983167,
+      "end": 51.269979000000006,
+      "text": " How many minutes pass between 825 and 910?"
+    },
+    {
+      "utterance": 7,
+      "start": 56.47225,
+      "end": 62.072167,
+      "text": " 35 minutes to 9, a clock plus 10 minutes to 9, 10, makes 45 minutes."
+    },
+    {
+      "utterance": 8,
+      "start": 63.279292,
+      "end": 71.391666,
+      "text": " 24-hour time removes confusion between morning and afternoon. 13-15 means 1-15 in the afternoon."
+    },
+    {
+      "utterance": 9,
+      "start": 72.597583,
+      "end": 79.135437,
+      "text": " A train departs at 1315 and arrives at 1405. How long is the journey?"
+    },
+    {
+      "utterance": 10,
+      "start": 84.300958,
+      "end": 90.28256300000001,
+      "text": " 45 minutes to 14 hundred and five more minutes. The journey lasts 50 minutes."
+    },
+    {
+      "utterance": 11,
+      "start": 91.478542,
+      "end": 98.351917,
+      "text": " Subtracting the minute numbers alone is a mistake when you cross an hour. Use the full timeline instead."
+    },
+    {
+      "utterance": 12,
+      "start": 99.552854,
+      "end": 107.28025,
+      "text": " For a deadline, consider arrival time, not just departure time. Arriving after an event begins, maybe too late."
+    },
+    {
+      "utterance": 13,
+      "start": 108.478667,
+      "end": 115.47066699999999,
+      "text": " You must arrive before 10. A service arrives at 935. Does it meet the deadline?"
+    },
+    {
+      "utterance": 14,
+      "start": 120.626792,
+      "end": 126.85043800000001,
+      "text": " Yes, 935 is 25 minutes before 10, so the service meets the deadline."
+    },
+    {
+      "utterance": 15,
+      "start": 128.058917,
+      "end": 135.161104,
+      "text": " Remember to include walking and waiting time. Reaching the station exactly when the bus leaves is risky."
+    },
+    {
+      "utterance": 16,
+      "start": 136.374375,
+      "end": 142.475229,
+      "text": " A bus departs at 920 and arrives at 10.05. How many minutes does the trip take?"
+    },
+    {
+      "utterance": 17,
+      "start": 147.661854,
+      "end": 153.461771,
+      "text": " 40 minutes to 10 o'clock then 5 more minutes. The trip lasts 45 minutes."
+    },
+    {
+      "utterance": 18,
+      "start": 154.660875,
+      "end": 161.885562,
+      "text": " Check that your answer is sensible. A journey crossing an hour can be longer than the difference between the minute digits."
+    },
+    {
+      "utterance": 19,
+      "start": 163.079458,
+      "end": 170.07318800000002,
+      "text": " A train leaves at 1135 and arrives at 1220. Calculate the duration using noon."
+    },
+    {
+      "utterance": 20,
+      "start": 175.288,
+      "end": 179.979542,
+      "text": " 25 minutes to noon plus 20 minutes afterwards makes 45 minutes."
+    },
+    {
+      "utterance": 21,
+      "start": 181.16725,
+      "end": 186.996646,
+      "text": " Read the correct time table entry Draw a timeline, cross the hour boundary and add the intervals."
+    },
+    {
+      "utterance": 22,
+      "start": 188.196875,
+      "end": 197.21858400000002,
+      "text": " Think about a school bus timetable. The departure time tells us when to be at the stop while the arrival time tells us when we can reach our destination."
+    },
+    {
+      "utterance": 23,
+      "start": 198.430167,
+      "end": 207.313063,
+      "text": " If the bus is delayed, our original plan may no longer work. A good traveler checks whether there is enough time before an important appointment."
+    },
+    {
+      "utterance": 24,
+      "start": 208.508875,
+      "end": 216.54793800000002,
+      "text": " Try a different strategy. Instead of counting every minute, split the journey at the nearest whole hour and add the two intervals."
+    },
+    {
+      "utterance": 25,
+      "start": 217.756875,
+      "end": 226.63408299999998,
+      "text": " A journey from 935 to 10 o'clock takes 25 minutes. We know this because 60 minus 35 equals 25."
+    },
+    {
+      "utterance": 26,
+      "start": 227.8215,
+      "end": 235.442229,
+      "text": " Check your answer by counting forward. Start at 935 at 25 minutes and you should reach 10 o'clock."
+    },
+    {
+      "utterance": 27,
+      "start": 236.629333,
+      "end": 245.371375,
+      "text": " If you have to change buses calculate the waiting time between the first arrival and the second departure. That way is part of the whole trip."
+    },
+    {
+      "utterance": 28,
+      "start": 246.565125,
+      "end": 255.58074999999997,
+      "text": " The most useful first step in a word problem is deciding what is being asked. Do you need a duration of finishing time or an angle size?"
+    },
+    {
+      "utterance": 29,
+      "start": 256.789208,
+      "end": 265.86239600000005,
+      "text": " Imagine a workshop starting at 945 and lasting 30 minutes. 15 minutes takes you to 10 on another 15 to 10 15."
+    },
+    {
+      "utterance": 30,
+      "start": 267.067333,
+      "end": 276.307666,
+      "text": " A full rotation is 360 degrees. If a robot turns through 90 degrees 4 times, it returns to its starting direction."
+    },
+    {
+      "utterance": 31,
+      "start": 277.516083,
+      "end": 285.757021,
+      "text": " When two angles form a straight line, their measures total 180 degrees. This fact lets us find a missing angle."
+    },
+    {
+      "utterance": 32,
+      "start": 286.948583,
+      "end": 297.0285,
+      "text": " Suppose one angle is 70 degrees. The adjacent angle on a straight line is 110 degrees because the sum is 180."
+    },
+    {
+      "utterance": 33,
+      "start": 298.22675,
+      "end": 307.40031200000004,
+      "text": " If an event finishes at 11.20 and lasts 45 minutes, work backwards 20 minutes to 11, then 25 more to 10.35."
+    },
+    {
+      "utterance": 34,
+      "start": 308.565083,
+      "end": 317.13152099999996,
+      "text": " A useful check is to reverse the calculation. Add 45 minutes to 1035 and confirm that you reach 11.20."
+    },
+    {
+      "utterance": 35,
+      "start": 318.340583,
+      "end": 327.366521,
+      "text": " Now, invent a problem that combines a travel duration with a turn. Explain which part needs a timeline and which needs an angle diagram."
+    },
+    {
+      "utterance": 36,
+      "start": 328.559583,
+      "end": 338.417021,
+      "text": " estimate before you calculate a journey from 1135 to 1220 must be shorter than an hour because 1235 would be one hour later."
+    },
+    {
+      "utterance": 37,
+      "start": 339.633292,
+      "end": 347.000854,
+      "text": " You can explain your thinking with words, numbers or a timeline. The strongest answer shows where each interval comes from."
+    }
+  ]
+}

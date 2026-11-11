@@ -20,8 +20,8 @@ Authority: [QCAA v9 Year 5 alignment](https://www.qcaa.qld.edu.au/downloads/aciq
 | AC9M5A02 | Unknown values | Covered | multiplication-division.html#lesson5 | — |
 | AC9M5M01 | Metric measurement | Covered | measurement.html#lesson1–#lesson2; exact Python/SymPy assessment oracle; released media manifest. | Perceptual/live-service checks are separate. |
 | AC9M5M02 | Perimeter and area | Covered | measurement.html#lesson3–#lesson5; exact Python/SymPy geometry; released media manifest. | Perceptual/live-service checks are separate. |
-| AC9M5M03 | 12/24-hour time | Partial | time-angles.html#lesson1–#lesson2; 13-family independent assessment oracle. | Five Time and Angles videos lack captions/transcripts; audiovisual review unverified. |
-| AC9M5M04 | Angles | Partial | time-angles.html#lesson3–#lesson5; draggable construction tool and protractor diagrams. | Video accessibility/review blockers; core quiz kinds2/3 use Year6 AC9M6M04 relationships without extension labels. |
+| AC9M5M03 | 12/24-hour time | Partial | time-angles.html#lesson1–#lesson2; 12-family independent assessment oracle; practical time-system conversion. | Four aligned caption/transcript sets integrated; branded lesson1 blocked. Exact audiovisual/caption review remains unverified. |
+| AC9M5M04 | Angles | Partial | time-angles.html#lesson3–#lesson5; draggable construction tool and protractor diagrams. | Branded lesson1 and audiovisual/caption/practical review remain blocked. Unknown-angle, signed-angle and timetable-planning content excluded from core and labelled extension. |
 | AC9M5SP01 | Objects and nets | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
 | AC9M5SP02 | Grid coordinates | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
 | AC9M5SP03 | Transformations and symmetry | Missing | No dedicated lesson/assessment implementation in baseline 9420db7. | — |
