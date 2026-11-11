@@ -18,3 +18,5 @@ python tests/time-angles-accessibility.py
 ```
 
 Reproduction rewrites sidecars/evidence, never media. Stop on ambiguous/missing utterance boundaries or alignment failure. Review differences, regenerate the manifest hashes only after inspecting changed evidence, and rerun the quality gates. CI validates saved artifacts without downloading a speech model or rerunning production.
+
+A real390×844 Chromium page screenshot exposed native captions covering an angle when controls were visible. Integrated cues now use the empty top band (`line:1% position:50% size:90%`) with a12px minimum page font; `caption-phone-layout.png` records the inspected correction. The browser checks every cue’s placement fields and active early/middle/late playback. Physical-device readability remains unverified.

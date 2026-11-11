@@ -5,7 +5,7 @@
   "script": "video-agent/time-angles/render_video2.py",
   "script_sha256": "623448c4b81fd07fd94e8c3e4a10292a8734dfb08df80f8f6622f071c740ee29",
   "captions": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.vtt",
-  "captions_sha256": "a0d9228825039e1b0258afde8aee35cc0411d97498811cd0457b57608f90c4f4",
+  "captions_sha256": "0dadc14db174aec09627eb61579a5c3598c970b76f3988b81074972ee17883a5",
   "transcript": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys_transcript.txt",
   "transcript_sha256": "6ad1232f90dd62ba156190332fff3582baf8a903dbbecb53142f059ba7a9e395",
   "method": "Actual decoded audio silence boundaries plus PocketSphinx 5.0.4 CMU-en-US acoustic forced word alignment of saved renderer wording; 10ms frame resolution.",
@@ -4896,5 +4896,11 @@
       "flag": "reading_speed_over_17_cps",
       "cps": 17.1
     }
-  ]
+  ],
+  "caption_layout": {
+    "line_percent": 1,
+    "position_percent": 50,
+    "size_percent": 90,
+    "reason": "Use empty top band; keep captions off angle/clock models and native controls. Minimum page cue font 12px."
+  }
 }

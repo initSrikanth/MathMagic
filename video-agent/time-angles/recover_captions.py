@@ -86,7 +86,7 @@ def recover(n):
     transcript = OUT/'lesson1-historical-transcript.txt' if blocked else stem.with_name(stem.name+'_transcript.txt')
     vtt = OUT/'lesson1-historical-captions.vtt' if blocked else src.with_suffix('.vtt')
     transcript.write_text('\n\n'.join(b[1] for b in script_beats)+'\n')
-    vtt.write_text('WEBVTT\n\n'+'\n\n'.join(f'{i}\n{stamp(c["start"])} --> {stamp(c["end"])}\n'+textwrap.fill(c['text'],width=42,break_long_words=False,break_on_hyphens=False) for i,c in enumerate(cues,1))+'\n')
+    vtt.write_text('WEBVTT\n\n'+'\n\n'.join(f'{i}\n{stamp(c["start"])} --> {stamp(c["end"])}'+('' if blocked else ' line:1% position:50% size:90%')+'\n'+textwrap.fill(c['text'],width=42,break_long_words=False,break_on_hyphens=False) for i,c in enumerate(cues,1))+'\n')
     info = {'schema':1,'video':str(src.relative_to(ROOT)),'video_sha256':sha(src),'script':str(script.relative_to(ROOT)), 'script_sha256':sha(script), 'wording_source':'c4d27ce^:video-agent/time-angles/render_video1.py' if blocked else str(script.relative_to(ROOT)),
             'captions':str(vtt.relative_to(ROOT)),'captions_sha256':sha(vtt),'transcript':str(transcript.relative_to(ROOT)),'transcript_sha256':sha(transcript),
             'method':'Actual decoded audio silence boundaries plus PocketSphinx 5.0.4 CMU-en-US acoustic forced word alignment of saved renderer wording; 10ms frame resolution.',

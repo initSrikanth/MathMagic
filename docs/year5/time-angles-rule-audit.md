@@ -40,7 +40,7 @@ Scope: four Time/Angles caption integrations, five-source recovery, Year5 core-a
 | Existing external-resource pass | PASS | Focused correction uses existing owned videos; extra provider embed unnecessary; source selection recorded |
 | Captions match actual speech | FAIL | Four aligned candidate tracks; full listening still unverified. Lesson1 actual branding differs from current script; faithful historical evidence kept unintegrated |
 | Transcripts match actual speech | FAIL | Source-wording/ASR comparison and hashes retained, but exact listening not performed |
-| Caption timing and coverage structure | PASS | Actual acoustic word times; ordered nonoverlapping cues, word preservation, two lines42characters maximum |
+| Caption timing and coverage structure | PASS | Actual acoustic word times; ordered nonoverlapping cues, word preservation, two lines42characters maximum; top-band positioning avoids teaching models/controls |
 | Caption readability review | FAIL |61 speed/short-duration flags need review; structural/browser checks cannot resolve perceived reading load |
 | Story/goal/criteria/teaching delivery | FAIL | Existing videos preserved; no full audiovisual pedagogy approval inferred from scripts |
 | No branding in new active caption text | PASS | Four integrated sidecars brand-free; branded historical lesson1 files never referenced by player |

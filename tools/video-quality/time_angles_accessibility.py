@@ -35,7 +35,7 @@ def verify():
         def timestamp(s):
             h,m,s=map(float,s.split(':'));return h*3600+m*60+s
         for i,(block,cue)in enumerate(zip(blocks,cues)):
-            lines=block.splitlines();start,end=map(timestamp,lines[1].split(' --> '))
+            lines=block.splitlines();start,end=map(timestamp,[s.split()[0] for s in lines[1].split(' --> ')])
             assert 0<=start<end<=duration+.03
             if i:assert start>=cues[i-1]['end']-.001
             assert abs(start-cue['start'])<.0011 and abs(end-cue['end'])<.0011
@@ -52,6 +52,7 @@ def verify():
             assert alignment['wording_source']=='c4d27ce^:video-agent/time-angles/render_video1.py'
             assert row['frame_defect_evidence']in row['assets']
         else:
+            assert all('line:1% position:50% size:90%' in b.splitlines()[1] for b in blocks), 'Captions must stay in the empty top band'
             assert not branded
             assert 'src="'+alignment['captions']+'"'in section and 'href="'+alignment['transcript']+'"'in section
             assert 'Read the transcript'in section

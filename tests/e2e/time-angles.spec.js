@@ -189,6 +189,7 @@ test('Time and Angles: four native caption tracks load and follow early, middle 
     const track=video.locator('track[kind="captions"][srclang="en"]');await expect(track).toHaveCount(1);
     await video.evaluate(v=>{v.muted=true;v.preload='auto';v.load();v.textTracks[0].mode='showing';});
     await expect.poll(()=>video.evaluate(v=>v.readyState>=2&&v.textTracks[0].cues?.length>40)).toBe(true);
+    expect(await video.evaluate(v=>Array.from(v.textTracks[0].cues).every(c=>c.line===1&&c.position===50&&c.size===90))).toBe(true);
     const times=await video.evaluate(v=>{const cues=v.textTracks[0].cues;return [0,Math.floor(cues.length/2),cues.length-1].map(i=>cues[i].startTime+.1)});
     for(const time of times){
       await video.evaluate(async(v,t)=>{v.currentTime=t;await v.play()},time);
