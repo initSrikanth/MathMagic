@@ -1,8 +1,20 @@
-# PR59 durable recovery checkpoint — 11 November 2026
+# PR59 durable recovery checkpoint — 12 November 2026
 
 **Release BLOCKED. Do not merge or deploy.** Existing PR: <https://github.com/initSrikanth/MathMagic/pull/59>, branch `feature/measurement-production-pilot`, base recovered as `047666034299b6e6726e1e7a1d56eee8374aa74a`. Use [the recovery procedure](codex-github-recovery.md) to discover the current head/checks; this file cannot contain its own commit SHA.
 
-## GitHub state recovered
+## Lesson 1 repair — current execution, 12 November 2026
+
+The latest PR59 branch head `2b5fa082260a68704273d5aab3867bb37169a88f` was read directly from GitHub and preserved. Only Lesson 1 media, its player/captions/transcript and focused evidence/tests are changed. [Current repair readiness](pr59-lesson1-repair-readiness.md) supersedes the Lesson 1 defect status below; the remaining recovery history is retained as historical evidence.
+
+- The new unique Lesson 1 candidate is 406.733 seconds (6:46.733). Original source MP4/hash and historical captions/alignment/ASR are preserved for rollback. Every asset for Lessons 2–5 remains byte-for-byte unchanged.
+- Reused the existing Kokoro recording and recovered acoustic word timing. Removed the branded welcome sentence at measured quiet boundaries, plus redundant demonstrations/closing material to meet the 5–7 minute target. No synthesis, pitch/speed effects, invented silence or paid services.
+- Removed frame branding; repaired incorrect time equivalences, noon/midnight, hidden prediction answers, explicit duration jumps and crowded labels. Reused existing clock primitives/source models. Five native caption/transcript sets are now present on the PR candidate page, with top-band cues and a new Lesson 1 poster.
+- Executed checks: final targeted desktop/mobile suite **22/22 PASS**, contract **31/31 PASS**, checkpoint safety **11/11 PASS**; all 12,202 frames decode, caption timing/coverage and independent duration checks pass. Final MP4 SHA-256: `3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1`. The canonical release guard lacks a Time/Angles inventory entry and remains a release blocker; no infrastructure is changed.
+- Full listening/viewing, caption fidelity/readability, persistent-model review and physical Safari/iOS remain UNVERIFIED. This is an objectively checked repair candidate, not full perceptual or release approval. Live Firebase/rules and the historical assessment-design issues remain outside this repair.
+- No merge, deployment, scheduling or subsequent production stage is authorised by this execution. Stop after committing the repair and finishing targeted checks.
+
+## GitHub state recovered (historical, 11 November)
+
 
 Recovered source head: `6520819d483214943d584daa132bc3e1796baece`. Its three existing commits were preserved: `1792e0e` (pilot and frozen legacy publication), `fb91cee` (dependency triggers/Year6 scope warning), `6520819` (ignored browser diagnostics). No PR discussion comments were present when fetched.
 
@@ -10,7 +22,7 @@ Recovered source head: `6520819d483214943d584daa132bc3e1796baece`. Its three exi
 - [Regression42892836320](https://github.com/initSrikanth/MathMagic/actions/runs/42892836320): success at that historical head (238 browser tests, 31 contract tests, independent mathematics and emulator gates). This is historical evidence, not approval of new changes.
 - Retained artifacts: readiness13799127824 (SHA256 `2168032d77e2c98be0046fa7746b5a7187678b81b2d5ce9b8f6f4acd41191aa5`); source13798638111; student-flow13798534246; live13799313115; browser13800560499. Receipts/readiness expire24November; browser diagnostics17November. Artifact availability was queried directly. This runtime's direct download redirect to Azure blob storage was denied; the complete rendered readiness report was recovered from GitHub job logs through the connector. No historical receipts were rewritten as current local passes.
 
-## Work completed in this resume
+## Work completed in the earlier recovery (historical)
 
 - Preserved every MP4 and approved Measurement media/evidence. Five Time/Angles source hashes are in `video-agent/time-angles/accessibility/manifest.json`; no paid credits, synthesis, new-topic production or retained candidate MP4.
 - Recovered actual audio pause boundaries and forced word alignment for all five lessons, plus independent offline ASR. Four brand-free tracks/transcripts and posters are integrated. Browser tests verify native track loading and advancing early/middle/late playback.
@@ -24,7 +36,7 @@ Recovered source head: `6520819d483214943d584daa132bc3e1796baece`. Its three exi
 
 Local source gates: inventory, curriculum, mathematics and unchanged Measurement media PASS. Independent marking covers30,000 Measurement plus30,000 Time/Angles positions.11 checkpoint/release-safety tests PASS. Existing protected architecture/generator/progress regression PASS. Initial targeted Time/Angles tests passed16 cases; adding real caption/WCAG/format tests exposed contrast failures (fixed) and a new test's incorrect assumption about the existing feedback green (corrected to the actual shared colour). Final combined browser/CI outcomes must be read from the latest PR head's runs and readiness artifacts; do not reuse these initial local results as exact-final-head evidence.
 
-## Remaining actions, in order
+## Earlier remaining actions (historical; current repair status above)
 
 1. Remediate the exact lesson1 source's visible and spoken branding under the existing-video correction gate, preserving the original voice/file and rollback. Re-align captions to actual corrected speech; validate and integrate only after evidence passes. Existing historical sidecars are not approved output.
 2. Perform full listening/viewing and caption-fidelity review of exact video/caption hashes, including names/numbers, introductions/endings/transitions and61 reading-speed/short-duration flags. ASR/forced alignment cannot approve these. Practical angle construction/measurement needs learner/teacher evidence; a numeric quiz is insufficient.

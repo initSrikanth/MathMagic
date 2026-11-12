@@ -1,4 +1,8 @@
-# Video production integration readiness — Phase 2
+# Video production integration readiness
+
+Current PR59 Lesson 1 repair status (12 November 2026): see [exact-byte candidate readiness](pr59-lesson1-repair-readiness.md) and [durable checkpoint](pr59-recovery-checkpoint.md). Rendering uses preserved Kokoro audio and local graphics only. Release remains BLOCKED; no merge or deployment.
+
+# Historical Phase 2 audit
 
 Audit: 16 October 2026 (Australia/Brisbane). Baseline: [report at 1271e3a](https://github.com/initSrikanth/MathMagic/blob/1271e3ae8010e662d1a37635b9a9fad1ab7db961/docs/video-production-readiness.md). Follow [AGENTS.md](../AGENTS.md) and the [specialised workflow](../agents/VIDEO_PRODUCTION.md).
 

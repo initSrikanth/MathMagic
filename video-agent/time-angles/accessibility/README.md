@@ -1,4 +1,10 @@
-# Recovered Time and Angles accessibility evidence
+# Time and Angles accessibility evidence
+
+## Current Lesson 1 repair — 12 November 2026
+
+`manifest.json` now points Lesson 1 at the unique repaired candidate and `../lesson1-repair/alignment.json`. The original MP4 and every historical sidecar/ASR/frame evidence remain unchanged. Lessons 2–5 and all their assets are unchanged. All five tracks are integrated on the PR candidate page; full listening/viewing and release readiness remain UNVERIFIED/BLOCKED. See [repair evidence](../lesson1-repair/README.md) and [readiness](../../../docs/pr59-lesson1-repair-readiness.md).
+
+## Historical recovery — 11 November 2026
 
 Recovered directly from the GitHub MP4s at PR59 head `6520819`. `manifest.json` binds all five original video hashes, sidecars, alignment and independent ASR evidence. No MP4 changed, no voice synthesis ran, and no paid credits were used.
 

@@ -173,7 +173,7 @@ test('Time and Angles: WCAG AA, transcript keyboard access and responsive lesson
     const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
     expect(result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),screen).toEqual([]);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
-    if(screen!=='lesson1'&&screen!=='challenge'){
+    if(screen!=='challenge'){
       const summary=page.locator('#'+screen+' .video-transcript summary');await summary.focus();await page.keyboard.press('Enter');
       await expect(page.locator('#'+screen+' .video-transcript')).toHaveAttribute('open','');
       const link=page.locator('#'+screen+' .video-transcript a');expect((await page.request.get(await link.getAttribute('href'))).ok()).toBe(true);
@@ -181,9 +181,9 @@ test('Time and Angles: WCAG AA, transcript keyboard access and responsive lesson
   }
 });
 
-test('Time and Angles: four native caption tracks load and follow early, middle and late playback',async({page})=>{
+test('Time and Angles: five native caption tracks load and follow early, middle and late playback',async({page})=>{
   test.setTimeout(120000);await openTopic(page);
-  for(let n=2;n<=5;n++){
+  for(let n=1;n<=5;n++){
     await page.locator('[data-screen="lesson'+n+'"]').click();
     const video=page.locator('#lesson'+n+' video');await expect(video).toHaveAttribute('playsinline','');
     const track=video.locator('track[kind="captions"][srclang="en"]');await expect(track).toHaveCount(1);
@@ -200,7 +200,7 @@ test('Time and Angles: four native caption tracks load and follow early, middle 
     await expect(video).toHaveAttribute('poster',/.+\.jpg$/);
   }
   await page.locator('[data-screen="lesson1"]').click();
-  await expect(page.locator('#lesson1 video track')).toHaveCount(0); // Explicitly blocked, not fabricated captions.
+  await expect(page.locator('#lesson1 video source')).toHaveAttribute('src','videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.mp4');
 });
 
 test('Time and Angles: replacement question controls reject malformed formats and retain feedback colours',async({page})=>{
