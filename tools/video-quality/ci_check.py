@@ -4,7 +4,10 @@ from pathlib import Path
 from contract import ROOT,load,assert_release,assert_scoped_correction_release,assert_owner_approved_space_release,branded,rendered_texts,overlay_brand_literals
 from math_check import inspect as inspect_math
 from narration_release import verify as verify_narration
-c=load();db=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text());records=db['records'];assert len(records)==35 and len({r['mp4'] for r in records})==35
+from registry import load_registry,legacy_inventory,check_history,assert_releasable
+c=load();db=json.loads((ROOT/'docs/video-quality-audit-35.json').read_text());records=db['records']
+media_registry=load_registry();legacy_inventory(records,media_registry['index'])
+assert len({r['mp4'] for r in records})==len(records)
 for name in json.loads((Path(__file__).parent/'guarded-entries.json').read_text()):
  tree=ast.parse((ROOT/name).read_text());assert any(isinstance(x,ast.Call) and isinstance(x.func,ast.Name) and x.func.id=='_vq_enforce' for x in ast.walk(tree)),name
 parser_spec=importlib.util.spec_from_file_location('video_cards',ROOT/'video-agent/fractions-graphics-2026/integrate.py');parser_module=importlib.util.module_from_spec(parser_spec);parser_spec.loader.exec_module(parser_module)
@@ -20,9 +23,7 @@ for r in records:
   before=subprocess.check_output(['git','show',base+':'+r['page']],cwd=ROOT,text=True);after=(ROOT/r['page']).read_text();players=lambda h:[h[a:b] for section,a,b in parser_module.Cards(h).cards if section==r['lesson_section']]
   player_changed=players(before)!=players(after)
  if media&changed or player_changed:selected.append(r)
-known={r[k] for r in records for k in ['mp4','captions','transcript','poster']};known.update(v for r in records for k,v in r.get('candidate',{}).items() if k in ['mp4','captions','transcript','poster'])
-known.update(v for r in records for k,v in r.get('correction',{}).get('replacement',{}).items() if k in ['mp4','captions','transcript','poster'])
-known.update(v for r in records for k,v in r.get('narration_replacement',{}).get('replacement',{}).items() if k in ['mp4','captions','transcript','poster'])
+known=set(media_registry['files'])
 space=None
 if (ROOT/'video-agent/space/release.json').exists():
  space=assert_owner_approved_space_release()
@@ -30,6 +31,8 @@ if (ROOT/'video-agent/space/release.json').exists():
  print('Verified10 checksum-bound Space assets with the recorded owner attestation; independent audiovisual, Safari and live Firebase verification is not claimed.')
 unknown=[f for f in changed if f.lower().endswith('.mp4') and f not in known]
 assert not unknown,'Unaudited new/replacement media under production hold: '+repr(unknown)
+trusted=check_history(media_registry,base)
+assert_releasable(media_registry,changed,trusted=trusted)
 if selected:
  for r in selected:
   target=dict(r,**r.get('narration_replacement',{}).get('replacement',r.get('correction',{}).get('replacement',r.get('candidate',{}))));script=json.loads((ROOT/target['script']).read_text())

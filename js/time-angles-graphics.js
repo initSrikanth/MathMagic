@@ -7,7 +7,7 @@
   const svg=E('svg',{viewBox:'0 0 240 210',role:'img','aria-label':deg+' degree angle diagram',style:'width:100%;max-width:'+size+'px;height:auto'});
   const cx=110,cy=153,r=76,theta=deg*Math.PI/180;
   const pt=(a,rad=r)=>[cx+rad*Math.cos(-a*Math.PI/180),cy+rad*Math.sin(-a*Math.PI/180)];
-  if(protractor){svg.append(E('path',{d:'M 18 153 A 92 92 0 0 1 202 153',fill:'none',stroke:'#94a3b8','stroke-width':2}));for(let i=0;i<=180;i+=10){const p=pt(i,92),q=pt(i,i%30===0?79:85);svg.append(E('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:'#64748b','stroke-width':i%30===0?2:1}));if(i%30===0){const t=pt(i,67);svg.append(E('text',{x:t[0],y:t[1],fill:'currentColor','text-anchor':'middle','font-size':11},String(i)));}}}
+  if(protractor){svg.append(E('path',{d:'M 18 153 A 92 92 0 0 1 202 153',fill:'none',stroke:'#94a3b8','stroke-width':2}));for(let i=0;i<=180;i+=5){const p=pt(i,92),q=pt(i,i%30===0?79:i%10===0?85:88);svg.append(E('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:'#64748b','stroke-width':i%30===0?2:1}));if(i%30===0){const t=pt(i,67);svg.append(E('text',{x:t[0],y:t[1],fill:'currentColor','text-anchor':'middle','font-size':11},String(i)));}}}
   const p=pt(deg);svg.append(E('line',{x1:cx,y1:cy,x2:cx+r,y2:cy,stroke:'currentColor','stroke-width':4,'stroke-linecap':'round'}),E('line',{x1:cx,y1:cy,x2:p[0],y2:p[1],stroke:'currentColor','stroke-width':4,'stroke-linecap':'round'}));
   const arcR=34,arcEnd=pt(deg,arcR);
   if(deg===360){svg.append(E('circle',{cx,cy,r:arcR,stroke:'#0891b2','stroke-width':4,fill:'none'}));}

@@ -1,0 +1,618 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "file": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "additionalProperties": false
+    },
+    "packets": {
+      "type": "object",
+      "properties": {
+        "video": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sha256": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "count",
+            "sha256"
+          ],
+          "additionalProperties": false
+        },
+        "audio": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sha256": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "count",
+            "sha256"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "video",
+        "audio"
+      ],
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_at": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://[^/]+/.+"
+        },
+        "subject": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "minProperties": 1
+        },
+        "full_audio_listened": {
+          "type": "boolean"
+        },
+        "full_video_viewed": {
+          "type": "boolean"
+        },
+        "script_approved": {
+          "type": "boolean"
+        },
+        "all_flags_reviewed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "record": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "policy": {
+          "enum": [
+            "unchanged",
+            "replacement",
+            "new"
+          ]
+        },
+        "status": {
+          "enum": [
+            "retained",
+            "pending",
+            "approved"
+          ]
+        },
+        "assets": {
+          "type": "object",
+          "properties": {
+            "video": {
+              "$ref": "#/$defs/file"
+            },
+            "captions": {
+              "$ref": "#/$defs/file"
+            },
+            "transcript": {
+              "$ref": "#/$defs/file"
+            },
+            "poster": {
+              "$ref": "#/$defs/file"
+            },
+            "script": {
+              "$ref": "#/$defs/file"
+            },
+            "alignment": {
+              "$ref": "#/$defs/file"
+            },
+            "producer": {
+              "$ref": "#/$defs/file"
+            },
+            "verification": {
+              "$ref": "#/$defs/file"
+            }
+          },
+          "required": [
+            "video"
+          ],
+          "additionalProperties": false
+        },
+        "packets": {
+          "$ref": "#/$defs/packets"
+        },
+        "replaces": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "human_approval": {
+          "$ref": "#/$defs/approval"
+        },
+        "legacy": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "variant": {
+              "enum": [
+                "original",
+                "correction",
+                "narration",
+                "candidate"
+              ]
+            }
+          },
+          "required": [
+            "number",
+            "variant"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "policy",
+        "status",
+        "assets",
+        "packets"
+      ],
+      "additionalProperties": false
+    },
+    "topic": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record"
+          },
+          "minItems": 1
+        },
+        "placements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "section": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              }
+            },
+            "required": [
+              "section",
+              "record"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "topic",
+        "records",
+        "placements"
+      ],
+      "additionalProperties": false
+    },
+    "index": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "preservation_commit": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "preserved": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/file"
+          }
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "page": {
+                "type": "string",
+                "minLength": 1
+              },
+              "inventory": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "legacy_numbers": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "uniqueItems": true
+              },
+              "manifest": {
+                "$ref": "#/$defs/file"
+              }
+            },
+            "required": [
+              "id",
+              "page",
+              "inventory",
+              "legacy_numbers",
+              "manifest"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "preservation_commit",
+        "preserved",
+        "topics"
+      ],
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "subject": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "minProperties": 1
+        },
+        "verifier": {
+          "$ref": "#/$defs/file"
+        },
+        "checks": {
+          "type": "object",
+          "properties": {
+            "encoding": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "faststart": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "full_decode": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "non_silent": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "no_clipping": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "caption_timing": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "caption_transcript": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "branding_text": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "branding_frames": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "script_alignment": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "caption_fidelity": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "mathematics": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "voice_configuration": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "graphics_only": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            },
+            "native_narration": {
+              "enum": [
+                "PASS",
+                "FAIL",
+                "UNVERIFIED"
+              ]
+            }
+          },
+          "required": [
+            "encoding",
+            "faststart",
+            "full_decode",
+            "non_silent",
+            "no_clipping",
+            "caption_timing",
+            "caption_transcript",
+            "branding_text",
+            "branding_frames",
+            "script_alignment",
+            "caption_fidelity",
+            "mathematics",
+            "voice_configuration",
+            "graphics_only",
+            "native_narration"
+          ],
+          "additionalProperties": false
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "open",
+                  "reviewed"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "metrics": {
+          "type": "object",
+          "properties": {
+            "audio_rms": {
+              "type": "number",
+              "minimum": 0
+            },
+            "clipping_fraction": {
+              "type": "number",
+              "minimum": 0
+            },
+            "decoded_frames": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "audio_rms",
+            "clipping_fraction",
+            "decoded_frames"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "subject",
+        "verifier",
+        "checks",
+        "flags",
+        "metrics"
+      ],
+      "additionalProperties": false
+    },
+    "script": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "curriculum": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^AC9M[567](N|A|M|SP|ST|P)[0-9]{2}$"
+          },
+          "minItems": 1
+        },
+        "voice": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "speaker_id": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "model_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "voices_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "name",
+            "speaker_id",
+            "model_sha256",
+            "voices_sha256"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "topic",
+        "title",
+        "text",
+        "curriculum",
+        "voice"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$ref": "#/$defs/index"
+}

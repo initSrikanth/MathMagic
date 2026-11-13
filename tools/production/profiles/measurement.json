@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "topic": "measurement",
+  "title": "Measuring Our World",
+  "page": "measurement.html",
+  "release": "video-agent/production-v2/measurement-release.json",
+  "lesson_count": 5,
+  "audit_pages": [
+    "measurement.html",
+    "time-angles.html"
+  ],
+  "curriculum": [
+    {
+      "code": "AC9M5M01",
+      "description": "choose appropriate metric units when measuring the length, mass and capacity of objects; use smaller units or a combination of units to obtain a more accurate measure",
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M01",
+      "sections": [
+        "lesson1",
+        "lesson2"
+      ],
+      "evidence": [
+        "combined",
+        "ruler",
+        "capacity"
+      ],
+      "assessment": "tests/validate-measurement.py"
+    },
+    {
+      "code": "AC9M5M02",
+      "description": "solve practical problems involving the perimeter and area of regular and irregular shapes using appropriate metric units",
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M5M02",
+      "sections": [
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "evidence": [
+        "perimeter",
+        "area",
+        "irregular"
+      ],
+      "assessment": "tests/validate-measurement.py"
+    }
+  ],
+  "rules": [
+    "AGENTS.md",
+    "video-agent/VIDEO_PRODUCTION_RULES.md",
+    "video-agent/video-production-contract.json",
+    "video-agent/time-angles/GOLDEN_VIDEO_RULES.md"
+  ],
+  "inputs": {
+    "inventory": [
+      "measurement.html",
+      "time-angles.html",
+      "video-agent/production-v2/measurement-release.json",
+      "videos/MathMagic_Time_Angles_*.mp4",
+      "js/time-angles.js",
+      "videos/MathMagic_Time_Angles_*",
+      "video-agent/time-angles/accessibility/*",
+      "video-agent/time-angles/recover_captions.py",
+      "tools/video-quality/time_angles_accessibility.py"
+    ],
+    "curriculum": [
+      "measurement.html",
+      "docs/year5/measurement.md",
+      "js/measurement.js",
+      "tests/validate-measurement.py",
+      "time-angles.html",
+      "js/time-angles.js",
+      "docs/year5/time-angles-assessment.md",
+      "docs/time-angles-year5-content.md"
+    ],
+    "mathematics": [
+      "js/measurement.js",
+      "js/time-angles.js",
+      "tests/export-measurement.cjs",
+      "tests/validate-measurement.py",
+      "tests/time-angles-maths.test.cjs",
+      "video-agent/production-v2/measurement_content.py",
+      "tests/time-angles-accessibility.py",
+      "tools/video-quality/time_angles_accessibility.py",
+      "video-agent/time-angles/accessibility/*",
+      "time-angles.html"
+    ],
+    "media": [
+      "measurement.html",
+      "docs/video-quality-audit-35.json",
+      "video-agent/video-corrections-35/evidence/*.json",
+      "tools/video-quality/contract.py"
+    ],
+    "progress": [
+      "js/measurement-auth.js",
+      "tests/measurement-progress.test.js",
+      "tests/measurement-emulator.test.cjs",
+      "tests/emulator/*",
+      "package*.json"
+    ],
+    "browser": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js",
+      "tests/e2e/measurement*.spec.js",
+      "tests/serve.py",
+      "playwright.config.js",
+      "package*.json",
+      "time-angles.html",
+      "js/time-angles*.js",
+      "tests/e2e/time-angles.spec.js",
+      "videos/MathMagic_Time_Angles_*.vtt",
+      "videos/MathMagic_Time_Angles_*transcript.txt",
+      "videos/MathMagic_Time_Angles_*.jpg",
+      "video-agent/time-angles/accessibility/*"
+    ],
+    "accessibility": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js",
+      "tests/e2e/measurement-accessibility.spec.js",
+      "playwright.config.js",
+      "package*.json",
+      "time-angles.html",
+      "js/time-angles*.js",
+      "tests/e2e/time-angles.spec.js",
+      "videos/MathMagic_Time_Angles_*.vtt",
+      "videos/MathMagic_Time_Angles_*transcript.txt",
+      "videos/MathMagic_Time_Angles_*.jpg",
+      "video-agent/time-angles/accessibility/*"
+    ],
+    "deployment": [
+      "measurement.html",
+      "css/addition-subtraction.css",
+      "css/measurement.css",
+      "js/measurement*.js"
+    ]
+  },
+  "commands": {
+    "mathematics": [
+      [
+        "node",
+        "tests/export-measurement.cjs",
+        "{work}/scratch/measurement-variants.json"
+      ],
+      [
+        "python",
+        "tests/validate-measurement.py",
+        "{work}/scratch/measurement-variants.json"
+      ],
+      [
+        "node",
+        "tests/time-angles-maths.test.cjs"
+      ],
+      [
+        "python",
+        "tests/time-angles-accessibility.py"
+      ]
+    ],
+    "progress": [
+      [
+        "node",
+        "tests/measurement-progress.test.js"
+      ],
+      [
+        "npx",
+        "--no-install",
+        "firebase",
+        "emulators:exec",
+        "--project",
+        "demo-mathmagic-year5",
+        "--only",
+        "firestore",
+        "--config",
+        "tests/emulator/firebase.json",
+        "node tests/measurement-emulator.test.cjs"
+      ]
+    ],
+    "browser": [
+      [
+        "npx",
+        "--no-install",
+        "playwright",
+        "test",
+        "tests/e2e/measurement.spec.js",
+        "tests/e2e/time-angles.spec.js",
+        "tests/e2e/measurement-videos.spec.js",
+        "--retries=0"
+      ]
+    ],
+    "accessibility": [
+      [
+        "npx",
+        "--no-install",
+        "playwright",
+        "test",
+        "tests/e2e/measurement-accessibility.spec.js",
+        "--retries=0"
+      ]
+    ]
+  },
+  "site": "https://initsrikanth.github.io/MathMagic/",
+  "manual_evidence": "docs/year5/measurement-human-verification.json",
+  "manual_requirements": [
+    "exact_video_listening_and_viewing",
+    "live_firebase_approved_and_denied_access",
+    "live_firestore_save_restore_and_uid_isolation",
+    "deployed_firestore_rules",
+    "physical_safari_ios",
+    "time_angles_exact_video_caption_listening_and_viewing"
+  ],
+  "legacy_media_policy": "Preserve checksum-bound, owner-approved Measuring Our World files. The five-minute Golden Rule applies to new production, not retroactive regeneration. Scoped corrections do not certify accent or full perceptual quality.",
+  "production": "VERIFY_EXISTING_ONLY",
+  "site_assets": [
+    "measurement.html",
+    "css/addition-subtraction.css",
+    "css/measurement.css",
+    "js/measurement.js",
+    "js/measurement-auth.js"
+  ],
+  "audit_scope_rules": {
+    "time-angles.html": {
+      "assessment": "js/time-angles.js",
+      "extension_kinds": [
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "source": "https://www.scootle.edu.au/ec/search?accContentId=AC9M6M04",
+      "reason": "Year 6 unknown-angle/full-turn relationships and signed angle differences are excluded from the Year 5 core. Timetable planning is also extension (AC9M6M03); the core uses practical time-system comparison/conversion."
+    }
+  },
+  "audit_accessibility_manifest": "video-agent/time-angles/accessibility/manifest.json"
+}

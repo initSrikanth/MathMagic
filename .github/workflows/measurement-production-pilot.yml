@@ -1,0 +1,219 @@
+name: Measurement production pilot
+# Verification only. No generation, schedules, write token, merge or deployment step.
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/measurement-production-pilot.yml'
+      - '.github/workflows/render-time-angles-*.yml'
+      - 'tools/production/**'
+      - 'measurement.html'
+      - 'time-angles.html'
+      - 'css/measurement.css'
+      - 'js/measurement*.js'
+      - 'js/time-angles*.js'
+      - 'tests/*measurement*'
+      - 'tests/time-angles*'
+      - 'tests/e2e/measurement*.spec.js'
+      - 'video-agent/production-v2/measurement*.json'
+      - 'video-agent/video-production-contract.json'
+      - 'package*.json'
+      - '.gitignore'
+      - 'AGENTS.md'
+      - 'video-agent/VIDEO_PRODUCTION_RULES.md'
+      - 'video-agent/time-angles/GOLDEN_VIDEO_RULES.md'
+      - 'tools/video-quality/contract.py'
+      - 'docs/video-quality-audit-35.json'
+      - 'docs/year5/measurement*'
+      - 'docs/year5/coverage.*'
+      - 'video-agent/video-corrections-35/evidence/**'
+      - 'video-agent/video-corrections-35/scripts/**'
+      - 'video-agent/production-v2/measurement*'
+      - 'videos/quality-corrections/measurement/**'
+      - 'videos/MathMagic_V3_measurement_*'
+      - 'videos/MathMagic_Time_Angles_*'
+      - 'video-agent/time-angles/**'
+      - 'tools/video-quality/time_angles_accessibility.py'
+      - 'tests/e2e/time-angles.spec.js'
+      - 'docs/year5/time-angles*'
+      - 'docs/time-angles-year5-content.md'
+      - 'css/addition-subtraction.css'
+      - 'playwright.config.js'
+      - 'tests/serve.py'
+      - 'tests/emulator/**'
+  workflow_dispatch:
+    inputs:
+      profile:
+        type: choice
+        options: [measurement]
+        default: measurement
+  workflow_call:
+    inputs:
+      profile:
+        type: string
+        default: measurement
+permissions:
+  contents: read
+concurrency:
+  group: measurement-pilot-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+
+env:
+  PILOT_PROFILE: ${{ inputs.profile || 'measurement' }}
+  PYTHONUNBUFFERED: '1'
+  PILOT_DEPLOYMENT_BASE: ${{ github.event.pull_request.base.sha }}
+
+jobs:
+  source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/production/requirements.txt
+      - name: Provide media inspector and exact mathematics tools
+        run: |
+          command -v ffprobe || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
+          python -m pip install -r tools/production/requirements.txt
+      - name: Verify checkpoint and release safety
+        run: python -m unittest discover -s tools/production -p 'test_*.py'
+      - name: Inventory, curriculum, independent mathematics and unchanged-media evidence
+        run: python tools/production/pilot.py run --profile "$PILOT_PROFILE" --stages inventory curriculum mathematics media
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          overwrite: true
+          name: pilot-receipts-source
+          path: |
+            work/production-pilot/
+            !work/production-pilot/**/scratch/**
+            !work/production-pilot/**/.lock
+          retention-days: 14
+          if-no-files-found: error
+
+  student-flow:
+    needs: source
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Install locked test dependencies
+        run: npm ci --no-audit --no-fund
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/ms-playwright
+            ~/.cache/firebase/emulators
+          key: ${{ runner.os }}-measurement-pilot-${{ hashFiles('package-lock.json') }}
+      - name: Provide actual codec-capable browsers and virtual audio
+        run: |
+          npx playwright install --with-deps chromium chrome webkit
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg pulseaudio pulseaudio-utils
+          command -v ffmpeg
+          command -v ffprobe
+          pulseaudio --start --exit-idle-time=-1
+          pactl load-module module-null-sink sink_name=measurement_pilot_audio
+          pactl set-default-sink measurement_pilot_audio
+      - name: Emulator progress, real browser/media and WCAG accessibility gates
+        run: python tools/production/pilot.py run --profile "$PILOT_PROFILE" --stages progress browser accessibility
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          overwrite: true
+          name: pilot-receipts-student-flow
+          path: |
+            work/production-pilot/
+            !work/production-pilot/**/scratch/**
+            !work/production-pilot/**/.lock
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          overwrite: true
+          name: pilot-browser-diagnostics
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+          if-no-files-found: ignore
+
+  live-verification:
+    needs: student-flow
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Match existing live lesson and media bytes (no publication)
+        run: python tools/production/pilot.py run --profile "$PILOT_PROFILE" --stages deployment
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          overwrite: true
+          name: pilot-receipts-live
+          path: work/production-pilot/
+          retention-days: 14
+
+  readiness:
+    if: always()
+    needs: [source, student-flow, live-verification]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pilot-receipts-*
+          path: work/production-pilot
+          merge-multiple: true
+      - name: Report actual gates and mandatory external review separately
+        run: |
+          python tools/production/pilot.py report --profile "$PILOT_PROFILE"
+          cat "work/production-pilot/$PILOT_PROFILE/report.md" >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY'
+          import json,os
+          r=json.load(open('work/production-pilot/'+os.environ['PILOT_PROFILE']+'/report.json'))
+          assert all(s['status']=='PASS' for s in r['stages'].values()), 'An automated gate failed, was stale, or never ran'
+          print('Automated pilot gates passed. Release readiness is separately recorded; no deployment is performed.')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          overwrite: true
+          name: pilot-release-readiness
+          path: |
+            work/production-pilot/*/report.json
+            work/production-pilot/*/report.md
+          retention-days: 14

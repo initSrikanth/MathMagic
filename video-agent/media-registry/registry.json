@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "preservation_commit": "62c595d50696e393959ed34a77794137f7139fa0",
+  "preserved": [
+    {
+      "path": "docs/video-quality-audit-35.json",
+      "sha256": "d0845acae5839254754acf9d2a9e6bf6ee4decaca6e4eff36e3a7064f62891f4",
+      "bytes": 992961
+    },
+    {
+      "path": "video-agent/space/release.json",
+      "sha256": "b9b0eaaf11472524f55c3cb67dc35f2fd77ea378e93a82351713734037df2be3",
+      "bytes": 14032
+    }
+  ],
+  "topics": [
+    {
+      "id": "fractions",
+      "page": "fractions.html",
+      "inventory": [
+        "fractions-legacy-1-original",
+        "fractions-legacy-1-correction",
+        "fractions-legacy-2-original",
+        "fractions-legacy-2-correction",
+        "fractions-legacy-3-original",
+        "fractions-legacy-3-correction",
+        "fractions-legacy-4-original",
+        "fractions-legacy-4-correction",
+        "fractions-legacy-5-original",
+        "fractions-legacy-5-correction",
+        "fractions-lcm-extension"
+      ],
+      "legacy_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/fractions.json",
+        "sha256": "3e02f5156b4756e6ea679cc39437e7b2c0a9f35358adba7eeb1b55c95e00d9b2",
+        "bytes": 17589
+      }
+    },
+    {
+      "id": "whole-numbers",
+      "page": "whole-numbers.html",
+      "inventory": [
+        "whole-numbers-legacy-6-original",
+        "whole-numbers-legacy-6-correction",
+        "whole-numbers-legacy-7-original",
+        "whole-numbers-legacy-7-correction",
+        "whole-numbers-legacy-8-original",
+        "whole-numbers-legacy-8-correction",
+        "whole-numbers-legacy-9-original",
+        "whole-numbers-legacy-9-correction",
+        "whole-numbers-legacy-10-original",
+        "whole-numbers-legacy-10-correction"
+      ],
+      "legacy_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/whole-numbers.json",
+        "sha256": "ae123d59d065bb3b222081c8d547f5abce75e71c8336577a81993b20d55cbbcf",
+        "bytes": 16809
+      }
+    },
+    {
+      "id": "decimals-percentages",
+      "page": "decimals-percentages.html",
+      "inventory": [
+        "decimals-percentages-legacy-11-original",
+        "decimals-percentages-legacy-11-narration",
+        "decimals-percentages-legacy-12-original",
+        "decimals-percentages-legacy-12-narration",
+        "decimals-percentages-legacy-13-original",
+        "decimals-percentages-legacy-13-narration",
+        "decimals-percentages-legacy-14-original",
+        "decimals-percentages-legacy-14-correction",
+        "decimals-percentages-legacy-14-narration",
+        "decimals-percentages-legacy-15-original",
+        "decimals-percentages-legacy-15-correction",
+        "decimals-percentages-legacy-15-narration"
+      ],
+      "legacy_numbers": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/decimals-percentages.json",
+        "sha256": "21b36d694b1bb18a1a2f5b1931cc275736d2a36ff038f5de01b2d1592d92e87e",
+        "bytes": 21521
+      }
+    },
+    {
+      "id": "addition-subtraction",
+      "page": "addition-subtraction.html",
+      "inventory": [
+        "addition-subtraction-legacy-16-original",
+        "addition-subtraction-legacy-16-correction",
+        "addition-subtraction-legacy-16-narration",
+        "addition-subtraction-legacy-17-original",
+        "addition-subtraction-legacy-17-correction",
+        "addition-subtraction-legacy-17-narration",
+        "addition-subtraction-legacy-18-original",
+        "addition-subtraction-legacy-18-correction",
+        "addition-subtraction-legacy-18-narration",
+        "addition-subtraction-legacy-19-original",
+        "addition-subtraction-legacy-19-correction",
+        "addition-subtraction-legacy-19-narration",
+        "addition-subtraction-legacy-20-original",
+        "addition-subtraction-legacy-20-correction",
+        "addition-subtraction-legacy-20-narration"
+      ],
+      "legacy_numbers": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/addition-subtraction.json",
+        "sha256": "1dcab30bb6f3191b100475d12585fe3fc55a9f235f16d4fdf4ab8db4f908a67e",
+        "bytes": 26947
+      }
+    },
+    {
+      "id": "multiplication-division",
+      "page": "multiplication-division.html",
+      "inventory": [
+        "multiplication-division-legacy-21-original",
+        "multiplication-division-legacy-21-correction",
+        "multiplication-division-legacy-21-narration",
+        "multiplication-division-legacy-22-original",
+        "multiplication-division-legacy-22-correction",
+        "multiplication-division-legacy-22-narration",
+        "multiplication-division-legacy-23-original",
+        "multiplication-division-legacy-23-correction",
+        "multiplication-division-legacy-23-narration",
+        "multiplication-division-legacy-24-original",
+        "multiplication-division-legacy-24-correction",
+        "multiplication-division-legacy-24-narration",
+        "multiplication-division-legacy-25-original",
+        "multiplication-division-legacy-25-correction",
+        "multiplication-division-legacy-25-narration"
+      ],
+      "legacy_numbers": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/multiplication-division.json",
+        "sha256": "4641213d161b2783b4b3ab0715aacd73e585a6dd73cb3b1f13e4d8ab4946b638",
+        "bytes": 27295
+      }
+    },
+    {
+      "id": "factors-multiples",
+      "page": "factors-multiples.html",
+      "inventory": [
+        "factors-multiples-legacy-26-original",
+        "factors-multiples-legacy-26-correction",
+        "factors-multiples-legacy-26-narration",
+        "factors-multiples-legacy-27-original",
+        "factors-multiples-legacy-27-correction",
+        "factors-multiples-legacy-27-narration",
+        "factors-multiples-legacy-28-original",
+        "factors-multiples-legacy-28-correction",
+        "factors-multiples-legacy-28-narration",
+        "factors-multiples-legacy-29-original",
+        "factors-multiples-legacy-29-correction",
+        "factors-multiples-legacy-29-narration",
+        "factors-multiples-legacy-30-original",
+        "factors-multiples-legacy-30-correction",
+        "factors-multiples-legacy-30-narration"
+      ],
+      "legacy_numbers": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/factors-multiples.json",
+        "sha256": "52d9dcc7122a4a08cd4682be00b353275e353703173245c24f693434d9db5ee4",
+        "bytes": 26599
+      }
+    },
+    {
+      "id": "measurement",
+      "page": "measurement.html",
+      "inventory": [
+        "measurement-legacy-31-original",
+        "measurement-legacy-31-correction",
+        "measurement-legacy-32-original",
+        "measurement-legacy-32-correction",
+        "measurement-legacy-33-original",
+        "measurement-legacy-33-correction",
+        "measurement-legacy-34-original",
+        "measurement-legacy-34-correction",
+        "measurement-legacy-35-original",
+        "measurement-legacy-35-correction"
+      ],
+      "legacy_numbers": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/measurement.json",
+        "sha256": "e05fb8c802aa5c13142d6988b72e707dcea884e7df5ac8ba03669fe4f3d9e937",
+        "bytes": 17338
+      }
+    },
+    {
+      "id": "space",
+      "page": "space-lessons.html",
+      "inventory": [
+        "space-lesson1",
+        "space-lesson2",
+        "space-lesson3",
+        "space-lesson4",
+        "space-lesson5",
+        "space-lesson6",
+        "space-lesson7",
+        "space-lesson8",
+        "space-lesson9",
+        "space-lesson10"
+      ],
+      "legacy_numbers": [],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/space.json",
+        "sha256": "daba13ae77737a58bee555a87d8adc1e8b527c99b5075346f0df5ed635803eaf",
+        "bytes": 14602
+      }
+    },
+    {
+      "id": "time-angles",
+      "page": "time-angles.html",
+      "inventory": [
+        "time-angles-lesson1-original",
+        "time-angles-lesson2-original",
+        "time-angles-lesson3-original",
+        "time-angles-lesson4-original",
+        "time-angles-lesson5-original",
+        "time-angles-lesson1-short-archive",
+        "time-angles-lesson1-repaired"
+      ],
+      "legacy_numbers": [],
+      "manifest": {
+        "path": "video-agent/media-registry/topics/time-angles.json",
+        "bytes": 10257,
+        "sha256": "d082e781377a6ccee8c9b02e350b35ab34d0c4cfe22e805ab974dfe30fe72dfa"
+      }
+    }
+  ]
+}

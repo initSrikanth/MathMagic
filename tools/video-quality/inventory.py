@@ -1,11 +1,12 @@
 import json,re,hashlib
 from pathlib import Path
+from registry import legacy_inventory,read,INDEX
 R=Path(__file__).resolve().parents[2];out=R/'docs/video-quality-audit-35.json';records=[];exceptions=[]
 config=[('fractions','fractions.html','video-agent/fractions-graphics-2026/manifest.json'),('whole-numbers','whole-numbers.html','video-agent/year5-graphics-2026/whole-numbers/manifest.json'),('decimals-percentages','decimals-percentages.html','video-agent/production-v2/decimals-release.json'),('addition-subtraction','addition-subtraction.html','video-agent/production-v2/addition-subtraction-release.json'),('multiplication-division','multiplication-division.html','video-agent/production-v2/multiplication-division-release.json'),('factors-multiples','factors-multiples.html','video-agent/production-v2/factors-multiples-release.json'),('measurement','measurement.html','video-agent/production-v2/measurement-release.json')]
 legacy=json.loads((R/'video-agent/production-v2/manifest.json').read_text())['lessons'];seen=set()
 for topic,page,manifest in config:
  m=json.loads((R/manifest).read_text());h=(R/page).read_text();expected=[]
- assert len(m['lessons'])==5
+ assert len(m['lessons'])==len(next(t['legacy_numbers'] for t in read(INDEX)['topics'] if t['id']==topic))
  for l in m['lessons']:
   src=l['src'];assert src not in seen;seen.add(src);expected.append(src)
   section=re.search(r'<section\b[^>]*id="'+l['section']+r'"[^>]*>(.*?)</section>',h,re.S);assert section and ('src="'+src+'"') in section[1],(topic,l['section'])
@@ -31,10 +32,10 @@ for topic,page,manifest in config:
   records.append(r)
  extras=set(re.findall(r'<source\b[^>]*src="([^"]+)"',h))-set(expected)
  for x in extras:exceptions.append(dict(page=page,src=x,classification='Existing LCM extension, outside the 35 core placements' if 'Finding_LCM' in x else 'UNEXPECTED_PLAYER'))
-assert len(records)==len(seen)==35
+assert len(records)==len(seen)==legacy_inventory(records)
 payload=dict(schema=1,baseline_commit='d31afb5dfae6f87564e0aaddc24c7ccb0af4acf3',scope='Exactly 35 core placements across seven Year 5 topics; approved LCM extension recorded separately',new_topic_development='SUSPENDED',new_video_production='SUSPENDED except scoped remediation after audit',perceptual_review_limitation='No available audio-listening/full-video perceptual tool. ASR, OCR, metadata and image samples cannot certify accent, enthusiasm or full teaching quality.',unexpected_or_extra_placements=exceptions,records=records)
 if out.exists():
- previous=json.loads(out.read_text());assert len(previous['records'])==35
+ previous=json.loads(out.read_text());legacy_inventory(previous['records'])
  assert {(r.get('active_media',{}).get('mp4',r['mp4']),r['page'],r['lesson_section']) for r in previous['records']}=={(r['mp4'],r['page'],r['lesson_section']) for r in records}, 'Published placement inventory changed; preserve/review the existing audit before rebasing.'
  print('Existing audit retained; all 35 actual source placements match.')
 else:out.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n')

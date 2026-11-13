@@ -1,0 +1,580 @@
+{
+  "schema_version": 1,
+  "topic": "decimals-percentages",
+  "records": [
+    {
+      "id": "decimals-percentages-legacy-11-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_decimals_percentages_place.mp4",
+          "sha256": "d963277765a4326eeb8011308b27e992229d00002f818029628d91a517a03484",
+          "bytes": 2230445
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_decimals_percentages_place.vtt",
+          "sha256": "77c8513304c48d53f0987273aa73073c0d0cc87149ba86d5726b94780d6de78d",
+          "bytes": 3638
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_decimals_percentages_place_transcript.txt",
+          "sha256": "e09a6d9fdfb30c7a1352a97a199bc00790f9d89e585d8fd123569fd2a7b4dfff",
+          "bytes": 1643
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+          "sha256": "fd0799a93334ccaec679850494f02adf8f6b6b9e694b8b9cdaf5caf4bb6dc312",
+          "bytes": 31618
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-place.json",
+          "sha256": "88e6886dd9d7ad6b8966e2d0c107f6e5cad72469912e3bba9a490a6465621fcc",
+          "bytes": 5044
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3494,
+          "sha256": "d24b8a82ecaba52640b07b270a1c1d3123c3f5fa73f76cc01c74557d1204bcd4"
+        },
+        "audio": {
+          "count": 2731,
+          "sha256": "eb7880de0ea006d5a8d5d55afa6da38a84b4654ad68ac67ef6aecd7d151671a3"
+        }
+      },
+      "legacy": {
+        "number": 11,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-11-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
+          "sha256": "abad1debaaff32777ca87fb4065cc4d0c1d3b46a6bd1596763a95d9f4f0f83bc",
+          "bytes": 1916227
+        },
+        "captions": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+          "sha256": "77c8513304c48d53f0987273aa73073c0d0cc87149ba86d5726b94780d6de78d",
+          "bytes": 3638
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha_transcript.txt",
+          "sha256": "e09a6d9fdfb30c7a1352a97a199bc00790f9d89e585d8fd123569fd2a7b4dfff",
+          "bytes": 1643
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+          "sha256": "fd0799a93334ccaec679850494f02adf8f6b6b9e694b8b9cdaf5caf4bb6dc312",
+          "bytes": 31618
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-place.json",
+          "sha256": "88e6886dd9d7ad6b8966e2d0c107f6e5cad72469912e3bba9a490a6465621fcc",
+          "bytes": 5044
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3494,
+          "sha256": "d24b8a82ecaba52640b07b270a1c1d3123c3f5fa73f76cc01c74557d1204bcd4"
+        },
+        "audio": {
+          "count": 2731,
+          "sha256": "0dbaf6c65b9ca69b6c4158e98b814e0d02aafe31d8fa9fbdee96a4706005cd3d"
+        }
+      },
+      "legacy": {
+        "number": 11,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-12-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_decimals_percentages_compare.mp4",
+          "sha256": "97ba3e7cca887aa2815d9690f3d61a0d1486b05ea213d654d9da1d061b066c73",
+          "bytes": 2488493
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_decimals_percentages_compare.vtt",
+          "sha256": "b658d3a01eef55a694117bf02be7dd3fa703df58010900e347a3573d19c38e44",
+          "bytes": 4050
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_decimals_percentages_compare_transcript.txt",
+          "sha256": "126b687d8cc9a256fb37f785bb763a9425049ec5d080886bf93c5ae6a9141d73",
+          "bytes": 1833
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "sha256": "39891c8c20cc7cd8e9a73d2dd024dc4f437205c181b8749a829106508f065c4e",
+          "bytes": 29576
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+          "sha256": "12068db3d4dcc6c5a8c2947cd05bef073e3bbae4b49bd53f16fd7a32b6ce2026",
+          "bytes": 5163
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3925,
+          "sha256": "d9847b6de29516cecef5548bbb99450b03477e8a5566af074dda75e12ae6c544"
+        },
+        "audio": {
+          "count": 3068,
+          "sha256": "b69165ec03532e1956d23ddc98f6013a47fbe580ae32f1b9b134affaa5a552ca"
+        }
+      },
+      "legacy": {
+        "number": 12,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-12-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+          "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+          "bytes": 2124208
+        },
+        "captions": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+          "sha256": "149227ae54cb69d274e08e274bd0ea12b2ea52a387965dc54aa8c1c4880f8388",
+          "bytes": 4050
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+          "sha256": "126b687d8cc9a256fb37f785bb763a9425049ec5d080886bf93c5ae6a9141d73",
+          "bytes": 1833
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "sha256": "39891c8c20cc7cd8e9a73d2dd024dc4f437205c181b8749a829106508f065c4e",
+          "bytes": 29576
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-compare.json",
+          "sha256": "12068db3d4dcc6c5a8c2947cd05bef073e3bbae4b49bd53f16fd7a32b6ce2026",
+          "bytes": 5163
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3925,
+          "sha256": "d9847b6de29516cecef5548bbb99450b03477e8a5566af074dda75e12ae6c544"
+        },
+        "audio": {
+          "count": 3068,
+          "sha256": "88e3fb622ddea99e11624767baab880b62b5bf31256919e21000b6bd6e81fae0"
+        }
+      },
+      "legacy": {
+        "number": 12,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-13-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_decimals_percentages_percent.mp4",
+          "sha256": "3fbc6c66267ca81cdb407f6a4d3a66f50b134a386412d19860c25f53661c50b8",
+          "bytes": 2376922
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_decimals_percentages_percent.vtt",
+          "sha256": "3a7f3580f44d49b8e67da4b5d3f17fcbbb2e883e12003e18c3a7b8a99b2c6ee2",
+          "bytes": 3646
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_decimals_percentages_percent_transcript.txt",
+          "sha256": "d515a3d03e513a309307e850f4cc3b213dd67c5aa2ee9e7a30b0491c79614a61",
+          "bytes": 1725
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "sha256": "3bd37c70fd4a70102e2c3876e4bd7b01b632eff5a1627a33a49b5efced251ecc",
+          "bytes": 32282
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+          "sha256": "a8f0836b4418cb30d43c59f0c81109b6e739e3248d65e4fb0f534f156c6f5ede",
+          "bytes": 5119
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3641,
+          "sha256": "71d36375e15b2b9f049fb68b9518f9a8f60da09a41e10ac318b0214929ed5af5"
+        },
+        "audio": {
+          "count": 2846,
+          "sha256": "fe735ed71092f98b1d30c6bb5e1bb7143bd8cf3bea0ce0697a8537a919b01c3e"
+        }
+      },
+      "legacy": {
+        "number": 13,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-13-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+          "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+          "bytes": 2058926
+        },
+        "captions": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+          "sha256": "64d91a1c0bea98646ff95790421ebbebbeb2d12a58ac6535870280a5c46ded82",
+          "bytes": 3646
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+          "sha256": "d515a3d03e513a309307e850f4cc3b213dd67c5aa2ee9e7a30b0491c79614a61",
+          "bytes": 1725
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "sha256": "3bd37c70fd4a70102e2c3876e4bd7b01b632eff5a1627a33a49b5efced251ecc",
+          "bytes": 32282
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-percent.json",
+          "sha256": "a8f0836b4418cb30d43c59f0c81109b6e739e3248d65e4fb0f534f156c6f5ede",
+          "bytes": 5119
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3641,
+          "sha256": "71d36375e15b2b9f049fb68b9518f9a8f60da09a41e10ac318b0214929ed5af5"
+        },
+        "audio": {
+          "count": 2846,
+          "sha256": "1b6fcfec2378b6da83bd5133b1a88cd2e02926d12eeabf0fee334d3851c26eb4"
+        }
+      },
+      "legacy": {
+        "number": 13,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-14-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect.mp4",
+          "sha256": "111de8eebdbc63aed143ed67e856b914d2771156a92ec7b497d090f42ea8c51f",
+          "bytes": 2352056
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect.vtt",
+          "sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+          "bytes": 3503
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect_transcript.txt",
+          "sha256": "7a88de230b7e2b01c3b21b493edbefcf9da2e155b27a1b4b358cfc520424e6bb",
+          "bytes": 1656
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "sha256": "ce88f3aae138bd6a8923191271485cacb79ed0c447f728176287963052f13c8c",
+          "bytes": 33850
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-connect.json",
+          "sha256": "bd240f4fce031351b05dcbc6fba1f632aafca140f2637c6f27e26b5fd941ce9c",
+          "bytes": 5133
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3547,
+          "sha256": "cbb5854fb86eabc9e6399d8af27d727e9ddb853c19c3516b5e4ca8e648369c8d"
+        },
+        "audio": {
+          "count": 2772,
+          "sha256": "4c95ce381c085c7c40d9201ce7687b9541b3e18c266b64f82542130297596d65"
+        }
+      },
+      "legacy": {
+        "number": 14,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-14-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.mp4",
+          "sha256": "cf3973629e3324853facd76c2b192de684ac2d82a6d7093212c25e89abddd58c",
+          "bytes": 2371416
+        },
+        "captions": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected.vtt",
+          "sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+          "bytes": 3503
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected_transcript.txt",
+          "sha256": "55cf77227b78ad0aae142059567b2de03315dbc76e80e6ceb09fc2c181e53cf1",
+          "bytes": 1670
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "sha256": "ce88f3aae138bd6a8923191271485cacb79ed0c447f728176287963052f13c8c",
+          "bytes": 33850
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/14.json",
+          "sha256": "a0e6067e1b8516a9554968a303b39ba9631f962fa6c553fbe19994751ae62ebc",
+          "bytes": 5353
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3547,
+          "sha256": "59a984c4279c43de87521c2d9f5b9bf25fffb17726bc82d158f1de7c36a99950"
+        },
+        "audio": {
+          "count": 2772,
+          "sha256": "4c95ce381c085c7c40d9201ce7687b9541b3e18c266b64f82542130297596d65"
+        }
+      },
+      "legacy": {
+        "number": 14,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-14-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4",
+          "sha256": "f92d73dd4bb6a217008000b1a2754fef48ad791bfd3e556ea9062e8933156d7e",
+          "bytes": 2042583
+        },
+        "captions": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+          "sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+          "bytes": 3503
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha_transcript.txt",
+          "sha256": "55cf77227b78ad0aae142059567b2de03315dbc76e80e6ceb09fc2c181e53cf1",
+          "bytes": 1670
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "sha256": "ce88f3aae138bd6a8923191271485cacb79ed0c447f728176287963052f13c8c",
+          "bytes": 33850
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/14.json",
+          "sha256": "a0e6067e1b8516a9554968a303b39ba9631f962fa6c553fbe19994751ae62ebc",
+          "bytes": 5353
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3547,
+          "sha256": "59a984c4279c43de87521c2d9f5b9bf25fffb17726bc82d158f1de7c36a99950"
+        },
+        "audio": {
+          "count": 2773,
+          "sha256": "d626f8f72248d6f3633a900e0dccc610db0ea21f7ddec21260da23ef1ac1930b"
+        }
+      },
+      "legacy": {
+        "number": 14,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-15-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply.mp4",
+          "sha256": "78b0e06899d01f3e6fba1ee2635720ae303372351376e3520aac330e511be01b",
+          "bytes": 2322968
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply.vtt",
+          "sha256": "42dab3dc322a458dc938d271938b13e3f984c91c7980b2397cdf0b596a36bb43",
+          "bytes": 3587
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply_transcript.txt",
+          "sha256": "00b4ce587c34ee2dc8a593a5631e98c75c659dbbc03273d040ed7f93ace89ca1",
+          "bytes": 1740
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "sha256": "e9cbd3c44bf5b5942d93bfcbef68f7ef46884775161880fdd69cf03169fc58ba",
+          "bytes": 32443
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/decimals-percentages-apply.json",
+          "sha256": "87c394aa898b11e8f5c58288df4b9287db8903fb7e1cc8140ac40287106850e5",
+          "bytes": 5158
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3627,
+          "sha256": "92b22b8fa8239b69ee79ff0b2a53c06d21a7ff0dff0ffa874f3ac3b40dd664a3"
+        },
+        "audio": {
+          "count": 2835,
+          "sha256": "42d57ac8a7f667d270b87f6e3be704973eee72af0e8a375cc83e08023ace4bfe"
+        }
+      },
+      "legacy": {
+        "number": 15,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-15-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.mp4",
+          "sha256": "844d897391cf283b66cebf70ac8ac666f7112e6d4674c8c61807cdcc66d7939e",
+          "bytes": 2347507
+        },
+        "captions": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected.vtt",
+          "sha256": "42dab3dc322a458dc938d271938b13e3f984c91c7980b2397cdf0b596a36bb43",
+          "bytes": 3587
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected_transcript.txt",
+          "sha256": "a3bebf741527c8ddbbd0baeb19df2ca5044e3f3f6e87974c213fd42a2bfa3361",
+          "bytes": 1754
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "sha256": "e9cbd3c44bf5b5942d93bfcbef68f7ef46884775161880fdd69cf03169fc58ba",
+          "bytes": 32443
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/15.json",
+          "sha256": "12fe8f97be5af7060caac5877f75b01422ffa593c8e1a72e4d47b3364f36cb2c",
+          "bytes": 5377
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3627,
+          "sha256": "4776362987d0d999b7f7cc1828eb07315ba140da1a5d2cd691a617464cf53d0c"
+        },
+        "audio": {
+          "count": 2835,
+          "sha256": "42d57ac8a7f667d270b87f6e3be704973eee72af0e8a375cc83e08023ace4bfe"
+        }
+      },
+      "legacy": {
+        "number": 15,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "decimals-percentages-legacy-15-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4",
+          "sha256": "86cd011afa8b2bb44e49ad26495b9e50fd5e42747ea5a2cf2dac9366dfaaf0c4",
+          "bytes": 2026612
+        },
+        "captions": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+          "sha256": "42dab3dc322a458dc938d271938b13e3f984c91c7980b2397cdf0b596a36bb43",
+          "bytes": 3587
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha_transcript.txt",
+          "sha256": "a3bebf741527c8ddbbd0baeb19df2ca5044e3f3f6e87974c213fd42a2bfa3361",
+          "bytes": 1754
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "sha256": "e9cbd3c44bf5b5942d93bfcbef68f7ef46884775161880fdd69cf03169fc58ba",
+          "bytes": 32443
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/15.json",
+          "sha256": "12fe8f97be5af7060caac5877f75b01422ffa593c8e1a72e4d47b3364f36cb2c",
+          "bytes": 5377
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 3627,
+          "sha256": "4776362987d0d999b7f7cc1828eb07315ba140da1a5d2cd691a617464cf53d0c"
+        },
+        "audio": {
+          "count": 2835,
+          "sha256": "f19704e30caad4e19f7a2d8e79d7a5824364e7c13a8955e88b10b47a385eb95a"
+        }
+      },
+      "legacy": {
+        "number": 15,
+        "variant": "narration"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "place",
+      "record": "decimals-percentages-legacy-11-narration"
+    },
+    {
+      "section": "compare",
+      "record": "decimals-percentages-legacy-12-narration"
+    },
+    {
+      "section": "percent",
+      "record": "decimals-percentages-legacy-13-narration"
+    },
+    {
+      "section": "connect",
+      "record": "decimals-percentages-legacy-14-narration"
+    },
+    {
+      "section": "apply",
+      "record": "decimals-percentages-legacy-15-narration"
+    }
+  ]
+}

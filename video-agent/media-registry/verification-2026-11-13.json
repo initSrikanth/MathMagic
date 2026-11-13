@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "timezone": "Australia/Brisbane",
+  "source_parent": "62c595d50696e393959ed34a77794137f7139fa0",
+  "inputs_sha256": {
+    ".github/workflows/browser-qa.yml": "ba6b120627c27ea71ff38cb45307b755d5a00e6ef2ac8da781bc24835c55f7db",
+    "tools/video-quality/ci_check.py": "55f77365afb2beb7b4d151b99f772d28e3be3ea2a1d13a84d294bd6c37a46c5b",
+    "tools/video-quality/registry.py": "46cc5825cdd377da5eed764e0511f5add72d8bca3bd070b1f8034e6e75ab3546",
+    "tools/video-quality/test_registry.py": "0a397c0d2b95f2b7164f636d3e8abf0b4db635c76df3e90c310af090c3057bde",
+    "video-agent/media-registry/evidence/time-angles-lesson1-script.json": "cd0da65d87768136164c6606d9e8a5cf848ad72558ffb09073cf13c000502c8a",
+    "video-agent/media-registry/evidence/time-angles-lesson1-verification.json": "8613763effdba615175503a3a2889a2ee93c0ab461687c6e5c6f444c9890b737",
+    "video-agent/media-registry/registry.json": "2e9d0958b70b3fae0fb08015ef6b7f09038d884c9d280a98122d86b405aebcf3",
+    "video-agent/media-registry/schema.json": "d45c8fd7646e656370e1308d9e1f912c91fed78f620a477faa236bbf51e81288",
+    "video-agent/media-registry/topics/addition-subtraction.json": "1dcab30bb6f3191b100475d12585fe3fc55a9f235f16d4fdf4ab8db4f908a67e",
+    "video-agent/media-registry/topics/decimals-percentages.json": "21b36d694b1bb18a1a2f5b1931cc275736d2a36ff038f5de01b2d1592d92e87e",
+    "video-agent/media-registry/topics/factors-multiples.json": "52d9dcc7122a4a08cd4682be00b353275e353703173245c24f693434d9db5ee4",
+    "video-agent/media-registry/topics/fractions.json": "3e02f5156b4756e6ea679cc39437e7b2c0a9f35358adba7eeb1b55c95e00d9b2",
+    "video-agent/media-registry/topics/measurement.json": "e05fb8c802aa5c13142d6988b72e707dcea884e7df5ac8ba03669fe4f3d9e937",
+    "video-agent/media-registry/topics/multiplication-division.json": "4641213d161b2783b4b3ab0715aacd73e585a6dd73cb3b1f13e4d8ab4946b638",
+    "video-agent/media-registry/topics/space.json": "daba13ae77737a58bee555a87d8adc1e8b527c99b5075346f0df5ed635803eaf",
+    "video-agent/media-registry/topics/time-angles.json": "d082e781377a6ccee8c9b02e350b35ab34d0c4cfe22e805ab974dfe30fe72dfa",
+    "video-agent/media-registry/topics/whole-numbers.json": "ae123d59d065bb3b222081c8d547f5abce75e71c8336577a81993b20d55cbbcf",
+    "video-agent/video-production-contract.json": "5d76ce51add5c8f39149d557ebcc4d1ca7f98aa6b5880be8aca3c1b5d9ea5815"
+  },
+  "local_log_sha256": {
+    "pr59-registry-tests.log": "779b9b976171ab8747deea2dcde0600de859742982ea25037eae9cb2a409df09",
+    "pr59-registry-contract-tests.log": "7aa96d22cd1730b8a2a6425cb2699173cd3d0ef49caa72147fba28ac5dae1a0a",
+    "pr59-registry-pilot-tests.log": "f21e0118a96229bb03f3ffc749bbb35f1396b226c65403780419fb29e4062c53",
+    "pr59-registry-protected.log": "bba5774850404225586411ab67ccaf78375fe6abfca517f29d8b180334b2dc1c",
+    "pr59-registry-maths.log": "0ee9510cc4061acae85faa43b5a75e414c724b12c9c6c67d5508313421ea29fa",
+    "pr59-registry-captions.log": "c2c9f5c4954ad52ac25388a93f3dd9a208b8c43c886e41f496b83a6e0f429073",
+    "pr59-registry-browser.log": "a7fbc7949b5acc2f3b0da725aaa48b907c70e9c69abb0587d841b05bdae59247",
+    "pr59-registry-integrity.log": "283da76b38309bf7c559eb826305e0ca61f6c572984d91d788d1839b134141b5",
+    "pr59-registry-validation.log": "e9ba0bef5d5cad65d8695d1a709e5251e28943fb21f322fae77e3ee1c9071a72"
+  },
+  "registration": {
+    "status": "PASS",
+    "topics": 9,
+    "records": 105,
+    "retained": 104,
+    "pending_replacements": [
+      "time-angles-lesson1-repaired"
+    ],
+    "new_approvals": 0
+  },
+  "tests": {
+    "registry": {
+      "status": "PASS",
+      "cases": 50,
+      "site_packages_disabled": true
+    },
+    "existing_contract": {
+      "status": "PASS",
+      "cases": 31
+    },
+    "checkpoint_safety": {
+      "status": "PASS",
+      "cases": 11
+    },
+    "browser": {
+      "status": "PASS",
+      "cases": 22,
+      "retries": 0,
+      "projects": [
+        "desktop-chromium",
+        "mobile-chromium"
+      ],
+      "browser": "system Chromium; temporary executable-path config"
+    },
+    "protected_regressions": {
+      "status": "PASS",
+      "command": "npm run test:protected"
+    },
+    "curriculum_mathematics": {
+      "status": "PASS",
+      "positions": 30000,
+      "attempts": 1000,
+      "command": "node tests/time-angles-maths.test.cjs"
+    },
+    "captions_hashes_timing": {
+      "status": "PASS",
+      "command": "python tests/time-angles-accessibility.py"
+    },
+    "independent_draft202012_schema_validation": {
+      "status": "PASS",
+      "runtime_dependency_added": false
+    },
+    "real_media_integrity": {
+      "status": "PASS",
+      "candidate_sha256": "3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1",
+      "decoded_frames": 12202,
+      "audio_correlation": 0.999992786159236,
+      "audio_rms": 0.15256299078464508,
+      "clipping_fraction": 0.0,
+      "verification_work": "work/pr59-registry-media-check",
+      "media_regenerated": false
+    }
+  },
+  "release_gate": {
+    "status": "BLOCKED_EXPECTED",
+    "reason": "time-angles-lesson1-repaired: PENDING_HUMAN_APPROVAL",
+    "final_committed_head_command": "python tools/video-quality/ci_check.py 62c595d50696e393959ed34a77794137f7139fa0",
+    "final_output_reported_in_task_result": true
+  },
+  "not_verified": [
+    "full human listening/viewing",
+    "proposed script human approval",
+    "caption fidelity/readability",
+    "10 caption flags",
+    "20 static model flags",
+    "physical Safari/iOS",
+    "live Firebase/Firestore/deployed rules",
+    "existing canonical full-release voice calibration approval"
+  ],
+  "merged": false,
+  "deployed": false,
+  "remote_ci_monitored": false
+}

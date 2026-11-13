@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "topic": "fractions",
+  "records": [
+    {
+      "id": "fractions-legacy-1-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/fractions-2026/comparing-ordering.mp4",
+          "sha256": "dd552862abd39b1927c9694e0bfacbaefcf595ee7fcde13ddbf4721ca1835aed",
+          "bytes": 6518932
+        },
+        "captions": {
+          "path": "videos/fractions-2026/comparing-ordering.vtt",
+          "sha256": "3d6a914294e67100b6fa3e20d99595ef4b6362818519d349dc1e42f49590980c",
+          "bytes": 7173
+        },
+        "transcript": {
+          "path": "videos/fractions-2026/comparing-ordering_transcript.txt",
+          "sha256": "f92e3f9125401bdef36a48f196b920966c3e8dd2a53834111b55ca3680fdb8e3",
+          "bytes": 3150
+        },
+        "poster": {
+          "path": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "sha256": "9bf4d8aaf4594424975c1589cf4158ef1a1fb65f8fb38d26927c5966b0b2c944",
+          "bytes": 33934
+        },
+        "script": {
+          "path": "video-agent/fractions-graphics-2026/scripts.json",
+          "sha256": "506a3b5e0139be2f4e36074885f7a99c887f22cbba19d3c88f41efc7253f1d73",
+          "bytes": 106891
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6789,
+          "sha256": "e242d65869807892eae33517c5e961ea2278a05e01010e1f1309ef66d0f73108"
+        },
+        "audio": {
+          "count": 10609,
+          "sha256": "20cd1dc2e478d0b8309341481cb870abe0c3ff3074f7e117c4c922f79f65fea4"
+        }
+      },
+      "legacy": {
+        "number": 1,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "fractions-legacy-1-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+          "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+          "bytes": 6449176
+        },
+        "captions": {
+          "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+          "sha256": "e6d3ab87266e6e330840d25709ff0973bca0e57c1869b18e04bb8a7348a6f34a",
+          "bytes": 7067
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+          "sha256": "589af7a0785d661854ef06f8174459014d22bf57348066fdba50a6c06bdb6518",
+          "bytes": 3117
+        },
+        "poster": {
+          "path": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "sha256": "9bf4d8aaf4594424975c1589cf4158ef1a1fb65f8fb38d26927c5966b0b2c944",
+          "bytes": 33934
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/01.json",
+          "sha256": "17962e8f1460ce713aa6373321799d5a9cb0ced2652df96e863ef367e17953a9",
+          "bytes": 18383
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6656,
+          "sha256": "f1f9817f4f83489f33b3d333123610f947fcbb831f613703d09eb463d38009df"
+        },
+        "audio": {
+          "count": 10397,
+          "sha256": "4f3f304020ea7f7b1c01747c71f5d9ac1b8b9e50bb7736434583d8026058d315"
+        }
+      },
+      "legacy": {
+        "number": 1,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "fractions-legacy-2-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/fractions-2026/equivalent.mp4",
+          "sha256": "cadb6328a2a5ec335f846fe03e830c3c687dede70397e58bb3a9e99386b7729c",
+          "bytes": 6878798
+        },
+        "captions": {
+          "path": "videos/fractions-2026/equivalent.vtt",
+          "sha256": "0cb8102169b7ba69c1135cbc08240fd718abaa65cd6712d215dda0748547634a",
+          "bytes": 7314
+        },
+        "transcript": {
+          "path": "videos/fractions-2026/equivalent_transcript.txt",
+          "sha256": "ff6c8c03f3586c33deb85f773f88a2175faeff42840e3ddd27688edc94ee23d0",
+          "bytes": 3218
+        },
+        "poster": {
+          "path": "videos/fractions-2026/equivalent_poster.jpg",
+          "sha256": "4cad57b817e9b16ba411702993375ef499866b1a655d20048a3c96e2c0ef2a36",
+          "bytes": 34838
+        },
+        "script": {
+          "path": "video-agent/fractions-graphics-2026/scripts.json",
+          "sha256": "506a3b5e0139be2f4e36074885f7a99c887f22cbba19d3c88f41efc7253f1d73",
+          "bytes": 106891
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 7015,
+          "sha256": "c7414ccd22683c3018a63d61d4b9e31896a38e64ffbb24fd68aff5d5a0c199be"
+        },
+        "audio": {
+          "count": 10962,
+          "sha256": "a0955b1456acfcccf0df45990b2ed0ecb6c0e886833653799bd8efd61cc10c4d"
+        }
+      },
+      "legacy": {
+        "number": 2,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "fractions-legacy-2-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+          "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+          "bytes": 6752205
+        },
+        "captions": {
+          "path": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+          "sha256": "6c4051387a57482000438c51ac1624a885474cdc4bc65218c6b5a27ee90aba09",
+          "bytes": 7204
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+          "sha256": "ab55262bbd7ef85e4d9311f83a5d66602711c6d4a51427fb779e8a708108e97f",
+          "bytes": 3181
+        },
+        "poster": {
+          "path": "videos/fractions-2026/equivalent_poster.jpg",
+          "sha256": "4cad57b817e9b16ba411702993375ef499866b1a655d20048a3c96e2c0ef2a36",
+          "bytes": 34838
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/02.json",
+          "sha256": "1599f0742663ac025ea772bda9ec4ef5169ff8e4702183d10387cc7e94c2c59a",
+          "bytes": 19752
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6876,
+          "sha256": "eb7fc7e471ff89464857baa7ddcc6deae894f5065b6d2161bc321ec99292bbdc"
+        },
+        "audio": {
+          "count": 10742,
+          "sha256": "f19a1d9f94250efe5bc998a42527fe246bf41d7dd84c4152a0ffef0915e2b3bc"
+        }
+      },
+      "legacy": {
+        "number": 2,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "fractions-legacy-3-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/fractions-2026/mixed-improper.mp4",
+          "sha256": "10bafdfff315211890bb9dfca478d0ecf1ba31439234ee58bc402f5b3d5db844",
+          "bytes": 7443453
+        },
+        "captions": {
+          "path": "videos/fractions-2026/mixed-improper.vtt",
+          "sha256": "1c50abbbb7013b4d949ebc609684dd9704e8e6965720b099b771df4da015a398",
+          "bytes": 7890
+        },
+        "transcript": {
+          "path": "videos/fractions-2026/mixed-improper_transcript.txt",
+          "sha256": "68ed7a41360d317ae4a38bb80ef62455e10d4398381e8619b01fc352bdf0b3d5",
+          "bytes": 3429
+        },
+        "poster": {
+          "path": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "sha256": "89350d6567ab86c1facfd6b56a8d7d5e812406d6c4de83612138a8504ce4786f",
+          "bytes": 33360
+        },
+        "script": {
+          "path": "video-agent/fractions-graphics-2026/scripts.json",
+          "sha256": "506a3b5e0139be2f4e36074885f7a99c887f22cbba19d3c88f41efc7253f1d73",
+          "bytes": 106891
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 7400,
+          "sha256": "4264becdffd0be35f977fcb8582b807b28c7039cdc50c2520acf7ccdf6bd1f9f"
+        },
+        "audio": {
+          "count": 11564,
+          "sha256": "7bfd4fadfd09b37d2c09ca48a5037c146d8112dc049faa89f696acd75b6470cc"
+        }
+      },
+      "legacy": {
+        "number": 3,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "fractions-legacy-3-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+          "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+          "bytes": 7301766
+        },
+        "captions": {
+          "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+          "sha256": "939a2219b70e14920f962ee5049c96550720bf0372dc095389b0024714f104ae",
+          "bytes": 7771
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+          "sha256": "df30c248d3de2d5b5cfc7ddd46896f5e1ee31283f430c2721cf624080ff1d2e2",
+          "bytes": 3383
+        },
+        "poster": {
+          "path": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "sha256": "89350d6567ab86c1facfd6b56a8d7d5e812406d6c4de83612138a8504ce4786f",
+          "bytes": 33360
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/03.json",
+          "sha256": "36a6e41a4b8bdd7b19ce41ed7a5d94913737202732a9c8665d395ed847f33cc0",
+          "bytes": 19770
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 7242,
+          "sha256": "a2cc9d50844bf091bcfce8e1cfb99b797c86a2a22d3d46ad35b168a8584a03a0"
+        },
+        "audio": {
+          "count": 11313,
+          "sha256": "d94d7aed218ceb6451ba1e907de5679453d1f0c9e5d3c8e12d555a8e7ef88674"
+        }
+      },
+      "legacy": {
+        "number": 3,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "fractions-legacy-4-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/fractions-2026/adding-subtracting.mp4",
+          "sha256": "1c28b3c7a9d404f4c68f1f2dd02aa02fe3a015ca3847e379595dc2dc7ee23dca",
+          "bytes": 6776965
+        },
+        "captions": {
+          "path": "videos/fractions-2026/adding-subtracting.vtt",
+          "sha256": "4338141e4340a31113f9ec675842d96fb3d3ef73c488ce398061126e616b6339",
+          "bytes": 7171
+        },
+        "transcript": {
+          "path": "videos/fractions-2026/adding-subtracting_transcript.txt",
+          "sha256": "f06f7c277f94830222c6f1740f94d188e48c9476fec3e1a3ffb2251c1bdaa22d",
+          "bytes": 3075
+        },
+        "poster": {
+          "path": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "sha256": "6977a5812ca44513d9cd5e98d79503119326a3491c4fbee431f6baef0d0088b3",
+          "bytes": 32896
+        },
+        "script": {
+          "path": "video-agent/fractions-graphics-2026/scripts.json",
+          "sha256": "506a3b5e0139be2f4e36074885f7a99c887f22cbba19d3c88f41efc7253f1d73",
+          "bytes": 106891
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6848,
+          "sha256": "f29816f5d953975520edf4ede657a36e43e17f154cce9c1eed771dfb325bcf70"
+        },
+        "audio": {
+          "count": 10701,
+          "sha256": "9918a32441bc3fec07f5f2fa423d9ba351c639a3b9fa3e1f839e27adc8b6080f"
+        }
+      },
+      "legacy": {
+        "number": 4,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "fractions-legacy-4-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+          "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+          "bytes": 6624278
+        },
+        "captions": {
+          "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+          "sha256": "7e72b5829090298cb4d9d3f6ad81b12f9bd52c95a5ff089f622d0f1e84834e8c",
+          "bytes": 7056
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+          "sha256": "998f117255dbc64c1d4ccb3c05da2583d85110981211e336569429753392cc25",
+          "bytes": 3033
+        },
+        "poster": {
+          "path": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "sha256": "6977a5812ca44513d9cd5e98d79503119326a3491c4fbee431f6baef0d0088b3",
+          "bytes": 32896
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/04.json",
+          "sha256": "c1410c4f20adb554388ca6509196235a4f9b2b2a308b3dd31efb87b754c664a9",
+          "bytes": 20567
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6699,
+          "sha256": "c216aaa2c98c21240a3ef1f8160e2bd8b8f78b4af27c5b725483f6560010c3c5"
+        },
+        "audio": {
+          "count": 10467,
+          "sha256": "419b89a3d8c0c629a36439abb7d741e7a17e3f593bffd91262acbf5343713305"
+        }
+      },
+      "legacy": {
+        "number": 4,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "fractions-legacy-5-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/fractions-2026/word-problems.mp4",
+          "sha256": "021eaa0261cb82adb3b5d6faf32e6556cc6691a4da5ab5629a251cb957ad4396",
+          "bytes": 6856258
+        },
+        "captions": {
+          "path": "videos/fractions-2026/word-problems.vtt",
+          "sha256": "0dfc29382fb1cfd0bf873487346b942a68c91abd1b874e532de1d9c0c22a9325",
+          "bytes": 7586
+        },
+        "transcript": {
+          "path": "videos/fractions-2026/word-problems_transcript.txt",
+          "sha256": "438ac2b8c0d909b29753e4b21467c9443e813939de8fa1795cd99ded8a4e606f",
+          "bytes": 3198
+        },
+        "poster": {
+          "path": "videos/fractions-2026/word-problems_poster.jpg",
+          "sha256": "e413fe1270f520d053809c2ff5165e0c03ae48be498bcf36a827fbf9fe6ee13d",
+          "bytes": 32310
+        },
+        "script": {
+          "path": "video-agent/fractions-graphics-2026/scripts.json",
+          "sha256": "506a3b5e0139be2f4e36074885f7a99c887f22cbba19d3c88f41efc7253f1d73",
+          "bytes": 106891
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6995,
+          "sha256": "6f97618e5efe219559b88e5e98e843256e06f48b4ad685373c9f9883c593d494"
+        },
+        "audio": {
+          "count": 10931,
+          "sha256": "0b3372717bad5ddb11d6e91edd622db8c16ba3c5361e17291b1c5a27929fd5ef"
+        }
+      },
+      "legacy": {
+        "number": 5,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "fractions-legacy-5-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+          "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+          "bytes": 6703094
+        },
+        "captions": {
+          "path": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+          "sha256": "9f3bd2e98b306530ea0638dfe5326536f81d364f99f40d0891c74954b8149344",
+          "bytes": 7456
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt",
+          "sha256": "debea2c74fad69fff5ddbdc03dc86a151e15b30b977d8faa6e37a216a0c33d30",
+          "bytes": 3141
+        },
+        "poster": {
+          "path": "videos/fractions-2026/word-problems_poster.jpg",
+          "sha256": "e413fe1270f520d053809c2ff5165e0c03ae48be498bcf36a827fbf9fe6ee13d",
+          "bytes": 32310
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/05.json",
+          "sha256": "30ef2973acb23b30393268f0053b809eebf7df1ab9c247bedf025cd4ef2311e6",
+          "bytes": 19952
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6825,
+          "sha256": "25627f17b713ea17a6e4512f1c2520327ef05e8d99cc5bd7be6f6c9c77e5d783"
+        },
+        "audio": {
+          "count": 10662,
+          "sha256": "42efdc52e273afac5feffa12161ea39ebb787a13afbe091c6814d244f000ac54"
+        }
+      },
+      "legacy": {
+        "number": 5,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "fractions-lcm-extension",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4",
+          "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+          "bytes": 3111284
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 2630,
+          "sha256": "dcfdd587a0ea98b22dbd44c42df99cc5b0f4622fb2b826791eae5c0cbb6da827"
+        },
+        "audio": {
+          "count": 3776,
+          "sha256": "049d8ea4661c4dd17b5af771a7ee11c14beb569d663de40bac6bc1b1d14b8cb4"
+        }
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "meaning",
+      "record": "fractions-legacy-1-correction"
+    },
+    {
+      "section": "equivalent",
+      "record": "fractions-legacy-2-correction"
+    },
+    {
+      "section": "mixed",
+      "record": "fractions-legacy-3-correction"
+    },
+    {
+      "section": "addsub",
+      "record": "fractions-legacy-4-correction"
+    },
+    {
+      "section": "addsub",
+      "record": "fractions-lcm-extension"
+    },
+    {
+      "section": "problems",
+      "record": "fractions-legacy-5-correction"
+    }
+  ]
+}

@@ -164,3 +164,55 @@ test('Time and Angles: 12-hour pm answer passes both format and numeric validati
   await expect(page.locator('#qFeedback')).toHaveText('Correct!');
   await expect(page.locator('#nextQuestion')).toBeEnabled();
 });
+
+const AxeBuilder=require('@axe-core/playwright').default;
+test('Time and Angles: WCAG AA, transcript keyboard access and responsive lessons',async({page})=>{
+  await openTopic(page);
+  for(const screen of ['lesson1','lesson2','lesson3','lesson4','lesson5','challenge']){
+    await page.locator('[data-screen="'+screen+'"]').click();
+    const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+    expect(result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),screen).toEqual([]);
+    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+    if(screen!=='challenge'){
+      const summary=page.locator('#'+screen+' .video-transcript summary');await summary.focus();await page.keyboard.press('Enter');
+      await expect(page.locator('#'+screen+' .video-transcript')).toHaveAttribute('open','');
+      const link=page.locator('#'+screen+' .video-transcript a');expect((await page.request.get(await link.getAttribute('href'))).ok()).toBe(true);
+    }
+  }
+});
+
+test('Time and Angles: five native caption tracks load and follow early, middle and late playback',async({page})=>{
+  test.setTimeout(120000);await openTopic(page);
+  for(let n=1;n<=5;n++){
+    await page.locator('[data-screen="lesson'+n+'"]').click();
+    const video=page.locator('#lesson'+n+' video');await expect(video).toHaveAttribute('playsinline','');
+    const track=video.locator('track[kind="captions"][srclang="en"]');await expect(track).toHaveCount(1);
+    await video.evaluate(v=>{v.muted=true;v.preload='auto';v.load();v.textTracks[0].mode='showing';});
+    await expect.poll(()=>video.evaluate(v=>v.readyState>=2&&v.textTracks[0].cues?.length>40)).toBe(true);
+    expect(await video.evaluate(v=>Array.from(v.textTracks[0].cues).every(c=>c.line===1&&c.position===50&&c.size===90))).toBe(true);
+    const times=await video.evaluate(v=>{const cues=v.textTracks[0].cues;return [0,Math.floor(cues.length/2),cues.length-1].map(i=>cues[i].startTime+.1)});
+    for(const time of times){
+      await video.evaluate(async(v,t)=>{v.currentTime=t;await v.play()},time);
+      await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(time+.05);
+      await expect.poll(()=>video.evaluate(v=>v.textTracks[0].activeCues?.length||0)).toBeGreaterThan(0);
+      await video.evaluate(v=>v.pause());
+    }
+    await expect(video).toHaveAttribute('poster',/.+\.jpg$/);
+  }
+  await page.locator('[data-screen="lesson1"]').click();
+  await expect(page.locator('#lesson1 video source')).toHaveAttribute('src','videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.mp4');
+});
+
+test('Time and Angles: replacement question controls reject malformed formats and retain feedback colours',async({page})=>{
+  await openTopic(page);await page.locator('[data-screen="challenge"]').click();
+  for(let n=0;n<30;n++){
+    const q=await page.evaluate(()=>quiz[index]);
+    if([13,14,16].includes(q.kind)){
+      const bad=q.kind===14?'C':'25:00';await page.locator('#answerInput').fill(bad);await page.locator('#checkAnswer').click();await expect(page.locator('#nextQuestion')).toBeDisabled();
+    }
+    await page.locator('#answerInput').fill(q.answer);await page.locator('#checkAnswer').click();
+    await expect(page.locator('#qFeedback')).toHaveClass(/correct/);
+    expect(await page.locator('#qFeedback').evaluate(e=>getComputedStyle(e).color)).toBe('rgb(24, 121, 78)');
+    await page.locator('#nextQuestion').click();
+  }
+});

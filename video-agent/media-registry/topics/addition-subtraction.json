@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "topic": "addition-subtraction",
+  "records": [
+    {
+      "id": "addition-subtraction-legacy-16-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1.mp4",
+          "sha256": "81e51dfd9c18805fcc82b6b05b63746b9f8dbff1322b7c48cee26d133157caa0",
+          "bytes": 2798501
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1.vtt",
+          "sha256": "5ec5ad7ed44cce908cd624a6a0d4031e738b9e6ed9fb265aba5036cd7f558599",
+          "bytes": 4533
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1_transcript.txt",
+          "sha256": "9a00a21c8283a839b3d7ec9a4aca84be77bea71b7bf8321b37ae80fb38e51a40",
+          "bytes": 2021
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "sha256": "8a83ddec123cfaebd4b008d9255c918f2f87d9779b44abf699bd95c3b3673256",
+          "bytes": 29768
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/addition-subtraction-lesson1.json",
+          "sha256": "3a2cdc412d990ff06fa3c2523edfd9d80b03b5c767711e6eb1fe1f78d8628162",
+          "bytes": 7614
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4269,
+          "sha256": "b5dc22923ab7616ea3c8ad4c2c67bb2bb8fa222df07e48ad163c85403a779ff3"
+        },
+        "audio": {
+          "count": 3337,
+          "sha256": "9398454bc6daf79ff6c4f5a4acddbc225a80251cde66fb1848a4c963b092b627"
+        }
+      },
+      "legacy": {
+        "number": 16,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-16-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.mp4",
+          "sha256": "29f2bb228d8336c51b55da09ff11af70280ec30e0109b99c01d1409cc5c613b8",
+          "bytes": 2716199
+        },
+        "captions": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree.vtt",
+          "sha256": "d9b49771fb6ad3cc2f42c0fd3404e80c29da8937cf00647155b3ea3dfe7289a8",
+          "bytes": 4412
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree_transcript.txt",
+          "sha256": "30d074291e7dae88ee1643b115b5e93ece480e3b425182e77830d59de5cf4d48",
+          "bytes": 1995
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "sha256": "8a83ddec123cfaebd4b008d9255c918f2f87d9779b44abf699bd95c3b3673256",
+          "bytes": 29768
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/16.json",
+          "sha256": "7447b5e3891ae1edddf701fb0c006f4e146021255fbf96da04ca63bb19244dcd",
+          "bytes": 7597
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4153,
+          "sha256": "ef275e391d1db526771d6aa1d1e6ce5d620663d9276effda95f214ccd9b1df80"
+        },
+        "audio": {
+          "count": 3244,
+          "sha256": "f19733d3de8fd7eb8f384e80e2efebd6e5dff772fbe5029775dbe4ff3c447710"
+        }
+      },
+      "legacy": {
+        "number": 16,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-16-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "a15f053ff14c2a14456029b8084b4b41d004477404d333da49a9bbb7a0587627",
+          "bytes": 2340056
+        },
+        "captions": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+          "sha256": "ffe754ea75b0068f135e7693fa075c9951454ca46a662c8fd3eddd3389a684ef",
+          "bytes": 4412
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha_transcript.txt",
+          "sha256": "30d074291e7dae88ee1643b115b5e93ece480e3b425182e77830d59de5cf4d48",
+          "bytes": 1995
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "sha256": "8a83ddec123cfaebd4b008d9255c918f2f87d9779b44abf699bd95c3b3673256",
+          "bytes": 29768
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/16.json",
+          "sha256": "7447b5e3891ae1edddf701fb0c006f4e146021255fbf96da04ca63bb19244dcd",
+          "bytes": 7597
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4153,
+          "sha256": "ef275e391d1db526771d6aa1d1e6ce5d620663d9276effda95f214ccd9b1df80"
+        },
+        "audio": {
+          "count": 3246,
+          "sha256": "375405a5c5f9ec62a4423dba726727c6b17a9c9cf673101a9e43f195229ad930"
+        }
+      },
+      "legacy": {
+        "number": 16,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-17-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2.mp4",
+          "sha256": "a3eb9031b50529a9c4adf1cc13e87a97d31daa314f45b635c7a2d793b14ffc3e",
+          "bytes": 3129447
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2.vtt",
+          "sha256": "c021e75351562a985c2c660367aca8421db4efed35e28282da1c1590b952f832",
+          "bytes": 4897
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2_transcript.txt",
+          "sha256": "a38c4316b302a52ed9e5f7715807f95be644a8ddd4adc24b28e7cf66f353f27a",
+          "bytes": 2237
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "sha256": "6a4653a793ab73aa73657bfa94fbd146367adf5b479d62bf26136f34f542691f",
+          "bytes": 30231
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/addition-subtraction-lesson2.json",
+          "sha256": "1b8d4bcc7278493cb83b97ce8562fa01ec5bf49f34d2b735d0df4a49180ca4b9",
+          "bytes": 7461
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4690,
+          "sha256": "e912012bda6dc2fb9564f518bc157e1b93a4a40e4897ab9b6ff41311db0fdafd"
+        },
+        "audio": {
+          "count": 3666,
+          "sha256": "fd6a38ac224e1711111eaed11b77500b3c668b9017eea187182c8767e4ee0ee4"
+        }
+      },
+      "legacy": {
+        "number": 17,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-17-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.mp4",
+          "sha256": "5cfeb6a0b30350cdd9021d62df9efea49be8fa00b8a1ac33aadbe59b83ef8242",
+          "bytes": 3046929
+        },
+        "captions": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree.vtt",
+          "sha256": "5ea07e443ee2229347b8ed47350701964e8d0a30d238b999229ba4563b65676c",
+          "bytes": 4776
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree_transcript.txt",
+          "sha256": "df202b2e7d57d50735f967b43490db0e0c06afec1181389b3f8cca5e37e0c8b6",
+          "bytes": 2213
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "sha256": "6a4653a793ab73aa73657bfa94fbd146367adf5b479d62bf26136f34f542691f",
+          "bytes": 30231
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/17.json",
+          "sha256": "9ea5a84702096b059fb799e9db0c643adc25876dffc8f0a1daef5e1cd44007c5",
+          "bytes": 7450
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4574,
+          "sha256": "7b94a4f633167a7141172d962fc8bc917f80e2526d56dc7c364724fa45c4c4fd"
+        },
+        "audio": {
+          "count": 3573,
+          "sha256": "2db5c6b67a6d982a7fddc73b29f764976cfe142f9fc2f0440e8152d77c7c9cc4"
+        }
+      },
+      "legacy": {
+        "number": 17,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-17-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "24e62377d2aa24f329121e613cda969d4875ed75c1bf17f876e004a7dbb2a1d3",
+          "bytes": 2626106
+        },
+        "captions": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+          "sha256": "4ac5f6ef7c387b11381cf487d73de65ee15be24ef216bf9d83db2800459f84a5",
+          "bytes": 4776
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
+          "sha256": "df202b2e7d57d50735f967b43490db0e0c06afec1181389b3f8cca5e37e0c8b6",
+          "bytes": 2213
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "sha256": "6a4653a793ab73aa73657bfa94fbd146367adf5b479d62bf26136f34f542691f",
+          "bytes": 30231
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/17.json",
+          "sha256": "9ea5a84702096b059fb799e9db0c643adc25876dffc8f0a1daef5e1cd44007c5",
+          "bytes": 7450
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4574,
+          "sha256": "7b94a4f633167a7141172d962fc8bc917f80e2526d56dc7c364724fa45c4c4fd"
+        },
+        "audio": {
+          "count": 3575,
+          "sha256": "bde1a6c97fa484df1f44d469067669f4aa10bffcb19d14aa92c975608b7f4820"
+        }
+      },
+      "legacy": {
+        "number": 17,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-18-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3.mp4",
+          "sha256": "7db28bf9ecd0a072b7f23c7717861d5bf5f7ed27c42b880cbd41408df6fc0e5a",
+          "bytes": 2933419
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3.vtt",
+          "sha256": "0b5e7a5a3ff82b3d27d01f4092ed354b4245d990209927f55ddddc09b289740a",
+          "bytes": 4493
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3_transcript.txt",
+          "sha256": "c571af68ba755c1bcafc1a0d861cfe2e80ff703cf80874eeda2ba3d1da9d3f43",
+          "bytes": 2129
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "sha256": "f4faad27ec152181e5c2864f57b6b452a1c2d3f034e779242ae9c1465929a8d3",
+          "bytes": 29237
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/addition-subtraction-lesson3.json",
+          "sha256": "05d4ab2dc251ac9089f2ef35e6b0e2a53986e0f99c40e34926b3f03bacbc9a97",
+          "bytes": 7191
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4425,
+          "sha256": "cc690b22aa2073a61124424ec4fc92a39f729944889bc51bd162db60826f13e5"
+        },
+        "audio": {
+          "count": 3459,
+          "sha256": "1ad9908c0cc0f5a00c35e4676c29c9da78963cdc1f7ba3ed2c166e96c53fe9fc"
+        }
+      },
+      "legacy": {
+        "number": 18,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-18-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.mp4",
+          "sha256": "56944a9e43d3babfb7f97a94ab77fbff48b839051026f29450710caee67389a7",
+          "bytes": 2852265
+        },
+        "captions": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree.vtt",
+          "sha256": "6438dd3067dc3212e39373199575980cdfc5a9995b0c6f052126937cb798e30a",
+          "bytes": 4372
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree_transcript.txt",
+          "sha256": "d9ee7b5394952a408e47cd48844f04ae1b94073d1ff2eb014df6ad3acd4744fe",
+          "bytes": 2101
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "sha256": "f4faad27ec152181e5c2864f57b6b452a1c2d3f034e779242ae9c1465929a8d3",
+          "bytes": 29237
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/18.json",
+          "sha256": "e913429fc8bf21b68cc947290c5733bc8d15f941481ac7e56cb43c6aa62ca8a7",
+          "bytes": 7168
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4309,
+          "sha256": "b6ef5ee7724ba5fd1f5d3bfb9e140dad54febda57ea8b42e9262ce6f5e01ef17"
+        },
+        "audio": {
+          "count": 3366,
+          "sha256": "8fbd27ba4450f997f247de35eab751a45f1bad44a97f3da6274593b02c0224bf"
+        }
+      },
+      "legacy": {
+        "number": 18,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-18-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "d4b72d473a448d31840272a42b973cbbff158ee9ef7dadb590585e873e05c459",
+          "bytes": 2464110
+        },
+        "captions": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+          "sha256": "6438dd3067dc3212e39373199575980cdfc5a9995b0c6f052126937cb798e30a",
+          "bytes": 4372
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha_transcript.txt",
+          "sha256": "d9ee7b5394952a408e47cd48844f04ae1b94073d1ff2eb014df6ad3acd4744fe",
+          "bytes": 2101
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "sha256": "f4faad27ec152181e5c2864f57b6b452a1c2d3f034e779242ae9c1465929a8d3",
+          "bytes": 29237
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/18.json",
+          "sha256": "e913429fc8bf21b68cc947290c5733bc8d15f941481ac7e56cb43c6aa62ca8a7",
+          "bytes": 7168
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4309,
+          "sha256": "b6ef5ee7724ba5fd1f5d3bfb9e140dad54febda57ea8b42e9262ce6f5e01ef17"
+        },
+        "audio": {
+          "count": 3368,
+          "sha256": "8571387b4c778bbc9d357c20c8377442746e22ec904ac0ce3a514eb1a2b7dc38"
+        }
+      },
+      "legacy": {
+        "number": 18,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-19-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4.mp4",
+          "sha256": "6254500999e6598e3ace2129ceb18fa5c83f566de1dca667ceefbc7bb71a7778",
+          "bytes": 2822930
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4.vtt",
+          "sha256": "f375e6e2c2aa2567385b5bc5137f6b4d0240c35f8d827ea0d27f0b7f944904fa",
+          "bytes": 4445
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4_transcript.txt",
+          "sha256": "e0295b963896a7b8def6af0df3a78575383e4ae4dc4f5dd9494bb7012fad2324",
+          "bytes": 2081
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "sha256": "e301fa53465f56124a6d774638e776a89fe77a41b627c7ccff708a209f0ea5b3",
+          "bytes": 29686
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/addition-subtraction-lesson4.json",
+          "sha256": "c1e0712722fd479cbdabeecb57c1f46e258ee8e89b50edeb651b2dcec7378296",
+          "bytes": 6921
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4329,
+          "sha256": "2406a8448903f581e8659d1c546682dbfe792b986f593d5fa9d56fd0e5caa6c7"
+        },
+        "audio": {
+          "count": 3383,
+          "sha256": "67a2f02562aee04a5f36d03e9d30e15646894d13796637862b59fe768770d22d"
+        }
+      },
+      "legacy": {
+        "number": 19,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-19-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.mp4",
+          "sha256": "136be2f34bf5bbad73269c9eb544a7651b94db816788054a84023cc4e3c0d989",
+          "bytes": 2740503
+        },
+        "captions": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree.vtt",
+          "sha256": "42fc1355109b497f404e314feeb9c6037915de305467e31aa52d79688883706a",
+          "bytes": 4324
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree_transcript.txt",
+          "sha256": "370f62a0155967e70788133009e518e1e9366276a9610aa1eac86183f4946f45",
+          "bytes": 2053
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "sha256": "e301fa53465f56124a6d774638e776a89fe77a41b627c7ccff708a209f0ea5b3",
+          "bytes": 29686
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/19.json",
+          "sha256": "440385d92e61021cde9a5445ed27d80b4f5f914e34e54f150099833a2a3be486",
+          "bytes": 6919
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4212,
+          "sha256": "aafbe19af4e331b2863cf10f2719a17cd8278558fbc1129d4d15cf40fc7940a2"
+        },
+        "audio": {
+          "count": 3290,
+          "sha256": "be486a7295a2c24a36d7017166d3bf8398f7a0aaff92e03d09e5fb61aeaeed05"
+        }
+      },
+      "legacy": {
+        "number": 19,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-19-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "b60c509de324cf9dfb611cdfe5ef8cf761d4b615a541f62f768806bf2dc5cbcf",
+          "bytes": 2355703
+        },
+        "captions": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+          "sha256": "62a26ac3ce96f22819acc80b8b75a14deb30c28bcb7173f128a36c5cfa3eac02",
+          "bytes": 4324
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
+          "sha256": "370f62a0155967e70788133009e518e1e9366276a9610aa1eac86183f4946f45",
+          "bytes": 2053
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "sha256": "e301fa53465f56124a6d774638e776a89fe77a41b627c7ccff708a209f0ea5b3",
+          "bytes": 29686
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/19.json",
+          "sha256": "440385d92e61021cde9a5445ed27d80b4f5f914e34e54f150099833a2a3be486",
+          "bytes": 6919
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4212,
+          "sha256": "aafbe19af4e331b2863cf10f2719a17cd8278558fbc1129d4d15cf40fc7940a2"
+        },
+        "audio": {
+          "count": 3292,
+          "sha256": "23d2aeefc3625aaa24ab792e652423ed538dd058f880b59e67c6dfb715740f8d"
+        }
+      },
+      "legacy": {
+        "number": 19,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-20-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5.mp4",
+          "sha256": "1a62509f633da2c792dd2a0439bcc88ed9777d9d23ae59ec973ff42e0bb14062",
+          "bytes": 2859633
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5.vtt",
+          "sha256": "bb5384bc78b9331d573d209678ea813b11973ddfea9d99794125edda27d1b2bc",
+          "bytes": 4600
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5_transcript.txt",
+          "sha256": "0fefc8eac9540f69d73a283dbc1ced6fa5d2717c9fb733cbd25bd8967c54f6de",
+          "bytes": 2088
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "sha256": "8a7feceb35c1a4237dff3f7c592bc0873069721a33919a46301bc0ac4adfacb0",
+          "bytes": 29534
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/addition-subtraction-lesson5.json",
+          "sha256": "c08eaf62a4c56f8ccc2b7d6137d2941471c699ea338c59b7be065364653da0cd",
+          "bytes": 6998
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4324,
+          "sha256": "c6240a91fa260e448cd6433c850db69054e68091321d2eab506d8cb29f9e6631"
+        },
+        "audio": {
+          "count": 3379,
+          "sha256": "a35e574c2a5a97bdb70d6bd290174da6061927a8d3e6ad09370630a3d0cf3379"
+        }
+      },
+      "legacy": {
+        "number": 20,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-20-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.mp4",
+          "sha256": "bdfcd06800a377a84330b56a912673a27604c686f391a5a825fbc89dd8a69117",
+          "bytes": 2777550
+        },
+        "captions": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree.vtt",
+          "sha256": "b53fb3b2296ab0cb2aead407b0f32e7d1da1a7dcaa49652243cde1d4d4e0f3a6",
+          "bytes": 4479
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree_transcript.txt",
+          "sha256": "f23499af2bb0a2fba14ca1dbccd2b71758d79f56d266d9309e1da7d96eb93fa8",
+          "bytes": 2062
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "sha256": "8a7feceb35c1a4237dff3f7c592bc0873069721a33919a46301bc0ac4adfacb0",
+          "bytes": 29534
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/20.json",
+          "sha256": "7de502d39f7736a30798a03328c4aeefb7ee2f196016e512efc3efec94b01831",
+          "bytes": 6975
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4207,
+          "sha256": "617af6452b765e11987c91c8d88c80dd24b91acf8673439b0f593fd8d8176331"
+        },
+        "audio": {
+          "count": 3286,
+          "sha256": "a588ce155c94214c773f749a9f583e94711d4104789f27bdc39acb00a1622a9b"
+        }
+      },
+      "legacy": {
+        "number": 20,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "addition-subtraction-legacy-20-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+          "bytes": 2399982
+        },
+        "captions": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+          "sha256": "5e1a4a630ba42e693db5da8c996024e3f964e92358592b6d7cb0bd65a90b1bc1",
+          "bytes": 4479
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha_transcript.txt",
+          "sha256": "f23499af2bb0a2fba14ca1dbccd2b71758d79f56d266d9309e1da7d96eb93fa8",
+          "bytes": 2062
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "sha256": "8a7feceb35c1a4237dff3f7c592bc0873069721a33919a46301bc0ac4adfacb0",
+          "bytes": 29534
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/20.json",
+          "sha256": "7de502d39f7736a30798a03328c4aeefb7ee2f196016e512efc3efec94b01831",
+          "bytes": 6975
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4207,
+          "sha256": "617af6452b765e11987c91c8d88c80dd24b91acf8673439b0f593fd8d8176331"
+        },
+        "audio": {
+          "count": 3288,
+          "sha256": "e733ef62c8cb13703cdb21ddcb00ea8abee8b5640a50c277c4bc468577bb68b1"
+        }
+      },
+      "legacy": {
+        "number": 20,
+        "variant": "narration"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "addition-subtraction-legacy-16-narration"
+    },
+    {
+      "section": "lesson2",
+      "record": "addition-subtraction-legacy-17-narration"
+    },
+    {
+      "section": "lesson3",
+      "record": "addition-subtraction-legacy-18-narration"
+    },
+    {
+      "section": "lesson4",
+      "record": "addition-subtraction-legacy-19-narration"
+    },
+    {
+      "section": "lesson5",
+      "record": "addition-subtraction-legacy-20-narration"
+    }
+  ]
+}

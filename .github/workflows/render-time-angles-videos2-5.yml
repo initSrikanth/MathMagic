@@ -1,23 +1,17 @@
 name: Render Time and Angles Videos 1–5 (Kokoro)
 # Preserve approved cream-background graphics and Kokoro hf_alpha voice.
 # Five independent lessons; publish only successfully rendered and verified files.
+# Legacy renderer frozen: the Measurement pilot verifies existing files only.
 on:
-  push:
-    paths:
-      - '.github/workflows/render-time-angles-videos2-5.yml'
-      - 'video-agent/time-angles/render_video1.py'
-      - 'video-agent/time-angles/render_video2.py'
-      - 'video-agent/time-angles/render_video3.py'
-      - 'video-agent/time-angles/render_video4.py'
-      - 'video-agent/time-angles/render_video5.py'
   workflow_dispatch:
 concurrency:
   group: time-angles-videos-2-to-5
   cancel-in-progress: true
 permissions:
-  contents: write
+  contents: read
 jobs:
   render-videos:
+    if: ${{ false }} # Preserve sources; no automatic generation or publication.
     runs-on: ubuntu-24.04
     timeout-minutes: 300
     steps:

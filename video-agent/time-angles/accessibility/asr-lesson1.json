@@ -1,0 +1,229 @@
+{
+  "model": "sherpa-onnx-whisper-tiny.en int8 (free offline)",
+  "runtime": "sherpa-onnx 1.12.26",
+  "scope": "Independent recognition of ORIGINAL preserved audio; errors and numbers need human listening; never perceptual approval",
+  "segments": [
+    {
+      "utterance": 0,
+      "start": 0,
+      "end": 17.727979,
+      "text": " Imagine you are waiting for a bus. It leaves at 9 15 and reaches your destination at 10.05. You glance at the clock and wonder how long did the journey really take? Could it be 10 minutes or is there something we are missing? Let us find out together."
+    },
+    {
+      "utterance": 1,
+      "start": 18.934708,
+      "end": 33.867,
+      "text": " Today we are learning how to read time and calculate duration. Welcome to Math magic where we explore mathematics using everyday puzzles, clear pictures and smart thinking. By the end you will be able to solve our bus mystery yourself."
+    },
+    {
+      "utterance": 2,
+      "start": 35.053208,
+      "end": 42.119521,
+      "text": " Our learning goal is to read time accurately, calculate elapsed time and explain our thinking using clocks and timelines."
+    },
+    {
+      "utterance": 3,
+      "start": 43.314667,
+      "end": 51.202583,
+      "text": " By the end, you can read the hour and minute hands, calculate a duration that crosses the hour and check your answer with the timeline."
+    },
+    {
+      "utterance": 4,
+      "start": 52.388208,
+      "end": 61.218312,
+      "text": " To start with the minute hand, each large step around the clock is 5 minutes. The minute hand, a 3 means 15 minutes past the hour."
+    },
+    {
+      "utterance": 5,
+      "start": 62.417333,
+      "end": 71.821312,
+      "text": " Now find the short hour hand. It sits a little after 9 because 15 minutes of the 9th hour have passed. This clock shows 915."
+    },
+    {
+      "utterance": 6,
+      "start": 73.002125,
+      "end": 82.013083,
+      "text": " Look at this clock, what time does it show? Read the minute hand first, then the hour hand. Give yourself 5 seconds to decide."
+    },
+    {
+      "utterance": 7,
+      "start": 87.1955,
+      "end": 96.28712499999999,
+      "text": " The minute hand points to 8 or 40 minutes, the hour hand is between 3 and 4. It is 340, not 8 15."
+    },
+    {
+      "utterance": 8,
+      "start": 97.468583,
+      "end": 107.421854,
+      "text": " Let's return to our bus journey. It begins at 915 and finishes at 10.05. We can make the calculation easier by jumping to the next hour."
+    },
+    {
+      "utterance": 9,
+      "start": 108.616479,
+      "end": 116.098729,
+      "text": " From 915 to 10 o'clock, how many minutes pass? You could count in 5s or subtract 15 from 60."
+    },
+    {
+      "utterance": 10,
+      "start": 121.305604,
+      "end": 127.656604,
+      "text": " 45 minutes pass between 915 and 10 o'clock. That is our first part of the journey."
+    },
+    {
+      "utterance": 11,
+      "start": 128.846125,
+      "end": 137.907625,
+      "text": " Then the bus travels another 5 minutes from 10 o'clock to 10 o'clock. We add the two parts 45 plus 5 equals 50 minutes."
+    },
+    {
+      "utterance": 12,
+      "start": 139.112042,
+      "end": 149.852146,
+      "text": " A common mistake is to subtract 15 from 5 and say the journey took 10 minutes. That ignores the change of hour. A timeline makes the missing minutes visible."
+    },
+    {
+      "utterance": 13,
+      "start": 151.02025,
+      "end": 161.46266699999998,
+      "text": " Now let's read 24 hour time. 915 in the morning is written 0 9 15. 3 40 in the afternoon is written 15 40."
+    },
+    {
+      "utterance": 14,
+      "start": 162.649396,
+      "end": 170.636354,
+      "text": " For afternoon times after 12, add 12 to the hour. 3 + 12 = 15. The minutes do not change."
+    },
+    {
+      "utterance": 15,
+      "start": 171.835083,
+      "end": 181.844521,
+      "text": " A movie begins at 1320 and ends at 1410. Before I reveal the answer, estimate is the duration closer to 30 minutes or 1 hour."
+    },
+    {
+      "utterance": 16,
+      "start": 187.061104,
+      "end": 196.16581200000002,
+      "text": " From 1320 to 1400 is 40 minutes. Another 10 minutes takes us to 1410. The total is 50 minutes."
+    },
+    {
+      "utterance": 17,
+      "start": 197.320208,
+      "end": 212.32597900000002,
+      "text": " Here is a useful trick. A clock has 60 minutes, but only 12 large numbers. Each jump between 2 neighbouring numbers represents 5 minutes. Start at 12 and count 5, 10, 15, 20, 25 and 30."
+    },
+    {
+      "utterance": 18,
+      "start": 213.507167,
+      "end": 225.960375,
+      "text": " Take a look at this clock showing 6.30. Before you hear my answer point to the minute hand, why does it point to 6 instead of 30? Pose and think about what each large number represents."
+    },
+    {
+      "utterance": 19,
+      "start": 231.157292,
+      "end": 246.023396,
+      "text": " The long minute hand points to 6, which represents 30 minutes. The shorter our hand is halfway between 6 and 7. Half past 6 is written 6/30. We never read the number under the minute hand as the minutes directly."
+    },
+    {
+      "utterance": 20,
+      "start": 247.208833,
+      "end": 259.349687,
+      "text": " We can also use the word \"Kora\" A quarter of 60 minutes is 15 minutes. When the minute hand points to 3, it is quarter past the hour. When it points to 9, it is quarter to the next hour."
+    },
+    {
+      "utterance": 21,
+      "start": 260.534125,
+      "end": 272.529875,
+      "text": " This clock shows 945. Is that quarter past 9 or quarter to 10? Look closely at where the shorter our hand is moving. Give yourself 5 seconds to decide."
+    },
+    {
+      "utterance": 22,
+      "start": 277.720333,
+      "end": 290.198292,
+      "text": " Here is quarter to 10. 45 minutes have already passed since 9 o'clock and 15 minutes remain until 10. The hour hand is nearly at 10. That is why we say quarter to 10."
+    },
+    {
+      "utterance": 23,
+      "start": 291.401667,
+      "end": 304.126166,
+      "text": " To calculate a duration, we are not looking for the difference between two clock numbers. We want the amount of time that actually passes. A number line or timeline shows each part of the journey clearly."
+    },
+    {
+      "utterance": 24,
+      "start": 305.318083,
+      "end": 319.36793800000004,
+      "text": " Think of 10 o'clock as a friendly stopping point. First travel from 9 15 to 10 o'clock. Then travel from 10 o'clock to 10 o'5. We can add the two durations because the parts do not overlap."
+    },
+    {
+      "utterance": 25,
+      "start": 320.565125,
+      "end": 334.931916,
+      "text": " Try another example. A swimming lesson begins at 225 and finishes at 310. How many minutes until 3 o'clock? Then how many more minutes until 310? Work it out before the explanation."
+    },
+    {
+      "utterance": 26,
+      "start": 340.132687,
+      "end": 354.725958,
+      "text": " From 225 to 3 o'clock is 35 minutes. From 3 o'clock to 3 10 is another 10 minutes. 35 plus 10 equals 45 minutes. The swimming lesson lasts 45 minutes."
+    },
+    {
+      "utterance": 27,
+      "start": 355.934875,
+      "end": 369.81325,
+      "text": " Check the reasonableness of your answer. If an activity begins before 3 o'clock and finishes just after 3 o'clock, a duration of 5 minutes is too short."
+    },
+    {
+      "utterance": 28,
+      "start": 371.01025,
+      "end": 383.967334,
+      "text": " Now let us compare morning and afternoon times. A digital clock may show 340 in the afternoon while at 24 hour clock shows 1540. Both represent exactly the same moment."
+    },
+    {
+      "utterance": 29,
+      "start": 385.140917,
+      "end": 397.427875,
+      "text": " Here is a quick check. If a sports match starts at 1420, what time is that on a 12 hour clock? Think about subtracting 12 from the hour. The minutes should stay exactly the same."
+    },
+    {
+      "utterance": 30,
+      "start": 402.636417,
+      "end": 414.482958,
+      "text": " 14 minus 12 equals 2. So 14 20 is 220 in the afternoon. Notice that we did not subtract 12 from the minutes. The 20 minutes remain 20 minutes."
+    },
+    {
+      "utterance": 31,
+      "start": 415.6545,
+      "end": 429.96745899999996,
+      "text": " Be careful around midday. 12 noon is 12 hundred in 24 hour time. Midnight is zero hundred. These two moments are 12 hours apart even though both may be written as 12 on a 12 hour clock."
+    },
+    {
+      "utterance": 32,
+      "start": 431.159792,
+      "end": 445.402354,
+      "text": " Here is our final independent challenge. A train leaves at 1135 and reaches its destination at 1220. How long does it travel? Draw a timeline with noon as the middle stop and solve each part."
+    },
+    {
+      "utterance": 33,
+      "start": 450.599979,
+      "end": 464.277855,
+      "text": " From 11 35 to noon is 25 minutes. From noon to 12 20 is another 20 minutes. 25 plus 20 equals 45 minutes. The train journey takes 45 minutes."
+    },
+    {
+      "utterance": 34,
+      "start": 465.464042,
+      "end": 478.269521,
+      "text": " To check your understanding, explain the method to someone else. Read the clock hands, choose a helpful hour boundary, count each jump and add the minutes. If your answer seems surprising, draw the timeline again."
+    },
+    {
+      "utterance": 35,
+      "start": 479.481292,
+      "end": 491.112875,
+      "text": " Today you read clock hands crossed an hour boundary and converted between 12 hour and 24 hour time. Remember count the time between the two moments, not just the numbers on the clock."
+    },
+    {
+      "utterance": 36,
+      "start": 492.289792,
+      "end": 504.107438,
+      "text": " Your challenge, a train, departs at 11.35 and arrives at 12.20 Draw a timeline, find the duration and explain each jump. Then try the math magic practice."
+    }
+  ]
+}

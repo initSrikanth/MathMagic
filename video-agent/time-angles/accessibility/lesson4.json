@@ -1,0 +1,4767 @@
+{
+  "schema": 1,
+  "video": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4",
+  "video_sha256": "e3c9d86c48040c99c8d63b04ef256794dd8e03f06871ec974fda58b0c3fef5c9",
+  "script": "video-agent/time-angles/render_video4.py",
+  "script_sha256": "a5ff925e4b12d80692af2db4d2475e86050b61b5a043641fb942c1a2a87c6ea0",
+  "captions": "videos/MathMagic_Time_Angles_04_Measuring_Angles.vtt",
+  "captions_sha256": "dcfc030501cc10f2750a45d2d595f2d35a7df1ccf4d2d29d37b6d1bfb8b9ac81",
+  "transcript": "videos/MathMagic_Time_Angles_04_Measuring_Angles_transcript.txt",
+  "transcript_sha256": "4ea59fd42e3ac5ef100e5da756e0aee650804354150b209d67fcef20997311ec",
+  "method": "Actual decoded audio silence boundaries plus PocketSphinx 5.0.4 CMU-en-US acoustic forced word alignment of saved renderer wording; 10ms frame resolution.",
+  "limitations": "Forced alignment does not independently transcribe or prove words were spoken. Accent, speech fidelity and ambiguous spans require exact-video listening. No synthesis or video modification.",
+  "listening_review": "not_performed",
+  "status": "ALIGNED_REVIEW_REQUIRED",
+  "duration": 334.336,
+  "utterances": [
+    {
+      "role": "hook",
+      "text": "Two students draw different-looking angles and both say theirs is bigger. How could we settle their argument fairly?",
+      "start": 0.0,
+      "speech_end": 6.998,
+      "words": [
+        {
+          "word": "two",
+          "start": 0.1,
+          "end": 0.25
+        },
+        {
+          "word": "students",
+          "start": 0.25,
+          "end": 0.87
+        },
+        {
+          "word": "draw",
+          "start": 0.87,
+          "end": 1.21
+        },
+        {
+          "word": "different",
+          "start": 1.21,
+          "end": 1.63
+        },
+        {
+          "word": "looking",
+          "start": 1.63,
+          "end": 1.92
+        },
+        {
+          "word": "angles",
+          "start": 1.92,
+          "end": 2.55
+        },
+        {
+          "word": "and",
+          "start": 2.55,
+          "end": 2.78
+        },
+        {
+          "word": "both",
+          "start": 2.78,
+          "end": 3.02
+        },
+        {
+          "word": "say",
+          "start": 3.02,
+          "end": 3.32
+        },
+        {
+          "word": "theirs",
+          "start": 3.32,
+          "end": 3.65
+        },
+        {
+          "word": "is",
+          "start": 3.65,
+          "end": 3.84
+        },
+        {
+          "word": "bigger",
+          "start": 3.84,
+          "end": 4.26
+        },
+        {
+          "word": "how",
+          "start": 4.45,
+          "end": 4.72
+        },
+        {
+          "word": "could",
+          "start": 4.72,
+          "end": 4.98
+        },
+        {
+          "word": "we",
+          "start": 4.98,
+          "end": 5.14
+        },
+        {
+          "word": "settle",
+          "start": 5.14,
+          "end": 5.55
+        },
+        {
+          "word": "their",
+          "start": 5.55,
+          "end": 5.79
+        },
+        {
+          "word": "argument",
+          "start": 5.86,
+          "end": 6.42
+        },
+        {
+          "word": "fairly",
+          "start": 6.42,
+          "end": 6.99
+        }
+      ]
+    },
+    {
+      "role": "introduction",
+      "text": "Today we are learning to measure and draw angles with a protractor.",
+      "start": 8.19,
+      "speech_end": 12.232,
+      "words": [
+        {
+          "word": "today",
+          "start": 8.19,
+          "end": 8.67
+        },
+        {
+          "word": "we",
+          "start": 8.75,
+          "end": 8.92
+        },
+        {
+          "word": "are",
+          "start": 8.92,
+          "end": 9.02
+        },
+        {
+          "word": "learning",
+          "start": 9.02,
+          "end": 9.52
+        },
+        {
+          "word": "to",
+          "start": 9.52,
+          "end": 9.65
+        },
+        {
+          "word": "measure",
+          "start": 9.65,
+          "end": 10.07
+        },
+        {
+          "word": "and",
+          "start": 10.07,
+          "end": 10.47
+        },
+        {
+          "word": "draw",
+          "start": 10.47,
+          "end": 10.78
+        },
+        {
+          "word": "angles",
+          "start": 10.78,
+          "end": 11.33
+        },
+        {
+          "word": "with",
+          "start": 11.33,
+          "end": 11.47
+        },
+        {
+          "word": "a",
+          "start": 11.47,
+          "end": 11.51
+        },
+        {
+          "word": "protractor",
+          "start": 11.51,
+          "end": 12.25
+        }
+      ]
+    },
+    {
+      "role": "goal",
+      "text": "Our learning goal is to measure and draw angles with a protractor.",
+      "start": 13.445,
+      "speech_end": 17.201,
+      "words": [
+        {
+          "word": "our",
+          "start": 13.445,
+          "end": 13.605
+        },
+        {
+          "word": "learning",
+          "start": 13.605,
+          "end": 13.995
+        },
+        {
+          "word": "goal",
+          "start": 13.995,
+          "end": 14.215
+        },
+        {
+          "word": "is",
+          "start": 14.215,
+          "end": 14.565
+        },
+        {
+          "word": "to",
+          "start": 14.565,
+          "end": 14.675
+        },
+        {
+          "word": "measure",
+          "start": 14.675,
+          "end": 15.075
+        },
+        {
+          "word": "and",
+          "start": 15.075,
+          "end": 15.415
+        },
+        {
+          "word": "draw",
+          "start": 15.415,
+          "end": 15.735
+        },
+        {
+          "word": "angles",
+          "start": 15.735,
+          "end": 16.295
+        },
+        {
+          "word": "with",
+          "start": 16.295,
+          "end": 16.415
+        },
+        {
+          "word": "a",
+          "start": 16.415,
+          "end": 16.455
+        },
+        {
+          "word": "protractor",
+          "start": 16.455,
+          "end": 17.175
+        }
+      ]
+    },
+    {
+      "role": "criteria",
+      "text": "Success criteria: align the vertex, find the zero baseline and read the correct degree scale.",
+      "start": 18.399,
+      "speech_end": 24.452,
+      "words": [
+        {
+          "word": "success",
+          "start": 18.399,
+          "end": 18.939
+        },
+        {
+          "word": "criteria",
+          "start": 18.939,
+          "end": 19.849
+        },
+        {
+          "word": "align",
+          "start": 19.849,
+          "end": 20.239
+        },
+        {
+          "word": "the",
+          "start": 20.239,
+          "end": 20.319
+        },
+        {
+          "word": "vertex",
+          "start": 20.319,
+          "end": 20.959
+        },
+        {
+          "word": "find",
+          "start": 21.049,
+          "end": 21.409
+        },
+        {
+          "word": "the",
+          "start": 21.409,
+          "end": 21.489
+        },
+        {
+          "word": "zero",
+          "start": 21.489,
+          "end": 21.879
+        },
+        {
+          "word": "baseline",
+          "start": 21.879,
+          "end": 22.579
+        },
+        {
+          "word": "and",
+          "start": 22.579,
+          "end": 22.839
+        },
+        {
+          "word": "read",
+          "start": 22.839,
+          "end": 23.109
+        },
+        {
+          "word": "the",
+          "start": 23.109,
+          "end": 23.229
+        },
+        {
+          "word": "correct",
+          "start": 23.229,
+          "end": 23.699
+        },
+        {
+          "word": "degree",
+          "start": 23.699,
+          "end": 24.029
+        },
+        {
+          "word": "scale",
+          "start": 24.029,
+          "end": 24.429
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "An angle is the amount of turning between two rays meeting at a vertex. The length of the rays does not change the angle.",
+      "start": 25.661,
+      "speech_end": 33.669,
+      "words": [
+        {
+          "word": "an",
+          "start": 25.661,
+          "end": 25.791
+        },
+        {
+          "word": "angle",
+          "start": 25.791,
+          "end": 26.361
+        },
+        {
+          "word": "is",
+          "start": 26.531,
+          "end": 26.701
+        },
+        {
+          "word": "the",
+          "start": 26.701,
+          "end": 26.901
+        },
+        {
+          "word": "amount",
+          "start": 26.901,
+          "end": 27.331
+        },
+        {
+          "word": "of",
+          "start": 27.331,
+          "end": 27.461
+        },
+        {
+          "word": "turning",
+          "start": 27.461,
+          "end": 27.951
+        },
+        {
+          "word": "between",
+          "start": 27.951,
+          "end": 28.371
+        },
+        {
+          "word": "two",
+          "start": 28.371,
+          "end": 28.671
+        },
+        {
+          "word": "rays",
+          "start": 28.671,
+          "end": 29.041
+        },
+        {
+          "word": "meeting",
+          "start": 29.041,
+          "end": 29.561
+        },
+        {
+          "word": "at",
+          "start": 29.561,
+          "end": 29.701
+        },
+        {
+          "word": "a",
+          "start": 29.701,
+          "end": 29.761
+        },
+        {
+          "word": "vertex",
+          "start": 29.761,
+          "end": 30.451
+        },
+        {
+          "word": "the",
+          "start": 30.661,
+          "end": 30.771
+        },
+        {
+          "word": "length",
+          "start": 30.771,
+          "end": 31.141
+        },
+        {
+          "word": "of",
+          "start": 31.141,
+          "end": 31.291
+        },
+        {
+          "word": "the",
+          "start": 31.291,
+          "end": 31.451
+        },
+        {
+          "word": "rays",
+          "start": 31.451,
+          "end": 32.001
+        },
+        {
+          "word": "does",
+          "start": 32.131,
+          "end": 32.341
+        },
+        {
+          "word": "not",
+          "start": 32.341,
+          "end": 32.641
+        },
+        {
+          "word": "change",
+          "start": 32.641,
+          "end": 33.071
+        },
+        {
+          "word": "the",
+          "start": 33.071,
+          "end": 33.221
+        },
+        {
+          "word": "angle",
+          "start": 33.221,
+          "end": 33.641
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A full turn is three hundred and sixty degrees, a half turn is one hundred and eighty, and a quarter turn is ninety.",
+      "start": 34.871,
+      "speech_end": 41.796,
+      "words": [
+        {
+          "word": "a",
+          "start": 34.871,
+          "end": 34.931
+        },
+        {
+          "word": "full",
+          "start": 34.931,
+          "end": 35.291
+        },
+        {
+          "word": "turn",
+          "start": 35.291,
+          "end": 35.661
+        },
+        {
+          "word": "is",
+          "start": 35.661,
+          "end": 35.921
+        },
+        {
+          "word": "three",
+          "start": 35.921,
+          "end": 36.191
+        },
+        {
+          "word": "hundred",
+          "start": 36.191,
+          "end": 36.641
+        },
+        {
+          "word": "and",
+          "start": 36.641,
+          "end": 36.791
+        },
+        {
+          "word": "sixty",
+          "start": 36.791,
+          "end": 37.211
+        },
+        {
+          "word": "degrees",
+          "start": 37.211,
+          "end": 37.871
+        },
+        {
+          "word": "a",
+          "start": 37.871,
+          "end": 37.921
+        },
+        {
+          "word": "half",
+          "start": 37.921,
+          "end": 38.291
+        },
+        {
+          "word": "turn",
+          "start": 38.291,
+          "end": 38.591
+        },
+        {
+          "word": "is",
+          "start": 38.591,
+          "end": 38.831
+        },
+        {
+          "word": "one",
+          "start": 38.831,
+          "end": 39.061
+        },
+        {
+          "word": "hundred",
+          "start": 39.061,
+          "end": 39.521
+        },
+        {
+          "word": "and",
+          "start": 39.521,
+          "end": 39.761
+        },
+        {
+          "word": "eighty",
+          "start": 39.761,
+          "end": 40.161
+        },
+        {
+          "word": "and",
+          "start": 40.161,
+          "end": 40.321
+        },
+        {
+          "word": "a",
+          "start": 40.321,
+          "end": 40.381
+        },
+        {
+          "word": "quarter",
+          "start": 40.381,
+          "end": 40.721
+        },
+        {
+          "word": "turn",
+          "start": 40.721,
+          "end": 41.041
+        },
+        {
+          "word": "is",
+          "start": 41.041,
+          "end": 41.241
+        },
+        {
+          "word": "ninety",
+          "start": 41.241,
+          "end": 41.811
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "Look at this angle. Is it acute, right, obtuse or straight? Pause for five seconds and decide.",
+      "start": 42.976,
+      "speech_end": 49.972,
+      "words": [
+        {
+          "word": "look",
+          "start": 42.976,
+          "end": 43.346
+        },
+        {
+          "word": "at",
+          "start": 43.346,
+          "end": 43.536
+        },
+        {
+          "word": "this",
+          "start": 43.536,
+          "end": 43.776
+        },
+        {
+          "word": "angle",
+          "start": 43.776,
+          "end": 44.356
+        },
+        {
+          "word": "is",
+          "start": 44.606,
+          "end": 44.816
+        },
+        {
+          "word": "it",
+          "start": 44.816,
+          "end": 44.986
+        },
+        {
+          "word": "acute",
+          "start": 44.986,
+          "end": 45.696
+        },
+        {
+          "word": "right",
+          "start": 45.696,
+          "end": 46.096
+        },
+        {
+          "word": "obtuse",
+          "start": 46.096,
+          "end": 46.646
+        },
+        {
+          "word": "or",
+          "start": 46.646,
+          "end": 46.826
+        },
+        {
+          "word": "straight",
+          "start": 46.826,
+          "end": 47.266
+        },
+        {
+          "word": "pause",
+          "start": 47.586,
+          "end": 47.946
+        },
+        {
+          "word": "for",
+          "start": 47.946,
+          "end": 48.086
+        },
+        {
+          "word": "five",
+          "start": 48.086,
+          "end": 48.516
+        },
+        {
+          "word": "seconds",
+          "start": 48.516,
+          "end": 49.146
+        },
+        {
+          "word": "and",
+          "start": 49.146,
+          "end": 49.326
+        },
+        {
+          "word": "decide",
+          "start": 49.326,
+          "end": 49.966
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Sixty degrees is smaller than ninety degrees, so this is an acute angle.",
+      "start": 55.155,
+      "speech_end": 60.041,
+      "words": [
+        {
+          "word": "sixty",
+          "start": 55.155,
+          "end": 55.615
+        },
+        {
+          "word": "degrees",
+          "start": 55.615,
+          "end": 56.165
+        },
+        {
+          "word": "is",
+          "start": 56.165,
+          "end": 56.365
+        },
+        {
+          "word": "smaller",
+          "start": 56.365,
+          "end": 56.895
+        },
+        {
+          "word": "than",
+          "start": 56.895,
+          "end": 57.145
+        },
+        {
+          "word": "ninety",
+          "start": 57.145,
+          "end": 57.565
+        },
+        {
+          "word": "degrees",
+          "start": 57.565,
+          "end": 58.185
+        },
+        {
+          "word": "so",
+          "start": 58.185,
+          "end": 58.355
+        },
+        {
+          "word": "this",
+          "start": 58.355,
+          "end": 58.615
+        },
+        {
+          "word": "is",
+          "start": 58.615,
+          "end": 58.895
+        },
+        {
+          "word": "an",
+          "start": 58.895,
+          "end": 59.075
+        },
+        {
+          "word": "acute",
+          "start": 59.075,
+          "end": 59.535
+        },
+        {
+          "word": "angle",
+          "start": 59.535,
+          "end": 60.015
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A right angle is ninety degrees. It looks like the corner of a square.",
+      "start": 61.235,
+      "speech_end": 65.908,
+      "words": [
+        {
+          "word": "a",
+          "start": 61.235,
+          "end": 61.365
+        },
+        {
+          "word": "right",
+          "start": 61.365,
+          "end": 61.705
+        },
+        {
+          "word": "angle",
+          "start": 61.705,
+          "end": 62.255
+        },
+        {
+          "word": "is",
+          "start": 62.385,
+          "end": 62.565
+        },
+        {
+          "word": "ninety",
+          "start": 62.565,
+          "end": 63.005
+        },
+        {
+          "word": "degrees",
+          "start": 63.005,
+          "end": 63.715
+        },
+        {
+          "word": "it",
+          "start": 63.905,
+          "end": 64.045
+        },
+        {
+          "word": "looks",
+          "start": 64.045,
+          "end": 64.345
+        },
+        {
+          "word": "like",
+          "start": 64.345,
+          "end": 64.575
+        },
+        {
+          "word": "the",
+          "start": 64.575,
+          "end": 64.705
+        },
+        {
+          "word": "corner",
+          "start": 64.705,
+          "end": 65.175
+        },
+        {
+          "word": "of",
+          "start": 65.175,
+          "end": 65.295
+        },
+        {
+          "word": "a",
+          "start": 65.295,
+          "end": 65.355
+        },
+        {
+          "word": "square",
+          "start": 65.355,
+          "end": 65.845
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "An angle is one hundred and twenty degrees. Is it acute or obtuse? Compare it with ninety degrees.",
+      "start": 67.112,
+      "speech_end": 75.032,
+      "words": [
+        {
+          "word": "an",
+          "start": 67.112,
+          "end": 67.262
+        },
+        {
+          "word": "angle",
+          "start": 67.262,
+          "end": 67.842
+        },
+        {
+          "word": "is",
+          "start": 67.982,
+          "end": 68.182
+        },
+        {
+          "word": "one",
+          "start": 68.182,
+          "end": 68.472
+        },
+        {
+          "word": "hundred",
+          "start": 68.472,
+          "end": 69.002
+        },
+        {
+          "word": "and",
+          "start": 69.002,
+          "end": 69.372
+        },
+        {
+          "word": "twenty",
+          "start": 69.372,
+          "end": 69.722
+        },
+        {
+          "word": "degrees",
+          "start": 69.722,
+          "end": 70.422
+        },
+        {
+          "word": "is",
+          "start": 70.602,
+          "end": 70.822
+        },
+        {
+          "word": "it",
+          "start": 70.822,
+          "end": 71.122
+        },
+        {
+          "word": "acute",
+          "start": 71.122,
+          "end": 71.742
+        },
+        {
+          "word": "or",
+          "start": 71.742,
+          "end": 72.002
+        },
+        {
+          "word": "obtuse",
+          "start": 72.002,
+          "end": 72.742
+        },
+        {
+          "word": "compare",
+          "start": 72.912,
+          "end": 73.412
+        },
+        {
+          "word": "it",
+          "start": 73.412,
+          "end": 73.572
+        },
+        {
+          "word": "with",
+          "start": 73.572,
+          "end": 73.832
+        },
+        {
+          "word": "ninety",
+          "start": 73.832,
+          "end": 74.332
+        },
+        {
+          "word": "degrees",
+          "start": 74.332,
+          "end": 75.042
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "One hundred and twenty is greater than ninety and less than one hundred and eighty, so the angle is obtuse.",
+      "start": 80.234,
+      "speech_end": 86.705,
+      "words": [
+        {
+          "word": "one",
+          "start": 80.234,
+          "end": 80.494
+        },
+        {
+          "word": "hundred",
+          "start": 80.494,
+          "end": 80.964
+        },
+        {
+          "word": "and",
+          "start": 80.964,
+          "end": 81.184
+        },
+        {
+          "word": "twenty",
+          "start": 81.184,
+          "end": 81.704
+        },
+        {
+          "word": "is",
+          "start": 81.704,
+          "end": 81.864
+        },
+        {
+          "word": "greater",
+          "start": 81.864,
+          "end": 82.264
+        },
+        {
+          "word": "than",
+          "start": 82.264,
+          "end": 82.514
+        },
+        {
+          "word": "ninety",
+          "start": 82.514,
+          "end": 83.064
+        },
+        {
+          "word": "and",
+          "start": 83.064,
+          "end": 83.224
+        },
+        {
+          "word": "less",
+          "start": 83.224,
+          "end": 83.544
+        },
+        {
+          "word": "than",
+          "start": 83.544,
+          "end": 83.724
+        },
+        {
+          "word": "one",
+          "start": 83.724,
+          "end": 83.944
+        },
+        {
+          "word": "hundred",
+          "start": 83.944,
+          "end": 84.404
+        },
+        {
+          "word": "and",
+          "start": 84.404,
+          "end": 84.574
+        },
+        {
+          "word": "eighty",
+          "start": 84.574,
+          "end": 85.094
+        },
+        {
+          "word": "so",
+          "start": 85.094,
+          "end": 85.234
+        },
+        {
+          "word": "the",
+          "start": 85.234,
+          "end": 85.384
+        },
+        {
+          "word": "angle",
+          "start": 85.384,
+          "end": 85.824
+        },
+        {
+          "word": "is",
+          "start": 85.824,
+          "end": 86.064
+        },
+        {
+          "word": "obtuse",
+          "start": 86.064,
+          "end": 86.694
+        }
+      ]
+    },
+    {
+      "role": "misconception",
+      "text": "An angle with longer arms is not necessarily larger. We measure the amount of turning, not the length of the lines.",
+      "start": 87.916,
+      "speech_end": 95.572,
+      "words": [
+        {
+          "word": "an",
+          "start": 87.916,
+          "end": 88.066
+        },
+        {
+          "word": "angle",
+          "start": 88.066,
+          "end": 88.576
+        },
+        {
+          "word": "with",
+          "start": 88.576,
+          "end": 88.826
+        },
+        {
+          "word": "longer",
+          "start": 88.826,
+          "end": 89.356
+        },
+        {
+          "word": "arms",
+          "start": 89.356,
+          "end": 89.876
+        },
+        {
+          "word": "is",
+          "start": 89.876,
+          "end": 90.086
+        },
+        {
+          "word": "not",
+          "start": 90.086,
+          "end": 90.446
+        },
+        {
+          "word": "necessarily",
+          "start": 90.446,
+          "end": 91.256
+        },
+        {
+          "word": "larger",
+          "start": 91.256,
+          "end": 91.816
+        },
+        {
+          "word": "we",
+          "start": 92.056,
+          "end": 92.196
+        },
+        {
+          "word": "measure",
+          "start": 92.196,
+          "end": 92.636
+        },
+        {
+          "word": "the",
+          "start": 92.636,
+          "end": 92.816
+        },
+        {
+          "word": "amount",
+          "start": 92.816,
+          "end": 93.286
+        },
+        {
+          "word": "of",
+          "start": 93.286,
+          "end": 93.426
+        },
+        {
+          "word": "turning",
+          "start": 93.426,
+          "end": 93.956
+        },
+        {
+          "word": "not",
+          "start": 93.956,
+          "end": 94.226
+        },
+        {
+          "word": "the",
+          "start": 94.226,
+          "end": 94.386
+        },
+        {
+          "word": "length",
+          "start": 94.386,
+          "end": 94.746
+        },
+        {
+          "word": "of",
+          "start": 94.746,
+          "end": 94.836
+        },
+        {
+          "word": "the",
+          "start": 94.836,
+          "end": 94.936
+        },
+        {
+          "word": "lines",
+          "start": 94.936,
+          "end": 95.586
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "When measuring with a protractor, place the centre at the vertex and align one arm with the zero-degree baseline.",
+      "start": 96.771,
+      "speech_end": 103.339,
+      "words": [
+        {
+          "word": "when",
+          "start": 96.771,
+          "end": 97.031
+        },
+        {
+          "word": "measuring",
+          "start": 97.031,
+          "end": 97.531
+        },
+        {
+          "word": "with",
+          "start": 97.531,
+          "end": 97.691
+        },
+        {
+          "word": "a",
+          "start": 97.691,
+          "end": 97.731
+        },
+        {
+          "word": "protractor",
+          "start": 97.731,
+          "end": 98.491
+        },
+        {
+          "word": "place",
+          "start": 98.491,
+          "end": 98.861
+        },
+        {
+          "word": "the",
+          "start": 98.861,
+          "end": 98.981
+        },
+        {
+          "word": "centre",
+          "start": 98.981,
+          "end": 99.391
+        },
+        {
+          "word": "at",
+          "start": 99.391,
+          "end": 99.591
+        },
+        {
+          "word": "the",
+          "start": 99.591,
+          "end": 99.681
+        },
+        {
+          "word": "vertex",
+          "start": 99.681,
+          "end": 100.291
+        },
+        {
+          "word": "and",
+          "start": 100.291,
+          "end": 100.461
+        },
+        {
+          "word": "align",
+          "start": 100.461,
+          "end": 100.851
+        },
+        {
+          "word": "one",
+          "start": 100.851,
+          "end": 101.091
+        },
+        {
+          "word": "arm",
+          "start": 101.091,
+          "end": 101.501
+        },
+        {
+          "word": "with",
+          "start": 101.641,
+          "end": 101.801
+        },
+        {
+          "word": "the",
+          "start": 101.801,
+          "end": 101.891
+        },
+        {
+          "word": "zero",
+          "start": 101.891,
+          "end": 102.321
+        },
+        {
+          "word": "degree",
+          "start": 102.321,
+          "end": 102.651
+        },
+        {
+          "word": "baseline",
+          "start": 102.651,
+          "end": 103.331
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "If the angle looks narrower than a right angle, should you read seventy-five or one hundred and five degrees?",
+      "start": 104.537,
+      "speech_end": 111.306,
+      "words": [
+        {
+          "word": "if",
+          "start": 104.537,
+          "end": 104.687
+        },
+        {
+          "word": "the",
+          "start": 104.687,
+          "end": 104.877
+        },
+        {
+          "word": "angle",
+          "start": 104.877,
+          "end": 105.257
+        },
+        {
+          "word": "looks",
+          "start": 105.257,
+          "end": 105.577
+        },
+        {
+          "word": "narrower",
+          "start": 105.577,
+          "end": 106.047
+        },
+        {
+          "word": "than",
+          "start": 106.047,
+          "end": 106.307
+        },
+        {
+          "word": "a",
+          "start": 106.307,
+          "end": 106.427
+        },
+        {
+          "word": "right",
+          "start": 106.427,
+          "end": 106.777
+        },
+        {
+          "word": "angle",
+          "start": 106.777,
+          "end": 107.277
+        },
+        {
+          "word": "should",
+          "start": 107.277,
+          "end": 107.477
+        },
+        {
+          "word": "you",
+          "start": 107.477,
+          "end": 107.647
+        },
+        {
+          "word": "read",
+          "start": 107.647,
+          "end": 107.997
+        },
+        {
+          "word": "seventy",
+          "start": 107.997,
+          "end": 108.597
+        },
+        {
+          "word": "five",
+          "start": 108.597,
+          "end": 109.057
+        },
+        {
+          "word": "or",
+          "start": 109.057,
+          "end": 109.257
+        },
+        {
+          "word": "one",
+          "start": 109.257,
+          "end": 109.567
+        },
+        {
+          "word": "hundred",
+          "start": 109.567,
+          "end": 110.047
+        },
+        {
+          "word": "and",
+          "start": 110.047,
+          "end": 110.297
+        },
+        {
+          "word": "five",
+          "start": 110.297,
+          "end": 110.657
+        },
+        {
+          "word": "degrees",
+          "start": 110.657,
+          "end": 111.327
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Seventy-five degrees is the sensible measurement because it is less than ninety degrees.",
+      "start": 116.514,
+      "speech_end": 121.991,
+      "words": [
+        {
+          "word": "seventy",
+          "start": 116.514,
+          "end": 116.974
+        },
+        {
+          "word": "five",
+          "start": 116.974,
+          "end": 117.404
+        },
+        {
+          "word": "degrees",
+          "start": 117.404,
+          "end": 118.064
+        },
+        {
+          "word": "is",
+          "start": 118.064,
+          "end": 118.254
+        },
+        {
+          "word": "the",
+          "start": 118.254,
+          "end": 118.374
+        },
+        {
+          "word": "sensible",
+          "start": 118.374,
+          "end": 118.974
+        },
+        {
+          "word": "measurement",
+          "start": 118.974,
+          "end": 119.484
+        },
+        {
+          "word": "because",
+          "start": 119.484,
+          "end": 119.874
+        },
+        {
+          "word": "it",
+          "start": 119.874,
+          "end": 120.104
+        },
+        {
+          "word": "is",
+          "start": 120.104,
+          "end": 120.284
+        },
+        {
+          "word": "less",
+          "start": 120.284,
+          "end": 120.674
+        },
+        {
+          "word": "than",
+          "start": 120.674,
+          "end": 120.934
+        },
+        {
+          "word": "ninety",
+          "start": 120.934,
+          "end": 121.334
+        },
+        {
+          "word": "degrees",
+          "start": 121.334,
+          "end": 121.994
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Always check which protractor scale begins at zero along your starting arm. The two scales count in opposite directions.",
+      "start": 123.205,
+      "speech_end": 130.897,
+      "words": [
+        {
+          "word": "always",
+          "start": 123.205,
+          "end": 123.655
+        },
+        {
+          "word": "check",
+          "start": 123.655,
+          "end": 124.055
+        },
+        {
+          "word": "which",
+          "start": 124.055,
+          "end": 124.315
+        },
+        {
+          "word": "protractor",
+          "start": 124.315,
+          "end": 124.945
+        },
+        {
+          "word": "scale",
+          "start": 124.945,
+          "end": 125.365
+        },
+        {
+          "word": "begins",
+          "start": 125.365,
+          "end": 125.865
+        },
+        {
+          "word": "at",
+          "start": 125.865,
+          "end": 126.045
+        },
+        {
+          "word": "zero",
+          "start": 126.045,
+          "end": 126.535
+        },
+        {
+          "word": "along",
+          "start": 126.725,
+          "end": 127.015
+        },
+        {
+          "word": "your",
+          "start": 127.015,
+          "end": 127.125
+        },
+        {
+          "word": "starting",
+          "start": 127.125,
+          "end": 127.635
+        },
+        {
+          "word": "arm",
+          "start": 127.635,
+          "end": 127.955
+        },
+        {
+          "word": "the",
+          "start": 128.175,
+          "end": 128.305
+        },
+        {
+          "word": "two",
+          "start": 128.305,
+          "end": 128.535
+        },
+        {
+          "word": "scales",
+          "start": 128.535,
+          "end": 129.025
+        },
+        {
+          "word": "count",
+          "start": 129.025,
+          "end": 129.515
+        },
+        {
+          "word": "in",
+          "start": 129.515,
+          "end": 129.705
+        },
+        {
+          "word": "opposite",
+          "start": 129.705,
+          "end": 130.175
+        },
+        {
+          "word": "directions",
+          "start": 130.175,
+          "end": 130.915
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "Two adjacent angles lie on a straight line. One is forty degrees. What is the other angle?",
+      "start": 132.107,
+      "speech_end": 139.078,
+      "words": [
+        {
+          "word": "two",
+          "start": 132.107,
+          "end": 132.317
+        },
+        {
+          "word": "adjacent",
+          "start": 132.317,
+          "end": 133.037
+        },
+        {
+          "word": "angles",
+          "start": 133.037,
+          "end": 133.847
+        },
+        {
+          "word": "lie",
+          "start": 133.847,
+          "end": 134.177
+        },
+        {
+          "word": "on",
+          "start": 134.177,
+          "end": 134.267
+        },
+        {
+          "word": "a",
+          "start": 134.267,
+          "end": 134.297
+        },
+        {
+          "word": "straight",
+          "start": 134.297,
+          "end": 134.707
+        },
+        {
+          "word": "line",
+          "start": 134.707,
+          "end": 135.137
+        },
+        {
+          "word": "one",
+          "start": 135.357,
+          "end": 135.687
+        },
+        {
+          "word": "is",
+          "start": 135.687,
+          "end": 136.007
+        },
+        {
+          "word": "forty",
+          "start": 136.007,
+          "end": 136.427
+        },
+        {
+          "word": "degrees",
+          "start": 136.427,
+          "end": 137.127
+        },
+        {
+          "word": "what",
+          "start": 137.337,
+          "end": 137.627
+        },
+        {
+          "word": "is",
+          "start": 137.627,
+          "end": 137.877
+        },
+        {
+          "word": "the",
+          "start": 137.877,
+          "end": 138.127
+        },
+        {
+          "word": "other",
+          "start": 138.127,
+          "end": 138.397
+        },
+        {
+          "word": "angle",
+          "start": 138.397,
+          "end": 138.977
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "A straight angle is one hundred and eighty degrees. Subtract forty to get one hundred and forty degrees.",
+      "start": 144.241,
+      "speech_end": 151.472,
+      "words": [
+        {
+          "word": "a",
+          "start": 144.241,
+          "end": 144.331
+        },
+        {
+          "word": "straight",
+          "start": 144.331,
+          "end": 144.781
+        },
+        {
+          "word": "angle",
+          "start": 144.781,
+          "end": 145.301
+        },
+        {
+          "word": "is",
+          "start": 145.481,
+          "end": 145.671
+        },
+        {
+          "word": "one",
+          "start": 145.671,
+          "end": 145.921
+        },
+        {
+          "word": "hundred",
+          "start": 145.921,
+          "end": 146.411
+        },
+        {
+          "word": "and",
+          "start": 146.411,
+          "end": 146.681
+        },
+        {
+          "word": "eighty",
+          "start": 146.681,
+          "end": 146.951
+        },
+        {
+          "word": "degrees",
+          "start": 146.951,
+          "end": 147.641
+        },
+        {
+          "word": "subtract",
+          "start": 147.841,
+          "end": 148.521
+        },
+        {
+          "word": "forty",
+          "start": 148.521,
+          "end": 149.021
+        },
+        {
+          "word": "to",
+          "start": 149.161,
+          "end": 149.251
+        },
+        {
+          "word": "get",
+          "start": 149.251,
+          "end": 149.461
+        },
+        {
+          "word": "one",
+          "start": 149.461,
+          "end": 149.831
+        },
+        {
+          "word": "hundred",
+          "start": 149.831,
+          "end": 150.301
+        },
+        {
+          "word": "and",
+          "start": 150.301,
+          "end": 150.441
+        },
+        {
+          "word": "forty",
+          "start": 150.441,
+          "end": 150.791
+        },
+        {
+          "word": "degrees",
+          "start": 150.791,
+          "end": 151.481
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "To draw an angle, draw the first ray, mark the required number of degrees from zero and connect the mark to the vertex.",
+      "start": 152.67,
+      "speech_end": 159.548,
+      "words": [
+        {
+          "word": "to",
+          "start": 152.67,
+          "end": 152.76
+        },
+        {
+          "word": "draw",
+          "start": 152.76,
+          "end": 153.1
+        },
+        {
+          "word": "an",
+          "start": 153.1,
+          "end": 153.25
+        },
+        {
+          "word": "angle",
+          "start": 153.25,
+          "end": 153.73
+        },
+        {
+          "word": "draw",
+          "start": 153.73,
+          "end": 154.03
+        },
+        {
+          "word": "the",
+          "start": 154.03,
+          "end": 154.15
+        },
+        {
+          "word": "first",
+          "start": 154.15,
+          "end": 154.63
+        },
+        {
+          "word": "ray",
+          "start": 154.63,
+          "end": 155.0
+        },
+        {
+          "word": "mark",
+          "start": 155.0,
+          "end": 155.27
+        },
+        {
+          "word": "the",
+          "start": 155.27,
+          "end": 155.44
+        },
+        {
+          "word": "required",
+          "start": 155.44,
+          "end": 156.07
+        },
+        {
+          "word": "number",
+          "start": 156.07,
+          "end": 156.34
+        },
+        {
+          "word": "of",
+          "start": 156.34,
+          "end": 156.46
+        },
+        {
+          "word": "degrees",
+          "start": 156.46,
+          "end": 156.97
+        },
+        {
+          "word": "from",
+          "start": 156.97,
+          "end": 157.15
+        },
+        {
+          "word": "zero",
+          "start": 157.15,
+          "end": 157.7
+        },
+        {
+          "word": "and",
+          "start": 157.7,
+          "end": 157.87
+        },
+        {
+          "word": "connect",
+          "start": 157.87,
+          "end": 158.19
+        },
+        {
+          "word": "the",
+          "start": 158.19,
+          "end": 158.35
+        },
+        {
+          "word": "mark",
+          "start": 158.35,
+          "end": 158.68
+        },
+        {
+          "word": "to",
+          "start": 158.68,
+          "end": 158.79
+        },
+        {
+          "word": "the",
+          "start": 158.79,
+          "end": 158.89
+        },
+        {
+          "word": "vertex",
+          "start": 158.89,
+          "end": 159.56
+        }
+      ]
+    },
+    {
+      "role": "question",
+      "text": "A robot makes two quarter turns in the same direction. How many degrees has it turned altogether?",
+      "start": 160.75,
+      "speech_end": 167.392,
+      "words": [
+        {
+          "word": "a",
+          "start": 160.75,
+          "end": 160.88
+        },
+        {
+          "word": "robot",
+          "start": 160.88,
+          "end": 161.55
+        },
+        {
+          "word": "makes",
+          "start": 161.55,
+          "end": 161.92
+        },
+        {
+          "word": "two",
+          "start": 161.92,
+          "end": 162.18
+        },
+        {
+          "word": "quarter",
+          "start": 162.18,
+          "end": 162.53
+        },
+        {
+          "word": "turns",
+          "start": 162.53,
+          "end": 163.01
+        },
+        {
+          "word": "in",
+          "start": 163.01,
+          "end": 163.17
+        },
+        {
+          "word": "the",
+          "start": 163.17,
+          "end": 163.24
+        },
+        {
+          "word": "same",
+          "start": 163.24,
+          "end": 163.6
+        },
+        {
+          "word": "direction",
+          "start": 163.6,
+          "end": 164.22
+        },
+        {
+          "word": "how",
+          "start": 164.44,
+          "end": 164.64
+        },
+        {
+          "word": "many",
+          "start": 164.64,
+          "end": 164.97
+        },
+        {
+          "word": "degrees",
+          "start": 164.97,
+          "end": 165.64
+        },
+        {
+          "word": "has",
+          "start": 165.64,
+          "end": 165.98
+        },
+        {
+          "word": "it",
+          "start": 165.98,
+          "end": 166.18
+        },
+        {
+          "word": "turned",
+          "start": 166.18,
+          "end": 166.6
+        },
+        {
+          "word": "altogether",
+          "start": 166.6,
+          "end": 167.37
+        }
+      ]
+    },
+    {
+      "role": "answer",
+      "text": "Ninety plus ninety equals one hundred and eighty degrees, which is a half turn.",
+      "start": 172.588,
+      "speech_end": 177.625,
+      "words": [
+        {
+          "word": "ninety",
+          "start": 172.588,
+          "end": 173.088
+        },
+        {
+          "word": "plus",
+          "start": 173.088,
+          "end": 173.438
+        },
+        {
+          "word": "ninety",
+          "start": 173.438,
+          "end": 174.058
+        },
+        {
+          "word": "equals",
+          "start": 174.058,
+          "end": 174.458
+        },
+        {
+          "word": "one",
+          "start": 174.458,
+          "end": 174.698
+        },
+        {
+          "word": "hundred",
+          "start": 174.698,
+          "end": 175.208
+        },
+        {
+          "word": "and",
+          "start": 175.208,
+          "end": 175.398
+        },
+        {
+          "word": "eighty",
+          "start": 175.398,
+          "end": 175.768
+        },
+        {
+          "word": "degrees",
+          "start": 175.768,
+          "end": 176.418
+        },
+        {
+          "word": "which",
+          "start": 176.418,
+          "end": 176.648
+        },
+        {
+          "word": "is",
+          "start": 176.648,
+          "end": 176.768
+        },
+        {
+          "word": "a",
+          "start": 176.768,
+          "end": 176.798
+        },
+        {
+          "word": "half",
+          "start": 176.798,
+          "end": 177.168
+        },
+        {
+          "word": "turn",
+          "start": 177.168,
+          "end": 177.618
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Angles are measured in degrees, not centimetres. A small drawing and a large drawing can show exactly the same turn.",
+      "start": 178.815,
+      "speech_end": 186.517,
+      "words": [
+        {
+          "word": "angles",
+          "start": 178.815,
+          "end": 179.305
+        },
+        {
+          "word": "are",
+          "start": 179.305,
+          "end": 179.445
+        },
+        {
+          "word": "measured",
+          "start": 179.445,
+          "end": 180.015
+        },
+        {
+          "word": "in",
+          "start": 180.015,
+          "end": 180.215
+        },
+        {
+          "word": "degrees",
+          "start": 180.215,
+          "end": 180.855
+        },
+        {
+          "word": "not",
+          "start": 180.855,
+          "end": 181.165
+        },
+        {
+          "word": "centimetres",
+          "start": 181.165,
+          "end": 181.985
+        },
+        {
+          "word": "a",
+          "start": 182.195,
+          "end": 182.265
+        },
+        {
+          "word": "small",
+          "start": 182.265,
+          "end": 182.705
+        },
+        {
+          "word": "drawing",
+          "start": 182.705,
+          "end": 183.255
+        },
+        {
+          "word": "and",
+          "start": 183.255,
+          "end": 183.405
+        },
+        {
+          "word": "a",
+          "start": 183.405,
+          "end": 183.475
+        },
+        {
+          "word": "large",
+          "start": 183.475,
+          "end": 183.975
+        },
+        {
+          "word": "drawing",
+          "start": 183.975,
+          "end": 184.445
+        },
+        {
+          "word": "can",
+          "start": 184.445,
+          "end": 184.645
+        },
+        {
+          "word": "show",
+          "start": 184.645,
+          "end": 184.935
+        },
+        {
+          "word": "exactly",
+          "start": 184.935,
+          "end": 185.635
+        },
+        {
+          "word": "the",
+          "start": 185.635,
+          "end": 185.735
+        },
+        {
+          "word": "same",
+          "start": 185.735,
+          "end": 186.085
+        },
+        {
+          "word": "turn",
+          "start": 186.085,
+          "end": 186.495
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Imagine a door opening. A small opening makes an acute angle, while a door opened square to the wall makes a right angle.",
+      "start": 187.702,
+      "speech_end": 195.755,
+      "words": [
+        {
+          "word": "imagine",
+          "start": 187.702,
+          "end": 188.502
+        },
+        {
+          "word": "a",
+          "start": 188.502,
+          "end": 188.602
+        },
+        {
+          "word": "door",
+          "start": 188.602,
+          "end": 188.942
+        },
+        {
+          "word": "opening",
+          "start": 188.942,
+          "end": 189.592
+        },
+        {
+          "word": "a",
+          "start": 189.812,
+          "end": 189.882
+        },
+        {
+          "word": "small",
+          "start": 189.882,
+          "end": 190.452
+        },
+        {
+          "word": "opening",
+          "start": 190.452,
+          "end": 190.962
+        },
+        {
+          "word": "makes",
+          "start": 190.962,
+          "end": 191.252
+        },
+        {
+          "word": "an",
+          "start": 191.252,
+          "end": 191.412
+        },
+        {
+          "word": "acute",
+          "start": 191.412,
+          "end": 191.882
+        },
+        {
+          "word": "angle",
+          "start": 191.882,
+          "end": 192.292
+        },
+        {
+          "word": "while",
+          "start": 192.292,
+          "end": 192.552
+        },
+        {
+          "word": "a",
+          "start": 192.552,
+          "end": 192.622
+        },
+        {
+          "word": "door",
+          "start": 192.622,
+          "end": 193.022
+        },
+        {
+          "word": "opened",
+          "start": 193.092,
+          "end": 193.502
+        },
+        {
+          "word": "square",
+          "start": 193.502,
+          "end": 193.872
+        },
+        {
+          "word": "to",
+          "start": 193.872,
+          "end": 193.992
+        },
+        {
+          "word": "the",
+          "start": 193.992,
+          "end": 194.122
+        },
+        {
+          "word": "wall",
+          "start": 194.122,
+          "end": 194.562
+        },
+        {
+          "word": "makes",
+          "start": 194.562,
+          "end": 194.822
+        },
+        {
+          "word": "a",
+          "start": 194.822,
+          "end": 194.942
+        },
+        {
+          "word": "right",
+          "start": 194.942,
+          "end": 195.282
+        },
+        {
+          "word": "angle",
+          "start": 195.282,
+          "end": 195.732
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A turn of thirty degrees is one third of a right angle. Three such turns add up to ninety degrees.",
+      "start": 196.972,
+      "speech_end": 204.045,
+      "words": [
+        {
+          "word": "a",
+          "start": 196.972,
+          "end": 197.072
+        },
+        {
+          "word": "turn",
+          "start": 197.072,
+          "end": 197.442
+        },
+        {
+          "word": "of",
+          "start": 197.442,
+          "end": 197.612
+        },
+        {
+          "word": "thirty",
+          "start": 197.612,
+          "end": 198.092
+        },
+        {
+          "word": "degrees",
+          "start": 198.092,
+          "end": 198.732
+        },
+        {
+          "word": "is",
+          "start": 198.882,
+          "end": 199.082
+        },
+        {
+          "word": "one",
+          "start": 199.082,
+          "end": 199.402
+        },
+        {
+          "word": "third",
+          "start": 199.402,
+          "end": 199.872
+        },
+        {
+          "word": "of",
+          "start": 199.872,
+          "end": 199.982
+        },
+        {
+          "word": "a",
+          "start": 199.982,
+          "end": 200.092
+        },
+        {
+          "word": "right",
+          "start": 200.092,
+          "end": 200.452
+        },
+        {
+          "word": "angle",
+          "start": 200.452,
+          "end": 200.892
+        },
+        {
+          "word": "three",
+          "start": 201.122,
+          "end": 201.452
+        },
+        {
+          "word": "such",
+          "start": 201.452,
+          "end": 201.782
+        },
+        {
+          "word": "turns",
+          "start": 201.782,
+          "end": 202.252
+        },
+        {
+          "word": "add",
+          "start": 202.252,
+          "end": 202.702
+        },
+        {
+          "word": "up",
+          "start": 202.702,
+          "end": 202.862
+        },
+        {
+          "word": "to",
+          "start": 202.862,
+          "end": 202.962
+        },
+        {
+          "word": "ninety",
+          "start": 202.962,
+          "end": 203.362
+        },
+        {
+          "word": "degrees",
+          "start": 203.362,
+          "end": 204.192
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "A turn of one hundred and fifty degrees is close to a straight angle, but thirty degrees short of one hundred and eighty.",
+      "start": 205.254,
+      "speech_end": 212.235,
+      "words": [
+        {
+          "word": "a",
+          "start": 205.254,
+          "end": 205.414
+        },
+        {
+          "word": "turn",
+          "start": 205.414,
+          "end": 205.724
+        },
+        {
+          "word": "of",
+          "start": 205.724,
+          "end": 205.904
+        },
+        {
+          "word": "one",
+          "start": 205.904,
+          "end": 206.144
+        },
+        {
+          "word": "hundred",
+          "start": 206.144,
+          "end": 206.654
+        },
+        {
+          "word": "and",
+          "start": 206.654,
+          "end": 206.794
+        },
+        {
+          "word": "fifty",
+          "start": 206.794,
+          "end": 207.184
+        },
+        {
+          "word": "degrees",
+          "start": 207.184,
+          "end": 207.744
+        },
+        {
+          "word": "is",
+          "start": 207.744,
+          "end": 207.924
+        },
+        {
+          "word": "close",
+          "start": 207.924,
+          "end": 208.254
+        },
+        {
+          "word": "to",
+          "start": 208.254,
+          "end": 208.404
+        },
+        {
+          "word": "a",
+          "start": 208.404,
+          "end": 208.464
+        },
+        {
+          "word": "straight",
+          "start": 208.464,
+          "end": 208.924
+        },
+        {
+          "word": "angle",
+          "start": 208.924,
+          "end": 209.344
+        },
+        {
+          "word": "but",
+          "start": 209.344,
+          "end": 209.684
+        },
+        {
+          "word": "thirty",
+          "start": 209.684,
+          "end": 209.984
+        },
+        {
+          "word": "degrees",
+          "start": 209.984,
+          "end": 210.434
+        },
+        {
+          "word": "short",
+          "start": 210.434,
+          "end": 210.934
+        },
+        {
+          "word": "of",
+          "start": 210.934,
+          "end": 211.084
+        },
+        {
+          "word": "one",
+          "start": 211.084,
+          "end": 211.274
+        },
+        {
+          "word": "hundred",
+          "start": 211.274,
+          "end": 211.694
+        },
+        {
+          "word": "and",
+          "start": 211.694,
+          "end": 211.844
+        },
+        {
+          "word": "eighty",
+          "start": 211.844,
+          "end": 212.234
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Use benchmarks to estimate. Compare the angle with ninety degrees before reading a protractor scale.",
+      "start": 213.42,
+      "speech_end": 219.955,
+      "words": [
+        {
+          "word": "use",
+          "start": 213.42,
+          "end": 213.77
+        },
+        {
+          "word": "benchmarks",
+          "start": 213.77,
+          "end": 214.55
+        },
+        {
+          "word": "to",
+          "start": 214.55,
+          "end": 214.72
+        },
+        {
+          "word": "estimate",
+          "start": 214.72,
+          "end": 215.39
+        },
+        {
+          "word": "compare",
+          "start": 215.58,
+          "end": 216.07
+        },
+        {
+          "word": "the",
+          "start": 216.07,
+          "end": 216.23
+        },
+        {
+          "word": "angle",
+          "start": 216.23,
+          "end": 216.75
+        },
+        {
+          "word": "with",
+          "start": 216.75,
+          "end": 216.92
+        },
+        {
+          "word": "ninety",
+          "start": 216.92,
+          "end": 217.45
+        },
+        {
+          "word": "degrees",
+          "start": 217.45,
+          "end": 218.06
+        },
+        {
+          "word": "before",
+          "start": 218.14,
+          "end": 218.49
+        },
+        {
+          "word": "reading",
+          "start": 218.49,
+          "end": 218.86
+        },
+        {
+          "word": "a",
+          "start": 218.86,
+          "end": 218.92
+        },
+        {
+          "word": "protractor",
+          "start": 218.92,
+          "end": 219.53
+        },
+        {
+          "word": "scale",
+          "start": 219.53,
+          "end": 219.93
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "If your measurement says forty degrees but the drawing looks wider than a right angle, check whether you used the wrong scale.",
+      "start": 221.171,
+      "speech_end": 227.864,
+      "words": [
+        {
+          "word": "if",
+          "start": 221.171,
+          "end": 221.321
+        },
+        {
+          "word": "your",
+          "start": 221.321,
+          "end": 221.481
+        },
+        {
+          "word": "measurement",
+          "start": 221.481,
+          "end": 222.041
+        },
+        {
+          "word": "says",
+          "start": 222.041,
+          "end": 222.401
+        },
+        {
+          "word": "forty",
+          "start": 222.401,
+          "end": 222.811
+        },
+        {
+          "word": "degrees",
+          "start": 222.811,
+          "end": 223.351
+        },
+        {
+          "word": "but",
+          "start": 223.351,
+          "end": 223.491
+        },
+        {
+          "word": "the",
+          "start": 223.491,
+          "end": 223.571
+        },
+        {
+          "word": "drawing",
+          "start": 223.571,
+          "end": 224.061
+        },
+        {
+          "word": "looks",
+          "start": 224.061,
+          "end": 224.371
+        },
+        {
+          "word": "wider",
+          "start": 224.371,
+          "end": 224.851
+        },
+        {
+          "word": "than",
+          "start": 224.851,
+          "end": 225.021
+        },
+        {
+          "word": "a",
+          "start": 225.021,
+          "end": 225.121
+        },
+        {
+          "word": "right",
+          "start": 225.121,
+          "end": 225.471
+        },
+        {
+          "word": "angle",
+          "start": 225.471,
+          "end": 225.861
+        },
+        {
+          "word": "check",
+          "start": 225.861,
+          "end": 226.251
+        },
+        {
+          "word": "whether",
+          "start": 226.251,
+          "end": 226.461
+        },
+        {
+          "word": "you",
+          "start": 226.461,
+          "end": 226.671
+        },
+        {
+          "word": "used",
+          "start": 226.671,
+          "end": 227.031
+        },
+        {
+          "word": "the",
+          "start": 227.031,
+          "end": 227.171
+        },
+        {
+          "word": "wrong",
+          "start": 227.171,
+          "end": 227.441
+        },
+        {
+          "word": "scale",
+          "start": 227.441,
+          "end": 227.841
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "When drawing an angle, keep the ruler steady and make sure both rays begin at the same vertex.",
+      "start": 229.08,
+      "speech_end": 234.57,
+      "words": [
+        {
+          "word": "when",
+          "start": 229.08,
+          "end": 229.28
+        },
+        {
+          "word": "drawing",
+          "start": 229.28,
+          "end": 229.69
+        },
+        {
+          "word": "an",
+          "start": 229.69,
+          "end": 229.8
+        },
+        {
+          "word": "angle",
+          "start": 229.8,
+          "end": 230.29
+        },
+        {
+          "word": "keep",
+          "start": 230.29,
+          "end": 230.65
+        },
+        {
+          "word": "the",
+          "start": 230.65,
+          "end": 230.77
+        },
+        {
+          "word": "ruler",
+          "start": 230.77,
+          "end": 231.09
+        },
+        {
+          "word": "steady",
+          "start": 231.09,
+          "end": 231.56
+        },
+        {
+          "word": "and",
+          "start": 231.56,
+          "end": 231.71
+        },
+        {
+          "word": "make",
+          "start": 231.71,
+          "end": 231.93
+        },
+        {
+          "word": "sure",
+          "start": 231.93,
+          "end": 232.2
+        },
+        {
+          "word": "both",
+          "start": 232.2,
+          "end": 232.6
+        },
+        {
+          "word": "rays",
+          "start": 232.6,
+          "end": 233.0
+        },
+        {
+          "word": "begin",
+          "start": 233.0,
+          "end": 233.34
+        },
+        {
+          "word": "at",
+          "start": 233.34,
+          "end": 233.51
+        },
+        {
+          "word": "the",
+          "start": 233.51,
+          "end": 233.58
+        },
+        {
+          "word": "same",
+          "start": 233.58,
+          "end": 233.93
+        },
+        {
+          "word": "vertex",
+          "start": 233.93,
+          "end": 234.59
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Explain your answer using the size of the turn. This is stronger than simply saying the angle looks big.",
+      "start": 235.759,
+      "speech_end": 242.642,
+      "words": [
+        {
+          "word": "explain",
+          "start": 235.759,
+          "end": 236.299
+        },
+        {
+          "word": "your",
+          "start": 236.299,
+          "end": 236.449
+        },
+        {
+          "word": "answer",
+          "start": 236.449,
+          "end": 237.139
+        },
+        {
+          "word": "using",
+          "start": 237.139,
+          "end": 237.559
+        },
+        {
+          "word": "the",
+          "start": 237.559,
+          "end": 237.639
+        },
+        {
+          "word": "size",
+          "start": 237.639,
+          "end": 238.119
+        },
+        {
+          "word": "of",
+          "start": 238.119,
+          "end": 238.219
+        },
+        {
+          "word": "the",
+          "start": 238.219,
+          "end": 238.319
+        },
+        {
+          "word": "turn",
+          "start": 238.319,
+          "end": 238.839
+        },
+        {
+          "word": "this",
+          "start": 239.079,
+          "end": 239.329
+        },
+        {
+          "word": "is",
+          "start": 239.329,
+          "end": 239.499
+        },
+        {
+          "word": "stronger",
+          "start": 239.499,
+          "end": 240.219
+        },
+        {
+          "word": "than",
+          "start": 240.219,
+          "end": 240.549
+        },
+        {
+          "word": "simply",
+          "start": 240.549,
+          "end": 240.959
+        },
+        {
+          "word": "saying",
+          "start": 240.959,
+          "end": 241.349
+        },
+        {
+          "word": "the",
+          "start": 241.349,
+          "end": 241.499
+        },
+        {
+          "word": "angle",
+          "start": 241.499,
+          "end": 241.889
+        },
+        {
+          "word": "looks",
+          "start": 241.889,
+          "end": 242.229
+        },
+        {
+          "word": "big",
+          "start": 242.229,
+          "end": 242.619
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Before using a protractor, predict whether the angle is less than or greater than ninety degrees. Your prediction can catch a wrong-scale reading.",
+      "start": 243.847,
+      "speech_end": 253.111,
+      "words": [
+        {
+          "word": "before",
+          "start": 243.847,
+          "end": 244.187
+        },
+        {
+          "word": "using",
+          "start": 244.187,
+          "end": 244.597
+        },
+        {
+          "word": "a",
+          "start": 244.597,
+          "end": 244.637
+        },
+        {
+          "word": "protractor",
+          "start": 244.637,
+          "end": 245.457
+        },
+        {
+          "word": "predict",
+          "start": 245.457,
+          "end": 245.967
+        },
+        {
+          "word": "whether",
+          "start": 245.967,
+          "end": 246.277
+        },
+        {
+          "word": "the",
+          "start": 246.277,
+          "end": 246.457
+        },
+        {
+          "word": "angle",
+          "start": 246.457,
+          "end": 246.887
+        },
+        {
+          "word": "is",
+          "start": 246.887,
+          "end": 247.167
+        },
+        {
+          "word": "less",
+          "start": 247.167,
+          "end": 247.547
+        },
+        {
+          "word": "than",
+          "start": 247.547,
+          "end": 247.767
+        },
+        {
+          "word": "or",
+          "start": 247.877,
+          "end": 248.067
+        },
+        {
+          "word": "greater",
+          "start": 248.067,
+          "end": 248.487
+        },
+        {
+          "word": "than",
+          "start": 248.487,
+          "end": 248.757
+        },
+        {
+          "word": "ninety",
+          "start": 248.757,
+          "end": 249.167
+        },
+        {
+          "word": "degrees",
+          "start": 249.167,
+          "end": 249.837
+        },
+        {
+          "word": "your",
+          "start": 250.027,
+          "end": 250.227
+        },
+        {
+          "word": "prediction",
+          "start": 250.227,
+          "end": 250.957
+        },
+        {
+          "word": "can",
+          "start": 251.127,
+          "end": 251.307
+        },
+        {
+          "word": "catch",
+          "start": 251.307,
+          "end": 251.727
+        },
+        {
+          "word": "a",
+          "start": 251.727,
+          "end": 251.857
+        },
+        {
+          "word": "wrong",
+          "start": 251.857,
+          "end": 252.217
+        },
+        {
+          "word": "scale",
+          "start": 252.217,
+          "end": 252.627
+        },
+        {
+          "word": "reading",
+          "start": 252.627,
+          "end": 253.107
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "The centre mark must sit exactly on the vertex. If it is moved away, the protractor markings no longer measure the intended angle.",
+      "start": 254.31,
+      "speech_end": 263.071,
+      "words": [
+        {
+          "word": "the",
+          "start": 254.31,
+          "end": 254.44
+        },
+        {
+          "word": "centre",
+          "start": 254.44,
+          "end": 254.89
+        },
+        {
+          "word": "mark",
+          "start": 254.89,
+          "end": 255.48
+        },
+        {
+          "word": "must",
+          "start": 255.48,
+          "end": 255.82
+        },
+        {
+          "word": "sit",
+          "start": 255.82,
+          "end": 256.09
+        },
+        {
+          "word": "exactly",
+          "start": 256.09,
+          "end": 256.78
+        },
+        {
+          "word": "on",
+          "start": 256.78,
+          "end": 256.95
+        },
+        {
+          "word": "the",
+          "start": 256.95,
+          "end": 257.03
+        },
+        {
+          "word": "vertex",
+          "start": 257.03,
+          "end": 257.69
+        },
+        {
+          "word": "if",
+          "start": 257.89,
+          "end": 258.04
+        },
+        {
+          "word": "it",
+          "start": 258.04,
+          "end": 258.22
+        },
+        {
+          "word": "is",
+          "start": 258.22,
+          "end": 258.42
+        },
+        {
+          "word": "moved",
+          "start": 258.42,
+          "end": 258.87
+        },
+        {
+          "word": "away",
+          "start": 258.87,
+          "end": 259.29
+        },
+        {
+          "word": "the",
+          "start": 259.29,
+          "end": 259.39
+        },
+        {
+          "word": "protractor",
+          "start": 259.39,
+          "end": 260.04
+        },
+        {
+          "word": "markings",
+          "start": 260.04,
+          "end": 260.62
+        },
+        {
+          "word": "no",
+          "start": 260.62,
+          "end": 260.88
+        },
+        {
+          "word": "longer",
+          "start": 260.88,
+          "end": 261.36
+        },
+        {
+          "word": "measure",
+          "start": 261.36,
+          "end": 261.85
+        },
+        {
+          "word": "the",
+          "start": 261.85,
+          "end": 262.03
+        },
+        {
+          "word": "intended",
+          "start": 262.03,
+          "end": 262.58
+        },
+        {
+          "word": "angle",
+          "start": 262.58,
+          "end": 263.05
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Some protractors number clockwise and anticlockwise at once. Find the zero aligned with the starting ray before following the numbers.",
+      "start": 264.285,
+      "speech_end": 273.068,
+      "words": [
+        {
+          "word": "some",
+          "start": 264.285,
+          "end": 264.585
+        },
+        {
+          "word": "protractors",
+          "start": 264.585,
+          "end": 265.435
+        },
+        {
+          "word": "number",
+          "start": 265.595,
+          "end": 265.955
+        },
+        {
+          "word": "clockwise",
+          "start": 265.955,
+          "end": 266.795
+        },
+        {
+          "word": "and",
+          "start": 266.795,
+          "end": 266.965
+        },
+        {
+          "word": "anticlockwise",
+          "start": 266.965,
+          "end": 267.925
+        },
+        {
+          "word": "at",
+          "start": 267.925,
+          "end": 268.105
+        },
+        {
+          "word": "once",
+          "start": 268.105,
+          "end": 268.515
+        },
+        {
+          "word": "find",
+          "start": 268.705,
+          "end": 269.025
+        },
+        {
+          "word": "the",
+          "start": 269.025,
+          "end": 269.105
+        },
+        {
+          "word": "zero",
+          "start": 269.105,
+          "end": 269.685
+        },
+        {
+          "word": "aligned",
+          "start": 269.875,
+          "end": 270.405
+        },
+        {
+          "word": "with",
+          "start": 270.405,
+          "end": 270.635
+        },
+        {
+          "word": "the",
+          "start": 270.635,
+          "end": 270.705
+        },
+        {
+          "word": "starting",
+          "start": 270.705,
+          "end": 271.235
+        },
+        {
+          "word": "ray",
+          "start": 271.235,
+          "end": 271.555
+        },
+        {
+          "word": "before",
+          "start": 271.555,
+          "end": 271.845
+        },
+        {
+          "word": "following",
+          "start": 271.845,
+          "end": 272.385
+        },
+        {
+          "word": "the",
+          "start": 272.385,
+          "end": 272.445
+        },
+        {
+          "word": "numbers",
+          "start": 272.445,
+          "end": 273.095
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "Suppose your first ray points left. Begin with the zero on the left, rather than automatically reading from the right-hand scale.",
+      "start": 274.265,
+      "speech_end": 282.314,
+      "words": [
+        {
+          "word": "suppose",
+          "start": 274.265,
+          "end": 274.795
+        },
+        {
+          "word": "your",
+          "start": 274.795,
+          "end": 274.935
+        },
+        {
+          "word": "first",
+          "start": 274.935,
+          "end": 275.495
+        },
+        {
+          "word": "ray",
+          "start": 275.495,
+          "end": 275.825
+        },
+        {
+          "word": "points",
+          "start": 275.825,
+          "end": 276.275
+        },
+        {
+          "word": "left",
+          "start": 276.275,
+          "end": 276.735
+        },
+        {
+          "word": "begin",
+          "start": 276.945,
+          "end": 277.405
+        },
+        {
+          "word": "with",
+          "start": 277.405,
+          "end": 277.615
+        },
+        {
+          "word": "the",
+          "start": 277.615,
+          "end": 277.725
+        },
+        {
+          "word": "zero",
+          "start": 277.725,
+          "end": 278.335
+        },
+        {
+          "word": "on",
+          "start": 278.335,
+          "end": 278.475
+        },
+        {
+          "word": "the",
+          "start": 278.475,
+          "end": 278.575
+        },
+        {
+          "word": "left",
+          "start": 278.575,
+          "end": 279.035
+        },
+        {
+          "word": "rather",
+          "start": 279.035,
+          "end": 279.395
+        },
+        {
+          "word": "than",
+          "start": 279.395,
+          "end": 279.625
+        },
+        {
+          "word": "automatically",
+          "start": 279.725,
+          "end": 280.685
+        },
+        {
+          "word": "reading",
+          "start": 280.685,
+          "end": 281.045
+        },
+        {
+          "word": "from",
+          "start": 281.045,
+          "end": 281.225
+        },
+        {
+          "word": "the",
+          "start": 281.225,
+          "end": 281.345
+        },
+        {
+          "word": "right",
+          "start": 281.345,
+          "end": 281.605
+        },
+        {
+          "word": "hand",
+          "start": 281.605,
+          "end": 281.915
+        },
+        {
+          "word": "scale",
+          "start": 281.915,
+          "end": 282.295
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "An angle of thirty degrees is much smaller than a right angle. Use this comparison when checking your drawing.",
+      "start": 283.526,
+      "speech_end": 290.582,
+      "words": [
+        {
+          "word": "an",
+          "start": 283.526,
+          "end": 283.656
+        },
+        {
+          "word": "angle",
+          "start": 283.656,
+          "end": 284.196
+        },
+        {
+          "word": "of",
+          "start": 284.196,
+          "end": 284.336
+        },
+        {
+          "word": "thirty",
+          "start": 284.466,
+          "end": 284.796
+        },
+        {
+          "word": "degrees",
+          "start": 284.796,
+          "end": 285.406
+        },
+        {
+          "word": "is",
+          "start": 285.406,
+          "end": 285.586
+        },
+        {
+          "word": "much",
+          "start": 285.586,
+          "end": 285.826
+        },
+        {
+          "word": "smaller",
+          "start": 285.826,
+          "end": 286.346
+        },
+        {
+          "word": "than",
+          "start": 286.346,
+          "end": 286.536
+        },
+        {
+          "word": "a",
+          "start": 286.536,
+          "end": 286.636
+        },
+        {
+          "word": "right",
+          "start": 286.636,
+          "end": 286.986
+        },
+        {
+          "word": "angle",
+          "start": 286.986,
+          "end": 287.425
+        },
+        {
+          "word": "use",
+          "start": 287.656,
+          "end": 288.026
+        },
+        {
+          "word": "this",
+          "start": 288.026,
+          "end": 288.246
+        },
+        {
+          "word": "comparison",
+          "start": 288.246,
+          "end": 289.136
+        },
+        {
+          "word": "when",
+          "start": 289.296,
+          "end": 289.506
+        },
+        {
+          "word": "checking",
+          "start": 289.506,
+          "end": 289.936
+        },
+        {
+          "word": "your",
+          "start": 289.936,
+          "end": 290.076
+        },
+        {
+          "word": "drawing",
+          "start": 290.076,
+          "end": 290.576
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "An angle of one hundred and sixty degrees is almost straight. It is twenty degrees away from a straight angle.",
+      "start": 291.787,
+      "speech_end": 299.174,
+      "words": [
+        {
+          "word": "an",
+          "start": 291.787,
+          "end": 291.917
+        },
+        {
+          "word": "angle",
+          "start": 291.917,
+          "end": 292.507
+        },
+        {
+          "word": "of",
+          "start": 292.507,
+          "end": 292.667
+        },
+        {
+          "word": "one",
+          "start": 292.667,
+          "end": 292.897
+        },
+        {
+          "word": "hundred",
+          "start": 292.897,
+          "end": 293.457
+        },
+        {
+          "word": "and",
+          "start": 293.457,
+          "end": 293.737
+        },
+        {
+          "word": "sixty",
+          "start": 293.737,
+          "end": 294.147
+        },
+        {
+          "word": "degrees",
+          "start": 294.147,
+          "end": 294.747
+        },
+        {
+          "word": "is",
+          "start": 294.857,
+          "end": 295.047
+        },
+        {
+          "word": "almost",
+          "start": 295.047,
+          "end": 295.467
+        },
+        {
+          "word": "straight",
+          "start": 295.467,
+          "end": 295.917
+        },
+        {
+          "word": "it",
+          "start": 296.247,
+          "end": 296.487
+        },
+        {
+          "word": "is",
+          "start": 296.487,
+          "end": 296.687
+        },
+        {
+          "word": "twenty",
+          "start": 296.687,
+          "end": 297.137
+        },
+        {
+          "word": "degrees",
+          "start": 297.137,
+          "end": 297.597
+        },
+        {
+          "word": "away",
+          "start": 297.597,
+          "end": 298.007
+        },
+        {
+          "word": "from",
+          "start": 298.007,
+          "end": 298.217
+        },
+        {
+          "word": "a",
+          "start": 298.217,
+          "end": 298.257
+        },
+        {
+          "word": "straight",
+          "start": 298.257,
+          "end": 298.717
+        },
+        {
+          "word": "angle",
+          "start": 298.717,
+          "end": 299.137
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "If you draw a sixty-degree angle and measure it again, your answer should be close to sixty degrees. Small pencil errors may matter.",
+      "start": 300.382,
+      "speech_end": 308.678,
+      "words": [
+        {
+          "word": "if",
+          "start": 300.382,
+          "end": 300.532
+        },
+        {
+          "word": "you",
+          "start": 300.532,
+          "end": 300.702
+        },
+        {
+          "word": "draw",
+          "start": 300.702,
+          "end": 301.082
+        },
+        {
+          "word": "a",
+          "start": 301.082,
+          "end": 301.192
+        },
+        {
+          "word": "sixty",
+          "start": 301.192,
+          "end": 301.732
+        },
+        {
+          "word": "degree",
+          "start": 301.732,
+          "end": 302.132
+        },
+        {
+          "word": "angle",
+          "start": 302.132,
+          "end": 302.602
+        },
+        {
+          "word": "and",
+          "start": 302.602,
+          "end": 302.862
+        },
+        {
+          "word": "measure",
+          "start": 302.862,
+          "end": 303.202
+        },
+        {
+          "word": "it",
+          "start": 303.202,
+          "end": 303.322
+        },
+        {
+          "word": "again",
+          "start": 303.322,
+          "end": 303.822
+        },
+        {
+          "word": "your",
+          "start": 303.822,
+          "end": 304.012
+        },
+        {
+          "word": "answer",
+          "start": 304.012,
+          "end": 304.482
+        },
+        {
+          "word": "should",
+          "start": 304.482,
+          "end": 304.692
+        },
+        {
+          "word": "be",
+          "start": 304.692,
+          "end": 304.852
+        },
+        {
+          "word": "close",
+          "start": 304.852,
+          "end": 305.222
+        },
+        {
+          "word": "to",
+          "start": 305.222,
+          "end": 305.342
+        },
+        {
+          "word": "sixty",
+          "start": 305.342,
+          "end": 305.782
+        },
+        {
+          "word": "degrees",
+          "start": 305.782,
+          "end": 306.452
+        },
+        {
+          "word": "small",
+          "start": 306.632,
+          "end": 307.052
+        },
+        {
+          "word": "pencil",
+          "start": 307.052,
+          "end": 307.522
+        },
+        {
+          "word": "errors",
+          "start": 307.682,
+          "end": 308.102
+        },
+        {
+          "word": "may",
+          "start": 308.102,
+          "end": 308.232
+        },
+        {
+          "word": "matter",
+          "start": 308.232,
+          "end": 308.622
+        }
+      ]
+    },
+    {
+      "role": "explanation",
+      "text": "For an independent check, draw an angle measuring one hundred and ten degrees. Predict its type before touching the protractor.",
+      "start": 309.883,
+      "speech_end": 318.023,
+      "words": [
+        {
+          "word": "for",
+          "start": 309.883,
+          "end": 310.063
+        },
+        {
+          "word": "an",
+          "start": 310.063,
+          "end": 310.203
+        },
+        {
+          "word": "independent",
+          "start": 310.203,
+          "end": 311.053
+        },
+        {
+          "word": "check",
+          "start": 311.053,
+          "end": 311.463
+        },
+        {
+          "word": "draw",
+          "start": 311.463,
+          "end": 311.763
+        },
+        {
+          "word": "an",
+          "start": 311.763,
+          "end": 311.913
+        },
+        {
+          "word": "angle",
+          "start": 311.913,
+          "end": 312.563
+        },
+        {
+          "word": "measuring",
+          "start": 312.563,
+          "end": 313.023
+        },
+        {
+          "word": "one",
+          "start": 313.023,
+          "end": 313.223
+        },
+        {
+          "word": "hundred",
+          "start": 313.223,
+          "end": 313.723
+        },
+        {
+          "word": "and",
+          "start": 313.723,
+          "end": 313.973
+        },
+        {
+          "word": "ten",
+          "start": 313.973,
+          "end": 314.203
+        },
+        {
+          "word": "degrees",
+          "start": 314.203,
+          "end": 314.853
+        },
+        {
+          "word": "predict",
+          "start": 315.043,
+          "end": 315.613
+        },
+        {
+          "word": "its",
+          "start": 315.613,
+          "end": 315.813
+        },
+        {
+          "word": "type",
+          "start": 315.813,
+          "end": 316.243
+        },
+        {
+          "word": "before",
+          "start": 316.243,
+          "end": 316.693
+        },
+        {
+          "word": "touching",
+          "start": 316.693,
+          "end": 317.173
+        },
+        {
+          "word": "the",
+          "start": 317.173,
+          "end": 317.243
+        },
+        {
+          "word": "protractor",
+          "start": 317.243,
+          "end": 318.003
+        }
+      ]
+    },
+    {
+      "role": "recap",
+      "text": "Explain the steps to someone else: estimate the angle, align the baseline, read the correct scale and check the angle type.",
+      "start": 319.224,
+      "speech_end": 326.371,
+      "words": [
+        {
+          "word": "explain",
+          "start": 319.224,
+          "end": 319.794
+        },
+        {
+          "word": "the",
+          "start": 319.794,
+          "end": 319.884
+        },
+        {
+          "word": "steps",
+          "start": 319.884,
+          "end": 320.284
+        },
+        {
+          "word": "to",
+          "start": 320.284,
+          "end": 320.394
+        },
+        {
+          "word": "someone",
+          "start": 320.394,
+          "end": 320.754
+        },
+        {
+          "word": "else",
+          "start": 320.754,
+          "end": 321.134
+        },
+        {
+          "word": "estimate",
+          "start": 321.134,
+          "end": 321.604
+        },
+        {
+          "word": "the",
+          "start": 321.604,
+          "end": 321.764
+        },
+        {
+          "word": "angle",
+          "start": 321.764,
+          "end": 322.174
+        },
+        {
+          "word": "align",
+          "start": 322.284,
+          "end": 322.664
+        },
+        {
+          "word": "the",
+          "start": 322.664,
+          "end": 322.744
+        },
+        {
+          "word": "baseline",
+          "start": 322.744,
+          "end": 323.484
+        },
+        {
+          "word": "read",
+          "start": 323.484,
+          "end": 323.844
+        },
+        {
+          "word": "the",
+          "start": 323.844,
+          "end": 323.944
+        },
+        {
+          "word": "correct",
+          "start": 323.944,
+          "end": 324.374
+        },
+        {
+          "word": "scale",
+          "start": 324.374,
+          "end": 324.774
+        },
+        {
+          "word": "and",
+          "start": 324.774,
+          "end": 325.074
+        },
+        {
+          "word": "check",
+          "start": 325.074,
+          "end": 325.334
+        },
+        {
+          "word": "the",
+          "start": 325.334,
+          "end": 325.534
+        },
+        {
+          "word": "angle",
+          "start": 325.534,
+          "end": 325.904
+        },
+        {
+          "word": "type",
+          "start": 325.904,
+          "end": 326.264
+        }
+      ]
+    },
+    {
+      "role": "recap",
+      "text": "Your challenge is to find three angles in your classroom, classify them and explain your reasoning.",
+      "start": 327.57,
+      "speech_end": 333.299,
+      "words": [
+        {
+          "word": "your",
+          "start": 327.57,
+          "end": 327.75
+        },
+        {
+          "word": "challenge",
+          "start": 327.75,
+          "end": 328.33
+        },
+        {
+          "word": "is",
+          "start": 328.33,
+          "end": 328.57
+        },
+        {
+          "word": "to",
+          "start": 328.57,
+          "end": 328.68
+        },
+        {
+          "word": "find",
+          "start": 328.68,
+          "end": 329.25
+        },
+        {
+          "word": "three",
+          "start": 329.25,
+          "end": 329.54
+        },
+        {
+          "word": "angles",
+          "start": 329.54,
+          "end": 330.0
+        },
+        {
+          "word": "in",
+          "start": 330.0,
+          "end": 330.09
+        },
+        {
+          "word": "your",
+          "start": 330.09,
+          "end": 330.2
+        },
+        {
+          "word": "classroom",
+          "start": 330.2,
+          "end": 330.85
+        },
+        {
+          "word": "classify",
+          "start": 330.85,
+          "end": 331.57
+        },
+        {
+          "word": "them",
+          "start": 331.57,
+          "end": 331.84
+        },
+        {
+          "word": "and",
+          "start": 331.84,
+          "end": 331.99
+        },
+        {
+          "word": "explain",
+          "start": 331.99,
+          "end": 332.53
+        },
+        {
+          "word": "your",
+          "start": 332.53,
+          "end": 332.69
+        },
+        {
+          "word": "reasoning",
+          "start": 332.69,
+          "end": 333.24
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 4.44,
+      "text": "Two students draw different-looking angles and both say theirs is bigger.",
+      "utterance": 0,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 4.45,
+      "end": 7.17,
+      "text": "How could we settle their argument fairly?",
+      "utterance": 0,
+      "first_word": 12,
+      "last_word": 18
+    },
+    {
+      "start": 8.19,
+      "end": 12.43,
+      "text": "Today we are learning to measure and draw angles with a protractor.",
+      "utterance": 1,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 13.445,
+      "end": 17.355,
+      "text": "Our learning goal is to measure and draw angles with a protractor.",
+      "utterance": 2,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 18.399,
+      "end": 23.109,
+      "text": "Success criteria: align the vertex, find the zero baseline and read",
+      "utterance": 3,
+      "first_word": 0,
+      "last_word": 10
+    },
+    {
+      "start": 23.109,
+      "end": 24.609,
+      "text": "the correct degree scale.",
+      "utterance": 3,
+      "first_word": 11,
+      "last_word": 14
+    },
+    {
+      "start": 25.661,
+      "end": 30.631,
+      "text": "An angle is the amount of turning between two rays meeting at a vertex.",
+      "utterance": 4,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 30.661,
+      "end": 33.821,
+      "text": "The length of the rays does not change the angle.",
+      "utterance": 4,
+      "first_word": 14,
+      "last_word": 23
+    },
+    {
+      "start": 34.871,
+      "end": 39.521,
+      "text": "A full turn is three hundred and sixty degrees, a half turn is one hundred",
+      "utterance": 5,
+      "first_word": 0,
+      "last_word": 14
+    },
+    {
+      "start": 39.521,
+      "end": 41.991,
+      "text": "and eighty, and a quarter turn is ninety.",
+      "utterance": 5,
+      "first_word": 15,
+      "last_word": 22
+    },
+    {
+      "start": 42.976,
+      "end": 44.536,
+      "text": "Look at this angle.",
+      "utterance": 6,
+      "first_word": 0,
+      "last_word": 3
+    },
+    {
+      "start": 44.606,
+      "end": 47.446,
+      "text": "Is it acute, right, obtuse or straight?",
+      "utterance": 6,
+      "first_word": 4,
+      "last_word": 10
+    },
+    {
+      "start": 47.586,
+      "end": 50.146,
+      "text": "Pause for five seconds and decide.",
+      "utterance": 6,
+      "first_word": 11,
+      "last_word": 16
+    },
+    {
+      "start": 55.155,
+      "end": 60.195,
+      "text": "Sixty degrees is smaller than ninety degrees, so this is an acute angle.",
+      "utterance": 7,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 61.235,
+      "end": 63.895,
+      "text": "A right angle is ninety degrees.",
+      "utterance": 8,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 63.905,
+      "end": 66.025,
+      "text": "It looks like the corner of a square.",
+      "utterance": 8,
+      "first_word": 6,
+      "last_word": 13
+    },
+    {
+      "start": 67.112,
+      "end": 70.602,
+      "text": "An angle is one hundred and twenty degrees.",
+      "utterance": 9,
+      "first_word": 0,
+      "last_word": 7
+    },
+    {
+      "start": 70.602,
+      "end": 72.912,
+      "text": "Is it acute or obtuse?",
+      "utterance": 9,
+      "first_word": 8,
+      "last_word": 12
+    },
+    {
+      "start": 72.912,
+      "end": 75.222,
+      "text": "Compare it with ninety degrees.",
+      "utterance": 9,
+      "first_word": 13,
+      "last_word": 17
+    },
+    {
+      "start": 80.234,
+      "end": 84.574,
+      "text": "One hundred and twenty is greater than ninety and less than one hundred and",
+      "utterance": 10,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 84.574,
+      "end": 86.874,
+      "text": "eighty, so the angle is obtuse.",
+      "utterance": 10,
+      "first_word": 14,
+      "last_word": 19
+    },
+    {
+      "start": 87.916,
+      "end": 91.996,
+      "text": "An angle with longer arms is not necessarily larger.",
+      "utterance": 11,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 92.056,
+      "end": 95.766,
+      "text": "We measure the amount of turning, not the length of the lines.",
+      "utterance": 11,
+      "first_word": 9,
+      "last_word": 20
+    },
+    {
+      "start": 96.771,
+      "end": 100.851,
+      "text": "When measuring with a protractor, place the centre at the vertex and align",
+      "utterance": 12,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 100.851,
+      "end": 103.511,
+      "text": "one arm with the zero-degree baseline.",
+      "utterance": 12,
+      "first_word": 13,
+      "last_word": 19
+    },
+    {
+      "start": 104.537,
+      "end": 108.597,
+      "text": "If the angle looks narrower than a right angle, should you read seventy-",
+      "utterance": 13,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 108.597,
+      "end": 111.507,
+      "text": "five or one hundred and five degrees?",
+      "utterance": 13,
+      "first_word": 13,
+      "last_word": 19
+    },
+    {
+      "start": 116.514,
+      "end": 120.934,
+      "text": "Seventy-five degrees is the sensible measurement because it is less than",
+      "utterance": 14,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 120.934,
+      "end": 122.174,
+      "text": "ninety degrees.",
+      "utterance": 14,
+      "first_word": 12,
+      "last_word": 13
+    },
+    {
+      "start": 123.205,
+      "end": 128.135,
+      "text": "Always check which protractor scale begins at zero along your starting arm.",
+      "utterance": 15,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 128.175,
+      "end": 131.095,
+      "text": "The two scales count in opposite directions.",
+      "utterance": 15,
+      "first_word": 12,
+      "last_word": 18
+    },
+    {
+      "start": 132.107,
+      "end": 135.317,
+      "text": "Two adjacent angles lie on a straight line.",
+      "utterance": 16,
+      "first_word": 0,
+      "last_word": 7
+    },
+    {
+      "start": 135.357,
+      "end": 137.307,
+      "text": "One is forty degrees.",
+      "utterance": 16,
+      "first_word": 8,
+      "last_word": 11
+    },
+    {
+      "start": 137.337,
+      "end": 139.157,
+      "text": "What is the other angle?",
+      "utterance": 16,
+      "first_word": 12,
+      "last_word": 16
+    },
+    {
+      "start": 144.241,
+      "end": 147.821,
+      "text": "A straight angle is one hundred and eighty degrees.",
+      "utterance": 17,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 147.841,
+      "end": 151.661,
+      "text": "Subtract forty to get one hundred and forty degrees.",
+      "utterance": 17,
+      "first_word": 9,
+      "last_word": 17
+    },
+    {
+      "start": 152.67,
+      "end": 156.97,
+      "text": "To draw an angle, draw the first ray, mark the required number of degrees",
+      "utterance": 18,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 156.97,
+      "end": 159.74,
+      "text": "from zero and connect the mark to the vertex.",
+      "utterance": 18,
+      "first_word": 14,
+      "last_word": 22
+    },
+    {
+      "start": 160.75,
+      "end": 164.4,
+      "text": "A robot makes two quarter turns in the same direction.",
+      "utterance": 19,
+      "first_word": 0,
+      "last_word": 9
+    },
+    {
+      "start": 164.44,
+      "end": 167.55,
+      "text": "How many degrees has it turned altogether?",
+      "utterance": 19,
+      "first_word": 10,
+      "last_word": 16
+    },
+    {
+      "start": 172.588,
+      "end": 177.168,
+      "text": "Ninety plus ninety equals one hundred and eighty degrees, which is a half",
+      "utterance": 20,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 177.168,
+      "end": 177.798,
+      "text": "turn.",
+      "utterance": 20,
+      "first_word": 13,
+      "last_word": 13
+    },
+    {
+      "start": 178.815,
+      "end": 182.165,
+      "text": "Angles are measured in degrees, not centimetres.",
+      "utterance": 21,
+      "first_word": 0,
+      "last_word": 6
+    },
+    {
+      "start": 182.195,
+      "end": 186.675,
+      "text": "A small drawing and a large drawing can show exactly the same turn.",
+      "utterance": 21,
+      "first_word": 7,
+      "last_word": 19
+    },
+    {
+      "start": 187.702,
+      "end": 189.772,
+      "text": "Imagine a door opening.",
+      "utterance": 22,
+      "first_word": 0,
+      "last_word": 3
+    },
+    {
+      "start": 189.812,
+      "end": 194.562,
+      "text": "A small opening makes an acute angle, while a door opened square to the wall",
+      "utterance": 22,
+      "first_word": 4,
+      "last_word": 18
+    },
+    {
+      "start": 194.562,
+      "end": 195.912,
+      "text": "makes a right angle.",
+      "utterance": 22,
+      "first_word": 19,
+      "last_word": 22
+    },
+    {
+      "start": 196.972,
+      "end": 201.072,
+      "text": "A turn of thirty degrees is one third of a right angle.",
+      "utterance": 23,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 201.122,
+      "end": 204.295,
+      "text": "Three such turns add up to ninety degrees.",
+      "utterance": 23,
+      "first_word": 12,
+      "last_word": 19
+    },
+    {
+      "start": 205.254,
+      "end": 209.684,
+      "text": "A turn of one hundred and fifty degrees is close to a straight angle, but",
+      "utterance": 24,
+      "first_word": 0,
+      "last_word": 14
+    },
+    {
+      "start": 209.684,
+      "end": 212.414,
+      "text": "thirty degrees short of one hundred and eighty.",
+      "utterance": 24,
+      "first_word": 15,
+      "last_word": 22
+    },
+    {
+      "start": 213.42,
+      "end": 215.57,
+      "text": "Use benchmarks to estimate.",
+      "utterance": 25,
+      "first_word": 0,
+      "last_word": 3
+    },
+    {
+      "start": 215.58,
+      "end": 220.11,
+      "text": "Compare the angle with ninety degrees before reading a protractor scale.",
+      "utterance": 25,
+      "first_word": 4,
+      "last_word": 14
+    },
+    {
+      "start": 221.171,
+      "end": 225.121,
+      "text": "If your measurement says forty degrees but the drawing looks wider than a",
+      "utterance": 26,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 225.121,
+      "end": 228.021,
+      "text": "right angle, check whether you used the wrong scale.",
+      "utterance": 26,
+      "first_word": 13,
+      "last_word": 21
+    },
+    {
+      "start": 229.08,
+      "end": 233.34,
+      "text": "When drawing an angle, keep the ruler steady and make sure both rays begin",
+      "utterance": 27,
+      "first_word": 0,
+      "last_word": 13
+    },
+    {
+      "start": 233.34,
+      "end": 234.77,
+      "text": "at the same vertex.",
+      "utterance": 27,
+      "first_word": 14,
+      "last_word": 17
+    },
+    {
+      "start": 235.759,
+      "end": 239.019,
+      "text": "Explain your answer using the size of the turn.",
+      "utterance": 28,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 239.079,
+      "end": 242.799,
+      "text": "This is stronger than simply saying the angle looks big.",
+      "utterance": 28,
+      "first_word": 9,
+      "last_word": 18
+    },
+    {
+      "start": 243.847,
+      "end": 248.487,
+      "text": "Before using a protractor, predict whether the angle is less than or greater",
+      "utterance": 29,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 248.487,
+      "end": 253.287,
+      "text": "than ninety degrees. Your prediction can catch a wrong-scale reading.",
+      "utterance": 29,
+      "first_word": 13,
+      "last_word": 23
+    },
+    {
+      "start": 254.31,
+      "end": 257.87,
+      "text": "The centre mark must sit exactly on the vertex.",
+      "utterance": 30,
+      "first_word": 0,
+      "last_word": 8
+    },
+    {
+      "start": 257.89,
+      "end": 262.58,
+      "text": "If it is moved away, the protractor markings no longer measure the intended",
+      "utterance": 30,
+      "first_word": 9,
+      "last_word": 21
+    },
+    {
+      "start": 262.58,
+      "end": 263.23,
+      "text": "angle.",
+      "utterance": 30,
+      "first_word": 22,
+      "last_word": 22
+    },
+    {
+      "start": 264.285,
+      "end": 268.695,
+      "text": "Some protractors number clockwise and anticlockwise at once.",
+      "utterance": 31,
+      "first_word": 0,
+      "last_word": 7
+    },
+    {
+      "start": 268.705,
+      "end": 273.275,
+      "text": "Find the zero aligned with the starting ray before following the numbers.",
+      "utterance": 31,
+      "first_word": 8,
+      "last_word": 19
+    },
+    {
+      "start": 274.265,
+      "end": 276.915,
+      "text": "Suppose your first ray points left.",
+      "utterance": 32,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 276.945,
+      "end": 281.345,
+      "text": "Begin with the zero on the left, rather than automatically reading from the",
+      "utterance": 32,
+      "first_word": 6,
+      "last_word": 18
+    },
+    {
+      "start": 281.345,
+      "end": 282.475,
+      "text": "right-hand scale.",
+      "utterance": 32,
+      "first_word": 19,
+      "last_word": 21
+    },
+    {
+      "start": 283.526,
+      "end": 287.605,
+      "text": "An angle of thirty degrees is much smaller than a right angle.",
+      "utterance": 33,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 287.656,
+      "end": 290.756,
+      "text": "Use this comparison when checking your drawing.",
+      "utterance": 33,
+      "first_word": 12,
+      "last_word": 18
+    },
+    {
+      "start": 291.787,
+      "end": 296.097,
+      "text": "An angle of one hundred and sixty degrees is almost straight.",
+      "utterance": 34,
+      "first_word": 0,
+      "last_word": 10
+    },
+    {
+      "start": 296.247,
+      "end": 299.317,
+      "text": "It is twenty degrees away from a straight angle.",
+      "utterance": 34,
+      "first_word": 11,
+      "last_word": 19
+    },
+    {
+      "start": 300.382,
+      "end": 304.852,
+      "text": "If you draw a sixty-degree angle and measure it again, your answer should be",
+      "utterance": 35,
+      "first_word": 0,
+      "last_word": 14
+    },
+    {
+      "start": 304.852,
+      "end": 306.632,
+      "text": "close to sixty degrees.",
+      "utterance": 35,
+      "first_word": 15,
+      "last_word": 18
+    },
+    {
+      "start": 306.632,
+      "end": 308.802,
+      "text": "Small pencil errors may matter.",
+      "utterance": 35,
+      "first_word": 19,
+      "last_word": 23
+    },
+    {
+      "start": 309.883,
+      "end": 314.203,
+      "text": "For an independent check, draw an angle measuring one hundred and ten",
+      "utterance": 36,
+      "first_word": 0,
+      "last_word": 11
+    },
+    {
+      "start": 314.203,
+      "end": 318.183,
+      "text": "degrees. Predict its type before touching the protractor.",
+      "utterance": 36,
+      "first_word": 12,
+      "last_word": 19
+    },
+    {
+      "start": 319.224,
+      "end": 321.134,
+      "text": "Explain the steps to someone else:",
+      "utterance": 37,
+      "first_word": 0,
+      "last_word": 5
+    },
+    {
+      "start": 321.134,
+      "end": 325.534,
+      "text": "estimate the angle, align the baseline, read the correct scale and check the",
+      "utterance": 37,
+      "first_word": 6,
+      "last_word": 18
+    },
+    {
+      "start": 325.534,
+      "end": 326.444,
+      "text": "angle type.",
+      "utterance": 37,
+      "first_word": 19,
+      "last_word": 20
+    },
+    {
+      "start": 327.57,
+      "end": 331.99,
+      "text": "Your challenge is to find three angles in your classroom, classify them and",
+      "utterance": 38,
+      "first_word": 0,
+      "last_word": 12
+    },
+    {
+      "start": 331.99,
+      "end": 333.42,
+      "text": "explain your reasoning.",
+      "utterance": 38,
+      "first_word": 13,
+      "last_word": 15
+    }
+  ],
+  "review_flags": [
+    {
+      "cue": 16,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.5
+    },
+    {
+      "cue": 20,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.3
+    },
+    {
+      "cue": 24,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 18.1
+    },
+    {
+      "cue": 26,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.7
+    },
+    {
+      "cue": 42,
+      "flag": "under_0.8_seconds"
+    },
+    {
+      "cue": 51,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.2
+    },
+    {
+      "cue": 54,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 18.5
+    },
+    {
+      "cue": 55,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.9
+    },
+    {
+      "cue": 56,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.4
+    },
+    {
+      "cue": 64,
+      "flag": "under_0.8_seconds"
+    },
+    {
+      "cue": 68,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.0
+    },
+    {
+      "cue": 74,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.0
+    },
+    {
+      "cue": 79,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.8
+    },
+    {
+      "cue": 80,
+      "flag": "reading_speed_over_17_cps",
+      "cps": 17.3
+    }
+  ],
+  "caption_layout": {
+    "line_percent": 1,
+    "position_percent": 50,
+    "size_percent": 90,
+    "reason": "Use empty top band; keep captions off angle/clock models and native controls. Minimum page cue font 12px."
+  }
+}

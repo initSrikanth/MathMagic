@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "topic": "whole-numbers",
+  "records": [
+    {
+      "id": "whole-numbers-legacy-6-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/whole-numbers-2026/lesson1.mp4",
+          "sha256": "e8e4b39fadb807d63c534167f8459fa5d3458e1d540a4fa780d3edc1d03c9d04",
+          "bytes": 6122421
+        },
+        "captions": {
+          "path": "videos/whole-numbers-2026/lesson1.vtt",
+          "sha256": "407becfbbf5aa477c7ac155d55a4eba61872c4978a84094fe7ba8a4a109b021c",
+          "bytes": 6213
+        },
+        "transcript": {
+          "path": "videos/whole-numbers-2026/lesson1_transcript.txt",
+          "sha256": "659108b7c2929e0dbe1f3bc3dd57307116d264d685903c6ecd39c860dcc25140",
+          "bytes": 2774
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson1_poster.jpg",
+          "sha256": "67302b5527822d3fcfab80c145aeb36f0a9cda4982f822b7eeb4c838b0d40747",
+          "bytes": 31503
+        },
+        "script": {
+          "path": "video-agent/year5-graphics-2026/whole-numbers/scripts.json",
+          "sha256": "9c3bd6e0d29b3bfa338aa07d10d32c86e7f49b935aa0852607cb557b18e8b1dd",
+          "bytes": 55123
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 5990,
+          "sha256": "2a5c532b0849542e80a704019f74ee3a66b3c79ca295b9d5989f95c54bbdafed"
+        },
+        "audio": {
+          "count": 9361,
+          "sha256": "22a0189fd7f42e3cfabccf86349f8ff4b94c8773f704c5134777bd9a0e76b17b"
+        }
+      },
+      "legacy": {
+        "number": 6,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-6-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+          "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+          "bytes": 5991528
+        },
+        "captions": {
+          "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+          "sha256": "ebc42891eadb2d9c1e826def3e9349359c3a3001b5d0eace85e1fdbe37bda967",
+          "bytes": 6095
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+          "sha256": "4cc21e4529ca8f56b368895c101909507ca629b750430ae3c008cf5f7077ea3d",
+          "bytes": 2729
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson1_poster.jpg",
+          "sha256": "67302b5527822d3fcfab80c145aeb36f0a9cda4982f822b7eeb4c838b0d40747",
+          "bytes": 31503
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/06.json",
+          "sha256": "0c514f48f171d0b833b46ab79214f3b7361d3ff5f91f858b97a7eaccc48d25c8",
+          "bytes": 10701
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 5884,
+          "sha256": "debd4c4211a192917f8150a005b6ffa4b125aaf3d011f8fd0e6dbf564bd4bcbf"
+        },
+        "audio": {
+          "count": 9192,
+          "sha256": "9451826c702bc0fc36daeece98ad0cb817e505cbdee16bab3bdc00e374e153ea"
+        }
+      },
+      "legacy": {
+        "number": 6,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-7-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/whole-numbers-2026/lesson2.mp4",
+          "sha256": "e5b4dcb62cd252a5f93020ea764af447c4408ffc021a3b5b2e94a199af11ee52",
+          "bytes": 6651776
+        },
+        "captions": {
+          "path": "videos/whole-numbers-2026/lesson2.vtt",
+          "sha256": "83244e44b59562e449b75741b8ea9f99ba01afd53eaacaef0181ec8bb42557ad",
+          "bytes": 6378
+        },
+        "transcript": {
+          "path": "videos/whole-numbers-2026/lesson2_transcript.txt",
+          "sha256": "809d50fb810d8234c8c5dc7bb7e84df355ea25f0bc99defbad67160869ab97a7",
+          "bytes": 3085
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson2_poster.jpg",
+          "sha256": "9d33a95433b79e4c6592fd90e013e8d6af021471bb29babd5de3b29abd78146f",
+          "bytes": 35195
+        },
+        "script": {
+          "path": "video-agent/year5-graphics-2026/whole-numbers/scripts.json",
+          "sha256": "9c3bd6e0d29b3bfa338aa07d10d32c86e7f49b935aa0852607cb557b18e8b1dd",
+          "bytes": 55123
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6303,
+          "sha256": "04ab956130d684d1792dacb73bb7b16eb5f82be60e83899a3395c9c6180a2a77"
+        },
+        "audio": {
+          "count": 9850,
+          "sha256": "1ddec51df9a05f24c8527f15780a05b7fd4f28ca1fc8892832e728d46839d602"
+        }
+      },
+      "legacy": {
+        "number": 7,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-7-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+          "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+          "bytes": 6515176
+        },
+        "captions": {
+          "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+          "sha256": "6e9da96975a073edcf764532b4c890f26e7f3aeb4f714ee42067b0263031fbde",
+          "bytes": 6260
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+          "sha256": "dab933ea8afa51721c6638aaacaf86c70a3bc78708ef836554545dc81716762f",
+          "bytes": 3040
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson2_poster.jpg",
+          "sha256": "9d33a95433b79e4c6592fd90e013e8d6af021471bb29babd5de3b29abd78146f",
+          "bytes": 35195
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/07.json",
+          "sha256": "a76626501f2af9902afd06e14617fb4710f6aad11edbb949c16d2ec2e1eaf8db",
+          "bytes": 10512
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6197,
+          "sha256": "77df7f47187d67b471a21b546627e0430f4e62a7c222ff41a93eb54510da7316"
+        },
+        "audio": {
+          "count": 9680,
+          "sha256": "91593ba3f8ae185d29eab4607034c67347c94314c5b256ee8d3acef424a73da9"
+        }
+      },
+      "legacy": {
+        "number": 7,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-8-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/whole-numbers-2026/lesson3.mp4",
+          "sha256": "46a885c16e5818fdf7d0867ead61cf369b4db34ce4b6c4b561bee244110f7e51",
+          "bytes": 6815013
+        },
+        "captions": {
+          "path": "videos/whole-numbers-2026/lesson3.vtt",
+          "sha256": "496cc6020a4d3888a8c4cda11df85d07bc7a47ce049d40cbf42eba193247f44d",
+          "bytes": 6388
+        },
+        "transcript": {
+          "path": "videos/whole-numbers-2026/lesson3_transcript.txt",
+          "sha256": "6ad221ab8198486441b54a16d0e3f87c7c081d7ad5dccc2102cdeb41d44c79ba",
+          "bytes": 3095
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson3_poster.jpg",
+          "sha256": "b64f7463e806cb8e246ccc16b15277484fdc0f76ccf6dcf2a04a82d73579c1df",
+          "bytes": 33344
+        },
+        "script": {
+          "path": "video-agent/year5-graphics-2026/whole-numbers/scripts.json",
+          "sha256": "9c3bd6e0d29b3bfa338aa07d10d32c86e7f49b935aa0852607cb557b18e8b1dd",
+          "bytes": 55123
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6458,
+          "sha256": "0ba7b04196ec5483d00bde271161a1919e9fbbd4e8a80b41fd5816054736f977"
+        },
+        "audio": {
+          "count": 10092,
+          "sha256": "f472ac47bf6c2536a39515163d3454591b5a31bf6762d5a49646349313640681"
+        }
+      },
+      "legacy": {
+        "number": 8,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-8-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+          "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+          "bytes": 6684648
+        },
+        "captions": {
+          "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+          "sha256": "27a66ec8c995bdf7ef58060c86dbcfafa4ed95bd1160d1b8331276feaad3c7e2",
+          "bytes": 6270
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+          "sha256": "e43a59ad5524365a2afd98db2f8166d7b78725bf1a87876dbfe4d6a3a3e8a541",
+          "bytes": 3050
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson3_poster.jpg",
+          "sha256": "b64f7463e806cb8e246ccc16b15277484fdc0f76ccf6dcf2a04a82d73579c1df",
+          "bytes": 33344
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/08.json",
+          "sha256": "8b472a6a4afc543ce2393cc685244d25a721ac6661a640a2130a8e7b8f19fc64",
+          "bytes": 11632
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6352,
+          "sha256": "77d8aca67dc731c85bb84f403abf96f86ff9c0eac7c5dff5b7415c8413ec7260"
+        },
+        "audio": {
+          "count": 9923,
+          "sha256": "3214dc24712058f8af83f4a4a0166e5d99f98e316e72fa9c5fa6008555a05dc9"
+        }
+      },
+      "legacy": {
+        "number": 8,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-9-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/whole-numbers-2026/lesson4.mp4",
+          "sha256": "e4a56e62e0192c60070896af1122b6f2a39fde0bb57b1785bfd758bd30e42217",
+          "bytes": 6260833
+        },
+        "captions": {
+          "path": "videos/whole-numbers-2026/lesson4.vtt",
+          "sha256": "ccc05018a25869d8e583604901d1b3f0d03fb264c5ed14df83472c6bf7d199c5",
+          "bytes": 6332
+        },
+        "transcript": {
+          "path": "videos/whole-numbers-2026/lesson4_transcript.txt",
+          "sha256": "e1f641fa8eb1565cb4dd957cb396c0b3121d3758496edbaedc42a0ab73116a87",
+          "bytes": 2893
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "sha256": "d66448eef5f04458f18234b9efd6922fab0881f528afdcd8682e3f016fa5e6d0",
+          "bytes": 32026
+        },
+        "script": {
+          "path": "video-agent/year5-graphics-2026/whole-numbers/scripts.json",
+          "sha256": "9c3bd6e0d29b3bfa338aa07d10d32c86e7f49b935aa0852607cb557b18e8b1dd",
+          "bytes": 55123
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6240,
+          "sha256": "e89956e8b1f5f834d29fc2aac8d8bd039574babbc29fd213c47ad266a59827c4"
+        },
+        "audio": {
+          "count": 9751,
+          "sha256": "ef3909f25b55416d528aa7bb7f988fac1da4495cbcfbb6a547809763440e947b"
+        }
+      },
+      "legacy": {
+        "number": 9,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-9-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+          "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+          "bytes": 6133394
+        },
+        "captions": {
+          "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+          "sha256": "766164bfd402006a11f4f51b6f72330068684a04b4a4a52088c8a0a555365228",
+          "bytes": 6214
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+          "sha256": "de6d87e8c2bca32e07f2d2b9f146940be3482d0b410fd19908aef2aadf69d2ef",
+          "bytes": 2848
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "sha256": "d66448eef5f04458f18234b9efd6922fab0881f528afdcd8682e3f016fa5e6d0",
+          "bytes": 32026
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/09.json",
+          "sha256": "c8a8a5b1a0713a80ae851c5fc90d6610e99c45df2ce2b38ad22e1328b73a59aa",
+          "bytes": 9576
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6135,
+          "sha256": "adb54fa36d87a813f7bbd29538979e0e09ed93c50b7d3a315326a1f297c219eb"
+        },
+        "audio": {
+          "count": 9583,
+          "sha256": "2166cf96fae33bbd1d992a5502aae4e777386fab2490fa33d23ee27c8fd90c46"
+        }
+      },
+      "legacy": {
+        "number": 9,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-10-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/whole-numbers-2026/lesson5.mp4",
+          "sha256": "5ee34eea24625f008a15b14516cbc6dda37145529031919456c7eaab61df5831",
+          "bytes": 6381704
+        },
+        "captions": {
+          "path": "videos/whole-numbers-2026/lesson5.vtt",
+          "sha256": "6627697a8dd4c11948aa6e02d6f2ace68a3e67b62ae491b5707a76152d2daf17",
+          "bytes": 6292
+        },
+        "transcript": {
+          "path": "videos/whole-numbers-2026/lesson5_transcript.txt",
+          "sha256": "ed1d185ae377a9f9de9b928f855fd0774b041437ef530de65386b026c5e49ed9",
+          "bytes": 2926
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "sha256": "a22e4611508b9d79f52e562b7d19245be129f032854547efedd1a013ac6e299c",
+          "bytes": 32155
+        },
+        "script": {
+          "path": "video-agent/year5-graphics-2026/whole-numbers/scripts.json",
+          "sha256": "9c3bd6e0d29b3bfa338aa07d10d32c86e7f49b935aa0852607cb557b18e8b1dd",
+          "bytes": 55123
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6355,
+          "sha256": "27aa22ad0c26b61d14b3cb31e20e8436a6c85a608a756a2ae494e89abdab0096"
+        },
+        "audio": {
+          "count": 9931,
+          "sha256": "e978d903ed68fc937e4644c4c993c445a2cba5794d1b4ac9d066cb30d75cd230"
+        }
+      },
+      "legacy": {
+        "number": 10,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "whole-numbers-legacy-10-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+          "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+          "bytes": 6250898
+        },
+        "captions": {
+          "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+          "sha256": "582142eed139f0d1af026be4a3703bfb928e36a5ab0cbfd98365fa02ad48734c",
+          "bytes": 6174
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+          "sha256": "bb8cdc888078bc93e4e645393e20408c9167be2d2706ece518e494cd7d77fe85",
+          "bytes": 2881
+        },
+        "poster": {
+          "path": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "sha256": "a22e4611508b9d79f52e562b7d19245be129f032854547efedd1a013ac6e299c",
+          "bytes": 32155
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/10.json",
+          "sha256": "48023ae48ae9cb45970923060a32545853ae3678d017837efe0c654afb1efe73",
+          "bytes": 9286
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 6250,
+          "sha256": "504ccdc53030b6edd4bde49bbf83e1d5e95c2ece744243d78728cbea5e03ed59"
+        },
+        "audio": {
+          "count": 9763,
+          "sha256": "a0bd00564e6f644b6ccf738cdfd83781f990aaec1dd931cbbcfab1aec7fb59a4"
+        }
+      },
+      "legacy": {
+        "number": 10,
+        "variant": "correction"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "whole-numbers-legacy-6-correction"
+    },
+    {
+      "section": "lesson2",
+      "record": "whole-numbers-legacy-7-correction"
+    },
+    {
+      "section": "lesson3",
+      "record": "whole-numbers-legacy-8-correction"
+    },
+    {
+      "section": "lesson4",
+      "record": "whole-numbers-legacy-9-correction"
+    },
+    {
+      "section": "lesson5",
+      "record": "whole-numbers-legacy-10-correction"
+    }
+  ]
+}

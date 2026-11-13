@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "source_parent": "2b5fa082260a68704273d5aab3867bb37169a88f",
+  "candidate_sha256": "3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1",
+  "test_source_sha256": "dc5ef72bced8be4b1a7649d405147cad90882518191e0adc3050034ba62a9bde",
+  "command": "playwright test --config=/tmp/ta1-playwright.cjs tests/e2e/time-angles.spec.js --retries=0",
+  "config_override": "Existing config with system /usr/bin/chromium; no assertions changed or disabled",
+  "browser": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "projects": [
+    "desktop-chromium",
+    "mobile-chromium"
+  ],
+  "passed": 22,
+  "failed": 0,
+  "exit_code": 0,
+  "console_log_sha256": "bdb327f7292332d734661f7aa034b47f1d254a0ad6b05b1d97998feae2b48633",
+  "covered": [
+    "five native tracks; early/middle/late advancing playback with active captions",
+    "WCAG AA; keyboard transcripts; responsive layout",
+    "existing student flow and feedback regressions"
+  ],
+  "limits": [
+    "Firebase isolated in tests; no production service verification",
+    "muted browser playback; recorded audio verified separately by full PCM decode",
+    "not physical Safari/iOS; not full listening/viewing"
+  ],
+  "earlier_run": "An earlier run while render work was completing had one 5s load timeout (21/22); final isolated playback passed 2/2 and final unchanged-byte suite passed 22/22."
+}

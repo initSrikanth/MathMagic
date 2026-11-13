@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "All Year 5, Year 6 and Year 7 teaching videos; current remediation inventory is exactly 35 Year 5 core placements",
+  "scope": "All Year 5, Year 6 and Year 7 teaching videos; versioned topic inventories in the media registry; the original 35-video audit remains immutable historical evidence",
   "applicable_year_levels": [
     5,
     6,
@@ -210,5 +210,136 @@
       "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
       "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f"
     }
+  },
+  "media_registry": {
+    "schema_version": 1,
+    "path": "video-agent/media-registry/registry.json",
+    "preservation_commit": "62c595d50696e393959ed34a77794137f7139fa0",
+    "preserved_inventory": {
+      "fractions": [
+        "fractions-legacy-1-original",
+        "fractions-legacy-1-correction",
+        "fractions-legacy-2-original",
+        "fractions-legacy-2-correction",
+        "fractions-legacy-3-original",
+        "fractions-legacy-3-correction",
+        "fractions-legacy-4-original",
+        "fractions-legacy-4-correction",
+        "fractions-legacy-5-original",
+        "fractions-legacy-5-correction",
+        "fractions-lcm-extension"
+      ],
+      "whole-numbers": [
+        "whole-numbers-legacy-6-original",
+        "whole-numbers-legacy-6-correction",
+        "whole-numbers-legacy-7-original",
+        "whole-numbers-legacy-7-correction",
+        "whole-numbers-legacy-8-original",
+        "whole-numbers-legacy-8-correction",
+        "whole-numbers-legacy-9-original",
+        "whole-numbers-legacy-9-correction",
+        "whole-numbers-legacy-10-original",
+        "whole-numbers-legacy-10-correction"
+      ],
+      "decimals-percentages": [
+        "decimals-percentages-legacy-11-original",
+        "decimals-percentages-legacy-11-narration",
+        "decimals-percentages-legacy-12-original",
+        "decimals-percentages-legacy-12-narration",
+        "decimals-percentages-legacy-13-original",
+        "decimals-percentages-legacy-13-narration",
+        "decimals-percentages-legacy-14-original",
+        "decimals-percentages-legacy-14-correction",
+        "decimals-percentages-legacy-14-narration",
+        "decimals-percentages-legacy-15-original",
+        "decimals-percentages-legacy-15-correction",
+        "decimals-percentages-legacy-15-narration"
+      ],
+      "addition-subtraction": [
+        "addition-subtraction-legacy-16-original",
+        "addition-subtraction-legacy-16-correction",
+        "addition-subtraction-legacy-16-narration",
+        "addition-subtraction-legacy-17-original",
+        "addition-subtraction-legacy-17-correction",
+        "addition-subtraction-legacy-17-narration",
+        "addition-subtraction-legacy-18-original",
+        "addition-subtraction-legacy-18-correction",
+        "addition-subtraction-legacy-18-narration",
+        "addition-subtraction-legacy-19-original",
+        "addition-subtraction-legacy-19-correction",
+        "addition-subtraction-legacy-19-narration",
+        "addition-subtraction-legacy-20-original",
+        "addition-subtraction-legacy-20-correction",
+        "addition-subtraction-legacy-20-narration"
+      ],
+      "multiplication-division": [
+        "multiplication-division-legacy-21-original",
+        "multiplication-division-legacy-21-correction",
+        "multiplication-division-legacy-21-narration",
+        "multiplication-division-legacy-22-original",
+        "multiplication-division-legacy-22-correction",
+        "multiplication-division-legacy-22-narration",
+        "multiplication-division-legacy-23-original",
+        "multiplication-division-legacy-23-correction",
+        "multiplication-division-legacy-23-narration",
+        "multiplication-division-legacy-24-original",
+        "multiplication-division-legacy-24-correction",
+        "multiplication-division-legacy-24-narration",
+        "multiplication-division-legacy-25-original",
+        "multiplication-division-legacy-25-correction",
+        "multiplication-division-legacy-25-narration"
+      ],
+      "factors-multiples": [
+        "factors-multiples-legacy-26-original",
+        "factors-multiples-legacy-26-correction",
+        "factors-multiples-legacy-26-narration",
+        "factors-multiples-legacy-27-original",
+        "factors-multiples-legacy-27-correction",
+        "factors-multiples-legacy-27-narration",
+        "factors-multiples-legacy-28-original",
+        "factors-multiples-legacy-28-correction",
+        "factors-multiples-legacy-28-narration",
+        "factors-multiples-legacy-29-original",
+        "factors-multiples-legacy-29-correction",
+        "factors-multiples-legacy-29-narration",
+        "factors-multiples-legacy-30-original",
+        "factors-multiples-legacy-30-correction",
+        "factors-multiples-legacy-30-narration"
+      ],
+      "measurement": [
+        "measurement-legacy-31-original",
+        "measurement-legacy-31-correction",
+        "measurement-legacy-32-original",
+        "measurement-legacy-32-correction",
+        "measurement-legacy-33-original",
+        "measurement-legacy-33-correction",
+        "measurement-legacy-34-original",
+        "measurement-legacy-34-correction",
+        "measurement-legacy-35-original",
+        "measurement-legacy-35-correction"
+      ],
+      "space": [
+        "space-lesson1",
+        "space-lesson2",
+        "space-lesson3",
+        "space-lesson4",
+        "space-lesson5",
+        "space-lesson6",
+        "space-lesson7",
+        "space-lesson8",
+        "space-lesson9",
+        "space-lesson10"
+      ],
+      "time-angles": [
+        "time-angles-lesson1-original",
+        "time-angles-lesson2-original",
+        "time-angles-lesson3-original",
+        "time-angles-lesson4-original",
+        "time-angles-lesson5-original",
+        "time-angles-lesson1-short-archive"
+      ]
+    },
+    "preserved_records_sha256": "b266af48a4c06fd954ca6b926b291557ab0da763c4214b97b1c2f8eb63164177",
+    "schema_sha256": "d45c8fd7646e656370e1308d9e1f912c91fed78f620a477faa236bbf51e81288"
   }
 }
