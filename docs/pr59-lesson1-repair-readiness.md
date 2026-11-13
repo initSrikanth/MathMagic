@@ -1,6 +1,38 @@
-# PR59 Lesson 1 repair readiness — 12 November 2026
+# PR59 Lesson 1 repair readiness — 13 November 2026
 
 **Repair candidate; full release BLOCKED. No merge or deployment.** Existing branch: `feature/measurement-production-pilot`; parent `2b5fa082260a68704273d5aab3867bb37169a88f`. The final commit SHA is reported with the task result; this file cannot contain its own SHA.
+
+## Registration verification — 13 November 2026
+
+**Registration is impossible with the canonical guard unchanged. No registration or approval is claimed.** GitHub PR59 was OPEN at exact head `902b47f0cb7bf5115b2e0c0a189ccd84e50e565e`; fetched branch and local HEAD matched. This verification records the blocker and ends the task; it does not start a rendering, policy-change or publication stage.
+
+### Exact asset recovered
+
+`videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.mp4` is committed in that head: **10,236,194 bytes**, SHA-256 **`3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1`**. Git-object bytes, working bytes, accessibility manifest, alignment, edit map and retained technical QA all agree. No expired artifact or reconstruction is needed. Source/renderer/caption/transcript hashes also match their committed evidence. Existing full-decode/frame/PCM/browser evidence below is retained evidence from 12 November, revalidated by exact hashes; those expensive checks were not repeated in this blocked registration attempt.
+
+The retained speech matches every non-omitted current script beat except the introduction's harmless wording variant: the saved script says “By the end of this lesson”; the retained original recording and faithful captions say “By the end”. The required bus-story opening and learning declaration remain. No prohibited brand is present in the active transcript/caption words. The retained mathematics evidence covers 45+5=50, 40+10=50, 35+10=45 and 25+20=45 minutes. These checks do not certify full speech fidelity or perception.
+
+### Why metadata alone cannot register it
+
+- [Canonical guard](../tools/video-quality/ci_check.py), line7, asserts **exactly35** distinct original media records in `docs/video-quality-audit-35.json`. [Inventory production](../tools/video-quality/inventory.py) enumerates exactly seven other topics; Time & Angles is absent. Adding a legitimate36th record fails the existing assertion.
+- The guard's known-media set, lines23–29, accepts only those records/their associated corrections or candidates, plus the separately approved ten Space videos. It never reads the Time & Angles accessibility manifest as release registration. That manifest already records the checksum with `ALIGNED_REVIEW_REQUIRED`, not approval. A checksum added to an ignored field/file would not fix this.
+- Assigning Lesson1 to an unrelated35-video record, replacing an original record, or relabelling it as Space would falsely associate the evidence and violate preservation. The Space path is bound to its exact topic, manifest hash, ten approved IDs and media checksums. No such workaround was attempted.
+- [Scoped correction contract](../tools/video-quality/contract.py), lines112–134, accepts `branding_only` or `mathematical_visual_only`. The current combined branding/visual/duration edit re-encodes AAC: it has PCM reconstruction/correlation evidence, not a truthful packet-copy proof. The branding branch requires packet-copy proof or the specific LCM-preservation quiet-boundary evidence; the mathematical branch requires every original audio packet and outside-scene video packet unchanged. Source and candidate AAC frame counts reported by ffprobe are23,679 and19,067 respectively. The existing evidence cannot be declared to satisfy those formats. Full approval is also unavailable because mandatory perceptual evidence remains absent.
+
+Fresh checks on `902b47f`:
+
+| Check | Result |
+|---|---|
+| Committed/working/source/sidecar/evidence hashes and ffprobe | PASS — MP4 present, 406.733s, H.264/AAC1080p; source preserved |
+| `python tests/time-angles-accessibility.py` | PASS —107 Lesson1 cues; all five hash-bound sets, ordered timing/text, other assets unchanged; release remains false |
+| `python tools/video-quality/test_contract.py` | PASS —31 tests |
+| `python tools/video-quality/ci_check.py 2b5fa082260a68704273d5aab3867bb37169a88f` | FAIL/EXPECTED BLOCK — line32: `Unaudited new/replacement media under production hold: ['videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.mp4']` |
+
+The GitHub head already showed required `fractions-browser-qa` FAILURE and pilot source/student-flow/live-verification/readiness job SUCCESS when read once; a successful readiness job is not release approval. No runs were retried, scheduled or monitored. No human perceptual or physical iOS approval was added. Only this report and the durable checkpoint change in this attempt; the canonical guard, approval policy, manifests, all media and unrelated assets remain unchanged.
+
+An authorised change to the registration/verification process would be needed to admit this topic and evidence type honestly. Such a change is expressly outside this task's no-guard-change constraint, so no registration commit is possible. The task stops with these findings.
+
+## Retained repair evidence — 12 November 2026
 
 The repaired Lesson 1 is 406.733 seconds, with 107 acoustic-timed caption cues, matching transcript, poster and native player integration. The source Kokoro recording is reused at its original speed and pitch. Branded speech, frame branding, inconsistent time comparisons, prediction answer leaks and missing duration working are corrected. Removed passages are redundant examples/repeated explanations and the branded final repeated challenge. The story-first opening, learning declaration, goal, three criteria, worked examples, thinking pauses, misconception, independent train problem and reflection remain.
 
@@ -10,7 +42,7 @@ Evidence: [edit/sample map](../video-agent/time-angles/lesson1-repair/edit.json)
 
 ## Targeted verification
 
-Final results are recorded below after the final candidate checks. Historical PR59 CI receipts are not passes for this repair.
+The following are retained results from the 12 November repair. The fresh 13 November registration checks are listed above. Historical PR59 CI receipts are not new passes.
 
 Candidate SHA-256: `3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1`.
 
@@ -35,7 +67,7 @@ Final browser receipt: [browser.json](../video-agent/time-angles/lesson1-repair/
 
 - Exact full listening/viewing, speech/caption fidelity, warmth/accent/expressiveness, simultaneous phone readability and persistent-model pacing are UNVERIFIED. Twenty model intervals over eight seconds are flagged for review in `qa.json`. Ten Lesson 1 cue speed/duration flags remain in the alignment. Automated checks and sampled viewing cannot certify those attributes.
 - Physical Safari/iOS playback/controls/captions remain unverified. Local Chromium runs isolate Firebase and do not certify live authentication, deployed rules, persistence or UID isolation. Historical PR59 assessment-design and real-service blockers remain unchanged and outside this task.
-- Time and Angles is outside the canonical release guard's 35-record inventory (the separate ten-video Space exception does not apply). The new MP4 is therefore expected to be rejected as unaudited media by the unchanged guard. This task does not modify that infrastructure or bypass its gate. Final observed guard result is recorded with the tests.
+- Time and Angles is outside the canonical release guard's 35-record inventory (the separate ten-video Space exception does not apply). The new MP4 was rejected as unaudited media by the unchanged guard, reproduced on13November. This task does not modify that infrastructure or bypass its gate. Final observed guard result is recorded with the tests.
 - No full remote CI result, public-byte check, deployment or merge is claimed. A candidate committed to this branch is not publication to students.
 
 This bounded repair task ends after the commit and targeted checks; no monitoring, scheduled work or subsequent stage follows.

@@ -1,8 +1,18 @@
-# PR59 durable recovery checkpoint — 12 November 2026
+# PR59 durable recovery checkpoint — 13 November 2026
 
 **Release BLOCKED. Do not merge or deploy.** Existing PR: <https://github.com/initSrikanth/MathMagic/pull/59>, branch `feature/measurement-production-pilot`, base recovered as `047666034299b6e6726e1e7a1d56eee8374aa74a`. Use [the recovery procedure](codex-github-recovery.md) to discover the current head/checks; this file cannot contain its own commit SHA.
 
-## Lesson 1 repair — current execution, 12 November 2026
+## Registration attempt — 13 November 2026; task ended BLOCKED
+
+Recovered latest GitHub head `902b47f0cb7bf5115b2e0c0a189ccd84e50e565e`. The exact replacement is committed (10,236,194bytes; SHA256 `3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1`); no artifact retrieval, reconstruction or render is necessary. Current Git bytes, source/sidecar hashes and retained technical evidence match.
+
+Registration cannot be achieved through the established data process with the guard unchanged: `ci_check.py:7` hardcodes exactly35 original records, excluding Time & Angles; its only extra allowlist is the exact approved ten-video Space release. The existing Time & Angles accessibility checksum manifest is not read as release registration. Adding a36th record fails; misassigning the candidate to an unrelated lesson/Space would be a bypass. The combined branding/visual/duration edit's PCM preservation evidence also does not satisfy the existing scoped formats' packet-preservation requirements. No record, approval or evidence was fabricated.
+
+Fresh targeted checks:31 contract unit tests PASS; caption/text/timing/hash audit PASS; script comparison exposes only the faithful retained introduction variant (“By the end” versus saved “By the end of this lesson”); ffprobe PASS. Final-diff guard reproduces `Unaudited new/replacement media under production hold` at line32. Exact full listening/viewing,10 caption flags,20 persistent-model flags and physical iOS remain unverified. Historical browser/full-decode/PCM checks below are retained exact-byte evidence, not newly executed passes. See [precise registration readiness findings](pr59-lesson1-repair-readiness.md).
+
+Only readiness/checkpoint documentation is updated. No canonical guard/policy, manifest, media or unrelated asset is changed. No merge, deployment, CI retry, scheduling or monitoring. This registration task ends because no compliant registration path exists within its scope.
+
+## Lesson 1 repair — earlier execution, 12 November 2026
 
 The latest PR59 branch head `2b5fa082260a68704273d5aab3867bb37169a88f` was read directly from GitHub and preserved. Only Lesson 1 media, its player/captions/transcript and focused evidence/tests are changed. [Current repair readiness](pr59-lesson1-repair-readiness.md) supersedes the Lesson 1 defect status below; the remaining recovery history is retained as historical evidence.
 
