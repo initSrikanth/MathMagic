@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "topic": "multiplication-division",
+  "records": [
+    {
+      "id": "multiplication-division-legacy-21-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1.mp4",
+          "sha256": "c9d0a79ad2a254cd556bdf451bd17458add6522bb7da259ff09110be13ac3405",
+          "bytes": 2742639
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1.vtt",
+          "sha256": "76abeebfe599c70d6cb66fbdfa6b705df29b4ef72fbb4a19ad70e6b9fe32422e",
+          "bytes": 4334
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1_transcript.txt",
+          "sha256": "b35e4a4136d21deda76ffa7d4b5b7464b0c7d0fb9f18a2671099d18dbdbb22d4",
+          "bytes": 2044
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "sha256": "5fe737f2887b76c7886eb7d803c3351a5a7cd4aaa4573fea48646de89b827eaf",
+          "bytes": 20074
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/multiplication-division-lesson1.json",
+          "sha256": "6b5df27f5ae9bf2d3d3398c5a65e70b8828d22f6073c5ab51b9d0503b4a5e157",
+          "bytes": 7536
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4237,
+          "sha256": "2ccbd00000c462396926bebb46a68e72b37b664ac21d9377e04712df94e8d2f5"
+        },
+        "audio": {
+          "count": 3312,
+          "sha256": "4f3dced4c01c741dda4d85e85ff3b8956612817701602cbb9f5060fe46e62f12"
+        }
+      },
+      "legacy": {
+        "number": 21,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-21-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.mp4",
+          "sha256": "6b92750a419783e66fbd4ab66c91b2cadea3e0eeee96154884307bdca0c00a39",
+          "bytes": 2666890
+        },
+        "captions": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree.vtt",
+          "sha256": "1f13388cf052ab4d05644b56fcbfb24e79a6443415f1794c273d26c945e24f2f",
+          "bytes": 4218
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree_transcript.txt",
+          "sha256": "7ade8d83aa4655d14389a46476a46b48baf53665b3c9da29a7eb643345cb5c44",
+          "bytes": 2020
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "sha256": "5fe737f2887b76c7886eb7d803c3351a5a7cd4aaa4573fea48646de89b827eaf",
+          "bytes": 20074
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/21.json",
+          "sha256": "bb8b7abd001534ae3253d82064cdbf1fd5dff71bfff4c8659a8e0a05336c0601",
+          "bytes": 7588
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4121,
+          "sha256": "97ff82a8426ade09ee2f60c0d0bb917f8f83974e8956124c25014e47b4f42a60"
+        },
+        "audio": {
+          "count": 3219,
+          "sha256": "5fff587c82f9bcd10fcfb62c1273850952f432e8a043a4ec2196e79b74d3ee06"
+        }
+      },
+      "legacy": {
+        "number": 21,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-21-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "e52c755593da91587a6fdb23672ffd19781bd3190bc5d759aaa5a18aa2d9dfec",
+          "bytes": 2330791
+        },
+        "captions": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+          "sha256": "1f13388cf052ab4d05644b56fcbfb24e79a6443415f1794c273d26c945e24f2f",
+          "bytes": 4218
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha_transcript.txt",
+          "sha256": "7ade8d83aa4655d14389a46476a46b48baf53665b3c9da29a7eb643345cb5c44",
+          "bytes": 2020
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "sha256": "5fe737f2887b76c7886eb7d803c3351a5a7cd4aaa4573fea48646de89b827eaf",
+          "bytes": 20074
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/21.json",
+          "sha256": "bb8b7abd001534ae3253d82064cdbf1fd5dff71bfff4c8659a8e0a05336c0601",
+          "bytes": 7588
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4121,
+          "sha256": "97ff82a8426ade09ee2f60c0d0bb917f8f83974e8956124c25014e47b4f42a60"
+        },
+        "audio": {
+          "count": 3221,
+          "sha256": "2d66d53c75c73a6a665c6988f4497db82599ef8eaeda55763b84b8b6789b0515"
+        }
+      },
+      "legacy": {
+        "number": 21,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-22-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2.mp4",
+          "sha256": "9926dd1e8cf62898f96e0c9a19fd1c95ff1298d23c8dffbfdba4696a59a73687",
+          "bytes": 2889349
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2.vtt",
+          "sha256": "77e8aa461c030f1addf700c19167c35ffe8ccfd25554e095f2123ad7d79740cb",
+          "bytes": 4477
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2_transcript.txt",
+          "sha256": "88463e5a061e4fb2f250c343aaaef24ce649e3afdbc5ba073f02a629bac25300",
+          "bytes": 2039
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "sha256": "d9a1728406312edf45582cf99a10ff8a278ac791995db043205ef843714f14d1",
+          "bytes": 21046
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/multiplication-division-lesson2.json",
+          "sha256": "f6788799d39f117cbcd2cce13af8a4b2a5132c4e7358b7db9a23aac2c9e03605",
+          "bytes": 7465
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4294,
+          "sha256": "2f67de8e8858082cdab0836f680b3d427661f9a566107158bb8b9c55f9f7d8ef"
+        },
+        "audio": {
+          "count": 3356,
+          "sha256": "b43a4dd1dd5cdb6809595133f68f2136239325ab822282f4495f996805964dc0"
+        }
+      },
+      "legacy": {
+        "number": 22,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-22-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.mp4",
+          "sha256": "80d7ea9299963133ffe13e3381ec45c145fe95f4b940570a2c8839fbfd54ed19",
+          "bytes": 2810109
+        },
+        "captions": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree.vtt",
+          "sha256": "bc453bdc4fdab36f3394f720d8a4d0d6c82498de07459efc4fa58ff5c2918623",
+          "bytes": 4361
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree_transcript.txt",
+          "sha256": "bfcf92e4ef7aa054e1b80923934c3d46ad89f6a183a84bb5d72b16021b7d1ea6",
+          "bytes": 2017
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "sha256": "d9a1728406312edf45582cf99a10ff8a278ac791995db043205ef843714f14d1",
+          "bytes": 21046
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/22.json",
+          "sha256": "2b20c55044bb0a3eb2d40ac27a481917be30c837c8ee7d417ba48d9b626fec89",
+          "bytes": 7505
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4178,
+          "sha256": "a1fb103e5a8bd9d5faaf35ebb7596b51fed2aaadd3e7da20950ccc60efd39c48"
+        },
+        "audio": {
+          "count": 3264,
+          "sha256": "2277e2121872e5076ac2a2e6bb664d38d58170b428bf4e83bd622a92ec92aacd"
+        }
+      },
+      "legacy": {
+        "number": 22,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-22-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+          "bytes": 2420058
+        },
+        "captions": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+          "sha256": "bc453bdc4fdab36f3394f720d8a4d0d6c82498de07459efc4fa58ff5c2918623",
+          "bytes": 4361
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha_transcript.txt",
+          "sha256": "bfcf92e4ef7aa054e1b80923934c3d46ad89f6a183a84bb5d72b16021b7d1ea6",
+          "bytes": 2017
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "sha256": "d9a1728406312edf45582cf99a10ff8a278ac791995db043205ef843714f14d1",
+          "bytes": 21046
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/22.json",
+          "sha256": "2b20c55044bb0a3eb2d40ac27a481917be30c837c8ee7d417ba48d9b626fec89",
+          "bytes": 7505
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4178,
+          "sha256": "a1fb103e5a8bd9d5faaf35ebb7596b51fed2aaadd3e7da20950ccc60efd39c48"
+        },
+        "audio": {
+          "count": 3266,
+          "sha256": "bf0a17ea7e3b624e504b197953311d25317e3076d7f0c265bdc05cfef9b585a8"
+        }
+      },
+      "legacy": {
+        "number": 22,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-23-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3.mp4",
+          "sha256": "cc462beedfcf3474f6e613646bb6fe4f0a66884578670e4431672ac5a1f90628",
+          "bytes": 2875304
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3.vtt",
+          "sha256": "61cf54cd763c2ad4c18ee28861d8b2e0c4c8daeb45026794be8418a6914ad7af",
+          "bytes": 4585
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3_transcript.txt",
+          "sha256": "d56731217d504daddf982f2233e6591c07700936a71d78004efefc0d6dc39a10",
+          "bytes": 2073
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "sha256": "09a4fe3c5005971e5d17609b4c49592b7cee10b56a9f69a1aac4b292319a7b18",
+          "bytes": 21263
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/multiplication-division-lesson3.json",
+          "sha256": "8f6d6daf96e40d064e544a6154397885bf7c29bdc5627b5f458c07b584c8f4f3",
+          "bytes": 7500
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4402,
+          "sha256": "856fbd2aa6f711f7b4573f3fa893a42a5e5252494cb9fb5acc5be772d2c17ab3"
+        },
+        "audio": {
+          "count": 3440,
+          "sha256": "1b17de1e36b0724ec1f21c12743fd7bee5d1c7d1dd4c3ef796a7163f5d273efe"
+        }
+      },
+      "legacy": {
+        "number": 23,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-23-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.mp4",
+          "sha256": "fcd12bf7c1c58568b3b5e47a25c3da021efcb9bb33f25d4377f6c97b1e7e7b95",
+          "bytes": 2796345
+        },
+        "captions": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree.vtt",
+          "sha256": "fe317789bbf329bf2249ee64ceeb72308d0d4cbc8bc619ac9c695712fe27a309",
+          "bytes": 4469
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree_transcript.txt",
+          "sha256": "322e727c957c31b8bf3c8aeda92a734985445bef4bb63d997dcb1719161a5643",
+          "bytes": 2052
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "sha256": "09a4fe3c5005971e5d17609b4c49592b7cee10b56a9f69a1aac4b292319a7b18",
+          "bytes": 21263
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/23.json",
+          "sha256": "9cb9f5ccde1f47cc414fd47a90b6d6a2267b9de46daf4f5534052e1b4021d8e4",
+          "bytes": 7540
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4286,
+          "sha256": "01db0138d4eb97c60937adb2dd8f33d7ab6ddb3d8b57ae7191b661c0747c191e"
+        },
+        "audio": {
+          "count": 3348,
+          "sha256": "c30409e672120cc5e3f3282c4e1d633ded760800e55683a90e826b0b2f381679"
+        }
+      },
+      "legacy": {
+        "number": 23,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-23-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+          "bytes": 2394283
+        },
+        "captions": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+          "sha256": "1d210904c0eed832f898309b21476817558057bf312b70cfa640c74876b1c401",
+          "bytes": 4469
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha_transcript.txt",
+          "sha256": "322e727c957c31b8bf3c8aeda92a734985445bef4bb63d997dcb1719161a5643",
+          "bytes": 2052
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "sha256": "09a4fe3c5005971e5d17609b4c49592b7cee10b56a9f69a1aac4b292319a7b18",
+          "bytes": 21263
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/23.json",
+          "sha256": "9cb9f5ccde1f47cc414fd47a90b6d6a2267b9de46daf4f5534052e1b4021d8e4",
+          "bytes": 7540
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4286,
+          "sha256": "01db0138d4eb97c60937adb2dd8f33d7ab6ddb3d8b57ae7191b661c0747c191e"
+        },
+        "audio": {
+          "count": 3350,
+          "sha256": "189de44d071b66e6603e3c40bca9268489b1b767b2533da912076595ad2bce08"
+        }
+      },
+      "legacy": {
+        "number": 23,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-24-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4.mp4",
+          "sha256": "dc0afd8c08bbe6eef3ea3c17256963b0ac8974c652de66620d4825a5b4a45892",
+          "bytes": 3049757
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4.vtt",
+          "sha256": "e98c66a980ed85066c7c4ec8b55301474b238ab777956cba9b12d9947b7e6a82",
+          "bytes": 4712
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4_transcript.txt",
+          "sha256": "ef6935e8c3e8328f06f856c7366b54df9aa9934a7d731b18f4b4425b9c0e95ab",
+          "bytes": 2126
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "sha256": "6da925e6f8640204ef7d7e3acebf63d9b2a8ae766e95ab1efe159b01df0ef85a",
+          "bytes": 20127
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/multiplication-division-lesson4.json",
+          "sha256": "0f22bff5ffa4153a2d7195108a2420ef34ab3c6c708ecb5fcaebfd60d40c534d",
+          "bytes": 6994
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4464,
+          "sha256": "3109ec899378271349d1cf43a41960004f2fe9171ada5a1c5e488f94e22c520b"
+        },
+        "audio": {
+          "count": 3489,
+          "sha256": "f7958fa2e7b6b524eef04853f08f8b1f6fede696ba99da7b8a4cf11e561ac56b"
+        }
+      },
+      "legacy": {
+        "number": 24,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-24-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.mp4",
+          "sha256": "1438b767fe8a665d39b518ab446347df881e23a8d63f60c59a02a337556bf6a9",
+          "bytes": 2967877
+        },
+        "captions": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree.vtt",
+          "sha256": "b49186d3a18219c62ec1d6f74e89fbdffb42f2953bc7b08cab56c67efe2ba147",
+          "bytes": 4596
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree_transcript.txt",
+          "sha256": "ca579619a3a371c2c107e6bff9fa8e37d576e7cc7a3f87287e3c120209b04695",
+          "bytes": 2106
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "sha256": "6da925e6f8640204ef7d7e3acebf63d9b2a8ae766e95ab1efe159b01df0ef85a",
+          "bytes": 20127
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/24.json",
+          "sha256": "cc0e6731353054813eb8189464d8d445e6d99131a65c8c214baaf94ccd3417bf",
+          "bytes": 6998
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4349,
+          "sha256": "2503296053a5248f2e5c2a3f47a5a618e8f25c5929d898a353bc4b2973f01f1c"
+        },
+        "audio": {
+          "count": 3397,
+          "sha256": "8e68dd2b98dbd770dd57174f431b2085030075f8f356c19c78606a0f9cb4883c"
+        }
+      },
+      "legacy": {
+        "number": 24,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-24-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+          "bytes": 2570486
+        },
+        "captions": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+          "sha256": "f15129189fe78125a298d2a60598adc8bd31b62f05a96703ab0c8127e17c997c",
+          "bytes": 4596
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
+          "sha256": "ca579619a3a371c2c107e6bff9fa8e37d576e7cc7a3f87287e3c120209b04695",
+          "bytes": 2106
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "sha256": "6da925e6f8640204ef7d7e3acebf63d9b2a8ae766e95ab1efe159b01df0ef85a",
+          "bytes": 20127
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/24.json",
+          "sha256": "cc0e6731353054813eb8189464d8d445e6d99131a65c8c214baaf94ccd3417bf",
+          "bytes": 6998
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4349,
+          "sha256": "2503296053a5248f2e5c2a3f47a5a618e8f25c5929d898a353bc4b2973f01f1c"
+        },
+        "audio": {
+          "count": 3399,
+          "sha256": "762678a7edd2be15dde8d08ea54fe81caf6b2406fcff558e878e44955d9ba417"
+        }
+      },
+      "legacy": {
+        "number": 24,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-25-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5.mp4",
+          "sha256": "14fd4329ed53e1e152d4a64cdd22afaa0e24d295ef85d7366b728ad7bc136da1",
+          "bytes": 3067130
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5.vtt",
+          "sha256": "5992ecf3adf26366e0114305ba2e041d6392bbb5854629b317b9c254d4960185",
+          "bytes": 4469
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5_transcript.txt",
+          "sha256": "14c233399223ac1961c00f82782c17761bd0137fefb302fff7f4f3f29847ceac",
+          "bytes": 2179
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "sha256": "73678ccd337aee6b8558e8c9cbc0473a089ee87de98b646808e8a39079924a4c",
+          "bytes": 21460
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/multiplication-division-lesson5.json",
+          "sha256": "3f2a47c16f6f3dfd19a4e9a162bca7d5b7e23a263f00a6b41a736a7e79a0d4dc",
+          "bytes": 7314
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4520,
+          "sha256": "ff09c9dc52e9a54cd3d03e1d09be03c35aeb72e4ac40a65feb65c05b944dcd8e"
+        },
+        "audio": {
+          "count": 3533,
+          "sha256": "dd8167b072f852d3870e16e294cccbe1402f0e8866813317a2ec58abd9e24870"
+        }
+      },
+      "legacy": {
+        "number": 25,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-25-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.mp4",
+          "sha256": "aed3ad566fc672764684110c9fb61db23d5253564d01719408029ed3d5202bd4",
+          "bytes": 2985219
+        },
+        "captions": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree.vtt",
+          "sha256": "9dc1a11a5284e58727f4b158e159a94a187e8e5738d13d0f8d204e7329f78f15",
+          "bytes": 4353
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree_transcript.txt",
+          "sha256": "241e437219710ab2dcb25440e6e7fab09305a265faf671f29d18eb5108dba4c9",
+          "bytes": 2155
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "sha256": "73678ccd337aee6b8558e8c9cbc0473a089ee87de98b646808e8a39079924a4c",
+          "bytes": 21460
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/25.json",
+          "sha256": "584a660dc63beaf45862fc996da4947def32b3878eef9078b685a5ba3d6eb953",
+          "bytes": 7338
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4404,
+          "sha256": "0b1cb69db5c1d5069e1f2e909db435eab0fad722645f9b7d551a9b89d90af3c1"
+        },
+        "audio": {
+          "count": 3440,
+          "sha256": "5e45c019488510251c565ee606c3a607da1f6e19e383d395909e7b3352a955b0"
+        }
+      },
+      "legacy": {
+        "number": 25,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "multiplication-division-legacy-25-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "bytes": 2588029
+        },
+        "captions": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "sha256": "9dc1a11a5284e58727f4b158e159a94a187e8e5738d13d0f8d204e7329f78f15",
+          "bytes": 4353
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt",
+          "sha256": "241e437219710ab2dcb25440e6e7fab09305a265faf671f29d18eb5108dba4c9",
+          "bytes": 2155
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "sha256": "73678ccd337aee6b8558e8c9cbc0473a089ee87de98b646808e8a39079924a4c",
+          "bytes": 21460
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/25.json",
+          "sha256": "584a660dc63beaf45862fc996da4947def32b3878eef9078b685a5ba3d6eb953",
+          "bytes": 7338
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4404,
+          "sha256": "0b1cb69db5c1d5069e1f2e909db435eab0fad722645f9b7d551a9b89d90af3c1"
+        },
+        "audio": {
+          "count": 3442,
+          "sha256": "8fadcc56fa05b85231ae7410ef1a65c25f1edd9eb97d0c805d6d945b23572658"
+        }
+      },
+      "legacy": {
+        "number": 25,
+        "variant": "narration"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "multiplication-division-legacy-21-narration"
+    },
+    {
+      "section": "lesson2",
+      "record": "multiplication-division-legacy-22-narration"
+    },
+    {
+      "section": "lesson3",
+      "record": "multiplication-division-legacy-23-narration"
+    },
+    {
+      "section": "lesson4",
+      "record": "multiplication-division-legacy-24-narration"
+    },
+    {
+      "section": "lesson5",
+      "record": "multiplication-division-legacy-25-narration"
+    }
+  ]
+}

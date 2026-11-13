@@ -4,6 +4,7 @@ import json,re,sys,subprocess,hashlib,copy
 from pathlib import Path
 import numpy as np
 from contract import ROOT,REGISTER,assert_preservation_edit_allowed,branded
+from registry import legacy_inventory
 OUT=ROOT/'video-agent/remediation-35/brandfree-review'
 def cmd(args):return subprocess.check_output(list(map(str,args)))
 def packets(path,stream):
@@ -11,7 +12,7 @@ def packets(path,stream):
 def stamp(t):
  ms=round(t*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02}.{ms%1000:03}'
 def run():
- db=json.loads(REGISTER.read_text());assert db.get('automated_evidence_complete') and len(db['records'])==35
+ db=json.loads(REGISTER.read_text());assert db.get('automated_evidence_complete');legacy_inventory(db['records'])
  OUT.mkdir(parents=True,exist_ok=True);results=json.loads((OUT/'manifest.json').read_text())['results'] if (OUT/'manifest.json').exists() else [];done={r['number'] for r in results}
  for r in db['records']:
   if r['number'] in done:continue

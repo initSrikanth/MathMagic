@@ -1,6 +1,6 @@
 # Video production integration readiness
 
-Current PR59 Lesson 1 repair status (12 November 2026): see [exact-byte candidate readiness](pr59-lesson1-repair-readiness.md) and [durable checkpoint](pr59-recovery-checkpoint.md). Rendering uses preserved Kokoro audio and local graphics only. Release remains BLOCKED; no merge or deployment.
+Current PR59 extensible registry and Lesson1 pending-replacement status (13 November 2026): see [exact-byte candidate readiness](pr59-lesson1-repair-readiness.md) and [durable checkpoint](pr59-recovery-checkpoint.md). The fixed global inventory limit is replaced with declared topic inventories, exact packet preservation and explicit replacement approval policies. No video was regenerated. Lesson1 registration passes; release remains BLOCKED by genuine human approval/review requirements. No merge or deployment.
 
 # Historical Phase 2 audit
 

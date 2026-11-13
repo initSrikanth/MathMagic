@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "subject": {
+    "video": "3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1",
+    "captions": "b43b699d8807d5cce6d3565681159864828e65bf56b041ee0a4899cf8d3c28d0",
+    "transcript": "afce8d1ef86771dd8f567cb940674f6cb66a791c56ee46348296640cf642935e",
+    "poster": "a18973ce6e79f9d9ed62e5e9cc35ca9b96d1a0bcc5a06ac30688c73d4a82b0aa",
+    "script": "cd0da65d87768136164c6606d9e8a5cf848ad72558ffb09073cf13c000502c8a",
+    "alignment": "858a7cbb044e2ee5435a0d94fd6c8f411d26b3a29bfefa9c0766f4650622351a",
+    "producer": "eec3b19154a2437d9cdf2621a5cb867fe659c6255c501338da29a69e4fd4c735"
+  },
+  "verifier": {
+    "path": "video-agent/time-angles/lesson1-repair/verify.py",
+    "sha256": "0e4e64544a13d7aa9c9dbcc72896cd02cdb60daac171d35b63c6ad91e68af904",
+    "bytes": 9361
+  },
+  "checks": {
+    "encoding": "PASS",
+    "faststart": "PASS",
+    "full_decode": "PASS",
+    "non_silent": "PASS",
+    "no_clipping": "PASS",
+    "caption_timing": "PASS",
+    "caption_transcript": "PASS",
+    "branding_text": "PASS",
+    "branding_frames": "PASS",
+    "script_alignment": "UNVERIFIED",
+    "caption_fidelity": "UNVERIFIED",
+    "mathematics": "PASS",
+    "voice_configuration": "PASS",
+    "graphics_only": "PASS",
+    "native_narration": "PASS"
+  },
+  "flags": [
+    {
+      "id": "caption-1",
+      "status": "open"
+    },
+    {
+      "id": "caption-2",
+      "status": "open"
+    },
+    {
+      "id": "caption-3",
+      "status": "open"
+    },
+    {
+      "id": "caption-4",
+      "status": "open"
+    },
+    {
+      "id": "caption-5",
+      "status": "open"
+    },
+    {
+      "id": "caption-6",
+      "status": "open"
+    },
+    {
+      "id": "caption-7",
+      "status": "open"
+    },
+    {
+      "id": "caption-8",
+      "status": "open"
+    },
+    {
+      "id": "caption-9",
+      "status": "open"
+    },
+    {
+      "id": "caption-10",
+      "status": "open"
+    },
+    {
+      "id": "static-1",
+      "status": "open"
+    },
+    {
+      "id": "static-2",
+      "status": "open"
+    },
+    {
+      "id": "static-3",
+      "status": "open"
+    },
+    {
+      "id": "static-4",
+      "status": "open"
+    },
+    {
+      "id": "static-5",
+      "status": "open"
+    },
+    {
+      "id": "static-6",
+      "status": "open"
+    },
+    {
+      "id": "static-7",
+      "status": "open"
+    },
+    {
+      "id": "static-8",
+      "status": "open"
+    },
+    {
+      "id": "static-9",
+      "status": "open"
+    },
+    {
+      "id": "static-10",
+      "status": "open"
+    },
+    {
+      "id": "static-11",
+      "status": "open"
+    },
+    {
+      "id": "static-12",
+      "status": "open"
+    },
+    {
+      "id": "static-13",
+      "status": "open"
+    },
+    {
+      "id": "static-14",
+      "status": "open"
+    },
+    {
+      "id": "static-15",
+      "status": "open"
+    },
+    {
+      "id": "static-16",
+      "status": "open"
+    },
+    {
+      "id": "static-17",
+      "status": "open"
+    },
+    {
+      "id": "static-18",
+      "status": "open"
+    },
+    {
+      "id": "static-19",
+      "status": "open"
+    },
+    {
+      "id": "static-20",
+      "status": "open"
+    }
+  ],
+  "metrics": {
+    "audio_rms": 0.15256299078464508,
+    "clipping_fraction": 0.0,
+    "decoded_frames": 12202
+  }
+}

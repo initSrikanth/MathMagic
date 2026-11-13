@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "topic": "time-angles",
+  "records": [
+    {
+      "id": "time-angles-lesson1-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4",
+          "sha256": "16109a829c5aedcb53e4235244c46ccab59a35476d74751b2ddcc32c8bd2ba30",
+          "bytes": 12596973
+        },
+        "captions": {
+          "path": "video-agent/time-angles/accessibility/lesson1-historical-captions.vtt",
+          "sha256": "1e132624a27be2774ccd30d82ef89cb5bac0775df5011dfb40266a7470c6cfc2",
+          "bytes": 11139
+        },
+        "transcript": {
+          "path": "video-agent/time-angles/accessibility/lesson1-historical-transcript.txt",
+          "sha256": "9304691151e73b83eb5627e44f00a578d3017c1284265697f6b1e1130597229f",
+          "bytes": 6654
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 15156,
+          "sha256": "e38031bc56cc9923ddc303e4f2457d4b60ca0f707accfa262d334c01899789ba"
+        },
+        "audio": {
+          "count": 23679,
+          "sha256": "739dc3d82fba5560fa8c6fe7742d45071340306e99e390f8ebaf39bd80a278f7"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson2-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.mp4",
+          "sha256": "5734a8282c757771e0cb13123af2a94934a994cfc007bf632f3adae7a28ed1c3",
+          "bytes": 8166609
+        },
+        "captions": {
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.vtt",
+          "sha256": "0dadc14db174aec09627eb61579a5c3598c970b76f3988b81074972ee17883a5",
+          "bytes": 10052
+        },
+        "transcript": {
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys_transcript.txt",
+          "sha256": "6ad1232f90dd62ba156190332fff3582baf8a903dbbecb53142f059ba7a9e395",
+          "bytes": 4522
+        },
+        "poster": {
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.jpg",
+          "sha256": "2b183b1e27c856af81c08c0fddc922f789bb4e31b0a7cfb4449e408d3e5cd67f",
+          "bytes": 107892
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 10433,
+          "sha256": "b8b0043bb6ed6773f42f2ae4372dc3ff9f81c4bf9e80b46b412a920f46fd1a56"
+        },
+        "audio": {
+          "count": 16301,
+          "sha256": "d8489451d882dfaafc05ed77edf801f18864180a08c1635517a287de92524f77"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson3-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.mp4",
+          "sha256": "c79d0649b06919c191079659da2f5811964100d0fd58a0310978619254a13152",
+          "bytes": 8208587
+        },
+        "captions": {
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.vtt",
+          "sha256": "43d8459ccdbd2bdb5bdc32c3248a7d6f584b4d96752545169d5e63eb028328f9",
+          "bytes": 9646
+        },
+        "transcript": {
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles_transcript.txt",
+          "sha256": "6eb9fe8dcb81fe2fde731025a8af322efd5531bcc764db65b018d6b4cb09e7f6",
+          "bytes": 4245
+        },
+        "poster": {
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.jpg",
+          "sha256": "249414be51d4241d30a4ff8ca39bf3d270e9d85fb354922462ea00cd801a8f6c",
+          "bytes": 50486
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 10170,
+          "sha256": "7f52f0ba24b61a28c86394505b07c051242d94883fb65f5c6aea37d82501a09f"
+        },
+        "audio": {
+          "count": 15896,
+          "sha256": "7a90d37808d9c27ff10faa675d7bf02be0b938664475540a78cea68e903faf28"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson4-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4",
+          "sha256": "e3c9d86c48040c99c8d63b04ef256794dd8e03f06871ec974fda58b0c3fef5c9",
+          "bytes": 8030687
+        },
+        "captions": {
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.vtt",
+          "sha256": "dcfc030501cc10f2750a45d2d595f2d35a7df1ccf4d2d29d37b6d1bfb8b9ac81",
+          "bytes": 9524
+        },
+        "transcript": {
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles_transcript.txt",
+          "sha256": "4ea59fd42e3ac5ef100e5da756e0aee650804354150b209d67fcef20997311ec",
+          "bytes": 4251
+        },
+        "poster": {
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.jpg",
+          "sha256": "65e864d052ff5fe885b88628ad5aa26295e093a729cab013e78647685d50e238",
+          "bytes": 53572
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 10029,
+          "sha256": "6e66e013bf6d69bd7f31bc97490171c9006fb1bd2f0d2efa713ed5ab363e94cb"
+        },
+        "audio": {
+          "count": 15673,
+          "sha256": "59622742bd4a8e9b1fff6e1396d88ed984505f6caa388e106c7375466b2b999d"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson5-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4",
+          "sha256": "f1287a8a81e8489b9b08b279b7defc36929bb7c02e7c538f85e2406c62eb17ba",
+          "bytes": 8305763
+        },
+        "captions": {
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.vtt",
+          "sha256": "df7eb2450cb520d502d5656d3fb2dbb002f946bf159efad5d625d561456c0f45",
+          "bytes": 9941
+        },
+        "transcript": {
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems_transcript.txt",
+          "sha256": "0638978cf171337980ad38285b45c1fd09f08a2eb1e2f71f06dd0bc228a835ee",
+          "bytes": 4474
+        },
+        "poster": {
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.jpg",
+          "sha256": "9d62773bf0defaa2f6f4d0da08c519455032cff8e6dee376c3e67c75fb9d3ec9",
+          "bytes": 112193
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 10440,
+          "sha256": "d2e39400d1233f5c68bc88486342d6f67d66785007457d1b5f77c5a2d7d6dd92"
+        },
+        "audio": {
+          "count": 16318,
+          "sha256": "5ff8572351296a8cfa52cd7f931818924795eac738c2ed56622d4fa700d013d5"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson1-short-archive",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration.mp4",
+          "sha256": "b225c75906dce7fd6c58bf670fc0fd915df10eda0f72bdde6ee19e28557e7145",
+          "bytes": 11843285
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 14583,
+          "sha256": "b54435ceb3c33afce8196e9ca6656e058a1f9ecc6d010e1da0ba6e8ea7c8f3cd"
+        },
+        "audio": {
+          "count": 22792,
+          "sha256": "2c8971f552e7d88f69f95839108216f7ebf1fe8acd7de70905afb0c0ec030a6e"
+        }
+      }
+    },
+    {
+      "id": "time-angles-lesson1-repaired",
+      "policy": "replacement",
+      "status": "pending",
+      "assets": {
+        "video": {
+          "path": "videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.mp4",
+          "sha256": "3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1",
+          "bytes": 10236194
+        },
+        "captions": {
+          "path": "videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.vtt",
+          "sha256": "b43b699d8807d5cce6d3565681159864828e65bf56b041ee0a4899cf8d3c28d0",
+          "bytes": 12123
+        },
+        "transcript": {
+          "path": "videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED_transcript.txt",
+          "sha256": "afce8d1ef86771dd8f567cb940674f6cb66a791c56ee46348296640cf642935e",
+          "bytes": 5298
+        },
+        "poster": {
+          "path": "videos/Time_Angles_01_Reading_Time_and_Duration_REPAIRED.jpg",
+          "sha256": "a18973ce6e79f9d9ed62e5e9cc35ca9b96d1a0bcc5a06ac30688c73d4a82b0aa",
+          "bytes": 124432
+        },
+        "script": {
+          "path": "video-agent/media-registry/evidence/time-angles-lesson1-script.json",
+          "bytes": 5741,
+          "sha256": "cd0da65d87768136164c6606d9e8a5cf848ad72558ffb09073cf13c000502c8a"
+        },
+        "alignment": {
+          "path": "video-agent/time-angles/lesson1-repair/alignment.json",
+          "sha256": "858a7cbb044e2ee5435a0d94fd6c8f411d26b3a29bfefa9c0766f4650622351a",
+          "bytes": 126638
+        },
+        "producer": {
+          "path": "video-agent/time-angles/lesson1-repair/repair.py",
+          "sha256": "eec3b19154a2437d9cdf2621a5cb867fe659c6255c501338da29a69e4fd4c735",
+          "bytes": 16958
+        },
+        "verification": {
+          "path": "video-agent/media-registry/evidence/time-angles-lesson1-verification.json",
+          "bytes": 3239,
+          "sha256": "8613763effdba615175503a3a2889a2ee93c0ab461687c6e5c6f444c9890b737"
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 12202,
+          "sha256": "ef77556ea7855e4fba38f04f75bbe237d279777d2872d827de73d018056ab97c"
+        },
+        "audio": {
+          "count": 19067,
+          "sha256": "026fed0e8d2aa5e37660ea2e19ba8aa662d9fbe75cbba5bad169a73eb4167045"
+        }
+      },
+      "replaces": "time-angles-lesson1-original",
+      "human_approval": {
+        "status": "pending"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "time-angles-lesson1-repaired"
+    },
+    {
+      "section": "lesson2",
+      "record": "time-angles-lesson2-original"
+    },
+    {
+      "section": "lesson3",
+      "record": "time-angles-lesson3-original"
+    },
+    {
+      "section": "lesson4",
+      "record": "time-angles-lesson4-original"
+    },
+    {
+      "section": "lesson5",
+      "record": "time-angles-lesson5-original"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "topic": "measurement",
+  "records": [
+    {
+      "id": "measurement-legacy-31-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V3_measurement_lesson1.mp4",
+          "sha256": "5c95302c00444cc5bf29749cc812c330f3c1c6a0f9e8945c19468c77ef43a7bc",
+          "bytes": 3152035
+        },
+        "captions": {
+          "path": "videos/MathMagic_V3_measurement_lesson1.vtt",
+          "sha256": "99ad410c874de5a45f1a86b862663602404c9d1439f71ae5460d6a57f52380d4",
+          "bytes": 5071
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V3_measurement_lesson1_transcript.txt",
+          "sha256": "8038b67a4235538a3fa50448881bbacb779a19e6df4d43eeda82c66bc300d40d",
+          "bytes": 2337
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "sha256": "0b04656b0b0331898c7a53d48da905c1ffdf4edd8efc760af91b6b702657e183",
+          "bytes": 38466
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/measurement-lesson1-calibrated.json",
+          "sha256": "af5741c357c69be4b8caf79d3b452ec9597aac67a363638b278bee10a069dea1",
+          "bytes": 7625
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4307,
+          "sha256": "8a505acaed747ad24faa38dd7fe0ccf4741b95ee048bb1aaa85604eefc28ceef"
+        },
+        "audio": {
+          "count": 3366,
+          "sha256": "e4e24a2dca99d37a480b4b433a50fad24f05345a5a7c2b3e5ec8e0ba69a8d47c"
+        }
+      },
+      "legacy": {
+        "number": 31,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "measurement-legacy-31-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+          "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+          "bytes": 3056211
+        },
+        "captions": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+          "sha256": "077d664d206f81a52a21131aad77bd7217e89602fa8a9f61ac44f7bb38378461",
+          "bytes": 4927
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+          "sha256": "586dd09ef0147b6670ae3f449bced087176c79e44a967743011176f5bfa0f909",
+          "bytes": 2291
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "sha256": "0b04656b0b0331898c7a53d48da905c1ffdf4edd8efc760af91b6b702657e183",
+          "bytes": 38466
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/31.json",
+          "sha256": "547ed6c89ac89ac30bc0b3bf646b663e5865bd7f0a32bd7122ed3cf675748ac6",
+          "bytes": 7585
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4187,
+          "sha256": "87bd01111a1534104199c26138a0d1a9123ea6be9c0320a5116dcda7ad27bf70"
+        },
+        "audio": {
+          "count": 3271,
+          "sha256": "0cbd05595443eccc2b7c38a9e8ae1f692793f7a76fc7189a1208f7aceafd2870"
+        }
+      },
+      "legacy": {
+        "number": 31,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "measurement-legacy-32-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V3_measurement_lesson2.mp4",
+          "sha256": "616fb319aacda9f7fc69859df102a6be88f2b1cef8b9e971e13377e5f6fe903b",
+          "bytes": 3342183
+        },
+        "captions": {
+          "path": "videos/MathMagic_V3_measurement_lesson2.vtt",
+          "sha256": "9f3e27d746212c2c7b1f4fbceb3bfcb0d0e817774d2c71fa2b0a24bd8bfb1ade",
+          "bytes": 5614
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V3_measurement_lesson2_transcript.txt",
+          "sha256": "8f9bcc35a0def87c84b73439291c7302c0e11677f5bda0d2c42245b54950ef4e",
+          "bytes": 2510
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "sha256": "2af871f89bc5b6268dd1d5c4a23e27732e685c48f9d14816bea4c678d303ae72",
+          "bytes": 39232
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/measurement-lesson2-calibrated.json",
+          "sha256": "4e4425b1966363c8a84bfa35fa45aca72d56239091ad5d5aeec81a2689cd0402",
+          "bytes": 8058
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4691,
+          "sha256": "402b93dbec0419c1e0447783d2baecf55b2aeaa10315e1f840c9137727a40beb"
+        },
+        "audio": {
+          "count": 3666,
+          "sha256": "6a567eba608614b24e7ff84bbeb8d19d31761880c4ed68a004478e5271944f05"
+        }
+      },
+      "legacy": {
+        "number": 32,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "measurement-legacy-32-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+          "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+          "bytes": 3246064
+        },
+        "captions": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+          "sha256": "f26b8677708cf9d514e665c41f54d50e6fd6f806f223e2b57ffabf0d383a6532",
+          "bytes": 5470
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+          "sha256": "2f225fa27d5ffc28db8e7ce29af98ebd08d1da9682d1720811d027cbed315e74",
+          "bytes": 2469
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "sha256": "2af871f89bc5b6268dd1d5c4a23e27732e685c48f9d14816bea4c678d303ae72",
+          "bytes": 39232
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/32.json",
+          "sha256": "8d74d24084aed0decf23dfb9a7f44dd24594e0a76da6cbf84f71323b770001e2",
+          "bytes": 8006
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4571,
+          "sha256": "da710828513a9b53ef1feffeba7dd54ed29d4c933dff11e781b4b37c55b08bc9"
+        },
+        "audio": {
+          "count": 3570,
+          "sha256": "304027d64000e07e8f18d12d43b144588e5d62c3b1f8193c84359b46a29c7f1b"
+        }
+      },
+      "legacy": {
+        "number": 32,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "measurement-legacy-33-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V3_measurement_lesson3.mp4",
+          "sha256": "a461e7bd5b0f09248b9fef8c8e86b57768d926ec73ebd4d5801210108515210f",
+          "bytes": 2731690
+        },
+        "captions": {
+          "path": "videos/MathMagic_V3_measurement_lesson3.vtt",
+          "sha256": "c324c7a569d7df074a55331e786baf122aeca5bceca67bdecbabb7c1dfaba638",
+          "bytes": 5269
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V3_measurement_lesson3_transcript.txt",
+          "sha256": "97540e765bbde98d1df336967da56b4a99e004685765424a6e8d046b9361741e",
+          "bytes": 2239
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "sha256": "dc43f2d5bc0dc4d9f698a0a0f8751a746541a158fbf167bef9546a1537c7dad7",
+          "bytes": 19609
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/measurement-lesson3-calibrated.json",
+          "sha256": "d6e8cac80fa39b7d8c18debd778928d5b63be5b078225230014530c210cb3bab",
+          "bytes": 7866
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4217,
+          "sha256": "29aa3a8954f4b375e566bbbf5f9e875fc3fa30f9f4dcd8670fcf805d1bb9ea31"
+        },
+        "audio": {
+          "count": 3296,
+          "sha256": "369ff7376475460184ec0a750d21fce3132df07a2023618bfe2d370ef521352c"
+        }
+      },
+      "legacy": {
+        "number": 33,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "measurement-legacy-33-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+          "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+          "bytes": 2636513
+        },
+        "captions": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+          "sha256": "6dda697c5f86557a8bd6ba56c8654ece590e147c531c2949b40fc7884ecfc55a",
+          "bytes": 5125
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+          "sha256": "96a2be27c22d8f0ae6a921b509b3853a4478b7139fb2ba69ba1956822fbce13d",
+          "bytes": 2197
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "sha256": "dc43f2d5bc0dc4d9f698a0a0f8751a746541a158fbf167bef9546a1537c7dad7",
+          "bytes": 19609
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/33.json",
+          "sha256": "3b2de252d11c1a3ca103fcad550a506daff2c36bd74bec4a1d0226a26c4f4f73",
+          "bytes": 7826
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4097,
+          "sha256": "eee36eacb1f9ee7637142c96b2ea54fc5c503ff7ed773692c6adab8766232554"
+        },
+        "audio": {
+          "count": 3200,
+          "sha256": "973c230484e9137ac63dc5c42a05329753052896029946673c94ab867df5e6fa"
+        }
+      },
+      "legacy": {
+        "number": 33,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "measurement-legacy-34-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V3_measurement_lesson4.mp4",
+          "sha256": "e3841bd2f1e2664ba770e2b2cc0621e37896fdc914faf68bff79b13c2effd16e",
+          "bytes": 3000512
+        },
+        "captions": {
+          "path": "videos/MathMagic_V3_measurement_lesson4.vtt",
+          "sha256": "d63f0692fcdb5a74d7932265c68dbf1e0b53572d4d1e8b54e7c18a07637a9f75",
+          "bytes": 5298
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V3_measurement_lesson4_transcript.txt",
+          "sha256": "deba3a7ca6c916099e99589e60663f3bcb66f8044fde5665fcc68840c5abc4ff",
+          "bytes": 2268
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "sha256": "8fbbff0f00f31c4e46c2efdb4829a30bcbeadeb6ec0b98834325808c07d1e535",
+          "bytes": 25762
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/measurement-lesson4-calibrated.json",
+          "sha256": "5d7949df5f10cc5822388a629a83975a4d77deabb529b30374fe7e550ae4db19",
+          "bytes": 7798
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4301,
+          "sha256": "df54785032e00eb5c65c1593c20c3688389ba91896e70730e746eb393a2e07fa"
+        },
+        "audio": {
+          "count": 3362,
+          "sha256": "a56931972712e66cd1257e4ca65291a15dfffb2750e54bc3e2a030d029101c8b"
+        }
+      },
+      "legacy": {
+        "number": 34,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "measurement-legacy-34-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+          "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+          "bytes": 2936336
+        },
+        "captions": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+          "sha256": "822f24a6fb60671565531de7b1a0fe5a7da3586c5d983c08a0e4da6b69d228ca",
+          "bytes": 5154
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+          "sha256": "b655aba60abe14c956e17b067af47c0688b50f0f937117533c942f06b7c58b6c",
+          "bytes": 2226
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "sha256": "8fbbff0f00f31c4e46c2efdb4829a30bcbeadeb6ec0b98834325808c07d1e535",
+          "bytes": 25762
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/34.json",
+          "sha256": "07c6e1e17f1a9ab3ad3ad6dd3870bb8c82bf5a60847547c744531818eb0b10c1",
+          "bytes": 7780
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4181,
+          "sha256": "a438fda674bf16fae5dc7b389af19f96d1017d9b355f0dedfb9180fccc2d16e6"
+        },
+        "audio": {
+          "count": 3266,
+          "sha256": "1b1d04bde31de6f06c914f4c2e1f84f6580d5ff936f28a4201a6f090171f4df5"
+        }
+      },
+      "legacy": {
+        "number": 34,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "measurement-legacy-35-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V3_measurement_lesson5.mp4",
+          "sha256": "d3387d0f0143c568f70d6e0354aeed062c10732ce19ddfc856892af7ad64ae7b",
+          "bytes": 3168230
+        },
+        "captions": {
+          "path": "videos/MathMagic_V3_measurement_lesson5.vtt",
+          "sha256": "693624155057060b25a936a28c5a7a545655c1e0dbdafbb46f5014039ca4a0d7",
+          "bytes": 5366
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V3_measurement_lesson5_transcript.txt",
+          "sha256": "5f0895b6dc4c8cfed64dbbdcea59d1b98619499c5f5c4e9cf1e9da55da48492f",
+          "bytes": 2410
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "sha256": "af22ba289803e12fe4e168de5457ed51a4a8e6c39102a537704bd0819cbcad56",
+          "bytes": 26818
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/measurement-lesson5-calibrated.json",
+          "sha256": "093b700ce2189a158736aa1fca70281759d1776511a1a65e205a13e7f387cdf2",
+          "bytes": 8388
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4529,
+          "sha256": "ba32fc5b064ca989da06657127cb1d26543128465233b010d187c4b83b8f0955"
+        },
+        "audio": {
+          "count": 3540,
+          "sha256": "5262cd5b060470527b2bead915cb97124b92a5705e826801d789a15067e2eab9"
+        }
+      },
+      "legacy": {
+        "number": 35,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "measurement-legacy-35-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+          "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+          "bytes": 3102341
+        },
+        "captions": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+          "sha256": "665a4944a4a3d3c910d89aa45e682bbe1e1cdbb73e25cd70a91b27efe7227e27",
+          "bytes": 5222
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt",
+          "sha256": "84572129354584d41aed894c98f5b43150dfcb807c330c403f97af7fe7ff51d2",
+          "bytes": 2367
+        },
+        "poster": {
+          "path": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "sha256": "af22ba289803e12fe4e168de5457ed51a4a8e6c39102a537704bd0819cbcad56",
+          "bytes": 26818
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/35.json",
+          "sha256": "3fcdeb5aab8c6cef886640495873b0e426f9351b3f4662a811520a1da2d7b959",
+          "bytes": 8410
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4409,
+          "sha256": "6d7fe1aed0d2a0ff46a3f0ba1e55c25fb504c4ca7d9cd482ec6d5928b785e1b1"
+        },
+        "audio": {
+          "count": 3444,
+          "sha256": "48883e32f9b90ffe61735f3cfe86616b3f3ceecc9261650c23ab92cdc232dcb4"
+        }
+      },
+      "legacy": {
+        "number": 35,
+        "variant": "correction"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "measurement-legacy-31-correction"
+    },
+    {
+      "section": "lesson2",
+      "record": "measurement-legacy-32-correction"
+    },
+    {
+      "section": "lesson3",
+      "record": "measurement-legacy-33-correction"
+    },
+    {
+      "section": "lesson4",
+      "record": "measurement-legacy-34-correction"
+    },
+    {
+      "section": "lesson5",
+      "record": "measurement-legacy-35-correction"
+    }
+  ]
+}

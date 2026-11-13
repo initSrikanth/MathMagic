@@ -2,7 +2,38 @@
 
 **Repair candidate; full release BLOCKED. No merge or deployment.** Existing branch: `feature/measurement-production-pilot`; parent `2b5fa082260a68704273d5aab3867bb37169a88f`. The final commit SHA is reported with the task result; this file cannot contain its own SHA.
 
-## Registration verification — 13 November 2026
+## Current registry implementation — 13 November 2026
+
+**The fixed35-video registration limitation is resolved. Release remains BLOCKED by explicit human approval and review requirements.** Parent: `62c595d50696e393959ed34a77794137f7139fa0`. The final implementation SHA is reported with task completion; this report cannot contain its own commit hash.
+
+[Registry policy/process](../video-agent/media-registry/README.md) · [versioned index](../video-agent/media-registry/registry.json) · [schema](../video-agent/media-registry/schema.json) · [Time & Angles records](../video-agent/media-registry/topics/time-angles.json).
+
+The registry declares nine topics and105 variants. All104 preserved variants retain exact asset checksums, original record bindings and ordered video/audio packet fingerprints. Declared topic inventories now control missing/unexpected-record validation. The historical35-record audit and existing approvals are unchanged. Space's existing special verifier/exception remains, with its old positive/negative tests and additional registry byte/packet protection. No files are mislabelled as Space or another topic.
+
+Lesson1 is registered as `policy:replacement`, `status:pending`, with `human_approval.status:pending`. Its exact committed MP4, captions, transcript, poster, proposed actual-wording script, alignment and independent evidence are hash-bound. It is neither full-quality approved nor release-ready. The two earlier registration blockers (hardcoded global count and the old correction-format mismatch) are replaced by an honest extensible registration/replacement policy; strict historical packet-preservation gates are retained for unchanged media. Newly approved replacement/new media must also pass fresh actual decoding, faststart, loudness and clipping checks, plus complete independent script/caption/branding/voice/mathematics evidence and genuine full human review. A changed asset or an incomplete receipt cannot inherit approval.
+
+Current automated evidence: [checksum-bound verification receipt](../video-agent/media-registry/verification-2026-11-13.json).
+
+| Check | Result |
+|---|---|
+| Topic registration, schema, missing/unexpected IDs, complete asset/packet inventory | PASS —9 topics,105 variants;104 retained,1 pending; independent Draft2020-12 validation also PASS |
+| New registry positive/negative tests | PASS —50; also run with Python site packages disabled |
+| Existing contract and Space approval/protection tests | PASS —31; Space verifier/exception unchanged |
+| Pilot/checkpoint safety | PASS —11 |
+| Existing protected architecture/generator/progress/media regressions | PASS —`npm run test:protected` |
+| Time & Angles curriculum/independent marking | PASS —30,000 positions,1,000 attempts,12 Year5 families; no assessment source change |
+| Caption/hash/text/timing audit | PASS —all five registered player sets |
+| Fresh independent Lesson1 media checks | PASS —12,202 decoded frames, RMS0.1526, clipping0, source-audio correlation0.99999279; new generic integrity gate also checks full decode/faststart/audio |
+| Desktop/mobile browser media/captions/WCAG/student-flow regressions | PASS —22 tests, no retries; system Chromium |
+| Canonical final release gate | EXPECTED BLOCK —registered active replacement requires genuine human approval; final committed-head result reported with task completion |
+
+All earlier video policy/approval values are unchanged except the descriptive scope and new registry trust anchors. The original audit, Space manifest/verifier and Time & Angles media/evidence remain byte-for-byte unchanged. No current human approval was entered. The final implementation commit SHA is supplied in the task response; prior remote CI is not claimed as a pass for that SHA.
+
+**Remaining release blockers:** genuine exact-byte human approval; the unchanged canonical full-release voice calibration approval (currently absent); full listening/viewing and proposed-script approval; caption fidelity/readability; the ten caption and twenty persistent-model flags; physical Safari/iOS and existing live-service/assessment-design requirements. Script alignment and caption fidelity remain UNVERIFIED in the registration evidence. No perceptual or physical-device test was marked PASS. CI should reject the active candidate with `time-angles-lesson1-repaired: PENDING_HUMAN_APPROVAL` even on a documentation-only diff; a registered path alone cannot clear the gate.
+
+No video regeneration, paid services, unrelated lesson/assessment change, merge or deployment. No CI monitoring or scheduled continuation follows this task.
+
+## Earlier registration verification — 13 November 2026 (superseded historical limitation)
 
 **Registration is impossible with the canonical guard unchanged. No registration or approval is claimed.** GitHub PR59 was OPEN at exact head `902b47f0cb7bf5115b2e0c0a189ccd84e50e565e`; fetched branch and local HEAD matched. This verification records the blocker and ends the task; it does not start a rendering, policy-change or publication stage.
 

@@ -2,7 +2,15 @@
 
 **Release BLOCKED. Do not merge or deploy.** Existing PR: <https://github.com/initSrikanth/MathMagic/pull/59>, branch `feature/measurement-production-pilot`, base recovered as `047666034299b6e6726e1e7a1d56eee8374aa74a`. Use [the recovery procedure](codex-github-recovery.md) to discover the current head/checks; this file cannot contain its own commit SHA.
 
-## Registration attempt — 13 November 2026; task ended BLOCKED
+## Extensible registry implementation — current task, 13 November 2026
+
+Starting head `62c595d50696e393959ed34a77794137f7139fa0` was confirmed directly on PR59. The earlier fixed-inventory blocker below is superseded by the implemented [version1 topic registry](../video-agent/media-registry/README.md). Declared inventories replace the global35-record assertion. All104 baseline variants and their original asset bindings are preserved, with exact file and ordered audio/video packet identity checks. The105th record is the explicit pending Lesson1 replacement; registration does not approve it.
+
+Separate unchanged/replacement/new policies require independently verified evidence, script/caption alignment, approved voice configuration and genuine explicit human approval for replacements/new media. New-media production/release holds remain active. Pending verification can progress only by appending a receipt that preserves prior evidence and known flags. The historical audit and every previous approval field remain unchanged; Space's existing exact attestation verifier/exception is retained.
+
+The required release gate remains BLOCKED because `time-angles-lesson1-repaired` is pending human approval, rather than because its checksum is unknown. No approval was invented, no media was regenerated, and no unrelated lesson/assessment was modified. Current targeted test/readiness outcomes are recorded in [Lesson1 readiness](pr59-lesson1-repair-readiness.md). This implementation task stops after its commit and targeted tests; no merge, deployment, scheduling or CI monitoring follows.
+
+## Earlier registration attempt — 13 November 2026; historical blocker
 
 Recovered latest GitHub head `902b47f0cb7bf5115b2e0c0a189ccd84e50e565e`. The exact replacement is committed (10,236,194bytes; SHA256 `3f6501d5fe8cfedff8cb266fe3b464c027bc19fece62c832aa75c0686610b0e1`); no artifact retrieval, reconstruction or render is necessary. Current Git bytes, source/sidecar hashes and retained technical evidence match.
 

@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "topic": "factors-multiples",
+  "records": [
+    {
+      "id": "factors-multiples-legacy-26-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1.mp4",
+          "sha256": "80303d2f7fbd8f554331c697e52ff88fe493e6982bfcbf6aea21fa9dc86a2481",
+          "bytes": 2957224
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1.vtt",
+          "sha256": "b9551e135e856d6b606fb3705f8a73cc6374272186bcfa715b1d79faaa06dac4",
+          "bytes": 4480
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1_transcript.txt",
+          "sha256": "7dd13430a960c6acbc1daea80e9f05a3c43c1b92ebbac0f5a11bf9badb9c54fa",
+          "bytes": 1968
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "sha256": "fbaa6541121edf697fe4a21566c4a3b650d10d65c96076024e490ea9d73d9384",
+          "bytes": 22347
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/factors-multiples-lesson1.json",
+          "sha256": "771a071ff51fc474439b30105fcc3fc6cd2e963c0fefb7f4ca112f2725aebd37",
+          "bytes": 6639
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4369,
+          "sha256": "8c4beb26029f5f7512ccdd73700405c75b0afffdd8b73506721fd029dc60c27d"
+        },
+        "audio": {
+          "count": 3415,
+          "sha256": "a0ffba0c5cd0740618bf50859af4e4ccf0c032a6c896d77f5474097cc73482e7"
+        }
+      },
+      "legacy": {
+        "number": 26,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-26-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.mp4",
+          "sha256": "2fbc2bdceae0758835cb7d88e7581b92597757dfc10530457dd907b2f21a996f",
+          "bytes": 2875029
+        },
+        "captions": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree.vtt",
+          "sha256": "5fe652da892ae4c39023f84440f804c762450d41aa044351f710b78b80e4ab2c",
+          "bytes": 4364
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree_transcript.txt",
+          "sha256": "b12d1bc71451fefb751d668f21941c01be41b58bc9bdfbedda383b0748c2d67e",
+          "bytes": 1947
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "sha256": "fbaa6541121edf697fe4a21566c4a3b650d10d65c96076024e490ea9d73d9384",
+          "bytes": 22347
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/26.json",
+          "sha256": "0294c756ba1f6bcd0aebd5131544ab5ca3311837cc2e22c0d2c4dde4ccf24d92",
+          "bytes": 6638
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4254,
+          "sha256": "adec9d70a16f78dc5f17871b1f6bfea8515072c97d591faca796ccfc4b74c4ef"
+        },
+        "audio": {
+          "count": 3323,
+          "sha256": "32fffa5722d7f7ec81d4e26b105cb5c4ba619cdff0bc8640f72d739d9d3d3d72"
+        }
+      },
+      "legacy": {
+        "number": 26,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-26-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+          "bytes": 2458952
+        },
+        "captions": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+          "sha256": "5fe652da892ae4c39023f84440f804c762450d41aa044351f710b78b80e4ab2c",
+          "bytes": 4364
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+          "sha256": "b12d1bc71451fefb751d668f21941c01be41b58bc9bdfbedda383b0748c2d67e",
+          "bytes": 1947
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "sha256": "fbaa6541121edf697fe4a21566c4a3b650d10d65c96076024e490ea9d73d9384",
+          "bytes": 22347
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/26.json",
+          "sha256": "0294c756ba1f6bcd0aebd5131544ab5ca3311837cc2e22c0d2c4dde4ccf24d92",
+          "bytes": 6638
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4254,
+          "sha256": "adec9d70a16f78dc5f17871b1f6bfea8515072c97d591faca796ccfc4b74c4ef"
+        },
+        "audio": {
+          "count": 3325,
+          "sha256": "9ec756ba558923e289f1a030443c142921e4a0bd9615a0d676971e4aff1df86f"
+        }
+      },
+      "legacy": {
+        "number": 26,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-27-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2.mp4",
+          "sha256": "e8d28ee6379febd38c014f4b75e7af54dccd8d9502d32a0d8dfbe1345c2a0e2d",
+          "bytes": 2903745
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2.vtt",
+          "sha256": "8e8267d34063b9e0d9ae6739c761f9f77f570275c742f9b9795f73ff1e72e66e",
+          "bytes": 4540
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2_transcript.txt",
+          "sha256": "fedf5697f67cdd5a9d06fa190ecec3f8b6a4934cb27c02b5cdfd63e3b07e7098",
+          "bytes": 2028
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "sha256": "b190c041934561b54e0c77865cd1c034d7083afeb48738fa07c34bc521a8535e",
+          "bytes": 20148
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/factors-multiples-lesson2.json",
+          "sha256": "9db761dcfb2b137591e8457465f2048241ec998c41729bf3d57cfd32cb86c2b0",
+          "bytes": 6764
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4414,
+          "sha256": "789ce470dbb71ee250d105cc6fea5b9fcba255bdc1d3060fe176f50220d7f8a6"
+        },
+        "audio": {
+          "count": 3450,
+          "sha256": "21a05c1adb541fe6f17d33bfcb9787893ce3a4f32a732d0ecdc248bb578b124b"
+        }
+      },
+      "legacy": {
+        "number": 27,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-27-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.mp4",
+          "sha256": "1f39932b7297f6a70a261b327d87194663f0fa52efa709412f6f7c2c820ca49e",
+          "bytes": 2821623
+        },
+        "captions": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree.vtt",
+          "sha256": "967b28faa1378a992a7e31741db48d87613229295e10143b1d72354183bc7992",
+          "bytes": 4424
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree_transcript.txt",
+          "sha256": "be7c2e0f8766c7b3db794b77a46c051db8ebeaf6d2a19c8873786bda6b423d5b",
+          "bytes": 2007
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "sha256": "b190c041934561b54e0c77865cd1c034d7083afeb48738fa07c34bc521a8535e",
+          "bytes": 20148
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/27.json",
+          "sha256": "084967c4a164d1c6da33d4c8b1abb77e81e4008bafd5c68fb4a941241b7b39b8",
+          "bytes": 6759
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4298,
+          "sha256": "42b1043c3428121965a14f44c4e429109db9727b09fed4599329a59eaa089046"
+        },
+        "audio": {
+          "count": 3357,
+          "sha256": "34be63f2c574ee8f442364aca333e1b51b3574816d83e9f052cf10fd02c16346"
+        }
+      },
+      "legacy": {
+        "number": 27,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-27-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+          "bytes": 2425762
+        },
+        "captions": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+          "sha256": "967b28faa1378a992a7e31741db48d87613229295e10143b1d72354183bc7992",
+          "bytes": 4424
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
+          "sha256": "be7c2e0f8766c7b3db794b77a46c051db8ebeaf6d2a19c8873786bda6b423d5b",
+          "bytes": 2007
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "sha256": "b190c041934561b54e0c77865cd1c034d7083afeb48738fa07c34bc521a8535e",
+          "bytes": 20148
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/27.json",
+          "sha256": "084967c4a164d1c6da33d4c8b1abb77e81e4008bafd5c68fb4a941241b7b39b8",
+          "bytes": 6759
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4298,
+          "sha256": "42b1043c3428121965a14f44c4e429109db9727b09fed4599329a59eaa089046"
+        },
+        "audio": {
+          "count": 3359,
+          "sha256": "a8d3cb35e914a51137524ae28e246d71e6ae59bdb3e5452828640fbb82393ab1"
+        }
+      },
+      "legacy": {
+        "number": 27,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-28-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3.mp4",
+          "sha256": "5f13f8f0fdfbe7eedecbf26a117d7c96b99b3f4979c8fa57aaee4941480f8dcf",
+          "bytes": 2934737
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3.vtt",
+          "sha256": "7c282ebb02b652e242774e51b73bb8f607ecf3518c4e45e1bd5b0f28cc5cb38d",
+          "bytes": 4679
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3_transcript.txt",
+          "sha256": "53c7d27e9b9b5cf076bb962a32cd2bde14aa4cd6a72c4c17fb89474fff0f39a3",
+          "bytes": 2019
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "sha256": "ec20279b58fd8716981c2d824601acd67f7f2c8a324e563974170de89840136d",
+          "bytes": 20128
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/factors-multiples-lesson3.json",
+          "sha256": "1463e064151f1783e267c0dec4a53e8da8f1a957de4a0398a6dbb82d74b3da6e",
+          "bytes": 7073
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4509,
+          "sha256": "e65c2f032f1f0542856329b11f3e175192ace416e3176a9621d50ee77442085c"
+        },
+        "audio": {
+          "count": 3524,
+          "sha256": "a40fb5882dfbb1615359c097188d5b7cb3aec5ac132f3d0f2c69f737590818a5"
+        }
+      },
+      "legacy": {
+        "number": 28,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-28-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.mp4",
+          "sha256": "4ea8fbfa20cf9e58205552f9e5c39b0553d102a1fa8303cd935679eeef42774b",
+          "bytes": 2878314
+        },
+        "captions": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree.vtt",
+          "sha256": "e8946c7b151edd3110daaf309ddda4604bb8c80e2a8dc8a43b60efabbbba1948",
+          "bytes": 4563
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree_transcript.txt",
+          "sha256": "13a42f42a5ec34e0be3dc7d69b49ca314f51c92bc5141cba3087ec949118cfc1",
+          "bytes": 2000
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "sha256": "ec20279b58fd8716981c2d824601acd67f7f2c8a324e563974170de89840136d",
+          "bytes": 20128
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/28.json",
+          "sha256": "1508bb95b42af5b48c897faaf66fb281d9a25d2c846518ffd317b8973cc9f316",
+          "bytes": 7061
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4394,
+          "sha256": "83c031d5635ea096e53a9abbd8ea5050cad7a38a8e4492a5e029701ae133d568"
+        },
+        "audio": {
+          "count": 3432,
+          "sha256": "0ed54ee21cc36bcd257547fc3be718774ca8a1d2b1348f7b2a5c7d5bcb4aa5f7"
+        }
+      },
+      "legacy": {
+        "number": 28,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-28-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+          "bytes": 2459097
+        },
+        "captions": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+          "sha256": "e8946c7b151edd3110daaf309ddda4604bb8c80e2a8dc8a43b60efabbbba1948",
+          "bytes": 4563
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+          "sha256": "13a42f42a5ec34e0be3dc7d69b49ca314f51c92bc5141cba3087ec949118cfc1",
+          "bytes": 2000
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "sha256": "ec20279b58fd8716981c2d824601acd67f7f2c8a324e563974170de89840136d",
+          "bytes": 20128
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/28.json",
+          "sha256": "1508bb95b42af5b48c897faaf66fb281d9a25d2c846518ffd317b8973cc9f316",
+          "bytes": 7061
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4394,
+          "sha256": "83c031d5635ea096e53a9abbd8ea5050cad7a38a8e4492a5e029701ae133d568"
+        },
+        "audio": {
+          "count": 3434,
+          "sha256": "c6c0a14483ea0752e4235296c9edd380a8843b76c892f44b7bff445544ffcc79"
+        }
+      },
+      "legacy": {
+        "number": 28,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-29-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4.mp4",
+          "sha256": "0488f7217371891b273a7721e96c9729842822f5f90113874d7418d82a064079",
+          "bytes": 3218942
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4.vtt",
+          "sha256": "170ee773ac3ba20a2a8162766b9af7dc955a9030b3776e08d26cc120aa1bad3a",
+          "bytes": 4840
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4_transcript.txt",
+          "sha256": "46e6e33288a5a7c4dfb99c6898ff1df9e6022384dc8b86043bf0c2d3115f3565",
+          "bytes": 2106
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "sha256": "bd80772e1a896c8a1e9e4f097185a81778c1b0b49b841d366ec5058f95a456e8",
+          "bytes": 20014
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/factors-multiples-lesson4.json",
+          "sha256": "a1510070b2ab94bc79e37dbee63a1cfbf763a7bb2e86d50a256e3b450a18d1d3",
+          "bytes": 6848
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4621,
+          "sha256": "98cc51ece4ed504c7b3336b5877fb327f698b8e8f48c760919b8f2991be3e131"
+        },
+        "audio": {
+          "count": 3612,
+          "sha256": "6de900343273308863b5840e73c117220524b1783332178127ed3ab34a1a92a3"
+        }
+      },
+      "legacy": {
+        "number": 29,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-29-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.mp4",
+          "sha256": "7d3157cdf5cf450e908bd2208b0750020fe3c61f02ef151616ac3b8a44f43a7a",
+          "bytes": 3142324
+        },
+        "captions": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree.vtt",
+          "sha256": "7b2cb0ef2519ac9a8d26e875ae57e5f4ec2e77543ddf54b6951e03ca5ae131ec",
+          "bytes": 4724
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree_transcript.txt",
+          "sha256": "eb391d019975f88646406e49c8519966a7d5dfd3692b4319b80e6d7016b3157b",
+          "bytes": 2088
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "sha256": "bd80772e1a896c8a1e9e4f097185a81778c1b0b49b841d366ec5058f95a456e8",
+          "bytes": 20014
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/29.json",
+          "sha256": "2141aaae7c7e4a607ec0001b0e7417984c7360923daea4415e74211c402545a8",
+          "bytes": 6847
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4505,
+          "sha256": "27f4a2a4514f96d7b3e5034e06979cb31629fbef4123aeefa314a73b1cf73c3d"
+        },
+        "audio": {
+          "count": 3519,
+          "sha256": "404576b09045031cf3b776dc3039f1587a932ecdf485c15a78a0431e130797d0"
+        }
+      },
+      "legacy": {
+        "number": 29,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-29-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+          "bytes": 2723431
+        },
+        "captions": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+          "sha256": "7b2cb0ef2519ac9a8d26e875ae57e5f4ec2e77543ddf54b6951e03ca5ae131ec",
+          "bytes": 4724
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+          "sha256": "eb391d019975f88646406e49c8519966a7d5dfd3692b4319b80e6d7016b3157b",
+          "bytes": 2088
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "sha256": "bd80772e1a896c8a1e9e4f097185a81778c1b0b49b841d366ec5058f95a456e8",
+          "bytes": 20014
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/29.json",
+          "sha256": "2141aaae7c7e4a607ec0001b0e7417984c7360923daea4415e74211c402545a8",
+          "bytes": 6847
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4505,
+          "sha256": "27f4a2a4514f96d7b3e5034e06979cb31629fbef4123aeefa314a73b1cf73c3d"
+        },
+        "audio": {
+          "count": 3521,
+          "sha256": "48deecdac87366a29595b214911f3bca1203a3a2874e2b7273de8308f7686866"
+        }
+      },
+      "legacy": {
+        "number": 29,
+        "variant": "narration"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-30-original",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5.mp4",
+          "sha256": "88925436c07cb2fe82bbad9bddf8cc063cd5b2c357085a27827221786560e461",
+          "bytes": 3022168
+        },
+        "captions": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5.vtt",
+          "sha256": "ec444725ed1642baeef3dcb9837cbf99b439527dbdfcd6aa2f8fc5a1464c8e3f",
+          "bytes": 4569
+        },
+        "transcript": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5_transcript.txt",
+          "sha256": "b09c9acf4a028bb8a8750439c4c170ca9189989897b51c5fbbdbfc963fe33457",
+          "bytes": 2057
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "sha256": "024df4cef252a459aeab69d5931e3d8ab79d6f406e5cc5760619d83bdfd4585b",
+          "bytes": 20069
+        },
+        "script": {
+          "path": "video-agent/production-v2/scripts/factors-multiples-lesson5.json",
+          "sha256": "99b0a36de9baabc9933128afa7df0867181842b6359d00ed83799f73441d8f84",
+          "bytes": 7283
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4493,
+          "sha256": "37f97f4f1485c8089b8550a96c85f01161c4a828ebefc79d56fd152f2f6c92b5"
+        },
+        "audio": {
+          "count": 3511,
+          "sha256": "6508071102b52ea7f9f95acf16ae3934b6e1a6354058a1f26f9845a4784ce376"
+        }
+      },
+      "legacy": {
+        "number": 30,
+        "variant": "original"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-30-correction",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.mp4",
+          "sha256": "eb530b6600b655de00672b43486a031a5fab8f00a5b18eb8c4fb76cda45936fd",
+          "bytes": 2965489
+        },
+        "captions": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree.vtt",
+          "sha256": "f22d8d8ac47057a37ece46876ff96229e576dc22d7e008fa1294a68e3c4582da",
+          "bytes": 4453
+        },
+        "transcript": {
+          "path": "videos/quality-corrections/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree_transcript.txt",
+          "sha256": "47a49fbb95ba4d78922907fac5af8d8f8fdaf1dcb986cbb2c0a064c20a9b8dde",
+          "bytes": 2036
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "sha256": "024df4cef252a459aeab69d5931e3d8ab79d6f406e5cc5760619d83bdfd4585b",
+          "bytes": 20069
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/30.json",
+          "sha256": "b1c5dc0d96cbd670e9b7f1e8ffbdb1618156dc488ba19a057d2c2a154c594912",
+          "bytes": 7275
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4377,
+          "sha256": "60036b2eba37681757836cd0633fa4be867cdbb94cb9a8ff9539966159e033c6"
+        },
+        "audio": {
+          "count": 3419,
+          "sha256": "b783daf3579618fee8f288498a440b8891e8e5759d9a9cf9ee65f1e275afa0b8"
+        }
+      },
+      "legacy": {
+        "number": 30,
+        "variant": "correction"
+      }
+    },
+    {
+      "id": "factors-multiples-legacy-30-narration",
+      "policy": "unchanged",
+      "status": "retained",
+      "assets": {
+        "video": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+          "bytes": 2553494
+        },
+        "captions": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+          "sha256": "f22d8d8ac47057a37ece46876ff96229e576dc22d7e008fa1294a68e3c4582da",
+          "bytes": 4453
+        },
+        "transcript": {
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
+          "sha256": "47a49fbb95ba4d78922907fac5af8d8f8fdaf1dcb986cbb2c0a064c20a9b8dde",
+          "bytes": 2036
+        },
+        "poster": {
+          "path": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "sha256": "024df4cef252a459aeab69d5931e3d8ab79d6f406e5cc5760619d83bdfd4585b",
+          "bytes": 20069
+        },
+        "script": {
+          "path": "video-agent/video-corrections-35/scripts/30.json",
+          "sha256": "b1c5dc0d96cbd670e9b7f1e8ffbdb1618156dc488ba19a057d2c2a154c594912",
+          "bytes": 7275
+        }
+      },
+      "packets": {
+        "video": {
+          "count": 4377,
+          "sha256": "60036b2eba37681757836cd0633fa4be867cdbb94cb9a8ff9539966159e033c6"
+        },
+        "audio": {
+          "count": 3421,
+          "sha256": "dd0574566039b7dfbecd24f2ceb67d6638254a91485d0809d503ebd1f3e8294a"
+        }
+      },
+      "legacy": {
+        "number": 30,
+        "variant": "narration"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "section": "lesson1",
+      "record": "factors-multiples-legacy-26-narration"
+    },
+    {
+      "section": "lesson2",
+      "record": "factors-multiples-legacy-27-narration"
+    },
+    {
+      "section": "lesson3",
+      "record": "factors-multiples-legacy-28-narration"
+    },
+    {
+      "section": "lesson4",
+      "record": "factors-multiples-legacy-29-narration"
+    },
+    {
+      "section": "lesson5",
+      "record": "factors-multiples-legacy-30-narration"
+    }
+  ]
+}

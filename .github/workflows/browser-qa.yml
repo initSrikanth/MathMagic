@@ -37,7 +37,11 @@ jobs:
         env:
           VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
         run: |
+          python3 tools/video-quality/test_registry.py
           python3 tools/video-quality/test_contract.py
+          # Preserve the registry trust anchor in shallow PR checkouts.
+          MEDIA_PRESERVATION_COMMIT="$(python3 -c 'import json; print(json.load(open("video-agent/video-production-contract.json"))["media_registry"]["preservation_commit"])')"
+          git fetch --no-tags --depth=1 origin "$MEDIA_PRESERVATION_COMMIT"
           if [ -n "$VIDEO_QA_BASE" ]; then
             git fetch --depth=1 origin "$VIDEO_QA_BASE"
             python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
