@@ -1,6 +1,6 @@
 {
   "topic": "statistics",
-  "status": "PREFLIGHT_PASSED_READY_FOR_LESSON1",
+  "status": "PARTIAL_REVIEW_CANDIDATES",
   "checkpoint": "Five authored scripts and word-trigger storyboards saved; zero synthesis or render jobs dispatched.",
   "voice": {
     "model": "Kokoro v1.0 multilingual ONNX",
@@ -17,35 +17,41 @@
     "enhanced_delivery_limitation": "Installed engine reproduces approved baseline, but no dedicated emotion/emphasis control has been demonstrated. A modest increase from native punctuation/context needs a short actual listening calibration; do not use rate/volume/pitch effects as a substitute."
   },
   "paid_calls": 0,
-  "generation_attempts": 0,
-  "rendered": 0,
+  "generation_attempts": 1,
+  "rendered": 1,
   "integrated": 0,
-  "captions": 0,
-  "transcripts_of_actual_audio": 0,
+  "captions": 1,
+  "transcripts_of_actual_audio": 1,
   "models_present": true,
   "contract_modified": true,
   "lessons": [
     {
       "id": "statistics-lesson1",
-      "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
+      "status": "TECHNICALLY_VERIFIED_PENDING_APPROVAL",
       "script": "video-agent/statistics/scripts/lesson1.json",
       "script_sha256": "751ef0536698a8010d16d89c6e5c7c5558732a2b3271f6ac99525af8c538ce61",
       "proposed_narration": "video-agent/statistics/lesson1_proposed_narration.txt",
       "proposed_narration_sha256": "0270b06f58715313a76ff7d6618074bfa3714405d3346aa1daa6f2d87845d23d",
-      "timings": null,
+      "timings": "/workspace/statistics-video-work/lesson1/timeline.json",
       "job_id": null,
-      "audio_sha256": null,
-      "video_sha256": null,
+      "audio_sha256": "7f5aa4ca4ff7760e12d51c8e207f40e296c902fdbd4e607906abe8658f2d6f1a",
+      "video_sha256": "d29220eca72e448c9a1dd28744717cc6a763e4f8c81c61fa67b739d27833760a",
       "perceptual_review": "NOT_PERFORMED",
-      "captions": "NOT_CREATED_NO_AUDIO"
+      "captions": "/workspace/statistics-video-work/lesson1/captions.vtt",
+      "narration_duration": 325.96458333333334,
+      "video": "/workspace/statistics-video-work/lesson1/final.partial.mp4",
+      "transcript": "/workspace/statistics-video-work/lesson1/transcript.txt",
+      "poster": "/workspace/statistics-video-work/lesson1/poster.jpg",
+      "quality_evidence": "/workspace/statistics-video-work/lesson1/qa.json",
+      "approval_status": "PENDING"
     },
     {
       "id": "statistics-lesson2",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson2.json",
-      "script_sha256": "4975a8de09fc9c1001b0553fea453b5790d4ec6335db8f6e86f2ea294dc57f96",
+      "script_sha256": "ae9247024d1c8bc6c8b7c1de0e5b577ad3d273d5f48ec5bec36ae2d1df63dc2c",
       "proposed_narration": "video-agent/statistics/lesson2_proposed_narration.txt",
-      "proposed_narration_sha256": "afb763692282c5de20ee789a85ee26c9ae8e4e04cd5c2c8c6760200ce578cd03",
+      "proposed_narration_sha256": "906828712670c789448832f84d466346c27dfe520a77136c385e55e97d539e72",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -98,7 +104,7 @@
   ],
   "guard_error": null,
   "blockers": [
-    "Full audiovisual approval remains required before release."
+    "Full listening/viewing and approval required before integration/publication."
   ],
   "generation_authorised": true
 }

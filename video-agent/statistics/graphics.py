@@ -64,7 +64,7 @@ def model_for(lesson,parent):
 
 def picture(l,c,folder,progress,elapsed,previous):
  now=c['start']+elapsed;model=c['statistics_model'];kind=model['kind'];boards=[e['text'] for e in c['board_events'] if e['at']<=now];reveal=99
- if (l['id']=='statistics-lesson4' and c['parent_index']==3) or kind=='counters':
+ if (l['id']=='statistics-lesson4' and c['parent_index']==3) or kind=='counters' or (l['id']=='statistics-lesson2' and c['parent_index']==7) or (l['id']=='statistics-lesson5' and c['parent_index']==6):
   revealed=[e['index'] for e in c.get('parent_focus_events',[]) if e['at']<=now];reveal=max(revealed,default=-1)
  key=(l['id'],c['parent_index'],tuple(boards),str(model),reveal)
  if key not in CACHE:
@@ -77,7 +77,7 @@ def picture(l,c,folder,progress,elapsed,previous):
   else:
    if boards:text(d,boards[-1],960,165,62,fill=GOLD,center=True,maxw=1740)
    if kind=='table':table(d,model['labels'],model['counts'],model['title'])
-   elif kind=='columns':columns(d,model['labels'],model['counts'],model['title'],model['axis'])
+   elif kind=='columns':columns(d,model['labels'],model['counts'],model['title'],model['axis'],reveal=reveal)
    elif kind=='line':line(d,model['a'],model.get('b'),reveal=reveal)
    elif kind=='cards':
     panel(d,'Responses to investigate')

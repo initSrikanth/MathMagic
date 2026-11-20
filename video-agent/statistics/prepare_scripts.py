@@ -79,7 +79,10 @@ BOARDS=[
 ]
 def main():
  for i in range(1,6):
-  path=HERE/'scripts'/f'lesson{i}.json';s=json.loads(path.read_text());s['year_level']=5;s['title']=TITLES[i-1];s['status']='PRODUCTION_SCRIPT_PENDING_NARRATION';s['renderer']='production-v2/measurement_quality.py with Statistics graphics adapter'
+  path=HERE/'scripts'/f'lesson{i}.json';s=json.loads(path.read_text())
+  if s.get('golden_rules'):
+   print(i,'expanded script preserved');continue
+  s['year_level']=5;s['title']=TITLES[i-1];s['status']='PRODUCTION_SCRIPT_PENDING_NARRATION';s['renderer']='production-v2/measurement_quality.py with Statistics graphics adapter'
   for j,b in enumerate(s['beats']):
    # Exactly the required phrase, followed by the existing learning goal.
    if b['role']=='learning_goal':b['text']='Today we are learning to '+json.loads((HERE/'lessons.json').read_text())[i-1]['goal'][0].lower()+json.loads((HERE/'lessons.json').read_text())[i-1]['goal'][1:]
