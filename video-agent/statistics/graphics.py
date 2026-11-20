@@ -99,7 +99,6 @@ def picture(l,c,folder,progress,elapsed,previous):
       yy=815-(n-mn)*240/(50-mn);text(d,n,x+100,yy-28,60,center=True);d.line((x+150,yy,x+710,yy),fill='#BDD4D0',width=2)
      d.line((x+230,815-(40-mn)*240/(50-mn),x+630,575),fill=TEAL,width=7);text(d,'Mon        Tue',x+450,840,54,center=True)
    elif kind=='compare':
-    panel(d,'Compare all the frequencies')
     labels=['0','1','2','3','4'];as_=[1,2,5,2,1];bs=[0,0,5,4,2]
     table(d,labels,[f'{a}     |     {b}' for a,b in zip(as_,bs)],'Class A | Class B','Books')
    elif kind=='types':

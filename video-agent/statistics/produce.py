@@ -42,7 +42,7 @@ def measured_events(l,t):
    for e in c['board_events']:
     line=e['text']
     if line not in cache:
-     if c['role'] in ['learning_goal','success_criteria','question','thinking_pause']:
+     if c['role'] in ['learning_goal','success_criteria','thinking_pause'] or (c['role']=='question' and c['parent_index'] in [4,6]):
       when,reason=c['start'],'Persistent teaching context'
      else:
       when,reason=q.line_time(line,ws,start,end)
