@@ -14,16 +14,41 @@ MODEL=WORK/'kokoro-multi-lang-v1_0';ASR=WORK/'sherpa-onnx-zipformer-small-en-202
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def persist(d):q.save(HERE/'checkpoint.json',d)
 def prepare(i):
- l=json.loads((HERE/'scripts'/f'lesson{i}.json').read_text());l['learning_goal']=json.loads((HERE/'lessons.json').read_text())[i-1]['goal'];l['graphics_sha256']=sha(HERE/'graphics.py');parents=l['beats'];l['beats']=[]
+ l=json.loads((HERE/'scripts'/f'lesson{i}.json').read_text());l['learning_goal']=json.loads((HERE/'lessons.json').read_text())[i-1]['goal'];l['graphics_sha256']=sha(HERE/'graphics.py');l['statistics_renderer_sha256']=sha(__file__);l['timing_recipe']='parent-word-events-v2';parents=l['beats'];l['beats']=[]
  for j,b in enumerate(parents):
+  current_model=g.model_for(i,j)
   for text in re.split(r'(?<=[.!?])\s+',b['text']):
    if not text.strip():continue
-   c=copy.deepcopy(b);c['text']=text;c['parent_index']=j;c['statistics_model']=g.model_for(i,j);l['beats'].append(c)
+   if i==2 and j==9:
+    if 'interest rating' in text:current_model={'kind':'cards','labels':['Low','Medium','High']}
+    if 'books borrowed' in text.lower():current_model={'kind':'cards','labels':['0 books','1 book','2 books','3 books','4 books']}
+   if i==3 and j==8 and 'one extra pupil' in text:current_model={'kind':'columns','labels':['0','1','2','3','4'],'counts':[1,1,3,1,2],'title':'One extra pupil at 4 books','axis':'Books borrowed'}
+   if i==3 and j==9 and 'same frequency' in text:current_model={'kind':'columns','labels':['0','1','2','3','4'],'counts':[2,2,2,2,2],'title':'Equal frequencies: no useful mode','axis':'Books borrowed'}
+   c=copy.deepcopy(b)
+   if i==3 and j==9 and current_model.get('counts')==[2]*5:c['board']=['Every displayed value has the same frequency']
+   c['text']=text;c['parent_index']=j;c['statistics_model']=copy.deepcopy(current_model);l['beats'].append(c)
  return l
 
 def measured_events(l,t):
  # Recogniser emissions are approximate word events, never certified forced alignment.
  parent_events={}
+ # Keep a parent's working visible across native sentence clips. Match each
+ # mathematical result against all actual words in that teaching step, so a
+ # sentence-local fallback cannot flash a future result before it is spoken.
+ for parent in {c['parent_index'] for c in t['cues']}:
+  group=[c for c in t['cues'] if c['parent_index']==parent];ws=[w for c in group for w in c['words']]
+  start,end=group[0]['start'],group[-1]['end'];cache={}
+  for c in group:
+   for e in c['board_events']:
+    line=e['text']
+    if line not in cache:
+     if c['role'] in ['learning_goal','success_criteria','question','thinking_pause']:
+      when,reason=c['start'],'Persistent teaching context'
+     else:
+      when,reason=q.line_time(line,ws,start,end)
+      if reason=='scene context':when=start
+     cache[line]=(when,reason)
+    e['at'],e['reason']=cache[line]
  for c in t['cues']:
   m=c['statistics_model'];kind=m['kind'];labels=m.get('labels',[])
   triggers={'types':['nominal','ordinal','discrete'],'line':['monday','tuesday','wednesday','thursday'],'columns':[str(x).lower() for x in labels],'table':[str(x).lower() for x in labels],'counters':['zero','one','two','three','four']}.get(kind,[])
