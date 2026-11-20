@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-20T16:17:03.051735+00:00",
+  "start_checkpoint": "7bd0f23",
+  "status": "PASS",
+  "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+  "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+  "archive_sha256": "60703707bc05ccd48d60e1eb723f38b07d6e474795a0b6a588d7220400e0f7a4",
+  "source": "video-agent/calibration/measurement/source.json",
+  "asr_archive_sha256": "c8bff1091c26c49731cddbcd60ef18061142ea11523df1b73bf1b14451b9c15e",
+  "dependencies": {
+    "sherpa_onnx": "1.12.26",
+    "soundfile": "0.14.0",
+    "numpy": "2.3.5"
+  },
+  "free_bytes": 62942760960,
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "production_authorisation": "statistics_generation_authorisation",
+  "publication_authorised": false,
+  "model_download_attempts": 1,
+  "asr_download_attempts": 1,
+  "voice_perception": "UNVERIFIED"
+}

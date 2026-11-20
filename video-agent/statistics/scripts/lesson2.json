@@ -2,18 +2,18 @@
   "id": "statistics-lesson2",
   "topic": "statistics",
   "section": "lesson2",
-  "title": "Check, count and display",
+  "title": "Collect and Organise Data",
   "codes": [
     "AC9M5ST01",
     "AC9M5ST03"
   ],
   "beats": [
     {
-      "text": "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story?",
+      "text": "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story? Imagine six snack cards scattered on a canteen desk. Some say apple with a capital letter and one uses a small letter. Sorting the cards should help us understand the votes, but a computer may need us to use a consistent spelling first. Good displays begin with careful checking.",
       "chapter": "Investigate first",
       "equation": [],
       "board": [
-        "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story?"
+        "Check the responses first"
       ],
       "rows": [],
       "line": null,
@@ -30,11 +30,11 @@
       }
     },
     {
-      "text": "Our goal is to turn checked responses into a trustworthy frequency display.",
+      "text": "Today we are learning to turn checked responses into a trustworthy frequency display. Our goal is to turn responses into a trustworthy frequency table and display. We are looking for a process someone else could follow and check. A beautiful graph is not useful if the counts came from missing, mistaken or double-counted records.",
       "chapter": "Our goal",
       "equation": [],
       "board": [
-        "Turn checked responses into a trustworthy frequency display."
+        "Check \u2192 count \u2192 represent"
       ],
       "rows": [],
       "line": null,
@@ -44,14 +44,14 @@
       "role": "learning_goal",
       "pause": 0,
       "word_trigger_storyboard": {
-        "trigger_phrase": "Our goal is to turn checked responses into a trustworthy frequency display",
+        "trigger_phrase": "Today we are learning to turn checked responses into a trustworthy frequency display",
         "visual": "statistics.html#lesson2: Our goal; retain earlier relevant inputs/results",
         "reveal": "On actual aligned spoken words; timings not yet generated",
         "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
       }
     },
     {
-      "text": "I can spot missing, invalid and repeated records. I can make a frequency table that counts every valid response once. I can use a digital table or spreadsheet to represent data.",
+      "text": "I can spot missing, invalid and repeated records. I can make a frequency table that counts every valid response once. I can use a digital table or spreadsheet to represent data. You already know how to sort objects into groups and count each group. Today each card will represent one pupil\u2019s response. Think of the table as a tidy record of those groups. Each response must contribute exactly once, and the total gives us an important check.",
       "chapter": "Success criteria",
       "equation": [],
       "board": [
@@ -74,11 +74,11 @@
       }
     },
     {
-      "text": "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer.",
+      "text": "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer. Collecting data and checking data are connected jobs. First agree what choices are allowed and what one record represents. Then look for unexpected words, empty spaces and repeated pupil records. If a response is unclear, ask the collector or pupil to check it. We must not guess which snack a blank answer meant.",
       "chapter": "Build the idea",
       "equation": [],
       "board": [
-        "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer."
+        "Check blanks, spelling and pupil records"
       ],
       "rows": [],
       "line": null,
@@ -95,11 +95,11 @@
       }
     },
     {
-      "text": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana. How many valid votes are there?",
+      "text": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana. How many valid votes are there? Look at the six cards before we sort them. Predict the total number of votes. Then look for cards that belong to the same snack group. Take a moment to explain why matching snack choices from different pupils should still remain in our collection.",
       "chapter": "Example 1: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Predict the valid vote total"
       ],
       "rows": [],
       "line": null,
@@ -116,11 +116,12 @@
       }
     },
     {
-      "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal.",
+      "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal. Place the first Apple card in its group, then add the small-letter apple and the final Apple. That group has three cards. Banana has two and Pear has one. Write those frequencies beside their labels. Adding three, two and one gives six, matching the number of pupil responses we started with.",
       "chapter": "Example 1: explain",
       "equation": [],
       "board": [
-        "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal."
+        "Apple 3 \u2022 Banana 2 \u2022 Pear 1",
+        "3 + 2 + 1 = 6"
       ],
       "rows": [],
       "line": null,
@@ -137,11 +138,11 @@
       }
     },
     {
-      "text": "Put one vote in each cell A2 to A7. In C2 type Apple. What does =COUNTIF(A2:A7,C2) find?",
+      "text": "Put one vote in each cell A2 to A7. In C2 type Apple. What does =COUNTIF(A2:A7,C2) find? Imagine moving the cards into a spreadsheet, one checked vote per row. Put the category Apple in a separate cell. Before using a counting tool, predict the number it should return. What would you check if the result were different from the three Apple cards you sorted?",
       "chapter": "Example 2: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Predict the spreadsheet count"
       ],
       "rows": [],
       "line": null,
@@ -158,11 +159,12 @@
       }
     },
     {
-      "text": "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero.",
+      "text": "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero. The spreadsheet\u2019s count-if formula counts the cells matching a chosen category. It can help make the frequency table, but we still need to check spelling and the selected range of cells. To draw a column graph, use one separated column for each snack. Start the frequency scale at zero, label the categories, and use equal intervals.",
       "chapter": "Example 2: explain",
       "equation": [],
       "board": [
-        "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero."
+        "COUNTIF counts matching cells",
+        "Label categories and frequency"
       ],
       "rows": [],
       "line": null,
@@ -179,11 +181,11 @@
       }
     },
     {
-      "text": "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack.",
+      "text": "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack. If two pupils both choose Banana, that is useful information about the class. Removing one would change the evidence. If the same pupil record appears twice, investigate whether it is a recording mistake. The response value and the record identity answer different questions, so they need different checks.",
       "chapter": "Check a common mistake",
       "equation": [],
       "board": [
-        "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack."
+        "Repeated choices can be valid"
       ],
       "rows": [],
       "line": null,
@@ -200,12 +202,11 @@
       }
     },
     {
-      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice. Try another kind of data. For an interest rating, keep low, medium and high in that meaningful order. For books borrowed, use whole-number counts such as zero, one, two, three and four. Keep a zero-frequency row when no pupil has a particular count, so the display shows the gap rather than hiding it.",
       "chapter": "Try an investigation",
       "equation": [],
       "board": [
-        "Pause to investigate.",
-        "Use checked data as evidence."
+        "Keep meaningful category order"
       ],
       "rows": [],
       "line": null,
@@ -222,11 +223,11 @@
       }
     },
     {
-      "text": "Explain one check you made before counting and one way to check the finished table.",
+      "text": "Explain one check you made before counting and one way to check the finished table. Compare your checked table and graph. Does every table value match its column height? Does the total match the number of valid responses? Can a reader tell what was counted and who answered? A saved frequency table can be opened in a spreadsheet, giving another way to check and represent the same evidence.",
       "chapter": "Reflect",
       "equation": [],
       "board": [
-        "Explain one check you made before counting and one way to check the finished table."
+        "Table total = valid response total"
       ],
       "rows": [],
       "line": null,
@@ -243,11 +244,11 @@
       }
     },
     {
-      "text": "Turn checked responses into a trustworthy frequency display. Check your evidence and share your reasoning with a partner.",
+      "text": "An organised display should help another person understand the responses without seeing your original pile of cards. Which validation check mattered most today, and how could you explain its purpose? Start with checked responses, count each one once, and use the total to help test your work.",
       "chapter": "Use your evidence",
       "equation": [],
       "board": [
-        "Turn checked responses into a trustworthy frequency display."
+        "Which check made your data trustworthy?"
       ],
       "rows": [],
       "line": null,
@@ -264,7 +265,20 @@
       }
     }
   ],
-  "status": "SCRIPT_ONLY_NOT_NARRATED",
-  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
-  "timing": null
+  "status": "PRODUCTION_SCRIPT_PENDING_NARRATION",
+  "renderer": "production-v2/measurement_quality.py with Statistics graphics adapter",
+  "timing": null,
+  "year_level": 5,
+  "golden_rules": {
+    "prior_knowledge_scene": 2,
+    "worked_example_scenes": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "thinking_method": "Native spoken reasoning guidance, no inserted silence",
+    "target_minimum_seconds": 300,
+    "approval": "PENDING_FULL_LISTENING_AND_VIEWING"
+  }
 }

@@ -2,18 +2,18 @@
   "id": "statistics-lesson3",
   "topic": "statistics",
   "section": "lesson3",
-  "title": "Read the whole distribution",
+  "title": "Discover the Mode",
   "codes": [
     "AC9M5ST01",
     "AC9M5ST03"
   ],
   "beats": [
     {
-      "text": "Two classes both have a mode of two library books. Must their borrowing patterns look the same?",
+      "text": "Two classes both have a mode of two library books. Must their borrowing patterns look the same? Imagine each pupil placing one counter above the number of library books they borrowed. As counters gather into stacks, some numbers may be more common than others. Before naming a most common value, look at the whole arrangement. What story might those stacks tell about the class?",
       "chapter": "Investigate first",
       "equation": [],
       "board": [
-        "Two classes both have a mode of two library books. Must their borrowing patterns look the same?"
+        "One counter for each pupil"
       ],
       "rows": [],
       "line": null,
@@ -30,11 +30,11 @@
       }
     },
     {
-      "text": "Our goal is to describe the mode and shape of a data distribution in context.",
+      "text": "Today we are learning to describe the mode and shape of a data distribution in context. Our goal is to describe the mode and the whole distribution in context. We want to say what the most common value means, but also notice pupils whose values are different. A single summary is a useful clue, rather than the entire investigation.",
       "chapter": "Our goal",
       "equation": [],
       "board": [
-        "Describe the mode and shape of a data distribution in context."
+        "Mode and the whole distribution"
       ],
       "rows": [],
       "line": null,
@@ -44,14 +44,14 @@
       "role": "learning_goal",
       "pause": 0,
       "word_trigger_storyboard": {
-        "trigger_phrase": "Our goal is to describe the mode and shape of a data distribution in context",
+        "trigger_phrase": "Today we are learning to describe the mode and shape of a data distribution in context",
         "visual": "statistics.html#lesson3: Our goal; retain earlier relevant inputs/results",
         "reveal": "On actual aligned spoken words; timings not yet generated",
         "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
       }
     },
     {
-      "text": "I can identify the most frequent value or category. I can describe clusters, gaps and how frequencies are spread. I can compare two distributions using evidence.",
+      "text": "I can identify the most frequent value or category. I can describe clusters, gaps and how frequencies are spread. I can compare two distributions using evidence. Remember that frequency means how often a value occurs. In a column graph, the horizontal labels name the book counts and the vertical scale counts pupils. Read both labels before giving an answer. Two books and three pupils describe different parts of the same display.",
       "chapter": "Success criteria",
       "equation": [],
       "board": [
@@ -74,11 +74,11 @@
       }
     },
     {
-      "text": "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps.",
+      "text": "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps. Build the first display one pupil at a time. Place one counter at zero books, one at one book, then three counters at two books. Finally place one at three and one at four. We can replace each stack by a column without changing its frequency. Now the concrete counters and the graph show the same data.",
       "chapter": "Build the idea",
       "equation": [],
       "board": [
-        "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps."
+        "Counters \u2192 columns \u2192 frequencies"
       ],
       "rows": [],
       "line": null,
@@ -95,11 +95,11 @@
       }
     },
     {
-      "text": "Books borrowed: 0, 1, 2, 2, 2, 3, 4. What is the mode, and what does it mean?",
+      "text": "Books borrowed: 0, 1, 2, 2, 2, 3, 4. What is the mode, and what does it mean? Before hearing the answer, compare the column heights. Which book-count value belongs to the tallest column? Think about how you would finish this sentence: the most common number of books is something, because something pupils borrowed that many. Keep the value and its frequency separate.",
       "chapter": "Example 1: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Which VALUE has the tallest column?"
       ],
       "rows": [],
       "line": null,
@@ -116,11 +116,11 @@
       }
     },
     {
-      "text": "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils.",
+      "text": "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils. Count the three pupils at two books, then trace down to the label two. That label is the mode. One pupil borrowed zero, and another borrowed four, so it would be wrong to say everyone borrowed two. The distribution is balanced around two, with matching frequencies on the two sides.",
       "chapter": "Example 1: explain",
       "equation": [],
       "board": [
-        "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils."
+        "Mode: 2 books \u2022 frequency: 3 pupils"
       ],
       "rows": [],
       "line": null,
@@ -137,11 +137,11 @@
       }
     },
     {
-      "text": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1. Class B: 0,0,5,4,2. What stays the same?",
+      "text": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1. Class B: 0,0,5,4,2. What stays the same? Now compare two classes with eleven pupils each. For zero through four books, Class A has frequencies one, two, five, two and one. Class B has zero, zero, five, four and two. Predict what the modes will share. Then decide whether the rest of the distributions must match.",
       "chapter": "Example 2: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Both classes have 11 pupils"
       ],
       "rows": [],
       "line": null,
@@ -158,11 +158,11 @@
       }
     },
     {
-      "text": "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes.",
+      "text": "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes. Class A has pupils on both sides of two books. Class B has no pupils at zero or one, and all its observations are two, three or four. Both classes have the same tallest value at two books. Their shared mode does not make the two sets of observations identical. Use the empty positions and the other column heights as evidence.",
       "chapter": "Example 2: explain",
       "equation": [],
       "board": [
-        "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes."
+        "Same mode \u2022 different distributions"
       ],
       "rows": [],
       "line": null,
@@ -179,11 +179,11 @@
       }
     },
     {
-      "text": "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group.",
+      "text": "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group. Imagine one extra pupil reporting four books. The highest numerical value has changed in frequency, but that alone does not make four the mode. Compare all frequencies again. A mode is chosen by how often a value occurs, rather than by how large the value is.",
       "chapter": "Check a common mistake",
       "equation": [],
       "board": [
-        "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group."
+        "Largest value \u2260 most frequent value"
       ],
       "rows": [],
       "line": null,
@@ -200,12 +200,11 @@
       }
     },
     {
-      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice. Try a tied distribution. If one book and two books each have five pupils, and every other frequency is smaller, both are modes. If all the displayed possible values have the same frequency, no single value stands out as a useful mode. Report what the graph shows instead of forcing a single answer.",
       "chapter": "Try an investigation",
       "equation": [],
       "board": [
-        "Pause to investigate.",
-        "Use checked data as evidence."
+        "Ties: report both modes"
       ],
       "rows": [],
       "line": null,
@@ -222,11 +221,11 @@
       }
     },
     {
-      "text": "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story.",
+      "text": "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story. In the explorer, change one frequency and predict what will happen before updating the display. Can you create a gap with zero pupils? Can you create two modes? Can you keep the mode at two while changing the other values? Explain how your change affects the description of the whole class.",
       "chapter": "Reflect",
       "equation": [],
       "board": [
-        "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story."
+        "Change data \u2022 predict \u2022 compare"
       ],
       "rows": [],
       "line": null,
@@ -243,11 +242,11 @@
       }
     },
     {
-      "text": "Describe the mode and shape of a data distribution in context. Check your evidence and share your reasoning with a partner.",
+      "text": "A good report connects numbers to the people and the question. Which feature would you describe after giving the mode: a gap, a cluster, or how the values are spread? Use a specific book count and frequency to support your explanation, and remember to look at every part of the distribution.",
       "chapter": "Use your evidence",
       "equation": [],
       "board": [
-        "Describe the mode and shape of a data distribution in context."
+        "What does the mode leave out?"
       ],
       "rows": [],
       "line": null,
@@ -264,7 +263,20 @@
       }
     }
   ],
-  "status": "SCRIPT_ONLY_NOT_NARRATED",
-  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
-  "timing": null
+  "status": "PRODUCTION_SCRIPT_PENDING_NARRATION",
+  "renderer": "production-v2/measurement_quality.py with Statistics graphics adapter",
+  "timing": null,
+  "year_level": 5,
+  "golden_rules": {
+    "prior_knowledge_scene": 2,
+    "worked_example_scenes": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "thinking_method": "Native spoken reasoning guidance, no inserted silence",
+    "target_minimum_seconds": 300,
+    "approval": "PENDING_FULL_LISTENING_AND_VIEWING"
+  }
 }

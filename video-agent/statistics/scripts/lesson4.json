@@ -2,17 +2,17 @@
   "id": "statistics-lesson4",
   "topic": "statistics",
   "section": "lesson4",
-  "title": "Follow change over time",
+  "title": "Read Line Graphs",
   "codes": [
     "AC9M5ST02"
   ],
   "beats": [
     {
-      "text": "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow?",
+      "text": "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow? Picture two garden tanks beside the school vegetable beds. Rain adds water and watering the plants removes it. A class records the amount on the same four school days. A line graph can help us follow change, but only when we know what its axes and units mean.",
       "chapter": "Investigate first",
       "equation": [],
       "board": [
-        "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow?"
+        "Follow observations over time"
       ],
       "rows": [],
       "line": null,
@@ -29,11 +29,11 @@
       }
     },
     {
-      "text": "Our goal is to interpret line graphs and explain what their evidence supports.",
+      "text": "Today we are learning to interpret line graphs and explain what their evidence supports. Our goal is to interpret observations over time and make careful comparisons. We want to read a particular day, calculate a change between days, and explain which conclusions are supported. Keep those three different jobs separate as we build the graph.",
       "chapter": "Our goal",
       "equation": [],
       "board": [
-        "Interpret line graphs and explain what their evidence supports."
+        "Read values \u2022 compare changes"
       ],
       "rows": [],
       "line": null,
@@ -43,14 +43,14 @@
       "role": "learning_goal",
       "pause": 0,
       "word_trigger_storyboard": {
-        "trigger_phrase": "Our goal is to interpret line graphs and explain what their evidence supports",
+        "trigger_phrase": "Today we are learning to interpret line graphs and explain what their evidence supports",
         "visual": "statistics.html#lesson4: Our goal; retain earlier relevant inputs/results",
         "reveal": "On actual aligned spoken words; timings not yet generated",
         "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
       }
     },
     {
-      "text": "I can read the time axis and the labelled scale. I can compare changes over equal time intervals. I can separate observations from uncertain predictions.",
+      "text": "I can read the time axis and the labelled scale. I can compare changes over equal time intervals. I can separate observations from uncertain predictions. Remember reading a table by matching a row label with a quantity. We will turn those table observations into points. Monday, Tuesday, Wednesday and Thursday belong in time order. Equal spaces along the time axis will represent equal one-day intervals.",
       "chapter": "Success criteria",
       "equation": [],
       "board": [
@@ -73,11 +73,11 @@
       }
     },
     {
-      "text": "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value.",
+      "text": "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value. Start with the horizontal time axis. Add the days in order and leave equal spacing. The vertical axis measures litres, starting at zero and increasing by ten litres at each marked interval. Plot Monday at ten, Tuesday at twenty, Wednesday at twenty and Thursday at forty. Join consecutive observations so the segments show changes between recorded days.",
       "chapter": "Build the idea",
       "equation": [],
       "board": [
-        "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value."
+        "Time: days \u2022 Quantity: litres"
       ],
       "rows": [],
       "line": null,
@@ -94,11 +94,11 @@
       }
     },
     {
-      "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday. Which equal daily interval rose most?",
+      "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday. Which equal daily interval rose most? Before deciding which increase is largest, look at each pair of neighbouring days. Predict the change from Monday to Tuesday, then from Tuesday to Wednesday, and finally from Wednesday to Thursday. Keep your three changes in mind. Which interval do you think has the greatest increase?",
       "chapter": "Example 1: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Predict all three daily changes"
       ],
       "rows": [],
       "line": null,
@@ -115,11 +115,11 @@
       }
     },
     {
-      "text": "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions.",
+      "text": "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions. Tuesday\u2019s twenty litres minus Monday\u2019s ten gives an increase of ten litres. The two middle readings are equal, so that interval has no change. Thursday\u2019s forty minus Wednesday\u2019s twenty gives an increase of twenty litres. That last rise is greatest. The highest reading and the largest change are different questions.",
       "chapter": "Example 1: explain",
       "equation": [],
       "board": [
-        "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions."
+        "+10 L \u2022 0 L \u2022 +20 L"
       ],
       "rows": [],
       "line": null,
@@ -136,11 +136,11 @@
       }
     },
     {
-      "text": "Tank A: 10,20,20,40 L. Tank B: 20,20,30,30 L on the same days. Which is fuller on Thursday? Can we promise Friday?",
+      "text": "Tank A: 10,20,20,40 L. Tank B: 20,20,30,30 L on the same days. Which is fuller on Thursday? Can we promise Friday? Tank B has twenty, twenty, thirty and thirty litres on the same days. It uses the same time and quantity scales. Before we reveal a comparison, find Thursday on both lines and read the two values. Which tank is fuller, and what subtraction will tell you the difference?",
       "chapter": "Example 2: predict",
       "equation": [],
       "board": [
-        "Predict before revealing the explanation."
+        "Compare both tanks on Thursday"
       ],
       "rows": [],
       "line": null,
@@ -157,11 +157,12 @@
       }
     },
     {
-      "text": "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels.",
+      "text": "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels. The solid circle line represents A, while the dashed square line represents B. On Thursday, A has forty litres and B has thirty. The difference is ten litres. On Monday, B was fuller instead. Comparing at the same time is important: a Monday point on one line and a Thursday point on the other answer a different question.",
       "chapter": "Example 2: explain",
       "equation": [],
       "board": [
-        "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels."
+        "Tank A 40 L \u2022 Tank B 30 L",
+        "40 \u2212 30 = 10 L"
       ],
       "rows": [],
       "line": null,
@@ -178,11 +179,11 @@
       }
     },
     {
-      "text": "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence.",
+      "text": "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence. The line between observations helps us see change, but it does not record every moment. A tank might be used during the day, then filled again. Friday is outside our observations. We can suggest what might happen, but the graph alone cannot promise a reading. We need new observations and information about rain or water use.",
       "chapter": "Check a common mistake",
       "equation": [],
       "board": [
-        "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence."
+        "Observations do not guarantee Friday"
       ],
       "rows": [],
       "line": null,
@@ -199,12 +200,11 @@
       }
     },
     {
-      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice. Look at two graphs of a forty-to-fifty-litre change. One vertical scale begins at zero and the other begins at forty. The second makes the rise look much larger on the page. The observations still differ by ten litres. Always read the scale labels before deciding how large a change really is.",
       "chapter": "Try an investigation",
       "equation": [],
       "board": [
-        "Pause to investigate.",
-        "Use checked data as evidence."
+        "50 \u2212 40 = 10 L on both scales"
       ],
       "rows": [],
       "line": null,
@@ -221,11 +221,11 @@
       }
     },
     {
-      "text": "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove.",
+      "text": "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove. In the explorer, change Tank A\u2019s Thursday reading. Predict which interval now has the biggest rise, then check the values. If two intervals rise by the same amount, say they tie. A flat interval has zero change, and a falling interval has a decrease. Use the day names and litres in your explanation.",
       "chapter": "Reflect",
       "equation": [],
       "board": [
-        "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove."
+        "Change one reading \u2022 check the changes"
       ],
       "rows": [],
       "line": null,
@@ -242,11 +242,11 @@
       }
     },
     {
-      "text": "Interpret line graphs and explain what their evidence supports. Check your evidence and share your reasoning with a partner.",
+      "text": "What can your line graph tell you confidently, and what does it leave uncertain? Share one claim using a day and a reading, then one claim about a change. Finish by naming one question that would need more observations. Clear axes and careful comparisons help the evidence speak.",
       "chapter": "Use your evidence",
       "equation": [],
       "board": [
-        "Interpret line graphs and explain what their evidence supports."
+        "Which claim needs more observations?"
       ],
       "rows": [],
       "line": null,
@@ -263,7 +263,20 @@
       }
     }
   ],
-  "status": "SCRIPT_ONLY_NOT_NARRATED",
-  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
-  "timing": null
+  "status": "PRODUCTION_SCRIPT_PENDING_NARRATION",
+  "renderer": "production-v2/measurement_quality.py with Statistics graphics adapter",
+  "timing": null,
+  "year_level": 5,
+  "golden_rules": {
+    "prior_knowledge_scene": 2,
+    "worked_example_scenes": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "thinking_method": "Native spoken reasoning guidance, no inserted silence",
+    "target_minimum_seconds": 300,
+    "approval": "PENDING_FULL_LISTENING_AND_VIEWING"
+  }
 }

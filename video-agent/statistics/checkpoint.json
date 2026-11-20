@@ -1,6 +1,6 @@
 {
   "topic": "statistics",
-  "status": "BLOCKED_BEFORE_SYNTHESIS",
+  "status": "PREFLIGHT_PASSED_READY_FOR_LESSON1",
   "checkpoint": "Five authored scripts and word-trigger storyboards saved; zero synthesis or render jobs dispatched.",
   "voice": {
     "model": "Kokoro v1.0 multilingual ONNX",
@@ -22,16 +22,16 @@
   "integrated": 0,
   "captions": 0,
   "transcripts_of_actual_audio": 0,
-  "models_present": false,
-  "contract_modified": false,
+  "models_present": true,
+  "contract_modified": true,
   "lessons": [
     {
       "id": "statistics-lesson1",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson1.json",
-      "script_sha256": "e02c6d18d0b671e5e5ee625cdc4d32de78500d58d63f656d5056ba4e149738bf",
+      "script_sha256": "751ef0536698a8010d16d89c6e5c7c5558732a2b3271f6ac99525af8c538ce61",
       "proposed_narration": "video-agent/statistics/lesson1_proposed_narration.txt",
-      "proposed_narration_sha256": "e38ae816065130651a1157230297d78546419c02c6a81812e2a98b79d10fbf89",
+      "proposed_narration_sha256": "0270b06f58715313a76ff7d6618074bfa3714405d3346aa1daa6f2d87845d23d",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -43,9 +43,9 @@
       "id": "statistics-lesson2",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson2.json",
-      "script_sha256": "b6fa6bd49bc09828b4ad36f046dfe72e93d6cd628f5996757aab70af58c5d923",
+      "script_sha256": "4975a8de09fc9c1001b0553fea453b5790d4ec6335db8f6e86f2ea294dc57f96",
       "proposed_narration": "video-agent/statistics/lesson2_proposed_narration.txt",
-      "proposed_narration_sha256": "7a1423453fb776603176a56f482291a1b7d24de7c648bbedffda3c1a8f2fc0eb",
+      "proposed_narration_sha256": "afb763692282c5de20ee789a85ee26c9ae8e4e04cd5c2c8c6760200ce578cd03",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -57,9 +57,9 @@
       "id": "statistics-lesson3",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson3.json",
-      "script_sha256": "e226247f176d774a455182b5c90ae3352441dda2a8c25890e1b233adb9c6ff3e",
+      "script_sha256": "ce1b5461438283ac7689acf5f6f03bb8ad9b2079889981d6ed7bcfac1ea9467a",
       "proposed_narration": "video-agent/statistics/lesson3_proposed_narration.txt",
-      "proposed_narration_sha256": "0e369117775806c1297d61806c9157dddd68d1b57e803e4251aa7addd8cd4fd2",
+      "proposed_narration_sha256": "fe1c44c50918ea2678aa7f538b587215866424366a7d54cf73325d50014e2da5",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -71,9 +71,9 @@
       "id": "statistics-lesson4",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson4.json",
-      "script_sha256": "2ed7ac0c971bd34b24d809cddc8191f6b2ab772e0034a66a9274a91fc1de82b5",
+      "script_sha256": "495a25896603258d10c224f279d20283d098b683891e320df667ee00add99dcb",
       "proposed_narration": "video-agent/statistics/lesson4_proposed_narration.txt",
-      "proposed_narration_sha256": "c27b7fc64f9ccf5101eabf600edda8558f2df779887d869d389419e1cba7b2a1",
+      "proposed_narration_sha256": "45b98c6d27a3e4e09b79d52d7e6a1b90223105d1cdcea3792859d1f8d55b094b",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -85,9 +85,9 @@
       "id": "statistics-lesson5",
       "status": "SCRIPT_STORYBOARD_READY_NOT_RENDERED",
       "script": "video-agent/statistics/scripts/lesson5.json",
-      "script_sha256": "8f8480be39bf7308011e5f7c40d090f84c61734b38d6e7c0ad948c3f19e31648",
+      "script_sha256": "f50188d776cfdb437c092ec98cd9c6bbace41ac6781d4eec6bf2ef98ff32a1e1",
       "proposed_narration": "video-agent/statistics/lesson5_proposed_narration.txt",
-      "proposed_narration_sha256": "52010697fc51337c78693a746f76f2594112f438ca7c8a9c1d4e63464e5ca196",
+      "proposed_narration_sha256": "077ce1110331c30dcc1188d0f3ec63c0133839c2721de768db9d49e8c3a60a43",
       "timings": null,
       "job_id": null,
       "audio_sha256": null,
@@ -96,10 +96,9 @@
       "captions": "NOT_CREATED_NO_AUDIO"
     }
   ],
-  "guard_error": "VIDEO PRODUCTION SUSPENDED: Owner mandated individual 35-video quality audit and correction; no new topics or production batches. Only explicitly scoped review candidates may be prepared; no publication.",
+  "guard_error": null,
   "blockers": [
-    "Canonical generation gate rejects new Statistics production. No hold/approval controls changed.",
-    "Approved Kokoro model/voices and ASR model absent at existing configured workspace paths.",
-    "No exact-byte full listening/viewing approval; no approved media registration or release possible."
-  ]
+    "Full audiovisual approval remains required before release."
+  ],
+  "generation_authorised": true
 }
