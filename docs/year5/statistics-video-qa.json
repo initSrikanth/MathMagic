@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-11-20T16:05:28+00:00",
+  "qa_checkpoint_utc": "2026-11-20T17:06:24.457002+00:00",
+  "elapsed_seconds": 3656,
+  "starting_commit": "7bd0f23f36eab18ca7d6a320bf4788fa3e856710",
+  "videos_rendered": 5,
+  "captions": 5,
+  "transcripts": 5,
+  "posters": 5,
+  "integrated_players": 0,
+  "chromium_main": {
+    "startTime": "2026-11-20T16:56:21.027Z",
+    "duration": 88888.88,
+    "expected": 50,
+    "skipped": 10,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "existing_native_video_regression": {
+    "startTime": "2026-11-20T16:59:29.230Z",
+    "duration": 14461.861,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webkit": {
+    "startTime": "2026-11-20T16:59:44.527Z",
+    "duration": 2712.43,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  },
+  "webkit_failure": "Executable absent: /home/agent/.cache/ms-playwright/webkit-2203/pw_run.sh; test bodies did not run",
+  "protected_check_scripts_passed": 19,
+  "python_contract_tests_passed": 39,
+  "independent_model_tests_passed": 8,
+  "timing_model_regression_tests_passed": 7,
+  "static_intervals_pending_review": 71,
+  "fast_visual_changes_pending_review": 21,
+  "unplanned_silence_flags": 0,
+  "voice_perception": "UNVERIFIED_PENDING_FULL_LISTENING",
+  "full_video_review": "PENDING",
+  "physical_devices_tested": false,
+  "paid_calls": 0,
+  "source_scope_check": "PASS: application lesson/assessment/auth/progress files unchanged"
+}

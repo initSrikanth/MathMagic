@@ -1,0 +1,214 @@
+{
+  "result": "passed",
+  "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+  "bytes": 9025524,
+  "duration": 325.96458333333334,
+  "audio_rms": 0.13351909816265106,
+  "clipping_fraction": 0.0,
+  "audio_correlation": 0.9999825500960952,
+  "full_decode": true,
+  "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+  "synchronisation": "Native sentence PCM boundaries; independent ASR emission timestamps for visual focus, approximate not forced alignment. Recognition/reference differences retained for human review.",
+  "perceptual_voice_review": "Not human-certified",
+  "decoded_frames": 9779,
+  "minimum_frame_luma_std": 12.305632832832034,
+  "blank_frame_candidates": 0,
+  "caption_timing_valid": true,
+  "caption_transcript_text_match": true,
+  "captions": 83,
+  "source_branding_check": "PASS",
+  "asr_branding_check": "PASS",
+  "sampled_frame_ocr_branding": "PASS",
+  "sampled_frame_count": 13,
+  "automated_branding_limitations": "ASR/OCR may miss text/speech; sampled OCR is not exhaustive. Human full listening/viewing required.",
+  "static_scene_review_flags": [
+    {
+      "start": 0.2,
+      "end": 24.2,
+      "seconds": 24.0,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 24.2,
+      "end": 42.2,
+      "seconds": 18.000000000000004,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 42.2,
+      "end": 66.0,
+      "seconds": 23.799999999999997,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 80.6,
+      "end": 108.8,
+      "seconds": 28.200000000000003,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 108.8,
+      "end": 130.6,
+      "seconds": 21.799999999999997,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 135.6,
+      "end": 144.8,
+      "seconds": 9.200000000000017,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 144.8,
+      "end": 164.4,
+      "seconds": 19.599999999999994,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 164.4,
+      "end": 190.2,
+      "seconds": 25.799999999999983,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 200.2,
+      "end": 226.0,
+      "seconds": 25.80000000000001,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 230.0,
+      "end": 254.8,
+      "seconds": 24.80000000000001,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 254.8,
+      "end": 266.8,
+      "seconds": 12.0,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 266.8,
+      "end": 284.6,
+      "seconds": 17.80000000000001,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 284.6,
+      "end": 299.4,
+      "seconds": 14.799999999999955,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 299.4,
+      "end": 310.0,
+      "seconds": 10.600000000000023,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    },
+    {
+      "start": 312.4,
+      "end": 326.0,
+      "seconds": 13.600000000000023,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded picture remains substantially unchanged >8s; review persistence and teaching purpose."
+    }
+  ],
+  "rushed_reveal_flags": [
+    {
+      "start": 0,
+      "end": 0.2,
+      "seconds": 0.2,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded visual state lasts <0.9s; review whether this is meaningful focus or an unwanted flash."
+    },
+    {
+      "start": 68.4,
+      "end": 69.0,
+      "seconds": 0.5999999999999943,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded visual state lasts <0.9s; review whether this is meaningful focus or an unwanted flash."
+    },
+    {
+      "start": 196.2,
+      "end": 196.8,
+      "seconds": 0.6000000000000227,
+      "status": "PENDING_HUMAN_REVIEW",
+      "reason": "Decoded visual state lasts <0.9s; review whether this is meaningful focus or an unwanted flash."
+    }
+  ],
+  "inserted_silence_samples": 240000,
+  "pause_purpose": "Two owner-requested five-second prediction opportunities; never visual compensation/duration padding",
+  "meaningful_narration_seconds": 315.96458333333334,
+  "planned_prediction_pauses": [
+    [
+      130.50849999999997,
+      135.50849999999997,
+      "Owner-requested prediction pause, not graphics compensation"
+    ],
+    [
+      190.1442916666666,
+      195.1442916666666,
+      "Owner-requested prediction pause, not graphics compensation"
+    ]
+  ],
+  "perceptual_review": "PENDING_FULL_LISTENING_AND_VIEWING",
+  "accent_status": "UNVERIFIED",
+  "expressiveness_status": "UNVERIFIED",
+  "pedagogical_review": "PENDING",
+  "physical_ios": "NOT_TESTED",
+  "approval_status": "PENDING",
+  "published": false,
+  "script_sha256": "751ef0536698a8010d16d89c6e5c7c5558732a2b3271f6ac99525af8c538ce61",
+  "graphics_source_sha256": "cdf897a17aa13616b4065930e9d233723dad0c70850a903806ca42e7b07c2fff",
+  "objective_graphics_correction": {
+    "reason": "Sentence-local/cached board timing could expose a future summary briefly; parent-word events now persist.",
+    "previous_video_sha256": "d29220eca72e448c9a1dd28744717cc6a763e4f8c81c61fa67b739d27833760a",
+    "corrected_clips": 73,
+    "unchanged_narration_sha256": "7f5aa4ca4ff7760e12d51c8e207f40e296c902fdbd4e607906abe8658f2d6f1a",
+    "unchanged_native_narration_sha256": "c809b5b52008ae494e96eb703b118f1bc8aec294f7ba689f7614b39892d503f1",
+    "speech_regenerated": false,
+    "speech_pitch_or_time_changed": false,
+    "previous_outputs_preserved_outside_website": true
+  },
+  "timing_adapter_source_sha256": "5087c71c6c54809e55eb8b39ac863eda34e618500befe5e8816eb052fad23d2b",
+  "approval_reviewer": null,
+  "approval_review_date": null,
+  "perceptual_audio_listened": false,
+  "perceptual_full_video_viewed": false,
+  "decoded_picture_audit": {
+    "method": "5fps decoded 96x54 luma, mean absolute adjacent difference >0.4 is a change",
+    "timing_resolution_seconds": 0.2,
+    "sampled_frames": 1630,
+    "limitations": "Compression noise/very small changes can affect detection; sampled pictures do not replace full viewing."
+  },
+  "silence_over_1_5_seconds": [
+    {
+      "start": 130.5,
+      "end": 135.6,
+      "planned_prediction_opportunity": true,
+      "status": "PLANNED"
+    },
+    {
+      "start": 190.1,
+      "end": 195.2,
+      "planned_prediction_opportunity": true,
+      "status": "PLANNED"
+    }
+  ],
+  "unplanned_silence_flags": []
+}

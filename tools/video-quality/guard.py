@@ -5,7 +5,10 @@ HERE=Path(__file__).resolve().parent
 if str(HERE) not in sys.path:sys.path.insert(0,str(HERE))
 from contract import assert_generation_allowed,assert_release,load,REGISTER
 
-def enforce():
+def enforce(purpose=None,lessons=None,voice=None):
+ if purpose is not None:
+  assert purpose=='statistics_production', 'Only the Statistics-specific generation entry is permitted here'
+  return assert_generation_allowed(purpose,lessons,voice)
  c=load()
  # The current hold takes precedence before any synthesis, rendering or publication.
  if c['production_hold']['active']:return assert_generation_allowed()

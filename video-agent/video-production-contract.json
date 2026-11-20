@@ -210,5 +210,43 @@
       "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
       "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f"
     }
+  },
+  "statistics_generation_authorisation": {
+    "authorised": true,
+    "recorded_on": "2026-11-20",
+    "authority": "Current explicit owner mission: COMPLETE ALL FIVE YEAR 5 STATISTICS INSTRUCTIONAL VIDEOS. I am explicitly authorising new-topic video generation for Year 5 Statistics only.",
+    "starting_checkpoint": "7bd0f23f36eab18ca7d6a320bf4788fa3e856710",
+    "purpose": "statistics_production",
+    "topic": "statistics",
+    "year_level": 5,
+    "lesson_ids": [
+      "statistics-lesson1",
+      "statistics-lesson2",
+      "statistics-lesson3",
+      "statistics-lesson4",
+      "statistics-lesson5"
+    ],
+    "curriculum_codes": [
+      "AC9M5ST01",
+      "AC9M5ST02",
+      "AC9M5ST03"
+    ],
+    "voice": "hf_alpha",
+    "speaker_id": 31,
+    "phonemizer": "en",
+    "model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+    "voices_sha256": "1c5a5b983d3d50d8586d437a51f3faa2da7919ce76a013c081e65671a3447c29",
+    "graphics_only": true,
+    "paid_services_allowed": false,
+    "scope": "Generate exactly five Statistics review candidates with the approved native Kokoro configuration and existing production-v2 tools. This grants generation only. Unrelated topic holds and all release/perceptual review safeguards remain unchanged.",
+    "publication_authorised": false,
+    "full_perceptual_review_required": true,
+    "minimum_meaningful_instruction_seconds": 300,
+    "thinking_opportunity": {
+      "target_seconds": 5,
+      "scope": "Statistics prediction and reasoning opportunities only",
+      "method": "Two explicitly planned five-second prediction pauses per video, between completed native utterances, with unrevealed input models. Record exact intervals separately; require at least300 seconds of meaningful narration excluding these pauses. Never add silence to compensate for visuals or to meet duration."
+    },
+    "required_learning_phrase": "Today we are learning"
   }
 }
