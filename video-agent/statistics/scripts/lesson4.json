@@ -1,0 +1,269 @@
+{
+  "id": "statistics-lesson4",
+  "topic": "statistics",
+  "section": "lesson4",
+  "title": "Follow change over time",
+  "codes": [
+    "AC9M5ST02"
+  ],
+  "beats": [
+    {
+      "text": "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow?",
+      "chapter": "Investigate first",
+      "equation": [],
+      "board": [
+        "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "hook",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "The school garden tank is filling",
+        "visual": "statistics.html#lesson4: Investigate first; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Our goal is to interpret line graphs and explain what their evidence supports.",
+      "chapter": "Our goal",
+      "equation": [],
+      "board": [
+        "Interpret line graphs and explain what their evidence supports."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Our goal is to interpret line graphs and explain what their evidence supports",
+        "visual": "statistics.html#lesson4: Our goal; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "I can read the time axis and the labelled scale. I can compare changes over equal time intervals. I can separate observations from uncertain predictions.",
+      "chapter": "Success criteria",
+      "equation": [],
+      "board": [
+        "Read the time axis and the labelled scale.",
+        "Compare changes over equal time intervals.",
+        "Separate observations from uncertain predictions."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "I can read the time axis and the labelled scale",
+        "visual": "statistics.html#lesson4: Success criteria; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [
+        "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "A line graph shows observations in time order",
+        "visual": "statistics.html#lesson4: Build the idea; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday. Which equal daily interval rose most?",
+      "chapter": "Example 1: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday",
+        "visual": "statistics.html#lesson4 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Changes are +10 L, 0 L and +20 L",
+        "visual": "statistics.html#lesson4: Example 1: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Tank A: 10,20,20,40 L. Tank B: 20,20,30,30 L on the same days. Which is fuller on Thursday? Can we promise Friday?",
+      "chapter": "Example 2: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Tank A: 10,20,20,40 L",
+        "visual": "statistics.html#lesson4 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "A has 40 L and B has 30 L on Thursday, a difference of 10 L",
+        "visual": "statistics.html#lesson4: Example 2: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence.",
+      "chapter": "Check a common mistake",
+      "equation": [],
+      "board": [
+        "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "\u201cA rising line must keep rising",
+        "visual": "statistics.html#lesson4: Check a common mistake; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "chapter": "Try an investigation",
+      "equation": [],
+      "board": [
+        "Pause to investigate.",
+        "Use checked data as evidence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Pause the player and try the investigation in the written lesson",
+        "visual": "statistics.html#lesson4 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove.",
+      "chapter": "Reflect",
+      "equation": [],
+      "board": [
+        "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "reflection",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Describe one interval using its two days and change in litres",
+        "visual": "statistics.html#lesson4: Reflect; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Interpret line graphs and explain what their evidence supports. Check your evidence and share your reasoning with a partner.",
+      "chapter": "Use your evidence",
+      "equation": [],
+      "board": [
+        "Interpret line graphs and explain what their evidence supports."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Interpret line graphs and explain what their evidence supports",
+        "visual": "statistics.html#lesson4: Use your evidence; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    }
+  ],
+  "status": "SCRIPT_ONLY_NOT_NARRATED",
+  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
+  "timing": null
+}

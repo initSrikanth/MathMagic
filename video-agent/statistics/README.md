@@ -1,0 +1,9 @@
+# Statistics video checkpoint
+
+Five scripts, proposed narration texts and word-trigger storyboards are preserved in this directory. These are **not completed videos, actual-audio transcripts or timed captions**. No synthesis jobs, paid calls, new MP4 paths, registration or page-player integration occurred.
+
+Observed blocker: `tools/video-quality/contract.py:assert_generation_allowed('production', ...)` raises the error recorded in `checkpoint.json`. The existing guard has no Statistics authorisation. The approved Kokoro model/voice and ASR directories are also absent. The current task authorises Statistics work, but explicitly forbids changing Golden Rules or bypassing controls, so no guard exception or alternate renderer was introduced.
+
+Resume point: use the existing `production-v2/measurement_quality.py` native hf_alpha (31), en Kokoro synthesis/render functions and approved hashes from the contract once the canonical gate permits Statistics and those exact models are provisioned. Add the topic's chart/table drawing adapter to that renderer, using the completed browser SVGs/storyboards as geometry references. Do not use Space's special authorisation or its inserted-pause code. Generate actual native narration, derive/cross-check word events, then render each lesson once with persistent necessary working and hidden prediction answers. Emit captions/transcripts from the actual audio, full decode and inspect final outputs; obtain exact-byte full audiovisual review before any approved registration/integration. Use the existing media-quality/CI procedures; do not add a registry or mark these candidates approved.
+
+Required human reviews: mathematical/pedagogical viewing, full listening for narration/accent/expressiveness, mobile legibility, all flagged intervals, and approval bound to exact video hashes. Browser tests deliberately mark the five absent media bundles as blocked.

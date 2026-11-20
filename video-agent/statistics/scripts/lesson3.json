@@ -1,0 +1,270 @@
+{
+  "id": "statistics-lesson3",
+  "topic": "statistics",
+  "section": "lesson3",
+  "title": "Read the whole distribution",
+  "codes": [
+    "AC9M5ST01",
+    "AC9M5ST03"
+  ],
+  "beats": [
+    {
+      "text": "Two classes both have a mode of two library books. Must their borrowing patterns look the same?",
+      "chapter": "Investigate first",
+      "equation": [],
+      "board": [
+        "Two classes both have a mode of two library books. Must their borrowing patterns look the same?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "hook",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Two classes both have a mode of two library books",
+        "visual": "statistics.html#lesson3: Investigate first; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Our goal is to describe the mode and shape of a data distribution in context.",
+      "chapter": "Our goal",
+      "equation": [],
+      "board": [
+        "Describe the mode and shape of a data distribution in context."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Our goal is to describe the mode and shape of a data distribution in context",
+        "visual": "statistics.html#lesson3: Our goal; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "I can identify the most frequent value or category. I can describe clusters, gaps and how frequencies are spread. I can compare two distributions using evidence.",
+      "chapter": "Success criteria",
+      "equation": [],
+      "board": [
+        "Identify the most frequent value or category.",
+        "Describe clusters, gaps and how frequencies are spread.",
+        "Compare two distributions using evidence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "I can identify the most frequent value or category",
+        "visual": "statistics.html#lesson3: Success criteria; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [
+        "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "The mode is the value or category with the highest frequency, not the frequency itself",
+        "visual": "statistics.html#lesson3: Build the idea; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Books borrowed: 0, 1, 2, 2, 2, 3, 4. What is the mode, and what does it mean?",
+      "chapter": "Example 1: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Books borrowed: 0, 1, 2, 2, 2, 3, 4",
+        "visual": "statistics.html#lesson3 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Two books is the mode because three pupils borrowed two books",
+        "visual": "statistics.html#lesson3: Example 1: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1. Class B: 0,0,5,4,2. What stays the same?",
+      "chapter": "Example 2: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1",
+        "visual": "statistics.html#lesson3 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Both have a mode of 2 books",
+        "visual": "statistics.html#lesson3: Example 2: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group.",
+      "chapter": "Check a common mistake",
+      "equation": [],
+      "board": [
+        "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "\u201cThe mode describes everyone",
+        "visual": "statistics.html#lesson3: Check a common mistake; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "chapter": "Try an investigation",
+      "equation": [],
+      "board": [
+        "Pause to investigate.",
+        "Use checked data as evidence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Pause the player and try the investigation in the written lesson",
+        "visual": "statistics.html#lesson3 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story.",
+      "chapter": "Reflect",
+      "equation": [],
+      "board": [
+        "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "reflection",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Change the frequencies in the explorer",
+        "visual": "statistics.html#lesson3: Reflect; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Describe the mode and shape of a data distribution in context. Check your evidence and share your reasoning with a partner.",
+      "chapter": "Use your evidence",
+      "equation": [],
+      "board": [
+        "Describe the mode and shape of a data distribution in context."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Describe the mode and shape of a data distribution in context",
+        "visual": "statistics.html#lesson3: Use your evidence; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    }
+  ],
+  "status": "SCRIPT_ONLY_NOT_NARRATED",
+  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
+  "timing": null
+}

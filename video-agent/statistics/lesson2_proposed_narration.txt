@@ -1,0 +1,23 @@
+The canteen has a list of snack votes, but “apple” and “Apple” appear as different choices. Will the graph tell the right story?
+
+Our goal is to turn checked responses into a trustworthy frequency display.
+
+I can spot missing, invalid and repeated records. I can make a frequency table that counts every valid response once. I can use a digital table or spreadsheet to represent data.
+
+Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer.
+
+Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana. How many valid votes are there?
+
+Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal.
+
+Put one vote in each cell A2 to A7. In C2 type Apple. What does =COUNTIF(A2:A7,C2) find?
+
+It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero.
+
+“Remove every repeated answer.” Only repeated records for the same pupil need checking. Different pupils may choose the same snack.
+
+Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.
+
+Explain one check you made before counting and one way to check the finished table.
+
+Turn checked responses into a trustworthy frequency display. Check your evidence and share your reasoning with a partner.

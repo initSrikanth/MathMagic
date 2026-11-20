@@ -1,0 +1,270 @@
+{
+  "id": "statistics-lesson2",
+  "topic": "statistics",
+  "section": "lesson2",
+  "title": "Check, count and display",
+  "codes": [
+    "AC9M5ST01",
+    "AC9M5ST03"
+  ],
+  "beats": [
+    {
+      "text": "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story?",
+      "chapter": "Investigate first",
+      "equation": [],
+      "board": [
+        "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story?"
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "hook",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices",
+        "visual": "statistics.html#lesson2: Investigate first; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Our goal is to turn checked responses into a trustworthy frequency display.",
+      "chapter": "Our goal",
+      "equation": [],
+      "board": [
+        "Turn checked responses into a trustworthy frequency display."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "learning_goal",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Our goal is to turn checked responses into a trustworthy frequency display",
+        "visual": "statistics.html#lesson2: Our goal; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "I can spot missing, invalid and repeated records. I can make a frequency table that counts every valid response once. I can use a digital table or spreadsheet to represent data.",
+      "chapter": "Success criteria",
+      "equation": [],
+      "board": [
+        "Spot missing, invalid and repeated records.",
+        "Make a frequency table that counts every valid response once.",
+        "Use a digital table or spreadsheet to represent data."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "success_criteria",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "I can spot missing, invalid and repeated records",
+        "visual": "statistics.html#lesson2: Success criteria; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer.",
+      "chapter": "Build the idea",
+      "equation": [],
+      "board": [
+        "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "explanation",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Frequency means how often a category or value occurs",
+        "visual": "statistics.html#lesson2: Build the idea; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana. How many valid votes are there?",
+      "chapter": "Example 1: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana",
+        "visual": "statistics.html#lesson2 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal.",
+      "chapter": "Example 1: explain",
+      "equation": [],
+      "board": [
+        "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1",
+        "visual": "statistics.html#lesson2: Example 1: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Put one vote in each cell A2 to A7. In C2 type Apple. What does =COUNTIF(A2:A7,C2) find?",
+      "chapter": "Example 2: predict",
+      "equation": [],
+      "board": [
+        "Predict before revealing the explanation."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Put one vote in each cell A2 to A7",
+        "visual": "statistics.html#lesson2 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero.",
+      "chapter": "Example 2: explain",
+      "equation": [],
+      "board": [
+        "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "answer",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "It counts the cells matching Apple",
+        "visual": "statistics.html#lesson2: Example 2: explain; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack.",
+      "chapter": "Check a common mistake",
+      "equation": [],
+      "board": [
+        "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "misconception",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "\u201cRemove every repeated answer",
+        "visual": "statistics.html#lesson2: Check a common mistake; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Pause the player and try the investigation in the written lesson. Make a prediction, collect or change the data, then explain what you notice.",
+      "chapter": "Try an investigation",
+      "equation": [],
+      "board": [
+        "Pause to investigate.",
+        "Use checked data as evidence."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "question",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Pause the player and try the investigation in the written lesson",
+        "visual": "statistics.html#lesson2 conceptual chart/table; show only question inputs until answer scene",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Explain one check you made before counting and one way to check the finished table.",
+      "chapter": "Reflect",
+      "equation": [],
+      "board": [
+        "Explain one check you made before counting and one way to check the finished table."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "reflection",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Explain one check you made before counting and one way to check the finished table",
+        "visual": "statistics.html#lesson2: Reflect; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    },
+    {
+      "text": "Turn checked responses into a trustworthy frequency display. Check your evidence and share your reasoning with a partner.",
+      "chapter": "Use your evidence",
+      "equation": [],
+      "board": [
+        "Turn checked responses into a trustworthy frequency display."
+      ],
+      "rows": [],
+      "line": null,
+      "area": null,
+      "context": null,
+      "note": "",
+      "role": "recap",
+      "pause": 0,
+      "word_trigger_storyboard": {
+        "trigger_phrase": "Turn checked responses into a trustworthy frequency display",
+        "visual": "statistics.html#lesson2: Use your evidence; retain earlier relevant inputs/results",
+        "reveal": "On actual aligned spoken words; timings not yet generated",
+        "animation": "Progressively highlight categories, frequency counts or consecutive time intervals; do not freeze for speech or insert silence"
+      }
+    }
+  ],
+  "status": "SCRIPT_ONLY_NOT_NARRATED",
+  "renderer": "Existing production-v2 measurement_quality synth/render; statistics chart drawing adapter still required after guard permits generation",
+  "timing": null
+}

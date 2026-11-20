@@ -25,6 +25,18 @@ service cloud.firestore {
     && request.resource.data.proficient is bool && request.resource.data.completedAttemptIds is list
     && request.resource.data.completedAttemptIds.toSet().size() == request.resource.data.completedAttemptIds.size();
   }
+  // Statistics policy fixture only; production rules remain unverified.
+  match /progress/{uid}/topics/statistics {
+   allow read: if approved() && request.auth.uid == uid;
+   allow write: if approved() && request.auth.uid == uid
+    && request.resource.data.keys().hasOnly(['attempts','bestScore','lastScore','proficient','lastCompletedAt','completedAttemptIds','completedLessons'])
+    && request.resource.data.attempts is int && request.resource.data.attempts >= 0
+    && request.resource.data.bestScore is int && request.resource.data.bestScore >= 0 && request.resource.data.bestScore <=30
+    && request.resource.data.lastScore is int && request.resource.data.lastScore >=0 && request.resource.data.lastScore <= request.resource.data.bestScore
+    && request.resource.data.completedLessons is list && request.resource.data.completedLessons.toSet().hasOnly([1,2,3,4,5])
+    && request.resource.data.proficient is bool && request.resource.data.completedAttemptIds is list
+    && request.resource.data.completedAttemptIds.toSet().size() == request.resource.data.completedAttemptIds.size();
+  }
   match /{document=**}{allow read,write:if false;}
  }
 }
