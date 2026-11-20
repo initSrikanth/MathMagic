@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Ask a question worth investigating",
+    "short": "Ask",
+    "goal": "Plan a fair way to collect useful data.",
+    "criteria": [
+      "Tell names, ordered groups and counts apart.",
+      "Pose a question that allows different answers.",
+      "Choose who to ask and how to record one response each."
+    ],
+    "hook": "Our school wants a new lunchtime club. Would asking only your football team tell us what all Year 5 pupils want?",
+    "concept": "Data are pieces of information. Nominal categories are names with no natural order, such as art, sport and music. Ordinal categories have an order, such as low, medium and high interest. Discrete numerical data are counts, such as the number of library books borrowed. A statistical question expects different answers across a group.",
+    "examples": [
+      [
+        "Predict before opening",
+        "Which club would each Year 5 pupil choose: art, sport, music or another club?",
+        "This asks about a group and expects variation. Ask every Year 5 class using the same options, once per pupil. Include another option so pupils are not forced into a poor match."
+      ],
+      [
+        "Sort the evidence",
+        "We record club choice, interest level and number of club visits last term. Which can be put in order?",
+        "Club choice is nominal. Interest level is ordinal: low, medium, high. Visits are discrete numbers: 0, 1, 2 and so on. A pupil number is a label, not a count of something."
+      ]
+    ],
+    "misconception": "\u201cNumbers always mean numerical data.\u201d A sports shirt number is a name label. Ask what the value describes, not just how it looks.",
+    "exit": "Write a question for a school decision. Name the group you will ask, the variable you will collect and how you will avoid counting anyone twice.",
+    "tool": "sort"
+  },
+  {
+    "title": "Check, count and display",
+    "short": "Check",
+    "goal": "Turn checked responses into a trustworthy frequency display.",
+    "criteria": [
+      "Spot missing, invalid and repeated records.",
+      "Make a frequency table that counts every valid response once.",
+      "Use a digital table or spreadsheet to represent data."
+    ],
+    "hook": "The canteen has a list of snack votes, but \u201capple\u201d and \u201cApple\u201d appear as different choices. Will the graph tell the right story?",
+    "concept": "Frequency means how often a category or value occurs. Validate means check the data against the question and collection rules before counting. Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records. Matching answers from different pupils are not duplicates. Never quietly invent a missing answer.",
+    "examples": [
+      [
+        "Predict the total",
+        "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana. How many valid votes are there?",
+        "Standardise apple to Apple: Apple 3, Banana 2, Pear 1. The total is 3 + 2 + 1 = 6. All six votes count; repeated snack choices are normal."
+      ],
+      [
+        "Use a spreadsheet",
+        "Put one vote in each cell A2 to A7. In C2 type Apple. What does =COUNTIF(A2:A7,C2) find?",
+        "It counts the cells matching Apple. Use a row for each category and check that the frequencies sum to six. A column graph has separated equal-width bars, category labels and a frequency scale starting at zero."
+      ]
+    ],
+    "misconception": "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking. Different pupils may choose the same snack.",
+    "exit": "Explain one check you made before counting and one way to check the finished table.",
+    "tool": "table"
+  },
+  {
+    "title": "Read the whole distribution",
+    "short": "Explore",
+    "goal": "Describe the mode and shape of a data distribution in context.",
+    "criteria": [
+      "Identify the most frequent value or category.",
+      "Describe clusters, gaps and how frequencies are spread.",
+      "Compare two distributions using evidence."
+    ],
+    "hook": "Two classes both have a mode of two library books. Must their borrowing patterns look the same?",
+    "concept": "The mode is the value or category with the highest frequency, not the frequency itself. Two values can tie for the highest frequency. If all observed values occur equally often, there is no useful mode. A distribution shows how all the responses are spread. Describe where most values gather, any gaps and whether counts are balanced or trail to one side. Keep zero-frequency counts to show gaps.",
+    "examples": [
+      [
+        "Predict the mode",
+        "Books borrowed: 0, 1, 2, 2, 2, 3, 4. What is the mode, and what does it mean?",
+        "Two books is the mode because three pupils borrowed two books. Most values gather around two; the frequencies on either side are balanced. The mode is 2 books, not 3 pupils."
+      ],
+      [
+        "Same mode, different story",
+        "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1. Class B: 0,0,5,4,2. What stays the same?",
+        "Both have a mode of 2 books. A is balanced around 2. B has no pupils at 0 or 1 and all values are 2 to 4. A shared mode does not describe the whole distribution. If two bars tie at the top, report both modes."
+      ]
+    ],
+    "misconception": "\u201cThe mode describes everyone.\u201d It describes the most common value. Look at all the bars before making a claim about a group.",
+    "exit": "Change the frequencies in the explorer. Describe a cluster or gap and explain why the mode alone misses part of the story.",
+    "tool": "distribution"
+  },
+  {
+    "title": "Follow change over time",
+    "short": "Track",
+    "goal": "Interpret line graphs and explain what their evidence supports.",
+    "criteria": [
+      "Read the time axis and the labelled scale.",
+      "Compare changes over equal time intervals.",
+      "Separate observations from uncertain predictions."
+    ],
+    "hook": "The school garden tank is filling. A rising line looks promising, but can we promise what the tank will hold tomorrow?",
+    "concept": "A line graph shows observations in time order. The horizontal axis shows time and the vertical axis shows the measured quantity and unit. Equal spaces must mean equal time intervals. Read the scale before comparing heights. A rising segment means an increase, a falling one a decrease and a flat one no change. The line connects observations; it does not prove every value between them or any future value.",
+    "examples": [
+      [
+        "Predict the biggest rise",
+        "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday. Which equal daily interval rose most?",
+        "Changes are +10 L, 0 L and +20 L. Wednesday to Thursday rose most. The highest point and the largest rise answer different questions."
+      ],
+      [
+        "Compare carefully",
+        "Tank A: 10,20,20,40 L. Tank B: 20,20,30,30 L on the same days. Which is fuller on Thursday? Can we promise Friday?",
+        "A has 40 L and B has 30 L on Thursday, a difference of 10 L. We need new observations for Friday: rain and water use may change. If a vertical axis starts above zero, a small change can look dramatic; read the labels."
+      ]
+    ],
+    "misconception": "\u201cA rising line must keep rising.\u201d It records what happened during the shown times. A forecast is uncertain and needs extra evidence.",
+    "exit": "Describe one interval using its two days and change in litres. Write one claim the graph cannot prove.",
+    "tool": "line"
+  },
+  {
+    "title": "Make a decision with evidence",
+    "short": "Investigate",
+    "goal": "Conduct an investigation and communicate a careful conclusion.",
+    "criteria": [
+      "Pose a useful question and collect relevant checked data.",
+      "Choose a display and interpret its mode and shape.",
+      "Report evidence, a limitation and a sensible next question."
+    ],
+    "hook": "Your class can choose one library display theme. How can we make a recommendation that listens to the class?",
+    "concept": "Use a cycle: question \u2192 plan \u2192 collect \u2192 check \u2192 display \u2192 interpret \u2192 communicate. Name the group, keep the collection fair and record one anonymous response per pupil. Choose a column graph for named choices, ordered columns for ratings or counts, and a line graph for change over time. A sample tells us about those asked; do not automatically speak for the whole school.",
+    "examples": [
+      [
+        "Design before collecting",
+        "We want to know which theme our class prefers: animals, space or sport. Is \u201cYou love space, don\u2019t you?\u201d a fair survey?",
+        "Ask \u201cWhich of these themes would you choose?\u201d using the same options for everyone, with another option too. Ask all class members once, allow a private response and record no names in the report."
+      ],
+      [
+        "Make the evidence useful",
+        "Ten classmates vote: Animals 4, Space 3, Sport 2, Other 1. Which recommendation is supported?",
+        "Animals is the modal choice: 4 of 10 votes. It leads, but 6 classmates chose something else. Recommend an animals display for this class while noting that absent pupils were not asked. Ask them before a final decision; do not claim the whole school agrees."
+      ]
+    ],
+    "misconception": "\u201cThe most popular choice is a majority.\u201d A majority is more than half. Four out of ten leads this vote but is not more than half.",
+    "exit": "Use your investigation report to explain a decision, its evidence, who it applies to, and what you would check next.",
+    "tool": "investigation"
+  }
+]

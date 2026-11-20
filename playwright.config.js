@@ -20,6 +20,7 @@ module.exports = defineConfig({
   projects: [
     { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'], channel: process.env.CI ? 'chrome' : undefined } },
     { name: 'mobile-chromium', use: { ...devices['Pixel 7'], channel: process.env.CI ? 'chrome' : undefined } },
+    { name: 'statistics-webkit', testMatch: /statistics\.spec\.js/, use: { ...devices['Desktop Safari'], browserName: 'webkit' } },
     { name: 'measurement-webkit', testMatch: /measurement(?:-videos)?\.spec\.js/, use: { ...devices['Desktop Safari'], browserName: 'webkit' } }
   ]
 });
