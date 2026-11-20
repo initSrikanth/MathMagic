@@ -1,5 +1,7 @@
 # Year 5 Statistics — QA and recoverable delivery
 
+> Video-production update: the separate owner-authorised five-video task has completed the review bundles. See [current video QA](statistics-video-qa.md) and `video-agent/statistics/checkpoint.json`. The results below preserve the earlier topic-delivery checkpoint at 7bd0f23 and its historical blockers.
+
 Implementation commit: `ce25e618a749f8c590fdc81a0e53b0a60acba9bb` (following initial checkpoint `83e9930`). Base: `047666034299b6e6726e1e7a1d56eee8374aa74a`. Draft PR: https://github.com/initSrikanth/MathMagic/pull/60. No merge, deployment, PR59 changes or production Firebase writes.
 
 Delivery: five written constructivist lessons, five interactive experiences, 30-question assessment with six bands, worked correct/incorrect feedback, approved-user Firebase-compatible progress and dashboard. Title is configurable in `js/statistics-config.js`. Data tools accept nominal choices, ordered ratings and discrete counts; reject invalid/missing responses; retain real repeated choices; export a checked spreadsheet CSV. The investigation report checklist explicitly requires partner/teacher reasoning review.
