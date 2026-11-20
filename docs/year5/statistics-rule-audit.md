@@ -1,6 +1,6 @@
 # Statistics implementation audit
 
-Against canonical AGENTS.md and unchanged video-production-contract.json. PASS means scoped evidence below, never a production-release certificate. New module release is **BLOCKED** by required video deliverables and unexecuted WebKit/emulator checks. No merge or deployment requested or performed.
+Against canonical AGENTS.md and unchanged video-production-contract.json. PASS means scoped evidence below, never a production-release certificate. New module release is **BLOCKED** by required video deliverables and unexecuted local WebKit checks (CI emulator step passed). No merge or deployment requested or performed.
 
 | Rule | Status | Evidence |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Against canonical AGENTS.md and unchanged video-production-contract.json. PASS m
 | Semantic/navigation/keyboard access | PASS | Labelled controls, table headers/captions, SVG names, heading focus, visible outlines, Enter/range-key tests |
 | Responsive containment | PASS | Automated 390/768/1280 checks; sampled actual screenshots; larger mobile chart labels |
 | WebKit/mobile Safari-compatible verification | FAIL | Suite configured, but WebKit absent and download hosts return 403; not an iOS claim |
-| Existing topic regression | PENDING | See final QA report for actual broad-suite result |
+| Existing topic regression | PASS | All 222 pre-existing Chromium cases passed; broad total244 passed/10 Statistics media skips; unit/geometry checks passed |
 | Firebase approved-user fail-closed pattern | PASS | Existing SDK pattern; approval checked at load/write; stale service rejected |
 | Firebase UID/topic paths | PASS | progress/{uid}/topics/statistics and scoped cache; actual adapter mocks |
 | Transactional attempt idempotence | PASS | Stable UUID, completed IDs, concurrent/lost-ack tests and refresh retry |
@@ -50,7 +50,7 @@ Against canonical AGENTS.md and unchanged video-production-contract.json. PASS m
 | Cache only a mirror | PASS | Missing remote progress starts empty; no cache score promotion for this new topic |
 | No authoritative browser-score security claim | PASS | Transitional baseline explicitly documented; no protected-only topic downgraded |
 | No production auth bypass | PASS | Only test routing mocks; no runtime test switch |
-| Real emulator adapter/rules verification | FAIL | Added isolated rules/test, emulator jar download 403; mocks are distinct evidence |
+| Real emulator adapter/rules verification | PASS | Actual adapter + isolated demo rules passed existing Actions step 11 on ce25e61; local JAR download blocked. No live Firebase claim |
 | Live Firebase/rules/App Check/cross-device | FAIL | Unverified production checks; no deployment or live student writes |
 | External-resource pass and copyright | PASS | Sources evaluated; useful ABS teacher link; no unreviewed copied/embedded material |
 | Configurable product title | PASS | statistics-config.js used by page and dashboard; override browser test |
@@ -66,4 +66,4 @@ Against canonical AGENTS.md and unchanged video-production-contract.json. PASS m
 | Existing GitHub Actions reused | PASS | Existing Browser QA gains Statistics unit/emulator checks and WebKit project |
 | Exact-final-head Actions checks | PENDING | Draft PR will run existing workflow; no green result inferred |
 | No merge or deployment | PASS | Delivery limited to draft PR |
-| Honest final counts, limitations and production time | PENDING | Final QA report records observed results and elapsed UTC time |
+| Honest final counts, limitations and production time | PASS | statistics-qa.md and statistics-qa-results.json record actual counts, exclusions and elapsed UTC time |
