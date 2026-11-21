@@ -63,12 +63,15 @@ def prepare():
  return preview
 
 def apply():
- s=verify_candidates();require_approval(s)
+ s=verify_candidates();approval=require_approval(s)
  page=integrated_html(s);(ROOT/'statistics.html').write_text(page)
  # Registration remains in the existing topic checkpoint; approval evidence is separate.
  s['integrated']=5
- for row in s['lessons']:row['status']='APPROVED_FOR_INTEGRATION';row['approval_status']='APPROVED'
- s['human_approval_status']='APPROVED_ALL_FIVE';s['media_registration_status']='APPROVED_EXACT_BYTE_HUMAN_RECORD';s['human_approval_record']='video-agent/statistics/approval.json';CHECKPOINT.write_text(json.dumps(s,indent=2)+'\n')
+ for row,review in zip(s['lessons'],approval['videos']):
+  row.update(status='APPROVED_FOR_INTEGRATION',approval_status='APPROVED',perceptual_review='HUMAN_APPROVED_EXACT_BYTES',reviewer=review['reviewer'],review_date=review['reviewed_at'])
+ s.update(status='APPROVED_REGISTERED_PENDING_DEPLOYMENT',checkpoint='Five checksum-bound human approvals recorded; complete players integrated; deployment still pending.',human_approval_status='APPROVED_ALL_FIVE',media_registration_status='APPROVED_EXACT_BYTE_HUMAN_RECORD',human_approval_record='video-agent/statistics/approval.json',blockers=['Final-head required checks, authorised merge/Pages deployment and live verification.'])
+ s.setdefault('release_preparation',{}).update(production_players_integrated=5,approval_granted=True)
+ CHECKPOINT.write_text(json.dumps(s,indent=2)+'\n')
  return ROOT/'statistics.html'
 
 def assert_integrated_release():
