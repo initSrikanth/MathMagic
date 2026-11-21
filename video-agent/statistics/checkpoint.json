@@ -1,7 +1,7 @@
 {
   "topic": "statistics",
-  "status": "FIVE_REVIEW_BUNDLES_PACKAGED_NOT_PUBLISHED",
-  "checkpoint": "Five authored scripts and word-trigger storyboards saved; zero synthesis or render jobs dispatched.",
+  "status": "RELEASE_PREPARED_BLOCKED_HUMAN_APPROVAL",
+  "checkpoint": "Five complete review videos and sidecars preserved; release integration prepared separately; full human audiovisual approval remains pending.",
   "voice": {
     "model": "Kokoro v1.0 multilingual ONNX",
     "voice": "hf_alpha",
@@ -310,5 +310,25 @@
   },
   "media_registration_status": "PENDING_APPROVAL_CHECKSUM_BOUND_IN_EXISTING_TOPIC_CHECKPOINT",
   "human_approval_status": "PENDING_ALL_FIVE",
-  "mobile_review_findings": "390px Chromium emulation: responsive native player/controls/captions available. Paused controls and top captions can overlap parts of the canvas; final paused/fullscreen mobile legibility requires human/device review. Sampled pictures are not physical iOS verification."
+  "mobile_review_findings": "Original review harness samples retain the earlier native-caption/control overlap. Proposed integration-preview.html places inline captions below the picture and reserves a 72px native-control area; Chromium checks cover 390px, 768px and desktop. Fullscreen uses native captions; physical iOS/Safari and full human mobile-legibility approval remain pending.",
+  "release_preparation": {
+    "date": "2026-11-21",
+    "production_players_integrated": 0,
+    "preview": "video-agent/statistics/review/integration-preview.html",
+    "approval_template": "video-agent/statistics/approval.json",
+    "approval_granted": false,
+    "flag_sampling": "video-agent/statistics/review/flag-review/intervals.json",
+    "media_verification": "docs/year5/statistics-release-media-verification.json",
+    "merge_performed": false,
+    "deployment_performed": false,
+    "qa_report": "docs/year5/statistics-release-qa.md",
+    "chromium_final": {
+      "passed": 142,
+      "failed": 0,
+      "skipped": 10,
+      "additional_targeted_passes": 4
+    },
+    "webkit": "BLOCKED_MISSING_EXECUTABLE_CDN_403",
+    "firestore_emulator": "BLOCKED_OFFICIAL_JAR_DOWNLOAD_403"
+  }
 }

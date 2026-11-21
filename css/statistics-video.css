@@ -1,0 +1,10 @@
+/* Scoped native player; preserve the picture above the native control area. */
+.statistics-player .statistics-video-stage{width:100%;max-width:1200px;background:#fff9ef;border-radius:12px;overflow:hidden}
+.statistics-player video{display:block;width:100%;aspect-ratio:16/12;object-fit:contain;object-position:center top;background:#fff9ef}
+.statistics-player video:fullscreen{height:100%!important;object-position:center}
+.statistics-player video:-webkit-full-screen{height:100%!important;object-position:center}
+.statistics-player .statistics-caption-panel{box-sizing:border-box;width:100%;padding:12px 16px;margin:8px 0;background:#16343f;color:white;border-radius:8px;min-height:76px;font-size:clamp(18px,2vw,23px);line-height:1.45;text-align:center}
+.statistics-player .statistics-caption-panel p{margin:0}
+.statistics-player [data-caption-toggle]{min-height:44px}
+.statistics-player video:focus-visible,.statistics-player summary:focus-visible,.statistics-player button:focus-visible{outline:3px solid #854c00;outline-offset:3px}
+.release-preview-note{padding:12px;background:#fff1ce;color:#493400}

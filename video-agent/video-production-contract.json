@@ -248,5 +248,17 @@
       "method": "Two explicitly planned five-second prediction pauses per video, between completed native utterances, with unrevealed input models. Record exact intervals separately; require at least300 seconds of meaningful narration excluding these pauses. Never add silence to compensate for visuals or to meet duration."
     },
     "required_learning_phrase": "Today we are learning"
+  },
+  "statistics_release_authorisation": {
+    "conditional_authorisation_recorded_on": "2026-11-21",
+    "authority": "Owner release mission: authorise merge and deployment once mandatory checks and full human audiovisual approval of the five exact final videos are satisfied. Stop at the approval gate if that approval is absent.",
+    "topic": "statistics",
+    "page": "statistics.html",
+    "approval_record": "video-agent/statistics/approval.json",
+    "conditional_authorisation": true,
+    "requires_full_human_audio_and_video_review": true,
+    "requires_exact_video_and_sidecar_hashes": true,
+    "requires_all_flag_resolutions": true,
+    "unrelated_holds_unchanged": true
   }
 }

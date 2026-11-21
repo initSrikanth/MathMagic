@@ -20,3 +20,18 @@ The existing `checkpoint.json` records each checksum-bound candidate with **PEND
 Original preflight failure at 7bd0f23 is historical; model provisioning and scoped generation authorisation have now been resolved. See the live checkpoint and production QA report for current completion state.
 
 Required human reviews remain exact-byte full listening/viewing for accent and expressiveness, pedagogy, all flagged intervals, and mobile legibility. Integrate lesson players only after the existing approval and release policy permits it. Do not treat a review bundle, source match, ASR/OCR, browser playback or technical PASS as publication approval.
+
+The 21 November release preparation preserves all five media bundles unchanged. `approval.json` is an **unapproved template**, with no reviewer, date or positive review findings. It binds the exact MP4s, sidecars and proposed player assets; every flagged interval requires a real human resolution. The owner’s conditional release authority is recorded separately in the canonical contract. All unrelated holds remain active.
+
+To reproduce the complete proposed integration without publishing players:
+
+```
+python3 tools/video-quality/statistics_release.py --prepare
+python3 tests/serve.py
+```
+
+Open `http://127.0.0.1:4173/video-agent/statistics/review/integration-preview.html` with normal approved-user authentication. Review the exact MP4 files directly when an approved local sign-in is unavailable. The preview uses the real five lesson pages and adds native accessible players, below-picture caption controls and transcripts; it does not alter production authentication. At 390px the player reserves 72px for native controls, with captions in a separate readable panel. Native fullscreen uses native captions and still needs device/legibility review.
+
+`python3 tools/video-quality/statistics_release.py --apply` is reserved for **after** a genuine, complete human approval record exists. It rechecks every bundle checksum and all five approvals before changing any production page, then registers the existing checkpoint and integrates all five complete players together. It is currently blocked and has not been executed successfully. CI independently checks the approval, registration and production embeds; merely allowlisting a pending candidate cannot pass the gate. No release workflow or test has been disabled.
+
+See [the release QA report](../../docs/year5/statistics-release-qa.md), [fresh media verification](../../docs/year5/statistics-release-media-verification.json) and [all flagged-interval samples](review/flag-review/README.md). The older video QA report describes the previous checkpoint and its earlier native-caption overlap; the proposed player correction is review-only until approval.
