@@ -1,0 +1,82 @@
+{
+  "verified_at": "2026-11-21T19:44:45.045036+00:00",
+  "method": "Existing production-v2 pipeline.verify; full FFmpeg decode, FFprobe profile, AAC/source PCM correlation, speech-window RMS and unexpected-silence detection; exact full-bundle SHA-256 checks",
+  "perceptual_review": "NOT_HUMAN_CERTIFIED",
+  "videos": [
+    {
+      "result": "passed",
+      "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "bytes": 9025524,
+      "duration": 325.96458333333334,
+      "audio_rms": 0.13351909816265106,
+      "clipping_fraction": 0.0,
+      "audio_correlation": 0.9999825500960952,
+      "full_decode": true,
+      "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+      "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+      "perceptual_voice_review": "Not human-certified",
+      "id": "statistics-lesson1",
+      "all_bundle_hashes_match": true
+    },
+    {
+      "result": "passed",
+      "sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "bytes": 7961950,
+      "duration": 334.8607083333334,
+      "audio_rms": 0.13273993134498596,
+      "clipping_fraction": 0.0,
+      "audio_correlation": 0.9999827090739764,
+      "full_decode": true,
+      "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+      "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+      "perceptual_voice_review": "Not human-certified",
+      "id": "statistics-lesson2",
+      "all_bundle_hashes_match": true
+    },
+    {
+      "result": "passed",
+      "sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "bytes": 7739978,
+      "duration": 331.16466666666685,
+      "audio_rms": 0.13323768973350525,
+      "clipping_fraction": 0.0,
+      "audio_correlation": 0.9999831093372784,
+      "full_decode": true,
+      "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+      "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+      "perceptual_voice_review": "Not human-certified",
+      "id": "statistics-lesson3",
+      "all_bundle_hashes_match": true
+    },
+    {
+      "result": "passed",
+      "sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "bytes": 8897919,
+      "duration": 347.02175000000017,
+      "audio_rms": 0.13297007977962494,
+      "clipping_fraction": 0.0,
+      "audio_correlation": 0.9999839720614567,
+      "full_decode": true,
+      "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+      "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+      "perceptual_voice_review": "Not human-certified",
+      "id": "statistics-lesson4",
+      "all_bundle_hashes_match": true
+    },
+    {
+      "result": "passed",
+      "sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "bytes": 8811935,
+      "duration": 348.17375,
+      "audio_rms": 0.1328098177909851,
+      "clipping_fraction": 0.0,
+      "audio_correlation": 0.9999823279669463,
+      "full_decode": true,
+      "format": "1080p H.264/yuv420p 30fps, AAC, faststart",
+      "synchronisation": "Exact sentence PCM clocks; graphics follow cue boundaries within one video frame.",
+      "perceptual_voice_review": "Not human-certified",
+      "id": "statistics-lesson5",
+      "all_bundle_hashes_match": true
+    }
+  ]
+}

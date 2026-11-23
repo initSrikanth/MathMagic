@@ -15,7 +15,9 @@ concurrency:
 jobs:
   fractions-browser-qa:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    # All approved Statistics players now run in every browser; preserve the
+    # full328-case regression and allow its measured runtime plus artifacts.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,17 +35,8 @@ jobs:
           command -v ffprobe || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
           ffmpeg -version | head -1
           ffprobe -version | head -1
-      - name: Enforce teaching-video production contract
-        env:
-          VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
-        run: |
-          python3 tools/video-quality/test_contract.py
-          if [ -n "$VIDEO_QA_BASE" ]; then
-            git fetch --depth=1 origin "$VIDEO_QA_BASE"
-            python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
-          else
-            python3 tools/video-quality/ci_check.py
-          fi
+      - name: Test teaching-video production contract
+        run: python3 tools/video-quality/test_contract.py
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback
@@ -62,7 +55,7 @@ jobs:
           node tests/export-measurement.cjs /tmp/measurement-variants.json
           python tests/validate-measurement.py /tmp/measurement-variants.json
       - name: Test isolated Year 5 Firestore rules and progress
-        run: npx firebase emulators:exec --project demo-mathmagic-year5 --only firestore --config tests/emulator/firebase.json "node tests/measurement-emulator.test.cjs && node tests/space-emulator.test.cjs"
+        run: npx firebase emulators:exec --project demo-mathmagic-year5 --only firestore --config tests/emulator/firebase.json "node tests/measurement-emulator.test.cjs && node tests/space-emulator.test.cjs && node tests/statistics-emulator.test.cjs"
       - name: Check protected Fractions architecture
         run: npm run test:protected
       - name: Independently verify Year 5 Space assessment mathematics
@@ -82,6 +75,19 @@ jobs:
         run: npx playwright test --project=measurement-webkit --grep "graphics-only Choose Units" --retries=0
       - name: Run MathMagic browser QA
         run: npm run test:e2e
+      # Run independent browser/security QA before reporting a pending media
+      # approval. This mandatory step still fails the job and blocks release.
+      - name: Enforce teaching-video release approval
+        if: always()
+        env:
+          VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [ -n "$VIDEO_QA_BASE" ]; then
+            git fetch --depth=1 origin "$VIDEO_QA_BASE"
+            python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
+          else
+            python3 tools/video-quality/ci_check.py
+          fi
       - name: Upload Playwright report and traces
         if: always()
         uses: actions/upload-artifact@v4

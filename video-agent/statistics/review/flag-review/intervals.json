@@ -1,0 +1,3951 @@
+{
+  "technical_sampling_date": "2026-11-21",
+  "status": "SAMPLED_TECHNICAL_REVIEW_COMPLETE_HUMAN_RESOLUTION_PENDING",
+  "static_intervals": 71,
+  "fast_intervals": 21,
+  "limitations": "No full human audiovisual review or accent/expressiveness judgement performed. Technical observations do not populate human approval or resolve approval flags. Sampled images cannot exclude a defect between sample times.",
+  "intervals": [
+    {
+      "id": "L1-static-1",
+      "lesson": 1,
+      "type": "static",
+      "start": 0.2,
+      "end": 24.2,
+      "cues": [
+        {
+          "start": 0,
+          "end": 2.5165,
+          "text": "Our school wants a new lunchtime club.",
+          "parent_index": 0
+        },
+        {
+          "start": 2.5165,
+          "end": 7.2549166666666665,
+          "text": "Would asking only your football team tell us what all Year 5 pupils want?",
+          "parent_index": 0
+        },
+        {
+          "start": 7.2549166666666665,
+          "end": 11.14175,
+          "text": "Picture a tray holding art pencils, a football and a drum.",
+          "parent_index": 0
+        },
+        {
+          "start": 11.14175,
+          "end": 13.709791666666668,
+          "text": "Each object suggests a different club.",
+          "parent_index": 0
+        },
+        {
+          "start": 13.709791666666668,
+          "end": 19.7295,
+          "text": "Your own favourite is a useful starting guess, but a school decision needs more than one person\u2019s guess.",
+          "parent_index": 0
+        },
+        {
+          "start": 19.7295,
+          "end": 24.092333333333336,
+          "text": "We need a question and evidence from the people the decision will affect.",
+          "parent_index": 0
+        },
+        {
+          "start": 24.092333333333336,
+          "end": 28.146,
+          "text": "Today we are learning to plan a fair way to collect useful data.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-2",
+      "lesson": 1,
+      "type": "static",
+      "start": 24.2,
+      "end": 42.2,
+      "cues": [
+        {
+          "start": 24.092333333333336,
+          "end": 28.146,
+          "text": "Today we are learning to plan a fair way to collect useful data.",
+          "parent_index": 1
+        },
+        {
+          "start": 28.146,
+          "end": 31.588916666666666,
+          "text": "Our purpose is to help choose a lunchtime club fairly.",
+          "parent_index": 1
+        },
+        {
+          "start": 31.588916666666666,
+          "end": 38.862291666666664,
+          "text": "By the end, you should be able to explain both what information you need and why your collection plan will give each class a voice.",
+          "parent_index": 1
+        },
+        {
+          "start": 38.862291666666664,
+          "end": 42.25958333333333,
+          "text": "Keep that decision in mind as we sort the information.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-3",
+      "lesson": 1,
+      "type": "static",
+      "start": 42.2,
+      "end": 66.0,
+      "cues": [
+        {
+          "start": 38.862291666666664,
+          "end": 42.25958333333333,
+          "text": "Keep that decision in mind as we sort the information.",
+          "parent_index": 1
+        },
+        {
+          "start": 42.25958333333333,
+          "end": 45.369458333333334,
+          "text": "I can tell names, ordered groups and counts apart.",
+          "parent_index": 2
+        },
+        {
+          "start": 45.369458333333334,
+          "end": 48.61841666666667,
+          "text": "I can pose a question that allows different answers.",
+          "parent_index": 2
+        },
+        {
+          "start": 48.61841666666667,
+          "end": 52.5315,
+          "text": "I can choose who to ask and how to record one response each.",
+          "parent_index": 2
+        },
+        {
+          "start": 52.5315,
+          "end": 57.16375,
+          "text": "Remember sorting objects into groups and counting how many were in each group.",
+          "parent_index": 2
+        },
+        {
+          "start": 57.16375,
+          "end": 59.611666666666665,
+          "text": "We will use those familiar skills again.",
+          "parent_index": 2
+        },
+        {
+          "start": 59.611666666666665,
+          "end": 65.926,
+          "text": "Now we also need to notice whether the groups have an order, and whether a number is a count or just a label.",
+          "parent_index": 2
+        },
+        {
+          "start": 65.926,
+          "end": 68.46191666666667,
+          "text": "Data are pieces of information.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-4",
+      "lesson": 1,
+      "type": "static",
+      "start": 80.6,
+      "end": 108.8,
+      "cues": [
+        {
+          "start": 78.32779166666667,
+          "end": 83.49266666666666,
+          "text": "Discrete numerical data are counts, such as the number of library books borrowed.",
+          "parent_index": 3
+        },
+        {
+          "start": 83.49266666666666,
+          "end": 87.52437499999999,
+          "text": "A statistical question expects different answers across a group.",
+          "parent_index": 3
+        },
+        {
+          "start": 87.52437499999999,
+          "end": 90.41654166666666,
+          "text": "Imagine handing out three different cards.",
+          "parent_index": 3
+        },
+        {
+          "start": 90.41654166666666,
+          "end": 93.72933333333333,
+          "text": "The first card names a club: art, sport or music.",
+          "parent_index": 3
+        },
+        {
+          "start": 93.72933333333333,
+          "end": 97.91725,
+          "text": "We can arrange those names in any order without changing their meaning.",
+          "parent_index": 3
+        },
+        {
+          "start": 97.91725,
+          "end": 101.77670833333333,
+          "text": "The second card records low, medium or high interest.",
+          "parent_index": 3
+        },
+        {
+          "start": 101.77670833333333,
+          "end": 103.28037499999999,
+          "text": "That order matters.",
+          "parent_index": 3
+        },
+        {
+          "start": 103.28037499999999,
+          "end": 106.06970833333332,
+          "text": "The third card asks for a count of visits.",
+          "parent_index": 3
+        },
+        {
+          "start": 106.06970833333332,
+          "end": 108.83024999999999,
+          "text": "Zero visits is a possible answer too.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-5",
+      "lesson": 1,
+      "type": "static",
+      "start": 108.8,
+      "end": 130.6,
+      "cues": [
+        {
+          "start": 106.06970833333332,
+          "end": 108.83024999999999,
+          "text": "Zero visits is a possible answer too.",
+          "parent_index": 3
+        },
+        {
+          "start": 108.83024999999999,
+          "end": 114.24895833333332,
+          "text": "Which club would each Year 5 pupil choose: art, sport, music or another club?",
+          "parent_index": 4
+        },
+        {
+          "start": 114.24895833333332,
+          "end": 117.43833333333332,
+          "text": "Before you decide, think about the group in the question.",
+          "parent_index": 4
+        },
+        {
+          "start": 117.43833333333332,
+          "end": 120.66379166666665,
+          "text": "Is it one person, or all Year 5 pupils?",
+          "parent_index": 4
+        },
+        {
+          "start": 120.66379166666665,
+          "end": 123.68908333333331,
+          "text": "Quietly choose the information you would collect.",
+          "parent_index": 4
+        },
+        {
+          "start": 123.68908333333331,
+          "end": 126.81458333333332,
+          "text": "Keep your reason in mind as you look at the choices.",
+          "parent_index": 4
+        },
+        {
+          "start": 126.81458333333332,
+          "end": 130.50849999999997,
+          "text": "Which responses could be different from person to person?",
+          "parent_index": 4
+        },
+        {
+          "start": 130.50849999999997,
+          "end": 135.50849999999997,
+          "text": "",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-6",
+      "lesson": 1,
+      "type": "static",
+      "start": 135.6,
+      "end": 144.8,
+      "cues": [
+        {
+          "start": 135.50849999999997,
+          "end": 138.7760833333333,
+          "text": "This asks about a group and expects variation.",
+          "parent_index": 5
+        },
+        {
+          "start": 138.7760833333333,
+          "end": 143.09762499999997,
+          "text": "Ask every Year 5 class using the same options, once per pupil.",
+          "parent_index": 5
+        },
+        {
+          "start": 143.09762499999997,
+          "end": 147.3079583333333,
+          "text": "Include another option so pupils are not forced into a poor match.",
+          "parent_index": 5
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "0c8c27c51abf79d9e3a6b917e1bfa80afbf4bce1505a10c8ea19cbeea1d71b84"
+    },
+    {
+      "id": "L1-static-7",
+      "lesson": 1,
+      "type": "static",
+      "start": 144.8,
+      "end": 164.4,
+      "cues": [
+        {
+          "start": 143.09762499999997,
+          "end": 147.3079583333333,
+          "text": "Include another option so pupils are not forced into a poor match.",
+          "parent_index": 5
+        },
+        {
+          "start": 147.3079583333333,
+          "end": 153.51787499999995,
+          "text": "Notice that a question about the colour of one particular ball can be answered by looking at that ball once.",
+          "parent_index": 5
+        },
+        {
+          "start": 153.51787499999995,
+          "end": 155.59845833333327,
+          "text": "Our club question is different.",
+          "parent_index": 5
+        },
+        {
+          "start": 155.59845833333327,
+          "end": 158.3037916666666,
+          "text": "Different pupils may choose different clubs.",
+          "parent_index": 5
+        },
+        {
+          "start": 158.3037916666666,
+          "end": 164.3579166666666,
+          "text": "That variation is useful, because it helps us understand the group instead of assuming everyone agrees.",
+          "parent_index": 5
+        },
+        {
+          "start": 164.3579166666666,
+          "end": 168.92662499999994,
+          "text": "We record club choice, interest level and number of club visits last term.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-8",
+      "lesson": 1,
+      "type": "static",
+      "start": 164.4,
+      "end": 190.2,
+      "cues": [
+        {
+          "start": 164.3579166666666,
+          "end": 168.92662499999994,
+          "text": "We record club choice, interest level and number of club visits last term.",
+          "parent_index": 6
+        },
+        {
+          "start": 168.92662499999994,
+          "end": 170.90708333333328,
+          "text": "Which can be put in order?",
+          "parent_index": 6
+        },
+        {
+          "start": 170.90708333333328,
+          "end": 173.40158333333326,
+          "text": "Look at the three recording columns.",
+          "parent_index": 6
+        },
+        {
+          "start": 173.40158333333326,
+          "end": 179.07924999999994,
+          "text": "Try matching one imaginary pupil\u2019s answers to them: music, high interest, and two visits.",
+          "parent_index": 6
+        },
+        {
+          "start": 179.07924999999994,
+          "end": 181.82937499999994,
+          "text": "Say which answer belongs in each column.",
+          "parent_index": 6
+        },
+        {
+          "start": 181.82937499999994,
+          "end": 186.23695833333326,
+          "text": "Think about what the answer means before deciding its data type.",
+          "parent_index": 6
+        },
+        {
+          "start": 186.23695833333326,
+          "end": 190.1442916666666,
+          "text": "What would change if another pupil had not visited at all?",
+          "parent_index": 6
+        },
+        {
+          "start": 190.1442916666666,
+          "end": 195.1442916666666,
+          "text": "",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-9",
+      "lesson": 1,
+      "type": "static",
+      "start": 200.2,
+      "end": 226.0,
+      "cues": [
+        {
+          "start": 200.0858749999999,
+          "end": 203.7002499999999,
+          "text": "Visits are discrete numbers: 0, 1, 2 and so on.",
+          "parent_index": 7
+        },
+        {
+          "start": 203.7002499999999,
+          "end": 206.96170833333323,
+          "text": "A pupil number is a label, not a count of something.",
+          "parent_index": 7
+        },
+        {
+          "start": 206.96170833333323,
+          "end": 210.35633333333323,
+          "text": "A count of two visits tells us how many visits happened.",
+          "parent_index": 7
+        },
+        {
+          "start": 210.35633333333323,
+          "end": 214.85804166666657,
+          "text": "High interest tells us an ordered category, rather than an exact amount.",
+          "parent_index": 7
+        },
+        {
+          "start": 214.85804166666657,
+          "end": 218.8262499999999,
+          "text": "Music names a choice, without saying it is above or below art.",
+          "parent_index": 7
+        },
+        {
+          "start": 218.8262499999999,
+          "end": 226.06745833333324,
+          "text": "We can count responses in any of these groups, but counting responses does not turn club names into numerical measurements.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-10",
+      "lesson": 1,
+      "type": "static",
+      "start": 230.0,
+      "end": 254.8,
+      "cues": [
+        {
+          "start": 226.06745833333324,
+          "end": 231.7296249999999,
+          "text": "\u201cNumbers always mean numerical data.\u201d A sports shirt number is a name label.",
+          "parent_index": 8
+        },
+        {
+          "start": 231.7296249999999,
+          "end": 235.1251666666666,
+          "text": "Ask what the value describes, not just how it looks.",
+          "parent_index": 8
+        },
+        {
+          "start": 235.1251666666666,
+          "end": 238.01883333333325,
+          "text": "Imagine a football shirt with the number ten.",
+          "parent_index": 8
+        },
+        {
+          "start": 238.01883333333325,
+          "end": 242.26845833333326,
+          "text": "Adding the shirt numbers would not tell us how many pupils play football.",
+          "parent_index": 8
+        },
+        {
+          "start": 242.26845833333326,
+          "end": 244.75266666666658,
+          "text": "Those numbers identify shirts.",
+          "parent_index": 8
+        },
+        {
+          "start": 244.75266666666658,
+          "end": 248.18487499999992,
+          "text": "A count of ten pupils answers a different question.",
+          "parent_index": 8
+        },
+        {
+          "start": 248.18487499999992,
+          "end": 251.82479166666658,
+          "text": "The meaning of a number is more important than its appearance.",
+          "parent_index": 8
+        },
+        {
+          "start": 251.82479166666658,
+          "end": 254.71691666666658,
+          "text": "Ask yourself, what exactly are we counting?",
+          "parent_index": 8
+        },
+        {
+          "start": 254.71691666666658,
+          "end": 258.77066666666656,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-11",
+      "lesson": 1,
+      "type": "static",
+      "start": 254.8,
+      "end": 266.8,
+      "cues": [
+        {
+          "start": 254.71691666666658,
+          "end": 258.77066666666656,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        },
+        {
+          "start": 258.77066666666656,
+          "end": 263.3735833333333,
+          "text": "Make a prediction, collect or change the data, then explain what you notice.",
+          "parent_index": 9
+        },
+        {
+          "start": 263.3735833333333,
+          "end": 265.4344583333333,
+          "text": "Now plan a collection method.",
+          "parent_index": 9
+        },
+        {
+          "start": 265.4344583333333,
+          "end": 269.2641666666666,
+          "text": "Ask the same neutral question in every Year 5 class.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-12",
+      "lesson": 1,
+      "type": "static",
+      "start": 266.8,
+      "end": 284.6,
+      "cues": [
+        {
+          "start": 265.4344583333333,
+          "end": 269.2641666666666,
+          "text": "Ask the same neutral question in every Year 5 class.",
+          "parent_index": 9
+        },
+        {
+          "start": 269.2641666666666,
+          "end": 276.1635416666666,
+          "text": "Record one response per pupil, include another-club option, and decide what to do about pupils who are absent.",
+          "parent_index": 9
+        },
+        {
+          "start": 276.1635416666666,
+          "end": 279.0519583333333,
+          "text": "You do not need names on the final graph.",
+          "parent_index": 9
+        },
+        {
+          "start": 279.0519583333333,
+          "end": 284.63899999999995,
+          "text": "A checked class list can prevent accidental double counting without making names public.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "994f4a06bdb116676bd5304630426307005234926437fb21e4f9395d242c9d87"
+    },
+    {
+      "id": "L1-static-13",
+      "lesson": 1,
+      "type": "static",
+      "start": 284.6,
+      "end": 299.4,
+      "cues": [
+        {
+          "start": 279.0519583333333,
+          "end": 284.63899999999995,
+          "text": "A checked class list can prevent accidental double counting without making names public.",
+          "parent_index": 9
+        },
+        {
+          "start": 284.63899999999995,
+          "end": 287.04699999999997,
+          "text": "Write a question for a school decision.",
+          "parent_index": 10
+        },
+        {
+          "start": 287.04699999999997,
+          "end": 292.800375,
+          "text": "Name the group you will ask, the variable you will collect and how you will avoid counting anyone twice.",
+          "parent_index": 10
+        },
+        {
+          "start": 292.800375,
+          "end": 295.05816666666664,
+          "text": "Check your plan with these questions.",
+          "parent_index": 10
+        },
+        {
+          "start": 295.05816666666664,
+          "end": 298.10616666666664,
+          "text": "Could the wording push pupils towards one answer?",
+          "parent_index": 10
+        },
+        {
+          "start": 298.10616666666664,
+          "end": 299.9125833333333,
+          "text": "Could a whole class be missing?",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L1-static-14",
+      "lesson": 1,
+      "type": "static",
+      "start": 299.4,
+      "end": 310.0,
+      "cues": [
+        {
+          "start": 298.10616666666664,
+          "end": 299.9125833333333,
+          "text": "Could a whole class be missing?",
+          "parent_index": 10
+        },
+        {
+          "start": 299.9125833333333,
+          "end": 302.4290833333333,
+          "text": "Could the same pupil be counted twice?",
+          "parent_index": 10
+        },
+        {
+          "start": 302.4290833333333,
+          "end": 305.47266666666667,
+          "text": "Explain one change that would make the plan fairer.",
+          "parent_index": 10
+        },
+        {
+          "start": 305.47266666666667,
+          "end": 310.01125,
+          "text": "A useful investigation begins before the first response is collected.",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L1-static-15",
+      "lesson": 1,
+      "type": "static",
+      "start": 312.4,
+      "end": 325.9245833333333,
+      "cues": [
+        {
+          "start": 310.01125,
+          "end": 315.16058333333336,
+          "text": "Our evidence can guide a decision when the question, group and recording method fit together.",
+          "parent_index": 11
+        },
+        {
+          "start": 315.16058333333336,
+          "end": 317.3849166666667,
+          "text": "Think about your own school question.",
+          "parent_index": 11
+        },
+        {
+          "start": 317.3849166666667,
+          "end": 321.21108333333336,
+          "text": "What different answers might you receive, and how would you record them?",
+          "parent_index": 11
+        },
+        {
+          "start": 321.21108333333336,
+          "end": 325.96458333333334,
+          "text": "Share your plan with someone and explain how it gives the intended group a fair voice.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Data-type comparison, response cards or the investigation cycle remains available while the explanation develops. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L1-fast-16",
+      "lesson": 1,
+      "type": "fast",
+      "start": 0,
+      "end": 0.2,
+      "cues": [
+        {
+          "start": 0,
+          "end": 2.5165,
+          "text": "Our school wants a new lunchtime club.",
+          "parent_index": 0
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Opening board label appears; the data-type comparison persists. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L1-fast-17",
+      "lesson": 1,
+      "type": "fast",
+      "start": 68.4,
+      "end": 69.0,
+      "cues": [
+        {
+          "start": 65.926,
+          "end": 68.46191666666667,
+          "text": "Data are pieces of information.",
+          "parent_index": 3
+        },
+        {
+          "start": 68.46191666666667,
+          "end": 73.82004166666667,
+          "text": "Nominal categories are names with no natural order, such as art, sport and music.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Nominal focus border and name label appear; all three comparison rows persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L1-fast-18",
+      "lesson": 1,
+      "type": "fast",
+      "start": 196.2,
+      "end": 196.8,
+      "cues": [
+        {
+          "start": 195.1442916666666,
+          "end": 196.8174999999999,
+          "text": "Club choice is nominal.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson1-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Nominal-to-ordinal focus change; the comparison remains on screen. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f2bb9b6a63c479b7f72ff0b1f26d6348cd7a737ee6905ea79c53ccbbabd1fc8"
+    },
+    {
+      "id": "L2-static-1",
+      "lesson": 2,
+      "type": "static",
+      "start": 24.4,
+      "end": 44.0,
+      "cues": [
+        {
+          "start": 24.310208333333335,
+          "end": 29.280833333333334,
+          "text": "Today we are learning to turn checked responses into a trustworthy frequency display.",
+          "parent_index": 1
+        },
+        {
+          "start": 29.280833333333334,
+          "end": 34.293791666666664,
+          "text": "Our goal is to turn responses into a trustworthy frequency table and display.",
+          "parent_index": 1
+        },
+        {
+          "start": 34.293791666666664,
+          "end": 37.83529166666666,
+          "text": "We are looking for a process someone else could follow and check.",
+          "parent_index": 1
+        },
+        {
+          "start": 37.83529166666666,
+          "end": 44.01566666666666,
+          "text": "A beautiful graph is not useful if the counts came from missing, mistaken or double-counted records.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-2",
+      "lesson": 2,
+      "type": "static",
+      "start": 44.0,
+      "end": 72.4,
+      "cues": [
+        {
+          "start": 37.83529166666666,
+          "end": 44.01566666666666,
+          "text": "A beautiful graph is not useful if the counts came from missing, mistaken or double-counted records.",
+          "parent_index": 1
+        },
+        {
+          "start": 44.01566666666666,
+          "end": 47.514624999999995,
+          "text": "I can spot missing, invalid and repeated records.",
+          "parent_index": 2
+        },
+        {
+          "start": 47.514624999999995,
+          "end": 51.89266666666666,
+          "text": "I can make a frequency table that counts every valid response once.",
+          "parent_index": 2
+        },
+        {
+          "start": 51.89266666666666,
+          "end": 55.64483333333333,
+          "text": "I can use a digital table or spreadsheet to represent data.",
+          "parent_index": 2
+        },
+        {
+          "start": 55.64483333333333,
+          "end": 60.04179166666666,
+          "text": "You already know how to sort objects into groups and count each group.",
+          "parent_index": 2
+        },
+        {
+          "start": 60.04179166666666,
+          "end": 63.61070833333333,
+          "text": "Today each card will represent one pupil\u2019s response.",
+          "parent_index": 2
+        },
+        {
+          "start": 63.61070833333333,
+          "end": 67.12774999999999,
+          "text": "Think of the table as a tidy record of those groups.",
+          "parent_index": 2
+        },
+        {
+          "start": 67.12774999999999,
+          "end": 72.38866666666667,
+          "text": "Each response must contribute exactly once, and the total gives us an important check.",
+          "parent_index": 2
+        },
+        {
+          "start": 72.38866666666667,
+          "end": 76.524,
+          "text": "Frequency means how often a category or value occurs.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-3",
+      "lesson": 2,
+      "type": "static",
+      "start": 77.8,
+      "end": 114.6,
+      "cues": [
+        {
+          "start": 76.524,
+          "end": 81.68358333333333,
+          "text": "Validate means check the data against the question and collection rules before counting.",
+          "parent_index": 3
+        },
+        {
+          "start": 81.68358333333333,
+          "end": 88.033,
+          "text": "Use a consistent spelling, check missing answers with the collector, and investigate duplicate pupil records.",
+          "parent_index": 3
+        },
+        {
+          "start": 88.033,
+          "end": 91.6175,
+          "text": "Matching answers from different pupils are not duplicates.",
+          "parent_index": 3
+        },
+        {
+          "start": 91.6175,
+          "end": 94.34433333333334,
+          "text": "Never quietly invent a missing answer.",
+          "parent_index": 3
+        },
+        {
+          "start": 94.34433333333334,
+          "end": 98.11766666666668,
+          "text": "Collecting data and checking data are connected jobs.",
+          "parent_index": 3
+        },
+        {
+          "start": 98.11766666666668,
+          "end": 102.32375000000002,
+          "text": "First agree what choices are allowed and what one record represents.",
+          "parent_index": 3
+        },
+        {
+          "start": 102.32375000000002,
+          "end": 107.32700000000001,
+          "text": "Then look for unexpected words, empty spaces and repeated pupil records.",
+          "parent_index": 3
+        },
+        {
+          "start": 107.32700000000001,
+          "end": 111.43087500000001,
+          "text": "If a response is unclear, ask the collector or pupil to check it.",
+          "parent_index": 3
+        },
+        {
+          "start": 111.43087500000001,
+          "end": 114.51837500000002,
+          "text": "We must not guess which snack a blank answer meant.",
+          "parent_index": 3
+        },
+        {
+          "start": 114.51837500000002,
+          "end": 119.52375000000002,
+          "text": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana.",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-4",
+      "lesson": 2,
+      "type": "static",
+      "start": 114.6,
+      "end": 141.8,
+      "cues": [
+        {
+          "start": 114.51837500000002,
+          "end": 119.52375000000002,
+          "text": "Six different pupils answered: Apple, Banana, apple, Pear, Apple, Banana.",
+          "parent_index": 4
+        },
+        {
+          "start": 119.52375000000002,
+          "end": 121.58016666666668,
+          "text": "How many valid votes are there?",
+          "parent_index": 4
+        },
+        {
+          "start": 121.58016666666668,
+          "end": 124.27137500000002,
+          "text": "Look at the six cards before we sort them.",
+          "parent_index": 4
+        },
+        {
+          "start": 124.27137500000002,
+          "end": 126.77937500000002,
+          "text": "Predict the total number of votes.",
+          "parent_index": 4
+        },
+        {
+          "start": 126.77937500000002,
+          "end": 130.25704166666668,
+          "text": "Then look for cards that belong to the same snack group.",
+          "parent_index": 4
+        },
+        {
+          "start": 130.25704166666668,
+          "end": 136.69262500000002,
+          "text": "Take a moment to explain why matching snack choices from different pupils should still remain in our collection.",
+          "parent_index": 4
+        },
+        {
+          "start": 136.69262500000002,
+          "end": 141.69262500000002,
+          "text": "",
+          "parent_index": 4
+        },
+        {
+          "start": 141.69262500000002,
+          "end": 145.7279166666667,
+          "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1.",
+          "parent_index": 5
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-5",
+      "lesson": 2,
+      "type": "static",
+      "start": 175.8,
+      "end": 185.6,
+      "cues": [
+        {
+          "start": 173.9496666666667,
+          "end": 175.85333333333338,
+          "text": "In C2 type Apple.",
+          "parent_index": 6
+        },
+        {
+          "start": 175.85333333333338,
+          "end": 180.04612500000005,
+          "text": "What does =COUNTIF(A2:A7,C2) find?",
+          "parent_index": 6
+        },
+        {
+          "start": 180.04612500000005,
+          "end": 184.35975000000005,
+          "text": "Imagine moving the cards into a spreadsheet, one checked vote per row.",
+          "parent_index": 6
+        },
+        {
+          "start": 184.35975000000005,
+          "end": 187.2379166666667,
+          "text": "Put the category Apple in a separate cell.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-6",
+      "lesson": 2,
+      "type": "static",
+      "start": 203.4,
+      "end": 212.0,
+      "cues": [
+        {
+          "start": 203.3056666666667,
+          "end": 207.7924166666667,
+          "text": "Use a row for each category and check that the frequencies sum to six.",
+          "parent_index": 7
+        },
+        {
+          "start": 207.7924166666667,
+          "end": 214.2052916666667,
+          "text": "A column graph has separated equal-width bars, category labels and a frequency scale starting at zero.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "da6ea6f2e87dbab5cfb1030b26b8465ad4ffb1e19f60e1ae98796ab20e849401"
+    },
+    {
+      "id": "L2-static-7",
+      "lesson": 2,
+      "type": "static",
+      "start": 212.0,
+      "end": 233.8,
+      "cues": [
+        {
+          "start": 207.7924166666667,
+          "end": 214.2052916666667,
+          "text": "A column graph has separated equal-width bars, category labels and a frequency scale starting at zero.",
+          "parent_index": 7
+        },
+        {
+          "start": 214.2052916666667,
+          "end": 218.83750000000003,
+          "text": "The spreadsheet\u2019s count-if formula counts the cells matching a chosen category.",
+          "parent_index": 7
+        },
+        {
+          "start": 218.83750000000003,
+          "end": 224.41425000000004,
+          "text": "It can help make the frequency table, but we still need to check spelling and the selected range of cells.",
+          "parent_index": 7
+        },
+        {
+          "start": 224.41425000000004,
+          "end": 228.40483333333339,
+          "text": "To draw a column graph, use one separated column for each snack.",
+          "parent_index": 7
+        },
+        {
+          "start": 228.40483333333339,
+          "end": 233.40650000000005,
+          "text": "Start the frequency scale at zero, label the categories, and use equal intervals.",
+          "parent_index": 7
+        },
+        {
+          "start": 233.40650000000005,
+          "end": 239.32050000000004,
+          "text": "Draw Apple\u2019s column to three pupils, Banana\u2019s column to two pupils and Pear\u2019s column to one pupil.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-8",
+      "lesson": 2,
+      "type": "static",
+      "start": 240.4,
+      "end": 249.8,
+      "cues": [
+        {
+          "start": 239.32050000000004,
+          "end": 245.20262500000004,
+          "text": "\u201cRemove every repeated answer.\u201d Only repeated records for the same pupil need checking.",
+          "parent_index": 8
+        },
+        {
+          "start": 245.20262500000004,
+          "end": 248.0467916666667,
+          "text": "Different pupils may choose the same snack.",
+          "parent_index": 8
+        },
+        {
+          "start": 248.0467916666667,
+          "end": 252.85120833333337,
+          "text": "If two pupils both choose Banana, that is useful information about the class.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-9",
+      "lesson": 2,
+      "type": "static",
+      "start": 252.8,
+      "end": 267.0,
+      "cues": [
+        {
+          "start": 248.0467916666667,
+          "end": 252.85120833333337,
+          "text": "If two pupils both choose Banana, that is useful information about the class.",
+          "parent_index": 8
+        },
+        {
+          "start": 252.85120833333337,
+          "end": 255.54937500000005,
+          "text": "Removing one would change the evidence.",
+          "parent_index": 8
+        },
+        {
+          "start": 255.54937500000005,
+          "end": 261.08516666666674,
+          "text": "If the same pupil record appears twice, investigate whether it is a recording mistake.",
+          "parent_index": 8
+        },
+        {
+          "start": 261.08516666666674,
+          "end": 267.0076666666667,
+          "text": "The response value and the record identity answer different questions, so they need different checks.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-10",
+      "lesson": 2,
+      "type": "static",
+      "start": 267.0,
+      "end": 277.6,
+      "cues": [
+        {
+          "start": 261.08516666666674,
+          "end": 267.0076666666667,
+          "text": "The response value and the record identity answer different questions, so they need different checks.",
+          "parent_index": 8
+        },
+        {
+          "start": 267.0076666666667,
+          "end": 271.0646666666667,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        },
+        {
+          "start": 271.0646666666667,
+          "end": 275.6674166666667,
+          "text": "Make a prediction, collect or change the data, then explain what you notice.",
+          "parent_index": 9
+        },
+        {
+          "start": 275.6674166666667,
+          "end": 277.65600000000006,
+          "text": "Try another kind of data.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-11",
+      "lesson": 2,
+      "type": "static",
+      "start": 282.4,
+      "end": 293.8,
+      "cues": [
+        {
+          "start": 282.2965833333334,
+          "end": 286.8765833333334,
+          "text": "For books borrowed, use whole-number counts such as zero, one, two, three and four.",
+          "parent_index": 9
+        },
+        {
+          "start": 286.8765833333334,
+          "end": 293.87737500000003,
+          "text": "Keep a zero-frequency row when no pupil has a particular count, so the display shows the gap rather than hiding it.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-12",
+      "lesson": 2,
+      "type": "static",
+      "start": 298.2,
+      "end": 317.8,
+      "cues": [
+        {
+          "start": 293.87737500000003,
+          "end": 298.635125,
+          "text": "Explain one check you made before counting and one way to check the finished table.",
+          "parent_index": 10
+        },
+        {
+          "start": 298.635125,
+          "end": 301.01095833333335,
+          "text": "Compare your checked table and graph.",
+          "parent_index": 10
+        },
+        {
+          "start": 301.01095833333335,
+          "end": 304.2559166666667,
+          "text": "Does every table value match its column height?",
+          "parent_index": 10
+        },
+        {
+          "start": 304.2559166666667,
+          "end": 307.86875000000003,
+          "text": "Does the total match the number of valid responses?",
+          "parent_index": 10
+        },
+        {
+          "start": 307.86875000000003,
+          "end": 311.03833333333336,
+          "text": "Can a reader tell what was counted and who answered?",
+          "parent_index": 10
+        },
+        {
+          "start": 311.03833333333336,
+          "end": 317.77220833333337,
+          "text": "A saved frequency table can be opened in a spreadsheet, giving another way to check and represent the same evidence.",
+          "parent_index": 10
+        },
+        {
+          "start": 317.77220833333337,
+          "end": 324.99920833333334,
+          "text": "An organised display should help another person understand the responses without seeing your original pile of cards.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "c4f2bd611c2540608526d77f563d2242e93f7e8f20389da6663751303fdb7c9f"
+    },
+    {
+      "id": "L2-static-13",
+      "lesson": 2,
+      "type": "static",
+      "start": 325.0,
+      "end": 334.8,
+      "cues": [
+        {
+          "start": 324.99920833333334,
+          "end": 329.64662500000003,
+          "text": "Which validation check mattered most today, and how could you explain its purpose?",
+          "parent_index": 11
+        },
+        {
+          "start": 329.64662500000003,
+          "end": 334.8607083333334,
+          "text": "Start with checked responses, count each one once, and use the total to help test your work.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Checked votes, frequency table or progressive columns remains available for comparing the same six responses. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L2-fast-14",
+      "lesson": 2,
+      "type": "fast",
+      "start": 141.8,
+      "end": 142.6,
+      "cues": [
+        {
+          "start": 141.69262500000002,
+          "end": 145.7279166666667,
+          "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1.",
+          "parent_index": 5
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Apple focus outline appears on the existing frequency table. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L2-fast-15",
+      "lesson": 2,
+      "type": "fast",
+      "start": 145.6,
+      "end": 145.8,
+      "cues": [
+        {
+          "start": 141.69262500000002,
+          "end": 145.7279166666667,
+          "text": "Standardise apple to Apple: Apple 3, Banana 2, Pear 1.",
+          "parent_index": 5
+        },
+        {
+          "start": 145.7279166666667,
+          "end": 149.23625,
+          "text": "The total is 3 + 2 + 1 = 6.",
+          "parent_index": 5
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Banana outline replaces Apple; all counts persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L2-fast-16",
+      "lesson": 2,
+      "type": "fast",
+      "start": 175.2,
+      "end": 175.8,
+      "cues": [
+        {
+          "start": 173.9496666666667,
+          "end": 175.85333333333338,
+          "text": "In C2 type Apple.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Apple focus changes during the prediction context; table persists. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L2-fast-17",
+      "lesson": 2,
+      "type": "fast",
+      "start": 201.0,
+      "end": 201.2,
+      "cues": [
+        {
+          "start": 200.98562500000003,
+          "end": 203.3056666666667,
+          "text": "It counts the cells matching Apple.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Empty column axes appear before the first narrated bar reveal. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L2-fast-18",
+      "lesson": 2,
+      "type": "fast",
+      "start": 202.8,
+      "end": 203.4,
+      "cues": [
+        {
+          "start": 200.98562500000003,
+          "end": 203.3056666666667,
+          "text": "It counts the cells matching Apple.",
+          "parent_index": 7
+        },
+        {
+          "start": 203.3056666666667,
+          "end": 207.7924166666667,
+          "text": "Use a row for each category and check that the frequencies sum to six.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson2-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Apple focus border is cleared; the first bar and axes persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "abc717b296bf9882c6eaace5d1147f9241774e1a42d2bd3866658962c0c4005f"
+    },
+    {
+      "id": "L3-static-1",
+      "lesson": 3,
+      "type": "static",
+      "start": 6.8,
+      "end": 22.2,
+      "cues": [
+        {
+          "start": 5.794708333333333,
+          "end": 11.282166666666667,
+          "text": "Imagine each pupil placing one counter above the number of library books they borrowed.",
+          "parent_index": 0
+        },
+        {
+          "start": 11.282166666666667,
+          "end": 15.60675,
+          "text": "As counters gather into stacks, some numbers may be more common than others.",
+          "parent_index": 0
+        },
+        {
+          "start": 15.60675,
+          "end": 19.239583333333332,
+          "text": "Before naming a most common value, look at the whole arrangement.",
+          "parent_index": 0
+        },
+        {
+          "start": 19.239583333333332,
+          "end": 22.193666666666665,
+          "text": "What story might those stacks tell about the class?",
+          "parent_index": 0
+        },
+        {
+          "start": 22.193666666666665,
+          "end": 27.666041666666665,
+          "text": "Today we are learning to describe the mode and shape of a data distribution in context.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-2",
+      "lesson": 3,
+      "type": "static",
+      "start": 22.2,
+      "end": 42.2,
+      "cues": [
+        {
+          "start": 22.193666666666665,
+          "end": 27.666041666666665,
+          "text": "Today we are learning to describe the mode and shape of a data distribution in context.",
+          "parent_index": 1
+        },
+        {
+          "start": 27.666041666666665,
+          "end": 31.955041666666666,
+          "text": "Our goal is to describe the mode and the whole distribution in context.",
+          "parent_index": 1
+        },
+        {
+          "start": 31.955041666666666,
+          "end": 37.64879166666667,
+          "text": "We want to say what the most common value means, but also notice pupils whose values are different.",
+          "parent_index": 1
+        },
+        {
+          "start": 37.64879166666667,
+          "end": 42.204458333333335,
+          "text": "A single summary is a useful clue, rather than the entire investigation.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-3",
+      "lesson": 3,
+      "type": "static",
+      "start": 42.2,
+      "end": 69.0,
+      "cues": [
+        {
+          "start": 37.64879166666667,
+          "end": 42.204458333333335,
+          "text": "A single summary is a useful clue, rather than the entire investigation.",
+          "parent_index": 1
+        },
+        {
+          "start": 42.204458333333335,
+          "end": 45.818375,
+          "text": "I can identify the most frequent value or category.",
+          "parent_index": 2
+        },
+        {
+          "start": 45.818375,
+          "end": 49.47508333333334,
+          "text": "I can describe clusters, gaps and how frequencies are spread.",
+          "parent_index": 2
+        },
+        {
+          "start": 49.47508333333334,
+          "end": 52.8485,
+          "text": "I can compare two distributions using evidence.",
+          "parent_index": 2
+        },
+        {
+          "start": 52.8485,
+          "end": 56.65083333333334,
+          "text": "Remember that frequency means how often a value occurs.",
+          "parent_index": 2
+        },
+        {
+          "start": 56.65083333333334,
+          "end": 62.20937500000001,
+          "text": "In a column graph, the horizontal labels name the book counts and the vertical scale counts pupils.",
+          "parent_index": 2
+        },
+        {
+          "start": 62.20937500000001,
+          "end": 64.93587500000001,
+          "text": "Read both labels before giving an answer.",
+          "parent_index": 2
+        },
+        {
+          "start": 64.93587500000001,
+          "end": 69.01162500000001,
+          "text": "Two books and three pupils describe different parts of the same display.",
+          "parent_index": 2
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-4",
+      "lesson": 3,
+      "type": "static",
+      "start": 69.0,
+      "end": 98.2,
+      "cues": [
+        {
+          "start": 64.93587500000001,
+          "end": 69.01162500000001,
+          "text": "Two books and three pupils describe different parts of the same display.",
+          "parent_index": 2
+        },
+        {
+          "start": 69.01162500000001,
+          "end": 74.46429166666668,
+          "text": "The mode is the value or category with the highest frequency, not the frequency itself.",
+          "parent_index": 3
+        },
+        {
+          "start": 74.46429166666668,
+          "end": 77.41012500000002,
+          "text": "Two values can tie for the highest frequency.",
+          "parent_index": 3
+        },
+        {
+          "start": 77.41012500000002,
+          "end": 82.0262916666667,
+          "text": "If all observed values occur equally often, there is no useful mode.",
+          "parent_index": 3
+        },
+        {
+          "start": 82.0262916666667,
+          "end": 85.46566666666669,
+          "text": "A distribution shows how all the responses are spread.",
+          "parent_index": 3
+        },
+        {
+          "start": 85.46566666666669,
+          "end": 91.03141666666669,
+          "text": "Describe where most values gather, any gaps and whether counts are balanced or trail to one side.",
+          "parent_index": 3
+        },
+        {
+          "start": 91.03141666666669,
+          "end": 93.93762500000003,
+          "text": "Keep zero-frequency counts to show gaps.",
+          "parent_index": 3
+        },
+        {
+          "start": 93.93762500000003,
+          "end": 96.92925000000002,
+          "text": "Build the first display one pupil at a time.",
+          "parent_index": 3
+        },
+        {
+          "start": 96.92925000000002,
+          "end": 101.9427916666667,
+          "text": "Place one counter at zero books, one at one book, then three counters at two books.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-5",
+      "lesson": 3,
+      "type": "static",
+      "start": 101.2,
+      "end": 112.8,
+      "cues": [
+        {
+          "start": 96.92925000000002,
+          "end": 101.9427916666667,
+          "text": "Place one counter at zero books, one at one book, then three counters at two books.",
+          "parent_index": 3
+        },
+        {
+          "start": 101.9427916666667,
+          "end": 104.79500000000003,
+          "text": "Finally place one at three and one at four.",
+          "parent_index": 3
+        },
+        {
+          "start": 104.79500000000003,
+          "end": 109.11858333333336,
+          "text": "We can replace each stack by a column without changing its frequency.",
+          "parent_index": 3
+        },
+        {
+          "start": 109.11858333333336,
+          "end": 112.72333333333336,
+          "text": "Now the concrete counters and the graph show the same data.",
+          "parent_index": 3
+        },
+        {
+          "start": 112.72333333333336,
+          "end": 116.25512500000002,
+          "text": "Books borrowed: 0, 1, 2, 2, 2, 3, 4.",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-6",
+      "lesson": 3,
+      "type": "static",
+      "start": 112.8,
+      "end": 135.2,
+      "cues": [
+        {
+          "start": 112.72333333333336,
+          "end": 116.25512500000002,
+          "text": "Books borrowed: 0, 1, 2, 2, 2, 3, 4.",
+          "parent_index": 4
+        },
+        {
+          "start": 116.25512500000002,
+          "end": 118.82691666666669,
+          "text": "What is the mode, and what does it mean?",
+          "parent_index": 4
+        },
+        {
+          "start": 118.82691666666669,
+          "end": 121.98491666666669,
+          "text": "Before hearing the answer, compare the column heights.",
+          "parent_index": 4
+        },
+        {
+          "start": 121.98491666666669,
+          "end": 125.2527916666667,
+          "text": "Which book-count value belongs to the tallest column?",
+          "parent_index": 4
+        },
+        {
+          "start": 125.2527916666667,
+          "end": 132.2626666666667,
+          "text": "Think about how you would finish this sentence: the most common number of books is something, because something pupils borrowed that many.",
+          "parent_index": 4
+        },
+        {
+          "start": 132.2626666666667,
+          "end": 135.10725000000002,
+          "text": "Keep the value and its frequency separate.",
+          "parent_index": 4
+        },
+        {
+          "start": 135.10725000000002,
+          "end": 140.10725000000002,
+          "text": "",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1ea7d2a8dc89a67889697a1b157bb38bc54b0cfdb491173631e1521a5031922c"
+    },
+    {
+      "id": "L3-static-7",
+      "lesson": 3,
+      "type": "static",
+      "start": 155.4,
+      "end": 167.8,
+      "cues": [
+        {
+          "start": 155.3465416666667,
+          "end": 157.17058333333335,
+          "text": "That label is the mode.",
+          "parent_index": 5
+        },
+        {
+          "start": 157.17058333333335,
+          "end": 162.8395416666667,
+          "text": "One pupil borrowed zero, and another borrowed four, so it would be wrong to say everyone borrowed two.",
+          "parent_index": 5
+        },
+        {
+          "start": 162.8395416666667,
+          "end": 167.73925000000003,
+          "text": "The distribution is balanced around two, with matching frequencies on the two sides.",
+          "parent_index": 5
+        },
+        {
+          "start": 167.73925000000003,
+          "end": 172.79370833333337,
+          "text": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-8",
+      "lesson": 3,
+      "type": "static",
+      "start": 167.8,
+      "end": 195.2,
+      "cues": [
+        {
+          "start": 167.73925000000003,
+          "end": 172.79370833333337,
+          "text": "Class A frequencies for 0,1,2,3,4 books: 1,2,5,2,1.",
+          "parent_index": 6
+        },
+        {
+          "start": 172.79370833333337,
+          "end": 175.58300000000003,
+          "text": "Class B: 0,0,5,4,2.",
+          "parent_index": 6
+        },
+        {
+          "start": 175.58300000000003,
+          "end": 177.15070833333337,
+          "text": "What stays the same?",
+          "parent_index": 6
+        },
+        {
+          "start": 177.15070833333337,
+          "end": 180.79925000000003,
+          "text": "Now compare two classes with eleven pupils each.",
+          "parent_index": 6
+        },
+        {
+          "start": 180.79925000000003,
+          "end": 185.76145833333337,
+          "text": "For zero through four books, Class A has frequencies one, two, five, two and one.",
+          "parent_index": 6
+        },
+        {
+          "start": 185.76145833333337,
+          "end": 188.9487916666667,
+          "text": "Class B has zero, zero, five, four and two.",
+          "parent_index": 6
+        },
+        {
+          "start": 188.9487916666667,
+          "end": 191.1317916666667,
+          "text": "Predict what the modes will share.",
+          "parent_index": 6
+        },
+        {
+          "start": 191.1317916666667,
+          "end": 195.09250000000003,
+          "text": "Then decide whether the rest of the distributions must match.",
+          "parent_index": 6
+        },
+        {
+          "start": 195.09250000000003,
+          "end": 200.09250000000003,
+          "text": "",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-9",
+      "lesson": 3,
+      "type": "static",
+      "start": 200.8,
+      "end": 235.4,
+      "cues": [
+        {
+          "start": 200.09250000000003,
+          "end": 202.09008333333335,
+          "text": "Both have a mode of 2 books.",
+          "parent_index": 7
+        },
+        {
+          "start": 202.09008333333335,
+          "end": 203.95733333333337,
+          "text": "A is balanced around 2.",
+          "parent_index": 7
+        },
+        {
+          "start": 203.95733333333337,
+          "end": 208.19387500000002,
+          "text": "B has no pupils at 0 or 1 and all values are 2 to 4.",
+          "parent_index": 7
+        },
+        {
+          "start": 208.19387500000002,
+          "end": 211.62758333333335,
+          "text": "A shared mode does not describe the whole distribution.",
+          "parent_index": 7
+        },
+        {
+          "start": 211.62758333333335,
+          "end": 214.92895833333336,
+          "text": "If two bars tie at the top, report both modes.",
+          "parent_index": 7
+        },
+        {
+          "start": 214.92895833333336,
+          "end": 218.02820833333337,
+          "text": "Class A has pupils on both sides of two books.",
+          "parent_index": 7
+        },
+        {
+          "start": 218.02820833333337,
+          "end": 223.4600416666667,
+          "text": "Class B has no pupils at zero or one, and all its observations are two, three or four.",
+          "parent_index": 7
+        },
+        {
+          "start": 223.4600416666667,
+          "end": 226.91333333333338,
+          "text": "Both classes have the same tallest value at two books.",
+          "parent_index": 7
+        },
+        {
+          "start": 226.91333333333338,
+          "end": 231.32841666666673,
+          "text": "Their shared mode does not make the two sets of observations identical.",
+          "parent_index": 7
+        },
+        {
+          "start": 231.32841666666673,
+          "end": 235.3994583333334,
+          "text": "Use the empty positions and the other column heights as evidence.",
+          "parent_index": 7
+        },
+        {
+          "start": 235.3994583333334,
+          "end": 239.7993333333334,
+          "text": "\u201cThe mode describes everyone.\u201d It describes the most common value.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-10",
+      "lesson": 3,
+      "type": "static",
+      "start": 247.0,
+      "end": 260.8,
+      "cues": [
+        {
+          "start": 246.97637500000008,
+          "end": 252.94375000000008,
+          "text": "The highest numerical value has changed in frequency, but that alone does not make four the mode.",
+          "parent_index": 8
+        },
+        {
+          "start": 252.94375000000008,
+          "end": 255.16016666666675,
+          "text": "Compare all frequencies again.",
+          "parent_index": 8
+        },
+        {
+          "start": 255.16016666666675,
+          "end": 260.8160833333334,
+          "text": "A mode is chosen by how often a value occurs, rather than by how large the value is.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-11",
+      "lesson": 3,
+      "type": "static",
+      "start": 260.8,
+      "end": 271.8,
+      "cues": [
+        {
+          "start": 255.16016666666675,
+          "end": 260.8160833333334,
+          "text": "A mode is chosen by how often a value occurs, rather than by how large the value is.",
+          "parent_index": 8
+        },
+        {
+          "start": 260.8160833333334,
+          "end": 264.8705000000001,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        },
+        {
+          "start": 264.8705000000001,
+          "end": 269.47329166666674,
+          "text": "Make a prediction, collect or change the data, then explain what you notice.",
+          "parent_index": 9
+        },
+        {
+          "start": 269.47329166666674,
+          "end": 271.5214583333334,
+          "text": "Try a tied distribution.",
+          "parent_index": 9
+        },
+        {
+          "start": 271.5214583333334,
+          "end": 277.84329166666674,
+          "text": "If one book and two books each have five pupils, and every other frequency is smaller, both are modes.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-12",
+      "lesson": 3,
+      "type": "static",
+      "start": 277.8,
+      "end": 288.8,
+      "cues": [
+        {
+          "start": 271.5214583333334,
+          "end": 277.84329166666674,
+          "text": "If one book and two books each have five pupils, and every other frequency is smaller, both are modes.",
+          "parent_index": 9
+        },
+        {
+          "start": 277.84329166666674,
+          "end": 284.8555833333334,
+          "text": "If all the displayed possible values have the same frequency, no single value stands out as a useful mode.",
+          "parent_index": 9
+        },
+        {
+          "start": 284.8555833333334,
+          "end": 288.6988750000001,
+          "text": "Report what the graph shows instead of forcing a single answer.",
+          "parent_index": 9
+        },
+        {
+          "start": 288.6988750000001,
+          "end": 291.2628750000001,
+          "text": "Change the frequencies in the explorer.",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "ffde5418fe6ef7a9143a7309698d019203dac50b2df934b8592d263d54def7f1"
+    },
+    {
+      "id": "L3-static-13",
+      "lesson": 3,
+      "type": "static",
+      "start": 288.8,
+      "end": 314.4,
+      "cues": [
+        {
+          "start": 288.6988750000001,
+          "end": 291.2628750000001,
+          "text": "Change the frequencies in the explorer.",
+          "parent_index": 10
+        },
+        {
+          "start": 291.2628750000001,
+          "end": 296.4481666666668,
+          "text": "Describe a cluster or gap and explain why the mode alone misses part of the story.",
+          "parent_index": 10
+        },
+        {
+          "start": 296.4481666666668,
+          "end": 302.21637500000014,
+          "text": "In the explorer, change one frequency and predict what will happen before updating the display.",
+          "parent_index": 10
+        },
+        {
+          "start": 302.21637500000014,
+          "end": 304.9342916666668,
+          "text": "Can you create a gap with zero pupils?",
+          "parent_index": 10
+        },
+        {
+          "start": 304.9342916666668,
+          "end": 306.72650000000016,
+          "text": "Can you create two modes?",
+          "parent_index": 10
+        },
+        {
+          "start": 306.72650000000016,
+          "end": 310.30875000000015,
+          "text": "Can you keep the mode at two while changing the other values?",
+          "parent_index": 10
+        },
+        {
+          "start": 310.30875000000015,
+          "end": 314.40062500000016,
+          "text": "Explain how your change affects the description of the whole class.",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L3-static-14",
+      "lesson": 3,
+      "type": "static",
+      "start": 320.4,
+      "end": 331.1246666666668,
+      "cues": [
+        {
+          "start": 317.9485833333335,
+          "end": 323.7547083333335,
+          "text": "Which feature would you describe after giving the mode: a gap, a cluster, or how the values are spread?",
+          "parent_index": 11
+        },
+        {
+          "start": 323.7547083333335,
+          "end": 331.16466666666685,
+          "text": "Use a specific book count and frequency to support your explanation, and remember to look at every part of the distribution.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Counters, distributions or the two-class frequency comparison remains available for reasoning about mode and spread. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L3-fast-15",
+      "lesson": 3,
+      "type": "fast",
+      "start": 100.6,
+      "end": 101.2,
+      "cues": [
+        {
+          "start": 96.92925000000002,
+          "end": 101.9427916666667,
+          "text": "Place one counter at zero books, one at one book, then three counters at two books.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Second counter column completes; earlier counter remains visible. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L3-fast-16",
+      "lesson": 3,
+      "type": "fast",
+      "start": 200.2,
+      "end": 200.8,
+      "cues": [
+        {
+          "start": 200.09250000000003,
+          "end": 202.09008333333335,
+          "text": "Both have a mode of 2 books.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Context label changes above the persistent class comparison. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L3-fast-17",
+      "lesson": 3,
+      "type": "fast",
+      "start": 246.2,
+      "end": 247.0,
+      "cues": [
+        {
+          "start": 243.44350000000009,
+          "end": 246.97637500000008,
+          "text": "Imagine one extra pupil reporting four books.",
+          "parent_index": 8
+        },
+        {
+          "start": 246.97637500000008,
+          "end": 252.94375000000008,
+          "text": "The highest numerical value has changed in frequency, but that alone does not make four the mode.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus on four books clears; updated count 2 persists. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L3-fast-18",
+      "lesson": 3,
+      "type": "fast",
+      "start": 271.8,
+      "end": 272.6,
+      "cues": [
+        {
+          "start": 271.5214583333334,
+          "end": 277.84329166666674,
+          "text": "If one book and two books each have five pupils, and every other frequency is smaller, both are modes.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson3-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus moves between the tied modes; both bars retain frequency 5. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a2d72c78d1995db16d52e6b3cae572d5071b3a345de1fac0d15b8140a1b4b72c"
+    },
+    {
+      "id": "L4-static-1",
+      "lesson": 4,
+      "type": "static",
+      "start": 0,
+      "end": 19.2,
+      "cues": [
+        {
+          "start": 0,
+          "end": 2.1651666666666665,
+          "text": "The school garden tank is filling.",
+          "parent_index": 0
+        },
+        {
+          "start": 2.1651666666666665,
+          "end": 6.856166666666667,
+          "text": "A rising line looks promising, but can we promise what the tank will hold tomorrow?",
+          "parent_index": 0
+        },
+        {
+          "start": 6.856166666666667,
+          "end": 10.675625,
+          "text": "Picture two garden tanks beside the school vegetable beds.",
+          "parent_index": 0
+        },
+        {
+          "start": 10.675625,
+          "end": 14.058833333333332,
+          "text": "Rain adds water and watering the plants removes it.",
+          "parent_index": 0
+        },
+        {
+          "start": 14.058833333333332,
+          "end": 17.58683333333333,
+          "text": "A class records the amount on the same four school days.",
+          "parent_index": 0
+        },
+        {
+          "start": 17.58683333333333,
+          "end": 22.909208333333332,
+          "text": "A line graph can help us follow change, but only when we know what its axes and units mean.",
+          "parent_index": 0
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-2",
+      "lesson": 4,
+      "type": "static",
+      "start": 23.0,
+      "end": 42.2,
+      "cues": [
+        {
+          "start": 22.909208333333332,
+          "end": 27.929791666666667,
+          "text": "Today we are learning to interpret line graphs and explain what their evidence supports.",
+          "parent_index": 1
+        },
+        {
+          "start": 27.929791666666667,
+          "end": 32.90375,
+          "text": "Our goal is to interpret observations over time and make careful comparisons.",
+          "parent_index": 1
+        },
+        {
+          "start": 32.90375,
+          "end": 38.849875000000004,
+          "text": "We want to read a particular day, calculate a change between days, and explain which conclusions are supported.",
+          "parent_index": 1
+        },
+        {
+          "start": 38.849875000000004,
+          "end": 42.27616666666667,
+          "text": "Keep those three different jobs separate as we build the graph.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-3",
+      "lesson": 4,
+      "type": "static",
+      "start": 42.2,
+      "end": 69.0,
+      "cues": [
+        {
+          "start": 38.849875000000004,
+          "end": 42.27616666666667,
+          "text": "Keep those three different jobs separate as we build the graph.",
+          "parent_index": 1
+        },
+        {
+          "start": 42.27616666666667,
+          "end": 45.4825,
+          "text": "I can read the time axis and the labelled scale.",
+          "parent_index": 2
+        },
+        {
+          "start": 45.4825,
+          "end": 49.05433333333333,
+          "text": "I can compare changes over equal time intervals.",
+          "parent_index": 2
+        },
+        {
+          "start": 49.05433333333333,
+          "end": 52.81679166666667,
+          "text": "I can separate observations from uncertain predictions.",
+          "parent_index": 2
+        },
+        {
+          "start": 52.81679166666667,
+          "end": 56.587375,
+          "text": "Remember reading a table by matching a row label with a quantity.",
+          "parent_index": 2
+        },
+        {
+          "start": 56.587375,
+          "end": 59.79575,
+          "text": "We will turn those table observations into points.",
+          "parent_index": 2
+        },
+        {
+          "start": 59.79575,
+          "end": 63.768625,
+          "text": "Monday, Tuesday, Wednesday and Thursday belong in time order.",
+          "parent_index": 2
+        },
+        {
+          "start": 63.768625,
+          "end": 69.01958333333333,
+          "text": "Equal spaces along the time axis will represent equal one-day intervals.",
+          "parent_index": 2
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-4",
+      "lesson": 4,
+      "type": "static",
+      "start": 71.6,
+      "end": 109.2,
+      "cues": [
+        {
+          "start": 69.01958333333333,
+          "end": 72.26108333333333,
+          "text": "A line graph shows observations in time order.",
+          "parent_index": 3
+        },
+        {
+          "start": 72.26108333333333,
+          "end": 78.01245833333333,
+          "text": "The horizontal axis shows time and the vertical axis shows the measured quantity and unit.",
+          "parent_index": 3
+        },
+        {
+          "start": 78.01245833333333,
+          "end": 81.35974999999999,
+          "text": "Equal spaces must mean equal time intervals.",
+          "parent_index": 3
+        },
+        {
+          "start": 81.35974999999999,
+          "end": 83.88920833333333,
+          "text": "Read the scale before comparing heights.",
+          "parent_index": 3
+        },
+        {
+          "start": 83.88920833333333,
+          "end": 89.55983333333333,
+          "text": "A rising segment means an increase, a falling one a decrease and a flat one no change.",
+          "parent_index": 3
+        },
+        {
+          "start": 89.55983333333333,
+          "end": 95.399625,
+          "text": "The line connects observations; it does not prove every value between them or any future value.",
+          "parent_index": 3
+        },
+        {
+          "start": 95.399625,
+          "end": 98.00408333333334,
+          "text": "Start with the horizontal time axis.",
+          "parent_index": 3
+        },
+        {
+          "start": 98.00408333333334,
+          "end": 101.15870833333334,
+          "text": "Add the days in order and leave equal spacing.",
+          "parent_index": 3
+        },
+        {
+          "start": 101.15870833333334,
+          "end": 107.82858333333334,
+          "text": "The vertical axis measures litres, starting at zero and increasing by ten litres at each marked interval.",
+          "parent_index": 3
+        },
+        {
+          "start": 107.82858333333334,
+          "end": 112.70037500000001,
+          "text": "Plot Monday at ten, Tuesday at twenty, Wednesday at twenty and Thursday at forty.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-5",
+      "lesson": 4,
+      "type": "static",
+      "start": 123.2,
+      "end": 134.0,
+      "cues": [
+        {
+          "start": 118.10033333333334,
+          "end": 123.89533333333334,
+          "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday.",
+          "parent_index": 4
+        },
+        {
+          "start": 123.89533333333334,
+          "end": 126.802125,
+          "text": "Which equal daily interval rose most?",
+          "parent_index": 4
+        },
+        {
+          "start": 126.802125,
+          "end": 131.8585,
+          "text": "Before deciding which increase is largest, look at each pair of neighbouring days.",
+          "parent_index": 4
+        },
+        {
+          "start": 131.8585,
+          "end": 138.448125,
+          "text": "Predict the change from Monday to Tuesday, then from Tuesday to Wednesday, and finally from Wednesday to Thursday.",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-6",
+      "lesson": 4,
+      "type": "static",
+      "start": 153.8,
+      "end": 179.6,
+      "cues": [
+        {
+          "start": 152.95050000000003,
+          "end": 155.43650000000002,
+          "text": "Wednesday to Thursday rose most.",
+          "parent_index": 5
+        },
+        {
+          "start": 155.43650000000002,
+          "end": 159.40795833333337,
+          "text": "The highest point and the largest rise answer different questions.",
+          "parent_index": 5
+        },
+        {
+          "start": 159.40795833333337,
+          "end": 164.55241666666672,
+          "text": "Tuesday\u2019s twenty litres minus Monday\u2019s ten gives an increase of ten litres.",
+          "parent_index": 5
+        },
+        {
+          "start": 164.55241666666672,
+          "end": 168.6547083333334,
+          "text": "The two middle readings are equal, so that interval has no change.",
+          "parent_index": 5
+        },
+        {
+          "start": 168.6547083333334,
+          "end": 173.51945833333338,
+          "text": "Thursday\u2019s forty minus Wednesday\u2019s twenty gives an increase of twenty litres.",
+          "parent_index": 5
+        },
+        {
+          "start": 173.51945833333338,
+          "end": 175.54616666666672,
+          "text": "That last rise is greatest.",
+          "parent_index": 5
+        },
+        {
+          "start": 175.54616666666672,
+          "end": 179.4853333333334,
+          "text": "The highest reading and the largest change are different questions.",
+          "parent_index": 5
+        },
+        {
+          "start": 179.4853333333334,
+          "end": 182.18300000000005,
+          "text": "Tank A: 10,20,20,40 L.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "eab1600f722389b130026d30ace287b3bbc4adeecefe689ef1d4218390d4ffac"
+    },
+    {
+      "id": "L4-static-7",
+      "lesson": 4,
+      "type": "static",
+      "start": 179.6,
+      "end": 206.8,
+      "cues": [
+        {
+          "start": 179.4853333333334,
+          "end": 182.18300000000005,
+          "text": "Tank A: 10,20,20,40 L.",
+          "parent_index": 6
+        },
+        {
+          "start": 182.18300000000005,
+          "end": 185.99550000000005,
+          "text": "Tank B: 20,20,30,30 L on the same days.",
+          "parent_index": 6
+        },
+        {
+          "start": 185.99550000000005,
+          "end": 188.07570833333338,
+          "text": "Which is fuller on Thursday?",
+          "parent_index": 6
+        },
+        {
+          "start": 188.07570833333338,
+          "end": 189.87779166666672,
+          "text": "Can we promise Friday?",
+          "parent_index": 6
+        },
+        {
+          "start": 189.87779166666672,
+          "end": 194.53204166666671,
+          "text": "Tank B has twenty, twenty, thirty and thirty litres on the same days.",
+          "parent_index": 6
+        },
+        {
+          "start": 194.53204166666671,
+          "end": 197.7016666666667,
+          "text": "It uses the same time and quantity scales.",
+          "parent_index": 6
+        },
+        {
+          "start": 197.7016666666667,
+          "end": 203.03404166666672,
+          "text": "Before we reveal a comparison, find Thursday on both lines and read the two values.",
+          "parent_index": 6
+        },
+        {
+          "start": 203.03404166666672,
+          "end": 206.72720833333338,
+          "text": "Which tank is fuller, and what subtraction will tell you the difference?",
+          "parent_index": 6
+        },
+        {
+          "start": 206.72720833333338,
+          "end": 211.72720833333338,
+          "text": "",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-8",
+      "lesson": 4,
+      "type": "static",
+      "start": 215.8,
+      "end": 243.0,
+      "cues": [
+        {
+          "start": 211.72720833333338,
+          "end": 216.18929166666672,
+          "text": "A has 40 L and B has 30 L on Thursday, a difference of 10 L.",
+          "parent_index": 7
+        },
+        {
+          "start": 216.18929166666672,
+          "end": 220.48375000000004,
+          "text": "We need new observations for Friday: rain and water use may change.",
+          "parent_index": 7
+        },
+        {
+          "start": 220.48375000000004,
+          "end": 226.1125833333334,
+          "text": "If a vertical axis starts above zero, a small change can look dramatic; read the labels.",
+          "parent_index": 7
+        },
+        {
+          "start": 226.1125833333334,
+          "end": 231.05012500000007,
+          "text": "The solid circle line represents A, while the dashed square line represents B.",
+          "parent_index": 7
+        },
+        {
+          "start": 231.05012500000007,
+          "end": 234.27500000000006,
+          "text": "On Thursday, A has forty litres and B has thirty.",
+          "parent_index": 7
+        },
+        {
+          "start": 234.27500000000006,
+          "end": 236.3690833333334,
+          "text": "The difference is ten litres.",
+          "parent_index": 7
+        },
+        {
+          "start": 236.3690833333334,
+          "end": 238.70941666666673,
+          "text": "On Monday, B was fuller instead.",
+          "parent_index": 7
+        },
+        {
+          "start": 238.70941666666673,
+          "end": 246.3818333333334,
+          "text": "Comparing at the same time is important: a Monday point on one line and a Thursday point on the other answer a different question.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-9",
+      "lesson": 4,
+      "type": "static",
+      "start": 246.4,
+      "end": 256.4,
+      "cues": [
+        {
+          "start": 246.3818333333334,
+          "end": 251.83279166666674,
+          "text": "\u201cA rising line must keep rising.\u201d It records what happened during the shown times.",
+          "parent_index": 8
+        },
+        {
+          "start": 251.83279166666674,
+          "end": 255.43962500000006,
+          "text": "A forecast is uncertain and needs extra evidence.",
+          "parent_index": 8
+        },
+        {
+          "start": 255.43962500000006,
+          "end": 260.84033333333343,
+          "text": "The line between observations helps us see change, but it does not record every moment.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-10",
+      "lesson": 4,
+      "type": "static",
+      "start": 256.4,
+      "end": 276.0,
+      "cues": [
+        {
+          "start": 255.43962500000006,
+          "end": 260.84033333333343,
+          "text": "The line between observations helps us see change, but it does not record every moment.",
+          "parent_index": 8
+        },
+        {
+          "start": 260.84033333333343,
+          "end": 264.0720833333334,
+          "text": "A tank might be used during the day, then filled again.",
+          "parent_index": 8
+        },
+        {
+          "start": 264.0720833333334,
+          "end": 266.8855000000001,
+          "text": "Friday is outside our observations.",
+          "parent_index": 8
+        },
+        {
+          "start": 266.8855000000001,
+          "end": 271.44495833333343,
+          "text": "We can suggest what might happen, but the graph alone cannot promise a reading.",
+          "parent_index": 8
+        },
+        {
+          "start": 271.44495833333343,
+          "end": 276.06904166666675,
+          "text": "We need new observations and information about rain or water use.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-11",
+      "lesson": 4,
+      "type": "static",
+      "start": 276.0,
+      "end": 299.0,
+      "cues": [
+        {
+          "start": 271.44495833333343,
+          "end": 276.06904166666675,
+          "text": "We need new observations and information about rain or water use.",
+          "parent_index": 8
+        },
+        {
+          "start": 276.06904166666675,
+          "end": 280.12516666666676,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        },
+        {
+          "start": 280.12516666666676,
+          "end": 284.7278750000001,
+          "text": "Make a prediction, collect or change the data, then explain what you notice.",
+          "parent_index": 9
+        },
+        {
+          "start": 284.7278750000001,
+          "end": 288.3490000000001,
+          "text": "Look at two graphs of a forty-to-fifty-litre change.",
+          "parent_index": 9
+        },
+        {
+          "start": 288.3490000000001,
+          "end": 292.68533333333346,
+          "text": "One vertical scale begins at zero and the other begins at forty.",
+          "parent_index": 9
+        },
+        {
+          "start": 292.68533333333346,
+          "end": 296.58033333333344,
+          "text": "The second makes the rise look much larger on the page.",
+          "parent_index": 9
+        },
+        {
+          "start": 296.58033333333344,
+          "end": 299.67225000000013,
+          "text": "The observations still differ by ten litres.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-12",
+      "lesson": 4,
+      "type": "static",
+      "start": 304.6,
+      "end": 314.4,
+      "cues": [
+        {
+          "start": 299.67225000000013,
+          "end": 304.6485416666668,
+          "text": "Always read the scale labels before deciding how large a change really is.",
+          "parent_index": 9
+        },
+        {
+          "start": 304.6485416666668,
+          "end": 308.97862500000014,
+          "text": "Describe one interval using its two days and change in litres.",
+          "parent_index": 10
+        },
+        {
+          "start": 308.97862500000014,
+          "end": 311.4332083333335,
+          "text": "Write one claim the graph cannot prove.",
+          "parent_index": 10
+        },
+        {
+          "start": 311.4332083333335,
+          "end": 314.82387500000016,
+          "text": "In the explorer, change Tank A\u2019s Thursday reading.",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "a116e66599bc3cde2c571697ddca7fda208bedbc8e0ec10d55a9c176de7ce2fe"
+    },
+    {
+      "id": "L4-static-13",
+      "lesson": 4,
+      "type": "static",
+      "start": 314.4,
+      "end": 330.0,
+      "cues": [
+        {
+          "start": 311.4332083333335,
+          "end": 314.82387500000016,
+          "text": "In the explorer, change Tank A\u2019s Thursday reading.",
+          "parent_index": 10
+        },
+        {
+          "start": 314.82387500000016,
+          "end": 319.0178750000002,
+          "text": "Predict which interval now has the biggest rise, then check the values.",
+          "parent_index": 10
+        },
+        {
+          "start": 319.0178750000002,
+          "end": 322.49120833333353,
+          "text": "If two intervals rise by the same amount, say they tie.",
+          "parent_index": 10
+        },
+        {
+          "start": 322.49120833333353,
+          "end": 326.77329166666686,
+          "text": "A flat interval has zero change, and a falling interval has a decrease.",
+          "parent_index": 10
+        },
+        {
+          "start": 326.77329166666686,
+          "end": 330.0600833333335,
+          "text": "Use the day names and litres in your explanation.",
+          "parent_index": 10
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "29021736147041743a1d93ecfeec2d3a9363719b1b681c364cb40d29de31d3cd"
+    },
+    {
+      "id": "L4-static-14",
+      "lesson": 4,
+      "type": "static",
+      "start": 335.0,
+      "end": 346.98175000000015,
+      "cues": [
+        {
+          "start": 334.30320833333354,
+          "end": 338.74816666666686,
+          "text": "Share one claim using a day and a reading, then one claim about a change.",
+          "parent_index": 11
+        },
+        {
+          "start": 338.74816666666686,
+          "end": 342.82812500000017,
+          "text": "Finish by naming one question that would need more observations.",
+          "parent_index": 11
+        },
+        {
+          "start": 342.82812500000017,
+          "end": 347.02175000000017,
+          "text": "Clear axes and careful comparisons help the evidence speak.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Axes, time intervals, observations or comparison scales remain available during the line-graph explanation. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "29021736147041743a1d93ecfeec2d3a9363719b1b681c364cb40d29de31d3cd"
+    },
+    {
+      "id": "L4-fast-15",
+      "lesson": 4,
+      "type": "fast",
+      "start": 121.8,
+      "end": 122.6,
+      "cues": [
+        {
+          "start": 118.10033333333334,
+          "end": 123.89533333333334,
+          "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday.",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus moves across Monday, Tuesday and Wednesday on the same graph. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "29021736147041743a1d93ecfeec2d3a9363719b1b681c364cb40d29de31d3cd"
+    },
+    {
+      "id": "L4-fast-16",
+      "lesson": 4,
+      "type": "fast",
+      "start": 122.6,
+      "end": 123.2,
+      "cues": [
+        {
+          "start": 118.10033333333334,
+          "end": 123.89533333333334,
+          "text": "A tank holds 10, 20, 20 and 40 litres on Monday, Tuesday, Wednesday and Thursday.",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson4-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus returns across observations; data, units and time scale persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "29021736147041743a1d93ecfeec2d3a9363719b1b681c364cb40d29de31d3cd"
+    },
+    {
+      "id": "L5-static-1",
+      "lesson": 5,
+      "type": "static",
+      "start": 1.8,
+      "end": 22.0,
+      "cues": [
+        {
+          "start": 0,
+          "end": 3.247,
+          "text": "Your class can choose one library display theme.",
+          "parent_index": 0
+        },
+        {
+          "start": 3.247,
+          "end": 6.846333333333334,
+          "text": "How can we make a recommendation that listens to the class?",
+          "parent_index": 0
+        },
+        {
+          "start": 6.846333333333334,
+          "end": 10.590083333333334,
+          "text": "Imagine a display table waiting for a new library theme.",
+          "parent_index": 0
+        },
+        {
+          "start": 10.590083333333334,
+          "end": 14.566541666666668,
+          "text": "A bright idea is useful, but the class should have a voice in the choice.",
+          "parent_index": 0
+        },
+        {
+          "start": 14.566541666666668,
+          "end": 22.050625,
+          "text": "We can use an investigation to move from a question to evidence, and from evidence to a recommendation that explains its limits.",
+          "parent_index": 0
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-2",
+      "lesson": 5,
+      "type": "static",
+      "start": 22.0,
+      "end": 43.2,
+      "cues": [
+        {
+          "start": 14.566541666666668,
+          "end": 22.050625,
+          "text": "We can use an investigation to move from a question to evidence, and from evidence to a recommendation that explains its limits.",
+          "parent_index": 0
+        },
+        {
+          "start": 22.050625,
+          "end": 27.227083333333333,
+          "text": "Today we are learning to conduct an investigation and communicate a careful conclusion.",
+          "parent_index": 1
+        },
+        {
+          "start": 27.227083333333333,
+          "end": 31.950625,
+          "text": "Our goal is to complete an investigation and communicate a careful conclusion.",
+          "parent_index": 1
+        },
+        {
+          "start": 31.950625,
+          "end": 34.86845833333333,
+          "text": "We will connect the skills from the earlier lessons.",
+          "parent_index": 1
+        },
+        {
+          "start": 34.86845833333333,
+          "end": 43.21191666666666,
+          "text": "The final report should explain the question, who answered, how responses were checked, what the display shows and which decision the evidence can support.",
+          "parent_index": 1
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-3",
+      "lesson": 5,
+      "type": "static",
+      "start": 43.2,
+      "end": 73.6,
+      "cues": [
+        {
+          "start": 34.86845833333333,
+          "end": 43.21191666666666,
+          "text": "The final report should explain the question, who answered, how responses were checked, what the display shows and which decision the evidence can support.",
+          "parent_index": 1
+        },
+        {
+          "start": 43.21191666666666,
+          "end": 47.16054166666666,
+          "text": "I can pose a useful question and collect relevant checked data.",
+          "parent_index": 2
+        },
+        {
+          "start": 47.16054166666666,
+          "end": 50.50762499999999,
+          "text": "I can choose a display and interpret its mode and shape.",
+          "parent_index": 2
+        },
+        {
+          "start": 50.50762499999999,
+          "end": 54.788124999999994,
+          "text": "I can report evidence, a limitation and a sensible next question.",
+          "parent_index": 2
+        },
+        {
+          "start": 54.788124999999994,
+          "end": 57.477124999999994,
+          "text": "Recall the different jobs we have practised.",
+          "parent_index": 2
+        },
+        {
+          "start": 57.477124999999994,
+          "end": 60.69454166666666,
+          "text": "A fair question collects relevant information.",
+          "parent_index": 2
+        },
+        {
+          "start": 60.69454166666666,
+          "end": 63.82195833333333,
+          "text": "A frequency table counts checked responses.",
+          "parent_index": 2
+        },
+        {
+          "start": 63.82195833333333,
+          "end": 66.45216666666666,
+          "text": "A column graph compares category counts.",
+          "parent_index": 2
+        },
+        {
+          "start": 66.45216666666666,
+          "end": 69.52725,
+          "text": "The mode identifies a most common choice.",
+          "parent_index": 2
+        },
+        {
+          "start": 69.52725,
+          "end": 73.63775,
+          "text": "Now we will bring those pieces together, with context and a next step.",
+          "parent_index": 2
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-4",
+      "lesson": 5,
+      "type": "static",
+      "start": 73.6,
+      "end": 87.8,
+      "cues": [
+        {
+          "start": 69.52725,
+          "end": 73.63775,
+          "text": "Now we will bring those pieces together, with context and a next step.",
+          "parent_index": 2
+        },
+        {
+          "start": 73.63775,
+          "end": 82.51362499999999,
+          "text": "Use a cycle: question \u2192 plan \u2192 collect \u2192 check \u2192 display \u2192 interpret \u2192 communicate.",
+          "parent_index": 3
+        },
+        {
+          "start": 82.51362499999999,
+          "end": 87.77616666666665,
+          "text": "Name the group, keep the collection fair and record one anonymous response per pupil.",
+          "parent_index": 3
+        },
+        {
+          "start": 87.77616666666665,
+          "end": 94.33037499999999,
+          "text": "Choose a column graph for named choices, ordered columns for ratings or counts, and a line graph for change over time.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-5",
+      "lesson": 5,
+      "type": "static",
+      "start": 87.8,
+      "end": 120.2,
+      "cues": [
+        {
+          "start": 87.77616666666665,
+          "end": 94.33037499999999,
+          "text": "Choose a column graph for named choices, ordered columns for ratings or counts, and a line graph for change over time.",
+          "parent_index": 3
+        },
+        {
+          "start": 94.33037499999999,
+          "end": 99.02358333333332,
+          "text": "A sample tells us about those asked; do not automatically speak for the whole school.",
+          "parent_index": 3
+        },
+        {
+          "start": 99.02358333333332,
+          "end": 101.89733333333332,
+          "text": "Begin by naming the decision and the group.",
+          "parent_index": 3
+        },
+        {
+          "start": 101.89733333333332,
+          "end": 105.70770833333331,
+          "text": "Our question asks which library theme this class would choose.",
+          "parent_index": 3
+        },
+        {
+          "start": 105.70770833333331,
+          "end": 109.30770833333331,
+          "text": "The allowed choices are Animals, Space, Sport and Other.",
+          "parent_index": 3
+        },
+        {
+          "start": 109.30770833333331,
+          "end": 114.14974999999998,
+          "text": "Club names and theme names are nominal categories: they have no natural order.",
+          "parent_index": 3
+        },
+        {
+          "start": 114.14974999999998,
+          "end": 120.27070833333332,
+          "text": "A column graph will compare frequencies; a line joining themes would wrongly suggest a time sequence.",
+          "parent_index": 3
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-6",
+      "lesson": 5,
+      "type": "static",
+      "start": 120.2,
+      "end": 144.4,
+      "cues": [
+        {
+          "start": 114.14974999999998,
+          "end": 120.27070833333332,
+          "text": "A column graph will compare frequencies; a line joining themes would wrongly suggest a time sequence.",
+          "parent_index": 3
+        },
+        {
+          "start": 120.27070833333332,
+          "end": 124.58291666666665,
+          "text": "We want to know which theme our class prefers: animals, space or sport.",
+          "parent_index": 4
+        },
+        {
+          "start": 124.58291666666665,
+          "end": 127.88045833333331,
+          "text": "Is \u201cYou love space, don\u2019t you?\u201d a fair survey?",
+          "parent_index": 4
+        },
+        {
+          "start": 127.88045833333331,
+          "end": 132.15058333333332,
+          "text": "Before collecting anything, compare the two possible survey questions.",
+          "parent_index": 4
+        },
+        {
+          "start": 132.15058333333332,
+          "end": 136.305625,
+          "text": "Does either one suggest that a particular answer is expected?",
+          "parent_index": 4
+        },
+        {
+          "start": 136.305625,
+          "end": 139.808125,
+          "text": "Think about how you would feel if your favourite were different.",
+          "parent_index": 4
+        },
+        {
+          "start": 139.808125,
+          "end": 144.375125,
+          "text": "Choose wording that lets pupils answer honestly, and keep your reason ready.",
+          "parent_index": 4
+        },
+        {
+          "start": 144.375125,
+          "end": 149.375125,
+          "text": "",
+          "parent_index": 4
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-1.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "f664e250b0adebe0a378a2fc20a7177c2ff7e2feff3d86b0dd40e285f66a9578"
+    },
+    {
+      "id": "L5-static-7",
+      "lesson": 5,
+      "type": "static",
+      "start": 149.4,
+      "end": 179.4,
+      "cues": [
+        {
+          "start": 149.375125,
+          "end": 155.554625,
+          "text": "Ask \u201cWhich of these themes would you choose?\u201d using the same options for everyone, with another option too.",
+          "parent_index": 5
+        },
+        {
+          "start": 155.554625,
+          "end": 160.90175,
+          "text": "Ask all class members once, allow a private response and record no names in the report.",
+          "parent_index": 5
+        },
+        {
+          "start": 160.90175,
+          "end": 167.93204166666666,
+          "text": "A collection plan should say when the class will respond, how each pupil will be counted once, and what happens if someone is away.",
+          "parent_index": 5
+        },
+        {
+          "start": 167.93204166666666,
+          "end": 170.18520833333332,
+          "text": "Use the same choices for everyone.",
+          "parent_index": 5
+        },
+        {
+          "start": 170.18520833333332,
+          "end": 175.0869583333333,
+          "text": "Let pupils answer privately and record anonymous choices in the final data.",
+          "parent_index": 5
+        },
+        {
+          "start": 175.0869583333333,
+          "end": 179.40008333333333,
+          "text": "Checking the collection method matters as much as drawing the graph afterwards.",
+          "parent_index": 5
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-8",
+      "lesson": 5,
+      "type": "static",
+      "start": 193.8,
+      "end": 204.0,
+      "cues": [
+        {
+          "start": 189.38491666666667,
+          "end": 193.851375,
+          "text": "Four choose Animals, three choose Space, two choose Sport and one chooses Other.",
+          "parent_index": 6
+        },
+        {
+          "start": 193.851375,
+          "end": 198.81770833333331,
+          "text": "Before recommending anything, predict the modal theme and the total number of votes.",
+          "parent_index": 6
+        },
+        {
+          "start": 198.81770833333331,
+          "end": 204.07949999999997,
+          "text": "Ask yourself whether the leading choice must also have more than half of all the votes.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-9",
+      "lesson": 5,
+      "type": "static",
+      "start": 212.4,
+      "end": 229.4,
+      "cues": [
+        {
+          "start": 212.3845833333333,
+          "end": 215.33829166666663,
+          "text": "It leads, but 6 classmates chose something else.",
+          "parent_index": 7
+        },
+        {
+          "start": 215.33829166666663,
+          "end": 220.77274999999997,
+          "text": "Recommend an animals display for this class while noting that absent pupils were not asked.",
+          "parent_index": 7
+        },
+        {
+          "start": 220.77274999999997,
+          "end": 225.00366666666665,
+          "text": "Ask them before a final decision; do not claim the whole school agrees.",
+          "parent_index": 7
+        },
+        {
+          "start": 225.00366666666665,
+          "end": 229.4417083333333,
+          "text": "Count the frequencies together: four plus three plus two plus one gives ten.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-10",
+      "lesson": 5,
+      "type": "static",
+      "start": 247.2,
+      "end": 263.0,
+      "cues": [
+        {
+          "start": 246.02049999999997,
+          "end": 250.9557083333333,
+          "text": "\u201cThe most popular choice is a majority.\u201d A majority is more than half.",
+          "parent_index": 8
+        },
+        {
+          "start": 250.9557083333333,
+          "end": 254.71629166666662,
+          "text": "Four out of ten leads this vote but is not more than half.",
+          "parent_index": 8
+        },
+        {
+          "start": 254.71629166666662,
+          "end": 259.5772916666666,
+          "text": "A leading category can be useful for a decision even when it is not a majority.",
+          "parent_index": 8
+        },
+        {
+          "start": 259.5772916666666,
+          "end": 264.08699999999993,
+          "text": "We can recommend an Animals display while acknowledging other preferences.",
+          "parent_index": 8
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-11",
+      "lesson": 5,
+      "type": "static",
+      "start": 264.2,
+      "end": 272.4,
+      "cues": [
+        {
+          "start": 264.08699999999993,
+          "end": 266.8006249999999,
+          "text": "Perhaps the class could rotate themes later.",
+          "parent_index": 8
+        },
+        {
+          "start": 266.8006249999999,
+          "end": 272.38520833333325,
+          "text": "That is a possible decision based on the evidence, rather than a new fact proved by the graph.",
+          "parent_index": 8
+        },
+        {
+          "start": 272.38520833333325,
+          "end": 276.4392083333332,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-12",
+      "lesson": 5,
+      "type": "static",
+      "start": 272.4,
+      "end": 285.8,
+      "cues": [
+        {
+          "start": 272.38520833333325,
+          "end": 276.4392083333332,
+          "text": "Pause the player and try the investigation in the written lesson.",
+          "parent_index": 9
+        },
+        {
+          "start": 276.4392083333332,
+          "end": 281.0416249999999,
+          "text": "Make a prediction, collect or change the data, then explain what you notice.",
+          "parent_index": 9
+        },
+        {
+          "start": 281.0416249999999,
+          "end": 283.2749999999999,
+          "text": "Consider a second collection.",
+          "parent_index": 9
+        },
+        {
+          "start": 283.2749999999999,
+          "end": 289.2662499999999,
+          "text": "Only eight of twenty-four classmates reply: Art receives four votes, Sport three and Music one.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-2.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "580c672615e4cd21e2a57a777dd56eac4bb7885d747f392bd8a82ffa4363641d"
+    },
+    {
+      "id": "L5-static-13",
+      "lesson": 5,
+      "type": "static",
+      "start": 291.8,
+      "end": 301.0,
+      "cues": [
+        {
+          "start": 289.2662499999999,
+          "end": 293.30733333333325,
+          "text": "Four leads among the eight replies, but sixteen pupils are missing.",
+          "parent_index": 9
+        },
+        {
+          "start": 293.30733333333325,
+          "end": 296.58587499999993,
+          "text": "Ask them before claiming a complete class preference.",
+          "parent_index": 9
+        },
+        {
+          "start": 296.58587499999993,
+          "end": 301.0798333333333,
+          "text": "Missing responses could change the distribution and the recommendation.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-static-14",
+      "lesson": 5,
+      "type": "static",
+      "start": 304.8,
+      "end": 329.0,
+      "cues": [
+        {
+          "start": 301.0798333333333,
+          "end": 307.96554166666664,
+          "text": "Use your investigation report to explain a decision, its evidence, who it applies to, and what you would check next.",
+          "parent_index": 10
+        },
+        {
+          "start": 307.96554166666664,
+          "end": 310.3786666666666,
+          "text": "Build your report in a clear order.",
+          "parent_index": 10
+        },
+        {
+          "start": 310.3786666666666,
+          "end": 312.86912499999994,
+          "text": "State the question and collection group.",
+          "parent_index": 10
+        },
+        {
+          "start": 312.86912499999994,
+          "end": 315.2955833333333,
+          "text": "Describe one validation check.",
+          "parent_index": 10
+        },
+        {
+          "start": 315.2955833333333,
+          "end": 318.155,
+          "text": "Give a frequency and total from the display.",
+          "parent_index": 10
+        },
+        {
+          "start": 318.155,
+          "end": 320.222625,
+          "text": "Explain your recommendation.",
+          "parent_index": 10
+        },
+        {
+          "start": 320.222625,
+          "end": 324.365,
+          "text": "Then name a limitation and a next step that could improve the evidence.",
+          "parent_index": 10
+        },
+        {
+          "start": 324.365,
+          "end": 328.887625,
+          "text": "A partner should be able to check every numerical claim against your table.",
+          "parent_index": 10
+        },
+        {
+          "start": 328.887625,
+          "end": 332.9469583333333,
+          "text": "What would you investigate next if another class made a different choice?",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-static-15",
+      "lesson": 5,
+      "type": "static",
+      "start": 329.0,
+      "end": 348.13374999999996,
+      "cues": [
+        {
+          "start": 328.887625,
+          "end": 332.9469583333333,
+          "text": "What would you investigate next if another class made a different choice?",
+          "parent_index": 11
+        },
+        {
+          "start": 332.9469583333333,
+          "end": 337.8509583333333,
+          "text": "Different groups may have different preferences, and that variation is worth exploring.",
+          "parent_index": 11
+        },
+        {
+          "start": 337.8509583333333,
+          "end": 342.6648333333333,
+          "text": "Keep your conclusions connected to the group and evidence you actually collected.",
+          "parent_index": 11
+        },
+        {
+          "start": 342.6648333333333,
+          "end": 348.17375,
+          "text": "Ask, check, display, interpret and communicate: those steps help you make a thoughtful decision.",
+          "parent_index": 11
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Investigation cycle, theme votes or missing-response table remains available while evidence and limitations are discussed. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-fast-16",
+      "lesson": 5,
+      "type": "fast",
+      "start": 180.8,
+      "end": 181.6,
+      "cues": [
+        {
+          "start": 179.40008333333333,
+          "end": 183.64879166666665,
+          "text": "Ten classmates vote: Animals 4, Space 3, Sport 2, Other 1.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "First bar/focus is visible; later bars reveal progressively. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-fast-17",
+      "lesson": 5,
+      "type": "fast",
+      "start": 183.0,
+      "end": 183.6,
+      "cues": [
+        {
+          "start": 179.40008333333333,
+          "end": 183.64879166666665,
+          "text": "Ten classmates vote: Animals 4, Space 3, Sport 2, Other 1.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus moves to Other on the completed four-category graph. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-fast-18",
+      "lesson": 5,
+      "type": "fast",
+      "start": 193.4,
+      "end": 193.8,
+      "cues": [
+        {
+          "start": 189.38491666666667,
+          "end": 193.851375,
+          "text": "Four choose Animals, three choose Space, two choose Sport and one chooses Other.",
+          "parent_index": 6
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-3.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus moves between Space and Other while all bars persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "1d908e10751c4d60c7a36b1f8e15ab3404a292580497542e392245e26c37b811"
+    },
+    {
+      "id": "L5-fast-19",
+      "lesson": 5,
+      "type": "fast",
+      "start": 211.6,
+      "end": 212.4,
+      "cues": [
+        {
+          "start": 209.07949999999997,
+          "end": 212.3845833333333,
+          "text": "Animals is the modal choice: 4 of 10 votes.",
+          "parent_index": 7
+        },
+        {
+          "start": 212.3845833333333,
+          "end": 215.33829166666663,
+          "text": "It leads, but 6 classmates chose something else.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-4.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Animals summary label appears, then its border clears; bar remains. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f4e0457c18f98a6b1020a565ce82803b9e98f3c895af2c8f3fe531f54f1b967"
+    },
+    {
+      "id": "L5-fast-20",
+      "lesson": 5,
+      "type": "fast",
+      "start": 245.4,
+      "end": 246.0,
+      "cues": [
+        {
+          "start": 240.59804166666663,
+          "end": 246.02049999999997,
+          "text": "It does not support saying every pupil agrees, or that most of the whole school chose Animals.",
+          "parent_index": 7
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-4.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Focus clears over the unchanged 4,3,2,1 distribution. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f4e0457c18f98a6b1020a565ce82803b9e98f3c895af2c8f3fe531f54f1b967"
+    },
+    {
+      "id": "L5-fast-21",
+      "lesson": 5,
+      "type": "fast",
+      "start": 287.6,
+      "end": 288.4,
+      "cues": [
+        {
+          "start": 283.2749999999999,
+          "end": 289.2662499999999,
+          "text": "Only eight of twenty-four classmates reply: Art receives four votes, Sport three and Music one.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-4.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Sport row is highlighted on the existing missing-response table. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f4e0457c18f98a6b1020a565ce82803b9e98f3c895af2c8f3fe531f54f1b967"
+    },
+    {
+      "id": "L5-fast-22",
+      "lesson": 5,
+      "type": "fast",
+      "start": 288.4,
+      "end": 289.2,
+      "cues": [
+        {
+          "start": 283.2749999999999,
+          "end": 289.2662499999999,
+          "text": "Only eight of twenty-four classmates reply: Art receives four votes, Sport three and Music one.",
+          "parent_index": 9
+        }
+      ],
+      "source_sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "contact_sheet": "video-agent/statistics/review/flag-review/lesson5-flags-4.jpg",
+      "technical_sampling": "Three decoded frames inspected: start +0.02 s, midpoint and end -0.02 s; overlapping native-sentence caption text and Statistics drawing source examined.",
+      "technical_finding": "Sport highlight clears; the table and all eight replies persist. No objective mathematical/reveal defect established in these sampled frames. No rerender performed.",
+      "human_resolution": "PENDING \u2014 complete audiovisual pacing/teaching review required; samples are not full viewing or listening.",
+      "contact_sheet_sha256": "3f4e0457c18f98a6b1020a565ce82803b9e98f3c895af2c8f3fe531f54f1b967"
+    }
+  ]
+}

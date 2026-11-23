@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-21",
+  "base_commit": "699858b72617c7eaa0c258bf35472659c5ef4ac1",
+  "production_code_changed": [
+    "css/statistics-video.css (proposed only)",
+    "js/statistics-video.js (proposed only)"
+  ],
+  "production_pages_or_auth_changed": false,
+  "chromium": {
+    "stats": {
+      "startTime": "2026-11-21T19:45:31.185Z",
+      "duration": 247569.99,
+      "expected": 142,
+      "skipped": 10,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "projects": {
+      "desktop-chromium": {
+        "passed": 71,
+        "skipped": 5
+      },
+      "mobile-chromium": {
+        "passed": 71,
+        "skipped": 5
+      }
+    },
+    "browser": "System Chromium /usr/bin/chromium, standard desktop and Pixel 7 profiles; no retries",
+    "suite_files": [
+      "statistics.spec.js",
+      "statistics-video-review.spec.js",
+      "statistics-integration.spec.js",
+      "fractions.spec.js",
+      "whole-numbers.spec.js",
+      "decimals-percentages.spec.js",
+      "addition-subtraction.spec.js",
+      "multiplication-division.spec.js",
+      "factors-multiples.spec.js",
+      "measurement.spec.js",
+      "space-navigation.spec.js"
+    ],
+    "skips": "Ten production Statistics player checks await approval and actual production embeds; all ten review-media checks and all proposed integration checks executed.",
+    "additional_targeted_run": {
+      "stats": {
+        "startTime": "2026-11-21T19:50:24.925Z",
+        "duration": 21039.714,
+        "expected": 4,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "scope": "Two lesson1 fullscreen/player rechecks plus two existing native Measurement Choose Units playback regressions"
+    }
+  },
+  "webkit": {
+    "attempted": 1,
+    "launch_failures": 1,
+    "test_bodies_executed": 0,
+    "reason": "Pinned WebKit build2203 absent; official CDN provisioning attempt denied403"
+  },
+  "firebase_emulator": {
+    "test_bodies_executed": 0,
+    "reason": "After moving cache/config to writable workspace, official Firestore v1.19.8 JAR download returned403 Domain forbidden; no further retries."
+  },
+  "live_firebase": "NOT_TESTED; actual adapter tested using safe mock SDK only; deployed rules and cross-device persistence unverified",
+  "physical_ios": "NOT_TESTED",
+  "unit_checks": {
+    "protected_scripts_passed": 19,
+    "contract_tests_passed": 51,
+    "independent_video_model_tests_passed": 8,
+    "video_timing_regressions_passed": 7,
+    "space_regression_scripts_passed": 3
+  },
+  "media": {
+    "bundles_verified": 5,
+    "full_decodes_passed": 5,
+    "rerenders": 0,
+    "hashes_changed": false,
+    "static_samples_reviewed": 71,
+    "fast_samples_reviewed": 21,
+    "human_flag_resolutions": 0
+  },
+  "approval": {
+    "approved": false,
+    "record": "video-agent/statistics/approval.json",
+    "reviewers_recorded": 0
+  },
+  "live_baseline": {
+    "dashboard_url": "https://initsrikanth.github.io/MathMagic/dashboard.html",
+    "dashboard_http_status": 200,
+    "statistics_link_present": false,
+    "intended_statistics_url": "https://initsrikanth.github.io/MathMagic/statistics.html",
+    "statistics_http_status": 404,
+    "latest_successful_pages_commit": "047666034299b6e6726e1e7a1d56eee8374aa74a",
+    "latest_successful_pages_run": 42704173497,
+    "statistics_deployed_commit": null
+  },
+  "release_status": "BLOCKED_HUMAN_APPROVAL_NOT_MERGED_NOT_DEPLOYED",
+  "elapsed_release_preparation_minutes_to_qa": 22
+}

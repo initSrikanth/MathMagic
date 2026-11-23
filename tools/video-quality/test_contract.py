@@ -97,4 +97,86 @@ class SpaceAuthorisationTests(unittest.TestCase):
   with self.assertRaises(AssertionError):c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M6SP01']}],c.load()['approved_voice'])
  def test_space_authorisation_does_not_accept_a_substitute_voice(self):
   with self.assertRaises(AssertionError):c.assert_generation_allowed('space_production',[{'id':'space-lesson1','topic':'space','codes':['AC9M5SP01']}],{'name':'bf_emma','speaker_id':7})
+class StatisticsAuthorisationTests(unittest.TestCase):
+ def lesson(self):return {'id':'statistics-lesson1','topic':'statistics','year_level':5,'codes':['AC9M5ST01'],'text':'Today we are learning to collect useful data.'}
+ def test_statistics_only_generation_is_allowed(self):
+  self.assertTrue(c.assert_generation_allowed('statistics_production',[self.lesson()],c.load()['approved_voice']))
+  self.assertTrue(c.load()['production_hold']['active'])
+  self.assertFalse(c.load()['statistics_generation_authorisation']['publication_authorised'])
+ def test_statistics_requires_explicit_owner_authorisation(self):
+  cfg=copy.deepcopy(c.load());cfg['statistics_generation_authorisation']['authorised']=False
+  with patch.object(c,'load',return_value=cfg):
+   with self.assertRaises(AssertionError):c.assert_generation_allowed('statistics_production',[self.lesson()],cfg['approved_voice'])
+ def test_statistics_rejects_other_topics_years_and_ids(self):
+  for patch_ in [{'topic':'space'},{'year_level':6},{'id':'statistics-lesson6'},{'codes':['AC9M6ST01']}]:
+   with self.assertRaises(AssertionError):c.assert_generation_allowed('statistics_production',[dict(self.lesson(),**patch_)],c.load()['approved_voice'])
+ def test_statistics_rejects_duplicate_lessons(self):
+  with self.assertRaises(AssertionError):c.assert_generation_allowed('statistics_production',[self.lesson(),self.lesson()],c.load()['approved_voice'])
+ def test_statistics_rejects_wrong_or_missing_voice_provenance(self):
+  for patch_ in [{'voice':'bf_emma'},{'speaker_id':7},{'phonemizer':'en-gb'},{'model':'Another engine'},{'model_sha256':'0'*64},{'voices_sha256':None}]:
+   with self.assertRaises(AssertionError):c.assert_generation_allowed('statistics_production',[self.lesson()],dict(c.load()['approved_voice'],**patch_))
+ def test_statistics_rejects_branded_text(self):
+  with self.assertRaises(AssertionError):c.assert_generation_allowed('statistics_production',[dict(self.lesson(),text='MathMagic')],c.load()['approved_voice'])
+ def test_statistics_does_not_thaw_generic_production(self):
+  with self.assertRaisesRegex(RuntimeError,'SUSPENDED'):c.assert_generation_allowed('production',[self.lesson()],c.load()['approved_voice'])
+ def test_statistics_authorisation_does_not_approve_library_release(self):
+  with self.assertRaisesRegex(RuntimeError,'VIDEO RELEASE BLOCKED'):c.assert_release(copy.deepcopy(json.loads(c.REGISTER.read_text())['records']))
+class StatisticsReleaseTests(unittest.TestCase):
+ @classmethod
+ def setUpClass(cls):
+  import statistics_release as release
+  cls.release=release;cls.state=release.verify_candidates()
+ def fixture(self):
+  # In-memory test fixture only. Never write a test approval into the repository.
+  a=json.loads(self.release.APPROVAL.read_text());a['approved']=True
+  for v in a['videos']:
+   v.update(reviewer='TEST FIXTURE ONLY',reviewed_at='2026-11-21',evidence_record='TEST ONLY — never a human attestation')
+   for k in ['full_audio_listened','full_video_viewed','accent_and_expressiveness_approved','pedagogy_approved','mobile_legibility_approved']:v[k]=True
+   v['flag_resolutions']={k:'TEST ONLY' for k in v['flag_resolutions']}
+  return a
+ def test_actual_approval_fails_closed_unless_complete(self):
+  if json.loads(self.release.APPROVAL.read_text()).get('approved')is True:self.release.require_approval(self.state)
+  else:
+   with self.assertRaisesRegex(RuntimeError,'RELEASE BLOCKED'):self.release.require_approval(self.state)
+ def test_generation_is_not_publication(self):
+  self.assertFalse(c.load()['statistics_generation_authorisation']['publication_authorised']);self.assertTrue(c.load()['production_hold']['active'])
+ def test_complete_in_memory_record_validates_structure(self):
+  self.assertTrue(self.release.require_approval(self.state,self.fixture()))
+ def test_exact_video_checksum_required(self):
+  a=self.fixture();a['videos'][0]['video_sha256']='0'*64
+  with self.assertRaisesRegex(AssertionError,'exact video'):self.release.require_approval(self.state,a)
+ def test_exact_sidecars_required(self):
+  a=self.fixture();a['videos'][1]['bundle_sha256']['captions']='0'*64
+  with self.assertRaisesRegex(AssertionError,'sidecars'):self.release.require_approval(self.state,a)
+ def test_actual_identity_date_and_record_required(self):
+  for k in ['reviewer','reviewed_at','evidence_record']:
+   a=self.fixture();a['videos'][0][k]=None
+   with self.assertRaises(AssertionError):self.release.require_approval(self.state,a)
+ def test_full_reviews_required_for_each_video(self):
+  for k in ['full_audio_listened','full_video_viewed','accent_and_expressiveness_approved','pedagogy_approved','mobile_legibility_approved']:
+   a=self.fixture();a['videos'][4][k]=False
+   with self.assertRaisesRegex(AssertionError,'Human review missing'):self.release.require_approval(self.state,a)
+ def test_all_92_flags_require_resolution(self):
+  self.assertEqual(sum(len(self.release.flag_ids(r)) for r in self.state['lessons']),92)
+  a=self.fixture();a['videos'][2]['flag_resolutions'].popitem()
+  with self.assertRaisesRegex(AssertionError,'Every flagged'):self.release.require_approval(self.state,a)
+ def test_all_five_and_correct_topic_required(self):
+  for k,v in [('topic','space'),('videos',[])]:
+   a=self.fixture();a[k]=v
+   with self.assertRaises(AssertionError):self.release.require_approval(self.state,a)
+ def test_player_changes_invalidate_review(self):
+  a=self.fixture();a['player_assets']['js/statistics-video.js']='0'*64
+  with self.assertRaisesRegex(AssertionError,'Player assets changed'):self.release.require_approval(self.state,a)
+ def test_apply_pending_cannot_mutate_page_or_checkpoint(self):
+  paths=[self.release.ROOT/'statistics.html',self.release.CHECKPOINT];before=[p.read_bytes()for p in paths]
+  with patch.object(self.release,'require_approval',side_effect=RuntimeError('RELEASE BLOCKED')):
+   with self.assertRaisesRegex(RuntimeError,'RELEASE BLOCKED'):self.release.apply()
+  self.assertEqual(before,[p.read_bytes()for p in paths])
+ def test_preview_contains_complete_accessible_players(self):
+  if self.state.get('integrated')==5:
+   self.release.assert_integrated_release();return
+  page=self.release.integrated_html(self.state)
+  self.assertEqual(page.count('data-statistics-video='),5);self.assertEqual(page.count('playsinline'),5)
+  self.assertEqual(page.count('kind="captions"'),5);self.assertEqual(page.count('Read the video transcript'),5)
+  self.assertNotIn('class="video-pending"',page)
 if __name__=='__main__':unittest.main()

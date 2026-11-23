@@ -28,6 +28,18 @@ if (ROOT/'video-agent/space/release.json').exists():
  space=assert_owner_approved_space_release()
  known.update(r[k]for r in space['lessons']for k in ['src','captions','transcript','poster'])
  print('Verified10 checksum-bound Space assets with the recorded owner attestation; independent audiovisual, Safari and live Firebase verification is not claimed.')
+# Statistics generation candidates stay blocked until exact-byte human approval
+# AND complete integration. Recognising a candidate never grants release.
+statistics_checkpoint=ROOT/'video-agent/statistics/checkpoint.json'
+if statistics_checkpoint.exists():
+ from statistics_release import verify_candidates,assert_integrated_release
+ candidate_rows=json.loads(statistics_checkpoint.read_text())['lessons']
+ candidate_files={r[k] for r in candidate_rows for k in r.get('bundle_sha256',{})}
+ candidate_files.update(['statistics.html','video-agent/statistics/checkpoint.json','video-agent/statistics/approval.json','video-agent/video-production-contract.json','js/statistics-video.js','css/statistics-video.css'])
+ if candidate_files&changed:
+  verify_candidates()
+  approved_statistics=assert_integrated_release()
+  known.update(r['video'] for r in approved_statistics['lessons'])
 unknown=[f for f in changed if f.lower().endswith('.mp4') and f not in known]
 assert not unknown,'Unaudited new/replacement media under production hold: '+repr(unknown)
 if selected:
