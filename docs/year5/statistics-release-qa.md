@@ -1,5 +1,7 @@
 # Year 5 Statistics release preparation — 21 November 2026
 
+Historical checkpoint below. On23 November2026 the owner supplied explicit exact-file audiovisual approval, recorded in [owner-approval-2026-11-23.json](../../video-agent/statistics/owner-approval-2026-11-23.json). The existing gated registration/integration has now been applied with all five MP4 hashes unchanged. Current release/CI/deployment results are recorded on PR #60; the pending-approval findings below describe21 November, not the current approval state.
+
 **Release blocked by missing full human audiovisual approval.** Five complete videos and all sidecars are technically verified. The production Statistics page still has zero video players. No merge, production registration or deployment has occurred. The owner’s conditional release authority is recorded in the canonical contract without changing the unrelated-topic hold, Space exception or approved voice.
 
 ## CI cause and release safeguard

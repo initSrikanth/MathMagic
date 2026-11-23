@@ -1,14 +1,14 @@
-// Complete proposed integration, confined to the unapproved review page.
+// Exercise production integration after approval; retain the preview before it.
 // Firebase modules are mocked at the network boundary; no production bypass exists.
 const {test,expect}=require('@playwright/test');
 const state=require('../../video-agent/statistics/checkpoint.json');
 async function open(page){
  await page.route('**/js/statistics-auth.js*',r=>r.abort());
  await page.addInitScript(()=>{window.MathMagicStatisticsProgress={saveLesson:async()=>({}),getPendingAttempt:()=>null};});
- await page.goto('/video-agent/statistics/review/integration-preview.html');
+ await page.goto(state.integrated===5?'/statistics.html':'/video-agent/statistics/review/integration-preview.html');
  await page.evaluate(()=>document.body.classList.remove('auth-loading'));
 }
-for(let i=1;i<=5;i++)test(`proposed lesson ${i}: accessible playback and below-picture captions`,async({page},info)=>{
+for(let i=1;i<=5;i++)test(`integrated lesson ${i}: accessible playback and below-picture captions`,async({page},info)=>{
  await open(page);await page.locator(`[data-screen="lesson${i}"]`).click();
  const card=page.locator(`#lesson${i} .statistics-player`),video=card.locator('video'),toggle=card.locator('[data-caption-toggle]'),panel=card.locator('.statistics-caption-panel');
  await expect(video).toHaveAccessibleName(/\S/);await expect(video).toHaveAttribute('playsinline','');await expect(video).toHaveAttribute('controls','');
@@ -33,7 +33,7 @@ for(let i=1;i<=5;i++)test(`proposed lesson ${i}: accessible playback and below-p
   await video.focus();await expect(video).toBeFocused();
  }
  await page.setViewportSize({width:390,height:844});await card.screenshot({path:info.outputPath(`lesson${i}-caption-layout-390.png`)});
- const playback=card.getByRole('button',{name:'Play video',exact:true});await playback.focus();await page.keyboard.press('Enter');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);
+ const playback=card.getByRole('button',{name:'Play video',exact:true});await playback.focus();await page.keyboard.press('Enter');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeGreaterThan(30.2);
  await expect(card.getByRole('button',{name:'Pause video',exact:true})).toBeFocused();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate(v=>v.paused)).toBe(true);
  await page.keyboard.press('Enter');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);
  await page.locator(`[data-screen="lesson${i===5?1:i+1}"]`).click();await expect.poll(()=>video.evaluate(v=>v.paused)).toBe(true);

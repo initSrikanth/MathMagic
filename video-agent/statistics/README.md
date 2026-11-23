@@ -19,21 +19,20 @@ The existing `checkpoint.json` records each checksum-bound candidate with **PEND
 
 Original preflight failure at 7bd0f23 is historical; model provisioning and scoped generation authorisation have now been resolved. See the live checkpoint and production QA report for current completion state.
 
-Required human reviews remain exact-byte full listening/viewing for accent and expressiveness, pedagogy, all flagged intervals, and mobile legibility. Integrate lesson players only after the existing approval and release policy permits it. Do not treat a review bundle, source match, ASR/OCR, browser playback or technical PASS as publication approval.
+Required human full listening/viewing and acceptance are now recorded in the named owner approval below. Technical checks, sampled images and ASR/OCR remain distinct from that human attestation. The approved MP4s are frozen; the production commands above are historical and must not regenerate this approved release.
 
-The 21 November release preparation preserves all five media bundles unchanged. `approval.json` is an **unapproved template**, with no reviewer, date or positive review findings. It binds the exact MP4s, sidecars and proposed player assets; every flagged interval requires a real human resolution. The owner’s conditional release authority is recorded separately in the canonical contract. All unrelated holds remain active.
+The five media bundles remain unchanged. On 23 November, repository owner Venugopal Srikanth Sogathur explicitly confirmed personal full viewing/review and approved publication, including all71 static intervals and21 brief transitions. [The owner record](owner-approval-2026-11-23.json) preserves that attestation; `approval.json` binds it to the exact MP4s, sidecars and verified player assets. This is owner review, not independent Codex perceptual certification. Unrelated holds and all release safeguards remain active.
 
-To reproduce the complete proposed integration without publishing players:
+To preview the registered production integration locally:
 
 ```
-python3 tools/video-quality/statistics_release.py --prepare
 python3 tests/serve.py
 ```
 
-Open `http://127.0.0.1:4173/video-agent/statistics/review/integration-preview.html` with normal approved-user authentication. Review the exact MP4 files directly when an approved local sign-in is unavailable. The preview uses the real five lesson pages and adds native accessible players, below-picture caption controls and transcripts; it does not alter production authentication. At 390px the player reserves 72px for native controls, with captions in a separate readable panel. Native fullscreen uses native captions and still needs device/legibility review.
+Open `http://127.0.0.1:4173/statistics.html` with normal approved-user authentication. The archived preview is retained under `review/`. Review the exact MP4 files directly when an approved local sign-in is unavailable. The production page uses the existing lessons, accessible players, below-picture captions and transcripts without altering authentication. At390px the player reserves72px for native controls. Owner acceptance covers student accessibility; independent physical iOS/device review is not asserted.
 
 The 23 November verification found that focusing a native video and pressing Space does not activate playback consistently in WebKit. The proposed player now also has an ordinary Play/Pause button supporting keyboard Enter and Space. Native controls remain available. The isolated review-media tests reuse the existing Measurement trusted-activation pattern for WebKit, retaining advancing-time, seek and ending assertions. Deployment authority was reaffirmed separately; no audiovisual acceptance is inferred from it.
 
-`python3 tools/video-quality/statistics_release.py --apply` is reserved for **after** a genuine, complete human approval record exists. It rechecks every bundle checksum and all five approvals before changing any production page, then registers the existing checkpoint and integrates all five complete players together. It is currently blocked and has not been executed successfully. CI independently checks the approval, registration and production embeds; merely allowlisting a pending candidate cannot pass the gate. No release workflow or test has been disabled.
+The approved registration and all five production players have now been applied through `statistics_release.py --apply`, with every existing bundle checksum rechecked first. Production player tests exercise `statistics.html`; the review-only page remains an archived preview. CI independently checks the exact-file approval, registration and complete production embeds. No release workflow, test or approval requirement has been disabled. Deployment status and final CI evidence are recorded on PR #60.
 
 See [the release QA report](../../docs/year5/statistics-release-qa.md), [fresh media verification](../../docs/year5/statistics-release-media-verification.json) and [all flagged-interval samples](review/flag-review/README.md). The older video QA report describes the previous checkpoint and its earlier native-caption overlap; the proposed player correction is review-only until approval.
