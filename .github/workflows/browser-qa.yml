@@ -33,17 +33,8 @@ jobs:
           command -v ffprobe || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
           ffmpeg -version | head -1
           ffprobe -version | head -1
-      - name: Enforce teaching-video production contract
-        env:
-          VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
-        run: |
-          python3 tools/video-quality/test_contract.py
-          if [ -n "$VIDEO_QA_BASE" ]; then
-            git fetch --depth=1 origin "$VIDEO_QA_BASE"
-            python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
-          else
-            python3 tools/video-quality/ci_check.py
-          fi
+      - name: Test teaching-video production contract
+        run: python3 tools/video-quality/test_contract.py
       - name: Install test dependencies
         run: npm install --no-audit --no-fund
       - name: Install Chromium and Chrome for H.264/AAC playback
@@ -82,6 +73,19 @@ jobs:
         run: npx playwright test --project=measurement-webkit --grep "graphics-only Choose Units" --retries=0
       - name: Run MathMagic browser QA
         run: npm run test:e2e
+      # Run independent browser/security QA before reporting a pending media
+      # approval. This mandatory step still fails the job and blocks release.
+      - name: Enforce teaching-video release approval
+        if: always()
+        env:
+          VIDEO_QA_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [ -n "$VIDEO_QA_BASE" ]; then
+            git fetch --depth=1 origin "$VIDEO_QA_BASE"
+            python3 tools/video-quality/ci_check.py "$VIDEO_QA_BASE"
+          else
+            python3 tools/video-quality/ci_check.py
+          fi
       - name: Upload Playwright report and traces
         if: always()
         uses: actions/upload-artifact@v4
