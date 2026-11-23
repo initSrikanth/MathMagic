@@ -15,7 +15,9 @@ concurrency:
 jobs:
   fractions-browser-qa:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    # All approved Statistics players now run in every browser; preserve the
+    # full328-case regression and allow its measured runtime plus artifacts.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
