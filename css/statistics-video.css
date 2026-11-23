@@ -5,6 +5,6 @@
 .statistics-player video:-webkit-full-screen{height:100%!important;object-position:center}
 .statistics-player .statistics-caption-panel{box-sizing:border-box;width:100%;padding:12px 16px;margin:8px 0;background:#16343f;color:white;border-radius:8px;min-height:76px;font-size:clamp(18px,2vw,23px);line-height:1.45;text-align:center}
 .statistics-player .statistics-caption-panel p{margin:0}
-.statistics-player [data-caption-toggle]{min-height:44px}
+.statistics-player [data-caption-toggle],.statistics-player [data-video-toggle]{min-height:44px}
 .statistics-player video:focus-visible,.statistics-player summary:focus-visible,.statistics-player button:focus-visible{outline:3px solid #854c00;outline-offset:3px}
 .release-preview-note{padding:12px;background:#fff1ce;color:#493400}

@@ -33,7 +33,9 @@ for(let i=1;i<=5;i++)test(`proposed lesson ${i}: accessible playback and below-p
   await video.focus();await expect(video).toBeFocused();
  }
  await page.setViewportSize({width:390,height:844});await card.screenshot({path:info.outputPath(`lesson${i}-caption-layout-390.png`)});
- await video.focus();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);
+ const playback=card.getByRole('button',{name:'Play video',exact:true});await playback.focus();await page.keyboard.press('Enter');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);
+ await expect(card.getByRole('button',{name:'Pause video',exact:true})).toBeFocused();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate(v=>v.paused)).toBe(true);
+ await page.keyboard.press('Enter');await expect.poll(()=>video.evaluate(v=>!v.paused)).toBe(true);
  await page.locator(`[data-screen="lesson${i===5?1:i+1}"]`).click();await expect.poll(()=>video.evaluate(v=>v.paused)).toBe(true);
  await page.locator(`[data-screen="lesson${i}"]`).click();await toggle.click();await expect(panel).toBeHidden();expect(await video.evaluate(v=>v.textTracks[0].mode)).toBe('disabled');
  await card.locator('summary').click();await expect(card.locator('details')).toContainText('Today we are learning');

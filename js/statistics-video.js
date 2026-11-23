@@ -2,6 +2,13 @@
 // Native controls and track remain available when JavaScript is unavailable.
 document.querySelectorAll('.statistics-player').forEach(card=>{
  const video=card.querySelector('video'),button=card.querySelector('[data-caption-toggle]'),panel=card.querySelector('.statistics-caption-panel'),text=card.querySelector('[data-caption-text]');
+ // An ordinary button gives every browser a trusted keyboard/click activation;
+ // native video keyboard shortcuts differ between Safari and Chromium.
+ const playback=card.querySelector('[data-video-toggle]'),status=card.querySelector('[data-video-status]');
+ const paintPlayback=()=>{playback.textContent=video.paused?'Play video':'Pause video'};
+ playback.addEventListener('click',async()=>{try{status.textContent='';if(video.paused)await video.play();else video.pause()}catch(e){if(e.name!=='AbortError')status.textContent='Playback could not start. Try the video controls or open the video link.'}paintPlayback()});
+ for(const event of ['play','pause','ended'])video.addEventListener(event,paintPlayback);
+ paintPlayback();
  const track=video.textTracks[0];if(!track)return;
  let enabled=false,changing=false;
  const fullscreen=()=>document.fullscreenElement===video||video.webkitDisplayingFullscreen===true;
