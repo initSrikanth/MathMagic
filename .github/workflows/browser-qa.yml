@@ -56,6 +56,8 @@ jobs:
           python tests/validate-measurement.py /tmp/measurement-variants.json
       - name: Test isolated Year 5 Firestore rules and progress
         run: npx firebase emulators:exec --project demo-mathmagic-year5 --only firestore --config tests/emulator/firebase.json "node tests/measurement-emulator.test.cjs && node tests/space-emulator.test.cjs && node tests/statistics-emulator.test.cjs"
+      - name: Verify Year 5 curriculum evidence and sequential completion gates
+        run: npm run test:curriculum
       - name: Check protected Fractions architecture
         run: npm run test:protected
       - name: Independently verify Year 5 Space assessment mathematics

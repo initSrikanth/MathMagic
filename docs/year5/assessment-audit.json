@@ -1,0 +1,108 @@
+{
+  "method": "1000 deterministic attempts per existing engine; exact normalised prompt/display duplicates only (not a proof of all semantic equivalences or mathematical correctness). Read-only audit; no generator was changed.",
+  "topics": [
+    {
+      "topic": "whole-numbers",
+      "attempts": 1000,
+      "positions": 30000,
+      "attempts_with_exact_duplicate": 1000,
+      "duplicate_positions": 1340,
+      "examples": [
+        {
+          "seed": 1,
+          "positions": [
+            21,
+            28
+          ],
+          "prompt": "Choose the smallest digit that makes the statement true.",
+          "display": "3.67_ > 3.670"
+        },
+        {
+          "seed": 1,
+          "positions": [
+            23,
+            30
+          ],
+          "prompt": "Three jump distances are shown in metres. Which order is shortest to longest?",
+          "display": "12.408 m   •   12.48 m   •   12.084 m"
+        }
+      ],
+      "equal_plan_comparisons": 0
+    },
+    {
+      "topic": "decimals-percentages",
+      "attempts": 1000,
+      "positions": 30000,
+      "attempts_with_exact_duplicate": 700,
+      "duplicate_positions": 1013,
+      "examples": [
+        {
+          "seed": 1,
+          "positions": [
+            17,
+            28
+          ],
+          "prompt": "Which pair represents the same amount?",
+          "display": "20%"
+        },
+        {
+          "seed": 4,
+          "positions": [
+            5,
+            15
+          ],
+          "prompt": "Which percentage is equivalent to this fraction?",
+          "display": "<span class=\"frac\"><span>1</span><i></i><span>5</span></span>"
+        }
+      ],
+      "equal_plan_comparisons": 0
+    },
+    {
+      "topic": "addition-subtraction",
+      "attempts": 1000,
+      "positions": 30000,
+      "attempts_with_exact_duplicate": 1,
+      "duplicate_positions": 1,
+      "examples": [
+        {
+          "seed": 507,
+          "positions": [
+            16,
+            29
+          ],
+          "prompt": "Which result is reasonable?",
+          "display": "47,000 − 27,000"
+        }
+      ],
+      "equal_plan_comparisons": 0
+    },
+    {
+      "topic": "multiplication-division",
+      "attempts": 1000,
+      "positions": 30000,
+      "attempts_with_exact_duplicate": 10,
+      "duplicate_positions": 10,
+      "examples": [
+        {
+          "seed": 150,
+          "positions": [
+            25,
+            29
+          ],
+          "prompt": "A club has 5 teams with 16 students in each team. Then 3 more students join each team. How many students are there now?",
+          "display": "Choose and sequence the operations."
+        },
+        {
+          "seed": 190,
+          "positions": [
+            17,
+            24
+          ],
+          "prompt": "Express the result as a decimal.",
+          "display": "118 ÷ 4"
+        }
+      ],
+      "equal_plan_comparisons": 78
+    }
+  ]
+}

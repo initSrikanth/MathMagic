@@ -1,4 +1,6 @@
-# Year 5 v9 curriculum coverage
+# Year 5 v9 curriculum coverage — historical 4 November snapshot
+
+Current planning is maintained in [the 24 November evidence matrix](curriculum-coverage.md) and [strand completion plan](strand-completion-plan.md). The sequence and counts below describe the earlier baseline, not current completion.
 
 Baseline: `9420db7`, checked 4 November 2026. The six existing topics/30 videos are preserved. Labels assess instructional evidence, not live Firebase certification or student mastery. No Year 6 files are in scope.
 

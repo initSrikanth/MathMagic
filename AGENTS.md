@@ -33,7 +33,7 @@ Before production cutover:
 6. Only then remove legacy client generation/answer logic for a migrating topic. Do not claim backend protection active merely because source or CI exists.
 
 ## Curriculum, assessment and progress invariants
-Current priority is Year 5 Australian Curriculum v9, with planned Years 1–9 expansion and appropriate IB primary concepts. Verify descriptor codes against authoritative curriculum; keep codes internal. Teach clear concepts and worked strategies, with accurate, unambiguous, age-appropriate questions and feedback. No Year 5 algebra beyond appropriate patterns/missing-number reasoning unless explicitly requested.
+Current priority is Year 5 Australian Curriculum v9, with planned Years 1–10 expansion and appropriate IB primary concepts. Verify descriptor codes against authoritative curriculum; keep codes internal. Teach clear concepts and worked strategies, with accurate, unambiguous, age-appropriate questions and feedback. No Year 5 algebra beyond appropriate patterns/missing-number reasoning unless explicitly requested.
 
 The former generic 20-question default is superseded by the current source/topic specifications: the six established topic challenges use **30 questions**, including Fractions, and the standard progression below is six bands of five. Preserve topic-exclusive boundaries and do not import another topic's validation rules. A different future topic count requires an explicit topic specification and corresponding QA; do not silently shorten current quizzes.
 
@@ -46,6 +46,12 @@ Preserve dashboard states Start, In Progress and Proficient; the minimum-five-at
 Fractions must display numerator above a horizontal bar and denominator below in all student-visible pages, feedback, diagrams and video. Mixed numbers need clear whole/fraction separation. Internal slash strings are permitted only when converted before rendering and never leaked into student text. Use semantic MathML or accessible HTML/CSS; verify equivalents, simplification, mixed/improper conversion and comparisons. Do not use raw slash fallbacks.
 
 Preserve responsive desktop/tablet/mobile layouts, branding/navigation and lesson flow. Use semantic elements, keyboard access, visible focus, accessible labels and contrast; avoid clipping, horizontal overflow, small touch targets and layout shifts. Give understandable non-colour feedback as well as the shared green `correct` and red `incorrect` states. Use local assets where suitable without overriding provider copyright constraints.
+
+## Permanent strand completion framework
+
+For current Year 5 planning, use [the 24-descriptor evidence matrix](docs/year5/curriculum-coverage.md), its [JSON source](docs/year5/curriculum-coverage.json) and [ordered completion plan](docs/year5/strand-completion-plan.md). Map the complete strand and achievement standard before developing content. Complete Number, then Algebra, Measurement, Space, Statistics and Probability; retain successful existing resources in later strands. No Year 6 development until all six Year 5 strands are complete, verified and deployed.
+
+Never mark a descriptor COMPLETE without actual lesson, interactive/investigation and assessment evidence for every required skill. Track curriculum coverage, development, exact-file media approval, QA and deployment separately from student progress. New topics normally use five constructivist lessons where appropriate, interactive tools, a validated 30-question assessment and videos satisfying every current Golden Rule; retain justified existing structures and avoid duplicate resources. The canonical video hold and human approval gates are unchanged; a curriculum/navigation task does not authorise new videos. Run `npm run test:curriculum` and the applicable existing browser/security/regression gates. See the completion plan for the full permanent rules and release criteria.
 
 ## Module build contract and detailed quality standards
 `MathMagic: Build <topic>` includes curriculum/coverage research, teaching/assessment design, source/mathematical audit, generator stress QA, architecture QA, complete rule audit, Playwright student-flow QA, exact-head CI, correction/retest, final audit and permitted squash merge. Report the tested SHA and merge SHA. A green browser run alone does not authorise release.
