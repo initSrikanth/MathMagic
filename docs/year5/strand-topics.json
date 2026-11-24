@@ -1,0 +1,611 @@
+{
+  "schema": 1,
+  "year": 5,
+  "supported_year_range": [
+    1,
+    10
+  ],
+  "enabled_years": [
+    5
+  ],
+  "development_order": [
+    "number",
+    "algebra",
+    "measurement",
+    "space",
+    "statistics",
+    "probability"
+  ],
+  "strands": [
+    {
+      "id": "number",
+      "name": "Number",
+      "symbol": "123",
+      "intro": "Explore how numbers work, connect representations and choose useful calculation strategies.",
+      "topics": [
+        {
+          "title": "Whole Numbers & Place Value",
+          "page": "whole-numbers.html",
+          "lessons": [
+            {
+              "title": "Understanding Place Value",
+              "href": "whole-numbers.html#lesson1",
+              "activity": "whole-numbers.html#lesson1~activity"
+            },
+            {
+              "title": "Expanded Form & Representing Numbers",
+              "href": "whole-numbers.html#lesson2",
+              "activity": "whole-numbers.html#lesson2~activity"
+            },
+            {
+              "title": "Comparing & Ordering Whole Numbers",
+              "href": "whole-numbers.html#lesson3",
+              "activity": "whole-numbers.html#lesson3~activity"
+            },
+            {
+              "title": "Decimal Place Value",
+              "href": "whole-numbers.html#lesson4",
+              "activity": "whole-numbers.html#lesson4~activity"
+            },
+            {
+              "title": "Compare, Order & Locate Decimals",
+              "href": "whole-numbers.html#lesson5",
+              "activity": "whole-numbers.html#lesson5~activity"
+            }
+          ],
+          "assessment": "whole-numbers.html#challenge",
+          "codes": [
+            "AC9M5N01"
+          ],
+          "description": "Build place-value understanding, including decimals through thousandths.",
+          "planned": false
+        },
+        {
+          "title": "Fractions",
+          "page": "fractions.html",
+          "lessons": [
+            {
+              "title": "Understand, compare and order fractions",
+              "href": "fractions.html#meaning",
+              "activity": "fractions.html#meaning~activity"
+            },
+            {
+              "title": "Different names, same amount",
+              "href": "fractions.html#equivalent",
+              "activity": "fractions.html#equivalent~activity"
+            },
+            {
+              "title": "Fractions greater than one",
+              "href": "fractions.html#mixed",
+              "activity": "fractions.html#mixed~activity"
+            },
+            {
+              "title": "Add and subtract fractions",
+              "href": "fractions.html#addsub",
+              "activity": "fractions.html#addsub~activity"
+            },
+            {
+              "title": "Fractions in real situations",
+              "href": "fractions.html#problems",
+              "activity": "fractions.html#problems~activity"
+            }
+          ],
+          "assessment": "fractions.html#challenge",
+          "codes": [
+            "AC9M5N03",
+            "AC9M5N05"
+          ],
+          "description": "Compare, represent, add and subtract fractions with related denominators.",
+          "planned": false
+        },
+        {
+          "title": "Decimals & Percentages",
+          "page": "decimals-percentages.html",
+          "lessons": [
+            {
+              "title": "Read, write and rename decimals",
+              "href": "decimals-percentages.html#place",
+              "activity": "decimals-percentages.html#place~activity"
+            },
+            {
+              "title": "Use place value to compare decimals",
+              "href": "decimals-percentages.html#compare",
+              "activity": "decimals-percentages.html#compare~activity"
+            },
+            {
+              "title": "Percent means “out of 100”",
+              "href": "decimals-percentages.html#percent",
+              "activity": "decimals-percentages.html#percent~activity"
+            },
+            {
+              "title": "Different representations of the same amount",
+              "href": "decimals-percentages.html#connect",
+              "activity": "decimals-percentages.html#connect~activity"
+            },
+            {
+              "title": "Represent and compare relative size",
+              "href": "decimals-percentages.html#apply",
+              "activity": "decimals-percentages.html#apply~activity"
+            }
+          ],
+          "assessment": "decimals-percentages.html#challenge",
+          "codes": [
+            "AC9M5N01",
+            "AC9M5N04"
+          ],
+          "description": "Connect familiar fractions, decimals and percentages.",
+          "planned": false
+        },
+        {
+          "title": "Addition & Subtraction",
+          "page": "addition-subtraction.html",
+          "lessons": [
+            {
+              "title": "Efficient Mental Strategies",
+              "href": "addition-subtraction.html#lesson1",
+              "activity": "addition-subtraction.html#lesson1~activity"
+            },
+            {
+              "title": "Accurate Written Addition & Subtraction",
+              "href": "addition-subtraction.html#lesson2",
+              "activity": "addition-subtraction.html#lesson2~activity"
+            },
+            {
+              "title": "Estimate & Check Reasonableness",
+              "href": "addition-subtraction.html#lesson3",
+              "activity": "addition-subtraction.html#lesson3~activity"
+            },
+            {
+              "title": "Missing Values & Inverse Operations",
+              "href": "addition-subtraction.html#lesson4",
+              "activity": "addition-subtraction.html#lesson4~activity"
+            },
+            {
+              "title": "Model Practical Problems",
+              "href": "addition-subtraction.html#lesson5",
+              "activity": "addition-subtraction.html#lesson5~activity"
+            }
+          ],
+          "assessment": "addition-subtraction.html#challenge",
+          "codes": [
+            "AC9M5N08",
+            "AC9M5N09"
+          ],
+          "description": "Choose efficient strategies, estimate and solve practical problems.",
+          "planned": false
+        },
+        {
+          "title": "Multiplication & Division",
+          "page": "multiplication-division.html",
+          "lessons": [
+            {
+              "title": "Multiply Efficiently",
+              "href": "multiplication-division.html#lesson1",
+              "activity": "multiplication-division.html#lesson1~activity"
+            },
+            {
+              "title": "Multiply by Two-digit Numbers",
+              "href": "multiplication-division.html#lesson2",
+              "activity": "multiplication-division.html#lesson2~activity"
+            },
+            {
+              "title": "Divide by a Single-digit Number",
+              "href": "multiplication-division.html#lesson3",
+              "activity": "multiplication-division.html#lesson3~activity"
+            },
+            {
+              "title": "Interpret Remainders",
+              "href": "multiplication-division.html#lesson4",
+              "activity": "multiplication-division.html#lesson4~activity"
+            },
+            {
+              "title": "Unknowns, Estimation & Modelling",
+              "href": "multiplication-division.html#lesson5",
+              "activity": "multiplication-division.html#lesson5~activity"
+            }
+          ],
+          "assessment": "multiplication-division.html#challenge",
+          "codes": [
+            "AC9M5N06",
+            "AC9M5N07",
+            "AC9M5N08",
+            "AC9M5N09"
+          ],
+          "description": "Explore products, division and remainders. More reasoning activities are planned.",
+          "planned": false
+        },
+        {
+          "title": "Factors & Multiples",
+          "page": "factors-multiples.html",
+          "lessons": [
+            {
+              "title": "Build Numbers from Factors",
+              "href": "factors-multiples.html#lesson1",
+              "activity": "factors-multiples.html#lesson1~activity"
+            },
+            {
+              "title": "Recognise Multiples",
+              "href": "factors-multiples.html#lesson2",
+              "activity": "factors-multiples.html#lesson2~activity"
+            },
+            {
+              "title": "Use Divisibility Rules",
+              "href": "factors-multiples.html#lesson3",
+              "activity": "factors-multiples.html#lesson3~activity"
+            },
+            {
+              "title": "Follow an Algorithm",
+              "href": "factors-multiples.html#lesson4",
+              "activity": "factors-multiples.html#lesson4~activity"
+            },
+            {
+              "title": "Connect and Reason",
+              "href": "factors-multiples.html#lesson5",
+              "activity": "factors-multiples.html#lesson5~activity"
+            }
+          ],
+          "assessment": "factors-multiples.html#challenge",
+          "codes": [
+            "AC9M5N02",
+            "AC9M5N10"
+          ],
+          "description": "Find number relationships and test divisibility. Creating your own algorithms comes next.",
+          "planned": false
+        }
+      ],
+      "progress_topics": [
+        "whole-numbers",
+        "fractions",
+        "decimals-percentages",
+        "addition-subtraction",
+        "multiplication-division",
+        "factors-multiples"
+      ],
+      "development_status": "NEEDS_COMPLETION",
+      "media_status": "REVIEW_REQUIRED",
+      "deployment_status": "EXISTING_RESOURCES_VERIFIED_NEW_NAVIGATION_NOT_DEPLOYED",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "symbol": "□",
+      "intro": "Discover how multiplication and division connect, and use those connections to find missing numbers.",
+      "topics": [
+        {
+          "title": "Inverse Operations & Fact Families",
+          "page": "multiplication-division.html",
+          "lessons": [
+            {
+              "title": "Divide by a Single-digit Number",
+              "href": "multiplication-division.html#lesson3",
+              "activity": "multiplication-division.html#lesson3~activity"
+            },
+            {
+              "title": "Unknowns, Estimation & Modelling",
+              "href": "multiplication-division.html#lesson5",
+              "activity": "multiplication-division.html#lesson5~activity"
+            }
+          ],
+          "assessment": "multiplication-division.html#challenge",
+          "codes": [
+            "AC9M5A01"
+          ],
+          "description": "Start with these existing lessons. A fuller fact-family investigation is being planned.",
+          "planned": true
+        },
+        {
+          "title": "Numerical Equations",
+          "page": "multiplication-division.html",
+          "lessons": [
+            {
+              "title": "Multiply by Two-digit Numbers",
+              "href": "multiplication-division.html#lesson2",
+              "activity": "multiplication-division.html#lesson2~activity"
+            },
+            {
+              "title": "Unknowns, Estimation & Modelling",
+              "href": "multiplication-division.html#lesson5",
+              "activity": "multiplication-division.html#lesson5~activity"
+            }
+          ],
+          "assessment": "multiplication-division.html#challenge",
+          "codes": [
+            "AC9M5A02"
+          ],
+          "description": "Use existing missing-number examples. More division equations and reasoning are being planned.",
+          "planned": true
+        }
+      ],
+      "progress_topics": [
+        "multiplication-division"
+      ],
+      "development_status": "NEEDS_COMPLETION",
+      "media_status": "REVIEW_REQUIRED",
+      "deployment_status": "EXISTING_RESOURCES_VERIFIED_NEW_NAVIGATION_NOT_DEPLOYED",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "symbol": "cm²",
+      "intro": "Choose useful units, measure carefully and explain lengths, surfaces, time and turns.",
+      "topics": [
+        {
+          "title": "Units of Measurement",
+          "page": "measurement.html",
+          "lessons": [
+            {
+              "title": "Choose Units and Measure Length",
+              "href": "measurement.html#lesson1",
+              "activity": "measurement.html#lesson1~activity"
+            },
+            {
+              "title": "Measure Mass and Capacity",
+              "href": "measurement.html#lesson2",
+              "activity": "measurement.html#lesson2~activity"
+            }
+          ],
+          "assessment": "measurement.html#challenge",
+          "codes": [
+            "AC9M5M01"
+          ],
+          "description": "Choose units and instruments for length, mass and capacity.",
+          "planned": false
+        },
+        {
+          "title": "Area & Perimeter",
+          "page": "measurement.html",
+          "lessons": [
+            {
+              "title": "Trace and Calculate Perimeter",
+              "href": "measurement.html#lesson3",
+              "activity": "measurement.html#lesson3~activity"
+            },
+            {
+              "title": "Cover and Calculate Area",
+              "href": "measurement.html#lesson4",
+              "activity": "measurement.html#lesson4~activity"
+            },
+            {
+              "title": "Design with Irregular Shapes",
+              "href": "measurement.html#lesson5",
+              "activity": "measurement.html#lesson5~activity"
+            }
+          ],
+          "assessment": "measurement.html#challenge",
+          "codes": [
+            "AC9M5M02"
+          ],
+          "description": "Measure boundaries and surfaces, including irregular shapes.",
+          "planned": false
+        },
+        {
+          "title": "Time",
+          "page": "time-angles.html",
+          "lessons": [
+            {
+              "title": "Reading time and duration",
+              "href": "time-angles.html#lesson1",
+              "activity": "time-angles.html#lesson1~activity"
+            },
+            {
+              "title": "Timetables and journeys",
+              "href": "time-angles.html#lesson2",
+              "activity": "time-angles.html#lesson2~activity"
+            }
+          ],
+          "assessment": "time-angles.html#challenge",
+          "codes": [
+            "AC9M5M03"
+          ],
+          "description": "Compare 12- and 24-hour time and read journey timetables.",
+          "planned": false
+        },
+        {
+          "title": "Angles",
+          "page": "time-angles.html",
+          "lessons": [
+            {
+              "title": "Understanding angles",
+              "href": "time-angles.html#lesson3",
+              "activity": "time-angles.html#lesson3~activity"
+            },
+            {
+              "title": "Measuring angles",
+              "href": "time-angles.html#lesson4",
+              "activity": "time-angles.html#lesson4~activity"
+            },
+            {
+              "title": "Solving angle and time problems",
+              "href": "time-angles.html#lesson5",
+              "activity": "time-angles.html#lesson5~activity"
+            }
+          ],
+          "assessment": "time-angles.html#challenge",
+          "codes": [
+            "AC9M5M04"
+          ],
+          "description": "Estimate, measure and construct angles. Some challenge questions need further checking.",
+          "planned": false
+        }
+      ],
+      "progress_topics": [
+        "measurement",
+        "time-angles"
+      ],
+      "development_status": "NEEDS_COMPLETION",
+      "media_status": "REVIEW_REQUIRED",
+      "deployment_status": "EXISTING_RESOURCES_VERIFIED_NEW_NAVIGATION_NOT_DEPLOYED",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "symbol": "◇",
+      "intro": "Build and test nets, navigate coordinate grids, and explore how shapes move.",
+      "topics": [
+        {
+          "title": "3D Objects & Nets",
+          "page": "space-lessons.html",
+          "lessons": [
+            {
+              "title": "3D objects and their properties",
+              "href": "space-lessons.html#lesson-1",
+              "activity": "space-classification.html"
+            },
+            {
+              "title": "Explore nets",
+              "href": "space-lessons.html#lesson-2",
+              "activity": "space-net-explorer.html"
+            },
+            {
+              "title": "Design and test nets",
+              "href": "space-lessons.html#lesson-3",
+              "activity": "space-net-explorer.html"
+            }
+          ],
+          "assessment": "space-challenge.html",
+          "codes": [
+            "AC9M5SP01"
+          ],
+          "description": "Predict, build and explain how flat nets become objects.",
+          "planned": false
+        },
+        {
+          "title": "Coordinates & Routes",
+          "page": "space-lessons.html",
+          "lessons": [
+            {
+              "title": "Coordinates and position",
+              "href": "space-lessons.html#lesson-4",
+              "activity": "space-coordinates.html"
+            },
+            {
+              "title": "Map routes and directions",
+              "href": "space-lessons.html#lesson-5",
+              "activity": "space-coordinates.html"
+            }
+          ],
+          "assessment": "space-challenge.html",
+          "codes": [
+            "AC9M5SP02"
+          ],
+          "description": "Construct a grid, locate intersections and describe routes.",
+          "planned": false
+        },
+        {
+          "title": "Transformations & Symmetry",
+          "page": "space-lessons.html",
+          "lessons": [
+            {
+              "title": "Translations",
+              "href": "space-lessons.html#lesson-6",
+              "activity": "space-lab.html"
+            },
+            {
+              "title": "Reflections",
+              "href": "space-lessons.html#lesson-7",
+              "activity": "space-lab.html"
+            },
+            {
+              "title": "Rotations and symmetry",
+              "href": "space-lessons.html#lesson-8",
+              "activity": "space-symmetry.html"
+            },
+            {
+              "title": "Integrated spatial design challenge",
+              "href": "space-lessons.html#lesson-10",
+              "activity": "space-lab.html"
+            }
+          ],
+          "assessment": "space-challenge.html",
+          "codes": [
+            "AC9M5SP03"
+          ],
+          "description": "Slide, reflect and rotate shapes, then explain what stays the same.",
+          "planned": false
+        }
+      ],
+      "progress_topics": [
+        "space"
+      ],
+      "development_status": "CONTENT_IMPLEMENTED_VERIFICATION_REQUIRED",
+      "media_status": "APPROVED",
+      "deployment_status": "EXISTING_RESOURCES_VERIFIED_NEW_NAVIGATION_NOT_DEPLOYED",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "symbol": "▥",
+      "intro": "Become a data detective: ask, collect, check, represent and explain.",
+      "topics": [
+        {
+          "title": "Data Detectives — Statistics",
+          "page": "statistics.html",
+          "lessons": [
+            {
+              "title": "Ask a question worth investigating",
+              "href": "statistics.html#lesson1",
+              "activity": "statistics.html#lesson1~activity"
+            },
+            {
+              "title": "Check, count and display",
+              "href": "statistics.html#lesson2",
+              "activity": "statistics.html#lesson2~activity"
+            },
+            {
+              "title": "Read the whole distribution",
+              "href": "statistics.html#lesson3",
+              "activity": "statistics.html#lesson3~activity"
+            },
+            {
+              "title": "Follow change over time",
+              "href": "statistics.html#lesson4",
+              "activity": "statistics.html#lesson4~activity"
+            },
+            {
+              "title": "Make a decision with evidence",
+              "href": "statistics.html#lesson5",
+              "activity": "statistics.html#lesson5~activity"
+            }
+          ],
+          "assessment": "statistics.html#challenge",
+          "codes": [
+            "AC9M5ST01",
+            "AC9M5ST02",
+            "AC9M5ST03"
+          ],
+          "description": "Explore data, distributions and line graphs through five investigations.",
+          "planned": false
+        }
+      ],
+      "progress_topics": [
+        "statistics"
+      ],
+      "development_status": "CONTENT_IMPLEMENTED_VERIFICATION_REQUIRED",
+      "media_status": "APPROVED",
+      "deployment_status": "EXISTING_RESOURCES_VERIFIED_NEW_NAVIGATION_NOT_DEPLOYED",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    },
+    {
+      "id": "probability",
+      "name": "Probability",
+      "symbol": "?",
+      "intro": "Explore possible outcomes and use repeated experiments to investigate chance.",
+      "topics": [],
+      "progress_topics": [],
+      "development_status": "PLANNED_NOT_STARTED",
+      "media_status": "NOT_PRODUCED",
+      "deployment_status": "NOT_IMPLEMENTED_NAVIGATION_ONLY",
+      "qa_status": "PENDING",
+      "service_status": "UNVERIFIED"
+    }
+  ]
+}

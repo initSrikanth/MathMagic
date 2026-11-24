@@ -1,0 +1,2603 @@
+{
+  "schema": 1,
+  "year_level": 5,
+  "curriculum": "Australian Curriculum v9.0 Mathematics",
+  "audited_on": "2026-11-24",
+  "baseline_commit": "73b9b92a0dc307b1bb817154c8195968b86dcc20",
+  "authoritative_sources": [
+    {
+      "url": "https://www.qcaa.qld.edu.au/downloads/aciqv9/mathematics/curriculum/ac9_maths_yr5_as_cd_alignment.pdf",
+      "purpose": "Exact 24 content descriptions and achievement-standard alignment, pages 1–2."
+    },
+    {
+      "url": "https://www.australiancurriculum.edu.au/resources/work-samples/mathematics/year-5/ws02-locating-decimals/",
+      "purpose": "Direct ACARA confirmation of complete Year 5 achievement standard and N01 wording; no student work is copied."
+    },
+    {
+      "url": "https://www.qcaa.qld.edu.au/downloads/aciqv9/mathematics/planning/ac9_maths_yr5_cap_example.pdf",
+      "purpose": "Year-level modelling, computational thinking, measurement, statistical and chance investigation expectations."
+    },
+    {
+      "url": "https://www.qcaa.qld.edu.au/downloads/aciqv9/mathematics/curriculum/ac9_maths_prep-yr10_as_cd_sequence_aspects.pdf",
+      "purpose": "Cross-year achievement sequence; indexed official result confirms N10. PDF text extraction displays N010 in places."
+    }
+  ],
+  "attribution": "Australian Curriculum material © ACARA 2010–present, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); additional terms https://www.australiancurriculum.edu.au/copyright-and-terms-of-use/. QCAA alignment © State of Queensland (QCAA) 2023, CC BY 4.0, https://www.qcaa.qld.edu.au/copyright. No endorsement is implied. Descriptions reproduced; audit interpretations are MathMagic additions.",
+  "source_notes": [
+    "The QCAA March 2023 alignment PDF renders AC9M5N010; the canonical two-digit descriptor identifier is AC9M5N10. This is a code normalisation, not an extra descriptor.",
+    "Direct ACARA curriculum browser redirects and workbook/DOCX downloads were unavailable to this execution environment. Exact wording was verified from the official QCAA reproduction; the direct ACARA achievement-standard page was readable.",
+    "Historical coverage.json/coverage.md describe 4 November only and are superseded for current planning by this matrix."
+  ],
+  "status_definitions": {
+    "COMPLETE": "Every required curriculum skill has identifiable source teaching, activity/investigation and aligned assessment evidence. This is resource coverage, not pupil mastery, full media approval or live-service certification.",
+    "PARTIAL": "Relevant implemented resources exist, but one or more required skills, assessed reasoning forms or assessment-validity requirements have a concrete gap.",
+    "MISSING": "No implemented resources establish this descriptor.",
+    "UNVERIFIED": "Potential coverage exists but cannot be established from inspected evidence. Never counted complete."
+  },
+  "release_gate": "A strand is complete for onward development only when all descriptor coverage is COMPLETE, all applicable QA passes, final media has required exact-file approval, and deployment including authorised service checks is verified. Content coverage counts alone cannot open this gate.",
+  "development_order": [
+    "Number",
+    "Algebra",
+    "Measurement",
+    "Space",
+    "Statistics",
+    "Probability"
+  ],
+  "current_strand": "Number",
+  "year6_allowed": false,
+  "service_verification": {
+    "status": "UNVERIFIED",
+    "details": "No live Firebase sign-in, deployed rules/App Check, real protected callable success or cross-device progress is established by public retrieval or safe SDK mocks. Existing security and service paths remain unchanged."
+  },
+  "descriptors": [
+    {
+      "code": "AC9M5N01",
+      "strand": "Number",
+      "title": "Decimal place value",
+      "description": "interpret, compare and order numbers with more than 2 decimal places, including numbers greater than one, using place value understanding; represent these on a number line",
+      "required_knowledge_and_skills": [
+        "Interpret digit values through thousandths, including values above one",
+        "Compare/order unequal decimal lengths using placeholder zeros",
+        "Represent decimals on a number line"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "decimals-percentages",
+        "whole-numbers"
+      ],
+      "lessons": [
+        "whole-numbers.html#lesson4",
+        "whole-numbers.html#lesson5",
+        "decimals-percentages.html#place",
+        "decimals-percentages.html#compare"
+      ],
+      "interactive_activity": {
+        "path": "js/whole-numbers.js",
+        "detail": "Digit-value and comparison checks; zoomed 1.430–1.440 number line; 1.437 at seven thousandth intervals."
+      },
+      "assessment": {
+        "path": "js/whole-numbers.js",
+        "symbols": [
+          "decimalDigit",
+          "decimalCompare",
+          "decimalOrder",
+          "decimalLine",
+          "betweenDecimals"
+        ],
+        "finding": "Decimal questions use >2 places and values above one, ordering and number-line positions.",
+        "validation": [
+          "tests/e2e/whole-numbers.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Remove within-attempt repeated decimal questions in Whole Numbers and Decimals & Percentages and validate uniqueness across bands. The deterministic 1,000-attempt audit found 1,340 duplicate positions in Whole Numbers (all 1,000 attempts) and 1,013 in Decimals & Percentages (700 attempts); fixed decimal prompts recur unchanged."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Remove within-attempt repeated decimal questions in Whole Numbers and Decimals & Percentages and validate uniqueness across bands. The deterministic 1,000-attempt audit found 1,340 duplicate positions in Whole Numbers (all 1,000 attempts) and 1,013 in Decimals & Percentages (700 attempts); fixed decimal prompts recur unchanged."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Interpret digit values through thousandths, including values above one",
+          "references": [
+            "whole-numbers.html#lesson4",
+            "whole-numbers.html#lesson5",
+            "decimals-percentages.html#place",
+            "decimals-percentages.html#compare"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Compare/order unequal decimal lengths using placeholder zeros",
+          "references": [
+            "whole-numbers.html#lesson4",
+            "whole-numbers.html#lesson5",
+            "decimals-percentages.html#place",
+            "decimals-percentages.html#compare"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Represent decimals on a number line",
+          "references": [
+            "whole-numbers.html#lesson4",
+            "whole-numbers.html#lesson5",
+            "decimals-percentages.html#place",
+            "decimals-percentages.html#compare"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson4",
+          "poster": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+          "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+          "duration": 204.5,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+          "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+          "duration": 208.333333,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "place",
+          "poster": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
+          "sha256": "abad1debaaff32777ca87fb4065cc4d0c1d3b46a6bd1596763a95d9f4f0f83bc",
+          "duration": 116.467,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "compare",
+          "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+          "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+          "duration": 130.846,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Write/order decimals above one",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N02",
+      "strand": "Number",
+      "title": "Factors, multiples and divisibility",
+      "description": "express natural numbers as products of their factors, recognise multiples and determine if one number is divisible by another",
+      "required_knowledge_and_skills": [
+        "Express natural numbers using complete factor pairs",
+        "Recognise multiples and factor/multiple relationships",
+        "Determine exact divisibility using valid tests"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "factors-multiples"
+      ],
+      "lessons": [
+        "factors-multiples.html#lesson1",
+        "factors-multiples.html#lesson2",
+        "factors-multiples.html#lesson3"
+      ],
+      "interactive_activity": {
+        "path": "js/factors-multiples.js",
+        "detail": "Missing factor, continue multiples, yes/no divisibility; number-input divisibility explorer."
+      },
+      "assessment": {
+        "path": "js/factors-multiples.js",
+        "symbols": [
+          "allFactors",
+          "product",
+          "multipleCheck",
+          "divisibleWhich",
+          "combinedRule"
+        ],
+        "finding": "Factor products/sets, multiples and exact divisibility; no prime-factorisation claim.",
+        "validation": [
+          "tests/generator-factors-multiples.test.js",
+          "tests/e2e/factors-multiples.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Express natural numbers using complete factor pairs",
+          "references": [
+            "factors-multiples.html#lesson1",
+            "factors-multiples.html#lesson2",
+            "factors-multiples.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Recognise multiples and factor/multiple relationships",
+          "references": [
+            "factors-multiples.html#lesson1",
+            "factors-multiples.html#lesson2",
+            "factors-multiples.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Determine exact divisibility using valid tests",
+          "references": [
+            "factors-multiples.html#lesson1",
+            "factors-multiples.html#lesson2",
+            "factors-multiples.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+          "duration": 141.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+          "duration": 143.267,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+          "duration": 146.467,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Factor products and multiples",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N03",
+      "strand": "Number",
+      "title": "Compare fractions and mixed numerals",
+      "description": "compare and order fractions with the same and related denominators including mixed numerals, applying knowledge of factors and multiples; represent these fractions on a number line",
+      "required_knowledge_and_skills": [
+        "Same/related-denominator comparison and ordering",
+        "Use factors/multiples to rename equal parts",
+        "Compare mixed numerals and represent beyond one on a number line"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "fractions"
+      ],
+      "lessons": [
+        "fractions.html#meaning",
+        "fractions.html#equivalent",
+        "fractions.html#mixed"
+      ],
+      "interactive_activity": {
+        "path": "js/fractions.js",
+        "detail": "Reveal-and-explain comparisons; mixed number line 0–3 in quarter steps, 2½ at step 10 and 2¾ at step 11."
+      },
+      "assessment": {
+        "path": "js/fractions.js",
+        "symbols": [
+          "mixedNumberLine",
+          "DIFFICULTY_BANDS"
+        ],
+        "finding": "Proper/mixed comparisons, related denominators, ordering, equivalent values and independent SVG-position checks.",
+        "validation": [
+          "tests/generator-fractions.test.js",
+          "tests/e2e/fractions-engineering.spec.js",
+          "docs/qa/fractions-39-assessment.md"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Same/related-denominator comparison and ordering",
+          "references": [
+            "fractions.html#meaning",
+            "fractions.html#equivalent",
+            "fractions.html#mixed"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Use factors/multiples to rename equal parts",
+          "references": [
+            "fractions.html#meaning",
+            "fractions.html#equivalent",
+            "fractions.html#mixed"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Compare mixed numerals and represent beyond one on a number line",
+          "references": [
+            "fractions.html#meaning",
+            "fractions.html#equivalent",
+            "fractions.html#mixed"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "meaning",
+          "poster": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+          "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+          "duration": 221.866667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "equivalent",
+          "poster": "videos/fractions-2026/equivalent_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+          "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+          "duration": 229.2,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "mixed",
+          "poster": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+          "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+          "duration": 241.4,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Order and represent fractions",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N04",
+      "strand": "Number",
+      "title": "Percentages and equivalent representations",
+      "description": "recognise that 100% represents the complete whole and use percentages to describe, represent and compare relative size; connect familiar percentages to their decimal and fraction equivalents",
+      "required_knowledge_and_skills": [
+        "100% is a complete whole; compare relative size on a common whole",
+        "Connect familiar fractions, decimals and percentages",
+        "Represent percentages visually"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "decimals-percentages"
+      ],
+      "lessons": [
+        "decimals-percentages.html#percent",
+        "decimals-percentages.html#connect",
+        "decimals-percentages.html#apply"
+      ],
+      "interactive_activity": {
+        "path": "js/decimals-percentages.js",
+        "detail": "Hundred-part grids, familiar equivalents and same-whole comparisons."
+      },
+      "assessment": {
+        "path": "js/decimals-percentages.js",
+        "symbols": [
+          "percentMeaning",
+          "percentGridCompare",
+          "mixedRepresentation",
+          "relativeContext"
+        ],
+        "finding": "Samples familiar equivalents, hundred grids and relative contexts, without Year 6 percentage-of-quantity assessment.",
+        "validation": [
+          "tests/e2e/decimals-percentages.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Remove within-attempt repeated percentage/equivalence questions and validate a nonrepeating 30-position assessment. The 1,000-attempt Decimals & Percentages audit found 1,013 exact duplicate positions in 700 attempts; changing distractor order does not create a new question."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Remove within-attempt repeated percentage/equivalence questions and validate a nonrepeating 30-position assessment. The 1,000-attempt Decimals & Percentages audit found 1,013 exact duplicate positions in 700 attempts; changing distractor order does not create a new question."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "100% is a complete whole; compare relative size on a common whole",
+          "references": [
+            "decimals-percentages.html#percent",
+            "decimals-percentages.html#connect",
+            "decimals-percentages.html#apply"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Connect familiar fractions, decimals and percentages",
+          "references": [
+            "decimals-percentages.html#percent",
+            "decimals-percentages.html#connect",
+            "decimals-percentages.html#apply"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Represent percentages visually",
+          "references": [
+            "decimals-percentages.html#percent",
+            "decimals-percentages.html#connect",
+            "decimals-percentages.html#apply"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "percent",
+          "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+          "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+          "duration": 121.367,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "connect",
+          "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4",
+          "sha256": "f92d73dd4bb6a217008000b1a2754fef48ad791bfd3e556ea9062e8933156d7e",
+          "duration": 118.233333,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "apply",
+          "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4",
+          "sha256": "86cd011afa8b2bb44e49ad26495b9e50fd5e42747ea5a2cf2dac9366dfaaf0c4",
+          "duration": 120.916,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Common percentage equivalents",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N05",
+      "strand": "Number",
+      "title": "Add and subtract fractions",
+      "description": "solve problems involving addition and subtraction of fractions with the same or related denominators, using different strategies",
+      "required_knowledge_and_skills": [
+        "Same/related denominator addition and subtraction",
+        "Choose area/strip/number-line or equivalence strategies",
+        "Solve contextual problems and explain the same whole"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "fractions"
+      ],
+      "lessons": [
+        "fractions.html#addsub",
+        "fractions.html#problems"
+      ],
+      "interactive_activity": {
+        "path": "js/fractions.js",
+        "detail": "Stacked fraction models, revealed worked reasoning, equal-part strip subtraction and contextual questions."
+      },
+      "assessment": {
+        "path": "js/fractions.js",
+        "symbols": [
+          "mixedSameAdd",
+          "DIFFICULTY_BANDS"
+        ],
+        "finding": "Same/related-denominator operations, mixed additions and contextual combinations; independent equivalent-answer and duplicate checks.",
+        "validation": [
+          "tests/generator-fractions.test.js",
+          "docs/qa/fractions-39-assessment.md",
+          "tests/e2e/fractions.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Same/related denominator addition and subtraction",
+          "references": [
+            "fractions.html#addsub",
+            "fractions.html#problems"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Choose area/strip/number-line or equivalence strategies",
+          "references": [
+            "fractions.html#addsub",
+            "fractions.html#problems"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Solve contextual problems and explain the same whole",
+          "references": [
+            "fractions.html#addsub",
+            "fractions.html#problems"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "addsub",
+          "poster": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+          "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+          "duration": 223.3,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "addsub",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/MathMagic_Finding_LCM_FINAL_1080p.vtt",
+          "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4",
+          "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+          "duration": 87.666667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "problems",
+          "poster": "videos/fractions-2026/word-problems_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+          "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+          "duration": 227.5,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Add/subtract related fractions",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N06",
+      "strand": "Number",
+      "title": "Choose multiplication strategies",
+      "description": "solve problems involving multiplication of larger numbers by one- or two-digit numbers, choosing efficient calculation strategies and using digital tools where appropriate; check the reasonableness of answers",
+      "required_knowledge_and_skills": [
+        "Large whole numbers × one/two digits",
+        "Choose and explain an efficient strategy, including appropriate digital use",
+        "Check reasonableness using estimates"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "multiplication-division"
+      ],
+      "lessons": [
+        "multiplication-division.html#lesson1",
+        "multiplication-division.html#lesson2",
+        "multiplication-division.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/multiplication-division.js",
+        "detail": "Numeric practice 426×7 and 315×24; partitioning worked examples and 398×21 estimate."
+      },
+      "assessment": {
+        "path": "functions/index.js",
+        "symbols": [
+          "mdMult1",
+          "mdMult2",
+          "mdEstimate",
+          "mdError"
+        ],
+        "finding": "Exact products, estimates and omitted-tens error. mdMult1/mdMult2 inherit generic feedback; question does not elicit strategy selection.",
+        "validation": [
+          "tests/generator-multiplication-division.test.js",
+          "tests/e2e/multiplication-division.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Add assessed comparison/selection and explanation of efficient strategies, including when a calculator is useful; replace generic product feedback with question-specific worked steps. Preserve the protected-only service and verify its production path.",
+        "Add normalised within-attempt uniqueness to the protected generator: 10 duplicate positions occurred in 10 of 1,000 seeded attempts. Correct the comparison wording/input domain: 78 generated comparisons asked for a larger plan when both plans were equal."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Add assessed comparison/selection and explanation of efficient strategies, including when a calculator is useful; replace generic product feedback with question-specific worked steps. Preserve the protected-only service and verify its production path.",
+        "Add normalised within-attempt uniqueness to the protected generator: 10 duplicate positions occurred in 10 of 1,000 seeded attempts. Correct the comparison wording/input domain: 78 generated comparisons asked for a larger plan when both plans were equal."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Large whole numbers × one/two digits",
+          "references": [
+            "multiplication-division.html#lesson1",
+            "multiplication-division.html#lesson2",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Choose and explain an efficient strategy, including appropriate digital use",
+          "references": [
+            "multiplication-division.html#lesson1",
+            "multiplication-division.html#lesson2",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Check reasonableness using estimates",
+          "references": [
+            "multiplication-division.html#lesson1",
+            "multiplication-division.html#lesson2",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4",
+          "sha256": "e52c755593da91587a6fdb23672ffd19781bd3190bc5d759aaa5a18aa2d9dfec",
+          "duration": 137.367,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+          "duration": 139.267,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "duration": 146.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Efficient multiplication and reasonableness",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N07",
+      "strand": "Number",
+      "title": "Division and contextual remainders",
+      "description": "solve problems involving division, choosing efficient strategies and using digital tools where appropriate; interpret any remainder according to the context and express results as a whole number, decimal or fraction",
+      "required_knowledge_and_skills": [
+        "Choose efficient division strategies and appropriate tools",
+        "Interpret remainders in context rather than treating all remainders alike",
+        "Express contextual results as whole numbers, decimals or fractions"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "multiplication-division"
+      ],
+      "lessons": [
+        "multiplication-division.html#lesson3",
+        "multiplication-division.html#lesson4"
+      ],
+      "interactive_activity": {
+        "path": "js/multiplication-division.js",
+        "detail": "Partition 1536÷6, inverse check, round-up teams; pizza mixed-number and litres-decimal explanations."
+      },
+      "assessment": {
+        "path": "functions/index.js",
+        "symbols": [
+          "mdDiv",
+          "mdRemainder",
+          "mdDecimalQuotient",
+          "mdFractionQuotient",
+          "mdGroups"
+        ],
+        "finding": "All result forms exist, but decimal/fraction questions prescribe the form without a context; context questions only round up.",
+        "validation": [
+          "tests/generator-multiplication-division.test.js",
+          "tests/e2e/multiplication-division.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Assess pupils choosing between whole-number, decimal and fractional results in authentic contexts, including complete groups and leftovers; add strategy reasoning and question-specific division feedback. Verify existing callable availability without a browser fallback."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Assess pupils choosing between whole-number, decimal and fractional results in authentic contexts, including complete groups and leftovers; add strategy reasoning and question-specific division feedback. Verify existing callable availability without a browser fallback."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Choose efficient division strategies and appropriate tools",
+          "references": [
+            "multiplication-division.html#lesson3",
+            "multiplication-division.html#lesson4"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Interpret remainders in context rather than treating all remainders alike",
+          "references": [
+            "multiplication-division.html#lesson3",
+            "multiplication-division.html#lesson4"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Express contextual results as whole numbers, decimals or fractions",
+          "references": [
+            "multiplication-division.html#lesson3",
+            "multiplication-division.html#lesson4"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+          "duration": 142.867,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+          "duration": 144.967,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Single-digit division and contextual solutions",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N08",
+      "strand": "Number",
+      "title": "Estimate and explain reasonableness",
+      "description": "check and explain the reasonableness of solutions to problems including financial contexts using estimation strategies appropriate to the context",
+      "required_knowledge_and_skills": [
+        "Choose an estimate suitable to context",
+        "Check and explain a proposed solution",
+        "Include financial contexts"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "addition-subtraction",
+        "multiplication-division"
+      ],
+      "lessons": [
+        "addition-subtraction.html#lesson3",
+        "addition-subtraction.html#lesson5",
+        "multiplication-division.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/addition-subtraction.js",
+        "detail": "Fixed rounding practice and error detection; separate fundraiser money problem."
+      },
+      "assessment": {
+        "path": "js/addition-subtraction.js",
+        "symbols": [
+          "est",
+          "reasonable",
+          "oneStep"
+        ],
+        "finding": "Estimation families are bare computations; financial problems ask exact answers rather than explaining an estimate in that context.",
+        "validation": [
+          "tests/e2e/addition-subtraction.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Connect financial contexts explicitly to suitable estimates and explain why a proposed answer is reasonable or not; assess the explanation rather than only a rounded answer."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Connect financial contexts explicitly to suitable estimates and explain why a proposed answer is reasonable or not; assess the explanation rather than only a rounded answer."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Choose an estimate suitable to context",
+          "references": [
+            "addition-subtraction.html#lesson3",
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Check and explain a proposed solution",
+          "references": [
+            "addition-subtraction.html#lesson3",
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Include financial contexts",
+          "references": [
+            "addition-subtraction.html#lesson3",
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "d4b72d473a448d31840272a42b973cbbff158ee9ef7dadb590585e873e05c459",
+          "duration": 143.633333,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+          "duration": 140.233333,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "duration": 146.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Check reasonableness using estimation",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N09",
+      "strand": "Number",
+      "title": "Mathematical and financial modelling",
+      "description": "use mathematical modelling to solve practical problems involving additive and multiplicative situations including financial contexts; formulate the problems, choosing operations and efficient calculation strategies, using digital tools where appropriate; interpret and communicate solutions in terms of the situation",
+      "required_knowledge_and_skills": [
+        "Formulate a practical problem from a situation and identify assumptions",
+        "Choose additive/multiplicative operations, strategies and appropriate digital tools",
+        "Interpret and communicate a checked contextual solution, including finances"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "addition-subtraction",
+        "measurement",
+        "multiplication-division"
+      ],
+      "lessons": [
+        "addition-subtraction.html#lesson5",
+        "multiplication-division.html#lesson5",
+        "measurement.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/addition-subtraction.js",
+        "detail": "Choose operations in supplied fundraiser/library problems; measurement garden-design reflection can be reused."
+      },
+      "assessment": {
+        "path": "js/addition-subtraction.js",
+        "symbols": [
+          "oneStep",
+          "combine",
+          "twoStep"
+        ],
+        "finding": "Supplier, fundraiser and two-step calculations are supplied. No complete student-authored financial model, assumptions or communicated recommendation is captured.",
+        "validation": [
+          "tests/e2e/addition-subtraction.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Develop a guided open financial modelling investigation using existing calculation tools: pupil-formulated question, assumptions, budget/table, chosen operations, estimate, interpretation and recommendation; assess with a rubric and aligned question families.",
+        "Validate baseline generator quality while extending modelling: Addition & Subtraction repeated one question in 1 of 1,000 attempts; Multiplication & Division repeated 10 positions and generated 78 equal-plan comparisons referring to a larger plan. See assessment-audit.json for exact seeds and examples."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Develop a guided open financial modelling investigation using existing calculation tools: pupil-formulated question, assumptions, budget/table, chosen operations, estimate, interpretation and recommendation; assess with a rubric and aligned question families.",
+        "Validate baseline generator quality while extending modelling: Addition & Subtraction repeated one question in 1 of 1,000 attempts; Multiplication & Division repeated 10 positions and generated 78 equal-plan comparisons referring to a larger plan. See assessment-audit.json for exact seeds and examples."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Formulate a practical problem from a situation and identify assumptions",
+          "references": [
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5",
+            "measurement.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Choose additive/multiplicative operations, strategies and appropriate digital tools",
+          "references": [
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5",
+            "measurement.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Interpret and communicate a checked contextual solution, including finances",
+          "references": [
+            "addition-subtraction.html#lesson5",
+            "multiplication-division.html#lesson5",
+            "measurement.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+          "duration": 140.233333,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "duration": 146.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+          "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+          "duration": 146.966667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Formulate/solve/interpret financial and practical models",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5N10",
+      "strand": "Number",
+      "title": "Create digital number algorithms",
+      "description": "create and use algorithms involving a sequence of steps and decisions and digital tools to experiment with factors, multiples and divisibility; identify, interpret and describe emerging patterns",
+      "required_knowledge_and_skills": [
+        "Create and test steps and branching decisions",
+        "Use digital tools to experiment with factors/multiples/divisibility",
+        "Identify, interpret and explain emerging patterns"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "factors-multiples"
+      ],
+      "lessons": [
+        "factors-multiples.html#lesson4",
+        "factors-multiples.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/factors-multiples.js",
+        "detail": "Run a fixed divisibility algorithm on a chosen number; follow factor-search steps; describe final-digit pattern when adding 4."
+      },
+      "assessment": {
+        "path": "js/factors-multiples.js",
+        "symbols": [
+          "algorithm",
+          "patternReason",
+          "combinedRule"
+        ],
+        "finding": "Execution, missing-step and pattern reasoning; no learner-authored sequence/decision program.",
+        "validation": [
+          "tests/generator-factors-multiples.test.js"
+        ]
+      },
+      "gaps": [
+        "Add learner-authored steps and yes/no decisions, a trace table, boundary tests and explanation of factor/multiple patterns. Reuse the existing number explorer; do not count the Space shape-classification algorithm as Number evidence."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Add learner-authored steps and yes/no decisions, a trace table, boundary tests and explanation of factor/multiple patterns. Reuse the existing number explorer; do not count the Space shape-classification algorithm as Number evidence."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Create and test steps and branching decisions",
+          "references": [
+            "factors-multiples.html#lesson4",
+            "factors-multiples.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Use digital tools to experiment with factors/multiples/divisibility",
+          "references": [
+            "factors-multiples.html#lesson4",
+            "factors-multiples.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Identify, interpret and explain emerging patterns",
+          "references": [
+            "factors-multiples.html#lesson4",
+            "factors-multiples.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+          "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+          "duration": 150.167,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+          "duration": 145.9,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Create algorithms and explain factor/multiple patterns",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5A01",
+      "strand": "Algebra",
+      "title": "Inverse operations and fact families",
+      "description": "recognise and explain the connection between multiplication and division as inverse operations and use this to develop families of number facts",
+      "required_knowledge_and_skills": [
+        "Explain multiplication/division as inverse operations",
+        "Develop connected multiplication/division fact families"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "multiplication-division"
+      ],
+      "lessons": [
+        "multiplication-division.html#lesson3",
+        "multiplication-division.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/multiplication-division.js",
+        "detail": "Check 256×6=1536 and reverse a product; no complete four-fact family construction tool."
+      },
+      "assessment": {
+        "path": "functions/index.js",
+        "symbols": [
+          "mdDiv",
+          "mdUnknown"
+        ],
+        "finding": "Division and missing product factor indirectly use inverses; do not require constructing/explaining a fact family.",
+        "validation": [
+          "tests/generator-multiplication-division.test.js",
+          "tests/e2e/multiplication-division.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Plan identifiable Inverse Operations and Fact Families coverage within the Algebra strand: construct both products and both quotients, explain equal groups and check repeated-factor cases. Reuse Multiplication & Division rather than duplicating its full course."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Plan identifiable Inverse Operations and Fact Families coverage within the Algebra strand: construct both products and both quotients, explain equal groups and check repeated-factor cases. Reuse Multiplication & Division rather than duplicating its full course."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Explain multiplication/division as inverse operations",
+          "references": [
+            "multiplication-division.html#lesson3",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Develop connected multiplication/division fact families",
+          "references": [
+            "multiplication-division.html#lesson3",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+          "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+          "duration": 142.867,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "duration": 146.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Find unknown values using number/operation properties and multiplication/division proficiency",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5A02",
+      "strand": "Algebra",
+      "title": "Unknown values in equations",
+      "description": "find unknown values in numerical equations involving multiplication and division using the properties of numbers and operations",
+      "required_knowledge_and_skills": [
+        "Find unknown factors, dividends and divisors in numerical equations",
+        "Use inverse/commutative/distributive relationships to explain and check"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "multiplication-division"
+      ],
+      "lessons": [
+        "multiplication-division.html#lesson2",
+        "multiplication-division.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/multiplication-division.js",
+        "detail": "Missing-factor input and partitioned multiplication; no unknown-divisor/dividend investigation."
+      },
+      "assessment": {
+        "path": "functions/index.js",
+        "symbols": [
+          "mdUnknown"
+        ],
+        "finding": "Only □ × b = product is generated; no division equation with unknown divisor/dividend or explanation using properties.",
+        "validation": [
+          "tests/generator-multiplication-division.test.js",
+          "tests/e2e/multiplication-division.spec.js"
+        ],
+        "quality_audit": "docs/year5/assessment-audit.json"
+      },
+      "gaps": [
+        "Plan Numerical Equations coverage with unknowns in different positions in multiplication AND division, explicit operation-property reasoning and substitution checks. Share existing calculation/progress resources; do not treat additive unknowns as sufficient evidence."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Plan Numerical Equations coverage with unknowns in different positions in multiplication AND division, explicit operation-property reasoning and substitution checks. Share existing calculation/progress resources; do not treat additive unknowns as sufficient evidence."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Find unknown factors, dividends and divisors in numerical equations",
+          "references": [
+            "multiplication-division.html#lesson2",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Use inverse/commutative/distributive relationships to explain and check",
+          "references": [
+            "multiplication-division.html#lesson2",
+            "multiplication-division.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+          "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+          "duration": 139.267,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+          "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+          "duration": 146.8,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Find unknown values using number/operation properties and multiplication/division proficiency",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5M01",
+      "strand": "Measurement",
+      "title": "Units and accurate measurement",
+      "description": "choose appropriate metric units when measuring the length, mass and capacity of objects; use smaller units or a combination of units to obtain a more accurate measure",
+      "required_knowledge_and_skills": [
+        "Choose sensible metric units/instruments for length, mass, capacity",
+        "Read intervals and non-zero ruler starts",
+        "Use smaller and combined units to improve precision"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "measurement"
+      ],
+      "lessons": [
+        "measurement.html#lesson1",
+        "measurement.html#lesson2"
+      ],
+      "interactive_activity": {
+        "path": "js/measurement.js",
+        "detail": "Ruler/scale diagrams and numeric checks; practical pencil, kitchen scale and jug measurement tasks."
+      },
+      "assessment": {
+        "path": "js/measurement.js",
+        "symbols": [
+          "unit",
+          "ruler",
+          "scale",
+          "mixed"
+        ],
+        "finding": "Appropriate unit/instrument, scale readings and combined length/mass/capacity quantities.",
+        "validation": [
+          "tests/validate-measurement.py",
+          "tests/measurement-quality.test.js",
+          "tests/e2e/measurement.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Choose sensible metric units/instruments for length, mass, capacity",
+          "references": [
+            "measurement.html#lesson1",
+            "measurement.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Read intervals and non-zero ruler starts",
+          "references": [
+            "measurement.html#lesson1",
+            "measurement.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Use smaller and combined units to improve precision",
+          "references": [
+            "measurement.html#lesson1",
+            "measurement.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+          "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+          "duration": 139.566667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+          "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+          "duration": 152.366667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Choose metric units for length, mass and capacity",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5M02",
+      "strand": "Measurement",
+      "title": "Area and perimeter",
+      "description": "solve practical problems involving the perimeter and area of regular and irregular shapes using appropriate metric units",
+      "required_knowledge_and_skills": [
+        "Perimeter is a complete boundary; area counts unit squares",
+        "Regular/irregular shapes, hidden lengths and split/subtract models",
+        "Practical design/pack decisions with correct length/square units"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "measurement"
+      ],
+      "lessons": [
+        "measurement.html#lesson3",
+        "measurement.html#lesson4",
+        "measurement.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/measurement.js",
+        "detail": "String/tile investigations, SVG boundary and area models, L-shaped design and self-checking calculations."
+      },
+      "assessment": {
+        "path": "js/measurement.js",
+        "symbols": [
+          "polygon",
+          "rectangle",
+          "composite",
+          "border",
+          "tiles",
+          "costDesign"
+        ],
+        "finding": "Regular boundaries, rectangles, irregular area/perimeter, missing lengths, whole packs and design comparison.",
+        "validation": [
+          "tests/validate-measurement.py",
+          "tests/measurement-quality.test.js",
+          "tests/e2e/measurement.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Perimeter is a complete boundary; area counts unit squares",
+          "references": [
+            "measurement.html#lesson3",
+            "measurement.html#lesson4",
+            "measurement.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Regular/irregular shapes, hidden lengths and split/subtract models",
+          "references": [
+            "measurement.html#lesson3",
+            "measurement.html#lesson4",
+            "measurement.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Practical design/pack decisions with correct length/square units",
+          "references": [
+            "measurement.html#lesson3",
+            "measurement.html#lesson4",
+            "measurement.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+          "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+          "duration": 136.566667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+          "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+          "duration": 139.366667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+          "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+          "duration": 146.966667,
+          "approval_status": "SCOPED_CORRECTION_ONLY_FULL_QUALITY_UNVERIFIED",
+          "approval_evidence": "docs/video-quality-audit-35.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Solve perimeter and area problems",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5M03",
+      "strand": "Measurement",
+      "title": "12- and 24-hour time",
+      "description": "compare 12- and 24-hour time systems and solve practical problems involving the conversion between them",
+      "required_knowledge_and_skills": [
+        "Compare time systems and handle noon/midnight",
+        "Convert both directions",
+        "Solve authentic timetable/conversion problems"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "time-angles"
+      ],
+      "lessons": [
+        "time-angles.html#lesson1",
+        "time-angles.html#lesson2"
+      ],
+      "interactive_activity": {
+        "path": "js/time-angles-practice.js",
+        "detail": "Elapsed-time timeline and connection timetable; explicit table 7:05 am, 2:30 pm, noon and midnight; conversion practice."
+      },
+      "assessment": {
+        "path": "js/time-angles.js",
+        "symbols": [
+          "make",
+          "build"
+        ],
+        "finding": "Kinds 6 and 11 convert forward and reverse; kinds 0/1/7 address arrival/duration/timetables. Reverse conversion currently samples afternoon/evening only.",
+        "validation": [
+          "tests/e2e/time-angles.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Compare time systems and handle noon/midnight",
+          "references": [
+            "time-angles.html#lesson1",
+            "time-angles.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Convert both directions",
+          "references": [
+            "time-angles.html#lesson1",
+            "time-angles.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Solve authentic timetable/conversion problems",
+          "references": [
+            "time-angles.html#lesson1",
+            "time-angles.html#lesson2"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4",
+          "sha256": "16109a829c5aedcb53e4235244c46ccab59a35476d74751b2ddcc32c8bd2ba30",
+          "duration": 505.2,
+          "approval_status": "UNVERIFIED_CAPTIONS_AND_APPROVAL",
+          "approval_evidence": "video-agent/time-angles/GOLDEN_VIDEO_RULES.md",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review.",
+          "findings": [
+            "Project branding is visible in the actual midpoint frame at 252.6s, contrary to the canonical Golden Rules. Preserve bytes in this audit; remediate only within separately authorised media work."
+          ]
+        },
+        {
+          "lesson": "lesson2",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.mp4",
+          "sha256": "5734a8282c757771e0cb13123af2a94934a994cfc007bf632f3adae7a28ed1c3",
+          "duration": 347.8,
+          "approval_status": "UNVERIFIED_CAPTIONS_AND_APPROVAL",
+          "approval_evidence": "video-agent/time-angles/GOLDEN_VIDEO_RULES.md",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Convert 12/24-hour time",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5M04",
+      "strand": "Measurement",
+      "title": "Estimate, measure and construct angles",
+      "description": "estimate, construct and measure angles in degrees, using appropriate tools including a protractor, and relate these measures to angle names",
+      "required_knowledge_and_skills": [
+        "Estimate using benchmark turns and classify by names",
+        "Measure from the correct protractor zero scale",
+        "Construct and check requested angles with suitable tools"
+      ],
+      "status": "PARTIAL",
+      "topics": [
+        "time-angles"
+      ],
+      "lessons": [
+        "time-angles.html#lesson3",
+        "time-angles.html#lesson4",
+        "time-angles.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/time-angles-construction.js",
+        "detail": "Keyboard/pointer angle studio with requested target, slider and correctness check; protractor SVG and practical paper construction."
+      },
+      "assessment": {
+        "path": "js/time-angles.js",
+        "symbols": [
+          "make",
+          "build"
+        ],
+        "finding": "Kinds 5,10,12 classify/read/estimate; kind 10 asks for an exact angle from an unmarked diagram despite saying estimate. No recorded construction result in the 30-position assessment.",
+        "validation": [
+          "tests/e2e/time-angles.spec.js"
+        ]
+      },
+      "gaps": [
+        "Make estimation marking accept a defensible range or change the task to an exact measured reading; validate protractor scale/distractor cases and include construction evidence/rubric. Complete Time and Angles captions/transcripts and exact-file media approval separately."
+      ],
+      "development_status": "CORRECTION_REQUIRED",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Make estimation marking accept a defensible range or change the task to an exact measured reading; validate protractor scale/distractor cases and include construction evidence/rubric. Complete Time and Angles captions/transcripts and exact-file media approval separately."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Estimate using benchmark turns and classify by names",
+          "references": [
+            "time-angles.html#lesson3",
+            "time-angles.html#lesson4",
+            "time-angles.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Measure from the correct protractor zero scale",
+          "references": [
+            "time-angles.html#lesson3",
+            "time-angles.html#lesson4",
+            "time-angles.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        },
+        {
+          "requirement": "Construct and check requested angles with suitable tools",
+          "references": [
+            "time-angles.html#lesson3",
+            "time-angles.html#lesson4",
+            "time-angles.html#lesson5"
+          ],
+          "verification": "PARTIAL_SEE_GAPS"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson3",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.mp4",
+          "sha256": "c79d0649b06919c191079659da2f5811964100d0fd58a0310978619254a13152",
+          "duration": 339.1,
+          "approval_status": "UNVERIFIED_CAPTIONS_AND_APPROVAL",
+          "approval_evidence": "video-agent/time-angles/GOLDEN_VIDEO_RULES.md",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson4",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4",
+          "sha256": "e3c9d86c48040c99c8d63b04ef256794dd8e03f06871ec974fda58b0c3fef5c9",
+          "duration": 334.4,
+          "approval_status": "UNVERIFIED_CAPTIONS_AND_APPROVAL",
+          "approval_evidence": "video-agent/time-angles/GOLDEN_VIDEO_RULES.md",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4",
+          "sha256": "f1287a8a81e8489b9b08b279b7defc36929bb7c02e7c538f85e2406c62eb17ba",
+          "duration": 348.1,
+          "approval_status": "UNVERIFIED_CAPTIONS_AND_APPROVAL",
+          "approval_evidence": "video-agent/time-angles/GOLDEN_VIDEO_RULES.md",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Estimate, construct and measure angles",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5SP01",
+      "strand": "Space",
+      "title": "3D objects and nets",
+      "description": "connect objects to their nets and build objects from their nets using spatial and geometric reasoning",
+      "required_knowledge_and_skills": [
+        "Match solid faces and net panels/edge lengths",
+        "Predict/test valid and invalid nets",
+        "Construct objects and explain folding evidence"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "space-lessons"
+      ],
+      "lessons": [
+        "space-lessons.html#lesson-1",
+        "space-lessons.html#lesson-2",
+        "space-lessons.html#lesson-3",
+        "space-lessons.html#lesson-10"
+      ],
+      "interactive_activity": {
+        "path": "space-net-explorer.html",
+        "detail": "Cube net builder/folding views; rectangular-prism and pyramid models; paper/card construction tasks and integrated kiosk model."
+      },
+      "assessment": {
+        "path": "js/space-question-bank.js",
+        "symbols": [
+          "generate"
+        ],
+        "finding": "Net validity, opposite/adjacent faces, panel dimensions and turned-net invariance. Practical physical building needs teacher observation, not inference from a quiz score.",
+        "validation": [
+          "tests/space-question-bank.test.js",
+          "tests/space-geometry.test.js",
+          "tests/e2e/space-tools.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Match solid faces and net panels/edge lengths",
+          "references": [
+            "space-lessons.html#lesson-1",
+            "space-lessons.html#lesson-2",
+            "space-lessons.html#lesson-3",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Predict/test valid and invalid nets",
+          "references": [
+            "space-lessons.html#lesson-1",
+            "space-lessons.html#lesson-2",
+            "space-lessons.html#lesson-3",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Construct objects and explain folding evidence",
+          "references": [
+            "space-lessons.html#lesson-1",
+            "space-lessons.html#lesson-2",
+            "space-lessons.html#lesson-3",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson-1",
+          "poster": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+          "sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+          "duration": 528.6,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-2",
+          "poster": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4",
+          "sha256": "e178d158cb8a8df25606f358732b9d8b10f7495e888207d36c28eb53ef048ab1",
+          "duration": 367.8,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-3",
+          "poster": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4",
+          "sha256": "5b24243e27023c483712714ce931f642a6d2ce12ed7cd3ecc2625a6cc7ef974e",
+          "duration": 402.742,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-10",
+          "poster": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+          "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+          "duration": 432.3,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Connect objects to nets",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5SP02",
+      "strand": "Space",
+      "title": "Coordinates and routes",
+      "description": "construct a grid coordinate system that uses coordinates to locate positions within a space; use coordinates and directional language to describe position and movement",
+      "required_knowledge_and_skills": [
+        "Construct equal-interval axes with an origin",
+        "Locate intersections using ordered coordinates",
+        "Describe positions/routes with coordinates and directions"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "space-lessons"
+      ],
+      "lessons": [
+        "space-lessons.html#lesson-4",
+        "space-lessons.html#lesson-5",
+        "space-lessons.html#lesson-10"
+      ],
+      "interactive_activity": {
+        "path": "space-coordinates.html",
+        "detail": "Coordinate/route lab; construct axes 0–8 and own first-quadrant grid on paper, plot/read points and courier routes."
+      },
+      "assessment": {
+        "path": "js/space-question-bank.js",
+        "symbols": [
+          "generate"
+        ],
+        "finding": "Ordered-pair, horizontal/vertical routes and multi-leg route questions; zero coordinates and grid intersections taught explicitly.",
+        "validation": [
+          "tests/space-question-bank.test.js",
+          "tests/space-geometry.test.js",
+          "tests/e2e/space-tools.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Construct equal-interval axes with an origin",
+          "references": [
+            "space-lessons.html#lesson-4",
+            "space-lessons.html#lesson-5",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Locate intersections using ordered coordinates",
+          "references": [
+            "space-lessons.html#lesson-4",
+            "space-lessons.html#lesson-5",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Describe positions/routes with coordinates and directions",
+          "references": [
+            "space-lessons.html#lesson-4",
+            "space-lessons.html#lesson-5",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson-4",
+          "poster": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4",
+          "sha256": "bc11c36751627984581a80cf597a4da61b3e8ef2744cbbc66c5ec92a085f729d",
+          "duration": 367.733333,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-5",
+          "poster": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4",
+          "sha256": "fa7803fd5b1feb0b183f5e5df7c36587f57acbe7466f88efaab6412f79d6ec9d",
+          "duration": 382.779,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-10",
+          "poster": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+          "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+          "duration": 432.3,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Locate and move using grid coordinates",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5SP03",
+      "strand": "Space",
+      "title": "Transformations and symmetry",
+      "description": "describe and perform translations, reflections and rotations of shapes, using dynamic geometric software where appropriate; recognise what changes and what remains the same, and identify any symmetries",
+      "required_knowledge_and_skills": [
+        "Perform/describe translations, reflections and rotations",
+        "Use centres/mirror lines and explain invariants",
+        "Identify reflection and rotational symmetries"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "space-lessons"
+      ],
+      "lessons": [
+        "space-lessons.html#lesson-6",
+        "space-lessons.html#lesson-7",
+        "space-lessons.html#lesson-8",
+        "space-lessons.html#lesson-10"
+      ],
+      "interactive_activity": {
+        "path": "space-lab.html",
+        "detail": "Dynamic transformation lab, symmetry explorer and keyboard controls; tracing/folding and invariant comparisons."
+      },
+      "assessment": {
+        "path": "js/space-question-bank.js",
+        "symbols": [
+          "generate"
+        ],
+        "finding": "Point/shape movements, reflections, rotations, lines/order of symmetry, reverse/composed movements and preserved lengths/angles. Classification enrichment is explicitly excluded from the three-descriptor count.",
+        "validation": [
+          "tests/space-question-bank.test.js",
+          "tests/space-geometry.test.js",
+          "tests/e2e/space-tools.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Perform/describe translations, reflections and rotations",
+          "references": [
+            "space-lessons.html#lesson-6",
+            "space-lessons.html#lesson-7",
+            "space-lessons.html#lesson-8",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Use centres/mirror lines and explain invariants",
+          "references": [
+            "space-lessons.html#lesson-6",
+            "space-lessons.html#lesson-7",
+            "space-lessons.html#lesson-8",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Identify reflection and rotational symmetries",
+          "references": [
+            "space-lessons.html#lesson-6",
+            "space-lessons.html#lesson-7",
+            "space-lessons.html#lesson-8",
+            "space-lessons.html#lesson-10"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson-6",
+          "poster": "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson06_Translations_1080p.mp4",
+          "sha256": "53ff64844782c40026cc7282a6aedb3a0bc4b5935e78afa64cff0b77b2845af6",
+          "duration": 416.736,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-7",
+          "poster": "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4",
+          "sha256": "bc2552c8e823b9251802d6136d15e31061a4ceeb0a5f46b291f15d3d8d71068e",
+          "duration": 396.512,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-8",
+          "poster": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4",
+          "sha256": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+          "duration": 410.733333,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson-10",
+          "poster": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+          "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+          "duration": 432.3,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/space/release.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Perform transformations and identify symmetry",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5ST01",
+      "strand": "Statistics",
+      "title": "Collect, validate and represent data",
+      "description": "acquire, validate and represent data for nominal and ordinal categorical and discrete numerical variables, to address a question of interest or purpose using software including spreadsheets; discuss and report on data distributions in terms of highest frequency (mode) and shape, in the context of the data",
+      "required_knowledge_and_skills": [
+        "Acquire/validate nominal, ordinal and discrete numerical data for a purpose",
+        "Use digital tables/displays and a spreadsheet connection",
+        "Interpret frequency, mode and shape in context"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "statistics"
+      ],
+      "lessons": [
+        "statistics.html#lesson1",
+        "statistics.html#lesson2",
+        "statistics.html#lesson3"
+      ],
+      "interactive_activity": {
+        "path": "js/statistics.js",
+        "detail": "Variable classifier, editable votes with names/ratings/counts, validation, CSV export/COUNTIF spreadsheet instructions and editable distributions."
+      },
+      "assessment": {
+        "path": "js/statistics.js",
+        "symbols": [
+          "buildStatistics",
+          "parseVotes",
+          "modes"
+        ],
+        "finding": "Types, frequency, missing records, tied modes, shape, ordinal order, zero frequencies and compare distributions. Spreadsheet transfer remains pupil/teacher activity, not a claim of external spreadsheet automation.",
+        "validation": [
+          "tests/statistics-assessment.test.js",
+          "tests/e2e/statistics.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Acquire/validate nominal, ordinal and discrete numerical data for a purpose",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson2",
+            "statistics.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Use digital tables/displays and a spreadsheet connection",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson2",
+            "statistics.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Interpret frequency, mode and shape in context",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson2",
+            "statistics.html#lesson3"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": "video-agent/statistics/review/lesson1/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson1/captions.vtt",
+          "path": "video-agent/statistics/review/lesson1/Statistics_Lesson01_REVIEW_1080p.mp4",
+          "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+          "duration": 325.966667,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "video-agent/statistics/review/lesson2/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson2/captions.vtt",
+          "path": "video-agent/statistics/review/lesson2/Statistics_Lesson02_REVIEW_1080p.mp4",
+          "sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+          "duration": 334.866667,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "video-agent/statistics/review/lesson3/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson3/captions.vtt",
+          "path": "video-agent/statistics/review/lesson3/Statistics_Lesson03_REVIEW_1080p.mp4",
+          "sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+          "duration": 331.166667,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Collect categorical/discrete data digitally; mode and shape",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5ST02",
+      "strand": "Statistics",
+      "title": "Interpret line graphs",
+      "description": "interpret line graphs representing change over time; discuss the relationships that are represented and conclusions that can be made",
+      "required_knowledge_and_skills": [
+        "Read time, scale and quantity/unit axes",
+        "Interpret/compare changes and relationships over time",
+        "Support contextual conclusions without unjustified forecasts"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "statistics"
+      ],
+      "lessons": [
+        "statistics.html#lesson4"
+      ],
+      "interactive_activity": {
+        "path": "js/statistics.js",
+        "detail": "Tank A slider plus two-tank line graph, interval prediction and explicit supported/unsupported claims."
+      },
+      "assessment": {
+        "path": "js/statistics.js",
+        "symbols": [
+          "buildStatistics",
+          "lineChart",
+          "lineTable"
+        ],
+        "finding": "Read-time, line-change, intervals, compare-lines, misleading-scale and unsupported-forecast families.",
+        "validation": [
+          "tests/statistics-assessment.test.js",
+          "tests/e2e/statistics.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Read time, scale and quantity/unit axes",
+          "references": [
+            "statistics.html#lesson4"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Interpret/compare changes and relationships over time",
+          "references": [
+            "statistics.html#lesson4"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Support contextual conclusions without unjustified forecasts",
+          "references": [
+            "statistics.html#lesson4"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson4",
+          "poster": "video-agent/statistics/review/lesson4/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson4/captions.vtt",
+          "path": "video-agent/statistics/review/lesson4/Statistics_Lesson04_REVIEW_1080p.mp4",
+          "sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+          "duration": 347.033333,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Interpret and compare line graphs",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5ST03",
+      "strand": "Statistics",
+      "title": "Investigate and communicate",
+      "description": "plan and conduct statistical investigations by posing questions or identifying a problem and collecting relevant data; choose appropriate displays and interpret the data; communicate findings within the context of the investigation",
+      "required_knowledge_and_skills": [
+        "Pose a question/problem and plan fair relevant data collection",
+        "Collect/check data and choose/interpret suitable displays",
+        "Communicate evidence, recommendation and limitations in context"
+      ],
+      "status": "COMPLETE",
+      "topics": [
+        "statistics"
+      ],
+      "lessons": [
+        "statistics.html#lesson1",
+        "statistics.html#lesson5"
+      ],
+      "interactive_activity": {
+        "path": "js/statistics.js",
+        "detail": "Own school-question exit activity; class library-theme investigation with collection plan, actual anonymous or labelled practice data, analysis, recommendation and limitation fields."
+      },
+      "assessment": {
+        "path": "js/statistics.js",
+        "symbols": [
+          "buildStatistics"
+        ],
+        "finding": "Fair question, sample/collection plan, display choice, record check, contextual conclusion, investigation report and next investigation. Open pupil report needs teacher evaluation; generated scores do not certify investigation performance.",
+        "validation": [
+          "tests/statistics-assessment.test.js",
+          "tests/e2e/statistics.spec.js"
+        ]
+      },
+      "gaps": [],
+      "development_status": "IMPLEMENTED_WITH_EVIDENCE",
+      "deployment_status": "PUBLIC_RESOURCES_VERIFIED_SERVICES_UNVERIFIED",
+      "corrective_action": [
+        "Retain resources; obtain remaining strand-level media and service verification before declaring the strand released."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Pose a question/problem and plan fair relevant data collection",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Collect/check data and choose/interpret suitable displays",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        },
+        {
+          "requirement": "Communicate evidence, recommendation and limitations in context",
+          "references": [
+            "statistics.html#lesson1",
+            "statistics.html#lesson5"
+          ],
+          "verification": "IMPLEMENTED"
+        }
+      ],
+      "video_coverage": [
+        {
+          "lesson": "lesson1",
+          "poster": "video-agent/statistics/review/lesson1/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson1/captions.vtt",
+          "path": "video-agent/statistics/review/lesson1/Statistics_Lesson01_REVIEW_1080p.mp4",
+          "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+          "duration": 325.966667,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "video-agent/statistics/review/lesson5/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson5/captions.vtt",
+          "path": "video-agent/statistics/review/lesson5/Statistics_Lesson05_REVIEW_1080p.mp4",
+          "sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+          "duration": 348.174,
+          "approval_status": "OWNER_APPROVED_EXACT_FILES",
+          "approval_evidence": "video-agent/statistics/approval.json",
+          "inspection": "Local ffprobe, SHA-256/public-byte match, available transcript content and one actual decoded midpoint frame; not full audiovisual review."
+        }
+      ],
+      "achievement_standard_aspect": "Plan and conduct statistical investigations",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5P01",
+      "strand": "Probability",
+      "title": "Compare chance outcomes",
+      "description": "list the possible outcomes of chance experiments involving equally likely outcomes and compare to those which are not equally likely",
+      "required_knowledge_and_skills": [
+        "List all possible outcomes",
+        "Compare equally/unequally likely outcome situations"
+      ],
+      "status": "MISSING",
+      "topics": [],
+      "lessons": [],
+      "interactive_activity": null,
+      "assessment": null,
+      "gaps": [
+        "No Probability lesson, chance simulator, assessment generator or instructional video is implemented. Statistics frequency tools alone do not establish chance-experiment coverage."
+      ],
+      "development_status": "PLANNED_NOT_STARTED",
+      "deployment_status": "NOT_IMPLEMENTED",
+      "corrective_action": [
+        "After previous strands are complete, build a coherent Probability topic with equally/unequally likely outcomes, repeated experiments, frequency records and evidence-based estimates. Reuse chart and progress utilities without reusing Statistics approval for new media."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "List all possible outcomes",
+          "references": [],
+          "verification": "MISSING"
+        },
+        {
+          "requirement": "Compare equally/unequally likely outcome situations",
+          "references": [],
+          "verification": "MISSING"
+        }
+      ],
+      "video_coverage": [],
+      "achievement_standard_aspect": "Repeated chance experiments, list outcomes, estimate and compare equal/unequal likelihoods",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    },
+    {
+      "code": "AC9M5P02",
+      "strand": "Probability",
+      "title": "Repeated chance experiments",
+      "description": "conduct repeated chance experiments including those with and without equally likely outcomes, observe and record the results; use frequency to compare outcomes and estimate their likelihoods.",
+      "required_knowledge_and_skills": [
+        "Conduct repeated equal/unequal chance experiments",
+        "Observe/record results and compare frequencies",
+        "Estimate likelihood from experimental evidence"
+      ],
+      "status": "MISSING",
+      "topics": [],
+      "lessons": [],
+      "interactive_activity": null,
+      "assessment": null,
+      "gaps": [
+        "No Probability lesson, chance simulator, assessment generator or instructional video is implemented. Statistics frequency tools alone do not establish chance-experiment coverage."
+      ],
+      "development_status": "PLANNED_NOT_STARTED",
+      "deployment_status": "NOT_IMPLEMENTED",
+      "corrective_action": [
+        "After previous strands are complete, build a coherent Probability topic with equally/unequally likely outcomes, repeated experiments, frequency records and evidence-based estimates. Reuse chart and progress utilities without reusing Statistics approval for new media."
+      ],
+      "skill_evidence": [
+        {
+          "requirement": "Conduct repeated equal/unequal chance experiments",
+          "references": [],
+          "verification": "MISSING"
+        },
+        {
+          "requirement": "Observe/record results and compare frequencies",
+          "references": [],
+          "verification": "MISSING"
+        },
+        {
+          "requirement": "Estimate likelihood from experimental evidence",
+          "references": [],
+          "verification": "MISSING"
+        }
+      ],
+      "video_coverage": [],
+      "achievement_standard_aspect": "Repeated chance experiments, list outcomes, estimate and compare equal/unequal likelihoods",
+      "release_ready": false,
+      "evidence_review": "Source, tools, generator families and actual transcripts inspected 2026-11-24. Public-byte checks in resource-audit.json; automated tests and limitations in framework-qa.md."
+    }
+  ],
+  "assessment_audit": "docs/year5/assessment-audit.json"
+}

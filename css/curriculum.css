@@ -1,0 +1,39 @@
+/* Strand navigation uses the existing MathMagic palette and static architecture. */
+.curriculum-skip{position:absolute;left:12px;top:-80px;background:#00394f;color:white;padding:14px;z-index:20}
+.curriculum-skip:focus{top:8px}
+.curriculum-nav{padding:14px clamp(18px,5vw,70px);background:#e9f8fb;font:600 15px/1.6 "Trebuchet MS",Arial,sans-serif;color:#00394f}
+.curriculum-nav ol{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.curriculum-nav li+li::before{content:"›";margin-right:8px}
+.curriculum-nav a{color:#00576b;text-underline-offset:3px}
+.curriculum-page a:focus-visible,.curriculum-page button:focus-visible,.curriculum-nav a:focus-visible{outline:3px solid #8b3c00;outline-offset:4px}
+.curriculum-page .year-strip{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:32px}
+.curriculum-page .year-strip div{display:flex;flex-wrap:wrap;gap:6px}
+.curriculum-page .year-strip button{min-height:44px;min-width:44px;border:1px solid #b7dce3;border-radius:12px;background:white;color:#52636b}
+.curriculum-page .year-strip button.selected{background:#00394f;color:white;font-weight:900}
+.curriculum-page .year-strip button:disabled{background:#edf2f4;color:#5b6469;cursor:default}
+.curriculum-page .year-strip small{flex-basis:100%}
+.strand-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.strand-card{--strand:#006a7b;display:flex;flex-direction:column;align-items:flex-start;gap:12px;background:#fff;border:1px solid #ccebf0;border-top:6px solid var(--strand);border-radius:22px;padding:24px;color:#00394f;text-decoration:none;box-shadow:0 8px 24px rgba(0,57,79,.07)}
+.strand-card:hover{box-shadow:0 12px 30px rgba(0,57,79,.16)}
+.strand-card h3{font-size:25px;margin:0}.strand-card p{margin:0;line-height:1.5}.strand-card strong{margin-top:auto;color:var(--strand)}
+.strand-symbol{display:grid;place-items:center;background:var(--strand);color:white;font-weight:900;font-size:26px;min-width:60px;height:54px;border-radius:15px;padding:5px}
+.strand-number{--strand:#006a7b}.strand-algebra{--strand:#7242a3}.strand-measurement{--strand:#9a4d00}.strand-space{--strand:#176c52}.strand-statistics{--strand:#245cb3}.strand-probability{--strand:#9d385f}
+.curriculum-note{padding:18px 22px;border:1px solid #ccebf0;border-radius:16px;background:#edf8fa;line-height:1.6;margin:20px 0 30px}
+.curriculum-page .topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0 40px}
+.curriculum-topic{border:1px solid #ccebf0;border-radius:22px;padding:24px;background:white;min-width:0}
+.curriculum-topic h2{font-size:25px;color:#00394f;margin:0 0 14px}.curriculum-topic h3{font-size:17px;color:#00394f;margin-top:24px}
+.curriculum-topic p,.curriculum-topic li{line-height:1.6}.curriculum-topic ol{padding-left:24px}.curriculum-topic li{padding:6px 0}
+.curriculum-topic a{color:#00576b;text-underline-offset:3px}.curriculum-topic small{display:block;margin:4px 0 12px}.curriculum-topic .activity-link{display:inline-block;margin-left:8px;font-size:14px}
+.curriculum-topic .assessment-link{display:inline-block;border:2px solid #008296;border-radius:12px;padding:12px 16px;font-weight:bold;text-decoration:none}
+.curriculum-page .practice-section{margin-top:48px;border-top:2px solid #ccebf0;padding-top:22px}.curriculum-page .activity-card{min-width:0}.curriculum-page .activity-card>div{min-width:0}
+.curriculum-page .progress-row{flex-wrap:wrap}.curriculum-page .tiny-reset{min-width:44px;min-height:44px;font-size:12px}
+.curriculum-page .section-label{font-size:17px;color:#006577;margin:30px 0 12px}.curriculum-page .pill{color:#006577}
+@media(max-width:850px){.strand-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.strand-grid,.curriculum-page .topic-grid{grid-template-columns:1fr}.curriculum-page .dashboard{margin-top:24px}.strand-card{padding:22px}.curriculum-page .activity-grid{grid-template-columns:minmax(0,1fr)}.curriculum-topic{padding:20px}.curriculum-topic .activity-link{display:block;margin-left:0}.curriculum-page .hero h1{font-size:34px}}
+.curriculum-page .topic-practice{background:white;border:1px solid #ccebf0;border-radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(0,57,79,.07)}
+.curriculum-page .topic-practice .activity-card{border:0;border-radius:0;box-shadow:none;min-height:210px}
+.curriculum-page .topic-practice .progress-panel{margin:0 24px 20px}
+.curriculum-page .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.curriculum-page .topic-practice .activity-card strong,.curriculum-page .tiny-reset{color:#00576b}
+.curriculum-page .proficiency-badge{color:#00576b}
+.curriculum-topic li>a{display:inline-block;min-height:44px;padding-top:8px;padding-bottom:8px}

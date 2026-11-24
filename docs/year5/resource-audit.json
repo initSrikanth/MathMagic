@@ -1,0 +1,4214 @@
+{
+  "audited_on": "2026-11-24T18:41:44.760408+00:00",
+  "baseline_commit": "73b9b92a0dc307b1bb817154c8195968b86dcc20",
+  "method": "Actual HTML, local media SHA-256/ffprobe and caption/transcript inspection; no new full audiovisual review or decode certification.",
+  "pages": [
+    {
+      "path": "whole-numbers.html",
+      "sha256": "d4b891d2a6e82137f54c7038c622244ea844dc0875fe31a102fba29222cd2f01",
+      "lesson_ids": [
+        "lesson1",
+        "lesson1-goal",
+        "lesson2",
+        "lesson2-goal",
+        "lesson3",
+        "lesson3-goal",
+        "lesson4",
+        "lesson4-goal",
+        "lesson5",
+        "lesson5-goal"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/whole-numbers-2026/lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/whole-numbers-2026/lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/whole-numbers-2026/lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/whole-numbers-2026/lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/whole-numbers-2026/lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+          "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+        "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+        "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+        "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+        "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+        "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+        "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+        "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+        "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+        "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+        "videos/whole-numbers-2026/lesson1_poster.jpg",
+        "videos/whole-numbers-2026/lesson2_poster.jpg",
+        "videos/whole-numbers-2026/lesson3_poster.jpg",
+        "videos/whole-numbers-2026/lesson4_poster.jpg",
+        "videos/whole-numbers-2026/lesson5_poster.jpg"
+      ]
+    },
+    {
+      "path": "fractions.html",
+      "sha256": "7828bf9f8c351349f9c5269a6635d229150b966c8b170b2cfc2ac0767a4e4a96",
+      "lesson_ids": [
+        "meaning",
+        "equivalent",
+        "mixed",
+        "addsub",
+        "problems"
+      ],
+      "videos": [
+        {
+          "lesson": "meaning",
+          "poster": "videos/fractions-2026/comparing-ordering_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4"
+        },
+        {
+          "lesson": "equivalent",
+          "poster": "videos/fractions-2026/equivalent_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/equivalent-brandfree.mp4"
+        },
+        {
+          "lesson": "mixed",
+          "poster": "videos/fractions-2026/mixed-improper_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4"
+        },
+        {
+          "lesson": "addsub",
+          "poster": "videos/fractions-2026/adding-subtracting_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4"
+        },
+        {
+          "lesson": "addsub",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/MathMagic_Finding_LCM_FINAL_1080p.vtt",
+          "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4"
+        },
+        {
+          "lesson": "problems",
+          "poster": "videos/fractions-2026/word-problems_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+          "path": "videos/quality-corrections/fractions/word-problems-brandfree.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_Finding_LCM_FINAL_1080p.vtt",
+        "videos/fractions-2026/adding-subtracting_poster.jpg",
+        "videos/fractions-2026/comparing-ordering_poster.jpg",
+        "videos/fractions-2026/equivalent_poster.jpg",
+        "videos/fractions-2026/mixed-improper_poster.jpg",
+        "videos/fractions-2026/word-problems_poster.jpg",
+        "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+        "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+        "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+        "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+        "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+        "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+        "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+        "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+        "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+        "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt"
+      ]
+    },
+    {
+      "path": "decimals-percentages.html",
+      "sha256": "ef81f098af3c51af8f3511511d68934c09c552f851c78a7b0a9c9e9de72625e4",
+      "lesson_ids": [
+        "place",
+        "compare",
+        "percent",
+        "connect",
+        "apply"
+      ],
+      "videos": [
+        {
+          "lesson": "place",
+          "poster": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4"
+        },
+        {
+          "lesson": "compare",
+          "poster": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4"
+        },
+        {
+          "lesson": "percent",
+          "poster": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4"
+        },
+        {
+          "lesson": "connect",
+          "poster": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4"
+        },
+        {
+          "lesson": "apply",
+          "poster": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+          "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+        "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+        "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+        "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+        "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha_transcript.txt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha_transcript.txt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+        "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha_transcript.txt"
+      ]
+    },
+    {
+      "path": "addition-subtraction.html",
+      "sha256": "0439815a7e1228a0ef23ab888ce8c4eb64a0cedb24412e2396fb10cd264aca0d",
+      "lesson_ids": [
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+        "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+        "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+        "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+        "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha_transcript.txt"
+      ]
+    },
+    {
+      "path": "multiplication-division.html",
+      "sha256": "c62a7d2fb4c8ea1fc34a54688544e7e5e1b06afaf1cf7ff8f9c76317ce37eb63",
+      "lesson_ids": [
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+        "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+        "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+        "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+        "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt"
+      ]
+    },
+    {
+      "path": "factors-multiples.html",
+      "sha256": "db95272f534851de282c6f5cd97d5633909dd5676bcb21899d0cb22e9fb4423e",
+      "lesson_ids": [
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+          "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+        "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+        "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+        "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+        "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+        "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt"
+      ]
+    },
+    {
+      "path": "measurement.html",
+      "sha256": "5334be8f6df7ed66b1ee5c1b4e249b83e108c3613c78a1480d369ef4c341f8c7",
+      "lesson_ids": [
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+          "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+        "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+        "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+        "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+        "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+        "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt"
+      ]
+    },
+    {
+      "path": "time-angles.html",
+      "sha256": "133e57de3fec9d8dd199590e65cf8427d532539a9a3cdac167e8e0e0ebbe559c",
+      "lesson_ids": [
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": null,
+          "controls": true,
+          "playsinline": true,
+          "captions": null,
+          "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4"
+        }
+      ],
+      "sidecars": []
+    },
+    {
+      "path": "space-lessons.html",
+      "sha256": "1c6e2b52a3f0bcb4431920805b7de0cf8930c70890ed771d129056abd88fd221",
+      "lesson_ids": [
+        "lesson-1",
+        "lesson-2",
+        "lesson-3",
+        "lesson-4",
+        "lesson-5",
+        "lesson-6",
+        "lesson-7",
+        "lesson-8",
+        "lesson-9",
+        "lesson-10"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson-1",
+          "poster": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-2",
+          "poster": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-3",
+          "poster": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-4",
+          "poster": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-5",
+          "poster": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-6",
+          "poster": "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson06_Translations_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-7",
+          "poster": "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-8",
+          "poster": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-9",
+          "poster": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4"
+        },
+        {
+          "lesson": "lesson-10",
+          "poster": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+          "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4"
+        }
+      ],
+      "sidecars": [
+        "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+        "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+        "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+        "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+        "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+        "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson06_Translations_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+        "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson07_Reflections_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+        "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.vtt",
+        "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+        "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_transcript.txt",
+        "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+        "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+        "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_transcript.txt"
+      ]
+    },
+    {
+      "path": "statistics.html",
+      "sha256": "9ed131a681f203568add4d87f0d72acfd80dc2741721c59e5656db2d565c9c3f",
+      "lesson_ids": [
+        "lessonProgress",
+        "lesson1",
+        "lesson2",
+        "lesson3",
+        "lesson4",
+        "lesson5"
+      ],
+      "videos": [
+        {
+          "lesson": "lesson1",
+          "poster": "video-agent/statistics/review/lesson1/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson1/captions.vtt",
+          "path": "video-agent/statistics/review/lesson1/Statistics_Lesson01_REVIEW_1080p.mp4"
+        },
+        {
+          "lesson": "lesson2",
+          "poster": "video-agent/statistics/review/lesson2/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson2/captions.vtt",
+          "path": "video-agent/statistics/review/lesson2/Statistics_Lesson02_REVIEW_1080p.mp4"
+        },
+        {
+          "lesson": "lesson3",
+          "poster": "video-agent/statistics/review/lesson3/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson3/captions.vtt",
+          "path": "video-agent/statistics/review/lesson3/Statistics_Lesson03_REVIEW_1080p.mp4"
+        },
+        {
+          "lesson": "lesson4",
+          "poster": "video-agent/statistics/review/lesson4/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson4/captions.vtt",
+          "path": "video-agent/statistics/review/lesson4/Statistics_Lesson04_REVIEW_1080p.mp4"
+        },
+        {
+          "lesson": "lesson5",
+          "poster": "video-agent/statistics/review/lesson5/poster.jpg",
+          "controls": true,
+          "playsinline": true,
+          "captions": "video-agent/statistics/review/lesson5/captions.vtt",
+          "path": "video-agent/statistics/review/lesson5/Statistics_Lesson05_REVIEW_1080p.mp4"
+        }
+      ],
+      "sidecars": [
+        "video-agent/statistics/review/lesson1/captions.vtt",
+        "video-agent/statistics/review/lesson1/poster.jpg",
+        "video-agent/statistics/review/lesson1/transcript.txt",
+        "video-agent/statistics/review/lesson2/captions.vtt",
+        "video-agent/statistics/review/lesson2/poster.jpg",
+        "video-agent/statistics/review/lesson2/transcript.txt",
+        "video-agent/statistics/review/lesson3/captions.vtt",
+        "video-agent/statistics/review/lesson3/poster.jpg",
+        "video-agent/statistics/review/lesson3/transcript.txt",
+        "video-agent/statistics/review/lesson4/captions.vtt",
+        "video-agent/statistics/review/lesson4/poster.jpg",
+        "video-agent/statistics/review/lesson4/transcript.txt",
+        "video-agent/statistics/review/lesson5/captions.vtt",
+        "video-agent/statistics/review/lesson5/poster.jpg",
+        "video-agent/statistics/review/lesson5/transcript.txt"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+      "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+      "bytes": 5991528,
+      "duration": 196.133333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+      "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+      "bytes": 6515176,
+      "duration": 206.566667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+      "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+      "bytes": 6684648,
+      "duration": 211.733333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+      "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+      "bytes": 6133394,
+      "duration": 204.5,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+      "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+      "bytes": 6250898,
+      "duration": 208.333333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+      "sha256": "ebc42891eadb2d9c1e826def3e9349359c3a3001b5d0eace85e1fdbe37bda967",
+      "bytes": 6095
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+      "sha256": "4cc21e4529ca8f56b368895c101909507ca629b750430ae3c008cf5f7077ea3d",
+      "bytes": 2729
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+      "sha256": "6e9da96975a073edcf764532b4c890f26e7f3aeb4f714ee42067b0263031fbde",
+      "bytes": 6260
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+      "sha256": "dab933ea8afa51721c6638aaacaf86c70a3bc78708ef836554545dc81716762f",
+      "bytes": 3040
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+      "sha256": "27a66ec8c995bdf7ef58060c86dbcfafa4ed95bd1160d1b8331276feaad3c7e2",
+      "bytes": 6270
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+      "sha256": "e43a59ad5524365a2afd98db2f8166d7b78725bf1a87876dbfe4d6a3a3e8a541",
+      "bytes": 3050
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+      "sha256": "766164bfd402006a11f4f51b6f72330068684a04b4a4a52088c8a0a555365228",
+      "bytes": 6214
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+      "sha256": "de6d87e8c2bca32e07f2d2b9f146940be3482d0b410fd19908aef2aadf69d2ef",
+      "bytes": 2848
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+      "sha256": "582142eed139f0d1af026be4a3703bfb928e36a5ab0cbfd98365fa02ad48734c",
+      "bytes": 6174
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+      "sha256": "bb8cdc888078bc93e4e645393e20408c9167be2d2706ece518e494cd7d77fe85",
+      "bytes": 2881
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson1_poster.jpg",
+      "sha256": "67302b5527822d3fcfab80c145aeb36f0a9cda4982f822b7eeb4c838b0d40747",
+      "bytes": 31503
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson2_poster.jpg",
+      "sha256": "9d33a95433b79e4c6592fd90e013e8d6af021471bb29babd5de3b29abd78146f",
+      "bytes": 35195
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson3_poster.jpg",
+      "sha256": "b64f7463e806cb8e246ccc16b15277484fdc0f76ccf6dcf2a04a82d73579c1df",
+      "bytes": 33344
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson4_poster.jpg",
+      "sha256": "d66448eef5f04458f18234b9efd6922fab0881f528afdcd8682e3f016fa5e6d0",
+      "bytes": 32026
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson5_poster.jpg",
+      "sha256": "a22e4611508b9d79f52e562b7d19245be129f032854547efedd1a013ac6e299c",
+      "bytes": 32155
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+      "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+      "bytes": 6449176,
+      "duration": 221.866667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+      "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+      "bytes": 6752205,
+      "duration": 229.2,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+      "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+      "bytes": 7301766,
+      "duration": 241.4,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+      "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+      "bytes": 6624278,
+      "duration": 223.3,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4",
+      "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+      "bytes": 3111284,
+      "duration": 87.666667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+      "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+      "bytes": 6703094,
+      "duration": 227.5,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.vtt",
+      "sha256": "afeffdfdf52bced1fc9909490e48b537da2d0f2efb55e74cc838de6baeb0cb8e",
+      "bytes": 2101
+    },
+    {
+      "path": "videos/fractions-2026/adding-subtracting_poster.jpg",
+      "sha256": "6977a5812ca44513d9cd5e98d79503119326a3491c4fbee431f6baef0d0088b3",
+      "bytes": 32896
+    },
+    {
+      "path": "videos/fractions-2026/comparing-ordering_poster.jpg",
+      "sha256": "9bf4d8aaf4594424975c1589cf4158ef1a1fb65f8fb38d26927c5966b0b2c944",
+      "bytes": 33934
+    },
+    {
+      "path": "videos/fractions-2026/equivalent_poster.jpg",
+      "sha256": "4cad57b817e9b16ba411702993375ef499866b1a655d20048a3c96e2c0ef2a36",
+      "bytes": 34838
+    },
+    {
+      "path": "videos/fractions-2026/mixed-improper_poster.jpg",
+      "sha256": "89350d6567ab86c1facfd6b56a8d7d5e812406d6c4de83612138a8504ce4786f",
+      "bytes": 33360
+    },
+    {
+      "path": "videos/fractions-2026/word-problems_poster.jpg",
+      "sha256": "e413fe1270f520d053809c2ff5165e0c03ae48be498bcf36a827fbf9fe6ee13d",
+      "bytes": 32310
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+      "sha256": "7e72b5829090298cb4d9d3f6ad81b12f9bd52c95a5ff089f622d0f1e84834e8c",
+      "bytes": 7056
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+      "sha256": "998f117255dbc64c1d4ccb3c05da2583d85110981211e336569429753392cc25",
+      "bytes": 3033
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+      "sha256": "e6d3ab87266e6e330840d25709ff0973bca0e57c1869b18e04bb8a7348a6f34a",
+      "bytes": 7067
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+      "sha256": "589af7a0785d661854ef06f8174459014d22bf57348066fdba50a6c06bdb6518",
+      "bytes": 3117
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+      "sha256": "6c4051387a57482000438c51ac1624a885474cdc4bc65218c6b5a27ee90aba09",
+      "bytes": 7204
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+      "sha256": "ab55262bbd7ef85e4d9311f83a5d66602711c6d4a51427fb779e8a708108e97f",
+      "bytes": 3181
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+      "sha256": "939a2219b70e14920f962ee5049c96550720bf0372dc095389b0024714f104ae",
+      "bytes": 7771
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+      "sha256": "df30c248d3de2d5b5cfc7ddd46896f5e1ee31283f430c2721cf624080ff1d2e2",
+      "bytes": 3383
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+      "sha256": "9f3bd2e98b306530ea0638dfe5326536f81d364f99f40d0891c74954b8149344",
+      "bytes": 7456
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt",
+      "sha256": "debea2c74fad69fff5ddbdc03dc86a151e15b30b977d8faa6e37a216a0c33d30",
+      "bytes": 3141
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
+      "sha256": "abad1debaaff32777ca87fb4065cc4d0c1d3b46a6bd1596763a95d9f4f0f83bc",
+      "bytes": 1916227,
+      "duration": 116.467,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+      "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+      "bytes": 2124208,
+      "duration": 130.846,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+      "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+      "bytes": 2058926,
+      "duration": 121.367,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4",
+      "sha256": "f92d73dd4bb6a217008000b1a2754fef48ad791bfd3e556ea9062e8933156d7e",
+      "bytes": 2042583,
+      "duration": 118.233333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4",
+      "sha256": "86cd011afa8b2bb44e49ad26495b9e50fd5e42747ea5a2cf2dac9366dfaaf0c4",
+      "bytes": 2026612,
+      "duration": 120.916,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+      "sha256": "e9cbd3c44bf5b5942d93bfcbef68f7ef46884775161880fdd69cf03169fc58ba",
+      "bytes": 32443
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+      "sha256": "39891c8c20cc7cd8e9a73d2dd024dc4f437205c181b8749a829106508f065c4e",
+      "bytes": 29576
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+      "sha256": "ce88f3aae138bd6a8923191271485cacb79ed0c447f728176287963052f13c8c",
+      "bytes": 33850
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+      "sha256": "3bd37c70fd4a70102e2c3876e4bd7b01b632eff5a1627a33a49b5efced251ecc",
+      "bytes": 32282
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+      "sha256": "fd0799a93334ccaec679850494f02adf8f6b6b9e694b8b9cdaf5caf4bb6dc312",
+      "bytes": 31618
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+      "sha256": "42dab3dc322a458dc938d271938b13e3f984c91c7980b2397cdf0b596a36bb43",
+      "bytes": 3587
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha_transcript.txt",
+      "sha256": "a3bebf741527c8ddbbd0baeb19df2ca5044e3f3f6e87974c213fd42a2bfa3361",
+      "bytes": 1754
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+      "sha256": "149227ae54cb69d274e08e274bd0ea12b2ea52a387965dc54aa8c1c4880f8388",
+      "bytes": 4050
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+      "sha256": "126b687d8cc9a256fb37f785bb763a9425049ec5d080886bf93c5ae6a9141d73",
+      "bytes": 1833
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+      "sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+      "bytes": 3503
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha_transcript.txt",
+      "sha256": "55cf77227b78ad0aae142059567b2de03315dbc76e80e6ceb09fc2c181e53cf1",
+      "bytes": 1670
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+      "sha256": "64d91a1c0bea98646ff95790421ebbebbeb2d12a58ac6535870280a5c46ded82",
+      "bytes": 3646
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+      "sha256": "d515a3d03e513a309307e850f4cc3b213dd67c5aa2ee9e7a30b0491c79614a61",
+      "bytes": 1725
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+      "sha256": "77c8513304c48d53f0987273aa73073c0d0cc87149ba86d5726b94780d6de78d",
+      "bytes": 3638
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha_transcript.txt",
+      "sha256": "e09a6d9fdfb30c7a1352a97a199bc00790f9d89e585d8fd123569fd2a7b4dfff",
+      "bytes": 1643
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4",
+      "sha256": "a15f053ff14c2a14456029b8084b4b41d004477404d333da49a9bbb7a0587627",
+      "bytes": 2340056,
+      "duration": 138.433333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4",
+      "sha256": "24e62377d2aa24f329121e613cda969d4875ed75c1bf17f876e004a7dbb2a1d3",
+      "bytes": 2626106,
+      "duration": 152.467,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4",
+      "sha256": "d4b72d473a448d31840272a42b973cbbff158ee9ef7dadb590585e873e05c459",
+      "bytes": 2464110,
+      "duration": 143.633333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4",
+      "sha256": "b60c509de324cf9dfb611cdfe5ef8cf761d4b615a541f62f768806bf2dc5cbcf",
+      "bytes": 2355703,
+      "duration": 140.4,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+      "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+      "bytes": 2399982,
+      "duration": 140.233333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+      "sha256": "8a83ddec123cfaebd4b008d9255c918f2f87d9779b44abf699bd95c3b3673256",
+      "bytes": 29768
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+      "sha256": "6a4653a793ab73aa73657bfa94fbd146367adf5b479d62bf26136f34f542691f",
+      "bytes": 30231
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+      "sha256": "f4faad27ec152181e5c2864f57b6b452a1c2d3f034e779242ae9c1465929a8d3",
+      "bytes": 29237
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+      "sha256": "e301fa53465f56124a6d774638e776a89fe77a41b627c7ccff708a209f0ea5b3",
+      "bytes": 29686
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+      "sha256": "8a7feceb35c1a4237dff3f7c592bc0873069721a33919a46301bc0ac4adfacb0",
+      "bytes": 29534
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+      "sha256": "ffe754ea75b0068f135e7693fa075c9951454ca46a662c8fd3eddd3389a684ef",
+      "bytes": 4412
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha_transcript.txt",
+      "sha256": "30d074291e7dae88ee1643b115b5e93ece480e3b425182e77830d59de5cf4d48",
+      "bytes": 1995
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+      "sha256": "4ac5f6ef7c387b11381cf487d73de65ee15be24ef216bf9d83db2800459f84a5",
+      "bytes": 4776
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
+      "sha256": "df202b2e7d57d50735f967b43490db0e0c06afec1181389b3f8cca5e37e0c8b6",
+      "bytes": 2213
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+      "sha256": "6438dd3067dc3212e39373199575980cdfc5a9995b0c6f052126937cb798e30a",
+      "bytes": 4372
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha_transcript.txt",
+      "sha256": "d9ee7b5394952a408e47cd48844f04ae1b94073d1ff2eb014df6ad3acd4744fe",
+      "bytes": 2101
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+      "sha256": "62a26ac3ce96f22819acc80b8b75a14deb30c28bcb7173f128a36c5cfa3eac02",
+      "bytes": 4324
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
+      "sha256": "370f62a0155967e70788133009e518e1e9366276a9610aa1eac86183f4946f45",
+      "bytes": 2053
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+      "sha256": "5e1a4a630ba42e693db5da8c996024e3f964e92358592b6d7cb0bd65a90b1bc1",
+      "bytes": 4479
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha_transcript.txt",
+      "sha256": "f23499af2bb0a2fba14ca1dbccd2b71758d79f56d266d9309e1da7d96eb93fa8",
+      "bytes": 2062
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4",
+      "sha256": "e52c755593da91587a6fdb23672ffd19781bd3190bc5d759aaa5a18aa2d9dfec",
+      "bytes": 2330791,
+      "duration": 137.367,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+      "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+      "bytes": 2420058,
+      "duration": 139.267,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+      "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+      "bytes": 2394283,
+      "duration": 142.867,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+      "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+      "bytes": 2570486,
+      "duration": 144.967,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+      "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+      "bytes": 2588029,
+      "duration": 146.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+      "sha256": "5fe737f2887b76c7886eb7d803c3351a5a7cd4aaa4573fea48646de89b827eaf",
+      "bytes": 20074
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+      "sha256": "d9a1728406312edf45582cf99a10ff8a278ac791995db043205ef843714f14d1",
+      "bytes": 21046
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+      "sha256": "09a4fe3c5005971e5d17609b4c49592b7cee10b56a9f69a1aac4b292319a7b18",
+      "bytes": 21263
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+      "sha256": "6da925e6f8640204ef7d7e3acebf63d9b2a8ae766e95ab1efe159b01df0ef85a",
+      "bytes": 20127
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+      "sha256": "73678ccd337aee6b8558e8c9cbc0473a089ee87de98b646808e8a39079924a4c",
+      "bytes": 21460
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+      "sha256": "1f13388cf052ab4d05644b56fcbfb24e79a6443415f1794c273d26c945e24f2f",
+      "bytes": 4218
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha_transcript.txt",
+      "sha256": "7ade8d83aa4655d14389a46476a46b48baf53665b3c9da29a7eb643345cb5c44",
+      "bytes": 2020
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+      "sha256": "bc453bdc4fdab36f3394f720d8a4d0d6c82498de07459efc4fa58ff5c2918623",
+      "bytes": 4361
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha_transcript.txt",
+      "sha256": "bfcf92e4ef7aa054e1b80923934c3d46ad89f6a183a84bb5d72b16021b7d1ea6",
+      "bytes": 2017
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+      "sha256": "1d210904c0eed832f898309b21476817558057bf312b70cfa640c74876b1c401",
+      "bytes": 4469
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha_transcript.txt",
+      "sha256": "322e727c957c31b8bf3c8aeda92a734985445bef4bb63d997dcb1719161a5643",
+      "bytes": 2052
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+      "sha256": "f15129189fe78125a298d2a60598adc8bd31b62f05a96703ab0c8127e17c997c",
+      "bytes": 4596
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
+      "sha256": "ca579619a3a371c2c107e6bff9fa8e37d576e7cc7a3f87287e3c120209b04695",
+      "bytes": 2106
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+      "sha256": "9dc1a11a5284e58727f4b158e159a94a187e8e5738d13d0f8d204e7329f78f15",
+      "bytes": 4353
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt",
+      "sha256": "241e437219710ab2dcb25440e6e7fab09305a265faf671f29d18eb5108dba4c9",
+      "bytes": 2155
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+      "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+      "bytes": 2458952,
+      "duration": 141.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+      "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+      "bytes": 2425762,
+      "duration": 143.267,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+      "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+      "bytes": 2459097,
+      "duration": 146.467,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+      "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+      "bytes": 2723431,
+      "duration": 150.167,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+      "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+      "bytes": 2553494,
+      "duration": 145.9,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+      "sha256": "fbaa6541121edf697fe4a21566c4a3b650d10d65c96076024e490ea9d73d9384",
+      "bytes": 22347
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+      "sha256": "b190c041934561b54e0c77865cd1c034d7083afeb48738fa07c34bc521a8535e",
+      "bytes": 20148
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+      "sha256": "ec20279b58fd8716981c2d824601acd67f7f2c8a324e563974170de89840136d",
+      "bytes": 20128
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+      "sha256": "bd80772e1a896c8a1e9e4f097185a81778c1b0b49b841d366ec5058f95a456e8",
+      "bytes": 20014
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+      "sha256": "024df4cef252a459aeab69d5931e3d8ab79d6f406e5cc5760619d83bdfd4585b",
+      "bytes": 20069
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+      "sha256": "5fe652da892ae4c39023f84440f804c762450d41aa044351f710b78b80e4ab2c",
+      "bytes": 4364
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+      "sha256": "b12d1bc71451fefb751d668f21941c01be41b58bc9bdfbedda383b0748c2d67e",
+      "bytes": 1947
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+      "sha256": "967b28faa1378a992a7e31741db48d87613229295e10143b1d72354183bc7992",
+      "bytes": 4424
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
+      "sha256": "be7c2e0f8766c7b3db794b77a46c051db8ebeaf6d2a19c8873786bda6b423d5b",
+      "bytes": 2007
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+      "sha256": "e8946c7b151edd3110daaf309ddda4604bb8c80e2a8dc8a43b60efabbbba1948",
+      "bytes": 4563
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+      "sha256": "13a42f42a5ec34e0be3dc7d69b49ca314f51c92bc5141cba3087ec949118cfc1",
+      "bytes": 2000
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+      "sha256": "7b2cb0ef2519ac9a8d26e875ae57e5f4ec2e77543ddf54b6951e03ca5ae131ec",
+      "bytes": 4724
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+      "sha256": "eb391d019975f88646406e49c8519966a7d5dfd3692b4319b80e6d7016b3157b",
+      "bytes": 2088
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+      "sha256": "f22d8d8ac47057a37ece46876ff96229e576dc22d7e008fa1294a68e3c4582da",
+      "bytes": 4453
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
+      "sha256": "47a49fbb95ba4d78922907fac5af8d8f8fdaf1dcb986cbb2c0a064c20a9b8dde",
+      "bytes": 2036
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+      "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+      "bytes": 3056211,
+      "duration": 139.566667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+      "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+      "bytes": 3246064,
+      "duration": 152.366667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+      "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+      "bytes": 2636513,
+      "duration": 136.566667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+      "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+      "bytes": 2936336,
+      "duration": 139.366667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+      "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+      "bytes": 3102341,
+      "duration": 146.966667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+      "sha256": "0b04656b0b0331898c7a53d48da905c1ffdf4edd8efc760af91b6b702657e183",
+      "bytes": 38466
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+      "sha256": "2af871f89bc5b6268dd1d5c4a23e27732e685c48f9d14816bea4c678d303ae72",
+      "bytes": 39232
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+      "sha256": "dc43f2d5bc0dc4d9f698a0a0f8751a746541a158fbf167bef9546a1537c7dad7",
+      "bytes": 19609
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+      "sha256": "8fbbff0f00f31c4e46c2efdb4829a30bcbeadeb6ec0b98834325808c07d1e535",
+      "bytes": 25762
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+      "sha256": "af22ba289803e12fe4e168de5457ed51a4a8e6c39102a537704bd0819cbcad56",
+      "bytes": 26818
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+      "sha256": "077d664d206f81a52a21131aad77bd7217e89602fa8a9f61ac44f7bb38378461",
+      "bytes": 4927
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+      "sha256": "586dd09ef0147b6670ae3f449bced087176c79e44a967743011176f5bfa0f909",
+      "bytes": 2291
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+      "sha256": "f26b8677708cf9d514e665c41f54d50e6fd6f806f223e2b57ffabf0d383a6532",
+      "bytes": 5470
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+      "sha256": "2f225fa27d5ffc28db8e7ce29af98ebd08d1da9682d1720811d027cbed315e74",
+      "bytes": 2469
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+      "sha256": "6dda697c5f86557a8bd6ba56c8654ece590e147c531c2949b40fc7884ecfc55a",
+      "bytes": 5125
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+      "sha256": "96a2be27c22d8f0ae6a921b509b3853a4478b7139fb2ba69ba1956822fbce13d",
+      "bytes": 2197
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+      "sha256": "822f24a6fb60671565531de7b1a0fe5a7da3586c5d983c08a0e4da6b69d228ca",
+      "bytes": 5154
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+      "sha256": "b655aba60abe14c956e17b067af47c0688b50f0f937117533c942f06b7c58b6c",
+      "bytes": 2226
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+      "sha256": "665a4944a4a3d3c910d89aa45e682bbe1e1cdbb73e25cd70a91b27efe7227e27",
+      "bytes": 5222
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt",
+      "sha256": "84572129354584d41aed894c98f5b43150dfcb807c330c403f97af7fe7ff51d2",
+      "bytes": 2367
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4",
+      "sha256": "16109a829c5aedcb53e4235244c46ccab59a35476d74751b2ddcc32c8bd2ba30",
+      "bytes": 12596973,
+      "duration": 505.2,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.mp4",
+      "sha256": "5734a8282c757771e0cb13123af2a94934a994cfc007bf632f3adae7a28ed1c3",
+      "bytes": 8166609,
+      "duration": 347.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.mp4",
+      "sha256": "c79d0649b06919c191079659da2f5811964100d0fd58a0310978619254a13152",
+      "bytes": 8208587,
+      "duration": 339.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4",
+      "sha256": "e3c9d86c48040c99c8d63b04ef256794dd8e03f06871ec974fda58b0c3fef5c9",
+      "bytes": 8030687,
+      "duration": 334.4,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4",
+      "sha256": "f1287a8a81e8489b9b08b279b7defc36929bb7c02e7c538f85e2406c62eb17ba",
+      "bytes": 8305763,
+      "duration": 348.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+      "sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+      "bytes": 10935021,
+      "duration": 528.6,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4",
+      "sha256": "e178d158cb8a8df25606f358732b9d8b10f7495e888207d36c28eb53ef048ab1",
+      "bytes": 6821143,
+      "duration": 367.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4",
+      "sha256": "5b24243e27023c483712714ce931f642a6d2ce12ed7cd3ecc2625a6cc7ef974e",
+      "bytes": 7542128,
+      "duration": 402.742,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4",
+      "sha256": "bc11c36751627984581a80cf597a4da61b3e8ef2744cbbc66c5ec92a085f729d",
+      "bytes": 7115511,
+      "duration": 367.733333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4",
+      "sha256": "fa7803fd5b1feb0b183f5e5df7c36587f57acbe7466f88efaab6412f79d6ec9d",
+      "bytes": 7654026,
+      "duration": 382.779,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p.mp4",
+      "sha256": "53ff64844782c40026cc7282a6aedb3a0bc4b5935e78afa64cff0b77b2845af6",
+      "bytes": 9280734,
+      "duration": 416.736,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4",
+      "sha256": "bc2552c8e823b9251802d6136d15e31061a4ceeb0a5f46b291f15d3d8d71068e",
+      "bytes": 7615032,
+      "duration": 396.512,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4",
+      "sha256": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+      "bytes": 12397725,
+      "duration": 410.733333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4",
+      "sha256": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
+      "bytes": 8977948,
+      "duration": 411.572,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+      "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+      "bytes": 8885316,
+      "duration": 432.3,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+      "sha256": "872fceb609e417ea22cc3cdf42462feb2a0da751ebd8e31e9c95e428d0b3e9ee",
+      "bytes": 12216
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+      "sha256": "051736416e90ecbcec9331d38d054e81ab42bbfa221f2e624aa6b70f50951a22",
+      "bytes": 18970
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_transcript.txt",
+      "sha256": "19a03b112e9ebaa540704bbf744f72fb220ea2836791b30c1625eee65429e82c",
+      "bytes": 5866
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+      "sha256": "604d93008fb20794d240df1e38ee503e554313a5bd2ef7cdbf888964c272ba5c",
+      "bytes": 12715
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+      "sha256": "1f69b96d8d57ae1a54dad20fb80c0d44c68a54165d01e0432d7642d531ca40ac",
+      "bytes": 21360
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_transcript.txt",
+      "sha256": "3a3c384cdaaaadfd9f383ec3ff0045fd1ccea5e9e85e8abab57258d0023fe751",
+      "bytes": 6366
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+      "sha256": "9e1b08ff4518fe2c74592686f2ab3d35702b0f255bb433403c72087d82c408af",
+      "bytes": 11927
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+      "sha256": "82302cddd07d75e04699cf30a9a41f188c4129fdb2e3b820aae4577af1bfc970",
+      "bytes": 22842
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_transcript.txt",
+      "sha256": "ca99d10f5e7c7205a2344781cd1ba389f956a56b95138731cecdce530be5103b",
+      "bytes": 5873
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+      "sha256": "0ad029053badb81443cbdfadd19734b4f19560c264fc1cef427e716a59ef4665",
+      "bytes": 12242
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+      "sha256": "1221f6a7023d99e77dfe3c9568010bf009a597db08a16a27e665d8662b6bd15a",
+      "bytes": 25425
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_transcript.txt",
+      "sha256": "91076b1629fb3922fbb8f5ad89e94618663424bacc2eb8b8ed9a836be96d7caf",
+      "bytes": 6114
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+      "sha256": "0890b2e79fa9750844c8a6ac6b9f3909629d2e65f008e2ed5622ee50dc8dd05b",
+      "bytes": 13351
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+      "sha256": "70fd9f0ec0d4cab7e76856772e4ad15f8ce7200fe6b8c7b85189416a5a28379b",
+      "bytes": 22509
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p_transcript.txt",
+      "sha256": "b8b2bf1ae5d7d1b43dcf0451f62f2af54c753c0e77876f55355ada34f9f63d17",
+      "bytes": 6632
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+      "sha256": "d9efc6aa01a4b6cba71450c25ebc4bc6a893df2f7219e24449e2402dc375e979",
+      "bytes": 12559
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+      "sha256": "db9cada55632d1bb2e1e61829fe5e503224e499307ea449f7a1ef6c4799c7832",
+      "bytes": 22654
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p_transcript.txt",
+      "sha256": "c50058741fc4a9d4d586b1ed62bed3f8401853eb08932105f076e3b7033adeea",
+      "bytes": 6432
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+      "sha256": "cd0d63191352e4340165606a5d42ef2bd61817ee8d09769a8ee55970fb53b7d3",
+      "bytes": 12831
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+      "sha256": "cc7fd5a9a23eec48cd785857a071cd5d53fc58e27d28fdb74e15ef03ceaa74a9",
+      "bytes": 25014
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_transcript.txt",
+      "sha256": "392aba910029c3e101357de5320de055f91df8f9e0ecdd81072cdd6639907ff0",
+      "bytes": 6630
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.vtt",
+      "sha256": "4d0ad08b3908c8d49c28b39b4c8b3ac51c7dfde2b3e10724d15404977586bdae",
+      "bytes": 12491
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_poster.jpg",
+      "sha256": "95cab7ad09ae702bfe890dae59f718ccecce4b69786d31504380f582f3d60509",
+      "bytes": 35391
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_transcript.txt",
+      "sha256": "b9912cbd97fef20ddfd141281e7a581a95a1747a1391bb19408358c2288ea08e",
+      "bytes": 6512
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+      "sha256": "09f565df38149bcb1963bb15a8ac30a6d13e5251543c2fc752a9839b62f5c488",
+      "bytes": 13553
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+      "sha256": "139022a24ecc1fc7e3058866ddc78d8823299ab2659e252e2b3354d43a207901",
+      "bytes": 27261
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_transcript.txt",
+      "sha256": "90e4f1d6a59abf04ebaf914946323603f7e1d73d90b7559d40fa9e919b0234ba",
+      "bytes": 6834
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+      "sha256": "b7f2ae5fe7a312316e51db59c35e548971f3d91dd833c3ec98e2068e8e6a4319",
+      "bytes": 17129
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+      "sha256": "373410cbee73b03ee8cd14f0dbf967049d4eef78b2cce9a231ec6130d2af7542",
+      "bytes": 23895
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_transcript.txt",
+      "sha256": "5f9c2681c5484bd1b66c42d95db86b83db687bdcd96f5d3b97789f2adebc4de5",
+      "bytes": 8125
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/Statistics_Lesson01_REVIEW_1080p.mp4",
+      "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "bytes": 9025524,
+      "duration": 325.966667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/Statistics_Lesson02_REVIEW_1080p.mp4",
+      "sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "bytes": 7961950,
+      "duration": 334.866667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/Statistics_Lesson03_REVIEW_1080p.mp4",
+      "sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "bytes": 7739978,
+      "duration": 331.166667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/Statistics_Lesson04_REVIEW_1080p.mp4",
+      "sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "bytes": 8897919,
+      "duration": 347.033333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/Statistics_Lesson05_REVIEW_1080p.mp4",
+      "sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "bytes": 8811935,
+      "duration": 348.174,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac"
+        }
+      ]
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/captions.vtt",
+      "sha256": "cddb18459ad5bbf47609ff2f8bc1bb6f1bf8117270ab3e8cb8af63530369e884",
+      "bytes": 11215
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/poster.jpg",
+      "sha256": "54a1cf9fde728f6934bcb4ae395c78a977223bc7e358a5f30711bc8b86fc115b",
+      "bytes": 58078
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/transcript.txt",
+      "sha256": "a2364055c0e3f7bc51374ba4552cbc565689a00f012a908b2cf22849bd0b0a0c",
+      "bytes": 5148
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/captions.vtt",
+      "sha256": "f2f51c59eac2be4dfdb3d2792bc46856e6257ed8e6b097b8b49a442c88c24afd",
+      "bytes": 10931
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/poster.jpg",
+      "sha256": "26ecaad4dc824467e1bbb8a44c23ea5fc27f8252fdc4640001159559abb8ee9d",
+      "bytes": 34674
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/transcript.txt",
+      "sha256": "5deea20836e68c5fe9d9dabaad7a317b2188b6d0e2cc128e0b3e4cefcf95bd13",
+      "bytes": 5302
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/captions.vtt",
+      "sha256": "2dd8ca48cd066bdc6dc99844d2421bab234fcee3253c6fb97287fab1da09bfe2",
+      "bytes": 11110
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/poster.jpg",
+      "sha256": "fce922432b1d51cb384c87c3d13ea047e25468b48667eb94729651d2f91db6b0",
+      "bytes": 35115
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/transcript.txt",
+      "sha256": "b4bc59eb995ae4fcdf42cb2d164bc7d7c036ed5240835ad0f77b5571e4b276dc",
+      "bytes": 5189
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/captions.vtt",
+      "sha256": "9146c886077668ae666154a30586f4986775c2b04783b7f1a35bd2b711022364",
+      "bytes": 11415
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/poster.jpg",
+      "sha256": "dc64634b1191aa515a084c80a331f3f6993513ab6edb9931578f5b6c284230ae",
+      "bytes": 38769
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/transcript.txt",
+      "sha256": "8b9e737263e5236fc062e5221ce9b08ced3b2bb00942c7612e25b52993de7262",
+      "bytes": 5348
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/captions.vtt",
+      "sha256": "9431018a4f31d9a924fbe469186afecca34b20af58b60f6128e1008563f19fc3",
+      "bytes": 11401
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/poster.jpg",
+      "sha256": "afcd8140b37111e3025808ddda25b85966547dbbdf7e25cfad32901140711258",
+      "bytes": 49468
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/transcript.txt",
+      "sha256": "0b23e1a4cd86b02e8960b379f00ed3f4b3c54ff805e4480abd8c398b5eeb38c3",
+      "bytes": 5626
+    }
+  ],
+  "live": [
+    {
+      "path": "whole-numbers.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 38525,
+      "sha256": "d4b891d2a6e82137f54c7038c622244ea844dc0875fe31a102fba29222cd2f01",
+      "matches_local": true
+    },
+    {
+      "path": "fractions.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 46890,
+      "sha256": "7828bf9f8c351349f9c5269a6635d229150b966c8b170b2cfc2ac0767a4e4a96",
+      "matches_local": true
+    },
+    {
+      "path": "decimals-percentages.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 26517,
+      "sha256": "ef81f098af3c51af8f3511511d68934c09c552f851c78a7b0a9c9e9de72625e4",
+      "matches_local": true
+    },
+    {
+      "path": "addition-subtraction.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28142,
+      "sha256": "0439815a7e1228a0ef23ab888ce8c4eb64a0cedb24412e2396fb10cd264aca0d",
+      "matches_local": true
+    },
+    {
+      "path": "multiplication-division.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 25605,
+      "sha256": "c62a7d2fb4c8ea1fc34a54688544e7e5e1b06afaf1cf7ff8f9c76317ce37eb63",
+      "matches_local": true
+    },
+    {
+      "path": "factors-multiples.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 27381,
+      "sha256": "db95272f534851de282c6f5cd97d5633909dd5676bcb21899d0cb22e9fb4423e",
+      "matches_local": true
+    },
+    {
+      "path": "measurement.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 46301,
+      "sha256": "5334be8f6df7ed66b1ee5c1b4e249b83e108c3613c78a1480d369ef4c341f8c7",
+      "matches_local": true
+    },
+    {
+      "path": "time-angles.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17809,
+      "sha256": "133e57de3fec9d8dd199590e65cf8427d532539a9a3cdac167e8e0e0ebbe559c",
+      "matches_local": true
+    },
+    {
+      "path": "space-lessons.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 116821,
+      "sha256": "1c6e2b52a3f0bcb4431920805b7de0cf8930c70890ed771d129056abd88fd221",
+      "matches_local": true
+    },
+    {
+      "path": "statistics.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 58695,
+      "sha256": "9ed131a681f203568add4d87f0d72acfd80dc2741721c59e5656db2d565c9c3f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 5991528,
+      "sha256": "890bc9fbff3c89d26c32aeb01f510d165db1056f80f89b0398cadf5e4c5458a0",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6515176,
+      "sha256": "65a2522ee5dbf04cb16cf9cc1d540e46d1de2f2996f3cebe4d36cb34674ccbeb",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6684648,
+      "sha256": "5074ff8305bbfe3877986ec2925c8d7d7ec2a527887aea9d694c5a356cabba39",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6133394,
+      "sha256": "bad5af6fae6a76723b1e89b6a167fdb1516930eee95dcf925e0cde242755de03",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6250898,
+      "sha256": "5bb7da42b5846c0263e00ac69e1824166fa5fa4f29b091abb66a1ee0b4140965",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 6095,
+      "sha256": "ebc42891eadb2d9c1e826def3e9349359c3a3001b5d0eace85e1fdbe37bda967",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson1-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2729,
+      "sha256": "4cc21e4529ca8f56b368895c101909507ca629b750430ae3c008cf5f7077ea3d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 6260,
+      "sha256": "6e9da96975a073edcf764532b4c890f26e7f3aeb4f714ee42067b0263031fbde",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson2-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3040,
+      "sha256": "dab933ea8afa51721c6638aaacaf86c70a3bc78708ef836554545dc81716762f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 6270,
+      "sha256": "27a66ec8c995bdf7ef58060c86dbcfafa4ed95bd1160d1b8331276feaad3c7e2",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson3-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3050,
+      "sha256": "e43a59ad5524365a2afd98db2f8166d7b78725bf1a87876dbfe4d6a3a3e8a541",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 6214,
+      "sha256": "766164bfd402006a11f4f51b6f72330068684a04b4a4a52088c8a0a555365228",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson4-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2848,
+      "sha256": "de6d87e8c2bca32e07f2d2b9f146940be3482d0b410fd19908aef2aadf69d2ef",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 6174,
+      "sha256": "582142eed139f0d1af026be4a3703bfb928e36a5ab0cbfd98365fa02ad48734c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/whole-numbers/lesson5-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2881,
+      "sha256": "bb8cdc888078bc93e4e645393e20408c9167be2d2706ece518e494cd7d77fe85",
+      "matches_local": true
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson1_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 31503,
+      "sha256": "67302b5527822d3fcfab80c145aeb36f0a9cda4982f822b7eeb4c838b0d40747",
+      "matches_local": true
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson2_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 35195,
+      "sha256": "9d33a95433b79e4c6592fd90e013e8d6af021471bb29babd5de3b29abd78146f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson3_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 33344,
+      "sha256": "b64f7463e806cb8e246ccc16b15277484fdc0f76ccf6dcf2a04a82d73579c1df",
+      "matches_local": true
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson4_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32026,
+      "sha256": "d66448eef5f04458f18234b9efd6922fab0881f528afdcd8682e3f016fa5e6d0",
+      "matches_local": true
+    },
+    {
+      "path": "videos/whole-numbers-2026/lesson5_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32155,
+      "sha256": "a22e4611508b9d79f52e562b7d19245be129f032854547efedd1a013ac6e299c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6449176,
+      "sha256": "7c5f16ce20bd63c2a9f84abf3e2373d4072f500fc6ba72aae30a4bbfdcdd6646",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6752205,
+      "sha256": "1f45c6e4705efdd1ccf4351e57009ccc129b4591668afec6f7297d4546258e9c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7301766,
+      "sha256": "eb0222d9a9277581f1f7855b326875d9abb9fc80a41326f25074847b692c16ef",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6624278,
+      "sha256": "e533bc6d113827d2053fb68d75f120cd2c43849e827262bb0a16d68712c00b19",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 3111284,
+      "sha256": "374bae53a7d727587b7940e2e302dcf30c528e17a964db914d2c8eb7107a3c00",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6703094,
+      "sha256": "3d70ad10e577c1c0c842a814932f35f34272adc9298e1543c19bbd416e269573",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Finding_LCM_FINAL_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 2101,
+      "sha256": "afeffdfdf52bced1fc9909490e48b537da2d0f2efb55e74cc838de6baeb0cb8e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/fractions-2026/adding-subtracting_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32896,
+      "sha256": "6977a5812ca44513d9cd5e98d79503119326a3491c4fbee431f6baef0d0088b3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/fractions-2026/comparing-ordering_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 33934,
+      "sha256": "9bf4d8aaf4594424975c1589cf4158ef1a1fb65f8fb38d26927c5966b0b2c944",
+      "matches_local": true
+    },
+    {
+      "path": "videos/fractions-2026/equivalent_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 34838,
+      "sha256": "4cad57b817e9b16ba411702993375ef499866b1a655d20048a3c96e2c0ef2a36",
+      "matches_local": true
+    },
+    {
+      "path": "videos/fractions-2026/mixed-improper_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 33360,
+      "sha256": "89350d6567ab86c1facfd6b56a8d7d5e812406d6c4de83612138a8504ce4786f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/fractions-2026/word-problems_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32310,
+      "sha256": "e413fe1270f520d053809c2ff5165e0c03ae48be498bcf36a827fbf9fe6ee13d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 7056,
+      "sha256": "7e72b5829090298cb4d9d3f6ad81b12f9bd52c95a5ff089f622d0f1e84834e8c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/adding-subtracting-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3033,
+      "sha256": "998f117255dbc64c1d4ccb3c05da2583d85110981211e336569429753392cc25",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 7067,
+      "sha256": "e6d3ab87266e6e330840d25709ff0973bca0e57c1869b18e04bb8a7348a6f34a",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/comparing-ordering-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3117,
+      "sha256": "589af7a0785d661854ef06f8174459014d22bf57348066fdba50a6c06bdb6518",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 7204,
+      "sha256": "6c4051387a57482000438c51ac1624a885474cdc4bc65218c6b5a27ee90aba09",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/equivalent-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3181,
+      "sha256": "ab55262bbd7ef85e4d9311f83a5d66602711c6d4a51427fb779e8a708108e97f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 7771,
+      "sha256": "939a2219b70e14920f962ee5049c96550720bf0372dc095389b0024714f104ae",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/mixed-improper-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3383,
+      "sha256": "df30c248d3de2d5b5cfc7ddd46896f5e1ee31283f430c2721cf624080ff1d2e2",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 7456,
+      "sha256": "9f3bd2e98b306530ea0638dfe5326536f81d364f99f40d0891c74954b8149344",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/fractions/word-problems-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3141,
+      "sha256": "debea2c74fad69fff5ddbdc03dc86a151e15b30b977d8faa6e37a216a0c33d30",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1916227,
+      "sha256": "abad1debaaff32777ca87fb4065cc4d0c1d3b46a6bd1596763a95d9f4f0f83bc",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2124208,
+      "sha256": "8b344cad87c943c6efcca5e934dce79dc89cc5b00f8a29b0215e4151d6e85907",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2058926,
+      "sha256": "d4fbdaed7d681a90c8741a6afb5bfc2ee14c6aeed9982b92c548af9763797b8e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2042583,
+      "sha256": "f92d73dd4bb6a217008000b1a2754fef48ad791bfd3e556ea9062e8933156d7e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2026612,
+      "sha256": "86cd011afa8b2bb44e49ad26495b9e50fd5e42747ea5a2cf2dac9366dfaaf0c4",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_apply_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32443,
+      "sha256": "e9cbd3c44bf5b5942d93bfcbef68f7ef46884775161880fdd69cf03169fc58ba",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_compare_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 29576,
+      "sha256": "39891c8c20cc7cd8e9a73d2dd024dc4f437205c181b8749a829106508f065c4e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_connect_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 33850,
+      "sha256": "ce88f3aae138bd6a8923191271485cacb79ed0c447f728176287963052f13c8c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_percent_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 32282,
+      "sha256": "3bd37c70fd4a70102e2c3876e4bd7b01b632eff5a1627a33a49b5efced251ecc",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_decimals_percentages_place_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 31618,
+      "sha256": "fd0799a93334ccaec679850494f02adf8f6b6b9e694b8b9cdaf5caf4bb6dc312",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 3587,
+      "sha256": "42dab3dc322a458dc938d271938b13e3f984c91c7980b2397cdf0b596a36bb43",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_apply-model-corrected-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1754,
+      "sha256": "a3bebf741527c8ddbbd0baeb19df2ca5044e3f3f6e87974c213fd42a2bfa3361",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4050,
+      "sha256": "149227ae54cb69d274e08e274bd0ea12b2ea52a387965dc54aa8c1c4880f8388",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_compare-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1833,
+      "sha256": "126b687d8cc9a256fb37f785bb763a9425049ec5d080886bf93c5ae6a9141d73",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 3503,
+      "sha256": "1b64e5784862e3ec3e9a8031541a4a10f008b35f65047bb666794f7b9bed9b1e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_connect-model-corrected-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1670,
+      "sha256": "55cf77227b78ad0aae142059567b2de03315dbc76e80e6ceb09fc2c181e53cf1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 3646,
+      "sha256": "64d91a1c0bea98646ff95790421ebbebbeb2d12a58ac6535870280a5c46ded82",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_percent-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1725,
+      "sha256": "d515a3d03e513a309307e850f4cc3b213dd67c5aa2ee9e7a30b0491c79614a61",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 3638,
+      "sha256": "77c8513304c48d53f0987273aa73073c0d0cc87149ba86d5726b94780d6de78d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/decimals-percentages/MathMagic_V2_decimals_percentages_place-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1643,
+      "sha256": "e09a6d9fdfb30c7a1352a97a199bc00790f9d89e585d8fd123569fd2a7b4dfff",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2340056,
+      "sha256": "a15f053ff14c2a14456029b8084b4b41d004477404d333da49a9bbb7a0587627",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2626106,
+      "sha256": "24e62377d2aa24f329121e613cda969d4875ed75c1bf17f876e004a7dbb2a1d3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2464110,
+      "sha256": "d4b72d473a448d31840272a42b973cbbff158ee9ef7dadb590585e873e05c459",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2355703,
+      "sha256": "b60c509de324cf9dfb611cdfe5ef8cf761d4b615a541f62f768806bf2dc5cbcf",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2399982,
+      "sha256": "417ad67f8f9634106c680da409b7d202a470d24e6f4080dcad4245f497f45b4b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson1_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 29768,
+      "sha256": "8a83ddec123cfaebd4b008d9255c918f2f87d9779b44abf699bd95c3b3673256",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson2_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 30231,
+      "sha256": "6a4653a793ab73aa73657bfa94fbd146367adf5b479d62bf26136f34f542691f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson3_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 29237,
+      "sha256": "f4faad27ec152181e5c2864f57b6b452a1c2d3f034e779242ae9c1465929a8d3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson4_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 29686,
+      "sha256": "e301fa53465f56124a6d774638e776a89fe77a41b627c7ccff708a209f0ea5b3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_addition_subtraction_lesson5_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 29534,
+      "sha256": "8a7feceb35c1a4237dff3f7c592bc0873069721a33919a46301bc0ac4adfacb0",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4412,
+      "sha256": "ffe754ea75b0068f135e7693fa075c9951454ca46a662c8fd3eddd3389a684ef",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson1-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1995,
+      "sha256": "30d074291e7dae88ee1643b115b5e93ece480e3b425182e77830d59de5cf4d48",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4776,
+      "sha256": "4ac5f6ef7c387b11381cf487d73de65ee15be24ef216bf9d83db2800459f84a5",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson2-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2213,
+      "sha256": "df202b2e7d57d50735f967b43490db0e0c06afec1181389b3f8cca5e37e0c8b6",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4372,
+      "sha256": "6438dd3067dc3212e39373199575980cdfc5a9995b0c6f052126937cb798e30a",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson3-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2101,
+      "sha256": "d9ee7b5394952a408e47cd48844f04ae1b94073d1ff2eb014df6ad3acd4744fe",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4324,
+      "sha256": "62a26ac3ce96f22819acc80b8b75a14deb30c28bcb7173f128a36c5cfa3eac02",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson4-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2053,
+      "sha256": "370f62a0155967e70788133009e518e1e9366276a9610aa1eac86183f4946f45",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4479,
+      "sha256": "5e1a4a630ba42e693db5da8c996024e3f964e92358592b6d7cb0bd65a90b1bc1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/addition-subtraction/MathMagic_V2_addition_subtraction_lesson5-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2062,
+      "sha256": "f23499af2bb0a2fba14ca1dbccd2b71758d79f56d266d9309e1da7d96eb93fa8",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2330791,
+      "sha256": "e52c755593da91587a6fdb23672ffd19781bd3190bc5d759aaa5a18aa2d9dfec",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2420058,
+      "sha256": "48ad7a97d4121713379b54ad1367e879a033cdbad76947c320c043b7cf086bc5",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2394283,
+      "sha256": "d83d708429d0d104e639447b19c0cb75edd4abed8b0e0f113b5a6175c42874a2",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2570486,
+      "sha256": "d8907b948c69c8737baca853b06725b4b8f76aad5ea27356f4397abb47b326dd",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2588029,
+      "sha256": "4d3a970d1967c4d8dd7a7a55a4c4c6d8765518b238fdc7939dc864b7f8c6e6d5",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson1_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20074,
+      "sha256": "5fe737f2887b76c7886eb7d803c3351a5a7cd4aaa4573fea48646de89b827eaf",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson2_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 21046,
+      "sha256": "d9a1728406312edf45582cf99a10ff8a278ac791995db043205ef843714f14d1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson3_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 21263,
+      "sha256": "09a4fe3c5005971e5d17609b4c49592b7cee10b56a9f69a1aac4b292319a7b18",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson4_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20127,
+      "sha256": "6da925e6f8640204ef7d7e3acebf63d9b2a8ae766e95ab1efe159b01df0ef85a",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_multiplication_division_lesson5_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 21460,
+      "sha256": "73678ccd337aee6b8558e8c9cbc0473a089ee87de98b646808e8a39079924a4c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4218,
+      "sha256": "1f13388cf052ab4d05644b56fcbfb24e79a6443415f1794c273d26c945e24f2f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson1-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2020,
+      "sha256": "7ade8d83aa4655d14389a46476a46b48baf53665b3c9da29a7eb643345cb5c44",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4361,
+      "sha256": "bc453bdc4fdab36f3394f720d8a4d0d6c82498de07459efc4fa58ff5c2918623",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson2-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2017,
+      "sha256": "bfcf92e4ef7aa054e1b80923934c3d46ad89f6a183a84bb5d72b16021b7d1ea6",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4469,
+      "sha256": "1d210904c0eed832f898309b21476817558057bf312b70cfa640c74876b1c401",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson3-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2052,
+      "sha256": "322e727c957c31b8bf3c8aeda92a734985445bef4bb63d997dcb1719161a5643",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4596,
+      "sha256": "f15129189fe78125a298d2a60598adc8bd31b62f05a96703ab0c8127e17c997c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson4-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2106,
+      "sha256": "ca579619a3a371c2c107e6bff9fa8e37d576e7cc7a3f87287e3c120209b04695",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4353,
+      "sha256": "9dc1a11a5284e58727f4b158e159a94a187e8e5738d13d0f8d204e7329f78f15",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/multiplication-division/MathMagic_V2_multiplication_division_lesson5-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2155,
+      "sha256": "241e437219710ab2dcb25440e6e7fab09305a265faf671f29d18eb5108dba4c9",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2458952,
+      "sha256": "4879c7fc3be25ac6c3a7e8343b148f31be329a973cdb12c0bbd9c294ef7144ba",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2425762,
+      "sha256": "97a785dadf6ecfe2a71f34aa0c22d778c1a7a5e9f188a9e76a0ccc2e7b14e3d0",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2459097,
+      "sha256": "6bda0ac844db039eeb30f98a0594d73e40bcbc422d612fc917348676045ec7bb",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2723431,
+      "sha256": "8b2893be0b3e6628c242da4e936e857de5479f507b9dfd488697ab41ffa22ca9",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2553494,
+      "sha256": "0a212fc731d668d0d2a4d35f25711d62d4fca7d6556110365994063938c5070c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson1_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 22347,
+      "sha256": "fbaa6541121edf697fe4a21566c4a3b650d10d65c96076024e490ea9d73d9384",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson2_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20148,
+      "sha256": "b190c041934561b54e0c77865cd1c034d7083afeb48738fa07c34bc521a8535e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson3_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20128,
+      "sha256": "ec20279b58fd8716981c2d824601acd67f7f2c8a324e563974170de89840136d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson4_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20014,
+      "sha256": "bd80772e1a896c8a1e9e4f097185a81778c1b0b49b841d366ec5058f95a456e8",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V2_factors_multiples_lesson5_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 20069,
+      "sha256": "024df4cef252a459aeab69d5931e3d8ab79d6f406e5cc5760619d83bdfd4585b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4364,
+      "sha256": "5fe652da892ae4c39023f84440f804c762450d41aa044351f710b78b80e4ab2c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson1-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1947,
+      "sha256": "b12d1bc71451fefb751d668f21941c01be41b58bc9bdfbedda383b0748c2d67e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4424,
+      "sha256": "967b28faa1378a992a7e31741db48d87613229295e10143b1d72354183bc7992",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson2-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2007,
+      "sha256": "be7c2e0f8766c7b3db794b77a46c051db8ebeaf6d2a19c8873786bda6b423d5b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4563,
+      "sha256": "e8946c7b151edd3110daaf309ddda4604bb8c80e2a8dc8a43b60efabbbba1948",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson3-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2000,
+      "sha256": "13a42f42a5ec34e0be3dc7d69b49ca314f51c92bc5141cba3087ec949118cfc1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4724,
+      "sha256": "7b2cb0ef2519ac9a8d26e875ae57e5f4ec2e77543ddf54b6951e03ca5ae131ec",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson4-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2088,
+      "sha256": "eb391d019975f88646406e49c8519966a7d5dfd3692b4319b80e6d7016b3157b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4453,
+      "sha256": "f22d8d8ac47057a37ece46876ff96229e576dc22d7e008fa1294a68e3c4582da",
+      "matches_local": true
+    },
+    {
+      "path": "videos/hf-alpha/factors-multiples/MathMagic_V2_factors_multiples_lesson5-brandfree-hf-alpha_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2036,
+      "sha256": "47a49fbb95ba4d78922907fac5af8d8f8fdaf1dcb986cbb2c0a064c20a9b8dde",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 3056211,
+      "sha256": "7b33adf36aaf3c2e20c489090f6775e04a6931f29d37205aa73e35420a096e0f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 3246064,
+      "sha256": "7d176117b1a495804562e3fd43879b49432e74012e0cac6f8384341a732e5382",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2636513,
+      "sha256": "e1cd85d9727dd302870896527773cb27a7420c35410f21146909f99949af68f7",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2936336,
+      "sha256": "1c6a0038070efd4dd9d17add740ea3bfef7a105b49b4d0ad1eec87d737f3456d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 3102341,
+      "sha256": "86e1f94cc3168eb582e3134e9e3a7af3733622c062424042e13cf8c2779f9efb",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson1_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 38466,
+      "sha256": "0b04656b0b0331898c7a53d48da905c1ffdf4edd8efc760af91b6b702657e183",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson2_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 39232,
+      "sha256": "2af871f89bc5b6268dd1d5c4a23e27732e685c48f9d14816bea4c678d303ae72",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson3_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 19609,
+      "sha256": "dc43f2d5bc0dc4d9f698a0a0f8751a746541a158fbf167bef9546a1537c7dad7",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson4_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 25762,
+      "sha256": "8fbbff0f00f31c4e46c2efdb4829a30bcbeadeb6ec0b98834325808c07d1e535",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_V3_measurement_lesson5_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 26818,
+      "sha256": "af22ba289803e12fe4e168de5457ed51a4a8e6c39102a537704bd0819cbcad56",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 4927,
+      "sha256": "077d664d206f81a52a21131aad77bd7217e89602fa8a9f61ac44f7bb38378461",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson1-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2291,
+      "sha256": "586dd09ef0147b6670ae3f449bced087176c79e44a967743011176f5bfa0f909",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 5470,
+      "sha256": "f26b8677708cf9d514e665c41f54d50e6fd6f806f223e2b57ffabf0d383a6532",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson2-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2469,
+      "sha256": "2f225fa27d5ffc28db8e7ce29af98ebd08d1da9682d1720811d027cbed315e74",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 5125,
+      "sha256": "6dda697c5f86557a8bd6ba56c8654ece590e147c531c2949b40fc7884ecfc55a",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson3-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2197,
+      "sha256": "96a2be27c22d8f0ae6a921b509b3853a4478b7139fb2ba69ba1956822fbce13d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 5154,
+      "sha256": "822f24a6fb60671565531de7b1a0fe5a7da3586c5d983c08a0e4da6b69d228ca",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson4-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2226,
+      "sha256": "b655aba60abe14c956e17b067af47c0688b50f0f937117533c942f06b7c58b6c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 5222,
+      "sha256": "665a4944a4a3d3c910d89aa45e682bbe1e1cdbb73e25cd70a91b27efe7227e27",
+      "matches_local": true
+    },
+    {
+      "path": "videos/quality-corrections/measurement/MathMagic_V3_measurement_lesson5-brandfree_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2367,
+      "sha256": "84572129354584d41aed894c98f5b43150dfcb807c330c403f97af7fe7ff51d2",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_01_Reading_Time_and_Duration_EXTENDED.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 12596973,
+      "sha256": "16109a829c5aedcb53e4235244c46ccab59a35476d74751b2ddcc32c8bd2ba30",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_02_Timetables_and_Journeys.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8166609,
+      "sha256": "5734a8282c757771e0cb13123af2a94934a994cfc007bf632f3adae7a28ed1c3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_03_Understanding_Angles.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8208587,
+      "sha256": "c79d0649b06919c191079659da2f5811964100d0fd58a0310978619254a13152",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_04_Measuring_Angles.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8030687,
+      "sha256": "e3c9d86c48040c99c8d63b04ef256794dd8e03f06871ec974fda58b0c3fef5c9",
+      "matches_local": true
+    },
+    {
+      "path": "videos/MathMagic_Time_Angles_05_Solving_Angle_and_Time_Problems.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8305763,
+      "sha256": "f1287a8a81e8489b9b08b279b7defc36929bb7c02e7c538f85e2406c62eb17ba",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 10935021,
+      "sha256": "32f712baa2e9baa0b56d2569b53152289079d4d5caac5fb42ec9b0264d3547c1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 6821143,
+      "sha256": "e178d158cb8a8df25606f358732b9d8b10f7495e888207d36c28eb53ef048ab1",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7542128,
+      "sha256": "5b24243e27023c483712714ce931f642a6d2ce12ed7cd3ecc2625a6cc7ef974e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7115511,
+      "sha256": "bc11c36751627984581a80cf597a4da61b3e8ef2744cbbc66c5ec92a085f729d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7654026,
+      "sha256": "fa7803fd5b1feb0b183f5e5df7c36587f57acbe7466f88efaab6412f79d6ec9d",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 9280734,
+      "sha256": "53ff64844782c40026cc7282a6aedb3a0bc4b5935e78afa64cff0b77b2845af6",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7615032,
+      "sha256": "bc2552c8e823b9251802d6136d15e31061a4ceeb0a5f46b291f15d3d8d71068e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 12397725,
+      "sha256": "3b41a6bbaf652c7a67c7d2be8d31c451e6374eaedc8537ffb4675c16b03a4d0c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8977948,
+      "sha256": "3297e17c53c07d0ad919d0e7ba2fc67f6dcf8bafd4bb144c69e3a7714c1568c5",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8885316,
+      "sha256": "1fbb6b7dabedb6d4a45d71405a232799f0550f638f3c5633949ab56be23d288f",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12216,
+      "sha256": "872fceb609e417ea22cc3cdf42462feb2a0da751ebd8e31e9c95e428d0b3e9ee",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 18970,
+      "sha256": "051736416e90ecbcec9331d38d054e81ab42bbfa221f2e624aa6b70f50951a22",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson02_Explore_Nets_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5866,
+      "sha256": "19a03b112e9ebaa540704bbf744f72fb220ea2836791b30c1625eee65429e82c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12715,
+      "sha256": "604d93008fb20794d240df1e38ee503e554313a5bd2ef7cdbf888964c272ba5c",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 21360,
+      "sha256": "1f69b96d8d57ae1a54dad20fb80c0d44c68a54165d01e0432d7642d531ca40ac",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson03_Design_and_Test_Nets_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6366,
+      "sha256": "3a3c384cdaaaadfd9f383ec3ff0045fd1ccea5e9e85e8abab57258d0023fe751",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 11927,
+      "sha256": "9e1b08ff4518fe2c74592686f2ab3d35702b0f255bb433403c72087d82c408af",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 22842,
+      "sha256": "82302cddd07d75e04699cf30a9a41f188c4129fdb2e3b820aae4577af1bfc970",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson04_Coordinates_and_Position_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5873,
+      "sha256": "ca99d10f5e7c7205a2344781cd1ba389f956a56b95138731cecdce530be5103b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12242,
+      "sha256": "0ad029053badb81443cbdfadd19734b4f19560c264fc1cef427e716a59ef4665",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 25425,
+      "sha256": "1221f6a7023d99e77dfe3c9568010bf009a597db08a16a27e665d8662b6bd15a",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson05_Map_Routes_and_Directions_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6114,
+      "sha256": "91076b1629fb3922fbb8f5ad89e94618663424bacc2eb8b8ed9a836be96d7caf",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 13351,
+      "sha256": "0890b2e79fa9750844c8a6ac6b9f3909629d2e65f008e2ed5622ee50dc8dd05b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 22509,
+      "sha256": "70fd9f0ec0d4cab7e76856772e4ad15f8ce7200fe6b8c7b85189416a5a28379b",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson06_Translations_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6632,
+      "sha256": "b8b2bf1ae5d7d1b43dcf0451f62f2af54c753c0e77876f55355ada34f9f63d17",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12559,
+      "sha256": "d9efc6aa01a4b6cba71450c25ebc4bc6a893df2f7219e24449e2402dc375e979",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 22654,
+      "sha256": "db9cada55632d1bb2e1e61829fe5e503224e499307ea449f7a1ef6c4799c7832",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson07_Reflections_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6432,
+      "sha256": "c50058741fc4a9d4d586b1ed62bed3f8401853eb08932105f076e3b7033adeea",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12831,
+      "sha256": "cd0d63191352e4340165606a5d42ef2bd61817ee8d09769a8ee55970fb53b7d3",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 25014,
+      "sha256": "cc7fd5a9a23eec48cd785857a071cd5d53fc58e27d28fdb74e15ef03ceaa74a9",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson08_Rotations_and_Symmetry_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6630,
+      "sha256": "392aba910029c3e101357de5320de055f91df8f9e0ecdd81072cdd6639907ff0",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 12491,
+      "sha256": "4d0ad08b3908c8d49c28b39b4c8b3ac51c7dfde2b3e10724d15404977586bdae",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 35391,
+      "sha256": "95cab7ad09ae702bfe890dae59f718ccecce4b69786d31504380f582f3d60509",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson09_Classification_Algorithms_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6512,
+      "sha256": "b9912cbd97fef20ddfd141281e7a581a95a1747a1391bb19408358c2288ea08e",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 13553,
+      "sha256": "09f565df38149bcb1963bb15a8ac30a6d13e5251543c2fc752a9839b62f5c488",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 27261,
+      "sha256": "139022a24ecc1fc7e3058866ddc78d8823299ab2659e252e2b3354d43a207901",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson10_Integrated_Spatial_Design_Challenge_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6834,
+      "sha256": "90e4f1d6a59abf04ebaf914946323603f7e1d73d90b7559d40fa9e919b0234ba",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 17129,
+      "sha256": "b7f2ae5fe7a312316e51db59c35e548971f3d91dd833c3ec98e2068e8e6a4319",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 23895,
+      "sha256": "373410cbee73b03ee8cd14f0dbf967049d4eef78b2cce9a231ec6130d2af7542",
+      "matches_local": true
+    },
+    {
+      "path": "videos/space-2026/Space_Lesson1_3D_Objects_Review_1080p_transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 8125,
+      "sha256": "5f9c2681c5484bd1b66c42d95db86b83db687bdcd96f5d3b97789f2adebc4de5",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/Statistics_Lesson01_REVIEW_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 9025524,
+      "sha256": "30a62799547a453dcc9abc0423402e9f0d07c91050b5ff76688c42c74ce6b96b",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/Statistics_Lesson02_REVIEW_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7961950,
+      "sha256": "24af87f512d83491c380b8d2b8ba74f0d6533f231af36cece3c36b3e4f3e42b4",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/Statistics_Lesson03_REVIEW_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 7739978,
+      "sha256": "3b5cf6f02baf350f82449f88ec9f02684e6e994a5b68c387c8701f68f85fb708",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/Statistics_Lesson04_REVIEW_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8897919,
+      "sha256": "106b5ef43e5443ea6bdbbd5126e06321a3f50c7aa2abc15b19539ff019e6034c",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/Statistics_Lesson05_REVIEW_1080p.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 8811935,
+      "sha256": "d95d6e121b3cbce7b038af9009a265ff52ba8bb17a246338c719808061224326",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/captions.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 11215,
+      "sha256": "cddb18459ad5bbf47609ff2f8bc1bb6f1bf8117270ab3e8cb8af63530369e884",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 58078,
+      "sha256": "54a1cf9fde728f6934bcb4ae395c78a977223bc7e358a5f30711bc8b86fc115b",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson1/transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5148,
+      "sha256": "a2364055c0e3f7bc51374ba4552cbc565689a00f012a908b2cf22849bd0b0a0c",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/captions.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 10931,
+      "sha256": "f2f51c59eac2be4dfdb3d2792bc46856e6257ed8e6b097b8b49a442c88c24afd",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 34674,
+      "sha256": "26ecaad4dc824467e1bbb8a44c23ea5fc27f8252fdc4640001159559abb8ee9d",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson2/transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5302,
+      "sha256": "5deea20836e68c5fe9d9dabaad7a317b2188b6d0e2cc128e0b3e4cefcf95bd13",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/captions.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 11110,
+      "sha256": "2dd8ca48cd066bdc6dc99844d2421bab234fcee3253c6fb97287fab1da09bfe2",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 35115,
+      "sha256": "fce922432b1d51cb384c87c3d13ea047e25468b48667eb94729651d2f91db6b0",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson3/transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5189,
+      "sha256": "b4bc59eb995ae4fcdf42cb2d164bc7d7c036ed5240835ad0f77b5571e4b276dc",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/captions.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 11415,
+      "sha256": "9146c886077668ae666154a30586f4986775c2b04783b7f1a35bd2b711022364",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 38769,
+      "sha256": "dc64634b1191aa515a084c80a331f3f6993513ab6edb9931578f5b6c284230ae",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson4/transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5348,
+      "sha256": "8b9e737263e5236fc062e5221ce9b08ced3b2bb00942c7612e25b52993de7262",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/captions.vtt",
+      "status": 200,
+      "content_type": "text/vtt; charset=utf-8",
+      "bytes": 11401,
+      "sha256": "9431018a4f31d9a924fbe469186afecca34b20af58b60f6128e1008563f19fc3",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/poster.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 49468,
+      "sha256": "afcd8140b37111e3025808ddda25b85966547dbbdf7e25cfad32901140711258",
+      "matches_local": true
+    },
+    {
+      "path": "video-agent/statistics/review/lesson5/transcript.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5626,
+      "sha256": "0b23e1a4cd86b02e8960b379f00ed3f4b3c54ff805e4480abd8c398b5eeb38c3",
+      "matches_local": true
+    }
+  ],
+  "live_limitations": "Public byte retrieval only; no real Google sign-in, approved-user Firebase write/rules/App Check, external-provider playback, physical iOS or full listening/viewing claimed."
+}
