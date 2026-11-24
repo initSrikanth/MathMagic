@@ -1,0 +1,311 @@
+{
+  "baseline_commit": "73b9b92a0dc307b1bb817154c8195968b86dcc20",
+  "checked_on": "2026-11-24T19:02:03.178905+00:00",
+  "method": "Fetch actual versioned script and stylesheet URLs from all 10 baseline lesson pages; compare to exact baseline Git blobs. Functions deployment/Google sign-in/App Check are not verified.",
+  "resources": [
+    {
+      "url": "css/addition-subtraction.css?v=2",
+      "status": 200,
+      "bytes": 7034,
+      "sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "baseline_sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/addition-subtraction.css?v=3",
+      "status": 200,
+      "bytes": 7034,
+      "sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "baseline_sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/addition-subtraction.css?v=5",
+      "status": 200,
+      "bytes": 7034,
+      "sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "baseline_sha256": "9f83aef5d2309b36ee413ccf9fd376c5610223f0ccfed8c4083de7b919ad8633",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/decimals-percentages.css?v=9",
+      "status": 200,
+      "bytes": 6876,
+      "sha256": "a437a2cdbabbee1afac9db5179cee3b61bd445f886eb3d3f380c095e0071464f",
+      "baseline_sha256": "a437a2cdbabbee1afac9db5179cee3b61bd445f886eb3d3f380c095e0071464f",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/fractions.css",
+      "status": 200,
+      "bytes": 14199,
+      "sha256": "faab4aa9217ceae506e76402f20651d3ade5faf1d7fed7ce3f40be6a5ce157ce",
+      "baseline_sha256": "faab4aa9217ceae506e76402f20651d3ade5faf1d7fed7ce3f40be6a5ce157ce",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/fractions.css?v=19",
+      "status": 200,
+      "bytes": 14199,
+      "sha256": "faab4aa9217ceae506e76402f20651d3ade5faf1d7fed7ce3f40be6a5ce157ce",
+      "baseline_sha256": "faab4aa9217ceae506e76402f20651d3ade5faf1d7fed7ce3f40be6a5ce157ce",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/measurement.css?v=1",
+      "status": 200,
+      "bytes": 408,
+      "sha256": "8b088d8405cc652d0226787e1d3364aefb36a959698b880e4869701464c2f3ff",
+      "baseline_sha256": "8b088d8405cc652d0226787e1d3364aefb36a959698b880e4869701464c2f3ff",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/space.css?v=1",
+      "status": 200,
+      "bytes": 7491,
+      "sha256": "431554639e2e2a88f6aa5fea862f50a76e6bfbc462d06d4a9c9bc6d98bfa528b",
+      "baseline_sha256": "431554639e2e2a88f6aa5fea862f50a76e6bfbc462d06d4a9c9bc6d98bfa528b",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/statistics-video.css?v=1",
+      "status": 200,
+      "bytes": 1144,
+      "sha256": "50b6a16f87b3dcc795a019af0c1ff4d56e0e7d97875d8d910a9a439be7061b6a",
+      "baseline_sha256": "50b6a16f87b3dcc795a019af0c1ff4d56e0e7d97875d8d910a9a439be7061b6a",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/statistics.css?v=1",
+      "status": 200,
+      "bytes": 2881,
+      "sha256": "1f4ff34dfc12f3b59921eb0b493cf9b86ba23bda5dcdfa4baebffd1ace1b6b32",
+      "baseline_sha256": "1f4ff34dfc12f3b59921eb0b493cf9b86ba23bda5dcdfa4baebffd1ace1b6b32",
+      "matches_baseline": true
+    },
+    {
+      "url": "css/whole-numbers.css?v=8",
+      "status": 200,
+      "bytes": 7805,
+      "sha256": "94f08aebc3d48ccaf5284be75db768e8a51de1dc7664c4668723bf35d04e182d",
+      "baseline_sha256": "94f08aebc3d48ccaf5284be75db768e8a51de1dc7664c4668723bf35d04e182d",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/addition-subtraction-auth.js?v=2",
+      "status": 200,
+      "bytes": 2300,
+      "sha256": "c8fa8e14dc1b9cdd2281aafb2e638699f81bfacb99d3b759c654d9dac78b737a",
+      "baseline_sha256": "c8fa8e14dc1b9cdd2281aafb2e638699f81bfacb99d3b759c654d9dac78b737a",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/addition-subtraction.js?v=2",
+      "status": 200,
+      "bytes": 7844,
+      "sha256": "24fd211878024cc0b845b794c3f24075f296013dd340348e5d30017a0b1d2776",
+      "baseline_sha256": "24fd211878024cc0b845b794c3f24075f296013dd340348e5d30017a0b1d2776",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/decimals-percentages-auth.js?v=9",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "a911a1e0bd0a1e6ea86a319e5f96991823d7638da51480e7a5cc04ae456786a9",
+      "baseline_sha256": "a911a1e0bd0a1e6ea86a319e5f96991823d7638da51480e7a5cc04ae456786a9",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/decimals-percentages.js?v=9",
+      "status": 200,
+      "bytes": 12522,
+      "sha256": "d0ac03674de9148f8ceefe70055a68ee693b11954ac6aba23c81e34586516298",
+      "baseline_sha256": "d0ac03674de9148f8ceefe70055a68ee693b11954ac6aba23c81e34586516298",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/factors-multiples-auth.js?v=3",
+      "status": 200,
+      "bytes": 3292,
+      "sha256": "8b6cbd4837dda2c418c3e8a846394343e9fb96f3daa767b193553891b9a1a35d",
+      "baseline_sha256": "8b6cbd4837dda2c418c3e8a846394343e9fb96f3daa767b193553891b9a1a35d",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/factors-multiples.js?v=4",
+      "status": 200,
+      "bytes": 12543,
+      "sha256": "657ef28db58b726cd6bf6237328bccb6c67d3005890c162969e117dd71fcb291",
+      "baseline_sha256": "657ef28db58b726cd6bf6237328bccb6c67d3005890c162969e117dd71fcb291",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/fractions-auth.js?v=10",
+      "status": 200,
+      "bytes": 4735,
+      "sha256": "1f005877bbb4d2b96caa5323507b29257fed31a0c19a22c2e78e67bf1b1cd284",
+      "baseline_sha256": "1f005877bbb4d2b96caa5323507b29257fed31a0c19a22c2e78e67bf1b1cd284",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/fractions.js?v=21",
+      "status": 200,
+      "bytes": 30027,
+      "sha256": "099b5512928bd8c90e1cb0c0e236f0dc087bbc109be5e80c814167247e0279bb",
+      "baseline_sha256": "099b5512928bd8c90e1cb0c0e236f0dc087bbc109be5e80c814167247e0279bb",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/measurement-auth.js?v=1",
+      "status": 200,
+      "bytes": 3281,
+      "sha256": "b0db9c25a723c0771e2c38b145a5d628598c3c3097e454121b1cb48cb4fcfb8d",
+      "baseline_sha256": "b0db9c25a723c0771e2c38b145a5d628598c3c3097e454121b1cb48cb4fcfb8d",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/measurement.js?v=1",
+      "status": 200,
+      "bytes": 20778,
+      "sha256": "ae732fdc20ecbcefb953fbe682aaad2d88968b96ca11b5b75f30f79611aba684",
+      "baseline_sha256": "ae732fdc20ecbcefb953fbe682aaad2d88968b96ca11b5b75f30f79611aba684",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/multiplication-division-auth.js?v=1",
+      "status": 200,
+      "bytes": 2550,
+      "sha256": "0ff16bac17ca2459abf0c09793c16b0a4c4ffae6aef9126d5d97526e1e57a11d",
+      "baseline_sha256": "0ff16bac17ca2459abf0c09793c16b0a4c4ffae6aef9126d5d97526e1e57a11d",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/multiplication-division.js?v=2",
+      "status": 200,
+      "bytes": 4191,
+      "sha256": "c64209ff2d68903952fcf7fdf9e86d4b8f4d68264e4ecbe53ffd4cab6c1d7009",
+      "baseline_sha256": "c64209ff2d68903952fcf7fdf9e86d4b8f4d68264e4ecbe53ffd4cab6c1d7009",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/space-auth.js",
+      "status": 200,
+      "bytes": 5483,
+      "sha256": "aa99c629e2313852a87e7f869ffd131944a6b5191aac4ac4fbeef52676d1ae8b",
+      "baseline_sha256": "aa99c629e2313852a87e7f869ffd131944a6b5191aac4ac4fbeef52676d1ae8b",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/space-course.js",
+      "status": 200,
+      "bytes": 2462,
+      "sha256": "7bcb956c2f0168deacc43bbfb31e702a4024c50a21f23c52de93e00baa5de51f",
+      "baseline_sha256": "7bcb956c2f0168deacc43bbfb31e702a4024c50a21f23c52de93e00baa5de51f",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/space-diagrams.js",
+      "status": 200,
+      "bytes": 6090,
+      "sha256": "6197f46d2cd84797bb89aead10f97576d2197e520fcf40fe6df9bdcd2c44d04a",
+      "baseline_sha256": "6197f46d2cd84797bb89aead10f97576d2197e520fcf40fe6df9bdcd2c44d04a",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/space-lessons.js",
+      "status": 200,
+      "bytes": 908,
+      "sha256": "48c781e90369c5175fa72af672f693e3db5fbc0108c5ffa4360f0ee07eb92a24",
+      "baseline_sha256": "48c781e90369c5175fa72af672f693e3db5fbc0108c5ffa4360f0ee07eb92a24",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/statistics-auth.js?v=1",
+      "status": 200,
+      "bytes": 6277,
+      "sha256": "4c52fca4274b9b61a56fda6760256af8e9cede46313c05c3b697397e4d4a0010",
+      "baseline_sha256": "4c52fca4274b9b61a56fda6760256af8e9cede46313c05c3b697397e4d4a0010",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/statistics-config.js?v=1",
+      "status": 200,
+      "bytes": 209,
+      "sha256": "88cebb9d1de84b304cff45ac8e80a8039569763c05d35aa6b8b1630412e6838d",
+      "baseline_sha256": "88cebb9d1de84b304cff45ac8e80a8039569763c05d35aa6b8b1630412e6838d",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/statistics-video.js?v=1",
+      "status": 200,
+      "bytes": 2746,
+      "sha256": "40818d33fe8044f34a58f28238488a9f0d2055d985db57d7f00a073b20aa9645",
+      "baseline_sha256": "40818d33fe8044f34a58f28238488a9f0d2055d985db57d7f00a073b20aa9645",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/statistics.js?v=1",
+      "status": 200,
+      "bytes": 27757,
+      "sha256": "d50932ef1641ab3ad897d59f8b201a23a8860faaf7423ee3a37949bd808a293f",
+      "baseline_sha256": "d50932ef1641ab3ad897d59f8b201a23a8860faaf7423ee3a37949bd808a293f",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/time-angles-auth.js",
+      "status": 200,
+      "bytes": 4739,
+      "sha256": "29b51486df0bb97bceba2aed657cb0bfe8d73f23d4f32c13fb62564ffd7369e2",
+      "baseline_sha256": "29b51486df0bb97bceba2aed657cb0bfe8d73f23d4f32c13fb62564ffd7369e2",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/time-angles-construction.js",
+      "status": 200,
+      "bytes": 3711,
+      "sha256": "22c1232a9d756ca6b8c6f273edfb383b6b096d94f7f767e205fe895c3de781f4",
+      "baseline_sha256": "22c1232a9d756ca6b8c6f273edfb383b6b096d94f7f767e205fe895c3de781f4",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/time-angles-graphics.js",
+      "status": 200,
+      "bytes": 3445,
+      "sha256": "6ac9cb9dcaea6a9f31bdfc018236ebe72e7ed24fa4a8f55170bc085909d255f0",
+      "baseline_sha256": "6ac9cb9dcaea6a9f31bdfc018236ebe72e7ed24fa4a8f55170bc085909d255f0",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/time-angles-practice.js",
+      "status": 200,
+      "bytes": 4896,
+      "sha256": "b38e5ae1d70c318ca372575523793044f455ed90d5881946353815591f716802",
+      "baseline_sha256": "b38e5ae1d70c318ca372575523793044f455ed90d5881946353815591f716802",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/time-angles.js",
+      "status": 200,
+      "bytes": 11047,
+      "sha256": "e188309e5a2ab62e919e519d068d0a3ee502fc294324ca354c3931d05ef962a4",
+      "baseline_sha256": "e188309e5a2ab62e919e519d068d0a3ee502fc294324ca354c3931d05ef962a4",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/whole-numbers-auth.js?v=4",
+      "status": 200,
+      "bytes": 3096,
+      "sha256": "30b8532f7fcb8d79e927d35418a69c2fab8a7e1948c8c867eaa256957fd99ff6",
+      "baseline_sha256": "30b8532f7fcb8d79e927d35418a69c2fab8a7e1948c8c867eaa256957fd99ff6",
+      "matches_baseline": true
+    },
+    {
+      "url": "js/whole-numbers.js?v=8",
+      "status": 200,
+      "bytes": 14060,
+      "sha256": "7c0bfc8ded542470180807e12d11bef611fcaf27007352696907a9ce2cce525f",
+      "baseline_sha256": "7c0bfc8ded542470180807e12d11bef611fcaf27007352696907a9ce2cce525f",
+      "matches_baseline": true
+    }
+  ]
+}

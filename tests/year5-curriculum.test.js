@@ -4,6 +4,7 @@ const matrix=require('../docs/year5/curriculum-coverage.json'),nav=require('../d
 const {strandReady,canStartStrand,canStartYear6}=require('../tools/curriculum/gates');
 const counts={Number:['N',10],Algebra:['A',2],Measurement:['M',4],Space:['SP',3],Statistics:['ST',3],Probability:['P',2]};
 const expected=Object.entries(counts).flatMap(([strand,[code,n]])=>Array.from({length:n},(_,i)=>['AC9M5'+code+String(i+1).padStart(2,'0'),strand]));
+assert.deepEqual(matrix.development_order,Object.keys(counts));assert.deepEqual(nav.development_order,matrix.development_order.map(s=>s.toLowerCase()));
 assert.equal(matrix.descriptors.length,24);assert.equal(new Set(matrix.descriptors.map(r=>r.code)).size,24);
 function target(href){const[path,hash]=href.split('#');const file=path.split('?')[0];assert.ok(fs.existsSync(file),href);if(hash)assert.ok(fs.readFileSync(file,'utf8').includes('id="'+hash.split('~')[0]+'"'),href);}
 for(const[code,strand]of expected){
@@ -24,18 +25,20 @@ for(const[code,strand]of expected){
 assert.equal(audit.pages.length,10);assert.equal(audit.pages.reduce((n,p)=>n+p.videos.length,0),56);
 for(const asset of audit.assets)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(asset.path)).digest('hex'),asset.sha256,asset.path);
 assert.equal(audit.live.length,217);assert.ok(audit.live.every(r=>r.matches_local&&r.sha256));
+const deployedCode=require('../docs/year5/deployed-code-audit.json');assert.equal(deployedCode.baseline_commit,audit.baseline_commit);assert.equal(deployedCode.resources.length,38);assert.ok(deployedCode.resources.every(r=>r.status===200&&r.matches_baseline&&r.sha256===r.baseline_sha256));
 const approvedStats=require('../video-agent/statistics/checkpoint.json');
 for(const video of approvedStats.lessons){const recorded=audit.assets.find(a=>a.path===video.video);assert.ok(recorded);assert.equal(recorded.sha256,video.bundle_sha256.video);}
 assert.deepEqual(nav.enabled_years,[5]);assert.deepEqual(nav.supported_year_range,[1,10]);assert.equal(nav.strands.length,6);
 for(const s of nav.strands){
  target('year5-'+s.id+'.html');assert.ok(counts[s.name]);
  for(const t of s.topics){for(const code of t.codes)assert.ok(matrix.descriptors.some(r=>r.code===code&&r.strand===s.name));for(const l of t.lessons){target(l.href);target(l.activity);}target(t.assessment);}
- const html=fs.readFileSync('year5-'+s.id+'.html','utf8');assert.ok(html.includes('js/auth-guard.js?v=6'));assert.ok(!/AC9M5(?:N|A|M|SP|ST|P)\d/.test(html),'Internal codes leaked to children');assert.equal(strandReady(matrix,nav,s.name),false);
+ const html=fs.readFileSync('year5-'+s.id+'.html','utf8');assert.ok(html.includes('js/auth-guard.js?v=6'));assert.ok(!/AC9M5(?:N|A|M|SP|ST|P)\d/.test(html),'Internal codes leaked to children');const rows=matrix.descriptors.filter(r=>r.strand===s.name);assert.equal(strandReady(matrix,nav,s.name),rows.every(r=>r.status==='COMPLETE')&&s.development_status==='COMPLETE'&&s.media_status==='APPROVED'&&s.qa_status==='PASS'&&s.deployment_status==='VERIFIED_LIVE'&&s.service_status==='VERIFIED');
 }
-assert.equal(canStartStrand(matrix,nav,'Number'),true);for(const s of ['Algebra','Measurement','Space','Statistics','Probability'])assert.equal(canStartStrand(matrix,nav,s),false);
-assert.equal(canStartYear6(matrix,nav),false);assert.equal(matrix.year6_allowed,false);
+assert.equal(canStartStrand(matrix,nav,matrix.current_strand),true,'Current development strand must have completed predecessors');
+assert.equal(matrix.year6_allowed,canStartYear6(matrix,nav));
+if(nav.enabled_years.includes(6))assert.equal(canStartYear6(matrix,nav),true);
 // Completing coverage alone never grants media/service/deployment clearance.
 const complete=structuredClone(matrix);complete.descriptors.forEach(r=>r.status='COMPLETE');assert.equal(canStartYear6(complete,nav),false);
-const released=structuredClone(nav);released.strands.forEach(s=>Object.assign(s,{media_status:'APPROVED',qa_status:'PASS',deployment_status:'VERIFIED_LIVE',service_status:'VERIFIED'}));
+const released=structuredClone(nav);released.strands.forEach(s=>Object.assign(s,{development_status:'COMPLETE',media_status:'APPROVED',qa_status:'PASS',deployment_status:'VERIFIED_LIVE',service_status:'VERIFIED'}));
 assert.equal(canStartYear6(complete,released),true);released.strands[2].media_status='REVIEW_REQUIRED';assert.equal(canStartYear6(complete,released),false);released.strands[2].media_status='APPROVED';released.strands[0].service_status='UNVERIFIED';assert.equal(canStartStrand(complete,released,'Algebra'),false);
 console.log('PASS: 24 descriptor records, exact strand/code counts, lesson/tool/assessment links, 207 preserved asset hashes, 217 recorded live matches, six protected strand routes and fail-closed sequential/year-level completion gates.');

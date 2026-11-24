@@ -6,6 +6,8 @@ Scope: all 24 descriptors audited; six independent strand pages and dashboard hi
 
 - [Desktop dashboard](previews/dashboard-desktop.png)
 - [390px dashboard](previews/dashboard-390.png)
+- [Measurement strand desktop](previews/measurement-strand-desktop.png)
+- [Number strand at 390px](previews/number-strand-390.png)
 
 [Sampled decoded media frames](previews/contact-1.jpg), [part 2](previews/contact-2.jpg), [part 3](previews/contact-3.jpg), [part 4](previews/contact-4.jpg) cover all 56 placements; these are not full audiovisual approval.
 
@@ -16,15 +18,15 @@ Screenshots use safe test-only Firebase SDK mocks and sample progress. They are 
 | Check | Actual result | Limit |
 |---|---|---|
 | Official scope / achievement standard | 24 exact descriptors, six strands; every achievement aspect mapped | Official QCAA reproduction plus directly readable ACARA achievement standard. ACARA workbook/DOCX download blocked by environment; older QCAA N010 typography is normalised to N10. |
-| Public resource audit | **217/217** HTTP resources matched SHA-256: 10 lesson pages + 207 unique media/sidecars; 56 MP4 placements | Actual served bytes, local metadata and transcript inspection; no new full audiovisual review/decode. This immutable inventory describes baseline main, before navigation tags. |
+| Public resource audit | **217/217** HTTP resources matched SHA-256: 10 lesson pages + 207 unique media/sidecars; 56 MP4 placements | Also **38/38** versioned script/style URLs match exact baseline blobs ([code audit](deployed-code-audit.json)). Actual served bytes, local metadata and transcript inspection; no new full audiovisual review/decode. This immutable inventory describes baseline main, before navigation tags. |
 | Curriculum framework | **1 Node suite passed**, all 24 records, links, 207 media/sidecar hashes, six routes, sequential/year-level negative gates | Validates evidence structure/consistency; cannot replace teacher review of skill coverage. |
 | Read-only Number generator audit | **120,000 positions**, 1,000 attempts per four existing engines; **1,340 / 1,013 / 1 / 10 duplicate positions**, plus **78 equal-plan comparisons** | Baseline defects recorded in assessment-audit.json and Number backlog; no generator changed. This does not replace exact mathematical validation. |
-| New navigation Chromium | **18 passed, 0 failed, 0 skipped** (initial desktop + mobile implementation, 54.4 seconds; final counts include the later assessment-audit updates) | 390/768/1280px; real access/progress adapters with SDK mocks, not live Firebase or physical iOS. |
+| New navigation Chromium | **18 passed, 0 failed, 0 skipped** on final scoped desktop + mobile check, **51.7 seconds**, after assessment-audit, accessibility and configurable-title updates | 390/768/1280px; real access/progress adapters with SDK mocks, not live Firebase or physical iOS. |
 | Existing protected architecture / generators / progress | **19 scripts passed** | Includes 30,000 Fractions and 30,000 Statistics positions; actual sample counts per other generator recorded in command output. Transitional browser answers remain downloadable. |
 | Space mathematics / geometry / progress | **3 scripts passed**, including 30,000 independently marked questions and all 35 free hexominoes (11 cube nets) | Mocked progress, not deployed database rules. |
 | Media contract | **51 Python tests passed** | Exact Statistics/Space approvals retained; no new media approval is inferred. |
-| Release contract | PASS for existing guards at checkpoint; repeat against committed diff before delivery | No video replacement/integration requested. |
-| Complete Chromium regression | RUNNING at checkpoint | Final counts/CI receipts below. |
+| Release contract | **PASS** against committed navigation diff | No video replacement/integration requested. |
+| Complete Chromium regression | **302 passed, 0 failed, 0 skipped**, desktop + mobile system Chromium, **935.8 seconds** | Real existing-topic/assessment/media regressions plus new navigation. Firebase is isolated; no physical-device claim. |
 | WebKit and isolated Firestore emulator | Existing GitHub Actions gates retained; current-PR outcome pending | Local pinned WebKit/emulator downloads are unavailable; CI is not physical iOS/live Firebase. |
 
 ## Applicable-rule audit
@@ -39,11 +41,11 @@ Screenshots use safe test-only Firebase SDK mocks and sample progress. They are 
 | Child-facing wording and internal curriculum codes | PASS — source tests prohibit descriptor codes on new pages; coverage and personal practice are labelled separately. |
 | Navigation/accessibility/responsiveness | PASS in targeted Chromium — six cards/pages, named links, keyboard focus/Enter, no overflow at 390/768/1280px. Reset buttons moved outside links while preserving selectors and handlers. |
 | Assessment/progress invariants | PASS source/mocks — no generator/answer/progress implementation edits; existing 30-question histories, five-attempt display, best scores, reset and UID/topic scopes retained. |
-| Authentication/security | PASS repository/mocks — original approved-user guard on all new pages; signed-out, unapproved and approval-read failures redirect on all seven routes; protected MD callable still fails closed. No Firebase config/backend/rules changes. |
+| Authentication/security | PASS repository/mocks and scoped diff secret-pattern scan — original approved-user guard on all new pages; signed-out, unapproved and approval-read failures redirect on all seven routes; protected MD callable still fails closed. No Firebase config/backend/rules changes. |
 | Existing approved media and canonical holds | PASS — every recorded media/sidecar hash unchanged, no generation, approval alteration or production-workflow change. |
 | Originality/resources | PASS within navigation/audit scope — no new teaching/question/video content; exact official curriculum text reproduced under CC BY 4.0 with attribution. |
 | New-topic five lessons, 30 questions and videos | NOT APPLICABLE to this task — permanent development requirements recorded; no new topic is represented as complete. |
-| Regression, exact-head CI and permitted GitHub delivery | PENDING checkpoint — final results and dedicated PR recorded below; no merge/deploy authorised in this task. |
+| Regression, exact-head CI and permitted GitHub delivery | PASS locally; CI gate required — local regression passed; exact-head Actions receipt belongs to the dedicated PR; no merge/deploy authorised in this task. |
 
 ## Genuine limitations and follow-up
 
@@ -55,4 +57,8 @@ Screenshots use safe test-only Firebase SDK mocks and sample progress. They are 
 
 ## Final delivery receipt
 
-Pending the bounded regression run and dedicated pull request. No deployment claim is made.
+Local full Chromium: **302 passed, 0 failed, 0 skipped** in 935.8 seconds. Final targeted navigation: **18 passed, 0 failed, 0 skipped** in 51.7 seconds; this is a scoped rerun after the final navigation refinements, not 18 additional unique regression cases. Exact-head Actions results are recorded on the dedicated pull request. The existing Actions job has a finite 25-minute budget because the measured Chromium run alone takes 15.6 minutes; all assertions and mandatory gates remain enabled. Actions retains Chromium, WebKit, isolated Firestore, mathematical, security and media-contract gates; a green local run does not imply their result. No merge/deployment is requested or claimed.
+
+Approved media/sidecars remain byte-identical. Removing only the added stylesheet/script tags reconstructs all 16 existing lesson/tool/challenge pages exactly. No existing authentication, progress, generator, Functions, Firebase configuration or deployment workflow source is changed.
+
+Actual elapsed task time and final CI status are reported in the PR completion receipt; the task began at 18:32:50 UTC on 24 November 2026.

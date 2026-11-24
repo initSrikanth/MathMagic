@@ -4,7 +4,7 @@ function strandReady(matrix, navigation, name) {
   const strand=navigation.strands.find(s=>s.name===name);
   const rows=matrix.descriptors.filter(r=>r.strand===name);
   return Boolean(strand && rows.length && rows.every(r=>r.status==='COMPLETE') &&
-    strand.media_status==='APPROVED' && strand.qa_status==='PASS' &&
+    strand.development_status==='COMPLETE' && strand.media_status==='APPROVED' && strand.qa_status==='PASS' &&
     strand.deployment_status==='VERIFIED_LIVE' && strand.service_status==='VERIFIED');
 }
 function canStartStrand(matrix,navigation,name) {

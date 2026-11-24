@@ -5,6 +5,7 @@ const strands=navigation.strands.map(s=>s.id);
 const seed={};for(const topic of ['whole-numbers','fractions','decimals-percentages','addition-subtraction','multiplication-division','factors-multiples','measurement','time-angles','space','statistics'])seed['progress/curriculum_student/topics/'+topic]={attempts:2,bestScore:23,lastScore:21,proficient:false,completedLessons:[1]};
 
 for(const strand of navigation.strands)test(`Year 5 ${strand.name}: hierarchy, coverage and responsive keyboard navigation`,async({page},info)=>{
+ if(strand.id==='statistics')await page.addInitScript(()=>{window.StatisticsConfig={title:'Evidence Explorers'};});
  await mockFirebase(page,{seed});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/dashboard.html');await expect(page.locator('body')).toHaveClass(/authenticated/);
  const card=page.locator(`[data-strand="${strand.id}"]`);await card.focus();await page.keyboard.press('Enter');
@@ -12,6 +13,7 @@ for(const strand of navigation.strands)test(`Year 5 ${strand.name}: hierarchy, c
  await expect(page.getByRole('navigation',{name:'Breadcrumb'})).toContainText('Year 5');
  const rows=matrix.descriptors.filter(r=>r.strand===strand.name);await expect(page.locator('.curriculum-note')).toContainText(`${rows.filter(r=>r.status==='COMPLETE').length} of ${rows.length} skills fully covered`);
  await expect(page.locator('.curriculum-topic')).toHaveCount(Math.max(1,strand.topics.length));
+ if(strand.id==='statistics')for(const title of await page.locator('[data-statistics-title]').all())await expect(title).toHaveText('Evidence Explorers');
  for(const width of [390,768,1280]){
   await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
   for(const link of await page.locator('.curriculum-topic a').all()){const b=await link.boundingBox();expect(b.width).toBeGreaterThan(1);expect(b.x+b.width).toBeLessThanOrEqual(width+1);}
@@ -54,9 +56,11 @@ test('Progress restores through dashboard and strand pages; reset stays UID/topi
 });
 
 test('Strand links open the actual lesson/activity/assessment panels across existing topics',async({page})=>{
+ // Navigation is isolated from MP4 downloads; existing media suites retain real playback checks.
+ await page.route('**/*.mp4',route=>route.abort());
  await mockFirebase(page,{seed});
  for(const strand of navigation.strands)for(const topic of strand.topics){
-  const lesson=topic.lessons[topic.lessons.length-1];await page.goto('/'+lesson.href+(strand.id==='algebra'?'': ''));
+  const lesson=topic.lessons[topic.lessons.length-1];await page.goto('/'+lesson.href);
   // Algebra's contextual breadcrumb is carried by the actual landing-page link.
   await expect(page.locator('#'+lesson.href.split('#')[1])).toHaveClass(/active/);
   await expect(page.getByRole('navigation',{name:'Curriculum breadcrumb'})).toBeVisible();
